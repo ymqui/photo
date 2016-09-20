@@ -13,7 +13,7 @@ var midi_cr    = new Array("Leigh Ann's MIDI World","http://www.angelfire.com/mo
 if(window.usechinese){
     title      = "环游美国";
     cam_tit    = "佳能单镜头反光式 Digital Rebel EOS 300D，630万像素。";
-    info_url   = "http://zh.wikipedia.org/zh/美国州份";
+    info_url   = "http://baike.baidu.com/view/2748751.htm";
 }
  
 document.title = title;
