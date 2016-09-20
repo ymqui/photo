@@ -1,0 +1,36 @@
+<html>
+<title>List of Midi files</title>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/transpose.js"></script>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/midi/midi_list.js"></script>
+<body><center>
+<table border cellpadding=6 cellspacing=2>
+<tr>	<th>#		</th>
+	<th>File Name	</th> 
+    	<th>Used in	</th> 
+    	<th>From	</th>
+  	<th>URL	</th>
+</tr>		
+<script type="text/javascript" language="javaScript">
+<!--
+for (var i=0;i<info[0].length;i++){
+	document.write('<tr>');
+        document.write('<td>'+(i+1)+'</td>');
+	document.write('<td><a href="https://ymqui.github.io/photo/midi/'+info[0][i]+'">'+info[0][i]+'</a></td>');
+	var albm = info[1][i].split(/[ ,]+/);
+	document.write('<td>');
+        for (var j=0;j<albm.length;j++){
+           document.write('<a target=new href="http://www.pha.jhu.edu/~qiuym/photo/showphoto.html?'+albm[j]+'">'+albm[j]+'</a>');
+	}
+	document.write('</td>');
+	document.write('<td>'+info[2][i]+'</td>');
+	document.write('<td><a target=new href="'+info[3][i]+'">'+info[3][i]+'</a></td>');	
+	document.write('</tr>');
+}
+//-->
+</script>
+</table>
+<p>
+<i>
+<!--#config timefmt="%B %e, %Y"-->
+Last modified: <!--#flastmod file="https://ymqui.github.io/photo/midi/midi_list.js"-->
+</center></body></html>
