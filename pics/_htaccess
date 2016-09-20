@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?pha.jhu.edu/~qiuym/.*$ [NC]
+RewriteRule \.(jpg|gif)$ - [F]
