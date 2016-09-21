@@ -27,7 +27,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "佛蒙特州驼鹿沼泽。";
+        this[1][0] = "佛蒙特州文洛克野生动物管理区驼鹿沼泽。";
         this[1][1] = "灰噪鸦。";
         this[1][2] = "隐夜鸫。";
         this[1][3] = "黑背啄木鸟，雌性。";
@@ -48,7 +48,7 @@ function initAlbum(){
         this[1][18] = "美洲麻鳽。";
         this[1][19] = "北美豪猪。";
     }else{
-        this[1][0] = "Moose bog in Vermont.";
+        this[1][0] = "Moose bog in Wenlock Wildlife Management Area of Vermont.";
         this[1][1] = "Gray Jay.";
         this[1][2] = "Hermit Thrush.";
         this[1][3] = "Black-backed Woodpecker, female.";
