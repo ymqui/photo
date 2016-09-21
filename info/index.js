@@ -1281,6 +1281,11 @@
   info[2][j] = 2;
   info[3][j] = "6/2016 Birding South";
   info[4][j++] = "Birding in South Carolina and Florida(South Carolina, Florida).";
+  info[0][j] = "1609vtcanbirding";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "9/2016 Birding North";
+  info[4][j++] = "Birding in Vermont and Quebec, Canada(Vermont, Quebec, Canada).";
 
   if(window.usechinese){
      j = 0;
@@ -1792,6 +1797,8 @@
      info[4][j++] = "阿什维尔一带观鸟(北卡罗来纳州)。";
      info[3][j]   = "6/2016 南部观鸟";
      info[4][j++] = "南卡罗来纳州和佛罗里达州观鸟(南卡罗来纳州，佛罗里达州)。";
+     info[3][j]   = "9/2016 北部观鸟";
+     info[4][j++] = "佛蒙特州和加拿大魁北克省观鸟(佛蒙特州，加拿大魁北克省)。";
   } 
 
   //special touch
@@ -1809,5 +1816,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2016-04-25T00:00:00");
+  var modiDate = new Date("2016-09-21T00:00:00");
 //-->
