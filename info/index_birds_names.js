@@ -797,7 +797,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[m_id("")],["mdbhrp","9/2015"],4751804);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[m_id("")],["mdbhrp","9/2015"],4751808);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[m_id("")],["mdbhrp","9/2015"],4708253);
-  birds[j++] = new myBird("USA","15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1604asheville",5),p_id("1609vtcanbirding",9),m_id("20150926_102_Black-thraotedGreenWarbler(IF)")],["ncbpkw","4/2016","Male","vtwwma","9/2016","Female","mdlbrp","9/2015","Immature female",""," at Kingsley Trail","金斯利小道"],4751801);
+  birds[j++] = new myBird("USA","15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1604asheville",5),p_id("1609vtcanbirding",9)],["ncbpkw","4/2016","Male","vtwwma","9/2016","Female"],4751801);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Canada Warbler","加拿大威森莺","Cardellina canadensis",[m_id("")],["mdbhrp","9/2015"],4751630);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",[m_id("")],["mdbhrp","9/2015"],4736607);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[m_id("")],["mdbhrp","9/2015"],4751564);
