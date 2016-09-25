@@ -14,9 +14,8 @@ if (window.is_thumb) {
    }
    if (cellphone){
        fsizet     = 3;
-       col        = 3;
-       //numperpage = 20;
-       //if (window.birdalbum) numperpage = 16;
+       numperpage = 20;
+       if (window.birdalbum) numperpage = 16;
    }else{
        fsizet     = 2;
    }
