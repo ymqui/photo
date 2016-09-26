@@ -706,7 +706,7 @@
   birds[j++] = new myBird("USA","06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[3,22]),["mdcovl","2/2009","Female","mdcovl","5/2009","Male"],4840600);
 //birds[j++] = new myBird("USA","16-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"],4840665);
   birds[j++] = new myBird("USA","15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"],4812989);
-//birds[j++] = new myBird("USA","16-00-00T00:00","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("")],["mdlbwt","9/2016"],4840665);
+//birds[j++] = new myBird("USA","16-00-00T00:00","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("")],["mdlbwt","9/2016"],4826264);
   birds[j++] = new myBird("USA","15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[p_id("1507birdingwest",12)],["waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"],4826364);
   birds[j++] = new myBird("USA","06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1512bhill",1)],["mdbhrp","1/2015"],4825795);
   birds[j++] = new myBird("USA","15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",[m_id("20150621_078_WoodThrush")],["mdpvsp","6/2015"],4840884);
