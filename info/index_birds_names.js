@@ -58,7 +58,6 @@
   locs["mdgrpt"] = ["Greenbury Point","Annapolis, Maryland","安纳波利斯格林伯瑞角","马里兰州","http://www.fws.gov/chesapeakebay/greenpt.html"];
   locs["mdhadg"] = ["Havre de Grace","Maryland","哈佛德格雷斯","马里兰州",wikiurl("Havre de Grace, Maryland")];
   locs["mdinhb"] = ["Baltimore Harbor","Maryland","巴尔的摩港","马里兰州",wikiurl("Inner Harbor"),baikeurl(48720)];
-  locs["mdlbrp"] = ["Little Bennett Regional Park","Maryland","小班尼特公园","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/little_bennett/"];
   locs["mdlbwt"] = ["Little Bennett Regional Park"," at Wilson Mill Trail","Maryland","小班尼特公园","威尔逊锯木坊小道","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/little_bennett/"];
   locs["mdlily"] = ["Lilypons Water Garden","Maryland","莉丽庞斯水上花园","马里兰州","http://www.lilypons.com/"];
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
@@ -87,7 +86,6 @@
   locs["nyjbsp"] = ["Jones Beach State Park","New York","琼斯海滩州立公园","纽约州","http://nysparks.com/parks/JonesBeach/"];
   locs["nyjbwr"] = ["Jamaica Bay Wildlife Refuge","New York","牙买加湾野生动物保护区","纽约州","http://www.nyharborparks.org/visit/jaba.html"];
   locs["nymnwr"] = ["Montezuma National Wildlife Refuge","New York","蒙特祖玛国家野生动物保护区","纽约州","http://www.fws.gov/refuge/montezuma/"];
-  locs["nyssws"] = ["Sapsucker Woods Sanctuary","Ithaca, New York","啄木鸟树林保护区","伊萨卡，纽约州","http://www.birds.cornell.edu/Page.aspx?pid=1576"];
   locs["orcanb"] = ["Cannon Beach","Oregon","卡农海滩","俄勒冈州","http://www.ci.cannon-beach.or.us/~Natural/HRAP/hrap-habitat.html"];
   locs["orhayd"] = ["Hayden Island","Portland, Oregon","波特兰海登岛","俄勒冈州",wikiurl("Hayden Island, Portland, Oregon")];
   locs["prbaya"] = ["Bayamón","Puerto Rico","巴亚蒙","波多黎各",wikiurl("Bayamón, Puerto Rico")];
