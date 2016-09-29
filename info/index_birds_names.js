@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2016-09-26T16:00:00");
-  var modirange = 3;  	//range within modiDate in days
+  var modiDate  = new Date("2016-09-23T16:00:00");
+  var modirange = 6;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -36,8 +36,6 @@
   locs["flmahp"] = ["Matheson Hammock Park","Miami, Florida","迈阿密马西森硬木公园","佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"];
   locs["flmnwr"] = ["Merritt Island National Wildlife Refuge","Florida","美丽特岛国家野生动物保护区","佛罗里达州","http://www.fws.gov/refuge/Merritt_Island/"];
   locs["flplpr"] = ["Plantation Preserve","Broward County, Florida","布劳沃德郡种植园保留地","佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"];
-  locs["ilmpbs"] = ["Montrose Point Bird Sanctury","Chicago, Illinois","芝加哥蒙特罗斯点鸟类保护区","伊利诺伊州","http://www.lakecookaudubon.org/Montrose_Point.html"];
-  locs["ilroll"] = ["Rollins Savanna Forest Preserve","Illinois","罗林斯稀树草原森林保护区","伊利诺伊州","http://www.lakecookaudubon.org/Rollins_Savanna.html"];
   locs["macast"] = ["Castle Island","Boston, Massachusetts","波士顿城堡岛","马萨诸塞州",wikiurl("Castle Island (Massachusetts)")];
   locs["mahpsp"] = ["Halibut Point State Park","Rockport, Massachusetts","大比目鱼角州立公园","马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"];
   locs["mapnwr"] = ["Parker River National Wildlife Refuge","Massachusetts","帕克河国家野生动物保护区","马萨诸塞州","http://www.fws.gov/refuge/parker_river/"];
@@ -763,7 +761,7 @@
   birds[j++] = new myBird("USA","15-05-24T07:17","PARULIDA","Black-and-white Warbler","黑白森莺","Mniotilta varia",[p_id("1505puffin",5),p_id("1512bhill",39)],["melocp","5/2015","Male","mdbhrp","9/2015","Female"],4751882);
   birds[j++] = new myBird("USA","06-07-01T10:10","PARULIDA","Prothonotary Warbler","蓝翅黄森莺","Protonotaria citrea",[p_id("2009cobirding",32),"2006cobirding/ProthonotaryWarbler_F_20060730_009"],["mdcorl","6/2009","Male","mdcorl","7/2006","Female"],1987007);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[p_id("asheville",)],["nccrsp","4/2016"],4751886);
-  birds[j++] = new myBird("USA","16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Oreothlypis peregrina",[p_id("1604asheville",14)],["nccrsp","4/2016"],4751944);
+  birds[j++] = new myBird("USA","16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Oreothlypis peregrina",[p_id("1604asheville",14),m_id("20160925_101_TennesseeWarbler(F)")],["nccrsp","4/2016","Male","mdbhrp","9/2016","Female"],4751944);
   birds[j++] = new myBird("USA","15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Oreothlypis celata",[p_id("1507birdingwest",29)],["orcanb","7/2015"],4751947);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Oreothlypis luciae",[m_id("")],["mdbhrp","9/2015"],4751827);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[m_id("")],["mdbhrp","9/2015"],4751950);
@@ -798,7 +796,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[m_id("")],["mdbhrp","9/2015"],4708253);
   birds[j++] = new myBird("USA","15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1604asheville",5),p_id("1609vtcanbirding",9)],["ncbpkw","4/2016","Male","vtwwma","9/2016","Female"],4751801);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Canada Warbler","加拿大威森莺","Cardellina canadensis",[m_id("")],["mdbhrp","9/2015"],4751630);
-  birds[j++] = new myBird("USA","16-09-25T08:03","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",[m_id("20160925_101_Wilson'sWarbler(F)")],["mdbhrp","9/2016","Female"],4736607);
+//birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",[m_id()],["mdbhrp","9/2016","Female"],4736607);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[m_id("")],["mdbhrp","9/2015"],4751564);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Painted Redstart","彩鸲莺","Myioborus pictus",[m_id("")],["mdbhrp","9/2015"],4750532);
   birds[j++] = new myBird("USA","15-05-09T10:41","PARULIDA","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"]);
