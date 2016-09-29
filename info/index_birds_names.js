@@ -1,7 +1,7 @@
 ﻿<!--
   //date
   var modiDate  = new Date("2016-09-23T16:00:00");
-  var modirange = 7;  	//range within modiDate in days
+  var modirange = 10;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -761,7 +761,7 @@
   birds[j++] = new myBird("USA","15-05-24T07:17","PARULIDA","Black-and-white Warbler","黑白森莺","Mniotilta varia",[p_id("1505puffin",5),p_id("1512bhill",39)],["melocp","5/2015","Male","mdbhrp","9/2015","Female"],4751882);
   birds[j++] = new myBird("USA","06-07-01T10:10","PARULIDA","Prothonotary Warbler","蓝翅黄森莺","Protonotaria citrea",[p_id("2009cobirding",32),"2006cobirding/ProthonotaryWarbler_F_20060730_009"],["mdcorl","6/2009","Male","mdcorl","7/2006","Female"],1987007);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[p_id("asheville",)],["nccrsp","4/2016"],4751886);
-  birds[j++] = new myBird("USA","16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Oreothlypis peregrina",[p_id("1604asheville",14),m_id("20160925_101_TennesseeWarbler(F)")],["nccrsp","4/2016","Male","mdbhrp","9/2016","Female"],4751944);
+  birds[j++] = new myBird("USA","16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Oreothlypis peregrina",[p_id("1604asheville",14),m_id("20160925_101_TennesseeWarbler(F)")],["nccrsp","4/2016","mdbhrp","9/2016","Fall plumage"],4751944);
   birds[j++] = new myBird("USA","15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Oreothlypis celata",[p_id("1507birdingwest",29)],["orcanb","7/2015"],4751947);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Oreothlypis luciae",[m_id("")],["mdbhrp","9/2015"],4751827);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[m_id("")],["mdbhrp","9/2015"],4751950);
