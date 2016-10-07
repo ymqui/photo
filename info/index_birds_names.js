@@ -124,7 +124,7 @@
             褐:"he4",普:"pu3",弗:"fu2",尼:"ni2",鸊:"pi4",西:"xi1",八:"ba1",旅:"lv3",籽:"zi3",北:"bei3",毛:"mao2",鹞:"yao4",烟:"yan1",果:"guo3",家:"jia1",柳:"liu3",胁:"xie2",隐:"yin3",高:"gao1",瘤:"liu2", 小:"xiao3",神:"shen2",角:"jiao3",短:"duan3",铜:"tong2",蓬:"peng2",漂:"piao1",疆:"jiang1",
             浮:"fu2",黎:"li2",企:"qi3",达:"da2",鵙:"ju2",佛:"fo2",鹤:"he4",琵:"pi2",及:"ji2",火:"huo3",石:"shi2",印:"yin4",螺:"luo2",苇:"wei3",锈:"xiu4",内:"nei4",恺:"kai3",委:"wei3",岛:"dao3",鸺:"xiu1", 冠:"guan1",山:"shan1",鹋:"miao2",水:"shui3",宽:"kuan1",跷:"qiao1",䳍:"gong1",强:"qiang2",
             鸭:"ya1",色:"se4",鹱:"hu4",蹼:"pu3",鸥:"ou1",博:"bo2",里:"li3",喜:"xi3",埃:"ai1",眉:"mei2",主:"zhu3",多:"duo1",刀:"dao1",翅:"chi4",嘴:"zui3",鹊:"que4",氏:"shi4",雪:"xue3",鹠:"liu2",辉:"hui1", 垂:"chui2",鸯:"yang1",鹳:"guan4",鸳:"yuan1",王:"wang2",鹇:"xian2",鸢:"yuan1",城:"cheng2",
-            乌:"wu1",披:"pi1",栗:"li4",亚:"ya4",安:"an1",鱼:"yu2",榈:"lv2",鹂:"li2",蜜:"mi4",番:"fan1",桂:"gui4",买:"mai3",鳾:"shi1",森:"sen1",瓣:"ban4",隼:"sun3",矛:"mao2",眼:"yan3",甘:"gan1",逊:"xun4", 雕:"diao1",锥:"zhui1",顶:"ding3",鹟:"weng1",鸫:"dong1",秧:"yang1",冕:"mian3",川:"chuan1",
+            乌:"wu1",披:"pi1",栗:"li4",亚:"ya4",安:"an1",鱼:"yu2",榈:"lv2",鹂:"li2",蜜:"mi4",番:"fan1",桂:"gui4",买:"mai3",䴓:"shi1",森:"sen1",瓣:"ban4",隼:"sun3",矛:"mao2",眼:"yan3",甘:"gan1",逊:"xun4", 雕:"diao1",锥:"zhui1",顶:"ding3",鹟:"weng1",鸫:"dong1",秧:"yang1",冕:"mian3",川:"chuan1",
             腹:"fu4",巴:"ba1",比:"bi3",库:"ku4",极:"ji2",科:"ke1",歌:"ge1",拟:"ni3",虎:"hu3",头:"tou2",颊:"jia2",伦:"lun2",油:"you2",走:"zou3",鼠:"shu3",喙:"hui4",画:"hua4",鬼:"gui3",赭:"zhe3",啄:"zhuo2",丑:"chou3",笑:"xiao4",原:"yuan2",风:"feng1",颈:"jing3",肛:"gang1",椒:"jiao1",黄:"huang2",
             䴘:"ti1",鳍:"qi2",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",掘:"jue2",榄:"lan3",蟹:"xie4",楔:"xie1",豆:"dou4",扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",灯:"deng1",棕:"zong1",中:"zhong1",      
             几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",凫:"fu2",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",草:"cao3",膀:"bang3",滇:"dian1",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",交:"jiao1",眶:"kuang4",
@@ -684,11 +684,11 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",[m_id("")],["nvdnwr","7/2015"],2942398);
   birds[j++] = new myBird("USA","06-04-30T09:54","POLIOPTI","Blue-gray Gnatcatcher","灰蓝蚋莺","Polioptila caerulea",[m_id("20150425_060_Blue-grayGnatcatcher"),p_id("1512bhill",31)],["mdbmnt","4/2015","Male","mdbhrp","8/2015","Female"],4844795);
 //birds[j++] = new myBird("USA","16-00-00T00:00","POLIOPTI","Black-tailed Gnatcatcher","黑尾蚋莺","Polioptila melanura",[m_id("")],["mdbhrp","9/2015"],4844749);
-  birds[j++] = new myBird("USA","16-09-15T08:27","SITTIDAE","Red-breasted Nuthatch","红胸鳾","Sitta canadensis",p_id("1609vtcanbirding",[7,8]),["vtwwma","9/2016"],6826036);
-  birds[j++] = new myBird("CHN","16-01-15T13:49","SITTIDAE","Chinese Nuthatch","黑头鳾","Sitta villosa",[p_id("1601china",69)],["cnbjsp","1/2016"],269841);
-  birds[j++] = new myBird("USA","06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸鳾","Sitta carolinensis",m_id(sas("20160130_00",["3_White-breastedNuthatch(M)","4_White-breastedNuthatch(F)"])),["mdbhrp","1/2016","Male","mdbhrp","1/2016","Female"],1986978);
-//birds[j++] = new myBird("USA","16-00-00T00:00","SITTIDAE","Pygmy Nuthatch","小鳾","Sitta pygmaea",[m_id("")],["mdbhrp","9/2015"],8653131);
-  birds[j++] = new myBird("USA","15-11-26T11:20","SITTIDAE","Brown-headed Nuthatch","褐头鳾","Sitta pusilla",p_id("1604asheville",[6,7]),["scllmp","4/2016","scllmp","4/2016","Immature"],8538620);
+  birds[j++] = new myBird("USA","16-09-15T08:27","SITTIDAE","Red-breasted Nuthatch","红胸䴓","Sitta canadensis",p_id("1609vtcanbirding",[7,8]),["vtwwma","9/2016"],6826036);
+  birds[j++] = new myBird("CHN","16-01-15T13:49","SITTIDAE","Chinese Nuthatch","黑头䴓","Sitta villosa",[p_id("1601china",69)],["cnbjsp","1/2016"],269841);
+  birds[j++] = new myBird("USA","06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸䴓","Sitta carolinensis",m_id(sas("20160130_00",["3_White-breastedNuthatch(M)","4_White-breastedNuthatch(F)"])),["mdbhrp","1/2016","Male","mdbhrp","1/2016","Female"],1986978);
+//birds[j++] = new myBird("USA","16-00-00T00:00","SITTIDAE","Pygmy Nuthatch","小䴓","Sitta pygmaea",[m_id("")],["mdbhrp","9/2015"],8653131);
+  birds[j++] = new myBird("USA","15-11-26T11:20","SITTIDAE","Brown-headed Nuthatch","褐头䴓","Sitta pusilla",p_id("1604asheville",[6,7]),["scllmp","4/2016","scllmp","4/2016","Immature"],8538620);
 //birds[j++] = new myBird("   ","16-00-00T00:00","TICHODRO","Wallcreeper","红翅旋壁雀","Tichodroma muraria",[m_id("")],["mdbhrp","9/2015"],271527);
   birds[j++] = new myBird("USA","07-02-04T12:26","CERTHIID","Brown Creeper","美洲旋木雀","Certhia americana",[p_id("1512bhill",24)],["mdbhrp","2/2015"],4820712);
   birds[j++] = new myBird("USA","06-04-29T08:10","MIMIDAE ","Gray Catbird","灰嘲鸫","Dumetella carolinensis",[m_id("20160924_098_GrayCatbird"),p_id("1206brooksidebirding",5)],["mdlbwt","9/2016","mdbrgd","6/2012","Immature"],1594003);
