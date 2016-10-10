@@ -88,10 +88,10 @@ function initAlbum(){
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
+    this[0][i++] = "Canada_Quebec_20160915";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
-//    this[0][i++] = "";
-//    this[0][i++] = "";
+    this[0][i++] = "Canada_Yukon_20130712";
     i = 0;
     if(window.usechinese){
         this[1][i++] = "美国阿拉巴马州，12/26/2011。";
@@ -159,10 +159,10 @@ function initAlbum(){
 //        this[1][i++] = "加拿大新斯科舍省省，。";
 //        this[1][i++] = "加拿大安大略省，。";
 //        this[1][i++] = "加拿大爱德华王子岛省，。";
-//        this[1][i++] = "加拿大魁北克省，。";
+        this[1][i++] = "加拿大魁北克省，9/15/2016。";
 //        this[1][i++] = "加拿大萨斯喀彻温省，。";
 //        this[1][i++] = "加拿大努纳武特地区，。";
-//        this[1][i++] = "加拿大育空地区，。";
+        this[1][i++] = "加拿大育空地区，7/12/2013。";
     }else{
         this[1][i++] = "Alabama, United States, 12/26/2011.";
         this[1][i++] = "Alaska, United States, 7/12/2013.";
@@ -230,9 +230,9 @@ function initAlbum(){
 //        this[1][i++] = "Nunavut, Canada,.";
 //        this[1][i++] = "Ontario, Canada,.";
 //        this[1][i++] = "Prince Edward Island, Canada,.";
-//        this[1][i++] = "Quebec, Canada,.";
+        this[1][i++] = "Quebec, Canada, 9/15/2016.";
 //        this[1][i++] = "Saskatchewan, Canada,.";
-//        this[1][i++] = "Yukon Territory, Canada,.";
+//        this[1][i++] = "Yukon Territory, Canada, 7/12/2013.";
     }
 }
  
