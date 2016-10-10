@@ -346,6 +346,26 @@
   info[2][j] = 2;
   info[3][j] = "4/2016 Momofuku";
   info[4][j++] = "Momofuku Restaurant at City Center in Washington(DC).";
+  info[0][j] = "1607jinya";
+  info[1][j] = 3;
+  info[2][j] = 2;
+  info[3][j] = "7/2016 Jinya";
+  info[4][j++] = "Jinya Ramen Bar in Fairfax(Virginia).";
+  info[0][j] = "1607zane";
+  info[1][j] = 3;
+  info[2][j] = 2;
+  info[3][j] = "7/2016 Zane";
+  info[4][j++] = "Zane Japanese Eatery in Germantown(Maryland).";
+  info[0][j] = "1607bantam";
+  info[1][j] = 2;
+  info[2][j] = 2;
+  info[3][j] = "7/2016 Bantam King";
+  info[4][j++] = "Bantam King in Washington(DC).";
+  info[0][j] = "1607okibowl";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "7/2016 Oki Bowl";
+  info[4][j++] = "Oki Bowl DC in Washington(DC).";
 
   if(window.usechinese){
      j = 0;
@@ -483,6 +503,14 @@
      info[4][j++] = "Marumen拉面馆（维吉尼亚州）。";
      info[3][j]   = "4/2016 Momofuku餐馆";
      info[4][j++] = "在华盛顿Momofuku餐馆吃拉面（哥伦比亚特区）。";
+     info[3][j]   = "7/2016 阵拉面";
+     info[4][j++] = "在阵拉面馆吃拉面（维吉尼亚州）。";
+     info[3][j]   = "7/2016 Zane日本餐馆";
+     info[4][j++] = "德国镇Zane日本餐馆（马里兰州）。";
+     info[3][j]   = "7/2016 鸡王拉面馆";
+     info[4][j++] = "在华盛顿鸡王拉面馆吃拉面（哥伦比亚特区）。";
+     info[3][j]   = "7/2016 Oki Bowl";
+     info[4][j++] = "在华盛顿Oki Bowl餐馆吃拉面（哥伦比亚特区）。";
   } 
 
   //special touch
@@ -497,5 +525,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2016-04-09T10:00:00");
+  var modiDate = new Date("2016-10-10T10:00:00");
 //-->
