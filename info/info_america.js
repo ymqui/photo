@@ -86,7 +86,7 @@ function initAlbum(){
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
-//    this[0][i++] = "";
+    this[0][i++] = "Canada_Ontario_20100530";
 //    this[0][i++] = "";
     this[0][i++] = "Canada_Quebec_20160915";
 //    this[0][i++] = "";
@@ -157,7 +157,7 @@ function initAlbum(){
 //        this[1][i++] = "加拿大纽芬兰与拉布拉多省省，。";
 //        this[1][i++] = "加拿大西北地区，。";
 //        this[1][i++] = "加拿大新斯科舍省省，。";
-//        this[1][i++] = "加拿大安大略省，。";
+        this[1][i++] = "加拿大安大略省，5/30/2010。";
 //        this[1][i++] = "加拿大爱德华王子岛省，。";
         this[1][i++] = "加拿大魁北克省，9/15/2016。";
 //        this[1][i++] = "加拿大萨斯喀彻温省，。";
@@ -228,7 +228,7 @@ function initAlbum(){
 //        this[1][i++] = "Northwest Territories, Canada,.";
 //        this[1][i++] = "Nova Scotia, Canada,.";
 //        this[1][i++] = "Nunavut, Canada,.";
-//        this[1][i++] = "Ontario, Canada,.";
+        this[1][i++] = "Ontario, Canada, 5/30/2010.";
 //        this[1][i++] = "Prince Edward Island, Canada,.";
         this[1][i++] = "Quebec, Canada, 9/15/2016.";
 //        this[1][i++] = "Saskatchewan, Canada,.";
