@@ -232,7 +232,7 @@ function initAlbum(){
 //        this[1][i++] = "Prince Edward Island, Canada,.";
         this[1][i++] = "Quebec, Canada, 9/15/2016.";
 //        this[1][i++] = "Saskatchewan, Canada,.";
-//        this[1][i++] = "Yukon Territory, Canada, 7/12/2013.";
+        this[1][i++] = "Yukon Territory, Canada, 7/12/2013.";
     }
 }
  
