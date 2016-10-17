@@ -445,7 +445,7 @@
   birds[j++] = new myBird("USA","15-07-19T08:02","APODIDAE","Chimney Swift","烟囱雨燕","Chaetura pelagica",[m_id("20160618_077_ChimneySwift")],["arbitr","6/2016","Lewes, Delaware","刘易斯，特拉华州"],1156237);
 //birds[j++] = new myBird("USA","16-00-00T00:00","TROCHILI","Magnificent Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"],4845773);
   birds[j++] = new myBird("USA","06-09-07T17:00","TROCHILI","Ruby-throated Hummingbird","红喉北蜂鸟","Archilochus colubris",p_id("1107brookside",[10,13]),["mdbrgd","7/2011","Female/immature"],4901653);
-  birds[j++] = new myBird("USA","15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["orhayd","7/2015","Immature"],4891704);
+  birds[j++] = new myBird("USA","15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["orhayd","7/2015","Immature male"],4891704);
   birds[j++] = new myBird("USA","13-12-25T17:25","TROCHILI","Anna's Hummingbird","安氏蜂鸟","Calypte anna",p_id("1312bigbendbirding",[12,13,14]),["txbbnp","12/2013","Female","txbbnp","12/2013","Male","txbbnp","12/2013","Female"],4891678);
 //birds[j++] = new myBird("USA","16-00-00T00:00","TROCHILI","Costa's Hummingbird","科氏蜂鸟","Calypte costae",[m_id("")],["mdbhrp","9/2015"],4891661);
 //birds[j++] = new myBird("USA","16-00-00T00:00","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[m_id("")],["mdbhrp","9/2015"],4908174);
