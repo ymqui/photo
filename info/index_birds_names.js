@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2016-09-23T16:00:00");
-  var modirange = 10;  	//range within modiDate in days
+  var modiDate  = new Date("2016-10-23T16:00:00");
+  var modirange = 2;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -743,7 +743,7 @@
   birds[j++] = new myBird("CHN","16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",[p_id("1601china",71)],["cnbjth","1/2016"],[126397,18975031]);
   birds[j++] = new myBird("CHN","16-01-03T09:36","FRINGILL","Brambling","燕雀","Fringilla montifringilla",p_id("1601china",[1,2]),["cnbjjp","1/2016","Female"],39575);
   birds[j++] = new myBird("CHN","16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",[p_id("1601china",27)],["cnjsxp","1/2016","Female"],57441);
-  birds[j++] = new myBird("USA","14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",[p_id("1412mckee-beshers",32)],["mdmwma","11/2014","Male"],4753497);
+  birds[j++] = new myBird("USA","14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",[m_id("20161016_104_PurpleFinch(M)")],["mdbhrp","10/2016","Male"],4753497);
   birds[j++] = new myBird("USA","06-08-11T17:33","FRINGILL","House Finch","家朱雀","Carpodacus mexicanus",p_id("1412mckee-beshers",[1,35,2]),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female"],4753501);
 //birds[j++] = new myBird("USA","16-00-00T00:00","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("")],["vtwwma","9/2016"],71619);
 //birds[j++] = new myBird("USA","16-00-00T00:00","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("")],["vtwwma","9/2016"],661414);
@@ -827,7 +827,7 @@
   birds[j++] = new myBird("USA","15-04-18T07:36","EMBERIZI","Chipping Sparrow","棕顶雀鹀","Spizella passerina",m_id(["20150418_054_ChippingSparrow","20160409_034_ChippingSparrow"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],4723786);
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Clay-colored Sparrow","褐雀鹀","Spizella pallida",[m_id("")],["mdbnwr","3/2012"],4723791);
   birds[j++] = new myBird("USA","15-04-12T08:59","EMBERIZI","Field Sparrow","田雀鹀","Spizella pusilla",m_id(["20151018_108_FieldSparrow","20160417_040_FieldSparrow"]),["mdbmnt","10/2015","mdbhrp","4/2016"],4723729);
-//birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Vesper Sparrow","栗肩雀鹀","Pooecetes gramineus",[m_id("")],["arbitr","4/2016","Waterford Road, Howard County, Maryland","沃特福德路，霍华德郡，马里兰州"],4723988);
+  birds[j++] = new myBird("USA","16-10-22T13:34","EMBERIZI","Vesper Sparrow","栗肩雀鹀","Pooecetes gramineus",[m_id("20161022_105_VesperSparrow")],["arbitr","10/2016","Perryman Park, Aberdeen, Maryland","阿伯丁佩里曼公园，马里兰州"],4723988);
   birds[j++] = new myBird("USA","16-01-31T08:24","EMBERIZI","Lark Sparrow","鹨雀鹀","Chondestes grammacus",m_id(sas("20160131_0",["08","10"],"_LarkSparrow")),["mdcapc","1/2016"],4723713);
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",[m_id("")],["mdbhrp","9/2015"],4723738);
   birds[j++] = new myBird("USA","13-07-17T18:46","EMBERIZI","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8)],["arbitr","7/2013","Potter Marsh, Anchorage, Alaska","安克雷奇波特沼泽，阿拉斯加州"],4724003);
