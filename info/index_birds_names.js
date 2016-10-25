@@ -218,9 +218,9 @@
   birds[j++] = new myBird("USA","16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[m_id("20160326_025_Red-throatedLoon(WP)")],["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头"],139852);
 //birds[j++] = new myBird("USA","16-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["mdbhrp","9/2015"],855436);
   birds[j++] = new myBird("USA","15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[p_id("1503barnegat",16),m_id("20151126_137_CommonLoon(WP)"),p_id("1503barnegat",15)],["njblsp","3/2015","mdocci","11/2015","Winter plumage",""," Inlet","海口","njblsp","3/2015","Immature"],855440);
-//birds[j++] = new myBird("   ","16-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],71507);
-//birds[j++] = new myBird("   ","16-00-00T00:00","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[m_id("")],["mdbhrp","9/2015"],71334);
-//birds[j++] = new myBird("   ","16-00-00T00:00","SPHENISC","Gentoo Penguin","巴布亚企鹅","Pygoscelis papua",[m_id("")],["mdbhrp","9/2015"],539244);
+//birds[j++] = new myBird("ATA","16-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],71507);
+//birds[j++] = new myBird("ATA","16-00-00T00:00","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[m_id("")],["mdbhrp","9/2015"],71334);
+//birds[j++] = new myBird("ATA","16-00-00T00:00","SPHENISC","Gentoo Penguin","巴布亚企鹅","Pygoscelis papua",[m_id("")],["mdbhrp","9/2015"],539244);
   birds[j++] = new myBird("USA","16-06-18T09:35","OCEANITI","Wilson's Storm-Petrel","黄蹼洋海燕","Oceanites oceanicus",[m_id("20160618_076_Wilson'sStorm-Petrel")],["arbitr","6/2016","Cape May-Lewes Ferry, Delaware/New Jersey","五月岬-刘易斯轮渡，特拉华州/新泽西州"],cornellurl(103516),269388);
 //birds[j++] = new myBird("USA","16-00-00T00:00","OCEANITI","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Oceanodroma furcata",[m_id("")],["mdbhrp","9/2015"],4982833);
 //birds[j++] = new myBird("USA","16-00-00T00:00","DIOMEDEI","Laysan Albatross","黑背信天翁","Phoebastria immutabilis",[m_id("")],["mdbhrp","9/2015"],855484);
