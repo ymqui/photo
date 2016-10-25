@@ -133,7 +133,7 @@
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",翎:"ling2",通:"tong1",鸮:"xiao1",鲣:"jian1",猛:"meng3",旋:"xuan2",僧:"seng1",玄:"xuan2",响:"xiang3"};
 
   //table for country names
-  var cnt_nm = {usa:["United States","美国"], chn:["China","中国"], blz:["Belize","伯利兹"], bra:["Brazil","巴西"], can:["Canada","加拿大"], cri:["Costa Rica","哥斯达黎加"], fra:["France","法国"], jpn:["Japan","日本"], per:["Peru","秘鲁"], non:["",""]};
+  var cnt_nm = {usa:["United States","美国"], chn:["China","中国"], ata:["Antarctica","南极洲"], blz:["Belize","伯利兹"], bra:["Brazil","巴西"], can:["Canada","加拿大"], cri:["Costa Rica","哥斯达黎加"], fra:["France","法国"], jpn:["Japan","日本"], per:["Peru","秘鲁"], non:["",""]};
 
   modirange  = modirange*3600*24*1000;  	//range within modiDate from days to milliseconds
   var modiTime = modiDate.getTime();
