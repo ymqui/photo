@@ -137,8 +137,8 @@
 
   modirange  = modirange*3600*24*1000;  	//range within modiDate from days to milliseconds
   var modiTime = modiDate.getTime();
-  var modiBird  = {name:[],cname:[]};
-  var family_len = 8;
+  var modiBird = {name:[],cname:[]};
+  var fam_ln = 8;				//family length
   var order  = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
   var birds  = [];         
   var j      = 0;
@@ -429,7 +429,7 @@
   birds[j++] = new myBird("USA","16-06-25T11:19","TYTONIDA","Barn Owl","仓鸮","Tyto alba",m_id(["20160625_083_BarnOwl","20160625_082_BarnOwl"]),["nyjbwr","6/2016"],15246);
 //birds[j++] = new myBird("USA","16-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["scpitt","9/2015"],3859920);
   birds[j++] = new myBird("USA","16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"],3838605);
-//birds[j++] = new myBird("USA","16-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["mapnwr","12/2015"],1483);
+//birds[j++] = new myBird("USA","16-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["nyjbsp","12/2016"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
   birds[j++] = new myBird("USA","06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],3886420);
 //birds[j++] = new myBird("USA","16-00-00T00:00","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",[m_id("")],["scpitt","9/2015"],120964);
@@ -849,8 +849,8 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","THRAUPID","Hispaniolan Spindalis","海地纹头唐纳雀","Spindalis dominicensis",[m_id("")],["mdbhrp","9/2015"],cornellurl(599436),4748633);
   birds[j++] = new myBird("USA","15-01-03T06:35","THRAUPID","Puerto Rican Spindalis","波多纹头唐纳雀","Spindalis portoricensis",p_id("1501prbirding",[11,54]),["prponc","1/2015","Male","prsanj","1/2015","Female"],cornellurl(599596),4749024);
 //birds[j++] = new myBird("USA","16-00-00T00:00","THRAUPID","Jamaican Spindalis","牙买加纹头唐纳雀","Spindalis nigricephala",[m_id("")],["mdbhrp","9/2015"],cornellurl(599276),4748682);
-//birds[j++] = new myBird("USA","16-00-00T00:00","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",[m_id("")],["mdbhrp","9/2015"],476834);
-//birds[j++] = new myBird("USA","16-00-00T00:00","CALCARII","Snow Bunting","雪鹀","Plectrophenax nivalis",[m_id("")],["mdbhrp","9/2015"],660006);
+//birds[j++] = new myBird("USA","16-00-00T00:00","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",[m_id("")],["nyjbsp","12/2016"],476834);
+//birds[j++] = new myBird("USA","16-00-00T00:00","CALCARII","Snow Bunting","雪鹀","Plectrophenax nivalis",[m_id("")],["nyjbsp","12/2016"],660006);
   birds[j++] = new myBird("USA","15-05-02T08:21","CARDINAL","Summer Tanager","玫红丽唐纳雀","Piranga rubra",[m_id("20150502_066_SummerTanager(M)")],["mdcopl","5/2015","Male"],4748745);
   birds[j++] = new myBird("USA","15-05-03T08:03","CARDINAL","Scarlet Tanager","猩红丽唐纳雀","Piranga olivacea",m_id(["20160514_052_ScarletTanager(M)","20160514_051_ScarletTanager(F)","20150503_070_ScarletTanager(M)"]),["nyjbwr","5/2016","Male","nyjbwr","5/2016","Female","mdcopl","5/2015","Male"],4747732);
 //birds[j++] = new myBird("USA","16-00-00T00:00","CARDINAL","Western Tanager","黄腹丽唐纳雀","Piranga ludoviciana",[m_id("")],["mdbhrp","9/2015"],4748675);
@@ -878,7 +878,7 @@
   function myBird(country, liferdate, family, name, cname, latin, photo, info, url, curl){
      this.country  = country.trim().toLowerCase();
      this.lifer    = new Date("20"+liferdate+":00"); 
-     this.family   = family.trim().slice(0,family_len).toUpperCase(); 
+     this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
      this.name     = name.trim();
      this.name1    = reform(this.name);
      this.cname    = cname.trim();
@@ -1104,7 +1104,7 @@
   }
 
   function getByFamily(id, myArray) {
-     var tmpid = id.slice(0,family_len);
+     var tmpid = id.slice(0,fam_ln);
      return myArray.filter(function(obj) {if(obj.family == tmpid) { return obj; }});
   } 
 
