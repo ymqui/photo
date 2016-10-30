@@ -836,7 +836,7 @@
   birds[j++] = new myBird("USA","16-05-29T15:00","EMBERIZI","Saltmarsh Sparrow","尖尾沙鹀","Ammodramus caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"],4723991);
   birds[j++] = new myBird("USA","16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
   birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015"],4745996);
-  birds[j++] = new myBird("USA","06-03-04T15:56","EMBERIZI","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20151025_113_SongSparrow","20161030_108_SongSparrow"]),["mdbmnt","10/2015","mdmwma","10/2016","Leucistic","白变种"],4745315);
+  birds[j++] = new myBird("USA","06-03-04T15:56","EMBERIZI","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20151025_113_SongSparrow","20161030_108_SongSparrow"]),["mdbmnt","10/2015","mdmwma","10/2016","Partially leucistic"],4745315);
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("")],["arbitr","10/2016","Howard County Conservancy, Maryland","霍华德郡保护农场，马里兰州"],4745989);
   birds[j++] = new myBird("USA","06-02-19T13:42","EMBERIZI","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
   birds[j++] = new myBird("USA","06-02-16T16:03","EMBERIZI","White-throated Sparrow","白喉带鹀","Zonotrichia albicollis",[m_id("20161030_109_White-throatedSparrow"),p_id("1412mckee-beshers",19)],["mdmwma","10/2016","mdmwma","10/2014"],4744945);
@@ -936,6 +936,8 @@
                   info[3+6*i] = "雄性，繁殖羽";
                }else if ((/^male, *nonbreeding plumage$/i).test(tmp)){
                   info[3+6*i] = "雄性，非繁殖羽";
+               }else if((/^(partially)* *leucistic$/i){
+                  info[3+6*i] = "白变种";
                }
             }
          }
