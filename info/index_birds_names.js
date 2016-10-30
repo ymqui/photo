@@ -936,7 +936,7 @@
                   info[3+6*i] = "雄性，繁殖羽";
                }else if ((/^male, *nonbreeding plumage$/i).test(tmp)){
                   info[3+6*i] = "雄性，非繁殖羽";
-               }else if((/^(partially)* *leucistic$/i){
+               }else if((/^(partially)* *leucistic$/i).test(tmp)){
                   info[3+6*i] = "白变种";
                }
             }
