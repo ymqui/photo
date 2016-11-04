@@ -581,7 +581,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("")],["mdbhrp","9/2015"],71554);
   birds[j++] = new myBird("USA","15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[m_id("20160911_095_White-eyedVireo"),m_id("20150913_095_White-eyedVireo(I)")],["mdlbwt","9/2016","mdlbwt","9/2015","Immature"],4791453);
 //birds[j++] = new myBird("USA","16-00-00T00:00","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[p_id("asheville",)],["nccrsp","4/2016"],4754888);
-  birds[j++] = new myBird("USA","16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[p_id("1609vtcanbirding",15)],["cactnw","9/2016"],4754897);
+  birds[j++] = new myBird("USA","16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[p_id("1609vtcanbirding",15),p_id("1604asheville",3)],["cactnw","9/2016","ncbpkw","4/2016"],4754897);
   birds[j++] = new myBird("USA","15-08-22T07:06","VIREONID","Warbling Vireo","歌莺雀","Vireo gilvus",[m_id("20160514_056_WarblingVireo")],["nyjbwr","5/2016"],4754756);
 //birds[j++] = new myBird("USA","16-00-00T00:00","VIREONID","Philadelphia Vireo","费城莺雀","Vireo philadelphicus",[m_id("")],["mdbhrp","9/2015"],4754879);
   birds[j++] = new myBird("USA","15-05-02T08:40","VIREONID","Red-eyed Vireo","红眼莺雀","Vireo olivaceus",m_id(["20160515_062_Red-eyedVireo","20160515_061_Red-eyedVireo"]),["mdpvsp","5/2016"],4754922);
@@ -620,7 +620,7 @@
 //birds[j++] = new myBird("   ","16-00-00T00:00","HYLOCITR","Hylocitrea","林啸鹟","Hylocitrea bonensis",[m_id("")],["mdbhrp","9/2015"],4863003);
 //birds[j++] = new myBird("   ","16-00-00T00:00","STENOSTI","Grey-headed Canary-flycatcher","方尾鹟","Culicicapa ceylonensis",[m_id("")],["mdbhrp","9/2015"],858230);
   birds[j++] = new myBird("USA","06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[p_id("1412mckee-beshers",24)],["mdmwma","11/2014"],-3620);
-  birds[j++] = new myBird("USA","13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11)],["calddm","9/2016"],4820871);
+  birds[j++] = new myBird("USA","13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["calddm","9/2016","arbitr","8/2014","Sapsucker Woods Sanctuary, Ithaca, New York","啄木鸟树林保护区，伊萨卡，纽约州"],4820871);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["vtwwma","8/2016"],-3631);
   birds[j++] = new myBird("USA","06-03-16T14:27","PARIDAE ","Tufted Titmouse","美洲凤头山雀","Baeolophus bicolor",[p_id("1512bhill",19)],["mdbhrp","2/2015"],4846924);
   birds[j++] = new myBird("CHN","16-01-06T09:14","PARIDAE ","Yellow-bellied Tit","黄腹山雀","Parus venustulus",p_id("1601china",[29,28]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female"],263537);
