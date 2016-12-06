@@ -493,7 +493,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","PICIDAE ","Gilded Flicker","黄扑翅鴷","Colaptes chrysoides",[m_id("")],["mdbhrp","9/2015"],3905287);
   birds[j++] = new myBird("USA","05-12-28T10:22","PICIDAE ","Pileated Woodpecker","北美黑啄木鸟","Dryocopus pileatus",[m_id("20161119_124_PileatedWoodpecker(F)"),"2007cobirding/20070203_019_PileatedWoodpecker(M)"],["mdbhrp","11/2016","Female","mdcovl","2/2007","Male"],3912376);
   birds[j++] = new myBird("USA","15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",[m_id("20150321_041_AmericanKestrel(M)")],["mdftmh","3/2015","Male"],1468037);
-  birds[j++] = new myBird("USA","15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134_Merlin(M)"),m_id("20150302_029_Merlin(M)"),p_id("1609vtcanbirding",16)],["nyjbsp","12/2016","Male (Taiga)","雄性(泰加林种)","mdcovl","3/2015","Male (Taiga)","雄性(泰加林种)","cactnw","9/2016"],[14504,11369887]);
+  birds[j++] = new myBird("USA","15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134_Merlin(M)"),m_id("20150302_029_Merlin(M)"),p_id("1609vtcanbirding",16)],["nyjbsp","12/2016","Male (Taiga)","雄性(泰加林种)","mdcovl","3/2015","cactnw","9/2016"],[14504,11369887]);
 //birds[j++] = new myBird("USA","16-00-00T00:00","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",[m_id("")],["mdbhrp","9/2015"],184717);
   birds[j++] = new myBird("USA","15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",[m_id("20150607_076_PeregrineFalcon")],["mdcocn","6/2015","",""," at Maryland Heights","马里兰高地一带"],14276);
 //birds[j++] = new myBird("   ","16-00-00T00:00","STRIGOPI","Kakapo","鸮鹦鹉","Strigops habroptila",[m_id("")],["mdbhrp","9/2015"],79914);
