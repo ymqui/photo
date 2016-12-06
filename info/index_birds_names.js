@@ -157,7 +157,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"],1176074);
   birds[j++] = new myBird("USA","15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"],32669);
   birds[j++] = new myBird("USA","05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Chen caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
-//birds[j++] = new myBird("USA","16-01-26T00:00","ANATIDAE","Ross's Goose","细嘴雁","Chen rossii",[m_id("")],["arbitr","1/2016","Lake Placid, Gaithersburg, Maryland","盖瑟斯堡普莱西德湖，马里兰州"],3203046);
+//birds[j++] = new myBird("USA","16-01-26T00:00","ANATIDAE","Ross's Goose","细嘴雁","Chen rossii",[m_id("")],["mdnpsp","12/2016"],3203046);
   birds[j++] = new myBird("USA","15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"],13353349);
   birds[j++] = new myBird("USA","15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["arbitr","12/2015","2nd from front in the center (with the smallest bill), River Bend Park, Frederick, Maryland","中间第二只(嘴最小的)，弗雷德里克市河湾公园，马里兰州"],12989977);
   birds[j++] = new myBird("USA","05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdbrgd","6/2012"],260841);
@@ -579,7 +579,7 @@
 //birds[j++] = new myBird("   ","16-00-00T00:00","PACHYCEP","Crested Shriketit","鵙雀鹟","Falcunculus frontatus",[m_id("")],["mdbhrp","9/2015"],7143812);
   birds[j++] = new myBird("CHN","16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[p_id("1601china",43)],["cnlynv","1/2016"],56873);
   birds[j++] = new myBird("USA","16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[m_id("20160205_014_LoggerheadShrike")],["arbitr","2/2016","Dry Bridge Road, Frederick County, Maryland","干桥路，弗雷德里克郡，马里兰州"],4801026);
-//birds[j++] = new myBird("USA","16-00-00T00:00","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("")],["mdbhrp","9/2015"],71554);
+//birds[j++] = new myBird("USA","16-00-00T00:00","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("")],["arbitr","12/2016","Ben's Point Road, Queen Anne's County, Maryland","本点路，安妮女王郡，马里兰州"],71554);
   birds[j++] = new myBird("USA","15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[m_id("20160911_095_White-eyedVireo"),m_id("20150913_095_White-eyedVireo(I)")],["mdlbwt","9/2016","mdlbwt","9/2015","Immature"],4791453);
 //birds[j++] = new myBird("USA","16-00-00T00:00","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[p_id("asheville",)],["nccrsp","4/2016"],4754888);
   birds[j++] = new myBird("USA","16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[m_id("20161106_114_Blue-headedVireo"),p_id("1609vtcanbirding",15)],["mdcrvp","11/2016","cactnw","9/2016"],4754897);
