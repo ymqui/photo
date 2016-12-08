@@ -36,6 +36,8 @@
   locs["flmahp"] = ["Matheson Hammock Park","Miami, Florida","迈阿密马西森硬木公园","佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"];
   locs["flmnwr"] = ["Merritt Island National Wildlife Refuge","Florida","美丽特岛国家野生动物保护区","佛罗里达州","http://www.fws.gov/refuge/Merritt_Island/"];
   locs["flplpr"] = ["Plantation Preserve","Broward County, Florida","布劳沃德郡种植园保留地","佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"];
+  locs["gafpnm"] = ["Fort Pulaski National Monument","Georgia","普拉斯基堡","乔治亚州","https://www.nps.gov/fopu/"];
+  locs["gatybe"] = ["Tybee Island","Georgia","泰碧岛","乔治亚州","https://tybeeisland.com/tybee-information/birding-nature-trails/"];
   locs["macast"] = ["Castle Island","Boston, Massachusetts","波士顿城堡岛","马萨诸塞州",wikiurl("Castle Island (Massachusetts)")];
   locs["mahpsp"] = ["Halibut Point State Park","Rockport, Massachusetts","大比目鱼角州立公园","马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"];
   locs["mapnwr"] = ["Parker River National Wildlife Refuge","Massachusetts","帕克河国家野生动物保护区","马萨诸塞州","http://www.fws.gov/refuge/parker_river/"];
@@ -823,7 +825,7 @@
   birds[j++] = new myBird("USA","15-01-01T14:06","COEREBID","Bananaquit","曲嘴森莺","Coereba flaveola",[p_id("1501prbirding",2)],["prbaya","1/2015"],cornellurl(581516),4738553);
 //birds[j++] = new myBird("CHN","16-00-00T00:00","EMBERIZI","Pine Bunting","白头鹀","Emberiza leucocephalos",p_id("1601china",[1,2]),["cnbjjp","1/2016"],660030);
   birds[j++] = new myBird("USA","12-06-09T09:55","EMBERIZI","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",m_id(["20150405_050_EasternTowhee(M)","20150628_079_EasternTowhee(I)"]),["mdbmnt","4/2015","Male","mdbmnt","6/2015","Immature"],7795497);
-//birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Bachman’s Sparrow","巴氏猛雀鹀","Peucaea aestivalis",[m_id("")],["sccnwr","9/2015"],"https://www.audubon.org/field-guide/bird/bachmans-sparrow",6114539);
+//birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Bachman’s Sparrow","巴氏猛雀鹀","Peucaea aestivalis",[m_id("")],["arbitr","12/2016","James Webb Wildlife Center, South Carolina","詹姆斯·韦伯野生动物中心，南卡罗来纳州"],"https://www.audubon.org/field-guide/bird/bachmans-sparrow",6114539);
   birds[j++] = new myBird("USA","15-03-21T14:05","EMBERIZI","American Tree Sparrow","美洲树雀鹀","Spizella arborea",[m_id("20150321_044_AmericanTreeSparrow")],["mdswhf","3/2015"],4723780);
   birds[j++] = new myBird("USA","15-04-18T07:36","EMBERIZI","Chipping Sparrow","棕顶雀鹀","Spizella passerina",m_id(["20150418_054_ChippingSparrow","20160409_034_ChippingSparrow"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],4723786);
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Clay-colored Sparrow","褐雀鹀","Spizella pallida",[m_id("")],["mdbnwr","3/2012"],4723791);
