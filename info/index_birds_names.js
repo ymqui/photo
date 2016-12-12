@@ -65,11 +65,11 @@
   locs["mdnpsp"] = ["North Point State Park","Maryland","北点州立公园","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/northpoint.aspx"];
   locs["mdocci"] = ["Ocean City","Maryland","大洋城","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdocin"] = ["Ocean City"," Inlet","Maryland","大洋城","海口","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
-  locs["mdolan"] = ["Oland Road","Frederick County, Maryland","欧蓝德路","弗雷德里克郡，马里兰州"];
+  locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
   locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
-  locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","斯科茨码头路","伍斯特郡，马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
+  locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
-  locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","特鲁伊特码头路","伍斯特郡，马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
+  locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","伍斯特郡特鲁伊特码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["meeeri"] = ["Eastern Egg Rock Island","Maine","东蛋岩岛","缅因州","http://www.mainebirdingtrail.com/Eastern%20Egg%20Rock.htm"];
   locs["melocp"] = ["Lobster Cove Preserve","Boothbay Harbor, Maine","布斯贝港龙虾湾保护区","缅因州","http://www.bbrlt.org/documents/LobsterCoveGuide.pdf"];
   locs["menewh"] = ["New Harbor","Maine","新港","缅因州",wikiurl("New Harbor, Maine")];
@@ -368,7 +368,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["mdbhrp","9/2015"],wikiurl("Ruff"),39676);
   birds[j++] = new myBird("USA","11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"],4928005);
   birds[j++] = new myBird("USA","15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["njweti","5/2015"],3296960);
-  birds[j++] = new myBird("USA","16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["arbitr","1/2016","Glade Road, Frederick County, Maryland","格雷德路，弗雷德里克郡，马里兰州"],3193898);
+  birds[j++] = new myBird("USA","16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["arbitr","1/2016","Glade Road, Frederick County, Maryland","弗雷德里克郡格雷德路，马里兰州"],3193898);
   birds[j++] = new myBird("USA","16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["arbitr","2/2016","Patuxent River State Park at Hipsley Mill Road, Maryland","帕塔克森特河州立公园，马里兰州"],1154742);
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",[m_id("")],["mdbhrp","9/2015"],697557);
 //birds[j++] = new myBird("   ","16-00-00T00:00","GLAREOLI","Collared Pratincole","领燕鸻","Glareola pratincola",[m_id("")],["mdbhrp","9/2015"],304194);
@@ -477,7 +477,7 @@
 //birds[j++] = new myBird("   ","16-00-00T00:00","MEGALAIM","Great Barbet","大拟啄木鸟","Megalaima virens",[m_id("")],["mdbhrp","9/2015"],243041);
 //birds[j++] = new myBird("   ","16-00-00T00:00","LYBIIDAE","Grey-throated Barbet","灰喉拟鴷","Gymnobucco bonapartei",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("   ","16-00-00T00:00","INDICATO","Yellow-rumped Honeyguide","黄腰响蜜鴷","Indicator xanthonotus",[m_id("")],["mdbhrp","9/2015"],287213);
-  birds[j++] = new myBird("USA","14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",[m_id("20140531_002_Red-headedWoodpecker")],["arbitr","5/2014","Piney Grove Preserve, Sussex County, Virginia","松林保护区，萨塞克斯郡，弗吉尼亚州"],3912932);
+  birds[j++] = new myBird("USA","14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",[m_id("20140531_002_Red-headedWoodpecker")],["arbitr","5/2014","Piney Grove Preserve, Sussex County, Virginia","萨塞克斯郡松林保护区，弗吉尼亚州"],3912932);
   birds[j++] = new myBird("USA","15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",[p_id("1507birdingwest",37)],["cayokp","7/2015","Male"],986912);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",[m_id("")],["mdbhrp","9/2015"],2649065);
   birds[j++] = new myBird("USA","13-12-25T15:02","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",[p_id("1312bigbendbirding",6)],["txbbnp","12/2013"],3912752);
@@ -580,8 +580,8 @@
 //birds[j++] = new myBird("   ","16-00-00T00:00","OREOICID","Rufous-naped Whistler","棕颈啸鹟","Aleadryas rufinucha",[m_id("")],["mdbhrp","9/2015"],4862987);
 //birds[j++] = new myBird("   ","16-00-00T00:00","PACHYCEP","Crested Shriketit","鵙雀鹟","Falcunculus frontatus",[m_id("")],["mdbhrp","9/2015"],7143812);
   birds[j++] = new myBird("CHN","16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[p_id("1601china",43)],["cnlynv","1/2016"],56873);
-  birds[j++] = new myBird("USA","16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[m_id("20160205_014_LoggerheadShrike")],["arbitr","2/2016","Dry Bridge Road, Frederick County, Maryland","干桥路，弗雷德里克郡，马里兰州"],4801026);
-  birds[j++] = new myBird("USA","16-12-10T08:44","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("20161210_138_NorthernShrike")],["arbitr","12/2016","Ben's Point Road, Queen Anne's County, Maryland","本点路，安妮女王郡，马里兰州"],71554);
+  birds[j++] = new myBird("USA","16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[m_id("20160205_014_LoggerheadShrike")],["arbitr","2/2016","Dry Bridge Road, Frederick County, Maryland","弗雷德里克郡干桥路，马里兰州"],4801026);
+  birds[j++] = new myBird("USA","16-12-10T08:44","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("20161210_138_NorthernShrike")],["arbitr","12/2016","Ben's Point Road, Queen Anne's County, Maryland","安妮女王郡本点路，马里兰州"],71554);
   birds[j++] = new myBird("USA","15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[m_id("20160911_095_White-eyedVireo"),m_id("20150913_095_White-eyedVireo(I)")],["mdlbwt","9/2016","mdlbwt","9/2015","Immature"],4791453);
 //birds[j++] = new myBird("USA","16-00-00T00:00","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[p_id("asheville",)],["nccrsp","4/2016"],4754888);
   birds[j++] = new myBird("USA","16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[m_id("20161106_114_Blue-headedVireo"),p_id("1609vtcanbirding",15)],["mdcrvp","11/2016","cactnw","9/2016"],4754897);
