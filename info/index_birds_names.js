@@ -355,10 +355,10 @@
   birds[j++] = new myBird("USA","15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20151031_114_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["mdocci","10/2015","",""," Sunset Park","日落公园","mdocin","10/2015"],272028);
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("")],["nyjbwr","6/2016"],300484);
   birds[j++] = new myBird("USA","15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[m_id("20151031_119_Sanderling(W)"),p_id("1509charleston",17)],["mdocin","10/2015","Winter plumage","arbitr","9/2015","Juvenile, Fort Moultrie, South Carolina","未成年，莫尔特里堡，南卡罗来纳州"],300486);
-  birds[j++] = new myBird("USA","15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20160529_072_SemipalmatedSandpiper")],["mdsclr","5/2016"],4938313);
+  birds[j++] = new myBird("USA","15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[p_id("1505bombayhook",8)],["debnwr","5/2015"],4938313);
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"],852859);
   birds[j++] = new myBird("USA","15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["njweti","5/2015"],299021);
-//birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("")],["njweti","5/2015"],836718);
+  birds[j++] = new myBird("USA","16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"],836718);
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
 //birds[j++] = new myBird("USA","16-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["mdbmnt","7/2016"],836706);
   birds[j++] = new myBird("USA","15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdocin","11/2015"],14958401);
