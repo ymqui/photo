@@ -157,6 +157,7 @@
 //birds[j++] = new myBird("   ","16-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",[m_id("")],["mdbhrp","9/2015"],1176184);
 //birds[j++] = new myBird("USA","16-00-00T00:00","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[m_id("")],["mdbhrp","9/2015"],3320156);
 //birds[j++] = new myBird("USA","16-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"],1176074);
+//birds[j++] = new myBird("USA","16-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"http://www.audubon.org/field-guide/bird/pink-footed-goose",3192563);
   birds[j++] = new myBird("USA","15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"],32669);
   birds[j++] = new myBird("USA","05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Chen caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
   birds[j++] = new myBird("USA","16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Chen rossii",[m_id("20161212_140_Ross'sGoose")],["arbitr","12/2016","Whittier Lake Park, Frederick, Maryland","弗雷德里克市惠蒂尔湖公园，马里兰州"],3203046);
