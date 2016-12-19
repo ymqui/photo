@@ -728,7 +728,7 @@
 //birds[j++] = new myBird("CHN","16-00-00T00:00","CHLOROPS","Blue-winged Leafbird","蓝翅叶鹎","Chloropsis cochinchinensis",[p_id("1601china",)],["cnlydp","1/2016","Male"],855514);
   birds[j++] = new myBird("CHN","16-01-05T08:00","CHLOROPS","Orange-bellied Leafbird ","橙腹叶鹎","Chloropsis hardwickii",p_id("1601china",[13,15]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female"],685748);
 //birds[j++] = new myBird("CHN","16-00-00T00:00","DICAEIDA","Fire-breasted Flowerpecker","红胸啄花鸟","Dicaeum ignipectus",[p_id("1601china",)],["cnlydp","1/2016","Male"],32774);
-  birds[j++] = new myBird("CHN","16-01-09T15:13","NECTARIN","Fork-tailed Sunbird","叉尾太阳鸟","Aethopyga christinae",p_id("1601china",[39,41]),["cnlydp","1/2016","Male","cnlydp","1/2016","Female"],373723);
+  birds[j++] = new myBird("CHN","16-01-09T15:13","NECTARIN","Fork-tailed Sunbird","叉尾太阳鸟","Aethopyga christinae",p_id("1601china",[39,40]),["cnlydp","1/2016","Male","cnlydp","1/2016","Female"],373723);
   birds[j++] = new myBird("USA","15-01-04T07:12","PASSERID","House Sparrow","家麻雀","Passer domesticus",m_id(sas("20150315_",["032_HouseSparrow(M)","031_HouseSparrow(F)"])),["mdhadg","3/2015","Male","mdhadg","3/2015","Female"],32622);
   birds[j++] = new myBird("CHN","16-01-03T09:54","PASSERID","Eurasian Tree Sparrow","麻雀","Passer montanus",[p_id("1601china",6)],["cnbjjp","1/2016"],265733);
 //birds[j++] = new myBird("   ","16-00-00T00:00","PLOCEIDA","Red-billed Quelea","红嘴奎利亚雀","Quelea quelea",[p_id("1601china",)],["cnbjjp","1/2016"],277030);
