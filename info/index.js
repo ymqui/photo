@@ -1286,6 +1286,11 @@
   info[2][j] = 2;
   info[3][j] = "9/2016 Birding North";
   info[4][j++] = "Birding in Vermont and Quebec, Canada(Vermont, Quebec, Canada).";
+  info[0][j] = "1612savannah";
+  info[1][j] = 3;
+  info[2][j] = 2;
+  info[3][j] = "12/2016 Savannah Birding";
+  info[4][j++] = "Birding in Savannah Area(South Carolina, Georgia).";
 
   if(window.usechinese){
      j = 0;
@@ -1799,6 +1804,8 @@
      info[4][j++] = "南卡罗来纳州和佛罗里达州观鸟(南卡罗来纳州，佛罗里达州)。";
      info[3][j]   = "9/2016 北部观鸟";
      info[4][j++] = "佛蒙特州和加拿大魁北克省观鸟(佛蒙特州，加拿大魁北克省)。";
+     info[3][j]   = "12/2016 萨凡纳观鸟";
+     info[4][j++] = "在萨凡纳附近观鸟（南卡罗来纳州，佐治亚州）。";
   } 
 
   //special touch
@@ -1816,5 +1823,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2016-09-21T00:00:00");
+  var modiDate = new Date("2016-12-26T12:00:00");
 //-->
