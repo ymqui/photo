@@ -33,6 +33,7 @@ function initAlbum(){
         this[1][3] = "北鹞，雌性，萨凡纳国家野生动物保护区。";
         this[1][4] = "斑嘴巨䴙䴘，冬羽，萨凡纳国家野生动物保护区。";
         this[1][5] = "呆头伯劳，萨凡纳国家野生动物保护区。";
+        this[1][6] = "长嘴沼泽鹪鹩，萨凡纳国家野生动物保护区。";
         this[1][7] = "红尾鵟，未成年，萨凡纳国家野生动物保护区。";
         this[1][8] = "赤肩鵟，未成年，萨凡纳国家野生动物保护区。";
         this[1][9] = "赤肩鵟，未成年，萨凡纳国家野生动物保护区。";
@@ -50,6 +51,7 @@ function initAlbum(){
         this[1][3] = "Northern Harrier, female, Savannah National Wildlife Refuge.";
         this[1][4] = "Pied-billed Grebe, winter plumage, Savannah National Wildlife Refuge.";
         this[1][5] = "Loggerhead Shrike, Savannah National Wildlife Refuge.";
+        this[1][6] = "Marsh Wren, Savannah National Wildlife Refuge.";
         this[1][7] = "Red-tailed Hawk, immature, Savannah National Wildlife Refuge.";
         this[1][8] = "Red-shouldered Hawk, immature, Savannah National Wildlife Refuge.";
         this[1][9] = "Red-shouldered Hawk, immature, Savannah National Wildlife Refuge.";
