@@ -788,7 +788,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Blackpoll Warbler","白颊林莺","Setophaga striata",[m_id("")],["mdbhrp","9/2015"],4752109);
   birds[j++] = new myBird("USA","15-05-10T12:54","PARULIDA","Black-throated Blue Warbler","黑喉蓝林莺","Setophaga caerulescens",[m_id("20150510_073_Black-throatedBlueWarbler(M)")],["vajopp","5/2015","Male"],4738127);
   birds[j++] = new myBird("USA","06-04-09T10:02","PARULIDA","Palm Warbler","棕榈林莺","Dendroica palmarum",[p_id("1604asheville",9),m_id("20151025_112_PalmWarbler(FP)")],["scllmp","4/2016","mdbmnt","10/2015","Fall plumage"],4752118);
-  birds[j++] = new myBird("USA","15-07-26T10:08","PARULIDA","Pine Warbler","松莺","Setophaga pinus",[p_id("1612savannah",14)],["scjwwc","12/2016","Male"],4752103);
+  birds[j++] = new myBird("USA","15-07-26T10:08","PARULIDA","Pine Warbler","松莺","Setophaga pinus",p_id("1612savannah",[14,13]),["scjwwc","12/2016","Male"],4752103);
   birds[j++] = new myBird("USA","06-04-02T11:16","PARULIDA","Yellow-rumped Warbler","黄腰白喉林莺","Dendroica coronata",[p_id("1604asheville",8),m_id("20151101_121_Yellow-rumpedWarbler(I)")],["scllmp","4/2016","Male, Myrtle form","雄性，长春花形","mdbmnt","11/2015","Female/immature, Myrtle form","雌性/未成年，长春花形"],4752009);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PARULIDA","Yellow-throated Warbler","黄喉林莺","Dendroica dominica",[p_id("asheville",)],["nccrsp","4/2016"],4751822);
   birds[j++] = new myBird("USA","15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",[p_id("1505capemay",1),p_id("1512bhill",38)],["njhwma","5/2015","Male","mdbhrp","9/2015","Male"],4752096);
