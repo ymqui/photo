@@ -1,8 +1,8 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2016-12-12T16:00:00");
-  var modirange = 3;  	//range within modiDate in days
-  var modiindx  = [1];	//index of which modibird to be shown first
+  var modiDate  = new Date("2016-12-26T16:00:00");
+  var modirange = 2;  	//range within modiDate in days
+  var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -236,7 +236,7 @@
   birds[j++] = new myBird("USA","13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[p_id("1312bigbendbirding",7),p_id("1512bhill",43),p_id("1409fingerlake",12)],["txbbnp","12/2013","mdbhrp","10/2015","Winter plumage","nymnwr","8/2014","Immature"],601751);
   birds[j++] = new myBird("USA","06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",m_id(sas("20150321_",["038","039","040"],"_HornedGrebe")),["mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Spring molt","春羽"],424512);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",[m_id("")],["txbbnp","12/2013"],417750);
-//birds[j++] = new myBird("USA","16-00-00T00:00","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",[m_id("")],["txbbnp","12/2013"],891774);
+  birds[j++] = new myBird("USA","16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",[m_id("20161226_141_EaredGrebe(WP)")],["mdcorl","12/2016","Winter plumage"],891774);
   birds[j++] = new myBird("USA","15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[p_id("1507birdingwest",9)],["orhayd","7/2015"],891803);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[m_id("")],["txbbnp","12/2013"],2546204);
 //birds[j++] = new myBird("USA","16-00-00T00:00","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",["0504zoo/0504zoo__14"],["natzo","4/2005"],cornellurl(91591),10062545);
