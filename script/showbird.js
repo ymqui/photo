@@ -165,8 +165,13 @@ if (cellphone){
    p_home = maindir+"thumbnail/b_home.png";
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
-   space1 = "&nbsp;&nbsp;&nbsp; ";
-   space  = "&nbsp;&nbsp;"; 
+   if (window.usechinese){
+      space1 = "&nbsp;&nbsp; ";
+      space  = "&nbsp;";
+   }else{
+      space1 = "&nbsp;&nbsp;&nbsp; ";
+      space  = "&nbsp;&nbsp;";
+   }
    arrow  = "&#x27f9;"
 }
 
