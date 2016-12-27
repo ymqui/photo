@@ -155,8 +155,6 @@ if (cellphone){
    p_home = maindir+"thumbnail/c_home.png";
    p_info = maindir+"thumbnail/c_birdinfo.png";
    p_lang = maindir+"thumbnail/c_"+p_lang;
-   space1 = "0px 20px 0px 80px";
-   space  = "0px 20px";
    arrow  = "--->";
    document.write('<br>');
 }else{
@@ -165,10 +163,10 @@ if (cellphone){
    p_home = maindir+"thumbnail/b_home.png";
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
-   space1 = "0px 10px 0px 40px";
-   space  = "0px 10px";
    arrow  = "&#x27f9;"
 }
+space1 = "0px 10px 0px 40px";
+space  = "0px 10px";
 
 document.write('<center>');
 document.write('<form name="form_alpha">');
