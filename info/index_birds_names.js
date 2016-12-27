@@ -811,7 +811,7 @@
   birds[j++] = new myBird("USA","16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_",["031","032"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"],4708917);
 //birds[j++] = new myBird("USA","16-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"],723327);
   birds[j++] = new myBird("USA","06-04-11T17:11","ICTERIDA","Common Grackle","普通拟八哥","Quiscalus quiscula",["2006cobirding/CommonGrackle_20060411_002","2006cobirding/CommonGrackle_20060622_007",p_id("2009cobirding",39)],["mdcocn","4/2006","mdcocn","6/2006","mdcocn","7/2009","Immature"],-6524);
-  birds[j++] = new myBird("USA","11-12-30T11:34","ICTERIDA","Boat-tailed Grackle","宽尾拟八哥","Quiscalus major",p_id("1509charleston",[12,13]),["scpitt","9/2015","Male","scpitt","9/2015","Female"],4707253);
+  birds[j++] = new myBird("USA","11-12-30T11:34","ICTERIDA","Boat-tailed Grackle","宽尾拟八哥","Quiscalus major",p_id("1612savannah",[16,17]),["gatybe","12/2016","Male","gatybe","12/2016","Female"],4707253);
 //birds[j++] = new myBird("USA","16-00-00T00:00","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",[m_id("")],["mdbhrp","9/2015"],4706667);
   birds[j++] = new myBird("USA","15-01-02T09:39","ICTERIDA","Greater Antillean Grackle","黑拟八哥","Quiscalus niger",p_id("1501prbirding",[6,7]),["prrinc","1/2015"],cornellurl(669516),4706467);
 //birds[j++] = new myBird("USA","16-00-00T00:00","ICTERIDA","Shiny Cowbird","紫辉牛鹂","Molothrus bonariensis",[m_id("")],["flevnp","6/2016"],4706494);
