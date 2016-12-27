@@ -155,7 +155,7 @@ if (cellphone){
    p_home = maindir+"thumbnail/c_home.png";
    p_info = maindir+"thumbnail/c_birdinfo.png";
    p_lang = maindir+"thumbnail/c_"+p_lang;
-   space  = "60px";
+   space  = "30px";
    arrow  = "--->";
    document.write('<br>');
 }else{
@@ -164,7 +164,7 @@ if (cellphone){
    p_home = maindir+"thumbnail/b_home.png";
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
-   space  = "30px";
+   space  = "15px";
    arrow  = "&#x27f9;"
 }
 
