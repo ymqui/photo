@@ -155,7 +155,8 @@ if (cellphone){
    p_home = maindir+"thumbnail/c_home.png";
    p_info = maindir+"thumbnail/c_birdinfo.png";
    p_lang = maindir+"thumbnail/c_"+p_lang;
-   space  = "30px";
+   space1 = "0px 25px 0px 60px";
+   space  = "0px 25px";
    arrow  = "--->";
    document.write('<br>');
 }else{
@@ -164,7 +165,8 @@ if (cellphone){
    p_home = maindir+"thumbnail/b_home.png";
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
-   space  = "15px";
+   space1 = "0px 13px 0px 30px";
+   space  = "0px 13px";
    arrow  = "&#x27f9;"
 }
 
@@ -376,7 +378,7 @@ if(bid==null){
 
 
 document.write('</select>');
-document.write('&nbsp;<a href="'+bid.url+'" style="text-decoration:none" target="_blank">');
+document.write('<a href="'+bid.url+'" style="text-decoration:none" target="_blank">');
 if(window.usechinese){
    mesg1 = bid.cname+"("+bid.latin+")的详细信息";
    mesg2 = "鸟类相册主页";
@@ -386,11 +388,11 @@ if(window.usechinese){
    mesg2 = "Bird Photo Album Home";
    mesg3 = "Chinese Version/中文版";  
 }
-document.write('<IMG SRC="'+p_info+'"'+borderstr(mesg1)+' align="top" border="0" style="margin:0px '+space+'"></a>');
+document.write('<IMG SRC="'+p_info+'"'+borderstr(mesg1)+' align="top" border="0" style="margin:'+space1+'"></a>');
 document.write('<a href="'+langurl+'" target="_self">');
-document.write('<IMG SRC="'+p_lang+'"'+borderstr(mesg3)+' align="top" border="0" style="margin:0px '+space+'"></a>');
+document.write('<IMG SRC="'+p_lang+'"'+borderstr(mesg3)+' align="top" border="0" style="margin:'+space+'"></a>');
 document.write('<a href="'+homeurl+'birds/" target="_self">');
-document.write('<IMG SRC="'+p_home+'"'+borderstr(mesg2)+' align="top" border="0" style="margin:0px '+space+'"></a>');
+document.write('<IMG SRC="'+p_home+'"'+borderstr(mesg2)+' align="top" border="0" style="margin:'+space+'"></a>');
 document.write('</form>');
 document.form_alpha.select_alpha.selectedIndex = oid+2;
 if(cellphone) document.write("<br>");
