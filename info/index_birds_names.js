@@ -840,7 +840,7 @@
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",[m_id("")],["ilroll","11/2016"],7850648);
   birds[j++] = new myBird("USA","16-05-29T15:00","EMBERIZI","Saltmarsh Sparrow","尖尾沙鹀","Ammodramus caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"],4723991);
   birds[j++] = new myBird("USA","16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
-  birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015"],4745996);
+  birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015","Red form","红色形"],4745996);
   birds[j++] = new myBird("USA","06-03-04T15:56","EMBERIZI","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20161112_121_SongSparrow","20161030_108_SongSparrow"]),["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic"],4745315);
 //birds[j++] = new myBird("USA","16-00-00T00:00","EMBERIZI","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("")],["arbitr","10/2016","Howard County Conservancy, Maryland","霍华德郡保护农场，马里兰州"],4745989);
   birds[j++] = new myBird("USA","06-02-19T13:42","EMBERIZI","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
