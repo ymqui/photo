@@ -166,7 +166,7 @@ if (cellphone){
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
    arrow  = "&#x27f9;"
-   space1 = "0px 10px 0px 40px";
+   space1 = "0px 10px 0px 30px";
    space  = "0px 10px";
 }
 
