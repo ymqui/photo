@@ -156,7 +156,8 @@ if (cellphone){
    p_info = maindir+"thumbnail/c_birdinfo.png";
    p_lang = maindir+"thumbnail/c_"+p_lang;
    arrow  = "--->";
-   document.write('<br>');
+   space1 = "10px 10px 0px 30px";
+   space  = "0px 10px";
 }else{
    fstyle = "font-family:Arial;max-width:70%;";
    qfont  = "font-size:100%;";
@@ -164,9 +165,9 @@ if (cellphone){
    p_info = maindir+"thumbnail/birdinfo.png";
    p_lang = maindir+"thumbnail/"+p_lang;
    arrow  = "&#x27f9;"
+   space1 = "0px 10px 0px 40px";
+   space  = "0px 10px";
 }
-space1 = "0px 10px 0px 40px";
-space  = "0px 10px";
 
 document.write('<center>');
 document.write('<form name="form_alpha">');
