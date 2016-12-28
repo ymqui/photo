@@ -375,7 +375,7 @@ if(bid==null){
 }
 
 
-document.write('</select></form>');
+document.write('</select>');
 if(window.usechinese){
    mesg1 = bid.cname+"("+bid.latin+")的详细信息";
    mesg2 = "鸟类相册主页";
@@ -391,6 +391,7 @@ document.write('<a href="'+langurl+'" target="_self">');
 document.write('<IMG SRC="'+p_lang+'"'+borderstr(mesg3)+' align="top" border="0" style="margin:'+space+'"></a>');
 document.write('<a href="'+homeurl+'birds/" target="_self">');
 document.write('<IMG SRC="'+p_home+'"'+borderstr(mesg2)+' align="top" border="0" style="margin:'+space+'"></a>');
+document.write('</form>');
 document.form_alpha.select_alpha.selectedIndex = oid+2;
 if(cellphone) document.write("<br>");
 
