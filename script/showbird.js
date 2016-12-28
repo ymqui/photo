@@ -156,8 +156,9 @@ if (cellphone){
    p_info = maindir+"thumbnail/c_birdinfo.png";
    p_lang = maindir+"thumbnail/c_"+p_lang;
    arrow  = "--->";
-   space1 = "20px 10px 20px 30px";
-   space  = "20px 10px";
+   space1 = "0px 10px 0px 30px";
+   space  = "0px 10px";
+   document.write("<br>");
 }else{
    fstyle = "font-family:Arial;max-width:70%;";
    qfont  = "font-size:100%;";
