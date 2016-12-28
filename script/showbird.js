@@ -168,7 +168,7 @@ if (cellphone){
 space1 = "0px 10px 0px 30px";
 space  = "0px 10px";
 
-document.write('<center>');
+document.write('<center><span style="white-space: nowrap;">');
 document.write('<form name="form_alpha">');
 document.write('<select name="select_alpha" size="-1" style="'+fstyle+'"');
 document.write(' onChange="self.location.href=this.form.select_alpha.options[this.form.select_alpha.selectedIndex].value">');
@@ -376,7 +376,7 @@ if(bid==null){
 
 
 document.write('</select>');
-document.write('<a href="'+bid.url+'" style="text-decoration:none" target="_blank">');
+document.write('</form>');
 if(window.usechinese){
    mesg1 = bid.cname+"("+bid.latin+")的详细信息";
    mesg2 = "鸟类相册主页";
@@ -386,12 +386,13 @@ if(window.usechinese){
    mesg2 = "Bird Photo Album Home";
    mesg3 = "Chinese Version/中文版";  
 }
+document.write('<a href="'+bid.url+'" style="text-decoration:none" target="_blank">');
 document.write('<IMG SRC="'+p_info+'"'+borderstr(mesg1)+' align="top" border="0" style="margin:'+space1+'"></a>');
 document.write('<a href="'+langurl+'" target="_self">');
 document.write('<IMG SRC="'+p_lang+'"'+borderstr(mesg3)+' align="top" border="0" style="margin:'+space+'"></a>');
 document.write('<a href="'+homeurl+'birds/" target="_self">');
 document.write('<IMG SRC="'+p_home+'"'+borderstr(mesg2)+' align="top" border="0" style="margin:'+space+'"></a>');
-document.write('</form>');
+document.write('</span>');
 document.form_alpha.select_alpha.selectedIndex = oid+2;
 if(cellphone) document.write("<br>");
 
