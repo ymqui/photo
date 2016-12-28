@@ -5,7 +5,7 @@ document.onmousedown=function(event){
       if (window.usechinese){
          alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');
        }else{
-          alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
+         alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
        }
    }
 }
