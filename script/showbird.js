@@ -150,7 +150,7 @@ if ((bname=='')&&(modiBird.name.length>0)){
 }
 
 if (cellphone){
-   fstyle = "font-family:Arial;font-size:225%;max-width: 70%;";
+   fstyle = "font-family:Arial;font-size:225%;max-width: 65%;";
    qfont  = "font-size:200%;";
    p_home = maindir+"thumbnail/c_home.png";
    p_info = maindir+"thumbnail/c_birdinfo.png";
@@ -165,7 +165,7 @@ if (cellphone){
    p_lang = maindir+"thumbnail/"+p_lang;
    arrow  = "&#x27f9;"
 }
-space1 = "0px 10px 0px 30px";
+space1 = "0px 10px 0px 35px";
 space  = "0px 10px";
 
 document.write('<center>');
