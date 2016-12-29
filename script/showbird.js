@@ -150,7 +150,7 @@ if ((bname=='')&&(modiBird.name.length>0)){
 }
 
 if (cellphone){
-   fstyle = "font-family:Arial;font-size:225%;max-width: 67%;";
+   fstyle = "font-family:Arial;font-size:225%;max-width: 66%;";
    qfont  = "font-size:200%;";
    p_home = maindir+"thumbnail/c_home.png";
    p_info = maindir+"thumbnail/c_birdinfo.png";
