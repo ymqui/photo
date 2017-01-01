@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2016-12-26T16:00:00");
+  var modiDate  = new Date("2016-12-31T20:00:00");
   var modirange = 7;  	//range within modiDate in days
   var modiindx  = [1];	//index of which modibird to be shown first
   
