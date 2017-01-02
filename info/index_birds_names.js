@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2016-12-31T16:00:00");
-  var modirange = 7;  	//range within modiDate in days
+  var modiDate  = new Date("2017-01-01T18:00:00");
+  var modirange = 3;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -436,7 +436,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["nyjbsp","12/2016"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
   birds[j++] = new myBird("USA","06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],3886420);
-//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",[m_id("")],["arbitr","12/2016","Konterra Drive, Prince George's County, Maryland","乔治王子郡孔特拉路，马里兰州"],120964);
+  birds[j++] = new myBird("USA","17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl",20170101_002_Short-earedOwl]),["arbitr","1/2017","Harrison Road, Fauquier County, Virginia","福基尔郡哈里森路，弗吉尼亚州"],120964);
 //birds[j++] = new myBird("   ","17-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱 ","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],1598028);
 //birds[j++] = new myBird("   ","17-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],706364);
 //birds[j++] = new myBird("   ","17-00-00T00:00","NYCTIBII","Great Potoo","大林鸱","Nyctibius grandis",[m_id("")],["mdbhrp","9/2015"],4889783);
