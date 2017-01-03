@@ -46,8 +46,8 @@
   var tmpDate = new Date();    //current date
   var modiYear = tmpDate.getYear();
   modiYear = (modiYear<2000)?modiYear+1900:modiYear;  
-  document.write("&copy; 2004");
-  if(modiYear>2004){
+  document.write("&copy; 2005");
+  if(modiYear>2005){
      document.write("-"+modiYear);
   }
   document.write(" All rights reserved. ");
