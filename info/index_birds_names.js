@@ -58,8 +58,8 @@
   locs["mdhadg"] = ["Havre de Grace","Maryland","哈佛德格雷斯","马里兰州",wikiurl("Havre de Grace, Maryland")];
   locs["mdinhb"] = ["Baltimore Harbor","Maryland","巴尔的摩港","马里兰州",wikiurl("Inner Harbor"),baikeurl(48720)];
   locs["mdlbwt"] = ["Little Bennett Regional Park"," at Wilson Mill Trail","Maryland","小班尼特公园","威尔逊锯木坊小道","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/little_bennett/"];
-  locs["mdlily"] = ["Lilypons Water Garden","Maryland","莉丽庞斯水上花园","马里兰州","http://www.lilypons.com/"];
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
+  locs["mdmapp"] = ["Mariner Point Park","Harford County, Maryland","哈福德郡水手角公园","马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"];
   locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr2.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
   locs["mdnpsp"] = ["North Point State Park","Maryland","北点州立公园","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/northpoint.aspx"];
   locs["mdocci"] = ["Ocean City","Maryland","大洋城","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
@@ -462,7 +462,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","CORACIID","Indian Roller","棕胸佛法僧","Coracias benghalensis",[m_id("")],["mdbhrp","9/2015"],287069);
 //birds[j++] = new myBird("   ","17-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",[m_id("")],["mdbhrp","9/2015"],4886798);
   birds[j++] = new myBird("CHN","16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016"],283611);
-  birds[j++] = new myBird("USA","06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","mdlily","8/2016","Female"],2669932);
+  birds[j++] = new myBird("USA","06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","arbitr","8/2016","Female, Lilypons Water Garden, Maryland","雌性，莉丽庞斯水上花园，马里兰州"],2669932);
   birds[j++] = new myBird("USA","15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",p_id("1501prbirding",[23,29]),["prceci","1/2015","Male","prceci","1/2015","Female"],cornellurl(285496),138654);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MOMOTIDA","Tody Motmot","短尾翠鴗","Hylomanes momotula",[m_id("")],["mdbhrp","9/2015"],10078743);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MEROPIDA","Blue-throated Bee-eater","蓝喉蜂虎","Merops viridis",[m_id("")],["mdbhrp","9/2015"],32586);
