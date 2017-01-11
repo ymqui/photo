@@ -436,6 +436,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["nyjbsp","12/2016"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
   birds[j++] = new myBird("USA","06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],3886420);
+//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["arbitr","3/2017","Middle Creek Wildlife Management Area, Pennsylvania","中溪野生动物管理区，宾夕法尼亚州"],18105);
   birds[j++] = new myBird("USA","17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["arbitr","1/2017","Harrison Road, Fauquier County, Virginia","福基尔郡哈里森路，弗吉尼亚州"],120964);
 //birds[j++] = new myBird("   ","17-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱 ","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],1598028);
 //birds[j++] = new myBird("   ","17-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],706364);
