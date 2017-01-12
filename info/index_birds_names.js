@@ -624,7 +624,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","DULIDAE ","Palmchat","棕榈鵖","Dulus dominicus",[m_id("")],["mdbhrp","9/2015"],11602630);
 //birds[j++] = new myBird("   ","17-00-00T00:00","HYLOCITR","Hylocitrea","林啸鹟","Hylocitrea bonensis",[m_id("")],["mdbhrp","9/2015"],4863003);
 //birds[j++] = new myBird("   ","17-00-00T00:00","STENOSTI","Grey-headed Canary-flycatcher","方尾鹟","Culicicapa ceylonensis",[m_id("")],["mdbhrp","9/2015"],858230);
-  birds[j++] = new myBird("USA","06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[m_id("20170108_004_CarolinaChickadee")],["mdmapp","1/2017"],-3620);
+  birds[j++] = new myBird("USA","06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[p_id("1412mckee-beshers",24)],["mdmwma","11/2014"],-3620);
   birds[j++] = new myBird("USA","13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["calddm","9/2016","arbitr","8/2014","Sapsucker Woods Sanctuary, Ithaca, New York","啄木鸟树林保护区，伊萨卡，纽约州"],4820871);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["vtwwma","8/2016"],-3631);
   birds[j++] = new myBird("USA","06-03-16T14:27","PARIDAE ","Tufted Titmouse","美洲凤头山雀","Baeolophus bicolor",[m_id("20161112_120_TuftedTitmouse")],["mdbhrp","11/2016"],4846924);
