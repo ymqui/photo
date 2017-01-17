@@ -432,7 +432,6 @@
   birds[j++] = new myBird("USA","15-01-03T10:17","CUCULIDA","Smooth-billed Ani","滑嘴犀鹃","Crotophaga ani",[p_id("1501prbirding",16)],["prcnwr","1/2015"],cornellurl(205336),706315);
   birds[j++] = new myBird("USA","16-06-25T11:19","TYTONIDA","Barn Owl","仓鸮","Tyto alba",m_id(["20160625_083_BarnOwl","20160625_082_BarnOwl"]),["nyjbwr","6/2016"],15246);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["arbitr","1/2017","Boyce Mayview Park, Upper St. Clair, Pennsylvania","上圣克莱尔镇博伊斯梅渭公园，宾夕法尼亚州"],3859920);
-//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["arbitr","1/2017","Pricketts Fort State Park, West Virginia","普里克茨堡州立公园，西弗吉尼亚州"],3859920);
   birds[j++] = new myBird("USA","16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"],3838605);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["nyjbsp","12/2016"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
