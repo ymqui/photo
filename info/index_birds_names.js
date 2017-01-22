@@ -45,6 +45,7 @@
   locs["mdbmnt"] = ["Blue Mash Nature Trail","Maryland","蓝沼自然小径","马里兰州","http://www.montgomeryparks.org/PPSD/ParkTrails/trails_MAPS/blue_mash.shtm"];
   locs["mdbnwr"] = ["Blackwater National Wildlife Refuge","Maryland","黑水国家野生动物保护区","马里兰州","http://www.fws.gov/refuge/Blackwater/"];
   locs["mdbrgd"] = ["Brookside Garden","Wheaton, Maryland","惠顿溪边花园","马里兰州","http://www.montgomeryparks.org/brookside/"];
+  locs["mdcamb"] = ["Cambridge","Maryland","剑桥","马里兰州",wikiurl("Cambridge, Maryland")];
   locs["mdcapc"] = ["Congressional Polo Club","Poolesville, Maryland","普尔斯维尔镇国会马球俱乐部","马里兰州","http://www.congressionalpolo.com/"];
   locs["mdcocn"] = ["C&O Canal","Maryland","C&O运河","马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)];
   locs["mdcopl"] = ["C&O Canal"," at Pennyfield Lock","Maryland","C&O运河","彭尼菲尔德闸","马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)];
@@ -173,7 +174,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","yuan1 yang1","Aix galericulata",["0504zoo/0504zoo__13"],["natzo","4/2005"],wikiurl("Mandarin Duck"),17774);
   birds[j++] = new myBird("USA","15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Anas strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall(M)"]),["vahump","11/2015","Male left, female right","mdcovl","3/2015","Males"],94489);
   birds[j++] = new myBird("USA","16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Anas penelope",[m_id("20160313_020_EurasianWigeon(M)")],["arbitr","3/2016","Male, Trout Run WWTP, Garrett County, Maryland","雄性，加勒特郡鳟鱼溪废水处理厂，马里兰州"],179821);
-  birds[j++] = new myBird("USA","15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Anas americana",[m_id("20150215_010_AmericanWigeon"),p_id("1512bhill",8)],["mdloch","2/2015","Males","mdbhrp","1/2015","Male"],413674);
+  birds[j++] = new myBird("USA","15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Anas americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon(F)"]),["mdloch","2/2015","Males","mdcamb","1/2017","Female"],413674);
   birds[j++] = new myBird("USA","15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"],3175931);
   birds[j++] = new myBird("USA","06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdbrgd","6/2012","Eclipse male","mdbmnt","10/2015"],21604);
   birds[j++] = new myBird("USA","16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flplpr","6/2016"],3152828);
@@ -182,12 +183,12 @@
   birds[j++] = new myBird("USA","15-11-22T09:50","ANATIDAE","Green-winged Teal","美洲绿翅鸭","Anas crecca",[m_id("20151122_128_Green-wingedTeal(M)")],["vahump","11/2015","Males"],81835);
   birds[j++] = new myBird("USA","12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Anas clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler"),p_id("1203blackwater",1)],["vahump","11/2015","Male left, females right","mdftmh","2/2015","mdbnwr","3/2012"],33050);
   birds[j++] = new myBird("USA","15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",[m_id("20151122_125_NorthernPintail(M)")],["vahump","11/2015","Male"],179825);
-  birds[j++] = new myBird("USA","15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",p_id("1512bhill",[5,15]),["mdbhrp","1/2015","Male left, female right","mdbhrp","2/2015","Female"],179830);
+  birds[j++] = new myBird("USA","15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",m_id(["20170121_009_Canvasback(M)","20170121_008_Canvasback(F)"]),["mdcamb","1/2017","Male","mdcamb","1/2017","Female"],179830);
   birds[j++] = new myBird("USA","15-02-15T15:34","ANATIDAE","Redhead","美洲潜鸭","Aythya americana",[m_id("20150215_008_Redhead")],["mdloch","2/2015","Male left, female right"],3208274);
   birds[j++] = new myBird("USA","15-02-15T15:58","ANATIDAE","Ring-necked Duck","环颈潜鸭","Aythya collaris",[m_id("20150215_012_Ring-neckedDuck"),p_id("1512bhill",17)],["mdloch","2/2015","Males","mdbhrp","2/2015","Males and a female (center)","雄性和一雌性(中间)"],3209526);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Tufted Duck","凤头潜鸭","Aythya fuligula",[m_id("")],["mdbhrp","9/2015"],wikiurl("Tufted duck"),32925);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Greater Scaup","斑背潜鸭","Aythya marila",[m_id("")],["mdbhrp","9/2015"],32982);
-  birds[j++] = new myBird("USA","06-04-09T11:38","ANATIDAE","Lesser Scaup","小潜鸭","Aythya affinis",[p_id("1512bhill",16)],["mdbhrp","2/2015","Male"],3206646);
+  birds[j++] = new myBird("USA","06-04-09T11:38","ANATIDAE","Lesser Scaup","小潜鸭","Aythya affinis",m_id(["20170121_010_LesserScaup(M)","20170121_011_LesserScaup(F)"]),["mdcamb","1/2017","Male","mdcamb","1/2017","Female"],3206646);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("")],["mdocin","11/2015"],3496658);
   birds[j++] = new myBird("USA","15-05-24T14:43","ANATIDAE","Common Eider","欧绒鸭","Somateria mollissima",[p_id("1505puffin",12),p_id("1505puffin",11),p_id("1512boston",12)],["menewh","5/2015","Male","menewh","5/2015","Female","mahpsp","12/2015","Females and 1st winter males (with white chest)","雌性和一齡冬羽雄性(白胸)"],1154738);
   birds[j++] = new myBird("USA","15-03-08T09:51","ANATIDAE","Harlequin Duck","丑鸭","Histrionicus histrionicus",p_id("1503barnegat",[13,12,14]),["njblsp","3/2015","Males","njblsp","3/2015","Female","njblsp","3/2015"],179838);
