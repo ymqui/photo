@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-01-01T18:00:00");
-  var modirange = 3;  	//range within modiDate in days
+  var modiDate  = new Date("2017-01-29T18:00:00");
+  var modirange = 1;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -192,7 +192,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("")],["mdocin","11/2015"],3496658);
   birds[j++] = new myBird("USA","15-05-24T14:43","ANATIDAE","Common Eider","欧绒鸭","Somateria mollissima",[p_id("1505puffin",12),p_id("1505puffin",11),p_id("1512boston",12)],["menewh","5/2015","Male","menewh","5/2015","Female","mahpsp","12/2015","Females and 1st winter males (with white chest)","雌性和一齡冬羽雄性(白胸)"],1154738);
   birds[j++] = new myBird("USA","15-03-08T09:51","ANATIDAE","Harlequin Duck","丑鸭","Histrionicus histrionicus",p_id("1503barnegat",[13,12,14]),["njblsp","3/2015","Males","njblsp","3/2015","Female","njblsp","3/2015"],179838);
-  birds[j++] = new myBird("USA","15-12-26T12:28","ANATIDAE","Surf Scoter","斑头海番鸭","Melanitta perspicillata",[p_id("1512boston",14)],["mahpsp","12/2015","Adult male (1st right), immature males (left two), and immature female (2nd right)","成年雄性(右一)，未成年雄性（左边两只），和未成年雌性(右二)"],3362763);
+  birds[j++] = new myBird("USA","15-12-26T12:28","ANATIDAE","Surf Scoter","斑头海番鸭","Melanitta perspicillata",[m_id("20170128_014_SurfScoter")],["mdcamb","1/2017","Females (center) and males","雌性(中间)和雄性"],3362763);
   birds[j++] = new myBird("USA","15-03-28T10:54","ANATIDAE","White-winged Scoter","白翅海番鸭","Melanitta fusca",[p_id("1512boston",9)],["mahpsp","12/2015","Female left, male right"],179846);
   birds[j++] = new myBird("USA","15-11-26T14:46","ANATIDAE","Black Scoter","黑海番鸭","Melanitta americana",m_id(["20151126_138_BlackScoter(F)","20160319_021_BlackScoter(M)"]),["mdocin","11/2015","Female","deinri","3/2016","Adult (left) and 1st winter (right) males","成年(左)和一龄冬羽(右)雄性"],179842);
   birds[j++] = new myBird("USA","16-03-19T15:19","ANATIDAE","Long-tailed Duck","长尾鸭","Clangula hyemalis",m_id(["20160319_022_Long-tailedDuck","20160319_023_Long-tailedDuck"]),["deinri","3/2016","Male (center) and females","雄性(中间)和雌性","deinri","3/2016"],32818);
@@ -212,7 +212,7 @@
   birds[j++] = new myBird("USA","15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("1507birdingwest",2)],["nvdnwr","7/2015","Female"],2635283);
   birds[j++] = new myBird("USA","14-08-16T09:14","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","Male"],1503283);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ODONTOPH","Montezuma Quail","彩鹑","Cyrtonyx montezumae",[m_id("")],["mdbhrp","9/2015"],3807919);
-//birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("")],["mdmwma","1/2017"],14973);
+  birds[j++] = new myBird("USA","17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant(M)")],["mdmwma","1/2017","Male"],14973);
   birds[j++] = new myBird("USA","16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"],5873637);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",[m_id("")],["mdbhrp","9/2015"],2990680);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",[m_id("")],["vtwwma","9/2015"],5869659);
