@@ -212,7 +212,7 @@
   birds[j++] = new myBird("USA","15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("1507birdingwest",2)],["nvdnwr","7/2015","Female"],2635283);
   birds[j++] = new myBird("USA","14-08-16T09:14","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","Male"],1503283);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ODONTOPH","Montezuma Quail","彩鹑","Cyrtonyx montezumae",[m_id("")],["mdbhrp","9/2015"],3807919);
-//birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("")],["mdbhrp","9/2015"],14973);
+//birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("")],["mdmwma","1/2017"],14973);
   birds[j++] = new myBird("USA","16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"],5873637);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",[m_id("")],["mdbhrp","9/2015"],2990680);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",[m_id("")],["vtwwma","9/2015"],5869659);
