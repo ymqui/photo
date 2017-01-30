@@ -218,7 +218,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",[m_id("")],["vtwwma","9/2015"],5869659);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",[m_id("")],["mdbhrp","9/2015"],5869671);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("USA","16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1),m_id("20160228_019_WildTurkey")],["ncbpkw","4/2016","Female","arbitr","2/2016","Anacostia Park, Washington DC","阿纳卡斯蒂亚公园，华盛顿哥伦比亚特区"],37220);
+  birds[j++] = new myBird("USA","16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"],37220);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",[p_id("1604asheville",1)],["flmahp","6/2016","Male"],108688);
   birds[j++] = new myBird("USA","16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[m_id("20160326_025_Red-throatedLoon(WP)")],["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头"],139852);
 //birds[j++] = new myBird("USA","17-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["mdbhrp","9/2015"],855436);
