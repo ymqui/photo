@@ -39,7 +39,6 @@
   locs["gatybe"] = ["Tybee Island","Georgia","泰碧岛","乔治亚州","https://tybeeisland.com/tybee-information/birding-nature-trails/"];
   locs["macast"] = ["Castle Island","Boston, Massachusetts","波士顿城堡岛","马萨诸塞州",wikiurl("Castle Island (Massachusetts)")];
   locs["mahpsp"] = ["Halibut Point State Park","Rockport, Massachusetts","大比目鱼角州立公园","马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"];
-  locs["mapnwr"] = ["Parker River National Wildlife Refuge","Massachusetts","帕克河国家野生动物保护区","马萨诸塞州","http://www.fws.gov/refuge/parker_river/"];
   locs["mdasns"] = ["Assateague Island National Seashore","Maryland","阿萨蒂格岛国家海岸","马里兰州","http://www.nps.gov/asis/index.htm",baikeurl(1910881)];
   locs["mdbhrp"] = ["Black Hill Regional Park","Maryland","黑山公园","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/blackhill/"];
   locs["mdbmnt"] = ["Blue Mash Nature Trail","Maryland","蓝沼自然小径","马里兰州","http://www.montgomeryparks.org/PPSD/ParkTrails/trails_MAPS/blue_mash.shtm"];
@@ -489,7 +488,7 @@
   birds[j++] = new myBird("USA","06-02-19T11:51","PICIDAE ","Yellow-bellied Sapsucker","黄腹吸汁啄木鸟","Sphyrapicus varius",m_id(["20170107_003_Yellow-belliedSapsucker(M)","20151220_139_Yellow-breastedSapsucker(I)"]),["mdhadg","1/2017","Male","mdloch","12/2015","Immature"],984882);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","PICIDAE ","Great Spotted Woodpecker","大斑啄木鸟","Dendrocopos major",[p_id("1601china",)],["cnbjjp","1/2016"],15618);
   birds[j++] = new myBird("USA","13-12-25T14:40","PICIDAE ","Ladder-backed Woodpecker","纹背啄木鸟","Picoides scalaris",[p_id("1312bigbendbirding",1)],["txbbnp","12/2013","Male"],3949314);
-  birds[j++] = new myBird("USA","05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Picoides pubescens",[m_id("20160130_007_DownyWoodpecker(M)"),p_id("1512boston",3),"2007cobirding/20070120_010_DownyWoodpecker(F)"],["mdbhrp","1/2016","Male","mapnwr","12/2015","Male","mdcocn","1/2007","Female"],3949309);
+  birds[j++] = new myBird("USA","05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Picoides pubescens",[m_id("20160130_007_DownyWoodpecker(M)"),"2007cobirding/20070120_010_DownyWoodpecker(F)"],["mdbhrp","1/2016","Male","mdcocn","1/2007","Female"],3949309);
   birds[j++] = new myBird("USA","06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Picoides villosus",[p_id("1609vtcanbirding",12),p_id("2008cobirding",29)],["calddm","9/2016","Male","mdcorl","5/2008","Female"],3949333);
   birds[j++] = new myBird("USA","15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Picoides borealis",p_id("1509charleston",[2,3]),["sccnwr","9/2015"],3919450);
   birds[j++] = new myBird("USA","13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",[p_id("1307alaskabirding",4)],["akknpp","7/2013"],3949100);
