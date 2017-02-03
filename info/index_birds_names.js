@@ -186,7 +186,7 @@
   birds[j++] = new myBird("USA","15-02-15T15:34","ANATIDAE","Redhead","美洲潜鸭","Aythya americana",[m_id("20150215_008_Redhead")],["mdloch","2/2015","Male left, female right"],3208274);
   birds[j++] = new myBird("USA","15-02-15T15:58","ANATIDAE","Ring-necked Duck","环颈潜鸭","Aythya collaris",[m_id("20150215_012_Ring-neckedDuck"),p_id("1512bhill",17)],["mdloch","2/2015","Males","mdbhrp","2/2015","Males and a female (center)","雄性和一雌性(中间)"],3209526);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Tufted Duck","凤头潜鸭","Aythya fuligula",[m_id("")],["mdbhrp","9/2015"],wikiurl("Tufted duck"),32925);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Greater Scaup","斑背潜鸭","Aythya marila",[m_id("")],["mdcamb","1/2017"],32982);
+//birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Greater Scaup","斑背潜鸭","Aythya marila",[m_id("")],["arbitr","2/2017","Female, Greenbelt Lake, Maryland","雌性，格林贝尔特湖，马里兰州"],32982);
   birds[j++] = new myBird("USA","06-04-09T11:38","ANATIDAE","Lesser Scaup","小潜鸭","Aythya affinis",m_id(["20170121_010_LesserScaup(M)","20170121_011_LesserScaup(F)"]),["mdcamb","1/2017","Male","mdcamb","1/2017","Female"],3206646);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("")],["mdocin","11/2015"],3496658);
   birds[j++] = new myBird("USA","15-05-24T14:43","ANATIDAE","Common Eider","欧绒鸭","Somateria mollissima",[p_id("1505puffin",12),p_id("1505puffin",11),p_id("1512boston",12)],["menewh","5/2015","Male","menewh","5/2015","Female","mahpsp","12/2015","Females and 1st winter males (with white chest)","雌性和一齡冬羽雄性(白胸)"],1154738);
@@ -433,7 +433,7 @@
   birds[j++] = new myBird("USA","16-06-25T11:19","TYTONIDA","Barn Owl","仓鸮","Tyto alba",m_id(["20160625_083_BarnOwl","20160625_082_BarnOwl"]),["nyjbwr","6/2016"],15246);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["arbitr","1/2017","Boyce Mayview Park, Upper St. Clair, Pennsylvania","上圣克莱尔镇博伊斯梅渭公园，宾夕法尼亚州"],3859920);
   birds[j++] = new myBird("USA","16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"],3838605);
-//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["arbitr","1/2017","Davis Road, Bradford County, Pennsylvania","布拉德福德郡戴维斯路，宾夕法尼亚州"],1483);
+//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("")],["arbitr","2/2017","Davis Road, Bradford County, Pennsylvania","布拉德福德郡戴维斯路，宾夕法尼亚州"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
   birds[j++] = new myBird("USA","06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],3886420);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["arbitr","3/2017","Middle Creek Wildlife Management Area, Pennsylvania","中溪野生动物管理区，宾夕法尼亚州"],18105);
