@@ -216,7 +216,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",[m_id("")],["mdbhrp","9/2015"],2990680);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",[m_id("")],["vtwwma","9/2015"],5869659);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",[m_id("")],["mdbhrp","9/2015"],5869671);
-//birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"],-10410);
   birds[j++] = new myBird("USA","16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"],37220);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",[p_id("1604asheville",1)],["flmahp","6/2016","Male"],108688);
   birds[j++] = new myBird("USA","16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[m_id("20160326_025_Red-throatedLoon(WP)")],["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头"],139852);
@@ -472,12 +472,12 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","BUCORVID","Southern Ground Hornbill","红脸地犀鸟","Bucorvus leadbeateri",[m_id("")],["mdbhrp","9/2015"],713287);
 //birds[j++] = new myBird("   ","17-00-00T00:00","BUCEROTI","African Grey Hornbill","黑嘴弯嘴犀鸟","Lophoceros nasutus",[m_id("")],["mdbhrp","9/2015"],4886919);
 //birds[j++] = new myBird("   ","17-00-00T00:00","GALBULID","Rufous-tailed Jacamar","棕尾鹟鴷","Galbula ruficauda",[m_id("")],["mdbhrp","9/2015"],713296);
-//birds[j++] = new myBird("   ","17-00-00T00:00","BUCCONID","White-necked Puffbird","白颈蓬头鴷","Notharchus hyperrhynchus",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("   ","17-00-00T00:00","CAPITONI","Scarlet-crowned Barbet","红顶须鴷","Capito aurovirens",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("   ","17-00-00T00:00","BUCCONID","White-necked Puffbird","白颈蓬头鴷","Notharchus hyperrhynchus",[m_id("")],["mdbhrp","9/2015"],-10252);
+//birds[j++] = new myBird("   ","17-00-00T00:00","CAPITONI","Scarlet-crowned Barbet","红顶须鴷","Capito aurovirens",[m_id("")],["mdbhrp","9/2015"],-10210);
 //birds[j++] = new myBird("   ","17-00-00T00:00","SEMNORNI","Toucan Barbet","巨嘴拟鴷","Semnornis ramphastinus",[m_id("")],["mdbhrp","9/2015"],3263685);
 //birds[j++] = new myBird("   ","17-00-00T00:00","RAMPHAST","Green-billed Toucan","红胸巨嘴鸟","Ramphastos dicolorus",[m_id("")],["mdbhrp","9/2015"],2541735);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MEGALAIM","Great Barbet","大拟啄木鸟","Megalaima virens",[m_id("")],["mdbhrp","9/2015"],243041);
-//birds[j++] = new myBird("   ","17-00-00T00:00","LYBIIDAE","Grey-throated Barbet","灰喉拟鴷","Gymnobucco bonapartei",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("   ","17-00-00T00:00","LYBIIDAE","Grey-throated Barbet","灰喉拟鴷","Gymnobucco bonapartei",[m_id("")],["mdbhrp","9/2015"],-10120);
 //birds[j++] = new myBird("   ","17-00-00T00:00","INDICATO","Yellow-rumped Honeyguide","黄腰响蜜鴷","Indicator xanthonotus",[m_id("")],["mdbhrp","9/2015"],287213);
   birds[j++] = new myBird("USA","14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",[m_id("20140531_002_Red-headedWoodpecker")],["arbitr","5/2014","Piney Grove Preserve, Sussex County, Virginia","萨塞克斯郡松林保护区，弗吉尼亚州"],3912932);
   birds[j++] = new myBird("USA","15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",[p_id("1507birdingwest",37)],["cayokp","7/2015","Male"],986912);
