@@ -402,9 +402,9 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",[m_id("")],["njblsp","3/2015"],4821400);
   birds[j++] = new myBird("USA","15-09-06T08:36","LARIDAE ","Black Skimmer","黑剪嘴鸥","Rynchops niger",[p_id("1606florida",26),m_id("20151004_105_BlackSkimmer(I)")],["scbwma","6/2016","mdocci","10/2015","Immature"],706277);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",[m_id("")],["mdocin","10/2015"],cornellurl(167381),853265);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Dovekie","侏海雀","Alle alle",[m_id("")],["scpitt","9/2015"],2572520);
+//birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Dovekie","侏海雀","Alle alle",[m_id("")],["deinri","2/2017"],2572520);
   birds[j++] = new myBird("USA","15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["orcanb","7/2015"],4820733);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",[m_id("")],["ncoutb","3/2016"],706280);
+//birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",[m_id("")],["deinri","2/2017"],706280);
   birds[j++] = new myBird("USA","15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",[p_id("1505puffin",18)],["meeeri","5/2015"],4825223);
   birds[j++] = new myBird("USA","15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",[p_id("1507birdingwest",17)],["wacape","7/2015"],1507063);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",["1505puffin/"],["meeeri","5/2015"],853959);
@@ -838,7 +838,7 @@
   birds[j++] = new myBird("USA","13-07-17T18:46","EMBERIZI","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8)],["arbitr","7/2013","Potter Marsh, Anchorage, Alaska","安克雷奇波特沼泽，阿拉斯加州"],4724003);
   birds[j++] = new myBird("USA","16-07-16T07:02","EMBERIZI","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdolan","7/2016","mdolan","7/2016","Immature"],7850885);
 //birds[j++] = new myBird("USA","17-00-00T00:00","EMBERIZI","Henslow's Sparrow","亨氏草鹀","Ammodramus henslowii",[m_id("")],["arbitr","5/2017","Flight 93 National Memorial, Pennsylvania","联合航空93号国家纪念馆，宾夕法尼亚州"],4746039);
-//birds[j++] = new myBird("USA","17-00-00T00:00","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",[m_id("")],["ilroll","11/2016"],7850648);
+//birds[j++] = new myBird("USA","17-00-00T00:00","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",[m_id("")],["deinri","2/2017"],7850648);
   birds[j++] = new myBird("USA","16-05-29T15:00","EMBERIZI","Saltmarsh Sparrow","尖尾沙鹀","Ammodramus caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"],4723991);
   birds[j++] = new myBird("USA","16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
   birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015","Red form","红色形"],4745996);
