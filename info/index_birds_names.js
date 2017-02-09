@@ -73,7 +73,6 @@
   locs["melocp"] = ["Lobster Cove Preserve","Boothbay Harbor, Maine","布斯贝港龙虾湾保护区","缅因州","http://www.bbrlt.org/documents/LobsterCoveGuide.pdf"];
   locs["menewh"] = ["New Harbor","Maine","新港","缅因州",wikiurl("New Harbor, Maine")];
   locs["mimack"] = ["Mackinac Island","Michigan","麦基诺岛","密西根州",wikiurl("Mackinac Island"),baikeurl(1929320)]; 
-  locs["miprnl"] = ["Painted Rocks National Lakeshore","Michigan","画石国家湖岸","密西根州","http://www.nps.gov/piro/index.htm"];
   locs["ncbpkw"] = ["Blue Ridge Parkway","North Carolina","蓝岭公路","北卡罗来纳州","https://www.nps.gov/blri/",baikeurl(637331)]; 
   locs["nccrsp"] = ["Chimney Rock State Park","North Carolina","烟囱岩州立公园","北卡罗来纳州","http://www.chimneyrockpark.com/"];  
   locs["ncoutb"] = ["Outer Banks","North Carolina","外滩","北卡罗来纳州",wikiurl("Outer Banks"),baikeurl(1840917)];
@@ -607,7 +606,7 @@
   birds[j++] = new myBird("USA","06-04-15T11:43","CORVIDAE","American Crow","短嘴鸦","Corvus brachyrhynchos",["2006cobirding/AmericanCrow_20060415_008"],["mdcocn","4/2006","",""," at Great Falls","大瀑布一带"],3961482);
   birds[j++] = new myBird("USA","15-07-09T13:40","CORVIDAE","Northwestern Crow","北美乌鸦","Corvus caurinus",[p_id("1507birdingwest",23)],["wahobb","7/2015"],3961567);
   birds[j++] = new myBird("USA","15-03-29T08:49","CORVIDAE","Fish Crow","鱼鸦","Corvus ossifragus",[m_id("20150329_048_FishCrow")],["arbitr","3/2015","Ford's Landing Park, Alexandria, Virginia","亚历山大市福特码头公园，弗吉尼亚州"],3971836);
-  birds[j++] = new myBird("USA","14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",p_id("1407michiganbirding",[4,5]),["miprnl","7/2014"],[274388,8696757]);
+  birds[j++] = new myBird("USA","14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",p_id("1407michiganbirding",[4,5]),["arbitr","7/2014","Painted Rocks National Lakeshore, Michigan","画石国家湖岸，密西根州"],[274388,8696757]);
 //birds[j++] = new myBird("   ","17-00-00T00:00","CORCORAC","White-winged Chough","白翅澳鸦","Corcorax melanorhamphos",[m_id("")],["mdbhrp","9/2015"],3961287);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MELAMPIT","Lesser Melampitta","小黑脚风鸟","Melampitta lugubris",[m_id("")],["mdbhrp","9/2015"],4800186);
 //birds[j++] = new myBird("   ","17-00-00T00:00","IFRITIDA","Blue-capped Ifrit","蓝顶鹛鸫","Ifrita kowaldi",[m_id("")],["mdbhrp","9/2015"],4851397);
