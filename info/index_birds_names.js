@@ -490,7 +490,7 @@
   birds[j++] = new myBird("USA","05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Picoides pubescens",[m_id("20160130_007_DownyWoodpecker(M)"),"2007cobirding/20070120_010_DownyWoodpecker(F)"],["mdbhrp","1/2016","Male","mdcocn","1/2007","Female"],3949309);
   birds[j++] = new myBird("USA","06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Picoides villosus",[p_id("1609vtcanbirding",12),p_id("2008cobirding",29)],["calddm","9/2016","Male","mdcorl","5/2008","Female"],3949333);
   birds[j++] = new myBird("USA","15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Picoides borealis",p_id("1509charleston",[2,3]),["sccnwr","9/2015"],3919450);
-  birds[j++] = new myBird("USA","13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",[p_id("1307alaskabirding",4)],["akknpp","7/2013"],3949100);
+  birds[j++] = new myBird("USA","13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",[p_id("1307alaskabirding",4)],["akknpp","7/2013","Female"],3949100);
   birds[j++] = new myBird("USA","16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背啄木鸟","Picoides arcticus",p_id("1609vtcanbirding",[4,5]),["vtwwma","9/2016","Female"],3919407);
   birds[j++] = new myBird("USA","08-12-13T15:36","PICIDAE ","Northern Flicker","北扑翅鴷","Colaptes auratus",[p_id("1412mckee-beshers",13),m_id("20160625_085_NorthernFlicker(F)")],["mdmwma","10/2014","Male, yellow-shafted","黄色雄性","nyjbwr","6/2016","Female, yellow-shafted","黄色雌性"],3945688);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PICIDAE ","Gilded Flicker","黄扑翅鴷","Colaptes chrysoides",[m_id("")],["mdbhrp","9/2015"],3905287);
