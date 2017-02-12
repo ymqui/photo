@@ -1,8 +1,8 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-02-05T18:00:00");
-  var modirange = 2;  		//range within modiDate in days
-  var modiindx  = [2,1,0];	//index of which modibird to be shown first
+  var modiDate  = new Date("2017-02-12T18:00:00");
+  var modirange = 2;  	//range within modiDate in days
+  var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -749,7 +749,7 @@
   birds[j++] = new myBird("CHN","16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",[p_id("1601china",27)],["cnjsxp","1/2016","Female"],57441);
   birds[j++] = new myBird("USA","14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",m_id(["20161016_104_PurpleFinch(M)","20161106_115_PurpleFinch(F)"]),["mdbhrp","10/2016","Male","mdcrvp","11/2016","Female"],4753497);
   birds[j++] = new myBird("USA","06-08-11T17:33","FRINGILL","House Finch","家朱雀","Carpodacus mexicanus",p_id("1412mckee-beshers",[1,35,2]),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female"],4753501);
-//birds[j++] = new myBird("USA","17-00-00T00:00","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("")],["arbitr","2/2017","Owl Creek Park, Schuylkill County, Pennsylvania","斯古吉尔郡鸮河公园，宾夕法尼亚州"],71619);
+  birds[j++] = new myBird("USA","17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("20170211_020_RedCrossbill")],["arbitr","2/2017","Owl Creek Park, Schuylkill County, Pennsylvania","斯古吉尔郡鸮河公园，宾夕法尼亚州"],71619);
 //birds[j++] = new myBird("USA","17-00-00T00:00","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("")],["vtwwma","9/2016"],661414);
   birds[j++] = new myBird("USA","15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7)],["mdbhrp","1/2015","Female on the left (a "+b_link("Pine Siskin")+" on the right)","雌性(左边，右边是一只"+b_link("松金翅雀")+")"],57079);
   birds[j++] = new myBird("USA","15-01-20T08:48","FRINGILL","Pine Siskin","松金翅雀","Spinus pinus",[p_id("1512bhill",7)],["mdbhrp","1/2015","On the right (a female "+b_link("Common Redpoll")+" on the left)","右边(左边是一只雌性"+b_link("白腰朱顶雀")+")"],4752047);
@@ -837,7 +837,7 @@
   birds[j++] = new myBird("USA","13-07-17T18:46","EMBERIZI","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8)],["arbitr","7/2013","Potter Marsh, Anchorage, Alaska","安克雷奇波特沼泽，阿拉斯加州"],4724003);
   birds[j++] = new myBird("USA","16-07-16T07:02","EMBERIZI","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdolan","7/2016","mdolan","7/2016","Immature"],7850885);
 //birds[j++] = new myBird("USA","17-00-00T00:00","EMBERIZI","Henslow's Sparrow","亨氏草鹀","Ammodramus henslowii",[m_id("")],["arbitr","5/2017","Flight 93 National Memorial, Pennsylvania","联合航空93号国家纪念馆，宾夕法尼亚州"],4746039);
-//birds[j++] = new myBird("USA","17-00-00T00:00","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",[m_id("")],["deinri","2/2017"],7850648);
+  birds[j++] = new myBird("USA","17-02-12T11:54","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",m_id(["20170212_023_Nelson'sSparrow","20170212_024_Nelson'sSparrow"]),["deinri","2/2017"],7850648);
   birds[j++] = new myBird("USA","16-05-29T15:00","EMBERIZI","Saltmarsh Sparrow","尖尾沙鹀","Ammodramus caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"],4723991);
   birds[j++] = new myBird("USA","16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
   birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015","Red form","红色形"],4745996);
