@@ -297,7 +297,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"],3724576);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",[m_id("")],["mdbhrp","9/2015"],1123648);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[m_id("")],["mdbhrp","9/2015"],12074495);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",[m_id("")],["mdbhrp","9/2015"],14344);
+//birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",[m_id("")],["arbitr","2/2017","Immature, Pickering Creek Audubon Center, Talbot County, Maryland","未成年，塔尔博特郡皮克林河奥杜邦鸟类中心，马里兰州"],14344);
   birds[j++] = new myBird("CHN","16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",[p_id("1601china",67)],["cnbjsp","1/2016"],14225);
 //birds[j++] = new myBird("   ","17-00-00T00:00","OTIDIDAE","White-bellied Bustard","蓝鸨","Eupodotis senegalensis",[m_id("")],["mdbhrp","9/2015"],2450162);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[m_id("")],["mdbhrp","9/2015"],1610568);
