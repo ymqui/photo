@@ -21,10 +21,12 @@ function initAlbum(){
     i = 0;
     this[0][i]   = "20170128_001_OvulationTest";
     this[1][i++] = "1/28/2017 Ovulation test.";
+    this[0][i]   = "20170215_002_PregnancyTest";
+    this[1][i++] = "2/15/2017 Pregnancy test.";
     if(window.usechinese){
         i = 0;
         this[1][i++] = "1/28/2017 排卵测试。";
-        //this[1][i++] = "2/14/2017 怀孕测试。";
+        this[1][i++] = "2/15/2017 怀孕测试。";
     }
 }
  
