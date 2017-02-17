@@ -224,6 +224,7 @@
 //birds[j++] = new myBird("ATA","17-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],71507);
 //birds[j++] = new myBird("ATA","17-00-00T00:00","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[m_id("")],["mdbhrp","9/2015"],71334);
 //birds[j++] = new myBird("ATA","17-00-00T00:00","SPHENISC","Gentoo Penguin","巴布亚企鹅","Pygoscelis papua",[m_id("")],["mdbhrp","9/2015"],539244);
+//birds[j++] = new myBird("   ","17-00-00T00:00","SPHENISC","African Penguin","非洲企鹅","Spheniscus demersus",[m_id("")],["mdbhrp","9/2015"],1448601);
   birds[j++] = new myBird("USA","16-06-18T09:35","OCEANITI","Wilson's Storm-Petrel","黄蹼洋海燕","Oceanites oceanicus",[m_id("20160618_076_Wilson'sStorm-Petrel")],["arbitr","6/2016","Cape May-Lewes Ferry, Delaware/New Jersey","五月岬-刘易斯轮渡，特拉华州/新泽西州"],cornellurl(103516),269388);
 //birds[j++] = new myBird("USA","17-00-00T00:00","OCEANITI","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Oceanodroma furcata",[m_id("")],["mdbhrp","9/2015"],4982833);
 //birds[j++] = new myBird("USA","17-00-00T00:00","DIOMEDEI","Laysan Albatross","黑背信天翁","Phoebastria immutabilis",[m_id("")],["mdbhrp","9/2015"],855484);
