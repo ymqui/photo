@@ -285,7 +285,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","White-tailed Kite","白尾鸢","Elanus leucurus",[m_id("")],["flevnp","9/2015"],3565553);
   birds[j++] = new myBird("USA","11-12-27T17:06","ACCIPITR","Snail Kite","食螺鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4)],["flevnp","12/2011","Female"],668147);
   birds[j++] = new myBird("USA","15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[p_id("1509charleston",15)],["scpatp","9/2015","Immature"],3697232);
-  birds[j++] = new myBird("USA","05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",["0510birding/0510birding__13",m_id("20170108_005_BaldEagle(I)")],["mdbnwr","10/2005","mdmapp","1/2017","Immature"],296826);
+  birds[j++] = new myBird("USA","05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",m_id(["20170225_025_BaldEagle","20170108_005_BaldEagle(I)"]),["mdswhf","2/2017","mdmapp","1/2017","Immature"],296826);
   birds[j++] = new myBird("USA","13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus cyaneus",[p_id("1612savannah",4),m_id("20161204_132_NorthernHarrier(I)")],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"],32735);
   birds[j++] = new myBird("USA","11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",m_id(sas(["20150215_013","20150215_014","20161106_117"],"_Sharp-shinnedHawk",["","","(I)"])),["mdcrvp","2/2015","mdcrvp","2/2015","mdcrvp","11/2016","Immature"],11614189);
   birds[j++] = new myBird("USA","14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id("20141228_006_CooperHawk"),m_id("20141228_007_CooperHawk"),p_id("1507birdingwest",3)],["mdgerm","12/2014","mdgerm","12/2014","nvdnwr","7/2015","Immature"],11593052);
