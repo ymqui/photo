@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-02-12T18:00:00");
+  var modiDate  = new Date("2017-03-04T18:00:00");
   var modirange = 2;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
@@ -404,7 +404,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",[m_id("")],["mdocin","10/2015"],cornellurl(167381),853265);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Dovekie","侏海雀","Alle alle",[m_id("")],["deinri","2/2017"],2572520);
   birds[j++] = new myBird("USA","15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["orcanb","7/2015"],4820733);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",[m_id("")],["deinri","2/2017"],706280);
+  birds[j++] = new myBird("USA","17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026_Razorbill","20170304_027_Razorbill"]),["mdocin","3/2017","Nonbreeding adult"],706280);
   birds[j++] = new myBird("USA","15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",[p_id("1505puffin",18)],["meeeri","5/2015"],4825223);
   birds[j++] = new myBird("USA","15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",[p_id("1507birdingwest",17)],["wacape","7/2015"],1507063);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",["1505puffin/"],["meeeri","5/2015"],853959);
