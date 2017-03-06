@@ -404,7 +404,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",[m_id("")],["mdocin","10/2015"],cornellurl(167381),853265);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Dovekie","侏海雀","Alle alle",[m_id("")],["deinri","2/2017"],2572520);
   birds[j++] = new myBird("USA","15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["orcanb","7/2015"],4820733);
-  birds[j++] = new myBird("USA","17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026_Razorbill","20170304_027_Razorbill"]),["mdocin","3/2017","Nonbreeding adult"],706280);
+  birds[j++] = new myBird("USA","17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026_Razorbill","20170304_027_Razorbill"]),["mdocin","3/2017","Nonbreeding adults"],706280);
   birds[j++] = new myBird("USA","15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",[p_id("1505puffin",18)],["meeeri","5/2015"],4825223);
   birds[j++] = new myBird("USA","15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",[p_id("1507birdingwest",17)],["wacape","7/2015"],1507063);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",["1505puffin/"],["meeeri","5/2015"],853959);
@@ -844,7 +844,7 @@
   birds[j++] = new myBird("USA","16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
   birds[j++] = new myBird("USA","15-04-05T07:51","EMBERIZI","Fox Sparrow","狐色雀鹀","Passerella iliaca",[m_id("20150405_051_FoxSparrow")],["mdbmnt","4/2015","Red form","红色形"],4745996);
   birds[j++] = new myBird("USA","06-03-04T15:56","EMBERIZI","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20161112_121_SongSparrow","20161030_108_SongSparrow"]),["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic"],4745315);
-  birds[j++] = new myBird("USA","17-03-05T09:21","EMBERIZI","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",m_id(["20170305_029_Lincoln'sSparrow","20170305_030_Lincoln'sSparrow"]),["arbitr","3/2017","Occoquan Bay National Wildlife Refuge, Virginia","奥科宽湾国家野生动物保护区，弗吉尼亚州"],4745989);
+  birds[j++] = new myBird("USA","17-03-05T09:21","EMBERIZI","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",m_id(["20170305_030_Lincoln'sSparrow","20170305_029_Lincoln'sSparrow"]),["arbitr","3/2017","Occoquan Bay National Wildlife Refuge, Virginia","奥科宽湾国家野生动物保护区，弗吉尼亚州"],4745989);
   birds[j++] = new myBird("USA","06-02-19T13:42","EMBERIZI","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
   birds[j++] = new myBird("USA","06-02-16T16:03","EMBERIZI","White-throated Sparrow","白喉带鹀","Zonotrichia albicollis",m_id(["20161030_109_White-throatedSparrow","20161113_123_White-throatedSparrow"]),["mdmwma","10/2016","mdbmnt","11/2016"],4744945);
   birds[j++] = new myBird("USA","15-07-09T13:51","EMBERIZI","White-crowned Sparrow","白冠带鹀","Zonotrichia leucophrys",[p_id("1507birdingwest",25),m_id("20160131_011_White-crownedSparrow")],["wahobb","7/2015","mdcapc","1/2016"],4745340);
