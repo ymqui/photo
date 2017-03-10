@@ -9,7 +9,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
  
 if(window.usechinese){
-    title      = "球球的照片";
+    title      = "棉花球的照片";
 }
  
 document.title = title;
@@ -23,13 +23,13 @@ function initAlbum(){
     this[1][i++] = "1/28/2017 Ovulation test.";
     this[0][i]   = "20170215_002_PregnancyTest";
     this[1][i++] = "2/15/2017 Pregnancy test.";
-    //this[0][i]   = "20170215_002_PregnancyTest";
-    //this[1][i++] = "3/9/2017 Sonogram at MedStar Montgomery Medical Center.";
+    this[0][i]   = "20170309_003_Sonogram";
+    this[1][i++] = "3/9/2017 Sonogram at MedStar Montgomery Medical Center.";
     if(window.usechinese){
         i = 0;
         this[1][i++] = "1/28/2017 排卵测试。";
         this[1][i++] = "2/15/2017 怀孕测试。";
-        //this[1][i++] = "3/9/2017 在蒙哥马利医疗中心做超声波检查，看到和听到了胎儿的心跳。";
+        this[1][i++] = "3/9/2017 在蒙哥马利医疗中心做超声波检查，看到和听到了胎儿的心跳。";
     }
 }
  
