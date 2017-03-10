@@ -20,16 +20,16 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     this[0][i]   = "20170128_001_OvulationTest";
-    this[1][i++] = "1/28/2017 Ovulation test.";
+    this[1][i++] = "Ovulation test, 1/28/2017.";
     this[0][i]   = "20170215_002_PregnancyTest";
-    this[1][i++] = "2/15/2017 Pregnancy test.";
+    this[1][i++] = "Pregnancy test, 2/15/2017.";
     this[0][i]   = "20170309_003_Sonogram";
-    this[1][i++] = "3/9/2017 Sonogram at MedStar Montgomery Medical Center.";
+    this[1][i++] = "Sonogram at MedStar Montgomery Medical Center, 3/9/2017.";
     if(window.usechinese){
         i = 0;
-        this[1][i++] = "1/28/2017 排卵测试。";
-        this[1][i++] = "2/15/2017 怀孕测试。";
-        this[1][i++] = "3/9/2017 在蒙哥马利医疗中心做超声波检查，看到和听到了胎儿的心跳。";
+        this[1][i++] = "排卵测试，1/28/2017。";
+        this[1][i++] = "怀孕测试，2/15/2017。";
+        this[1][i++] = "在蒙哥马利医疗中心做超声波检查，看到和听到了胎儿的心跳，3/9/2017。";
     }
 }
  
