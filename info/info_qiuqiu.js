@@ -20,9 +20,9 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     this[0][i]   = "20170128_001_OvulationTest";
-    this[1][i++] = "Ovulation test, 1/28/2017.";
+    this[1][i++] = "Positive ovulation test, 1/28/2017.";
     this[0][i]   = "20170215_002_PregnancyTest";
-    this[1][i++] = "Pregnancy test, 2/15/2017.";
+    this[1][i++] = "Positive pregnancy test, 2/15/2017.";
     this[0][i]   = "20170309_003_Sonogram";
     this[1][i++] = "Sonogram at MedStar Montgomery Medical Center, 3/9/2017.";
     if(window.usechinese){
