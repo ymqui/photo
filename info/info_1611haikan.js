@@ -27,17 +27,17 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "Haikan is the sister restaurant to Daikaya and Bantam King in DC.";
-        this[1][1] = "Crab rangoon.";
-        this[1][2] = "Shio ramen.";
-        this[1][3] = "Shio ramen.";
-        this[1][4] = "Shoyu ramen.";
-    }else{
         this[1][0] = "华盛顿的Haikan面馆，大锅屋面馆和鸡王拉面馆都是由同一个老板开的。";
         this[1][1] = "炸蟹角。";
         this[1][2] = "咸汤拉面。";
         this[1][3] = "咸汤拉面。";
         this[1][4] = "酱汤拉面。";
+    }else{
+        this[1][0] = "Haikan is the sister restaurant to Daikaya and Bantam King in DC.";
+        this[1][1] = "Crab rangoon.";
+        this[1][2] = "Shio ramen.";
+        this[1][3] = "Shio ramen.";
+        this[1][4] = "Shoyu ramen.";
     }
 }
  
