@@ -69,7 +69,7 @@
   locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
   locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","伍斯特郡特鲁伊特码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
-  locs["meeeri"] = ["Eastern Egg Rock Island","Maine","东蛋岩岛","缅因州","http://www.mainebirdingtrail.com/Eastern%20Egg%20Rock.htm"];
+  locs["meeeri"] = ["Eastern Egg Rock Island","Maine","东蛋岩岛","缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"];
   locs["melocp"] = ["Lobster Cove Preserve","Boothbay Harbor, Maine","布斯贝港龙虾湾保护区","缅因州","http://www.bbrlt.org/documents/LobsterCoveGuide.pdf"];
   locs["menewh"] = ["New Harbor","Maine","新港","缅因州",wikiurl("New Harbor, Maine")];
   locs["mimack"] = ["Mackinac Island","Michigan","麦基诺岛","密西根州",wikiurl("Mackinac Island"),baikeurl(1929320)]; 
