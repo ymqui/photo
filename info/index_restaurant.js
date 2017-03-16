@@ -366,6 +366,11 @@
   info[2][j] = 2;
   info[3][j] = "7/2016 Oki Bowl";
   info[4][j++] = "Oki Bowl DC in Washington(DC).";
+  info[0][j] = "1611haikan";
+  info[1][j] = 3;
+  info[2][j] = 2;
+  info[3][j] = "11/2016 Haikan Ramen";
+  info[4][j++] = "Haikan Ramen Restaurant in Washington(DC).";
 
   if(window.usechinese){
      j = 0;
@@ -511,6 +516,8 @@
      info[4][j++] = "在华盛顿鸡王拉面馆吃拉面（哥伦比亚特区）。";
      info[3][j]   = "7/2016 Oki Bowl";
      info[4][j++] = "在华盛顿Oki Bowl餐馆吃拉面（哥伦比亚特区）。";
+     info[3][j]   = "11/2016 Haikan面馆";
+     info[4][j++] = "在华盛顿Haikan面馆吃拉面（哥伦比亚特区）。";
   } 
 
   //special touch
@@ -525,5 +532,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2016-10-10T10:00:00");
+  var modiDate = new Date("2016-11-26T10:00:00");
 //-->
