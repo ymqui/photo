@@ -354,7 +354,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[m_id("")],["nyjbwr","6/2016"],276982);
   birds[j++] = new myBird("USA","15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"],5413873);
   birds[j++] = new myBird("USA","15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20151031_114_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["mdocci","10/2015","",""," Sunset Park","日落公园","mdocin","10/2015"],272028);
-//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("")],["nyjbwr","6/2016"],300484);
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("")],["arbitr","5/2017","DuPont Nature Center, Delaware","杜邦自然中心，特拉华州"],300484);
   birds[j++] = new myBird("USA","15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["gatybe","12/2016","Winter plumage","arbitr","9/2015","Juvenile, Fort Moultrie, South Carolina","未成年，莫尔特里堡，南卡罗来纳州"],300486);
   birds[j++] = new myBird("USA","15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[p_id("1505bombayhook",8)],["debnwr","5/2015"],4938313);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"],852859);
