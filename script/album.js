@@ -39,6 +39,7 @@ if(window.blocksave && (!googledrive)){
 
 if(!window.index){
     var index = 0;      //default starting from file 0
+    if (window.startfromlast) index = 1e6;
 }
 
 function init(){
