@@ -89,7 +89,7 @@ function initAlbum(){
         this[1][59] = "白鹡鸰，福建厦门集美。";
         this[1][60] = "普通鸬鹚，福建厦门集美。";
         this[1][61] = "红嘴巨鸥，福建厦门集美。";
-        this[1][62] = "绿鹭，未成年，福建厦门集美。";
+        this[1][62] = "池鹭，冬羽，福建厦门集美。";
         this[1][63] = "大嘴乌鸦，北京颐和园。";
         this[1][64] = "大嘴乌鸦，北京颐和园。";
         this[1][65] = "喜鹊，北京颐和园。";
@@ -162,7 +162,7 @@ function initAlbum(){
         this[1][59] = "White Wagtail, Jimei, Xiamen, Fujian.";
         this[1][60] = "Great Cormorant, Jimei, Xiamen, Fujian.";
         this[1][61] = "Caspian Tern, Jimei, Xiamen, Fujian.";
-        this[1][62] = "Striated Heron, immature, Jimei, Xiamen, Fujian.";
+        this[1][62] = "Chinese Pond Heron, winter plumage, Jimei, Xiamen, Fujian.";
         this[1][63] = "Large-billed Crow, Summer Palace, Beijing.";
         this[1][64] = "Large-billed Crow, Summer Palace, Beijing.";
         this[1][65] = "Eurasian Magpie, Summer Palace, Beijing.";
