@@ -964,8 +964,8 @@
            }
         }
         if (typeof url == "string"){
-           if (window.usechinese && (url.match(/[\u3400-\u9FFF]/))){
-              this.url = baikeurl(url);
+           if (url.match(/[\u3400-\u9FFF]/)){
+              if (window.usechinese) this.url = baikeurl(url);
            }else{
               this.url = url;
            }
