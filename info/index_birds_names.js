@@ -253,7 +253,7 @@
   birds[j++] = new myBird("USA","06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"],2785783);
   birds[j++] = new myBird("USA","05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",p_id("1412mckee-beshers",[4,5]),["mdmwma","8/2014"],2767273);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","ARDEIDAE","Striated Heron","绿鹭","Butorides striata",[p_id("1601china",63)],["cnxmjm","1/2016"],70063);
-  birds[j++] = new myBird("CHN","16-01-13T16:26","ARDEIDAE","Chinese Pond Heron","池鹭","Ardeola bacchus",[p_id("1601china",63)],["cnxmjm","1/2016","Winter plumage"],-12145);
+  birds[j++] = new myBird("CHN","16-01-13T16:26","ARDEIDAE","Chinese Pond Heron","池鹭","Ardeola bacchus",[p_id("1601china",63)],["cnxmjm","1/2016","Winter plumage"],"池鹭");
   birds[j++] = new myBird("USA","15-01-02T10:21","ARDEIDAE","Cattle Egret","牛背鹭","Bubulcus ibis",[p_id("1501prbirding",9)],["prrinc","1/2015"],90212);
   birds[j++] = new myBird("CHN","16-01-13T15:31","ARDEIDAE","Grey Heron","苍鹭","Ardea cinerea",[p_id("1601china",57)],["cnxmjm","1/2016"],13625);
   birds[j++] = new myBird("USA","05-11-26T14:09","ARDEIDAE","Great Blue Heron","大蓝鹭","Ardea herodias",[m_id("20160731_089_GreatBlueHeron"),p_id("0511assateague",26)],["vahump","7/2016","vacnwr","11/2005"],1783500);
@@ -964,7 +964,11 @@
            }
         }
         if (typeof url == "string"){
-           this.url = url;
+           if (window.usechinese && (url.match(/[\u3400-\u9FFF]/))){
+              this.url = baikeurl(url);
+           }else{
+              this.url = url;
+           }
         }else if(window.usechinese){
            this.url = baikeurl(url);
         }
@@ -1171,6 +1175,9 @@
         }else{
            bid = bid[0];
         } 
+     }
+     if (typeof bid == "string"){
+        return "http://baike.baidu.com/item/"+bid;
      }
      if (bid>0) {
         return "http://baike.baidu.com/view/"+bid.toString()+".htm";
