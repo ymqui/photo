@@ -249,8 +249,12 @@
   birds[j++] = new myBird("USA","05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scbwma","6/2016"],341508);
   birds[j++] = new myBird("USA","15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdnpsp","4/2015","cactnw","9/2016","cactnw","9/2016"],2764197);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("")],["vadmwp","8/2015"],2783545);
+  birds[j++] = new myBird("USA","06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",[m_id("20160625_081_Black-crownedNight-Heron"),"2006cobirding/Black-crownedNight-Heron_J_20060524_014"],["nyjbwr","6/2016","mdcopl","5/2006","Immature"],[158941,18625898]);
+  birds[j++] = new myBird("USA","06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"],2785783);
+  birds[j++] = new myBird("USA","05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",p_id("1412mckee-beshers",[4,5]),["mdmwma","8/2014"],2767273);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","ARDEIDAE","Striated Heron","绿鹭","Butorides striata",[p_id("1601china",63)],["cnxmjm","1/2016"],70063);
   birds[j++] = new myBird("CHN","16-01-13T16:26","ARDEIDAE","Chinese Pond Heron","池鹭","Ardeola bacchus",[p_id("1601china",63)],["cnxmjm","1/2016","Winter plumage"],-12145);
+  birds[j++] = new myBird("USA","15-01-02T10:21","ARDEIDAE","Cattle Egret","牛背鹭","Bubulcus ibis",[p_id("1501prbirding",9)],["prrinc","1/2015"],90212);
   birds[j++] = new myBird("CHN","16-01-13T15:31","ARDEIDAE","Grey Heron","苍鹭","Ardea cinerea",[p_id("1601china",57)],["cnxmjm","1/2016"],13625);
   birds[j++] = new myBird("USA","05-11-26T14:09","ARDEIDAE","Great Blue Heron","大蓝鹭","Ardea herodias",[m_id("20160731_089_GreatBlueHeron"),p_id("0511assateague",26)],["vahump","7/2016","vacnwr","11/2005"],1783500);
   birds[j++] = new myBird("USA","05-10-30T09:26","ARDEIDAE","Great Egret","大白鹭","Ardea alba",[p_id("0511assateague",27),p_id("1111chincoteague",12)],["vacnwr","11/2005","vacnwr","11/2011"],260953);
@@ -259,10 +263,6 @@
   birds[j++] = new myBird("USA","05-12-25T16:18","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",[p_id("1112floridabirding",14),p_id("1312savannahbirding",4)],["flevnp","12/2011","scsnwr","12/2013","Immature"],2773665);
   birds[j++] = new myBird("USA","05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[p_id("1112floridabirding",18),p_id("0512everglades",20)],["flevnp","12/2011","flevnp","12/2005"],2776050);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[m_id("")],["mdocci","10/2015","Immature",""," Skimmer Island","剪嘴鸥岛"],2772656);
-  birds[j++] = new myBird("USA","15-01-02T10:21","ARDEIDAE","Cattle Egret","牛背鹭","Bubulcus ibis",[p_id("1501prbirding",9)],["prrinc","1/2015"],90212);
-  birds[j++] = new myBird("USA","05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",p_id("1412mckee-beshers",[4,5]),["mdmwma","8/2014"],2767273);
-  birds[j++] = new myBird("USA","06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",[m_id("20160625_081_Black-crownedNight-Heron"),"2006cobirding/Black-crownedNight-Heron_J_20060524_014"],["nyjbwr","6/2016","mdcopl","5/2006","Immature"],[158941,18625898]);
-  birds[j++] = new myBird("USA","06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"],2785783);
 //birds[j++] = new myBird("   ","17-00-00T00:00","SCOPIDAE","Hamerkop","锤头鹳","Scopus umbretta",[m_id("")],["mdbhrp","9/2015"],660725);
 //birds[j++] = new myBird("   ","17-00-00T00:00","BALAENIC","Shoebill","鲸头鹳","Balaeniceps rex",[m_id("")],["mdbhrp","9/2015"],326917);
   birds[j++] = new myBird("USA","05-12-28T13:35","PELECANI","American White Pelican","美洲白鹈鹕","Pelecanus erythrorhynchos",[p_id("0512merritt",23)],["flmnwr","12/2005"],4432808);
