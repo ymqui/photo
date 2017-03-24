@@ -978,7 +978,7 @@
                  curl = curl[0];
               }
            }
-           if (typeof curl == "string"){
+           if ((typeof curl == "string") && (!(curl.match(/[\u3400-\u9FFF]/)))){
               this.url = curl;
            }else{
               this.url = baikeurl(curl);
