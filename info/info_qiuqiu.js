@@ -25,12 +25,12 @@ function initAlbum(){
     this[0][i]   = "20170215_002_PregnancyTest";
     this[1][i++] = "Positive pregnancy test, 2/15/2017.";
     this[0][i]   = "20170309_003_Sonogram";
-    this[1][i++] = "Sonogram at MedStar Montgomery Medical Center, 3/9/2017.";
+    this[1][i++] = "Sonogram at MedStar Montgomery Medical Center. Our greatest joy to hear the baby's heartbeat for the first time, 3/9/2017.";
     if(window.usechinese){
         i = 0;
         this[1][i++] = "排卵测试显阳性，1/28/2017。";
         this[1][i++] = "怀孕测试显阳性，2/15/2017。";
-        this[1][i++] = "在蒙哥马利医疗中心做超声波检查，看到和听到了胎儿的心跳，3/9/2017。";
+        this[1][i++] = "在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳，3/9/2017。";
     }
 }
  
