@@ -964,7 +964,7 @@
            }
         }
         if (typeof url == "string"){
-           if (url.match(/[\u3400-\u9FFF]/)){
+           if (!(url.match(/^http/))){
               if (window.usechinese) this.url = baikeurl(url);
            }else{
               this.url = url;
@@ -978,7 +978,7 @@
                  curl = curl[0];
               }
            }
-           if ((typeof curl == "string") && (!(curl.match(/[\u3400-\u9FFF]/)))){
+           if ((typeof curl == "string") && (curl.match(/^http/))){
               this.url = curl;
            }else{
               this.url = baikeurl(curl);
