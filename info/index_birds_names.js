@@ -2,7 +2,7 @@
   //date
   var modiDate  = new Date("2017-04-08T18:00:00");
   var modirange = 10;  	//range within modiDate in days
-  var modiindx  = [0];	//index of which modibird to be shown first
+  var modiindx  = [4,1];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
