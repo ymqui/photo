@@ -324,7 +324,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2016-12-26T12:00:00");
+  var modiDate1 = new Date("2017-04-08T12:00:00");
   if (window.modiDate){
      if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
   }else{
