@@ -1291,6 +1291,11 @@
   info[2][j] = 2;
   info[3][j] = "12/2016 Savannah Birding";
   info[4][j++] = "Birding in Savannah Area(South Carolina, Georgia).";
+  info[0][j] = "1704longyan";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "4/2017 Longyan Birding";
+  info[4][j++] = "Birding in Longyan(Fujian Province, China).";
 
   if(window.usechinese){
      j = 0;
@@ -1806,6 +1811,8 @@
      info[4][j++] = "佛蒙特州和加拿大魁北克省观鸟(佛蒙特州，加拿大魁北克省)。";
      info[3][j]   = "12/2016 萨凡纳观鸟";
      info[4][j++] = "在萨凡纳附近观鸟（南卡罗来纳州，佐治亚州）。";
+     info[3][j]   = "4/2017 龙岩观鸟";
+     info[4][j++] = "中国龙岩观鸟(中国福建省)。";
   } 
 
   //special touch
