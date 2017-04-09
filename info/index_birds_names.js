@@ -416,9 +416,9 @@
   birds[j++] = new myBird("USA","15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[p_id("1501prbirding",46)],["prosan","1/2015"],32553);
 //birds[j++] = new myBird("USA","17-00-00T00:00","COLUMBID","White-crowned Pigeon","白顶鸽","Patagioenas leucocephala",[m_id("")],["mdbhrp","9/2015"],3756071);
 //birds[j++] = new myBird("USA","17-00-00T00:00","COLUMBID","Band-tailed Pigeon","斑尾鸽","Patagioenas fasciata",[m_id("")],["mdbhrp","9/2015"],3755692);
+  birds[j++] = new myBird("CHN","17-04-03T07:11","COLUMBID","Oriental Turtle Dove","山斑鸠","Streptopelia orientalis",[p_id("1704longyan",6)],["cnlydp","4/2017"],"山斑鸠");
   birds[j++] = new myBird("USA","15-01-03T06:48","COLUMBID","African Collared-Dove","粉头斑鸠","Streptopelia roseogrisea",[p_id("1501prbirding",12)],["prponc","1/2015"],3796111);
   birds[j++] = new myBird("USA","15-07-12T10:32","COLUMBID","Eurasian Collared-Dove","灰斑鸠","Streptopelia decaocto",[p_id("1606florida",25)],["arbitr","6/2016","South Beach, Miami, Florida","迈阿密南滩，佛罗里达州"],39688);
-  birds[j++] = new myBird("CHN","17-04-03T07:11","COLUMBID","Oriental Turtle Dove","山斑鸠","Streptopelia orientalis",[p_id("1704longyan",6)],["cnlydp","4/2017"],"山斑鸠");
   birds[j++] = new myBird("CHN","16-01-03T10:00","COLUMBID","Spotted Dove","珠颈斑鸠","Spilopelia chinensis",[p_id("1601china",7)],["cnbjjp","1/2016"],37820);
   birds[j++] = new myBird("USA","15-01-08T10:50","COLUMBID","Zenaida Dove","鸣哀鸽","Zenaida aurita",[p_id("1501prbirding",45)],["prosan","1/2015"],cornellurl(172661),3806186);
   birds[j++] = new myBird("USA","13-12-25T17:15","COLUMBID","White-winged Dove","白翅哀鸽","Zenaida asiatica",[p_id("1312bigbendbirding",10)],["txbbnp","12/2013"],2616801);
