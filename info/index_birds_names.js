@@ -577,7 +577,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","RHAGOLOG","Mottled Berryhunter","斑啸鹟","Rhagologus leucostigma",[m_id("")],["mdbhrp","9/2015"],4863010);
 //birds[j++] = new myBird("   ","17-00-00T00:00","AEGITHIN","Common Iora","黑翅雀鹎","Aegithina tiphia",[m_id("")],["mdbhrp","9/2015"],685744);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","CAMPEPHA","Grey-chinned Minivet","灰喉山椒鸟","Pericrocotus solaris",[p_id("1601china",)],["cnbjjp","1/2016"],275921);
-  birds[j++] = new myBird("CHN","17-04-04T06:42","CAMPEPHA","Scarlet Minivet","赤红山椒鸟","Pericrocotus speciosus",p_id("1704longyan",[14,15]),["cnlydp","4/2017","Female"],275933);
+  birds[j++] = new myBird("CHN","17-04-04T06:42","CAMPEPHA","Scarlet Minivet","赤红山椒鸟","Pericrocotus speciosus",p_id("1704longyan",[15,14]),["cnlydp","4/2017","Female"],275933);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MOHOUIDA","Whitehead","白头刺莺","Mohoua albicilla",[m_id("")],["mdbhrp","9/2015"],4847537);
 //birds[j++] = new myBird("   ","17-00-00T00:00","NEOSITTI","Varied Sittella","杂色澳䴓","Daphoenositta chrysoptera",[m_id("")],["mdbhrp","9/2015"],7151376);
 //birds[j++] = new myBird("   ","17-00-00T00:00","EULACEST","Wattled Ploughbill","肉垂鵙雀鹟","Eulacestoma nigropectus",[m_id("")],["mdbhrp","9/2015"]);
