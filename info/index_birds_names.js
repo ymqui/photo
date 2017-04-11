@@ -718,7 +718,7 @@
   birds[j++] = new myBird("USA","15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[p_id("1507birdingwest",12),m_id("20160924_099_Swainson'sThrush")],["waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道","mdlbwt","9/2016"],4826364);
   birds[j++] = new myBird("USA","06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1612savannah",2)],["scsnwr","12/2016"],4825795);
   birds[j++] = new myBird("USA","15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",[m_id("20150621_078_WoodThrush")],["mdpvsp","6/2015"],4840884);
-  birds[j++] = new myBird("CHN","17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[p_id("1704longyan",2)],["cnlydp","4/2017"],"灰背鸫");
+  birds[j++] = new myBird("CHN","17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[p_id("1704longyan",2)],["cnlydp","4/2017","Male"],"灰背鸫");
 //birds[j++] = new myBird("   ","17-00-00T00:00","TURDIDAE","Common Blackbird","乌鸫","Turdus merula",p_id("1601china",[16,70]),["cnjsxp","1/2016","cnbjsp","1/2016"],69013);
   birds[j++] = new myBird("CHN","16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","1/2016","Male","cnjsxp","1/2016","Female"],[69013,19267064]);
   birds[j++] = new myBird("USA","06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",["2006cobirding/AmericanRobin_20060429_004",p_id("1206brooksidebirding",12),p_id("1204robin",2)],["mdcocn","4/2006","mdbrgd","6/2012","Immature","mdgerm","4/2012"],1448462);
