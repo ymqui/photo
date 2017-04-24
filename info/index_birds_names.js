@@ -367,7 +367,7 @@
   birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","mdasns","11/2015","Winter plumage"],254061);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"],300682);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"],300716);
-//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["mdbhrp","9/2015"],wikiurl("Ruff"),39676);
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["arbitr","4/2017","Augustine Wildlife Area-Port Penn Impoundments, Delaware","奥古斯丁野生动物保护区佩恩港蓄水池，特拉华州"],wikiurl("Ruff"),39676);
   birds[j++] = new myBird("USA","11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"],4928005);
   birds[j++] = new myBird("USA","15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["njweti","5/2015"],3296960);
   birds[j++] = new myBird("USA","16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["arbitr","1/2016","Glade Road, Frederick County, Maryland","弗雷德里克郡格雷德路，马里兰州"],3193898);
