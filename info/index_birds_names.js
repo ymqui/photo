@@ -30,7 +30,6 @@
   locs["deinri"] = ["Indian River Inlet","Delaware","印第安河入海口","特拉华州",wikiurl("Indian River (Delaware)")];
   locs["flbinp"] = ["Biscayne National Park","Florida","比斯坎湾国家公园","佛罗里达州","http://www.nps.gov/bisc/",baikeurl(844205)];
   locs["flbppm"] = ["Black Point Park & Marina","Miami-Dade County, Florida","迈阿密-戴德郡黑角公园及码头","佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"];
-  locs["flbrpp"] = ["Brian Piccolo Park","Fort Lauderdale, Florida","劳德代尔堡布莱恩皮克罗公园","佛罗里达州","http://www.broward.org/Parks/BrianPiccoloPark"];
   locs["flevnp"] = ["Everglades National Park","Florida","大沼泽地国家公园","佛罗里达州","http://www.nps.gov/ever/",baikeurl(1992929)];
   locs["flkeyw"] = ["Key West","Florida","西礁岛","佛罗里达州",wikiurl("Key West"),baikeurl(2153124)];
   locs["flmahp"] = ["Matheson Hammock Park","Miami, Florida","迈阿密马西森硬木公园","佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"];
@@ -67,6 +66,7 @@
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
   locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
   locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
+  locs["mdshpd"] = ["Schoolhouse Pond", "Prince George's County, Maryland","乔治王子郡校舍池塘","马里兰州","http://www.pgaudubon.org/Schoolhouse.html"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
   locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","伍斯特郡特鲁伊特码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["meeeri"] = ["Eastern Egg Rock Island","Maine","东蛋岩岛","缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"];
@@ -362,7 +362,7 @@
   birds[j++] = new myBird("USA","15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["njweti","5/2015"],299021);
   birds[j++] = new myBird("USA","16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"],836718);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
-//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["arbitr","4/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],836706);
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["mdshpd","4/2017"],836706);
   birds[j++] = new myBird("USA","15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdocin","11/2015"],14958401);
   birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","mdasns","11/2015","Winter plumage"],254061);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"],300682);
@@ -436,7 +436,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["arbitr","1/2017","Boyce Mayview Park, Upper St. Clair, Pennsylvania","上圣克莱尔镇博伊斯梅渭公园，宾夕法尼亚州"],3859920);
   birds[j++] = new myBird("USA","16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"],3838605);
   birds[j++] = new myBird("USA","17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("20170205_018_SnowyOwl")],["arbitr","2/2017","Davis Road, Bradford County, Pennsylvania","布拉德福德郡戴维斯路，宾夕法尼亚州"],1483);
-  birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flbrpp","6/2016"],1115124);
+  birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arbitr","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida","劳德代尔堡布莱恩皮克罗公园，佛罗里达州"],1115124);
   birds[j++] = new myBird("USA","06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","arbitr","4/2016","Agricultural History Farm Park, Maryland","农史农场公园，马里兰州"],3886420);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["arbitr","3/2017","Middle Creek Wildlife Management Area, Pennsylvania","中溪野生动物管理区，宾夕法尼亚州"],18105);
   birds[j++] = new myBird("USA","17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["arbitr","1/2017","Harrison Road, Fauquier County, Virginia","福基尔郡哈里森路，弗吉尼亚州"],120964);
