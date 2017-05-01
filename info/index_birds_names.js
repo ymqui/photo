@@ -66,7 +66,6 @@
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
   locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
   locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
-  locs["mdshpd"] = ["Schoolhouse Pond", "Prince George's County, Maryland","乔治王子郡校舍池塘","马里兰州","http://www.pgaudubon.org/Schoolhouse.html"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
   locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","伍斯特郡特鲁伊特码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["meeeri"] = ["Eastern Egg Rock Island","Maine","东蛋岩岛","缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"];
@@ -347,7 +346,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[m_id("")],["mdbhrp","9/2015"],674867);
 //birds[j++] = new myBird("   ","17-00-00T00:00","THINOCOR","Rufous-bellied Seedsnipe","棕腹籽鹬","Attagis gayi",[m_id("")],["mdbhrp","9/2015"],697583);
   birds[j++] = new myBird("USA","06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",["2007cobirding/20070429_088_SpottedSandpiper"],["mdcovl","4/2007"],13231604);
-  birds[j++] = new myBird("USA","06-05-06T16:31","SCOLOPAC","Solitary Sandpiper","褐腰草鹬","Tringa solitaria",[m_id("20170423_032_SolitarySandpiper")],["mdshpd","4/2017"],13229089);
+  birds[j++] = new myBird("USA","06-05-06T16:31","SCOLOPAC","Solitary Sandpiper","褐腰草鹬","Tringa solitaria",[m_id("20170423_032_SolitarySandpiper")],["arbitr","4/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],13229089);
   birds[j++] = new myBird("USA","13-07-14T14:15","SCOLOPAC","Greater Yellowlegs","大黄脚鹬","Tringa melanoleuca",[m_id("20170429_034_GreaterYellowlegs"),p_id("1307alaskabirding",2)],["debnwr","4/2017","akknpp","7/2013"],4877192);
   birds[j++] = new myBird("USA","14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[p_id("1409fingerlake",8)],["arbitr","8/2014","Myers Park, New York","麦尔斯公园，纽约州"],300494);
   birds[j++] = new myBird("USA","15-05-09T16:27","SCOLOPAC","Willet","斑翅鹬","Tringa semipalmata",[m_id("20160529_070_Willet"),p_id("1509charleston",20),m_id("20160529_067_Willet")],["mdsclr","5/2016","Breeding adult","scpitt","9/2015","Nonbreeding adult","mdtrlr","5/2016"],14026232);
@@ -362,7 +361,7 @@
   birds[j++] = new myBird("USA","15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["njweti","5/2015"],299021);
   birds[j++] = new myBird("USA","16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"],836718);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
-//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["mdshpd","4/2017"],836706);
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["arbitr","5/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],836706);
   birds[j++] = new myBird("USA","15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdocin","11/2015"],14958401);
   birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","mdasns","11/2015","Winter plumage"],254061);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"],300682);
