@@ -81,6 +81,7 @@
   locs["njscmm"] = ["South Cape May Meadows","New Jersey","南五月岬草原","新泽西州","http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/newjersey/placesweprotect/south-cape-may-meadows.xml"];
   locs["njweti"] = ["The Wetlands Institute","Stone Harbor, New Jersey","石港湿地研究所","新泽西州","http://wetlandsinstitute.org/"];
   locs["nvdnwr"] = ["Desert National Wildlife Range","Corn Creek, Nevada","玉米溪沙漠国家野生动物保护区","内华达州","http://www.fws.gov/refuge/desert/"];
+  locs["nycenp"] = ["Central Park","New York City, New York","纽约市中央公园","纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")];
   locs["nyjbsp"] = ["Jones Beach State Park","New York","琼斯海滩州立公园","纽约州","http://nysparks.com/parks/JonesBeach/"];
   locs["nyjbwr"] = ["Jamaica Bay Wildlife Refuge","New York","牙买加湾野生动物保护区","纽约州","http://www.nyharborparks.org/visit/jaba.html"];
   locs["nymnwr"] = ["Montezuma National Wildlife Refuge","New York","蒙特祖玛国家野生动物保护区","纽约州","http://www.fws.gov/refuge/montezuma/"];
