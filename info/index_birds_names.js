@@ -38,7 +38,6 @@
   locs["gatybe"] = ["Tybee Island","Georgia","泰碧岛","乔治亚州","https://tybeeisland.com/tybee-information/birding-nature-trails/"];
   locs["macast"] = ["Castle Island","Boston, Massachusetts","波士顿城堡岛","马萨诸塞州",wikiurl("Castle Island (Massachusetts)")];
   locs["mahpsp"] = ["Halibut Point State Park","Rockport, Massachusetts","大比目鱼角州立公园","马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"];
-  locs["mdasns"] = ["Assateague Island National Seashore","Maryland","阿萨蒂格岛国家海岸","马里兰州","http://www.nps.gov/asis/index.htm",baikeurl(1910881)];
   locs["mdbhrp"] = ["Black Hill Regional Park","Maryland","黑山公园","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/blackhill/"];
   locs["mdbmnt"] = ["Blue Mash Nature Trail","Maryland","蓝沼自然小径","马里兰州","http://www.montgomeryparks.org/PPSD/ParkTrails/trails_MAPS/blue_mash.shtm"];
   locs["mdbnwr"] = ["Blackwater National Wildlife Refuge","Maryland","黑水国家野生动物保护区","马里兰州","http://www.fws.gov/refuge/Blackwater/"];
@@ -364,7 +363,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["arbitr","5/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],836706);
   birds[j++] = new myBird("USA","15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdocin","11/2015"],14958401);
-  birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","mdasns","11/2015","Winter plumage"],254061);
+  birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","mdasns","11/2015","Winter plumage, Assateague Island National Seashore, Maryland","冬羽，阿萨蒂格岛国家海岸，马里兰州"],254061);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"],300682);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"],300716);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["arbitr","4/2017","Augustine Wildlife Area-Port Penn Impoundments, Delaware","奥古斯丁野生动物保护区，特拉华州"],wikiurl("Ruff"),39676);
