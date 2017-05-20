@@ -27,7 +27,7 @@
   locs["cnxmjm"] = ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)];
   locs["ctciws"] = ["Cove Island Wildlife Sanctuary","Connecticut","科夫岛野生动物保护区","康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"];
   locs["debnwr"] = ["Bombay Hook National Wildlife Refuge","Delaware","庞贝‧虎克国家野生动物保护区","特拉华州","http://www.fws.gov/refuge/bombay_hook/"];
-  locs["debowb"] = ["Bower's Beach","Delaware","鲍尔斯海滩","特拉华州",wikiurl("Bowers, Delaware")];
+  locs["debowb"] = ["Bowers Beach","Delaware","鲍尔斯海滩","特拉华州",wikiurl("Bowers, Delaware")];
   locs["deinri"] = ["Indian River Inlet","Delaware","印第安河入海口","特拉华州",wikiurl("Indian River (Delaware)")];
   locs["flbinp"] = ["Biscayne National Park","Florida","比斯坎湾国家公园","佛罗里达州","http://www.nps.gov/bisc/",baikeurl(844205)];
   locs["flbppm"] = ["Black Point Park & Marina","Miami-Dade County, Florida","迈阿密-戴德郡黑角公园及码头","佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"];
