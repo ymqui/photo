@@ -1,8 +1,8 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-04-08T18:00:00");
-  var modirange = 10;  	//range within modiDate in days
-  var modiindx  = [4,1];	//index of which modibird to be shown first
+  var modiDate  = new Date("2017-05-20T18:00:00");
+  var modirange = 1;  	//range within modiDate in days
+  var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -27,6 +27,7 @@
   locs["cnxmjm"] = ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)];
   locs["ctciws"] = ["Cove Island Wildlife Sanctuary","Connecticut","科夫岛野生动物保护区","康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"];
   locs["debnwr"] = ["Bombay Hook National Wildlife Refuge","Delaware","庞贝‧虎克国家野生动物保护区","特拉华州","http://www.fws.gov/refuge/bombay_hook/"];
+  locs["debowb"] = ["Bower's Beach","Delaware","鲍尔斯海滩","特拉华州",wikiurl("Bowers, Delaware")];
   locs["deinri"] = ["Indian River Inlet","Delaware","印第安河入海口","特拉华州",wikiurl("Indian River (Delaware)")];
   locs["flbinp"] = ["Biscayne National Park","Florida","比斯坎湾国家公园","佛罗里达州","http://www.nps.gov/bisc/",baikeurl(844205)];
   locs["flbppm"] = ["Black Point Park & Marina","Miami-Dade County, Florida","迈阿密-戴德郡黑角公园及码头","佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"];
@@ -357,16 +358,16 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[m_id("")],["nyjbwr","6/2016"],276982);
   birds[j++] = new myBird("USA","15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"],5413873);
   birds[j++] = new myBird("USA","15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20151031_114_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["mdocci","10/2015","",""," Sunset Park","日落公园","mdocin","10/2015"],272028);
-//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("")],["arbitr","5/2017","Bower's Beach, Delaware","鲍尔斯海滩，特拉华州"],300484);
+  birds[j++] = new myBird("USA","17-05-20T09:06","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("20170520_057_RedKnot")],["debowb","5/2017"],300484);
   birds[j++] = new myBird("USA","15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["gatybe","12/2016","Winter plumage","arbitr","9/2015","Juvenile, Fort Moultrie, South Carolina","未成年，莫尔特里堡，南卡罗来纳州"],300486);
-  birds[j++] = new myBird("USA","15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[p_id("1505bombayhook",8)],["debnwr","5/2015"],4938313);
+  birds[j++] = new myBird("USA","15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"],4938313);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"],852859);
   birds[j++] = new myBird("USA","15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["njweti","5/2015"],299021);
   birds[j++] = new myBird("USA","16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"],836718);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["arbitr","5/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],836706);
   birds[j++] = new myBird("USA","15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdocin","11/2015"],14958401);
-  birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",[p_id("1505bombayhook",9),m_id("20151114_122_Dunlin(WP)")],["debnwr","5/2015","arbitr","11/2015","Winter plumage, Assateague Island National Seashore, Maryland","冬羽，阿萨蒂格岛国家海岸，马里兰州"],254061);
+  birds[j++] = new myBird("USA","15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",m_id(["20170520_061_Dunlin","20151114_122_Dunlin(WP)"]),["debowb","5/2017","arbitr","11/2015","Winter plumage, Assateague Island National Seashore, Maryland","冬羽，阿萨蒂格岛国家海岸，马里兰州"],254061);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"],300682);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"],300716);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["arbitr","4/2017","Augustine Wildlife Area-Port Penn Impoundments, Delaware","奥古斯丁野生动物保护区，特拉华州"],wikiurl("Ruff"),39676);
