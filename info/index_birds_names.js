@@ -60,7 +60,6 @@
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
   locs["mdmapp"] = ["Mariner Point Park","Harford County, Maryland","哈福德郡水手角公园","马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"];
   locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr2.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
-  locs["mdocci"] = ["Ocean City","Maryland","大洋城","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdocin"] = ["Ocean City"," Inlet","Maryland","大洋城","海口","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
   locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
@@ -264,7 +263,7 @@
   birds[j++] = new myBird("CHN","16-01-07T14:51","ARDEIDAE","Little Egret","小白鹭","Egretta garzetta",[p_id("1601china",37)],["cnshbu","1/2016"],365417);
   birds[j++] = new myBird("USA","05-12-25T16:18","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",[p_id("1112floridabirding",14),p_id("1312savannahbirding",4)],["flevnp","12/2011","scsnwr","12/2013","Immature"],2773665);
   birds[j++] = new myBird("USA","05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[p_id("1112floridabirding",18),p_id("0512everglades",20)],["flevnp","12/2011","flevnp","12/2005"],2776050);
-//birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[m_id("")],["mdocci","10/2015","Immature",""," Skimmer Island","剪嘴鸥岛"],2772656);
+//birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[m_id("")],["mdocin","10/2015","Immature"],2772656);
 //birds[j++] = new myBird("   ","17-00-00T00:00","SCOPIDAE","Hamerkop","锤头鹳","Scopus umbretta",[m_id("")],["mdbhrp","9/2015"],660725);
 //birds[j++] = new myBird("   ","17-00-00T00:00","BALAENIC","Shoebill","鲸头鹳","Balaeniceps rex",[m_id("")],["mdbhrp","9/2015"],326917);
   birds[j++] = new myBird("USA","05-12-28T13:35","PELECANI","American White Pelican","美洲白鹈鹕","Pelecanus erythrorhynchos",[p_id("0512merritt",23)],["flmnwr","12/2005"],4432808);
@@ -389,7 +388,7 @@
   birds[j++] = new myBird("USA","06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter","三龄冬羽"],277019);
   birds[j++] = new myBird("CHN","16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["cnshbu","1/2016","cnshbu","1/2016","Immature"],716323);
   birds[j++] = new myBird("USA","17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",[m_id("20170204_016_IcelandGull(1W)")],["mdmapp","2/2017","1st winter","一龄冬羽"],-9019);
-  birds[j++] = new myBird("USA","15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015","With "+b_link("Ring-billed Gull","s")+" (front) and "+b_link("Black Skimmer","s")+" (back)","前面是"+b_link("环嘴鸥")+"，后面是"+b_link("黑剪嘴鸥")],14813315);
+  birds[j++] = new myBird("USA","15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocin","10/2015","With "+b_link("Ring-billed Gull","s")+" (front) and "+b_link("Black Skimmer","s")+" (back)","前面是"+b_link("环嘴鸥")+"，后面是"+b_link("黑剪嘴鸥")],14813315);
   birds[j++] = new myBird("USA","15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["wacape","7/2015"],853282);
 //birds[j++] = new myBird("USA","17-00-00T00:00","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("")],["mdbhrp","9/2015"],82036);
   birds[j++] = new myBird("USA","15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull(1W)")],["njblsp","3/2015","mdocin","10/2015","1st winter","一龄冬羽"],1587200);
@@ -403,7 +402,7 @@
   birds[j++] = new myBird("USA","15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086_Forster'sTern(I)")],["njcmsp","5/2015","mdenwr","7/2015","Immature (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"],4825398);
   birds[j++] = new myBird("USA","15-01-08T09:29","LARIDAE ","Royal Tern","橙嘴凤头燕鸥","Thalasseus maximus",[m_id("20151031_117_RoyalTern(W)"),p_id("1501prbirding",41),p_id("1501prbirding",42)],["mdocin","10/2015","Winter plumage","prosan","1/2015"],4821361);
 //birds[j++] = new myBird("USA","17-00-00T00:00","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",[m_id("")],["njblsp","3/2015"],4821400);
-  birds[j++] = new myBird("USA","15-09-06T08:36","LARIDAE ","Black Skimmer","黑剪嘴鸥","Rynchops niger",[p_id("1606florida",26),m_id("20151004_105_BlackSkimmer(I)")],["scbwma","6/2016","mdocci","10/2015","Immature"],706277);
+  birds[j++] = new myBird("USA","15-09-06T08:36","LARIDAE ","Black Skimmer","黑剪嘴鸥","Rynchops niger",[p_id("1606florida",26),m_id("20151004_105_BlackSkimmer(I)")],["scbwma","6/2016","mdocin","10/2015","Immature"],706277);
 //birds[j++] = new myBird("USA","17-00-00T00:00","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",[m_id("")],["mdocin","10/2015"],cornellurl(167381),853265);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ALCIDAE ","Dovekie","侏海雀","Alle alle",[m_id("")],["deinri","2/2017"],2572520);
   birds[j++] = new myBird("USA","15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["orcanb","7/2015"],4820733);
@@ -547,7 +546,7 @@
   birds[j++] = new myBird("USA","06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",[p_id("1512bhill",28)],["mdbhrp","6/2015"],4576848);
   birds[j++] = new myBird("USA","15-01-05T14:08","TYRANNID","Gray Kingbird","灰王霸鹟","Tyrannus dominicensis",[p_id("1501prbirding",43)],["prosan","1/2015"],cornellurl(481996),4572808);
   birds[j++] = new myBird("USA","15-01-02T07:13","TYRANNID","Loggerhead Kingbird","圆头王霸鹟","Tyrannus caudifasciatus",[p_id("1501prbirding",4)],["prmaya","1/2015"],cornellurl(482156),4572314);
-//birds[j++] = new myBird("USA","17-00-00T00:00","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("")],["mdocci","3/2017"],715420);
+//birds[j++] = new myBird("USA","17-00-00T00:00","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("")],["mdocin","3/2017"],715420);
 //birds[j++] = new myBird("   ","17-00-00T00:00","COTINGID","Andean Cock-of-the-rock","安第斯冠伞鸟","Rupicola peruvianus",[m_id("")],["mdbhrp","9/2015"],4334103);
 //birds[j++] = new myBird("   ","17-00-00T00:00","PIPRIDAE","Golden-winged Manakin","金翅娇鹟","Masius chrysopterus",[m_id("")],["mdbhrp","9/2015"],4362397);
 //birds[j++] = new myBird("   ","17-00-00T00:00","TITYRIDA","Sharpbill","尖喙鸟","Oxyruncus cristatus",[m_id("")],["mdbhrp","9/2015"],715433);
@@ -686,7 +685,7 @@
   birds[j++] = new myBird("USA","09-04-12T13:39","REGULIDA","Ruby-crowned Kinglet","红冠戴菊","Regulus calendula",m_id(["20151024_109_Ruby-crownedKinglet","20151024_110_Ruby-crownedKinglet(M)"]),["mdbmnt","10/2015","mdbmnt","10/2015","Male"],4844803);
 //birds[j++] = new myBird("   ","17-00-00T00:00","ELACHURI","Spotted Elachura","丽星鹩鹛","Elachura formosa",[m_id("")],["mdbhrp","9/2015"],847173);
 //birds[j++] = new myBird("   ","17-00-00T00:00","HYLIOTID","Yellow-bellied Hyliota","黄腹丛莺","Hyliota flavigaster",[m_id("")],["mdbhrp","9/2015"],4843851);
-//birds[j++] = new myBird("USA","17-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[m_id("")],["mdocci","10/2015","",""," Sunset Park","日落公园"],2938048);
+//birds[j++] = new myBird("USA","17-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[m_id("")],["mdocin","10/2015"],2938048);
   birds[j++] = new myBird("USA","15-04-18T09:12","TROGLODY","House Wren","莺鹪鹩","Troglodytes aedon",m_id(["20150418_055_HouseWren","20150719_083_HouseWren"]),["mdbmnt","4/2015","mdbmnt","7/2015"],3036301);
   birds[j++] = new myBird("USA","15-07-09T12:26","TROGLODY","Pacific Wren","太平洋鹪鹩","Troglodytes pacificus",[p_id("1507birdingwest",20)],["wacape","7/2015"],12085686);
   birds[j++] = new myBird("USA","06-03-04T15:46","TROGLODY","Winter Wren","冬鹪鹩","Troglodytes troglodytes",["2006cobirding/WinterWren_20060304_007","2007cobirding/20070107_004_WinterWren"],["mdcorl","3/2006","mdcorl","1/2007"],847385);
