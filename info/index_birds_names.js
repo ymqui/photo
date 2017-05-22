@@ -60,7 +60,6 @@
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
   locs["mdmapp"] = ["Mariner Point Park","Harford County, Maryland","哈福德郡水手角公园","马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"];
   locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr2.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
-  locs["mdnpsp"] = ["North Point State Park","Maryland","北点州立公园","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/northpoint.aspx"];
   locs["mdocci"] = ["Ocean City","Maryland","大洋城","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdocin"] = ["Ocean City"," Inlet","Maryland","大洋城","海口","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
@@ -250,7 +249,7 @@
   birds[j++] = new myBird("USA","05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",[p_id("0512merritt",9)],["flmnwr","12/2005"],113283);
 //birds[j++] = new myBird("USA","17-00-00T00:00","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[m_id("")],["arbitr","4/2017","Augustine Wildlife Area-Ashton Tract, Delaware","奥古斯丁野生动物保护区，特拉华州"],4890250);
   birds[j++] = new myBird("USA","05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scbwma","6/2016"],341508);
-  birds[j++] = new myBird("USA","15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdnpsp","4/2015","cactnw","9/2016","cactnw","9/2016"],2764197);
+  birds[j++] = new myBird("USA","15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["arbitr","4/2015","North Point State Park, Maryland","北点州立公园，马里兰州","cactnw","9/2016","cactnw","9/2016"],2764197);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("")],["ohment","5/2017"],2783545);
   birds[j++] = new myBird("USA","06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",[m_id("20160625_081_Black-crownedNight-Heron"),"2006cobirding/Black-crownedNight-Heron_J_20060524_014"],["nyjbwr","6/2016","mdcopl","5/2006","Immature"],[158941,18625898]);
   birds[j++] = new myBird("USA","06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"],2785783);
