@@ -83,6 +83,7 @@
   locs["nyjbsp"] = ["Jones Beach State Park","New York","琼斯海滩州立公园","纽约州","http://nysparks.com/parks/JonesBeach/"];
   locs["nyjbwr"] = ["Jamaica Bay Wildlife Refuge","New York","牙买加湾野生动物保护区","纽约州","http://www.nyharborparks.org/visit/jaba.html"];
   locs["nymnwr"] = ["Montezuma National Wildlife Refuge","New York","蒙特祖玛国家野生动物保护区","纽约州","http://www.fws.gov/refuge/montezuma/"];
+//locs["ohbath"] = ["Bath Nature Preserve","Ohio","巴斯自然保护区","俄亥俄州","https://www.bathtownship.org/Parks%20folder/BNP%20page%20parks.htm"];
 //locs["ohcvnp"] = ["Cuyahoga Valley National Park","Ohio","库雅荷加谷国家公园","俄亥俄州","https://www.nps.gov/cuva/",baikeurl("库雅荷加谷国家公园")];
 //locs["ohmage"] = ["Magee Marsh Wildlife Area","Ohio","玛吉沼泽野生动物保护区","俄亥俄州","http://www.mageemarsh.org/"];
 //locs["ohment"] = ["Mentor Marsh State Nature Perserve","Ohio","门托沼泽州自然保护区","俄亥俄州","http://naturepreserves.ohiodnr.gov/mentormarsh"];
@@ -434,7 +435,7 @@
   birds[j++] = new myBird("USA","13-12-25T14:53","CUCULIDA","Greater Roadrunner","走鹃","Geococcyx californianus",[p_id("1312bigbendbirding",5)],["txbbnp","12/2013"],[608807,7056939]);
   birds[j++] = new myBird("USA","15-01-03T10:17","CUCULIDA","Smooth-billed Ani","滑嘴犀鹃","Crotophaga ani",[p_id("1501prbirding",16)],["prcnwr","1/2015"],cornellurl(205336),706315);
   birds[j++] = new myBird("USA","16-06-25T11:19","TYTONIDA","Barn Owl","仓鸮","Tyto alba",m_id(["20160625_083_BarnOwl","20160625_082_BarnOwl"]),["nyjbwr","6/2016"],15246);
-//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["ohcvnp","5/2017"],3859920);
+//birds[j++] = new myBird("USA","17-00-00T00:00","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("")],["ohcvnp","5/2017","Gray morph","灰色形"],3859920);
   birds[j++] = new myBird("USA","16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"],3838605);
   birds[j++] = new myBird("USA","17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",[m_id("20170205_018_SnowyOwl")],["arbitr","2/2017","Davis Road, Bradford County, Pennsylvania","布拉德福德郡戴维斯路，宾夕法尼亚州"],1483);
   birds[j++] = new myBird("USA","16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arbitr","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida","劳德代尔堡布莱恩皮克罗公园，佛罗里达州"],1115124);
