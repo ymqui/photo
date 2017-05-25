@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-05-20T18:00:00");
+  var modiDate  = new Date("2017-05-24T18:00:00");
   var modirange = 7;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
@@ -877,7 +877,7 @@
   birds[j++] = new myBird("USA","14-08-10T11:40","CARDINAL","Blue Grosbeak","斑翅蓝彩鹀","Passerina caerulea",[p_id("1505bombayhook",13)],["debnwr","5/2015","Male"],4716620);
   birds[j++] = new myBird("USA","06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14)],["debnwr","5/2015","Male"],4716631);
   birds[j++] = new myBird("USA","16-06-08T16:12","CARDINAL","Painted Bunting","丽彩鹀","Passerina ciris",p_id("1606florida",[1,2]),["schbsp","6/2016","Male","schbsp","6/2016","Female"],4716638);
-//birds[j++] = new myBird("USA","17-00-00T00:00","CARDINAL","Dickcissel","美洲雀","Spiza americana",[m_id("")],["arbitr","5/2017","Male, Underwood Road, Howard County, Maryland","雄性，霍华德郡安德伍德路，马里兰州","arbitr","5/2017","Female, Underwood Road, Howard County, Maryland","雌性，霍华德郡安德伍德路，马里兰州"],1155714);
+  birds[j++] = new myBird("USA","17-05-24T07:33","CARDINAL","Dickcissel","美洲雀","Spiza americana",m_id(["20170524_065_Dickcissel(M)","20170524_064_Dickcissel(F)"]),["arbitr","5/2017","Male, Underwood Road, Howard County, Maryland","雄性，霍华德郡安德伍德路，马里兰州","arbitr","5/2017","Female, Underwood Road, Howard County, Maryland","雌性，霍华德郡安德伍德路，马里兰州"],1155714);
 
   if (typeof modiindx !== 'undefined') {
      if (modiindx.constructor != Array){modiindx = [modiindx];}
