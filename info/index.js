@@ -1296,6 +1296,11 @@
   info[2][j] = 2;
   info[3][j] = "4/2017 Longyan Birding";
   info[4][j++] = "Birding in Longyan(Fujian Province, China).";
+  info[0][j] = "1705ohio";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "5/2017 Ohio Birding";
+  info[4][j++] = "Birding in Northern Ohio(Ohio).";
 
   if(window.usechinese){
      j = 0;
@@ -1813,6 +1818,8 @@
      info[4][j++] = "在萨凡纳附近观鸟（南卡罗来纳州，佐治亚州）。";
      info[3][j]   = "4/2017 龙岩观鸟";
      info[4][j++] = "中国龙岩观鸟(中国福建省)。";
+     info[3][j]   = "5/2017 俄亥俄观鸟";
+     info[4][j++] = "在俄亥俄州北部观鸟(俄亥俄州)。";
   } 
 
   //special touch
