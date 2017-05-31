@@ -374,6 +374,8 @@
   birds[j++] = new myBird("USA","16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["arbitr","1/2016","Glade Road, Frederick County, Maryland","弗雷德里克郡格雷德路，马里兰州"],3193898);
   birds[j++] = new myBird("USA","16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["arbitr","2/2016","Patuxent River State Park at Hipsley Mill Road, Maryland","帕塔克森特河州立公园，马里兰州"],1154742);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",[m_id("")],["mdbhrp","9/2015"],697557);
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red-necked Phalarope","红颈瓣蹼鹬","Phalaropus lobatus",[m_id("")],["mdbhrp","9/2015"],wikiurl("Red-necked phalarope"),"红颈瓣蹼鹬");
+//birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("")],["mdbhrp","9/2015"],cornellurl(156181),300471);
 //birds[j++] = new myBird("   ","17-00-00T00:00","GLAREOLI","Collared Pratincole","领燕鸻","Glareola pratincola",[m_id("")],["mdbhrp","9/2015"],304194);
   birds[j++] = new myBird("USA","15-07-09T13:32","LARIDAE ","Black-legged Kittiwake","三趾鸥","Rissa tridactyla",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the left, on the right is a "+b_link("California Gull"),"左边，右边是一只"+b_link("加州鸥")],830840);
   birds[j++] = new myBird("USA","15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_Bonaparte'sGull(W)","20151126_136_Bonaparte'sGull(WP)"]),["arbitr","3/2015","Winter plumage, Lapidum, Maryland","冬羽，萨斯奎哈纳州立公园，马里兰州","mdocin","11/2015","Winter plumage"],4825408);
