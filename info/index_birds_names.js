@@ -311,7 +311,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",[m_id("")],["mdbhrp","9/2015"],1596128);
   birds[j++] = new myBird("USA","15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus longirostris",p_id("1509charleston",[9,10]),["scpitt","9/2015"],2506463);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","King Rail","王秧鸡","Rallus elegans",[m_id("")],["arbitr","5/2017","Wooton's Landing Park, Anne Arundel County, Maryland","安妮阿伦德尔郡伍顿登陆公园，马里兰州"],2506673);
-  birds[j++] = new myBird("USA","17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[6,8]),["ohment","5/2017"],2444046);
+  birds[j++] = new myBird("USA","17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["ohment","5/2017"],2444046);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","RALLIDAE","White-breasted Waterhen","白胸苦恶鸟","Amaurornis phoenicurus",[m_id("")],["mdbhrp","9/2015"],285964);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("")],["ohment","5/2017"],2497667);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","Gray-headed Swamphen","紫水鸡","Porphyrio poliocephalus",[m_id("")],["mdbhrp","6/2016"],wikiurl("Grey-headed Swamphen"),4216934);
