@@ -85,7 +85,7 @@
   locs["nymnwr"] = ["Montezuma National Wildlife Refuge","New York","蒙特祖玛国家野生动物保护区","纽约州","http://www.fws.gov/refuge/montezuma/"];
   locs["ohbath"] = ["Bath Nature Preserve","Ohio","巴斯自然保护区","俄亥俄州","https://www.bathtownship.org/Parks%20folder/BNP%20page%20parks.htm"];
   locs["ohmage"] = ["Magee Marsh Wildlife Area","Ohio","玛吉沼泽野生动物保护区","俄亥俄州","http://www.mageemarsh.org/"];
-  locs["ohment"] = ["Mentor Marsh State Nature Perserve","Ohio","门托沼泽州自然保护区","俄亥俄州","http://naturepreserves.ohiodnr.gov/mentormarsh"];
+  locs["ohment"] = ["Mentor Marsh State Nature Perserve","Ohio","门托沼泽州立自然保护区","俄亥俄州","http://naturepreserves.ohiodnr.gov/mentormarsh"];
   locs["orcanb"] = ["Cannon Beach","Oregon","卡农海滩","俄勒冈州","http://www.ci.cannon-beach.or.us/~Natural/HRAP/hrap-habitat.html"];
   locs["orhayd"] = ["Hayden Island","Portland, Oregon","波特兰海登岛","俄勒冈州",wikiurl("Hayden Island, Portland, Oregon")];
   locs["prbaya"] = ["Bayamón","Puerto Rico","巴亚蒙","波多黎各",wikiurl("Bayamón, Puerto Rico")];
