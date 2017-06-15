@@ -246,7 +246,7 @@
   birds[j++] = new myBird("USA","05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15)],["flbinp","12/2005","flevnp","12/2011"],8169900);
 //birds[j++] = new myBird("   ","17-00-00T00:00","THRESKIO","Scarlet Ibis","美洲红鹮","Eudocimus ruber",["0504zoo/0504zoo__15","0504zoo/0504zoo__22"],["natzo","4/2005","Adult","natzo","4/2005","Immature"],cornellurl(115676),1080053);
   birds[j++] = new myBird("USA","05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",[p_id("0512merritt",9)],["flmnwr","12/2005"],113283);
-//birds[j++] = new myBird("USA","17-00-00T00:00","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[m_id("")],["arbitr","4/2017","Augustine Wildlife Area-Ashton Tract, Delaware","奥古斯丁野生动物保护区，特拉华州"],4890250);
+//birds[j++] = new myBird("USA","17-00-00T00:00","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[m_id("")],["arbitr","6/2017","Deal Island Wildlife Management Area, Maryland","迪尔岛野生动物管理区，马里兰州"],4890250);
   birds[j++] = new myBird("USA","05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scbwma","6/2016"],341508);
   birds[j++] = new myBird("USA","15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["arbitr","4/2015","North Point State Park, Maryland","北点州立公园，马里兰州","cactnw","9/2016","cactnw","9/2016"],2764197);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("")],["ohment","5/2017"],2783545);
