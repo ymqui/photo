@@ -1170,7 +1170,7 @@
   }
 
   function cornellurl(bid,is_neo){
-     if (typeof is_ne0 === 'undefined'){
+     if (typeof is_neo === 'undefined'){
         return "http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/"+bid.trim()+".html";
      }else{
         return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+logkin+"/overview";
