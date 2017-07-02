@@ -1173,7 +1173,7 @@
      if (typeof is_neo === 'undefined'){
         return "http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/"+bid.trim()+".html";
      }else{
-        return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+logkin+"/overview";
+        return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+bid.trim()+"/overview";
      }
   }
   
