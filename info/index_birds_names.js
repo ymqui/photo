@@ -75,7 +75,6 @@
   locs["ncoutb"] = ["Outer Banks","North Carolina","外滩","北卡罗来纳州",wikiurl("Outer Banks"),baikeurl(1840917)];
   locs["njblsp"] = ["Barnegat Lighthouse State Park","New Jersey","巴尼加特灯塔州立公园","新泽西州","http://www.state.nj.us/dep/parksandforests/parks/barnlig.html"];
   locs["njcmsp"] = ["Cape May Point State Park","New Jersey","五月岬州立公园","新泽西州","http://www.state.nj.us/dep/parksandforests/parks/capemay.html"];
-  locs["njhwma"] = ["Higbee Beach Wildlife Management Area","New Jersey","希格比海滩野生动物管理区","新泽西州","http://www.njfishandwildlife.com/ensp/higbee.htm"];
   locs["njscmm"] = ["South Cape May Meadows","New Jersey","南五月岬草原","新泽西州","http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/newjersey/placesweprotect/south-cape-may-meadows.xml"];
   locs["njweti"] = ["The Wetlands Institute","Stone Harbor, New Jersey","石港湿地研究所","新泽西州","http://wetlandsinstitute.org/"];
   locs["nvdnwr"] = ["Desert National Wildlife Range","Corn Creek, Nevada","玉米溪沙漠国家野生动物保护区","内华达州","http://www.fws.gov/refuge/desert/"];
