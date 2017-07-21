@@ -28,6 +28,9 @@ function initAlbum(){
     this[1][i++] = "Sonogram at MedStar Montgomery Medical Center. Our greatest joy to hear the baby's heartbeat for the first time, 3/9/2017.";
     this[0][i]   = "20170602_007_AnatomySonogram";
     this[1][i++] = "Anatomy ultrasoud at MedStar Montgomery Medical Center. The baby is healthy and strong, 6/2/2017.";
+//    this[0][i]   = "20170721_008_Sonogram";
+//    this[1][i++] = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017.";
+
 
     if(window.usechinese){
         i = 0;
@@ -35,6 +38,8 @@ function initAlbum(){
         this[1][i++] = "怀孕测试显阳性，2/15/2017。";
         this[1][i++] = "在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳，3/9/2017。";
         this[1][i++] = "在蒙哥马利医疗中心做解剖结构超声波检查，胎儿很健康，6/2/2017。";
+//        this[1][i++] = "棉花球漂亮的小脸蛋，蒙哥马利医疗中心，7/21/2017。";
+
     }
 }
  
