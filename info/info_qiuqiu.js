@@ -1,6 +1,6 @@
 ﻿<!--
 var info_url   = "";
-var title      = "Nathan's Photo";
+var title      = "Nathan's Photos";
 var dir        = maindir+"pics/qiuqiu/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 6000;
