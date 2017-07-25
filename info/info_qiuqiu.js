@@ -7,7 +7,7 @@ var interval   = 6000;
 var ext        = ".JPG";
 var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
-var startfromlast = true;
+var last2first = true;
  
 if(window.usechinese){
     title      = "棉花球的照片";
