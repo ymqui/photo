@@ -73,12 +73,20 @@ function init(){
     }else{
         if(index<0) index  = 0;
         if(index>num-1) index = num-1;
-        index--;
+        if(window.last2first){
+           index++;
+        }else{
+           index--;
+        }
         loadHidden();
 	if (slideshow){
            slideShow();
         }else{
-           index++;
+           if(window.last2first){
+              index--;
+           }else{
+              index++;
+           }
            swap(false);
         }
     }
