@@ -417,7 +417,10 @@ function stopShow(){
     try{
         document.images["slideimg"].onmouseover = switchmesg2;
     }catch(er){}
-    last2first = false;
+    if (window.last2first) {
+       last2first = false;
+       loadHidden();
+    }
 }
 
 function moreInfo(){
