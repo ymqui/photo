@@ -471,7 +471,7 @@ function startstopShow(){
 function switchmesg2(){
     if(slidetimerOn){
         if(window.usechinese){
-            mesg = "停止放映/按F11全屏显示";
+            mesg = "停止自动放映/按F11全屏显示";
         }else{
             mesg = "Stop Slide Show/Press F11 Full Screen";
         }
