@@ -39,7 +39,7 @@ if(window.blocksave && (!googledrive)){
 
 if(!window.index){
     var index = 0;      //default starting from file 0
-    if (window.startfromlast) index = 1e6;
+    if (window.last2first) index = 1e6;
 }
 
 function init(){
@@ -379,9 +379,15 @@ function slideShow(){
     }
     slidetimerOn = true;
     if (!swaptimerOn){
-        index++;
+        if(window.last2first){
+           index--;
+        }else{ 
+           index++;
+        }
         if (index>(num-1)){
             index = 0;
+        }else if (index<0}{
+            index = num-1;
         }
         swap(false);
     }
