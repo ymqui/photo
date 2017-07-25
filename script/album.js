@@ -139,8 +139,11 @@ function resize(ishidden){
 
 function loadHidden(){
     var tmp = index+1;
+    if(window.last2first){tmp = index-1;}
     if (tmp>num-1){
-        tmp = 0;
+       tmp = 0;
+    }else if (tmp<0){
+       tmp = num-1;
     }
     hiddenimg = new Image();
     hiddenimg.src = dir+photoalbum[0][tmp]+ext;
