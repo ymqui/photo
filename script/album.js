@@ -385,9 +385,9 @@ function slideShow(){
            index++;
         }
         if (index>(num-1)){
-            index = 0;
-        }else if (index<0}{
-            index = num-1;
+           index = 0;
+        }else if (index<0){
+           index = num-1;
         }
         swap(false);
     }
