@@ -391,7 +391,13 @@ function slideShow(){
     slidetimerOn = true;
     if (!swaptimerOn){
         if(window.last2first){
-           index--;
+           if (index==0){
+              last2first = false;
+              loadHidden();
+              index++;
+           }else{
+              index--;
+           }
         }else{ 
            index++;
         }
