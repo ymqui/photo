@@ -406,6 +406,7 @@ function stopShow(){
     try{
         document.images["slideimg"].onmouseover = switchmesg2;
     }catch(er){}
+    last2first = false;
 }
 
 function moreInfo(){
