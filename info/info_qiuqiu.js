@@ -27,7 +27,7 @@ function initAlbum(){
     this[0][i]   = "20170309_003_Sonogram";
     this[1][i++] = "Sonogram at MedStar Montgomery Medical Center. Our greatest joy to hear the baby's heartbeat for the first time, 3/9/2017.";
     this[0][i]   = "20170602_007_AnatomySonogram";
-    this[1][i++] = "Anatomy ultrasoud at MedStar Montgomery Medical Center. The baby is healthy and strong, 6/2/2017.";
+    this[1][i++] = "Anatomy ultrasound at MedStar Montgomery Medical Center. The baby is healthy and strong, 6/2/2017.";
     this[0][i]   = "20170721_008_Sonogram";
     this[1][i++] = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017.";
 
