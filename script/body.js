@@ -207,7 +207,7 @@
           if(googledrive) midistr=midistr+'?raw=true';
           midistr=midistr+'" type="application/x-mplayer2" ';
           midistr=midistr+'       width="0" height="1"  autostart="true" playcount="1000"></embed>';
-	  midistr=midistr+'</object>';
+          midistr=midistr+'</object>';
      }else{
           midistr=midistr+'<embed id="midi" name="midi" src="'+mididir+midi_file+'" type="application/x-mplayer2" ';
           midistr=midistr+' width="0" height="1"  autostart="true" loop="true"></embed>';
