@@ -199,7 +199,9 @@
           midistr=midistr+'  codebase="<http://activex.microsoft.com/activex/controls/mplayer/en/nsmp>2inf.cab#Version=6,4,7,1112"'; 
           midistr=midistr+'  standby="Loading Windows Media Player components..."';
           midistr=midistr+'>';
-          midistr=midistr+'<param name="FileName" value="'+mididir+midi_file+'">';
+          midistr=midistr+'<param name="FileName" value="'+mididir+midi_file;
+          if(googledrive) midistr=midistr+'?raw=true';
+          midistr=midistr+'">';
           midistr=midistr+'<param name="autostart" value="true">';
           midistr=midistr+'<param name="playcount" value="1000">';
           midistr=midistr+'<param name="ShowStatusBar" value="false">';
@@ -209,7 +211,9 @@
           midistr=midistr+'       width="0" height="1"  autostart="true" playcount="1000"></embed>';
           midistr=midistr+'</object>';
      }else{
-          midistr=midistr+'<embed id="midi" name="midi" src="'+mididir+midi_file+'" type="application/x-mplayer2" ';
+          midistr=midistr+'<embed id="midi" name="midi" src="'+mididir+midi_file;
+          if(googledrive) midistr=midistr+'?raw=true';
+          midistr=midistr+'" type="application/x-mplayer2" ';
           midistr=midistr+' width="0" height="1"  autostart="true" loop="true"></embed>';
           midistr=midistr+'<noembed><bgsound name="midi" src="'+mididir+midi_file;
           if(googledrive) midistr=midistr+'?raw=true';
