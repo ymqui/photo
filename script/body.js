@@ -191,8 +191,9 @@
   //background midi music
   if(use_mid){
      document.write('<div id="mididiv" style="position:absolute;visibility:show;z-index:5;">');
+     var midistr = '';
      if(use_obj){
-          var midistr = '<object name="midi" ';
+          midistr=midistr+'<object name="midi" ';
           midistr=midistr+'  type="application/x-oleobject"';
           midistr=midistr+'  classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95"';
           midistr=midistr+'  codebase="<http://activex.microsoft.com/activex/controls/mplayer/en/nsmp>2inf.cab#Version=6,4,7,1112"'; 
@@ -202,15 +203,19 @@
           midistr=midistr+'<param name="autostart" value="true">';
           midistr=midistr+'<param name="playcount" value="1000">';
           midistr=midistr+'<param name="ShowStatusBar" value="false">';
-          midistr=midistr+'<embed id="midi" src="'+mididir+midi_file+'" type="application/x-mplayer2" ';
+          midistr=midistr+'<embed id="midi" src="'+mididir+midi_file;
+          if(googledrive) midistr=midistr+'?raw=true';
+          midistr=midistr+'" type="application/x-mplayer2" ';
           midistr=midistr+'       width="0" height="1"  autostart="true" playcount="1000"></embed>';
 	  midistr=midistr+'</object>';
-          document.write(midistr);
      }else{
-          document.write('<embed id="midi" name="midi" src="'+mididir+midi_file+'" type="application/x-mplayer2" ');
-          document.write('       width="0" height="1"  autostart="true" loop="true"></embed>');
-          document.write('<noembed><bgsound name="midi" src="'+mididir+midi_file+'" loop="infinite"></noembed>');
+          midistr=midistr+'<embed id="midi" name="midi" src="'+mididir+midi_file+'" type="application/x-mplayer2" ';
+          midistr=midistr+' width="0" height="1"  autostart="true" loop="true"></embed>';
+          midistr=midistr+'<noembed><bgsound name="midi" src="'+mididir+midi_file;
+          if(googledrive) midistr=midistr+'?raw=true';
+          midistr=midistr+'" loop="infinite"></noembed>';
      }
+     document.write(midistr);
      document.write('</div>');
   }
   slideshowimg        = new Array(2); 
