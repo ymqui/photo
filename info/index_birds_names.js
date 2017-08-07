@@ -346,7 +346,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","JACANIDA","African Jacana","非洲雉鸻","Actophilornis africanus",[m_id("")],["mdbhrp","9/2015"],12637317);
 //birds[j++] = new myBird("   ","17-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[m_id("")],["mdbhrp","9/2015"],674867);
 //birds[j++] = new myBird("   ","17-00-00T00:00","THINOCOR","Rufous-bellied Seedsnipe","棕腹籽鹬","Attagis gayi",[m_id("")],["mdbhrp","9/2015"],697583);
-  birds[j++] = new myBird("USA","06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",[m_id("20170806_086_SpottedSandpiper"],["arbitr","8/2017","North Beach, Calvert County, Maryland","卡尔弗特郡北海滩，马里兰州"],13231604);
+  birds[j++] = new myBird("USA","06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",[m_id("20170806_086_SpottedSandpiper")],["arbitr","8/2017","North Beach, Calvert County, Maryland","卡尔弗特郡北海滩，马里兰州"],13231604);
   birds[j++] = new myBird("USA","06-05-06T16:31","SCOLOPAC","Solitary Sandpiper","褐腰草鹬","Tringa solitaria",[m_id("20170423_032_SolitarySandpiper")],["arbitr","4/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],13229089);
   birds[j++] = new myBird("USA","13-07-14T14:15","SCOLOPAC","Greater Yellowlegs","大黄脚鹬","Tringa melanoleuca",[m_id("20170429_034_GreaterYellowlegs"),p_id("1307alaskabirding",2)],["debnwr","4/2017","akknpp","7/2013"],4877192);
   birds[j++] = new myBird("USA","14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[p_id("1409fingerlake",8)],["arbitr","8/2014","Myers Park, New York","麦尔斯公园，纽约州"],300494);
