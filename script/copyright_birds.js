@@ -66,5 +66,6 @@
   var sc_invisible=1; 
   var sc_partition=13; 
   var sc_security="382e0c58"; 
-  document.write('<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c14.statcounter.com/counter.php?sc_project=1818758&java=0&security=382e0c58&invisible=1" alt="website statistics" border="0"></a> </noscript>'); window.focus();
+  var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+  document.write('<script type="text/javascript" language="javascript" src="'+scJsHost+'statcounter.com/counter/counter.js"></script>'); window.focus();
 //-->
