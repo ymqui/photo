@@ -16,15 +16,10 @@
 
   var birdfamily = true;
 	
-  //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
+  //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/ V7.3
 
   var orders = [];         
   var i = 0;
-
-  var family  = [];
-  var j = 0;
-  family[j++] = new newFamily("TINAMIDAE","䳍科","Tinamous","䳍鸟");
-  orders[i++] = new newOrder("TINAMIFORMES","䳍形目","Tinamous","䳍鸟",family);
 
   var family  = [];
   var j = 0;
@@ -38,14 +33,19 @@
 
   var family  = [];
   var j = 0;
+  family[j++] = new newFamily("APTERYGIDAE","鹬鸵科","Kiwis","鹬鸵");
+  orders[i++] = new newOrder("APTERYGIFORMES","鹬鸵目","Kiwis","鹬鸵",family);
+
+  var family  = [];
+  var j = 0;
   family[j++] = new newFamily("CASUARIIDAE","鹤鸵科","Cassowaries","鹤鸵");
-  family[j++] = new newFamily("DROMAIIDAE","鸸鹋科","Emus","鸸鹋");
+//  family[j++] = new newFamily("DROMAIIDAE","鸸鹋科","Emus","鸸鹋");
   orders[i++] = new newOrder("CASUARIIFORMES","鹤鸵目","Cassowaries and Emus","鹤鸵和鸸鹋",family);
 
   var family  = [];
   var j = 0;
-  family[j++] = new newFamily("APTERYGIDAE","鹬鸵科","Kiwis","鹬鸵");
-  orders[i++] = new newOrder("APTERYGIFORMES","鹬鸵目","Kiwis","鹬鸵",family);
+  family[j++] = new newFamily("TINAMIDAE","䳍科","Tinamous","䳍鸟");
+  orders[i++] = new newOrder("TINAMIFORMES","䳍形目","Tinamous","䳍鸟",family);
 
   var family  = [];
   var j = 0;
@@ -79,7 +79,7 @@
   family[j++] = new newFamily("DIOMEDEIDAE","信天翁科","Albatrosses","信天翁");
   family[j++] = new newFamily("HYDROBATIDAE","海燕科","Storm-Petrels","小海燕");
   family[j++] = new newFamily("PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱和海燕");
-  family[j++] = new newFamily("PELECANOIDIDAE","鹈燕科","Diving-Petrels","鹈燕");
+//  family[j++] = new newFamily("PELECANOIDIDAE","鹈燕科","Diving-Petrels","鹈燕");
   orders[i++] = new newOrder("PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",family);
 
   var family  = [];
@@ -302,6 +302,7 @@
   var family  = [];
   var j = 0;
   family[j++] = new newFamily("ACANTHISITTIDAE","刺鹩科","New Zealand Wrens","刺鹩");
+  family[j++] = new newFamily("SAPAYOIDAE","阔嘴鸟科","Sapayoa","阔嘴霸鹟");
   family[j++] = new newFamily("EURYLAIMIDAE","阔嘴鸟科","Broadbills","阔嘴鸟");
   family[j++] = new newFamily("PITTIDAE","八色鸫科","Pittas","八色鸫");
   family[j++] = new newFamily("FURNARIIDAE","灶鸟科","Ovenbirds","灶鸟");
@@ -396,7 +397,8 @@
   family[j++] = new newFamily("LEIOTHRICHIDAE","噪鹛科","Laughingthrushes","噪鹛");
   family[j++] = new newFamily("SYLVIIDAE","莺科","Old World Warblers","旧大陆莺");
   family[j++] = new newFamily("ZOSTEROPIDAE","绣眼鸟科","White-eyes","绣眼鸟");
-  family[j++] = new newFamily("ARCANATORIDAE","纹喉鵖科","Dapplethroat and allies","纹喉鵖");
+  family[j++] = new newFamily("MODULATRICIDAE","纹喉鵖科","Dapplethroat and allies","纹喉鵖");
+//  family[j++] = new newFamily("ARCANATORIDAE","纹喉鵖科","Dapplethroat and allies","纹喉鵖");
   family[j++] = new newFamily("PROMEROPIDAE","非洲食蜜鸟科","Sugarbirds","非洲食蜜鸟");
   family[j++] = new newFamily("IRENIDAE","和平鸟科","Fairy Bluebirds","和平鸟");
   family[j++] = new newFamily("REGULIDAE","戴菊科","Kinglets","戴菊");
