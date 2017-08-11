@@ -42,7 +42,6 @@
   locs["mahpsp"] = ["Halibut Point State Park","Rockport, Massachusetts","大比目鱼角州立公园","马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"];
   locs["mdbhrp"] = ["Black Hill Regional Park","Maryland","黑山公园","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/blackhill/"];
   locs["mdbmnt"] = ["Blue Mash Nature Trail","Maryland","蓝沼自然小径","马里兰州","http://www.montgomeryparks.org/PPSD/ParkTrails/trails_MAPS/blue_mash.shtm"];
-  locs["mdbnwr"] = ["Blackwater National Wildlife Refuge","Maryland","黑水国家野生动物保护区","马里兰州","http://www.fws.gov/refuge/Blackwater/"];
   locs["mdbrgd"] = ["Brookside Garden","Wheaton, Maryland","惠顿溪边花园","马里兰州","http://www.montgomeryparks.org/brookside/"];
   locs["mdcamb"] = ["Cambridge","Maryland","剑桥","马里兰州",wikiurl("Cambridge, Maryland")];
   locs["mdcapc"] = ["Congressional Polo Club","Poolesville, Maryland","普尔斯维尔镇国会马球俱乐部","马里兰州","http://www.congressionalpolo.com/"];
@@ -180,7 +179,7 @@
   birds[j++] = new myBird("USA","07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Anas discors",m_id(["20160410_036_Blue-wingedTeal","20150321_042_Blue-wingedTeal"]),["mdcorl","4/2016","Female left, male right","mdswhf","3/2015"],3143771);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ANATIDAE","Cinnamon Teal","桂红鸭","Anas cyanoptera",[m_id("")],["mdbhrp","9/2015"],3140934);
   birds[j++] = new myBird("USA","15-11-22T09:50","ANATIDAE","Green-winged Teal","美洲绿翅鸭","Anas crecca",[m_id("20151122_128_Green-wingedTeal(M)")],["vahump","11/2015","Males"],81835);
-  birds[j++] = new myBird("USA","12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Anas clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler"),p_id("1203blackwater",1)],["vahump","11/2015","Male left, females right","mdftmh","2/2015","mdbnwr","3/2012"],33050);
+  birds[j++] = new myBird("USA","12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Anas clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler")],["vahump","11/2015","Male left, females right","mdftmh","2/2015"],33050);
   birds[j++] = new myBird("USA","15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",[m_id("20151122_125_NorthernPintail(M)")],["vahump","11/2015","Male"],179825);
   birds[j++] = new myBird("USA","15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",m_id(["20170121_009_Canvasback(M)","20170121_008_Canvasback(F)"]),["mdcamb","1/2017","Male","mdcamb","1/2017","Female"],179830);
   birds[j++] = new myBird("USA","15-02-15T15:34","ANATIDAE","Redhead","美洲潜鸭","Aythya americana",[m_id("20150215_008_Redhead")],["mdloch","2/2015","Male left, female right"],3208274);
