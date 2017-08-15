@@ -59,10 +59,10 @@
   locs["mdlbwt"] = ["Little Bennett Regional Park"," at Wilson Mill Trail","Maryland","小班尼特公园","威尔逊锯木坊小道","马里兰州","http://www.montgomeryparks.org/facilities/regional_parks/little_bennett/"];
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
   locs["mdmapp"] = ["Mariner Point Park","Harford County, Maryland","哈福德郡水手角公园","马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"];
-  locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr2.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
+  locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
   locs["mdocin"] = ["Ocean City"," Inlet","Maryland","大洋城","海口","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
-  locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr2.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
+  locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
   locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
   locs["mdtrlr"] = ["Truitts Landing Road","Worcester County, Maryland","伍斯特郡特鲁伊特码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
