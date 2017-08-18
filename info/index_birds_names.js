@@ -877,7 +877,7 @@
   birds[j++] = new myBird("USA","13-12-25T18:10","CARDINAL","Pyrrhuloxia","灰额主红雀","Cardinalis sinuatus",p_id("1312bigbendbirding",[16,17]),["txbbnp","12/2013","Male","txbbnp","12/2013","Female"],4708841);
   birds[j++] = new myBird("USA","14-08-30T16:45","CARDINAL","Rose-breasted Grosbeak","玫胸白斑翅雀","Pheucticus ludovicianus",[p_id("1409fingerlake",6),p_id("1512bhill",42)],["arbitr","8/2014","Female, Salmon Creek Road, New York","雌性，鲑鱼河路，纽约州","mdbhrp","9/2015","Immature male"],4716584);
   birds[j++] = new myBird("USA","14-08-10T11:40","CARDINAL","Blue Grosbeak","斑翅蓝彩鹀","Passerina caerulea",[p_id("1505bombayhook",13)],["debnwr","5/2015","Male"],4716620);
-  birds[j++] = new myBird("USA","06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14)],["debnwr","5/2015","Male"],4716631);
+  birds[j++] = new myBird("USA","06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14),m_id("20170709_083_IndigoBunting(F)")],["debnwr","5/2015","Male","mdlbwt","7/2017","Female"],4716631);
   birds[j++] = new myBird("USA","16-06-08T16:12","CARDINAL","Painted Bunting","丽彩鹀","Passerina ciris",p_id("1606florida",[1,2]),["schbsp","6/2016","Male","schbsp","6/2016","Female"],4716638);
   birds[j++] = new myBird("USA","17-05-24T07:33","CARDINAL","Dickcissel","美洲雀","Spiza americana",m_id(["20170524_065_Dickcissel(M)","20170524_064_Dickcissel(F)"]),["arbitr","5/2017","Male"+(tmp1=", Underwood Road, Howard County, Maryland"),"雄性"+(tmp2="，霍华德郡安德伍德路，马里兰州"),"arbitr","5/2017","Female"+tmp1,"雌性"+tmp2],1155714);
 
