@@ -12,7 +12,7 @@
   var locs       = {};
   locs["arbitr"] = ["","","",""];
   locs["akknpp"] = ["Katmai National Park & Preserve","Alaska","卡特迈国家公园","阿拉斯加州","http://www.nps.gov/katm/",baikeurl(3511940)];
-  locs["caalgp"] = ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/"];
+  locs["caalgp"] = ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"];
   locs["cabeap"] = ["Beale Park","Bakersfield, California","贝克斯菲尔德市比尔公园","加利福尼亚州","http://www.bakersfieldcity.us/recreation/parks/beale.htm"];
   locs["cactnw"] = ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")];
   locs["calddm"] = ["Le Domaine de Maizerets","Québec City, Québec, Canada","魁北克市Domaine de Maizerets公园","加拿大魁北克省",wikiurl("Maizerets")];
