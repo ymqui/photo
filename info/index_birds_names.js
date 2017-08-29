@@ -56,7 +56,7 @@
   locs["mdgrpt"] = ["Greenbury Point","Annapolis, Maryland","安纳波利斯格林伯瑞角","马里兰州","http://www.fws.gov/chesapeakebay/greenpt.html"];
   locs["mdhadg"] = ["Havre de Grace","Maryland","哈佛德格雷斯","马里兰州",wikiurl("Havre de Grace, Maryland")];
   locs["mdinhb"] = ["Baltimore Harbor","Maryland","巴尔的摩港","马里兰州",wikiurl("Inner Harbor"),baikeurl(48720)];
-  locs["mdlbrp"] = ["Little Bennett Regional Park","Maryland","小班尼特公园","马里兰州",http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/];
+  locs["mdlbrp"] = ["Little Bennett Regional Park","Maryland","小班尼特公园","马里兰州","http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/"];
   locs["mdloch"] = ["Loch Raven Reservoir","Maryland","渡鸦湖水库","马里兰州",wikiurl("Loch Raven Reservoir")];
   locs["mdmapp"] = ["Mariner Point Park","Harford County, Maryland","哈福德郡水手角公园","马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"];
   locs["mdmwma"] = ["McKee-Beshers Wildlife Management Area","Maryland","McKee-Beshers野生动物管理区","马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"];
