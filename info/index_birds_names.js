@@ -780,7 +780,7 @@
   birds[j++] = new myBird("USA","15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Oreothlypis celata",[p_id("1507birdingwest",29)],["orcanb","7/2015"],4751947);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Oreothlypis crissalis",[m_id("")],["mdbhrp","9/2015"],cornellurl("colwar",true),"黄腰虫森莺");
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Oreothlypis luciae",[m_id("")],["mdbhrp","9/2015"],4751827);
-//birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[m_id("")],["mdbhrp","9/2015"],4751950);
+//birds[j++] = new myBird("CAN","17-00-00T00:00","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[m_id("")],["caalgp","9/2017"],4751950);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"],4751911);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[m_id("")],["mdbhrp","9/2015"],4738131);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["mdbhrp","9/2015"],4751928);
