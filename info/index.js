@@ -1301,6 +1301,11 @@
   info[2][j] = 2;
   info[3][j] = "5/2017 Ohio Birding";
   info[4][j++] = "Birding in Northern Ohio(Ohio).";
+  info[0][j] = "1709algonquin";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "9/2017 Birding Algonquin";
+  info[4][j++] = "Birding in Algonquin Provincial Park(Ontario, Canada).";
 
   if(window.usechinese){
      j = 0;
@@ -1820,6 +1825,8 @@
      info[4][j++] = "中国龙岩观鸟(中国福建省)。";
      info[3][j]   = "5/2017 俄亥俄观鸟";
      info[4][j++] = "在俄亥俄州北部观鸟(俄亥俄州)。";
+     info[3][j]   = "9/2017 阿岗昆观鸟";
+     info[4][j++] = "在阿岗昆省立公园观鸟(加拿大安大略省)。";
   } 
 
   //special touch
@@ -1837,5 +1844,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2017-05-29T12:00:00");
+  var modiDate = new Date("2017-09-06T12:00:00");
 //-->
