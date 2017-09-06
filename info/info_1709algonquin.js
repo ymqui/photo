@@ -28,11 +28,11 @@ function initAlbum(){
     }
     if(window.usechinese){
         this[1][0] = "黄喉虫森莺。";
-        this[1][1] = "纹胸林莺。";
+        this[1][1] = "纹胸林莺，雌性。";
         this[1][2] = "红胸䴓。";
         this[1][4] = "红冠戴菊。";
         this[1][5] = "黑顶山雀。";
-        this[1][6] = "枞树镰翅鸡。它们一点都不怕人。";
+        this[1][6] = "枞树镰翅鸡，它们一点都不怕人。";
         this[1][7] = "枞树镰翅鸡，雌性。";
         this[1][8] = "枞树镰翅鸡，雄性在做求爱展示。";
         this[1][9] = "枞树镰翅鸡，雄性。";
@@ -43,7 +43,7 @@ function initAlbum(){
         this[1][14] = "巨翅鵟。";
     }else{
         this[1][0] = "Nashville Warbler.";
-        this[1][1] = "Magnolia Warbler.";
+        this[1][1] = "Magnolia Warbler, female.";
         this[1][2] = "Red-breasted Nuthatch.";
         this[1][4] = "Ruby-crowned Kinglet.";
         this[1][5] = "Black-capped Chickadee.";

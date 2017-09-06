@@ -293,7 +293,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Northern Goshawk","苍鹰","Accipiter gentilis",[m_id("")],["mdbhrp","9/2015"],1065966);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",[m_id("")],["mdbhrp","9/2015"],2612316);
   birds[j++] = new myBird("USA","06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),"2006cobirding/Red-ShoulderedHawk_20060610_006","2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcovl","3/2009","mdcocn","6/2006","mdcocn","2/2007","Immature"],3724592);
-  birds[j++] = new myBird("USA","11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[m_id("20161106_116_Broad-wingedHawk"),p_id("1112floridabirding",24)],["mdcrvp","11/2016","flevnp","12/2011","Immature"],3724612);
+  birds[j++] = new myBird("USA","11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[m_id("20161106_116_Broad-wingedHawk"),p_id("1709algonquin",15)],["mdcrvp","11/2016","caalgp","9/2017"],3724612);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"],11811149);
   birds[j++] = new myBird("USA","06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",["2006cobirding/Red-TailedHawk_20060305_002","2006cobirding/Red-TailedHawk_20060305_005",p_id("1412mckee-beshers",33)],["mdcopl","3/2006","mdcopl","3/2006","mdmwma","11/2014","Juvenile"],1146152);
 //birds[j++] = new myBird("USA","17-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"],3724576);
@@ -599,7 +599,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","DICRURID","Square-tailed Drongo","方尾卷尾","Dicrurus ludwigii",[m_id("")],["mdbhrp","9/2015"],4035380);
 //birds[j++] = new myBird("   ","17-00-00T00:00","RHIPIDUR","White-throated Fantail","白喉扇尾鹟","Rhipidura albicollis",[m_id("")],["mdbhrp","9/2015"],855576);
 //birds[j++] = new myBird("   ","17-00-00T00:00","MONARCHI","Black-naped Monarch","黑枕王鹟","Hypothymis azurea",[m_id("")],["mdbhrp","9/2015"],855956);
-  birds[j++] = new myBird("USA","16-09-15T06:39","CORVIDAE","Gray Jay","灰噪鸦","Perisoreus canadensis",[p_id("1609vtcanbirding",2)],["vtwwma","9/2016"],3997175);
+  birds[j++] = new myBird("USA","16-09-15T06:39","CORVIDAE","Gray Jay","灰噪鸦","Perisoreus canadensis",[p_id("1609vtcanbirding",2),p_id("1709algonquin",14)],["vtwwma","9/2016","caalgp","9/2017"],3997175);
   birds[j++] = new myBird("USA","15-07-08T19:39","CORVIDAE","Steller's Jay","暗冠蓝鸦","Cyanocitta stelleri",[p_id("1507birdingwest",14)],["waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"],3985736);
   birds[j++] = new myBird("USA","06-03-04T15:28","CORVIDAE","Blue Jay","冠蓝鸦","Cyanocitta cristata",[p_id("1412mckee-beshers",34),m_id("20170506_053_BlueJay")],["mdmwma","11/2014","nycenp","5/2017"],1503258);
   birds[j++] = new myBird("USA","05-12-28T13:13","CORVIDAE","Florida Scrub-Jay","佛罗里达丛鸦","Aphelocoma coerulescens",p_id("0512merritt",[19,21]),["flmnwr","12/2005"],9270677);
