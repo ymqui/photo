@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-08-19T18:00:00");
-  var modirange = 1;  	//range within modiDate in days
+  var modiDate  = new Date("2017-09-06T18:00:00");
+  var modirange = 6;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -213,7 +213,7 @@
   birds[j++] = new myBird("USA","17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant(M)"),p_id("1704longyan",12)],["mdmwma","1/2017","Male","cnlynv","4/2017","Female"],14973);
   birds[j++] = new myBird("USA","16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"],5873637);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",[m_id("")],["mdbhrp","9/2015"],2990680);
-//birds[j++] = new myBird("CAN","17-00-00T00:00","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",[m_id("")],["caalgp","9/2017"],5869659);
+  birds[j++] = new myBird("CAN","17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",p_id("1709algonquin",[10,8,9]),["caalgp","9/2017","Male","caalgp","9/2017","Female","caalgp","9/2017"],5869659);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",[m_id("")],["mdbhrp","9/2015"],5869671);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"],-10410);
   birds[j++] = new myBird("USA","16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"],37220);
@@ -780,7 +780,7 @@
   birds[j++] = new myBird("USA","15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Oreothlypis celata",[p_id("1507birdingwest",29)],["orcanb","7/2015"],4751947);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Oreothlypis crissalis",[m_id("")],["mdbhrp","9/2015"],cornellurl("colwar",true),"黄腰虫森莺");
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Oreothlypis luciae",[m_id("")],["mdbhrp","9/2015"],4751827);
-//birds[j++] = new myBird("CAN","17-00-00T00:00","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[m_id("")],["caalgp","9/2017"],4751950);
+  birds[j++] = new myBird("CAN","17-09-02T07:39","PARULIDA","Nashville Warbler","黄喉虫森莺","Oreothlypis ruficapilla",[p_id("1709algonquin",1)],["caalgp","9/2017"],4751950);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"],4751911);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[m_id("")],["mdbhrp","9/2015"],4738131);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["mdbhrp","9/2015"],4751928);
