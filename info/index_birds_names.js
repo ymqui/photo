@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-09-06T18:00:00");
-  var modirange = 6;  	//range within modiDate in days
+  var modiDate  = new Date("2017-09-09T18:00:00");
+  var modirange = 10;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -377,6 +377,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("")],["mdbhrp","9/2015"],cornellurl("redpha1",true),300471);
 //birds[j++] = new myBird("   ","17-00-00T00:00","GLAREOLI","Collared Pratincole","领燕鸻","Glareola pratincola",[m_id("")],["mdbhrp","9/2015"],304194);
   birds[j++] = new myBird("USA","15-07-09T13:32","LARIDAE ","Black-legged Kittiwake","三趾鸥","Rissa tridactyla",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the left, on the right is a "+b_link("California Gull"),"左边，右边是一只"+b_link("加州鸥")],830840);
+  birds[j++] = new myBird("USA","17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",[m_id("20170909_099_Sabine'sGull")],["mdcocn","9/2017","",""," at Sycamore Landing","悬铃木码头"],"叉尾鸥");
   birds[j++] = new myBird("USA","15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_Bonaparte'sGull(W)","20151126_136_Bonaparte'sGull(WP)"]),["arbitr","3/2015","Winter plumage, Lapidum, Maryland","冬羽，萨斯奎哈纳州立公园，马里兰州","mdocin","11/2015","Winter plumage"],4825408);
 //birds[j++] = new myBird("USA","17-00-00T00:00","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",[m_id("")],["mdloch","11/2015","",""," at Paper Mill Flats","造纸厂路平滩"],37793);
 //birds[j++] = new myBird("USA","17-00-00T00:00","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("")],["mdloch","11/2015","",""," at Paper Mill Flats","造纸厂路平滩"],129400);
