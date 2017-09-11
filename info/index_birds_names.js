@@ -106,7 +106,6 @@
   locs["txbbnp"] = ["Big Bend National Park","Texas","大弯国家公园","德克萨斯州","http://www.nps.gov/bibe/",baikeurl(553962)];
   locs["vacnwr"] = ["Chincoteague National Wildlife Refuge","Virginia","钦科蒂格国家野生动物保护区","弗吉尼亚州","http://www.fws.gov/refuge/chincoteague/"];
   locs["vahump"] = ["Huntley Meadows Park","Virginia","亨特利湿地公园","弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"];
-  locs["vajopp"] = ["Jones Point Park","Virginia","琼斯点公园","弗吉尼亚州","http://www.nps.gov/gwmp/planyourvisit/jonespoint.htm"];
   locs["vtwwma"] = ["Wenlock Wildlife Management Area","Vermont","文洛克野生动物管理区","佛蒙特州","http://www.vtfishandwildlife.com/UserFiles/Servers/Server_73079/File/Where%20to%20Hunt/St.%20Johnsbury%20District/Wenlock%20WMA.pdf"];  
   locs["wacape"] = ["Cape Flattery","Neah Bay, Washington","尼亚湾夫拉特角","华盛顿州","http://makah.com/activities/cape-flattery-trail/"];
   locs["wahobb"] = ["Hobuck Beach","Neah Bay, Washington","尼亚湾Hobuck海滩","华盛顿州","http://makah.com/activities/beaches/hobuck/"];
@@ -652,7 +651,7 @@
   birds[j++] = new myBird("USA","15-05-09T11:56","HIRUNDIN","Purple Martin","紫崖燕","Progne subis",[p_id("1505capemay",5),p_id("1505puffin",3)],["njcmsp","5/2015","Female left, male right","ctciws","5/2015","Male"],2501891);
   birds[j++] = new myBird("USA","06-04-30T08:56","HIRUNDIN","Tree Swallow","双色树燕","Tachycineta bicolor",[p_id("1505puffin",1),m_id("20150405_049_TreeSwallow")],["ctciws","5/2015","Female","mdbmnt","4/2015","Male"],4631303);
 //birds[j++] = new myBird("USA","17-00-00T00:00","HIRUNDIN","Violet-green Swallow","紫绿树燕","Tachycineta thalassina",[m_id("")],["nvdnwr","7/2015"],4631564);
-  birds[j++] = new myBird("USA","06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20150418_057_NorthernRough-wingedSwallow")],["vajopp","4/2015"],4631285);
+  birds[j++] = new myBird("USA","06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20150418_057_NorthernRough-wingedSwallow")],["arbitr","4/2015","Jones Point Park, Virginia","琼斯点公园，弗吉尼亚州"],4631285);
   birds[j++] = new myBird("USA","13-07-17T17:11","HIRUNDIN","Bank Swallow","崖沙燕","Riparia riparia",[p_id("1307alaskabirding",6)],["arbitr","7/2013","Point Woronzof Park, Anchorage, Alaska","安克雷奇沃隆佐夫角公园，阿拉斯加州"],33027);
   birds[j++] = new myBird("USA","15-05-16T09:59","HIRUNDIN","Cliff Swallow","美洲燕","Petrochelidon pyrrhonota",[m_id("20150516_074_CliffSwallow")],["mdloch","5/2015","",""," at Paper Mill Road Bridge","造纸厂路桥"],4619011);
 //birds[j++] = new myBird("USA","17-00-00T00:00","HIRUNDIN","Cave Swallow","穴崖燕","Petrochelidon fulva",[m_id("")],["mdocin","11/2015"],4619010);
