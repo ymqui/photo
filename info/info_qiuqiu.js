@@ -10,7 +10,7 @@ var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
  
 if(window.usechinese){
-    title      = "棉花球的照片";
+    title      = "球球的照片";
 }
  
 document.title = title;
