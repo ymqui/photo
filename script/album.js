@@ -575,4 +575,8 @@ function switchlang(){
     }
     location.href = tmpdir+"showphoto.html?"+window.location.search.substring(1);
 }
+
+function pagelink(pid, descrip){
+    return "<a href='showphoto.html?"+pid+"' style='color: #3399FF; text-decoration: underline;' target='_blank'>"+descrip+"</a>";
+} 
 //-->
