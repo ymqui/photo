@@ -29,7 +29,7 @@ function initAlbum(){
     this[0][i]   = "20170602_007_AnatomySonogram";
     this[1][i++] = "Anatomy ultrasound at MedStar Montgomery Medical Center. The baby is healthy and strong, 6/2/2017.";
     this[0][i]   = "20170721_008_Sonogram";
-    this[1][i++] = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017. <a href='showphoto.html?america' style='text-decoration:underline;' target='_blank'>Baby shower</a>";
+    this[1][i++] = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017. <a href='showphoto.html?america' style='color: #3399FF; text-decoration: underline;' target='_blank'>Baby shower</a>";
 
 
     if(window.usechinese){
