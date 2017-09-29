@@ -350,8 +350,7 @@
   birds[j++] = new myBird("USA","06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",[m_id("20170806_086_SpottedSandpiper")],["arbitr","8/2017","North Beach, Calvert County, Maryland","卡尔弗特郡北海滩，马里兰州"],13231604);
   birds[j++] = new myBird("USA","06-05-06T16:31","SCOLOPAC","Solitary Sandpiper","褐腰草鹬","Tringa solitaria",[m_id("20170423_032_SolitarySandpiper")],["arbitr","4/2017","Schoolhouse Pond, Prince George's County, Maryland","乔治王子郡校舍池塘，马里兰州"],13229089);
   birds[j++] = new myBird("USA","13-07-14T14:15","SCOLOPAC","Greater Yellowlegs","大黄脚鹬","Tringa melanoleuca",[m_id("20170429_034_GreaterYellowlegs"),p_id("1307alaskabirding",2)],["debnwr","4/2017","akknpp","7/2013"],4877192);
-  birds[j++] = new myBird("USA","14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[p_id("1409fingerlake",8)],["arbitr","8/2014","Myers Park, New York","麦尔斯公园，纽约州"],300494);
-//birds[j++] = new myBird("USA","14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[m_id("")],["arbitr","9/2017","Shiloh Church Road Turf Farm, Dorchester County, Maryland","多切斯特郡夏伊洛教堂路草皮农场，马里兰州"],300494);
+  birds[j++] = new myBird("USA","14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[m_id("20170924_108_LesserYellowlegs")],["arbitr","9/2017","Shiloh Church Road Turf Farm, Dorchester County, Maryland","多切斯特郡夏伊洛教堂路草皮农场，马里兰州"],300494);
   birds[j++] = new myBird("USA","15-05-09T16:27","SCOLOPAC","Willet","斑翅鹬","Tringa semipalmata",[m_id("20160529_070_Willet"),p_id("1509charleston",20),m_id("20160529_067_Willet")],["mdsclr","5/2016","Breeding adult","scpitt","9/2015","Nonbreeding adult","mdtrlr","5/2016"],14026232);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",[m_id("")],["mdolan","7/2016"],14810104);
 //birds[j++] = new myBird("USA","17-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[m_id("")],["nyjbwr","6/2016"],276982);
