@@ -86,7 +86,6 @@
   locs["nymnwr"] = ["Montezuma National Wildlife Refuge","New York","蒙特祖玛国家野生动物保护区","纽约州","http://www.fws.gov/refuge/montezuma/"];
   locs["ohbath"] = ["Bath Nature Preserve","Ohio","巴斯自然保护区","俄亥俄州","https://www.bathtownship.org/Parks%20folder/BNP%20page%20parks.htm"];
   locs["ohmage"] = ["Magee Marsh Wildlife Area","Ohio","玛吉沼泽野生动物保护区","俄亥俄州","http://www.mageemarsh.org/"];
-  locs["ohment"] = ["Mentor Marsh State Nature Perserve","Ohio","门托沼泽州立自然保护区","俄亥俄州","http://naturepreserves.ohiodnr.gov/mentormarsh"];
   locs["orcanb"] = ["Cannon Beach","Oregon","卡农海滩","俄勒冈州","http://www.ci.cannon-beach.or.us/~Natural/HRAP/hrap-habitat.html"];
   locs["orhayd"] = ["Hayden Island","Portland, Oregon","波特兰海登岛","俄勒冈州",wikiurl("Hayden Island, Portland, Oregon")];
   locs["prbaya"] = ["Bayamón","Puerto Rico","巴亚蒙","波多黎各",wikiurl("Bayamón, Puerto Rico")];
@@ -312,7 +311,7 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",[m_id("")],["mdbhrp","9/2015"],1596128);
   birds[j++] = new myBird("USA","15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus longirostris",p_id("1509charleston",[9,10]),["scpitt","9/2015"],2506463);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","King Rail","王秧鸡","Rallus elegans",[m_id("")],["arbitr","5/2017","Wooton's Landing Park, Anne Arundel County, Maryland","安妮阿伦德尔郡伍顿登陆公园，马里兰州"],2506673);
-  birds[j++] = new myBird("USA","17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["ohment","5/2017"],2444046);
+  birds[j++] = new myBird("USA","17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arbitr","5/2017","Mentor Marsh State Nature Perserve, Ohio","门托沼泽州立自然保护区，俄亥俄州"],2444046);
 //birds[j++] = new myBird("CHN","17-00-00T00:00","RALLIDAE","White-breasted Waterhen","白胸苦恶鸟","Amaurornis phoenicurus",[m_id("")],["mdbhrp","9/2015"],285964);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("")],["ohment","5/2017"],2497667);
 //birds[j++] = new myBird("USA","17-00-00T00:00","RALLIDAE","Gray-headed Swamphen","紫水鸡","Porphyrio poliocephalus",[m_id("")],["mdbhrp","6/2016"],wikiurl("Grey-headed Swamphen"),4216934);
