@@ -63,6 +63,7 @@
   locs["mdocci"] = ["Ocean City","Maryland","大洋城","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdocin"] = ["Ocean City"," Inlet","Maryland","大洋城","海口","马里兰州",wikiurl("Ocean City, Maryland"),baikeurl([2940549,13831356])];
   locs["mdolan"] = ["Oland Road","Frederick County, Maryland","弗雷德里克郡欧蓝德路","马里兰州"];
+  locs["mdorpk"] = ["Oregon Ridge Park","Baltimore, Maryland","巴尔的摩俄勒冈岭公园","马里兰州","http://www.oregonridgenaturecenter.org/"];
   locs["mdpvsp"] = ["Patapsco Valley State Park"," at Henryton","Maryland","帕塔普斯科河谷州立公园","亨利顿一带","马里兰州","http://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx"];
   locs["mdsclr"] = ["Scotts Landing Road","Worcester County, Maryland","伍斯特郡斯科茨码头路","马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"];
   locs["mdswhf"] = ["Swan Harbor Farm","Havre de Grace, Maryland","哈佛德格雷斯天鹅港农场","马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"];
@@ -551,7 +552,7 @@
   birds[j++] = new myBird("USA","13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",[p_id("1507birdingwest",4)],["nvdnwr","7/2015"],4561779);
   birds[j++] = new myBird("USA","13-12-25T14:52","TYRANNID","Vermilion Flycatcher","朱红霸鹟","Pyrocephalus rubinus",p_id("1312bigbendbirding",[3,4]),["txbbnp","12/2013","Male"],4560677);
   birds[j++] = new myBird("USA","15-07-12T09:58","TYRANNID","Ash-throated Flycatcher","灰喉蝇霸鹟","Myiarchus cinerascens",[p_id("1507birdingwest",43)],["cayokp","7/2015"],4533408);
-  birds[j++] = new myBird("USA","14-08-10T10:54","TYRANNID","Great Crested Flycatcher","大冠蝇霸鹟","Myiarchus crinitus",m_id(["20160530_074_GreatCrestedFlycatcher","20160530_075_GreatCrestedFlycatcher"]),["arbitr","5/2016","Oregon Ridge Park, Baltimore, Maryland","巴尔的摩俄勒冈岭公园，马里兰州"],4533479);
+  birds[j++] = new myBird("USA","14-08-10T10:54","TYRANNID","Great Crested Flycatcher","大冠蝇霸鹟","Myiarchus crinitus",m_id(["20160530_074_GreatCrestedFlycatcher","20160530_075_GreatCrestedFlycatcher"]),["mdorpk","5/2016"],4533479);
   birds[j++] = new myBird("USA","15-01-03T10:03","TYRANNID","Puerto Rican Flycatcher","波多黎各蝇霸鹟","Myiarchus antillarum",[p_id("1501prbirding",14)],["prcnwr","1/2015"],cornellurl("purfly1",true),4533267);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[m_id("")],["prcnwr","1/2015"],4572844);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TYRANNID","Cassin's Kingbird","卡氏王霸鹟","Tyrannus vociferans",[m_id("")],["prcnwr","1/2015"],4576852);
@@ -728,7 +729,7 @@
   birds[j++] = new myBird("USA","06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[3,22]),["mdcovl","2/2009","Female","mdcovl","5/2009","Male"],4840600);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"],4840665);
   birds[j++] = new myBird("USA","15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"],4812989);
-//birds[j++] = new myBird("USA","17-00-00T00:00","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("")],["mdlbrp","9/2016"],4826264);
+//birds[j++] = new myBird("USA","17-09-30T00:00","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("")],["mdorpk","9/2017"],4826264);
   birds[j++] = new myBird("USA","15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[m_id("20170506_043_Swainson'sThrush"),p_id("1507birdingwest",12)],["nycenp","5/2017","waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"],4826364);
   birds[j++] = new myBird("USA","06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1612savannah",2)],["scsnwr","12/2016"],4825795);
   birds[j++] = new myBird("USA","15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",[m_id("20150621_078_WoodThrush")],["mdpvsp","6/2015"],4840884);
