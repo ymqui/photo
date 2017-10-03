@@ -91,6 +91,9 @@ if (window.usechinese){
    }
 }
 
+//var newsty  = 'background-image:url('+newpic+');background-repeat:no-repeat;background-position:right;';
+var newsty  = 'background:url('+newpic+') no-repeat right;';
+
 for(var i=0;i<vars.length;i++) {
    var pair = vars[i].split("=");
    switch(pair[0].toLowerCase()){
@@ -246,7 +249,7 @@ if(order){
             }
             if (tmp1[k].name.slice(-1)=="*") capcnt++;
             if (isnewBird(tmp1[k].name)){
-               optstyle = 'style="color:blue;text-decoration:underline;margin-left:13px;background-image:url('+newpic+');background-repeat:no-repeat;background-position:right;"';
+               optstyle = 'style="color:blue;text-decoration:underline;margin-left:13px;'+newsty+'"';
             }else{
                optstyle = 'style="color:blue;text-decoration:underline;margin-left:13px;"';
             }
@@ -327,7 +330,7 @@ if(order){
       }
       if (birds[i].name.slice(-1)=="*") capcnt++;
       if (isnewBird(birds[i].name)){
-         optstyle = 'style="color:blue;text-decoration:underline;background-image:url('+newpic+');background-repeat:no-repeat;background-position:right;"';
+         optstyle = 'style="color:blue;text-decoration:underline;'+newsty+'"';
       }else{
          optstyle = 'style="color:blue;text-decoration:underline;"';
       }
