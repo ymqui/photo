@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-09-16T18:00:00");
-  var modirange = 2;  	//range within modiDate in days
+  var modiDate  = new Date("2017-10-02T18:00:00");
+  var modirange = 3;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -728,7 +728,7 @@
   birds[j++] = new myBird("USA","06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[3,22]),["mdcovl","2/2009","Female","mdcovl","5/2009","Male"],4840600);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"],4840665);
   birds[j++] = new myBird("USA","15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"],4812989);
-//birds[j++] = new myBird("USA","17-09-30T00:00","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("")],["mdorpk","9/2017"],4826264);
+  birds[j++] = new myBird("USA","17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("20170930_109_Gray-cheekedThrush")],["mdorpk","9/2017"],4826264);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdorpk","9/2017"],"比氏夜鸫");
   birds[j++] = new myBird("USA","15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[m_id("20170506_043_Swainson'sThrush"),p_id("1507birdingwest",12)],["nycenp","5/2017","waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"],4826364);
   birds[j++] = new myBird("USA","06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1612savannah",2)],["scsnwr","12/2016"],4825795);
@@ -797,7 +797,7 @@
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[m_id("")],["mdbhrp","9/2015"],4738131);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["mdbhrp","9/2015"],4751928);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[m_id("")],["mdbhrp","9/2015"],4751908);
-  birds[j++] = new myBird("USA","06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat(M)"),p_id("1505bombayhook",11)],["mdbmnt","4/2015","Male","debnwr","5/2015","Female"],4751590);
+  birds[j++] = new myBird("USA","06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat(M)"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat(IM)")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdorpk","9/2017","Immature male"],4751590);
   birds[j++] = new myBird("USA","16-04-24T10:49","PARULIDA","Hooded Warbler","黑枕威森莺","Setophaga citrina",p_id("1604asheville",[18,17]),["nccrsp","4/2016","Male"],4751661);
   birds[j++] = new myBird("USA","14-07-07T16:57","PARULIDA","American Redstart","橙尾鸲莺","Setophaga ruticilla",[p_id("1407michiganbirding",20),m_id("20170826_090_AmericanRedstart(F)")],["mimack","7/2014","Male","mdmwma","8/2017","Female"],4751913);
 //birds[j++] = new myBird("USA","17-00-00T00:00","PARULIDA","Kirtland's Warbler","黑纹背林莺","Setophaga kirtlandii",[m_id("")],["mdbhrp","9/2015"],10870523);
