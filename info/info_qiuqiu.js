@@ -30,7 +30,7 @@ function initAlbum(){
     this[1][i++] = "Anatomy ultrasound at MedStar Montgomery Medical Center. The baby is healthy and strong, 6/2/2017.";
     this[0][i]   = "20170721_008_Sonogram";
     this[1][i++] = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017.";
-    this[0][i]   = "20170920_027";
+    this[0][i]   = "20170920_018";
     this[1][i++] = "A surprise "+pagelink("1709babyshower","office baby shower")+", 9/20/2017.";
 
     if(window.usechinese){
