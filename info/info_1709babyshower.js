@@ -12,7 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
  
 if(window.usechinese){
-    title      = "迎婴聚会";
+    title      = "准妈妈派对";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
 }
  
