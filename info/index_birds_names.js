@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-10-02T18:00:00");
+  var modiDate  = new Date("2017-10-15T18:00:00");
   var modirange = 3;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
@@ -695,14 +695,14 @@
 //birds[j++] = new myBird("   ","17-00-00T00:00","PROMEROP","Cape Sugarbird","南非食蜜鸟","Promerops cafer",[m_id("")],["mdbhrp","9/2015"],-4115);
 //birds[j++] = new myBird("   ","17-00-00T00:00","IRENIDAE","Asian Fairy-bluebird","和平鸟","Irena puella",["0504zoo/0504zoo__11"],["natzo","4/2005"],wikiurl("Asian Fairy-bluebird"),681078);
   birds[j++] = new myBird("USA","07-02-10T12:17","REGULIDA","Golden-crowned Kinglet","金冠戴菊","Regulus satrapa",["2007cobirding/20070210_028_Golden-crownedKinglet(M)"],["mdcovl","2/2007"],1604047);
-  birds[j++] = new myBird("USA","09-04-12T13:39","REGULIDA","Ruby-crowned Kinglet","红冠戴菊","Regulus calendula",m_id(["20151024_109_Ruby-crownedKinglet","20151024_110_Ruby-crownedKinglet(M)"]),["mdbmnt","10/2015","mdbmnt","10/2015","Male"],4844803);
+  birds[j++] = new myBird("USA","09-04-12T13:39","REGULIDA","Ruby-crowned Kinglet","红冠戴菊","Regulus calendula",m_id(["20171014_115_Ruby-crownedKinglet","20151024_110_Ruby-crownedKinglet(M)"]),["mdlbrp","10/2017","mdbmnt","10/2015","Male"],4844803);
 //birds[j++] = new myBird("   ","17-00-00T00:00","ELACHURI","Spotted Elachura","丽星鹩鹛","Elachura formosa",[m_id("")],["mdbhrp","9/2015"],847173);
 //birds[j++] = new myBird("   ","17-00-00T00:00","HYLIOTID","Yellow-bellied Hyliota","黄腹丛莺","Hyliota flavigaster",[m_id("")],["mdbhrp","9/2015"],4843851);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[m_id("")],["mdocin","10/2015"],2938048);
   birds[j++] = new myBird("USA","15-04-18T09:12","TROGLODY","House Wren","莺鹪鹩","Troglodytes aedon",m_id(["20150418_055_HouseWren","20150719_083_HouseWren"]),["mdbmnt","4/2015","mdbmnt","7/2015"],3036301);
   birds[j++] = new myBird("USA","15-07-09T12:26","TROGLODY","Pacific Wren","太平洋鹪鹩","Troglodytes pacificus",[p_id("1507birdingwest",20)],["wacape","7/2015"],12085686);
   birds[j++] = new myBird("USA","06-03-04T15:46","TROGLODY","Winter Wren","冬鹪鹩","Troglodytes troglodytes",["2006cobirding/WinterWren_20060304_007","2007cobirding/20070107_004_WinterWren"],["mdcorl","3/2006","mdcorl","1/2007"],847385);
-//birds[j++] = new myBird("USA","17-00-00T00:00","TROGLODY","Sedge Wren","短嘴沼泽鹪鹩","Cistothorus platensis",[m_id("")],["nvdnwr","7/2015"],2899665);
+  birds[j++] = new myBird("USA","17-10-15T08:16","TROGLODY","Sedge Wren","短嘴沼泽鹪鹩","Cistothorus platensis",m_id(["20171015_119_SedgeWren","20171015_117_SedgeWren"]),["mdlbrp","10/2017"],2899665);
   birds[j++] = new myBird("USA","15-05-17T09:53","TROGLODY","Marsh Wren","长嘴沼泽鹪鹩","Cistothorus palustris",[p_id("1505bombayhook",6)],["debnwr","5/2015"],2896416);
   birds[j++] = new myBird("USA","06-04-15T10:41","TROGLODY","Carolina Wren","卡罗苇鹪鹩","Thryothorus ludovicianus",[p_id("1512bhill",21),m_id("20160221_017_CarolinaWren")],["mdbhrp","2/2015","mdcorl","2/2016"],2973549);
 //birds[j++] = new myBird("USA","17-00-00T00:00","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",[m_id("")],["nvdnwr","7/2015"],2942398);
