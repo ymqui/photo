@@ -108,8 +108,8 @@ for(var i=0;i<vars.length;i++) {
            q_name = "&amp;"+vars[i];
            break;
       case "country":
-           country = reform(decodeURIComponent(pair[1]));
-           tmp = getByCountry(country, birds);
+           country = decodeURIComponent(pair[1]);
+           tmp = getByCountry(reform(country), birds);
            if(tmp.length!=0){
               birds = tmp;
               if (title.length!=0) title = title+" ";
