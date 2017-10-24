@@ -1086,13 +1086,15 @@
      if (id.match(/[\u3400-\u9FBF]/)){
         return myArray.filter(function(obj) {
            for (var i=0;i<obj.cinfo.length;i++){
-               if(obj.cinfo[i].indexOf("，"+id)!=-1) { return obj; }
+               var tmp = reform(obj.cinfo[i]);
+               if(tmp.indexOf("，"+id)!=-1||tmp.indexOf("，_"+id)!=-1) { return obj; }
            }
         })
      }else{
         return myArray.filter(function(obj) {
            for (var i=0;i<obj.info.length;i++){
-               if(obj.info[i].indexOf(", "+id) != -1) { return obj; }
+               var tmp = reform(obj.info[i]);
+               if(tmp.indexOf(","+id)!=-1||tmp.indexOf(",_"+id)!=-1) { return obj; }
            }
         })
      }
