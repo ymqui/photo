@@ -1099,7 +1099,7 @@
        if(reform(obj.country) == code) { 
           return obj; 
        }
-     }
+     })
   } 
 
   function getByLiferYear(year, myArray){
