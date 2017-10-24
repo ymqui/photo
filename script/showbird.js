@@ -112,12 +112,8 @@ for(var i=0;i<vars.length;i++) {
            tmp = getByCountry(country, birds);
            if(tmp.length!=0){
               birds = tmp;
-              if (window.usechinese) {
-                 title = title+tmp[0].ccountry;
-              }else{
-                 if (title.length!=0) title = title+" ";
-                 title = title+tmp[0].country;
-              }
+              if (title.length!=0) title = title+" ";
+              title = title+country;
            }
            q_count = q_count+"&amp;"+vars[i];
            break;
