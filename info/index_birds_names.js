@@ -1008,7 +1008,6 @@
      if(typeof this.url === 'undefined'){
         var isusa = false;
         for (var i=0;i<this.info.length;i++){
-            //if(this.info[i].indexOf("USA")!=-1 ||this.info[i].indexOf("Canada")!=-1) {
             if (/(,|\s)+(usa|canada)/i.test(this.info[i])){
                isusa = true;
                break; 
