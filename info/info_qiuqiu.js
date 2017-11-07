@@ -35,7 +35,7 @@ function initAlbum(){
     this[0][i]   = "20171031_009_AfterBirth";
     this[1][i++] = "At the nursery after birth, 8 lb 12 oz, and 20 inches long, 10/31/2017.";
     this[0][i]   = "20171101_014_WithMom";
-    this[1][i++] = "Resting with mom, 11/1/2017.";
+    this[1][i++] = "Resting with mom in the hospital recovery room, 11/1/2017.";
     this[0][i]   = "20171107_016_HomeAsleep";
     this[1][i++] = "Asleep at home, 11/7/2017.";
 
@@ -48,7 +48,7 @@ function initAlbum(){
         this[1][i++] = "小宝宝的脸蛋，蒙哥马利医疗中心，7/21/2017。";
         this[1][i++] = "同事们举办的准妈妈派对，9/20/2017。";
         this[1][i++] = "宝宝出生了，7斤9两重，51厘米长，10/31/2017。";
-        this[1][i++] = "和妈妈一块休息，11/1/2017。";
+        this[1][i++] = "和妈妈在恢复室一块休息，11/1/2017。";
         this[1][i++] = "在家里的婴儿摇椅上安睡，11/7/2017。";
     }
 }
