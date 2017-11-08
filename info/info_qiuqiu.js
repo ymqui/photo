@@ -33,7 +33,7 @@ function initAlbum(){
     this[0][i]   = "20170920_018";
     this[1][i++] = "Baby shower, 9/20/2017.";
     this[0][i]   = "20171031_009_AfterBirth";
-    this[1][i++] = "At the nursery after birth, 8 lb 12 oz, and 20 inches long, 10/31/2017.";
+    this[1][i++] = "In the nursery after birth, 8 lb 12 oz, and 20 inches long, 10/31/2017.";
     this[0][i]   = "20171101_014_WithMom";
     this[1][i++] = "Resting with mom in the hospital recovery room, 11/1/2017.";
     this[0][i]   = "20171107_016_HomeAsleep";
