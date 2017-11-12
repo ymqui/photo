@@ -38,6 +38,8 @@ function initAlbum(){
     this[1][i++] = "Resting with mom in the hospital recovery room, 11/1/2017.";
     this[0][i]   = "20171107_016_HomeAsleep";
     this[1][i++] = "Asleep at home, 11/7/2017.";
+    this[0][i]   = "20171110_017_HomeWithMom";
+    this[1][i++] = "With mom at home, 11/10/2017.";
 
     if(window.usechinese){
         i = 0;
@@ -50,6 +52,7 @@ function initAlbum(){
         this[1][i++] = "宝宝出生了，7斤9两重，51厘米长，10/31/2017。";
         this[1][i++] = "和妈妈在恢复室一块休息，11/1/2017。";
         this[1][i++] = "在家里的婴儿摇椅上安睡，11/7/2017。";
+        this[1][i++] = "在家里牵着妈妈的手指头，11/10/2017。";
     }
 }
 
