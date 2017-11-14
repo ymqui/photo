@@ -210,7 +210,7 @@
   birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant(M)"),p_id("1704longyan",12)],["mdmwma","1/2017","Male","cnlynv","4/2017","Female"],14973);
   birds[j++] = new myBird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"],5873637);
 //birds[j++] = new myBird("17-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",[m_id("")],["mdbhrp","9/2015"],2990680);
-  birds[j++] = new myBird("17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",p_id("1709algonquin",[10,8,9]),["caalgp","9/2017","Male","caalgp","9/2017","Female","caalgp","9/2017"],5869659);
+  birds[j++] = new myBird("17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Falcipennis canadensis",p_id("1709algonquin",[10,8,9]),["caalgp","9/2017","Male","caalgp","9/2017","Female","caalgp","9/2017","Mating display"],5869659);
 //birds[j++] = new myBird("17-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",[m_id("")],["mdbhrp","9/2015"],5869671);
 //birds[j++] = new myBird("17-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"],-10410);
   birds[j++] = new myBird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"],37220);
@@ -967,6 +967,8 @@
                   info[3+6*i] = "雄性，非繁殖羽";
                }else if((/^(partially)* *leucistic$/i).test(tmp)){
                   info[3+6*i] = "白变种";
+               }else if((/^mating display$/i).test(tmp)){
+                  info[3+6*i] = "求偶展示";
                }
             }
          }
