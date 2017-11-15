@@ -244,7 +244,7 @@ if(order){
                label = (itmp+1).toString()+' '+tmp1[k].name;
             }
             if (tmp1[k].name.slice(-1)=="*") capcnt++;
-            if (isnewBird(tmp1[k].name)){
+            if (tmp1[k].newbird){
                optstyle = 'style="color:blue;text-decoration:underline;margin-left:13px;'+newsty+'"';
             }else{
                optstyle = 'style="color:blue;text-decoration:underline;margin-left:13px;"';
@@ -325,7 +325,7 @@ if(order){
          label = label+' '+birds[i].name;
       }
       if (birds[i].name.slice(-1)=="*") capcnt++;
-      if (isnewBird(birds[i].name)){
+      if (birds[i].newbird){
          optstyle = 'style="color:blue;text-decoration:underline;'+newsty+'"';
       }else{
          optstyle = 'style="color:blue;text-decoration:underline;"';
