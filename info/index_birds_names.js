@@ -1064,8 +1064,12 @@
      return tmp;
   }
 
-  function m_id(id){
-     return sas("misc_birds/",id);
+  function m_id(id,num){
+     if (typeof num === 'undefined'){ 
+        return sas("misc_birds/",id);
+     }else{
+        return sas("misc_birds"+num.toString()+"/",id);
+     }
   }
 
   function p_id(album,id){
