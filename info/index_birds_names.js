@@ -913,6 +913,7 @@
      this.name1    = reform(this.name);
      this.cname    = cname.trim();
      this.pinyin   = getpinyin(this.cname);
+     this.newbird  = false;
      this.latin    = latin.trim().toLowerCase();
      this.latin    = this.latin.charAt(0).toUpperCase()+this.latin.slice(1);
      this.info     = [];
@@ -1029,6 +1030,7 @@
      if (modiTime-this.lifer.getTime() <= modirange){
         modiBird.name[modiBird.name.length]   = this.name;
         modiBird.cname[modiBird.cname.length] = this.cname;
+        this.newbird = true;
      }
   }
 
@@ -1080,14 +1082,6 @@
      }else{
         return tmp.toLowerCase();
      }
-  }
-
-  function isnewBird(id){
-     id = id.toLowerCase();
-     for(var i=0;i<modiBird.name.length;i++){
-        if (modiBird.name[i].toLowerCase() == id){return true;}
-     } 
-     return false;
   }
 
   function getByCountry(id, myArray){
