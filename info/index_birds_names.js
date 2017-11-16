@@ -1269,9 +1269,9 @@
         if (usechinese) {tmp[4] = tmp[5];} 
      }
      if (extra.length>0){extra = extra+comma;}   
-     if (tmp[0+id_0].length>0) {
+     if ((tmp[0+id_0].length>0) && (!usechinese)) {
         extra = comma+extra;
-        if ((!usechinese) && (header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
+        if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {   
