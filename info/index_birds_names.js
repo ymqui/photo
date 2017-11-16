@@ -1267,12 +1267,13 @@
      }
      if (typeof tmp[5]!=='undefined'){
         if (usechinese) {tmp[4] = tmp[5];} 
-     }   
+     }
+     if (extra.length>0){extra = extra+comma;}   
      if (tmp[0+id_0].length>0) {
-        extra = extra+comma;
+        extra = comma+extra;
         if ((!usechinese) && (header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
      }
-     if ((date.length>0)&&(tmp[1+id_0].length>0)) {date = comma+date;}
+     if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {   
         if(usechinese){
            return header+tmp[1+id_0]+"<a href='"+tmp[4]+"' style='color: #3399FF; text-decoration: underline;' target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date;
