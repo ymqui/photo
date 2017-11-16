@@ -1268,7 +1268,7 @@
      if (typeof tmp[5]!=='undefined'){
         if (usechinese) {tmp[4] = tmp[5];} 
      }
-     if (extra.length>0){extra = extra+comma;}   
+     if ((extra.length>0)||usechinese){extra = extra+comma;}   
      if ((tmp[0+id_0].length>0) && (!usechinese)) {
         extra = comma+extra;
         if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
