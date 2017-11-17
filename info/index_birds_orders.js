@@ -428,13 +428,21 @@
   family[j++] = new newFamily("UROCYNCHRAMIDAE","朱鹀科","Przevalski's Finch","朱鹀");
   family[j++] = new newFamily("FRINGILLIDAE","燕雀科","Finches and Allies","燕雀等");
   family[j++] = new newFamily("PARULIDAE","森莺科","Wood-Warblers","森莺");
+  family[j++] = new newFamily("MITROSPINGIDAE","乌脸唐纳雀科","Mitrospingid Tanagers","乌脸唐纳雀");
   family[j++] = new newFamily("ICTERIIDAE","黄胸大鵖莺科","Yellow-breasted Chat","黄胸大鵖莺");
   family[j++] = new newFamily("ICTERIDAE","拟鹂科","Blackbirds and Allies","拟鹂");
-  family[j++] = new newFamily("COEREBIDAE","曲嘴森莺科","Bananaquit","曲嘴森莺");
+//family[j++] = new newFamily("COEREBIDAE","曲嘴森莺科","Bananaquit","曲嘴森莺");
   family[j++] = new newFamily("EMBERIZIDAE","鹀科","New World Sparrows and Allies","美洲鹀");
   family[j++] = new newFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀");
+  family[j++] = new newFamily("PASSERELLIDAE","美洲麻雀科","New World Sparrows","美洲麻雀");
+  family[j++] = new newFamily("CALYPTOPHILIDAE","拟鵖唐纳雀科","Chat-tanagers","拟鵖唐纳雀");
+  family[j++] = new newFamily("PHAENICOPHILIDAE","棕榈唐纳雀科","Hispaniolan Tanagers","海地唐纳雀");
+  family[j++] = new newFamily("NESOSPINGIDAE","波多黎各唐纳雀科","Puerto Rican Tanager","波多黎各唐纳雀");
   family[j++] = new newFamily("SPINDALIDAE","纹头唐纳雀科","Spindalises","纹头唐纳雀");
+  family[j++] = new newFamily("ZELEDONIIDAE","冠鹩森莺科","Wrenthrush","冠鹩森莺");
+  family[j++] = new newFamily("TERETISTRIDAE","灰森莺科","Cuban Warblers","古巴莺");
   family[j++] = new newFamily("CALCARIIDAE","铁爪鹀科","Longspurs and Snow Buntings","铁爪鹀和雪鹀");
+  family[j++] = new newFamily("RHODINOCICHLIDAE","鸫唐纳雀科","Thrush-tanager","鸫唐纳雀");
   family[j++] = new newFamily("CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies","美洲雀");
   orders[i++] = new newOrder("PASSERIFORMES","雀形目","Perching Birds","雀",family);
 //-->
