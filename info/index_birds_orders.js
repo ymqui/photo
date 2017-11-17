@@ -428,6 +428,7 @@
   family[j++] = new newFamily("UROCYNCHRAMIDAE","朱鹀科","Przevalski's Finch","朱鹀");
   family[j++] = new newFamily("FRINGILLIDAE","燕雀科","Finches and Allies","燕雀等");
   family[j++] = new newFamily("PARULIDAE","森莺科","Wood-Warblers","森莺");
+  family[j++] = new newFamily("ICTERIIDAE","黄胸大鵖莺科","Yellow-breasted Chat","黄胸大鵖莺");
   family[j++] = new newFamily("ICTERIDAE","拟鹂科","Blackbirds and Allies","拟鹂");
   family[j++] = new newFamily("COEREBIDAE","曲嘴森莺科","Bananaquit","曲嘴森莺");
   family[j++] = new newFamily("EMBERIZIDAE","鹀科","New World Sparrows and Allies","美洲鹀");

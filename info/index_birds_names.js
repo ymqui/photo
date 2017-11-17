@@ -118,17 +118,17 @@
             恶:"e4", 紫:"zi3",羽:"yu3",蛎:"li4",鹬:"yu4",矶:"ji1",丽:"li4",笛:"di2",和:"he2",赫:"he4", 金:"jin1",丘:"qiu1",丹:"dan1",蓑:"suo1",厚:"hou4",半:"ban4",云:"yun2",侏:"zhu1",靴:"xue3",直:"zhi2", 田:"tian2",青:"qing1",领:"ling3",鸟:"niao3",震:"zhen4",翘:"qiao4",端:"duan1",桑:"sang1", 冢:"zhong3",
             阿:"a1", 尔:"er3",地:"di4",崖:"ya2",鸦:"ya1",鸽:"ge1",耳:"er3",卡:"ka3",密:"mi4",伞:"san3",滨:"bin1",噪:"zao4",趾:"zhi3",鸠:"jiu1",威:"wei1",朱:"zhu1",裸:"luo3",翡:"fei3",池:"chi2",球:"qiu2", 鸣:"ming2",冰:"bing1",鹦:"ying1",皱:"zhou4",绒:"rong2",沼:"zhao3",星:"xing1",椒:"jiao1", 船:"chuan2",
             峨:"e2", 雨:"yu3",各:"ge4",颏:"ke1",木:"mu4",哥:"ge1",渡:"du4",扑:"pu1",哀:"ai1",鸱:"chi1",翠:"cui4",狗:"gou3",汁:"zhi1",鴷:"lie4",游:"you2",淡:"dan4",南:"nan2",帆:"fan1",葵:"kui2",饰:"shi4", 园:"yuan2",丁:"ding1",鹪:"jiao1",棉:"mian2",鹩:"liao2",蜂:"feng1",芒:"mang2",棕:"zong1", 塍:"cheng2",
-            伯:"bo2",暗:"an4",丝:"si1",蜡:"la4",鹀:"wu2",犀:"xi1",乐:"le4",欧:"ou1",马:"ma3",带:"dai4",钩:"gou1",呆:"dai1",劳:"lao2",百:"bai3",鹎:"bei1",罗:"luo2",绣:"xiu4",鹛:"mei2",维:"wei2",雷:"lei2", 圆:"yuan2",脚:"jiao3",嘲:"chao2",丛:"cong2",缝:"feng2",董:"dong3",藏:"zang4",长:"chang2",胸:"xiong1",
+            伯:"bo2",暗:"an4",丝:"si1",蜡:"la4",鹀:"wu2",犀:"xi1",乐:"le4",欧:"ou1",马:"ma3",带:"dai4",钩:"gou1",呆:"dai1",劳:"lao2",百:"bai3",鹎:"bei1",罗:"luo2",绣:"xiu4",鹛:"mei2",维:"wei2",雷:"lei2", 圆:"yuan2",脚:"jiao3",嘲:"chao2",丛:"cong2",缝:"feng2",董:"dong3",藏:"zang4",交:"jiao1", 长:"chang2",
             鸲:"qu2",鹡:"ji2",圃:"pu3",布:"bu4",河:"he2",鵖:"bi1",斯:"si1",鸬:"lu2",苏:"su1",铁:"tie3",玫:"mei2",昏:"hun1",弯:"wan1",腿:"tui3",花:"hua1",灶:"zao4",文:"wen2",琉:"liu2",穗:"sui4",支:"zhi1", 窜:"cuan4",鸰:"ling2",唐:"tang2",剑:"jian4",松:"song1",枞:"cong1",爪:"zhao3",鵟:"kuang2",光:"guang1",
             鹉:"wu3",热:"re4",勒:"le4",鹕:"hu2",霸:"ba4",拉:"la1",鹚:"ci2",波:"bo1",簇:"cu4",蚋:"rui4",鸵:"tuo2",贼:"zei2",反:"fan3",信:"xin4",纹:"wen2",黑:"hei1",燕:"yan4",岩:"yan2",非:"fei1",赛:"sai4", 潜:"qian2",鳽:"jian1",靛:"dian4",扁:"bian3",勺:"shao2",囱:"cong1",灵:"ling2",橡:"xiang4",橙:"cheng2",
             鹈:"ti2",漠:"mo4",姬:"ji1",刺:"ci4",吉:"ji2",骨:"gu3",鴗:"li4",鼻:"bi2",吸:"xi1",蛇:"she2",戴:"dai4",咬:"yao3",巾:"jin1",加:"jia1",秋:"qiu1",费:"fei4",食:"shi2",疣:"you2",瑞:"rui4",钝:"dun4", 榛:"zhen1",洲:"zhou1",叫:"jiao4",纯:"chun2",针:"zhen1",鹲:"meng2",卷:"juan3",虫:"chong2",相:"xiang1",
-            褐:"he4",普:"pu3",弗:"fu2",尼:"ni2",䴙:"pi4",西:"xi1",八:"ba1",旅:"lv3",籽:"zi3",北:"bei3",毛:"mao2",鹞:"yao4",烟:"yan1",果:"guo3",家:"jia1",柳:"liu3",胁:"xie2",隐:"yin3",高:"gao1",瘤:"liu2", 小:"xiao3",神:"shen2",角:"jiao3",短:"duan3",铜:"tong2",蓬:"peng2",漂:"piao1",疆:"jiang1",双:"shuang1",
-            浮:"fu2",黎:"li2",企:"qi3",达:"da2",鵙:"ju2",佛:"fo2",鹤:"he4",琵:"pi2",及:"ji2",火:"huo3",石:"shi2",印:"yin4",螺:"luo2",苇:"wei3",锈:"xiu4",内:"nei4",恺:"kai3",委:"wei3",岛:"dao3",鸺:"xiu1", 冠:"guan1",山:"shan1",鹋:"miao2",水:"shui3",宽:"kuan1",跷:"qiao1",䳍:"gong1",强:"qiang2",
+            褐:"he4",普:"pu3",弗:"fu2",尼:"ni2",䴙:"pi4",西:"xi1",八:"ba1",旅:"lv3",籽:"zi3",北:"bei3",毛:"mao2",鹞:"yao4",烟:"yan1",果:"guo3",家:"jia1",柳:"liu3",胁:"xie2",隐:"yin3",高:"gao1",瘤:"liu2", 小:"xiao3",神:"shen2",角:"jiao3",短:"duan3",铜:"tong2",蓬:"peng2",漂:"piao1",疆:"jiang1",胸:"xiong1",
+            浮:"fu2",黎:"li2",企:"qi3",达:"da2",鵙:"ju2",佛:"fo2",鹤:"he4",琵:"pi2",及:"ji2",火:"huo3",石:"shi2",印:"yin4",螺:"luo2",苇:"wei3",锈:"xiu4",内:"nei4",恺:"kai3",委:"wei3",岛:"dao3",鸺:"xiu1", 冠:"guan1",山:"shan1",鹋:"miao2",水:"shui3",宽:"kuan1",跷:"qiao1",䳍:"gong1",强:"qiang2",双:"shuang1",
             鸭:"ya1",色:"se4",鹱:"hu4",蹼:"pu3",鸥:"ou1",博:"bo2",里:"li3",喜:"xi3",埃:"ai1",眉:"mei2",主:"zhu3",多:"duo1",刀:"dao1",翅:"chi4",嘴:"zui3",鹊:"que4",氏:"shi4",雪:"xue3",鹠:"liu2",刘:"liu2", 垂:"chui2",鸯:"yang1",鹳:"guan4",鸳:"yuan1",王:"wang2",鹇:"xian2",鸢:"yuan1",城:"cheng2",
             乌:"wu1",披:"pi1",栗:"li4",亚:"ya4",安:"an1",鱼:"yu2",榈:"lv2",鹂:"li2",蜜:"mi4",番:"fan1",桂:"gui4",买:"mai3",䴓:"shi1",森:"sen1",瓣:"ban4",隼:"sun3",矛:"mao2",眼:"yan3",甘:"gan1",兰:"lan2", 雕:"diao1",锥:"zhui1",顶:"ding3",鹟:"weng1",鸫:"dong1",秧:"yang1",冕:"mian3",川:"chuan1",
             腹:"fu4",巴:"ba1",比:"bi3",库:"ku4",极:"ji2",科:"ke1",歌:"ge1",拟:"ni3",虎:"hu3",头:"tou2",颊:"jia2",伦:"lun2",油:"you2",走:"zou3",鼠:"shu3",喙:"hui4",画:"hua4",鬼:"gui3",赭:"zhe3",辉:"hui1", 啄:"zhuo2",丑:"chou3",笑:"xiao4",原:"yuan2",风:"feng1",颈:"jing3",肛:"gang1",黄:"huang2",
             䴘:"ti1",鳍:"qi2",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",掘:"jue2",榄:"lan3",蟹:"xie4",楔:"xie1",豆:"dou4",麝:"she4", 扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",灯:"deng1",中:"zhong1",      
-            几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",凫:"fu2",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",草:"cao3",膀:"bang3",滇:"dian1",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",交:"jiao1",眶:"kuang4",
+            几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",凫:"fu2",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",草:"cao3",曼:"man4", 膀:"bang3",滇:"dian1",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",眶:"kuang4",
             理:"li3",二:"er4",奇:"qi2",希:"xi1",思:"si1",距:"ju4",四:"si4",肃:"su4",叽:"ji1",蛛:"zhu1",旦:"dan4",痣:"zhi4",湾:"wan1",曙:"shu3",道:"dao4",稻:"dao4",黍:"shu3",煤:"mei2",盘:"pan2",纵:"zong4",仙:"xian1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",鲸:"jing1",蝗:"huang2",
             篱:"li2",咋:"za3",域:"yu4",岸:"an4",溪:"xi1",贺:"he4",塔:"ta3",足:"zu2",曳:"ye4",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",哲:"zhe2",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",鞘:"qiao4",煌:"huang2",
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",翎:"ling2",通:"tong1",鸮:"xiao1",鲣:"jian1",猛:"meng3",旋:"xuan2",僧:"seng1",玄:"xuan2",响:"xiang3"};
@@ -154,8 +154,8 @@
 //birds[j++] = new myBird("17-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"],1176074);
 //birds[j++] = new myBird("17-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"http://www.audubon.org/field-guide/bird/pink-footed-goose",3192563);
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"],32669);
-  birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Chen caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
-  birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Chen rossii",[m_id("20161212_140_Ross'sGoose")],["arbitr","12/2016","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],3203046);
+  birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
+  birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["arbitr","12/2016","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],3203046);
   birds[j++] = new myBird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"],13353349);
   birds[j++] = new myBird("15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["arbitr","12/2015","2nd from front in the center (with the smallest bill), River Bend Park, Frederick, Maryland, USA","中间第二只(嘴最小的)，美国马里兰州弗雷德里克市河湾公园"],12989977);
   birds[j++] = new myBird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdbrgd","6/2012"],260841);
@@ -284,7 +284,8 @@
   birds[j++] = new myBird("11-12-27T17:06","ACCIPITR","Snail Kite","食螺鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4)],["flevnp","12/2011","Female"],668147);
   birds[j++] = new myBird("15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[p_id("1509charleston",15)],["scpatp","9/2015","Immature"],3697232);
   birds[j++] = new myBird("05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",m_id(["20170225_025_BaldEagle","20170108_005_BaldEagle(I)"]),["mdswhf","2/2017","mdmapp","1/2017","Immature"],296826);
-  birds[j++] = new myBird("13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus cyaneus",[p_id("1612savannah",4),m_id("20161204_132_NorthernHarrier(I)")],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"],32735);
+  birds[j++] = new myBird("13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus hudsonius",[p_id("1612savannah",4),m_id("20161204_132_NorthernHarrier(I)")],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"],32735);
+//birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Hen Harrier","白尾鹞","Circus cyaneus",[p_id("1612savannah",4),m_id("20161204_132_NorthernHarrier(I)")],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"],"白尾鹞");
   birds[j++] = new myBird("11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",m_id(sas(["20150215_013","20150215_014","20161106_117"],"_Sharp-shinnedHawk",["","","(I)"])),["mdcrvp","2/2015","mdcrvp","2/2015","mdcrvp","11/2016","Immature"],11614189);
   birds[j++] = new myBird("14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id("20141228_006_CooperHawk"),m_id("20141228_007_CooperHawk"),p_id("1507birdingwest",3)],["mdgerm","12/2014","mdgerm","12/2014","nvdnwr","7/2015","Immature"],11593052);
 //birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Northern Goshawk","苍鹰","Accipiter gentilis",[m_id("")],["mdbhrp","9/2015"],1065966);
@@ -452,7 +453,8 @@
 //birds[j++] = new myBird("17-00-00T00:00","AEGOTHEL","Australian Owlet-nightjar","澳洲裸鼻鸱","Aegotheles cristatus",[m_id("")],["mdbhrp","9/2015"],706359);
 //birds[j++] = new myBird("17-00-00T00:00","HEMIPROC","Crested Treeswift","凤头雨燕","Hemiprocne coronata",[m_id("")],["mdbhrp","9/2015"],286231);
   birds[j++] = new myBird("15-07-19T08:02","APODIDAE","Chimney Swift","烟囱雨燕","Chaetura pelagica",[m_id("20160618_077_ChimneySwift")],["arbitr","6/2016","Lewes, Delaware, USA","美国特拉华州刘易斯"],1156237);
-//birds[j++] = new myBird("17-00-00T00:00","TROCHILI","Magnificent Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"],4845773);
+//birds[j++] = new myBird("17-00-00T00:00","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"],"大蜂鸟");
+//birds[j++] = new myBird("17-00-00T00:00","TROCHILI","Talamanca Hummingbird","塔拉曼卡蜂鸟","Eugenes spectabilis",[m_id("")],["mdbhrp","9/2015"],cornellurl("maghum2",true));
   birds[j++] = new myBird("06-09-07T17:00","TROCHILI","Ruby-throated Hummingbird","红喉北蜂鸟","Archilochus colubris",p_id("1107brookside",[10,13]),["mdbrgd","7/2011","Female/immature"],4901653);
   birds[j++] = new myBird("15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["orhayd","7/2015","Immature male"],4891704);
   birds[j++] = new myBird("13-12-25T17:25","TROCHILI","Anna's Hummingbird","安氏蜂鸟","Calypte anna",p_id("1312bigbendbirding",[12,13,14]),["txbbnp","12/2013","Female","txbbnp","12/2013","Male","txbbnp","12/2013","Female"],4891678);
@@ -595,7 +597,8 @@
 //birds[j++] = new myBird("17-00-00T00:00","PACHYCEP","Crested Shriketit","鵙雀鹟","Falcunculus frontatus",[m_id("")],["mdbhrp","9/2015"],7143812);
   birds[j++] = new myBird("16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[p_id("1601china",43)],["cnlynv","1/2016"],56873);
   birds[j++] = new myBird("16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[p_id("1612savannah",11)],["scsnwr","12/2016"],4801026);
-  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","灰伯劳","Lanius excubitor",[m_id("20161210_138_NorthernShrike")],["arbitr","12/2016","Ben's Point Road, Queen Anne's County, Maryland, USA","美国马里兰州安妮女王郡本点路"],71554);
+  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",[m_id("20161210_138_NorthernShrike")],["arbitr","12/2016","Ben's Point Road, Queen Anne's County, Maryland, USA","美国马里兰州安妮女王郡本点路"],71554);
+//birds[j++] = new myBird("17-00-00T00:00","LANIIDAE","Great Gray Shrike","灰伯劳","Lanius excubitor",[m_id()],["scsnwr","12/2016"],71554);
   birds[j++] = new myBird("15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[m_id("20160911_095_White-eyedVireo"),m_id("20150913_095_White-eyedVireo(I)")],["mdlbrp","9/2016","mdlbrp","9/2015","Immature"],4791453);
   birds[j++] = new myBird("17-06-11T08:21","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[m_id("20170611_074_Yellow-throatedVireo")],["mdmwma","6/2017"],4754888);
   birds[j++] = new myBird("16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[m_id("20161106_114_Blue-headedVireo"),p_id("1609vtcanbirding",15)],["mdcrvp","11/2016","cactnw","9/2016"],4754897);
@@ -716,7 +719,7 @@
   birds[j++] = new myBird("06-04-29T08:10","MIMIDAE ","Gray Catbird","灰嘲鸫","Dumetella carolinensis",[m_id("20160924_098_GrayCatbird"),p_id("1206brooksidebirding",5)],["mdlbrp","9/2016","mdbrgd","6/2012","Immature"],1594003);
   birds[j++] = new myBird("06-03-18T09:06","MIMIDAE ","Northern Mockingbird","小嘲鸫","Mimus polyglottos",[p_id("1512bhill",9),p_id("1509charleston",16)],["mdbhrp","1/2015","scpatp","9/2015"],716998);
   birds[j++] = new myBird("15-04-25T14:13","MIMIDAE ","Brown Thrasher","褐弯嘴嘲鸫","Toxostoma rufum",p_id("1512bhill",[26,33]),["mdbhrp","4/2015","mdbhrp","8/2015","Immature"],4078842);
-//birds[j++] = new myBird("17-00-00T00:00","MIMIDAE ","Le Conte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[m_id("")],["mdbhrp","9/2015"],4078707);
+//birds[j++] = new myBird("17-00-00T00:00","MIMIDAE ","LeConte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[m_id("")],["mdbhrp","9/2015"],4078707);
   birds[j++] = new myBird("15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",[p_id("1501prbirding",49)],["prosan","1/2015"],cornellurl("peethr1",true),4077575);
 //birds[j++] = new myBird("17-00-00T00:00","STURNIDA","Crested Myna","八哥","Acridotheres cristatellus",[p_id("1601china",)],["cnsbg","1/2016","Male"],19932);
   birds[j++] = new myBird("16-01-04T08:04","STURNIDA","Red-billed Starling","丝光椋鸟","Sturnus sericeus",[p_id("1601china",9)],["cnjsxp","1/2016"],70127);
@@ -825,7 +828,7 @@
 //birds[j++] = new myBird("17-00-00T00:00","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",[m_id()],["mdbhrp","9/2016","Female"],4736607);
 //birds[j++] = new myBird("17-00-00T00:00","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[m_id("")],["mdbhrp","9/2015"],4751564);
 //birds[j++] = new myBird("17-00-00T00:00","PARULIDA","Painted Redstart","彩鸲莺","Myioborus pictus",[m_id("")],["mdbhrp","9/2015"],4750532);
-  birds[j++] = new myBird("15-05-09T10:41","PARULIDA","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"]);
+  birds[j++] = new myBird("15-05-09T10:41","ICTERIID","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"]);
   birds[j++] = new myBird("17-05-27T07:28","ICTERIDA","Bobolink","刺歌雀","Dolichonyx oryzivorus",[p_id("1705ohio",3)],["ohbath","5/2017","Male"],4707266);
   birds[j++] = new myBird("16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_",["031","032"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"],4708917);
 //birds[j++] = new myBird("17-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"],723327);
@@ -861,7 +864,7 @@
   birds[j++] = new myBird("13-07-17T18:46","EMBERIZI","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8)],["arbitr","7/2013","Potter Marsh, Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇波特沼泽"],4724003);
   birds[j++] = new myBird("16-07-16T07:02","EMBERIZI","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdolan","7/2016","mdolan","7/2016","Immature"],7850885);
   birds[j++] = new myBird("17-05-27T07:23","EMBERIZI","Henslow's Sparrow","亨氏草鹀","Ammodramus henslowii",p_id("1705ohio",[1,2]),["ohbath","5/2017"],4746039);
-//birds[j++] = new myBird("17-00-00T00:00","EMBERIZI","Le Conte's Sparrow","莱氏沙鹀","Ammodramus leconteii",[m_id("")],["mdswhf","2/2017"],7850355);
+//birds[j++] = new myBird("17-00-00T00:00","EMBERIZI","LeConte's Sparrow","莱氏沙鹀","Ammodramus leconteii",[m_id("")],["mdswhf","2/2017"],7850355);
   birds[j++] = new myBird("17-02-12T11:54","EMBERIZI","Nelson's Sparrow","尼尔森沙鹀","Ammodramus nelsoni",m_id(["20170212_023_Nelson'sSparrow","20170212_024_Nelson'sSparrow"]),["deinri","2/2017"],7850648);
   birds[j++] = new myBird("16-05-29T15:00","EMBERIZI","Saltmarsh Sparrow","尖尾沙鹀","Ammodramus caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"],4723991);
   birds[j++] = new myBird("16-05-29T15:32","EMBERIZI","Seaside Sparrow","海滨沙鹀","Ammodramus maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"],4723718);
