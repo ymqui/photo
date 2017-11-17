@@ -60,7 +60,7 @@
                label = (itmp+1).toString()+' '+tmp[k].name;
             }
             if (tmp[k].name.slice(-1)=="*") capcnt++;
-            if (isnewBird(tmp[k].name)){
+            if (tmp[k].newbird){
                optstyle = 'style="color:blue; text-decoration:underline; margin-left:13px; background-image:url('+newpic+'); background-repeat:no-repeat; background-position:right;"';
             }else{
                optstyle = 'style="color:blue; text-decoration:underline; margin-left:13px;"';
@@ -105,7 +105,7 @@
       }else{
          label = (i+1).toString()+' '+birds[i].name;   
       }
-      if (isnewBird(birds[i].name)){
+      if (birds[i].newbird){
          optstyle = 'style="color: blue; text-decoration: underline; background-image:url('+newpic+'); background-repeat:no-repeat; background-position:right;"';
       }else{
          optstyle = 'style="color: blue; text-decoration: underline;"';
