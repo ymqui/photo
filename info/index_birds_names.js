@@ -879,10 +879,10 @@
   birds[j++] = new myBird("15-01-07T07:12","THRAUPID","Saffron Finch","橙黄雀鹀","Sicalis flaveola",p_id("1501prbirding",[34,55]),["prsanj","1/2015","prsanj","1/2015","Immature"],cornellurl("saffin",true),4717104);
 //birds[j++] = new myBird("17-00-00T00:00","THRAUPID","Silver-beaked Tanager","银嘴唐纳雀","Ramphocelus carbo",["0504zoo/0504zoo__24"],["natzo","4/2005"],cornellurl("sibtan2",true),4748894);
   birds[j++] = new myBird("15-01-07T07:05","THRAUPID","Black-faced Grassquit","黑脸草雀","Tiaris bicolor",p_id("1501prbirding",[50,33]),["prsanj","1/2015","Male","prsanj","1/2015","Female"],cornellurl("bkfgra",true),4722827);
-//birds[j++] = new myBird("17-00-00T00:00","THRAUPID","Western Spindalis","纹头唐纳雀","Spindalis zena",[m_id("")],["mdbhrp","9/2015"],cornellurl("wesspi",true),4749011);
-//birds[j++] = new myBird("17-00-00T00:00","THRAUPID","Hispaniolan Spindalis","海地纹头唐纳雀","Spindalis dominicensis",[m_id("")],["mdbhrp","9/2015"],cornellurl("hisspi",true),4748633);
-  birds[j++] = new myBird("15-01-03T06:35","THRAUPID","Puerto Rican Spindalis","波多纹头唐纳雀","Spindalis portoricensis",p_id("1501prbirding",[11,54]),["prponc","1/2015","Male","prsanj","1/2015","Female"],cornellurl("purspi",true),4749024);
-//birds[j++] = new myBird("17-00-00T00:00","THRAUPID","Jamaican Spindalis","牙买加纹头唐纳雀","Spindalis nigricephala",[m_id("")],["mdbhrp","9/2015"],cornellurl("jamspi",true),4748682);
+//birds[j++] = new myBird("17-00-00T00:00","SPINDALI","Western Spindalis","纹头唐纳雀","Spindalis zena",[m_id("")],["mdbhrp","9/2015"],cornellurl("wesspi",true),4749011);
+//birds[j++] = new myBird("17-00-00T00:00","SPINDALI","Hispaniolan Spindalis","海地纹头唐纳雀","Spindalis dominicensis",[m_id("")],["mdbhrp","9/2015"],cornellurl("hisspi",true),4748633);
+  birds[j++] = new myBird("15-01-03T06:35","SPINDALI","Puerto Rican Spindalis","波多纹头唐纳雀","Spindalis portoricensis",p_id("1501prbirding",[11,54]),["prponc","1/2015","Male","prsanj","1/2015","Female"],cornellurl("purspi",true),4749024);
+//birds[j++] = new myBird("17-00-00T00:00","SPINDALI","Jamaican Spindalis","牙买加纹头唐纳雀","Spindalis nigricephala",[m_id("")],["mdbhrp","9/2015"],cornellurl("jamspi",true),4748682);
   birds[j++] = new myBird("16-12-04T09:51","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",[m_id("20161204_136_LaplandLongspur")],["nyjbsp","12/2016","Female"],476834);
   birds[j++] = new myBird("16-12-04T08:10","CALCARII","Snow Bunting","雪鹀","Plectrophenax nivalis",[m_id("20161204_129_SnowBunting")],["nyjbsp","12/2016","Winter plumage"],660006);
   birds[j++] = new myBird("15-05-02T08:21","CARDINAL","Summer Tanager","玫红丽唐纳雀","Piranga rubra",[m_id("20170625_079_SummerTanager(M)")],["mdcovl","6/2017","Male"],4748745);

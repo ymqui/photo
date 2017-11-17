@@ -433,6 +433,7 @@
   family[j++] = new newFamily("COEREBIDAE","曲嘴森莺科","Bananaquit","曲嘴森莺");
   family[j++] = new newFamily("EMBERIZIDAE","鹀科","New World Sparrows and Allies","美洲鹀");
   family[j++] = new newFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀");
+  family[j++] = new newFamily("SPINDALIDAE","纹头唐纳雀科","Spindalises","纹头唐纳雀");
   family[j++] = new newFamily("CALCARIIDAE","铁爪鹀科","Longspurs and Snow Buntings","铁爪鹀和雪鹀");
   family[j++] = new newFamily("CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies","美洲雀");
   orders[i++] = new newOrder("PASSERIFORMES","雀形目","Perching Birds","雀",family);
