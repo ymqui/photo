@@ -7,11 +7,11 @@
       if ((mname!=bname) && birdFound(mname)){
          mname=mname+q_count;
          if(order) mname=mname+'&amp;order'; 
-         style_b = '<a href="showbird.html?name='+mname+'" style="color: #3399FF; text-decoration: underline;">';
-         style_e = '</A>';
+         style_b = "<a href='showbird.html?name="+mname+lnksty+">";
+         style_e = "</A>";
       }else{
-         style_b = '<font color="#22CCEE">';
-         style_e = '</font>';
+         style_b = "<font color='#22CCEE'>";
+         style_e = "</font>";
       }
       
       if(i==0){
