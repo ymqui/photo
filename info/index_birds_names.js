@@ -133,6 +133,7 @@
             篱:"li2",咋:"za3",域:"yu4",岸:"an4",溪:"xi1",贺:"he4",塔:"ta3",足:"zu2",曳:"ye4",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",哲:"zhe2",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",鞘:"qiao4",煌:"huang2",
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",翎:"ling2",通:"tong1",鸮:"xiao1",鲣:"jian1",猛:"meng3",旋:"xuan2",僧:"seng1",玄:"xuan2",响:"xiang3"};
 
+  var lnksty = "' style='color: #3399FF; text-decoration: underline;'"; 
   modirange  = modirange*3600*24*1000;  	//range within modiDate from days to milliseconds
   var modiTime = modiDate.getTime();
   var modiBird = {name:[],cname:[]};
@@ -1220,7 +1221,7 @@
         if (info==='s'){info = bid.trim()+info;}
      }
      if (order){bid = bid+"&order";}
-     return "<a href='showbird.html?name="+reform(bid)+"' style='color: #3399FF; text-decoration: underline;'>"+info+"</a>";
+     return "<a href='showbird.html?name="+reform(bid)+lnksty+">"+info+"</a>";
   }
 
   function reform_locs(link){
@@ -1285,9 +1286,9 @@
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {   
         if(usechinese){
-           return header+tmp[1+id_0]+"<a href='"+tmp[4]+"' style='color: #3399FF; text-decoration: underline;' target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date;
+           return header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date;   
         }else{
-           return header+"<a href='"+tmp[4]+"' style='color: #3399FF; text-decoration: underline;' target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date;
+           return header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date; 
         }
      }else{
         if(usechinese){
