@@ -1074,28 +1074,19 @@
      return tmp;
   }
 
-  function m_id(id,num){
-     if (typeof num === 'undefined'){ 
-        return sas("misc_birds/",id);
-     }else{
-        return sas("misc_birds"+num.toString()+"/",id);
+  function birdFound(id){
+     for (var i=0;i<birds.length;i++){
+         if (birds[i].name1 == id) return true;
      }
+     return false; 
   }
 
-  function p_id(album,id){
-     return sas(album+"/"+album+"_",id);
-  }
-
-  function reform(name,space,apostrophe,notlowercase){
-     if (typeof space === 'undefined')	    {var space = '_';}
-     if (typeof apostrophe === 'undefined') {var apostrophe = '';}
-     var tmp = name.replace(/ |\+/g,space);
-     tmp = tmp.replace(/'/g,apostrophe);
-     if (notlowercase){
-        return tmp;
-     }else{
-        return tmp.toLowerCase();
+  function b_link(bid,info){
+     if (typeof info === 'undefined') {var info = bid;} else {
+        if (info==='s'){info = bid.trim()+info;}
      }
+     if (order){bid = bid+"&order";}
+     return "<a href='showbird.html?name="+reform(bid)+lnksty+">"+info+"</a>";
   }
 
   function getByCountry(id, myArray){
@@ -1114,6 +1105,11 @@
            }
         })
      }
+  } 
+
+  function getByFamily(id, myArray) {
+     var tmpid = id.slice(0,fam_ln);
+     return myArray.filter(function(obj) {if(obj.family == tmpid) { return obj; }});
   } 
 
   function getByLiferYear(year, myArray){
@@ -1136,18 +1132,6 @@
            }
         })
      }
-  } 
-  
-  function birdFound(id){
-     for (var i=0;i<birds.length;i++){
-         if (birds[i].name1 == id) return true;
-     }
-     return false; 
-  }
-
-  function getByFamily(id, myArray) {
-     var tmpid = id.slice(0,fam_ln);
-     return myArray.filter(function(obj) {if(obj.family == tmpid) { return obj; }});
   } 
 
   function getpinyin(cname){
@@ -1186,16 +1170,16 @@
      return 0;
   }
 
-  function cornellurl(bid,isneo){
-     if (typeof isneo === 'undefined'){
-        return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
+  function m_id(id,num){
+     if (typeof num === 'undefined'){ 
+        return sas("misc_birds/",id);
      }else{
-        return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+bid.trim()+"/overview";
+        return sas("misc_birds"+num.toString()+"/",id);
      }
   }
-  
-  function wikiurl(bid){
-     return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
+
+  function p_id(album,id){
+     return sas(album+"/"+album+"_",id);
   }
 
   function baikeurl(bid){
@@ -1216,12 +1200,28 @@
      }
   }
 
-  function b_link(bid,info){
-     if (typeof info === 'undefined') {var info = bid;} else {
-        if (info==='s'){info = bid.trim()+info;}
+  function cornellurl(bid,isneo){
+     if (typeof isneo === 'undefined'){
+        return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
+     }else{
+        return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+bid.trim()+"/overview";
      }
-     if (order){bid = bid+"&order";}
-     return "<a href='showbird.html?name="+reform(bid)+lnksty+">"+info+"</a>";
+  }
+  
+  function wikiurl(bid){
+     return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
+  }
+
+  function reform(name,space,apostrophe,notlowercase){
+     if (typeof space === 'undefined')	    {var space = '_';}
+     if (typeof apostrophe === 'undefined') {var apostrophe = '';}
+     var tmp = name.replace(/ |\+/g,space);
+     tmp = tmp.replace(/'/g,apostrophe);
+     if (notlowercase){
+        return tmp;
+     }else{
+        return tmp.toLowerCase();
+     }
   }
 
   function reform_locs(link){
