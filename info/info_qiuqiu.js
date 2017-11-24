@@ -42,6 +42,10 @@ function initAlbum(){
     this[1][i++] = "With mom at home, 11/10/2017.";
     this[0][i]   = "20171119_018_HomeBassinet";
     this[1][i++] = "At home in the bassinet, 11/19/2017.";
+    this[0][i]   = "20171123_020_WithElena&Allison";
+    this[1][i++] = "With Auntie Elena and Allison, 11/23/2017.";
+    this[0][i]   = "20171123_024_Thanksgiving";
+    this[1][i++] = "Nathan's first Thanksgiving at Auntie Elena's home, 11/23/2017.";
 
     if(window.usechinese){
         i = 0;
@@ -56,6 +60,8 @@ function initAlbum(){
         this[1][i++] = "在家里的婴儿摇椅上安睡，11/7/2017。";
         this[1][i++] = "在家里牵着妈妈的手指头，11/10/2017。";
         this[1][i++] = "美美地躺在摇篮里，11/19/2017。";
+        this[1][i++] = "和Elena阿姨和Allison姐姐合影，11/23/2017。";
+        this[1][i++] = "球球在Elena阿姨家过第一个感恩节，11/23/2017。";
     }
 }
 
