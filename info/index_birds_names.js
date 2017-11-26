@@ -1,7 +1,7 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2017-10-15T18:00:00");
-  var modirange = 3;  	//range within modiDate in days
+  var modiDate  = new Date("2017-11-26T18:00:00");
+  var modirange = 4;  	//range within modiDate in days
   var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
@@ -877,7 +877,7 @@
   birds[j++] = new myBird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",m_id(["20170305_030_Lincoln'sSparrow","20170305_029_Lincoln'sSparrow"]),["arbitr","3/2017","Occoquan Bay National Wildlife Refuge, Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区"],4745989);
   birds[j++] = new myBird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
   birds[j++] = new myBird("06-02-16T16:03","PASSEREL","White-throated Sparrow","白喉带鹀","Zonotrichia albicollis",m_id(["20161030_109_White-throatedSparrow","20161113_123_White-throatedSparrow"]),["mdmwma","10/2016","mdbmnt","11/2016"],4744945);
-//birds[j++] = new myBird("17-00-00T00:00","PASSEREL","Harris's Sparrow","赫氏带鹀","Zonotrichia querula",[m_id("")],["arbitr","12/2017","Anacostia River Trail, Prince George's County, Maryland, USA","美国马里兰州乔治王子郡安那考斯迪亚河畔小径"],-5877);
+  birds[j++] = new myBird("17-11-24T15:49","PASSEREL","Harris's Sparrow","赫氏带鹀","Zonotrichia querula",[m_id("20171124_126_Harris'sSparrow")],["arbitr","11/2017","Anacostia River Trail, Prince George's County, Maryland, USA","美国马里兰州乔治王子郡安那考斯迪亚河畔小径"],-5877);
   birds[j++] = new myBird("15-07-09T13:51","PASSEREL","White-crowned Sparrow","白冠带鹀","Zonotrichia leucophrys",[p_id("1507birdingwest",25),m_id("20160131_011_White-crownedSparrow")],["wahobb","7/2015","mdcapc","1/2016"],4745340);
   birds[j++] = new myBird("06-03-18T15:59","PASSEREL","Dark-eyed Junco","暗眼灯草鹀","Junco hyemalis",[p_id("1512bhill",6),p_id("1507birdingwest",24)],["mdbhrp","1/2015","Male, slate-colored form","雄性，石板色形","wahobb","7/2015","Male, Oregon form","雄性，俄勒冈形"],4745281);
 //birds[j++] = new myBird("17-00-00T00:00","CALYPTOP","Eastern Chat-Tanager","东拟䳭唐纳雀","Calyptophilus frugivorus",[m_id("")],["mdbhrp","9/2015"],cornellurl("eactan1",true));
