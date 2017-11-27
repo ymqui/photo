@@ -165,7 +165,7 @@
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Egyptian Goose","埃及雁","Alopochen aegyptiaca",[p_id("1606florida",10)],["flplpr","6/2016"],wikiurl("Egyptian goose"),1176180);
   birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12)],["flplpr","6/2016"],797064);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck(M)"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"],1151211);
-//birds[j++] = new myBird("17-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","yuan1 yang1","Aix galericulata",["0504zoo/0504zoo__13"],["natzo","4/2005"],wikiurl("Mandarin Duck"),17774);
+//birds[j++] = new myBird("17-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",["0504zoo/0504zoo__13"],["natzo","4/2005"],wikiurl("Mandarin Duck"),17774);
   birds[j++] = new myBird("15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Anas strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall(M)"]),["vahump","11/2015","Male left, female right","mdcovl","3/2015","Males"],94489);
   birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Anas penelope",[m_id("20160313_020_EurasianWigeon(M)")],["arbitr","3/2016","Male, Trout Run WWTP, Garrett County, Maryland, USA","雄性，美国马里兰州加勒特郡鳟鱼溪废水处理厂"],179821);
   birds[j++] = new myBird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Anas americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon(F)"]),["mdloch","2/2015","Males","mdcamb","1/2017","Female"],413674);
