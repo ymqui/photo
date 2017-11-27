@@ -559,6 +559,7 @@
   birds[j++] = new myBird("15-01-05T14:08","TYRANNID","Gray Kingbird","灰王霸鹟","Tyrannus dominicensis",[p_id("1501prbirding",43)],["prosan","1/2015"],cornellurl("grykin",true),4572808);
   birds[j++] = new myBird("15-01-02T07:13","TYRANNID","Loggerhead Kingbird","圆头王霸鹟","Tyrannus caudifasciatus",[p_id("1501prbirding",4)],["prmaya","1/2015"],cornellurl("logkin",true),4572314);
 //birds[j++] = new myBird("17-00-00T00:00","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("")],["mdocin","3/2017"],715420);
+//birds[j++] = new myBird("17-00-00T00:00","TYRANNID","Fork-tailed Flycatcher","叉尾王霸鹟","Tyrannus savana",[m_id("")],["mdocin","3/2017"],cornellurl("fotfly",true),"叉尾王霸鹟");
 //birds[j++] = new myBird("17-00-00T00:00","COTINGID","Andean Cock-of-the-rock","安第斯冠伞鸟","Rupicola peruvianus",[m_id("")],["mdbhrp","9/2015"],4334103);
 //birds[j++] = new myBird("17-00-00T00:00","PIPRIDAE","Golden-winged Manakin","金翅娇鹟","Masius chrysopterus",[m_id("")],["mdbhrp","9/2015"],4362397);
 //birds[j++] = new myBird("17-00-00T00:00","TITYRIDA","Sharpbill","尖喙鸟","Oxyruncus cristatus",[m_id("")],["mdbhrp","9/2015"],715433);
