@@ -644,7 +644,7 @@
   birds[j++] = new myBird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["calddm","9/2016","arbitr","8/2014","Sapsucker Woods Sanctuary, Ithaca, New York, USA","美国纽约州伊萨卡啄木鸟树林保护区"],4820871);
 //birds[j++] = new myBird("17-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["caalgp","9/2017"],-3631);
   birds[j++] = new myBird("06-03-16T14:27","PARIDAE ","Tufted Titmouse","美洲凤头山雀","Baeolophus bicolor",[m_id("20161112_120_TuftedTitmouse")],["mdbhrp","11/2016"],4846924);
-  birds[j++] = new myBird("16-01-06T09:14","PARIDAE ","Yellow-bellied Tit","黄腹山雀","Parus venustulus",p_id("1601china",[29,28]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female"],263537);
+  birds[j++] = new myBird("16-01-06T09:14","PARIDAE ","Yellow-bellied Tit","黄腹山雀","Pardaliparus venustulus",p_id("1601china",[29,28]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female"],263537);
   birds[j++] = new myBird("16-01-15T13:47","PARIDAE ","Willow Tit","褐头山雀","Poecile montanus",[p_id("1601china",68)],["cnbjsp","1/2016"],32630);
 //birds[j++] = new myBird("17-00-00T00:00","PARIDAE ","Great Tit","大山雀","Parus major",p_id("1601china",[21,22]),["cnjsxp","1/2016"],32780);
   birds[j++] = new myBird("16-01-05T10:13","PARIDAE ","Japanese Tit","远东山雀","Parus minor",p_id("1601china",[21,22]),["cnjsxp","1/2016"],12118630);
