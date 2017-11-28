@@ -8,7 +8,7 @@
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
 
   //location urls
-  var locs = {
+  var locurl = {
       arbitr: ["","","",""],
       akknpp: ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州","http://www.nps.gov/katm/",baikeurl(3511940)],
       caalgp: ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
@@ -1229,7 +1229,7 @@
      var indx = 2;
      var prev = 0;
      while(indx<link.length){
-         if (typeof locs[link[indx]] !== 'undefined'){
+         if (typeof locurl[link[indx]] !== 'undefined'){
             switch(indx-prev){
 		case 2:
                      link.splice(indx,0,"","","","");
@@ -1265,9 +1265,9 @@
      if (typeof header === 'undefined') {header = "";} 
      if (header.length>0) {header = header+comma;}
      if (typeof extra === 'undefined') {var extra = "";}
-     if (typeof locs[pid] === 'undefined') {return header+extra+date;}
-     var tmp = locs[pid].slice(0);
-     if (locs[pid].length>=7){
+     if (typeof locurl[pid] === 'undefined') {return header+extra+date;}
+     var tmp = locurl[pid].slice(0);
+     if (locurl[pid].length>=7){
         if (usechinese){ 
            extra = tmp[4];
         }else{
