@@ -132,10 +132,9 @@
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",翎:"ling2",通:"tong1",鸮:"xiao1",鲣:"jian1",猛:"meng3",旋:"xuan2",僧:"seng1",玄:"xuan2",响:"xiang3"};
 
   var lnksty = "' style='color: #3399FF; text-decoration: underline;'"; 
-  modirange  = modirange*3600*24*1000;  	//range within modiDate from days to milliseconds
-  var modiTime = modiDate.getTime();
+  var modiTime = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird = {name:[],cname:[]};
-  var fam_ln = 8;				//family length
+  var fam_ln = 8;						//family length
   var order  = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
   var birds  = [];         
   var j      = 0;
@@ -1036,7 +1035,7 @@
         }
      }
      //check if this bird needs to be added to modiBird
-     if (modiTime-this.lifer.getTime() <= modirange){
+     if (modiTime<=this.lifer.getTime()){
         modiBird.name[modiBird.name.length]   = this.name;
         modiBird.cname[modiBird.cname.length] = this.cname;
         this.newbird = true;
