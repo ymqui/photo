@@ -25,6 +25,6 @@
   //web counter
   if(window.sc_project){
      var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
-     document.write('<script type="text/javascript" language="javascript" src="'+scJsHost+'statcounter.com/counter/counter.js"></script>');
+     document.write('<script type="text/javascript" language="javascript" async src="'+scJsHost+'statcounter.com/counter/counter.js"></script>');
   }
 //-->
