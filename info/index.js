@@ -1841,6 +1841,7 @@
   //web counter
   var sc_project   = 592204;
   var sc_partition = 4;
+  var sc_invisible = 1; 
   var sc_security  = "b5d0bd3f";
 
   //date
