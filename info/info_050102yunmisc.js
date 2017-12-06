@@ -30,5 +30,6 @@ function initAlbum(){
 //web counter info
 var sc_project   = 609662;
 var sc_partition = 4;
+var sc_invisible = 1;
 var sc_security  = "4d08f2a2";
 //-->
