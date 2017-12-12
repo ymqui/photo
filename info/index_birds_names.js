@@ -170,8 +170,8 @@
   birds[j++] = new myBird("15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Mareca strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall(M)"]),["vahump","11/2015","Male left, female right","mdcovl","3/2015","Males"],94489);
   birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon(M)")],["arbitr","3/2016","Male, Trout Run WWTP, Garrett County, Maryland, USA","雄性，美国马里兰州加勒特郡鳟鱼溪废水处理厂"],179821);
   birds[j++] = new myBird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Mareca americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon(F)"]),["mdloch","2/2015","Males","mdcamb","1/2017","Female"],413674);
-  birds[j++] = new myBird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"],3175931);
   birds[j++] = new myBird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdbrgd","6/2012","Eclipse male","mdbmnt","10/2015"],21604);
+  birds[j++] = new myBird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"],3175931);
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flplpr","6/2016"],3152828);
   birds[j++] = new myBird("15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",[m_id("20151122_125_NorthernPintail(M)")],["vahump","11/2015","Male"],179825);
   birds[j++] = new myBird("15-11-22T09:50","ANATIDAE","Green-winged Teal","美洲绿翅鸭","Anas crecca",[m_id("20151122_128_Green-wingedTeal(M)")],["vahump","11/2015","Males"],81835);
