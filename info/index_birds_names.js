@@ -25,9 +25,10 @@
       cnshbu:  ["the Bund","Shanghai, China","上海外滩","中国",wikiurl("The Bund"),baikeurl([5181,8577636])],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
       ctciws:  ["Cove Island Wildlife Sanctuary","Connecticut, USA","科夫岛野生动物保护区","美国康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"],
-      debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝‧虎克国家野生动物保护区","美国特拉华州","http://www.fws.gov/refuge/bombay_hook/"],
+      debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州","http://www.fws.gov/refuge/bombay_hook/"],
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
+//    depnwr:  ["Prime Hook National Wildlife Refuge","Delaware, USA","普冉姆虎克国家野生动物保护区","美国特拉华州","https://www.fws.gov/refuge/prime_hook/"],
       flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州","http://www.nps.gov/bisc/",baikeurl(844205)],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","迈阿密-戴德郡黑角公园及码头","美国佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州","http://www.nps.gov/ever/",baikeurl(1992929)],
@@ -101,6 +102,7 @@
       scpatp:  ["Patriots Point","Charleston, South Carolina, USA","查尔斯顿爱国者海角","美国南卡罗来纳州","http://www.crbo.net/Charleston.html"],
       scpitt:  ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","http://www.crbo.net/Charleston.html"],
       scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州","http://www.fws.gov/refuge/savannah/"],
+//    txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州","https://www.fws.gov/refuge/Aransas/",baikeurl("阿兰萨斯国家野生动物保护区")],
       txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州","http://www.nps.gov/bibe/",baikeurl(553962)],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州","http://www.fws.gov/refuge/chincoteague/"],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
@@ -293,7 +295,7 @@
 //birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"],11811149);
   birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",["2006cobirding/Red-TailedHawk_20060305_002","2006cobirding/Red-TailedHawk_20060305_005",p_id("1412mckee-beshers",33)],["mdcopl","3/2006","mdcopl","3/2006","mdmwma","11/2014","Juvenile"],1146152);
 //birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"],3724576);
-//birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",[m_id("")],["arb","12/2017","Prime Hook National Wildlife Refuge, Delaware, USA","美国特拉华州普冉姆虎克国家野生动物保护区"],1123648);
+//birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",[m_id("")],["depnwr","12/2017"],1123648);
 //birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[m_id("")],["mdbhrp","9/2015"],12074495);
 //birds[j++] = new myBird("17-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",[m_id("")],["arb","2/2017","Immature, Pickering Creek Audubon Center, Talbot County, Maryland, USA","未成年，美国马里兰州塔尔博特郡皮克林河奥杜邦鸟类中心"],14344);
   birds[j++] = new myBird("16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",[p_id("1601china",67)],["cnbjsp","1/2016"],14225);
@@ -315,7 +317,7 @@
   birds[j++] = new myBird("06-05-25T18:09","RALLIDAE","American Coot","美洲骨顶","Fulica americana",[p_id("1312savannahbirding",5)],["scsnwr","12/2013"],2469087);
 //birds[j++] = new myBird("17-00-00T00:00","PSOPHIID","Grey-winged Trumpeter","灰翅喇叭声鹤","Psophia crepitans",[m_id("")],["mdbhrp","9/2015"],4977152);
   birds[j++] = new myBird("15-02-08T08:24","GRUIDAE ","Sandhill Crane","沙丘鹤","Grus canadensis",m_id(["20150208_004_SandhillCrane","20150208_006_SandhillCrane"]),["arb","2/2015","Bradshaw Road, Kingsville, Maryland, USA","美国马里兰州金斯维尔镇布拉德肖路"],90234);
-//birds[j++] = new myBird("17-00-00T00:00","GRUIDAE ","Whooping Crane","美洲鹤","Grus americana",[m_id("")],["mdbhrp","9/2015"],586766);
+//birds[j++] = new myBird("17-00-00T00:00","GRUIDAE ","Whooping Crane","美洲鹤","Grus americana",[p_id("")],["txanwr","12/2017"],586766);
 //birds[j++] = new myBird("17-00-00T00:00","GRUIDAE ","White-naped Crane","白枕鹤","Grus vipio",["0504zoo/0504zoo__9"],["natzo","4/2005"],wikiurl("White-naped Crane"),18016);
 //birds[j++] = new myBird("17-00-00T00:00","GRUIDAE ","Red-crowned Crane","丹顶鹤","Grus japonensis",["0504zoo/0504zoo__8"],["natzo","4/2005"],wikiurl("Red-crowned Crane"),4290);
 //birds[j++] = new myBird("17-00-00T00:00","GRUIDAE ","Blue Crane","蓝蓑羽鹤","Anthropoides paradisea",["0504zoo/0504zoo__10"],["natzo","4/2005"],wikiurl("Blue Crane"),11619149);
