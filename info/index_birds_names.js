@@ -37,6 +37,8 @@
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州","http://www.fws.gov/refuge/Merritt_Island/"],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","布劳沃德郡种植园保留地","美国佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"],
       gatybe:  ["Tybee Island","Georgia, USA","泰碧岛","美国乔治亚州","https://tybeeisland.com/tybee-information/birding-nature-trails/"],
+//    gbhydp:  ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wikiurl("Hyde Park, London"),baikeurl("海德公园")],
+//    gblwcn:  ["London Wetland Centre","United Kingdom","伦敦湿地中心","伦敦","https://www.wwt.org.uk/wetland-centres/london/"],
       macast:  ["Castle Island","Boston, Massachusetts, USA","波士顿城堡岛","美国马萨诸塞州",wikiurl("Castle Island (Massachusetts)")],
       mahpsp:  ["Halibut Point State Park","Rockport, Massachusetts, USA","大比目鱼角州立公园","美国马萨诸塞州","http://www.mass.gov/eea/agencies/dcr/massparks/region-north/halibut-point-state-park.html"],
       mdbhrp:  ["Black Hill Regional Park","Maryland, USA","黑山公园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
