@@ -51,11 +51,17 @@ function initAlbum(){
     this[0][i]   = "20171202_028_TummyTimeAtHome";
     this[1][i++] = "Tummy time, 12/2/2017.";
     this[0][i]   = "20171223_028_Pacifier";
-    this[1][i++] = "Pacifier, 12/23/2017.";
+    this[1][i++] = "Nathan is not very fond of the pacifier, 12/23/2017.";
     this[0][i]   = "20171224_029_Cream";
     this[1][i++] = "Beauty time, 12/24/2017.";
     this[0][i]   = "20171224_030_Bassinet";
     this[1][i++] = "Lion king, 12/24/2017.";
+    this[0][i]   = "20171224_031_Nap";
+    this[1][i++] = "Nap time, 12/24/2017.";
+    this[0][i]   = "20171224_032_Smile";
+    this[1][i++] = "Nathan is smiling, 12/24/2017.";
+    this[0][i]   = "20171224_033_ReadyToGoOut";
+    this[1][i++] = "Ready to go out, 12/24/2017.";
 
     if(window.usechinese){
         i = 0;
@@ -74,9 +80,12 @@ function initAlbum(){
         this[1][i++] = "球球在Elena阿姨家过第一次感恩节，11/23/2017。";
         this[1][i++] = "球球最喜欢的睡姿，11/26/2017。";
         this[1][i++] = "练习趴着抬头，12/2/2017。";
-        this[1][i++] = "安慰奶嘴，12/23/2017。";
+        this[1][i++] = "球球不是很喜欢安慰奶嘴，12/23/2017。";
         this[1][i++] = "妈妈在给球球擦护肤霜，12/24/2017。";
         this[1][i++] = "摇篮里有了个小伙伴，12/24/2017。";
+        this[1][i++] = "打个盹，12/24/2017。";
+        this[1][i++] = "笑了，12/24/2017。";
+        this[1][i++] = "穿戴整齐准备出门，12/24/2017。";
     }
 }
 
