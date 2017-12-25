@@ -59,7 +59,7 @@ function initAlbum(){
     this[0][i]   = "20171224_031_Nap";
     this[1][i++] = "Nap time, 12/24/2017.";
     this[0][i]   = "20171224_032_Smile";
-    this[1][i++] = "Nathan is smiling, 12/24/2017.";
+    this[1][i++] = "Smiling, 12/24/2017.";
     this[0][i]   = "20171224_033_ReadyToGoOut";
     this[1][i++] = "Ready to go out, 12/24/2017.";
 
