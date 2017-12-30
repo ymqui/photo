@@ -62,6 +62,10 @@ function initAlbum(){
     this[1][i++] = "Smiling, 12/24/2017.";
     this[0][i]   = "20171224_033_ReadyToGoOut";
     this[1][i++] = "Ready to go out, 12/24/2017.";
+    this[0][i]   = "20171229_035_WithMom";
+    this[1][i++] = "With mommy, 12/29/2017.";
+    this[0][i]   = "20171229_036_2MonthCheckup";
+    this[1][i++] = "Nathan weighs 14 lbs at his 2-month well-baby checkup,  12/29/2017.";
 
     if(window.usechinese){
         i = 0;
@@ -86,6 +90,8 @@ function initAlbum(){
         this[1][i++] = "打个盹，12/24/2017。";
         this[1][i++] = "笑了，12/24/2017。";
         this[1][i++] = "穿戴整齐准备出门，12/24/2017。";
+        this[1][i++] = "和妈妈在一起，12/29/2017。";
+        this[1][i++] = "球球两个月体检，有14磅（12斤7两）重，12/29/2017。";
     }
 }
 
