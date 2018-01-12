@@ -9,7 +9,7 @@
 
   //location urls
   var locurl = {arb:["","","",""],
-      akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州","http://www.nps.gov/katm/",baikeurl(3511940)],
+      akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl(3511940)],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabeap:  ["Beale Park","Bakersfield, California, USA","贝克斯菲尔德市比尔公园","美国加利福尼亚州","http://www.bakersfieldcity.us/recreation/parks/beale.htm"],
       cactnw:  ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
@@ -25,16 +25,16 @@
       cnshbu:  ["the Bund","Shanghai, China","上海外滩","中国",wikiurl("The Bund"),baikeurl([5181,8577636])],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
       ctciws:  ["Cove Island Wildlife Sanctuary","Connecticut, USA","科夫岛野生动物保护区","美国康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"],
-      debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州","http://www.fws.gov/refuge/bombay_hook/"],
+      debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
-//    depnwr:  ["Prime Hook National Wildlife Refuge","Delaware, USA","普冉姆虎克国家野生动物保护区","美国特拉华州","https://www.fws.gov/refuge/prime_hook/"],
-      flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州","http://www.nps.gov/bisc/",baikeurl(844205)],
+//    depnwr:  ["Prime Hook National Wildlife Refuge","Delaware, USA","普冉姆虎克国家野生动物保护区","美国特拉华州",npsurl("prime_hook",true)],
+      flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl(844205)],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","迈阿密-戴德郡黑角公园及码头","美国佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"],
-      flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州","http://www.nps.gov/ever/",baikeurl(1992929)],
+      flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl(1992929)],
       flkeyw:  ["Key West","Florida, USA","西礁岛","美国佛罗里达州",wikiurl("Key West"),baikeurl(2153124)],
       flmahp:  ["Matheson Hammock Park","Miami, Florida, USA","迈阿密马西森硬木公园","美国佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"],
-      flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州","http://www.fws.gov/refuge/Merritt_Island/"],
+      flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","布劳沃德郡种植园保留地","美国佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"],
       gatybe:  ["Tybee Island","Georgia, USA","泰碧岛","美国乔治亚州","https://tybeeisland.com/tybee-information/birding-nature-trails/"],
 //    gbhydp:  ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wikiurl("Hyde Park, London"),baikeurl("海德公园")],
@@ -46,13 +46,13 @@
       mdbrgd:  ["Brookside Garden","Wheaton, Maryland, USA","惠顿溪边花园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/brookside-gardens/"],
       mdcamb:  ["Cambridge","Maryland, USA","剑桥","美国马里兰州",wikiurl("Cambridge, Maryland")],
       mdcapc:  ["Congressional Polo Club","Poolesville, Maryland, USA","普尔斯维尔镇国会马球俱乐部","美国马里兰州","http://www.congressionalpolo.com/"],
-      mdcocn:  ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)],
-      mdcopl:  ["C&O Canal"," at Pennyfield Lock","Maryland, USA","切萨皮克-俄亥俄运河","彭尼菲尔德闸","美国马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)],
-      mdcorl:  ["C&O Canal"," at Riley's Lock","Maryland, USA","切萨皮克-俄亥俄运河","莱利闸","美国马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)],
-      mdcovl:  ["C&O Canal"," at Violettes Lock","Maryland, USA","切萨皮克-俄亥俄运河","紫罗兰闸","美国马里兰州","http://www.nps.gov/choh/",baikeurl(1767125)],
+      mdcocn:  ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baikeurl(1767125)],
+      mdcopl:  ["C&O Canal"," at Pennyfield Lock","Maryland, USA","切萨皮克-俄亥俄运河","彭尼菲尔德闸","美国马里兰州",npsurl("choh"),baikeurl(1767125)],
+      mdcorl:  ["C&O Canal"," at Riley's Lock","Maryland, USA","切萨皮克-俄亥俄运河","莱利闸","美国马里兰州",npsurl("choh"),baikeurl(1767125)],
+      mdcovl:  ["C&O Canal"," at Violettes Lock","Maryland, USA","切萨皮克-俄亥俄运河","紫罗兰闸","美国马里兰州",npsurl("choh"),baikeurl(1767125)],
       mdcrvp:  ["Cromwell Valley Park","Baltimore, Maryland, USA","巴尔的摩克伦威尔溪谷公园","美国马里兰州","http://www.cromwellvalleypark.org/"],
-      mdenwr:  ["Eastern Neck National Wildlife Refuge","Maryland, USA","东内克国家野生动物保护区","美国马里兰州","http://www.fws.gov/refuge/eastern_neck/"],
-      mdftmh:  ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州","http://www.nps.gov/fomc/",baikeurl(1438782)],
+      mdenwr:  ["Eastern Neck National Wildlife Refuge","Maryland, USA","东内克国家野生动物保护区","美国马里兰州",npsurl("eastern_neck",true)],
+      mdftmh:  ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州",npsurl("fomc"),baikeurl(1438782)],
       mdgerm:  ["Germantown","Maryland, USA","德国镇","美国马里兰州",wikiurl("Germantown, Maryland")],
       mdgrpt:  ["Greenbury Point","Annapolis, Maryland, USA","安纳波利斯格林伯瑞角","美国马里兰州","http://www.fws.gov/chesapeakebay/greenpt.html"],
       mdhadg:  ["Havre de Grace","Maryland, USA","哈佛德格雷斯","美国马里兰州",wikiurl("Havre de Grace, Maryland")],
@@ -73,7 +73,7 @@
       melocp:  ["Lobster Cove Preserve","Boothbay Harbor, Maine, USA","布斯贝港龙虾湾保护区","美国缅因州","http://www.bbrlt.org/documents/LobsterCoveGuide.pdf"],
       menewh:  ["New Harbor","Maine, USA","新港","美国缅因州",wikiurl("New Harbor, Maine")],
       mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl(1929320)], 
-      ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州","https://www.nps.gov/blri/",baikeurl(637331)], 
+      ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州",npsurl("blri"),baikeurl(637331)], 
       nccrsp:  ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"],  
       ncllmp:  ["Morse Park","Lake Lure, North Carolina, USA","路尔湖摩士公园","美国北卡罗来纳州","http://www.townoflakelure.com/morse-park.php"],
       ncoutb:  ["Outer Banks","North Carolina, USA","外滩","美国北卡罗来纳州",wikiurl("Outer Banks"),baikeurl(1840917)],
@@ -81,37 +81,37 @@
       njcmsp:  ["Cape May Point State Park","New Jersey, USA","五月岬州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/capemay.html"],
       njscmm:  ["South Cape May Meadows","New Jersey, USA","南五月岬草原","美国新泽西州","http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/newjersey/placesweprotect/south-cape-may-meadows.xml"],
       njweti:  ["The Wetlands Institute","Stone Harbor, New Jersey, USA","石港湿地研究所","美国新泽西州","http://wetlandsinstitute.org/"],
-      nvdnwr:  ["Desert National Wildlife Range","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州","http://www.fws.gov/refuge/desert/"],
+      nvdnwr:  ["Desert National Wildlife Range","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
       nycenp:  ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")],
       nyjbsp:  ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","http://nysparks.com/parks/JonesBeach/"],
       nyjbwr:  ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nyharborparks.org/visit/jaba.html"],
-      nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州","http://www.fws.gov/refuge/montezuma/"],
+      nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
       ohbath:  ["Bath Nature Preserve","Ohio, USA","巴斯自然保护区","美国俄亥俄州","https://www.bathtownship.org/Parks%20folder/BNP%20page%20parks.htm"],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州","http://www.mageemarsh.org/"],
       orcanb:  ["Cannon Beach","Oregon, USA","卡农海滩","美国俄勒冈州","http://www.ci.cannon-beach.or.us/~Natural/HRAP/hrap-habitat.html"],
       orhayd:  ["Hayden Island","Portland, Oregon, USA","波特兰海登岛","美国俄勒冈州",wikiurl("Hayden Island, Portland, Oregon")],
       prbaya:  ["Bayamón","Puerto Rico, USA","巴亚蒙","美国波多黎各",wikiurl("Bayamón, Puerto Rico")],
       prceci:  ["Ceiba Country Inn","Puerto Rico, USA","西巴乡村客栈","美国波多黎各","http://www.ceibacountryinn.com/"],
-      prcnwr:  ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各","http://www.fws.gov/caribbean/refuges/Caborojo/"],
+      prcnwr:  ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",npsurl("cabo_rojo",true)],
       prmaya:  ["Mayagüez","Puerto Rico, USA","马亚圭斯","美国波多黎各",wikiurl("Mayagüez, Puerto Rico"),baikeurl(298448)],
       prponc:  ["Ponce","Puerto Rico, USA","蓬塞","美国波多黎各",wikiurl("Ponce, Puerto Rico"),baikeurl(879679)],
       prrinc:  ["Rincón","Puerto Rico, USA","林孔","美国波多黎各",wikiurl("Rincón, Puerto Rico")],
       prsanj:  ["San Juan","Puerto Rico, USA","圣胡安","美国波多黎各",wikiurl("San Juan, Puerto Rico")],
       scbwma:  ["Bear Island Wildlife Management Area","South Carolina, USA","熊岛野生动物管理区","美国南卡罗来纳州","https://www.dnr.sc.gov/mlands/managedland?p_id=56"],  
-      sccnwr:  ["Carolina Sandhills National Wildlife Refuge","South Carolina, USA","卡罗来纳沙丘国家野生动物保护区","美国南卡罗来纳州","http://www.fws.gov/refuge/Carolina_Sandhills/"],  
+      sccnwr:  ["Carolina Sandhills National Wildlife Refuge","South Carolina, USA","卡罗来纳沙丘国家野生动物保护区","美国南卡罗来纳州",npsurl("Carolina_Sandhills",true)],  
       schbsp:  ["Huntington Beach State Park","South Carolina, USA","亨廷顿海滩州立公园","美国南卡罗来纳州","http://southcarolinaparks.com/huntingtonbeach/"],
       scjwwc:  ["James Webb Wildlife Center","South Carolina, USA","詹姆斯·韦伯野生动物中心","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/webbcenter.html"],
       scpatp:  ["Patriots Point","Charleston, South Carolina, USA","查尔斯顿爱国者海角","美国南卡罗来纳州","http://www.crbo.net/Charleston.html"],
       scpitt:  ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","http://www.crbo.net/Charleston.html"],
-      scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州","http://www.fws.gov/refuge/savannah/"],
-//    txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州","https://www.fws.gov/refuge/Aransas/",baikeurl("阿兰萨斯国家野生动物保护区")],
-      txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州","http://www.nps.gov/bibe/",baikeurl(553962)],
-      vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州","http://www.fws.gov/refuge/chincoteague/"],
+      scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",npsurl("savannah",true)],
+//    txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baikeurl("阿兰萨斯国家野生动物保护区")],
+      txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl(553962)],
+      vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
       vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","http://www.vtfishandwildlife.com/UserFiles/Servers/Server_73079/File/Where%20to%20Hunt/St.%20Johnsbury%20District/Wenlock%20WMA.pdf"],  
       wacape:  ["Cape Flattery","Neah Bay, Washington, USA","尼亚湾夫拉特角","美国华盛顿州","http://makah.com/activities/cape-flattery-trail/"],
       wahobb:  ["Hobuck Beach","Neah Bay, Washington, USA","尼亚湾Hobuck海滩","美国华盛顿州","http://makah.com/activities/beaches/hobuck/"],
-      waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州","http://www.nps.gov/olym/",baikeurl(199340)]};
+      waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl(199340)]};
 
   //table for Chinese pinyin, string.localeCompare() does not work in all browsers
   var py = {额:"e2", 拿:"na2",大:"da4",栖:"qi1",细:"xi4",绿:"lv4",夜:"ye4",纳:"na4",蚁:"yi3",鸸:"er2", 斗:"dou4",树:"shu4",茶:"cha2",林:"lin2",白:"bai2",赤:"chi4",肉:"rou4",竹:"zhu2",寒:"han2",台:"tai2", 环:"huan2",镰:"lian2",平:"ping2",横:"heng2",苍:"cang1",娇:"jiao1",寿:"shou4",亨:"heng1", 胜:"sheng4",
@@ -1208,7 +1208,15 @@
         return "https://neotropical.birds.cornell.edu/Species-Account/nb/species/"+bid.trim()+"/overview";
      }
   }
-  
+
+  function npsurl(pid,isfws){
+     if (typeof isfws === 'undefined'){
+        return "https://www.nps.gov/"+pid+"/";
+     }else{
+        return "https://www.fws.gov/refuge/"+pid+"/";
+     }
+  }
+
   function wikiurl(bid){
      return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
   }
