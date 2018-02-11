@@ -63,15 +63,17 @@ function initAlbum(){
     this[0][i]   = "20171229_035_WithMom";
     this[1][i++] = "With Mommy, 12/29/2017.";
     this[0][i]   = "20171229_036_2MonthCheckup";
-    this[1][i++] = "Nathan weighs 14 lbs at his 2-month well-baby checkup,  12/29/2017.";
+    this[1][i++] = "Nathan weighs 14 lbs at his 2-month well-baby checkup, 12/29/2017.";
     this[0][i]   = "20171231_037_WithGrandparents";
-    this[1][i++] = "With Grandma and Grandpa,  12/31/2017.";
+    this[1][i++] = "With Grandma and Grandpa, 12/31/2017.";
     this[0][i]   = "20180114_002_Bouncer";
-    this[1][i++] = "Playing with the lion king,  1/14/2018.";
+    this[1][i++] = "Playing with the lion king, 1/14/2018.";
     this[0][i]   = "20180119_003_MusicKickMat";
-    this[1][i++] = "Enjoying the musical kick mat,  1/19/2018.";
+    this[1][i++] = "Enjoying the musical kick mat, 1/19/2018.";
     this[0][i]   = "20180203_004_TummyTime";
-    this[1][i++] = "Nathan can easily hold his head up at tummy time now,  2/3/2018.";
+    this[1][i++] = "Nathan can easily hold his head up at tummy time now, 2/3/2018.";
+    this[0][i]   = "20180210_005";
+    this[1][i++] = "Nathan is showing off his lovely legs, 2/10/2018.";
 
 
     if(window.usechinese){
@@ -102,6 +104,7 @@ function initAlbum(){
         this[1][i++] = "在摇椅上看狮子王玩具，1/14/2018。";
         this[1][i++] = "在音乐踢毯上玩得很开心，1/19/2018。";
         this[1][i++] = "球球现在能轻易就抬起头来，2/3/2018。";
+        this[1][i++] = "球球的小肥腿，2/10/2018。";
     }
 }
 
