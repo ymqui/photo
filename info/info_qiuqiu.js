@@ -73,7 +73,7 @@ function initAlbum(){
     this[0][i]   = "20180203_004_TummyTime";
     this[1][i++] = "Nathan can easily hold his head up at tummy time now, 2/3/2018.";
     this[0][i]   = "20180210_005";
-    this[1][i++] = "Nathan is showing off his lovely legs, 2/10/2018.";
+    this[1][i++] = "A very well-fed Nathan, 2/10/2018.";
 
 
     if(window.usechinese){
