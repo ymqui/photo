@@ -61,7 +61,7 @@ function initAlbum(){
     this[0][i]   = "20171224_033_ReadyToGoOut";
     this[1][i++] = "Ready to go out, 12/24/2017.";
     this[0][i]   = "20171229_035_WithMom";
-    this[1][i++] = "With Mommy, 12/29/2017.";
+    this[1][i++] = "Mommy's little bundle of joy, 12/29/2017.";
     this[0][i]   = "20171229_036_2MonthCheckup";
     this[1][i++] = "Nathan weighs 14 lbs at his 2-month well-baby checkup, 12/29/2017.";
     this[0][i]   = "20171231_037_WithGrandparents";
