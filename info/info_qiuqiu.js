@@ -8,6 +8,7 @@ var ext        = ".JPG";
 var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
+var makeface   = new Array();
  
 if(window.usechinese){
     title      = "球球的照片";
@@ -20,6 +21,7 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
+    j = 0;
     this[0][i]   = "20170128_001_OvulationTest";
     this[1][i++] = "Positive ovulation test, 1/28/2017.";
     this[0][i]   = "20170215_002_PregnancyTest";
@@ -73,13 +75,17 @@ function initAlbum(){
     this[0][i]   = "20180203_004_TummyTime";
     this[1][i++] = "Nathan can easily hold his head up at tummy time now, 2/3/2018.";
     this[0][i]   = "20180210_005";
+    makeface[j++] = i;
     this[1][i++] = "A very well-fed Nathan, 2/10/2018.";
     this[0][i]   = "20180302_009_Sleep";
     this[1][i++] = "Napping, 3/2/2018.";
+    makeface[j++] = i;
+    this[0][i]   = "20180310_010_Passport1";
+    this[1][i++] = "Nathan's passport photo, 3/10/2018.";
     this[0][i]   = "20180324_011_TummyTime";
     this[1][i++] = "Tummy time on the musical kick mat, 3/24/2018.";
     this[0][i]   = "20180331_012_WithXiaoXi";
-    this[1][i++] = "With sister Xiaoxi, 3/31/2018.";
+    this[1][i++] = "With sister Adele, 3/31/2018.";
 
 
     if(window.usechinese){
@@ -112,6 +118,7 @@ function initAlbum(){
         this[1][i++] = "球球现在能轻易就抬起头来，2/3/2018。";
         this[1][i++] = "茁壮成长，2/10/2018。";
         this[1][i++] = "家里停电，不影响球球午睡，3/2/2018。";
+        this[1][i++] = "球球的护照照片，3/10/2018。";
         this[1][i++] = "又到趴着玩的时间，3/24/2018。";
         this[1][i++] = "见到小希姐姐和候子阿姨，James哥哥在一旁睡觉，3/31/2018。";
     }
