@@ -86,6 +86,8 @@ function initAlbum(){
     this[1][i++] = "Tummy time on the musical kick mat, 3/24/2018.";
     this[0][i]   = "20180331_012_WithXiaoXi";
     this[1][i++] = "With sister Adele, 3/31/2018.";
+    this[0][i]   = "20180415_014_Sitting";
+    this[1][i++] = "Nathan can sit independently now, 4/15/2018.";
 
 
     if(window.usechinese){
@@ -121,6 +123,7 @@ function initAlbum(){
         this[1][i++] = "球球的护照照片，3/10/2018。";
         this[1][i++] = "又到趴着玩的时间，3/24/2018。";
         this[1][i++] = "见到小希姐姐和候子阿姨，James哥哥在一旁睡觉，3/31/2018。";
+	this[1][i++] = "球球能自己坐着啦，4/15/2018。";
     }
 }
 
