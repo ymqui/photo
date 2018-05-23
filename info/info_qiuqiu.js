@@ -90,6 +90,8 @@ function initAlbum(){
     this[1][i++]  = "Nathan can sit independently now, 4/15/2018.";
     this[0][i]    = "20180429_016_SolidFood";
     this[1][i++]  = "Nathan starts eating solid food now, 4/29/2018.";
+    this[0][i]    = "20180521_017_HighChair";
+    this[1][i++]  = "Nathan enjoys reading any book with a lot of photos, 5/21/2018.";
 
     if(window.usechinese){
         i = 0;
@@ -126,6 +128,7 @@ function initAlbum(){
         this[1][i++] = "见到小希姐姐和候子阿姨，James哥哥在一旁睡觉，3/31/2018。";
 	this[1][i++] = "球球能自己坐着啦，4/15/2018。";
 	this[1][i++] = "妈妈喂球球麦片粥辅食，4/29/2018。";
+	this[1][i++] = "球球自己能乖乖地在一边看书，5/21/2018。";
     }
 }
 
