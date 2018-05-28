@@ -47,9 +47,9 @@ function initAlbum(){
     this[0][i]    = "20171123_020_WithElena&Allison";
     this[1][i++]  = "With Auntie Elena and Allison, 11/23/2017.";
     this[0][i]    = "20171123_024_Thanksgiving";
-    this[1][i++]  = "Nathan's first Thanksgiving at Auntie Elena's home, 11/23/2017.";
+    this[1][i++]  = "First Thanksgiving at Auntie Elena's home, 11/23/2017.";
     this[0][i]    = "20171126_027_AsleepAtHome";
-    this[1][i++]  = "Nathan's favorite sleeping position, 11/26/2017.";
+    this[1][i++]  = "Favorite sleeping position, 11/26/2017.";
     this[0][i]    = "20171202_028_TummyTimeAtHome";
     this[1][i++]  = "Tummy time, 12/2/2017.";
     this[0][i]    = "20171223_028_Pacifier";
@@ -81,7 +81,7 @@ function initAlbum(){
     this[1][i++]  = "Napping, 3/2/2018.";
     makeface[j++] = i;
     this[0][i]    = "20180310_010_Passport1";
-    this[1][i++]  = "Nathan's passport photo, 3/10/2018.";
+    this[1][i++]  = "Passport photo, 3/10/2018.";
     this[0][i]    = "20180324_011_TummyTime";
     this[1][i++]  = "Tummy time on the musical kick mat, 3/24/2018.";
     this[0][i]    = "20180331_012_WithXiaoXi";
@@ -92,6 +92,12 @@ function initAlbum(){
     this[1][i++]  = "Nathan starts eating solid food now, 4/29/2018.";
     this[0][i]    = "20180521_017_HighChair";
     this[1][i++]  = "Nathan enjoys reading any book with a lot of photos, 5/21/2018.";
+    this[0][i]    = "20180524_018_NewTeeth";
+    this[1][i++]  = "First two teeth, 5/24/2018.";
+    this[0][i]    = "20180525_019_Superman";
+    this[1][i++]  = "Superman, 5/25/2018.";
+    this[0][i]    = "20180527_021_Nap";
+    this[1][i++]  = "Nap, 5/27/2018.";
 
     if(window.usechinese){
         i = 0;
@@ -129,6 +135,9 @@ function initAlbum(){
 	this[1][i++] = "球球能自己坐着啦，4/15/2018。";
 	this[1][i++] = "妈妈喂球球麦片粥辅食，4/29/2018。";
 	this[1][i++] = "球球自己能乖乖地在一边看书，5/21/2018。";
+	this[1][i++] = "长了两颗新牙，5/24/2018。";
+	this[1][i++] = "超人，5/25/2018。";
+	this[1][i++] = "抱着小熊午睡，5/27/2018。";
     }
 }
 
