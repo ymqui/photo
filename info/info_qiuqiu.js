@@ -98,6 +98,12 @@ function initAlbum(){
     this[1][i++]  = "Superman, 5/25/2018.";
     this[0][i]    = "20180527_021_Nap";
     this[1][i++]  = "Nap, 5/27/2018.";
+    this[0][i]    = "20180601_022_TravelInCar";
+    this[1][i++]  = "On the road, 6/1/2018.";
+    this[0][i]    = "20180603_023_SCMyrtleBeach";
+    this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
+    this[0][i]    = "20180603_026_SCMyrtleBeachHotel";
+    this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
 
     if(window.usechinese){
         i = 0;
@@ -138,6 +144,9 @@ function initAlbum(){
 	this[1][i++] = "长了两颗新牙，5/24/2018。";
 	this[1][i++] = "小超人，5/25/2018。";
 	this[1][i++] = "抱着小熊午睡，5/27/2018。";
+	this[1][i++] = "在车上，6/1/2018。";
+	this[1][i++] = "和妈妈在南卡罗来纳州默特尔海滩度假，6/3/2018。";
+	this[1][i++] = "和妈妈在南卡罗来纳州默特尔海滩度假，6/3/2018。";
     }
 }
 
