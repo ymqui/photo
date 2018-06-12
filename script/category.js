@@ -40,7 +40,7 @@
         tmpyun = '';
      }else if(window.birdalbum){
         tmpdir = tmpdir+"birds/";
-        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order" target="_self">鸟种记录</A>'; 
+        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order">鸟种记录</A>'; 
         tmpyun = '';
      }else{
         if (window.is_thumb) {
@@ -94,7 +94,7 @@
         tmpyun = '';
      }else if(window.birdalbum){
         tmpdir = tmpdir+"birds/";
-        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order" target="_self">Lifer List&nbsp;Photos</A>';
+        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order">Lifer List&nbsp;Photos</A>';
         tmpyun = '';
      }else{
         if (window.is_thumb) {
