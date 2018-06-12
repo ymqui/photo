@@ -94,7 +94,7 @@
         tmpyun = '';
      }else if(window.birdalbum){
         tmpdir = tmpdir+"birds/";
-        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order">Lifer List&nbsp;Photos</A>';
+        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order">Lifer&nbsp;List</A>';
         tmpyun = '';
      }else{
         if (window.is_thumb) {
