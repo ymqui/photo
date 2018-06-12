@@ -6,6 +6,7 @@
   var tmpfam = "";
   var tmpfri = "";
   var tmpbrd = "";
+  var tmplif = "";
   var tmpres = "";
   var tmpsum = "";
   var tmpoth = "";
@@ -39,7 +40,7 @@
         tmpyun = '';
      }else if(window.birdalbum){
         tmpdir = tmpdir+"birds/";
-        tmpres = '&nbsp;&nbsp;|&nbsp; <A href="../restaurant/" target="_self">餐馆照片</A>'; 
+        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order" target="_self">鸟种记录</A>'; 
         tmpyun = '';
      }else{
         if (window.is_thumb) {
@@ -93,7 +94,7 @@
         tmpyun = '';
      }else if(window.birdalbum){
         tmpdir = tmpdir+"birds/";
-        tmpres = '&nbsp;&nbsp;|&nbsp; <A href="../restaurant/" target="_self">Restaurant&nbsp;Photos</A>';
+        tmplif = '&nbsp;&nbsp;|&nbsp; <A href="../birds/showbird.html?order" target="_self">Lifer List&nbsp;Photos</A>';
         tmpyun = '';
      }else{
         if (window.is_thumb) {
@@ -135,6 +136,7 @@
   document.write('<div style="line-height:200%; font-size:'+fsizec+'">');
   document.write(tmplan);
   document.write(tmpyun);
+  document.write(tmplif);
   document.write(tmpoth);
   document.write(tmpbrd);
   document.write(tmpres);
