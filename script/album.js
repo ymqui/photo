@@ -146,7 +146,15 @@ function loadHidden(){
        tmp = num-1;
     }
     hiddenimg = new Image();
-    hiddenimg.src = dir+photoalbum[0][tmp]+ext;
+    try{
+       hiddenimg.src = dir+photoalbum[0][tmp]+ext;
+    }catch(er){
+       if (ext==ext.toUpperCase()){
+          hiddenimg.src = dir+photoalbum[0][tmp]+ext.toLowerCase();
+       }else{
+          hiddenimg.src = dir+photoalbum[0][tmp]+ext.toUpperCase();
+       }
+    }
 }
 
 function showmesg(mesg){
