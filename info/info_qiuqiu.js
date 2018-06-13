@@ -22,6 +22,9 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
+    this[0][i]    = "test";
+    this[1][i++]  = "Test";    
+
     this[0][i]    = "20170128_001_OvulationTest";
     this[1][i++]  = "Positive ovulation test, 1/28/2017.";
     this[0][i]    = "20170215_002_PregnancyTest";
@@ -107,6 +110,7 @@ function initAlbum(){
 
     if(window.usechinese){
         i = 0;
+	this[1][i++] = "Test";
         this[1][i++] = "排卵测试显阳性，1/28/2017。";
         this[1][i++] = "怀孕测试显阳性，2/15/2017。";
         this[1][i++] = "在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳，3/9/2017。";
