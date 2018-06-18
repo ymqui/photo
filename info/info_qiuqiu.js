@@ -105,9 +105,9 @@ function initAlbum(){
     this[0][i]    = "20180603_026_SCMyrtleBeachHotel";
     this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
     this[0][i]    = "20180618_028_GoddardSchool";
-    this[1][i++]  = "First day at day care, 6/18/2018.";
+    this[1][i++]  = "First day at daycare, 6/18/2018.";
     this[0][i]    = "20180618_029_GoddardSchool";
-    this[1][i++]  = "First day at day care, Mom was heartbroken, 6/18/2018.";
+    this[1][i++]  = "First day at daycare, Mom was heartbroken, 6/18/2018.";
 
     if(window.usechinese){
         i = 0;
