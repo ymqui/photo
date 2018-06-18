@@ -104,6 +104,10 @@ function initAlbum(){
     this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
     this[0][i]    = "20180603_026_SCMyrtleBeachHotel";
     this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
+    this[0][i]    = "20180618_028_GoddardSchool";
+    this[1][i++]  = "First day at day care, 6/18/2018.";
+    this[0][i]    = "20180618_029_GoddardSchool";
+    this[1][i++]  = "First day at day care, Mom was heartbroken, 6/18/2018.";
 
     if(window.usechinese){
         i = 0;
@@ -147,6 +151,8 @@ function initAlbum(){
 	this[1][i++] = "在路上，6/1/2018。";
 	this[1][i++] = "和妈妈在南卡罗来纳州美特尔海滩度假，6/3/2018。";
 	this[1][i++] = "和妈妈在南卡罗来纳州美特尔海滩度假，6/3/2018。";
+	this[1][i++] = "第一天上托儿所，6/18/2018。";
+	this[1][i++] = "第一天上托儿所，妈妈好舍不得，6/18/2018。";
     }
 }
 
