@@ -33,7 +33,7 @@ function initAlbum(){
     this[0][i]    = "20170721_008_Sonogram";
     this[1][i++]  = "Nathan's cute little face, MedStar Montgomery Medical Center, 7/21/2017.";
     this[0][i]    = "20170920_018";
-    this[1][i++]  = pagelink("1709babyshower","Baby shower")+", 9/20/2017.";
+    this[1][i++]  = "Baby shower, 9/20/2017.";
     this[0][i]    = "20171031_009_AfterBirth";
     this[1][i++]  = "In the nursery after birth, 8 lb 12 oz, and 20 inches long, 10/31/2017.";
     this[0][i]    = "20171101_014_WithMom";
@@ -116,7 +116,7 @@ function initAlbum(){
         this[1][i++] = "在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳，3/9/2017。";
         this[1][i++] = "在蒙哥马利医疗中心做解剖结构超声波检查，胎儿很健康，6/2/2017。";
         this[1][i++] = "小宝宝的脸蛋，蒙哥马利医疗中心，7/21/2017。";
-        this[1][i++] = "同事们举办的"+pagelink("1709babyshower","准妈妈派对")+"，9/20/2017。";
+        this[1][i++] = "同事们举办的准妈妈派对，9/20/2017。";
         this[1][i++] = "宝宝出生了，7斤9两重（8磅12盎司），51厘米长，10/31/2017。";
         this[1][i++] = "和妈妈在医院恢复室一块休息，11/1/2017。";
         this[1][i++] = "在家里的婴儿摇椅上安睡，11/7/2017。";
