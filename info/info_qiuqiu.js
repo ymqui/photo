@@ -108,6 +108,10 @@ function initAlbum(){
     this[1][i++]  = "First day at daycare, 6/18/2018.";
     this[0][i]    = "20180618_029_GoddardSchool";
     this[1][i++]  = "First day at daycare, Mom was heartbroken, 6/18/2018.";
+    this[0][i]    = "20180620_030_Painting";
+    this[1][i++]  = "Nathan's first painting, 6/20/2018.";
+    this[0][i]    = "20180620_031_PonyRide";
+    this[1][i++]  = "Pony ride at daycare with the help of Ms Mfuta, 6/20/2018.";
 
     if(window.usechinese){
         i = 0;
@@ -153,6 +157,8 @@ function initAlbum(){
 	this[1][i++] = "和妈妈在南卡罗来纳州美特尔海滩度假，6/3/2018。";
 	this[1][i++] = "第一天上托儿所，6/18/2018。";
 	this[1][i++] = "第一天上托儿所，妈妈好舍不得，6/18/2018。";
+	this[1][i++] = "球球画的第一幅画，6/20/2018。";
+	this[1][i++] = "在托儿所骑小马，Mfuta老师抱着还是有点害怕，6/20/2018。";
     }
 }
 
