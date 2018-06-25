@@ -35,7 +35,7 @@ function initAlbum(){
     this[1][i++]  = "Holding two animal toys, 6/21/2018.";
     this[0][i]    = "20180622_1";
     this[1][i++]  = "Fitting the puzzle, 6/22/2018.";
-    this[0][i]    = "20180622_1";
+    this[0][i]    = "20180622_2";
     this[1][i++]  = "Reading, 6/22/2018.";
 
 
