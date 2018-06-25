@@ -38,7 +38,7 @@ function initAlbum(){
     this[0][i]    = "20180622_2";
     this[1][i++]  = "Reading, 6/22/2018.";
     this[0][i]    = "20180625_1";
-    this[1][i++]  = "Painting with bare hands, 6/22/2018.";
+    this[1][i++]  = "Painting with bare hands, 6/25/2018.";
 
 
     if(window.usechinese){
