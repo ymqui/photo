@@ -24,34 +24,38 @@ function initAlbum(){
     j = 0;
  //   makeface[j++] = i;
     this[0][i]    = "20180618_1";
-    this[1][i++]  = "First day at the daycare, 6/18/2018.";
+    this[1][i++]  = "First day at the daycare";
     this[0][i]    = "20180619_1";
-    this[1][i++]  = "Painting with a pig, 6/19/2018.";
+    this[1][i++]  = "Painting with a pig";
     this[0][i]    = "20180620_1";
-    this[1][i++]  = "Pony ride, 6/20/2018.";
+    this[1][i++]  = "Pony ride";
     this[0][i]    = "20180620_2";
-    this[1][i++]  = "Looking at pictures of horses, 6/20/2018.";
+    this[1][i++]  = "Looking at pictures of horses";
     this[0][i]    = "20180621_1";
-    this[1][i++]  = "Holding two animal toys, 6/21/2018.";
+    this[1][i++]  = "Holding two animal toys";
     this[0][i]    = "20180622_1";
-    this[1][i++]  = "Fitting the puzzle, 6/22/2018.";
+    this[1][i++]  = "Fitting the puzzle";
     this[0][i]    = "20180622_2";
-    this[1][i++]  = "Reading, 6/22/2018.";
+    this[1][i++]  = "Reading";
     this[0][i]    = "20180625_1";
-    this[1][i++]  = "Painting with bare hands, 6/25/2018.";
+    this[1][i++]  = "Painting with bare hands";
 
 
     if(window.usechinese){
         i = 0;
-        this[1][i++] = "托儿所第一天，6/18/2018。";
-        this[1][i++] = "用小猪画画，6/19/2018。";
-        this[1][i++] = "骑小马，6/20/2018。"
-        this[1][i++] = "看马图，6/20/2018。"
-        this[1][i++] = "同时拿着两只动物玩具，6/21/2018。"
-        this[1][i++] = "拼图玩具，6/22/2018。"
-        this[1][i++] = "读书，6/22/2018。"
-        this[1][i++] = "涂手画画，6/25/2018。"
+        this[1][i++] = "托儿所第一天";
+        this[1][i++] = "用小猪画画";
+        this[1][i++] = "骑小马"
+        this[1][i++] = "看马图"
+        this[1][i++] = "同时拿着两只动物玩具"
+        this[1][i++] = "拼图玩具"
+        this[1][i++] = "看书"
+        this[1][i++] = "涂手画画"
     }
+
+    for (var i=0;i<this[0].length;i++){
+        this[1][i] = this[1][i]+getdate(this[0][i]);
+    }    
 }
 
 //web counter info
