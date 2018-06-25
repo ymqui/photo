@@ -37,6 +37,8 @@ function initAlbum(){
     this[1][i++]  = "Fitting the puzzle, 6/22/2018.";
     this[0][i]    = "20180622_2";
     this[1][i++]  = "Reading, 6/22/2018.";
+    this[0][i]    = "20180625_1";
+    this[1][i++]  = "Painting with bare hands, 6/22/2018.";
 
 
     if(window.usechinese){
@@ -48,6 +50,7 @@ function initAlbum(){
         this[1][i++] = "同时拿着两只动物玩具，6/21/2018。"
         this[1][i++] = "拼图玩具，6/22/2018。"
         this[1][i++] = "读书，6/22/2018。"
+        this[1][i++] = "涂手画画，6/25/2018。"
     }
 }
 
