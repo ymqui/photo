@@ -22,6 +22,7 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
+    daycare = pagelink("2018goddard","daycare");
     this[0][i]    = "20170128_001_OvulationTest";
     this[1][i++]  = "Positive ovulation test, 1/28/2017.";
     this[0][i]    = "20170215_002_PregnancyTest";
@@ -105,16 +106,17 @@ function initAlbum(){
     this[0][i]    = "20180603_026_SCMyrtleBeachHotel";
     this[1][i++]  = "Vacationing at Myrtle Beach, South Carolina, 6/3/2018.";
     this[0][i]    = "20180618_028_GoddardSchool";
-    this[1][i++]  = "First day at daycare, 6/18/2018.";
+    this[1][i++]  = "Nathan is going to the "+daycare+", 6/18/2018.";
     this[0][i]    = "20180618_029_GoddardSchool";
-    this[1][i++]  = "First day at daycare, Mom was heartbroken, 6/18/2018.";
+    this[1][i++]  = "First day at the "+daycare+", Mom was heartbroken, 6/18/2018.";
     this[0][i]    = "20180620_030_Painting";
     this[1][i++]  = "Nathan's first painting, 6/20/2018.";
     this[0][i]    = "20180620_031_PonyRide";
-    this[1][i++]  = "Pony ride at daycare with the help of Ms Mfuta, 6/20/2018.";
+    this[1][i++]  = "Pony ride at the "+daycare+" with the help of Ms Mfuta, 6/20/2018.";
 
     if(window.usechinese){
         i = 0;
+        daycare = pagelink("2018goddard","托儿所");
         this[1][i++] = "排卵测试显阳性，1/28/2017。";
         this[1][i++] = "怀孕测试显阳性，2/15/2017。";
         this[1][i++] = "在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳，3/9/2017。";
@@ -155,10 +157,10 @@ function initAlbum(){
 	this[1][i++] = "在路上，6/1/2018。";
 	this[1][i++] = "和妈妈在南卡罗来纳州美特尔海滩度假，6/3/2018。";
 	this[1][i++] = "和妈妈在南卡罗来纳州美特尔海滩度假，6/3/2018。";
-	this[1][i++] = "第一天上托儿所，6/18/2018。";
-	this[1][i++] = "第一天上托儿所，妈妈好舍不得，6/18/2018。";
+	this[1][i++] = "球球上"+daycare+"了，6/18/2018。";
+	this[1][i++] = "第一天上"+daycare+"，妈妈好舍不得，6/18/2018。";
 	this[1][i++] = "球球画的第一幅画，6/20/2018。";
-	this[1][i++] = "在托儿所骑小马，Mfuta老师抱着还是有点害怕，6/20/2018。";
+	this[1][i++] = "在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕，6/20/2018。";
     }
 }
 
