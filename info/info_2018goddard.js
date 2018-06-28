@@ -41,6 +41,8 @@ function initAlbum(){
     this[1][i++]  = "Painting with bare hands";
     this[0][i]    = "20180626_1";
     this[1][i++]  = "Playing with a paint bottle";
+    this[0][i]    = "20180628_1";
+    this[1][i++]  = "Water day with Daddy";
 
     if(window.usechinese){
         i = 0;
@@ -53,6 +55,7 @@ function initAlbum(){
         this[1][i++] = "看书"
         this[1][i++] = "涂手画画"
         this[1][i++] = "玩涂料瓶"
+        this[1][i++] = "爸爸陪着玩水"
     }
 
     for (var i=0;i<this[0].length;i++){
