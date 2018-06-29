@@ -1,5 +1,5 @@
 ﻿<!--
-var info_url   = "";
+var info_url   = "https://www.goddardschool.com/washington/gaithersburg-wind-river-lane-md";
 var title      = "Nathan's Photos at Goddard School";
 var dir        = maindir+"pics/2018goddard/";
 var thumb_dir  = maindir+"thumbnail/";
