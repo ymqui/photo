@@ -40,22 +40,25 @@ function initAlbum(){
     this[0][i]    = "20180625_1";
     this[1][i++]  = "Painting with bare hands";
     this[0][i]    = "20180626_1";
-    this[1][i++]  = "Playing with a paint bottle";
+    this[1][i++]  = "Playing with an oil and water sensory bottle";
     this[0][i]    = "20180628_1";
     this[1][i++]  = "Water day with Daddy";
+    this[0][i]    = "20180629_1";
+    this[1][i++]  = "Making a tissue paper flower";
 
     if(window.usechinese){
         i = 0;
         this[1][i++] = "托儿所第一天";
         this[1][i++] = "用小猪画画";
-        this[1][i++] = "骑小马"
-        this[1][i++] = "看马图"
-        this[1][i++] = "同时拿着两只动物玩具"
-        this[1][i++] = "拼图玩具"
-        this[1][i++] = "看书"
-        this[1][i++] = "涂手画画"
-        this[1][i++] = "玩涂料瓶"
-        this[1][i++] = "爸爸陪着玩水"
+        this[1][i++] = "骑小马";
+        this[1][i++] = "看马图";
+        this[1][i++] = "同时拿着两只动物玩具";
+        this[1][i++] = "拼图玩具";
+        this[1][i++] = "看书";
+        this[1][i++] = "涂手画画";
+        this[1][i++] = "玩油水感官瓶";
+        this[1][i++] = "爸爸陪着玩水";
+        this[1][i++] = "粘纸花";
     }
 
     for (var i=0;i<this[0].length;i++){
