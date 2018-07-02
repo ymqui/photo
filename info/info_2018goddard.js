@@ -11,7 +11,7 @@ var last2first = true;
 var makeface   = new Array();
  
 if(window.usechinese){
-    title      = "球球在托儿所的照片";
+    title      = "球球在戈达德托儿所的照片";
 }
  
 document.title = title;
@@ -45,6 +45,8 @@ function initAlbum(){
     this[1][i++]  = "Water day with Daddy";
     this[0][i]    = "20180629_1";
     this[1][i++]  = "Making a tissue paper flower";
+    this[0][i]    = "20180702_1";
+    this[1][i++]  = "Counting cookies";
 
     if(window.usechinese){
         i = 0;
@@ -59,6 +61,7 @@ function initAlbum(){
         this[1][i++] = "玩油水感官瓶";
         this[1][i++] = "爸爸陪着玩水";
         this[1][i++] = "粘纸花";
+        this[1][i++] = "数饼干";
     }
 
     for (var i=0;i<this[0].length;i++){
