@@ -115,6 +115,8 @@ function initAlbum(){
     this[1][i++]  = "Pony ride at the "+daycare+" with the help of Ms Mfuta";
     this[0][i]    = "20180628_033_WaterDay";
     this[1][i++]  = "Water day at the "+daycare;
+    this[0][i]    = "20180629_035_TeetherWafer";
+    this[1][i++]  = "Chewing on a teething wafter";
 
     if(window.usechinese){
         i = 0;
@@ -164,6 +166,7 @@ function initAlbum(){
 	this[1][i++] = "球球画的第一幅画";
 	this[1][i++] = "在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕";
 	this[1][i++] = daycare+"的玩水日";
+	this[1][i++] = "嚼磨牙饼干";
     }
 
     for (var i=0;i<this[0].length;i++){
