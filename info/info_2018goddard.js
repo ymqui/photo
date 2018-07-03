@@ -46,7 +46,7 @@ function initAlbum(){
     this[0][i]    = "20180629_1";
     this[1][i++]  = "Making a tissue paper flower";
     this[0][i]    = "20180702_1";
-    this[1][i++]  = "Counting cookies";
+    this[1][i++]  = "Feeling the scent and texture of the honeycomb cereal";
 
     if(window.usechinese){
         i = 0;
@@ -61,7 +61,7 @@ function initAlbum(){
         this[1][i++] = "玩油水感官瓶";
         this[1][i++] = "爸爸陪着玩水";
         this[1][i++] = "粘纸花";
-        this[1][i++] = "数饼干";
+        this[1][i++] = "感受小饼干的气味和质地";
     }
 
     for (var i=0;i<this[0].length;i++){
