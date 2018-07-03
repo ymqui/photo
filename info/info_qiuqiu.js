@@ -114,7 +114,7 @@ function initAlbum(){
     this[0][i]    = "20180620_031_PonyRide";
     this[1][i++]  = "Pony ride at the "+daycare+" with the help of Ms Mfuta";
     this[0][i]    = "20180629_035_TeetherWafer";
-    this[1][i++]  = "Chewing on a teething wafter";
+    this[1][i++]  = "Chewing on a teething wafer";
 
     if(window.usechinese){
         i = 0;
