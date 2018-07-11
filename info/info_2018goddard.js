@@ -57,6 +57,8 @@ function initAlbum(){
     this[1][i++]  = "Finding a banana hidden under the blanket";
     this[0][i]    = "20180710_1";
     this[1][i++]  = "Enjoying the outdoors";
+    this[0][i]    = "20180711_1";
+    this[1][i++]  = "Playing with a stuffed toy";
 
     if(window.usechinese){
         i = 0;
@@ -77,6 +79,7 @@ function initAlbum(){
         this[1][i++] = "用海绵画画";
         this[1][i++] = "找藏在毯子下面的香蕉";
         this[1][i++] = "户外活动";
+        this[1][i++] = "玩毛绒玩具";
     }
 
     for (var i=0;i<this[0].length;i++){
