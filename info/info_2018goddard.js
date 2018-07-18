@@ -66,7 +66,7 @@ function initAlbum(){
     this[0][i]    = "20180716_1";
     this[1][i++]  = "Crocodiles";
     this[0][i]    = "20180717_1";
-    this[1][i++]  = "Crocodile zigsaw puzzle";
+    this[1][i++]  = "Putting zigsaw puzzles together";
 
 
     if(window.usechinese){
@@ -92,7 +92,7 @@ function initAlbum(){
         this[1][i++] = "在树屋里";
         this[1][i++] = "用羽毛和纸作画";
         this[1][i++] = "看鳄鱼图";
-        this[1][i++] = "玩鳄鱼拼图";
+        this[1][i++] = "玩拼图";
     }
 
     for (var i=0;i<this[0].length;i++){
