@@ -69,6 +69,8 @@ function initAlbum(){
     this[1][i++]  = "Nathan weighs 14 lbs at his 2-month well-baby checkup";
     this[0][i]    = "20171231_037_WithGrandparents";
     this[1][i++]  = "With Grandma and Grandpa";
+    this[0][i]    = "20180112";
+    this[1][i++]  = "Mama's boy";
     this[0][i]    = "20180114_002_Bouncer";
     this[1][i++]  = "Playing with the lion king";
     this[0][i]    = "20180119_003_MusicKickMat";
@@ -142,6 +144,7 @@ function initAlbum(){
         this[1][i++] = "和妈妈在一起";
         this[1][i++] = "球球两个月体检，有14磅（12斤7两）重";
         this[1][i++] = "和外公外婆在一起";
+        this[1][i++] = "妈妈的乖小宝";
         this[1][i++] = "在摇椅上看狮子王玩具";
         this[1][i++] = "在音乐踢毯上玩得很开心";
         this[1][i++] = "球球现在能轻易就抬起头来";
