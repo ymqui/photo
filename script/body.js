@@ -101,7 +101,9 @@
      }
   }
   if(cellphone) document.write('<br>');
+  var pagelistid = 1;
   if(window.usechinese){
+     pagelistid = 2;
      document.write('<A onclick="getFirst()"><IMG SRC="'+thumb_dir+prefix+'first.png"'+borderstr('第一张')+'></A>');
      document.write('<A onclick="getPrev()"><IMG SRC="'+thumb_dir+prefix+'previous.png"'+borderstr('前一张或点击照片左侧')+'></A>');
      document.write('<A onclick="getNext()"><IMG SRC="'+thumb_dir+prefix+'next.png"'+borderstr('下一张或点击照片右侧')+'></A>');
@@ -159,6 +161,15 @@
   document.write(' <img name="face_2" src="'+thumb_dir+'face_2.gif" width=0 height=0>');
   document.write(' <img name="face_3" src="'+thumb_dir+'face_3.gif" width=0 height=0>');
     
+  //extra link list
+  if (window.pagelist){
+     document.write('<p>&nbsp;<p>');
+     for (var i=0;i<pagelist.length;i++){
+         document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;')
+         if (i%3==2) document.write('<br>');
+     }  
+  }
+
   //web counter
   if (window.sc_project){
      var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
