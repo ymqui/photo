@@ -165,7 +165,7 @@
   if (window.pagelist){
      document.write('<p>&nbsp;<p>');
      for (var i=0;i<pagelist.length;i++){
-         document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;')
+         document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;');
          if (i%3==2) document.write('<br>');
      }  
   }
