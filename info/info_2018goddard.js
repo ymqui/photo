@@ -70,7 +70,9 @@ function initAlbum(){
     this[0][i]    = "20180718_1";
     this[1][i++]  = "Animal pictures";
     this[0][i]    = "20180719_1";
-    this[1][i++]  = "Mixing beans with green paint";
+    this[1][i++]  = "Mixing dried beans with green paint";
+    this[0][i]    = "20180720_1";
+    this[1][i++]  = "Painting with bare hands";
 
     if(window.usechinese){
         i = 0;
@@ -98,6 +100,7 @@ function initAlbum(){
         this[1][i++] = "玩拼图";
         this[1][i++] = "看动物图";
         this[1][i++] = "把豆子染成绿色";
+        this[1][i++] = "小画家又开始作画";
     }
 
     for (var i=0;i<this[0].length;i++){
