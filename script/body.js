@@ -164,6 +164,7 @@
   //extra link list
   if (window.pagelist){
      for (var i=0;i<3;i++) document.write('<p>&nbsp;<p>');
+     if (window.usechinese){document.write('<p>相关照片');}else{document.write('<p>Related Photos');}
      document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
      for (var i=pagelist.length-1;i>=0;i--){
          document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;');
