@@ -164,7 +164,7 @@
   //extra link list
   if (window.pagelist){
      document.write('<p>&nbsp;<p>');
-     document.write('<p style="margin-top:6px; font-size: "+fsize+'">');
+     document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
      for (var i=pagelist.length-1;i>=0;i--){
          document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;');
          if (i%3==2||cellphone) document.write('<br>');
