@@ -164,7 +164,9 @@
   //extra link list
   if (window.pagelist){
      for (var i=0;i<3;i++) document.write('<p>&nbsp;<p style="font-size: '+fsize+' color:'+color_3+';">');
-     if (window.usechinese){document.write('相关照片');}else{document.write('Related Photos');}
+     document.write('<img src="'+thumb_dir+'branch_l.png">');
+     if (window.usechinese){document.write('相关照片>>');}else{document.write('<<Related Photos>>');}
+     document.write('<img src="'+thumb_dir+'branch_r.png">');
      document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
      for (var i=pagelist.length-1;i>=0;i--){
          document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid])+'&nbsp;');
