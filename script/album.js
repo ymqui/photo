@@ -584,7 +584,7 @@ function switchlang(){
 }
 
 function pagelink(pid, descrip){
-    return "<a href='showphoto.html?"+pid+"' style='color: #3399FF; text-decoration: underline;' target='_blank'>"+descrip+"</a>";
+    return "<a href='showphoto.html?"+pid+"' style='color: #3399FF; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
 } 
 
 function getdate(name){
