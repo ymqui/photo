@@ -9,7 +9,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var pagelist   = [["2018goddard","2018 Nathan at Goddard School","2018球球在戈达德托儿所的照片"]];
+var pagelist   = [["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"]];
  
 if(window.usechinese){
     title      = "球球的照片";
