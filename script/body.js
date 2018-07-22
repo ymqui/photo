@@ -163,7 +163,7 @@
     
   //extra link list
   if (window.pagelist){
-     for (var i=0;i<3;i++) document.write('<p>&nbsp;<p style="font-size: '+fsize+' color:'+color_3+';">');
+     for (var i=0;i<3;i++) document.write('<p>&nbsp;<p style="font-size: '+fsize+' color:'+color_3+'; vertical-align:middle;">');
      document.write('<img src="'+thumb_dir+'branch_l.png">');
      if (window.usechinese){document.write('相关照片');}else{document.write('Related Photos');}
      document.write('<img src="'+thumb_dir+'branch_r.png">');
