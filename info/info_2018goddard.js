@@ -75,6 +75,8 @@ function initAlbum(){
     this[1][i++]  = "Painting with bare hands";
     this[0][i]    = "20180723_1";
     this[1][i++]  = "Feeling the texture of the cooked pasta";
+    this[0][i]    = "20180724_1";
+    this[1][i++]  = "Feeling the wet cotton balls";
 
     if(window.usechinese){
         i = 0;
@@ -104,6 +106,7 @@ function initAlbum(){
         this[1][i++] = "把豆子染成绿色";
         this[1][i++] = "小画家又开始作画";
         this[1][i++] = "感受煮熟的通心粉的质地";
+        this[1][i++] = "捏湿棉球";
     }
 
     for (var i=0;i<this[0].length;i++){
