@@ -146,9 +146,10 @@
   }
   if(cellphone){
      fsize = "200%;";
+     n_brk = 8;
   }else{
      fsize = "100%;";
-     
+     n_brk = 6;
   }
   document.write('<p>&nbsp;');
   document.write('<p>');
@@ -163,7 +164,7 @@
     
   //extra link list
   if (window.pagelist){
-     for (var i=0;i<6;i++) document.write('<p>&nbsp;');
+     for (var i=0;i<n_brk;i++) document.write('<p>&nbsp;');
      document.write('<p style="font-size: '+fsize+' color:'+color_3+';">');
      if (window.usechinese){document.write('相关照片');}else{document.write('Related Photos');}
      document.write('<p><img src="'+thumb_dir+'branch.png">');
