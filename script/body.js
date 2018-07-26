@@ -146,7 +146,7 @@
   }
   if(cellphone){
      fsize = "200%;";
-     n_brk = 8;
+     n_brk = 9;
   }else{
      fsize = "100%;";
      n_brk = 6;
