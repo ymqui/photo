@@ -145,7 +145,7 @@
      document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr('Photo Album Home')+'></A>');
   }
   if(cellphone){
-     fsize = "200%;";
+     fsize = "250%;";
      n_brk = 9;
   }else{
      fsize = "100%;";
