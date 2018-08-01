@@ -118,6 +118,9 @@ function initAlbum(){
     this[1][i++]  = "Pony ride at the "+daycare+" with the help of Ms Mfuta";
     this[0][i]    = "20180629_035_TeetherWafer";
     this[1][i++]  = "Chewing on a teething wafer";
+    this[0][i]    = "20180731_Home";
+    this[1][i++]  = "Staying at home due to a low fever";
+
 
     if(window.usechinese){
         i = 0;
@@ -168,6 +171,7 @@ function initAlbum(){
 	this[1][i++] = "球球画的第一幅画";
 	this[1][i++] = "在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕";
 	this[1][i++] = "嚼磨牙饼干";
+	this[1][i++] = "因低烧没去上托儿所，挺精神的";
     }
 
     for (var i=0;i<this[0].length;i++){
