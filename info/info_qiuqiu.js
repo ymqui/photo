@@ -171,7 +171,7 @@ function initAlbum(){
 	this[1][i++] = "球球画的第一幅画";
 	this[1][i++] = "在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕";
 	this[1][i++] = "嚼磨牙饼干";
-	this[1][i++] = "因低烧没去上托儿所，看起来挺精神的";
+	this[1][i++] = "因低烧没去上托儿所，在家里挺精神的";
     }
 
     for (var i=0;i<this[0].length;i++){
