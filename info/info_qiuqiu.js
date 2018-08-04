@@ -121,7 +121,7 @@ function initAlbum(){
     this[0][i]    = "20180731_Home";
     this[1][i++]  = "Staying at home due to a low fever";
     this[0][i]    = "20180803_WellBabyCheck";
-    this[1][i++]  = "Nathan's 9-month well baby check. He is 28.5-inch high, and weighs 20 lbs";
+    this[1][i++]  = "Nathan's 9-month well baby check. He is 28.5-inch tall, and weighs 20 lbs";
 
 
     if(window.usechinese){
