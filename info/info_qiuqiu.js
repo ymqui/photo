@@ -122,6 +122,8 @@ function initAlbum(){
     this[1][i++]  = "Staying at home due to a low fever";
     this[0][i]    = "20180803_WellBabyCheck";
     this[1][i++]  = "Nathan's 9-month well baby check. He is 28.5-inch tall, and weighs 20 lbs";
+    this[0][i]    = "20180804_036_Walker";
+    this[1][i++]  = "Having fun in a baby walker";
 
 
     if(window.usechinese){
@@ -175,6 +177,7 @@ function initAlbum(){
 	this[1][i++] = "嚼磨牙饼干";
 	this[1][i++] = "因低烧没去上托儿所，在家里挺精神的";
 	this[1][i++] = "球球9个月体检，身高72.4厘米(28.5英寸)，体重9.07公斤(20磅)";
+	this[1][i++] = "在婴儿学步车里玩得很开心";
     }
 
     for (var i=0;i<this[0].length;i++){
