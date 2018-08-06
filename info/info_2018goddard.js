@@ -90,7 +90,9 @@ function initAlbum(){
     this[0][i]    = "20180802_1";
     this[1][i++]  = "Drawing";
     this[0][i]    = "20180803_1";
-    this[1][i++]  = "Paper art project";
+    this[1][i++]  = "Gluing black and white tissue paper";
+    this[0][i]    = "20180806_1";
+    this[1][i++]  = "Gluing yellow tissue paper";
 
     if(window.usechinese){
         i = 0;
@@ -127,7 +129,8 @@ function initAlbum(){
         this[1][i++] = "户外活动(球球刚剪了头发)";
         this[1][i++] = "玩小企鹅";
         this[1][i++] = "画画";
-        this[1][i++] = "用纸糊画";
+        this[1][i++] = "用胶水粘黑白纸巾";
+        this[1][i++] = "用胶水粘黄纸巾";
     }
 
     for (var i=0;i<this[0].length;i++){
