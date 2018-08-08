@@ -95,6 +95,8 @@ function initAlbum(){
     this[1][i++]  = "Gluing yellow tissue paper";
     this[0][i]    = "20180807_1";
     this[1][i++]  = "Playing with a rope and balls";
+    this[0][i]    = "20180808_1";
+    this[1][i++]  = "Wearing the clown costume";
 
     if(window.usechinese){
         i = 0;
@@ -134,6 +136,7 @@ function initAlbum(){
         this[1][i++] = "用胶水粘黑白纸巾";
         this[1][i++] = "用胶水粘黄纸巾";
         this[1][i++] = "玩绳子和球";
+        this[1][i++] = "扮小丑";
     }
 
     for (var i=0;i<this[0].length;i++){
