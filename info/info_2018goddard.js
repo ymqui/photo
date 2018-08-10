@@ -99,6 +99,8 @@ function initAlbum(){
     this[1][i++]  = "Wearing the clown costume";
     this[0][i]    = "20180809_1";
     this[1][i++]  = "Playing with water bottle";
+    this[0][i]    = "20180810_1";
+    this[1][i++]  = "Feeling the texture of a bag of popcorn";
 
     if(window.usechinese){
         i = 0;
@@ -140,6 +142,7 @@ function initAlbum(){
         this[1][i++] = "玩绳子和球";
         this[1][i++] = "扮小丑";
         this[1][i++] = "玩水瓶";
+        this[1][i++] = "感受爆米花的质地";
     }
 
     for (var i=0;i<this[0].length;i++){
