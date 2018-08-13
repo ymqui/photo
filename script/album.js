@@ -22,6 +22,8 @@ var swaptimerID  = null;
 var swaptimerOn  = false;
 var swapinterval = 500;
 
+var facesize     = 15;
+if (cellphone){ facesize = 30; }
 
 
 if(window.blocksave && (!googledrive)){
@@ -265,8 +267,8 @@ function swap(iscamera){
        if (face_yn[index] &&(!iscamera)) {  //check make face
            for(var i=0;i<4;i++) {
                var tmp = "face_"+i.toString();
-               document.images[tmp].width  = 15;
-               document.images[tmp].height = 15;
+               document.images[tmp].width  = facesize;
+               document.images[tmp].height = facesize;
            }
        }else{
            for(var i=0;i<4;i++) {
