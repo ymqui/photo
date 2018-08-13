@@ -23,7 +23,7 @@ var swaptimerOn  = false;
 var swapinterval = 500;
 
 var facesize     = 15;
-if (cellphone){ facesize = 30; }
+if (cellphone){ facesize = 45; }
 
 
 if(window.blocksave && (!googledrive)){
