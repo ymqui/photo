@@ -103,6 +103,8 @@ function initAlbum(){
     this[1][i++]  = "Feeling the texture of a bag of popcorn";
     this[0][i]    = "20180813_1";
     this[1][i++]  = "Painting with seashells";
+    this[0][i]    = "20180814_1";
+    this[1][i++]  = "Playing with a sand bucket";
 
     if(window.usechinese){
         i = 0;
@@ -146,6 +148,7 @@ function initAlbum(){
         this[1][i++] = "玩水瓶";
         this[1][i++] = "感受爆米花的质地";
         this[1][i++] = "用贝壳画画";
+        this[1][i++] = "玩沙滩小桶";
     }
 
     for (var i=0;i<this[0].length;i++){
