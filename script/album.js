@@ -348,6 +348,10 @@ function getNext(){
        index = 0;
     }
     swap(false);
+    if (window.last2first) {
+       last2first = false;
+       loadHidden();
+    }
 }
 
 function getPrev(){
@@ -380,6 +384,10 @@ function getLast(){
     loadHidden();
     index = (num-1);
     swap(false);
+    if (window.last2first) {
+       last2first = false;
+       loadHidden();
+    }
 }
 
 function getCamera(){
@@ -432,10 +440,6 @@ function stopShow(){
     try{
         document.images["slideimg"].onmouseover = switchmesg2;
     }catch(er){}
-    if (window.last2first) {
-       last2first = false;
-       loadHidden();
-    }
 }
 
 function moreInfo(){
