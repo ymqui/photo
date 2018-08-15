@@ -343,27 +343,31 @@ function mouseclick(evt){
 
 function getNext(){
     stopShow();
-    index += 1;
-    if (index > (num-1)){
-       index = 0;
-    }
-    swap(false);
     if (window.last2first) {
        last2first = false;
        loadHidden();
     }
+    index++;
+    if (index > (num-1)){
+       index = 0;
+    }
+    swap(false);
 }
 
 function getPrev(){
     stopShow();
-    for(var j=0;j<2;j++){
-        index--;
-        if (index<0){
-            index = num-1;
-        }
+    if (window.last2first){
+       index--;
+    }else{
+       for(var j=0;j<2;j++){
+           index--;
+           if (index<0){
+              index = num-1;
+           }
+       }
+       loadHidden();
+       index++;
     }
-    loadHidden();
-    index++;
     if (index>(num-1)){
        index = 0;
     }
@@ -372,6 +376,7 @@ function getPrev(){
 
 function getFirst(){
     stopShow();
+    if (window.last2first) last2first = false;
     index = -1;
     loadHidden();
     index = 0;
@@ -380,14 +385,12 @@ function getFirst(){
 
 function getLast(){
     stopShow();
+    if (window.last2first) last2first = false;
     index = (num-2);
     loadHidden();
     index = (num-1);
     swap(false);
-    if (window.last2first) {
-       last2first = false;
-       loadHidden();
-    }
+    
 }
 
 function getCamera(){
