@@ -112,7 +112,9 @@ function initAlbum(){
     this[0][i]    = "20180820_1";
     this[1][i++]  = "Making a paper art";
     this[0][i]    = "20180821_1";
-    this[1][i++]  = "Painting with finger";
+    this[1][i++]  = "Painting with q-tip";
+    this[0][i]    = "20180822_1";
+    this[1][i++]  = "Painting";
 
     if(window.usechinese){
         i = 0;
@@ -161,6 +163,7 @@ function initAlbum(){
         this[1][i++] = "用铝箔作画";
         this[1][i++] = "粘纸画";
         this[1][i++] = "手指作画";
+        this[1][i++] = "画画";
     }
 
     for (var i=0;i<this[0].length;i++){
