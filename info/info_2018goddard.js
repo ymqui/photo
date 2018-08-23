@@ -115,6 +115,8 @@ function initAlbum(){
     this[1][i++]  = "Painting with q-tip";
     this[0][i]    = "20180822_1";
     this[1][i++]  = "Drawing with wet chalk";
+    this[0][i]    = "20180823_1";
+    this[1][i++]  = "Gluing cotton strings";
 
     if(window.usechinese){
         i = 0;
@@ -164,6 +166,7 @@ function initAlbum(){
         this[1][i++] = "粘纸画";
         this[1][i++] = "手指作画";
         this[1][i++] = "用湿粉笔画画";
+        this[1][i++] = "用胶水粘棉线";
     }
 
     for (var i=0;i<this[0].length;i++){
