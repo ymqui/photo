@@ -117,6 +117,8 @@ function initAlbum(){
     this[1][i++]  = "Drawing with wet chalk";
     this[0][i]    = "20180823_1";
     this[1][i++]  = "Gluing cotton strings";
+    this[0][i]    = "20180827_1";
+    this[1][i++]  = "Playing with rubber clay";
 
     if(window.usechinese){
         i = 0;
@@ -167,6 +169,7 @@ function initAlbum(){
         this[1][i++] = "手指作画";
         this[1][i++] = "用湿粉笔画画";
         this[1][i++] = "用胶水粘棉线";
+        this[1][i++] = "玩橡皮泥";
     }
 
     for (var i=0;i<this[0].length;i++){
