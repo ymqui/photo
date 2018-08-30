@@ -125,6 +125,8 @@ function initAlbum(){
     this[1][i++]  = "Playing with a toy";
     this[0][i]    = "20180830_1";
     this[1][i++]  = "Playing with a ball";
+    this[0][i]    = "20180830_2";
+    this[1][i++]  = "Diploma from ladybug classroom";
 
     if(window.usechinese){
         i = 0;
@@ -179,6 +181,7 @@ function initAlbum(){
         this[1][i++] = "用海绵画画";
         this[1][i++] = "玩玩具";
         this[1][i++] = "玩橡皮球";
+        this[1][i++] = "瓢虫教室的毕业证书";
     }
 
     for (var i=0;i<this[0].length;i++){
