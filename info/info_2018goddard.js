@@ -1,6 +1,6 @@
 ﻿<!--
 var info_url   = "https://www.goddardschool.com/washington/gaithersburg-wind-river-lane-md";
-var title      = "Nathan's Photos at Goddard School";
+var title      = (["Nathan's Photos at Goddard School","球球在戈达德托儿所的照片"])[window.usechinese|0];
 var dir        = maindir+"pics/2018goddard/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
@@ -9,10 +9,6 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
- 
-if(window.usechinese){
-    title      = "球球在戈达德托儿所的照片";
-}
  
 document.title = title;
  
