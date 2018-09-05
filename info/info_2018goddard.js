@@ -130,7 +130,9 @@ function initAlbum(){
     this[0][i]    = "20180904_1";
     this[1][i++]  = (["Reading","看书"])[tmp_ind];
     this[0][i]    = "20180904_2";
-    this[1][i++]  = (["Having fun with Ms Bringas","Bringas老师带大家玩游戏"])[tmp_ind];
+    this[1][i++]  = (["Having fun in the classroom with Ms Bringas","Bringas老师带大家玩游戏"])[tmp_ind];
+    this[0][i]    = "20180905_1";
+    this[1][i++]  = (["Playing in the walker","在婴儿学步车里玩"])[tmp_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
