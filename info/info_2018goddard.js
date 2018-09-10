@@ -123,11 +123,11 @@ function initAlbum(){
     this[0][i]    = "20180830_1";
     this[1][i++]  = (["Playing with a ball","玩橡皮球"])[cn_ind];
     this[0][i]    = "20180830_2";
-    this[1][i++]  = (["Diploma from ladybug classroom","瓢虫教室的毕业证书"])[cn_ind];
+    this[1][i++]  = (["Diploma from Ladybug Classroom","瓢虫教室的毕业证书"])[cn_ind];
     this[0][i]    = "20180904_1";
     this[1][i++]  = (["Reading","看书"])[cn_ind];
     this[0][i]    = "20180904_2";
-    this[1][i++]  = (["Having fun in the classroom with Ms Bringas","Bringas老师带大家玩游戏"])[cn_ind];
+    this[1][i++]  = (["Having fun in the Caterpillar Classroom with Ms Bringas","毛毛虫教室Bringas老师带大家玩游戏"])[cn_ind];
     this[0][i]    = "20180905_1";
     this[1][i++]  = (["Playing in the walker","在婴儿学步车里玩"])[cn_ind];
     this[0][i]    = "20180906_1";
