@@ -134,6 +134,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with toys","玩玩具"])[cn_ind];
     this[0][i]    = "20180907_1";
     this[1][i++]  = (["Happy little caterpillar","快乐的小毛毛虫"])[cn_ind];
+    this[0][i]    = "20180910_1";
+    this[1][i++]  = (["Putting toys back to the basket","把玩具放回篮子里"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
