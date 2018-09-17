@@ -140,6 +140,10 @@ function initAlbum(){
     this[1][i++]  = (["Looking at photos","看照片"])[cn_ind];
     this[0][i]    = "20180913_1";
     this[1][i++]  = (["Mixing paints","混颜料"])[cn_ind];
+    this[0][i]    = "20180914_1";
+    this[1][i++]  = (["Playing","玩玩具"])[cn_ind];
+    this[0][i]    = "20180914_2";
+    this[1][i++]  = (["Playing","玩玩具"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
