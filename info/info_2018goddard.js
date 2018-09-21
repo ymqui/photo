@@ -152,6 +152,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with tree leaves","用树叶画画"])[cn_ind];
     this[0][i]    = "20180920_1";
     this[1][i++]  = (["Exploring toy fruit","研究玩具水果"])[cn_ind];
+    this[0][i]    = "20180921_1";
+    this[1][i++]  = (["Group painting","集体绘画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
