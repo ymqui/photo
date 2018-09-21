@@ -459,9 +459,11 @@
 //birds[j++] = new myBird("18-00-00T00:00","AEGOTHEL","Australian Owlet-nightjar","澳洲裸鼻鸱","Aegotheles cristatus",[m_id("")],["mdbhrp","9/2015"],706359);
 //birds[j++] = new myBird("18-00-00T00:00","HEMIPROC","Crested Treeswift","凤头雨燕","Hemiprocne coronata",[m_id("")],["mdbhrp","9/2015"],286231);
   birds[j++] = new myBird("15-07-19T08:02","APODIDAE","Chimney Swift","烟囱雨燕","Chaetura pelagica",[m_id("20160618_077_ChimneySwift")],["arb","6/2016","Lewes, Delaware, USA","美国特拉华州刘易斯"],1156237);
+//birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Green Hermit","绿隐蜂鸟","Phaethornis guy",[m_id("")],["crarol","12/2018"],cornellurl("greher1",true),"绿隐蜂鸟");
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",[m_id("")],["crarol","12/2018"],cornellurl("scbhum1",true),-817);
   birds[j++] = new myBird("15-01-03T10:48","TROCHILI","Antillean Mango","黑胸芒果蜂鸟","Anthracothorax dominicus",[p_id("1501prbirding",17)],["prcnwr","1/2015","Female"],cornellurl("antman1",true),"黑胸芒果蜂鸟");
   birds[j++] = new myBird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],cornellurl("grtcar1",true),4871241);
+//birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",[m_id("")],["crarol","12/2018"],cornellurl("vihhum1",true),-11143);
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[m_id("")],["crarol","12/2018"],cornellurl("rtlhum",true),"棕尾蜂鸟");
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"],"大蜂鸟");
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Talamanca Hummingbird","塔拉曼卡蜂鸟","Eugenes spectabilis",[m_id("")],["mdbhrp","9/2015"],cornellurl("maghum2",true));
@@ -527,6 +529,7 @@
   birds[j++] = new myBird("15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[p_id("1501prbirding",47)],["prsanj","1/2015"],1070745);
   birds[j++] = new myBird("15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",[p_id("1501prbirding",3)],["prmaya","1/2015"],cornellurl("whwpar",true),9229616);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",[m_id("")],["natzo","4/2005"],cornellurl("yecpar",true),2426267);
+//birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-crowned Parrot","白冠鹦哥","Pionus senilis",[m_id("")],["natzo","4/2005"],cornellurl("whcpar",true),"白额鹦鹉");
   birds[j++] = new myBird("16-06-11T09:31","PSITTACI","Orange-winged Parrot","橙翅亚马逊鹦鹉","Amazona amazonica",[p_id("1606florida",20)],["flmahp","4/2005"],cornellurl("orwpar",true),113704);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Nanday Parakeet","南达锥尾鹦鹉","Aratinga nenday",[m_id("")],["natzo","4/2005"],cornellurl("bkhpar",true),994536);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Scarlet Macaw","绯红金刚鹦鹉","Ara macao",["0504zoo/0504zoo__23"],["natzo","4/2005"],cornellurl("scamac1",true),139631);
@@ -836,6 +839,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[m_id("")],["mdbhrp","9/2015"],4751808);
 //birds[j++] = new myBird("18-00-00T00:00","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[m_id("")],["mdbhrp","9/2015"],4708253);
   birds[j++] = new myBird("15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1705ohio",16),p_id("1609vtcanbirding",9)],["ohmage","5/2017","Male","vtwwma","9/2016","Female"],4751801);
+//birds[j++] = new myBird("18-00-00T00:00","PARULIDA","Buff-rumped Warbler","黄腰王森莺","Myiothlypis fulvicauda",[m_id("")],["crarol","9/2015"],cornellurl("burwar1",true),"黄腰王森莺");
   birds[j++] = new myBird("17-08-19T08:25","PARULIDA","Canada Warbler","加拿大威森莺","Cardellina canadensis",[m_id("20170826_092_CanadaWarbler")],["mdmwma","8/2017"],4751630);
 //birds[j++] = new myBird("18-00-00T00:00","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",[m_id()],["mdbhrp","9/2016","Female"],4736607);
 //birds[j++] = new myBird("18-00-00T00:00","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[m_id("")],["mdbhrp","9/2015"],4751564);
@@ -868,7 +872,10 @@
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Scarlet-rumped Tanager","红腰厚嘴唐纳雀","Ramphocelus passerinii",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("pastan1",true),"红腰厚嘴唐纳雀");
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Blue-gray Tanager","灰蓝裸鼻雀","Thraupis episcopus",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("bugtan",true),"灰蓝裸鼻雀");
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Palm Tanager","棕榈裸鼻雀","Thraupis palmarum",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("paltan1",true),"棕榈裸鼻雀");
+//birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Emerald Tanager","翠绿唐加拉雀","Tangara florida",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("emetan1",true),"翠绿唐加拉雀");
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Silver-throated Tanager","银喉唐加拉雀","Tangara icterocephala",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("sittan1",true),"银喉唐加拉雀");
+//birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Bay-headed Tanager","栗头唐加拉雀","Tangara gyrola",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("bahtan1",true),"栗头唐加拉雀");
+//birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Golden-hooded Tanager","金头唐加拉雀","Tangara larvata",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("gohtan1",true),"金头唐加拉雀");
   birds[j++] = new myBird("15-01-07T07:12","THRAUPID","Saffron Finch","橙黄雀鹀","Sicalis flaveola",p_id("1501prbirding",[34,55]),["prsanj","1/2015","prsanj","1/2015","Immature"],cornellurl("saffin",true),4717104);
   birds[j++] = new myBird("15-01-01T14:06","THRAUPID","Bananaquit","曲嘴森莺","Coereba flaveola",[p_id("1501prbirding",2)],["prbaya","1/2015"],cornellurl("banana",true),4738553);
   birds[j++] = new myBird("15-01-07T07:05","THRAUPID","Black-faced Grassquit","黑脸草雀","Tiaris bicolor",p_id("1501prbirding",[50,33]),["prsanj","1/2015","Male","prsanj","1/2015","Female"],cornellurl("bkfgra",true),4722827);
