@@ -156,6 +156,8 @@ function initAlbum(){
     this[1][i++]  = (["Group painting","集体绘画"])[cn_ind];
     this[0][i]    = "20180924_1";
     this[1][i++]  = (["Little firefighter","小小消防员"])[cn_ind];
+    this[0][i]    = "20180924_2";
+    this[1][i++]  = (["Playing with red paint","涂手画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
