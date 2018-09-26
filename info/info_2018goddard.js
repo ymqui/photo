@@ -160,6 +160,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with red paint","涂手画画"])[cn_ind];
     this[0][i]    = "20180924_3";
     this[1][i++]  = (["Eating finger food","吃切成小块的水果"])[cn_ind];
+    this[0][i]    = "20180926_1";
+    this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
