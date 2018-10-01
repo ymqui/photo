@@ -123,6 +123,8 @@ function initAlbum(){
     this[1][i++]  = (["Having fun in a baby walker","在婴儿学步车里玩得很开心"])[cn_ind];
     this[0][i]    = "20180825_041_DCBuildingMuseum";
     this[1][i++]  = (["Visiting the Building Museum in Washington DC","参观华盛顿特区的建筑博物馆"])[cn_ind];
+    this[0][i]    = "20180930_044_Cheerios";
+    this[1][i++]  = (["Cheerios is one of Nathan's favorite finger foods","球球非常喜欢麦圈"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
