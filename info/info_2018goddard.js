@@ -168,6 +168,8 @@ function initAlbum(){
     this[1][i++]  = (["Crawling towards his favorite toy","爬着去抓玩具"])[cn_ind];
     this[0][i]    = "20181002_1";
     this[1][i++]  = (["Enjoying the lunch","午餐"])[cn_ind];
+    this[0][i]    = "20181002_2";
+    this[1][i++]  = (["Enjoying the lunch","午餐"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
