@@ -176,6 +176,10 @@ function initAlbum(){
     this[1][i++]  = (["Finding a leaf","找到一片叶子"])[cn_ind];
     this[0][i]    = "20181004_2";
     this[1][i++]  = (["Group painting","画画"])[cn_ind];
+    this[0][i]    = "20181005_1";
+    this[1][i++]  = (["Reaching for leaves","抓墙上的叶子"])[cn_ind];
+    this[0][i]    = "20181005_2";
+    this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
