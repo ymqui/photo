@@ -182,6 +182,8 @@ function initAlbum(){
     this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
     this[0][i]    = "20181010_1";
     this[1][i++]  = (["Playing with classmate","和同学一起玩"])[cn_ind];
+    this[0][i]    = "20181010_2";
+    this[1][i++]  = (["Little artist","画画小能手"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
