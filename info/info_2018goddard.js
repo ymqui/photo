@@ -190,6 +190,8 @@ function initAlbum(){
     this[1][i++]  = (["Having snack together","一起吃零食"])[cn_ind];
     this[0][i]    = "20181016_1";
     this[1][i++]  = (["Gluing hexagons","粘图"])[cn_ind];
+    this[0][i]    = "20181017_1";
+    this[1][i++]  = (["Playing with classmate","和同学一起玩"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
