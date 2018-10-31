@@ -211,10 +211,10 @@ function initAlbum(){
     this[0][i]    = "20181031_4";
     this[1][i++]  = (["Exploring the tunnel","和同学一起玩"])[cn_ind];
     this[0][i]    = "20181031_5";
-    this[1][i++]  = (["Happy Birthday","生日快乐"])[cn_ind];
+    this[1][i++]  = (["Happy Birthday!","生日快乐！"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
-        this[1][i] = this[1][i]+getdate(this[0][i]);
+        this[1][i] = getdate(this[0][i],this[1][i]);
     }    
 }
 
