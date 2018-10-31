@@ -202,6 +202,8 @@ function initAlbum(){
     this[1][i++]  = (["Learning about airplanes","看飞机"])[cn_ind];
     this[0][i]    = "20181030_1";
     this[1][i++]  = (["Enjoying the outdoors","户外活动"])[cn_ind];
+    this[0][i]    = "20181031_1";
+    this[1][i++]  = (["Happy Halloween!","万圣节快乐！"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
