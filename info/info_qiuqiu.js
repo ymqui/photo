@@ -129,6 +129,14 @@ function initAlbum(){
     this[1][i++]  = (["New toy","新玩具"])[cn_ind];
     this[0][i]    = "20181007_048_StandingWithMom";
     this[1][i++]  = (["Standing with Mommy's help","妈妈扶着站起来"])[cn_ind];
+    this[0][i]    = "20181031_051_WithMom";
+    this[1][i++]  = (["Happy Birthday","生日快乐"])[cn_ind];
+    this[0][i]    = "20181031_053_Parade";
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+    this[0][i]    = "20181031_055_Parade";
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+    this[0][i]    = "20181031_057_Parade";
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = this[1][i]+getdate(this[0][i]);
