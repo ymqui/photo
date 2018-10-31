@@ -596,13 +596,19 @@ function pagelink(pid, descrip){
     return "<a href='showphoto.html?"+pid+"' style='color: #3399FF; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
 } 
 
-function getdate(name){
+function getdate(name,str){
     var year = name.substring(0,4);
     var mon  = name.substring(4,6);
     var day  = name.substring(6,8);
     if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
     if (day.substring(0,1)=="0"){day = day.substring(1,2);}
-    if (window.usechinese) {return "，"+mon+"/"+day+"/"+year+"。";}
-    else{return ", "+mon+"/"+day+"/"+year+"." ;}
+    if (str.slice(-1)==="!"){
+       return str+" "+mon+"/"+day+"/"+year+".";
+    }elseif(str.slice(-1)==="！"){
+       return str+mon+"/"+day+"/"+year+"。";
+    }else{
+       if (window.usechinese) {return str+"，"+mon+"/"+day+"/"+year+"。";}
+       else{return str+", "+mon+"/"+day+"/"+year+"." ;}
+    }
 }
 //-->
