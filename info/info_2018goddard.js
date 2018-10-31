@@ -205,7 +205,7 @@ function initAlbum(){
     this[0][i]    = "20181031_1";
     this[1][i++]  = (["Happy Halloween","万圣节快乐"])[cn_ind];
     this[0][i]    = "20181031_2";
-    this[1][i++]  = (["We found Nemo","找到了尼莫"])[cn_ind];
+    this[1][i++]  = (["We found Nemo","小尼莫"])[cn_ind];
     this[0][i]    = "20181031_3";
     this[1][i++]  = (["Happy Halloween and Happy Birthday","生日快乐，万圣节快乐"])[cn_ind];
 
