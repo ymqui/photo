@@ -604,7 +604,7 @@ function getdate(name,str){
     if (day.substring(0,1)=="0"){day = day.substring(1,2);}
     if (str.slice(-1)==="!"){
        return str+" "+mon+"/"+day+"/"+year+".";
-    }elseif(str.slice(-1)==="！"){
+    }else if(str.slice(-1)==="！"){
        return str+mon+"/"+day+"/"+year+"。";
     }else{
        if (window.usechinese) {return str+"，"+mon+"/"+day+"/"+year+"。";}
