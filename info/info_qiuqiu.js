@@ -10,7 +10,8 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var pagelist   = [["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"]];
+var pagelist   = [["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"],
+                  ["1810parade","10/2018 Halloween Parade","10/2018 万圣节游行"]];
  
 document.title = title;
  
@@ -131,12 +132,11 @@ function initAlbum(){
     this[1][i++]  = (["Standing with Mommy's help","妈妈扶着站起来"])[cn_ind];
     this[0][i]    = "20181031_051_WithMom";
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
+    parade        = ([pagelink("1810parade","parade"),pagelink("1810parade","万圣节游行")])[cn_ind];
     this[0][i]    = "20181031_053_Parade";
-    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+    this[1][i++]  = (["Halloween "+parade,parade])[cn_ind];
     this[0][i]    = "20181031_055_Parade";
-    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
-    this[0][i]    = "20181031_057_Parade";
-    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+    this[1][i++]  = (["Halloween "+parade,parade])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
