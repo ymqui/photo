@@ -220,6 +220,8 @@ function initAlbum(){
     this[1][i++]  = (["Sticking fall pictures on the paper board","和同学一起贴图"])[cn_ind];
     this[0][i]    = "20181106_1";
     this[1][i++]  = (["Bear with me...","熊孩子"])[cn_ind];
+    this[0][i]    = "20181107_1";
+    this[1][i++]  = (["Painting with a cookie cutter","用饼干模具绘画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
