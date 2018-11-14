@@ -26,6 +26,7 @@
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
 //    crarol:  ["Arenal Observatory Lodge","Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加","https://www.arenalobservatorylodge.com/"],
 //    crsjcp:  ["Central Park","San José, Costa Rica","圣何塞中央公园","哥斯达黎加",wikiurl("San José, Costa Rica"),baikeurl("圣何塞")],
+//    crsjlp:  ["La Sabana Park","San José, Costa Rica","圣何塞萨瓦纳公园","哥斯达黎加",wikiurl("San José, Costa Rica"),baikeurl("圣何塞")],
       ctciws:  ["Cove Island Wildlife Sanctuary","Connecticut, USA","科夫岛野生动物保护区","美国康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"],
       debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
