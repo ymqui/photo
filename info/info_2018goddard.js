@@ -227,7 +227,7 @@ function initAlbum(){
     this[0][i]    = "20181119_1";
     this[1][i++]  = (["Making a paper art","粘纸画"])[cn_ind];
     this[0][i]    = "20181120_1";
-    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[1][i++]  = (["Wearing pilgrim's hat","戴着感恩节清教徒的帽子"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
