@@ -25,9 +25,9 @@
       cnshbu:  ["the Bund","Shanghai, China","上海外滩","中国",wikiurl("The Bund"),baikeurl([5181,8577636])],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
 //    crarol:  ["Arenal Observatory Lodge","Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加","https://www.arenalobservatorylodge.com/"],
-//    crsjcp:  ["Central Park","San José, Costa Rica","圣何塞中央公园","哥斯达黎加",wikiurl("San José, Costa Rica"),baikeurl("圣何塞")],
-//    crsjlp:  ["La Sabana Park","San José, Costa Rica","圣何塞萨瓦纳公园","哥斯达黎加",wikiurl("San José, Costa Rica"),baikeurl("圣何塞")],
-//    crsjnp:  ["National Park","San José, Costa Rica","圣何塞国家公园","哥斯达黎加",wikiurl("San José, Costa Rica"),baikeurl("圣何塞")],
+//    crsjcp:  ["Central Park","San José, Costa Rica","圣何塞中央公园","哥斯达黎加",wikiurl("San José, Costa Rica"),"https://baike.baidu.com/item/%E5%9C%A3%E4%BD%95%E5%A1%9E/62358"],
+//    crsjlp:  ["La Sabana Park","San José, Costa Rica","圣何塞萨瓦纳公园","哥斯达黎加",wikiurl("San José, Costa Rica"),"https://baike.baidu.com/item/%E5%9C%A3%E4%BD%95%E5%A1%9E/62358"],
+//    crsjnp:  ["National Park","San José, Costa Rica","圣何塞国家公园","哥斯达黎加",wikiurl("San José, Costa Rica"),"https://baike.baidu.com/item/%E5%9C%A3%E4%BD%95%E5%A1%9E/62358"],
       ctciws:  ["Cove Island Wildlife Sanctuary","Connecticut, USA","科夫岛野生动物保护区","美国康涅狄格州","https://www.facebook.com/pages/Cove-Island-Wildlife-Sanctuary/156082077767515"],
       debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
@@ -535,6 +535,7 @@
   birds[j++] = new myBird("15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",[p_id("1501prbirding",3)],["prmaya","1/2015"],cornellurl("whwpar",true),9229616);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",[m_id("")],["natzo","4/2005"],cornellurl("yecpar",true),2426267);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-crowned Parrot","白冠鹦哥","Pionus senilis",[m_id("")],["natzo","4/2005"],cornellurl("whcpar",true),"白额鹦鹉");
+//birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Red-lored Parrot","红眼绿鹃","Amazona autumnalis",[m_id("")],["crarol","12/2018"],cornellurl("relpar",true),"红眼绿鹃");
   birds[j++] = new myBird("16-06-11T09:31","PSITTACI","Orange-winged Parrot","橙翅亚马逊鹦鹉","Amazona amazonica",[p_id("1606florida",20)],["flmahp","4/2005"],cornellurl("orwpar",true),113704);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Nanday Parakeet","南达锥尾鹦鹉","Aratinga nenday",[m_id("")],["natzo","4/2005"],cornellurl("bkhpar",true),994536);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Scarlet Macaw","绯红金刚鹦鹉","Ara macao",["0504zoo/0504zoo__23"],["natzo","4/2005"],cornellurl("scamac1",true),139631);
@@ -874,6 +875,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","ICTERIDA","Scott's Oriole","斯氏拟鹂","Icterus parisorum",[m_id("")],["mdbhrp","9/2015"],4707365);
   birds[j++] = new myBird("15-01-03T13:57","ICTERIDA","Venezuelan Troupial","委内瑞拉拟鹂","Icterus icterus",[p_id("1501prbirding",20)],["arb","1/2015","Guanica Dry Forest, Puerto Rico, USA","美国波多黎各瓜尼卡干燥森林"],cornellurl("ventro1",true),3179670);
 //birds[j++] = new myBird("18-00-00T00:00","EMBERIZI","Pine Bunting","白头鹀","Emberiza leucocephalos",p_id("1601china",[1,2]),["cnbjjp","1/2016"],660030);
+//birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Carmiol's Tanager","卡氏唐纳雀","Chlorothraupis carmioli",[""],["crarol","12/2018"],cornellurl("olitan1",true));
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Silver-beaked Tanager","银嘴唐纳雀","Ramphocelus carbo",["0504zoo/0504zoo__24"],["natzo","4/2005"],cornellurl("sibtan2",true),4748894);
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Scarlet-rumped Tanager","红腰厚嘴唐纳雀","Ramphocelus passerinii",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("pastan1",true),"红腰厚嘴唐纳雀");
 //birds[j++] = new myBird("18-00-00T00:00","THRAUPID","Blue-gray Tanager","灰蓝裸鼻雀","Thraupis episcopus",["0504zoo/0504zoo__24"],["crarol","12/2018"],cornellurl("bugtan",true),"灰蓝裸鼻雀");
