@@ -10,7 +10,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var pagelist   = [["1810parade","10/2018 Halloween Parade","10/2018 万圣节游行"],
+var pagelist   = [["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"]];
  
 document.title = title;
