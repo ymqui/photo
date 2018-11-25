@@ -134,6 +134,12 @@ function initAlbum(){
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
     this[0][i]    = "20181031_053_Parade";
     this[1][i++]  = ([pagelink("1810parade","Halloween parade"),pagelink("1810parade","万圣节游行")])[cn_ind];
+    this[0][i]    = "20181125_060_Playpen";
+    this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
+    this[0][i]    = "20181125_062_Playpen";
+    this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
+    this[0][i]    = "20181125_063_Playpen";
+    this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
