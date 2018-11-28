@@ -91,7 +91,6 @@
       ohbath:  ["Bath Nature Preserve","Ohio, USA","巴斯自然保护区","美国俄亥俄州","https://www.bathtownship.org/Parks%20folder/BNP%20page%20parks.htm"],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州","http://www.mageemarsh.org/"],
       orcanb:  ["Cannon Beach","Oregon, USA","卡农海滩","美国俄勒冈州","http://www.ci.cannon-beach.or.us/~Natural/HRAP/hrap-habitat.html"],
-      orhayd:  ["Hayden Island","Portland, Oregon, USA","波特兰海登岛","美国俄勒冈州",wikiurl("Hayden Island, Portland, Oregon")],
       prbaya:  ["Bayamón","Puerto Rico, USA","巴亚蒙","美国波多黎各",wikiurl("Bayamón, Puerto Rico")],
       prceci:  ["Ceiba Country Inn","Puerto Rico, USA","西巴乡村客栈","美国波多黎各","http://www.ceibacountryinn.com/"],
       prcnwr:  ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",npsurl("cabo_rojo",true)],
@@ -241,7 +240,7 @@
   birds[j++] = new myBird("06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",m_id(sas("20150321_",["039","040"],"_HornedGrebe")),["mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Spring molt","春羽"],424512);
   birds[j++] = new myBird("16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",[m_id("20161231_143_Red-neckedGrebe(WP)")],["mdloch","12/2016","Winter plumage"],417750);
   birds[j++] = new myBird("16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",[m_id("20161226_141_EaredGrebe(WP)")],["mdcorl","12/2016","Winter plumage"],891774);
-  birds[j++] = new myBird("15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[p_id("1507birdingwest",9)],["orhayd","7/2015"],891803);
+  birds[j++] = new myBird("15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[p_id("1507birdingwest",9)],["arb","7/2015","Hayden Island, Portland, Oregon, USA","美国俄勒冈州波特兰海登岛"],891803);
 //birds[j++] = new myBird("18-00-00T00:00","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[m_id("")],["txbbnp","12/2013"],2546204);
 //birds[j++] = new myBird("18-00-00T00:00","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",["0504zoo/0504zoo__14"],["natzo","4/2005"],cornellurl("grefla2",true),10062545);
 //birds[j++] = new myBird("18-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",[m_id("")],["mdbhrp","9/2015"],683063);
@@ -470,7 +469,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"],"大蜂鸟");
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Talamanca Hummingbird","塔拉曼卡蜂鸟","Eugenes spectabilis",[m_id("")],["mdbhrp","9/2015"],cornellurl("maghum2",true));
   birds[j++] = new myBird("06-09-07T17:00","TROCHILI","Ruby-throated Hummingbird","红喉北蜂鸟","Archilochus colubris",p_id("1107brookside",[10,13]),["mdbrgd","7/2011","Female/immature"],4901653);
-  birds[j++] = new myBird("15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["orhayd","7/2015","Immature male"],4891704);
+  birds[j++] = new myBird("15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["arb","7/2015","Immature male, Hayden Island, Portland, Oregon, USA","未成年雄性，美国俄勒冈州波特兰海登岛"],4891704);
   birds[j++] = new myBird("13-12-25T17:25","TROCHILI","Anna's Hummingbird","安氏蜂鸟","Calypte anna",p_id("1312bigbendbirding",[12,13,14]),["txbbnp","12/2013","Female","txbbnp","12/2013","Male","txbbnp","12/2013","Female"],4891678);
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Costa's Hummingbird","科氏蜂鸟","Calypte costae",[m_id("")],["mdbhrp","9/2015"],4891661);
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[m_id("")],["mdbhrp","9/2015"],4908174);
