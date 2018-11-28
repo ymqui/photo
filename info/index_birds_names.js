@@ -534,6 +534,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",[m_id("")],["natzo","4/2005"],cornellurl("yecpar",true),2426267);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],cornellurl("orcpar",true),"橙颏鹦哥");
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-crowned Parrot","白冠鹦哥","Pionus senilis",[m_id("")],["natzo","4/2005"],cornellurl("whcpar",true),"白额鹦鹉");
+//birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-fronted Parrot","白额亚马逊鹦鹉","Amazona albifrons",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],cornellurl("whfpar1",true),"白额亚马逊鹦鹉");
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Red-lored Parrot","红眼绿鹃","Amazona autumnalis",[m_id("")],["crarol","12/2018"],cornellurl("relpar",true),"红眼绿鹃");
   birds[j++] = new myBird("16-06-11T09:31","PSITTACI","Orange-winged Parrot","橙翅亚马逊鹦鹉","Amazona amazonica",[p_id("1606florida",20)],["flmahp","4/2005"],cornellurl("orwpar",true),113704);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Nanday Parakeet","南达锥尾鹦鹉","Aratinga nenday",[m_id("")],["natzo","4/2005"],cornellurl("bkhpar",true),994536);
