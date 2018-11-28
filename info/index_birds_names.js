@@ -155,7 +155,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","TINAMIDA","Great Tinamou","大䳍","Tinamus major",[m_id("")],["mdbhrp","9/2015"],10505128);
 //birds[j++] = new myBird("18-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","9/2015"],660764);
 //birds[j++] = new myBird("18-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",[m_id("")],["mdbhrp","9/2015"],1176184);
-//birds[j++] = new myBird("18-00-00T00:00","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[m_id("")],["mdbhrp","9/2015"],3320156);
+//birds[j++] = new myBird("18-00-00T00:00","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],3320156);
 //birds[j++] = new myBird("18-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"],1176074);
 //birds[j++] = new myBird("18-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"http://www.audubon.org/field-guide/bird/pink-footed-goose",3192563);
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"],32669);
@@ -532,6 +532,7 @@
   birds[j++] = new myBird("15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[p_id("1501prbirding",47)],["prsanj","1/2015"],1070745);
   birds[j++] = new myBird("15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",[p_id("1501prbirding",3)],["prmaya","1/2015"],cornellurl("whwpar",true),9229616);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",[m_id("")],["natzo","4/2005"],cornellurl("yecpar",true),2426267);
+//birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],cornellurl("orcpar",true),"橙颏鹦哥");
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-crowned Parrot","白冠鹦哥","Pionus senilis",[m_id("")],["natzo","4/2005"],cornellurl("whcpar",true),"白额鹦鹉");
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Red-lored Parrot","红眼绿鹃","Amazona autumnalis",[m_id("")],["crarol","12/2018"],cornellurl("relpar",true),"红眼绿鹃");
   birds[j++] = new myBird("16-06-11T09:31","PSITTACI","Orange-winged Parrot","橙翅亚马逊鹦鹉","Amazona amazonica",[p_id("1606florida",20)],["flmahp","4/2005"],cornellurl("orwpar",true),113704);
@@ -540,6 +541,7 @@
   birds[j++] = new myBird("16-06-12T08:14","PSITTACI","Blue-crowned Parakeet","蓝冠鹦哥","Thectocercus acuticaudatus",[p_id("1606florida",24)],["arb","6/2016","South Beach, Miami, Florida, USA","美国佛罗里达州迈阿密南滩"],cornellurl("bucpar",true),46205);
 //birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Mitred Parakeet","米特雷锥尾鹦鹉","Psittacara mitratus",[m_id("")],["arb","6/2016","Lincoln Road Mall, Miami, Florida, USA","美国佛罗里达州迈阿密林肯路购物中心"],cornellurl("mitpar",true),4884817);
   birds[j++] = new myBird("16-06-12T07:14","PSITTACI","Red-masked Parakeet","红头鹦鹉","Psittacara erythrogenys",p_id("1606florida",[22,21]),["arb","6/2016","Lincoln Road Mall, Miami, Florida, USA","美国佛罗里达州迈阿密林肯路购物中心"],cornellurl("rempar",true),1257150);
+//birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Crimson-fronted Parakeet","绯额鹦哥","Psittacara finschi",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],cornellurl("crfpar",true),"绯额鹦哥");
   birds[j++] = new myBird("15-07-12T11:15","PSITTACU","Rose-ringed Parakeet","红领绿鹦鹉","Psittacula krameri",p_id("1507birdingwest",[50,48]),["cabeap","7/2015","Male","cabeap","7/2015","Female"],wikiurl("Rose-ringed Parakeet"),35483);
 //birds[j++] = new myBird("18-00-00T00:00","ACANTHIS","Rifleman","刺鹩","Acanthisitta chloris",[m_id("")],["mdbhrp","9/2015"],716906);
 //birds[j++] = new myBird("18-00-00T00:00","SAPAYOID","Sapayoa","阔嘴霸鹟","Sapayoa aenigma",[m_id("")],["mdbhrp","9/2015"],"阔嘴霸鹟");
@@ -906,6 +908,7 @@
   birds[j++] = new myBird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20161112_121_SongSparrow","20161030_108_SongSparrow"]),["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic"],4745315);
   birds[j++] = new myBird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",m_id(["20170305_030_Lincoln'sSparrow","20170305_029_Lincoln'sSparrow"]),["arb","3/2017","Occoquan Bay National Wildlife Refuge, Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区"],4745989);
   birds[j++] = new myBird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
+//birds[j++] = new myBird("18-00-00T00:00","PASSEREL","Rufous-collared Sparrow","红领带鹀","Zonotrichia capensis",[p_id("1412mckee-beshers",14)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],cornellurl("rucspa1",true),"红领带鹀");
   birds[j++] = new myBird("06-02-16T16:03","PASSEREL","White-throated Sparrow","白喉带鹀","Zonotrichia albicollis",m_id(["20161030_109_White-throatedSparrow","20161113_123_White-throatedSparrow"]),["mdmwma","10/2016","mdbmnt","11/2016"],4744945);
   birds[j++] = new myBird("17-11-24T15:49","PASSEREL","Harris's Sparrow","赫氏带鹀","Zonotrichia querula",[m_id("20171124_126_Harris'sSparrow")],["arb","11/2017","Anacostia River Trail, Prince George's County, Maryland, USA","美国马里兰州乔治王子郡安那考斯迪亚河畔小径"],-5877);
   birds[j++] = new myBird("15-07-09T13:51","PASSEREL","White-crowned Sparrow","白冠带鹀","Zonotrichia leucophrys",[p_id("1507birdingwest",25),m_id("20160131_011_White-crownedSparrow")],["wahobb","7/2015","mdcapc","1/2016"],4745340);
