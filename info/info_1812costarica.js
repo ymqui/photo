@@ -1,7 +1,7 @@
 ﻿<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
-var title      = "Costa Rica";
+var title      = "Trip to Costa Rica";
 var cam_img    = "camera_canon_6d.jpg";
 var cam_tit    = "Canon SLR EOS 6D, 20.2 Mega Pixels.";
 var dir        = maindir+"pics/1812costarica/";
@@ -30,7 +30,7 @@ function initAlbum(){
     this[1][i++] = (["On the plane.","在飞机上。"])[cn_ind];
     this[1][i++] = (["On the plane.","在飞机上。"])[cn_ind];
     this[1][i++] = (["At the Culture Plaza in San Jose.","在圣何塞的文化广场。"])[cn_ind];
-    this[1][i++] = (["At a street corner in San Jose.","在圣何塞街头。"])[cn_ind];
+    this[1][i++] = (["At a street corner in San Jose.","圣何塞街头。"])[cn_ind];
     this[1][i++] = (["Sipping juice in a restaurant.","在一家餐馆喝果汁。"])[cn_ind];
     this[1][i++] = (["Street concert in San Jose.","圣何塞的街头音乐会。"])[cn_ind];
     this[1][i++] = (["Enjoying the street concert.","欣赏街头音乐会。"])[cn_ind];
