@@ -11,7 +11,8 @@ var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
 var pagelist   = [["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
-                  ["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"]];
+                  ["2018goddard","2018 Nathan at Goddard School","2018年球球在戈达德托儿所的照片"],
+                  ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"]];
  
 document.title = title;
  
@@ -142,6 +143,9 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
+    this[0][i]    = "20181204_016_ArenalObservatoryLodge";
+    this[1][i++]  = (["Viewing the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
+
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
