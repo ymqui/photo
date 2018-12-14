@@ -477,7 +477,7 @@
 //birds[j++] = new myBird("18-00-00T00:00","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[m_id("")],["mdbhrp","9/2015"],4908174);
   birds[j++] = new myBird("15-07-11T09:57","TROCHILI","Rufous Hummingbird","棕煌蜂鸟","Selasphorus rufus",[p_id("1507birdingwest",31)],["arb","7/2015","Female, Point Arena, California, USA","雌性，美国加利福尼亚州波因特阿里纳"],4901729);
 //birds[j++] = new myBird("18-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",[m_id("")],["mdbhrp","9/2015"],4846814);
-//**birds[j++] = new myBird("18-00-00T00:00","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[m_id("")],["crarol","12/2018"],cornellurl("gartro1",true));
+//**birds[j++] = new myBird("18-00-00T00:00","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[m_id("")],["crarol","12/2018"],cornellurl("gartro1",true),-9816);
 //**birds[j++] = new myBird("18-00-00T00:00","TROGONID","Orange-bellied Trogon","橙腹美洲咬鹃","Trogon aurantiiventris",[m_id("")],["crarol","12/2018"],cornellurl("gartro1",true),"橙腹美洲咬鹃");
 //birds[j++] = new myBird("18-00-00T00:00","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",[m_id("")],["mdbhrp","9/2015"],6867223);
 //birds[j++] = new myBird("18-00-00T00:00","LEPTOSOM","Cuckoo Roller","鹃鴗","Leptosomus discolor",[m_id("")],["mdbhrp","9/2015"],657508);
