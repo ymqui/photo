@@ -154,7 +154,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","TINAMIDA","Great Tinamou","大䳍","Tinamus major",[m_id("")],["mdbhrp","9/2015"],ebird("gretin1"),10505128);
 //birds[j++] = new myBird("19-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","9/2015"],ebird("horscr1"),660764);
 //birds[j++] = new myBird("19-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",[m_id("")],["mdbhrp","9/2015"],ebird("maggoo1"),1176184);
-//**birds[j++] = new myBird("18-00-00T00:00","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[p_id("1812crbirding",11)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],3320156);
+  birds[j++] = new myBird("18-12-02T08:59","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[p_id("1812crbirding",11)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],3320156);
 //birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"],1176074);
 //birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"http://www.audubon.org/field-guide/bird/pink-footed-goose",3192563);
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"],32669);
@@ -167,7 +167,7 @@
   birds[j++] = new myBird("14-07-06T11:04","ANATIDAE","Trumpeter Swan","黑嘴天鹅","Cygnus buccinator",p_id("1512bhill",[10,11]),["mdbhrp","1/2015","mdbhrp","2/2015"],1413702); 
   birds[j++] = new myBird("05-11-26T14:43","ANATIDAE","Tundra Swan","小天鹅","Cygnus columbianus",[p_id("0511assateague",29)],["vacnwr","11/2005"],[15662,5134479]);
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Egyptian Goose","埃及雁","Alopochen aegyptiaca",[p_id("1606florida",10)],["flplpr","6/2016"],wikiurl("Egyptian goose"),1176180);
-  birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12)],["flplpr","6/2016"],797064);
+  birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",11)],["flplpr","6/2016","crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],797064);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck(M)"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"],1151211);
 //birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",["0504zoo/0504zoo__13"],["natzo","4/2005"],wikiurl("Mandarin Duck"),17774);
   birds[j++] = new myBird("07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Spatula discors",m_id(["20160410_036_Blue-wingedTeal","20150321_042_Blue-wingedTeal"]),["mdcorl","4/2016","Female left, male right","mdswhf","3/2015"],3143771);
@@ -508,7 +508,7 @@
   birds[j++] = new myBird("15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",[p_id("1507birdingwest",37)],["cayokp","7/2015","Male"],986912);
 //**birds[j++] = new myBird("18-00-00T00:00","PICIDAE ","Black-cheeked Woodpecker","黑颊啄木鸟","Melanerpes pucherani",p_id("1812crbirding",[67,66]),["crarol","12/2018","Male","crarol","12/2018","Female"],ebird("blcwoo1"),"黑颊啄木鸟");
 //birds[j++] = new myBird("19-00-00T00:00","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",[m_id("")],["mdbhrp","9/2015"],2649065);
-//**birds[j++] = new myBird("18-00-00T00:00","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",p_id("1812crbirding",[93,94]),["crsanj","12/2018","Male, Park of Social Guarantees","","雄性","社会保障公园","crsanj","12/2018","Female, Morazán Park","","雌性","莫拉桑公园"],ebird("hofwoo1"),"霍氏啄木鸟");
+//**birds[j++] = new myBird("18-00-00T00:00","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",p_id("1812crbirding",[93,94]),["crsanj","12/2018","Male, Park of Social Guarantees","雄性","","社会保障公园","crsanj","12/2018","Female, Morazán Park","雌性","","莫拉桑公园"],ebird("hofwoo1"),"霍氏啄木鸟");
   birds[j++] = new myBird("13-12-25T15:02","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",[p_id("1312bigbendbirding",6)],["txbbnp","12/2013"],3912752);
   birds[j++] = new myBird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","flmahp","6/2016","Female"],3912834);
 //birds[j++] = new myBird("19-00-00T00:00","PICIDAE ","Williamson's Sapsucker","威氏吸汁啄木鸟","Sphyrapicus thyroideus",[p_id("1601china",)],["cnbjjp","1/2016"],"威氏吸汁啄木鸟");
@@ -589,11 +589,11 @@
 //**birds[j++] = new myBird("18-00-00T00:00","TYRANNID","Long-tailed Tyrant","长尾霸鹟","Colonia colonus",[p_id("1812crbirding",92)],["crarol","12/2018"],ebird("lottyr1"),"长尾霸鹟");
 //**birds[j++] = new myBird("18-00-00T00:00","TYRANNID","Social Flycatcher","群栖短嘴霸鹟","Myiozetetes similis",[p_id("1812crbirding",53)],["crarol","12/2018"],ebird("socfly1"),"群栖短嘴霸鹟");
 //**birds[j++] = new myBird("18-00-00T00:00","TYRANNID","Gray-capped Flycatcher","灰顶短嘴霸鹟","Myiozetetes granadensis",[p_id("1812crbirding",33)],["crarol","12/2018"],ebird("grcfly1"),"灰顶短嘴霸鹟");
-//**birds[j++] = new myBird("18-00-00T00:00","TYRANNID","Great Kiskadee","大食蝇霸鹟","Pitangus sulphuratus",[p_id("1812crbirding",56)],["crarol","12/2018"],ebird("grekis"),"大食蝇霸鹟");
+  birds[j++] = new myBird("18-12-02T06:37","TYRANNID","Great Kiskadee","大食蝇霸鹟","Pitangus sulphuratus",[p_id("1812crbirding",56)],["crarol","12/2018"],ebird("grekis"),"大食蝇霸鹟");
   birds[j++] = new myBird("15-07-12T09:58","TYRANNID","Ash-throated Flycatcher","灰喉蝇霸鹟","Myiarchus cinerascens",[p_id("1507birdingwest",43)],["cayokp","7/2015"],4533408);
   birds[j++] = new myBird("14-08-10T10:54","TYRANNID","Great Crested Flycatcher","大冠蝇霸鹟","Myiarchus crinitus",m_id(["20160530_074_GreatCrestedFlycatcher","20160530_075_GreatCrestedFlycatcher"]),["mdorpk","5/2016"],4533479);
   birds[j++] = new myBird("15-01-03T10:03","TYRANNID","Puerto Rican Flycatcher","波多黎各蝇霸鹟","Myiarchus antillarum",[p_id("1501prbirding",14)],["prcnwr","1/2015"],ebird("purfly1"),4533267);
-//**birds[j++] = new myBird("18-00-00T00:00","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[p_id("1812crbirding",10)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],4572844);
+  birds[j++] = new myBird("18-12-02T08:57","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[p_id("1812crbirding",10)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],4572844);
 //birds[j++] = new myBird("19-00-00T00:00","TYRANNID","Cassin's Kingbird","卡氏王霸鹟","Tyrannus vociferans",[m_id("")],["prcnwr","1/2015"],4576852);
   birds[j++] = new myBird("15-07-12T10:38","TYRANNID","Western Kingbird","西王霸鹟","Tyrannus verticalis",[p_id("1507birdingwest",46)],["cabeap","7/2015"],4576849);
   birds[j++] = new myBird("06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",[p_id("1512bhill",28)],["mdbhrp","6/2015"],4576848);
@@ -891,7 +891,7 @@
   birds[j++] = new myBird("15-07-12T09:23","ICTERIDA","Brewer's Blackbird","蓝头黑鹂","Euphagus cyanocephalus",p_id("1507birdingwest",[39,38]),["cayokp","7/2015","Male","cayokp","7/2015","Female"],4707273);
   birds[j++] = new myBird("06-04-11T17:11","ICTERIDA","Common Grackle","普通拟八哥","Quiscalus quiscula",["2006cobirding/CommonGrackle_20060411_002","2006cobirding/CommonGrackle_20060622_007",p_id("2009cobirding",39)],["mdcocn","4/2006","mdcocn","6/2006","mdcocn","7/2009","Immature"],-6524);
   birds[j++] = new myBird("11-12-30T11:34","ICTERIDA","Boat-tailed Grackle","宽尾拟八哥","Quiscalus major",p_id("1612savannah",[16,17]),["gatybe","12/2016","Male","gatybe","12/2016","Female"],4707253);
-  birds[j++] = new myBird("18-12-02T06:19","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",p_id("1812crbirding",[3,9]),["crsanj","12/2018","Male, Park of Social Guarantees","","雄性","社会保障公园","crsanj","12/2018","Female, La Sabana Park","","雌性","萨瓦纳公园"],4706667);
+  birds[j++] = new myBird("18-12-02T06:19","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",p_id("1812crbirding",[3,9]),["crsanj","12/2018","Male, Park of Social Guarantees","雄性","","社会保障公园","crsanj","12/2018","Female, La Sabana Park","雌性","","萨瓦纳公园"],4706667);
   birds[j++] = new myBird("15-01-02T09:39","ICTERIDA","Greater Antillean Grackle","黑拟八哥","Quiscalus niger",p_id("1501prbirding",[6,7]),["prrinc","1/2015"],ebird("gragra1"),4706467);
 //birds[j++] = new myBird("19-00-00T00:00","ICTERIDA","Shiny Cowbird","紫辉牛鹂","Molothrus bonariensis",[m_id("")],["flevnp","6/2016"],4706494);
 //birds[j++] = new myBird("19-00-00T00:00","ICTERIDA","Bronzed Cowbird","铜色牛鹂","Molothrus aeneus",[m_id("")],["flevnp","6/2016"],4706501);
@@ -943,7 +943,7 @@
   birds[j++] = new myBird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20161112_121_SongSparrow","20161030_108_SongSparrow"]),["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic"],4745315);
   birds[j++] = new myBird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",m_id(["20170305_030_Lincoln'sSparrow","20170305_029_Lincoln'sSparrow"]),["arb","3/2017","Occoquan Bay National Wildlife Refuge, Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区"],4745989);
   birds[j++] = new myBird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"],4745350);
-//**birds[j++] = new myBird("18-00-00T00:00","PASSEREL","Rufous-collared Sparrow","红领带鹀","Zonotrichia capensis",[p_id("1812crbirding",7)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],ebird("rucspa1"),"红领带鹀");
+  birds[j++] = new myBird("18-12-02T08:51","PASSEREL","Rufous-collared Sparrow","红领带鹀","Zonotrichia capensis",[p_id("1812crbirding",7)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],ebird("rucspa1"),"红领带鹀");
   birds[j++] = new myBird("06-02-16T16:03","PASSEREL","White-throated Sparrow","白喉带鹀","Zonotrichia albicollis",m_id(["20161030_109_White-throatedSparrow","20161113_123_White-throatedSparrow"]),["mdmwma","10/2016","mdbmnt","11/2016"],4744945);
   birds[j++] = new myBird("17-11-24T15:49","PASSEREL","Harris's Sparrow","赫氏带鹀","Zonotrichia querula",[m_id("20171124_126_Harris'sSparrow")],["arb","11/2017","Anacostia River Trail, Prince George's County, Maryland, USA","美国马里兰州乔治王子郡安那考斯迪亚河畔小径"],-5877);
   birds[j++] = new myBird("15-07-09T13:51","PASSEREL","White-crowned Sparrow","白冠带鹀","Zonotrichia leucophrys",[p_id("1507birdingwest",25),m_id("20160131_011_White-crownedSparrow")],["wahobb","7/2015","mdcapc","1/2016"],4745340);
