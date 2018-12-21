@@ -231,6 +231,11 @@
   info[2][j] = 2;
   info[3][j] = "9/2017 Birding Algonquin";
   info[4][j++] = "Birding in Algonquin Provincial Park(Ontario, Canada).";
+  info[0][j] = "1812crbirding";
+  info[1][j] = 6;
+  info[2][j] = 2;
+  info[3][j] = "12/2018 Birding in Costa Rica";
+  info[4][j++] = "Birding in Costa Rica(Costa Rica).";
 
   if(window.usechinese){
      j = 0;
@@ -322,6 +327,8 @@
      info[4][j++] = "在俄亥俄州北部观鸟(俄亥俄州)。";
      info[3][j]   = "9/2017 阿岗昆观鸟";
      info[4][j++] = "在阿岗昆省立公园观鸟(加拿大安大略省)。";
+     info[3][j]   = "12/2018 哥斯达黎加观鸟";
+     info[4][j++] = "哥斯达黎加观鸟(哥斯达黎加)。";
   } 
 
   //special touch
@@ -338,7 +345,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2017-09-06T12:00:00");
+  var modiDate1 = new Date("2018-12-21T12:00:00");
   if (window.modiDate){
      if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
   }else{
