@@ -47,7 +47,7 @@ function initAlbum(){
         this[1][16] = "曲嘴森莺"+crarol;
         this[1][17] = "莺鹪鹩"+crarol;
         this[1][18] = "黄顶歌雀，雄性"+crarol;
-        this[1][19] = "黄冠歌雀，雄性"+crarol;
+        this[1][19] = "黄喉歌雀，雄性"+crarol;
         this[1][20] = "红眼绿鹃"+crarol;
         this[1][21] = "褐拟棕鸟"+crarol;
         this[1][22] = "栗胁林莺，雌性"+crarol;
@@ -78,7 +78,7 @@ function initAlbum(){
         this[1][47] = "双色蚁鸟"+crarol;
         this[1][48] = "双色蚁鸟"+crarol;
         this[1][49] = "眼斑蚁鸟"+crarol;
-        this[1][50] = "红腰厚嘴唐纳雀"+crarol;
+        this[1][50] = "红腰厚嘴唐纳雀，雄性"+crarol;
         this[1][51] = "黄喉舞雀"+crarol;
         this[1][52] = "群栖短嘴霸鹟"+crarol;
         this[1][53] = "纹喉隐蜂鸟"+crarol;
@@ -95,7 +95,7 @@ function initAlbum(){
         this[1][64] = "栗头唐加拉雀"+crarol;
         this[1][65] = "黑颊啄木鸟，雌性"+crarol;
         this[1][66] = "黑颊啄木鸟，雄性"+crarol;
-        this[1][67] = "栗胸林莺，未成年雌性"+crarol;
+        this[1][67] = "栗胸林莺，非繁殖羽雌性/未成年雄性"+crarol;
         this[1][68] = "紫头蜂鸟，雄性"+crarol;
         this[1][69] = "Brown Jay"+crarol;
         this[1][70] = "领簇舌巨嘴鸟"+crarol;
@@ -148,7 +148,7 @@ function initAlbum(){
         this[1][16] = "Bananaquit"+crarol;
         this[1][17] = "House Wren"+crarol;
         this[1][18] = "Tawny-capped Euphonia, male"+crarol;
-        this[1][19] = "Yellow-crowned Euphonia, male"+crarol;
+        this[1][19] = "Yellow-throated Euphonia, male"+crarol;
         this[1][20] = "Red-lored Parrot"+crarol;
         this[1][21] = "Montezuma Oropendola"+crarol;
         this[1][22] = "Chestnut-sided Warbler, female"+crarol;
@@ -179,7 +179,7 @@ function initAlbum(){
         this[1][47] = "Bicolored Antbird"+crarol;
         this[1][48] = "Bicolored Antbird"+crarol;
         this[1][49] = "Ocellated Antbird"+crarol;
-        this[1][50] = "Scarlet-rumped Tanager"+crarol;
+        this[1][50] = "Scarlet-rumped Tanager, male"+crarol;
         this[1][51] = "Buff-throated Saltator"+crarol;
         this[1][52] = "Social Flycatcher"+crarol;
         this[1][53] = "Stripe-throated Hermit"+crarol;
@@ -196,7 +196,7 @@ function initAlbum(){
         this[1][64] = "Bay-headed Tanager"+crarol;
         this[1][65] = "Black-cheeked Woodpecker, female"+crarol;
         this[1][66] = "Black-cheeked Woodpecker, male"+crarol;
-        this[1][67] = "Bay-breasted Warbler, immature female"+crarol;
+        this[1][67] = "Bay-breasted Warbler, nonbreeding female/immature male"+crarol;
         this[1][68] = "Violet-headed Hummingbird, male"+crarol;
         this[1][69] = "Brown Jay"+crarol;
         this[1][70] = "Collared Aracari"+crarol;
