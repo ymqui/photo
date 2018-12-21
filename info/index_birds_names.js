@@ -8,7 +8,7 @@
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
 
   //location urls
-  var locurl = {arb:["","","",""],f
+  var locurl = {arb:["","","",""],
       akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl(3511940)],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabeap:  ["Beale Park","Bakersfield, California, USA","贝克斯菲尔德市比尔公园","美国加利福尼亚州","http://www.bakersfieldcity.us/recreation/parks/beale.htm"],
@@ -540,7 +540,7 @@
   birds[j++] = new myBird("15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[p_id("1501prbirding",47)],["prsanj","1/2015"],1070745);
   birds[j++] = new myBird("15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",[p_id("1501prbirding",3)],["prmaya","1/2015"],ebird("whwpar"),9229616);
 //birds[j++] = new myBird("19-00-00T00:00","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",[m_id("")],["natzo","4/2005"],ebird("yecpar"),2426267);
-//**birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",[p_id("1812crbirding",2)],["crsanj","12/2018","Plaza Juan Mora Fernandez","","","胡安莫拉费尔南德斯广场"],ebird("orcpar"),"橙颏鹦哥");
+  birds[j++] = new myBird("18-12-02T06:05","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",[p_id("1812crbirding",2)],["crsanj","12/2018","Plaza Juan Mora Fernandez","","","胡安莫拉费尔南德斯广场"],ebird("orcpar"),"橙颏鹦哥");
 //**birds[j++] = new myBird("18-00-00T00:00","PSITTACI","White-crowned Parrot","白冠鹦哥","Pionus senilis",[p_id("1812crbirding",30)],["crarol","12/2018"],ebird("whcpar"),"白额鹦鹉");
 //birds[j++] = new myBird("19-00-00T00:00","PSITTACI","White-fronted Parrot","白额亚马逊鹦鹉","Amazona albifrons",[m_id("")],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],ebird("whfpar1"),"白额亚马逊鹦鹉");
 //**birds[j++] = new myBird("18-00-00T00:00","PSITTACI","Red-lored Parrot","红眼绿鹃","Amazona autumnalis",[p_id("1812crbirding",21)],["crarol","12/2018"],ebird("relpar"),"红眼绿鹃");
@@ -891,7 +891,7 @@
   birds[j++] = new myBird("15-07-12T09:23","ICTERIDA","Brewer's Blackbird","蓝头黑鹂","Euphagus cyanocephalus",p_id("1507birdingwest",[39,38]),["cayokp","7/2015","Male","cayokp","7/2015","Female"],4707273);
   birds[j++] = new myBird("06-04-11T17:11","ICTERIDA","Common Grackle","普通拟八哥","Quiscalus quiscula",["2006cobirding/CommonGrackle_20060411_002","2006cobirding/CommonGrackle_20060622_007",p_id("2009cobirding",39)],["mdcocn","4/2006","mdcocn","6/2006","mdcocn","7/2009","Immature"],-6524);
   birds[j++] = new myBird("11-12-30T11:34","ICTERIDA","Boat-tailed Grackle","宽尾拟八哥","Quiscalus major",p_id("1612savannah",[16,17]),["gatybe","12/2016","Male","gatybe","12/2016","Female"],4707253);
-//**birds[j++] = new myBird("18-00-00T00:00","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",p_id("1812crbirding",[3,9]),["crsanj","12/2018","Male, Park of Social Guarantees","","雄性","社会保障公园","crsanj","12/2018","Female, La Sabana Park","","雌性","萨瓦纳公园"],4706667);
+  birds[j++] = new myBird("18-12-02T06:19","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",p_id("1812crbirding",[3,9]),["crsanj","12/2018","Male, Park of Social Guarantees","","雄性","社会保障公园","crsanj","12/2018","Female, La Sabana Park","","雌性","萨瓦纳公园"],4706667);
   birds[j++] = new myBird("15-01-02T09:39","ICTERIDA","Greater Antillean Grackle","黑拟八哥","Quiscalus niger",p_id("1501prbirding",[6,7]),["prrinc","1/2015"],ebird("gragra1"),4706467);
 //birds[j++] = new myBird("19-00-00T00:00","ICTERIDA","Shiny Cowbird","紫辉牛鹂","Molothrus bonariensis",[m_id("")],["flevnp","6/2016"],4706494);
 //birds[j++] = new myBird("19-00-00T00:00","ICTERIDA","Bronzed Cowbird","铜色牛鹂","Molothrus aeneus",[m_id("")],["flevnp","6/2016"],4706501);
