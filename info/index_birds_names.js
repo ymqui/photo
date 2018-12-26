@@ -919,7 +919,7 @@
   birds[j++] = new myBird("18-12-05T07:00","THRAUPID","Buff-throated Saltator","黄喉舞雀","Saltator maximus",[p_id("1812crbirding",52)],["crarol","12/2018"],ebird("butsal1"),"黄喉舞雀");
   birds[j++] = new myBird("18-12-08T08:46","THRAUPID","Grayish Saltator","灰背舞雀","Saltator coerulescens",[p_id("1812crbirding",96)],["crsanj","12/2018","Morazán Park","","","莫拉桑公园"],ebird("grasal1"),"灰背舞雀");
   birds[j++] = new myBird("18-12-06T13:54","THRAUPID","Variable Seedeater","杂色食籽雀","Sporophila corvina",p_id("1812crbirding",[82,81]),["crarol","12/2018","Male","crarol","12/2018","Female"],ebird("varsee3"),"杂色食籽雀");
-  birds[j++] = new myBird("15-01-01T14:06","THRAUPID","Bananaquit","曲嘴森莺","Coereba flaveola",[p_id("1501prbirding",2),p_id("1812crbirding",15)],["prbaya","1/2015","crarol","12/2018"],ebird("banana"),4738553);
+  birds[j++] = new myBird("15-01-01T14:06","THRAUPID","Bananaquit","曲嘴森莺","Coereba flaveola",[p_id("1501prbirding",2),p_id("1812crbirding",17)],["prbaya","1/2015","crarol","12/2018"],ebird("banana"),4738553);
   birds[j++] = new myBird("18-12-06T09:09","THRAUPID","Yellow-faced Grassquit","黄脸草雀","Tiaris olivaceus",p_id("1812crbirding",[76,77]),["crarol","12/2018","Male","crarol","12/2018","Female"],ebird("yefgra1"),"黄脸草雀");
   birds[j++] = new myBird("15-01-07T07:05","THRAUPID","Black-faced Grassquit","黑脸草雀","Tiaris bicolor",p_id("1501prbirding",[50,33]),["prsanj","1/2015","Male","prsanj","1/2015","Female"],ebird("bkfgra"),4722827);
   birds[j++] = new myBird("12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",m_id(["20150405_050_EasternTowhee(M)","20150628_079_EasternTowhee(I)"]),["mdbmnt","4/2015","Male","mdbmnt","6/2015","Immature"],7795497);
