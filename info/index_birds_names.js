@@ -521,7 +521,7 @@
   birds[j++] = new myBird("06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Picoides villosus",[p_id("1609vtcanbirding",12),m_id("20170506_048_HairyWoodpecker(F)")],["calddm","9/2016","Male","nycenp","5/2017","Female"],3949333);
 //birds[j++] = new myBird("19-00-00T00:00","PICIDAE ","Arizona Woodpecker","亚利桑那啄木鸟","Picoides arizonae",[p_id("1601china",)],["cnbjjp","1/2016"],-10034);
   birds[j++] = new myBird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Picoides borealis",p_id("1509charleston",[2,3]),["sccnwr","9/2015"],3919450);
-  birds[j++] = new myBird("18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Dryobates fumigatus",[p_id("1812crbirding",24)],["crarol","12/2018"],ebird("smbwoo1"),"褐啄木鸟");
+  birds[j++] = new myBird("18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Dryobates fumigatus",[p_id("1812crbirding",24)],["crarol","12/2018","Male"],ebird("smbwoo1"),"褐啄木鸟");
 //birds[j++] = new myBird("19-00-00T00:00","PICIDAE ","White-headed Woodpecker","白头啄木鸟","Picoides albolarvatus",[p_id("1601china",)],["cnbjjp","1/2016"],-10041);
   birds[j++] = new myBird("13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",[p_id("1307alaskabirding",4)],["akknpp","7/2013","Female"],3949100);
   birds[j++] = new myBird("16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背啄木鸟","Picoides arcticus",p_id("1609vtcanbirding",[4,5]),["vtwwma","9/2016","Female"],3919407);
