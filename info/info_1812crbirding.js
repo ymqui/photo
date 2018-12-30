@@ -48,7 +48,7 @@ function initAlbum(){
         this[1][17] = "莺鹪鹩"+crarol;
         this[1][18] = "黄顶歌雀，雄性"+crarol;
         this[1][19] = "黄喉歌雀，雄性"+crarol;
-        this[1][20] = "红眼绿鹃"+crarol;
+        this[1][20] = "红额亚马逊鹦鹉"+crarol;
         this[1][21] = "褐拟棕鸟"+crarol;
         this[1][22] = "栗胁林莺，雌性"+crarol;
         this[1][23] = "褐啄木鸟，雄性"+crarol;
