@@ -71,7 +71,7 @@ function initAlbum(){
         this[1][40] = "棕尾蜂鸟"+crarol;
         this[1][41] = "棕尾蜂鸟"+crarol;
         this[1][42] = "鳞胸刀翅蜂鸟"+crarol;
-        this[1][43] = "淡嘴啄木鸟"+crarol;
+        this[1][43] = "淡嘴啄木鸟，雌性"+crarol;
         this[1][44] = "点斑蚁鸟，雌性"+crarol;
         this[1][45] = "点斑蚁鸟，雄性"+crarol;
         this[1][46] = "点斑蚁鸟，雄性"+crarol;
@@ -172,7 +172,7 @@ function initAlbum(){
         this[1][40] = "Rufous-tailed Hummingbird"+crarol;
         this[1][41] = "Rufous-tailed Hummingbird"+crarol;
         this[1][42] = "Scaly-breasted Hummingbird"+crarol;
-        this[1][43] = "Pale-billed Woodpecker"+crarol;
+        this[1][43] = "Pale-billed Woodpecker, female"+crarol;
         this[1][44] = "Spotted Antbird, female"+crarol;
         this[1][45] = "Spotted Antbird, male"+crarol;
         this[1][46] = "Spotted Antbird, male"+crarol;
