@@ -126,7 +126,7 @@ function initAlbum(){
     this[0][i]    = "20180825_041_DCBuildingMuseum";
     this[1][i++]  = (["Visiting the Building Museum in Washington DC","参观华盛顿特区的建筑博物馆"])[cn_ind];
     this[0][i]    = "20180930_044_Cheerios";
-    this[1][i++]  = (["Cheerios is one of Nathan's favorite finger foods","球球非常喜欢麦圈"])[cn_ind];
+    this[1][i++]  = (["Cheerios is one of Nathan's favorite finger foods","球球非常喜欢吃麦圈"])[cn_ind];
     this[0][i]    = "20181007_047_ToyPlane";
     this[1][i++]  = (["New toy","新玩具"])[cn_ind];
     this[0][i]    = "20181007_048_StandingWithMom";
