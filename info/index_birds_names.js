@@ -1,8 +1,8 @@
-﻿0<!--
+﻿<!--
   //date
-  var modiDate  = new Date("2018-12-21T18:00:00");
-  var modirange = 20;  	//range within modiDate in days
-  var modiindx  = [12];	//index of which modibird to be shown first
+  var modiDate  = new Date("2019-01-07T18:00:00");
+  var modirange = 5;  	//range within modiDate in days
+  var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -398,7 +398,7 @@
   birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",[m_id("20170204_016_IcelandGull(1W)")],["mdmapp","2/2017","1st winter","一龄冬羽"],-9019);
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015","With "+b_link("Ring-billed Gull","s")+" (front) and "+b_link("Black Skimmer","s")+" (back)","前面是"+b_link("环嘴鸥")+"，后面是"+b_link("黑剪嘴鸥")],14813315);
   birds[j++] = new myBird("15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["wacape","7/2015"],853282);
-//birds[j++] = new myBird("19-00-00T00:00","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("")],["mdbhrp","9/2015"],82036);
+  birds[j++] = new myBird("19-01-07T10:56","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190107_001_GlaucousGull")],["arb","1/2019","Loreley Beach Community Pier, Baltimore County, Maryland, USA","美国马里兰州巴尔的摩郡罗利滩社区码头"],82036);
   birds[j++] = new myBird("15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull(1W)")],["njblsp","3/2015","mdocin","10/2015","1st winter","一龄冬羽"],1587200);
   birds[j++] = new myBird("15-07-26T09:02","LARIDAE ","Least Tern","小白额燕鸥","Sternula antillarum",m_id(["20150726_084_LeastTern","20150726_085_LeastTern(I)"]),["mdenwr","7/2015","mdenwr","7/2015","Immature"],-9005);
 //birds[j++] = new myBird("19-00-00T00:00","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("")],["schbsp","6/2018"],853324);
