@@ -1,8 +1,8 @@
 ﻿<!--
   //date
   var modiDate  = new Date("2019-01-07T18:00:00");
-  var modirange = 5;  	//range within modiDate in days
-  var modiindx  = [0];	//index of which modibird to be shown first
+  var modirange = 45;  	//range within modiDate in days
+  var modiindx  = [13];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -395,10 +395,10 @@
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","California Gull","加州鸥","Larus californicus",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the right, on the left is a "+b_link("Black-legged Kittiwake"),"右边，左边是一只"+b_link("三趾鸥")],4821962);
   birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter","三龄冬羽"],277019);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["cnshbu","1/2016","cnshbu","1/2016","Immature"],716323);
-  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",[m_id("20170204_016_IcelandGull(1W)")],["mdmapp","2/2017","1st winter","一龄冬羽"],-9019);
+  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","一龄冬羽","arb","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County, Maryland, USA","二龄冬羽，美国马里兰州巴尔的摩郡罗利滩社区码头"],-9019);
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015","With "+b_link("Ring-billed Gull","s")+" (front) and "+b_link("Black Skimmer","s")+" (back)","前面是"+b_link("环嘴鸥")+"，后面是"+b_link("黑剪嘴鸥")],14813315);
   birds[j++] = new myBird("15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["wacape","7/2015"],853282);
-  birds[j++] = new myBird("19-01-07T10:56","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190107_001_GlaucousGull")],["arb","1/2019","Immature, Loreley Beach Community Pier, Baltimore County, Maryland, USA","未成年，美国马里兰州巴尔的摩郡罗利滩社区码头"],82036);
+//birds[j++] = new myBird("19-01-07T10:56","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190107_001_GlaucousGull")],["arb","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County, Maryland, USA","未成年，美国马里兰州巴尔的摩郡罗利滩社区码头"],82036);
   birds[j++] = new myBird("15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull(1W)")],["njblsp","3/2015","mdocin","10/2015","1st winter","一龄冬羽"],1587200);
   birds[j++] = new myBird("15-07-26T09:02","LARIDAE ","Least Tern","小白额燕鸥","Sternula antillarum",m_id(["20150726_084_LeastTern","20150726_085_LeastTern(I)"]),["mdenwr","7/2015","mdenwr","7/2015","Immature"],-9005);
 //birds[j++] = new myBird("19-00-00T00:00","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("")],["schbsp","6/2018"],853324);
