@@ -299,7 +299,7 @@
   birds[j++] = new myBird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),"2006cobirding/Red-ShoulderedHawk_20060610_006","2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcovl","3/2009","mdcocn","6/2006","mdcocn","2/2007","Immature"],3724592);
   birds[j++] = new myBird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15)],["caalgp","9/2017"],3724612);
 //birds[j++] = new myBird("19-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"],11811149);
-  birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",["2006cobirding/Red-TailedHawk_20060305_002","2006cobirding/Red-TailedHawk_20060305_005",p_id("1412mckee-beshers",33)],["mdcopl","3/2006","mdcopl","3/2006","mdmwma","11/2014","Juvenile"],1146152);
+  birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("20190109_002_Red-tailedHawk"),p_id("1412mckee-beshers",33)],["arb","1/2019","St Mary's County, Maryland, USA","美国马里兰州圣玛丽郡","mdmwma","11/2014","Juvenile"],1146152);
 //birds[j++] = new myBird("19-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"],3724576);
 //birds[j++] = new myBird("19-00-00T00:00","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",[m_id("")],["depnwr","12/2017"],1123648);
 //birds[j++] = new myBird("19-00-00T00:00","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[m_id("")],["mdbhrp","9/2015"],12074495);
