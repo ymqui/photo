@@ -161,6 +161,7 @@
   birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["arb","12/2016","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],3203046);
   birds[j++] = new myBird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"],13353349);
+//birds[j++] = new myBird("19-01-12T08:10","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("")],["arb","1/2019","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],ebird("bargoo"),"白颊黑雁");
   birds[j++] = new myBird("15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["arb","12/2015","2nd from front in the center (with the smallest bill), River Bend Park, Frederick, Maryland, USA","中间第二只(嘴最小的)，美国马里兰州弗雷德里克市河湾公园"],12989977);
   birds[j++] = new myBird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdbrgd","6/2012"],260841);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"],17767);
@@ -589,7 +590,7 @@
   birds[j++] = new myBird("18-12-07T10:02","TYRANNID","Long-tailed Tyrant","长尾霸鹟","Colonia colonus",[p_id("1812crbirding",92)],["crarol","12/2018"],ebird("lottyr1"),"长尾霸鹟");
   birds[j++] = new myBird("18-12-05T07:53","TYRANNID","Social Flycatcher","群栖短嘴霸鹟","Myiozetetes similis",[p_id("1812crbirding",53)],["crarol","12/2018"],ebird("socfly1"),"群栖短嘴霸鹟");
   birds[j++] = new myBird("18-12-04T09:00","TYRANNID","Gray-capped Flycatcher","灰顶短嘴霸鹟","Myiozetetes granadensis",[p_id("1812crbirding",33)],["crarol","12/2018"],ebird("grcfly1"),"灰顶短嘴霸鹟");
-  birds[j++] = new myBird("18-12-02T06:37","TYRANNID","Great Kiskadee","大食蝇霸鹟","Pitangus sulphuratus",[p_id("1812crbirding",56)],["crarol","12/2018"],ebird("grekis"),"大食蝇霸鹟");
+  birds[j++] = new myBird("18-12-05T09:31","TYRANNID","Great Kiskadee","大食蝇霸鹟","Pitangus sulphuratus",[p_id("1812crbirding",56)],["crarol","12/2018"],ebird("grekis"),"大食蝇霸鹟");
   birds[j++] = new myBird("15-07-12T09:58","TYRANNID","Ash-throated Flycatcher","灰喉蝇霸鹟","Myiarchus cinerascens",[p_id("1507birdingwest",43)],["cayokp","7/2015"],4533408);
   birds[j++] = new myBird("14-08-10T10:54","TYRANNID","Great Crested Flycatcher","大冠蝇霸鹟","Myiarchus crinitus",m_id(["20160530_074_GreatCrestedFlycatcher","20160530_075_GreatCrestedFlycatcher"]),["mdorpk","5/2016"],4533479);
   birds[j++] = new myBird("15-01-03T10:03","TYRANNID","Puerto Rican Flycatcher","波多黎各蝇霸鹟","Myiarchus antillarum",[p_id("1501prbirding",14)],["prcnwr","1/2015"],ebird("purfly1"),4533267);
