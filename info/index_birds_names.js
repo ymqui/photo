@@ -1,8 +1,8 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2019-01-07T18:00:00");
-  var modirange = 45;  	//range within modiDate in days
-  var modiindx  = [13];	//index of which modibird to be shown first
+  var modiDate  = new Date("2019-01-14T18:00:00");
+  var modirange = 1;  	//range within modiDate in days
+  var modiindx  = [0];	//index of which modibird to be shown first
   
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -161,7 +161,7 @@
   birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["arb","12/2016","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],3203046);
   birds[j++] = new myBird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"],13353349);
-//birds[j++] = new myBird("19-01-12T08:10","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("")],["arb","1/2019","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],ebird("bargoo"),"白颊黑雁");
+  birds[j++] = new myBird("19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("20190114_003_BarnacleGoose")],["arb","1/2019","Whittier Lake Park, Frederick, Maryland, USA","美国马里兰州弗雷德里克市惠蒂尔湖公园"],ebird("bargoo"),"白颊黑雁");
   birds[j++] = new myBird("15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["arb","12/2015","2nd from front in the center (with the smallest bill), River Bend Park, Frederick, Maryland, USA","中间第二只(嘴最小的)，美国马里兰州弗雷德里克市河湾公园"],12989977);
   birds[j++] = new myBird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdbrgd","6/2012"],260841);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"],17767);
