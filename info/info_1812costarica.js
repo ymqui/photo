@@ -11,6 +11,7 @@ var ext        = ".JPG";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
 var pagelist   = [["1812crbirding","12/2018 Birding in Costa Rica","12/2018 哥斯达黎加观鸟"]]
+homeurl        = homeurl+"showphoto.html?qiuqiu"
  
 if(window.usechinese){
     title      = "游哥斯达黎加";

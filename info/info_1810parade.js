@@ -8,6 +8,7 @@ var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
 var ext        = ".JPG";
 var midi_file  = "";
+homeurl        = homeurl+"showphoto.html?qiuqiu"
  
 if(window.usechinese){
     title      = "万圣节游行";
