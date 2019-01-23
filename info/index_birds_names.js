@@ -985,7 +985,7 @@
      }
   }
 
-  function myBird(liferdate, family, name, cname, latin, photo, info, ebird, curl){
+  function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
      this.lifer    = new Date("20"+liferdate+":00"); 
      this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
      this.name     = name.trim();
@@ -1058,10 +1058,12 @@
      for (var i=0;i<this.photo.length;i++){
          this.info[i]  = tmp_info[Math.min(i,tmp_info.length-1)]; 
          this.cinfo[i] = tmp_cinfo[Math.min(i,tmp_cinfo.length-1)];
-     }   
-     
-     if (ebird !==''){
-        this.url = ebird(ebird);
+     }
+   
+     if(typeof ebid == 'undefined') ebid = "";    
+
+     if (ebid !==""){
+        this.url = ebird(ebid);
      }else{
         this.url = cornellurl(this.name1);
      }
