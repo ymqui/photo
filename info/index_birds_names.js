@@ -1060,7 +1060,7 @@
          this.cinfo[i] = tmp_cinfo[Math.min(i,tmp_cinfo.length-1)];
      }
    
-     if(typeof ebid == 'undefined') ebid = "";    
+     if(typeof ebid == 'undefined'){ ebid = "";  }  
 
      if (ebid !==""){
         this.url = ebird(ebid);
