@@ -76,7 +76,6 @@
       njblsp:  ["Barnegat Lighthouse State Park","New Jersey, USA","巴尼加特灯塔州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/barnlig.html"],
       njcmsp:  ["Cape May Point State Park","New Jersey, USA","五月岬州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/capemay.html"],
       njscmm:  ["South Cape May Meadows","New Jersey, USA","南五月岬草原","美国新泽西州","http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/newjersey/placesweprotect/south-cape-may-meadows.xml"],
-      njweti:  ["The Wetlands Institute","Stone Harbor, New Jersey, USA","石港湿地研究所","美国新泽西州","http://wetlandsinstitute.org/"],
       nvdnwr:  ["Desert National Wildlife Range","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
       nycenp:  ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")],
       nyjbsp:  ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","http://nysparks.com/parks/JonesBeach/"],
@@ -354,7 +353,7 @@
   birds[j++] = new myBird("15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["arb","12/2016","Winter plumage, Tybee Island, Georgia, USA","冬羽，美国乔治亚州泰碧岛","arb","9/2015","Juvenile, Fort Moultrie, South Carolina, USA","未成年，美国南卡罗来纳州莫尔特里堡"],300486);
   birds[j++] = new myBird("15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"],4938313);
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"],852859);
-  birds[j++] = new myBird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["njweti","5/2015"],299021);
+  birds[j++] = new myBird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所"],299021);
   birds[j++] = new myBird("16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"],836718);
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",[m_id("")],["njweti","5/2015"],14014385);
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["arb","5/2017","Schoolhouse Pond, Prince George's County, Maryland, USA","美国马里兰州乔治王子郡校舍池塘"],836706);
@@ -364,7 +363,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"],300716);
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["arb","4/2017","Augustine Wildlife Area-Port Penn Impoundments, Delaware, USA","美国特拉华州奥古斯丁野生动物保护区"],"ruff",39676);
   birds[j++] = new myBird("11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"],4928005);
-  birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["njweti","5/2015"],3296960);
+  birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所"],3296960);
   birds[j++] = new myBird("16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["arb","1/2016","Glade Road, Frederick County, Maryland, USA","美国马里兰州弗雷德里克郡格雷德路"],3193898);
   birds[j++] = new myBird("16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["arb","2/2016","Patuxent River State Park at Hipsley Mill Road, Maryland, USA","美国马里兰州帕塔克森特河州立公园"],1154742);
 //birds[j++] = new myBird("19-00-00T00:00","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",[m_id("")],["mdbhrp","9/2015"],697557);
@@ -384,11 +383,11 @@
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","California Gull","加州鸥","Larus californicus",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the right, on the left is a "+b_link("Black-legged Kittiwake"),"右边，左边是一只"+b_link("三趾鸥")],4821962);
   birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter","三龄冬羽"],277019);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The Bund, Shanghai, China","中国上海外滩","arb","1/2016","Immature, the Bund, Shanghai, China","未成年，中国上海外滩"],716323);
-  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","一龄冬羽","arb","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County, Maryland, USA","二龄冬羽，美国马里兰州巴尔的摩郡罗利滩社区码头"],-9019);
+  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","arb","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County, Maryland, USA","二龄冬羽，美国马里兰州巴尔的摩郡罗利滩社区码头"],-9019);
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015","With "+b_link("Ring-billed Gull","s")+" (front) and "+b_link("Black Skimmer","s")+" (back)","前面是"+b_link("环嘴鸥")+"，后面是"+b_link("黑剪嘴鸥")],14813315);
   birds[j++] = new myBird("15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["wacape","7/2015"],853282);
-  birds[j++] = new myBird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190127_006_GlaucousGull(1W)")],["mdocci","1/2019","1st winter","一龄冬羽"," West Ocean City Marina","西城码头"],82036);
-  birds[j++] = new myBird("15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull(1W)")],["njblsp","3/2015","mdocin","10/2015","1st winter","一龄冬羽"],1587200);
+  birds[j++] = new myBird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190127_006_GlaucousGull(1W)")],["mdocci","1/2019","1st winter",""," West Ocean City Marina","西城码头"],82036);
+  birds[j++] = new myBird("15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull(1W)")],["njblsp","3/2015","mdocin","10/2015","1st winter"],1587200);
   birds[j++] = new myBird("15-07-26T09:02","LARIDAE ","Least Tern","小白额燕鸥","Sternula antillarum",m_id(["20150726_084_LeastTern","20150726_085_LeastTern(I)"]),["mdenwr","7/2015","mdenwr","7/2015","Immature"],-9005);
 //birds[j++] = new myBird("19-00-00T00:00","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("")],["schbsp","6/2018"],853324);
   birds[j++] = new myBird("15-07-10T10:09","LARIDAE ","Caspian Tern","红嘴巨鸥","Hydroprogne caspia",m_id(sas("20150808_08",["9","8"],"_CaspianTern")),["arb","8/2015","Dyke Marsh Wildlife Preserve, Virginia, USA","美国弗吉尼亚州黛克湿地野生动物保护区"],853326);
@@ -1013,6 +1012,8 @@
                   info[3+6*i] = "左雄性，右雌性";
                }else if ((/^females* left, *males* right$/i).test(tmp)){
                   info[3+6*i] = "左雌性，右雄性";
+               }else if ((/^1st winter$/i).test(tmp)){
+                  info[3+6*i] = "一龄冬羽";
                }else if ((/^winter plumage$/i).test(tmp)){
                   info[3+6*i] = "冬羽";
                }else if ((/^fall plumage$/i).test(tmp)){
