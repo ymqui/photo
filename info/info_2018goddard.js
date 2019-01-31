@@ -269,6 +269,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with whipped cream","涂手用各种颜色的奶油画画"])[cn_ind];
     this[0][i]    = "20190130_1";
     this[1][i++]  = (["Painting with bare hands","大手笔"])[cn_ind];
+    this[0][i]    = "20190131_1";
+    this[1][i++]  = (["Playing with rubber clay","玩橡皮泥"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
