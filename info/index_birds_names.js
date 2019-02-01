@@ -50,7 +50,6 @@
       mdcrvp:  ["Cromwell Valley Park","Baltimore, Maryland, USA","巴尔的摩克伦威尔溪谷公园","美国马里兰州","http://www.cromwellvalleypark.org/"],
       mdenwr:  ["Eastern Neck National Wildlife Refuge","Maryland, USA","东内克国家野生动物保护区","美国马里兰州",npsurl("eastern_neck",true)],
       mdftmh:  ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州",npsurl("fomc"),baikeurl(1438782)],
-      mdinhb:  ["Baltimore Harbor","Maryland, USA","巴尔的摩港","美国马里兰州",wikiurl("Inner Harbor"),baikeurl(48720)],
       mdlbrp:  ["Little Bennett Regional Park","Maryland, USA","小班尼特公园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/"],
       mdloch:  ["Loch Raven Reservoir","Maryland, USA","渡鸦湖水库","美国马里兰州",wikiurl("Loch Raven Reservoir")],
       mdmapp:  ["Mariner Point Park","Harford County, Maryland, USA","哈福德郡水手角公园","美国马里兰州","http://www.harfordcountymd.gov/Facilities/Facility/Details/Mariner-Point-Park-69"],
@@ -255,7 +254,7 @@
   birds[j++] = new myBird("05-12-28T13:35","PELECANI","American White Pelican","美洲白鹈鹕","Pelecanus erythrorhynchos",[p_id("0512merritt",23)],["flmnwr","12/2005"],4432808);
   birds[j++] = new myBird("05-12-27T07:34","PELECANI","Brown Pelican","褐鹈鹕","Pelecanus occidentalis",p_id("0512keys",[18,13]),["arb","12/2005","Key West, Florida, USA","美国佛罗里达州西礁岛","arb","12/2005","Immature, Key West, Florida, USA","未成年，美国佛罗里达州西礁岛"],100040);
   birds[j++] = new myBird("15-01-08T08:58","FREGATID","Magnificent Frigatebird","华丽军舰鸟","Fregata magnificens",p_id("1501prbirding",[40,39]),["prsanj","1/2015","Male","prsanj","1/2015","Female"],660688);
-  birds[j++] = new myBird("15-09-20T11:48","SULIDAE ","Brown Booby","褐鲣鸟","Sula leucogaster",m_id(sas("20150920_10",["0","1"],"_BrownBooby")),["mdinhb","9/2015","mdinhb","9/2015","Adult left, immature right","左成年，右未成年"],17701);
+  birds[j++] = new myBird("15-09-20T11:48","SULIDAE ","Brown Booby","褐鲣鸟","Sula leucogaster",m_id(sas("20150920_10",["0","1"],"_BrownBooby")),["mdmdmd","9/2015","Baltimore Harbor","","","巴尔的摩港","mdmdmd","9/2015","Adult left, immature right, Baltimore Harbor","左成年，右未成年","","巴尔的摩港"],17701);
   birds[j++] = new myBird("15-11-14T15:06","SULIDAE ","Northern Gannet","北鲣鸟","Morus bassanus",m_id(sas("20151114_12",["4","3"],"_NorthernGannet")),["mdmdmd","11/2015","Ocean City Inlet","","","大洋城海口"],4982885);
   birds[j++] = new myBird("15-07-11T20:45","PHALACRO","Brandt's Cormorant","加州鸬鹚","Phalacrocorax penicillatus",[p_id("1507birdingwest",36)],["cambsp","7/2015"],2566495);
 //birds[j++] = new myBird("19-00-00T00:00","PHALACRO","Neotropic Cormorant","美洲鸬鹚","Phalacrocorax brasilianus",[m_id("")],["arb","7/2017","North Beach, Maryland, USA","美国马里兰州北海滩镇"],2554751);
