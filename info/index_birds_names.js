@@ -746,7 +746,7 @@
   birds[j++] = new myBird("07-02-04T12:26","CERTHIID","Brown Creeper","美洲旋木雀","Certhia americana",[p_id("1512bhill",24)],["mdbhrp","2/2015"],4820712);
   birds[j++] = new myBird("06-04-29T08:10","MIMIDAE ","Gray Catbird","灰嘲鸫","Dumetella carolinensis",[m_id("20160924_098_GrayCatbird"),p_id("1206brooksidebirding",5)],["mdlbrp","9/2016","mdbrgd","6/2012","Immature"],1594003);
   birds[j++] = new myBird("06-03-18T09:06","MIMIDAE ","Northern Mockingbird","小嘲鸫","Mimus polyglottos",[p_id("1512bhill",9),p_id("1509charleston",16)],["mdbhrp","1/2015","arb","9/2015","Patriots Point, Charleston, South Carolina, USA","美国南卡罗来纳州查尔斯顿爱国者海角"],716998);
-  birds[j++] = new myBird("15-04-25T14:13","MIMIDAE ","Brown Thrasher","褐弯嘴嘲鸫","Toxostoma rufum",p_id("1512bhill",[26,33]),["mdbhrp","4/2015","mdbhrp","8/2015","Immature, with crossed-bill deformity","未成年，嘴交叉畸形"],4078842);
+  birds[j++] = new myBird("15-04-25T14:13","MIMIDAE ","Brown Thrasher","褐弯嘴嘲鸫","Toxostoma rufum",p_id("1512bhill",[26,33]),["mdbhrp","4/2015","mdbhrp","8/2015","Immature, with minor crossed-bill deformity","未成年，嘴略显交叉畸形"],4078842);
 //birds[j++] = new myBird("19-00-00T00:00","MIMIDAE ","LeConte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[m_id("")],["mdbhrp","9/2015"],4078707);
   birds[j++] = new myBird("15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",[p_id("1501prbirding",49)],["prsanj","1/2015"],"peethr1",4077575);
 //birds[j++] = new myBird("19-00-00T00:00","STURNIDA","Crested Myna","八哥","Acridotheres cristatellus",[p_id("1601china",)],["cnsbg","1/2016","Male"],"cremyn",19932);
