@@ -22,6 +22,7 @@
       cnjsxp:  ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl(5295524)],
       cnlydp:  ["Denggao Park","Longyan, Fujian, China","龙岩登高公园","中国福建省","http://www.longyan.gov.cn/lypd/yw/csgy/index_1.htm"],
       cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl([145000,5878170])],
+//    cnxihu:  ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")]
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
       crarol:  ["Arenal Observatory Lodge","Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加","https://www.arenalobservatorylodge.com/"],
       crsanj:  ["San José","Costa Rica","圣何塞","哥斯达黎加",wikiurl("San José, Costa Rica"),"https://baike.baidu.com/item/%E5%9C%A3%E4%BD%95%E5%A1%9E/62358"],
@@ -152,7 +153,7 @@
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Egyptian Goose","埃及雁","Alopochen aegyptiaca",[p_id("1606florida",10)],["flplpr","6/2016"],"egygoo",1176180);
   birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",13)],["flplpr","6/2016","crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"],797064);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck(M)"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"],1151211);
-//birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",["0504zoo/0504zoo__13"],["natzo","4/2005"],"manduc",17774);
+//birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",[p_id()],["cnxihu","4/2005"],"manduc",17774);
   birds[j++] = new myBird("07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Spatula discors",m_id(["20160410_036_Blue-wingedTeal","20150321_042_Blue-wingedTeal"]),["mdcorl","4/2016","Female left, male right","mdswhf","3/2015"],3143771);
 //birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",[m_id("")],["mdbhrp","9/2015"],3140934);
   birds[j++] = new myBird("12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Spatula clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler")],["vahump","11/2015","Male left, females right","mdftmh","2/2015"],33050);
