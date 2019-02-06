@@ -275,6 +275,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with bingo dotters","用宾果笔画画"])[cn_ind];
     this[0][i]    = "20190204_1";
     this[1][i++]  = (["Gluing heart-shaped cutouts","贴心小宝"])[cn_ind];
+    this[0][i]    = "20190206_1";
+    this[1][i++]  = (["Gluing heart-shaped cutouts","贴心小宝"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
