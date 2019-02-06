@@ -22,7 +22,7 @@
       cnjsxp:  ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl(5295524)],
       cnlydp:  ["Denggao Park","Longyan, Fujian, China","龙岩登高公园","中国福建省","http://www.longyan.gov.cn/lypd/yw/csgy/index_1.htm"],
       cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl([145000,5878170])],
-//    cnxihu:  ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")]
+//    cnxihu:  ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl(1107414)],
       crarol:  ["Arenal Observatory Lodge","Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加","https://www.arenalobservatorylodge.com/"],
       crsanj:  ["San José","Costa Rica","圣何塞","哥斯达黎加",wikiurl("San José, Costa Rica"),"https://baike.baidu.com/item/%E5%9C%A3%E4%BD%95%E5%A1%9E/62358"],
