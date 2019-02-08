@@ -1210,11 +1210,8 @@
   }
 
   function m_id(id,num){
-     if (typeof num === 'undefined'){ 
-        return sas("misc_birds/",id);
-     }else{
-        return sas("misc_birds"+num.toString()+"/",id);
-     }
+     if (typeof num === 'undefined'){num = "";} 
+     return sas("misc_birds"+num.toString()+"/",id);
   }
 
   function p_id(album,id){
