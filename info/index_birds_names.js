@@ -808,7 +808,7 @@
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Pine Siskin","松金翅雀","Spinus pinus",[p_id("1512bhill",7)],["mdbhrp","1/2015","On the right (a female "+b_link("Common Redpoll")+" on the left)","右边(左边是一只雌性"+b_link("白腰朱顶雀")+")"],4752047);
   birds[j++] = new myBird("13-12-25T19:22","FRINGILL","Lesser Goldfinch","暗背金翅雀","Spinus psaltria",[p_id("1312bigbendbirding",19)],["txbbnp","12/2013","Female"],4752024);
   birds[j++] = new myBird("06-08-05T11:23","FRINGILL","American Goldfinch","美洲金翅雀","Carduelis tristis",[p_id("1412mckee-beshers",9),p_id("1412mckee-beshers",10),p_id("1512bhill",44)],["mdmwma","8/2014","Male","mdmwma","8/2014","Female","mdbhrp","11/2015","Winter female"],4753448);
-//birds[j++] = new myBird("19-00-00T00:00","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Coccothraustes vespertinus",[m_id("")],["caalgp","9/2017"],1596096);
+//birds[j++] = new myBird("19-00-00T00:00","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Coccothraustes vespertinus",[m_id("")],["mdcorl","2/2019","Female"],1596096);
 //birds[j++] = new myBird("19-00-00T00:00","FRINGILL","Yellow-crowned Euphonia","黄冠歌雀","Euphonia luteicapilla",[p_id("1812crbirding",20)],["crarol","12/2018","Male"],"yeceup1","黄冠歌雀");
   birds[j++] = new myBird("18-12-04T06:30","FRINGILL","Yellow-throated Euphonia","黄喉歌雀","Euphonia hirundinacea",p_id("1812crbirding",[26,27]),["crarol","12/2018","Male","crarol","12/2018","Female"],"yeteup1","黄喉歌雀");
   birds[j++] = new myBird("18-12-06T07:57","FRINGILL","Olive-backed Euphonia","绿背歌雀","Euphonia gouldi",[p_id("1812crbirding",72)],["crarol","12/2018","Female"],"olbeup1","绿背歌雀");
