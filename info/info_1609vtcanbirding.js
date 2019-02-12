@@ -49,7 +49,7 @@ function initAlbum(){
         this[1][19] = "北美豪猪。";
     }else{
         this[1][0] = "Moose bog in Wenlock Wildlife Management Area of Vermont.";
-        this[1][1] = "Gray Jay.";
+        this[1][1] = "Canada Jay.";
         this[1][2] = "Hermit Thrush.";
         this[1][3] = "Black-backed Woodpecker, female.";
         this[1][4] = "Black-backed Woodpecker, female.";

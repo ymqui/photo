@@ -54,7 +54,7 @@ function initAlbum(){
         this[1][10] = "Common Yellowthroat, female.";
         this[1][11] = "Palm Warbler.";
         this[1][12] = "Yellow-rumped Warbler, male.";
-        this[1][13] = "Gray Jay.";
+        this[1][13] = "Canada Jay.";
         this[1][14] = "Broad-winged Hawk.";
     }
 }
