@@ -277,6 +277,11 @@ function initAlbum(){
     this[1][i++]  = (["Gluing heart-shaped cutouts","贴心小宝"])[cn_ind];
     this[0][i]    = "20190206_1";
     this[1][i++]  = (["Gluing heart-shaped cutouts","贴心小宝"])[cn_ind];
+    this[0][i]    = "20190214_1";
+    this[1][i++]  = (["Valentine's card made by Mrs Bringas","球球老师做的情人节冰箱磁铁贺卡"])[cn_ind];
+    this[0][i]    = "20190214_2";
+    this[1][i++]  = (["A Valentine's card made from one of Nathan's paintings","球球的画做成的情人节贺卡"])[cn_ind];
+
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
