@@ -774,11 +774,12 @@
   birds[j++] = new myBird("17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[p_id("1704longyan",2)],["cnlydp","4/2017","Male"],"gybthr1","灰背鸫");
 //birds[j++] = new myBird("19-00-00T00:00","TURDIDAE","Common Blackbird","乌鸫","Turdus merula",p_id("1601china",[16,70]),["cnjsxp","1/2016","cnbjsp","1/2016"],"eurbla",69013);
   birds[j++] = new myBird("16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","1/2016","Male","cnjsxp","1/2016","Female"],"chibla1",[69013,19267064]);
-  birds[j++] = new myBird("06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",[m_id("20170506_042_AmericanRobin"),p_id("1206brooksidebirding",12),p_id("1204robin",2)],["nycenp","5/2017","mdbrgd","6/2012","Immature","mdmdmd","4/2012","Germantown","","","德国镇"],1448462);
 //birds[j++] = new myBird("19-00-00T00:00","TURDIDAE","Red-throated Thrush","赤颈鸫","Turdus ruficollis",[p_id("1601china",)],["cnlydp","1/2016","Male"],"retthr1",263625);
   birds[j++] = new myBird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","1/2016","cnbjth","1/2016"],"dusthr1",1032377);
 //birds[j++] = new myBird("19-00-00T00:00","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",[p_id("1601china",)],["cnbjjp","1/2016"],"dusthr2",10472312);
   birds[j++] = new myBird("18-12-04T07:50","TURDIDAE","Clay-colored Thrush","褐背鸫","Turdus grayi",[p_id("1812crbirding",29)],["crarol","12/2018"],"clcrob","褐背鸫");
+//birds[j++] = new myBird("19-00-00T00:00","TURDIDAE","Rufous-backed Robin","棕背鸲鸫","Turdus rufopalliatus",[p_id("1601china",)],["mxmcbc","5/2019"],"rubrob","棕背鸲鸫");
+  birds[j++] = new myBird("06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",[m_id("20170506_042_AmericanRobin"),p_id("1206brooksidebirding",12),p_id("1204robin",2)],["nycenp","5/2017","mdbrgd","6/2012","Immature","mdmdmd","4/2012","Germantown","","","德国镇"],1448462);
   birds[j++] = new myBird("15-01-08T07:25","TURDIDAE","Red-legged Thrush","红腿鸫","Turdus plumbeus",[p_id("1501prbirding",36)],["prsanj","1/2015"],"relthr1",4840639);
   birds[j++] = new myBird("16-01-06T09:03","MUSCICAP","Oriental Magpie-Robin","鹊鸲","Copsychus saularis",[p_id("1601china",26)],["cnjsxp","1/2016","Male"],"magrob",37811);
   birds[j++] = new myBird("16-01-05T09:41","MUSCICAP","Red-flanked Bluetail","红胁蓝尾鸲","Tarsiger cyanurus",p_id("1601china",[18,19]),["cnjsxp","1/2016","Female"],"refblu",33075);
