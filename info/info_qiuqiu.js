@@ -147,6 +147,8 @@ function initAlbum(){
     this[1][i++]  = (["Viewing the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
     this[0][i]    = "20181226_064_Walking";
     this[1][i++]  = (["Nathan can walk now","球球能自己走了"])[cn_ind];
+    this[0][i]    = "20190220_Reading";
+    this[1][i++]  = (["Reading with Mommy","和妈妈一起看书"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
