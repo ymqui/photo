@@ -283,6 +283,8 @@ function initAlbum(){
     this[1][i++]  = (["A Valentine's card made from one of Nathan's paintings","球球的画做成的情人节贺卡"])[cn_ind];
     this[0][i]    = "20190215_1";
     this[1][i++]  = (["Sending a letter","寄信"])[cn_ind];
+    this[0][i]    = "20190222_1";
+    this[1][i++]  = (["Enjoying the lunch","吃午餐"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
