@@ -285,6 +285,12 @@ function initAlbum(){
     this[1][i++]  = (["Sending a letter","寄信"])[cn_ind];
     this[0][i]    = "20190222_1";
     this[1][i++]  = (["Enjoying the lunch","吃午餐"])[cn_ind];
+    this[0][i]    = "20190225_1";
+    this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
+    this[0][i]    = "20190225_2";
+    this[1][i++]  = (["Playing with water","玩水"])[cn_ind];
+    this[0][i]    = "20190225_3";
+    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
