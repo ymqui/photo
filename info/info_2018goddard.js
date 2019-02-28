@@ -291,6 +291,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with water","玩水"])[cn_ind];
     this[0][i]    = "20190225_3";
     this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[0][i]    = "20190228_1";
+    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
