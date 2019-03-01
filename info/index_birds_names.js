@@ -134,7 +134,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","STRUTHIO","Somali Ostrich","索马里鸵鸟","Struthio molybdophanes",[m_id("")],["mdbhrp","9/2015"],"ostric3",4925445);
 //birds[j++] = new myBird("19-00-00T00:00","RHEIDAE ","Greater Rhea","大美洲鸵","Rhea americana",[m_id("")],["mdbhrp","9/2015"],"grerhe1","美洲鸵鸟");
 //birds[j++] = new myBird("19-00-00T00:00","APTERYGI","Southern Brown Kiwi","褐几维","Apteryx australis",[m_id("")],["mdbhrp","9/2015"],"sobkiw1","褐几维鸟");
-//birds[j++] = new myBird("19-00-00T00:00","CASUARII","Southern Cassowary","南方鹤鸵","Casuarius casuarius",[m_id("")],["mdbhrp","9/2015"],"soucas1",4945963);
+//birds[j++] = new myBird("19-00-00T00:00","CASUARII","Southern Cassowary","双垂鹤鸵","Casuarius casuarius",[m_id("")],["mdbhrp","9/2015"],"soucas1");
 //birds[j++] = new myBird("19-00-00T00:00","DROMAIID","Emu","鸸鹋","Dromaius novaehollandiae",[m_id("")],["mdbhrp","9/2015"],"emu1");
 //birds[j++] = new myBird("19-00-00T00:00","TINAMIDA","Great Tinamou","大䳍","Tinamus major",[m_id("")],["mdbhrp","9/2015"],"gretin1");
 //birds[j++] = new myBird("19-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","9/2015"],"horscr1");
