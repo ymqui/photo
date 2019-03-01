@@ -160,7 +160,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Spatula clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler")],["vahump","11/2015","Male left, females right","mdftmh","2/2015"]);
   birds[j++] = new myBird("15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Mareca strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall(M)"]),["vahump","11/2015","Male left, female right","mdcovl","3/2015","Males"]);
-  birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon(M)")],["mdmdmd","3/2016","Male, Trout Run WWTP, Garrett County","雄性","","加勒特郡鳟鱼溪废水处理厂"]);
+  birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon(M)")],["mdmdmd","3/2016","Male, a Trout Run WWTP, Garrett County","","","加勒特郡鳟鱼溪废水处理厂"]);
   birds[j++] = new myBird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Mareca americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon(F)"]),["mdloch","2/2015","Males","mdmdmd","1/2017","Female, Cambridge","雌性","","剑桥"]);
   birds[j++] = new myBird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdbrgd","6/2012","Eclipse male","mdbmnt","10/2015"]);
   birds[j++] = new myBird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]);
