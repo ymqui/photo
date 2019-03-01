@@ -380,9 +380,9 @@
   birds[j++] = new myBird("05-11-26T09:57","LARIDAE ","Ring-billed Gull","环嘴鸥","Larus delawarensis",m_id(["20151031_116_Ring-billedGull","20150321_037_Ring-billedGull(1W)"]),["mdmdmd","10/2015","Ocean City Inlet","","","大洋城海口","mdmdmd","3/2015","1st winter, Southwest Area Park, Baltimore","一齡冬羽","","巴尔的摩西南地区公园"]);
   birds[j++] = new myBird("15-07-11T20:16","LARIDAE ","Western Gull","西美鸥","Larus occidentalis",p_id("1507birdingwest",[33,35]),["cambsp","7/2015","cambsp","7/2015","Hatchling","幼鸟"]);
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","California Gull","加州鸥","Larus californicus",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the right, on the left is a "+b_link("Black-legged Kittiwake"),"右边，左边是一只"+b_link("三趾鸥")]);
-  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter","三龄冬羽"]);
+  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter",""]);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The Bund, Shanghai, China","中国上海外滩","arb","1/2016","Immature, the Bund, Shanghai, China","未成年，中国上海外滩"]);
-  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","mdmdmd","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County","二龄冬羽","","巴尔的摩郡罗利滩社区码头"],-9019);
+  birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","mdmdmd","1/2019","2nd winter, Loreley Beach Community Pier, Baltimore County","","","巴尔的摩郡罗利滩社区码头"],-9019);
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdmdmd","10/2015","Ocean City","","","大洋城"]);
   birds[j++] = new myBird("15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["wacape","7/2015"]);
   birds[j++] = new myBird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190127_006_GlaucousGull(1W)")],["mdmdmd","1/2019","1st winter, West Ocean City Marina","","","大洋城西城码头"]);
@@ -1029,11 +1029,15 @@
 	       }else if ((/^females* and chicks*/i).test(tmp)){
                   info[3+6*i] = "雌性和幼鸟";
                }else if ((/^females*/i).test(tmp)){
-                  info[3+6*i] = "雌性";  
-               }else if ((/^1st winter/i).test(tmp)){
-                  info[3+6*i] = "一龄冬羽";
+                  info[3+6*i] = "雌性";
                }else if ((/^winter plumage/i).test(tmp)){
                   info[3+6*i] = "冬羽";
+	       }else if ((/^1st winter/i).test(tmp)){
+                  info[3+6*i] = "一龄冬羽";
+	       }else if ((/^2nd winter/i).test(tmp)){
+                  info[3+6*i] = "二龄冬羽";
+	       }else if ((/^3rd winter/i).test(tmp)){
+                  info[3+6*i] = "三龄冬羽";
                }else if ((/^fall plumage/i).test(tmp)){
                   info[3+6*i] = "秋羽";
                }else if ((/^winter females*/i).test(tmp)){
