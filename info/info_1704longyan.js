@@ -59,7 +59,7 @@ function initAlbum(){
         this[1][9] = "Hill Prinia, Neiban Village.";
         this[1][10] = "Hill Prinia, Neiban Village.";
         this[1][11] = "Ring-necked Pheasant, female, Neiban Village.";
-        this[1][12] = "Japanese White-eye, Denggao Park.";
+        this[1][12] = "Warbling White-eye, Denggao Park.";
         this[1][13] = "Scarlet Minivet, female, Denggao Park.";
         this[1][14] = "Scarlet Minivet, female, Denggao Park.";
         this[1][15] = "Yellow-browed Warbler, Denggao Park.";
