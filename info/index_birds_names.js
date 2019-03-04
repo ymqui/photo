@@ -720,8 +720,8 @@
   birds[j++] = new myBird("16-01-12T16:09","CISTICOL","Common Tailorbird","长尾缝叶莺","Orthotomus sutorius",p_id("1601china",[54,55]),["cnlydp","1/2016"],"comtai1");
 //birds[j++] = new myBird("19-00-00T00:00","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",[m_id("")],["mdbhrp","9/2015"],"sbsbab3");
 //birds[j++] = new myBird("19-00-00T00:00","PELLORNE","Dusky Fulvetta","褐顶雀鹛","Alcippe brunnea",[m_id("")],["mdbhrp","9/2015"],"dusful1");
-  birds[j++] = new myBird("16-01-06T10:14","LEIOTHRI","Chinese Hwamei","画眉","Garrulax canorus",p_id("1601china",[32,33]),["cnjsxp","1/2016"],"melthr");
   birds[j++] = new myBird("16-01-05T09:34","LEIOTHRI","Red-billed Leiothrix","红嘴相思鸟","Leiothrix lutea",[p_id("1601china",17)],["cnjsxp","1/2016"],"reblei");
+  birds[j++] = new myBird("16-01-06T10:14","LEIOTHRI","Chinese Hwamei","画眉","Garrulax canorus",p_id("1601china",[32,33]),["cnjsxp","1/2016"],"melthr");
 //birds[j++] = new myBird("19-00-00T00:00","SYLVIIDA","Wrentit","鹪雀莺","Chamaea fasciata",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-01-11T14:29","ZOSTEROP","Warbling White-eye","暗绿绣眼鸟","Zosterops japonicus",[p_id("1704longyan",13),p_id("1601china",46)],["cnlydp","4/2017","cnlydp","1/2016"],"jaweye");
 //birds[j++] = new myBird("19-00-00T00:00","ZOSTEROP","Striated Yuhina","栗耳凤鹛","Yuhina castaniceps",[p_id("1601china",)],["cnlydp","1/2016","Male"],"stryuh1");
