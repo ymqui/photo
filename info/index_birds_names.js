@@ -667,7 +667,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","BOMBYCIL","Japanese Waxwing","小太平鸟","Bombycilla japonica",[p_id("1601china",)],["cnbjjp","1/2016"],"japwax1");
   birds[j++] = new myBird("06-06-08T15:54","BOMBYCIL","Cedar Waxwing","雪松太平鸟","Bombycilla cedrorum",[p_id("1412mckee-beshers",39),p_id("1512bhill",30)],["mdmwma","12/2014","mdbhrp","8/2015","Immature"]);
 //birds[j++] = new myBird("19-00-00T00:00","PTILIOGO","Gray Silky-flycatcher","灰丝鹟","Ptiliogonys cinereus",[p_id("1507birdingwest",6)],["mxunam","7/2015"],"grsfly1");
-  birds[j++] = new myBird("15-07-06T13:21","PTILOGON","Phainopepla","黑丝鹟","Phainopepla nitens",[p_id("1507birdingwest",6)],["nvdnwr","7/2015","Female"]);
+  birds[j++] = new myBird("15-07-06T13:21","PTILIOGO","Phainopepla","黑丝鹟","Phainopepla nitens",[p_id("1507birdingwest",6)],["nvdnwr","7/2015","Female"]);
 //birds[j++] = new myBird("19-00-00T00:00","HYPOCOLI","Grey Hypocolius","灰连雀","Hypocolius ampelinus",[m_id("")],["mdbhrp","9/2015"],"hypoco1");
 //birds[j++] = new myBird("19-00-00T00:00","DULIDAE ","Palmchat","棕榈鵖","Dulus dominicus",[m_id("")],["mdbhrp","9/2015"],"palmch1");
 //birds[j++] = new myBird("19-00-00T00:00","HYLOCITR","Hylocitrea","林啸鹟","Hylocitrea bonensis",[m_id("")],["mdbhrp","9/2015"],"olfwhi1");
