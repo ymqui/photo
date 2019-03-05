@@ -10,7 +10,8 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var pagelist   = [["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
+var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina",","6/2018 南卡罗来纳州美特尔海滩度假"],
+ 		  ["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],
                   ["2018goddard","2018-2019 Nathan at Goddard School","2018-2019年球球在戈达德托儿所的照片"]];
  
@@ -101,12 +102,8 @@ function initAlbum(){
     this[1][i++]  = (["Superman","小超人"])[cn_ind];
     this[0][i]    = "20180527_021_Nap";
     this[1][i++]  = (["Nap","抱着小熊午睡"])[cn_ind];
-    this[0][i]    = "20180601_022_TravelInCar";
-    this[1][i++]  = (["On the road","在路上"])[cn_ind];
     this[0][i]    = "20180603_023_SCMyrtleBeach";
-    this[1][i++]  = (["Vacationing at Myrtle Beach, South Carolina","和妈妈在南卡罗来纳州美特尔海滩度假"])[cn_ind];
-    this[0][i]    = "20180603_026_SCMyrtleBeachHotel";
-    this[1][i++]  = (["Vacationing at Myrtle Beach, South Carolina","和妈妈在南卡罗来纳州美特尔海滩度假"])[cn_ind];
+    this[1][i++]  = ([pagelink("1806myrtlebeach","Vacationing at Myrtle Beach, South Carolina"),"和妈妈在"+pagelink("1806myrtlebeach","南卡罗来纳州美特尔海滩度假")])[cn_ind];
     this[0][i]    = "20180618_028_GoddardSchool";
     this[1][i++]  = (["Nathan is going to the "+daycare,"球球上"+daycare+"了"])[cn_ind];
     this[0][i]    = "20180618_029_GoddardSchool";
