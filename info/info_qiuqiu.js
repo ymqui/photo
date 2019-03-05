@@ -23,7 +23,7 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
-    daycare = ([pagelink("2018goddard","daycare"),pagelink("2018goddard","托儿所")])[cn_ind];
+    daycare       = pagelink("2018goddard",(["daycare","托儿所"])[cn_ind]);
     this[0][i]    = "20170128_001_OvulationTest";
     this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
     this[0][i]    = "20170215_002_PregnancyTest";
@@ -131,7 +131,7 @@ function initAlbum(){
     this[0][i]    = "20181031_051_WithMom";
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
     this[0][i]    = "20181031_053_Parade";
-    this[1][i++]  = ([pagelink("1810parade","Goddard School Halloween parade"),pagelink("1810parade","戈达德托儿所万圣节游行")])[cn_ind];
+    this[1][i++]  = pagelink("1810parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行"])[cn_ind]);
     this[0][i]    = "20181125_060_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181125_062_Playpen";
