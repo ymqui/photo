@@ -10,7 +10,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina",","6/2018 南卡罗来纳州美特尔海滩度假"],
+var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina",,"6/2018 南卡罗来纳州美特尔海滩度假"],
  		  ["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],
                   ["2018goddard","2018-2019 Nathan at Goddard School","2018-2019年球球在戈达德托儿所的照片"]];
