@@ -300,7 +300,11 @@ function initAlbum(){
     this[0][i]    = "20190305_1";
     this[1][i++]  = (["Learning to use chopsticks","学用筷子"])[cn_ind];
     this[0][i]    = "20190306_1";
-    this[1][i++]  = (["Painting with crayons","用蜡笔画画"])[cn_ind];
+    this[1][i++]  = (["Painting with crayons","用蜡笔蛋画画"])[cn_ind];
+    this[0][i]    = "20190308_1";
+    this[1][i++]  = (["Playing with plastic fast food","玩塑料快餐模型"])[cn_ind];
+    this[0][i]    = "20190308_2";
+    this[1][i++]  = (["Reading a book","读书"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
