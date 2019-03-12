@@ -455,10 +455,11 @@
   birds[j++] = new myBird("15-01-03T10:48","TROCHILI","Antillean Mango","黑胸芒果蜂鸟","Anthracothorax dominicus",[p_id("1501prbirding",17)],["prcnwr","1/2015","Female"],"antman1");
   birds[j++] = new myBird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],"grtcar1");
   birds[j++] = new myBird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1",-11143);
+//birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Broad-billed Hummingbird","阔嘴蜂鸟","Cynanthus latirostris",[m_id("")],["mxunam","5/2019"]);
   birds[j++] = new myBird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
 //birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Berylline Hummingbird","绿蜂鸟","Amazilia beryllina",[m_id("")],["mxunam","5/2019"],"berhum");
+//birds[j++] = new myBird("19-00-00T00:00","TROCHILI","White-eared Hummingbird","白耳蜂鸟","Hylocharis leucotis",[m_id("")],["mxunam","5/2019"],"whehum");
 //birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Talamanca Hummingbird","塔拉曼卡蜂鸟","Eugenes spectabilis",[m_id("")],["mdbhrp","9/2015"],"maghum2","");
   birds[j++] = new myBird("06-09-07T17:00","TROCHILI","Ruby-throated Hummingbird","红喉北蜂鸟","Archilochus colubris",p_id("1107brookside",[10,13]),["mdbrgd","7/2011","Female/immature"]);
   birds[j++] = new myBird("15-07-08T09:26","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",[p_id("1507birdingwest",7)],["arb","7/2015","Immature male, Hayden Island, Portland, Oregon, USA","未成年雄性，美国俄勒冈州波特兰海登岛"]);
   birds[j++] = new myBird("13-12-25T17:25","TROCHILI","Anna's Hummingbird","安氏蜂鸟","Calypte anna",p_id("1312bigbendbirding",[12,13,14]),["txbbnp","12/2013","Female","txbbnp","12/2013","Male","txbbnp","12/2013","Female"]);
@@ -960,7 +961,6 @@
   birds[j++] = new myBird("18-12-04T09:09","THRAUPID","Blue-gray Tanager","灰蓝裸鼻雀","Thraupis episcopus",[p_id("1812crbirding",34)],["crarol","12/2018"],"bugtan");
   birds[j++] = new myBird("18-12-04T07:00","THRAUPID","Palm Tanager","棕榈裸鼻雀","Thraupis palmarum",[p_id("1812crbirding",28)],["crarol","12/2018"],"paltan1");
   birds[j++] = new myBird("18-12-03T15:50","THRAUPID","Emerald Tanager","翠绿唐加拉雀","Tangara florida",[p_id("1812crbirding",15)],["crarol","12/2018"],"emetan1");
-//birds[j++] = new myBird("19-00-00T00:00","THRAUPID","Silver-throated Tanager","银喉唐加拉雀","Tangara icterocephala",["0504zoo/0504zoo__24"],["crarol","12/2018"],"sittan1");
   birds[j++] = new myBird("18-12-05T13:58","THRAUPID","Bay-headed Tanager","栗头唐加拉雀","Tangara gyrola",[p_id("1812crbirding",65)],["crarol","12/2018"],"bahtan1");
   birds[j++] = new myBird("18-12-03T16:02","THRAUPID","Golden-hooded Tanager","金头唐加拉雀","Tangara larvata",[p_id("1812crbirding",16)],["crarol","12/2018"],"gohtan1");
   birds[j++] = new myBird("18-12-04T09:45","THRAUPID","Red-legged Honeycreeper","红脚旋蜜雀","Cyanerpes cyaneus",p_id("1812crbirding",[36,37,38]),["crarol","12/2018","Male","crarol","12/2018","Female","crarol","12/2018","Male, nonbreeding plumage"],"relhon1");
