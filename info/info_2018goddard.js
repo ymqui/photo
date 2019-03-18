@@ -319,6 +319,8 @@ function initAlbum(){
     this[1][i++]  = (["Having fun playing outside (Nathan weighs 24 lb 13 oz today)","户外玩耍(球球今天测体重22.5斤)"])[cn_ind];
     this[0][i]    = "20190315_1";
     this[1][i++]  = (["Barefoot fun","光脚活动"])[cn_ind];
+    this[0][i]    = "20190318_1";
+    this[1][i++]  = (["Happy St. Patrick's Day!","庆祝圣帕特里克节穿绿衣服"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
