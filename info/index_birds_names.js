@@ -120,7 +120,7 @@
             腹:"fu4",巴:"ba1",比:"bi3",库:"ku4",极:"ji2",科:"ke1",歌:"ge1",拟:"ni3",虎:"hu3",头:"tou2",颊:"jia2",伦:"lun2",油:"you2",走:"zou3",鼠:"shu3",喙:"hui4",画:"hua4",鬼:"gui3",赭:"zhe3",辉:"hui1",啄:"zhuo2",丑:"chou3",笑:"xiao4",原:"yuan2",风:"feng1",颈:"jing3",肛:"gang1",椒:"jiao1", 黄:"huang2",
             䴘:"ti1",鳍:"qi2",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",掘:"jue2",榄:"lan3",蟹:"xie4",楔:"xie1",豆:"dou4",麝:"she4",扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",灯:"deng1",中:"zhong1",胸:"xiong1",     
             几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",凫:"fu2",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",草:"cao3",曼:"man4",膀:"bang3",滇:"dian1",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",眶:"kuang4",光:"guang1",
-            理:"li3",二:"er4",奇:"qi2",希:"xi1",思:"si1",距:"ju4",四:"si4",肃:"su4",叽:"ji1",蛛:"zhu1",旦:"dan4",痣:"zhi4",湾:"wan1",曙:"shu3",道:"dao4",稻:"dao4",黍:"shu3",煤:"mei2",盘:"pan2",球:"qiu2",纵:"zong4",仙:"xian1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",蝗:"huang2",橙:"cheng2",
+            理:"li3",伍:"wu3",奇:"qi2",希:"xi1",思:"si1",距:"ju4",四:"si4",肃:"su4",叽:"ji1",蛛:"zhu1",旦:"dan4",痣:"zhi4",湾:"wan1",曙:"shu3",道:"dao4",稻:"dao4",黍:"shu3",煤:"mei2",盘:"pan2",球:"qiu2",纵:"zong4",仙:"xian1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",蝗:"huang2",橙:"cheng2",
             篱:"li2",咋:"za3",域:"yu4",岸:"an4",溪:"xi1",贺:"he4",塔:"ta3",足:"zu2",曳:"ye4",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",哲:"zhe2",舌:"she2",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",煌:"huang2",相:"xiang1",
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",饰:"shi4",翎:"ling2",通:"tong1",鸮:"xiao1",鲣:"jian1",猛:"meng3",旋:"xuan2",僧:"seng1",响:"xiang3",双:"shuang1"};
 
@@ -648,6 +648,7 @@
   birds[j++] = new myBird("18-12-06T06:57","CORVIDAE","Brown Jay","褐鸦","Psilorhinus morio",[p_id("1812crbirding",70)],["crarol","12/2018"],"brnjay");
   birds[j++] = new myBird("06-03-04T15:28","CORVIDAE","Blue Jay","冠蓝鸦","Cyanocitta cristata",[p_id("1412mckee-beshers",34),m_id("20170506_053_BlueJay")],["mdmwma","11/2014","nycenp","5/2017"]);
   birds[j++] = new myBird("15-07-08T19:39","CORVIDAE","Steller's Jay","暗冠蓝鸦","Cyanocitta stelleri",[p_id("1507birdingwest",14)],["waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"]);
+//birds[j++] = new myBird("19-00-00T00:00","CORVIDAE","Woodhouse's Scrub-Jay","伍氏丛鸦","Aphelocoma woodhouseii",[p_id("1601china",)],["mxunam","5/2019"],"西丛鸦落基山亚种");
   birds[j++] = new myBird("05-12-28T13:13","CORVIDAE","Florida Scrub-Jay","佛罗里达丛鸦","Aphelocoma coerulescens",p_id("0512merritt",[19,21]),["flmnwr","12/2005"]);
   birds[j++] = new myBird("16-01-03T09:56","CORVIDAE","Azure-winged Magpie","灰喜鹊","Cyanopica cyanus",[p_id("1601china",4)],["cnbjjp","1/2016"],"azwmag2");
 //birds[j++] = new myBird("19-00-00T00:00","CORVIDAE","Red-billed Blue Magpie","红嘴蓝鹊","Urocissa erythroryncha",[p_id("1601china",)],["cnbjjp","1/2016"],"rbbmag");
