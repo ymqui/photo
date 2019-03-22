@@ -35,7 +35,7 @@ function initAlbum(){
     this[0][i]    = "20180622_2";
     this[1][i++]  = (["Reading","看书"])[cn_ind];
     this[0][i]    = "20180625_1";
-    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Painting with bare hands","徒手画画"])[cn_ind];
     this[0][i]    = "20180626_1";
     this[1][i++]  = (["Playing with an oil and water sensory bottle","玩油水感官瓶"])[cn_ind];
     this[0][i]    = "20180628_1";
@@ -158,7 +158,7 @@ function initAlbum(){
     this[0][i]    = "20180924_1";
     this[1][i++]  = (["Little firefighter","小小消防员"])[cn_ind];
     this[0][i]    = "20180924_2";
-    this[1][i++]  = (["Playing with red paint","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Playing with red paint","徒手画画"])[cn_ind];
     this[0][i]    = "20180924_3";
     this[1][i++]  = (["Eating finger food","吃切成小块的水果"])[cn_ind];
     this[0][i]    = "20180926_1";
@@ -264,7 +264,7 @@ function initAlbum(){
     this[0][i]    = "20190124_3";
     this[1][i++]  = (["Feeling a bag of flour","感受手捏面粉的感觉"])[cn_ind];
     this[0][i]    = "20190125_1";
-    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Painting with bare hands","徒手画画"])[cn_ind];
     this[0][i]    = "20190128_1";
     this[1][i++]  = (["Painting with whipped cream","涂手用各种颜色的奶油画画"])[cn_ind];
     this[0][i]    = "20190130_1";
@@ -290,9 +290,9 @@ function initAlbum(){
     this[0][i]    = "20190225_2";
     this[1][i++]  = (["Playing with water","玩水"])[cn_ind];
     this[0][i]    = "20190225_3";
-    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Painting with bare hands","徒手画画"])[cn_ind];
     this[0][i]    = "20190228_1";
-    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Painting with bare hands","徒手画画"])[cn_ind];
     this[0][i]    = "20190301_1";
     this[1][i++]  = (["Painting with animal stamps","用动物印章画画"])[cn_ind];
     this[0][i]    = "20190304_1";
@@ -324,7 +324,7 @@ function initAlbum(){
     this[0][i]    = "20190320_1";
     this[1][i++]  = (["The first day of spring","春天的第一天"])[cn_ind];
     this[0][i]    = "20190322_1";
-    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
+    this[1][i++]  = (["Painting with bare hands","徒手画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
