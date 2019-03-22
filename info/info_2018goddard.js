@@ -323,6 +323,8 @@ function initAlbum(){
     this[1][i++]  = (["Happy St. Patrick's Day!","穿绿衣服庆祝圣帕特里克节"])[cn_ind];
     this[0][i]    = "20190320_1";
     this[1][i++]  = (["The first day of spring","春天的第一天"])[cn_ind];
+    this[0][i]    = "20190322_1";
+    this[1][i++]  = (["Painting with bare hands","涂手画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
