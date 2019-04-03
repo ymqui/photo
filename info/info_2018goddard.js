@@ -340,7 +340,7 @@ function initAlbum(){
     this[0][i]    = "20190402_1";
     this[1][i++]  = (["Ready for an adventure","整装待发"])[cn_ind];
     this[0][i]    = "20190403_1";
-    this[1][i++]  = (["Playing in the playhouse","户外活动"])[cn_ind];
+    this[1][i++]  = (["Friends","小伙伴"])[cn_ind];
     this[0][i]    = "20190403_2";
     this[1][i++]  = (["Playing in the playground","户外活动"])[cn_ind];
 
