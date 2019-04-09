@@ -349,6 +349,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with a toy truck","用玩具卡车画画"])[cn_ind];
     this[0][i]    = "20190408_1";
     this[1][i++]  = (["Painting with toy carrots","用胡萝卜玩具画画"])[cn_ind];
+    this[0][i]    = "20190409_1";
+    this[1][i++]  = (["Painting with string beans","用豆子画画"])[cn_ind];
 
 
 
