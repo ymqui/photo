@@ -146,6 +146,10 @@ function initAlbum(){
     this[1][i++]  = (["Nathan can walk now","球球能自己走了"])[cn_ind];
     this[0][i]    = "20190220_Reading";
     this[1][i++]  = (["Reading with Mommy","和妈妈一起看书"])[cn_ind];
+    this[0][i]    = "20190407_008";
+    this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起坐在小何叔叔腿上看书"])[cn_ind];
+    this[0][i]    = "20190407_009";
+    this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
