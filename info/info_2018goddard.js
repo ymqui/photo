@@ -353,6 +353,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with green beans","用豆角画画"])[cn_ind];
     this[0][i]    = "20190411_1";
     this[1][i++]  = (["Painting with celery","用芹菜画画"])[cn_ind];
+    this[0][i]    = "20190415_1";
+    this[1][i++]  = (["Painting with cookie cutters","用饼干模具绘画"])[cn_ind];
 
 
 
