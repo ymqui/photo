@@ -356,7 +356,9 @@ function initAlbum(){
     this[0][i]    = "20190415_1";
     this[1][i++]  = (["Painting with cookie cutters","用饼干模具绘画"])[cn_ind];
     this[0][i]    = "20190416_1";
-    this[1][i++]  = (["Painting with a brush","用刷子画画"])[cn_ind];
+    this[1][i++]  = (["Painting with a pompom","用绒球画画"])[cn_ind];
+    this[0][i]    = "20190417_1";
+    this[1][i++]  = (["Planting seeds to celebrate next week's Earth Day","种植种子来庆祝下周的地球日"])[cn_ind];
 
 
 
