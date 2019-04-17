@@ -122,8 +122,6 @@ function initAlbum(){
     this[1][i++]  = (["Having fun in a baby walker","在婴儿学步车里玩得很开心"])[cn_ind];
     this[0][i]    = "20180825_041_DCBuildingMuseum";
     this[1][i++]  = (["Visiting the Building Museum in Washington DC","参观华盛顿特区的建筑博物馆"])[cn_ind];
-    this[0][i]    = "20180930_044_Cheerios";
-    this[1][i++]  = (["Cheerios is one of Nathan's favorite finger foods","球球非常喜欢吃麦圈"])[cn_ind];
     this[0][i]    = "20181007_047_ToyPlane";
     this[1][i++]  = (["New toy","新玩具"])[cn_ind];
     this[0][i]    = "20181007_048_StandingWithMom";
@@ -133,8 +131,6 @@ function initAlbum(){
     this[0][i]    = "20181031_053_Parade";
     this[1][i++]  = pagelink("1810parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行"])[cn_ind]);
     this[0][i]    = "20181125_060_Playpen";
-    this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
-    this[0][i]    = "20181125_062_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181125_063_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
