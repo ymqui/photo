@@ -146,6 +146,8 @@ function initAlbum(){
     this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起坐在小何叔叔怀里看书"])[cn_ind];
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
+    this[0][i]    = "20190420_020";
+    this[1][i++]  = (["Visiting the Smithonian museums in Washington DC","去华盛顿特区参观博物馆"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
