@@ -13,6 +13,7 @@ var makeface   = new Array();
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],
  		  ["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],
+		  ["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["2018goddard","2018-2019 Nathan at Goddard School","2018-2019年球球在戈达德托儿所的照片"]];
  
 document.title = title;
@@ -37,7 +38,7 @@ function initAlbum(){
     this[0][i]    = "20170920_018";
     this[1][i++]  = (["Baby shower","同事们举办的"+pagelink("1709babyshower","准妈妈派对")])[cn_ind];
     this[0][i]    = "20171031_009_AfterBirth";
-    this[1][i++]  = (["In the nursery after birth, 8 lb 12 oz, and 20 inches long","宝宝出生了，7斤9两重（8磅12盎司），51厘米长"])[cn_ind];
+    this[1][i++]  = (["In the nursery after birth, 8 lb 12 oz, and 20 inches long","宝宝出生了，7斤9两重(8磅12盎司)，51厘米长"])[cn_ind];
     this[0][i]    = "20171101_014_WithMom";
     this[1][i++]  = (["Resting with mom in the hospital recovery room","和妈妈在医院恢复室一块休息"])[cn_ind];
     this[0][i]    = "20171107_016_HomeAsleep";
@@ -67,7 +68,7 @@ function initAlbum(){
     this[0][i]    = "20171229_035_WithMom";
     this[1][i++]  = (["Mommy's little bundle of joy","和妈妈在一起"])[cn_ind];
     this[0][i]    = "20171229_036_2MonthCheckup";
-    this[1][i++]  = (["Nathan weighs 14 lbs at his 2-month well-baby checkup","球球两个月体检，有14磅（12斤7两）重"])[cn_ind];
+    this[1][i++]  = (["Nathan weighs 14 lbs at his 2-month well-baby checkup","球球两个月体检，有14磅(12斤7两)重"])[cn_ind];
     this[0][i]    = "20171231_037_WithGrandparents";
     this[1][i++]  = (["With Grandma and Grandpa","和外公外婆在一起"])[cn_ind];
     this[0][i]    = "20180112";
@@ -147,7 +148,7 @@ function initAlbum(){
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
     this[0][i]    = "20190420_020";
-    this[1][i++]  = (["Visiting the Smithonian museums in Washington DC","去华盛顿特区参观博物馆"])[cn_ind];
+    this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
