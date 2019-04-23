@@ -22,6 +22,8 @@ var swaptimerID  = null;
 var swaptimerOn  = false;
 var swapinterval = 500;
 
+var link_color   = "#3399FF";
+
 var facesize     = 15;
 if (cellphone){ facesize = 40; }
 
@@ -593,7 +595,7 @@ function switchlang(){
 }
 
 function pagelink(pid, descrip){
-    return "<a href='showphoto.html?"+pid+"' style='color: #3399FF; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
+    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
 } 
 
 function getdate(name,str){
