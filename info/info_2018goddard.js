@@ -359,9 +359,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with a pompom","用绒球画画"])[cn_ind];
     this[0][i]    = "20190417_1";
     this[1][i++]  = (["Planting seeds to celebrate next week's Earth Day","种植种子来庆祝下周的地球日"])[cn_ind];
-
-
-
+    this[0][i]    = "20190423_1";
+    this[1][i++]  = (["Painting with foam blocks","用泡沫块画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
