@@ -169,11 +169,11 @@
      if (window.usechinese){document.write('相关照片');}else{document.write('Related Photos');}
      document.write('<p><img src="'+thumb_dir+'branch.png">');
      document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
-     for (var i=0;i<pagelist.length;i++){
-         document.write(pagelink(pagelist[pagelist.length-1-i][0],pagelist[pagelist.length-1-i][pagelistid]));
-         if ((i!=(pagelist.length-1))&&(!cellphone)){document.write('<font color='+color_3+'>,</font>');}
+     for (var i=pagelist.length-1;i>=0;i--){
+         document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid]));
+         if ((i!=0)&&(!cellphone)){document.write('<font color='+color_3+'>,</font>');}
          document.write('&nbsp;');
-         if (i%3==2||cellphone){document.write('<br>');}
+         if (i%3==0||cellphone){document.write('<br>');}
      }  
   }
 
