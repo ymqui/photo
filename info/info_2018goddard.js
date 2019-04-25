@@ -363,6 +363,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting with foam blocks","用泡沫块画画"])[cn_ind];
     this[0][i]    = "20190424_1";
     this[1][i++]  = (["Enjoy a quiet reading moment","喜欢读书的球球"])[cn_ind];
+    this[0][i]    = "20190425_1";
+    this[1][i++]  = (["Playing with friends","户内活动"])[cn_ind];
+    this[0][i]    = "20190425_2";
+    this[1][i++]  = (["Enjoying the touch of soft cotton ball","玩棉花球"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
