@@ -133,8 +133,6 @@ function initAlbum(){
     this[1][i++]  = pagelink("1810parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行"])[cn_ind]);
     this[0][i]    = "20181125_060_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
-    this[0][i]    = "20181125_063_Playpen";
-    this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
     this[0][i]    = "20181204_016_ArenalObservatoryLodge";
