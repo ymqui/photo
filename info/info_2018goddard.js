@@ -378,7 +378,7 @@ function initAlbum(){
     this[0][i]    = "20190501_2";
     this[1][i++]  = (["Playing with natural fibers","感受纤维的质感"])[cn_ind];
     this[0][i]    = "20190502_1";
-    this[1][i++]  = (["Gluing fibers to paper","粘纸作画"])[cn_ind];
+    this[1][i++]  = (["Making a collage using hay and popsicle sticks","用胶水粘拼贴画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
