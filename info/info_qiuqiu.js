@@ -130,7 +130,7 @@ function initAlbum(){
     this[0][i]    = "20181031_051_WithMom";
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
     this[0][i]    = "20181031_053_Parade";
-    this[1][i++]  = pagelink("1810parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行，球球由Wahrhaftig老师抱着"])[cn_ind]);
+    this[1][i++]  = ([pagelink("1810parade","Goddard School Halloween parade"),pagelink("1810parade","戈达德托儿所万圣节游行")+"，球球由Wahrhaftig老师抱着")])[cn_ind];
     this[0][i]    = "20181125_060_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181127_AllergyTest";
