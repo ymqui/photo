@@ -22,7 +22,7 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    for (var i=0;i<12;i++){
+    for (var i=0;i<14;i++){
         this[0][i] = "1904dcmuseum_"+(i+1).toString();
         this[1][i] = "";
     }
@@ -39,6 +39,8 @@ function initAlbum(){
         this[1][9] = "和爸爸玩捉迷藏。";
         this[1][10] = "在国家自然历史博物馆。";
         this[1][11] = "在国家自然历史博物馆。";
+        this[1][12] = "在国家自然历史博物馆看蝴蝶。";
+        this[1][13] = "在国家自然历史博物馆。";
     }else{
         this[1][0] = "In the National Mall.";
         this[1][1] = "At the National Air and Space Museum.";
@@ -52,6 +54,8 @@ function initAlbum(){
         this[1][9] = "Playing hide and seek with Daddy.";
         this[1][10] = "At the National Museum of Natural History.";
         this[1][11] = "At the National Museum of Natural History.";
+        this[1][12] = "Watching butterflies at the National Museum of Natural History.";
+        this[1][13] = "At the National Museum of Natural History.";
     }
 }
  
