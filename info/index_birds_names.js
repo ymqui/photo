@@ -120,8 +120,8 @@
             腹:"fu4",巴:"ba1",比:"bi3",库:"ku4",极:"ji2",科:"ke1",歌:"ge1",拟:"ni3",虎:"hu3",头:"tou2",颊:"jia2",伦:"lun2",油:"you2",走:"zou3",鼠:"shu3",喙:"hui4",画:"hua4",鬼:"gui3",赭:"zhe3",辉:"hui1",啄:"zhuo2",丑:"chou3",笑:"xiao4",原:"yuan2",风:"feng1",颈:"jing3",肛:"gang1",黄:"huang2",光:"guang1",
             䴘:"ti1",鳍:"qi2",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",掘:"jue2",榄:"lan3",蟹:"xie4",楔:"xie1",豆:"dou4",麝:"she4",扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",灯:"deng1",中:"zhong1",强:"qiang2",   
             几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",凫:"fu2",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",草:"cao3",曼:"man4",膀:"bang3",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",鲣:"jian1",眶:"kuang4",响:"xiang3",
-            理:"li3",伍:"wu3",奇:"qi2",希:"xi1",思:"si1",距:"ju4",肃:"su4",蜗:"wo1",舞:"wu3",蛛:"zhu1",旦:"dan4",痣:"zhi4",湾:"wan1",曙:"shu3",道:"dao4",稻:"dao4",黍:"shu3",煤:"mei2",盘:"pan2",球:"qiu2",纵:"zong4",仙:"xian1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",蝗:"huang2",双:"shuang1",
-            篱:"li2",域:"yu4",岸:"an4",溪:"xi1",贺:"he4",塔:"ta3",足:"zu2",曳:"ye4",可:"ke3",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",哲:"zhe2",舌:"she2",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",煌:"huang2",
+            理:"li3",伍:"wu3",奇:"qi2",希:"xi1",思:"si1",距:"ju4",肃:"su4",蜗:"wo1",舞:"wu3",蛛:"zhu1",旦:"dan4",痣:"zhi4",湾:"wan1",曙:"shu3",道:"dao4",稻:"dao4",黍:"shu3",煤:"mei2",盘:"pan2",球:"qiu2",纵:"zong4",仙:"xian1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",蝗:"huang2",亮:"liang4",
+            篱:"li2",域:"yu4",岸:"an4",溪:"xi1",贺:"he4",塔:"ta3",足:"zu2",曳:"ye4",可:"ke3",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",哲:"zhe2",舌:"she2",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",煌:"huang2",双:"shuang1",
             穆:"mu4",胡:"hu2",遗:"yi2",女:"nv3",泽:"ze2",古:"gu3",孤:"gu1",渔:"yu2",戈:"ge1",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",阔:"kuo4",饰:"shi4",翎:"ling2",通:"tong1",鸮:"xiao1",猛:"meng3",椒:"jiao1",鸟:"niao3",虹:"hong2",橙:"cheng2"};
 
   var lnksty = "' style='color: #3399FF; text-decoration: underline;'"; 
@@ -827,6 +827,7 @@
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Pine Siskin","松金翅雀","Spinus pinus",[p_id("1512bhill",7)],["mdbhrp","1/2015","On the right (a female "+b_link("Common Redpoll")+" on the left)","右边(左边是一只雌性"+b_link("白腰朱顶雀")+")"]);
 //birds[j++] = new myBird("19-00-00T00:00","FRINGILL","Yellow-crowned Euphonia","黄冠歌雀","Euphonia luteicapilla",[p_id("1812crbirding",20)],["crarol","12/2018","Male"],"yeceup1");
   birds[j++] = new myBird("18-12-04T06:30","FRINGILL","Yellow-throated Euphonia","黄喉歌雀","Euphonia hirundinacea",p_id("1812crbirding",[26,27]),["crarol","12/2018","Male","crarol","12/2018","Female"],"yeteup1");
+//birds[j++] = new myBird("18-12-04T06:30","FRINGILL","Elegant Euphonia","亮丽歌雀","Euphonia elegantissima",p_id("1812crbirding",[]),["mxunam","5/2019"],"eleeup1");
   birds[j++] = new myBird("18-12-06T07:57","FRINGILL","Olive-backed Euphonia","绿背歌雀","Euphonia gouldi",[p_id("1812crbirding",72)],["crarol","12/2018","Female"],"olbeup1");
   birds[j++] = new myBird("18-12-04T06:27","FRINGILL","Tawny-capped Euphonia","黄顶歌雀","Euphonia anneae",[p_id("1812crbirding",19)],["crarol","12/2018","Male"],"taceup1");
   birds[j++] = new myBird("16-12-04T09:51","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",[m_id("20161204_136_LaplandLongspur")],["nyjbsp","12/2016","Female"]);
