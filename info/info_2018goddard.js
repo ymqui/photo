@@ -389,6 +389,9 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the playground","户外活动"])[cn_ind];
     this[0][i]    = "20190508_3";
     this[1][i++]  = (["Working on the Mother's Day project","准备母亲节礼物"])[cn_ind];
+    this[0][i]    = "20190520_1";
+    this[1][i++]  = (["Mixing paint in a ziplock bag","在三明治袋中混涂料"])[cn_ind];
+
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
