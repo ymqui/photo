@@ -1005,7 +1005,7 @@
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
-     var descr_eng = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immatures*","females* left, *males* right","females* and chicks*","females*",$
+     var descr_eng = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immatures*","females* left, *males* right","females* and chicks*","females*",
                       "winter plumage","1st winter","2nd winter","3rd winter","fall plumage","winter females*","eclipse males*","adults*","breeding (adults*|plumage)","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display"];
      var descr_chn = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性","冬羽","一龄冬羽","二龄冬羽","三龄冬羽","秋羽","冬羽雌性","蚀羽雄性","成年","繁殖羽","非繁殖羽","白变种","求偶展示"];
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
