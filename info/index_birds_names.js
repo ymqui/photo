@@ -456,7 +456,7 @@
   birds[j++] = new myBird("15-01-03T10:48","TROCHILI","Antillean Mango","黑胸芒果蜂鸟","Anthracothorax dominicus",[p_id("1501prbirding",17)],["prcnwr","1/2015","Female"],"antman1");
   birds[j++] = new myBird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],"grtcar1");
   birds[j++] = new myBird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1",-11143);
-//birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Broad-billed Hummingbird","阔嘴蜂鸟","Cynanthus latirostris",p_id("1905mxbird",[]),["mxunam","5/2019","Female"]);
+//birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Broad-billed Hummingbird","阔嘴蜂鸟","Cynanthus latirostris",p_id("1905mxbird",[]),["mxguan","5/2019","Female"]);
   birds[j++] = new myBird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
 //birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Amazilia violiceps",p_id("1905mxbird",[]),["mxunam","5/2019","Female"],"vichum");
 //birds[j++] = new myBird("19-00-00T00:00","TROCHILI","Berylline Hummingbird","绿蜂鸟","Amazilia beryllina",p_id("1905mxbird",[]),["mxmcbc","5/2019","mxunam","5/2019"],"berhum");
@@ -742,7 +742,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","TROGLODY","Canyon Wren","墨西哥鹪鹩","Catherpes mexicanus",[m_id("")],["mdocin","10/2015"]);
   birds[j++] = new myBird("17-10-15T08:16","TROGLODY","Sedge Wren","短嘴沼泽鹪鹩","Cistothorus platensis",m_id(["20171015_119_SedgeWren","20171015_117_SedgeWren"]),["mdlbrp","10/2017"]);
   birds[j++] = new myBird("15-05-17T09:53","TROGLODY","Marsh Wren","长嘴沼泽鹪鹩","Cistothorus palustris",[p_id("1505bombayhook",6)],["debnwr","5/2015"]);
-//birds[j++] = new myBird("19-00-00T00:00","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",p_id("1905mxbird",[]),["mxunam","5/2019"]);
+//birds[j++] = new myBird("19-00-00T00:00","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",p_id("1905mxbird",[]),["mxguan","5/2019","mxmcal","5/2019"]);
   birds[j++] = new myBird("06-04-15T10:41","TROGLODY","Carolina Wren","卡罗苇鹪鹩","Thryothorus ludovicianus",[p_id("1512bhill",21),m_id("20160221_017_CarolinaWren")],["mdbhrp","2/2015","mdcorl","2/2016"]);
   birds[j++] = new myBird("06-03-04T15:46","TROGLODY","Winter Wren","冬鹪鹩","Troglodytes troglodytes",["2006cobirding/WinterWren_20060304_007","2007cobirding/20070107_004_WinterWren"],["mdcorl","3/2006","mdcorl","1/2007"]);
   birds[j++] = new myBird("15-07-09T12:26","TROGLODY","Pacific Wren","太平洋鹪鹩","Troglodytes pacificus",[p_id("1507birdingwest",20)],["wacape","7/2015"],12085686);
@@ -1005,57 +1005,20 @@
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
+     var descr_eng = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immatures*","females* left, *males* right","females* and chicks*","females*",$
+                      "winter plumage","1st winter","2nd winter","3rd winter","fall plumage","winter females*","eclipse males*","adults*","breeding (adults*|plumage)","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display"];
+     var descr_chn = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性","冬羽","一龄冬羽","二龄冬羽","三龄冬羽","秋羽","冬羽雌性","蚀羽雄性","成年","繁殖羽","非繁殖羽","白变种","求偶展示"];
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
          if (typeof info[2+6*i]!=='undefined'){
             if (typeof info[3+6*i]==='undefined'){info.splice(3+6*i,0,"");}
             if (info[3+6*i].trim().length==0){
                var tmp = info[2+6*i].trim();
-               if ((/^males* left, *females* right/i).test(tmp)){
-                  info[3+6*i] = "左雄性，右雌性";
-               }else if ((/^male, *breeding plumage/i).test(tmp)){
-                  info[3+6*i] = "雄性，繁殖羽";
-               }else if ((/^male, *nonbreeding plumage/i).test(tmp)){
-                  info[3+6*i] = "雄性，非繁殖羽";
-               }else if ((/^males*/i).test(tmp)){ 
-                  info[3+6*i] = "雄性";
-               }else if ((/^(immature|juvenile) males*/i).test(tmp)){
-                  info[3+6*i] = "未成年雄性";
-               }else if ((/^(immature|juvenile) females*/i).test(tmp)){
-                  info[3+6*i] = "未成年雌性";
-               }else if ((/^(immatures*|juveniles*)/i).test(tmp)){
-                  info[3+6*i] = "未成年";
-               }else if ((/^female\/immature/i).test(tmp)){
-                  info[3+6*i] = "雌性/未成年";
-               }else if ((/^females* left, *males* right/i).test(tmp)){
-                  info[3+6*i] = "左雌性，右雄性";
-	       }else if ((/^females* and chicks*/i).test(tmp)){
-                  info[3+6*i] = "雌性和幼鸟";
-               }else if ((/^females*/i).test(tmp)){
-                  info[3+6*i] = "雌性";
-               }else if ((/^winter plumage/i).test(tmp)){
-                  info[3+6*i] = "冬羽";
-	       }else if ((/^1st winter/i).test(tmp)){
-                  info[3+6*i] = "一龄冬羽";
-	       }else if ((/^2nd winter/i).test(tmp)){
-                  info[3+6*i] = "二龄冬羽";
-	       }else if ((/^3rd winter/i).test(tmp)){
-                  info[3+6*i] = "三龄冬羽";
-               }else if ((/^fall plumage/i).test(tmp)){
-                  info[3+6*i] = "秋羽";
-               }else if ((/^winter females*/i).test(tmp)){
-                  info[3+6*i] = "冬羽雌性";
-               }else if ((/^eclipse males*/i).test(tmp)){
-                  info[3+6*i] = "蚀羽雄性";
-               }else if ((/^adults*/i).test(tmp)){
-                  info[3+6*i] = "成年";               
-               }else if ((/^breeding (adults*|plumage)/i).test(tmp)){
-                  info[3+6*i] = "繁殖羽";
-               }else if ((/^nonbreeding (adults*|plumage)/i).test(tmp)){
-                  info[3+6*i] = "非繁殖羽";
-               }else if((/^(partially)* *leucistic/i).test(tmp)){
-                  info[3+6*i] = "白变种";
-               }else if((/^mating display/i).test(tmp)){
-                  info[3+6*i] = "求偶展示";
+               for (var j=0;j<descr_eng.length;j++){
+                   var rexp = new RegExp("^"+descr_eng[j],"i");        
+                   if (rexp.test(tmp)){
+                      info[3+6*i] = descr_chn[j];
+                      break;
+                   }
                }
             }
          }
