@@ -236,6 +236,11 @@
   info[2][j] = 2;
   info[3][j] = "12/2018 Birding in Costa Rica";
   info[4][j++] = "Birding in Costa Rica(Costa Rica).";
+  info[0][j] = "1905mxbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "5/2019 Birding in Mexico";
+  info[4][j++] = "Birding in Mexico(Mexico).";
 
   if(window.usechinese){
      j = 0;
@@ -329,6 +334,8 @@
      info[4][j++] = "在阿岗昆省立公园观鸟(加拿大安大略省)。";
      info[3][j]   = "12/2018 哥斯达黎加观鸟";
      info[4][j++] = "哥斯达黎加观鸟(哥斯达黎加)。";
+     info[3][j]   = "5/2019 墨西哥观鸟";
+     info[4][j++] = "墨西哥观鸟(墨西哥)。";
   } 
 
   //special touch
@@ -345,7 +352,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2018-12-21T12:00:00");
+  var modiDate1 = new Date("2019-05-21T12:00:00");
   if (window.modiDate){
      if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
   }else{
