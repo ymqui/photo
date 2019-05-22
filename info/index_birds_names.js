@@ -685,7 +685,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["caalgp","9/2017"],-3631);
 //birds[j++] = new myBird("19-00-00T00:00","PARIDAE ","Great Tit","大山雀","Parus major",p_id("1601china",[21,22]),["cnjsxp","1/2016"],"gretit1");
   birds[j++] = new myBird("16-01-05T10:13","PARIDAE ","Japanese Tit","远东山雀","Parus minor",p_id("1601china",[21,22]),["cnjsxp","1/2016"],"gretit4");
-  birds[j++] = new myBird("19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[p_id("1905mxbird",25)],["mxguan","7/2015"]);
+  birds[j++] = new myBird("19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[p_id("1905mxbird",25)],["mxguan","5/2019"]);
 //birds[j++] = new myBird("19-00-00T00:00","NICATORI","Western Nicator","黄翼斑斗鹎","Nicator chloris",[m_id("")],["mdbhrp","9/2015"],"yesnic1");
 //birds[j++] = new myBird("19-00-00T00:00","PANURIDA","Bearded Reedling","文须雀","Panurus biarmicus",[m_id("")],["mdbhrp","9/2015"],"bearee1");
   birds[j++] = new myBird("15-03-15T10:45","ALAUDIDA","Horned Lark","角百灵","Eremophila alpestris",m_id(["20160507_042_HornedLark(M)","20150315_036_HornedLark(F)","20160507_043_HornedLark(I)"]),["mdcapc","5/2016","Male","mdswhf","3/2015","Female","mdcapc","5/2016","Immature"]);
