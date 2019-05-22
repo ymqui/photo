@@ -2,7 +2,7 @@
   //date
   var modiDate  = new Date("2019-05-22T18:00:00");
   var modirange = 20;  	//range within modiDate in days
-  var modiindx  = [15,12,8];	//index of which modibird to be shown first
+  var modiindx  = [0]; //[15,12,8];	//index of which modibird to be shown first
   
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
