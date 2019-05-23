@@ -29,30 +29,17 @@ function initAlbum(){
         this[1][i] = "";
     }
     i = 0;
-    this[1][i++] = (["On the plane.","在飞机上。"])[cn_ind];
-    this[1][i++] = (["On the plane.","在飞机上。"])[cn_ind];
-    this[1][i++] = (["At the Culture Plaza in San Jose.","在圣何塞的文化广场。"])[cn_ind];
-    this[1][i++] = (["At a street corner in San Jose.","圣何塞街头。"])[cn_ind];
-    this[1][i++] = (["Sipping juice in a restaurant.","在一家餐馆喝果汁。"])[cn_ind];
-    this[1][i++] = (["Street concert in San Jose.","圣何塞的街头音乐会。"])[cn_ind];
-    this[1][i++] = (["Enjoying the street concert.","欣赏街头音乐会。"])[cn_ind];
-    this[1][i++] = (["Enjoying the street concert.","欣赏街头音乐会。"])[cn_ind];
-    this[1][i++] = (["Enjoying the street performance.","欣赏街头表演。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["Enjoying the jacuzzi at Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋泡热水澡。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge. The Arenal Vocano is still alive.","在阿雷纳火山观测台山林小屋。阿雷纳火山仍然是一座活火山。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["At Arenal Observatory Lodge.","在阿雷纳火山观测台山林小屋。"])[cn_ind];
-    this[1][i++] = (["An orchid flower.","兰花。"])[cn_ind];
-    this[1][i++] = (["Geoffroy's Spider Monkey.","蜘蛛猴。"])[cn_ind];
-    this[1][i++] = (["Red-eyed Tree Frog.","红眼树蛙。"])[cn_ind];
-    this[1][i++] = (["Brilliant Forest Frog.","沃氏林蛙。"])[cn_ind];
-    this[1][i++] = (["A tree lizard.","树蜥蜴。"])[cn_ind];
-    this[1][i++] = (["Coati.","长鼻浣熊。"])[cn_ind];
-    this[1][i++] = (["Agouti.","刺豚鼠。"])[cn_ind];
+    this[1][i++] = (["Waiting for the metro train in Mexico City.","在墨西哥城等地铁。"])[cn_ind];
+
+    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","在墨西哥城的国立自治大学植物园陪爸爸观鸟。"])[cn_ind];
+
+    this[1][i++] = (["Strolling the Zocalo in Mexico City.","在墨西哥城逛市中心的宪法广场。"])[cn_ind];
+
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
+
+    this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
+
+    this[1][i++] = (["Tunnel streets in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
 }
  
 //web counter info
