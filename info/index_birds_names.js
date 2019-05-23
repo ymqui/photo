@@ -76,7 +76,7 @@
       ncoutb:  ["Outer Banks","North Carolina, USA","外滩","美国北卡罗来纳州",wikiurl("Outer Banks"),baikeurl(1840917)],
       njblsp:  ["Barnegat Lighthouse State Park","New Jersey, USA","巴尼加特灯塔州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/barnlig.html"],
       njcmsp:  ["Cape May Point State Park","New Jersey, USA","五月岬州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/capemay.html"],
-      njscmm:  ["South Cape May Meadows","New Jersey, USA","南五月岬草原","美国新泽西州","http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/newjersey/placesweprotect/south-cape-may-meadows.xml"],
+      njscmm:  ["South Cape May Meadows","New Jersey, USA","南五月岬草原","美国新泽西州","https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/south-cape-may-meadows/"],
       nvdnwr:  ["Desert National Wildlife Range","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
       nycenp:  ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")],
       nyjbsp:  ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","http://nysparks.com/parks/JonesBeach/"],
@@ -98,7 +98,7 @@
       txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl("大弯国家公园")],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
-      vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://vtfishandwildlife.com/sites/fishandwildlife/files/documents/Where%20to%20Hunt/St.%20Johnsbury%20District/Wenlock%20WMA.pdf"],  
+      vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://fpr.vermont.gov/wenlock-wildlife-management-area"],  
       wacape:  ["Cape Flattery","Neah Bay, Washington, USA","尼亚湾夫拉特角","美国华盛顿州","http://makah.com/activities/cape-flattery-trail/"],
       wahobb:  ["Hobuck Beach","Neah Bay, Washington, USA","尼亚湾Hobuck海滩","美国华盛顿州","http://makah.com/activities/beaches/hobuck/"],
       waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl("奥林匹克国家公园")]};
