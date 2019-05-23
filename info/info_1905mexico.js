@@ -31,7 +31,7 @@ function initAlbum(){
     i = 0;
     this[1][i++] = (["Waiting for the metro train in Mexico City.","在墨西哥城等地铁。"])[cn_ind];
 
-    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","在墨西哥城的国立自治大学植物园陪爸爸观鸟。"])[cn_ind];
+    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园陪爸爸观鸟。"])[cn_ind];
 
     this[1][i++] = (["Strolling the Zocalo in Mexico City.","在墨西哥城逛市中心的宪法广场。"])[cn_ind];
 
