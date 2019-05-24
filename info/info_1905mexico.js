@@ -37,9 +37,11 @@ function initAlbum(){
 
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
 
-    this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
+    this[1][i++] = (["Wandering the alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
 
     this[1][i++] = (["Tunnel streets in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
+
+    this[1][i++] = (["Wandering the streets in Mexico City's historic center.","在墨西哥城中心逛大街。"])[cn_ind];
 }
  
 //web counter info
