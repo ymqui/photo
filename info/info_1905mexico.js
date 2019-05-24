@@ -42,6 +42,8 @@ function initAlbum(){
     this[1][i++] = (["Tunnel streets in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
 
     this[1][i++] = (["Wandering the streets in Mexico City's historic center.","在墨西哥城中心逛大街。"])[cn_ind];
+
+    this[1][i++] = (["The History of Mexico mural by Diego Rivera at the National Palace in Mexico City.","墨西哥城国家宫殿的迭戈·里维拉的墨西哥历史壁画。"])[cn_ind];
 }
  
 //web counter info
