@@ -14,7 +14,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
  		  ["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],
 		  ["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
-//                ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],
+                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],
                   ["2018goddard","2018-2019 Nathan at Goddard School","2018-2019年球球在戈达德托儿所的照片"]];
  
 document.title = title;
@@ -149,8 +149,7 @@ function initAlbum(){
     this[0][i]    = "20190420_022";
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]    = "20190516_061_Zocalo";
-    this[1][i++]  = (["Visiting the Zocalo in Mexico City during the vacation in Mexico","在墨西哥度假期间逛墨西哥城中心的宪法广场"])[cn_ind];
-//  this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
+    this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
