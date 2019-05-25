@@ -37,7 +37,7 @@ function initAlbum(){
     this[1][i++] = (["Lunch.","午餐。"])[cn_ind];
     this[1][i++] = (["In front of the Pyramid of the Sun.","在太阳金字塔前。"])[cn_ind];
     this[1][i++] = (["On the bus.","坐长途汽车。"])[cn_ind];
-    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园陪爸爸观鸟。"])[cn_ind];
+    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园陪爸爸"+pagelink("1905mxbird","观鸟")+"。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["At the entrance to a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道入口。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
@@ -75,16 +75,16 @@ function initAlbum(){
     this[1][i++] = (["Monolith of Tlaltecuhtli at Templo Mayor in Mexico City.","大神庙遗址博物馆里的大地丰收女神石板。"])[cn_ind];
     this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。"])[cn_ind];
     this[1][i++] = (["Strolling the Zocalo in Mexico City.","在墨西哥城逛市中心的宪法广场。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，这里是总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
     this[1][i++] = (["The History of Mexico mural by Diego Rivera at the National Palace in Mexico City.","墨西哥城国家宫殿的迭戈·里维拉的墨西哥历史壁画。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
-    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
+    this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
     this[1][i++] = (["Aztec dances.","阿兹特克舞蹈。"])[cn_ind];
     this[1][i++] = (["Aztec dances.","阿兹特克舞蹈。"])[cn_ind];
 }
