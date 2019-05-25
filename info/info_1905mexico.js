@@ -36,8 +36,8 @@ function initAlbum(){
     this[1][i++] = (["Taking a break outside the pyramids.","午间休息。"])[cn_ind];
     this[1][i++] = (["Lunch.","午餐。"])[cn_ind];
     this[1][i++] = (["In front of the Pyramid of the Sun.","在太阳金字塔前。"])[cn_ind];
-    this[1][i++] = (["On the bus.","坐长途汽车。"])[cn_ind];
-    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园陪爸爸"+pagelink("1905mxbird","观鸟")+"。"])[cn_ind];
+    this[1][i++] = (["On the bus back to Mexico City.","乘长途汽车回墨西哥城。"])[cn_ind];
+    this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园"+pagelink("1905mxbird","陪爸爸观鸟")+"。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["At the entrance to a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道入口。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
