@@ -44,7 +44,7 @@ function initAlbum(){
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
-    this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
+    this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。山上的建筑物是索道缆车。"])[cn_ind];
     this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园。"])[cn_ind];
     this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
@@ -54,8 +54,8 @@ function initAlbum(){
     this[1][i++] = (["Inside a crafts market in Guanajuato City.","瓜纳华托城的一个艺术品市场。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
-    this[1][i++] = (["Lunch.","午餐。"])[cn_ind];
-    this[1][i++] = (["Nathan loves fries.","球球很喜欢吃炸薯条，还会自己蘸番茄酱。"])[cn_ind];
+    this[1][i++] = (["Lunch.","午餐。球球在吃鳄梨酱。"])[cn_ind];
+    this[1][i++] = (["Nathan loves fries.","球球很喜欢吃炸薯条，没人教就会自己蘸番茄酱。"])[cn_ind];
     this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["View of Guanajuato City.","瓜纳华托城景。"])[cn_ind];
     this[1][i++] = (["View of Guanajuato City.","在山上拍瓜纳华托城景。"])[cn_ind];
@@ -68,7 +68,7 @@ function initAlbum(){
     this[1][i++] = (["Breakfast.","早餐。"])[cn_ind];
     this[1][i++] = (["Aztec dancer.","阿兹特克舞者。"])[cn_ind];
     this[1][i++] = (["Spiritual cleansing from an elder.","墨西哥当地的驱邪仪式。"])[cn_ind];
-    this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。"])[cn_ind];
+    this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。这里是古阿兹特克帝国的主要庙宇。"])[cn_ind];
     this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。"])[cn_ind];
     this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。"])[cn_ind];
     this[1][i++] = (["Visiting the Templo Mayor in Mexico City.","参观墨西哥城的大神庙遗址。"])[cn_ind];
