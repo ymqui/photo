@@ -29,17 +29,17 @@ function initAlbum(){
         this[1][i] = "";
     }
     i = 0;
-    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城北的特奥蒂瓦坎古城金字塔。"])[cn_ind];
-    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城北的特奥蒂瓦坎古城金字塔。"])[cn_ind];
-    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城北的特奥蒂瓦坎古城金字塔。"])[cn_ind];
+    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城东北的特奥蒂瓦坎古城金字塔。这里是印第安文明的重要遗址，建于公元1世纪至7世纪。"])[cn_ind];
+    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城东北的特奥蒂瓦坎古城金字塔。"])[cn_ind];
+    this[1][i++] = (["Visiting the Teotihucan Pyramids north of Mexico City.","参观墨西哥城东北的特奥蒂瓦坎古城金字塔。"])[cn_ind];
     this[1][i++] = (["Nathan is interested in the trinket stand in the pyramids.","球球对卖纪念品的小摊点很感兴趣。"])[cn_ind];
     this[1][i++] = (["Taking a break outside the pyramids.","午间休息。"])[cn_ind];
     this[1][i++] = (["Lunch.","午餐。"])[cn_ind];
-    this[1][i++] = (["In front of the Pyramid of the Sun.","在太阳金字塔前。"])[cn_ind];
+    this[1][i++] = (["In front of the Pyramid of the Sun.","在太阳金字塔前。太阳金字塔是古印第安人祭祀太阳神的地方。"])[cn_ind];
     this[1][i++] = (["On the bus back to Mexico City.","乘长途汽车回墨西哥城。"])[cn_ind];
     this[1][i++] = (["Visiting the UNAM Botanical Garden in Mexico City.","球球和妈妈在墨西哥城的国立自治大学植物园"+pagelink("1905mxbird","陪爸爸观鸟")+"。"])[cn_ind];
-    this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
-    this[1][i++] = (["At the entrance to a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道入口。"])[cn_ind];
+    this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。瓜纳华托城景色优美，为旅游胜地。"])[cn_ind];
+    this[1][i++] = (["At the entrance to a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道入口。这些隧道以前是用于防洪的，现在它们是主要的汽车交通通道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
