@@ -393,6 +393,8 @@ function initAlbum(){
     this[1][i++]  = (["Mother's Day gift","母亲节礼物"])[cn_ind];
     this[0][i]    = "20190520_1";
     this[1][i++]  = (["Mixing paint in a ziplock bag","在三明治袋中混涂料"])[cn_ind];
+    this[0][i]    = "20190528_1";
+    this[1][i++]  = (["Painting with a flower","用一朵花绘画"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
