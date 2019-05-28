@@ -45,12 +45,12 @@ function initAlbum(){
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Inside a tunnel street in Guanajuato City.","瓜纳华托城可以行车的地下隧道。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。山上的建筑物是索道缆车。"])[cn_ind];
-    this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园。"])[cn_ind];
-    this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园。"])[cn_ind];
+    this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园广场。"])[cn_ind];
+    this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园广场。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Inside an art gallery in Guanajuato City. The two mojigangas characters are famous artist Diego Rivera and Frida Kahlo.","在瓜纳华托城的一个画廊里欣赏图片。背后的两个人偶是墨西哥著名画家迭戈·里维拉和弗里达·卡罗夫妇。"])[cn_ind];
-    this[1][i++] = (["A wall sculpture in Guanajuato City.","墙上的名人纪念雕塑。"])[cn_ind];
+    this[1][i++] = (["A wall sculpture of Benito Juarez in Guanajuato City.","墙上的总统贝尼托·华雷斯纪念雕塑。"])[cn_ind];
     this[1][i++] = (["Inside a crafts market in Guanajuato City.","瓜纳华托城的一个艺术品市场。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
