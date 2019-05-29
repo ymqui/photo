@@ -49,12 +49,12 @@ function initAlbum(){
     this[1][i++] = (["In the Jardin de la Union in Guanajuato City.","在瓜纳华托城的联盟花园广场。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
-    this[1][i++] = (["Inside an art gallery in Guanajuato City. The two mojigangas characters are famous artist Diego Rivera and Frida Kahlo.","在瓜纳华托城的一个画廊里欣赏图片。背后的两个人偶是墨西哥著名画家迭戈·里维拉和弗里达·卡罗夫妇。"])[cn_ind];
+    this[1][i++] = (["Inside an art gallery in Guanajuato City.","在瓜纳华托城的一个画廊里欣赏图片。"])[cn_ind];
     this[1][i++] = (["A wall sculpture of Benito Juarez in Guanajuato City.","墙上的总统贝尼托·华雷斯纪念雕塑。"])[cn_ind];
-    this[1][i++] = (["Inside a crafts market in Guanajuato City.","瓜纳华托城的一个艺术品市场。"])[cn_ind];
+    this[1][i++] = (["Inside a crafts market in Guanajuato City. The two mojigangas characters are famous artist Diego Rivera and Frida Kahlo.","瓜纳华托城的一个艺术品市场。背后的两个人偶是墨西哥著名画家迭戈·里维拉和弗里达·卡罗夫妇。"])[cn_ind];
     this[1][i++] = (["Wandering the alleys in Guanajuato City.","逛瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
-    this[1][i++] = (["Lunch.","午餐。球球在吃鳄梨酱。"])[cn_ind];
+    this[1][i++] = (["Lunch.","午餐，球球在吃鳄梨酱。"])[cn_ind];
     this[1][i++] = (["Nathan loves fries.","球球很喜欢吃炸薯条，没人教就会自己蘸番茄酱。"])[cn_ind];
     this[1][i++] = (["Alleys in Guanajuato City.","瓜纳华托城的小巷。"])[cn_ind];
     this[1][i++] = (["View of Guanajuato City.","瓜纳华托城景。"])[cn_ind];
@@ -77,7 +77,7 @@ function initAlbum(){
     this[1][i++] = (["Strolling the Zocalo in Mexico City.","在墨西哥城逛市中心的宪法广场。"])[cn_ind];
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿，这里是总统的办公地点和象征墨西哥政府的建筑。"])[cn_ind];
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
-    this[1][i++] = (["The History of Mexico mural by Diego Rivera at the National Palace in Mexico City.","墨西哥城国家宫殿的迭戈·里维拉的墨西哥历史壁画。"])[cn_ind];
+    this[1][i++] = (["The History of Mexico mural by Diego Rivera at the National Palace in Mexico City.","著名画家迭戈·里维拉画的标题为墨西哥历史的壁画。"])[cn_ind];
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
     this[1][i++] = (["Visiting the National Palace in Mexico City.","参观墨西哥城的国家宫殿。"])[cn_ind];
