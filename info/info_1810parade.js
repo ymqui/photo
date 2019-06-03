@@ -27,13 +27,13 @@ function initAlbum(){
     }
     if(window.usechinese){
         this[1][0] = "戈达德托儿所一年一度的万圣节游行。";
-        this[1][2] = "球球扮成小尼莫鱼。";
-        this[1][3] = "球球的同学。";
+        this[1][2] = "球球扮成小尼莫鱼，由Wahrhaftig老师抱着。";
+        this[1][3] = "球球的同学。Bringas老师在左边看着。";
         this[1][4] = "妈妈向球球挥手。";
     }else{
         this[1][0] = "Goddard School's annual Halloween costume parade.";
-        this[1][2] = "Nathan is a cute little Nemo.";
-        this[1][3] = "Nathan's classmates.";
+        this[1][2] = "Nathan is a cute little Nemo, held by Ms. Wahrhaftig.";
+        this[1][3] = "Nathan's classmates, and Mrs. Bringas standing on the left.";
         this[1][4] = "Mommy is waving to Nathan.";
     }
 }
