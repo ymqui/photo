@@ -69,7 +69,7 @@
       mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],
       mxmcbc:  ["Bosque de Chapultepec","Mexico City, Mexico","查普尔特佩克公园","墨西哥墨西哥城",wikiurl("Chapultepec"),baikeurl("查普尔特佩克公园")],
       mxguan:  ["Monumento al Pipila","Guanajuato City, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
-      mxunam:  ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
+      mxunam:  ["Jardín Botánico del Instituto de Biología UNAM","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
       ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州",npsurl("blri"),baikeurl(637331)], 
       nccrsp:  ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"],  
       ncllmp:  ["Morse Park","Lake Lure, North Carolina, USA","路尔湖摩士公园","美国北卡罗来纳州","http://www.townoflakelure.com/morse-park.php"],
