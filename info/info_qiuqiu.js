@@ -154,7 +154,7 @@ function initAlbum(){
     this[0][i]    = "20190608_032_MiniTrain";
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
-    this[1][i++]  = (["Writing in the feeding diary","球球的喂养日记"])[cn_ind];
+    this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
