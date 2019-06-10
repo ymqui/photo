@@ -15,8 +15,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],
 		  ["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],
-                  ["1906minitrain","6/2019 Miniature Train","6/2019 坐小火车"],
-                  ["2018goddard","2018-2019 Nathan at Goddard School","2018-2019年球球在戈达德托儿所的照片"]];
+                  ["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
+                  ["2018goddard","2018-2019 Goddard School","2018-2019 戈达德托儿所"]];
  
 document.title = title;
  
