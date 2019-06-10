@@ -158,9 +158,7 @@ function initAlbum(){
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
-        if (this[0][i].substring(8,11)=='../'){
-           this[0][i] = this[0][i].substring(8);
-        }
+        if (this[0][i].substring(8,11)=="../"){this[0][i] = this[0][i].substring(8);}
     }  
 }
 
