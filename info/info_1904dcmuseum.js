@@ -22,7 +22,7 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    for (var i=0;i<14;i++){
+    for (var i=0;i<25;i++){
         this[0][i] = "1904dcmuseum_"+(i+1).toString();
         this[1][i] = "";
     }
@@ -41,6 +41,17 @@ function initAlbum(){
         this[1][11] = "在国家自然历史博物馆。";
         this[1][12] = "在国家自然历史博物馆看蝴蝶。";
         this[1][13] = "在国家自然历史博物馆。";
+        this[1][14] = "六月份又去国家自然历史博物馆看恐龙。";
+	this[1][15] = "国家自然历史博物馆的恐龙厅。";
+	this[1][16] = "国家自然历史博物馆的恐龙厅。";
+	this[1][17] = "国家自然历史博物馆的恐龙厅。";
+	this[1][18] = "国家自然历史博物馆的恐龙厅。";
+	this[1][19] = "国家自然历史博物馆的恐龙厅。";
+	this[1][20] = "国家自然历史博物馆的恐龙厅。";
+	this[1][21] = "好奇的球球。";
+	this[1][22] = "国家自然历史博物馆的恐龙厅。";
+	this[1][23] = "国家自然历史博物馆的恐龙厅。";
+	this[1][24] = "国家自然历史博物馆的恐龙厅。";
     }else{
         this[1][0] = "In the National Mall.";
         this[1][1] = "At the National Air and Space Museum.";
@@ -56,6 +67,17 @@ function initAlbum(){
         this[1][11] = "At the National Museum of Natural History.";
         this[1][12] = "Watching butterflies at the National Museum of Natural History.";
         this[1][13] = "At the National Museum of Natural History.";
+        this[1][14] = "At the National Museum of Natural History in June for the new dinosaur hall.";
+        this[1][15] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][16] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][17] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][18] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][19] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][20] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][21] = "Nathan is fascinated with the mechanical lizard.";
+        this[1][22] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][23] = "At the new dinosaur hall in the National Museum of Natural History.";
+        this[1][24] = "The new dinosaur hall in the National Museum of Natural History.";
     }
 }
  
