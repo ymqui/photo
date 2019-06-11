@@ -34,7 +34,7 @@ function initAlbum(){
     this[1][i++]  = (["Anatomy ultrasound at MedStar Montgomery Medical Center. The baby is healthy and strong","在蒙哥马利医疗中心做解剖结构超声波检查，胎儿很健康"])[cn_ind];
     this[0][i]    = "20170721_008_Sonogram";
     this[1][i++]  = (["Nathan's cute little face, MedStar Montgomery Medical Center","小宝宝的脸蛋，蒙哥马利医疗中心"])[cn_ind];
-    this[0][i]    = "20170920../1709babyshower/1709babyshower_18";
+    this[0][i]    = ["1709babyshower/1709babyshower_18","20170920"];
     this[1][i++]  = (["Baby shower, 9/20/2017","同事们举办的"+pagelink("1709babyshower","准妈妈派对")])[cn_ind];
     this[0][i]    = "20171031_009_AfterBirth";
     this[1][i++]  = (["In the nursery after birth, 8 lb 12 oz, and 20 inches long","宝宝出生了，7斤9两重(8磅12盎司)，51厘米长"])[cn_ind];
@@ -102,7 +102,7 @@ function initAlbum(){
     this[1][i++]  = (["Superman","小超人"])[cn_ind];
     this[0][i]    = "20180527_021_Nap";
     this[1][i++]  = (["Nap","抱着小熊午睡"])[cn_ind];
-    this[0][i]    = "20180603../1806myrtlebeach/1806myrtlebeach_2";
+    this[0][i]    = ["1806myrtlebeach/1806myrtlebeach_2","20180603"];
     this[1][i++]  = ([pagelink("1806myrtlebeach","Vacationing at Myrtle Beach, South Carolina"),"和妈妈在"+pagelink("1806myrtlebeach","南卡罗来纳州美特尔海滩度假")])[cn_ind];
     this[0][i]    = "20180618_028_GoddardSchool";
     this[1][i++]  = (["Nathan is going to the "+daycare,"球球上"+daycare+"了"])[cn_ind];
@@ -128,13 +128,13 @@ function initAlbum(){
     this[1][i++]  = (["Standing with Mommy's help","妈妈扶着站起来"])[cn_ind];
     this[0][i]    = "20181031_051_WithMom";
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
-    this[0][i]    = "20181031../1810parade/1810parade_3";
+    this[0][i]    = ["1810parade/1810parade_3","20181031"];
     this[1][i++]  = ([pagelink("1810parade","Goddard School Halloween parade")+". Nathan is held by Ms. Wahrhaftig",pagelink("1810parade","戈达德托儿所万圣节游行")+"，球球由Wahrhaftig老师抱着"])[cn_ind];
     this[0][i]    = "20181125_060_Playpen";
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
-    this[0][i]    = "20181204../1812costarica/1812costarica_14";
+    this[0][i]    = ["1812costarica/1812costarica_14","20181204"];
     this[1][i++]  = (["Viewing the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
     this[0][i]    = "20181226_064_Walking";
     this[1][i++]  = (["Nathan can walk now","球球能自己走了"])[cn_ind];
@@ -144,18 +144,22 @@ function initAlbum(){
     this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起坐在小何叔叔怀里看书"])[cn_ind];
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
-    this[0][i]    = "20190420../1904dcmuseum/1904dcmuseum_8";
+    this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","20190420"];
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
-    this[0][i]    = "20190516../1905mexico/1905mexico_46";
+    this[0][i]    = ["1905mexico/1905mexico_46","20190516"];
     this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
-    this[0][i]    = "20190608../1906minitrain/1906minitrain_4";
+    this[0][i]    = ["1906minitrain/1906minitrain_4","20190608"];
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
     this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
-        this[1][i] = getdate(this[0][i],this[1][i]);
-        if (this[0][i].substring(8,11)=="../"){this[0][i] = this[0][i].substring(8);}
+        if (this[0][i].constructor != Array){ 
+           this[1][i] = getdate(this[0][i],this[1][i]);
+        }else{
+           this[1][i] = getdate(this[0][i][1],this[1][i]);
+           this[0][i] = "../"+this[0][i][0];
+        }
     }  
 }
 
