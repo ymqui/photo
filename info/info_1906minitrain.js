@@ -23,7 +23,7 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    for (var i=0;i<9;i++){
+    for (var i=0;i<8;i++){
         this[0][i] = "1906minitrain_"+(i+1).toString();
         this[1][i] = "";
     }
