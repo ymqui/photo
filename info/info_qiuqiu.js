@@ -67,7 +67,7 @@ function initAlbum(){
     this[0][i]    = "20171229_035_WithMom";
     this[1][i++]  = (["Mommy's little bundle of joy","和妈妈在一起"])[cn_ind];
     this[0][i]    = "20171229_036_2MonthCheckup";
-    this[1][i++]  = (["Nathan weighs 14 lbs at his 2-month well-baby checkup","球球两个月体检，有14磅(12斤7两)重"])[cn_ind];
+    this[1][i++]  = (["Nathan weighs 14 lbs at his 2-month well-baby checkup","球球两个月体检，有12斤7两(14磅)重"])[cn_ind];
     this[0][i]    = "20171231_037_WithGrandparents";
     this[1][i++]  = (["With Grandma and Grandpa","和外公外婆在一起"])[cn_ind];
     this[0][i]    = "20180112";
@@ -117,7 +117,7 @@ function initAlbum(){
     this[0][i]    = "20180731_Home";
     this[1][i++]  = (["Staying at home due to a low fever","因低烧没去上托儿所，在家里挺精神的"])[cn_ind];
     this[0][i]    = "20180803_WellBabyCheck";
-    this[1][i++]  = (["Nathan's 9-month well baby check. He is 28.5-inch tall, and weighs 20 lbs","球球9个月体检，身高72.4厘米(28.5英寸)，体重9.07公斤(20磅)"])[cn_ind];
+    this[1][i++]  = (["Nathan's 9-month well baby check. He is 28.5-inch tall, and weighs 20 lbs","球球9个月体检，身高72.4厘米(28.5英寸)，体重18斤1两(20磅)"])[cn_ind];
     this[0][i]    = "20180804_036_Walker";
     this[1][i++]  = (["Having fun in a baby walker","在婴儿学步车里玩得很开心"])[cn_ind];
     this[0][i]    = "20180825_041_DCBuildingMuseum";
