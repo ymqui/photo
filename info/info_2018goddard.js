@@ -401,6 +401,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting with a paintbrush left-handed","用左手拿画笔绘画"])[cn_ind];
     this[0][i]    = "20190611_1";
     this[1][i++]  = (["Riding the mini trike","骑小三轮车"])[cn_ind];
+    this[0][i]    = "20190612_1";
+    this[1][i++]  = (["Father's day gifts","父亲节礼物"])[cn_ind];
+    this[0][i]    = "20190612_2";
+    this[1][i++]  = (["Father's day gifts","父亲节礼物"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
