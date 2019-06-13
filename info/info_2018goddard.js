@@ -408,7 +408,7 @@ function initAlbum(){
     this[0][i]    = "20190612_3";
     this[1][i++]  = (["Transitioning to big boy nap, no longer at the crib","开始新的午睡方式，不再用婴儿床"])[cn_ind];
     this[0][i]    = "20190613_1";
-    this[1][i++]  = (["No problem napping in the rollee pollee sheet for the second straight day","顺利入睡"])[cn_ind];
+    this[1][i++]  = (["No problem napping in the rollee pollee sheet for the second straight day","午睡"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
