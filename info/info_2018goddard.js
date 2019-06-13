@@ -407,6 +407,8 @@ function initAlbum(){
     this[1][i++]  = (["Father's day gifts. Nathan's handprint is on the coffee mug","父亲节礼物。咖啡杯上的鱼是球球的手印"])[cn_ind];
     this[0][i]    = "20190612_3";
     this[1][i++]  = (["Transitioning to big boy nap","开始新的午睡方式"])[cn_ind];
+    this[0][i]    = "20190613_1";
+    this[1][i++]  = (["No problem napping in the rollee pollee sheet for the second straight day","顺利入睡"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
