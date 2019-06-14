@@ -409,6 +409,10 @@ function initAlbum(){
     this[1][i++]  = (["Transitioning to big boy nap, no longer at the crib","开始新的午睡方式，不再睡婴儿床"])[cn_ind];
     this[0][i]    = "20190613_1";
     this[1][i++]  = (["No problem napping in the rollee pollee sheet for the second straight day","午睡"])[cn_ind];
+    this[0][i]    = "20190614_letter";
+    this[1][i++]  = (['"...to know that you are special just because you are you!"-letter from Mrs. Bringas and Ms. Wahrhaftig',"Bringas和Wahrhaftig老师给球球的毕业信"])[cn_ind];
+    this[0][i]    = "20190614_diploma";
+    this[1][i++]  = (["Diploma from Caterpillar Classroom","毛毛虫教室的毕业证书"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
