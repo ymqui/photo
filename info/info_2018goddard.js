@@ -413,6 +413,8 @@ function initAlbum(){
     this[1][i++]  = (['"...to know that you are special just because you are you!"-letter from Mrs. Bringas and Ms. Wahrhaftig',"Bringas老师和Wahrhaftig老师给球球的毕业信"])[cn_ind];
     this[0][i]    = "20190614_diploma";
     this[1][i++]  = (["Diploma from Caterpillar Classroom","毛毛虫教室的毕业证书"])[cn_ind];
+    this[0][i]    = "20190617_1";
+    this[1][i++]  = (["Having morning snack on the first day at the new classroom","在新教室的第一天集体吃零食"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
