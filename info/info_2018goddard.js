@@ -410,7 +410,7 @@ function initAlbum(){
     this[0][i]    = "20190613_1";
     this[1][i++]  = (["No problem napping in the rollee pollee sheet for the second straight day","午睡"])[cn_ind];
     this[0][i]    = "20190614_letter";
-    this[1][i++]  = (['"...to know that you are special just because you are you!"-letter from Mrs. Bringas and Ms. Wahrhaftig',"Bringas老师和Wahrhaftig老师给球球的毕业信"])[cn_ind];
+    this[1][i++]  = (['"...to know that you are special just because you are you!"-letter from Mrs. Bringas and Ms. Wahrhaftig',"Bringas老师和Wahrhaftig老师给球球的毕业留言"])[cn_ind];
     this[0][i]    = "20190614_diploma";
     this[1][i++]  = (["Diploma from Caterpillar Classroom","毛毛虫教室的毕业证书"])[cn_ind];
     this[0][i]    = "20190617_1";
