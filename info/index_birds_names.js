@@ -35,6 +35,7 @@
       flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl("比斯坎国家公园")],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","迈阿密-戴德郡黑角公园及码头","美国佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
+//    fllawd:  ["Lake Apopka Wildlife Drive","Orange County, Florida, USA","阿波普卡湖野生动物观览车道","美国佛罗里达州","https://lakeapopkawildlife.us/"],
       flmahp:  ["Matheson Hammock Park","Miami, Florida, USA","迈阿密马西森硬木公园","美国佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","布劳沃德郡种植园保留地","美国佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"],

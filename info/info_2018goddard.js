@@ -415,6 +415,10 @@ function initAlbum(){
     this[1][i++]  = (["Diploma from Caterpillar Classroom","毛毛虫教室的毕业证书"])[cn_ind];
     this[0][i]    = "20190617_1";
     this[1][i++]  = (["Having morning snack on the first day at the new classroom","在新教室的第一天集体吃零食"])[cn_ind];
+    this[0][i]    = "20190618_1";
+    this[1][i++]  = (["Painting with pool noodle","用泡沫圈绘画"])[cn_ind];
+    this[0][i]    = "20190618_2";
+    this[1][i++]  = this[1][i-2];
 
 
     for (var i=0;i<this[0].length;i++){
