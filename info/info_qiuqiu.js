@@ -55,7 +55,7 @@ function initAlbum(){
     this[0][i]    = "20171202_028_TummyTimeAtHome";
     this[1][i++]  = (["Tummy time","练习趴着抬头"])[cn_ind];
     this[0][i]    = "20171223_028_Pacifier";
-    this[1][i++]  = (["Nathan is not very fond of the pacifier","球球不是很喜欢安慰奶嘴"])[cn_ind];
+    this[1][i++]  = (["Nathan is not very fond of the pacifier now. He can't go to to sleep without it when he is older","球球现在不是很喜欢安慰奶嘴，以后睡觉离不了它"])[cn_ind];
     this[0][i]    = "20171224_029_Cream";
     this[1][i++]  = (["Beauty time","妈妈在给球球擦护肤霜"])[cn_ind];
     this[0][i]    = "20171224_031_Nap";
@@ -99,7 +99,7 @@ function initAlbum(){
     this[0][i]    = "20180524_018_NewTeeth";
     this[1][i++]  = (["First two teeth","长了两颗新牙"])[cn_ind];
     this[0][i]    = "20180525_019_Superman";
-    this[1][i++]  = (["Superman","小超人"])[cn_ind];
+    this[1][i++]  = (["Superman","在地上飞的小超人"])[cn_ind];
     this[0][i]    = "20180527_021_Nap";
     this[1][i++]  = (["Nap","抱着小熊午睡"])[cn_ind];
     this[0][i]    = ["1806myrtlebeach/1806myrtlebeach_2","20180603"];
