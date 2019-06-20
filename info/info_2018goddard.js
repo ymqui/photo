@@ -419,6 +419,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with pool noodle","用泡沫圈绘画"])[cn_ind];
     this[0][i]    = "20190618_2";
     this[1][i++]  = this[1][i-2];
+    this[0][i]    = "20190619_1";
+    this[1][i++]  = (["Pointing to the balls inside the toy","指出玩具里面的小球"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
