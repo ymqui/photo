@@ -68,9 +68,9 @@
       menewh:  ["New Harbor","Maine, USA","新港","美国缅因州",wikiurl("New Harbor, Maine")],
       mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl("麦基诺岛")], 
       mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],
-      mxmcbc:  ["Bosque de Chapultepec","Mexico City, Mexico","查普尔特佩克公园","墨西哥墨西哥城",wikiurl("Chapultepec"),baikeurl("查普尔特佩克公园")],
-      mxguan:  ["Monumento al Pipila","Guanajuato City, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
-      mxunam:  ["Jardín Botánico del Instituto de Biología UNAM","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
+      mxmcbc:  ["Chapultepec Park","Mexico City, Mexico","查普尔特佩克公园","墨西哥墨西哥城",wikiurl("Chapultepec"),baikeurl("查普尔特佩克公园")],
+      mxguan:  ["The Pipila Monument","Guanajuato City, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
+      mxunam:  ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
       ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州",npsurl("blri"),baikeurl(637331)], 
       nccrsp:  ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"],  
       ncllmp:  ["Morse Park","Lake Lure, North Carolina, USA","路尔湖摩士公园","美国北卡罗来纳州","http://www.townoflakelure.com/morse-park.php"],
@@ -145,7 +145,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","9/2015"],"horscr1");
 //birds[j++] = new myBird("19-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",[m_id("")],["mdbhrp","9/2015"],"maggoo1");
   birds[j++] = new myBird("18-12-02T08:59","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[p_id("1812crbirding",11)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"]);
-//birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("19-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[m_id("")],["fllawd","9/2019"]);
   birds[j++] = new myBird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"]);
   birds[j++] = new myBird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdbrgd","6/2012"]);
   birds[j++] = new myBird("19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("20190114_003_BarnacleGoose")],["mdmdmd","1/2019","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"],"bargoo");
