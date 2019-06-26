@@ -427,6 +427,10 @@ function initAlbum(){
     this[1][i++]  = (["Taking pictures","拍照"])[cn_ind];
     this[0][i]    = "20190625_1";
     this[1][i++]  = (["Having a great time outside riding trike","很开心地在户外骑三轮车"])[cn_ind];
+    this[0][i]    = "20190626_1";
+    this[1][i++]  = (["Collecting feathers with Theo","和同学Theo一起收集羽毛"])[cn_ind];
+    this[0][i]    = "20190626_2";
+    this[1][i++]  = (["Drawing on the ground with Ms Barnes","和Barnes老师一起在地上画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
