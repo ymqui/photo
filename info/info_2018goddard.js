@@ -433,6 +433,8 @@ function initAlbum(){
     this[1][i++]  = (["Drawing on the ground with Ms Barnes","和Barnes老师一起在地上画画"])[cn_ind];
     this[0][i]    = "20190627_1";
     this[1][i++]  = (["Reading time","读书"])[cn_ind];
+    this[0][i]    = "20190628_1";
+    this[1][i++]  = (["Pointing out where the nose is","指出鼻子在哪里"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
