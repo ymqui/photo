@@ -13,7 +13,7 @@ var makeface   = new Array();
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
-                  ["2018goddard","2018-2019 Goddard School","2018-2019 戈达德托儿所"]];
+                  ["1906artechouse","Infinite Space at Artechouse","Artechouse名为无限空间的展览"],["2018goddard","2018-2019 Goddard School","2018-2019 戈达德托儿所"]];
  
 document.title = title;
  
@@ -152,6 +152,9 @@ function initAlbum(){
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
     this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
+    this[0][i]    = ["1906artechouse/1906artechouse_20","20190629"];
+    this[1][i++]  = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington DC",pagelink("1906artechouse","在华盛顿特区的Artechouse参观名为无限空间的展览")])[cn_ind];
+
 
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
