@@ -1,2 +1,3 @@
 US	width 80, corner 2x2 
 Canada 	width 80, corner 3x3
+Mexico  width 80, corner 3x3
