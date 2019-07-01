@@ -33,7 +33,7 @@ function initAlbum(){
         this[1][1] = "展览通过数字绘画和数据雕塑探索人的记忆和梦想。";
         this[1][2] = "球球对墙上的画面很感兴趣。";
         this[1][9] = "海浪的数字模型。";
-        this[1][16] = "四面反光的无限室。";
+        this[1][16] = "六面反光的无限室。";
     }else{
         this[1][0] = "Visiting DC's Artechouse for the Infinite Space Exhibition by artist Refik Anadol.";
         this[1][1] = "The exhibition explores memories and dreams through the digital painting and data sculpture.";

@@ -153,7 +153,7 @@ function initAlbum(){
     this[0][i]    = "20190609_040";
     this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
     this[0][i]    = ["1906artechouse/1906artechouse_20","20190629"];
-    this[1][i++]  = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington DC","在华盛顿特区的"+pagelink("1906artechouse","Artechouse参观名为无限空间的展览")])[cn_ind];
+    this[1][i++]  = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington DC","在华盛顿特区的"+pagelink("1906artechouse","Artechouse参观标题为无限空间的展览")])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
