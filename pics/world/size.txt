@@ -1,1 +1,1 @@
-width 125, corner 2x2
+width 200, corner 2x2
