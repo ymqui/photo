@@ -21,7 +21,7 @@ function initAlbum(){
     this[0][i]    = "20190420_USA";
     this[1][i++]  = (["National Mall, United States","美国国家广场"])[cn_ind];
     this[0][i]    = "20190511_Mexico";
-    this[1][i++]  = (["Teotihucan Pyramid, Mexico","墨西哥特奥蒂瓦坎古城金字塔"])[cn_ind];
+    this[1][i++]  = (["Teotihucan Pyramid of the Sun, Mexico","墨西哥特奥蒂瓦坎古城太阳金字塔"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
