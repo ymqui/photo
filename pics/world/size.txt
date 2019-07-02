@@ -1,1 +1,1 @@
-width 200, corner 0x0
+width 180, corner 0(right)x2(bottom)
