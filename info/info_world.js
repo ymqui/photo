@@ -17,9 +17,9 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     var i = 0;    
     this[0][i]    = "20181204_CostaRica";
-    this[1][i++]  = (["Arenal Volcano, Costa Rica","哥斯达黎加阿雷纳火山"])[cn_ind];
+    this[1][i++]  = (["Arenal Volcano, Alajuela Province, Costa Rica","哥斯达黎加阿拉胡埃拉省阿雷纳火山"])[cn_ind];
     this[0][i]    = "20190420_USA";
-    this[1][i++]  = (["National Mall, United States","美国国家广场"])[cn_ind];
+    this[1][i++]  = (["National Mall, Washington DC, United States","美国华盛顿特区国家广场"])[cn_ind];
     this[0][i]    = "20190511_Mexico";
     this[1][i++]  = (["Teotihucan Pyramid of the Sun, Mexico","墨西哥特奥蒂瓦坎古城太阳金字塔"])[cn_ind];
 
