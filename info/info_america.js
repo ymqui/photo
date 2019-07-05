@@ -114,7 +114,7 @@ function initAlbum(){
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
-//    this[0][i++] = "";
+    this[0][i++] = "Mexico_QuintanaRoo_20101215";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
@@ -217,7 +217,7 @@ function initAlbum(){
 //        this[1][i++] = "墨西哥瓦哈卡州，。";
 //        this[1][i++] = "墨西哥普埃布拉州，。";
 //        this[1][i++] = "墨西哥克雷塔罗州，。";
-//        this[1][i++] = "墨西哥金塔纳罗奥州科巴玛雅遗址，。";
+        this[1][i++] = "墨西哥金塔纳罗奥州科巴玛雅遗址，。";
 //        this[1][i++] = "墨西哥圣路易斯波托西州，。";
 //        this[1][i++] = "墨西哥锡那罗亚州，。";
 //        this[1][i++] = "墨西哥索诺拉州，。";
@@ -319,7 +319,7 @@ function initAlbum(){
 //        this[1][i++] = "Oaxaca, Mexico, .";
 //        this[1][i++] = "Puebla, Mexico, .";
 //        this[1][i++] = "Querétaro, Mexico, .";
-//        this[1][i++] = "Coba Ruins, Quintana Roo, Mexico, .";
+        this[1][i++] = "Coba Ruins, Quintana Roo, Mexico, .";
 //        this[1][i++] = "San Luis Potosí, Mexico, .";
 //        this[1][i++] = "Sinaloa, Mexico, .";
 //        this[1][i++] = "Sonora, Mexico, .";
