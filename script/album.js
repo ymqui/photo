@@ -599,9 +599,10 @@ function pagelink(pid, descrip){
 } 
 
 function getdate(name,str){
-    var year = name.substring(0,4);
-    var mon  = name.substring(4,6);
-    var day  = name.substring(6,8);
+    var pos  = name.search(/20[0-9]{6}/) 
+    var year = name.substring(pos+0,pos+4);
+    var mon  = name.substring(pos+4,pos+6);
+    var day  = name.substring(pos+6,pos+8);
     if (window.usechinese){
        date = year+"-"+mon+"-"+day+"。";
        comma = "，";
