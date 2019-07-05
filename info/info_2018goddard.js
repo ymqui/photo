@@ -443,6 +443,8 @@ function initAlbum(){
     this[1][i++]  = (["Close encounter with a pony","还是不敢骑小马"])[cn_ind];
     this[0][i]    = "20190703_1";
     this[1][i++]  = (["Nathan is reading his favorite book, Goodnight Moon","球球在读他最喜欢的书<<晚安月亮>>"])[cn_ind];
+    this[0][i]    = "20190705_1";
+    this[1][i++]  = (["Painting with a water bottle","用水瓶画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
