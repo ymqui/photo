@@ -105,8 +105,8 @@ function initAlbum(){
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
-    this[0][i++] = "Mexico_MexicoCity_20190516";
     this[0][i++] = "Mexico_MexicoState_20190511";
+    this[0][i++] = "Mexico_MexicoCity_20190516";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
 //    this[0][i++] = "";
