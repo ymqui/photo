@@ -13,6 +13,7 @@
   //location urls
   var locurl = {arb:["","","",""],
       akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl("卡特迈国家公园")],
+//    aucass:  ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake:  ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cactnw:  ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
@@ -139,7 +140,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","STRUTHIO","Somali Ostrich","索马里鸵鸟","Struthio molybdophanes",[m_id("")],["mdbhrp","9/2015"],"ostric3",4925445);
 //birds[j++] = new myBird("19-00-00T00:00","RHEIDAE ","Greater Rhea","大美洲鸵","Rhea americana",[m_id("")],["mdbhrp","9/2015"],"grerhe1");
 //birds[j++] = new myBird("19-00-00T00:00","APTERYGI","Southern Brown Kiwi","褐几维","Apteryx australis",[m_id("")],["mdbhrp","9/2015"],"sobkiw1");
-//birds[j++] = new myBird("19-00-00T00:00","CASUARII","Southern Cassowary","双垂鹤鸵","Casuarius casuarius",[m_id("")],["mdbhrp","9/2015"],"soucas1");
+//birds[j++] = new myBird("19-00-00T00:00","CASUARII","Southern Cassowary","双垂鹤鸵","Casuarius casuarius",[m_id("")],["aucass","9/2015"],"soucas1");
 //birds[j++] = new myBird("19-00-00T00:00","DROMAIID","Emu","鸸鹋","Dromaius novaehollandiae",[m_id("")],["mdbhrp","9/2015"],"emu1");
 //birds[j++] = new myBird("19-00-00T00:00","TINAMIDA","Great Tinamou","大䳍","Tinamus major",[m_id("")],["mdbhrp","9/2015"],"gretin1");
 //birds[j++] = new myBird("19-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","9/2015"],"horscr1");
@@ -662,7 +663,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","CORCORAC","White-winged Chough","白翅澳鸦","Corcorax melanorhamphos",[m_id("")],["mdbhrp","9/2015"],"whwcho1");
 //birds[j++] = new myBird("19-00-00T00:00","MELAMPIT","Lesser Melampitta","小黑脚风鸟","Melampitta lugubris",[m_id("")],["mdbhrp","9/2015"],"lesmel1");
 //birds[j++] = new myBird("19-00-00T00:00","IFRITIDA","Blue-capped Ifrit","蓝顶鹛鸫","Ifrita kowaldi",[m_id("")],["mdbhrp","9/2015"],"bucifr1");
-//birds[j++] = new myBird("19-00-00T00:00","PARADISA","Victoria's Riflebird","小掩鼻风鸟","Ptiloris victoriae",[m_id("")],["mdbhrp","9/2015"],"vicrif1");
+//birds[j++] = new myBird("19-00-00T00:00","PARADISA","Victoria's Riflebird","小掩鼻风鸟","Ptiloris victoriae",[m_id("")],["aucass","9/2015"],"vicrif1");
 //birds[j++] = new myBird("19-00-00T00:00","PARADISA","Magnificent Bird-of-paradise","丽色极乐鸟","Diphyllodes magnificus",[m_id("")],["mdbhrp","9/2015"],"mbopar2");
 //birds[j++] = new myBird("19-00-00T00:00","PETROICI","Ashy Robin","地丛鹟","Heteromyias albispecularis",[m_id("")],["mdbhrp","9/2015"],"gyhrob1");
 //birds[j++] = new myBird("19-00-00T00:00","PICATHAR","White-necked Rockfowl","白颈岩鹛","Picathartes gymnocephalus",[m_id("")],["mdbhrp","9/2015"],"whnroc1");
