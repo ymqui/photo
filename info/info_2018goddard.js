@@ -144,7 +144,7 @@ function initAlbum(){
     this[0][i]    = "20180914_1";
     this[1][i++]  = (["Playing","玩玩具"])[cn_ind];
     this[0][i]    = "20180914_2";
-    this[1][i++]  = (["Playing","玩玩具"])[cn_ind];
+    this[1][i++]  = (["Playing with classmate Samuel","和同学Samuel一起玩玩具"])[cn_ind];
     this[0][i]    = "20180917_1";
     this[1][i++]  = (["Reading","看书"])[cn_ind];
     this[0][i]    = "20180918_1";
@@ -152,7 +152,7 @@ function initAlbum(){
     this[0][i]    = "20180919_1";
     this[1][i++]  = (["Painting with tree leaves","用树叶画画"])[cn_ind];
     this[0][i]    = "20180920_1";
-    this[1][i++]  = (["Exploring toy fruit","研究玩具水果"])[cn_ind];
+    this[1][i++]  = (["Exploring toy fruit with Duke","和同学Duke一起研究玩具水果"])[cn_ind];
     this[0][i]    = "20180921_1";
     this[1][i++]  = (["Group painting","集体绘画"])[cn_ind];
     this[0][i]    = "20180924_1";
@@ -180,9 +180,9 @@ function initAlbum(){
     this[0][i]    = "20181005_1";
     this[1][i++]  = (["Reaching for leaves","抓墙上的叶子"])[cn_ind];
     this[0][i]    = "20181005_2";
-    this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
+    this[1][i++]  = (["Classmate Serafina's birthday celebration","同学Serafina的生日"])[cn_ind];
     this[0][i]    = "20181010_1";
-    this[1][i++]  = (["Playing with classmate","和同学一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with classmate Serafina","和同学Serafina一起玩"])[cn_ind];
     this[0][i]    = "20181010_2";
     this[1][i++]  = (["Little artist","小画家"])[cn_ind];
     this[0][i]    = "20181011_1";
@@ -192,11 +192,11 @@ function initAlbum(){
     this[0][i]    = "20181016_1";
     this[1][i++]  = (["Gluing hexagons","粘图"])[cn_ind];
     this[0][i]    = "20181017_1";
-    this[1][i++]  = (["Playing with classmate","和同学一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with classmate Duke","和同学Duke一起玩"])[cn_ind];
     this[0][i]    = "20181022_1";
     this[1][i++]  = (["Wearing hard hat","戴安全帽"])[cn_ind];
     this[0][i]    = "20181023_1";
-    this[1][i++]  = (["Playing with classmate","和同学一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with classmate Brayden","和同学Brayden一起玩"])[cn_ind];
     this[0][i]    = "20181025_1";
     this[1][i++]  = (["Bubble fun","玩泡泡"])[cn_ind];
     this[0][i]    = "20181029_1";
@@ -210,7 +210,7 @@ function initAlbum(){
     this[0][i]    = "20181031_3";
     this[1][i++]  = (["Happy Halloween and Happy Birthday","生日快乐，万圣节快乐"])[cn_ind];
     this[0][i]    = "20181031_4";
-    this[1][i++]  = (["Exploring the tunnel","和同学一起玩"])[cn_ind];
+    this[1][i++]  = (["Exploring the tunnel with Brayden","和同学Brayden一起玩"])[cn_ind];
     this[0][i]    = "20181031_6";
     this[1][i++]  = (["Drinking formula milk with a straw cup","用吸管杯喝配方奶"])[cn_ind];
     this[0][i]    = "20181031_5";
@@ -224,7 +224,7 @@ function initAlbum(){
     this[0][i]    = "20181107_1";
     this[1][i++]  = (["Painting with a cookie cutter","用饼干模具绘画"])[cn_ind];
     this[0][i]    = "20181109_1";
-    this[1][i++]  = (["Reading time","读书时间"])[cn_ind];
+    this[1][i++]  = (["Reading with classmate Samuel","和同学Samuel一起读书"])[cn_ind];
     this[0][i]    = "20181119_1";
     this[1][i++]  = (["Making a paper art","粘纸作画"])[cn_ind];
     this[0][i]    = "20181120_1";
@@ -234,7 +234,7 @@ function initAlbum(){
     this[0][i]    = "20181211_1";
     this[1][i++]  = (["Exploring the bubble wrap","在泡泡包装膜上爬"])[cn_ind];
     this[0][i]    = "20181211_2";
-    this[1][i++]  = (["Enjoying the playtime","玩得很开心"])[cn_ind];
+    this[1][i++]  = (["Enjoying the playtime with Samuel","和同学Samuel一起玩得很开心"])[cn_ind];
     this[0][i]    = "20181218_1";
     this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
     this[0][i]    = "20181221_1";
@@ -248,7 +248,7 @@ function initAlbum(){
     this[0][i]    = "20190116_1";
     this[1][i++]  = (["Reading a book","读书"])[cn_ind];
     this[0][i]    = "20190118_1";
-    this[1][i++]  = (["Picking up marshmallows","拿棉花糖"])[cn_ind];
+    this[1][i++]  = (["Picking up marshmallows with Theo","和同学Theo一起拿棉花糖"])[cn_ind];
     this[0][i]    = "20190121_1";
     this[1][i++]  = (["Making an art project with yarns","用纱线作画"])[cn_ind];
     this[0][i]    = "20190122_1";
@@ -286,7 +286,7 @@ function initAlbum(){
     this[0][i]    = "20190222_1";
     this[1][i++]  = (["Enjoying the lunch","吃午餐"])[cn_ind];
     this[0][i]    = "20190225_1";
-    this[1][i++]  = (["Classmate's birthday celebration","同学的生日"])[cn_ind];
+    this[1][i++]  = (["Classmate Theo's birthday celebration","同学Theo的生日"])[cn_ind];
     this[0][i]    = "20190225_2";
     this[1][i++]  = (["Playing with water","玩水"])[cn_ind];
     this[0][i]    = "20190225_3";
@@ -302,7 +302,7 @@ function initAlbum(){
     this[0][i]    = "20190306_1";
     this[1][i++]  = (["Painting with crayons","用蜡笔蛋画画"])[cn_ind];
     this[0][i]    = "20190308_1";
-    this[1][i++]  = (["Playing with plastic fast food","玩塑料快餐模型"])[cn_ind];
+    this[1][i++]  = (["Playing with plastic fast food with Adeleine","和同学Adeleine一起玩塑料快餐模型"])[cn_ind];
     this[0][i]    = "20190308_2";
     this[1][i++]  = (["Reading a book","读书"])[cn_ind];
     this[0][i]    = "20190311_1";
@@ -332,7 +332,7 @@ function initAlbum(){
     this[0][i]    = "20190328_1";
     this[1][i++]  = (["Going through the tunnel","户外活动"])[cn_ind];
     this[0][i]    = "20190328_2";
-    this[1][i++]  = (["Playing in the playhouse","户外活动"])[cn_ind];
+    this[1][i++]  = (["Playing in the playhouse with Brayden and Theo","和同学Brayden和Theo在户外活动"])[cn_ind];
     this[0][i]    = "20190329_1";
     this[1][i++]  = (["Learning to jump in and out of the hoola hoop","户外活动:学习跳进和跳出呼啦圈"])[cn_ind];
     this[0][i]    = "20190401_1";
@@ -340,11 +340,11 @@ function initAlbum(){
     this[0][i]    = "20190402_1";
     this[1][i++]  = (["Ready for an adventure","整装待发"])[cn_ind];
     this[0][i]    = "20190403_1";
-    this[1][i++]  = (["Friends","小伙伴"])[cn_ind];
+    this[1][i++]  = (["Friend Duke","小伙伴Duke"])[cn_ind];
     this[0][i]    = "20190403_2";
     this[1][i++]  = (["Playing in the playground","户外活动"])[cn_ind];
     this[0][i]    = "20190404_1";
-    this[1][i++]  = (["Playing in the playground","户外活动"])[cn_ind];
+    this[1][i++]  = (["Playing in the playground with Duke and Brayden","和同学Duke和Brayden在户外活动"])[cn_ind];
     this[0][i]    = "20190405_1";
     this[1][i++]  = (["Painting with a toy truck","用玩具卡车画画"])[cn_ind];
     this[0][i]    = "20190408_1";
@@ -354,7 +354,7 @@ function initAlbum(){
     this[0][i]    = "20190411_1";
     this[1][i++]  = (["Painting with celery","用芹菜画画"])[cn_ind];
     this[0][i]    = "20190415_1";
-    this[1][i++]  = (["Painting with cookie cutters","用饼干模具绘画"])[cn_ind];
+    this[1][i++]  = (["Painting with cookie cutters with classmate Theo","和同学Theo用饼干模具绘画"])[cn_ind];
     this[0][i]    = "20190416_1";
     this[1][i++]  = (["Painting with a pompom","用绒球画画"])[cn_ind];
     this[0][i]    = "20190417_1";
@@ -370,9 +370,9 @@ function initAlbum(){
     this[0][i]    = "20190426_1";
     this[1][i++]  = (["Pasting aluminum foil on colored paper","在彩纸上粘铝箔"])[cn_ind];
     this[0][i]    = "20190429_1";
-    this[1][i++]  = (["Working together","一块画画"])[cn_ind];
+    this[1][i++]  = (["Working together with classmate Brayden","和同学Brayden一块画画"])[cn_ind];
     this[0][i]    = "20190430_1";
-    this[1][i++]  = (["Classmate's birthday","同学的生日"])[cn_ind];
+    this[1][i++]  = (["Classmate Adeleine's birthday","同学Adeleine的生日"])[cn_ind];
     this[0][i]    = "20190501_1";
     this[1][i++]  = (["Painting with a cookie cutter","用饼干模具绘画"])[cn_ind];
     this[0][i]    = "20190501_2";
@@ -386,7 +386,7 @@ function initAlbum(){
     this[0][i]    = "20190508_1";
     this[1][i++]  = (["Painting with a cookie cutter","用饼干模具绘画"])[cn_ind];
     this[0][i]    = "20190508_2";
-    this[1][i++]  = (["Playing in the playground","户外活动"])[cn_ind];
+    this[1][i++]  = (["Playing in the playground with Brayden and Theo","和同学Theo和Brayden在户外活动"])[cn_ind];
     this[0][i]    = "20190508_3";
     this[1][i++]  = (["Working on the Mother's Day project","准备母亲节礼物"])[cn_ind];
     this[0][i]    = "20190508_4";
