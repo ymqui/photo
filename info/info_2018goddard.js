@@ -449,6 +449,8 @@ function initAlbum(){
     this[1][i++]  = (["Drawing with rainbow crayons","用绑在一起的彩虹蜡笔画画"])[cn_ind];
     this[0][i]    = "20190710_1";
     this[1][i++]  = (["Gluing shapes together to form a collage","和同学一起粘拼贴画"])[cn_ind];
+    this[0][i]    = "20190711_1";
+    this[1][i++]  = (["Using cups to paint a circle collage","用杯子画圆形拼贴画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
