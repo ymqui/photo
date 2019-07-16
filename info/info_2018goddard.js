@@ -453,6 +453,10 @@ function initAlbum(){
     this[1][i++]  = (["Using cups to paint a circle collage","用杯子画圆形拼贴画"])[cn_ind];
     this[0][i]    = "20190712_1";
     this[1][i++]  = (["Painting with a ball","用球画画"])[cn_ind];
+    this[0][i]    = "20190715_1";
+    this[1][i++]  = (["Gluing colored tissue paper pieces","粘贴彩色薄纸片"])[cn_ind];
+    this[0][i]    = "20190715_2";
+    this[1][i++]  = (["Playing with cutout pictures of fish","玩鱼的图片"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
