@@ -459,6 +459,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with cutout pictures of fish","玩鱼的图片"])[cn_ind];
     this[0][i]    = "20190716_1";
     this[1][i++]  = (["Painting with a Q-tip","用棉签画画"])[cn_ind];
+    this[0][i]    = "20190717_1";
+    this[1][i++]  = (["Making a phone call","打电话"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
