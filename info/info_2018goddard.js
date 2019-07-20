@@ -462,7 +462,7 @@ function initAlbum(){
     this[0][i]    = "20190717_1";
     this[1][i++]  = (["Making a phone call","打电话"])[cn_ind];
     this[0][i]    = "20190718_1";
-    this[1][i++]  = (["Playing a game with a plastic egg","用塑料蛋玩游戏"])[cn_ind];
+    this[1][i++]  = (["Playing a game with classmates and Ms Barnes using a plastic egg","Barnes老师带大家用塑料蛋玩游戏"])[cn_ind];
     this[0][i]    = "20190719_1";
     this[1][i++]  = (["Painting with fly swatter with the help of Ms Luczon","Luczon老师带着用苍蝇拍画画"])[cn_ind];
 
