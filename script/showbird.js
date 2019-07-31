@@ -400,17 +400,23 @@ if(window.usechinese){
    if (title.length!=0) title = title+" ";
    title = "LaoQ's "+title+"Life List: ";
 }
+
+var sameinfo = true;
+for (var i=0;i<bid.photo.length;i++){
+    if(bid.cinfo[i]!=bid.cinfo[0]){sameinfo = false;}
+}
+
 if(window.usechinese){
    document.title = title+bid.cname;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      document.write('<p style="'+qfont+'">'+bid.cinfo[i]);
+      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+bid.cinfo[i]);}
    }
 }else{
    document.title = title+bid.name;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      document.write('<p style="'+qfont+'"><i>'+bid.info[i]+'</i>');
+      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+bid.info[i]+'</i>');}
    }
 }
 document.write("</center>");
