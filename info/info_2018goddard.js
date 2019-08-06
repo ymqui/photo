@@ -483,6 +483,8 @@ function initAlbum(){
     this[1][i++]  = (["Drawing on paper plate","在纸盘子上画画"])[cn_ind];
     this[0][i]    = "20190802_2";
     this[1][i++]  = (["Pointing out friends","Barnes老师带大家玩游戏"])[cn_ind];
+    this[0][i]    = "20190805_1";
+    this[1][i++]  = (["Painting with a paint brush","用画笔画画"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
