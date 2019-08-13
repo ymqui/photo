@@ -491,6 +491,8 @@ function initAlbum(){
     this[1][i++]  = (["Singing the Choo Choo Train song","Luczon老师带大家一起唱火车呜呜歌"])[cn_ind];
     this[0][i]    = "20190809_1";
     this[1][i++]  = (["Making a collage of color paper","粘纸张拼贴画"])[cn_ind];
+    this[0][i]    = "20190812_1";
+    this[1][i++]  = (["Flying like a butterfly","学蝴蝶飞呀飞"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
