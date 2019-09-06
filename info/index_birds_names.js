@@ -36,7 +36,6 @@
       flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl("比斯坎国家公园")],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","迈阿密-戴德郡黑角公园及码头","美国佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
-//    fllawd:  ["Lake Apopka Wildlife Drive","Orange County, Florida, USA","阿波普卡湖野生动物观览车道","美国佛罗里达州","https://lakeapopkawildlife.us/"],
       flmahp:  ["Matheson Hammock Park","Miami, Florida, USA","迈阿密马西森硬木公园","美国佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","布劳沃德郡种植园保留地","美国佛罗里达州","http://www.plantation.org/Golf/Plantation-Preserve/linear-park.html"],
@@ -254,7 +253,7 @@
   birds[j++] = new myBird("16-01-13T15:31","ARDEIDAE","Grey Heron","苍鹭","Ardea cinerea",[p_id("1601china",57)],["cnxmjm","1/2016"],"graher1");
   birds[j++] = new myBird("05-11-26T14:09","ARDEIDAE","Great Blue Heron","大蓝鹭","Ardea herodias",[m_id("20160731_089_GreatBlueHeron"),p_id("0511assateague",26)],["vahump","7/2016","vacnwr","11/2005"]);
   birds[j++] = new myBird("05-10-30T09:26","ARDEIDAE","Great Egret","大白鹭","Ardea alba",[p_id("0511assateague",27),p_id("1111chincoteague",12),p_id("1812crbirding",12)],["vacnwr","11/2005","vacnwr","11/2011","crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"]);
-//birds[j++] = new myBird("19-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[m_id("")],["mdocin","10/2015","Immature"]);
+//birds[j++] = new myBird("19-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[m_id("")],["flmnwr","9/2019","Immature"]);
   birds[j++] = new myBird("05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[p_id("1112floridabirding",18),p_id("0512everglades",20)],["flevnp","12/2011","flevnp","12/2005"]);
   birds[j++] = new myBird("05-12-25T16:18","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",[p_id("1112floridabirding",14),p_id("1312savannahbirding",4),p_id("1812crbirding",63)],["flevnp","12/2011","scsnwr","12/2013","Immature","crarol","12/2018","Immature"]);
   birds[j++] = new myBird("05-12-28T09:36","ARDEIDAE","Snowy Egret","雪鹭","Egretta thula",[p_id("1112floridabirding",20)],["flevnp","12/2011"]);
@@ -928,7 +927,7 @@
   birds[j++] = new myBird("06-04-09T10:02","PARULIDA","Palm Warbler","棕榈林莺","Dendroica palmarum",[p_id("1604asheville",9),m_id("20151025_112_PalmWarbler(FP)")],["ncllmp","4/2016","mdbmnt","10/2015","Fall plumage"]);
   birds[j++] = new myBird("15-07-26T10:08","PARULIDA","Pine Warbler","松莺","Setophaga pinus",p_id("1612savannah",[14,13]),["scjwwc","12/2016","Male"]);
   birds[j++] = new myBird("06-04-02T11:16","PARULIDA","Yellow-rumped Warbler","黄腰林莺","Dendroica coronata",[p_id("1604asheville",8),m_id("20151101_121_Yellow-rumpedWarbler(I)")],["ncllmp","4/2016","Male, Myrtle form","雄性，长春花形","mdbmnt","11/2015","Female/immature, Myrtle form","雌性/未成年，长春花形"]);
-//birds[j++] = new myBird("19-00-00T00:00","PARULIDA","Yellow-throated Warbler","黄喉林莺","Dendroica dominica",[p_id("asheville",)],["ohcvnp","5/2017"]);
+//birds[j++] = new myBird("19-08-30T00:00","PARULIDA","Yellow-throated Warbler","黄喉林莺","Dendroica dominica",[m_id("asheville")],["arb","8/2019","Magnolia Park, Apopka, Florida, USA","美国佛罗里达州阿波普卡湖玉兰公园"]);
   birds[j++] = new myBird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler(M)","20170709_081_PrairieWarbler(I)"]),["mdlbrp","7/2017","Male","mdlbrp","7/2017","Immature"]);
   birds[j++] = new myBird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",[p_id("1501prbirding",18)],["prcnwr","1/2015"],"adewar1");
 //birds[j++] = new myBird("19-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[m_id("")],["mdbhrp","9/2015"]);
