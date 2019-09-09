@@ -1,4 +1,4 @@
-<!--
+﻿<!--
   //date
   var modiDate  = new Date("2019-09-07T18:00:00");
   var modirange = 20;  		//range within modiDate in days
@@ -33,7 +33,7 @@
       debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
-      flapop:  ["Lake Apopka Magnolia Park","Florida, USA","阿波普卡湖玉兰公园","美国佛罗里达州",wikiurl("Magnolia Park (Apopka, Florida)")],
+      flapop:  ["Lake Apopka-Magnolia Park","Florida, USA","阿波普卡湖玉兰公园","美国佛罗里达州",wikiurl("Magnolia Park (Apopka, Florida)")],
       flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl("比斯坎国家公园")],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","迈阿密-戴德郡黑角公园及码头","美国佛罗里达州","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
