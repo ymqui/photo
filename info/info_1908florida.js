@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = "Vacationing in Florida";
@@ -43,8 +43,8 @@ function initAlbum(){
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
-    this[1][i++] = (["Lunar landing module.","在登月舱前。"])[cn_ind];
-    this[1][i++] = (["Saturn V rocket.","土星5号运载火箭。"])[cn_ind];
+    this[1][i++] = (["Apollo lunar landing module.","在阿波罗登月舱前。"])[cn_ind];
+    this[1][i++] = (["Saturn V rocket.","阿波罗登月计划中使用的土星5号运载火箭。"])[cn_ind];
     this[1][i++] = (["Amazed by the huge Saturn V rocket.","土星5号运载火箭真大。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
