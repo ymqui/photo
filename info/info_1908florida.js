@@ -32,23 +32,23 @@ function initAlbum(){
     this[1][i++] = (["Playing with Adele.","和小希姐姐一起玩。"])[cn_ind];
     this[1][i++] = (["Playing with Adele and James.","和小希姐姐和小凡哥哥一起玩。"])[cn_ind];
     this[1][i++] = (["Playing with Adele.","和小希姐姐一起玩。"])[cn_ind];
-    this[1][i++] = (["In Disney's parking lot.","和妈妈在迪士尼的停车场。"])[cn_ind];
-    this[1][i++] = (["In front of the Cinderella Castle in Disney's Magic Kingdom.","和妈妈在迪士尼魔幻王国的公主城堡前。"])[cn_ind];
+    this[1][i++] = (["In Disney's parking lot.","和妈妈在迪士尼乐园的停车场。"])[cn_ind];
+    this[1][i++] = (["In front of the Cinderella Castle in Disney's Magic Kingdom.","和妈妈在迪士尼乐园魔幻王国的公主城堡前。"])[cn_ind];
     this[1][i++] = (["Enjoying a lollipop.","吃棒棒糖。"])[cn_ind];
     this[1][i++] = (["Enjoying a lollipop while shopping with Mommy.","边吃棒棒糖边陪妈妈逛商店。"])[cn_ind];
     this[1][i++] = (["Sharing a lollipop with Adele.","和小希姐姐一起吃棒棒糖。"])[cn_ind];
     this[1][i++] = (["At the Kennedy Space Center's Rocket Garden.","和妈妈在肯尼迪航天中心的火箭花园。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
-    this[1][i++] = (["At the Kennedy Space Center's IMAX theater.","在肯尼迪航天中心看电影。"])[cn_ind];
+    this[1][i++] = (["At the Kennedy Space Center's IMAX theater.","在肯尼迪航天中心看3D电影。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
     this[1][i++] = (["At Kennedy Space Center.","在肯尼迪航天中心。"])[cn_ind];
-    this[1][i++] = (["Lunar landing module.","登月舱。"])[cn_ind];
+    this[1][i++] = (["Lunar landing module.","在登月舱前。"])[cn_ind];
     this[1][i++] = (["Saturn V rocket.","土星5号运载火箭。"])[cn_ind];
     this[1][i++] = (["Amazed by the huge Saturn V rocket.","土星5号运载火箭真大。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
-    this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
+    this[1][i++] = (["Space shuttle Atlantis.","在亚特兰蒂斯号航天飞机前。"])[cn_ind];
 }
  
 //web counter info
