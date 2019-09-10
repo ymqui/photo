@@ -518,7 +518,7 @@ function initAlbum(){
     this[0][i]    = "20190909_1";
     this[1][i++]  = (["Nathan loves painting","喜爱画画的球球"])[cn_ind];
     this[0][i]    = "20190909_2";
-    this[1][i++]  = (["Dancing and making music with instruments","唱歌跳舞演奏音乐"])[cn_ind];
+    this[1][i++]  = (["Dancing and making music with instruments","球球边跳舞边和同学一起演奏音乐"])[cn_ind];
     this[0][i]    = "20190910_1";
     this[1][i++]  = (["Counting bears","数小熊"])[cn_ind];
 
