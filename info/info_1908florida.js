@@ -49,6 +49,7 @@ function initAlbum(){
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","亚特兰蒂斯号航天飞机。"])[cn_ind];
     this[1][i++] = (["Space shuttle Atlantis.","在亚特兰蒂斯号航天飞机前。"])[cn_ind];
+    this[1][i++] = (["Swimming with Daddy's help in the hotel swimming pool.","爸爸抱着在旅馆的游泳池里游泳。"])[cn_ind];
 }
  
 //web counter info
