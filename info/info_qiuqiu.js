@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
@@ -161,7 +161,7 @@ function initAlbum(){
     this[1][i++]  = (["Watching the dog parade in Baltimore","在巴尔的摩看狗狗游行"])[cn_ind];
     this[0][i]    = ["1908florida/1908florida_6","20190828"];
     this[1][i++]  = (["Visiting the Magic Kingdom during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间游迪士尼乐园的魔幻王国"])[cn_ind];
-    this[0][i]    = ["1908florida/1908florida_21","20190831"];
+    this[0][i]    = ["1908florida/1908florida_10","20190831"];
     this[1][i++]  = (["Visiting Kennedy Space Center during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间参观肯尼迪航天中心"])[cn_ind];
 
 
