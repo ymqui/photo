@@ -521,6 +521,8 @@ function initAlbum(){
     this[1][i++]  = (["Dancing and making music with instruments","球球边跳舞边和同学一起演奏音乐"])[cn_ind];
     this[0][i]    = "20190910_1";
     this[1][i++]  = (["Counting bears","数小熊"])[cn_ind];
+    this[0][i]    = "20190911_1";
+    this[1][i++]  = (["Gluing cutouts of different body parts","粘不同身体部位的纸张"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
