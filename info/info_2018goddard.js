@@ -527,6 +527,8 @@ function initAlbum(){
     this[1][i++]  = (["Taste testing the sunflower butter","品尝葵花籽酱的味道"])[cn_ind];
     this[0][i]    = "20190913_1";
     this[1][i++]  = (["Picking out color balls with a pair of tweezers","用镊子夹出彩球"])[cn_ind];
+    this[0][i]    = "20190916_1";
+    this[1][i++]  = (["Ms Burke domonstrates how to create an ocean in a bottle","Burke老师给大家演示瓶子里的海洋(球球穿5号衣服)"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
