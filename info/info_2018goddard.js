@@ -531,6 +531,10 @@ function initAlbum(){
     this[1][i++]  = (["Ms Burke domonstrates how to create an ocean in a bottle","坐在Burke老师身边看她给大家演示瓶子里的海洋"])[cn_ind];
     this[0][i]    = "20190916_2";
     this[1][i++]  = (["Ms Burke domonstrates how to create an ocean in a bottle","坐在Burke老师身边看她给大家演示瓶子里的海洋"])[cn_ind];
+    this[0][i]    = "20190917_1";
+    this[1][i++]  = (["Painting a family tree","画画"])[cn_ind];
+    this[0][i]    = "20190917_2";
+    this[1][i++]  = (["Playing with sponges","玩海绵"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
