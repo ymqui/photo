@@ -138,7 +138,7 @@ function initAlbum(){
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
     this[0][i]    = ["1812costarica/1812costarica_14","20181204"];
-    this[1][i++]  = (["Viewing the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
+    this[1][i++]  = (["Visiting the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
     this[0][i]    = "20181226_064_Walking";
     this[1][i++]  = (["Nathan can walk now","球球能自己走了"])[cn_ind];
     this[0][i]    = "20190220_Reading";
