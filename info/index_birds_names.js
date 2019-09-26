@@ -98,7 +98,7 @@
       scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",npsurl("savannah",true)],
 //    txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baikeurl("阿兰萨斯国家野生动物保护区")],
       txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl("大弯国家公园")],
-//    txanwr:  ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",npsurl("santa_ana",true)],
+//    txsnwr:  ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",npsurl("santa_ana",true)],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
       vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://fpr.vermont.gov/wenlock-wildlife-management-area"],  
@@ -229,7 +229,7 @@
 //birds[j++] = new myBird("19-00-00T00:00","PROCELLA","Northern Fulmar","暴风鹱","Fulmarus glacialis",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("19-00-00T00:00","PROCELLA","Sooty shearwater","灰鹱","Ardenna grisea",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("19-00-00T00:00","PROCELLA","Common Diving Petrel","鹈燕","Pelecanoides urinatrix",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("19-00-00T00:00","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[m_id("")],["txbbnp","12/2013"]);
+//birds[j++] = new myBird("19-00-00T00:00","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[m_id("")],["txsnwr","12/2019"]);
   birds[j++] = new myBird("13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[p_id("1312bigbendbirding",7),p_id("1512bhill",43),p_id("1409fingerlake",12)],["txbbnp","12/2013","mdbhrp","10/2015","Winter plumage","nymnwr","8/2014","Immature"],"斑嘴巨鸊鷉");
   birds[j++] = new myBird("16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",[m_id("20161231_143_Red-neckedGrebe(WP)")],["mdloch","12/2016","Winter plumage"]);
   birds[j++] = new myBird("06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",m_id(sas("20150321_",["039","040"],"_HornedGrebe")),["mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Spring molt","春羽"]);
@@ -480,6 +480,8 @@
 //birds[j++] = new myBird("19-00-00T00:00","CORACIID","Indian Roller","棕胸佛法僧","Coracias benghalensis",[m_id("")],["mdbhrp","9/2015"],"indrol1");
 //birds[j++] = new myBird("19-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",[m_id("")],["mdbhrp","9/2015"],"plgrol1");
   birds[j++] = new myBird("16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016"],"comkin1");
+//birds[j++] = new myBird("19-00-00T00:00","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",p_id("1601china",[23,30]),["txsnwr","12/2019"],"grnkin");
+//birds[j++] = new myBird("19-00-00T00:00","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",p_id("1601china",[23,30]),["txsnwr","12/2019"],"rinkin1");
   birds[j++] = new myBird("06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","mdmdmd","8/2016","Female, Lilypons Water Garden","","","莉丽庞斯水上花园"]);
   birds[j++] = new myBird("15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",p_id("1501prbirding",[23,29]),["prceci","1/2015","Male","prceci","1/2015","Female"],"purtod1",138654);
 //birds[j++] = new myBird("19-00-00T00:00","MOMOTIDA","Tody Motmot","短尾翠鴗","Hylomanes momotula",[m_id("")],["mdbhrp","9/2015"],"todmot1");
