@@ -549,6 +549,8 @@ function initAlbum(){
     this[1][i++]  = (["Creating a picture with paper of different shapes","用不同形状的纸张拼图"])[cn_ind];
     this[0][i]    = "20190924_1";
     this[1][i++]  = (["Playing outside","户外活动"])[cn_ind];
+    this[0][i]    = "20190926_1";
+    this[1][i++]  = (["Painting with sponge","用海绵画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
