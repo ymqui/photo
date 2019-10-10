@@ -579,6 +579,8 @@ function initAlbum(){
     this[1][i++]  = (["Gluing color paper","贴彩色小纸片"])[cn_ind];
     this[0][i]    = "20191010_1";
     this[1][i++]  = (["Visiting a fire truck after meeting the firefighers","参观消防车"])[cn_ind];
+    this[0][i]    = "20191010_2";
+    this[1][i++]  = (["A special visit from the firefighters","消防员来学校进行防火安全教育"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
