@@ -581,6 +581,10 @@ function initAlbum(){
     this[1][i++]  = (["Visiting a fire truck after meeting the firefighers","参观消防车"])[cn_ind];
     this[0][i]    = "20191010_2";
     this[1][i++]  = (["A special visit from the firefighters","消防员来学校进行防火安全教育"])[cn_ind];
+    this[0][i]    = "20191011_1";
+    this[1][i++]  = (["Sorting pictures of fireman hats by their size","按大小分列消防员帽子的图片"])[cn_ind];
+    this[0][i]    = "20191011_2";
+    this[1][i++]  = (["Drawing a phone","画电话"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
