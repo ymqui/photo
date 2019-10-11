@@ -94,7 +94,7 @@ function initAlbum(){
         this[1][27] = "Bewick's Wren, Guanajuato City.";
         this[1][28] = "Bewick's Wren, Guanajuato City.";
         this[1][29] = "Cassin's Kingbird, Guanajuato City.";
-        this[1][30] = "Rufous-backed Robin, Alameda Central, Mexico City.";
+        this[1][30] = "Rufous-backed Thrush, Alameda Central, Mexico City.";
         this[1][31] = "Broad-billed Hummingbird, female, Alameda Central, Mexico City.";
         this[1][32] = "Curve-billed Thrasher, adult and immature, Alameda Central, Mexico City.";
         this[1][33] = "Inca Dove, Alameda Central, Mexico City.";
