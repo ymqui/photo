@@ -585,6 +585,8 @@ function initAlbum(){
     this[1][i++]  = (["Sorting pictures of fireman hats by their size","按大小分列消防员帽子的图片"])[cn_ind];
     this[0][i]    = "20191011_2";
     this[1][i++]  = (["Drawing a phone","画电话"])[cn_ind];
+    this[0][i]    = "20191015_1";
+    this[1][i++]  = (["Using a hammer to splatter paint","玩塑料锤子"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
