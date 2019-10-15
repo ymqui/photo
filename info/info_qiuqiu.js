@@ -163,7 +163,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Magic Kingdom during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间游迪士尼乐园的魔幻王国"])[cn_ind];
     this[0][i]    = ["1908florida/1908florida_10","20190831"];
     this[1][i++]  = (["Visiting Kennedy Space Center during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间参观肯尼迪航天中心"])[cn_ind];
-
+    this[0][i]    = "20191013_JuniorFirefighter";
+    this[1][i++]  = (["Junior firefighter","小小消防员"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
