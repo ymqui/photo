@@ -591,6 +591,10 @@ function initAlbum(){
     this[1][i++]  = (["Learning a new yoga pose, Downward Dog","跟老师学新的瑜伽姿势-下犬式"])[cn_ind];
     this[0][i]    = "20191017_2";
     this[1][i++]  = (["Matching dump trucks by their size","按翻斗卡车大小匹配图片"])[cn_ind];
+    this[0][i]    = "20191021_1";
+    this[1][i++]  = (["Making a collage with pictures of pumpkins","用南瓜图片拼图"])[cn_ind];
+    this[0][i]    = "20191021_2";
+    this[1][i++]  = (["Making a collage with pictures of pumpkins","用南瓜图片拼图"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
