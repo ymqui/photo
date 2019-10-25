@@ -603,7 +603,10 @@ function initAlbum(){
     this[1][i++]  = (["Tasting canned pumpkin","品尝南瓜的味道"])[cn_ind];
     this[0][i]    = "20191024_1";
     this[1][i++]  = (["Practicing yoga with Ms. Burtcher","跟Burtcher老师一起练习瑜伽"])[cn_ind];
-
+    this[0][i]    = "20191025_1";
+    this[1][i++]  = (["Drawing pumpkins","画南瓜"])[cn_ind];
+    this[0][i]    = "20191025_2";
+    this[1][i++]  = (["Learning sign language from Ms. Bassett","跟Bassett老师学手语"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
