@@ -609,6 +609,10 @@ function initAlbum(){
     this[1][i++]  = (["Learning sign language from Ms. Bassett","跟Bassett老师学手语"])[cn_ind];
     this[0][i]    = "20191028_1";
     this[1][i++]  = (["Moving while pushing on the scooter","提高运动能力"])[cn_ind];
+    this[0][i]    = "20191030_1";
+    this[1][i++]  = (["Picking a pumpkin","挑一个南瓜"])[cn_ind];
+    this[0][i]    = "20191030_2";
+    this[1][i++]  = (["Picking a pumpkin","挑南瓜"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
