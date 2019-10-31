@@ -21,22 +21,30 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    for (var i=0;i<18;i++){
+    for (var i=0;i<17;i++){
         this[0][i] = "1910parade_"+(i+1).toString();
         this[1][i] = "";
     }
     if(window.usechinese){
         this[1][0] = "戈达德托儿所一年一度的万圣节游行。";
-        this[1][8] = "Burke老师领着球球班同学游行。";
+        this[1][8] = "Burke老师和Khan老师领着球球班同学游行。";
         this[1][9] = "球球穿着托马斯火车套装。";
         this[1][10] = "我要妈妈。";
         this[1][11] = "Sinnokrot老师带着球球的同学。";
+        this[1][12] = "Wahrhaftig老师。";
+        this[1][13] = "Maali老师。";
+        this[1][14] = "Bringas老师。";
+        this[1][15] = "Barnes老师和Luczon老师。";
     }else{
         this[1][0] = "Goddard School's annual Halloween costume parade.";
-        this[1][8] = "Nathan's class is led by Ms. Burke.";
+        this[1][8] = "Nathan's class is led by Ms. Burke and Mrs. Khan.";
         this[1][9] = "Nathan is wearing a Thomas train costume.";
         this[1][10] = "I want Mommy.";
         this[1][11] = "Ms. Sinnokrot.";
+        this[1][12] = "Ms. Wahrhaftig.";
+        this[1][13] = "Ms. Maali.";
+        this[1][14] = "Mrs. Bringas.";
+        this[1][15] = "Ms. Barnes and Ms. Luczon.";
     }
 }
  
