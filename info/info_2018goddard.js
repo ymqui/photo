@@ -614,7 +614,7 @@ function initAlbum(){
     this[0][i]    = "20191030_2";
     this[1][i++]  = (["Picking a pumpkin","挑南瓜"])[cn_ind];
     this[0][i]    = "20191031_1";
-    this[1][i++]  = (["Painting a pumpkin","画南瓜"])[cn_ind];
+    this[1][i++]  = (["Painting a pumpkin","涂南瓜"])[cn_ind];
     this[0][i]    = "20191031_2";
     this[1][i++]  = (["Happy Birthday!","生日快乐！"])[cn_ind];
     this[0][i]    = "20191031_3";
