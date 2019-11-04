@@ -47,8 +47,6 @@ function initAlbum(){
     this[1][i++]  = (["Asleep at home","在家里的婴儿摇椅上安睡"])[cn_ind];
     this[0][i]    = "20171110_017_HomeWithMom";
     this[1][i++]  = (["With mom at home","牵着妈妈的手指头"])[cn_ind];
-    this[0][i]    = "20171119_018_HomeBassinet";
-    this[1][i++]  = (["At home in the bassinet","美美地躺在家里的摇篮里"])[cn_ind];
     this[0][i]    = "20171123_020_WithElena&Allison";
     this[1][i++]  = (["With Auntie Elena and Allison","在Elena阿姨家和Elena阿姨和Allison姐姐合影"])[cn_ind];
     this[0][i]    = "20171123_024_Thanksgiving";
