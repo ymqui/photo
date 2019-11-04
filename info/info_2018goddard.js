@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "https://www.goddardschool.com/washington/gaithersburg-wind-river-lane-md";
 var title      = (["Nathan at Goddard School","球球在戈达德托儿所的照片"])[cn_ind];
@@ -619,6 +619,10 @@ function initAlbum(){
     this[1][i++]  = (["Happy Birthday!","生日快乐！"])[cn_ind];
     this[0][i]    = "20191031_3";
     this[1][i++]  = (["Halloween group photo","万圣节集体照"])[cn_ind];
+    this[0][i]    = "20191104_1";
+    this[1][i++]  = (["Matching colored bean bags with the colored spots","将彩色豆袋放在相匹配的彩色斑点里"])[cn_ind];
+    this[0][i]    = "20191104_2";
+    this[1][i++]  = (["Scooping up beans with a measuring cup","用量杯装豆子"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
