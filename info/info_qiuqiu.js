@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
@@ -63,10 +63,6 @@ function initAlbum(){
     this[1][i++]  = (["Beauty time","妈妈在给球球擦护肤霜"])[cn_ind];
     this[0][i]    = "20171224_031_Nap";
     this[1][i++]  = (["Nap time","打个盹"])[cn_ind];
-    this[0][i]    = "20171224_032_Smile";
-    this[1][i++]  = (["Smiling","笑了"])[cn_ind];
-    this[0][i]    = "20171224_033_ReadyToGoOut";
-    this[1][i++]  = (["Ready to go out","穿戴整齐准备出门"])[cn_ind];
     this[0][i]    = "20171229_035_WithMom";
     this[1][i++]  = (["Mommy's little bundle of joy","和妈妈在一起"])[cn_ind];
     this[0][i]    = "20171229_036_2MonthCheckup";
