@@ -623,6 +623,8 @@ function initAlbum(){
     this[1][i++]  = (["Matching colored bean bags with the colored spots","将彩色豆袋放在相匹配的彩色斑点里"])[cn_ind];
     this[0][i]    = "20191104_2";
     this[1][i++]  = (["Scooping up beans with a measuring cup","用量杯装豆子"])[cn_ind];
+    this[0][i]    = "20191105_1";
+    this[1][i++]  = (["Painting with a cotton swab","用棉签画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
