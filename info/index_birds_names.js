@@ -98,6 +98,7 @@
       scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",npsurl("savannah",true)],
 //    txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baikeurl("阿兰萨斯国家野生动物保护区")],
       txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl("大弯国家公园")],
+//    txslsp:  ["Sheldon Lake State Park","Texas, USA","谢尔顿湖州立公园","美国德克萨斯州","https://tpwd.texas.gov/state-parks/sheldon-lake"],
 //    txsnwr:  ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",npsurl("santa_ana",true)],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
@@ -848,7 +849,7 @@
   birds[j++] = new myBird("16-05-29T15:32","PASSEREL","Seaside Sparrow","海滨沙鹀","Ammospiza maritimus",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"]);
   birds[j++] = new myBird("17-02-12T11:54","PASSEREL","Nelson's Sparrow","尼尔森沙鹀","Ammospiza nelsoni",m_id(["20170212_023_Nelson'sSparrow","20170212_024_Nelson'sSparrow"]),["deinri","2/2017"]);
   birds[j++] = new myBird("16-05-29T15:00","PASSEREL","Saltmarsh Sparrow","尖尾沙鹀","Ammospiza caudacutus",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"]);
-//birds[j++] = new myBird("19-00-00T00:00","PASSEREL","LeConte's Sparrow","莱氏沙鹀","Ammospiza leconteii",[m_id("")],["mdswhf","2/2017"]);
+//birds[j++] = new myBird("19-00-00T00:00","PASSEREL","LeConte's Sparrow","莱氏沙鹀","Ammospiza leconteii",[m_id("")],["txslsp","1/2020"]);
   birds[j++] = new myBird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["ohbath","5/2017"]);
   birds[j++] = new myBird("16-07-16T07:02","PASSEREL","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdmdmd","7/2016",(tmp1="Oland Road, Frederick County"),"","",(tmp2="弗雷德里克郡欧蓝德路"),"mdmdmd","7/2016","Immature, "+tmp1,"","",tmp2]);
   birds[j++] = new myBird("15-03-21T14:05","PASSEREL","American Tree Sparrow","美洲树雀鹀","Spizelloides arborea",[m_id("20150321_044_AmericanTreeSparrow")],["mdswhf","3/2015"]);
