@@ -109,6 +109,8 @@ function initAlbum(){
     this[1][i++]  = (["Nathan's first painting","球球画的第一幅画"])[cn_ind];
     this[0][i]    = "20180620_031_PonyRide";
     this[1][i++]  = (["Pony ride at the "+daycare+" with the help of Ms Mfuta","在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕"])[cn_ind];
+    this[0][i]    = "20180628_Waterday";
+    this[1][i++]  = (["Water day at the "+daycare,daycare+"的玩水日"])[cn_ind];
     this[0][i]    = "20180629_035_TeetherWafer";
     this[1][i++]  = (["Chewing on a teething wafer","嚼磨牙饼干"])[cn_ind];
     this[0][i]    = "20180731_Home";
