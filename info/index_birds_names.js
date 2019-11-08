@@ -139,7 +139,7 @@
   var j      = 0;
 
 //birds[j++] = new myBird("20-00-00T00:00","STRUTHIO","Common Ostrich","非洲鸵鸟","Struthio camelus",[m_id("")],["mdbhrp","9/2015"],"ostric2");
-//birds[j++] = new myBird("20-00-00T00:00","STRUTHIO","Somali Ostrich","索马里鸵鸟","Struthio molybdophanes",[m_id("")],["mdbhrp","9/2015"],"ostric3",4925445);
+//birds[j++] = new myBird("20-00-00T00:00","STRUTHIO","Somali Ostrich","索马里鸵鸟","Struthio molybdophanes",[m_id("")],["mdbhrp","9/2015"],"ostric3","非洲鸵鸟索马里亚种/362845");
 //birds[j++] = new myBird("20-00-00T00:00","RHEIDAE ","Greater Rhea","大美洲鸵","Rhea americana",[m_id("")],["mdbhrp","9/2015"],"grerhe1");
 //birds[j++] = new myBird("20-00-00T00:00","APTERYGI","Southern Brown Kiwi","褐几维","Apteryx australis",[m_id("")],["mdbhrp","9/2015"],"sobkiw1");
 //birds[j++] = new myBird("20-00-00T00:00","CASUARII","Southern Cassowary","双垂鹤鸵","Casuarius casuarius",[m_id("")],["aucass","9/2015"],"soucas1");
@@ -154,7 +154,7 @@
   birds[j++] = new myBird("19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("20190114_003_BarnacleGoose")],["mdmdmd","1/2019","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"],"bargoo");
   birds[j++] = new myBird("15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["mdmdmd","12/2015","2nd from front in the center (with the smallest bill), River Bend Park, Frederick","中间第二只(嘴最小的)","","弗雷德里克市河湾公园"],12989977);
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["mdmdmd","12/2016","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"]);
-  birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],[233547,7115385]);
+  birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],"雪雁/25315");
 //birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"pifgoo");
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"]);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"]);
