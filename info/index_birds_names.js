@@ -1208,7 +1208,7 @@
   function baikeurl(bid){
      if (typeof bid == "string"){
         return "https://baike.baidu.com/item/"+bid;
-     else{
+     }else{
         return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
      }
   }
