@@ -634,13 +634,15 @@ function initAlbum(){
     this[0][i]    = "20191108_1";
     this[1][i++]  = (["Singing and dancing","唱歌跳舞"])[cn_ind];
     this[0][i]    = "20191108_2";
-    this[1][i++]  = (["Singing and dancing","唱歌跳舞"])[cn_ind];
+    this[1][i++]  = (["Singing and dancing with Mrs Worley","Worley老师带大家唱歌跳舞"])[cn_ind];
     this[0][i]    = "20191108_3";
     this[1][i++]  = (["Watching Ms Burke making a fizzy Kool-Aid","看Burke老师调泡泡饮料"])[cn_ind];
     this[0][i]    = "20191111_1";
     this[1][i++]  = (["Pouring water from a cup into a measuring cup","将水从杯子倒入量杯"])[cn_ind];
     this[0][i]    = "20191113_1";
     this[1][i++]  = (["Tasting a piece of lemon","品尝柠檬的味道"])[cn_ind];
+    this[0][i]    = "20191115_1";
+    this[1][i++]  = (["Painting with a dotter","用宾果笔画圆点"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
