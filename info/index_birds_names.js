@@ -1274,13 +1274,8 @@
 
   function loclink(pid,date,usechinese,header,extra){
      pid = pid.trim().toLowerCase();
-     if (usechinese){
-        var comma = "，";
-        var id_0  = 2;      
-     }else{
-        var comma = ", ";
-        var id_0  = 0;
-     }
+     var comma = ([", ","，"])[usechinese];
+     var id_0  = ([0,2])[usechinese];
      if (typeof date === 'undefined') {var date  = "";}
      if (typeof header === 'undefined') {header = "";} 
      if (header.length>0) {header = header+comma;}
@@ -1288,35 +1283,23 @@
      if (typeof locurl[pid] === 'undefined') {return header+extra+date;}
      var tmp = locurl[pid].slice(0);
      if (locurl[pid].length>=7){
-        if (usechinese){ 
-           extra = tmp[4];
-        }else{
-           extra = tmp[1];
-        }
+        extra = tmp[([1,4])[usechinese]];
         tmp.splice(4,1);
         tmp.splice(1,1);
      }
-     if (typeof tmp[5]!=='undefined'){
-        if (usechinese) {tmp[4] = tmp[5];} 
+     if ((typeof tmp[5]!=='undefined') && usechinese){
+        tmp[4] = tmp[5];
      }
-     if ((extra.length>0)||(usechinese&&tmp[0+id_0].length>0)){extra = extra+comma;}   
+     if ((extra.length>0)||(usechinese&&(tmp[0+id_0].length>0))){extra = extra+comma;}
      if ((tmp[0+id_0].length>0) && (!usechinese)) {
         if (extra.length==0) { extra = comma+extra;}
         if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
-     if (typeof tmp[4] !== 'undefined') {   
-        if(usechinese){
-           return header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date;   
-        }else{
-           return header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date; 
-        }
+     if (typeof tmp[4] !== 'undefined') {
+        return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[usechinese];
      }else{
-        if(usechinese){
-           return header+tmp[1+id_0]+tmp[0+id_0]+extra+date; 
-        }else{
-           return header+tmp[0+id_0]+extra+tmp[1+id_0]+date; 
-        }
-     } 
+        return ([header+tmp[0+id_0]+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+tmp[0+id_0]+extra+date])[usechinese];
+     }
   }
 //-->
