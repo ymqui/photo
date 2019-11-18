@@ -1288,9 +1288,7 @@
         tmp.splice(4,1);
         tmp.splice(1,1);
      }
-     if ((typeof tmp[5]!=='undefined') && usechinese){
-        tmp[4] = tmp[5];
-     }
+     if ((typeof tmp[5]!=='undefined') && usechinese){tmp[4] = tmp[5];}
      if ((extra.length>0)||(usechinese&&(tmp[0+id_0].length>0))){extra = extra+comma;}
      if ((tmp[0+id_0].length>0) && (!usechinese)) {
         if (extra.length==0) { extra = comma+extra;}
