@@ -1274,8 +1274,9 @@
 
   function loclink(pid,date,usechinese,header,extra){
      pid = pid.trim().toLowerCase();
-     var comma = ([", ","，"])[usechinese];
-     var id_0  = ([0,2])[usechinese];
+     var cn_ind = usechinese?1:0;
+     var comma  = ([", ","，"])[cn_ind];
+     var id_0   = ([0,2])[cn_ind];
      if (typeof date === 'undefined') {var date  = "";}
      if (typeof header === 'undefined') {header = "";} 
      if (header.length>0) {header = header+comma;}
@@ -1283,7 +1284,7 @@
      if (typeof locurl[pid] === 'undefined') {return header+extra+date;}
      var tmp = locurl[pid].slice(0);
      if (locurl[pid].length>=7){
-        extra = tmp[([1,4])[usechinese]];
+        extra = tmp[([1,4])[cn_ind]];
         tmp.splice(4,1);
         tmp.splice(1,1);
      }
@@ -1297,9 +1298,9 @@
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {
-        return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[usechinese];
+        return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
      }else{
-        return ([header+tmp[0+id_0]+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+tmp[0+id_0]+extra+date])[usechinese];
+        return ([header+tmp[0+id_0]+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+tmp[0+id_0]+extra+date])[cn_ind];
      }
   }
 //-->
