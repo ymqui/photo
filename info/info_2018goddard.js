@@ -653,6 +653,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting with bubble wrap","用气泡包装膜画画"])[cn_ind];
     this[0][i]    = "20191120_2";
     this[1][i++]  = (["Singing with Ms Worley","Worley老师带大家唱歌"])[cn_ind];
+    this[0][i]    = "20191121_1";
+    this[1][i++]  = (["Painting with a pepper","用青椒画画"])[cn_ind];
+    this[0][i]    = "20191121_2";
+    this[1][i++]  = (["Making a trail mix with Ms Burke","看Burke老师混合什锦干果"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
