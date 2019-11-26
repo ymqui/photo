@@ -659,6 +659,14 @@ function initAlbum(){
     this[1][i++]  = (["Making a trail mix with Ms Burke","看Burke老师混合什锦干果"])[cn_ind];
     this[0][i]    = "20191125_1";
     this[1][i++]  = (["Getting ready for the Turkey Trot","准备参加感恩节“火鸡跑”"])[cn_ind];
+    this[0][i]    = "20191125_2";
+    this[1][i++]  = (["Lining up for the Turkey Trot","排队出发"])[cn_ind];
+    this[0][i]    = "20191125_3";
+    this[1][i++]  = (["Getting some stretches in","等待比赛开始"])[cn_ind];
+    this[0][i]    = "20191125_4";
+    this[1][i++]  = (["On the marks","在起跑线上"])[cn_ind];
+    this[0][i]    = "20191125_5";
+    this[1][i++]  = (["Off to the races","开始比赛"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
