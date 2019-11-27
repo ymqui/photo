@@ -667,6 +667,8 @@ function initAlbum(){
     this[1][i++]  = (["On the marks","在起跑线上"])[cn_ind];
     this[0][i]    = "20191125_5";
     this[1][i++]  = (["Off to the races","开始比赛"])[cn_ind];
+    this[0][i]    = "20191126_1";
+    this[1][i++]  = (["Drawing with crayons","用蜡笔画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
