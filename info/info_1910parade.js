@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 var info_url   = "https://www.goddardschool.com/washington/gaithersburg-wind-river-lane-md";
 var title      = "Halloween Costume Parade";
 var cam_img    = "camera_canon_all.jpg";
@@ -30,7 +30,7 @@ function initAlbum(){
         this[1][8] = "Burke老师和Khan老师领着球球班同学游行。";
         this[1][9] = "球球穿着托马斯火车套装。";
         this[1][10] = "我要妈妈。";
-        this[1][11] = "Sinnokrot老师带着球球的同学。";
+        this[1][11] = "Aya老师带着球球的同学。";
         this[1][12] = "Wahrhaftig老师。";
         this[1][13] = "Maali老师。";
         this[1][14] = "Bringas老师。";
@@ -40,7 +40,7 @@ function initAlbum(){
         this[1][8] = "Nathan's class is led by Ms. Burke and Mrs. Khan.";
         this[1][9] = "Nathan is wearing a Thomas train costume.";
         this[1][10] = "I want Mommy.";
-        this[1][11] = "Ms. Sinnokrot.";
+        this[1][11] = "Ms. Aya.";
         this[1][12] = "Ms. Wahrhaftig.";
         this[1][13] = "Ms. Maali.";
         this[1][14] = "Mrs. Bringas.";
