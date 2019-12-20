@@ -698,6 +698,8 @@ function initAlbum(){
     this[1][i++]  = (["Practicing the butterfly pose in Ms Burcher's yoga class","练习Burcher老师教的瑜伽新姿势"])[cn_ind];
     this[0][i]    = "20191220_1";
     this[1][i++]  = (["Listening to Alexander's Mom reading a story","听同学Alexander的妈妈读故事"])[cn_ind];
+    this[0][i]    = "20191220_2";
+    this[1][i++]  = (["Listening to Cadence's Mom reading a story","听同学Cadence的妈妈读故事"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
