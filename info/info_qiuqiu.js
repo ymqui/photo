@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
@@ -165,6 +165,10 @@ function initAlbum(){
     this[1][i++]  = pagelink("1910parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行"])[cn_ind]);
     this[0][i]    = "20191031_023";
     this[1][i++]  = (["Happy 2nd Birthday!","两岁生日快乐！"])[cn_ind];
+    this[0][i]    = "20191225_061";
+    this[1][i++]  = (["Opening the Christmas present","打开圣诞礼物"])[cn_ind];
+    this[0][i]    = "20191225_067";
+    this[1][i++]  = (["Playing with the train set","玩小火车"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
