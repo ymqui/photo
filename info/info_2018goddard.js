@@ -704,6 +704,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting snow","画雪花"])[cn_ind];
     this[0][i]    = "20200102_1";
     this[1][i++]  = (["Working out at the gym","在健身房锻炼"])[cn_ind];
+    this[0][i]    = "20200102_2";
+    this[1][i++]  = (["Picking up color balls with a pair of twizzers","用镊子夹彩球"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
