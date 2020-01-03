@@ -705,7 +705,9 @@ function initAlbum(){
     this[0][i]    = "20200102_1";
     this[1][i++]  = (["Working out at the gym","在健身房练瑜伽"])[cn_ind];
     this[0][i]    = "20200102_2";
-    this[1][i++]  = (["Picking up color balls with a pair of twizzers","用镊子夹彩球"])[cn_ind];
+    this[1][i++]  = (["Picking up pom-poms with a pair of twizzers","用镊子夹绒球"])[cn_ind];
+    this[0][i]    = "20200102_3";
+    this[1][i++]  = (["Painting with glitter glue","用闪光胶画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
