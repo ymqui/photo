@@ -714,6 +714,8 @@ function initAlbum(){
     this[1][i++]  = (["Matching colors","配色"])[cn_ind];
     this[0][i]    = "20200106_1";
     this[1][i++]  = (["Matching the number of fish and bear","数鱼和熊的小图片"])[cn_ind];
+    this[0][i]    = "20200108_1";
+    this[1][i++]  = (["Singing winter songs with Mrs. Worley","跟Worley老师一起唱冬季歌曲"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
