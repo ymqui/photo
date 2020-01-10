@@ -720,6 +720,8 @@ function initAlbum(){
     this[1][i++]  = (["First snow day of 2020","2020年第一场雪"])[cn_ind];
     this[0][i]    = "20200109_1";
     this[1][i++]  = (["Matching letters","匹配字母图片"])[cn_ind];
+    this[0][i]    = "20200110_1";
+    this[1][i++]  = (["Playing a game in the sign language class","在手语课上玩游戏"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
