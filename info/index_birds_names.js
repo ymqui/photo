@@ -291,7 +291,7 @@
   birds[j++] = new myBird("15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[p_id("1509charleston",15)],["arb","9/2015","Immature, Patriots Point, Charleston, South Carolina, USA","未成年，美国南卡罗来纳州查尔斯顿爱国者海角"]);
   birds[j++] = new myBird("11-12-27T17:06","ACCIPITR","Snail Kite","蜗鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4)],["flevnp","12/2011","Female"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",[p_id("2001txbirding",8)],["txsnwr","1/2020"]);
-//birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[p_id("2001txbirding",8)],["txsnwr","1/2020","Immature"]);
   birds[j++] = new myBird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),m_id("20190830_008_Red-shoulderedHawk"),"2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcovl","3/2009","flapop","8/2019","mdcocn","2/2007","Immature"]);
   birds[j++] = new myBird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15)],["caalgp","9/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"]);
@@ -479,8 +479,8 @@
 //birds[j++] = new myBird("20-00-00T00:00","CORACIID","Indian Roller","棕胸佛法僧","Coracias benghalensis",[m_id("")],["mdbhrp","9/2015"],"indrol1");
 //birds[j++] = new myBird("20-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",[m_id("")],["mdbhrp","9/2015"],"plgrol1");
   birds[j++] = new myBird("16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016"],"comkin1");
-//birds[j++] = new myBird("20-00-00T00:00","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",[p_id("2001txbirding",8)],["txsnwr","1/2020"],"grnkin");
-//birds[j++] = new myBird("20-00-00T00:00","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",[p_id("2001txbirding",8)],["txsnwr","1/2020"],"rinkin1");
+//birds[j++] = new myBird("20-00-00T00:00","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",[p_id("2001txbirding",8)],["txsnwr","1/2020","Male"],"grnkin");
+//birds[j++] = new myBird("20-00-00T00:00","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",[p_id("2001txbirding",8)],["txsnwr","1/2020","Female"],"rinkin1");
   birds[j++] = new myBird("06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","mdmdmd","8/2016","Female, Lilypons Water Garden","","","莉丽庞斯水上花园"]);
   birds[j++] = new myBird("15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",p_id("1501prbirding",[23,29]),["prceci","1/2015","Male","prceci","1/2015","Female"],"purtod1","短尾鴗科");
 //birds[j++] = new myBird("20-00-00T00:00","MOMOTIDA","Tody Motmot","短尾翠鴗","Hylomanes momotula",[m_id("")],["mdbhrp","9/2015"],"todmot1");
