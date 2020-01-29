@@ -734,6 +734,12 @@ function initAlbum(){
     this[1][i++]  = (["Tearing paper into small pieces","撕纸片"])[cn_ind];
     this[0][i]    = "20200128_2";
     this[1][i++]  = (["Group activity","集体活动"])[cn_ind];
+    this[0][i]    = "20200129_1";
+    this[1][i++]  = (["Dancing with Ms Burke in the gym","Burke老师带大家跳舞"])[cn_ind];
+    this[0][i]    = "20200129_2";
+    this[1][i++]  = (["Dancing with Mrs. Worley and Ms Aya","Worley老师和Aya老师带大家跳舞"])[cn_ind];
+    this[0][i]    = "20200129_3";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
