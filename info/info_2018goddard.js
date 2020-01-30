@@ -740,6 +740,12 @@ function initAlbum(){
     this[1][i++]  = (["Dancing with Mrs. Worley and Ms Aya","Worley老师和Aya老师带大家跳舞"])[cn_ind];
     this[0][i]    = "20200129_3";
     this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[0][i]    = "20200130_1";
+    this[1][i++]  = (["",""])[cn_ind];
+    this[0][i]    = "20200130_2";
+    this[1][i++]  = (["",""])[cn_ind];
+    this[0][i]    = "20200130_3";
+    this[1][i++]  = (["",""])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
