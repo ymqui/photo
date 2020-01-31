@@ -10,7 +10,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
-var blocksave  = false;
+//var pagelist   = [["2001txbirding","1/2020 Birding in Texas","1/2020 得克萨斯州观鸟"]]
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
