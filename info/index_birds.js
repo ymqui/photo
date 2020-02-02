@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   var setWidth     = 900;             //window width
   var setHeight    = 900;             //window height
   var info   = new Array(8);          //image info
@@ -241,6 +241,11 @@
   info[2][j] = 2;
   info[3][j] = "5/2019 Birding in Mexico";
   info[4][j++] = "Birding in Mexico(Mexico).";
+  info[0][j] = "2001txbirding";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "1/2020 Texas Birding";
+  info[4][j++] = "Birding in Southern Texas(Texas).";
 
   if(window.usechinese){
      j = 0;
@@ -336,6 +341,8 @@
      info[4][j++] = "哥斯达黎加观鸟(哥斯达黎加)。";
      info[3][j]   = "5/2019 墨西哥观鸟";
      info[4][j++] = "墨西哥观鸟(墨西哥)。";
+     info[3][j]   = "1/2020 德克萨斯观鸟";
+     info[4][j++] = "在德克萨斯州南部观鸟(德克萨斯州)。";
   } 
 
   //special touch
