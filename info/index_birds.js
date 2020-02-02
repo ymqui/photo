@@ -359,7 +359,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2019-05-21T12:00:00");
+  var modiDate1 = new Date("2020-02-02T12:00:00");
   if (window.modiDate){
      if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
   }else{
