@@ -145,7 +145,7 @@ for(var i=0;i<vars.length;i++) {
 if (lifer) order = false;
 
 if ((bname=='')&&(modiBird.name.length>0)){
-   bname = reform(modiBird.name[0]);
+   bname = reform(modiBird.name[(Math.floor(Math.random()*modiBird.name.length)]);
 }
 
 if (cellphone){
