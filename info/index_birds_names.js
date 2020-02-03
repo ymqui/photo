@@ -1,8 +1,7 @@
-<!--
+﻿<!--
   //date
   var modiDate  = new Date("2020-02-02T18:00:00");
   var modirange = 30;  		//range within modiDate in days
-  var modiindx  = [7];		//index of which modibird to be shown first
 
   //Chinese name: http://baike.niaolei.org.cn/
   //bird order:   http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -976,19 +975,6 @@
   birds[j++] = new myBird("15-01-01T14:06","THRAUPID","Bananaquit","曲嘴森莺","Coereba flaveola",[p_id("1501prbirding",2),p_id("1812crbirding",17)],["arb","1/2015","Bayamón, Puerto Rico, USA","美国波多黎各巴亚蒙市","crarol","12/2018"],"banana");
   birds[j++] = new myBird("18-12-06T09:09","THRAUPID","Yellow-faced Grassquit","黄脸草雀","Tiaris olivaceus",p_id("1812crbirding",[76,77]),["crarol","12/2018","Male","crarol","12/2018","Female"],"yefgra1");
   birds[j++] = new myBird("15-01-07T07:05","THRAUPID","Black-faced Grassquit","黑脸草雀","Melanospiza bicolor",p_id("1501prbirding",[50,33]),["prsanj","1/2015","Male","prsanj","1/2015","Female"],"bkfgra");
-
-  if (typeof modiindx !== 'undefined') {
-     if (modiindx.constructor != Array){modiindx = [modiindx];}
-     for (var i=0;i<modiindx.length;i++){
-         if ((modiBird.name.length>modiindx[i])&&(modiBird.name.length>i)) { 
-            modiindx[i] = modiindx[i]+modiindx.slice(0,i).filter(function(x){return x>modiindx[i]}).length;
-            if (modiindx[i] > i) {
-               modiBird.name.splice(i,0,modiBird.name.splice(modiindx[i],1)[0]);
-               modiBird.cname.splice(i,0,modiBird.cname.splice(modiindx[i],1)[0]);
-            }
-         }
-     }
-  }
 
   function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
      this.lifer    = new Date("20"+liferdate+":00"); 
