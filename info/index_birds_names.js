@@ -161,7 +161,7 @@
   birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",13)],["flplpr","6/2016","crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"]);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck(M)"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"]);
 //birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",[p_id()],["cnxihu","4/2005"],"manduc");
-  birds[j++] = new myBird("20-01-25T07:41","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",p_id("2001txbirding",[29,30]),["txsnwr","1/2020","Male left, female right","txsnwr","1/2020","Male"]);
+  birds[j++] = new myBird("20-01-25T07:41","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",p_id("2001txbirding",[29,30]),["txsnwr","1/2020","Males left, female right","txsnwr","1/2020","Males"]);
   birds[j++] = new myBird("07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Spatula discors",m_id(["20160410_036_Blue-wingedTeal","20150321_042_Blue-wingedTeal"]),["mdcorl","4/2016","Female left, male right","mdswhf","3/2015"]);
   birds[j++] = new myBird("12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Spatula clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler")],["vahump","11/2015","Male left, females right","mdftmh","2/2015"]);
   birds[j++] = new myBird("15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Mareca strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall(M)"]),["vahump","11/2015","Male left, female right","mdcovl","3/2015","Males"]);
