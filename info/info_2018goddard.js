@@ -748,6 +748,10 @@ function initAlbum(){
     this[1][i++]  = (["Printing with an apple cut in half","用苹果作图"])[cn_ind];
     this[0][i]    = "20200203_1";
     this[1][i++]  = (["Matching shadows to the shapes","匹配阴影和形状"])[cn_ind];
+    this[0][i]    = "20200204_1";
+    this[1][i++]  = (["Making bear prints on construction paper","在纸上用熊印图案"])[cn_ind];
+    this[0][i]    = "20200204_2";
+    this[1][i++]  = (["Learning about family members in Spanish from Ms Quinones","跟Quinones老师学习用西班牙语描述家庭成员"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
