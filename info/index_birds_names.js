@@ -97,7 +97,7 @@
       txsnwr:  ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",npsurl("santa_ana",true)],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
-      vaonwr:  ["Occoquan Bay National Wildlife Refuge","Virginia, USA","奥科宽湾国家野生动物保护区","美国弗吉尼亚州",npsurl("occoquan_bay",true)]
+      vaonwr:  ["Occoquan Bay National Wildlife Refuge","Virginia, USA","奥科宽湾国家野生动物保护区","美国弗吉尼亚州",npsurl("occoquan_bay",true)],
       vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://fpr.vermont.gov/wenlock-wildlife-management-area"],  
       wacape:  ["Cape Flattery","Neah Bay, Washington, USA","尼亚湾夫拉特角","美国华盛顿州","http://makah.com/activities/cape-flattery-trail/"],
       wahobb:  ["Hobuck Beach","Neah Bay, Washington, USA","尼亚湾Hobuck海滩","美国华盛顿州","http://makah.com/activities/beaches/hobuck/"],
