@@ -754,6 +754,8 @@ function initAlbum(){
     this[1][i++]  = (["Learning about family members in Spanish from Ms Quinones","跟Quinones老师学习用西班牙语描述家庭成员"])[cn_ind];
     this[0][i]    = "20200205_1";
     this[1][i++]  = (["Walking across a balance beam","过平衡木"])[cn_ind];
+    this[0][i]    = "20200205_2";
+    this[1][i++]  = (["Painting with ribbons","用丝带画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
