@@ -10,11 +10,11 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
-//var pagelist   = [["2001txbirding","1/2020 Birding in Texas","1/2020 得克萨斯州观鸟"]]
+var pagelist   = [["2001txbirding","1/2020 Birding in Texas","1/2020 德克萨斯州观鸟"]]
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
-    title      = "Vacationing in Texas";
+    title      = "在德克萨斯州度假";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
 }
  
@@ -54,7 +54,7 @@ function initAlbum(){
         this[1][22] = "在休斯顿赫尔曼公园。";
         this[1][23] = "在休斯顿赫尔曼公园。";
         this[1][24] = "骑小自行车。";
-        this[1][25] = "在圣安娜国家野生动物保护区陪爸爸观鸟。";
+        this[1][25] = pagelink("2001txbirding","在圣安娜国家野生动物保护区陪爸爸观鸟。");
         this[1][26] = "和小老虎一起绑好安全带准备飞机起飞。";
     }else{
         this[1][0] = "Riding the Hermann Park mini train in Houston.";
@@ -82,7 +82,7 @@ function initAlbum(){
         this[1][22] = "At Houston Hermann park.";
         this[1][23] = "Having fun at Hermann park.";
         this[1][24] = "Test ride a bicycle.";
-        this[1][25] = "Birding at Santa Ana National Wildlife Refuge.";
+        this[1][25] = pagelink("2001txbirding","Birding at Santa Ana National Wildlife Refuge.");
         this[1][26] = "Buckled up for the airplane takeoff.";
     }
 }
