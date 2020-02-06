@@ -13,8 +13,6 @@
      this.desc   = desc;
      this.cdesc  = cdesc; 
   }
-
-  var birdfamily = true;
 	
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/ V8.2
 
@@ -444,7 +442,16 @@
   family[j++] = new newFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀");
   orders[i++] = new newOrder("PASSERIFORMES","雀形目","Perching Birds","雀",family);
 
-  //functions used in index_birds_names
+  //functions and variables used in index_birds_names
+  var pt_eng  = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immatures*",
+                 "females* left, *males* right","females* and chicks*","females*","winter plumage","1st winter","2nd winter","3rd winter","fall plumage","winter females*","eclipse males*","adults* and immatures*","adults*",
+                 "breeding (adults*|plumage)","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display"];
+  var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性","冬羽","一龄冬羽","二龄冬羽","三龄冬羽","秋羽","冬羽雌性","蚀羽雄性","成年和未成年",
+                 "成年","繁殖羽","非繁殖羽","白变种","求偶展示"];     
+  var lnksty  = "' style='color: #3399FF; text-decoration: underline;'"; 
+  var fam_ln  = 8;						//family length
+  var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
+  
   function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
      this.lifer    = new Date("20"+liferdate+":00"); 
      this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
