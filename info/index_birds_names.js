@@ -61,7 +61,7 @@
       mdswhf:  ["Swan Harbor Farm","Havre de Grace, Maryland, USA","哈佛德格雷斯天鹅港农场","美国马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"],
       mdtrlr:  ["Truitts Landing Road","Worcester County, Maryland, USA","伍斯特郡特鲁伊特码头路","美国马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"],
       meeeri:  ["Eastern Egg Rock Island","Maine, USA","东蛋岩岛","美国缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"],
-      melocp:  ["Lobster Cove Preserve","Boothbay Harbor, Maine, USA","布斯贝港龙虾湾保护区","美国缅因州","http://www.bbrlt.org/documents/LobsterCoveGuide.pdf"],
+      melocp:  ["Lobster Cove Preserve","Boothbay Harbor, Maine, USA","布斯贝港龙虾湾保护区","美国缅因州","https://bbrlt.org/preserves/lobster-cove/"],
       menewh:  ["New Harbor","Maine, USA","新港","美国缅因州",wikiurl("New Harbor, Maine")],
       mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl("麦基诺岛")], 
       mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],
