@@ -756,6 +756,8 @@ function initAlbum(){
     this[1][i++]  = (["Walking across a balance beam","过平衡木"])[cn_ind];
     this[0][i]    = "20200205_2";
     this[1][i++]  = (["Painting with fluffy pipe cleaners","用洗管刷画画"])[cn_ind];
+    this[0][i]    = "20200207_1";
+    this[1][i++]  = (["Making a bird feeder with seeds, honey, and bagel","用鸟食，蜂蜜和百吉饼制作喂鸟器"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
