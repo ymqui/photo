@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2020-02-02T18:00:00");
+  var modiDate  = new Date("2020-02-02");
   var modirange = 30;  		//range within modiDate in days
 
   //Chinese name: http://baike.niaolei.org.cn/
