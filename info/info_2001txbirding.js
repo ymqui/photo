@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 //Created by Album Builder Program Sun Feb 02 00:43:48 2020
 var info_url   = "";
 var title      = "Birding in Texas";
@@ -32,7 +32,7 @@ function initAlbum(){
         this[1][1] = "美洲鹤，阿兰萨斯国家野生动物保护区。";
         this[1][2] = "粉红琵鹭和美洲白鹮，阿兰萨斯国家野生动物保护区。";
         this[1][3] = "美洲白鹈鹕，阿兰萨斯国家野生动物保护区。";
-        this[1][4] = "姬滨鹬，阿兰萨斯国家野生动物保护区。";
+        this[1][4] = "姬滨鹬，非繁殖羽，阿兰萨斯国家野生动物保护区。";
         this[1][5] = "美洲鹤，阿兰萨斯国家野生动物保护区。";
         this[1][6] = "长嘴杓鹬，阿兰萨斯国家野生动物保护区。";
         this[1][7] = "雪鹭，阿兰萨斯国家野生动物保护区。";
@@ -44,9 +44,9 @@ function initAlbum(){
         this[1][13] = "大西洋宽吻海豚，阿兰萨斯国家野生动物保护区。";
         this[1][14] = "牡蛎渔船。";
         this[1][15] = "橙冠虫森莺，圣安娜国家野生动物保护区。";
-        this[1][16] = "棕腹鱼狗，圣安娜国家野生动物保护区。";
+        this[1][16] = "棕腹鱼狗，雌性，圣安娜国家野生动物保护区。";
         this[1][17] = "侏䴙䴘，圣安娜国家野生动物保护区。";
-        this[1][18] = "琵嘴鸭，圣安娜国家野生动物保护区。";
+        this[1][18] = "琵嘴鸭，左雌性，右雄性，圣安娜国家野生动物保护区。";
         this[1][19] = "纯色小冠雉，圣安娜国家野生动物保护区。";
         this[1][20] = "纹背啄木鸟，雌性，圣安娜国家野生动物保护区。";
         this[1][21] = "灰鵟，未成年，圣安娜国家野生动物保护区。";
@@ -73,7 +73,7 @@ function initAlbum(){
         this[1][1] = "Whooping Crane, Aransas National Wildlife Refuge.";
         this[1][2] = "Roseate Spoonbill and White Ibis, Aransas National Wildlife Refuge.";
         this[1][3] = "American White Pelican, Aransas National Wildlife Refuge.";
-        this[1][4] = "Least Sandpiper, Aransas National Wildlife Refuge.";
+        this[1][4] = "Least Sandpiper, nonbreeding adult, Aransas National Wildlife Refuge.";
         this[1][5] = "Whooping Crane, Aransas National Wildlife Refuge.";
         this[1][6] = "Long-billed Curlew, Aransas National Wildlife Refuge.";
         this[1][7] = "Snowy Egret, Aransas National Wildlife Refuge.";
@@ -85,9 +85,9 @@ function initAlbum(){
         this[1][13] = "Atlantic Bottlenose Dolphin, Aransas National Wildlife Refuge.";
         this[1][14] = "Oyster fishing boat, Rockport.";
         this[1][15] = "Orange-crowned Warbler, Santa Ana National Wildlife Refuge.";
-        this[1][16] = "Ringed Kingfisher, Santa Ana National Wildlife Refuge.";
+        this[1][16] = "Ringed Kingfisher, female, Santa Ana National Wildlife Refuge.";
         this[1][17] = "Least Grebe, Santa Ana National Wildlife Refuge.";
-        this[1][18] = "Northern Shoveler, Santa Ana National Wildlife Refuge.";
+        this[1][18] = "Northern Shoveler, female left, male right, Santa Ana National Wildlife Refuge.";
         this[1][19] = "Plain Chachalaca, Santa Ana National Wildlife Refuge.";
         this[1][20] = "Ladder-backed Woodpecker, female, Santa Ana National Wildlife Refuge.";
         this[1][21] = "Gray Hawk, immature, Santa Ana National Wildlife Refuge.";
