@@ -22,7 +22,7 @@ function initAlbum(){
         this[0][i] = "2002trainshow_"+(i+1).toString();
     }
     i = 0;
-    this[1][i++]  = (["Playing with the train table.","玩小火车。"])[cn_ind];
+    this[1][i++]  = (["Playing with trains in the Model Train Show at Dulles Expo Center in Virginia.","在弗吉尼亚州杜勒斯展览中心火车模型展上玩小火车。"])[cn_ind];
     this[1][i++]  = (["Colorful model trains.","漂亮的模型火车。"])[cn_ind];
     this[1][i++]  = (["Looking at model trains.","看模型火车。"])[cn_ind];
     this[1][i++]  = (["Thomas model trains.","托马斯模型火车。"])[cn_ind];
@@ -37,9 +37,9 @@ function initAlbum(){
     this[1][i++]  = (["Looking at model trains.","看模型火车。"])[cn_ind];
     this[1][i++]  = (["Looking at model trains.","看模型火车。"])[cn_ind];
     this[1][i++]  = (["Practicing wheel spinning.","练习转动手摇盘。"])[cn_ind];
-    this[1][i++]  = (["Riding the handcar.","坐手动车。"])[cn_ind];
-    this[1][i++]  = (["Having a good time riding the handcar.","坐手动车好开心。"])[cn_ind];
-    this[1][i++]  = (["Having a good time riding the handcar.","坐手动车好开心。"])[cn_ind];
+    this[1][i++]  = (["Riding the handcar.","坐手动小火车。"])[cn_ind];
+    this[1][i++]  = (["Having a good time riding the handcar.","坐手动小火车好开心。"])[cn_ind];
+    this[1][i++]  = (["Having a good time riding the handcar.","坐手动小火车好开心。"])[cn_ind];
 }
 
 //web counter info
