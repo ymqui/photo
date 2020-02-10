@@ -171,7 +171,7 @@ function initAlbum(){
     this[0][i]    = "20191225_067";
     this[1][i++]  = (["Playing with the train set","玩小火车"])[cn_ind];
     this[0][i]    = ["2001texas/2001texas_18","20200121"];
-    this[1][i++]  = (["Visiting the Houston Downtown Aquarium during the "+pagelink("2001texas","vacation in Texas"),"在"+pagelink("2001texas","德克萨斯度假")+"期间参观休斯顿水族馆"])[cn_ind];
+    this[1][i++]  = (["Visiting the Houston Downtown Aquarium during the "+pagelink("2001texas","vacation in Texas"),"在"+pagelink("2001texas","德克萨斯州度假")+"期间参观休斯顿水族馆"])[cn_ind];
     this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
 
