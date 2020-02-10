@@ -758,6 +758,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting with fluffy pipe cleaners","用洗管刷画画"])[cn_ind];
     this[0][i]    = "20200207_1";
     this[1][i++]  = (["Making a bird feeder with seeds, honey, and bagel","用鸟食，蜂蜜和百吉饼制作喂鸟器"])[cn_ind];
+    this[0][i]    = "20200210_1";
+    this[1][i++]  = (["Painting with heart shaped cookie cutter","用心形饼干模画画"])[cn_ind];
+    this[0][i]    = "20200210_2";
+    this[1][i++]  = (["Looking for hearts under red and pink rice","在红色和粉红色大米里找心形纸片"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
