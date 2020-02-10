@@ -173,7 +173,7 @@
          document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid]));
          if ((i!=0)&&(!cellphone)){document.write('<font color='+link_color+'>,</font>');}
          document.write('&nbsp;');
-         if (i%3==0||cellphone){document.write('<br>');}
+         if (i%3==0||cellphone){document.write('<br>');}else{document.write('&nbsp;&nbsp;');}
      }  
   }
 
