@@ -172,6 +172,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with the train set","玩小火车"])[cn_ind];
     this[0][i]    = ["2001texas/2001texas_18","20200121"];
     this[1][i++]  = (["Visiting the Houston Downtown Aquarium during the "+pagelink("2001texas","vacation in Texas"),"在"+pagelink("2001texas","德克萨斯度假")+"期间参观休斯顿水族馆"])[cn_ind];
+    this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
+    this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show"),"在"+pagelink("2002trainshow","火车模型展")+"上坐手动车"])[cn_ind];
 
 
     for (var i=0;i<this[0].length;i++){
