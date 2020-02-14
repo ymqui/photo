@@ -773,7 +773,7 @@ function initAlbum(){
     this[0][i]    = "20200214_1";
     this[1][i++]  = (["Morning snack","早上集体吃小吃"])[cn_ind];
     this[0][i]    = "20200214_2";
-    this[1][i++]  = (["Putting a valentine in all the friends' bags","在所有朋友的袋子里放情人节卡"])[cn_ind];
+    this[1][i++]  = (["Putting a valentine in all the friends' gift bags","在所有朋友的礼品袋里放情人节卡"])[cn_ind];
     this[0][i]    = "20200214_3";
     this[1][i++]  = (["Valentine's day","情人节快乐"])[cn_ind];
 
