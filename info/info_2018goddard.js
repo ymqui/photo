@@ -770,6 +770,12 @@ function initAlbum(){
     this[1][i++]  = (["Looking at a school bus with friends","和朋友一起看校车"])[cn_ind];
     this[0][i]    = "20200213_2";
     this[1][i++]  = (["Yoga with Ms. Burtcher","跟Burtcher老师一起练习瑜伽"])[cn_ind];
+    this[0][i]    = "20200214_1";
+    this[1][i++]  = (["Morning snack","早上集体吃小吃"])[cn_ind];
+    this[0][i]    = "20200214_2";
+    this[1][i++]  = (["Putting a valentine in all the friends' bags","在所有朋友的袋子里放情人节卡"])[cn_ind];
+    this[0][i]    = "20200214_3";
+    this[1][i++]  = (["Valentine's day","情人节快乐"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
