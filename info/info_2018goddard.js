@@ -778,6 +778,10 @@ function initAlbum(){
     this[1][i++]  = (["Valentine's day","情人节快乐"])[cn_ind];
     this[0][i]    = "20200217_1";
     this[1][i++]  = (["Matching shapes on the envelope","在信封上匹配图案形状"])[cn_ind];
+    this[0][i]    = "20200217_2";
+    this[1][i++]  = (["Enjoying a walk outside","在户外散步"])[cn_ind];
+
+
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
     }    
