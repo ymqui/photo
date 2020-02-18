@@ -13,9 +13,10 @@ if (window.is_thumb) {
        page_num   = Math.floor(page_num);
    }
    if (cellphone){
-       fsizet     = 3;
-       numperpage = 20;
-       if (window.birdalbum) numperpage = 16;
+       fsizet     = 4;
+       numperpage = 15;
+       col        = 3;
+       if (window.birdalbum) numperpage = 12;
    }else{
        fsizet     = 2;
    }
