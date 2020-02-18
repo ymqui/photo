@@ -13,12 +13,12 @@ if (window.is_thumb) {
        page_num   = Math.floor(page_num);
    }
    if (cellphone){
-       fsizet     = 4;
+       fsizet     = 'large';
        numperpage = 15;
        col        = 3;
        if (window.birdalbum) numperpage = 12;
    }else{
-       fsizet     = 2;
+       fsizet     = 'medium';
    }
    if (Math.floor(Math.random()*20)==0 && page_num==1 && (!cellphone)) {
        numperpage = info[0].length;
@@ -39,7 +39,7 @@ if (window.is_thumb) {
    if(screen.availWidth<1025) wh_str = new Array(" width=110 height=82 "," width=110 height=147 "," width=110 height=73 "," width=100 height=150 ");
    //var wh_str = new Array(" "," "," "," ");
    while((id<=end_tnind)&&(id>=start_tnind)){
-       document.write('<TABLE border=0 cellspacing=15 cellpadding=15 align=center>');
+       document.write('<TABLE border=0 cellspacing=15 cellpadding=15 align=center style="font-family:Arial,Times New Roman;font-size:'+fsizet+';">');
        document.write('<tr>');
        var left = end_tnind-id+1;	//number of thumbnails left to be displayed
        for (var j=0; j<Math.min(left,col);j++){
@@ -66,8 +66,7 @@ if (window.is_thumb) {
                document.write('<IMG border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+info[5]+'nolock.png">');
            }
            document.write('<br><A HREF="showphoto.html?'+info[0][id]+'" style="text-decoration:none">');
-           document.write('<font size='+fsizet+' face="Arial, Times New Roman">'+info[3][id]+'</font>');
-           document.write('</A></td>');
+           document.write(info[3][id]+'</A></td>');
            id++;
        }
        document.write('</tr>');
