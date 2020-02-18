@@ -13,12 +13,12 @@ if (window.is_thumb) {
        page_num   = Math.floor(page_num);
    }
    if (cellphone){
-       fsizet     = 'large';
+       fsizet     = '200%';
        numperpage = 15;
        col        = 3;
        if (window.birdalbum) numperpage = 12;
    }else{
-       fsizet     = 'medium';
+       fsizet     = '100%';
    }
    if (Math.floor(Math.random()*20)==0 && page_num==1 && (!cellphone)) {
        numperpage = info[0].length;
