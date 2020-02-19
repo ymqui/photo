@@ -163,7 +163,7 @@
   birds[j++] = new myBird("13-07-14T14:11","ANATIDAE","Common Merganser","普通秋沙鸭","Mergus merganser",[m_id("20160221_016_CommonMerganser"),p_id("1307alaskabirding",1)],["mdcorl","2/2016","Female left, male right","akknpp","7/2013","Female and chicks"]);
   birds[j++] = new myBird("15-03-02T09:23","ANATIDAE","Red-breasted Merganser","红胸秋沙鸭","Mergus serrator",p_id("1503barnegat",[3,5,2]),["njblsp","3/2015","Male","njblsp","3/2015","Female","njblsp","3/2015","Immature"]);
   birds[j++] = new myBird("15-02-14T09:07","ANATIDAE","Ruddy Duck","棕硬尾鸭","Oxyura jamaicensis",[m_id("20150228_018_RuddyDuck(M)"),p_id("1512bhill",14)],["mdftmh","2/2015","Male","mdbhrp","2/2015","Female"]);
-//birds[j++] = new myBird("20-00-00T00:00","MEGAPODI","Dusky Megapode","普通冢雉","Megapodius freycinet",[m_id("")],["mdbhrp","9/2015"],"dusscr2");
+//birds[j++] = new myBird("20-00-00T00:00","MEGAPODI","Australian Brushturkey","丛冢雉","Alectura lathami",[m_id("")],["mdbhrp","9/2015"],"ausbrt1");
   birds[j++] = new myBird("20-01-24T09:26","CRACIDAE","Plain Chachalaca","纯色小冠雉","Ortalis vetula",[p_id("2001txbirding",20)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("18-12-06T08:02","CRACIDAE","Crested Guan","紫冠雉","Penelope purpurascens",[p_id("1812crbirding",73)],["crarol","12/2018"],"cregua1");
   birds[j++] = new myBird("18-12-04T09:43","CRACIDAE","Great Curassow","大凤冠雉","Crax rubra",p_id("1812crbirding",[35,83]),["crarol","12/2018","Male","crarol","12/2018","Female"],"grecur1");
