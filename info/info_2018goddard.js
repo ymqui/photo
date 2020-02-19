@@ -784,7 +784,8 @@ function initAlbum(){
     this[1][i++]  = (["Watching Ms Burke mix primary colors to make secondary colors","Burke老师给大家讲解三原色混合的原理"])[cn_ind];
     this[0][i]    = "20200219_2";
     this[1][i++]  = (["Drving a paint-dipped toy plane over construction paper","用飞机蘸颜料来画画"])[cn_ind];
-
+    this[0][i]    = "20200219_3";
+    this[1][i++]  = (["Singing and dancing with Mrs. Worley","跟Worley老师一起唱歌跳舞"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
