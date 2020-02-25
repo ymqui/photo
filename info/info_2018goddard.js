@@ -767,7 +767,7 @@ function initAlbum(){
     this[0][i]    = "20200212_1";
     this[1][i++]  = (["Drawing in the coffee filter","在咖啡过滤器上画画"])[cn_ind];
     this[0][i]    = "20200213_1";
-    this[1][i++]  = (["Looking at a school bus with friends","和朋友一起看校车"])[cn_ind];
+    this[1][i++]  = (["Looking at a school bus with friends","和小伙伴一起看校车"])[cn_ind];
     this[0][i]    = "20200213_2";
     this[1][i++]  = (["Yoga with Ms. Burtcher","跟Burtcher老师一起练习瑜伽"])[cn_ind];
     this[0][i]    = "20200214_1";
@@ -794,6 +794,8 @@ function initAlbum(){
     this[1][i++]  = (["Celebtrating Nathan Xie's 3rd birthday","庆祝同学Nathan Xie的三岁生日"])[cn_ind];
     this[0][i]    = "20200224_1";
     this[1][i++]  = (["Crawling through a car wash","爬模拟洗车通道"])[cn_ind];
+    this[0][i]    = "20200224_2";
+    this[1][i++]  = (["Enjoying a walk outside","户外散步"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
