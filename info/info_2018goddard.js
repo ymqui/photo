@@ -798,6 +798,12 @@ function initAlbum(){
     this[1][i++]  = (["Enjoying a walk outside","户外散步"])[cn_ind];
     this[0][i]    = "20200225_1";
     this[1][i++]  = (["Painting with a q-tip","用棉签画画"])[cn_ind];
+    this[0][i]    = "20200226_1";
+    this[1][i++]  = (["Singing Jack and Jill and walking up and down the hill with Mrs. Worley","在Worley老师音乐课上唱杰克和吉尔上山歌"])[cn_ind];
+    this[0][i]    = "20200226_2";
+    this[1][i++]  = (["Brushing Bruno the dinosaur's teeth","给恐龙布鲁诺刷牙"])[cn_ind];
+    this[0][i]    = "20200226_3";
+    this[1][i++]  = (["Painting with a pompom","用绒球画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
