@@ -51,6 +51,11 @@ function mouseclick(evt){
     }
 }
 
+function myrandom(){
+   seed = Math.sin(Math.floor(Date.now()/600000))*10000;
+   return seed-Math.floor(seed);
+}
+
 var bid     = null;
 var pbid    = null;
 var nbid    = null;
@@ -145,7 +150,7 @@ for(var i=0;i<vars.length;i++) {
 if (lifer) order = false;
 
 if ((bname=='')&&(modiBird.name.length>0)){
-   bname = reform(modiBird.name[Math.floor(Math.random()*(modiBird.name.length))]);
+   bname = reform(modiBird.name[Math.floor(myrandom()*(modiBird.name.length))]);
 }
 
 if (cellphone){
