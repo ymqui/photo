@@ -53,8 +53,8 @@ function mouseclick(evt){
 
 //A 10-minute PRNG
 function myrandom(){
-   seed = Math.sin(Math.floor(Date.now()/600000))*10000;
-   return seed-Math.floor(seed);
+   var intval = 600000; 
+   return (Date.now()%intval)/intval;
 }
 
 var bid     = null;
