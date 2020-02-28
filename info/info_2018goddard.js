@@ -809,7 +809,9 @@ function initAlbum(){
     this[0][i]    = "20200227_2";
     this[1][i++]  = (["Taste-testing a piece of cheese","品尝奶酪"])[cn_ind];
     this[0][i]    = "20200228_1";
-    this[1][i++]  = (["Painting with a squeeze bottle","用挤压瓶画画"])[cn_ind];
+    this[1][i++]  = (["Squeezing out glue","挤胶水"])[cn_ind];
+    this[0][i]    = "20200228_2";
+    this[1][i++]  = (["Matching colors and forms","匹配颜色和样式"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
