@@ -816,6 +816,10 @@ function initAlbum(){
     this[1][i++]  = (["Matching the color of scarfs to the corlor of hoops","匹配围巾和圈圈的颜色"])[cn_ind];
     this[0][i]    = "20200302_2";
     this[1][i++]  = (["Making footprints of a plastic dog","印塑料狗的脚印"])[cn_ind];
+    this[0][i]    = "20200304_1";
+    this[1][i++]  = (["Music class with Mrs. Worley","Worley老师的音乐课"])[cn_ind];
+    this[0][i]    = "20200304_2";
+    this[1][i++]  = (["Music class with Mrs. Worley","Worley老师的音乐课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
