@@ -820,6 +820,10 @@ function initAlbum(){
     this[1][i++]  = (["Music class with Mrs. Worley","Worley老师的音乐课"])[cn_ind];
     this[0][i]    = "20200304_2";
     this[1][i++]  = (["Music class with Mrs. Worley","Worley老师的音乐课"])[cn_ind];
+    this[0][i]    = "20200305_1";
+    this[1][i++]  = (["Listening to Ms. Burke","听Burke老师讲课"])[cn_ind];
+    this[0][i]    = "20200305_2";
+    this[1][i++]  = (["Forming a train","排成火车"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
