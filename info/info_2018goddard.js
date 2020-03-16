@@ -838,6 +838,8 @@ function initAlbum(){
     this[1][i++]  = (["Smelling a flower","闻花香"])[cn_ind];
     this[0][i]    = "20200313_2";
     this[1][i++]  = (["Eating ice cream","吃冰淇淋"])[cn_ind];
+    this[0][i]    = "20200316_1";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
