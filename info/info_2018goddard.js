@@ -848,6 +848,8 @@ function initAlbum(){
     this[1][i++]  = (["Sorting colored paper","分彩色小纸片"])[cn_ind];
     this[0][i]    = "20200317_3";
     this[1][i++]  = (["Happy St Patrick's Day","圣帕特里克节快乐"])[cn_ind];
+    this[0][i]    = "20200319_1";
+    this[1][i++]  = (["Group exercise","活动课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
