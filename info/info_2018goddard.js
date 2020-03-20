@@ -853,7 +853,7 @@ function initAlbum(){
     this[0][i]    = "20200320_1";
     this[1][i++]  = (["Spanish lesson with Ms Quinones","跟Quinones老师学西班牙语"])[cn_ind];
     this[0][i]    = "20200320_2";
-    this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[1][i++]  = (["Painting with a q-tip","用棉签画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
