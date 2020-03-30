@@ -1,7 +1,7 @@
 <!--
   //date
-  var modiDate  = new Date("2020-03-26");
-  var modirange = 1;  		//range within modiDate in days
+  var modiDate  = new Date("2020-03-28");
+  var modirange = 4;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
   var birds     = [];         
