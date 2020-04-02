@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
@@ -79,6 +79,8 @@ function initAlbum(){
     this[0][i]    = "20180210_005";
     makeface[j++] = i;
     this[1][i++]  = (["A very well-fed Nathan","茁壮成长"])[cn_ind];
+    this[0][i]    = "20180210_007_Lana";
+    this[1][i++]  = (["With Auntie Lana","Lana阿姨来看球球"])[cn_ind];
     this[0][i]    = "20180302_009_Sleep";
     this[1][i++]  = (["Napping","家里停电，不影响球球午睡"])[cn_ind];
     makeface[j++] = i;
