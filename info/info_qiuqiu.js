@@ -176,7 +176,9 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the gift shop of the Houston Downtown Aquarium during the "+pagelink("2001texas","vacation in Texas"),"在"+pagelink("2001texas","德克萨斯州度假")+"期间在休斯敦水族馆礼品店挑了一只小老虎"])[cn_ind];
     this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
-
+    this[0][i]    = ["2018goddard/20200403_1","20200403"];
+    this[1][i++]  = (["Distance learning from home due to the Coronavirus pandemic","托儿所由于全球2019冠状病毒疫情蔓延而关门，在家远程上课"])[cn_ind];
+    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
            this[1][i] = getdate(this[0][i],this[1][i]);
