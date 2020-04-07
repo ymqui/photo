@@ -868,6 +868,10 @@ function initAlbum(){
     this[1][i++]  = (["Distance learning at home","在家远程上课"])[cn_ind];
 //    this[0][i]    = "20200407_1";
 //    this[1][i++]  = (["Having fun building a train track","拼搭火车轨道"])[cn_ind];
+//    this[0][i]    = "20200407_2";
+//    this[1][i++]  = (["Coloring fun","蜡笔画画"])[cn_ind];
+//    this[0][i]    = "20200407_3";
+//    this[1][i++]  = (["Glueing paper flower","贴纸花"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
