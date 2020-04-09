@@ -880,6 +880,8 @@ function initAlbum(){
 //    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
 //    this[0][i]    = "20200409_2";
 //    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
+//    this[0][i]    = "20200409_3";
+//    this[1][i++]  = (["Scooter ride in the gym","在健身房骑板车"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
