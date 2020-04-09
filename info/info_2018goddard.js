@@ -871,7 +871,7 @@ function initAlbum(){
 //    this[0][i]    = "20200407_2";
 //    this[1][i++]  = (["Coloring fun","蜡笔画画"])[cn_ind];
 //    this[0][i]    = "20200407_3";
-//    this[1][i++]  = (["Glueing paper flower","贴纸花"])[cn_ind];
+//    this[1][i++]  = (["Counting flowers","贴纸花"])[cn_ind];
 //    this[0][i]    = "20200408_1";
 //    this[1][i++]  = (["Kicking the ball","踢球"])[cn_ind];
 //    this[0][i]    = "20200408_2";
@@ -880,12 +880,12 @@ function initAlbum(){
 //    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
 //    this[0][i]    = "20200409_2";
 //    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
-//    this[0][i]    = "20200409_3";
-//    this[1][i++]  = (["Scooter ride in the gym","在健身房骑板车"])[cn_ind];
 //    this[0][i]    = "20200409_4";
 //    this[1][i++]  = (["Snack time","吃零食"])[cn_ind];
 //    this[0][i]    = "20200409_5";
 //    this[1][i++]  = (["Painting","画画"])[cn_ind];
+//    this[0][i]    = "20200409_6";
+//    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
