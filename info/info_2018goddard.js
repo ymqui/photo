@@ -876,6 +876,10 @@ function initAlbum(){
 //    this[1][i++]  = (["Kicking the ball","踢球"])[cn_ind];
 //    this[0][i]    = "20200408_2";
 //    this[1][i++]  = (["Playing with rubber duckies in the sensory bin","在感官箱里玩小橡皮鸭"])[cn_ind];
+//    this[0][i]    = "20200409_1";
+//    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
+//    this[0][i]    = "20200409_2";
+//    this[1][i++]  = (["Playing with dominos","玩多米诺骨牌"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
