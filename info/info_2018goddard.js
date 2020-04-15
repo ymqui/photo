@@ -30,7 +30,7 @@ function initAlbum(){
     this[1][i++]  = (["Looking at pictures of horses","看马图"])[cn_ind];
     this[0][i]    = "20180621_1";
     this[1][i++]  = (["Holding two animal toys","同时拿着两只动物玩具"])[cn_ind];
-    this[0][i]    = "20180622_1";f
+    this[0][i]    = "20180622_1";
     this[1][i++]  = (["Fitting the puzzle","拼图玩具"])[cn_ind];
     this[0][i]    = "20180622_2";
     this[1][i++]  = (["Reading","看书"])[cn_ind];
