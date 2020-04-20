@@ -894,6 +894,8 @@ function initAlbum(){
 //    this[1][i++]  = (["Matching shapes","匹配图案形状"])[cn_ind];
 //    this[0][i]    = "20200415_1";
 //    this[1][i++]  = (["Painting with a bingo dotter","用宾果笔画画"])[cn_ind];
+//    this[0][i]    = "20200420_1";
+//    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
