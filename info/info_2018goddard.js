@@ -898,6 +898,8 @@ function initAlbum(){
 //    this[1][i++]  = (["Painting","画画"])[cn_ind];
 //    this[0][i]    = "20200424_1";
 //    this[1][i++]  = (["Having fun in the gym","在健身房玩得很开心"])[cn_ind];
+    this[0][i]    = "20200427_1";
+    this[1][i++]  = (["Teacher appreciation week assignment","教师节给老师准备的感谢拼词，球球的词是“我们”"])[cn_ind];
 //    this[0][i]    = "20200428_1";
 //    this[1][i++]  = (["Painting with Anna using yellow paint and corn on the cob","和同学Anna一起用玉米棒子画画"])[cn_ind];
 
