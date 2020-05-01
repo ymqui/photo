@@ -902,6 +902,8 @@ function initAlbum(){
     this[1][i++]  = (["Teacher appreciation week assignment","教师节给老师准备的感谢组句词语，球球的词是“我们”"])[cn_ind];
 //    this[0][i]    = "20200428_1";
 //    this[1][i++]  = (["Painting with Anna using yellow paint and corn on the cob","和同学Anna一起用玉米棒子画画"])[cn_ind];
+//    this[0][i]    = "20200501_1";
+//    this[1][i++]  = (["Cooking","小厨师"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
