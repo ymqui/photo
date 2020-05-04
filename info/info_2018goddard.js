@@ -904,6 +904,8 @@ function initAlbum(){
 //    this[1][i++]  = (["Painting with Anna using yellow paint and corn on the cob","和同学Anna一起用玉米棒子画画"])[cn_ind];
 //    this[0][i]    = "20200501_1";
 //    this[1][i++]  = (["Cooking","小厨师"])[cn_ind];
+//    this[0][i]    = "20200504_1";
+//    this[1][i++]  = (["Glueing feather on construction paper","在纸上粘羽毛"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
