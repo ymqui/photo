@@ -97,7 +97,7 @@ function initAlbum(){
         this[1][66] = "黑颊啄木鸟，雄性"+crarol;
         this[1][67] = "栗胸林莺，非繁殖羽雌性/未成年雄性"+crarol;
         this[1][68] = "紫头蜂鸟，雄性"+crarol;
-        this[1][69] = "Brown Jay"+crarol;
+        this[1][69] = "褐鸦"+crarol;
         this[1][70] = "领簇舌巨嘴鸟"+crarol;
         this[1][71] = "绿背歌雀，雌性"+crarol;
         this[1][72] = "紫冠雉"+crarol;
