@@ -1,6 +1,6 @@
 ﻿<!--
   //date
-  var modiDate  = new Date("2020-03-28");
+  var modiDate  = new Date("2020-05-12");
   var modirange = 4;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -556,7 +556,7 @@
   birds[j++] = new myBird("18-12-02T08:57","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[p_id("1812crbirding",10)],["crsanj","12/2018","La Sabana Park","","","萨瓦纳公园"]);
   birds[j++] = new myBird("19-05-14T08:27","TYRANNID","Cassin's Kingbird","卡氏王霸鹟","Tyrannus vociferans",p_id("1905mxbird",[26,30]),["mxguan","5/2019","arb","5/2019","Guanajuato City Bus Station, Mexico","墨西哥瓜纳华托城汽车站"]);
   birds[j++] = new myBird("15-07-12T10:38","TYRANNID","Western Kingbird","西王霸鹟","Tyrannus verticalis",[p_id("1507birdingwest",46)],["cabake","7/2015","Beale Park","","","比尔公园"]);
-//birds[j++] = new myBird("20-00-00T00:00","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("")],["mdocin","3/2017"]);
+  birds[j++] = new myBird("20-05-12T09:40","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("20200512_006_Scissor-tailedFlycatcher")],["mdmdmd","5/2020","Severn-Danza Park, Anne Arundel County","","","安妮阿伦德尔郡塞文丹扎公园"]);
 //birds[j++] = new myBird("20-00-00T00:00","TYRANNID","Fork-tailed Flycatcher","叉尾王霸鹟","Tyrannus savana",[m_id("")],["mdocin","3/2017"],"fotfly");
   birds[j++] = new myBird("06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",[p_id("1512bhill",28)],["mdbhrp","6/2015"]);
   birds[j++] = new myBird("15-01-05T14:08","TYRANNID","Gray Kingbird","灰王霸鹟","Tyrannus dominicensis",[p_id("1501prbirding",43)],["prsanj","1/2015"],"grykin");
