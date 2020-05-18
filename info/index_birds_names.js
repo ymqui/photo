@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   //date
   var modiDate  = new Date("2020-05-12");
   var modirange = 4;  		//range within modiDate in days
@@ -159,7 +159,7 @@
   birds[j++] = new myBird("15-02-28T13:43","ANATIDAE","Bufflehead","白枕鹊鸭","Bucephala albeola",[p_id("1512boston",11),m_id("20160327_029_Bufflehead(F)")],["mahpsp","12/2015","Females left, males right","ncoutb","3/2016","Females",""," at Cape Hatteras","哈特拉斯角"]);
   birds[j++] = new myBird("15-02-28T13:54","ANATIDAE","Common Goldeneye","鹊鸭","Bucephala clangula",p_id("1512boston",[6,7]),["arb","12/2015","Male"+(tmp1=", Castle Island, Boston, Massachusetts, USA"),"雄性"+(tmp2="，美国马萨诸塞州波士顿城堡岛"),"arb","12/2015","Female left, male right"+tmp1,"左雌性，右雄性"+tmp2]);
 //birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Barrow's Goldeneye","巴氏鹊鸭","Bucephala islandica",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("14-01-20T17:16","ANATIDAE","Hooded Merganser","棕胁秋沙鸭","Lophodytes cucullatus",[m_id("20150125_002_HoodedMerganser")],["mdmdmd","1/2015","Male left, female right, Clear Spring Park, Germantown","","","德国镇清泉公园"]);
+  birds[j++] = new myBird("14-01-20T17:16","ANATIDAE","Hooded Merganser","棕胁秋沙鸭","Lophodytes cucullatus",m_id(["20150125_002_HoodedMerganser","20200514_007_HoodedMerganser"]),["mdmdmd","1/2015","Male left, female right, Clear Spring Park, Germantown","","","德国镇清泉公园","mdmwma","5/2020","Female and chicks"]);
   birds[j++] = new myBird("13-07-14T14:11","ANATIDAE","Common Merganser","普通秋沙鸭","Mergus merganser",[m_id("20160221_016_CommonMerganser"),p_id("1307alaskabirding",1)],["mdcorl","2/2016","Female left, male right","akknpp","7/2013","Female and chicks"]);
   birds[j++] = new myBird("15-03-02T09:23","ANATIDAE","Red-breasted Merganser","红胸秋沙鸭","Mergus serrator",p_id("1503barnegat",[3,5,2]),["njblsp","3/2015","Male","njblsp","3/2015","Female","njblsp","3/2015","Immature"]);
   birds[j++] = new myBird("15-02-14T09:07","ANATIDAE","Ruddy Duck","棕硬尾鸭","Oxyura jamaicensis",[m_id("20150228_018_RuddyDuck(M)"),p_id("1512bhill",14)],["mdftmh","2/2015","Male","mdbhrp","2/2015","Female"]);
@@ -540,7 +540,7 @@
   birds[j++] = new myBird("13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",[p_id("1507birdingwest",4)],["nvdnwr","7/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("18-12-07T06:58","TYRANNID","Western Wood-Pewee","西绿霸鹟","Contopus sordidulus",[p_id("1812crbirding",85)],["crarol","12/2018"]);
-  birds[j++] = new myBird("06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",[m_id("20150703_080_EasternWood-Pewee")],["mdcocn","7/2015","",""," at Maryland Heights","马里兰高地一带"]);
+  birds[j++] = new myBird("06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",m_id(["20150703_080_EasternWood-Pewee","20200517_012_EasternWood-Pewee"]),["mdcocn","7/2015","",""," at Maryland Heights","马里兰高地一带","mdlbrp","5/2020"]);
   birds[j++] = new myBird("18-12-08T08:58","TYRANNID","Tropical Pewee","热带绿霸鹟","Contopus cinereus",[p_id("1812crbirding",99)],["crsanj","12/2018","Morazán Park","","","莫拉桑公园"],"tropew1");
   birds[j++] = new myBird("15-08-15T07:20","TYRANNID","Yellow-bellied Flycatcher","黄腹纹霸鹟","Empidonax flaviventris",[p_id("1512bhill",29)],["mdbhrp","8/2015"]);
   birds[j++] = new myBird("15-05-31T09:31","TYRANNID","Acadian Flycatcher","绿纹霸鹟","Empidonax virescens",[m_id("20160508_045_AcadianFlycatcher")],["mdpvsp","5/2016"]);
@@ -900,7 +900,7 @@
   birds[j++] = new myBird("16-04-23T14:07","PARULIDA","Blackburnian Warbler","橙胸林莺","Setophaga fusca",[p_id("1705ohio",12),p_id("1604asheville",4)],["ohmage","5/2017","Male","ncbpkw","4/2016","Male"]);
   birds[j++] = new myBird("15-04-26T09:16","PARULIDA","Yellow Warbler","黄林莺","Setophaga petechia",m_id(["20150426_063_YellowWarbler(M)","20160514_047_YellowWarbler(F)","20160514_048_YellowWarbler"]),["mdbmnt","4/2015","Male","nyjbwr","5/2016","Female","nyjbwr","5/2016"]);
   birds[j++] = new myBird("15-09-12T07:38","PARULIDA","Chestnut-sided Warbler","栗胁林莺","Setophaga pensylvanica",[p_id("1812crbirding",23),m_id("20170827_094_Chestnut-sidedWarbler(I)")],["crarol","12/2018","Female","mdlbrp","8/2017","Immature"]);
-  birds[j++] = new myBird("17-05-28T10:42","PARULIDA","Blackpoll Warbler","白颊林莺","Setophaga striata",[p_id("1705ohio",11)],["ohmage","5/2017","Female"]);
+  birds[j++] = new myBird("17-05-28T10:42","PARULIDA","Blackpoll Warbler","白颊林莺","Setophaga striata",[m_id("20200517_013_BlackpollWarbler"),p_id("1705ohio",11)],["mdlbrp","5/2020","Male","ohmage","5/2017","Female"]);
   birds[j++] = new myBird("15-05-10T12:54","PARULIDA","Black-throated Blue Warbler","黑喉蓝林莺","Setophaga caerulescens",[m_id("20170910_102_Black-throatedBlueWarbler(M)")],["mdlbrp","9/2017","Male"]);
   birds[j++] = new myBird("06-04-09T10:02","PARULIDA","Palm Warbler","棕榈林莺","Dendroica palmarum",[p_id("1604asheville",9),m_id("20151025_112_PalmWarbler(FP)")],["ncllmp","4/2016","mdbmnt","10/2015","Fall plumage"]);
   birds[j++] = new myBird("15-07-26T10:08","PARULIDA","Pine Warbler","松莺","Setophaga pinus",p_id("1612savannah",[14,13]),["scjwwc","12/2016","Male"]);
