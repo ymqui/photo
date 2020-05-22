@@ -1,4 +1,4 @@
-<!--
+﻿<!--
   //date
   var modiDate  = new Date("2020-05-19");
   var modirange = 4;  		//range within modiDate in days
@@ -195,8 +195,8 @@
 //birds[j++] = new myBird("20-00-00T00:00","HYDROBAT","European Storm-Petrel","暴风海燕","Hydrobates pelagicus",[m_id("")],["mdbhrp","9/2015"],"bripet","海燕科/2336774");
 //birds[j++] = new myBird("20-00-00T00:00","HYDROBAT","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Oceanodroma furcata",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","PROCELLA","Northern Fulmar","暴风鹱","Fulmarus glacialis",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("20-00-00T00:00","PROCELLA","Sooty shearwater","灰鹱","Ardenna grisea",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("20-00-00T00:00","PROCELLA","Common Diving Petrel","鹈燕","Pelecanoides urinatrix",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("20-00-00T00:00","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",[m_id("")],["mdbhrp","9/2015"],"sooshe");
+//birds[j++] = new myBird("20-00-00T00:00","PROCELLA","Common Diving Petrel","鹈燕","Pelecanoides urinatrix",[m_id("")],["mdbhrp","9/2015"],"codpet1");
   birds[j++] = new myBird("20-01-24T09:17","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[p_id("2001txbirding",18)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[p_id("1312bigbendbirding",7),p_id("1512bhill",43),p_id("1409fingerlake",12)],["txbbnp","12/2013","mdbhrp","10/2015","Winter plumage","nymnwr","8/2014","Immature"],"斑嘴巨鸊鷉");
   birds[j++] = new myBird("16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",[m_id("20161231_143_Red-neckedGrebe(WP)")],["mdloch","12/2016","Winter plumage"]);
