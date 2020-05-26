@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
@@ -182,6 +182,8 @@ function initAlbum(){
     this[1][i++]  = (["Yoga in the car seat","在车座上练瑜伽"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
+    this[0][i]    = "20205023_BottleFeedingBear";
+    this[1][i++]  = (["Bottle feeding the bear buddy","给小熊宝宝喂奶"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
