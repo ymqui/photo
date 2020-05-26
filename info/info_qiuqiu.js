@@ -182,7 +182,7 @@ function initAlbum(){
     this[1][i++]  = (["Yoga in the car seat","在车座上练瑜伽"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
-    this[0][i]    = "20205023_BottleFeedingBear";
+    this[0][i]    = "20200523_BottleFeedingBear";
     this[1][i++]  = (["Bottle feeding the bear buddy","给小熊宝宝喂奶"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
