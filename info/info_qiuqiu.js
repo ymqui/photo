@@ -184,6 +184,8 @@ function initAlbum(){
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
     this[0][i]    = "20200523_BottleFeedingBear";
     this[1][i++]  = (["Bottle feeding the bear buddy","给小熊宝宝喂奶"])[cn_ind];
+    this[0][i]    = "20200528_005_PottyTraining";
+    this[1][i++]  = (["Potty training","尝试便盆训练"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
