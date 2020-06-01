@@ -872,7 +872,7 @@
   birds[j++] = new myBird("18-12-02T06:19","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",p_id("1812crbirding",[3,9]),["crsanj","12/2018","Male, Park of Social Guarantees","","","社会保障公园","crsanj","12/2018","Female, La Sabana Park","","","萨瓦纳公园"]);
   birds[j++] = new myBird("15-05-24T08:16","PARULIDA","Ovenbird","橙顶灶莺","Seiurus aurocapilla",[p_id("1505puffin",8),m_id("20170506_051_Ovenbird")],["melocp","5/2015","nycenp","5/2017"]);
   birds[j++] = new myBird("16-04-24T10:25","PARULIDA","Worm-eating Warbler","食虫莺","Helmitheros vermivorum",[p_id("1604asheville",15)],["nccrsp","4/2016"]);
-  birds[j++] = new myBird("15-01-06T09:16","PARULIDA","Louisiana Waterthrush","白眉灶莺","Parkesia motacilla",[p_id("1501prbirding",31),m_id("20200529_031_LouisianaWaterthrush")],["arb","1/2015","El Yunque National Forest, Puerto Rico, USA","美国波多黎各云盖热带雨林","mdcovl","5/2020"]);
+  birds[j++] = new myBird("15-01-06T09:16","PARULIDA","Louisiana Waterthrush","白眉灶莺","Parkesia motacilla",[p_id("1501prbirding",31),m_id("20200601_032_LouisianaWaterthrush")],["arb","1/2015","El Yunque National Forest, Puerto Rico, USA","美国波多黎各云盖热带雨林","mdlbrp","6/2020"]);
   birds[j++] = new myBird("16-05-14T09:55","PARULIDA","Northern Waterthrush","黄眉灶莺","Parkesia noveboracensis",[m_id("20160514_054_NorthernWaterthrush")],["nyjbwr","5/2016"]);
 //birds[j++] = new myBird("20-00-00T00:00","PARULIDA","Golden-winged Warbler","金翅虫森莺","Vermivora chrysoptera",[m_id("")],["scpatp","9/2015"]);
   birds[j++] = new myBird("15-08-30T08:54","PARULIDA","Blue-winged Warbler","蓝翅虫森莺","Vermivora cyanoptera",[m_id("20150830_091_Blue-wingedWarbler")],["mdbrgd","8/2015","Male"]);
@@ -923,7 +923,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","PARULIDA","Painted Redstart","彩鸲莺","Myioborus pictus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","MITROSPI","Dusky-faced Tanager","乌脸唐纳雀","Mitrospingus cassinii",[m_id("")],["mdbhrp","9/2015"],"duftan1");
   birds[j++] = new myBird("15-05-02T08:21","CARDINAL","Summer Tanager","玫红丽唐纳雀","Piranga rubra",[p_id("1812crbirding",87),p_id("1812crbirding",32),m_id("20170625_079_SummerTanager(M)")],["crarol","12/2018","Male","crarol","12/2018","Female","mdcovl","6/2017","Male"]);
-  birds[j++] = new myBird("15-05-03T08:03","CARDINAL","Scarlet Tanager","猩红丽唐纳雀","Piranga olivacea",m_id(["20160514_052_ScarletTanager(M)","20160514_051_ScarletTanager(F)","20150503_070_ScarletTanager(M)"]),["nyjbwr","5/2016","Male","nyjbwr","5/2016","Female","mdcopl","5/2015","Male"]);
+  birds[j++] = new myBird("15-05-03T08:03","CARDINAL","Scarlet Tanager","猩红丽唐纳雀","Piranga olivacea",m_id(["20160514_052_ScarletTanager(M)","20160514_051_ScarletTanager(F)","20200601_034_ScarletTanager"]),["nyjbwr","5/2016","Male","nyjbwr","5/2016","Female","mdlbrp","6/2020","Male"]);
 //birds[j++] = new myBird("20-00-00T00:00","CARDINAL","Western Tanager","黄腹丽唐纳雀","Piranga ludoviciana",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("14-08-30T16:45","CARDINAL","Rose-breasted Grosbeak","玫胸白斑翅雀","Pheucticus ludovicianus",[p_id("1409fingerlake",6),p_id("1512bhill",42)],["arb","8/2014","Female, Salmon Creek Road, New York, USA","雌性，美国纽约州鲑鱼河路","mdbhrp","9/2015","Immature male"]);
   birds[j++] = new myBird("19-05-12T09:59","CARDINAL","Black-headed Grosbeak","黑头白斑翅雀","Pheucticus melanocephalus",[p_id("1905mxbird",16)],["mxunam","5/2019","Male"]);
