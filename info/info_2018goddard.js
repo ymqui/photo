@@ -917,7 +917,7 @@ function initAlbum(){
 //    this[0][i]    = "20200603_1";
 //    this[1][i++]  = (["Painting","画画"])[cn_ind];
 //    this[0][i]    = "20200605_1";
-//    this[1][i++]  = (["Playing","玩"])[cn_ind];
+//    this[1][i++]  = (["Playing with a toy rocket","玩火箭玩具"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
