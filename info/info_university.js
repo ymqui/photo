@@ -20,7 +20,7 @@ function initAlbum(){
     i = 0;
     j = 0;
 
-    this[0][i]    = "20200524_MDNavalAcademy";
+    this[0][i]    = "20200607_MDNavalAcademy";
     this[1][i++]  = (["US Naval Academy, Annapolis, Maryland, United States","美国海军学院，美国马里兰州安纳波利斯市"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
