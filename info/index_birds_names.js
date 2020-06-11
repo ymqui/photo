@@ -1,7 +1,7 @@
-﻿<!--
+<!--
   //date
   var modiDate  = new Date("2020-06-10");
-  var modirange = 4;  		//range within modiDate in days
+  var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
   var birds     = [];         
@@ -172,7 +172,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","ODONTOPH","Scaled Quail","鳞斑鹑","Callipepla squamata",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","ODONTOPH","California Quail","珠颈翎鹑","Callipepla californica",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("1507birdingwest",2)],["nvdnwr","7/2015","Female"]);
-//birds[j++] = new myBird("20-00-00T00:00","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","Male"]);
+//birds[j++] = new myBird("20-00-00T00:00","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[m_id("")],["arb","6/2020","Powhatan State Park, Virginia, USA","美国弗吉尼亚州博哈坦州立公园"]);
 //birds[j++] = new myBird("20-00-00T00:00","ODONTOPH","Montezuma Quail","彩鹑","Cyrtonyx montezumae",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"]);
   birds[j++] = new myBird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"]);
