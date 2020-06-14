@@ -277,7 +277,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","SAROTHRU","Buff-spotted Flufftail","黄点侏秧鸡","Sarothrura elegans",[m_id("")],["mdbhrp","9/2015"],"busflu1");
 //birds[j++] = new myBird("20-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",[m_id("")],["mdbhrp","9/2015"],"afrfin1","鳍脚鷈");
   birds[j++] = new myBird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus longirostris",p_id("1509charleston",[9,10]),["scpitt","9/2015"]);
-  birds[j++] = new myBird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",[m_id("20200610_037_KingRail")],["vaonwr","6/2020"]);
+  birds[j++] = new myBird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(sas("20200610_03",["7","9"],"_KingRail")),["vaonwr","6/2020"]);
   birds[j++] = new myBird("17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arb","5/2017","Mentor Marsh State Nature Perserve, Ohio, USA","美国俄亥俄州门托沼泽州立自然保护区"]);
 //birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","White-breasted Waterhen","白胸苦恶鸟","Amaurornis phoenicurus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("")],["ohment","5/2017"]);
