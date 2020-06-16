@@ -888,7 +888,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
 //birds[j++] = new myBird("20-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[m_id("20200519_016_KentuckyWarbler")],["mdlbrp","5/2020","Male"]);
+  birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[m_id("20200519_016_KentuckyWarbler")],["mdlbrp","5/2020"]);
   birds[j++] = new myBird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat(M)"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat(IM)")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdorpk","9/2017","Immature male"]);
   birds[j++] = new myBird("19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",p_id("1905mxbird",[13,12]),["mxunam","5/2019","Male"],"hooyel1");
   birds[j++] = new myBird("16-04-24T10:49","PARULIDA","Hooded Warbler","黑枕威森莺","Setophaga citrina",p_id("1604asheville",[18,17]),["nccrsp","4/2016","Male"]);
