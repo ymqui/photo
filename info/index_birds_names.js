@@ -673,7 +673,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","PYCNONOT","Chestnut Bulbul","栗背短脚鹎","Hemixos castanonotus",[p_id("1601china",)],["cnlydp","1/2016","Male"],"chebul1");
   birds[j++] = new myBird("16-01-09T14:54","PYCNONOT","Black Bulbul","黑短脚鹎","Hypsipetes leucocephalus",[p_id("1704longyan",3),p_id("1601china",38)],["cnlydp","4/2017","cnlydp","1/2016","White-headed form","白头形"],"blabul1");
   birds[j++] = new myBird("13-07-17T17:11","HIRUNDIN","Bank Swallow","崖沙燕","Riparia riparia",[p_id("1307alaskabirding",6)],["arb","7/2013","Point Woronzof Park, Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇沃隆佐夫角公园"]);
-  birds[j++] = new myBird("06-04-30T08:56","HIRUNDIN","Tree Swallow","双色树燕","Tachycineta bicolor",[p_id("1505puffin",1),m_id("20150405_049_TreeSwallow")],["ctciws","5/2015","Female","mdbmnt","4/2015","Male"]);
+  birds[j++] = new myBird("06-04-30T08:56","HIRUNDIN","Tree Swallow","双色树燕","Tachycineta bicolor",[m_id("20150405_049_TreeSwallow"),p_id("1505puffin",1)],["mdbmnt","4/2015","Male","ctciws","5/2015","Female"]);
 //birds[j++] = new myBird("20-00-00T00:00","HIRUNDIN","Violet-green Swallow","紫绿树燕","Tachycineta thalassina",[m_id("")],["nvdnwr","7/2015"]);
   birds[j++] = new myBird("15-05-09T11:56","HIRUNDIN","Purple Martin","紫崖燕","Progne subis",[p_id("1505capemay",5),p_id("1505puffin",3)],["njcmsp","5/2015","Female left, male right","ctciws","5/2015","Male"]);
   birds[j++] = new myBird("06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20150418_057_NorthernRough-wingedSwallow")],["arb","4/2015","Jones Point Park, Virginia, USA","美国弗吉尼亚州琼斯点公园"]);
