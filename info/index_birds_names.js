@@ -1,7 +1,7 @@
 <!--
   //date
-  var modiDate  = new Date("2020-06-10");
-  var modirange = 10;  		//range within modiDate in days
+  var modiDate  = new Date("2020-06-22");
+  var modirange = 15;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
   var birds     = [];         
@@ -21,7 +21,7 @@
       cnbjth:  ["Temple of Heaven","Beijing, China","北京天坛公园","中国",wikiurl("Temple of Heaven"),baikeurl("天坛")],
       cnjsxp:  ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl("须江公园")],
       cnlydp:  ["Denggao Park","Longyan, Fujian, China","龙岩登高公园","中国福建省","http://www.longyan.gov.cn/lypd/yw/csgy/index_1.htm"],
-      cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl("龙门镇")],
+      cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl("龙门镇/4844737")],
 //    cnxihu:  ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl("厦门集美")],
       crarol:  ["Arenal Observatory Lodge","Alajuela, Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加阿拉胡埃拉省","https://www.arenalobservatorylodge.com/"],
@@ -338,7 +338,7 @@
   birds[j++] = new myBird("11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"]);
   birds[j++] = new myBird("16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["mdmdmd","2/2016","Patuxent River State Park at Hipsley Mill Road","","","帕塔克森特河州立公园"]);
   birds[j++] = new myBird("16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["mdmdmd","1/2016","Glade Road, Frederick County","","","弗雷德里克郡格雷德路"],"威氏鹬");
-//birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",[m_id("")],["mdbhrp","9/2015"]);
+  birds[j++] = new myBird("20-06-22T11:58","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",m_id(["20200622_051_Wilson'sPhalarope","20200622_050_Wilson'sPhalarope"]),["debnwr","6/2020","Male","debnwr","6/2020","Female"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Red-necked Phalarope","红颈瓣蹼鹬","Phalaropus lobatus",[m_id("")],["mdbhrp","9/2015"],"renpha");
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("")],["mdbhrp","9/2015"],"redpha1");
   birds[j++] = new myBird("06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",[m_id("20170806_086_SpottedSandpiper")],["mdmdmd","8/2017","North Beach, Calvert County","","","卡尔弗特郡北海滩"]);
