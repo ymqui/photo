@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 document.onmousedown=function(event){
    if (!event) var event = window.event;
    if ((event.button==2)&&(!googledrive)){
@@ -53,7 +53,7 @@ function mouseclick(evt){
 
 //A 10-minute PRNG
 function myrandom(){
-   seed = Math.sin(Math.floor(Date.now()/600000))*10000;
+   seed = Math.sin(Math.floor(Date.now()/600000));
    return seed-Math.floor(seed);
 }
 
