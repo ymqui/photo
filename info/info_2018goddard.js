@@ -932,6 +932,8 @@ function initAlbum(){
     this[1][i++]  = (["Last day of school with the squirrel class and Ms. Burke and Ms. Aya","这个学期的最后一天松鼠教室和Burke老师和Aya老师合影"])[cn_ind];
     this[0][i]    = "20200623_1";
     this[1][i++]  = (["Playing with friend Alex","和同学Alex一起玩"])[cn_ind];
+    this[0][i]    = "20200626_1";
+    this[1][i++]  = (["Water day","户外玩水"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
