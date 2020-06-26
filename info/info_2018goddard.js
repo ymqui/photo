@@ -933,7 +933,7 @@ function initAlbum(){
     this[0][i]    = "20200623_1";
     this[1][i++]  = (["Playing with friend Alex","和同学Alex一起玩"])[cn_ind];
     this[0][i]    = "20200626_1";
-    this[1][i++]  = (["Water day","户外玩水"])[cn_ind];
+    this[1][i++]  = (["Water day","和小伙伴一起户外玩水"])[cn_ind];
     this[0][i]    = "20200626_2";
     this[1][i++]  = (["Having a blast on water day","玩水玩得很开心"])[cn_ind];
 
