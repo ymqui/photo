@@ -678,7 +678,7 @@
   birds[j++] = new myBird("15-05-09T11:56","HIRUNDIN","Purple Martin","紫崖燕","Progne subis",[p_id("1505capemay",5),p_id("1505puffin",3)],["njcmsp","5/2015","Female left, male right","ctciws","5/2015","Male"]);
   birds[j++] = new myBird("06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20150418_057_NorthernRough-wingedSwallow")],["arb","4/2015","Jones Point Park, Virginia, USA","美国弗吉尼亚州琼斯点公园"]);
   birds[j++] = new myBird("18-12-06T08:52","HIRUNDIN","Southern Rough-winged Swallow","红翎毛翅燕","Stelgidopteryx ruficollis",[p_id("1812crbirding",75)],["crarol","12/2018"],"srwswa1");
-  birds[j++] = new myBird("12-06-09T09:07","HIRUNDIN","Barn Swallow","家燕","Hirundo rustica",[p_id("1206brooksidebirding",10),p_id("1505capemay",8),p_id("1704longyan",7)，m_id("20200629_053_BarnSwallow")],["mdbrgd","6/2012","njscmm","5/2015","cnlynv","4/2017","mdmdmd","6/2020","Nest, Germantown","鸟巢","","德国镇"]);
+  birds[j++] = new myBird("12-06-09T09:07","HIRUNDIN","Barn Swallow","家燕","Hirundo rustica",[p_id("1206brooksidebirding",10),p_id("1505capemay",8),p_id("1704longyan",7),m_id("20200629_053_BarnSwallow")],["mdbrgd","6/2012","njscmm","5/2015","cnlynv","4/2017","mdmdmd","6/2020","Nest, Germantown","鸟巢","","德国镇"]);
   birds[j++] = new myBird("16-01-11T14:49","HIRUNDIN","Red-rumped Swallow","金腰燕","Cecropis daurica",[p_id("1601china",47)],["cnlydp","1/2016"],"rerswa1");
   birds[j++] = new myBird("15-05-16T09:59","HIRUNDIN","Cliff Swallow","美洲燕","Petrochelidon pyrrhonota",[m_id("20150516_074_CliffSwallow")],["mdloch","5/2015","",""," at Paper Mill Road Bridge","造纸厂路桥"]);
 //birds[j++] = new myBird("20-00-00T00:00","HIRUNDIN","Cave Swallow","穴崖燕","Petrochelidon fulva",[m_id("")],["mdocin","11/2015"]);
