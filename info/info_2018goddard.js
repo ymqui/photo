@@ -940,6 +940,8 @@ function initAlbum(){
     this[1][i++]  = (["Hammering out a painting","用木锤画画"])[cn_ind];
     this[0][i]    = "20200629_2";
     this[1][i++]  = (["Having a virtual visitor","Dave老师带大家观看自然和动物的节目"])[cn_ind];
+    this[0][i]    = "20200701_1";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
