@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2020-06-22");
+  var modiDate  = new Date("2020-07-07");
   var modirange = 15;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -42,6 +42,7 @@
       mahpsp:  ["Halibut Point State Park","Rockport, Massachusetts, USA","大比目鱼角州立公园","美国马萨诸塞州","https://www.mass.gov/locations/halibut-point-state-park"],
       mdbhrp:  ["Black Hill Regional Park","Maryland, USA","黑山公园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt:  ["Blue Mash Nature Trail","Maryland, USA","蓝沼自然小径","美国马里兰州","https://www.montgomerycountymd.gov/sws/facilities/oaks/blue-mash-nature-trails.html"],
+      mdbnwr:  ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true)];
       mdbrgd:  ["Brookside Garden","Wheaton, Maryland, USA","惠顿溪边花园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/brookside-gardens/"],
       mdcapc:  ["Congressional Polo Club","Poolesville, Maryland, USA","普尔斯维尔镇国会马球俱乐部","美国马里兰州","http://www.congressionalpolo.com/"],
       mdcocn:  ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baikeurl("切萨皮克和俄亥俄运河")],
@@ -215,7 +216,7 @@
   birds[j++] = new myBird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[p_id("2001txbirding",32)],["txsnwr","1/2020","Nonbreeding plumage"]);
   birds[j++] = new myBird("05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scbwma","6/2016"]);
   birds[j++] = new myBird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdmdmd","4/2015","North Point State Park","","","北点州立公园","cactnw","9/2016","cactnw","9/2016"]);
-//birds[j++] = new myBird("20-00-00T00:00","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("")],["mdmdmd","6/2020","Elliott Island Road, Dorchester County","","","多切斯特郡埃利奥特岛路"]);
+  birds[j++] = new myBird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("20200707_054_LeastBittern")],["mdbnwr","7/2020"]);
   birds[j++] = new myBird("06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",m_id(["20160625_081_Black-crownedNight-Heron","20170827_096_Black-cronwedNight-Heron(I)"]),["nyjbwr","6/2016","mdcorl","8/2017","Immature"]);
   birds[j++] = new myBird("06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"]);
   birds[j++] = new myBird("05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",[m_id("20200616_040_GreenHeron"),p_id("1412mckee-beshers",4),m_id("20200617_048_GreenHeron")],["mdmwma","6/2020","mdmwma","8/2014","mdmwma","6/2020"]);
@@ -248,7 +249,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","CATHARTI","King Vulture","王鹫","Sarcoramphus papa",["0504zoo/0504zoo__16"],["natzo","4/2005"],"kinvul1");
 //birds[j++] = new myBird("20-00-00T00:00","CATHARTI","California Condor","加州神鹫","Gymnogyps californianus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","SAGITTAR","Secretarybird","蛇鹫","Sagittarius serpentarius",[m_id("")],["mdbhrp","9/2015"],"secret2");
-  birds[j++] = new myBird("07-08-11T08:00","PANDIONI","Osprey","鹗","Pandion haliaetus",[p_id("1112floridabirding",11),p_id("1408annapolisbirding",1)],["flevnp","12/2011","mdmdmd","8/2014","Greenbury Point, Annapolis","","","安纳波利斯格林伯瑞角"],"鱼鹰/7753425");
+  birds[j++] = new myBird("07-08-11T08:00","PANDIONI","Osprey","鹗","Pandion haliaetus",[p_id("1112floridabirding",11),p_id("1408annapolisbirding",1),m_id("20200707_056_Osprey")],["flevnp","12/2011","mdmdmd","8/2014","Greenbury Point, Annapolis","","","安纳波利斯格林伯瑞角","mdbnwr","7/2020","Nest"],"鱼鹰/7753425");
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","White-tailed Kite","白尾鸢","Elanus leucurus",[m_id("")],["flevnp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Swallow-tailed Kite","燕尾鸢","Elanoides forficatus",[m_id("")],["fllawd","9/2019"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",[m_id("")],["mdmdmd","2/2017","Immature, Pickering Creek Audubon Center, Talbot County","","","塔尔博特郡皮克林河奥杜邦鸟类中心"],"金雕/49924");
