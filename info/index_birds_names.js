@@ -42,7 +42,7 @@
       mahpsp:  ["Halibut Point State Park","Rockport, Massachusetts, USA","大比目鱼角州立公园","美国马萨诸塞州","https://www.mass.gov/locations/halibut-point-state-park"],
       mdbhrp:  ["Black Hill Regional Park","Maryland, USA","黑山公园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt:  ["Blue Mash Nature Trail","Maryland, USA","蓝沼自然小径","美国马里兰州","https://www.montgomerycountymd.gov/sws/facilities/oaks/blue-mash-nature-trails.html"],
-      mdbnwr:  ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true)];
+      mdbnwr:  ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true)],
       mdbrgd:  ["Brookside Garden","Wheaton, Maryland, USA","惠顿溪边花园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/brookside-gardens/"],
       mdcapc:  ["Congressional Polo Club","Poolesville, Maryland, USA","普尔斯维尔镇国会马球俱乐部","美国马里兰州","http://www.congressionalpolo.com/"],
       mdcocn:  ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baikeurl("切萨皮克和俄亥俄运河")],
