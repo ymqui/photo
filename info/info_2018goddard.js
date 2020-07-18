@@ -962,6 +962,8 @@ function initAlbum(){
     this[1][i++]  = (["Studying pictures of Amazon rainforest fish","研究亚马逊雨林鱼的图片"])[cn_ind];
     this[0][i]    = "20200717_1";
     this[1][i++]  = (["Water day","玩水"])[cn_ind];
+    this[0][i]    = "20200717_2";
+    this[1][i++]  = (["Eating popsicle","吃冰棒"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
