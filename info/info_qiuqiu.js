@@ -188,7 +188,7 @@ function initAlbum(){
     this[0][i]    = "20200718_PottyTraining";
     this[1][i++]  = (["Potty training","便盆训练"])[cn_ind];
     this[0][i]    = "20200720_Mask";
-    this[1][i++]  = (["My own dinosaur mask","我自己的恐龙面具"])[cn_ind];
+    this[1][i++]  = (["My own dinosaur mask","我自己的恐龙口罩"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
