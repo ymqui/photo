@@ -966,6 +966,10 @@ function initAlbum(){
     this[1][i++]  = (["Eating popsicle","吃冰棒"])[cn_ind];
     this[0][i]    = "20200720_1";
     this[1][i++]  = (["Water day","玩水"])[cn_ind];
+    this[0][i]    = "20200721_1";
+    this[1][i++]  = (["Watching Ms Dave making an Egyptian flatbread","看Dave老师制作埃及面包"])[cn_ind];
+    this[0][i]    = "20200721_2";
+    this[1][i++]  = (["Enjoying shaved ice","吃刨冰"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
