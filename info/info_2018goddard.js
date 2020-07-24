@@ -975,6 +975,8 @@ function initAlbum(){
     this[0][i]    = "20200724_1";
     makeface[j++] = i;
     this[1][i++]  = (["I am a sloth","我是一只树懒"])[cn_ind];
+    this[0][i]    = "20200724_2";
+    this[1][i++]  = (["Birdy love","小鸟亲亲"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
