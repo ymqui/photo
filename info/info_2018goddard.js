@@ -978,7 +978,7 @@ function initAlbum(){
     this[0][i]    = "20200724_2";
     this[1][i++]  = (["Birdy love","小鸟亲亲"])[cn_ind];
     this[0][i]    = "20200724_3";
-    this[1][i++]  = (["Getting ready with binoculars to go on nature walk","带着望远镜去观看自然"])[cn_ind];
+    this[1][i++]  = (["Getting ready with self-made binoculars to go on nature walk","带着自制望远镜出去看自然"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
