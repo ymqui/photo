@@ -179,14 +179,14 @@ function initAlbum(){
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
     this[0][i]    = ["2018goddard/20200403_1","20200403"];
     this[1][i++]  = (["Distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上课"])[cn_ind];
-    this[0][i]    = "20200410_CarYoga";
-    this[1][i++]  = (["Yoga in the car seat","在车座上练瑜伽"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
     this[0][i]    = "20200718_PottyTraining";
     this[1][i++]  = (["Potty training","便盆训练"])[cn_ind];
     this[0][i]    = "20200720_Mask";
     this[1][i++]  = (["My own dinosaur mask","我自己的恐龙口罩"])[cn_ind];
+    this[0][i]    = "20200726_006_Toy";
+    this[1][i++]  = (["New toy","新玩具"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
