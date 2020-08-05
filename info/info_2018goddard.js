@@ -981,8 +981,8 @@ function initAlbum(){
     this[1][i++]  = (["Getting ready with self-made binoculars to go on nature walk","带着自制望远镜出去看自然"])[cn_ind];
     this[0][i]    = "20200729_1";
     this[1][i++]  = (["painting","画画"])[cn_ind];
-    this[0][i]    = "20200730_1";
-    this[1][i++]  = (["Making a necklace using dyedpasta and hemp cord","用染色的通心粉和麻绳制作项链"])[cn_ind];
+    this[0][i]    = "20200805_1";
+    this[1][i++]  = (["Painting","徒手画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
