@@ -632,7 +632,6 @@
   birds[j++] = new myBird("16-01-15T13:37","CORVIDAE","Eurasian Magpie","喜鹊","Pica pica",[p_id("1601china",66)],["cnbjsp","1/2016"],"eurmag1");
   birds[j++] = new myBird("13-07-14T18:39","CORVIDAE","Black-billed Magpie","黑嘴喜鹊","Pica hudsonia",[p_id("1307alaskabirding",3)],["akknpp","7/2013"]);
   birds[j++] = new myBird("06-04-15T11:43","CORVIDAE","American Crow","短嘴鸦","Corvus brachyrhynchos",[m_id("20170625_078_AmericanCrow"),p_id("1507birdingwest",23)],["mdcovl","6/2017","wahobb","7/2015"]);
-//birds[j++] = new myBird("15-07-09T13:40","CORVIDAE","Northwestern Crow","北美乌鸦","Corvus caurinus",[p_id("1507birdingwest",23)],["wahobb","7/2015"]);
   birds[j++] = new myBird("15-03-29T08:49","CORVIDAE","Fish Crow","鱼鸦","Corvus ossifragus",[m_id("20150329_048_FishCrow")],["arb","3/2015","Ford's Landing Park, Alexandria, Virginia, USA","美国弗吉尼亚州亚历山大市福特码头公园"]);
 //birds[j++] = new myBird("20-00-00T00:00","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",[p_id("1601china",)],["cnbjjp","1/2016"],"carcro1");
   birds[j++] = new myBird("16-01-15T12:07","CORVIDAE","Large-billed Crow","大嘴乌鸦","Corvus macrorhynchos",[p_id("1601china",65)],["cnbjsp","1/2016"],"labcro1");
