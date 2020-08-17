@@ -997,6 +997,8 @@ function initAlbum(){
     this[1][i++]  = (["Dressed as a Mexican","打扮成墨西哥人"])[cn_ind];
     this[0][i]    = "20200814_1";
     this[1][i++]  = (["Test tasting tortilla chips with diffferent salsas","品尝玉米片蘸各种莎莎酱"])[cn_ind];
+    this[0][i]    = "20200817_1";
+    this[1][i++]  = (["Nature walk","户外活动"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
