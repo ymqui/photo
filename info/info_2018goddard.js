@@ -999,6 +999,10 @@ function initAlbum(){
     this[1][i++]  = (["Test tasting tortilla chips with diffferent salsas","品尝玉米片蘸各种莎莎酱"])[cn_ind];
     this[0][i]    = "20200817_1";
     this[1][i++]  = (["Nature walk with Ms Aya","Aya老师带大家户外活动"])[cn_ind];
+    this[0][i]    = "20200819_1";
+    this[1][i++]  = (["Painting with a chopstick","用筷子画画"])[cn_ind];
+    this[0][i]    = "20200819_2";
+    this[1][i++]  = (["Using chopsticks to form a triangle","用筷子摆成一个三角形"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
