@@ -265,7 +265,7 @@
   birds[j++] = new myBird("20-01-25T07:26","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",p_id("2001txbirding",[33,27]),["txsnwr","1/2020","txsnwr","1/2020","Immature"]);
   birds[j++] = new myBird("20-01-24T09:40","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[p_id("2001txbirding",22)],["txsnwr","1/2020","Immature"]);
   birds[j++] = new myBird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),m_id("20190830_008_Red-shoulderedHawk"),"2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcovl","3/2009","flapop","8/2019","mdcocn","2/2007","Immature"]);
-  birds[j++] = new myBird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15)],["caalgp","9/2017"]);
+  birds[j++] = new myBird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15),m_id("20200828_063_Broad-wingedHawk")],["caalgp","9/2017","mdlbrp","8/2020"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("20190109_002_Red-tailedHawk"),p_id("1412mckee-beshers",33)],["mdmdmd","1/2019","St Mary's County","","","圣玛丽郡","mdmwma","11/2014","Juvenile"]);
 //birds[j++] = new myBird("20-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"]);
