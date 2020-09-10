@@ -1029,6 +1029,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting","画画"])[cn_ind];
     this[0][i]    = "20200909_2";
     this[1][i++]  = (["Drawing a train","画火车"])[cn_ind];
+    this[0][i]    = "20200910_1";
+    this[1][i++]  = (["Listening to stories told by Ms Dave","听Dave老师讲故事"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
