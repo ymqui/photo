@@ -1039,6 +1039,8 @@ function initAlbum(){
     this[1][i++]  = (["Class photo","班级照片"])[cn_ind];
     this[0][i]    = "20200923_1";
     this[1][i++]  = (["Building a long train","搭火车"])[cn_ind];
+    this[0][i]    = "20200924_1";
+    this[1][i++]  = (["Sorting pictures of baseball field and baseball","分棒球场和棒球的图片"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
