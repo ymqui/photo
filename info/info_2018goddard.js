@@ -1043,6 +1043,10 @@ function initAlbum(){
     this[1][i++]  = (["Sorting pictures of baseball field and baseball","分棒球场和棒球的图片"])[cn_ind];
     this[0][i]    = "20200928_1";
     this[1][i++]  = (["Drawing a circle","画圆圈"])[cn_ind];
+    this[0][i]    = "20200929_1";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[0][i]    = "20200929_2";
+    this[1][i++]  = (["Learning to write letters","练习写字母"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
