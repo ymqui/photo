@@ -1047,6 +1047,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting","画画"])[cn_ind];
     this[0][i]    = "20200929_2";
     this[1][i++]  = (["Learning to write letters","练习写字母"])[cn_ind];
+    this[0][i]    = "20200929_3";
+    this[1][i++]  = (["Reading with friends","读书"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
