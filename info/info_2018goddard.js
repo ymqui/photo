@@ -1055,7 +1055,9 @@ function initAlbum(){
     this[1][i++]  = (["Practicing yoga","练习瑜伽"])[cn_ind];
     this[0][i]    = "20201005_1";
     this[1][i++]  = (["Dropping water on different objects","将水滴在不同的物体上"])[cn_ind];
-
+    this[0][i]    = "20201007_1";
+    this[1][i++]  = (["Using a straw to blow different objects around","用吸管吹不同的东西"])[cn_ind];
+    
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
     }    
