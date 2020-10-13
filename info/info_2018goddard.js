@@ -1059,6 +1059,10 @@ function initAlbum(){
     this[1][i++]  = (["Using a straw to blow different objects around","用吸管吹不同的东西"])[cn_ind];
     this[0][i]    = "20201009_1";
     this[1][i++]  = (["Painting a giant pumpkin","画大南瓜"])[cn_ind];
+    this[0][i]    = "20201013_1";
+    this[1][i++]  = (["Music time with Mrs Worley","Worley老师的音乐课"])[cn_ind];
+    this[0][i]    = "20201013_2";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
