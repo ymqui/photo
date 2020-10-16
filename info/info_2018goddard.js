@@ -1073,6 +1073,14 @@ function initAlbum(){
     this[1][i++]  = (["Hammering pins into playdough","敲钉子"])[cn_ind];
     this[0][i]    = "20201016_1";
     this[1][i++]  = (["Spreading the jelly","涂果酱"])[cn_ind];
+    this[0][i]    = "20201016_2";
+    this[1][i++]  = (["Playground fun","户外活动"])[cn_ind];
+    this[0][i]    = "20201016_3";
+    this[1][i++]  = (["Painting with a car","用小车画画"])[cn_ind];
+    this[0][i]    = "20201016_4";
+    this[1][i++]  = (["Lining up truck pictures","排卡车图片"])[cn_ind];
+    this[0][i]    = "20201016_5";
+    this[1][i++]  = (["Wow, look what I have built","哇，看我搭的房子"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
