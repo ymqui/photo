@@ -1080,7 +1080,7 @@ function initAlbum(){
     this[0][i]    = "20201016_4";
     this[1][i++]  = (["Sorting the pictures of construction vehicles by size","按大小对工程车图片进行排序"])[cn_ind];
     this[0][i]    = "20201016_5";
-    this[1][i++]  = (["Wow, look what I have built","哇，看我搭的房子"])[cn_ind];
+    this[1][i++]  = (["Wow, look what I have built","哇，看我搭的大桥"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
