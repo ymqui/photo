@@ -1071,6 +1071,8 @@ function initAlbum(){
     this[1][i++]  = (["Building geometrical shapes with sticks","用小木棍搭几何形状"])[cn_ind];
     this[0][i]    = "20201015_2";
     this[1][i++]  = (["Hammering pins into playdough","敲钉子"])[cn_ind];
+    this[0][i]    = "20201016_1";
+    this[1][i++]  = (["Spreading the jelly","涂果酱"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
