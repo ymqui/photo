@@ -1082,7 +1082,7 @@ function initAlbum(){
     this[0][i]    = "20201016_5";
     this[1][i++]  = (["Wow, look what I have built","哇，看我搭的大桥"])[cn_ind];
     this[0][i]    = "20201020_1";
-    this[1][i++]  = (["Drawing the tree bark","描树皮"])[cn_ind];
+    this[1][i++]  = (["Rubbing the tree bark with a crayon","描树皮"])[cn_ind];
     this[0][i]    = "20201020_2";
     this[1][i++]  = (["Painting","画画"])[cn_ind];
     
