@@ -324,7 +324,7 @@
   birds[j++] = new myBird("15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20170520_058_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["debowb","5/2017","With "+b_link("Red Knot","s"),"后面是"+b_link("红腹滨鹬"),"mdmdmd","10/2015","Nonbreeding plumage, Ocean City Inlet","","","大洋城海口"]);
   birds[j++] = new myBird("17-05-20T09:06","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("20170520_057_RedKnot")],["debowb","5/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["debnwr","7/2020"],"ruff");
-//birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("")],["mdswhf","10/2020"]);
   birds[j++] = new myBird("15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["arb","12/2016","Winter plumage, Tybee Island, Georgia, USA","冬羽，美国乔治亚州泰碧岛","arb","9/2015","Juvenile, Fort Moultrie, South Carolina, USA","未成年，美国南卡罗来纳州莫尔特里堡"]);
   birds[j++] = new myBird("15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",m_id(["20170520_061_Dunlin","20151114_122_Dunlin(WP)"]),["debowb","5/2017","mdmdmd","11/2015","Winter plumage, Assateague Island National Seashore","","","阿萨蒂格岛国家海岸"]);
   birds[j++] = new myBird("15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["20151126_134_PurpleSandpiper","20151126_135_PurpleSandpiper"]),["mdmdmd","11/2015","Ocean City Inlet","","","大洋城海口"]);
@@ -332,7 +332,7 @@
   birds[j++] = new myBird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","姬滨鹬","Calidris minutilla",[p_id("1505capemay",13),p_id("2001txbirding",5)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所","txanwr","1/2020","Nonbreeding adult"]);
   birds[j++] = new myBird("16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["fllawd","9/2019"]);
+//birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("")],["mdswhf","10/2020"]);
   birds[j++] = new myBird("15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"]);
   birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所"]);
