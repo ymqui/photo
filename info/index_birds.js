@@ -246,6 +246,11 @@
   info[2][j] = 2;
   info[3][j] = "1/2020 Texas Birding";
   info[4][j++] = "Birding in Southern Texas(Texas).";
+  info[0][j] = "2020lbrp";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "2020 Little Bennett Birding";
+  info[4][j++] = "Birding at Little Bennett Regional Park in 2020(Maryland).";
 
   if(window.usechinese){
      j = 0;
@@ -343,6 +348,8 @@
      info[4][j++] = "墨西哥观鸟(墨西哥)。";
      info[3][j]   = "1/2020 德克萨斯观鸟";
      info[4][j++] = "在德克萨斯州南部观鸟(德克萨斯州)。";
+     info[3][j]   = "2020 小班尼特公园观鸟";
+     info[4][j++] = "2015年小班尼特公园观鸟(马里兰州)。";
   } 
 
   //special touch
@@ -359,7 +366,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2020-02-02T12:00:00");
+  var modiDate1 = new Date("2020-10-28T12:00:00");
   if (window.modiDate){
      if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
   }else{
