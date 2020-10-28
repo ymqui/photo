@@ -61,7 +61,7 @@
       mdorpk:  ["Oregon Ridge Park","Baltimore, Maryland, USA","巴尔的摩俄勒冈岭公园","美国马里兰州","http://www.oregonridgenaturecenter.org/"],
       mdpvsp:  ["Patapsco Valley State Park"," at Henryton","Maryland, USA","帕塔普斯科河谷州立公园","亨利顿一带","美国马里兰州","http://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx"],
       mdsclr:  ["Scotts Landing Road","Worcester County, Maryland, USA","伍斯特郡斯科茨码头路","美国马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"],
-      mdswhf:  ["Swan Harbor Farm","Havre de Grace, Maryland, USA","哈佛德格雷斯天鹅港农场","美国马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"],
+      mdswhf:  ["Swan Harbor Farm","Harford County, Maryland, USA","哈福德郡天鹅港农场","美国马里兰州","http://www.harfordcountymd.gov/parks_rec/Parks.cfm?ParkID=65"],
       mdtrlr:  ["Truitts Landing Road","Worcester County, Maryland, USA","伍斯特郡特鲁伊特码头路","美国马里兰州","http://www.mdbirds.org/sites/mdsites/shorebirds/shorebirds.html#Worcester"],
       meeeri:  ["Eastern Egg Rock Island","Maine, USA","东蛋岩岛","美国缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"],
       melocp:  ["Lobster Cove Preserve","Boothbay Harbor, Maine, USA","布斯贝港龙虾湾保护区","美国缅因州","https://bbrlt.org/preserves/lobster-cove/"],
@@ -849,7 +849,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","ZELEDONI","Wrenthrush","冠鹩森莺","Zeledonia coronata",[m_id("")],["mdbhrp","9/2015"],"wrenth1");
 //birds[j++] = new myBird("20-00-00T00:00","TERETIST","Yellow-headed Warbler","黄头灰森莺","Teretistris fernandinae",[m_id("")],["mdbhrp","9/2015"],"yehwar1");
   birds[j++] = new myBird("15-05-09T10:41","ICTERIID","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"],"","");
-//birds[j++] = new myBird("20-00-00T00:00","ICTERIDA","Yellow-headed Blackbird","黄头黑鹂","Xanthocephalus xanthocephalus",[m_id("")],["arb","3/2017","Male, Hopkins Farm, Harford County, Maryland, USA","雄性，美国马里兰州哈佛郡霍普金斯农场"]);
+//birds[j++] = new myBird("20-00-00T00:00","ICTERIDA","Yellow-headed Blackbird","黄头黑鹂","Xanthocephalus xanthocephalus",[m_id("")],["arb","3/2017","Male, Hopkins Farm, Harford County, Maryland, USA","雄性，美国马里兰州哈福德霍普金斯农场"]);
   birds[j++] = new myBird("17-05-27T07:28","ICTERIDA","Bobolink","刺歌雀","Dolichonyx oryzivorus",[p_id("1705ohio",3)],["ohbath","5/2017","Male"]);
 //birds[j++] = new myBird("20-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_",["031","032"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"]);
