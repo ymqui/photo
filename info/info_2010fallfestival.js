@@ -28,7 +28,7 @@ function initAlbum(){
     }
     if(window.usechinese){
         this[1][0] = "Sciannella老师领着大家出来。";
-        this[1][1] = "高兴地跳起来。";
+        this[1][1] = "看到爸爸高兴地跳起来。";
         this[1][2] = "伸手让Morales老师贴画。";
         this[1][3] = "和妈妈一起。";
         this[1][4] = "和妈妈一起。";
