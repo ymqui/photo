@@ -1089,6 +1089,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting a mini pumpkin","涂小南瓜"])[cn_ind];
     this[0][i]    = "20201028_1";
     this[1][i++]  = (["Playing with toy barn","和同学一起玩谷仓玩具"])[cn_ind];
+    this[0][i]    = "20201030_1";
+    this[1][i++]  = (["Train engineer and his rainbow unicorn friend","火车司机和他的彩虹独角兽朋友"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
