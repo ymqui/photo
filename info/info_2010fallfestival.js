@@ -34,11 +34,11 @@ function initAlbum(){
         this[1][4] = "和妈妈一起。";
         this[1][5] = "好帅的火车司机。";
         this[1][6] = "和妈妈一起。";
-        this[1][7] = "和朋友Brayden。";
+        this[1][7] = "和朋友Brayden合影。";
         this[1][8] = "和妈妈一起。";
-        this[1][10] = "和朋友Averie。";
-        this[1][11] = "和朋友Alex。";
-        this[1][12] = "和Burke老师。";
+        this[1][10] = "和朋友Averie合影。";
+        this[1][11] = "和朋友Alex合影。";
+        this[1][12] = "和Burke老师合影。";
         this[1][13] = "闻小葫芦。";
         this[1][14] = "好帅的火车司机。";
     }else{
