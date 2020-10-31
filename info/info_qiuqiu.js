@@ -190,7 +190,9 @@ function initAlbum(){
     this[1][i++]  = (["New toy","新玩具"])[cn_ind];
     this[0][i]    = ["2010fallfestival/2010fallfestival_7","20201030"];
     this[1][i++]  = (["With Mommy at the "+pagelink("2010fallfestival","Goddard School Fall Festival"),"和妈妈在"+pagelink("2010fallfestival","戈达德托儿所金秋节")+"上"])[cn_ind];
-    
+     this[0][i]    = "20201031_018_BirthdayCake";
+    this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
+   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
            this[1][i] = getdate(this[0][i],this[1][i]);
