@@ -197,7 +197,7 @@ function initAlbum(){
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
 //    daycare       = pagelink("2020nistdaycare",(["NIST daycare","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
-    this[1][i++]  = (["First day to NIST daycare","第一天上NIST daycare"])[cn_ind];
+    this[1][i++]  = (["First day to NIST daycare","第一天上NIST托儿所"])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
