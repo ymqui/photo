@@ -334,7 +334,7 @@
   birds[j++] = new myBird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","姬滨鹬","Calidris minutilla",[p_id("1505capemay",13),p_id("2001txbirding",5)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所","txanwr","1/2020","Nonbreeding adult"]);
   birds[j++] = new myBird("16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("20-10-23T10:02","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("20201023_109_PectoralSandpiper")],["mdswhf","10/2020"]);
+  birds[j++] = new myBird("20-10-23T10:02","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",[m_id("20201023_109_PectoralSandpiper")],["mdswhf","10/2020","Juvenile"]);
   birds[j++] = new myBird("15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("")],["debnwr","5/2015"]);
   birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["arb","5/2015","The Wetlands Institute, Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所"]);
