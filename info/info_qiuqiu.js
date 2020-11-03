@@ -17,7 +17,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["1910parade","10/2019 Goddard School Halloween Parade","10/2019 戈达德托儿所万圣节游行"],["2001texas","1/2020 Vacationing in Texas","1/2020 德克萨斯州度假"],
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"]];
-            //    ["2020nistdaycare","11/2020- NIST daycare","11/2020- NIST托儿所"]
+            //    ["2020nist","11/2020- NIST Daycare","11/2020- NIST托儿所"]
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -195,9 +195,9 @@ function initAlbum(){
     this[1][i++]  = (["With Mommy at the Black Hill Regional Park","和妈妈在黑山公园"])[cn_ind];
     this[0][i]    = "20201031_018_BirthdayCake";
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
-//    daycare       = pagelink("2020nistdaycare",(["NIST daycare","NIST托儿所"])[cn_ind]);
+    daycare       = pagelink("2020nist",(["NIST Daycare","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
-    this[1][i++]  = (["First day to NIST daycare","第一天上NIST托儿所"])[cn_ind];
+    this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
