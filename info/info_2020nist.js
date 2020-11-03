@@ -1,6 +1,6 @@
 <!--
 var cn_ind     = window.usechinese?1:0;
-var info_url   = "https://www.nist.gov/nist-ccc-main-page";
+var info_url   = "https://nist.gov/ccc";
 var title      = (["Nathan at NIST Daycare","球球在NIST托儿所的照片"])[cn_ind];
 var dir        = maindir+"pics/2020nist/";
 var thumb_dir  = maindir+"thumbnail/";
