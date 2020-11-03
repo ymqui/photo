@@ -22,7 +22,7 @@ function initAlbum(){
     j = 0;
     //makeface[j++] = i;
     this[0][i]    = "20201102_1";
-    this[1][i++]  = (["Nathan was happy like this the whole day","球球一整天都很开心"])[cn_ind];
+    this[1][i++]  = (["Nathan was this happy all day","球球一整天都这么开心"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
