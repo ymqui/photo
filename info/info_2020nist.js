@@ -27,6 +27,8 @@ function initAlbum(){
     this[1][i++]  = (["Making a turkey","贴火鸡"])[cn_ind];
     this[0][i]    = "20201104_2";
     this[1][i++]  = (["Making a turkey","贴火鸡"])[cn_ind];
+    this[0][i]    = "20201106_1";
+    this[1][i++]  = (["Painting with corn cob","用玉米画画"])[cn_ind];
      
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
