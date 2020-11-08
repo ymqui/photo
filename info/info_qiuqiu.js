@@ -146,7 +146,7 @@ function initAlbum(){
     this[0][i]    = "20190220_Reading";
     this[1][i++]  = (["Reading with Mommy","和妈妈一起看书"])[cn_ind];
     this[0][i]    = "20190407_008";
-    this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起坐在小何叔叔怀里看书"])[cn_ind];
+    this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起听小何叔叔读书"])[cn_ind];
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
     this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","20190420"];
