@@ -93,7 +93,7 @@
       schbsp:  ["Huntington Beach State Park","South Carolina, USA","亨廷顿海滩州立公园","美国南卡罗来纳州","http://southcarolinaparks.com/huntingtonbeach/"],
       scjwwc:  ["James Webb Wildlife Center","South Carolina, USA","詹姆斯·韦伯野生动物中心","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/webbcenter.html"],
       sclobp:  ["Lewis Ocean Bay Heritage Preserve","South Carolina, USA","刘易斯海湾遗产保护区","美国南卡罗来纳州","https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/104"],
-      scpitt:  ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","http://www.crbo.net/Charleston.html"],
+      scpitt:  ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/pittstreet.html"],
       scsnwr:  ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",npsurl("savannah",true)],
       txanwr:  ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baikeurl("阿兰萨斯国家野生动物保护区")],
       txbbnp:  ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl("大弯国家公园")],
@@ -748,6 +748,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","BUPHAGID","Yellow-billed Oxpecker","黄嘴牛椋鸟","Buphagus africanus",[m_id("")],["mdbhrp","9/2015"],"yeboxp1");
   birds[j++] = new myBird("06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[22,3]),["mdcovl","5/2009","Male","mdcovl","2/2009","Female"]);
 //birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Mountain Bluebird","山蓝鸲","Sialia currucoides",[m_id("")],["mdswhf","11/2020","Immature male"]);
   birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"]);
   birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("20170930_109_Gray-cheekedThrush")],["mdorpk","9/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdorpk","9/2017"]);
