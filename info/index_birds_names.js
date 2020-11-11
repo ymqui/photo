@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2020-10-24T08:00");
+  var modiDate  = new Date("2020-11-11T08:00");
   var modirange = 15;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -748,7 +748,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","BUPHAGID","Yellow-billed Oxpecker","黄嘴牛椋鸟","Buphagus africanus",[m_id("")],["mdbhrp","9/2015"],"yeboxp1");
   birds[j++] = new myBird("06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[22,3]),["mdcovl","5/2009","Male","mdcovl","2/2009","Female"]);
 //birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Mountain Bluebird","山蓝鸲","Sialia currucoides",[m_id("")],["mdswhf","11/2020","Immature male"]);
+  birds[j++] = new myBird("20-11-11T09:57","TURDIDAE","Mountain Bluebird","山蓝鸲","Sialia currucoides",m_id(["20201111_121_MountainBluebird","20201111_122_MountainBluebird"]),["mdswhf","11/2020","Immature male"]);
   birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"]);
   birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("20170930_109_Gray-cheekedThrush")],["mdorpk","9/2017"]);
 //birds[j++] = new myBird("20-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdorpk","9/2017"]);
