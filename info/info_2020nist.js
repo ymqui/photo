@@ -28,12 +28,16 @@ function initAlbum(){
     this[0][i]    = "20201104_2";
     this[1][i++]  = (["Making a turkey","贴火鸡"])[cn_ind];
     this[0][i]    = "20201106_1";
-    this[1][i++]  = (["Painting with corn on the cob","用玉米棒子画画"])[cn_ind];
+    this[1][i++]  = (["Roller painting with corn on the cob","用玉米棒子画画"])[cn_ind];
     this[0][i]    = "20201110_1";
     this[1][i++]  = (["Going to the car wash","去洗车"])[cn_ind];
     this[0][i]    = "20201110_2";
     this[1][i++]  = (["Writing a thank you card to the veterans","给退伍军人写感谢卡(明天是退伍军人节)"])[cn_ind];
-     
+    this[0][i]    = "20201112_1";
+    this[1][i++]  = (["Glueing cotton balls on the paper","把棉球贴在纸上"])[cn_ind];
+    this[0][i]    = "20201112_2";
+    this[1][i++]  = (["Pumpkin bubble","泡泡南瓜"])[cn_ind];
+    
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
     }    
