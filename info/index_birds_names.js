@@ -707,7 +707,8 @@
   birds[j++] = new myBird("16-01-06T10:14","LEIOTHRI","Chinese Hwamei","画眉","Garrulax canorus",p_id("1601china",[32,33]),["cnjsxp","1/2016"],"melthr");
 //birds[j++] = new myBird("20-00-00T00:00","SYLVIIDA","Wrentit","鹪雀莺","Chamaea fasciata",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("20-00-00T00:00","ZOSTEROP","Striated Yuhina","栗耳凤鹛","Yuhina castaniceps",[p_id("1601china",)],["cnlydp","1/2016","Male"],"stryuh1");
-  birds[j++] = new myBird("16-01-11T14:29","ZOSTEROP","Warbling White-eye","暗绿绣眼鸟","Zosterops japonicus",[p_id("1704longyan",13),p_id("1601china",46)],["cnlydp","4/2017","cnlydp","1/2016"],"jaweye");
+  birds[j++] = new myBird("16-01-11T14:29","ZOSTEROP","Warbling White-eye","暗绿绣眼鸟","Zosterops japonicus",[p_id("1704longyan",13),p_id("1601china",46)],["cnlydp","4/2017","cnlydp","1/2016"],"warwhe1");
+//birds[j++] = new myBird("20-00-00T00:00","ZOSTEROP","Swinhoe's White-eye","中华绣眼鸟","Zosterops simplex",[m_id()],["cnlydp","4/2017"],"swiwhe1","暗绿绣眼鸟普通亚种");
 //birds[j++] = new myBird("20-00-00T00:00","MODULATR","Dapple-throat","纹喉鵖","Arcanator orostruthus",[m_id("")],["mdbhrp","9/2015"],"dapthr1");
 //birds[j++] = new myBird("20-00-00T00:00","PROMEROP","Cape Sugarbird","南非食蜜鸟","Promerops cafer",[m_id("")],["mdbhrp","9/2015"],"capsug1",4115);
 //birds[j++] = new myBird("20-00-00T00:00","IRENIDAE","Asian Fairy-bluebird","和平鸟","Irena puella",["0504zoo/0504zoo__11"],["natzo","4/2005"],"asfblu1");
