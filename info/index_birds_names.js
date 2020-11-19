@@ -101,6 +101,7 @@
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
       vaonwr:  ["Occoquan Bay National Wildlife Refuge","Virginia, USA","奥科宽湾国家野生动物保护区","美国弗吉尼亚州",npsurl("occoquan_bay",true)],
+      vasurc:  ["Shenandoah River Campus at Cool Spring Battlefield","Virginia, USA","雪兰多大学冷泉战场临河校区","美国弗吉尼亚州","https://www.su.edu/cool-spring/",baikeurl("雪兰多大学/9887052")],
       vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://fpr.vermont.gov/wenlock-wildlife-management-area"],  
       wacape:  ["Cape Flattery","Neah Bay, Washington, USA","尼亚湾夫拉特角","美国华盛顿州","http://makah.com/activities/cape-flattery-trail/"],
       wahobb:  ["Hobuck Beach","Neah Bay, Washington, USA","尼亚湾Hobuck海滩","美国华盛顿州","http://makah.com/activities/beaches/hobuck/"],
@@ -793,7 +794,7 @@
   birds[j++] = new myBird("15-07-08T17:06","MOTACILL","American Pipit","黄腹鹨","Anthus rubescens",[p_id("1507birdingwest",11)],["waolnp","7/2015","",""," at Hurricane Ridge","飓风脊"]);
 //birds[j++] = new myBird("20-00-00T00:00","UROCYNCH","Przevalski's Finch","朱鹀","Urocynchramus pylzowi",[m_id("")],["mdbhrp","9/2015"],"przros1");
   birds[j++] = new myBird("16-01-03T09:36","FRINGILL","Brambling","燕雀","Fringilla montifringilla",p_id("1601china",[1,2]),["cnbjjp","1/2016","Female"],"brambl");
-  birds[j++] = new myBird("20-11-16T10:43","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Coccothraustes vespertinus",m_id(sas("20201116_12",["4","5","6"],"_EveningGrosbeak")),["arb","11/2020","M"+(tmp1="ale, Shenandoah University River Campus, Virginia, USA"),"雄"+(tmp2="性，美国弗吉尼亚州雪兰多大学临河校区"),"arb","11/2020","Fem"+tmp1,"雌"+tmp2,"arb","11/2020","Immature fem"+tmp1,"未成年雌"+tmp2]);
+  birds[j++] = new myBird("20-11-16T10:43","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Coccothraustes vespertinus",m_id(sas("20201116_12",["4","5","6"],"_EveningGrosbeak")),["vasurc","11/2020","Male","vasurc","11/2020","Female","vasurc","11/2020","Immature female"]);
   birds[j++] = new myBird("16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",[p_id("1601china",27)],["cnjsxp","1/2016","Female"],"yebgro1");
   birds[j++] = new myBird("14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",m_id(["20161016_104_PurpleFinch(M)","20161106_115_PurpleFinch(F)"]),["mdbhrp","10/2016","Male","mdcrvp","11/2016","Female"]);
   birds[j++] = new myBird("06-08-11T17:33","FRINGILL","House Finch","家朱雀","Carpodacus mexicanus",p_id("1412mckee-beshers",[1,35,2]),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female"]);
