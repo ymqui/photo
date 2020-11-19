@@ -419,7 +419,8 @@
   birds[j++] = new myBird("16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"]);
   birds[j++] = new myBird("06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","mdmdmd","4/2016","Agricultural History Farm Park","","","农史农场公园"]);
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arb","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida, USA","美国佛罗里达州劳德代尔堡布莱恩皮克罗公园"]);
-//birds[j++] = new myBird("20-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["arb","3/2017","Middle Creek Wildlife Management Area, Pennsylvania, USA","美国宾夕法尼亚州中溪野生动物管理区"]);
+//birds[j++] = new myBird("20-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
+//birds[j++] = new myBird("20-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["arb","12/2020","State Arboretum of Virginia, Virginia, USA","美国弗吉尼亚州州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["arb","1/2017","Harrison Road, Fauquier County, Virginia, USA","美国弗吉尼亚州福基尔郡哈里森路"]);
 //birds[j++] = new myBird("20-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],"tawfro1");
 //birds[j++] = new myBird("20-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],"oilbir1");
