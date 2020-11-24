@@ -46,7 +46,7 @@ function initAlbum(){
     this[0][i]    = "20201123_1";
     this[1][i++]  = (["Drawing","画画"])[cn_ind];
     this[0][i]    = "20201123_2";
-    this[1][i++]  = (["Watching dancing craneberries with Ms Joy","和Joy老师一起看水中跳舞的蔓越莓"])[cn_ind];
+    this[1][i++]  = (["Watching dancing craneberries with Ms Joy","和Joy老师一起看蔓越莓在水中跳舞"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
