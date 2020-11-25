@@ -47,6 +47,10 @@ function initAlbum(){
     this[1][i++]  = (["Drawing","画画"])[cn_ind];
     this[0][i]    = "20201123_2";
     this[1][i++]  = (["Watching dancing craneberries with Ms Joy","和Joy老师一起看蔓越莓在水中跳舞"])[cn_ind];
+    this[0][i]    = "20201124_1";
+    this[1][i++]  = (["Cutting out a Thanksgiving meal","剪出感恩节大餐图"])[cn_ind];
+    this[0][i]    = "20201125_1";
+    this[1][i++]  = (["Making butter","尝试做黄油"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
