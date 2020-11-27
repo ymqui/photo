@@ -52,9 +52,9 @@ function initAlbum(){
     this[0][i]    = "20171110_017_HomeWithMom";
     this[1][i++]  = (["With mom at home","牵着妈妈的手指头"])[cn_ind];
     this[0][i]    = "20171123_020_WithElena&Allison";
-    this[1][i++]  = (["With Auntie Elena and Allison","在Elena阿姨家和Elena阿姨和Allison姐姐合影"])[cn_ind];
+    this[1][i++]  = (["With Auntie Yelena and Allison","在Yelena阿姨家和Yelena阿姨和Allison姐姐合影"])[cn_ind];
     this[0][i]    = "20171123_024_Thanksgiving";
-    this[1][i++]  = (["First Thanksgiving at Auntie Elena's home","球球在Elena阿姨家过第一次感恩节"])[cn_ind];
+    this[1][i++]  = (["First Thanksgiving at Auntie Yelena's home","球球在Yelena阿姨家过第一次感恩节"])[cn_ind];
     this[0][i]    = "20171126_027_AsleepAtHome";
     this[1][i++]  = (["Favorite sleeping position","球球最喜欢的睡姿"])[cn_ind];
     this[0][i]    = "20171202_028_TummyTimeAtHome";
