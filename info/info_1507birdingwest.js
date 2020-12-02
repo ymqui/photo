@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 //Created by Album Builder Program Tue Jul 14 21:30:38 2015
 var info_url   = "";
 var title      = "Birding West";
@@ -33,7 +33,7 @@ function initAlbum(){
         this[1][3] = "棕腹长尾霸鹟，玉米溪沙漠国家野生动物保护区，内华达州。";
         this[1][4] = "棕腹长尾霸鹟，玉米溪沙漠国家野生动物保护区，内华达州。";
         this[1][5] = "黑丝鹟，雌性，玉米溪沙漠国家野生动物保护区，内华达州。";
-        this[1][6] = "黑颏北蜂鸟，未成年，波特兰海登岛，俄勒冈州。";
+        this[1][6] = "安氏蜂鸟，未成年，波特兰海登岛，俄勒冈州。";
         this[1][7] = "北美鸊鷉，波特兰海登岛，俄勒冈州。";
         this[1][8] = "北美鸊鷉，波特兰海登岛，俄勒冈州。";
         this[1][9] = "黄腹鹨，奥林匹克国家公园飓风脊，华盛顿州。";
@@ -67,7 +67,7 @@ function initAlbum(){
         this[1][37] = "蓝头黑鹂，雌性，贝克斯菲尔德市约库特公园，加利福尼亚州。";
         this[1][38] = "蓝头黑鹂，雄性，贝克斯菲尔德市约库特公园，加利福尼亚州。";
         this[1][39] = "布氏拟鹂，雌性，贝克斯菲尔德市约库特公园，加利福尼亚州。";
-        this[1][40] = "蜂鸟，贝克斯菲尔德市约库特公园，加利福尼亚州。";
+        this[1][40] = "科氏蜂鸟，未成年雄性，贝克斯菲尔德市约库特公园，加利福尼亚州。";
         this[1][42] = "灰喉蝇霸鹟，贝克斯菲尔德市约库特公园，加利福尼亚州。";
         this[1][43] = "白胸鳾，贝克斯菲尔德市比尔公园，加利福尼亚州。";
         this[1][44] = "灰斑鸠，贝克斯菲尔德市比尔公园，加利福尼亚州。";
@@ -83,7 +83,7 @@ function initAlbum(){
         this[1][3] = "Say's Phoebe, Desert NWR, Corn Creek, Nevada.";
         this[1][4] = "Say's Phoebe, Desert NWR, Corn Creek, Nevada.";
         this[1][5] = "Phainopepla, female, Desert NWR, Corn Creek, Nevada.";
-        this[1][6] = "Black-chinned Hummingbird, immature, Hayden Island, Portland, Oregon.";
+        this[1][6] = "Anna's Hummingbird, immature, Hayden Island, Portland, Oregon.";
         this[1][7] = "Western Grebe, Hayden Island, Portland, Oregon.";
         this[1][8] = "Western Grebe, Hayden Island, Portland, Oregon.";
         this[1][9] = "American Pipit, Hurricane Ridge, Olympic National Park, Washington.";
@@ -117,7 +117,7 @@ function initAlbum(){
         this[1][37] = "Brewer's Blackbird, female, Yokuts Park, Bakersfield, California.";
         this[1][38] = "Brewer's Blackbird, male, Yokuts Park, Bakersfield, California.";
         this[1][39] = "Bullock's Oriole, female, Yokuts Park, Bakersfield, California.";
-        this[1][40] = "Hummingbird, Yokuts Park, Bakersfield, California.";
+        this[1][40] = "Costa's Hummingbird, immature male, Yokuts Park, Bakersfield, California.";
         this[1][42] = "Ash-throated Flycatcher, Yokuts Park, Bakersfield, California.";
         this[1][43] = "White-breasted Nuthatch, Beale Park, Bakersfield, California.";
         this[1][44] = "Eurasian Collared-Dove, Beale Park, Bakersfield, California.";
