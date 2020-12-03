@@ -57,7 +57,7 @@ function initAlbum(){
         this[1][27] = "红嘴巨鸥，卡农海滩，俄勒冈州。";
         this[1][28] = "橙冠虫森莺，卡农海滩，俄勒冈州。";
         this[1][29] = "安氏蜂鸟，波因特阿里纳，加利福尼亚州。";
-        this[1][30] = "棕煌蜂鸟，雌性，波因特阿里纳，加利福尼亚州。";
+        this[1][30] = "艾氏煌蜂鸟，雌性，波因特阿里纳，加利福尼亚州。";
         this[1][31] = "安氏蜂鸟，未成年，波因特阿里纳，加利福尼亚州。";
         this[1][32] = "西美鸥，莫罗湾州立公园，加利福尼亚州。";
         this[1][33] = "北美蛎鹬，莫罗湾州立公园，加利福尼亚州。";
@@ -107,7 +107,7 @@ function initAlbum(){
         this[1][27] = "Caspian Tern, Cannon Beach, Oregon.";
         this[1][28] = "Orange-crowned Warbler, Cannon Beach, Oregon.";
         this[1][29] = "Anna's Hummingbird, Point Arena, California.";
-        this[1][30] = "Rufous Hummingbird, female, Point Arena, California.";
+        this[1][30] = "Allen's Hummingbird, female, Point Arena, California.";
         this[1][31] = "Anna's Hummingbird, immature, Point Arena, California.";
         this[1][32] = "Western Gull, Morro Bay State Park, California.";
         this[1][33] = "Black Oystercatcher, Morro Bay State Park, California.";
