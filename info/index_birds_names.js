@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2020-11-16T08:00");
+  var modiDate  = new Date("2020-12-04T08:00");
   var modirange = 15;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -208,7 +208,7 @@
   birds[j++] = new myBird("06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",m_id(sas("20150321_",["039","040"],"_HornedGrebe")),["mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Spring molt","春羽"]);
   birds[j++] = new myBird("16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",[m_id("20161226_141_EaredGrebe(WP)")],["mdcorl","12/2016","Winter plumage"]);
   birds[j++] = new myBird("15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[p_id("1507birdingwest",9)],["arb","7/2015","Hayden Island, Portland, Oregon, USA","美国俄勒冈州波特兰海登岛"]);
-//birds[j++] = new myBird("20-00-00T00:00","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[m_id("")],["txbbnp","12/2013"]);
+  birds[j++] = new myBird("20-12-04T14:03","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[m_id("20201204_129_ClarkGrebe")],["mdloch","12/2020"]);
 //birds[j++] = new myBird("20-00-00T00:00","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",["0504zoo/0504zoo__14"],["natzo","4/2005"],"grefla2");
 //birds[j++] = new myBird("20-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",[m_id("")],["mdbhrp","9/2015"],"whttro");
   birds[j++] = new myBird("05-12-25T10:44","CICONIID","Wood Stork","黑头鹮鹳","Mycteria americana",[p_id("1112floridabirding",17)],["flevnp","12/2011"]);
