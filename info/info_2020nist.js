@@ -57,10 +57,14 @@ function initAlbum(){
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     this[0][i]    = "20201204_1";
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[0][i]    = "20201204_2";
+    this[1][i++]  = (["Decorating cookies","装点饼干"])[cn_ind];
     this[0][i]    = "20201207_1";
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     this[0][i]    = "20201207_2";
     this[1][i++]  = (["Wearing the crown for good behaviors","今天表现出色得以戴上皇冠"])[cn_ind];
+    this[0][i]    = "20201207_3";
+    this[1][i++]  = (["Science experiment","做科学实验"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
