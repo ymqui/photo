@@ -69,6 +69,8 @@ function initAlbum(){
     this[1][i++]  = (["Making menorah candles","贴七枝烛台的纸蜡烛"])[cn_ind];
     this[0][i]    = "20201210_1";
     this[1][i++]  = (["Making marshmallow dreidel","制作棉花糖陀螺"])[cn_ind];
+    this[0][i]    = "20201211_1";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
