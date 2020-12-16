@@ -556,7 +556,7 @@
   birds[j++] = new myBird("09-07-03T10:16","TYRANNID","Willow Flycatcher","柳纹霸鹟","Empidonax traillii",[p_id("1505puffin",2)],["ctciws","5/2015"]);
   birds[j++] = new myBird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",[p_id("1505bombayhook",5)],["debnwr","5/2015"]);
   birds[j++] = new myBird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35)],["mdbhrp","8/2015"]);
-  birds[j++] = new myBird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",[m_id("20201215_138_Pacific-slopeFlycatcher")],["mdmdmd","12/2020","Riverwalk Park, Frederick County","","","弗雷德里克郡河滨公园"]);
+  birds[j++] = new myBird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(sas("20201215_13",["7","8"],"_Pacific-slopeFlycatcher")),["mdmdmd","12/2020","Riverwalk Park, Frederick County","","","弗雷德里克郡河滨公园"]);
 //birds[j++] = new myBird("20-00-00T00:00","TYRANNID","Cordilleran Flycatcher","科迪纹霸鹟","Empidonax occidentalis",[m_id("20201212_134_Pacific-slopeFlycatcher")],["mdmdmd","12/2020","Riverwalk Park, Frederick County","","","弗雷德里克郡河滨公园"]);
   birds[j++] = new myBird("19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",p_id("1905mxbird",[10,11]),["mxunam","5/2019"]);
   birds[j++] = new myBird("13-12-25T14:52","TYRANNID","Vermilion Flycatcher","朱红霸鹟","Pyrocephalus rubinus",[p_id("1312bigbendbirding",3),p_id("2001txbirding",35)],["txbbnp","12/2013","Male","txsnwr","1/2020","Male"]);
