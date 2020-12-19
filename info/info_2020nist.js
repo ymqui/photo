@@ -79,6 +79,10 @@ function initAlbum(){
     this[1][i++]  = (["Playing with shaving cream in a snow day","下雪天玩剃须膏堆成的雪"])[cn_ind];
     this[0][i]    = "20201216_2";
     this[1][i++]  = (["Playing with shaving cream in a snow day","下雪天玩剃须膏堆成的雪"])[cn_ind];
+    this[0][i]    = "20201216_3";
+    this[1][i++]  = (["Playing with the real snow","玩真正的雪"])[cn_ind];
+    this[0][i]    = "20201218_1";
+    this[1][i++]  = (["Stringing bells into a necklace","串铃铛项链"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
