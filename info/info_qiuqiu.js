@@ -200,6 +200,8 @@ function initAlbum(){
     this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
     this[1][i++]  = (["First time using chopsticks for dinner","第一次用筷子吃饭"])[cn_ind];
+    this[0][i]    = "20201225_022_ChristmasGift";
+    this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
