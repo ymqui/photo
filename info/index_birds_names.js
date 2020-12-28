@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2020-12-15T08:00");
+  var modiDate  = new Date("2020-12-28T08:00");
   var modirange = 15;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -153,7 +153,7 @@
 //birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Tufted Duck","凤头潜鸭","Aythya fuligula",[m_id("")],["mdbhrp","9/2015"],"tufduc");
   birds[j++] = new myBird("17-02-04T14:16","ANATIDAE","Greater Scaup","斑背潜鸭","Aythya marila",[m_id("20170204_017_GreaterScaup(F)")],["mdmdmd","2/2017","Female, Greenbelt Lake","","","格林贝尔特湖"]);
   birds[j++] = new myBird("06-04-09T11:38","ANATIDAE","Lesser Scaup","小潜鸭","Aythya affinis",m_id(["20170121_010_LesserScaup(M)","20170121_011_LesserScaup(F)"]),["mdmdmd","1/2017","Male, Cambridge","","","剑桥","mdmdmd","1/2017","Female, Cambridge","","","剑桥"]);
-//birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("")],["mdocin","11/2015"]);
+  birds[j++] = new myBird("20-12-28T12:30","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("20201228_144_KingEider")],["mdocci","12/2020","Immature male",""," Inlet","海口"]);
   birds[j++] = new myBird("15-05-24T14:43","ANATIDAE","Common Eider","欧绒鸭","Somateria mollissima",[p_id("1505puffin",12),p_id("1505puffin",11),p_id("1512boston",12)],["menewh","5/2015","Male","menewh","5/2015","Female","mahpsp","12/2015","Females and 1st winter males (with white chest)","雌性和一齡冬羽雄性(白胸)"]);
   birds[j++] = new myBird("15-03-08T09:51","ANATIDAE","Harlequin Duck","丑鸭","Histrionicus histrionicus",p_id("1503barnegat",[13,12,14]),["njblsp","3/2015","Males","njblsp","3/2015","Female","njblsp","3/2015"]);
   birds[j++] = new myBird("15-12-26T12:28","ANATIDAE","Surf Scoter","斑头海番鸭","Melanitta perspicillata",[m_id("20170128_014_SurfScoter")],["mdmdmd","1/2017","Females (center) and males, Cambridge","雌性(中间)和雄性","","剑桥"]);
@@ -355,7 +355,7 @@
   birds[j++] = new myBird("15-09-06T08:36","LARIDAE ","Black Skimmer","黑剪嘴鸥","Rynchops niger",[p_id("1606florida",26),m_id("20151004_105_BlackSkimmer(I)")],["scbwma","6/2016","mdocci","10/2015","Juvenile"]);
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","Black-legged Kittiwake","三趾鸥","Rissa tridactyla",[p_id("1507birdingwest",21)],["wahobb","7/2015","On the left, on the right is a "+b_link("California Gull"),"左边，右边是一只"+b_link("加州鸥")]);
   birds[j++] = new myBird("17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",[m_id("20170909_099_Sabine'sGull")],["mdcocn","9/2017","Immature",""," at Sycamore Landing","悬铃木码头"]);
-  birds[j++] = new myBird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_BGull(W)","20151126_136_BGull(W)"]),["mdmdmd","3/2015","Winter plumage, Lapidum","","","萨斯奎哈纳州立公园","mdocci","11/2015","Winter plumage",""," Inlet","海口"]);
+  birds[j++] = new myBird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_BGull(W)","20201228_142_BonaparteGull"]),["mdmdmd","3/2015","Winter plumage, Lapidum","","","萨斯奎哈纳州立公园","mdocci","12/2020","Winter plumage",""," Inlet","海口"]);
 //birds[j++] = new myBird("20-00-00T00:00","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",[m_id("")],["mdloch","11/2015","",""," at Paper Mill Flats","造纸厂路平滩"]);
 //birds[j++] = new myBird("20-00-00T00:00","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("")],["mdloch","11/2015","",""," at Paper Mill Flats","造纸厂路平滩"]);
   birds[j++] = new myBird("06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Larus atricilla",[p_id("0607outerbanks",28),p_id("1505capemay",3),m_id("20161105_112_LaughingGull(WP)")],["ncoutb","7/2006","njcmsp","5/2015","mdocci","11/2016","Winter plumage"]);
