@@ -126,6 +126,7 @@
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["mdmdmd","12/2016","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"]);
   birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],"雪雁/25315");
 //birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"pifgoo");
+//birds[j++] = new myBird("20-00-00T00:00","ANATIDAE","Tundra Bean-Goose","普通豆雁","Anser serrirostris",[m_id("")],["mdbhrp","9/2015"],"tunbeg1","豆雁普通亚种");
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"]);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"]);
   birds[j++] = new myBird("14-07-06T11:04","ANATIDAE","Trumpeter Swan","黑嘴天鹅","Cygnus buccinator",p_id("1512bhill",[10,11]),["mdbhrp","1/2015","mdbhrp","2/2015"]); 
@@ -279,11 +280,11 @@
   birds[j++] = new myBird("18-12-05T10:33","EURYPYGI","Sunbittern","日鳽","Eurypyga helias",[p_id("1812crbirding",62)],["crarol","12/2018"],"sunbit1");
 //birds[j++] = new myBird("20-00-00T00:00","SAROTHRU","Buff-spotted Flufftail","黄点侏秧鸡","Sarothrura elegans",[m_id("")],["mdbhrp","9/2015"],"busflu1");
 //birds[j++] = new myBird("20-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",[m_id("")],["mdbhrp","9/2015"],"afrfin1","鳍脚鷈");
-  birds[j++] = new myBird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus longirostris",p_id("1509charleston",[9,10]),["scpitt","9/2015"]);
+  birds[j++] = new myBird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus longirostris",[p_id("1509charleston",9),m_id("20201227_140_ClapperRail")],["scpitt","9/2015","vahump","12/2020"]);
   birds[j++] = new myBird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(sas("20200610_03",["7","9"],"_KingRail")),["vaonwr","6/2020"]);
   birds[j++] = new myBird("17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arb","5/2017","Mentor Marsh State Nature Perserve, Ohio, USA","美国俄亥俄州门托沼泽州立自然保护区"]);
 //birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","White-breasted Waterhen","白胸苦恶鸟","Amaurornis phoenicurus",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("")],["ohment","5/2017"]);
+//birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("")],["vahump","12/2020"]);
 //birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","Gray-headed Swamphen","紫水鸡","Porphyrio poliocephalus",[m_id("")],["mdbhrp","6/2016"],"purswa3");
   birds[j++] = new myBird("11-12-28T12:49","RALLIDAE","Purple Gallinule","紫青水鸡","Porphyrio martinica",[p_id("1112floridabirding",16)],["flevnp","12/2011"]);
 //birds[j++] = new myBird("20-00-00T00:00","RALLIDAE","Eurasian Moorhen","黑水鸡","Gallinula chloropus",[m_id("")],["mdbhrp","6/2016"],"commoo3");
