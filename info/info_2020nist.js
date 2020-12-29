@@ -90,7 +90,7 @@ function initAlbum(){
     this[1][i++]  = (["Playing with cream","玩奶油"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20201228_1";
-    this[1][i++]  = (["Teacher's notes","老师的记录"])[cn_ind];
+    this[1][i++]  = (["Teacher's notes","老师今天的记录"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
