@@ -7,6 +7,7 @@ var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
 var ext        = ".JPG";
 var midi_file  = "";
+var last2first = true;
 document.title = title;
  
 function initAlbum(){
