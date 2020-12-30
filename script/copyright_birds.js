@@ -56,7 +56,7 @@
      document.write("版权所有 ");
      tmpeml = "统计资料";
   }
-  document.write("<a href='showphoto.html?LaoQ"+lnksty+">");     
+  document.write("<a href='showphoto.html?LaoQ"+lnksty+" target='_blank'>");     
   document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/insignia.png" ');
   document.write('     onMouseover="window.status=tmpeml;popupmesg(tmpeml);return true;"');
   document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
