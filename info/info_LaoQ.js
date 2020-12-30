@@ -19,7 +19,7 @@ function initAlbum(){
     this[0][i]    = "20201228_HuntleyMeadows";
     this[1][i++]  = (["Huntley Meadows Park, Virginia, USA","美国弗吉尼亚州亨特利湿地公园"])[cn_ind];
     this[0][i]    = ["Stat","20201229";
-    this[1][i++]  = (["Stats.","统计图。"])[cn_ind];
+    this[1][i++]  = (["Stats","统计图"])[cn_ind];
 
    
     for (var i=0;i<this[0].length;i++){
