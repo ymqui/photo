@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   if (!cellphone) document.write('<center>');
   document.write('<br><p style="font-family:Times New Roman;">');
   document.write('<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" SRC="https://ymqui.github.io/photo/script/date.js"></SCRIPT>');
@@ -51,12 +51,12 @@
      document.write("-"+modiYear);
   }
   document.write(" All rights reserved. ");
-  var tmpeml = "Comments";
+  var tmpeml = "Stats";
   if(window.usechinese){
      document.write("版权所有 ");
-     tmpeml = "留言";
+     tmpeml = "统计资料";
   }
-  document.write('<a href="mailto:ymqui@yahoo.com">');     
+  document.write("<a href='showphoto.html?LaoQ"+lnksty+">");     
   document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/insignia.png" ');
   document.write('     onMouseover="window.status=tmpeml;popupmesg(tmpeml);return true;"');
   document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
