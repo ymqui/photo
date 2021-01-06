@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2020-12-29T08:00");
+  var modiDate  = new Date("2021-01-06T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -422,7 +422,7 @@
   birds[j++] = new myBird("06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","mdmdmd","4/2016","Agricultural History Farm Park","","","农史农场公园"]);
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arb","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida, USA","美国佛罗里达州劳德代尔堡布莱恩皮克罗公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
-//birds[j++] = new myBird("21-00-00T00:00","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("")],["vavava","12/2020","State Arboretum of Virginia","","","州立植物园"]);
+  birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210106_006_Long-earedOwl")],["vavava","1/2021","State Arboretum of Virginia","","","州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["vavava","1/2017","Harrison Road, Fauquier County","","","福基尔郡哈里森路"]);
 //birds[j++] = new myBird("21-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],"tawfro1");
 //birds[j++] = new myBird("21-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],"oilbir1");
@@ -846,7 +846,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("18-06-04T07:56","PASSEREL","Bachman's Sparrow","巴氏猛雀鹀","Peucaea aestivalis",[m_id("20180604_002_Bachman'sSparrow")],["sclobp","6/2018"]);
   birds[j++] = new myBird("19-05-12T09:44","PASSEREL","Rufous-crowned Sparrow","棕顶猛雀鹀","Aimophila ruficeps",[p_id("1905mxbird",9)],["mxunam","5/2019"]);
-//birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Green-tailed Towhee","绿尾唧鹀","Pipilo chlorurus",[m_id("")],["vavava","12/2020","Sky Meadows State Park","","","天空草地州立公园"]);
+  birds[j++] = new myBird("21-01-06T10:52","PASSEREL","Green-tailed Towhee","绿尾唧鹀","Pipilo chlorurus",[m_id("20210106_005_Green-tailedTowhee")],["vavava","1/2021","Sky Meadows State Park","","","天空草地州立公园"]);
   birds[j++] = new myBird("12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",m_id(["20150405_050_EasternTowhee(M)","20150628_079_EasternTowhee(I)"]),["mdbmnt","4/2015","Male","mdbmnt","6/2015","Juvenile"]);
   birds[j++] = new myBird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",[p_id("1905mxbird",15)],["mxunam","5/2019","",""]);
 //birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Black-striped Sparrow","大黑纹头雀","Arremonops conirostris",[p_id("1501prbirding",2)],["crarol","4/2015"],"blsspa1");
