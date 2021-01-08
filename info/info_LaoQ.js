@@ -15,6 +15,8 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
+    this[0][i]    = "20150105_HumacaoNR";
+    this[1][i++]  = (["Humacao Nature Preserve, Puerto Rico, USA","美国波多黎各乌马考自然保护区"])[cn_ind];
     this[0][i]    = "20160424_ChimneyRockSP";
     this[1][i++]  = (["Chimney Rock State Park, North Carolina, USA","美国北卡罗来纳州烟囱岩州立公园"])[cn_ind];
     this[0][i]    = "20201228_HuntleyMeadows";
