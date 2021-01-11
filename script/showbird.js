@@ -416,13 +416,13 @@ if(window.usechinese){
    document.title = title+bid.cname;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+bid.cinfo[i]);}
+      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+bid.cinfo[i]+'。');}
    }
 }else{
    document.title = title+bid.name;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+bid.info[i]+'</i>');}
+      if((!sameinfo)||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+bid.info[i]+'.</i>');}
    }
 }
 document.write("</center>");
