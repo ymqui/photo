@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 //////////////////////////////////
 //  6/2004 Yiming Qiu           //
 //////////////////////////////////
@@ -604,12 +604,16 @@ function getdate(name,str){
     var mon  = name.substring(pos+4,pos+6);
     var day  = name.substring(pos+6,pos+8);
     if (window.usechinese){
-       date = year+"-"+mon+"-"+day+"。";
+       date = year+"-"+mon;
+       if (day.length!=0) {date = date+"-"+day;}
+       date = date+"。";
        comma = "，";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
        if (day.substring(0,1)=="0"){day = day.substring(1,2);}
-       date = " "+mon+"/"+day+"/"+year+".";
+       date = " "+mon+"/";
+       if (day.length!=0) {date = date+day+"/";}
+       date = date+year+".";
        comma = ",";
     }
     if ((str.slice(-1)==="!")||(str.slice(-1)==="！")){
