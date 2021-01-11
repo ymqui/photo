@@ -599,19 +599,21 @@ function pagelink(pid, descrip){
 } 
 
 function getdate(name,str){
-    var pos  = name.search(/20[0-9]{4,}/) 
+    var pos  = name.search(/20[0-9]{2,}/) 
     var year = name.substring(pos+0,pos+4);
     var mon  = name.substring(pos+4,pos+6);
     var day  = name.substring(pos+6,pos+8);
     if (window.usechinese){
-       date = year+"-"+mon;
+       date = year
+       if (mon.length!=0) {date = date+"-"+mon;}
        if (day.length!=0) {date = date+"-"+day;}
        date = date+"。";
        comma = "，";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
        if (day.substring(0,1)=="0"){day = day.substring(1,2);}
-       date = " "+mon+"/";
+       date = " ";
+       if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
        date = date+year+".";
        comma = ",";
