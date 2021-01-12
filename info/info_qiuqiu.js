@@ -12,6 +12,8 @@ var last2first = true;
 var makeface   = new Array();
 var tmpDate    = new Date();    //current date
 var strDate    = tmpDate.toISOString();
+strDate        = strDate.substring(5,7)+"/"+strDate.substring(0,4);
+if (strDate.substring(0,1)=="0") {strDate=strDate.substring(1);}
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
@@ -19,7 +21,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["1910parade","10/2019 Goddard School Halloween Parade","10/2019 戈达德托儿所万圣节游行"],["2001texas","1/2020 Vacationing in Texas","1/2020 德克萨斯州度假"],
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"],
-                  ["2020nist","11/2020-"+strDate.substring(5,7)+"/"+strDate.substring(0,4)+" NIST Daycare","11/2020- NIST托儿所"]];
+                  ["2020nist","11/2020-"+strDate+" NIST Daycare","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
