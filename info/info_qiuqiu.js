@@ -10,8 +10,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var tmpDate    = new Date();    //current date
-var strDate    = tmpDate.toISOString();
+var strDate    = (new Date()).toISOString();
 strDate        = strDate.substring(5,7)+"/"+strDate.substring(0,4);
 if (strDate.substring(0,1)=="0") {strDate=strDate.substring(1);}
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
