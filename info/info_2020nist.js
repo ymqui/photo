@@ -113,6 +113,8 @@ function initAlbum(){
     this[1][i++]  = (["Making Oreo Truffles","做奥利奥松露"])[cn_ind];
     this[0][i]    = "20210108_3";
     this[1][i++]  = (["Making Oreo Truffles","做奥利奥松露"])[cn_ind];
+    this[0][i]    = "20210112_1";
+    this[1][i++]  = (["Tracing letter B","描字母B"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
