@@ -273,7 +273,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("20190109_002_Red-tailedHawk"),p_id("1412mckee-beshers",33)],["mdmdmd","1/2019","St Mary's County","","","圣玛丽郡","mdmwma","11/2014","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","ACCIPITR","Ferruginous Hawk","王鵟","Buteo regalis",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",m_id(["20210113_008_Rough-leggedHawk","20210113_009_Rough-leggedHawk"]),["vavava","1/2021","Prince William County Landfill","","","威廉王子郡垃圾填埋场"]);
+  birds[j++] = new myBird("21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",m_id(["20210113_008_Rough-leggedHawk","20210113_009_Rough-leggedHawk"]),["vavava","1/2021","Light morph, Prince William County Landfill","浅色型","","威廉王子郡垃圾填埋场"]);
 //birds[j++] = new myBird("21-00-00T00:00","OTIDIDAE","White-bellied Bustard","蓝鸨","Eupodotis senegalensis",[m_id("")],["mdbhrp","9/2015"],"whbbus2");
 //birds[j++] = new myBird("21-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[m_id("")],["mdbhrp","9/2015"],"whbmes2","拟鹑");
 //birds[j++] = new myBird("21-00-00T00:00","CARIAMID","Red-legged Seriema","红腿叫鹤","Cariama cristata",[m_id("")],["mdbhrp","9/2015"],"relser1");
