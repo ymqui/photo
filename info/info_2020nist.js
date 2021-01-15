@@ -117,8 +117,10 @@ function initAlbum(){
     this[1][i++]  = (["Tracing letter B","描字母B"])[cn_ind];
     this[0][i]    = "20210113_1";
     this[1][i++]  = (["Finger painting","徒手画画"])[cn_ind];
-    makeface[j++] = i;
     this[0][i]    = "20210114_1";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    makeface[j++] = i;
+    this[0][i]    = "20210114_2";
     this[1][i++]  = (["Teacher's notes","老师今天的观察记录"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
