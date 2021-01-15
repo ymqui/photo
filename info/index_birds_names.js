@@ -422,7 +422,7 @@
   birds[j++] = new myBird("06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl"]),["mdbmnt","4/2015","mdmdmd","4/2016","Agricultural History Farm Park","","","农史农场公园"]);
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arb","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida, USA","美国佛罗里达州劳德代尔堡布莱恩皮克罗公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
-  birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210106_006_Long-earedOwl")],["vavava","1/2021","State Arboretum of Virginia","","","州立植物园"]);
+  birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210115_012_Long-earedOwl")],["vavava","1/2021","State Arboretum of Virginia","","","州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["vavava","1/2017","Harrison Road, Fauquier County","","","福基尔郡哈里森路"]);
 //birds[j++] = new myBird("21-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],"tawfro1");
 //birds[j++] = new myBird("21-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],"oilbir1");
@@ -810,6 +810,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",[m_id("")],["arb","1/2021","Park Forest, State College, Pennsylvania, USA","美国宾夕法尼亚州州立大学公园森林村"]);
   birds[j++] = new myBird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("20170211_020_RedCrossbill")],["arb","2/2017","Males red, females yellow-green, Owl Creek Park, Schuylkill County, Pennsylvania, USA","雄性带红色，雌性黄绿色，美国宾夕法尼亚州斯古吉尔郡鸮河公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("")],["caalgp","4/2020"]);
+//birds[j++] = new myBird("21-01-15T09:09","FRINGILL","European Goldfinch","白翅交嘴雀","Carduelis carduelis",[m_id("20210115_011_EuropeanGoldfinch")],["mdmdmd","1/2021","Mother Nature's store, Columbia","","","哥伦比亚市大自然母亲鸟店"],"eurgol");
   birds[j++] = new myBird("06-08-05T11:23","FRINGILL","American Goldfinch","美洲金翅雀","Carduelis tristis",[p_id("1412mckee-beshers",9),p_id("1412mckee-beshers",10),p_id("1512bhill",44)],["mdmwma","8/2014","Male","mdmwma","8/2014","Female","mdbhrp","11/2015","Winter female"]);
   birds[j++] = new myBird("13-12-25T19:22","FRINGILL","Lesser Goldfinch","暗背金翅雀","Spinus psaltria",[p_id("1312bigbendbirding",19)],["txbbnp","12/2013","Female"]);
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Pine Siskin","松金翅雀","Spinus pinus",[m_id("20201112_122_PineSiskin")],["mdbhrp","11/2020"]);
