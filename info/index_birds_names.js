@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-01-13T08:00");
+  var modiDate  = new Date("2021-01-16T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -127,7 +127,7 @@
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["mdmdmd","12/2016","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"]);
   birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],"雪雁/25315");
 //birds[j++] = new myBird("21-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["mdbhrp","9/2015"],"pifgoo");
-//birds[j++] = new myBird("21-00-00T00:00","ANATIDAE","Tundra Bean-Goose","普通豆雁","Anser serrirostris",[m_id("")],["arb","1/2021","Fairmount Park, Philadelphia, Pennsylvania, USA","美国宾夕法尼亚州费城费尔蒙特公园"],"tunbeg1","豆雁普通亚种");
+  birds[j++] = new myBird("21-01-16T11:52","ANATIDAE","Tundra Bean-Goose","普通豆雁","Anser serrirostris",[m_id("20210116_014_TundraBean-Goose")],["arb","1/2021","East Park Reservoir, Philadelphia, Pennsylvania, USA","美国宾夕法尼亚州费城东园水库"],"tunbeg1","豆雁普通亚种");
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"]);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"]);
   birds[j++] = new myBird("14-07-06T11:04","ANATIDAE","Trumpeter Swan","黑嘴天鹅","Cygnus buccinator",p_id("1512bhill",[10,11]),["mdbhrp","1/2015","mdbhrp","2/2015"]); 
