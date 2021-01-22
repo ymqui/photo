@@ -126,6 +126,8 @@ function initAlbum(){
     this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
     this[0][i]    = "20210119_2";
     this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
+    this[0][i]    = "20210122_1";
+    this[1][i++]  = (["Helping with the calendar and weather","帮忙调整日历和天气"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
