@@ -1,7 +1,7 @@
 <!--
   //date
-  var modiDate  = new Date("2021-01-17T08:00");
-  var modirange = 15;  		//range within modiDate in days
+  var modiDate  = new Date("2021-01-24T08:00");
+  var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
   var birds     = [];         
@@ -807,7 +807,7 @@
   birds[j++] = new myBird("06-08-11T17:33","FRINGILL","House Finch","家朱雀","Carpodacus mexicanus",p_id("1412mckee-beshers",[1,35,2]),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female"]);
   birds[j++] = new myBird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",[p_id("1601china",71)],["cnbjth","1/2016"],"origre");
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7),m_id("20201027_115")],["mdbhrp","1/2015","Female on the left (a "+b_link("Pine Siskin")+" on the right)","雌性(左边，右边是一只"+b_link("松金翅雀")+")","mdocci","10/2020","Female, Sunset Park","","","日落公园"]);
-//birds[j++] = new myBird("21-00-00T00:00","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",[m_id("")],["arb","1/2021","Park Forest, State College, Pennsylvania, USA","美国宾夕法尼亚州州立大学公园森林村"]);
+  birds[j++] = new myBird("21-01-24T11:53","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",m_id(["20210124_017_HoaryRedpoll","20210124_018_HoaryRedpoll"]),["arb","1/2021","Park Forest, State College, Pennsylvania, USA","美国宾夕法尼亚州州立大学公园森林村"]);
   birds[j++] = new myBird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("20170211_020_RedCrossbill")],["arb","2/2017","Males red, females yellow-green, Owl Creek Park, Schuylkill County, Pennsylvania, USA","雄性带红色，雌性黄绿色，美国宾夕法尼亚州斯古吉尔郡鸮河公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("")],["caalgp","4/2020"]);
 //birds[j++] = new myBird("21-01-15T09:09","FRINGILL","European Goldfinch","红额金翅雀","Carduelis carduelis",[m_id("20210115_011_EuropeanGoldfinch")],["mdmdmd","1/2021","Mother Nature's store, Columbia","","","哥伦比亚市大自然母亲鸟店"],"eurgol");
