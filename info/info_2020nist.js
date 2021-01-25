@@ -129,7 +129,7 @@ function initAlbum(){
     this[0][i]    = "20210122_1";
     this[1][i++]  = (["Helping with the calendar and weather","帮忙调整日历和天气"])[cn_ind];
     this[0][i]    = "20210125_1";
-    this[1][i++]  = (["Making snowflakes","用纸做雪花"])[cn_ind];
+    this[1][i++]  = (["Making snowflakes","做纸片雪花"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
