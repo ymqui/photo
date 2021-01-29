@@ -129,7 +129,7 @@ function initAlbum(){
     this[0][i]    = "20210122_1";
     this[1][i++]  = (["Helping with the calendar and weather","帮忙调整日历和天气"])[cn_ind];
     this[0][i]    = "20210125_1";
-    this[1][i++]  = (["Making snowflakes","做纸片雪花"])[cn_ind];
+    this[1][i++]  = (["Making paper snowflakes","做纸片雪花"])[cn_ind];
     this[0][i]    = "20210126_1";
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     this[0][i]    = "20210126_2";
@@ -138,6 +138,8 @@ function initAlbum(){
     this[1][i++]  = (["Making snowflakes with pretzel sticks and marshmallows","用棉花糖和椒盐脆饼棍制作雪花"])[cn_ind];
     this[0][i]    = "20210128_2";
     this[1][i++]  = (["Creating shapes with sugar","用糖抹出形状"])[cn_ind];
+    this[0][i]    = "20210129_1";
+    this[1][i++]  = (["Making paper snowflakes","做纸片雪花"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
