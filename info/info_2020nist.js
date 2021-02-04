@@ -142,6 +142,13 @@ function initAlbum(){
     this[1][i++]  = (["Making paper snowflakes","做纸片雪花"])[cn_ind];
     this[0][i]    = "20210201_1";
     this[1][i++]  = (["Helping prepare the morning snack","帮忙准备早点"])[cn_ind];
+    this[0][i]    = "20210203_1";
+    this[1][i++]  = (["Playing with snow","玩雪"])[cn_ind];
+    this[0][i]    = "20210203_2";
+    this[1][i++]  = (["Playing with snow","玩雪"])[cn_ind];
+    this[0][i]    = "20210203_3";
+    this[1][i++]  = (["Playing with snow","玩雪"])[cn_ind];
+
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
