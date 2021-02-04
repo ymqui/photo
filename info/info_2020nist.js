@@ -148,6 +148,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing with snow","玩雪"])[cn_ind];
     this[0][i]    = "20210203_3";
     this[1][i++]  = (["Playing with snow","玩雪"])[cn_ind];
+    this[0][i]    = "20210204_1";
+    this[1][i++]  = (["Painting with a golf ball","用高尔夫球画画"])[cn_ind];
 
     
     for (var i=0;i<this[0].length;i++){
