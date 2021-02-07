@@ -189,7 +189,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Chukar","石鸡","Alectoris chukar",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","A released bird","一只释放鸟"]);
   birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant(M)"),p_id("1704longyan",12)],["mdmwma","1/2017","Male","cnlynv","4/2017","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",[p_id("1604asheville",1)],["flmahp","6/2016","Male"]);
-  birds[j++] = new myBird("16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[m_id("20160326_025_Red-throatedLoon(WP)")],["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头"]);
+  birds[j++] = new myBird("16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",m_id(["20160326_025_RTLoon","20210206_025_RTLoon"]),["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头","vavava","2/2021","Winter plumage, Bethel Beach Natural Area Preserve, Mathews County","","","马修斯郡伯特利海滩自然保护区"]);
 //birds[j++] = new myBird("21-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[p_id("1503barnegat",16),m_id("20151126_137_CommonLoon(WP)"),p_id("1503barnegat",15)],["njblsp","3/2015","mdocci","11/2015","Winter plumage",""," Inlet","海口","njblsp","3/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],"kinpen1");
