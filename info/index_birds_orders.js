@@ -791,10 +791,10 @@
         if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
-     if (typeof gps == "string"){
-         if (gps.match(/\([\d\.\-]+ *, *[\d\.\-]+\)/)){
+     if ((typeof tmp[4] == 'undefined')&&(typeof gps == "string")){
+        if (gps.match(/\([\d\.\-]+ *, *[\d\.\-]+\)/)){
             tmp[4] = 'http://www.google.com/maps/place/'+gps.substring(1,gps.length-1);
-         }
+        }
      }
      if (typeof tmp[4] !== 'undefined') {
         return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
