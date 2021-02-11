@@ -474,7 +474,7 @@
   var fam_ln  = 8;						//family length
   var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
   
-  function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
+  function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl, gps){
      this.lifer    = new Date("20"+liferdate+":00"); 
      this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
      this.name     = name.trim();
@@ -490,6 +490,29 @@
      }else{
         this.photo = [photo]; 
      }
+
+     if(typeof ebid == 'undefined'){ 
+        ebid = "";  
+     }else if(typeof ebid == "string"){
+        if (ebid.match(/[\u3400-\u9FBF]/)) {
+           curl = ebid;
+           ebid = "";
+        } else if (ebid.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+           gps  = ebid;
+           ebid = "";
+        }
+     }else{
+        if (typeof curl !=='undefined'){gps = curl;}
+        curl = ebid;
+        ebid = "";
+     }
+     if (typeof curl == "string"){
+         if (curl.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+            gps = curl;
+            curl = "";
+         }
+     }
+
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
@@ -507,26 +530,14 @@
                }
             }
          }
-         tmp_info[i]   = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
-         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
+         tmp_info[i]   = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i],gps); 
+         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i],gps);
      }
      for (var i=0;i<this.photo.length;i++){
          this.info[i]  = tmp_info[Math.min(i,tmp_info.length-1)]; 
          this.cinfo[i] = tmp_cinfo[Math.min(i,tmp_cinfo.length-1)];
      }
-   
-     if(typeof ebid == 'undefined'){ 
-        ebid = "";  
-     }else if(typeof ebid == "string"){
-        if (ebid.match(/[\u3400-\u9FBF]/)) {
-           curl = ebid;
-           ebid = "";
-        }
-     }else{
-        curl = ebid;
-        ebid = "";
-     }  
-
+     
      if (ebid !==""){
         this.url = ebird(ebid);
      }else{
@@ -757,7 +768,7 @@
      return link;
   } 
 
-  function loclink(pid,date,usechinese,header,extra){
+  function loclink(pid,date,usechinese,header,extra,gps){
      pid = pid.trim().toLowerCase();
      var cn_ind = usechinese?1:0;
      var comma  = ([", ","，"])[cn_ind];
@@ -780,6 +791,11 @@
         if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
+     if (typeof gps == "string"){
+         if (gps.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+            tmp[4] = 'http://www.google.com/maps/place/'+gps.substring(1,gps.length-1);
+         }
+     }
      if (typeof tmp[4] !== 'undefined') {
         return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
      }else{
