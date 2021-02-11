@@ -190,7 +190,7 @@
   birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant(M)"),p_id("1704longyan",12)],["mdmwma","1/2017","Male","cnlynv","4/2017","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",[p_id("1604asheville",1)],["flmahp","6/2016","Male"]);
   birds[j++] = new myBird("16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",m_id(["20160326_025_RTLoon","20210206_025_RTLoon"]),["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头","vavava","2/2021","Winter plumage, Bethel Beach Natural Area Preserve, Mathews County","","","马修斯郡伯特利海滩自然保护区"]);
-//birds[j++] = new myBird("21-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["vavava","2/2021","Little Island Park, Virginia Beach","","","弗吉尼亚海滩小岛公园"]);
   birds[j++] = new myBird("15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[p_id("1503barnegat",16),m_id("20151126_137_CommonLoon(WP)"),p_id("1503barnegat",15)],["njblsp","3/2015","mdocci","11/2015","Winter plumage",""," Inlet","海口","njblsp","3/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],"kinpen1");
 //birds[j++] = new myBird("21-00-00T00:00","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[m_id("")],["mdbhrp","9/2015"],"emppen1");
@@ -941,7 +941,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","MITROSPI","Dusky-faced Tanager","乌脸唐纳雀","Mitrospingus cassinii",[m_id("")],["mdbhrp","9/2015"],"duftan1");
   birds[j++] = new myBird("15-05-02T08:21","CARDINAL","Summer Tanager","玫红丽唐纳雀","Piranga rubra",[p_id("1812crbirding",87),p_id("1812crbirding",32),m_id("20170625_079_SummerTanager(M)")],["crarol","12/2018","Male","crarol","12/2018","Female","mdcovl","6/2017","Male"]);
   birds[j++] = new myBird("15-05-03T08:03","CARDINAL","Scarlet Tanager","猩红丽唐纳雀","Piranga olivacea",[p_id("2020lbrp",10),m_id("20160514_051_ScarletTanager(F)"),m_id("20160514_052_ScarletTanager(M)")],["mdlbrp","6/2020","Male","nyjbwr","5/2016","Female","nyjbwr","5/2016","Male"]);
-  birds[j++] = new myBird("21-01-30T11:53","CARDINAL","Western Tanager","黄腹丽唐纳雀","Piranga ludoviciana",[m_id("20210130_020_WesternTanager")],["vavava","1/2021","Female, Yorktown, York County","","","约克郡约克镇"]);
+  birds[j++] = new myBird("21-01-30T11:53","CARDINAL","Western Tanager","黄腹丽唐纳雀","Piranga ludoviciana",[m_id("20210130_020_WesternTanager")],["vavava","1/2021","Female, Yorktown, York County","","","约克郡约克镇"],"(37.232338,-76.506205)");
   birds[j++] = new myBird("14-08-30T16:45","CARDINAL","Rose-breasted Grosbeak","玫胸白斑翅雀","Pheucticus ludovicianus",[p_id("1409fingerlake",6),p_id("1512bhill",42)],["arb","8/2014","Female, Salmon Creek Road, New York, USA","雌性，美国纽约州鲑鱼河路","mdbhrp","9/2015","Immature male"]);
   birds[j++] = new myBird("19-05-12T09:59","CARDINAL","Black-headed Grosbeak","黑头白斑翅雀","Pheucticus melanocephalus",[p_id("1905mxbird",16)],["mxunam","5/2019","Male"]);
   birds[j++] = new myBird("05-12-24T16:03","CARDINAL","Northern Cardinal","主红雀","Cardinalis cardinalis",[p_id("1604asheville",16),m_id("20170108_006_NorthernCardinal(F)")],["nccrsp","4/2016","Male","mdmapp","1/2017","Female"]);
