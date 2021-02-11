@@ -497,7 +497,7 @@
         if (ebid.match(/[\u3400-\u9FBF]/)) {
            curl = ebid;
            ebid = "";
-        } else if (ebid.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+        } else if (ebid.match(/\([\d\.\-]+ *, *[\d\.\-]+\)/))){
            gps  = ebid;
            ebid = "";
         }
@@ -507,7 +507,7 @@
         ebid = "";
      }
      if (typeof curl == "string"){
-         if (curl.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+         if (curl.match(/\([\d\.\-]+ *, *[\d\.\-]+\)/))){
             gps = curl;
             curl = "";
          }
@@ -792,7 +792,7 @@
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof gps == "string"){
-         if (gps.match(/\([\d\.]+ *, *[\d\.]+\)/))){
+         if (gps.match(/\([\d\.\-]+ *, *[\d\.\-]+\)/))){
             tmp[4] = 'http://www.google.com/maps/place/'+gps.substring(1,gps.length-1);
          }
      }
