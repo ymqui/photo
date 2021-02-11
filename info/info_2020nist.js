@@ -156,6 +156,10 @@ function initAlbum(){
     this[1][i++]  = (["Early construction crew with Roman","一早就和同学Roman在施工现场"])[cn_ind];
     this[0][i]    = "20210209_2";
     this[1][i++]  = (["Lining up candies","给糖果排队"])[cn_ind];
+    this[0][i]    = "20210210_1";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[0][i]    = "20210210_2";
+    this[1][i++]  = (["Ms Sally is preparing for today's experiment","Sally老师在为今天的实验做准备"])[cn_ind];
 
     
     for (var i=0;i<this[0].length;i++){
