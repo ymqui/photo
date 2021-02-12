@@ -161,7 +161,7 @@ function initAlbum(){
     this[0][i]    = "20210210_2";
     this[1][i++]  = (["Ms Sally is preparing for today's experiment","Sally老师在为今天的实验做准备"])[cn_ind];
     this[0][i]    = "20210211_1";
-    this[1][i++]  = (["Lanterns decorating the hallway to celebrate the Chinese New Year","走廊挂满来灯笼庆祝农历新年"])[cn_ind];
+    this[1][i++]  = (["Lanterns decorating the hallway to celebrate the Chinese New Year","走廊挂满灯笼来庆祝农历新年"])[cn_ind];
 
     
     for (var i=0;i<this[0].length;i++){
