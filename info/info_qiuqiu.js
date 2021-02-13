@@ -207,6 +207,8 @@ function initAlbum(){
     this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
     this[0][i]    = "20210126_Weightlifting";
     this[1][i++]  = (["Weight lifting","举哑铃"])[cn_ind];
+    this[0][i]    = "20210213_Target";
+    this[1][i++]  = (["Buy a toy at Target using new year red packet money","用新年红包钱在Target商店买玩具"])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
