@@ -327,7 +327,7 @@
   birds[j++] = new myBird("15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"]);
   birds[j++] = new myBird("15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20170520_058_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["debowb","5/2017","With "+b_link("Red Knot","s"),"后面是"+b_link("红腹滨鹬"),"mdocci","10/2015","Nonbreeding plumage",""," Inlet","海口"]);
   birds[j++] = new myBird("17-05-20T09:06","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("20170520_057_RedKnot")],["debowb","5/2017"]);
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Philomachus pugnax",[m_id("")],["debnwr","7/2020"],"ruff");
+//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Calidris pugnax",[m_id("")],["mdocci","2/2021","Nonbreeding plumage",""," Inlet","海口"],"ruff");
   birds[j++] = new myBird("20-10-23T10:15","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("20201023_113_StiltSandpiper")],["mdswhf","10/2020","In front of a "+b_link("Lesser Yellowlegs"),"后面是一只"+b_link("小黄脚鹬")]);
   birds[j++] = new myBird("20-10-23T10:03","SCOLOPAC","Curlew Sandpiper","弯嘴滨鹬","Calidris ferruginea",m_id(["20201023_114_CurlewSandpiper","20201023_110_CurlewSandpiper"]),["mdswhf","10/2020","Juvenile"],"cursan");
   birds[j++] = new myBird("15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["arb","12/2016","Winter plumage, Tybee Island, Georgia, USA","冬羽，美国乔治亚州泰碧岛","arb","9/2015","Juvenile, Fort Moultrie, South Carolina, USA","未成年，美国南卡罗来纳州莫尔特里堡"]);
