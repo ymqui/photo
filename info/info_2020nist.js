@@ -166,6 +166,8 @@ function initAlbum(){
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     this[0][i]    = "20210219_1";
     this[1][i++]  = (["Writing down the name on the first page of the journal","在日记首页上写下名字"])[cn_ind];
+    this[0][i]    = "20210219_2";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
 
     
     for (var i=0;i<this[0].length;i++){
