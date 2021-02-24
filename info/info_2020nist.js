@@ -169,13 +169,13 @@ function initAlbum(){
     this[0][i]    = "20210219_2";
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
     this[0][i]    = "20210222_1";
-    this[1][i++]  = (["Virtual school visit","网上学校参观"])[cn_ind];
+    this[1][i++]  = (["Virtual school visit","网上学校参观。球球坐在角落里听Sally老师讲故事"])[cn_ind];
     this[0][i]    = "20210222_2";
-    this[1][i++]  = (["Virtual school visit","网上学校参观"])[cn_ind];
+    this[1][i++]  = (["Virtual school visit","网上学校参观。球球和同学Ellie跟Joy老师学刷牙"])[cn_ind];
     this[0][i]    = "20210222_3";
-    this[1][i++]  = (["Virtual school visit","网上学校参观"])[cn_ind];
+    this[1][i++]  = (["Virtual school visit","网上学校参观。球球和同学Ellie帮Joy老师擦桌子"])[cn_ind];
     this[0][i]    = "20210222_4";
-    this[1][i++]  = (["Virtual school visit","网上学校参观"])[cn_ind];
+    this[1][i++]  = (["Virtual school visit","网上学校参观。球球和同学Ellie站在一起"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
