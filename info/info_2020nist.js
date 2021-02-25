@@ -178,6 +178,12 @@ function initAlbum(){
     this[1][i++]  = (["Virtual school visit","网上学校参观。球球和同学Ellie站在一起"])[cn_ind];
     this[0][i]    = "20210223_1";
     this[1][i++]  = (["Making toothpaste squishy bag","玩牙膏湿软包"])[cn_ind];
+    this[0][i]    = "20210225_1";
+    this[1][i++]  = (["Brushing an egg","用牙刷刷鸡蛋"])[cn_ind];
+    this[0][i]    = "20210225_2";
+    this[1][i++]  = (["Gluing tooth cavity","贴黑纸片模拟蛀牙"])[cn_ind];
+    this[0][i]    = "20210225_3";
+    this[1][i++]  = (["Tracing the word cavity","描英文单词蛀牙"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
