@@ -1097,7 +1097,7 @@ function initAlbum(){
     this[0][i]    = "20201030_4";
     this[1][i++]  = (["Goodbye card from friends and teachers","老师和同学们送的告别卡片"])[cn_ind];
     this[0][i]    = "20201030_5";
-    this[1][i++]  = (["Goodbye card from friends and teacher","老师和同学们送的告别卡片"])[cn_ind];
+    this[1][i++]  = (["Goodbye card from friends and teachers","老师和同学们送的告别卡片"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
