@@ -184,6 +184,10 @@ function initAlbum(){
     this[1][i++]  = (["Gluing tooth cavity","贴黑纸片模拟蛀牙"])[cn_ind];
     this[0][i]    = "20210225_3";
     this[1][i++]  = (["Tracing the word cavity","描英文单词蛀牙"])[cn_ind];
+    this[0][i]    = "20210301_1";
+    this[1][i++]  = (["Writing the word foot","写英文单词脚"])[cn_ind];
+    this[0][i]    = "20210301_2";
+    this[1][i++]  = (["Painting with foot with the help of Ms Joy","在Joy老师的帮助下用脚画画"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
