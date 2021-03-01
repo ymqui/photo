@@ -423,7 +423,7 @@
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arb","6/2016","Brian Piccolo Park, Fort Lauderdale, Florida, USA","美国佛罗里达州劳德代尔堡布莱恩皮克罗公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
   birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210115_012_Long-earedOwl")],["vavava","1/2021","State Arboretum of Virginia","","","州立植物园"]);
-  birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20170101_001_Short-earedOwl","20170101_002_Short-earedOwl"]),["vavava","1/2017","Harrison Road, Fauquier County","","","福基尔郡哈里森路"]);
+  birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20210228_026_Short-earedOwl"]),["mdmdmd","2/2021","Izaak Walton Way, Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
 //birds[j++] = new myBird("21-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蟆口鸱","Podargus strigoides",[m_id("")],["mdbhrp","9/2015"],"tawfro1");
 //birds[j++] = new myBird("21-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",[m_id("")],["mdbhrp","9/2015"],"oilbir1");
 //birds[j++] = new myBird("21-00-00T00:00","NYCTIBII","Great Potoo","大林鸱","Nyctibius grandis",[m_id("")],["mdbhrp","9/2015"],"grepot1");
