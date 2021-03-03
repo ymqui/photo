@@ -188,6 +188,10 @@ function initAlbum(){
     this[1][i++]  = (["Writing the word foot","写英文单词脚"])[cn_ind];
     this[0][i]    = "20210301_2";
     this[1][i++]  = (["Painting with foot with the help of Ms Joy","在Joy老师的帮助下用脚画画"])[cn_ind];
+    this[0][i]    = "20210302_1";
+    this[1][i++]  = (["Cracking an egg to make the birthday cake for Dr. Seuss","打鸡蛋准备做苏斯博士的生日蛋糕"])[cn_ind];
+    this[0][i]    = "20210302_2";
+    this[1][i++]  = (["Playing with playdough and cookie cutter","玩橡皮泥"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
