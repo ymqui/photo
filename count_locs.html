@@ -47,8 +47,13 @@ for (var i=0;i<loc_cnts.length;i++) {
        txcol =  "#0000FF";
     }
     txcol = ' style="color: '+txcol+'">';
-    var tmp = '<a href="'+locurl[loc_cnts[i][0]][4]+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
-    document.write('<td align="left"'+txcol+tmp+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
+    if (locurl[loc_cnts[i][0]].length>6){
+       var tmp_url = locurl[loc_cnts[i][0]][6];
+    }else{
+       var tmp_url = locurl[loc_cnts[i][0]][4];
+    }
+    tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+    document.write('<td align="left"'+txcol+tmp_url+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
     document.write('</tr>');
 }
 document.write('</table>');
