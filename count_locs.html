@@ -1,0 +1,87 @@
+﻿<html>
+<head>
+<script type="text/javascript" language="javaScript" src="C:\Users\qiuym\Documents\Yiming\tmp\index_birds_orders.js"></SCRIPT>
+<script type="text/javascript" language="javaScript" src="C:\Users\qiuym\Desktop\index_birds_names.js"></SCRIPT>
+</head>
+<body>
+<script type="text/javascript" language="javaScript">
+<!--
+
+//check to see if any of the locations has little or no use
+var tmp = Object.keys(locurl);
+for (var i=0;i<tmp.length;i++){
+    if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
+}
+
+function sortProperties(obj)
+{
+    // convert object into array
+    var sortable=[];
+    for(var key in obj)
+        if(obj.hasOwnProperty(key))
+            sortable.push([key, obj[key]]); // each item is an array in format [key, value]
+
+    // sort items by value
+    sortable.sort(function(a, b)
+    { if (a[1]!==b[1]){
+         return a[1]-b[1]; // compare numbers
+      }else{
+         return (a[0]).localeCompare(b[0]);
+      }
+    });
+    return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
+}
+
+loc_cnts = sortProperties(loc_cnts);
+
+document.write('<font color="blue"><strong> total locations: '+tmp.length.toString()+'</strong></font>');
+document.write('<br>');
+document.write('<table>');
+for (var i=0;i<loc_cnts.length;i++) {
+    document.write('<tr>');
+    if (loc_cnts[i][1] ==0){
+       txcol = "#FF0000";
+    }else if (loc_cnts[i][1]==1){ 
+       txcol = "#FFA500";
+    }else{
+       txcol =  "#0000FF";
+    }
+    txcol = ' style="color: '+txcol+'">';
+    var tmp = '<a href="'+locurl[loc_cnts[i][0]][4]+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+    document.write('<td align="left"'+txcol+tmp+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
+    document.write('</tr>');
+}
+document.write('</table>');
+
+
+//show how many misc birds photos
+document.write('<font color="blue"><strong> <br> total bird photos: '+pic_cnts.toString()+'</strong></font><br>');
+document.write('<font color="blue"><strong> <br> total misc bird photos: '+misc_cnts.toString()+'</strong></font><br>');
+
+//show how many py
+var tmp1 = Object.keys(py);
+document.write('<font color="blue"><strong> <br>total pinyin characters: '+tmp1.length.toString()+'</strong></font>');
+for (var i=0;i<tmp1.length;i++){
+    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
+}
+py_cnts = sortProperties(py_cnts);
+document.write('<br>');
+
+for (var i=0;i<py_cnts.length;i++) {
+    if (py_cnts[i][1] ==0){
+       document.write('<font color="red">'+py_cnts[i][0]+':&nbsp;  0</font>');
+    }else if (py_cnts[i][1]==1){ 
+       document.write('<font color="orange">'+py_cnts[i][0]+':&nbsp;  1</font>');
+    }else{
+       document.write('<font color="blue">'+py_cnts[i][0]+':&nbsp;  '+py_cnts[i][1].toString()+'</font>');
+    }
+    document.write('<br>');
+}
+
+
+
+
+//-->
+</script>
+</body>
+</html>
