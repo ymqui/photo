@@ -51,9 +51,10 @@ for (var i=0;i<loc_cnts.length;i++) {
        txcol =  "#0000FF";
     }
     txcol = ' style="color: '+txcol+'">';
+    tmp_url = '';
     if (locurl[loc_cnts[i][0]].length>6){
        var tmp_url = locurl[loc_cnts[i][0]][Math.min(6+usechinese,locurl[loc_cnts[i][0]].length-1)];
-    }else{
+    }else if (locurl[loc_cnts[i][0]].length>4){
        var tmp_url = locurl[loc_cnts[i][0]][Math.min(4+usechinese,locurl[loc_cnts[i][0]].length-1)];
     }
     if (tmp_url.length>0){
