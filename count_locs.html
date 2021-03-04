@@ -9,6 +9,8 @@
 <script type="text/javascript" language="javaScript">
 <!--
 
+var usechinese = 1;
+
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
 for (var i=0;i<tmp.length;i++){
@@ -50,11 +52,15 @@ for (var i=0;i<loc_cnts.length;i++) {
     }
     txcol = ' style="color: '+txcol+'">';
     if (locurl[loc_cnts[i][0]].length>6){
-       var tmp_url = locurl[loc_cnts[i][0]][6];
+       var tmp_url = locurl[loc_cnts[i][0]][Math.min(6+usechinese,locurl[loc_cnts[i][0]].length-1)];
     }else{
-       var tmp_url = locurl[loc_cnts[i][0]][4];
+       var tmp_url = locurl[loc_cnts[i][0]][Math.min(4+usechinese,locurl[loc_cnts[i][0]].length-1)];
     }
-    tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+    if (tmp_url.length>0){
+       tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+    }else {
+       tmp_url = loc_cnts[i][0];
+    }
     document.write('<td align="left"'+txcol+tmp_url+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
     document.write('</tr>');
 }
