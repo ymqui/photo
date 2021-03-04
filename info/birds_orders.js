@@ -495,7 +495,6 @@
      }else{
         this.photo = [photo]; 
      }
-     pic_cnts = pic_cnts+this.photo.length;
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
@@ -520,7 +519,7 @@
          this.info[i]  = tmp_info[Math.min(i,tmp_info.length-1)]; 
          this.cinfo[i] = tmp_cinfo[Math.min(i,tmp_cinfo.length-1)];
      }
-   
+     
      if(typeof ebid == 'undefined'){ 
         ebid = "";  
      }else if(typeof ebid == "string"){
@@ -531,8 +530,7 @@
      }else{
         curl = ebid;
         ebid = "";
-     }  
-
+     }
      if (ebid !==""){
         this.url = ebird(ebid);
      }else{
