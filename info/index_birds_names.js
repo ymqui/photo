@@ -143,7 +143,7 @@
   birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon(M)")],["mdmdmd","3/2016","Male, Trout Run WWTP, Garrett County","","","加勒特郡鳟鱼溪废水处理厂"]);
   birds[j++] = new myBird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Mareca americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon(F)"]),["mdloch","2/2015","Males","mdmdmd","1/2017","Female, Cambridge","","","剑桥"]);
   birds[j++] = new myBird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdbrgd","6/2012","Eclipse male","mdbmnt","10/2015"]);
-  birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flplpr","6/2016"]);
+  birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flplpr","6/2016","Males"]);
   birds[j++] = new myBird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]);
   birds[j++] = new myBird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["mxmcbc","5/2019","Male","mxmcbc","5/2019","Female"],"mexduc");
   birds[j++] = new myBird("15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",m_id(["20201229_146_NorthernPintail","20201229_147_NorthernPintail"]),["vahump","12/2020","Male left, female right","vahump","12/2020","Male"]);
