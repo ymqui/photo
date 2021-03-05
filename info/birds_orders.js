@@ -495,6 +495,7 @@
      }else{
         this.photo = [photo]; 
      }
+     pic_cnts = pic_cnts+this.photo.length;
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
