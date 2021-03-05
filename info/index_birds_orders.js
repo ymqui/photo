@@ -1,4 +1,10 @@
 <!--
+  //variables for stat counting
+  var loc_cnts  = {};
+  var py_cnts   = {};
+  var misc_cnts = 0;
+  var pic_cnts  = 0;
+
   function newOrder(name, cname, desc, cdesc, family){
      this.name   = name;
      this.cname  = cname;
@@ -490,6 +496,7 @@
      }else{
         this.photo = [photo]; 
      }
+     pic_cnts = pic_cnts+this.photo.length;
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
@@ -649,6 +656,8 @@
      for (var i=0;i<cname.length;i++){
          if (typeof py[cname.charAt(i)] !== 'undefined'){
             tmp = tmp+py[cname.charAt(i)]+' ';
+            if (typeof py_cnts[cname.charAt(i)] === 'undefined') py_cnts[cname.charAt(i)] = 0;
+            py_cnts[cname.charAt(i)]++;
          }else{
             document.write('<br>'+cname.charAt(i)+' pinyin not found!<br>');
          }
@@ -681,7 +690,12 @@
   }
 
   function m_id(id,num){
-     if (typeof num === 'undefined'){num = "";} 
+     if (typeof num === 'undefined'){num = "";}
+     if (id.constructor == Array) {
+        misc_cnts = misc_cnts+id.length;
+     }else{
+        misc_cnts = misc_cnts+1;
+     }
      return sas("misc_birds"+num.toString()+"/",id);
   }
 
@@ -761,6 +775,10 @@
      var cn_ind = usechinese?1:0;
      var comma  = ([", ","，"])[cn_ind];
      var id_0   = ([0,2])[cn_ind];
+     if (usechinese){
+        if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
+        loc_cnts[pid]++;
+     }
      if (typeof date === 'undefined') {var date  = "";}
      if (typeof header === 'undefined') {header = "";} 
      if (header.length>0) {header = header+comma;}
