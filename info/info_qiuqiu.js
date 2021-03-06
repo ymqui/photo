@@ -208,7 +208,9 @@ function initAlbum(){
     this[0][i]    = "20210126_Weightlifting";
     this[1][i++]  = (["Weight lifting","举哑铃"])[cn_ind];
     this[0][i]    = "20210213_Target";
-    this[1][i++]  = (["Buy a toy at Target using new year red packet money","用新年红包钱在Target商店买玩具"])[cn_ind];
+    this[1][i++]  = (["Buying a toy at Target using new year red packet money","用新年红包钱在Target商店买玩具"])[cn_ind];
+    this[0][i]    = "20210306_006_JHUPHA";
+    this[1][i++]  = (["Admiring the telescope in the Department of Physics and Astronomy at Johns Hopkins University","在约翰·霍普金斯大学物理与天文学系看望远镜"])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
