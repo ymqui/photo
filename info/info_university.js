@@ -22,6 +22,8 @@ function initAlbum(){
 
     this[0][i]    = "20200607_MDNavalAcademy";
     this[1][i++]  = (["US Naval Academy, Annapolis, Maryland, United States","美国海军学院，美国马里兰州安纳波利斯市"])[cn_ind];
+    this[0][i]    = "20210306_002_JHU";
+    this[1][i++]  = (["Johns Hopkins University, Baltimore, Maryland, United States","约翰·霍普金斯大学，美国马里兰州巴尔的摩市"])[cn_ind];
     
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
