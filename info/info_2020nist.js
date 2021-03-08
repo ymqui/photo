@@ -194,6 +194,10 @@ function initAlbum(){
     this[1][i++]  = (["Playing with playdough and cookie cutter","玩橡皮泥"])[cn_ind];
     this[0][i]    = "20210303_1";
     this[1][i++]  = (["Eating Dr. Seuss's birthday cake","吃苏斯博士的生日蛋糕"])[cn_ind];
+    this[0][i]    = "20210308_1";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[0][i]    = "20210308_2";
+    this[1][i++]  = (["Tracing letter J with dots","在字母J上描点"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
