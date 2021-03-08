@@ -388,7 +388,7 @@
   birds[j++] = new myBird("15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["arb","7/2015","Cannon Beach, Oregon, USA","美国俄勒冈州卡农海滩"]);
   birds[j++] = new myBird("17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026_Razorbill","20170304_027_Razorbill"]),["mdocci","3/2017","Nonbreeding adults",""," Inlet","海口"]);
   birds[j++] = new myBird("15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",[p_id("1505puffin",18)],["meeeri","5/2015"]);
-  birds[j++] = new myBird("15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",[p_id("1507birdingwest",17)],["wacape","7/2015"]);
+  birds[j++] = new myBird("15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",p_id("1507birdingwest",[16,17]),["wacape","7/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",["1505puffin/"],["meeeri","5/2015"]);
   birds[j++] = new myBird("15-05-24T18:04","ALCIDAE ","Atlantic Puffin","北极海鹦","Fratercula arctica",p_id("1505puffin",[15,16]),["meeeri","5/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","ALCIDAE ","Horned Puffin","角海鹦","Fratercula corniculata",["1505puffin/"],["meeeri","5/2015"]);
