@@ -473,7 +473,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","BUCCONID","White-necked Puffbird","白颈蓬头鴷","Notharchus hyperrhynchus",[m_id("")],["mdbhrp","9/2015"],"whnpuf2",10252);
 //birds[j++] = new myBird("21-00-00T00:00","CAPITONI","Scarlet-crowned Barbet","红顶须鴷","Capito aurovirens",[m_id("")],["mdbhrp","9/2015"],"sccbar1",10210);
 //birds[j++] = new myBird("21-00-00T00:00","SEMNORNI","Toucan Barbet","巨嘴拟鴷","Semnornis ramphastinus",[m_id("")],["mdbhrp","9/2015"],"toubar1");
-  birds[j++] = new myBird("18-12-05T09:52","RAMPHAST","Collared Aracari","领簇舌巨嘴鸟","Pteroglossus torquatus",p_id("1812crbirding",[58,59]),["crarol","12/2018"],"colara1");
+  birds[j++] = new myBird("18-12-05T09:52","RAMPHAST","Collared Aracari","领簇舌巨嘴鸟","Pteroglossus torquatus",p_id("1812crbirding",[58,59,71]),["crarol","12/2018"],"colara1");
   birds[j++] = new myBird("18-12-06T17:00","RAMPHAST","Yellow-throated Toucan","黑嘴巨嘴鸟","Ramphastos ambiguus",[p_id("1812crbirding",84)],["crarol","12/2018"],"bkmtou1");
 //birds[j++] = new myBird("21-00-00T00:00","MEGALAIM","Great Barbet","大拟啄木鸟","Megalaima virens",[m_id("")],["mdbhrp","9/2015"],"grebar1");
 //birds[j++] = new myBird("21-00-00T00:00","LYBIIDAE","Grey-throated Barbet","灰喉拟鴷","Gymnobucco bonapartei",[m_id("")],["mdbhrp","9/2015"],"gytbar1",10120);
