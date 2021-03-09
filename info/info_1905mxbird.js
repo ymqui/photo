@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 //Created by Album Builder Program Tue May 21 20:25:24 2019
 var info_url   = "";
 var title      = "Birding in Mexico";
@@ -45,7 +45,7 @@ function initAlbum(){
         this[1][14] = "棕喉唧鹀，墨西哥城国立自治大学植物园。";
         this[1][15] = "黑头白斑翅雀，雄性，墨西哥城国立自治大学植物园。";
         this[1][16] = "大蜂鸟，雄性，墨西哥城国立自治大学植物园。";
-        this[1][17] = "森莺，墨西哥城国立自治大学植物园。";
+        this[1][17] = "肉桂腹刺花鸟，雌性，墨西哥城国立自治大学植物园。";
         this[1][18] = "家朱雀，雄性和雌性，墨西哥城国立自治大学植物园。";
         this[1][19] = "比氏苇鹪鹩，墨西哥城国立自治大学植物园。";
         this[1][20] = "歌带鹀，墨西哥城国立自治大学植物园。";
@@ -81,7 +81,7 @@ function initAlbum(){
         this[1][14] = "Canyon Towhee, UNAM Botanical Garden, Mexico City.";
         this[1][15] = "Black-headed Grosbeak, male, UNAM Botanical Garden, Mexico City.";
         this[1][16] = "Rivoli's Hummingbird, male, UNAM Botanical Garden, Mexico City.";
-        this[1][17] = "Warbler, UNAM Botanical Garden, Mexico City.";
+        this[1][17] = "Cinnamon-bellied Flowerpiercer, female, UNAM Botanical Garden, Mexico City.";
         this[1][18] = "House Finch, male and female, UNAM Botanical Garden, Mexico City.";
         this[1][19] = "Bewick's Wren, UNAM Botanical Garden, Mexico City.";
         this[1][20] = "Song Sparrow, UNAM Botanical Garden, Mexico City.";
@@ -94,7 +94,7 @@ function initAlbum(){
         this[1][27] = "Bewick's Wren, Guanajuato City.";
         this[1][28] = "Bewick's Wren, Guanajuato City.";
         this[1][29] = "Cassin's Kingbird, Guanajuato City.";
-        this[1][30] = "Rufous-backed Thrush, Alameda Central, Mexico City.";
+        this[1][30] = "Rufous-backed Robin, Alameda Central, Mexico City.";
         this[1][31] = "Broad-billed Hummingbird, female, Alameda Central, Mexico City.";
         this[1][32] = "Curve-billed Thrasher, adult and immature, Alameda Central, Mexico City.";
         this[1][33] = "Inca Dove, Alameda Central, Mexico City.";

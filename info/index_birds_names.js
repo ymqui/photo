@@ -958,6 +958,7 @@
   birds[j++] = new myBird("18-12-03T16:02","THRAUPID","Golden-hooded Tanager","金头唐加拉雀","Stilpnia larvata",[p_id("1812crbirding",16)],["crarol","12/2018"],"gohtan1");
   birds[j++] = new myBird("18-12-04T09:45","THRAUPID","Red-legged Honeycreeper","红脚旋蜜雀","Cyanerpes cyaneus",p_id("1812crbirding",[36,37,38]),["crarol","12/2018","Male","crarol","12/2018","Female","crarol","12/2018","Male, nonbreeding plumage"],"relhon1");
   birds[j++] = new myBird("18-12-04T08:56","THRAUPID","Green Honeycreeper","绿旋蜜雀","Chlorophanes spiza",p_id("1812crbirding",[39,40]),["crarol","12/2018","Male","crarol","12/2018","Female"],"grehon1");
+  birds[j++] = new myBird("19-05-12T11:07","THRAUPID","Cinnamon-bellied Flowerpiercer","肉桂腹刺花鸟","Diglossa baritula",[p_id("1905mxbird",18)],["mxunam","5/2019","Female"],"cibflo1");
   birds[j++] = new myBird("15-01-07T07:12","THRAUPID","Saffron Finch","橙黄雀鹀","Sicalis flaveola",p_id("1501prbirding",[34,55]),["prsanj","1/2015","prsanj","1/2015","Juvenile"],"saffin");
   birds[j++] = new myBird("18-12-05T07:00","THRAUPID","Buff-throated Saltator","黄喉舞雀","Saltator maximus",[p_id("1812crbirding",52)],["crarol","12/2018"],"butsal1");
   birds[j++] = new myBird("18-12-08T08:46","THRAUPID","Grayish Saltator","灰背舞雀","Saltator coerulescens",[p_id("1812crbirding",96)],["crsanj","12/2018","Morazán Park","","","莫拉桑公园"],"grasal1");
