@@ -54,7 +54,7 @@ function initAlbum(){
         this[1][23] = "褐啄木鸟，雄性"+crarol;
         this[1][24] = "褐啄木鸟，雄性"+crarol;
         this[1][25] = "黄喉歌雀，雄性"+crarol;
-        this[1][26] = "黄冠歌雀，雌性"+crarol;
+        this[1][26] = "黄喉歌雀，雌性"+crarol;
         this[1][27] = "棕榈裸鼻雀"+crarol;
         this[1][28] = "褐背鸫"+crarol;
         this[1][29] = "白冠鹦哥"+crarol;
@@ -155,7 +155,7 @@ function initAlbum(){
         this[1][23] = "Smoky-brown Woodpecker, male"+crarol;
         this[1][24] = "Smoky-brown Woodpecker, male"+crarol;
         this[1][25] = "Yellow-throated Euphonia, male"+crarol;
-        this[1][26] = "Yellow-crowned Euphonia, female"+crarol;
+        this[1][26] = "Yellow-throated Euphonia, female"+crarol;
         this[1][27] = "Palm Tanager"+crarol;
         this[1][28] = "Clay-colored Thrush"+crarol;
         this[1][29] = "White-crowned Parrot"+crarol;
