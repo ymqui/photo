@@ -37,7 +37,11 @@ function sortProperties(obj)
 
 loc_cnts = sortProperties(loc_cnts);
 
-document.write('<font color="blue"><strong> total locations: '+tmp.length.toString()+'</strong></font>');
+document.write('<font color="blue"><strong>total bird species: '+birds.length.toString()+'</strong></font><br>');
+document.write('<font color="blue"><strong> <br> total bird photos: '+pic_cnts.toString()+'</strong></font><br>');
+document.write('<font color="blue"><strong> <br> total misc bird photos: '+misc_cnts.toString()+'</strong></font><br>');
+
+document.write('<font color="blue"><strong> <br> total locations: '+tmp.length.toString()+'</strong></font>');
 document.write('<br>');
 document.write('<table>');
 for (var i=0;i<loc_cnts.length;i++) {
@@ -66,11 +70,6 @@ for (var i=0;i<loc_cnts.length;i++) {
 }
 document.write('</table>');
 
-
-//show how many misc birds photos
-document.write('<font color="blue"><strong> <br> total bird photos: '+pic_cnts.toString()+'</strong></font><br>');
-document.write('<font color="blue"><strong> <br> total misc bird photos: '+misc_cnts.toString()+'</strong></font><br>');
-
 //show how many py
 var tmp1 = Object.keys(py);
 document.write('<font color="blue"><strong> <br>total pinyin characters: '+tmp1.length.toString()+'</strong></font>');
@@ -90,9 +89,6 @@ for (var i=0;i<py_cnts.length;i++) {
     }
     document.write('<br>');
 }
-
-
-
 
 //-->
 </script>
