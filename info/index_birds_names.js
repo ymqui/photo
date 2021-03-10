@@ -439,7 +439,7 @@
   birds[j++] = new myBird("15-01-03T10:48","TROCHILI","Antillean Mango","黑胸芒果蜂鸟","Anthracothorax dominicus",[p_id("1501prbirding",17)],["prcnwr","1/2015","Female"],"antman1");
   birds[j++] = new myBird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],"grtcar1");
   birds[j++] = new myBird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1",11143);
-  birds[j++] = new myBird("19-05-14T08:09","TROCHILI","Broad-billed Hummingbird","阔嘴蜂鸟","Cynanthus latirostris",[p_id("1905mxbird",24)],["mxguan","5/2019","Female"]);
+  birds[j++] = new myBird("19-05-14T08:09","TROCHILI","Broad-billed Hummingbird","阔嘴蜂鸟","Cynanthus latirostris",p_id("1905mxbird",[24,32]),["mxguan","5/2019","Female","mxmcal","5/2019","Female"]);
   birds[j++] = new myBird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
   birds[j++] = new myBird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Amazilia violiceps",p_id("1905mxbird",[4,8]),["mxunam","5/2019","Female"],"vichum");
   birds[j++] = new myBird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Amazilia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","mxmcbc","5/2019"],"berhum");
