@@ -511,7 +511,7 @@
   birds[j++] = new myBird("15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",[m_id("20150321_041_AmericanKestrel(M)")],["mdftmh","3/2015","Male"]);
   birds[j++] = new myBird("15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134_Merlin(M)"),m_id("20150302_029_Merlin(M)"),p_id("1609vtcanbirding",16)],["nyjbsp","12/2016","Male (Taiga)","雄性(泰加林种)","mdcovl","3/2015","cactnw","9/2016"]);
 //birds[j++] = new myBird("21-00-00T00:00","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",[m_id("20150607_076_PeregrineFalcon")],["mdcocn","6/2015","",""," at Maryland Heights","马里兰高地一带"]);
+  birds[j++] = new myBird("15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",m_id(["20150607_076_PeregrineFalcon","20210314_029_PeregrineFalcon"]),["mdcocn","6/2015","",""," at Maryland Heights","马里兰高地一带","mdcocn","3/2021","",""," at Maryland Heights","马里兰高地一带"]);
 //birds[j++] = new myBird("21-00-00T00:00","STRIGOPI","Kakapo","鸮鹦鹉","Strigops habroptila",[m_id("")],["mdbhrp","9/2015"],"kakapo2");
 //birds[j++] = new myBird("21-00-00T00:00","CACATUID","Palm Cockatoo","棕榈凤头鹦鹉","Probosciger aterrimus",[m_id("")],["mdbhrp","9/2015"],"palcoc1");
   birds[j++] = new myBird("15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[p_id("1501prbirding",47),p_id("1606florida",23)],["prsanj","1/2015","arb","6/2016","Lincoln Road Mall, Miami, Florida, USA","美国佛罗里达州迈阿密林肯路购物中心"]);
