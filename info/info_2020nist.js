@@ -208,6 +208,12 @@ function initAlbum(){
     this[1][i++]  = (["Spanish enrichment class with Ms Nadya","Nadya老师给大家上西班牙语课"])[cn_ind];
     this[0][i]    = "20210315_4";
     this[1][i++]  = (["Spanish enrichment class with Ms Nadya","Nadya老师给大家上西班牙语课"])[cn_ind];
+    this[0][i]    = "20210316_1";
+    this[1][i++]  = (["Preparing for the leprechaun (tomorrow is St Patrick's day)","为爱尔兰小矮妖的到来做准备(明天是圣帕特里克节)"])[cn_ind];
+    this[0][i]    = "20210316_2";
+    this[1][i++]  = (["Preparing for the leprechaun (tomorrow is St Patrick's day)","为爱尔兰小矮妖的到来做准备(明天是圣帕特里克节)"])[cn_ind];
+    this[0][i]    = "20210316_3";
+    this[1][i++]  = (["Balancing a bean bag on a racket","在球拍上平衡豆袋"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
