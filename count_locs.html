@@ -41,9 +41,7 @@ function sortProperties(obj)
 }
 
 loc_cnts = sortProperties(loc_cnts);
-is_chinese = window.location.href.match(/zhaopian/);
-
-document.write(is_chinese+'<br>');
+is_chinese = /zhaopian/.test(window.location.href);
 
 document.write('<font color="blue"><strong>&nbsp;total bird species:&nbsp;&nbsp;'+birds.length.toString()+'</strong></font><br>');
 document.write('<font color="blue"><strong> <br>&nbsp;total bird photos:&nbsp;&nbsp;'+pic_cnts.toString()+'</strong></font><br>');
