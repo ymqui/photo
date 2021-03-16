@@ -12,6 +12,11 @@
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
+var tmp1 = Object.keys(py);
+for (var i=0;i<tmp1.length;i++){
+    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
+}
+py_cnts = sortProperties(py_cnts);
 for (var i=0;i<tmp.length;i++){
     if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
 }
@@ -39,56 +44,58 @@ loc_cnts = sortProperties(loc_cnts);
 
 document.write('<font color="blue"><strong>total bird species: '+birds.length.toString()+'</strong></font><br>');
 document.write('<font color="blue"><strong> <br> total bird photos: '+pic_cnts.toString()+'</strong></font><br>');
-document.write('<font color="blue"><strong> <br> total misc bird photos: '+misc_cnts.toString()+'</strong></font><br>');
-
-document.write('<font color="blue"><strong> <br> total locations: '+tmp.length.toString()+'</strong></font>');
-document.write('<br>');
+document.write('<font color="blue"><strong> <br> total misc bird photos: '+misc_cnts.toString()+'</strong></font><br><br>');
 document.write('<table>');
-for (var i=0;i<loc_cnts.length;i++) {
+document.write('<tr>');
+document.write('<td align="left"><font color="blue"><strong>total locations:</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
+document.write('<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>');
+document.write('<td align="left"><font color="blue"><strong>total pinyin characters:</strong></font></td><td align="left"><font color="blue"><strong>'+tmp1.length.toString()+'</strong></font></td>');
+document.write('</tr>');
+
+for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     document.write('<tr>');
-    if (loc_cnts[i][1] ==0){
-       txcol = "#FF0000";
-    }else if (loc_cnts[i][1]==1){ 
-       txcol = "#FFA500";
+    if (i<loc_cnts.length){
+       if (loc_cnts[i][1] ==0){
+          txcol = "#FF0000";
+       }else if (loc_cnts[i][1]==1){ 
+          txcol = "#FFA500";
+       }else{
+          txcol =  "#0000FF";
+       }
+       txcol = ' style="color: '+txcol+'">';
+       tmp_url = '';
+       if (locurl[loc_cnts[i][0]].length>6){
+          tmp_url = locurl[loc_cnts[i][0]][6];
+       }else if (locurl[loc_cnts[i][0]].length>4){
+          tmp_url = locurl[loc_cnts[i][0]][4];
+       }
+       if (tmp_url.length>0){
+          tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+       }else {
+          tmp_url = loc_cnts[i][0];
+       }
+       document.write('<td align="left"'+txcol+tmp_url+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
     }else{
-       txcol =  "#0000FF";
+       document.write('<td></td><td></td>');
     }
-    txcol = ' style="color: '+txcol+'">';
-    tmp_url = '';
-    if (locurl[loc_cnts[i][0]].length>6){
-       tmp_url = locurl[loc_cnts[i][0]][6];
-    }else if (locurl[loc_cnts[i][0]].length>4){
-       tmp_url = locurl[loc_cnts[i][0]][4];
+    document.write('<td></td>');
+    if (i<py_cnts.length){
+       if (py_cnts[i][1] ==0){
+          fcolor='<td align="center"><font color="red">';
+       }else if (py_cnts[i][1]==1){ 
+          fcolor='<td align="center"><font color="orange">'
+       }else{
+          fcolor='<td align="center"><font color="blue">'
+       }
+       document.write(fcolor+py_cnts[i][0]+'</font></td>'+fcolor+py_cnts[i][1].toString()+'</font></td>');
+    }else{
+       document.write('<td></td><td></td>');
     }
-    if (tmp_url.length>0){
-       tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
-    }else {
-       tmp_url = loc_cnts[i][0];
-    }
-    document.write('<td align="left"'+txcol+tmp_url+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
+
     document.write('</tr>');
 }
 document.write('</table>');
 
-//show how many py
-var tmp1 = Object.keys(py);
-document.write('<font color="blue"><strong> <br>total pinyin characters: '+tmp1.length.toString()+'</strong></font>');
-for (var i=0;i<tmp1.length;i++){
-    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
-}
-py_cnts = sortProperties(py_cnts);
-document.write('<br>');
-
-for (var i=0;i<py_cnts.length;i++) {
-    if (py_cnts[i][1] ==0){
-       document.write('<font color="red">'+py_cnts[i][0]+':&nbsp;  0</font>');
-    }else if (py_cnts[i][1]==1){ 
-       document.write('<font color="orange">'+py_cnts[i][0]+':&nbsp;  1</font>');
-    }else{
-       document.write('<font color="blue">'+py_cnts[i][0]+':&nbsp;  '+py_cnts[i][1].toString()+'</font>');
-    }
-    document.write('<br>');
-}
 
 //-->
 </script>
