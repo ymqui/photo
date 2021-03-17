@@ -9,18 +9,6 @@
 <body>
 <script type="text/javascript" language="javaScript">
 <!--
-
-//check to see if any of the locations has little or no use
-var tmp = Object.keys(locurl);
-var tmp1 = Object.keys(py);
-for (var i=0;i<tmp1.length;i++){
-    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
-}
-py_cnts = sortProperties(py_cnts);
-for (var i=0;i<tmp.length;i++){
-    if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
-}
-
 function sortProperties(obj)
 {
     // convert object into array
@@ -38,6 +26,17 @@ function sortProperties(obj)
       }
     });
     return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
+}
+
+//check to see if any of the locations has little or no use
+var tmp = Object.keys(locurl);
+var tmp1 = Object.keys(py);
+for (var i=0;i<tmp1.length;i++){
+    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
+}
+py_cnts = sortProperties(py_cnts);
+for (var i=0;i<tmp.length;i++){
+    if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
 }
 
 loc_cnts = sortProperties(loc_cnts);
@@ -65,25 +64,19 @@ for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
        }
        txcol = ' style="color: '+txcol+'">';
        tmp_url = '';
-       if (is_chinese){
-          if (locurl[loc_cnts[i][0]].length>6){
-             if (locurl[loc_cnts[i][0]].length>7) {
-                tmp_url = locurl[loc_cnts[i][0]][7];
-             }else if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)){
-                tmp_url = locurl[loc_cnts[i][0]][6];
-             }
-          }else if (locurl[loc_cnts[i][0]].length>4){
-             if (locurl[loc_cnts[i][0]].length>5){ 
-                tmp_url = locurl[loc_cnts[i][0]][5];
-             }else if (locurl[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)){
-                tmp_url = locurl[loc_cnts[i][0]][4];
-             }
-          }
-       }else{
-          if (locurl[loc_cnts[i][0]].length>6){
+       if (locurl[loc_cnts[i][0]].length>6){
+          if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!is_chinese)){
              tmp_url = locurl[loc_cnts[i][0]][6];
-          }else if (locurl[loc_cnts[i][0]].length>4){
+          }
+          if ((locurl[loc_cnts[i][0]].length>7) && is_chinese) {
+             tmp_url = locurl[loc_cnts[i][0]][7];
+          }
+       }else if (locurl[loc_cnts[i][0]].length>4){
+          if (locurl[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)||(!is_chinese)){
              tmp_url = locurl[loc_cnts[i][0]][4];
+          }
+          if ((locurl[loc_cnts[i][0]].length>5) && is_chinese){ 
+             tmp_url = locurl[loc_cnts[i][0]][5];
           }
        }
        if (tmp_url.length>0){
@@ -112,7 +105,6 @@ for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     document.write('</tr>');
 }
 document.write('</table>');
-
 
 //-->
 </script>
