@@ -42,27 +42,20 @@ for (var i=0;i<tmp.length;i++){
 loc_cnts = sortProperties(loc_cnts);
 is_chinese = /zhaopian/.test(window.location.href);
 
-document.write('<font color="blue"><strong>&nbsp;total bird species:&nbsp;&nbsp;'+birds.length.toString()+'</strong></font><br>');
-document.write('<font color="blue"><strong> <br>&nbsp;total bird photos:&nbsp;&nbsp;'+pic_cnts.toString()+'</strong></font><br>');
-document.write('<font color="blue"><strong> <br>&nbsp;total misc bird photos:&nbsp;&nbsp;'+misc_cnts.toString()+'</strong></font><br><br>');
+document.write('<font color="blue"><strong>&nbsp;total bird species:&emsp;'+birds.length.toString()+'</strong></font><br><br>');
+document.write('<font color="blue"><strong>&nbsp;total bird photos:&emsp;'+pic_cnts.toString()+'</strong></font><br><br>');
+document.write('<font color="blue"><strong>&nbsp;total misc bird photos:&emsp;'+misc_cnts.toString()+'</strong></font><br><br>');
 document.write('<table>');
 document.write('<tr>');
-document.write('<td align="left"><font color="blue"><strong>total locations:&nbsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
-document.write('<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>');
-document.write('<td align="left"><font color="blue"><strong>total pinyin:&nbsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp1.length.toString()+'</strong></font></td>');
+document.write('<td align="left"><font color="blue"><strong>total locations:&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left"><font color="blue"><strong>total pinyin:&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp1.length.toString()+'</strong></font></td>');
 document.write('</tr>');
 
 for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     document.write('<tr>');
     if (i<loc_cnts.length){
-       if (loc_cnts[i][1] ==0){
-          txcol = "#FF0000";
-       }else if (loc_cnts[i][1]==1){ 
-          txcol = "#FFA500";
-       }else{
-          txcol =  "#0000FF";
-       }
-       txcol = ' style="color: '+txcol+'">';
+       txcol = ' style="color: '+(['#FF0000','#FFA500','#0000FF'])[Math.min(2,loc_cnts[i][1])]+'">';
        tmp_url = '';
        if (locurl[loc_cnts[i][0]].length>6){
           if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!is_chinese)){
@@ -90,18 +83,11 @@ for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     }
     document.write('<td></td>');
     if (i<py_cnts.length){
-       if (py_cnts[i][1] ==0){
-          fcolor='<td align="center"><font color="red">';
-       }else if (py_cnts[i][1]==1){ 
-          fcolor='<td align="center"><font color="orange">'
-       }else{
-          fcolor='<td align="center"><font color="blue">'
-       }
+       fcolor = '<td align="center"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[i][1])]+'">';
        document.write(fcolor+py_cnts[i][0]+'</font></td>'+fcolor+py_cnts[i][1].toString()+'</font></td>');
     }else{
        document.write('<td></td><td></td>');
     }
-
     document.write('</tr>');
 }
 document.write('</table>');
