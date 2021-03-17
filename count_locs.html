@@ -57,7 +57,7 @@ document.write('</tr>');
 for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     document.write('<tr>');
     if (i<loc_cnts.length){
-       txcol = ' style="color: '+(['#FF0000','#FFA500','#0000FF'])[Math.min(2,loc_cnts[i][1])]+'">';
+       txcol = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
        tmp_url = '';
        if (locurl[loc_cnts[i][0]].length>6){
           if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!is_chinese)||((locurl[loc_cnts[i][0]].length>7) && is_chinese)){
