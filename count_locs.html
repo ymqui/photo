@@ -51,10 +51,13 @@ document.write('<table>');
 document.write('<tr>');
 document.write('<td align="left"><font color="blue"><strong>'+(['total locations:','地址总数'])[cn_ind]+'&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total pinyin:','汉字总数'])[cn_ind]+'&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp1.length.toString()+'</strong></font></td>');
+document.write('<td align="left"><font color="blue"><strong>'+(['total pinyin:','汉字总数'])[cn_ind]+'</strong></font></td><td align="left"><font color="blue"><strong>&emsp;'+tmp1.length.toString()+'</strong></font></td>');
 document.write('</tr>');
 
-for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
+var i = 0;
+var j = 0;
+var clen = 5;
+while((i<loc_cnts.length) || (j<py_cnts.length)){
     document.write('<tr>');
     if (i<loc_cnts.length){
        txcol = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
@@ -77,13 +80,25 @@ for (var i=0;i<Math.max(loc_cnts.length,py_cnts.length);i++) {
     }else{
        document.write('<td></td><td></td>');
     }
+    i++;
     document.write('<td></td>');
-    if (i<py_cnts.length){
-       fcolor = '<td align="center"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[i][1])]+'">';
-       document.write(fcolor+py_cnts[i][0]+'</font></td>'+fcolor+py_cnts[i][1].toString()+'</font></td>');
+    if (j<py_cnts.length){
+       fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j][1])]+'">';
+       fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j][1])]+'">';
+       pys = py_cnts[j][0];
+       for (var k=1;k<clen;k++){
+           if (py_cnts[j+1][1]==py_cnts[j][1]){
+              j++;
+              pys = pys+py_cnts[j][0];
+           }else{
+              break;
+           }
+       }
+       document.write(fcolor1+pys+'</font></td>'+fcolor2+py_cnts[j][1].toString()+'</font></td>');
     }else{
        document.write('<td></td><td></td>');
     }
+    j++;
     document.write('</tr>');
 }
 document.write('</table>');
