@@ -87,12 +87,11 @@ while((i<loc_cnts.length) || (j<py_cnts.length)){
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j][1])]+'">';
        pys = py_cnts[j][0];
        for (var k=1;k<clen;k++){
+           if (j==py_cnts.length-1){break;}
            if (py_cnts[j+1][1]==py_cnts[j][1]){
               j++;
               pys = pys+py_cnts[j][0];
-           }else{
-              break;
-           }
+           }else{break;}
        }
        document.write(fcolor1+pys+'</font></td>'+fcolor2+py_cnts[j][1].toString()+'</font></td>');
     }else{
