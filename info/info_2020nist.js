@@ -222,6 +222,10 @@ function initAlbum(){
     this[1][i++]  = (["Gluing a paper flower","贴纸花"])[cn_ind];
     this[0][i]    = "20210318_3";
     this[1][i++]  = (["Matching shapes","匹配形状"])[cn_ind];
+    this[0][i]    = "20210319_1";
+    this[1][i++]  = (["Music class with Ms Dinah","Dinah老师给大家上音乐课"])[cn_ind];
+    this[0][i]    = "20210319_2";
+    this[1][i++]  = (["Music class with Ms Dinah","Dinah老师给大家上音乐课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
