@@ -47,6 +47,8 @@ var cn_ind = is_chinese?1:0;
 document.write('<font color="blue"><strong>&nbsp;'+(['total bird species','鸟类总数'])[cn_ind]+':&emsp;'+birds.length.toString()+'</strong></font><br><br>');
 document.write('<font color="blue"><strong>&nbsp;'+(['total bird photos','照片总数'])[cn_ind]+':&emsp;'+pic_cnts.toString()+'</strong></font><br><br>');
 document.write('<font color="blue"><strong>&nbsp;'+(['total misc bird photos','misc照片总数'])[cn_ind]+':&emsp;'+misc_cnts.toString()+'</strong></font><br><br>');
+document.write('<div style="display: inline">');
+document.write('<div style="display: inline-block; float:left;">');
 document.write('<table>');
 document.write('<tr>');
 document.write('<td align="left"><font color="blue"><strong>'+(['total locations:','地址总数'])[cn_ind]+'&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
@@ -101,7 +103,11 @@ while((i<loc_cnts.length) || (j<py_cnts.length)){
     document.write('</tr>');
 }
 document.write('</table>');
-
+document.write('</div>');
+document.write('<div style="width: 50%; margin-left: 10px; display:inline-block;">');
+document.write('<img src="https://ymqui.github.io/photo/pics/LaoQ/Stat.JPG">');
+document.write('</div>');
+document.write('</div>');
 //-->
 </script>
 </body>
