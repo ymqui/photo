@@ -216,6 +216,12 @@ function initAlbum(){
     this[1][i++]  = (["Balancing a bean bag on a racket","在球拍上平衡豆袋"])[cn_ind];
     this[0][i]    = "20210317_1";
     this[1][i++]  = (["Making a pot of gold","做一坛金币"])[cn_ind];
+    this[0][i]    = "20210318_1";
+    this[1][i++]  = (["Gluing a paper flower","贴纸花"])[cn_ind];
+    this[0][i]    = "20210318_2";
+    this[1][i++]  = (["Gluing a paper flower","贴纸花"])[cn_ind];
+    this[0][i]    = "20210318_3";
+    this[1][i++]  = (["Matching shapes","匹配形状"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
