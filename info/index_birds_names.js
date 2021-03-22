@@ -508,7 +508,7 @@
   birds[j++] = new myBird("18-12-04T13:35","PICIDAE ","Pale-billed Woodpecker","淡嘴啄木鸟","Campephilus guatemalensis",[p_id("1812crbirding",44)],["crarol","12/2018","Female"],"pabwoo1");
   birds[j++] = new myBird("20-01-23T11:47","FALCONID","Crested Caracara","北美凤头卡拉鹰","Caracara cheriway",p_id("2001txbirding",[10,11]),["txanwr","1/2020"]);
   birds[j++] = new myBird("18-12-05T13:19","FALCONID","Laughing Falcon","笑隼","Herpetotheres cachinnans",[p_id("1812crbirding",64)],["crarol","12/2018"],"laufal1");
-  birds[j++] = new myBird("15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",[m_id("20150321_041_AmericanKestrel(M)")],["mdftmh","3/2015","Male"]);
+  birds[j++] = new myBird("15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",m_id(["20150321_041_AmericanKestrel","20210320_031_AmericanKestrel"]),["mdftmh","3/2015","Male","arb","3/2021","Male, Hourglass Road, Delaware, USA","雄性，美国特拉华州沙漏路"]);
   birds[j++] = new myBird("15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134_Merlin(M)"),m_id("20150302_029_Merlin(M)"),p_id("1609vtcanbirding",16)],["nyjbsp","12/2016","Male (Taiga)","雄性(泰加林种)","mdcovl","3/2015","cactnw","9/2016"]);
 //birds[j++] = new myBird("21-00-00T00:00","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",m_id(["20210314_029_PeregrineFalcon","20150607_076_PeregrineFalcon"]),["mdcocn","3/2021","Male",""," at Maryland Heights","马里兰高地一带","mdcocn","6/2015","Female",""," at Maryland Heights","马里兰高地一带"]);
