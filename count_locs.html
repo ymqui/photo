@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
 <META http-equiv="Pragma" content="no-cache">
-<META http-equiv="Cache-Control" content="no-cache">
+<META http-equiv="Cache-Control" content="no-cache">   
 <LINK rel="shortcut icon" href="https://ymqui.github.io/photo/thumbnail/favicon.ico">
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"></SCRIPT>
@@ -41,7 +41,7 @@ for (var i=0;i<tmp.length;i++){
 }
 
 loc_cnts = sortProperties(loc_cnts);
-var is_chinese = /zhaopian/.test(window.location.href);
+var is_chinese = /zhaopian/.test(document.referrer);
 var cn_ind = is_chinese?1:0;
 
 document.write('<font color="blue"><strong>&nbsp;'+(['total bird species','鸟类总数'])[cn_ind]+':&emsp;'+birds.length.toString()+'</strong></font><br><br>');
