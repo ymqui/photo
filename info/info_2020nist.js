@@ -229,7 +229,7 @@ function initAlbum(){
     this[0][i]    = "20210322_1";
     this[1][i++]  = (["Coloring the bear black","给熊涂成黑色"])[cn_ind];
     this[0][i]    = "20210323_1";
-    this[1][i++]  = (["Running around the school","绕着学校跑"])[cn_ind];
+    this[1][i++]  = (["Running around the playground","绕着操场跑"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
