@@ -227,7 +227,7 @@ function initAlbum(){
     this[0][i]    = "20210319_2";
     this[1][i++]  = (["Music class with Ms Dinah","Dinah老师给大家上音乐课"])[cn_ind];
     this[0][i]    = "20210322_1";
-    this[1][i++]  = (["Coloring the bear black","给熊涂成黑色"])[cn_ind];
+    this[1][i++]  = (["Coloring the bear black","把熊涂成黑色"])[cn_ind];
     this[0][i]    = "20210323_1";
     this[1][i++]  = (["Running around the playground","绕着操场跑"])[cn_ind];
 
