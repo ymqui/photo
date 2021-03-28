@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-03-21T08:00");
+  var modiDate  = new Date("2021-03-27T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -126,7 +126,7 @@
   birds[j++] = new myBird("15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",[m_id("20151231_140_CacklingGoose")],["mdmdmd","12/2015","At the center with the smallest bill, River Bend Park, Frederick","中间嘴最小的大雁","","弗雷德里克市河湾公园"],"加拿大黑雁北部亚种");
   birds[j++] = new myBird("16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",[m_id("20161212_140_Ross'sGoose")],["mdmdmd","12/2016","Whittier Lake Park, Frederick","","","弗雷德里克市惠蒂尔湖公园"]);
   birds[j++] = new myBird("05-11-26T14:29","ANATIDAE","Snow Goose","雪雁","Anser caerulescens",[p_id("0511assateague",28),p_id("1409fingerlake",14)],["vacnwr","11/2005","nymnwr","8/2014"],"雪雁/25315");
-//birds[j++] = new myBird("21-00-00T00:00","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",[m_id("")],["papapa","2/2021","East Allen Township, Northampton County","","","北安普敦郡东艾伦镇"],"pifgoo");
+  birds[j++] = new myBird("21-03-27T10:47","ANATIDAE","Pink-footed Goose","粉脚雁","Anser brachyrhynchus",m_id(["20210327_035_Pink-footedGoose","20210327_036_Pink-footedGoose"]),["arb","3/2021","Wells Road, Sussex County, Delaware, USA","美国特拉华州苏塞克斯郡韦尔斯路"],"pifgoo");
   birds[j++] = new myBird("21-01-16T11:52","ANATIDAE","Tundra Bean-Goose","短嘴豆雁","Anser serrirostris",[m_id("20210116_014_TundraBean-Goose")],["papapa","1/2021","East Park Reservoir, Philadelphia","","","费城东园水库"],"tunbeg1","豆雁普通亚种");
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","Surrounded by "+b_link("Canada Goose","Canada Geese"),"两只白额雁被"+b_link("加拿大黑雁")+"围绕"," at Cumberland Terminus","坎伯兰终点站"]);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"]);
@@ -358,7 +358,7 @@
   birds[j++] = new myBird("17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",[m_id("20170909_099_Sabine'sGull")],["mdcocn","9/2017","Immature",""," at Sycamore Landing","悬铃木码头"]);
   birds[j++] = new myBird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_BGull(W)","20201228_142_BonaparteGull"]),["mdmdmd","3/2015","Winter plumage, Lapidum","","","萨斯奎哈纳州立公园","mdocci","12/2020","Winter plumage",""," Inlet","海口"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",[m_id("")],["deinr","12/2020"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("")],["deinr","12/2020"]);
+//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("")],["mdmdmd","3/2021","Nonbreeding adult, Lapidum","","","萨斯奎哈纳州立公园"]);
   birds[j++] = new myBird("06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Larus atricilla",[p_id("0607outerbanks",28),p_id("1505capemay",3),m_id("20161105_112_LaughingGull(WP)")],["ncoutb","7/2006","njcmsp","5/2015","mdocci","11/2016","Winter plumage"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-07-09T13:34","LARIDAE ","Heermann's Gull","红嘴灰鸥","Larus heermanni",[p_id("1507birdingwest",22)],["wahobb","7/2015"]);
