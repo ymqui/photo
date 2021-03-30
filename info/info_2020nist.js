@@ -246,6 +246,8 @@ function initAlbum(){
     this[1][i++]  = (["Going home","回家喽"])[cn_ind];
     this[0][i]    = "20210329_1";
     this[1][i++]  = (["Cutting flower petals","剪纸花"])[cn_ind];
+    this[0][i]    = "20210330_1";
+    this[1][i++]  = (["Outdoor PE class with Mr Palmer","Palmer老师的户外体育课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
