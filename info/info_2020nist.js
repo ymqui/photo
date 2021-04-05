@@ -256,6 +256,12 @@ function initAlbum(){
     this[1][i++]  = (["Solving a wooden block puzzle","看图搭积木"])[cn_ind];
     this[0][i]    = "20210402_2";
     this[1][i++]  = (["Using marshmallow to paint bunny","用棉花糖画兔子"])[cn_ind];
+    this[0][i]    = "20210405_1";
+    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
+    this[0][i]    = "20210405_2";
+    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
+    this[0][i]    = "20210405_3";
+    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
