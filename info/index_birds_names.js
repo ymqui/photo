@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-04-07T08:00");
+  var modiDate  = new Date("2021-04-07T08:00:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
