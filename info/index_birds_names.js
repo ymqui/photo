@@ -358,7 +358,7 @@
   birds[j++] = new myBird("17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",[m_id("20170909_099_Sabine'sGull")],["mdcocn","9/2017","Immature",""," at Sycamore Landing","悬铃木码头"]);
   birds[j++] = new myBird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_BGull(W)","20201228_142_BonaparteGull"]),["mdmdmd","3/2015","Winter plumage, Lapidum","","","萨斯奎哈纳州立公园","mdocci","12/2020","Winter plumage",""," Inlet","海口"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",[m_id("")],["deinr","12/2020"]);
-  birds[j++] = new myBird("21-04-07T12:13","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("20210407_039_LittleGull")],["mdmdmd","4/2021","Cox Point Park, Baltimore County","","","巴尔的摩郡考克斯角公园"]);
+  birds[j++] = new myBird("21-04-07T12:13","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("20210407_039_LittleGull")],["mdmdmd","4/2021","Cox Point Park, Baltimore County","Nonbreeding adult","","巴尔的摩郡考克斯角公园"]);
   birds[j++] = new myBird("06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Larus atricilla",[p_id("0607outerbanks",28),p_id("1505capemay",3),m_id("20161105_112_LaughingGull(WP)")],["ncoutb","7/2006","njcmsp","5/2015","mdocci","11/2016","Winter plumage"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-07-09T13:34","LARIDAE ","Heermann's Gull","红嘴灰鸥","Larus heermanni",[p_id("1507birdingwest",22)],["wahobb","7/2015"]);
