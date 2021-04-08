@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-04-07T08:00:00");
+  var modiDate  = new Date("2021-04-08T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -809,7 +809,7 @@
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7),m_id("20201027_115")],["mdbhrp","1/2015","Female on the left (a "+b_link("Pine Siskin")+" on the right)","雌性(左边，右边是一只"+b_link("松金翅雀")+")","mdocci","10/2020","Female, Sunset Park","","","日落公园"]);
   birds[j++] = new myBird("21-01-24T11:53","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",m_id(["20210124_017_HoaryRedpoll","20210124_018_HoaryRedpoll"]),["papapa","1/2021","N. Oak Lane, State College","","","州立大学北橡树巷"]);
   birds[j++] = new myBird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("20170211_020_RedCrossbill")],["papapa","2/2017","Males red, females yellow-green, Owl Creek Park, Schuylkill County","雄性带红色，雌性黄绿色","","斯古吉尔郡鸮河公园"]);
-//birds[j++] = new myBird("21-00-00T00:00","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("")],["mdmdmd","4/2021","Hermitage Drive, Ellicott City","","","埃利科特城埃尔米塔奇路"]);
+  birds[j++] = new myBird("21-04-08T10:05","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",[m_id("20210408_041_White-wingedCrossbill")],["mdmdmd","4/2021","Female, Hermitage Drive, Ellicott City","","","埃利科特城埃尔米塔奇路"]);
 //birds[j++] = new myBird("21-01-15T09:09","FRINGILL","European Goldfinch","红额金翅雀","Carduelis carduelis",[m_id("20210115_011_EuropeanGoldfinch")],["mdmdmd","1/2021","Mother Nature's store, Columbia","","","哥伦比亚市大自然母亲鸟店"],"eurgol");
   birds[j++] = new myBird("06-08-05T11:23","FRINGILL","American Goldfinch","美洲金翅雀","Carduelis tristis",[p_id("1412mckee-beshers",9),p_id("1412mckee-beshers",10),p_id("1512bhill",44)],["mdmwma","8/2014","Male","mdmwma","8/2014","Female","mdbhrp","11/2015","Winter female"]);
   birds[j++] = new myBird("13-12-25T19:22","FRINGILL","Lesser Goldfinch","暗背金翅雀","Spinus psaltria",[p_id("1312bigbendbirding",19)],["txbbnp","12/2013","Female"]);
