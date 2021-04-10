@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-04-08T08:00");
+  var modiDate  = new Date("2021-04-10T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -451,6 +451,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("20-12-15T10:41","TROCHILI","Rufous Hummingbird","棕煌蜂鸟","Selasphorus rufus",[m_id("20201215_135_RufousHummingbird")],["vavava","12/2020","Female, Green Spring Garden Park, Fairfax County","","","费尔法克斯郡绿泉花园"]);
   birds[j++] = new myBird("15-07-11T09:57","TROCHILI","Allen's Hummingbird","艾氏煌蜂鸟","Selasphorus sasin",[p_id("1507birdingwest",31)],["arb","7/2015","Female, Point Arena, California, USA","雌性，美国加利福尼亚州波因特阿里纳"]);
+//birds[j++] = new myBird("21-00-00T00:00","TROCHILI","Calliope Hummingbird","星蜂鸟","Selasphorus calliope",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",[m_id("")],["mdbhrp","9/2015"],"spemou2");
   birds[j++] = new myBird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[p_id("1812crbirding",79)],["crarol","12/2018","Male"],"gartro1",9816);
 //birds[j++] = new myBird("21-00-00T00:00","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",[m_id("")],["mdbhrp","9/2015"]);
@@ -867,7 +868,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_",["031","032"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"]);
   birds[j++] = new myBird("18-12-04T06:39","ICTERIDA","Montezuma Oropendola","褐拟棕鸟","Psarocolius montezuma",[p_id("1812crbirding",22)],["crarol","12/2018"],"monoro1");
-//birds[j++] = new myBird("21-00-00T00:00","ICTERIDA","Scott's Oriole","斯氏拟鹂","Icterus parisorum",[m_id("")],["mdbhrp","9/2015"]);
+  birds[j++] = new myBird("21-04-10T11:44","ICTERIDA","Scott's Oriole","斯氏拟鹂","Icterus parisorum",m_id(["20210410_043_ScottOriole","20210410_044_ScottOriole"]),["papapa","4/2021","Male, Morrison Mill Road, Lancaster County","","","兰开斯特郡莫里森磨坊路"]);
   birds[j++] = new myBird("20-01-24T11:22","ICTERIDA","Altamira Oriole","橙头拟鹂","Icterus gularis",[p_id("2001txbirding",26)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("15-07-12T09:26","ICTERIDA","Bullock's Oriole","布氏拟鹂","Icterus bullockii",[p_id("1507birdingwest",40)],["cabake","7/2015","Female, Yokuts Park","","","约库特公园"]);
   birds[j++] = new myBird("06-05-24T18:03","ICTERIDA","Baltimore Oriole","橙腹拟鹂","Icterus galbula",[m_id("20150830_093_BaltimoreOriole(M)"),p_id("1812crbirding",95),m_id("20170618_077_BaltimoreOriole")],["mdbrgd","8/2015","Male","crsanj","12/2018","Female, Morazán Park","","","莫拉桑公园","mdcovl","6/2017","Nest"]);
