@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-04-10T08:00");
+  var modiDate  = new Date("2021-04-14T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -287,7 +287,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","JACANIDA","African Jacana","非洲雉鸻","Actophilornis africanus",[m_id("")],["mdbhrp","9/2015"],"afrjac1");
 //birds[j++] = new myBird("21-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[m_id("")],["mdbhrp","9/2015"],"plawan1");
 //birds[j++] = new myBird("21-00-00T00:00","THINOCOR","Rufous-bellied Seedsnipe","棕腹籽鹬","Attagis gayi",[m_id("")],["mdbhrp","9/2015"],"rubsee2","小籽鹬");
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",[m_id("")],["mdolan","7/2016"]);
+  birds[j++] = new myBird("21-04-14T11:28","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",[m_id("20210414_046_UplandSandpiper")],["vavava","4/2021","Tidewater Trail, Caroline County","","","卡罗琳郡潮水公路"]);
 //birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[p_id("2001txbirding",8)],["txanwr","1/2020"]);
   birds[j++] = new myBird("20-01-23T10:49","SCOLOPAC","Long-billed Curlew","长嘴杓鹬","Numenius americanus",[p_id("2001txbirding",7)],["txanwr","1/2020"]);
 //birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Hudsonian Godwit","棕塍鹬","Limosa haemastica",[p_id("1509charleston",8)],["scpitt","9/2015"]);
