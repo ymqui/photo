@@ -270,6 +270,10 @@ function initAlbum(){
     this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
     this[0][i]    = "20210413_1";
     this[1][i++]  = (["Virtual school visit","网上学校参观。Joy老师带着球球在拌面"])[cn_ind];
+    this[0][i]    = "20210414_1";
+    this[1][i++]  = (["Making a paper collage in Ms Tiny's art class","在Tiny老师的美术课上制作纸拼贴画"])[cn_ind];
+    this[0][i]    = "20210414_2";
+    this[1][i++]  = (["Making rain sticks","将雨水倒入瓶中"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
