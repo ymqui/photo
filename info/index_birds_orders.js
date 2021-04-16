@@ -42,8 +42,7 @@
 
   var family  = [];
   var j = 0;
-  family[j++] = new newFamily("CASUARIIDAE","鹤鸵科","Cassowaries","鹤鸵");
-//family[j++] = new newFamily("DROMAIIDAE","鸸鹋科","Emus","鸸鹋");
+  family[j++] = new newFamily("CASUARIIDAE","鹤鸵科","Cassowaries and Emus","鹤鸵和鸸鹋");
   orders[i++] = new newOrder("CASUARIIFORMES","鹤鸵目","Cassowaries and Emus","鹤鸵和鸸鹋",family);
 
   var family  = [];
