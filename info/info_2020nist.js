@@ -274,6 +274,14 @@ function initAlbum(){
     this[1][i++]  = (["Making a paper collage in Ms Tiny's art class","在Tiny老师的美术课上制作纸拼贴画"])[cn_ind];
     this[0][i]    = "20210414_2";
     this[1][i++]  = (["Making rain sticks","将雨水倒入瓶中"])[cn_ind];
+    this[0][i]    = "20210415_1";
+    this[1][i++]  = (["Coloring rice for the rainbow day","给大米染色"])[cn_ind];
+    this[0][i]    = "20210415_1";
+    this[1][i++]  = (["Coloring rice for the rainbow day","给大米染色"])[cn_ind];
+    this[0][i]    = "20210415_3";
+    this[1][i++]  = (["PE class with Mr Palmer","Palmer老师的体育课"])[cn_ind];
+    this[0][i]    = "20210415_4";
+    this[1][i++]  = (["PE class with Mr Palmer","Palmer老师的体育课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
