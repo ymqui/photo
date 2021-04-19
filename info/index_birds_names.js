@@ -288,7 +288,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[m_id("")],["mdbhrp","9/2015"],"plawan1");
 //birds[j++] = new myBird("21-00-00T00:00","THINOCOR","Rufous-bellied Seedsnipe","棕腹籽鹬","Attagis gayi",[m_id("")],["mdbhrp","9/2015"],"rubsee2","小籽鹬");
   birds[j++] = new myBird("21-04-14T11:28","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",[m_id("20210414_046_UplandSandpiper")],["vavava","4/2021","Tidewater Trail, Caroline County","","","卡罗琳郡潮水公路"]);
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[p_id("2001txbirding",8)],["txanwr","1/2020"]);
+//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",[p_id("2001txbirding",8)],["vavava","4/2021","Willis Wharf, Northampton County","","","北安普敦郡威利斯码头"]);
   birds[j++] = new myBird("20-01-23T10:49","SCOLOPAC","Long-billed Curlew","长嘴杓鹬","Numenius americanus",[p_id("2001txbirding",7)],["txanwr","1/2020"]);
 //birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Hudsonian Godwit","棕塍鹬","Limosa haemastica",[p_id("1509charleston",8)],["scpitt","9/2015"]);
   birds[j++] = new myBird("15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"]);
@@ -690,7 +690,7 @@
   birds[j++] = new myBird("06-04-30T08:56","HIRUNDIN","Tree Swallow","双色树燕","Tachycineta bicolor",[m_id("20150405_049_TreeSwallow"),p_id("1505puffin",1)],["mdbmnt","4/2015","Male","ctciws","5/2015","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","HIRUNDIN","Violet-green Swallow","紫绿树燕","Tachycineta thalassina",[m_id("")],["nvdnwr","7/2015"]);
   birds[j++] = new myBird("15-05-09T11:56","HIRUNDIN","Purple Martin","紫崖燕","Progne subis",[p_id("1505capemay",5),p_id("1505puffin",3)],["njcmsp","5/2015","Female left, male right","ctciws","5/2015","Male"]);
-  birds[j++] = new myBird("06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20150418_057_NorthernRough-wingedSwallow")],["vavava","4/2015","Jones Point Park","","","琼斯点公园"]);
+  birds[j++] = new myBird("06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",[m_id("20210419_051_NorthernRough-wingedSwallow")],["mdmwma","4/2021"]);
   birds[j++] = new myBird("18-12-06T08:52","HIRUNDIN","Southern Rough-winged Swallow","红翎毛翅燕","Stelgidopteryx ruficollis",[p_id("1812crbirding",75)],["crarol","12/2018"],"srwswa1");
   birds[j++] = new myBird("12-06-09T09:07","HIRUNDIN","Barn Swallow","家燕","Hirundo rustica",[p_id("1206brooksidebirding",10),p_id("1505capemay",8),p_id("1704longyan",7),m_id("20200629_053_BarnSwallow")],["mdbrgd","6/2012","njscmm","5/2015","cnlynv","4/2017","mdmdmd","6/2020","Nest, Germantown","鸟巢","","德国镇"]);
   birds[j++] = new myBird("16-01-11T14:49","HIRUNDIN","Red-rumped Swallow","金腰燕","Cecropis daurica",[p_id("1601china",47)],["cnlydp","1/2016"],"rerswa1");
