@@ -284,6 +284,8 @@ function initAlbum(){
     this[1][i++]  = (["PE class with Mr Palmer","Palmer老师的体育课"])[cn_ind];
     this[0][i]    = "20210419_1";
     this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[0][i]    = "20210421_1";
+    this[1][i++]  = (["Cutting a spiral","剪螺旋形纸片"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
