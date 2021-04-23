@@ -290,6 +290,8 @@ function initAlbum(){
     this[1][i++]  = (["Outdoor PE class","户外体育课"])[cn_ind];
     this[0][i]    = "20210422_2";
     this[1][i++]  = (["Coloring the paper earth","给纸地球上色"])[cn_ind];
+    this[0][i]    = "20210423_1";
+    this[1][i++]  = (["Playing with Charlie and Remy","和Charlie和Remy一起玩"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
