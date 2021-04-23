@@ -54,12 +54,12 @@ var cou_cnts  = {};
 for (var i=0;i<birds.length;i++){
     var tmp_cnts = {};
     for (var j=0;j<birds[i].info.length;j++){
-        var tmp = getCountry(birds[i].info[j],/ *, */);
-        if (typeof cou_cnts[tmp] ==='undefined') cou_cnts[tmp] = 0;
-        if (typeof tmp_cnts[tmp] ==='undefined') tmp_cnts[tmp] = 0;
-        if (tmp_cnts[tmp]==0){
-           cou_cnts[tmp]++;
-           tmp_cnts[tmp]++;
+        var tmp2 = getCountry(birds[i].info[j],/ *, */);
+        if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
+        if (typeof tmp_cnts[tmp2] ==='undefined') tmp_cnts[tmp2] = 0;
+        if (tmp_cnts[tmp2]==0){
+           cou_cnts[tmp2]++;
+           tmp_cnts[tmp2]++;
         }
     }
 }
