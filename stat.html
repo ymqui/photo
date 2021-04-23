@@ -139,8 +139,8 @@ document.write('&emsp;<a href="https://ebird.org/map" target="_blank"><strong>Sp
 document.write('&emsp;<a href="https://ebird.org/hotspots" target="_blank"><strong>Hotspots Map</strong></a><br><br>');
 document.write('&emsp;<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a><br><br>');
 document.write('&emsp;<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a><br><br>');
-document.write('<br><br><font color="blue"><strong>&emsp;'+(['total countries','国家总数'])[cn_ind]+':&emsp;'+cou_cnts.length.toString()+'</strong></font><br>');
-document.write('<table>');
+document.write('<table><tr>');
+document.write('<td>&emsp;<font color="blue"><strong>'+(['total countries','国家总数'])[cn_ind]+':</strong></font></td><td>&emsp;&emsp;&emsp;<font color="blue"><strong>'+cou_cnts.length.toString()+'</strong></font></td></tr><br>');
 for (var i=0;i<cou_cnts.length;i++){
 document.write('<tr>');
 document.write('<td>&emsp;<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[i][0]+'" target="_blank">'+cou_cnts[i][0]+'</td>');
