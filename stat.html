@@ -9,7 +9,7 @@
 <body>
 <script type="text/javascript" language="javaScript">
 <!--
-function sortProperties(obj)
+function sortProperties(obj,byname)
 {
     // convert object into array
     var sortable=[];
@@ -20,7 +20,7 @@ function sortProperties(obj)
     }
     // sort items by value
     sortable.sort(function(a, b)
-    { if (a[1]!==b[1]){
+    { if ((a[1]!==b[1]) && !byname){
          return a[1]-b[1]; // compare numbers
       }else{
          return (a[0]).localeCompare(b[0]);
@@ -63,7 +63,7 @@ for (var i=0;i<birds.length;i++){
         }
     }
 }
-cou_cnts = sortProperties(cou_cnts);
+cou_cnts = sortProperties(cou_cnts,true);
 
 document.write('<div style="display: inline">');
 document.write('<div style="display: inline-block; float:left;">');
