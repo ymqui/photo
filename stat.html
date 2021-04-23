@@ -65,22 +65,42 @@ for (var i=0;i<birds.length;i++){
 }
 cou_cnts = sortProperties(cou_cnts,true);
 
-document.write('<div style="display: inline">');
-document.write('<div style="display: inline-block; float:left;">');
+document.write('<table><tr style="vertical-align:top"><td style="width:55%">');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="_blank"><img src="https://ymqui.github.io/photo/pics/LaoQ/Stat.JPG" style="width: 100%;"></a>');
+document.write('</td><td style="width:45%">');
+document.write('<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank"><strong>MD Facebook Notable Bird Sightings & Discussion Group</strong></a><br><br>');
+document.write('<a href="https://www.facebook.com/groups/118655321826890/" target="_blank"><strong>VA Facebook Notable Bird Sightings & Discussion Group</strong></a><br><br>');
+document.write('<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="_blank"><strong>Maryland Rare Bird Alert</strong></a><br><br>');
+document.write('<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="_blank"><strong>Virginia Rare Bird Alert</strong></a><br><br>');
+document.write('<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="_blank"><strong>Delaware Rare Bird Alert</strong></a><br><br>');
+document.write('<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="_blank"><strong>Pennsylvania Rare Bird Alert</strong></a><br><br>');
+document.write('<a href="http://www.mdbirding.com/ebird.html" target="_blank"><strong>MDBirding-eBird</strong></a><br><br>');
+document.write('<a href="https://groups.google.com/g/mdbirding" target="_blank"><strong>MDBirding-Google Group</strong></a><br><br>');
+document.write('<a href="https://ebird.org/map" target="_blank"><strong>Species Map</strong></a><br><br>');
+document.write('<a href="https://ebird.org/hotspots" target="_blank"><strong>Hotspots Map</strong></a><br><br>');
+document.write('<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a><br><br>');
+document.write('<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a><br><br>');
+document.write('</td></table><br>');
+
+
 document.write('<font color="blue"><strong>&nbsp;'+(['total bird species','鸟类总数'])[cn_ind]+':&emsp;'+birds.length.toString()+'</strong></font><br><br>');
 document.write('<font color="blue"><strong>&nbsp;'+(['total bird photos','照片总数'])[cn_ind]+':&emsp;'+pic_cnts.toString()+'</strong></font><br><br>');
 document.write('<font color="blue"><strong>&nbsp;'+(['total misc bird photos','misc照片总数'])[cn_ind]+':&emsp;'+misc_cnts.toString()+'</strong></font><br><br>');
 document.write('<table>');
 document.write('<tr>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total locations:','地址总数'])[cn_ind]+'&emsp;</strong></font></td><td align="left"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
+document.write('<td align="left"><font color="blue"><strong>'+(['total locations:','地址总数:'])[cn_ind]+'&emsp;</strong></font></td><td align="right"><font color="blue"><strong>'+tmp.length.toString()+'</strong></font></td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total hanzi:','汉字总数'])[cn_ind]+'</strong></font></td><td align="left"><font color="blue"><strong>&emsp;'+tmp1.length.toString()+'</strong></font></td>');
+document.write('<td align="left"><font color="blue"><strong>'+(['total hanzi:','汉字总数:'])[cn_ind]+'</strong></font></td><td align="right"><font color="blue"><strong>&emsp;'+tmp1.length.toString()+'</strong></font></td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left"><font color="blue"><strong>'+(['total countries:','国家总数:'])[cn_ind]+'&emsp;</strong></font></td><td align="right"><font color="blue"><strong>&emsp;'+cou_cnts.length.toString()+'</strong></font></td>');
+
 document.write('</tr>');
 
 var i = 0;
 var j = 0;
+var k = 0;
 var clen = 10;
-while((i<loc_cnts.length) || (j<py_cnts.length)){
+while((i<loc_cnts.length) || (j<py_cnts.length) || (k<cou_cnts.length)){
     document.write('<tr>');
     if (i<loc_cnts.length){
        txcol = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
@@ -99,7 +119,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length)){
        }else {
           tmp_url = loc_cnts[i][0];
        }
-       document.write('<td align="left"'+txcol+tmp_url+':</td><td align="left"'+txcol+loc_cnts[i][1].toString()+'</td>');
+       document.write('<td align="left"'+txcol+tmp_url+':</td><td align="right"'+txcol+loc_cnts[i][1].toString()+'</td>');
     }else{
        document.write('<td></td><td></td>');
     }
@@ -109,7 +129,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length)){
        fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j][1])]+'">';
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j][1])]+'">';
        pys = py_cnts[j][0];
-       for (var k=1;k<clen;k++){
+       for (var l=1;l<clen;l++){
            if (j==py_cnts.length-1){break;}
            if (py_cnts[j+1][1]==py_cnts[j][1]){
               j++;
@@ -121,34 +141,17 @@ while((i<loc_cnts.length) || (j<py_cnts.length)){
        document.write('<td></td><td></td>');
     }
     j++;
+    document.write('<td></td>');
+    if (k<cou_cnts.length){
+       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="_blank">'+cou_cnts[k][0]+'</td>');
+       document.write('<td align="right"><font color="blue">'+cou_cnts[k][1].toString()+'</font></td>');
+    }else{
+       document.write('<td></td><td></td>'); 
+    }
+    k++;
     document.write('</tr>');
 }
 document.write('</table>');
-document.write('</div>');
-document.write('<div style="width: 50%; margin-left: 10px; display:inline-block;">');
-document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="_blank"><img src="https://ymqui.github.io/photo/pics/LaoQ/Stat.JPG" style="max-width: 120%;"></a><br><br><br>');
-document.write('&emsp;<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank"><strong>MD Facebook Notable Bird Sightings & Discussion Group</strong></a><br><br>');
-document.write('&emsp;<a href="https://www.facebook.com/groups/118655321826890/" target="_blank"><strong>VA Facebook Notable Bird Sightings & Discussion Group</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="_blank"><strong>Maryland Rare Bird Alert</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="_blank"><strong>Virginia Rare Bird Alert</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="_blank"><strong>Delaware Rare Bird Alert</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="_blank"><strong>Pennsylvania Rare Bird Alert</strong></a><br><br>');
-document.write('&emsp;<a href="http://www.mdbirding.com/ebird.html" target="_blank"><strong>MDBirding-eBird</strong></a><br><br>');
-document.write('&emsp;<a href="https://groups.google.com/g/mdbirding" target="_blank"><strong>MDBirding-Google Group</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/map" target="_blank"><strong>Species Map</strong></a><br><br>');
-document.write('&emsp;<a href="https://ebird.org/hotspots" target="_blank"><strong>Hotspots Map</strong></a><br><br>');
-document.write('&emsp;<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a><br><br>');
-document.write('&emsp;<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a><br><br>');
-document.write('<table><tr>');
-document.write('<td>&emsp;<font color="blue"><strong>'+(['total countries','国家总数'])[cn_ind]+':</strong></font></td><td>&emsp;&emsp;&emsp;<font color="blue"><strong>'+cou_cnts.length.toString()+'</strong></font></td></tr><br>');
-for (var i=0;i<cou_cnts.length;i++){
-document.write('<tr>');
-document.write('<td>&emsp;<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[i][0]+'" target="_blank">'+cou_cnts[i][0]+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;<font color="blue">'+cou_cnts[i][1].toString()+'</font></td>');
-document.write('</tr>');
-}
-document.write('</div>');
-document.write('</div>');
 //-->
 </script>
 </body>
