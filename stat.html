@@ -29,6 +29,11 @@ function sortProperties(obj)
     return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
 }
 
+function getCountry(str,sep){
+    var tmp = str.split(sep);
+    return tmp[tmp.length-2];
+}
+
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
 var tmp1 = Object.keys(py);
@@ -43,6 +48,22 @@ for (var i=0;i<tmp.length;i++){
 loc_cnts = sortProperties(loc_cnts);
 var is_chinese = /chinese/.test(window.location.search.substring(1));
 var cn_ind = is_chinese?1:0;
+
+//count countries
+var cou_cnts  = {};
+for (var i=0;i<birds.length;i++){
+    var tmp_cnts = {};
+    for (var j=0;j<birds[i].info.length;j++){
+        var tmp = getCountry(birds[i].info[j],/ *, */);
+        if (typeof cou_cnts[tmp] ==='undefined') cou_cnts[tmp] = 0;
+        if (typeof tmp_cnts[tmp] ==='undefined') tmp_cnts[tmp] = 0;
+        if (tmp_cnts[tmp]==0){
+           cou_cnts[tmp]++;
+           tmp_cnts[tmp]++;
+        }
+    }
+}
+cou_cnts = sortProperties(cou_cnts);
 
 document.write('<div style="display: inline">');
 document.write('<div style="display: inline-block; float:left;">');
@@ -118,6 +139,14 @@ document.write('&emsp;<a href="https://ebird.org/map" target="_blank"><strong>Sp
 document.write('&emsp;<a href="https://ebird.org/hotspots" target="_blank"><strong>Hotspots Map</strong></a><br><br>');
 document.write('&emsp;<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a><br><br>');
 document.write('&emsp;<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a><br><br>');
+document.write('<br><br><font color="blue"><strong>&emsp;'+(['total countries','国家总数'])[cn_ind]+':&emsp;'+cou_cnts.length.toString()+'</strong></font><br>');
+document.write('<table>');
+for (var i=0;i<cou_cnts.length;i++){
+document.write('<tr>');
+document.write('<td>&emsp;<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[i][0]+'" target="_blank">'+cou_cnts[i][0]+'</td>');
+document.write('<td>&emsp;&emsp;&emsp;<font color="blue">'+cou_cnts[i][1].toString()+'</font></td>');
+document.write('</tr>');
+}
 document.write('</div>');
 document.write('</div>');
 //-->
