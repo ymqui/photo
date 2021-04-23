@@ -50,11 +50,17 @@ var is_chinese = /chinese/.test(window.location.search.substring(1));
 var cn_ind = is_chinese?1:0;
 
 //count countries
+//chinese name for countries
+var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
+var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
 var cou_cnts  = {};
 for (var i=0;i<birds.length;i++){
     var tmp_cnts = {};
     for (var j=0;j<birds[i].info.length;j++){
         var tmp2 = getCountry(birds[i].info[j],/ *, */);
+        if (is_chinese) {
+           tmp2 = chn_cou[eng_cou.indexOf(tmp2)];
+        }
         if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
         if (typeof tmp_cnts[tmp2] ==='undefined') tmp_cnts[tmp2] = 0;
         if (tmp_cnts[tmp2]==0){
@@ -144,7 +150,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length) || (k<cou_cnts.length)){
     document.write('<td></td>');
     if (k<cou_cnts.length){
        document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="_blank">'+cou_cnts[k][0]+'</td>');
-       document.write('<td align="right"><font color="blue">'+cou_cnts[k][1].toString()+'</font></td>');
+       document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[k][1].toString()+'</font></td>');
     }else{
        document.write('<td></td><td></td>'); 
     }
