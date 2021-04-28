@@ -60,12 +60,15 @@ var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
 var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
 var cou_cnts  = {};
 var ocnts = 0;
+var otot = orders.length;
+var ftot = 0;
 const unique = (value, index, self) => {
       return self.indexOf(value) === index;
 }
 var fcnts = (birds.map(({family})=>family).filter(unique)).length;
 for(var i=0;i<orders.length;i++){
     var ordercnt = 0;
+    ftot = ftot+orders[i].family.length;
     for(var j=0;j<orders[i].family.length;j++){
          tmp0 = getByFamily(orders[i].family[j].name, birds);
          if (tmp0.length==0) continue;
@@ -112,9 +115,9 @@ document.write('<table>');
 document.write('<tr>');
 document.write('<td align="left">'+mytext((['total bird species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString()+'/'+otot.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString()+'/'+ftot.toString(),fcol2)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td></tr><tr>');
 document.write('<td align="left">'+mytext((['total bird photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
