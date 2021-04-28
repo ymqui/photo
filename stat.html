@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head>
 <META http-equiv="Pragma" content="no-cache">
 <META http-equiv="Cache-Control" content="no-cache">   
@@ -67,8 +67,8 @@ var fcnts = (birds.map(({family})=>family).filter(unique)).length;
 for(var i=0;i<orders.length;i++){
     var ordercnt = 0;
     for(var j=0;j<orders[i].family.length;j++){
-         tmp = getByFamily(orders[i].family[j].name, birds);
-         if (tmp.length==0) continue;
+         tmp0 = getByFamily(orders[i].family[j].name, birds);
+         if (tmp0.length==0) continue;
          ordercnt = 1;
     }
     if (ordercnt!=0){ocnts++;}
