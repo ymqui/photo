@@ -29,6 +29,11 @@ function sortProperties(obj,byname)
     return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
 }
 
+function mytext(text,col)
+{
+    return '<font color='+col+'><strong>'+text+'</strong></font>';
+}
+
 function getCountry(str,sep){
     var tmp = str.split(sep);
     return tmp[tmp.length-2];
@@ -54,6 +59,20 @@ var cn_ind = is_chinese?1:0;
 var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
 var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
 var cou_cnts  = {};
+var ocnts = 0;
+const unique = (value, index, self) => {
+      return self.indexOf(value) === index;
+}
+var fcnts = (birds.map(({family})=>family).filter(unique)).length;
+for(var i=0;i<orders.length;i++){
+    var ordercnt = 0;
+    for(var j=0;j<orders[i].family.length;j++){
+         tmp = getByFamily(orders[i].family[j].name, birds);
+         if (tmp.length==0) continue;
+         ordercnt = 1;
+    }
+    if (ordercnt!=0){ocnts++;}
+}     
 for (var i=0;i<birds.length;i++){
     var tmp_cnts = {};
     for (var j=0;j<birds[i].info.length;j++){
@@ -87,21 +106,26 @@ document.write('<a href="https://ebird.org/hotspots" target="_blank"><strong>Hot
 document.write('<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a><br><br>');
 document.write('<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a><br><br>');
 document.write('</td></table><br>');
-
-var fcol = '"#683b00"';
-document.write('<font color="blue"><strong>&nbsp;'+(['total bird species','鸟类总数'])[cn_ind]+':&emsp;</font><font color='+fcol+'>'+birds.length.toString()+'</strong></font><br><br>');
-document.write('<font color="blue"><strong>&nbsp;'+(['total bird photos','照片总数'])[cn_ind]+':&emsp;</font><font color='+fcol+'>'+pic_cnts.toString()+'</strong></font><br><br>');
-document.write('<font color="blue"><strong>&nbsp;'+(['total misc bird photos','misc照片总数'])[cn_ind]+':&emsp;</font><font color='+fcol+'>'+misc_cnts.toString()+'</strong></font><br><br>');
+var fcol1 = '"blue"';
+var fcol2 = '"#683b00"';
 document.write('<table>');
 document.write('<tr>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total locations:','地址总数:'])[cn_ind]+'&emsp;</strong></font></td><td align="right"><font color='+fcol+'><strong>&emsp;'+tmp.length.toString()+'</strong></font></td>');
+document.write('<td align="left">'+mytext((['total bird species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total hanzi:','汉字总数:'])[cn_ind]+'&emsp;</strong></font></td><td align="right"><font color='+fcol+'><strong>&emsp;'+tmp1.length.toString()+'</strong></font></td>');
+document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left"><font color="blue"><strong>'+(['total countries:','国家总数:'])[cn_ind]+'&emsp;</strong></font></td><td align="right"><font color='+fcol+'><strong>&emsp;'+cou_cnts.length.toString()+'</strong></font></td>');
-
+document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td></tr><tr>');
+document.write('<td align="left">'+mytext((['total bird photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['total misc bird photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+misc_cnts.toString(),fcol2)+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td></tr><tr>');
+document.write('<td align="left">'+mytext((['total locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp.length.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['total hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp1.length.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['total countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+cou_cnts.length.toString(),fcol2)+'</td>');
 document.write('</tr>');
-
 var i = 0;
 var j = 0;
 var k = 0;
