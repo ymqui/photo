@@ -60,15 +60,10 @@
      tmpem2 = "统计资料";
      staturl = staturl+"?chinese"
   }
-  document.write("<a href='"+staturl+lnksty+" target='_blank'>");     
-  document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/stat.png" ');
-  document.write('     onMouseover="window.status=tmpem2;popupmesg(tmpem2);return true;"');
-  document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>&nbsp;');
-  document.write("<a href='showphoto.html?LaoQ"+lnksty+" target='_blank'>");     
-  document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/insignia.png" ');
-  document.write('     onMouseover="window.status=tmpeml;popupmesg(tmpeml);return true;"');
-  document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
-
+  document.write('<a href="'+staturl+'" style="text-decoration:none" target="_blank">'); 
+  document.write('<IMG SRC="'+maindir+'thumbnail/stat.png"'+borderstr(tmpem2)+' align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>&nbsp;');   
+  document.write('<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
+  document.write('<IMG SRC="'+maindir+'thumbnail/stat.png"'+borderstr(tmpem1)+' align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>');   
 
   //webcounter
   var sc_project=1818758; 
