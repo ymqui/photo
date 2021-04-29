@@ -51,14 +51,22 @@
      document.write("-"+modiYear);
   }
   document.write(" All rights reserved. ");
-  var tmpeml = "Stats";
+  var tmpem1 = "LaoQ Birding"
+  var tmpem2 = "Stats";
+  var staturl = maindir+"stat.html";
   if(window.usechinese){
      document.write("版权所有 ");
-     tmpeml = "统计资料";
+     tmpem1 = "老Q打鸟";
+     tmpem2 = "统计资料";
+     staturl = staturl+"?chinese"
   }
   document.write("<a href='showphoto.html?LaoQ"+lnksty+" target='_blank'>");     
   document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/insignia.png" ');
   document.write('     onMouseover="window.status=tmpeml;popupmesg(tmpeml);return true;"');
+  document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
+  document.write("<a href='"+staturl+lnksty+" target='_blank'>");     
+  document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+maindir+'thumbnail/stat.png" ');
+  document.write('     onMouseover="window.status=tmpem2;popupmesg(tmpem2);return true;"');
   document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
 
   //webcounter
