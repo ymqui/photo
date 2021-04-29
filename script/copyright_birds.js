@@ -62,7 +62,7 @@
   }
   document.write('&nbsp;<a href="'+staturl+'" style="text-decoration:none" target="_blank">'); 
   document.write('<IMG SRC="'+maindir+'thumbnail/stat.png"'+borderstr(tmpem2)+' align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>');   
-  document.write('&emsp;<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
+  document.write('&nbsp;<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
   document.write('<IMG SRC="'+maindir+'thumbnail/insignia.png"'+borderstr(tmpem1)+' align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>');   
 
   //webcounter
