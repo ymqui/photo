@@ -111,13 +111,14 @@ document.write('<a href="http://birding.aba.org/" target="_blank"><strong>ABA Bi
 document.write('</td></table><br>');
 var fcol1 = '"blue"';
 var fcol2 = '"#683b00"';
+var fcol3 = '"green"';
 document.write('<table>');
 document.write('<tr>');
 document.write('<td align="left">'+mytext((['total bird species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString()+'/'+otot.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString()+'/'+ftot.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td></tr><tr>');
 document.write('<td align="left">'+mytext((['total bird photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
