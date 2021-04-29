@@ -23,9 +23,6 @@ function initAlbum(){
     this[1][i++]  = (["Chimney Rock State Park, North Carolina, USA","美国北卡罗来纳州烟囱岩州立公园"])[cn_ind];
     this[0][i]    = "20201228_HuntleyMeadows";
     this[1][i++]  = (["Huntley Meadows Park, Virginia, USA","美国弗吉尼亚州亨特利湿地公园"])[cn_ind];
-    this[0][i]    = ["LaoQ/Stat",statDate.substring(0,4)+statDate.substring(5,7)+statDate.substring(8,10)];
-    this[1][i++]  = (["Stats","统计图"])[cn_ind];
-
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
