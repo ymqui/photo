@@ -5,6 +5,16 @@
 <LINK rel="shortcut icon" href="https://ymqui.github.io/photo/thumbnail/stat.ico">
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"></SCRIPT>
+<style>
+.pic1{
+   position: relative;
+}
+.pic2{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+</style>
 </head>
 <body>
 <script type="text/javascript" language="javaScript">
@@ -93,7 +103,8 @@ for (var i=0;i<birds.length;i++){
 }
 cou_cnts = sortProperties(cou_cnts,([true,false])[cn_ind]);
 document.write('<table><tr style="vertical-align:top"><td style="width:55%">');
-document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="_blank"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" style="width: 100%;"></a>');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="_blank"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" style="width: 100%;" class="pic1"></a>');
+document.write('<img src="https://ymqui.github.io/photo/thumbnail/stat.png" class="pic2">');
 document.write('</td><td style="width:45%">');
 document.write('<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank"><strong>MD Facebook Notable Bird Sightings Group</strong></a><br><br>');
 document.write('<a href="https://www.facebook.com/groups/118655321826890/" target="_blank"><strong>VA Facebook Notable Bird Sightings Group</strong></a><br><br>');
