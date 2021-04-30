@@ -292,6 +292,14 @@ function initAlbum(){
     this[1][i++]  = (["Coloring the paper earth","给纸地球上色"])[cn_ind];
     this[0][i]    = "20210423_1";
     this[1][i++]  = (["Playing with Charlie and Remy","和Charlie和Remy一起玩"])[cn_ind];
+    this[0][i]    = "20210429_1";
+    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
+    this[0][i]    = "20210429_2";
+    this[1][i++]  = (["Making a volcano","制作火山"])[cn_ind];
+    this[0][i]    = "20210429_3";
+    this[1][i++]  = (["Playing with marshmallow","玩棉花糖"])[cn_ind];
+    this[0][i]    = "20210429_4";
+    this[1][i++]  = (["Playing with shaving cream","玩剃须膏"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
