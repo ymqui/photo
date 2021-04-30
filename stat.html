@@ -3,8 +3,9 @@
 <META http-equiv="Pragma" content="no-cache">
 <META http-equiv="Cache-Control" content="no-cache">   
 <LINK rel="shortcut icon" href="https://ymqui.github.io/photo/thumbnail/stat.ico">
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/error.js">           </SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
-<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"></SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"> </SCRIPT>
 <style>
 .pic1{
    position: relative;
@@ -43,10 +44,12 @@ function sortProperties(obj,byname)
 
 function mytext(text,col)
 {   
+    var fsize = '<font';
+    if (cellphone) {fsize='<font size="+1"';}
     if(typeof col === 'undefined'){
-       return '<font size="+1"><strong>'+text+'</strong></font>';
+       return fsize+'><strong>'+text+'</strong></font>';
     }else{
-       return '<font color='+col+' size="+1"><strong>'+text+'</strong></font>';
+       return fsize+' color='+col+'><strong>'+text+'</strong></font>';
     }
 }
 
