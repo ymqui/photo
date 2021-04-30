@@ -42,8 +42,12 @@ function sortProperties(obj,byname)
 }
 
 function mytext(text,col)
-{
-    return '<font color='+col+'><strong>'+text+'</strong></font>';
+{   
+    if(typeof col === 'undefined'){
+       return '<font size="+1"><strong>'+text+'</strong></font>';
+    }else{
+       return '<font color='+col+' size="+1"><strong>'+text+'</strong></font>';
+    }
 }
 
 function getCountry(str,sep){
@@ -51,18 +55,18 @@ function getCountry(str,sep){
     return tmp[tmp.length-2];
 }
 
-links = ['','','<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank"><strong>MD Facebook Notable Sightings Group</strong></a>','',
-         '<a href="https://www.facebook.com/groups/118655321826890/" target="_blank"><strong>VA Facebook Notable Sightings Group</strong></a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="_blank"><strong>Maryland Rare Bird Alert</strong></a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="_blank"><strong>Virginia Rare Bird Alert</strong></a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="_blank"><strong>Delaware Rare Bird Alert</strong></a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="_blank"><strong>Pennsylvania Rare Bird Alert</strong></a>','',
-         '<a href="http://www.mdbirding.com/ebird.html" target="_blank"><strong>MDBirding-eBird</strong></a>','',
-         '<a href="https://groups.google.com/g/mdbirding" target="_blank"><strong>MDBirding-Google Group</strong></a>','',
-         '<a href="https://ebird.org/map" target="_blank"><strong>Species Map</strong></a>','',
-         '<a href="https://ebird.org/hotspots" target="_blank"><strong>Hotspots Map</strong></a>','',
-         '<a href="https://www.aba.org/aba-checklist/" target="_blank"><strong>ABA Checklist</strong></a>','',
-         '<a href="http://birding.aba.org/" target="_blank"><strong>ABA Birding News</strong></a>'];
+links = ['','','<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://www.facebook.com/groups/118655321826890/" target="_blank">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="_blank">'+mytext('Maryland Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="_blank">'+mytext('Virginia Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="_blank">'+mytext('Delaware Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="_blank">'+mytext('Pennsylvania Rare Bird Alert')+'</a>','',
+         '<a href="http://www.mdbirding.com/ebird.html" target="_blank">'+mytext('MDBirding-eBird')+'</a>','',
+         '<a href="https://groups.google.com/g/mdbirding" target="_blank">'+mytext('MDBirding-Google Group')+'</a>','',
+         '<a href="https://ebird.org/map" target="_blank">'+mytext('Species Map')+'</a>','',
+         '<a href="https://ebird.org/hotspots" target="_blank">'+mytext('Hotspots Map')+'</a>','',
+         '<a href="https://www.aba.org/aba-checklist/" target="_blank">'+mytext('ABA Checklist')+'</a>','',
+         '<a href="http://birding.aba.org/" target="_blank">'+mytext('ABA Birding News')+'</a>'];
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
@@ -126,21 +130,21 @@ var fcol2 = '"#683b00"';
 var fcol3 = '"green"';
 document.write('<br><br><table>');
 document.write('<tr>');
-document.write('<td align="left">'+mytext((['total bird species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total bird families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
-document.write('<td align="left">'+mytext((['total bird photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total misc bird photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+misc_cnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+misc_cnts.toString(),fcol2)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
-document.write('<td align="left">'+mytext((['total locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp.length.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp1.length.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp1.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['total countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+cou_cnts.length.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+cou_cnts.length.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;</td></tr>');
 var i = 0;
 var j = 0;
@@ -189,7 +193,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length) || (k<(cou_cnts.length+links.len
     j++;
     document.write('<td></td>');
     if (k<cou_cnts.length){
-       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="_blank">'+cou_cnts[k][0]+'</td>');
+       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="_blank">'+mytext(cou_cnts[k][0])+'</td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[k][1].toString()+'</font></td><td>&emsp;</td>');
     }else if (k<(cou_cnts.length+links.length)){
        document.write('<td colspan="3" align="left">'+links[k-cou_cnts.length]+'</td>');   
