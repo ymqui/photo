@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-04-17T08:00");
+  var modiDate  = new Date("2021-05-01T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -900,7 +900,7 @@
   birds[j++] = new myBird("15-08-30T08:54","PARULIDA","Blue-winged Warbler","蓝翅虫森莺","Vermivora cyanoptera",[m_id("20150830_091_Blue-wingedWarbler")],["mdbrgd","8/2015","Male"]);
   birds[j++] = new myBird("15-05-24T07:17","PARULIDA","Black-and-white Warbler","黑白森莺","Mniotilta varia",[p_id("1505puffin",5),p_id("1512bhill",39)],["melocp","5/2015","Male","mdbhrp","9/2015","Female"]);
   birds[j++] = new myBird("06-07-01T10:10","PARULIDA","Prothonotary Warbler","蓝翅黄森莺","Protonotaria citrea",[m_id("20200617_045_ProthonotaryWarbler"),"2006cobirding/ProthonotaryWarbler_F_20060730_009",m_id("20170611_073_Prothonotary(I)")],["mdmwma","6/2020","Male","mdcorl","7/2006","Female","mdmwma","6/2017","Immature"]);
-//birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[m_id("",)],["arb","7/2020","West Penn Trail, Indiana County, Pennsylvania, USA","美国宾夕法尼亚州印第安纳郡西宾小道"]);
+  birds[j++] = new myBird("21-05-01T11:52","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[m_id("20210501_057_SwainsonsWarbler")],["papapa","5/2021","Black Moshannon State Park, Centre County","","","中心郡黑莫香农州立公园"]);
   birds[j++] = new myBird("16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Leiothlypis peregrina",[p_id("1604asheville",14),m_id("20201020_106_TennesseeWarbler"),p_id("1812crbirding",4)],["nccrsp","4/2016","mdmwma","10/2020","Fall plumage","crsanj","12/2018","Park of Social Guarantees","","","社会保障公园"]);
   birds[j++] = new myBird("15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Leiothlypis celata",[p_id("1507birdingwest",29)],["arb","7/2015","Cannon Beach, Oregon, USA","美国俄勒冈州卡农海滩"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Leiothlypis crissalis",[m_id("")],["mdbhrp","9/2015"],"colwar");
