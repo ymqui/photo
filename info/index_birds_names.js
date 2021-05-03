@@ -480,7 +480,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","INDICATO","Yellow-rumped Honeyguide","黄腰响蜜鴷","Indicator xanthonotus",[m_id("")],["mdbhrp","9/2015"],"yerhon1");
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Lewis's Woodpecker","刘氏啄木鸟","Melanerpes lewis",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-01-01T14:01","PICIDAE ","Puerto Rican Woodpecker","波多黎各啄木鸟","Melanerpes portoricensis",p_id("1501prbirding",[1,10]),["arb","1/2015","Male, Bayamón, Puerto Rico, USA","雄性，美国波多黎各巴亚蒙市","arb","1/2015","Female, Rincón, Puerto Rico, USA","雌性，美国波多黎各林孔市"],"purwoo1");
-  birds[j++] = new myBird("14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",m_id(["20140531_002_Red-headedWoodpecker","20180603_001_Red-headedWoodpecker"]),["vavava","5/2014","Piney Grove Preserve, Sussex County","","","萨塞克斯郡松林保护区","sclobp","6/2018"]);
+  birds[j++] = new myBird("14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",m_id(["20140531_002_Red-headedWoodpecker","20180603_001_Red-headedWoodpecker"]),["vavava","5/2014",gmap("Piney Grove Preserve",36.9801,-77.0505)+", Sussex County","","","萨塞克斯郡松林保护区","sclobp","6/2018"]);
   birds[j++] = new myBird("15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",[p_id("1507birdingwest",37)],["cabake","7/2015","Male, Yokuts Park","","","约库特公园"]);
   birds[j++] = new myBird("18-12-05T14:12","PICIDAE ","Black-cheeked Woodpecker","黑颊啄木鸟","Melanerpes pucherani",p_id("1812crbirding",[67,66]),["crarol","12/2018","Male","crarol","12/2018","Female"],"blcwoo1");
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",[m_id("")],["mdbhrp","9/2015"]);
@@ -488,7 +488,7 @@
   birds[j++] = new myBird("13-12-25T15:02","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",p_id("2001txbirding",[39,25]),["txsnwr","1/2020","Male","txsnwr","1/2020","Female"]);
   birds[j++] = new myBird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","flmahp","6/2016","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Williamson's Sapsucker","威氏吸汁啄木鸟","Sphyrapicus thyroideus",[p_id("1601china",)],["cnbjjp","1/2016"]);
-  birds[j++] = new myBird("06-02-19T11:51","PICIDAE ","Yellow-bellied Sapsucker","黄腹吸汁啄木鸟","Sphyrapicus varius",m_id(sas(["20170107","20201231","20151220"],"_YS")),["mdmdmd","1/2017","Male, Havre de Grace","","","哈佛德格雷斯市","vavava","12/2020","Female, Sky Meadows State Park","","","天空草地州立公园","mdloch","12/2015","Juvenile"]);
+  birds[j++] = new myBird("06-02-19T11:51","PICIDAE ","Yellow-bellied Sapsucker","黄腹吸汁啄木鸟","Sphyrapicus varius",m_id(sas(["20170107","20201231","20151220"],"_YS")),["mdmdmd","1/2017","Male, Havre de Grace","","","哈佛德格雷斯市","vavava","12/2020","Female, "+gmap("Sky Meadows State Park",38.987436,-77.942837),"","","天空草地州立公园","mdloch","12/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Red-naped Sapsucker","红颈吸汁啄木鸟","Sphyrapicus nuchalis",[p_id("1601china",)],["cnbjjp","1/2016"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Red-breasted Sapsucker","红胸吸汁啄木鸟","Sphyrapicus ruber",[p_id("1601china",)],["cnbjjp","1/2016"]);
   birds[j++] = new myBird("13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美国三趾啄木鸟","Picoides dorsalis",[p_id("1307alaskabirding",4)],["akknpp","7/2013","Female"]);
