@@ -300,6 +300,10 @@ function initAlbum(){
     this[1][i++]  = (["Playing with marshmallow","玩棉花糖"])[cn_ind];
     this[0][i]    = "20210429_4";
     this[1][i++]  = (["Playing with shaving cream","玩剃须膏"])[cn_ind];
+    this[0][i]    = "20210503_1";
+    this[1][i++]  = (['Playing "speckled frog" game',"玩“斑点青蛙”游戏"])[cn_ind];
+    this[0][i]    = "20210503_2";
+    this[1][i++]  = (['Playing "speckled frog" game',"玩“斑点青蛙”游戏"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
