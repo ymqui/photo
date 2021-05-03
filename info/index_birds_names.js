@@ -868,7 +868,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","ZELEDONI","Wrenthrush","冠鹩森莺","Zeledonia coronata",[m_id("")],["mdbhrp","9/2015"],"wrenth1");
 //birds[j++] = new myBird("21-00-00T00:00","TERETIST","Yellow-headed Warbler","黄头灰森莺","Teretistris fernandinae",[m_id("")],["mdbhrp","9/2015"],"yehwar1");
   birds[j++] = new myBird("15-05-09T10:41","ICTERIID","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"],"","");
-  birds[j++] = new myBird("21-04-17T12:09","ICTERIDA","Yellow-headed Blackbird","黄头黑鹂","Xanthocephalus xanthocephalus",[m_id("20210417_049_Yellow-headedBlackbird")],["vavava","4/2021","Female/immature male, Brandywine Ave, Richmond","","","里士满市布兰迪维因街"]);
+  birds[j++] = new myBird("21-04-17T12:09","ICTERIDA","Yellow-headed Blackbird","黄头黑鹂","Xanthocephalus xanthocephalus",[m_id("20210417_049_Yellow-headedBlackbird")],["vavava","4/2021","Female/immature male, "+gmap("Brandywine Ave",37.385507,-77.430079)+", Richmond","","","里士满市布兰迪维因街"]);
   birds[j++] = new myBird("17-05-27T07:28","ICTERIDA","Bobolink","刺歌雀","Dolichonyx oryzivorus",[p_id("1705ohio",3)],["ohbath","5/2017","Male"]);
 //birds[j++] = new myBird("21-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_",["031","032"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"]);
@@ -900,7 +900,7 @@
   birds[j++] = new myBird("15-08-30T08:54","PARULIDA","Blue-winged Warbler","蓝翅虫森莺","Vermivora cyanoptera",[m_id("20150830_091_Blue-wingedWarbler")],["mdbrgd","8/2015","Male"]);
   birds[j++] = new myBird("15-05-24T07:17","PARULIDA","Black-and-white Warbler","黑白森莺","Mniotilta varia",[p_id("1505puffin",5),p_id("1512bhill",39)],["melocp","5/2015","Male","mdbhrp","9/2015","Female"]);
   birds[j++] = new myBird("06-07-01T10:10","PARULIDA","Prothonotary Warbler","蓝翅黄森莺","Protonotaria citrea",[m_id("20200617_045_ProthonotaryWarbler"),"2006cobirding/ProthonotaryWarbler_F_20060730_009",m_id("20170611_073_Prothonotary(I)")],["mdmwma","6/2020","Male","mdcorl","7/2006","Female","mdmwma","6/2017","Immature"]);
-  birds[j++] = new myBird("21-05-01T11:52","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[m_id("20210501_057_SwainsonsWarbler")],["papapa","5/2021","Black Moshannon State Park, Centre County","","","中心郡黑莫香农州立公园"]);
+  birds[j++] = new myBird("21-05-01T11:52","PARULIDA","Swainson's Warbler","白眉食虫莺","Limnothlypis swainsonii",[m_id("20210501_057_SwainsonsWarbler")],["papapa","5/2021",gmap("Black Moshannon State Park",40.9019304,-78.0601466)+", Centre County","","","中心郡黑莫香农州立公园"]);
   birds[j++] = new myBird("16-04-24T09:47","PARULIDA","Tennessee Warbler","灰冠虫森莺","Leiothlypis peregrina",[p_id("1604asheville",14),m_id("20201020_106_TennesseeWarbler"),p_id("1812crbirding",4)],["nccrsp","4/2016","mdmwma","10/2020","Fall plumage","crsanj","12/2018","Park of Social Guarantees","","","社会保障公园"]);
   birds[j++] = new myBird("15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Leiothlypis celata",[p_id("1507birdingwest",29)],["arb","7/2015","Cannon Beach, Oregon, USA","美国俄勒冈州卡农海滩"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Leiothlypis crissalis",[m_id("")],["mdbhrp","9/2015"],"colwar");
