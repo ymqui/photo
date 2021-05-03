@@ -396,7 +396,7 @@
   birds[j++] = new myBird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[p_id("2001txbirding",32)],["txsnwr","1/2020","Nonbreeding plumage"]);
   birds[j++] = new myBird("05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scbwma","6/2016"]);
   birds[j++] = new myBird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdmdmd","4/2015","North Point State Park","","","北点州立公园","cactnw","9/2016","cactnw","9/2016"]);
-  birds[j++] = new myBird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("20210427_053_LeastBittern")],["papapa","4/2021","Female, Lake Redman, York County","","","约克郡雷德曼湖"]);
+  birds[j++] = new myBird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("20210427_053_LeastBittern")],["papapa","4/2021","Female, "+gmap("Lake Redman",39.880954,-76.687073)+", York County","","","约克郡雷德曼湖"]);
   birds[j++] = new myBird("06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",m_id(["20160625_081_Black-crownedNight-Heron","20170827_096_Black-cronwedNight-Heron(I)"]),["nyjbwr","6/2016","mdcorl","8/2017","Juvenile"]);
   birds[j++] = new myBird("06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"]);
   birds[j++] = new myBird("05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",[m_id("20200616_040_GreenHeron"),p_id("1412mckee-beshers",4),m_id("20200617_048_GreenHeron")],["mdmwma","6/2020","mdmwma","8/2014","mdmwma","6/2020"]);
@@ -561,7 +561,7 @@
   birds[j++] = new myBird("09-07-03T10:16","TYRANNID","Willow Flycatcher","柳纹霸鹟","Empidonax traillii",[p_id("1505puffin",2)],["ctciws","5/2015"]);
   birds[j++] = new myBird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",[p_id("1505bombayhook",5)],["debnwr","5/2015"]);
   birds[j++] = new myBird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35)],["mdbhrp","8/2015"]);
-  birds[j++] = new myBird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(sas("20201215_13",["7","8"],"_Pacific-slopeFlycatcher")),["mdmdmd","12/2020","Riverwalk Park, Frederick","","","弗雷德里克市河滨公园"]);
+  birds[j++] = new myBird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(sas("20201215_13",["7","8"],"_Pacific-slopeFlycatcher")),["mdmdmd","12/2020",gmap("Riverwalk Park",39.434948,-77.384990)+", Frederick","","","弗雷德里克市河滨公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","TYRANNID","Cordilleran Flycatcher","科迪纹霸鹟","Empidonax occidentalis",[m_id("20201212_134_Pacific-slopeFlycatcher")],["mdmdmd","12/2020","Riverwalk Park, Frederick County","","","弗雷德里克郡河滨公园"]);
   birds[j++] = new myBird("19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",p_id("1905mxbird",[10,11]),["mxunam","5/2019"]);
   birds[j++] = new myBird("13-12-25T14:52","TYRANNID","Vermilion Flycatcher","朱红霸鹟","Pyrocephalus obscurus",[p_id("1312bigbendbirding",3),p_id("2001txbirding",35)],["txbbnp","12/2013","Male","txsnwr","1/2020","Male"]);
@@ -763,7 +763,7 @@
   birds[j++] = new myBird("06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[22,3]),["mdcovl","5/2009","Male","mdcovl","2/2009","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("20-11-11T09:57","TURDIDAE","Mountain Bluebird","山蓝鸲","Sialia currucoides",m_id(["20201111_121_MountainBluebird","20201111_122_MountainBluebird"]),["mdswhf","11/2020","Immature male"]);
-  birds[j++] = new myBird("20-12-07T11:16","TURDIDAE","Townsend's Solitaire","坦氏孤鸫","Myadestes townsendi",[m_id("20201207_132_TownsendSolitaire")],["papapa","12/2020","Caledonia State Park, Franklin County","","","富兰克林郡喀里多尼亚州立公园"]);
+  birds[j++] = new myBird("20-12-07T11:16","TURDIDAE","Townsend's Solitaire","坦氏孤鸫","Myadestes townsendi",[m_id("20201207_132_TownsendSolitaire")],["papapa","12/2020",gmap("Caledonia State Park",39.908662,-77.478761)+", Franklin County","","","富兰克林郡喀里多尼亚州立公园"]);
   birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"]);
   birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",[m_id("20170930_109_Gray-cheekedThrush")],["mdorpk","9/2017"]);
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdorpk","9/2017"]);
