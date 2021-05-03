@@ -725,6 +725,14 @@
      return "https://ebird.org/species/"+bid.trim()+"/";
   }
 
+  function gmap(name,latt,long){
+     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='_blank'>"+name+"</a>";
+     }else{
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='_blank'>"+name+"</a>";
+     }
+  }
+
   function npsurl(pid,isfws){
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
