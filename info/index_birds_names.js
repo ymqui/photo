@@ -279,7 +279,7 @@
   birds[j++] = new myBird("15-05-17T12:01","CHARADRI","Black-bellied Plover","灰斑鸻","Pluvialis squatarola",[p_id("1505bombayhook",16),p_id("1509charleston",11),m_id("20161204_131_Black-belliedPlover(WP)")],["debnwr","5/2015","Male","scpitt","9/2015","Female","nyjbsp","12/2016","Winter plumage"]);
   birds[j++] = new myBird("15-05-17T10:11","CHARADRI","Semipalmated Plover","半蹼鸻","Charadrius semipalmatus",[p_id("1505bombayhook",7)],["debnwr","5/2015"]);
   birds[j++] = new myBird("16-06-08T17:04","CHARADRI","Wilson's Plover","厚嘴鸻","Charadrius wilsonia",p_id("1606florida",[5,6]),["schbsp","6/2016"]);
-  birds[j++] = new myBird("14-07-07T16:07","CHARADRI","Killdeer","双领鸻","Charadrius vociferus",[m_id("20160820_092_Killdeer"),p_id("1407michiganbirding",18)],["mdmdmd","8/2016","Oland Road, Frederick County","","","弗雷德里克郡欧蓝德路","mimack","7/2014"]);
+  birds[j++] = new myBird("14-07-07T16:07","CHARADRI","Killdeer","双领鸻","Charadrius vociferus",[m_id("20160820_092_Killdeer"),p_id("1407michiganbirding",18)],["mdmdmd","8/2016",gmap("Fingerboard Road",39.330130,-77.374914)+", Frederick County","","","弗雷德里克郡指板路","mimack","7/2014"]);
   birds[j++] = new myBird("16-03-26T14:56","CHARADRI","Piping Plover","笛鸻","Charadrius melodus",m_id(["20160625_078_PipingPlover","20160326_027_PipingPlover"]),["nyjbsp","6/2016","ncoutb","3/2016","",""," at Oregon Inlet south jetty","俄勒冈入海口南堤"]);
 //birds[j++] = new myBird("21-00-00T00:00","CHARADRI","Snowy Plover","雪鸻","Charadrius nivosus",[m_id("")],["mdbhrp","9/2015"],"环颈鸻北美亚种");
 //birds[j++] = new myBird("21-00-00T00:00","PLUVIANI","Egyptian Plover","埃及燕鸻","Pluvianus aegyptius",[m_id("")],["mdbhrp","9/2015"],"egyplo1");
@@ -465,7 +465,7 @@
   birds[j++] = new myBird("16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female",],"comkin1");
   birds[j++] = new myBird("20-01-25T08:31","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",[p_id("2001txbirding",37)],["txsnwr","1/2020","Male"],"grnkin");
   birds[j++] = new myBird("20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",[p_id("2001txbirding",17)],["txsnwr","1/2020","Female"],"rinkin1");
-  birds[j++] = new myBird("06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","mdmdmd","8/2016","Female, Lilypons Water Garden","","","莉丽庞斯水上花园"]);
+  birds[j++] = new myBird("06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20160806_090_BeltedKingfisher(F)")],["mdbhrp","8/2015","Male","mdmdmd","8/2016","Female, "+gmap("Lilypons Water Garden",39.293343,-77.434210),"","","莉丽庞斯水上花园"]);
   birds[j++] = new myBird("15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",p_id("1501prbirding",[23,29]),["prceci","1/2015","Male","prceci","1/2015","Female"],"purtod1","短尾鴗科");
 //birds[j++] = new myBird("21-00-00T00:00","MOMOTIDA","Tody Motmot","短尾翠鴗","Hylomanes momotula",[m_id("")],["mdbhrp","9/2015"],"todmot1");
 //birds[j++] = new myBird("21-00-00T00:00","MEROPIDA","Blue-throated Bee-eater","蓝喉蜂虎","Merops viridis",[m_id("")],["mdbhrp","9/2015"],"btbeat2");
@@ -621,7 +621,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PACHYCEP","Maroon-backed Whistler","栗背啸鹟","Coracornis raveni",[m_id("")],["mdbhrp","9/2015"],"mabwhi1");
   birds[j++] = new myBird("16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[p_id("1601china",43)],["cnlynv","1/2016"],"lotshr1");
   birds[j++] = new myBird("16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[p_id("1612savannah",11)],["scsnwr","12/2016"]);
-  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",[m_id("20161210_138_NorthernShrike")],["mdmdmd","12/2016","Ben's Point Road, Queen Anne's County","","","安妮女王郡本点路"],"伯劳");
+  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",[m_id("20161210_138_NorthernShrike")],["mdmdmd","12/2016",gmap("Ben's Point Road",39.153655,-75.989181)+", Queen Anne's County","","","安妮女王郡本点路"],"伯劳");
 //birds[j++] = new myBird("21-00-00T00:00","LANIIDAE","Great Gray Shrike","灰伯劳","Lanius excubitor",[m_id()],["scsnwr","12/2016"]);
   birds[j++] = new myBird("15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[m_id("20160911_095_White-eyedVireo"),m_id("20150913_095_White-eyedVireo(I)")],["mdlbrp","9/2016","mdlbrp","9/2015","Juvenile"]);
   birds[j++] = new myBird("17-06-11T08:21","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[m_id("20170611_074_Yellow-throatedVireo")],["mdmwma","6/2017"]);
@@ -828,7 +828,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","RHODINOC","Rosy Thrush-Tanager","鸫唐纳雀","Rhodinocichla rosea",[m_id("")],["mdbhrp","9/2015"],"rottan2");
 //birds[j++] = new myBird("21-00-00T00:00","EMBERIZI","Pine Bunting","白头鹀","Emberiza leucocephalos",p_id("1601china",[1,2]),["cnbjjp","1/2016"],"pinbun");
   birds[j++] = new myBird("18-06-04T07:56","PASSEREL","Bachman's Sparrow","巴氏猛雀鹀","Peucaea aestivalis",[m_id("20180604_002_Bachman'sSparrow")],["sclobp","6/2018"]);
-  birds[j++] = new myBird("16-07-16T07:02","PASSEREL","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdmdmd","7/2016",(t1="Oland Road, Frederick County"),"","",(t2="弗雷德里克郡欧蓝德路"),"mdmdmd","7/2016","Juvenile, "+t1,"","",t2]);
+  birds[j++] = new myBird("16-07-16T07:02","PASSEREL","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdmdmd","7/2016",(t1=gmap("Oland Road",39.295242,-77.459861)+", Frederick County"),"","",(t2="弗雷德里克郡欧蓝德路"),"mdmdmd","7/2016","Juvenile, "+t1,"","",t2]);
 //birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Black-striped Sparrow","大黑纹头雀","Arremonops conirostris",[p_id("1501prbirding",2)],["crarol","4/2015"],"blsspa1");
 //birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-01-31T08:24","PASSEREL","Lark Sparrow","鹨雀鹀","Chondestes grammacus",m_id(sas("20160131_0",["08","10"],"_LarkSparrow")),["mdcapc","1/2016"]);
