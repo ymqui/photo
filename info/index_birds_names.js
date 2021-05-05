@@ -877,7 +877,7 @@
   birds[j++] = new myBird("20-01-24T11:22","ICTERIDA","Altamira Oriole","橙头拟鹂","Icterus gularis",[p_id("2001txbirding",26)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("15-07-12T09:26","ICTERIDA","Bullock's Oriole","布氏拟鹂","Icterus bullockii",[p_id("1507birdingwest",40)],["cabake","7/2015","Female, "+gmap("Yokuts Park",35.375836,-119.047495),"","","约库特公园"]);
   birds[j++] = new myBird("06-05-24T18:03","ICTERIDA","Baltimore Oriole","橙腹拟鹂","Icterus galbula",[m_id("20150830_093_BaltimoreOriole(M)"),p_id("1812crbirding",95),m_id("20170618_077_BaltimoreOriole")],["mdbrgd","8/2015","Male","crsanj","12/2018","Female, Morazán Park","","","莫拉桑公园","mdcovl","6/2017","Nest"]);
-  birds[j++] = new myBird("15-01-03T13:57","ICTERIDA","Venezuelan Troupial","委内瑞拉拟黄鹂","Icterus icterus",[p_id("1501prbirding",20)],["arb","1/2015",gmap("Guanica Dry Forest,17.954220,-66.851360)+", Puerto Rico, USA","美国波多黎各瓜尼卡干燥森林"],"ventro1");
+  birds[j++] = new myBird("15-01-03T13:57","ICTERIDA","Venezuelan Troupial","委内瑞拉拟黄鹂","Icterus icterus",[p_id("1501prbirding",20)],["arb","1/2015",gmap("Guanica Dry Forest",17.954220,-66.851360)+", Puerto Rico, USA","美国波多黎各瓜尼卡干燥森林"],"ventro1");
 //birds[j++] = new myBird("21-00-00T00:00","ICTERIDA","Hooded Oriole","巾冠拟鹂","Icterus cucullatus",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-07-01T09:43","ICTERIDA","Orchard Oriole","圃拟鹂","Icterus spurius",[p_id("1604asheville",11),p_id("1604asheville",10),p_id("1505bombayhook",12)],["ncllmp","4/2016","Male","ncllmp","4/2016","Female","debnwr","5/2015","Juvenile male"]);
 //birds[j++] = new myBird("21-00-00T00:00","ICTERIDA","Tricolored Blackbird","三色黑鹂","Agelaius tricolor",[m_id("")],["njscmm","5/2015"]);
