@@ -304,6 +304,8 @@ function initAlbum(){
     this[1][i++]  = (['Playing "speckled frog" game',"玩“斑点青蛙”游戏"])[cn_ind];
     this[0][i]    = "20210503_2";
     this[1][i++]  = (['Playing "speckled frog" game',"玩“斑点青蛙”游戏"])[cn_ind];
+    this[0][i]    = "20210505_1";
+    this[1][i++]  = (["Playing with Cara","和Cara一起玩过家家"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
