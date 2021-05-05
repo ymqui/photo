@@ -63,7 +63,11 @@ function getCountry(str,sep){
     return tmp[tmp.length-2];
 }
 
-links = ['','',mytext('Useful Links:','"blue"'),
+var fcol1 = '"#000080"';
+var fcol2 = '"#0000A0"';
+var fcol3 = '"green"';
+
+links = ['','',mytext('Useful Links:',fcol1),
          '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link1">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
          '<a href="https://www.facebook.com/groups/118655321826890/" target="link2">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
          '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link3">'+mytext('Maryland Rare Bird Alert')+'</a>','',
@@ -135,9 +139,6 @@ document.write('<table class="center"><tr><td align="left">');
 document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" class="pic1"></a>');
 document.write('<img src="https://ymqui.github.io/photo/thumbnail/stat.png" class="pic2">');
 document.write('</td></tr></table>');
-var fcol1 = '"blue"';
-var fcol2 = '"#683b00"';
-var fcol3 = '"green"';
 document.write('<br><br><table class="center">');
 document.write('<tr>');
 document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+'</td>');
