@@ -727,9 +727,9 @@
 
   function gmap(name,latt,long){
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='_blank'>"+name+"</a>";
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+name+"</a>";
      }else{
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='_blank'>"+name+"</a>";
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+name+"</a>";
      }
   }
 
@@ -812,7 +812,7 @@
      }
      if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {
-        return ([header+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='_blank'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
+        return ([header+"<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
      }else{
         return ([header+tmp[0+id_0]+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+tmp[0+id_0]+extra+date])[cn_ind];
      }
