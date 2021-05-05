@@ -64,18 +64,18 @@ function getCountry(str,sep){
 }
 
 links = ['','',mytext('Useful Links:','"blue"'),
-         '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="_blank">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
-         '<a href="https://www.facebook.com/groups/118655321826890/" target="_blank">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="_blank">'+mytext('Maryland Rare Bird Alert')+'</a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="_blank">'+mytext('Virginia Rare Bird Alert')+'</a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="_blank">'+mytext('Delaware Rare Bird Alert')+'</a>','',
-         '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="_blank">'+mytext('Pennsylvania Rare Bird Alert')+'</a>','',
-         '<a href="http://www.mdbirding.com/ebird.html" target="_blank">'+mytext('MDBirding-eBird')+'</a>','',
-         '<a href="https://groups.google.com/g/mdbirding" target="_blank">'+mytext('MDBirding-Google Group')+'</a>','',
-         '<a href="https://ebird.org/map" target="_blank">'+mytext('Species Map')+'</a>','',
-         '<a href="https://ebird.org/hotspots" target="_blank">'+mytext('Hotspots Map')+'</a>','',
-         '<a href="https://www.aba.org/aba-checklist/" target="_blank">'+mytext('ABA Checklist')+'</a>','',
-         '<a href="http://birding.aba.org/" target="_blank">'+mytext('ABA Birding News')+'</a>'];
+         '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link1">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://www.facebook.com/groups/118655321826890/" target="link2">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link3">'+mytext('Maryland Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="link4">'+mytext('Virginia Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="link5">'+mytext('Delaware Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="link6">'+mytext('Pennsylvania Rare Bird Alert')+'</a>','',
+         '<a href="http://www.mdbirding.com/ebird.html" target="link7">'+mytext('MDBirding-eBird')+'</a>','',
+         '<a href="https://groups.google.com/g/mdbirding" target="link8">'+mytext('MDBirding-Google Group')+'</a>','',
+         '<a href="https://ebird.org/map" target="link9">'+mytext('Species Map')+'</a>','',
+         '<a href="https://ebird.org/hotspots" target="link10">'+mytext('Hotspots Map')+'</a>','',
+         '<a href="https://www.aba.org/aba-checklist/" target="link11">'+mytext('ABA Checklist')+'</a>','',
+         '<a href="http://birding.aba.org/" target="link12">'+mytext('ABA Birding News')+'</a>'];
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
@@ -129,9 +129,12 @@ for (var i=0;i<birds.length;i++){
         }
     }
 }
+
 cou_cnts = sortProperties(cou_cnts,([true,false])[cn_ind]);
-document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="_blank"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" class="pic1"></a>');
+document.write('<table class="center"><tr><td align="left">');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" class="pic1"></a>');
 document.write('<img src="https://ymqui.github.io/photo/thumbnail/stat.png" class="pic2">');
+document.write('</td></tr></table>');
 var fcol1 = '"blue"';
 var fcol2 = '"#683b00"';
 var fcol3 = '"green"';
@@ -172,7 +175,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length) || (k<(cou_cnts.length+links.len
           }
        }
        if (tmp_url.length>0){
-          tmp_url = '<a href="'+tmp_url+'" target="_blank"'+txcol+loc_cnts[i][0]+'</a>';
+          tmp_url = '<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol+loc_cnts[i][0]+'</a>';
        }else {
           tmp_url = loc_cnts[i][0];
        }
@@ -200,7 +203,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length) || (k<(cou_cnts.length+links.len
     j++;
     document.write('<td></td>');
     if (k<cou_cnts.length){
-       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="_blank">'+cou_cnts[k][0]+'</td>');
+       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="'+cou_cnts[k][0]+'">'+cou_cnts[k][0]+'</td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[k][1].toString()+'</font></td><td>&emsp;</td>');
     }else if (k<(cou_cnts.length+links.length)){
        document.write('<td colspan="3" align="left">'+links[k-cou_cnts.length]+'</td>');   
