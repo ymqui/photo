@@ -390,7 +390,7 @@ if(window.usechinese){
    mesg2 = "Bird Photo Album Home";
    mesg3 = "Chinese Version/中文版";  
 }
-document.write('<a href="'+bid.url+'" style="text-decoration:none" target="_blank">');
+document.write('<a href="'+bid.url+'" style="text-decoration:none" target="binfo">');
 document.write('<IMG SRC="'+p_info+'"'+borderstr(mesg1)+' align="top" border="0" style="margin:'+space1+'"></a>');
 document.write('<a href="'+langurl+'" target="_self">');
 document.write('<IMG SRC="'+p_lang+'"'+borderstr(mesg3)+' align="top" border="0" style="margin:'+space+'"></a>');
