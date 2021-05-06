@@ -905,7 +905,7 @@
   birds[j++] = new myBird("15-07-10T10:26","PARULIDA","Orange-crowned Warbler","橙冠虫森莺","Leiothlypis celata",[p_id("1507birdingwest",29)],["arb","7/2015",gmap("Cannon Beach",45.884568,-123.964881)+", Oregon, USA","美国俄勒冈州卡农海滩"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Leiothlypis crissalis",[m_id("")],["mdbhrp","9/2015"],"colwar");
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Leiothlypis luciae",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("17-09-02T07:39","PARULIDA","Nashville Warbler","黄喉虫森莺","Leiothlypis ruficapilla",[p_id("1709algonquin",1)],["caalgp","9/2017"]);
+  birds[j++] = new myBird("17-09-02T07:39","PARULIDA","Nashville Warbler","黄喉虫森莺","Leiothlypis ruficapilla",[p_id("1709algonquin",1),m_id("20210506_061_NashvilleWarbler")],["caalgp","9/2017","mdlbrp","5/2021"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
@@ -923,7 +923,7 @@
   birds[j++] = new myBird("18-12-05T14:14","PARULIDA","Bay-breasted Warbler","栗胸林莺","Setophaga castanea",[p_id("1812crbirding",68)],["crarol","12/2018","Nonbreeding female/immature male"]);
   birds[j++] = new myBird("16-04-23T14:07","PARULIDA","Blackburnian Warbler","橙胸林莺","Setophaga fusca",[p_id("1705ohio",12),p_id("1604asheville",4)],["ohmage","5/2017","Male","ncbpkw","4/2016","Male"]);
   birds[j++] = new myBird("15-04-26T09:16","PARULIDA","Yellow Warbler","黄林莺","Setophaga petechia",m_id(["20150426_063_YellowWarbler(M)","20160514_047_YellowWarbler(F)","20160514_048_YellowWarbler"]),["mdbmnt","4/2015","Male","nyjbwr","5/2016","Female","nyjbwr","5/2016","Nest"]);
-  birds[j++] = new myBird("15-09-12T07:38","PARULIDA","Chestnut-sided Warbler","栗胁林莺","Setophaga pensylvanica",[m_id("20210503_058_Chestnut-sidedWarbler"),p_id("1812crbirding",23),m_id("20170827_094_Chestnut-sidedWarbler")],["mdlbrp","5/2021","Male","crarol","12/2018","Female","mdlbrp","8/2017","Immature"]);
+  birds[j++] = new myBird("15-09-12T07:38","PARULIDA","Chestnut-sided Warbler","栗胁林莺","Setophaga pensylvanica",[m_id("20210506_063_Chestnut-sidedWarbler"),p_id("1812crbirding",23),m_id("20170827_094_Chestnut-sidedWarbler")],["mdlbrp","5/2021","Male","crarol","12/2018","Female","mdlbrp","8/2017","Immature"]);
   birds[j++] = new myBird("17-05-28T10:42","PARULIDA","Blackpoll Warbler","白颊林莺","Setophaga striata",[p_id("2020lbrp",3),p_id("1705ohio",11)],["mdlbrp","5/2020","Male","ohmage","5/2017","Female"]);
   birds[j++] = new myBird("15-05-10T12:54","PARULIDA","Black-throated Blue Warbler","黑喉蓝林莺","Setophaga caerulescens",m_id(["20201020_101_Black-throatedBlueWarbler","20201027_118_Black-throatedBlueWarbler"]),["mdmwma","10/2020","Male","mdocci","10/2020","Female, "+gmap("Sunset Park",38.327652,-75.090674),"","","日落公园"]);
   birds[j++] = new myBird("06-04-09T10:02","PARULIDA","Palm Warbler","棕榈林莺","Setophaga palmarum",[p_id("1604asheville",9),m_id("20151025_112_PalmWarbler"),m_id("20210503_059_PalmWarbler")],["ncllmp","4/2016","mdbmnt","10/2015","Fall plumage","mdlbrp","5/2021","Western","西部亚种"]);
