@@ -197,7 +197,7 @@ while((i<loc_cnts.length) || (j<py_cnts.length) || (k<(cou_cnts.length+links.len
     j++;
     document.write('<td></td>');
     if (k<cou_cnts.length){
-       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="'+cou_cnts[k][0]+'">'+cou_cnts[k][0]+'</td>');
+       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[k][0]+'" target="'+cou_cnts[k][0]+'">'+cou_cnts[k][0]+'</a></td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[k][1].toString()+'</font></td><td>&emsp;</td>');
     }else if (k<(cou_cnts.length+links.length)){
        document.write('<td colspan="3" align="left">'+links[k-cou_cnts.length]+'</td>');   
