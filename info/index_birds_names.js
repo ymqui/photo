@@ -288,7 +288,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[m_id("")],["mdbhrp","9/2015"],"plawan1");
 //birds[j++] = new myBird("21-00-00T00:00","THINOCOR","Rufous-bellied Seedsnipe","棕腹籽鹬","Attagis gayi",[m_id("")],["mdbhrp","9/2015"],"rubsee2","小籽鹬");
   birds[j++] = new myBird("21-04-14T11:28","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",[m_id("20210414_046_UplandSandpiper")],["vavava","4/2021",gmap("Tidewater Trail",38.227703,-77.308868)+", Caroline County","","","卡罗琳郡潮水公路"]);
-  birds[j++] = new myBird("21-05-09T13:47","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",m_id(["20210509_066_Whimbrel","20210509_067_Whimbrel"]),["vavava","4/2021",gmap("Quinby Bridge Road",37.565569,-75.743839)+", Accomack County","","","阿科马克郡昆比桥路"]);
+  birds[j++] = new myBird("21-05-09T13:47","SCOLOPAC","Whimbrel","中杓鹬","Numenius phaeopus",m_id(["20210509_066_Whimbrel","20210509_067_Whimbrel"]),["vavava","5/2021",gmap("Quinby Bridge Road",37.565569,-75.743839)+", Accomack County","","","阿科马克郡昆比桥路"]);
   birds[j++] = new myBird("20-01-23T10:49","SCOLOPAC","Long-billed Curlew","长嘴杓鹬","Numenius americanus",[p_id("2001txbirding",7)],["txanwr","1/2020"]);
 //birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Hudsonian Godwit","棕塍鹬","Limosa haemastica",[p_id("1509charleston",8)],["scpitt","9/2015"]);
   birds[j++] = new myBird("15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"]);
