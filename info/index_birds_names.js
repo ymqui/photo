@@ -549,7 +549,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","RHINOCRY","Chucao Tapaculo","智利窜鸟","Scelorchilus rubecula",[m_id("")],["mdbhrp","9/2015"],"chutap1");
 //birds[j++] = new myBird("21-00-00T00:00","MELANOPA","Collared Crescentchest","领月胸窜鸟","Melanopareia torquata",[m_id("")],["mdbhrp","9/2015"],"colcre1");  
   birds[j++] = new myBird("15-01-03T10:13","TYRANNID","Caribbean Elaenia","加勒比拟霸鹟","Elaenia martinica",[p_id("1501prbirding",15)],["prcnwr","1/2015"],"carela1");
-  birds[j++] = new myBird("06-04-14T16:40","TYRANNID","Eastern Phoebe","灰胸长尾霸鹟","Sayornis phoebe",["2007cobirding/20070429_083_EasternPhoebe",p_id("1408annapolisbirding",18)],["mdcopl","4/2007","mdmdmd","8/2014","Juvenile, "+gmap("Greenbury Point",38.983398,-76.451250)+", Annapolis","","","安纳波利斯格林伯瑞角"]);
+  birds[j++] = new myBird("06-04-14T16:40","TYRANNID","Eastern Phoebe","灰胸长尾霸鹟","Sayornis phoebe",[m_id("20210506_063_EasternPhoebe"),p_id("1408annapolisbirding",18)],["mdlbrp","5/2021","mdmdmd","8/2014","Juvenile, "+gmap("Greenbury Point",38.983398,-76.451250)+", Annapolis","","","安纳波利斯格林伯瑞角"]);
   birds[j++] = new myBird("13-12-25T18:43","TYRANNID","Black Phoebe","黑长尾霸鹟","Sayornis nigricans",[p_id("1312bigbendbirding",18)],["txbbnp","12/2013"]);
   birds[j++] = new myBird("13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",[p_id("1507birdingwest",4)],["nvdnwr","7/2015"]);
   birds[j++] = new myBird("20-09-09T09:21","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",[m_id("20200909_067_Olive-sidedFlycatcher")],["mdmwma","9/2020"]);
