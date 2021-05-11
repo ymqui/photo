@@ -1,0 +1,219 @@
+<html>
+<head>
+<META http-equiv="Pragma" content="no-cache">
+<META http-equiv="Cache-Control" content="no-cache">   
+<LINK rel="shortcut icon" href="https://ymqui.github.io/photo/thumbnail/stat.ico">
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/error.js">           </SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"> </SCRIPT>
+<style>
+ body{text-align:center}
+.center{
+   margin-left: auto;
+   margin-right:auto;
+}
+.pic{
+   position: relative;
+   width: 100%;
+   max-width: 900px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" language="javaScript">
+<!--
+function sortProperties(obj,byname)
+{
+    // convert object into array
+    var sortable=[];
+    for(var key in obj){
+        if(obj.hasOwnProperty(key)){
+            sortable.push([key, obj[key]]); // each item is an array in format [key, value]
+        }
+    }
+    // sort items by value
+    sortable.sort(function(a, b)
+    { if ((a[1]!==b[1]) && !byname){
+         return a[1]-b[1]; // compare numbers
+      }else{
+         return (a[0]).localeCompare(b[0]);
+      }
+    });
+    return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
+}
+
+function mytext(text,col)
+{   
+    var fsize = '<font';
+    if (cellphone) {fsize='<font size="+1"';}
+    if(typeof col === 'undefined'){
+       return fsize+'><strong>'+text+'</strong></font>';
+    }else{
+       return fsize+' color='+col+'><strong>'+text+'</strong></font>';
+    }
+}
+
+function getCountry(str,sep){
+    var tmp = str.split(sep);
+    return tmp[tmp.length-2];
+}
+
+var fcol1 = '"#000080"';
+var fcol2 = '"#0000A0"';
+var fcol3 = '"green"';
+
+
+links = ['<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link1">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://www.facebook.com/groups/118655321826890/" target="link2">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link3">'+mytext('Maryland Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="link4">'+mytext('Virginia Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="link5">'+mytext('Delaware Rare Bird Alert')+'</a>','',
+         '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="link6">'+mytext('Pennsylvania Rare Bird Alert')+'</a>','',
+         '<a href="http://www.mdbirding.com/ebird.html" target="link7">'+mytext('MDBirding-eBird')+'</a>','',
+         '<a href="https://groups.google.com/g/mdbirding" target="link8">'+mytext('MDBirding-Google Group')+'</a>','',
+         '<a href="https://ebird.org/map" target="link9">'+mytext('Species Map')+'</a>','',
+         '<a href="https://ebird.org/hotspots" target="link10">'+mytext('Hotspots Map')+'</a>','',
+         '<a href="https://www.aba.org/aba-checklist/" target="link11">'+mytext('ABA Checklist')+'</a>','',
+         '<a href="http://birding.aba.org/" target="link12">'+mytext('ABA Birding News')+'</a>','',
+         '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link13">'+mytext('Warbler Guide Quick Finders')+'</a>'];
+
+//check to see if any of the locations has little or no use
+var tmp = Object.keys(locurl);
+var tmp1 = Object.keys(py);
+for (var i=0;i<tmp1.length;i++){
+    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
+}
+py_cnts = sortProperties(py_cnts);
+for (var i=0;i<tmp.length;i++){
+    if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
+}
+
+loc_cnts = sortProperties(loc_cnts);
+var is_chinese = /chinese/.test(window.location.search.substring(1));
+var cn_ind = is_chinese?1:0;
+
+//count countries
+//chinese name for countries
+var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
+var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
+var cou_cnts  = {};
+var ocnts = 0;
+var otot = orders.length;
+var ftot = 0;
+const unique = (value, index, self) => {
+      return self.indexOf(value) === index;
+}
+var fcnts = (birds.map(({family})=>family).filter(unique)).length;
+for(var i=0;i<orders.length;i++){
+    var ordercnt = 0;
+    ftot = ftot+orders[i].family.length;
+    for(var j=0;j<orders[i].family.length;j++){
+         tmp0 = getByFamily(orders[i].family[j].name, birds);
+         if (tmp0.length==0) continue;
+         ordercnt = 1;
+    }
+    if (ordercnt!=0){ocnts++;}
+}     
+for (var i=0;i<birds.length;i++){
+    var tmp_cnts = {};
+    for (var j=0;j<birds[i].info.length;j++){
+        var tmp2 = getCountry(birds[i].info[j],/ *, */);
+        if (is_chinese) {
+           tmp2 = chn_cou[eng_cou.indexOf(tmp2)];
+        }
+        if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
+        if (typeof tmp_cnts[tmp2] ==='undefined') tmp_cnts[tmp2] = 0;
+        if (tmp_cnts[tmp2]==0){
+           cou_cnts[tmp2]++;
+           tmp_cnts[tmp2]++;
+        }
+    }
+}
+  
+cou_cnts = sortProperties(cou_cnts,([true,false])[cn_ind]);
+
+document.write('<table class="center">');
+document.write('<tr><td colspan="9">');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" class="pic"></a>');
+document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+mytext('/10806',fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(pic_cnts.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts.toString(),fcol2)+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp.length.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(cou_cnts.length.toString(),fcol2)+mytext('/195',fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td colspan="3" align="left">'+mytext((['Useful Links','观鸟链接'])[cn_ind]+':',fcol1)+'</td></tr>');
+var i = 0;
+var j = 0;
+var k = 0;
+var clen = 10;
+while((i<(loc_cnts.length+py_cnts.length+2)) || (j<cou_cnts.length) || (k<links.length)){
+    document.write('<tr>');
+    if (i<loc_cnts.length){
+       txcol = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
+       tmp_url = '';
+       if (locurl[loc_cnts[i][0]].length>6){
+          if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!is_chinese)||((locurl[loc_cnts[i][0]].length>7) && is_chinese)){
+             tmp_url = locurl[loc_cnts[i][0]][Math.min(6+cn_ind,locurl[loc_cnts[i][0]].length-1)];
+          }
+       }else if (locurl[loc_cnts[i][0]].length>4){
+          if (locurl[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)||(!is_chinese)||((locurl[loc_cnts[i][0]].length>5) && is_chinese)){
+             tmp_url = locurl[loc_cnts[i][0]][Math.min(4+cn_ind,locurl[loc_cnts[i][0]].length-1)];
+          }
+       }
+       if (tmp_url.length>0){
+          tmp_url = '<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol+loc_cnts[i][0]+'</a>';
+       }else {
+          tmp_url = loc_cnts[i][0];
+       }
+       document.write('<td align="left"'+txcol+tmp_url+':</td><td align="right"'+txcol+loc_cnts[i][1].toString()+'</td>');
+    }else if(i<loc_cnts.length+1){
+       document.write('<td><small>&emsp;</small></td><td></td>');
+    }else if(i<loc_cnts.length+2){
+       document.write('<td align="left">'+mytext((['Total Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+    }else if(i<loc_cnts.length+py_cnts.length+2){
+       fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[i-loc_cnts.length-2][1])]+'">';
+       fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[i-loc_cnts.length-2][1])]+'">';
+       pys = py_cnts[i-loc_cnts.length-2][0];
+       for (var l=1;l<clen;l++){
+           if (i==py_cnts.length+loc_cnts.length+1){break;}
+           if (py_cnts[i-loc_cnts.length-1][1]==py_cnts[i-loc_cnts.length-2][1]){
+              i++;
+              pys = pys+py_cnts[i-loc_cnts.length-2][0];
+           }else{break;}
+       }
+       document.write(fcolor1+pys+'</font></td>'+fcolor2+py_cnts[i-loc_cnts.length-2][1].toString()+'</font></td>');
+    }else{
+       document.write('<td></td><td></td>');
+    }
+    i++;
+    document.write('<td></td>');
+    if (j<cou_cnts.length){
+       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'">'+cou_cnts[j][0]+'</a></td>');
+       document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[j][1].toString()+'</font></td>');
+    }else{
+       document.write('<td></td><td></td>');
+    }
+    j++;
+    document.write('<td></td>');
+    if (k<links.length){
+       document.write('<td colspan="3" align="left">'+links[k]+'</td>');   
+    }else{
+       document.write('<td></td><td></td><td>&emsp;&emsp;</td>'); 
+    }
+    k++;
+    document.write('</tr>');
+}
+document.write('</table>');
+//-->
+</script>
+</body>
+</html>
