@@ -131,23 +131,25 @@ for (var i=0;i<birds.length;i++){
 }
   
 cou_cnts = sortProperties(cou_cnts,([true,false])[cn_ind]);
+
+document.write('<table class="center">');
+document.write('<tr><td colspan="9">');
 document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/Stat.JPG" class="pic"></a>');
-document.write('<br><br><table class="center">');
-document.write('<tr>');
-document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+birds.length.toString(),fcol2)+mytext('/10806',fcol3)+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
+document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+mytext('/10806',fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+mytext('/'+otot.toString(),fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(fcnts.toString(),fcol2)+mytext('/'+ftot.toString(),fcol3)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
-document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+pic_cnts.toString(),fcol2)+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+misc_cnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(pic_cnts.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts.toString(),fcol2)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
-document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp.length.toString(),fcol2)+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+cou_cnts.length.toString(),fcol2)+mytext('/195',fcol3)+'</td>');
-document.write('<td>&emsp;&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp.length.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(cou_cnts.length.toString(),fcol2)+mytext('/195',fcol3)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
 document.write('<td colspan="3" align="left">'+mytext((['Useful Links','观鸟链接'])[cn_ind]+':',fcol1)+'</td></tr>');
 var i = 0;
 var j = 0;
@@ -184,7 +186,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+3) || (k<links.le
     }else if(j<cou_cnts.length+2){
        document.write('<td></td><td></td>');
     }else if(j==cou_cnts.length+2){
-       document.write('<td align="left">'+mytext((['Total Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext('&emsp;'+tmp1.length.toString(),fcol2)+'</td>');
+       document.write('<td align="left">'+mytext((['Total Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
     }else if(j<cou_cnts.length+py_cnts.length+3){
        fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-3][1])]+'">';
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-3][1])]+'">';
@@ -205,7 +207,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+3) || (k<links.le
     if (k<links.length){
        document.write('<td colspan="3" align="left">'+links[k]+'</td>');   
     }else{
-       document.write('<td></td><td></td><td>&emsp;&emsp;&emsp;</td>'); 
+       document.write('<td></td><td></td><td>&emsp;&emsp;</td>'); 
     }
     k++;
     document.write('</tr>');
