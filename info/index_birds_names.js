@@ -294,7 +294,7 @@
   birds[j++] = new myBird("15-09-06T07:46","SCOLOPAC","Marbled Godwit","云斑塍鹬","Limosa fedoa",[p_id("1509charleston",8)],["scpitt","9/2015"]);
   birds[j++] = new myBird("15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",m_id(["20170520_058_RuddyTurnstone","20151031_118_RuddyTurnstone"]),["debowb","5/2017","With "+b_link("Red Knot","s"),"后面是"+b_link("红腹滨鹬"),"mdocci","10/2015","Nonbreeding plumage",""," "+gmap("Inlet",38.324354,-75.085441),"海口"]);
   birds[j++] = new myBird("17-05-20T09:06","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",[m_id("20170520_057_RedKnot")],["debowb","5/2017"]);
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Calidris pugnax",[m_id("")],["mdbnwr","3/2021","Nonbreeding plumage"],"ruff");
+//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Ruff","流苏鹬","Calidris pugnax",[m_id("")],["debnwr","5/2021","Female"],"ruff");
   birds[j++] = new myBird("20-10-23T10:15","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",[m_id("20201023_113_StiltSandpiper")],["mdswhf","10/2020","Nonbreeding plumage, in front of a "+b_link("Lesser Yellowlegs"),"非繁殖羽，后面是一只"+b_link("小黄脚鹬")]);
   birds[j++] = new myBird("20-10-23T10:03","SCOLOPAC","Curlew Sandpiper","弯嘴滨鹬","Calidris ferruginea",m_id(["20201023_114_CurlewSandpiper","20201023_110_CurlewSandpiper"]),["mdswhf","10/2020","Juvenile"],"cursan");
   birds[j++] = new myBird("15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("1612savannah",15),p_id("1509charleston",17)],["arb","12/2016","Winter plumage, "+gmap("Tybee Island",31.986662,-80.852118)+", Georgia, USA","冬羽，美国乔治亚州泰碧岛","arb","9/2015","Juvenile, "+gmap("Fort Moultrie",32.758949,-79.858930)+", South Carolina, USA","未成年，美国南卡罗来纳州莫尔特里堡"]);
@@ -312,8 +312,8 @@
   birds[j++] = new myBird("16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["mdmdmd","2/2016",gmap("Patuxent River State Park at Hipsley Mill Road",39.268329,-77.113982),"","","帕塔克森特河州立公园"]);
   birds[j++] = new myBird("16-01-30T09:03","SCOLOPAC","Wilson's Snipe","美洲沙锥","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_Wilson'sSnipe")),["mdmdmd","1/2016",gmap("Glade Road",39.517044,-77.337305)+", Frederick County","","","弗雷德里克郡格雷德路"],"威氏鹬");
   birds[j++] = new myBird("20-06-22T11:58","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",m_id(["20200622_051_Wilson'sPhalarope","20200622_050_Wilson'sPhalarope"]),["debnwr","6/2020","Male","debnwr","6/2020","Female"]);
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Red-necked Phalarope","红颈瓣蹼鹬","Phalaropus lobatus",[m_id("")],["mdbhrp","9/2015"],"renpha");
-//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("")],["mdbhrp","9/2015"],"redpha1");
+//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Red-necked Phalarope","红颈瓣蹼鹬","Phalaropus lobatus",[m_id("")],["papapa","5/2021","Wissahickon Waterfowl Preserve, Montgomery County","蒙哥马利郡维萨肯水禽保护区"]);
+//birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-04-23T17:28","SCOLOPAC","Spotted Sandpiper","斑腹矶鹬","Actitis macularius",m_id(sas(["20170806_086","20200810_058","20200924_086"],"_SpottedSandpiper")),["mdmdmd","8/2017",gmap("North Beach",38.712551,-76.529385)+", Calvert County","","","卡尔弗特郡北海滩","mdsclr","8/2020","mdbhrp","9/2020","Winter plumage"]);
   birds[j++] = new myBird("06-05-06T16:31","SCOLOPAC","Solitary Sandpiper","孤鹬","Tringa solitaria",[m_id("20170423_032_SolitarySandpiper")],["mdmdmd","4/2017",gmap("Schoolhouse Pond",38.818570,-76.752012)+", Prince George's County","","","乔治王子郡校舍池塘"]);
   birds[j++] = new myBird("14-08-30T17:42","SCOLOPAC","Lesser Yellowlegs","小黄脚鹬","Tringa flavipes",[m_id("20170924_108_LesserYellowlegs")],["mdmdmd","9/2017",gmap("Shiloh Church Turf Farm",38.594398,-75.868445)+", Dorchester County","","","多切斯特郡夏伊洛教堂路草皮农场"]);
@@ -474,7 +474,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","CAPITONI","Scarlet-crowned Barbet","红顶须鴷","Capito aurovirens",[m_id("")],["mdbhrp","9/2015"],"sccbar1",10210);
 //birds[j++] = new myBird("21-00-00T00:00","SEMNORNI","Toucan Barbet","巨嘴拟鴷","Semnornis ramphastinus",[m_id("")],["mdbhrp","9/2015"],"toubar1");
   birds[j++] = new myBird("18-12-05T09:52","RAMPHAST","Collared Aracari","领簇舌巨嘴鸟","Pteroglossus torquatus",p_id("1812crbirding",[58,59,71]),["crarol","12/2018"],"colara1");
-  birds[j++] = new myBird("18-12-06T17:00","RAMPHAST","Yellow-throated Toucan","黑嘴巨嘴鸟","Ramphastos ambiguus",[p_id("1812crbirding",84)],["crarol","12/2018"],"bkmtou1");
+  birds[j++] = new myBird("18-12-06T17:00","RAMPHAST","Yellow-throated Toucan","黑嘴巨嘴鸟","Ramphastos ambiguus",[p_id("1812crbirding",84)],["crarol","12/2018","Chestnut-mandibled","栗嘴亚种"],"bkmtou1");
 //birds[j++] = new myBird("21-00-00T00:00","MEGALAIM","Great Barbet","大拟啄木鸟","Psilopogon virens",[m_id("")],["mdbhrp","9/2015"],"grebar1");
 //birds[j++] = new myBird("21-00-00T00:00","LYBIIDAE","Grey-throated Barbet","灰喉拟鴷","Gymnobucco bonapartei",[m_id("")],["mdbhrp","9/2015"],"gytbar1",10120);
 //birds[j++] = new myBird("21-00-00T00:00","INDICATO","Yellow-rumped Honeyguide","黄腰响蜜鴷","Indicator xanthonotus",[m_id("")],["mdbhrp","9/2015"],"yerhon1");
