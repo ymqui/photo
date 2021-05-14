@@ -340,7 +340,7 @@
   family[j++] = new newFamily("CALLAEIDAE","垂耳鸦科","New Zealand Wattlebirds","垂耳鸦");
   family[j++] = new newFamily("NOTIOMYSTIDAE","缝叶吸蜜鸟科","Stitchbird","缝叶吸蜜鸟");
   family[j++] = new newFamily("PSOPHODIDAE","啸冠鸫科","Whipbirds, Jewel-babblers and Quail-thrushes","鹑鸫和丽鸫");
-//family[j++] = new newFamily("CINCLOSOMATIDAE","啸冠鸫科","Quail-thrushes and Jewel-babblers","鹑鸫和丽鸫");
+  family[j++] = new newFamily("CINCLOSOMATIDAE","啸冠鸫科","Quail-thrushes and Jewel-babblers","鹑鸫和丽鸫");
   family[j++] = new newFamily("PLATYSTEIRIDAE","疣眼鹟科","Wattle-eyes and Batises","饰眼鹟和蓬背鹟");
   family[j++] = new newFamily("MALACONOTIDAE","丛鵙科","Bush-shrikes and Puffbacks","丛鵙和篷背鵙");
   family[j++] = new newFamily("MACHAERIRHYNCHIDAE","船嘴鹟科","Boatbills","船嘴鹟");

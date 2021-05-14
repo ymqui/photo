@@ -600,6 +600,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","CALLAEID","North Island Kokako","北岛垂耳鸦","Callaeas wilsoni",[m_id("")],["mdbhrp","9/2015"],"kokako3");
 //birds[j++] = new myBird("21-00-00T00:00","NOTIOMYS","Stitchbird","缝叶吸蜜鸟","Notiomystis cincta",[m_id("")],["mdbhrp","9/2015"],"stitch1");
 //birds[j++] = new myBird("21-00-00T00:00","PSOPHODI","Eastern Whipbird","绿啸冠鸫","Psophodes olivaceus",[m_id("")],["mdbhrp","9/2015"],"easwhi1");
+//birds[j++] = new myBird("21-00-00T00:00","CINCLOSO","Spotted Quail-thrush","斑鹑鸫","Cinclosoma punctatum",[m_id("")],["mdbhrp","9/2015"],"spqthr1");
 //birds[j++] = new myBird("21-00-00T00:00","PLATYSTE","Brown-throated Wattle-eye","褐喉饰眼鹟","Platysteira cyanea",[m_id("")],["mdbhrp","9/2015"],"btweye2");
 //birds[j++] = new myBird("21-00-00T00:00","MALACONO","Grey-headed Bushshrike","灰头丛鵙","Malaconotus blanchoti",[m_id("")],["mdbhrp","9/2015"],"gyhbus1");
 //birds[j++] = new myBird("21-00-00T00:00","MACHAERI","Yellow-breasted Boatbill","黄胸船嘴鹟","Machaerirhynchus flaviventer",[m_id("")],["mdbhrp","9/2015"],"yebboa1");
