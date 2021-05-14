@@ -113,6 +113,11 @@ for(var i=0;i<vars.length;i++) {
            }
            q_name = "&amp;"+vars[i];
            break;
+      case "hanzi":
+           tmp = getByHanzi(reform(decodeURIComponent(pair[1])), birds);
+           if(tmp.length!=0) birds = tmp;
+           q_count = q_count+"&amp;"+vars[i];
+           break;
       case "country":
            country = decodeURIComponent(pair[1]);
            tmp = getByCountry(reform(country), birds);
@@ -140,7 +145,12 @@ for(var i=0;i<vars.length;i++) {
               }
            }
            q_count = q_count+"&amp;"+vars[i].trim();
-           break
+           break;
+      case "loc":
+           tmp = getByLocs(reform(decodeURIComponent(pair[1])), birds);
+           if(tmp.length!=0) birds = tmp;
+           q_count = q_count+"&amp;"+vars[i];
+           break;
       case "lifer":
            lifer = true;
            q_count = q_count+"&amp;lifer";
