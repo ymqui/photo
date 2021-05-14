@@ -406,7 +406,6 @@
   family[j++] = new newFamily("ALCIPPEIDAE","雀鹛科","Alcippe Fulvettas","雀鹛");
   family[j++] = new newFamily("LEIOTHRICHIDAE","噪鹛科","Laughingthrushes","噪鹛");
   family[j++] = new newFamily("MODULATRICIDAE","纹喉鵖科","Dapplethroat and allies","纹喉鵖");
-//family[j++] = new newFamily("ARCANATORIDAE","纹喉鵖科","Dapplethroat and allies","纹喉鵖");
   family[j++] = new newFamily("PROMEROPIDAE","非洲食蜜鸟科","Sugarbirds","非洲食蜜鸟");
   family[j++] = new newFamily("IRENIDAE","和平鸟科","Fairy Bluebirds","和平鸟");
   family[j++] = new newFamily("REGULIDAE","戴菊科","Kinglets","戴菊");
@@ -450,7 +449,6 @@
   family[j++] = new newFamily("PARULIDAE","森莺科","Wood-Warblers","森莺");
   family[j++] = new newFamily("MITROSPINGIDAE","乌脸唐纳雀科","Mitrospingid Tanagers","乌脸唐纳雀");
   family[j++] = new newFamily("CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies","美洲雀");
-//family[j++] = new newFamily("COEREBIDAE","曲嘴森莺科","Bananaquit","曲嘴森莺");
   family[j++] = new newFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀");
   orders[i++] = new newOrder("PASSERIFORMES","雀形目","Perching Birds","雀",family);
 
