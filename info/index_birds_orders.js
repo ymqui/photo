@@ -497,6 +497,7 @@
      this.latin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
      this.info     = [];
      this.cinfo    = [];
+     this.locs     = [];
      if (photo.constructor == Array){
         this.photo = photo;
      }else{
@@ -520,12 +521,13 @@
                }
             }
          }
+         this.locs.push(info[6*i]);
          tmp_info[i]   = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
-         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
+         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]); 
      }
      for (var i=0;i<this.photo.length;i++){
-         this.info[i]  = tmp_info[Math.min(i,tmp_info.length-1)]; 
-         this.cinfo[i] = tmp_cinfo[Math.min(i,tmp_cinfo.length-1)];
+         this.info.push(tmp_info[Math.min(i,tmp_info.length-1)]); 
+         this.cinfo.push(tmp_cinfo[Math.min(i,tmp_cinfo.length-1)]);
      }
      
      if(typeof ebid == 'undefined'){ 
@@ -655,6 +657,20 @@
            }
         })
      }
+  } 
+
+  function getByHanzi(id, myArray){
+     if (id.match(/[\u3400-\u9FBF]/)){
+        return myArray.filter(function(obj) {
+            if(obj.cname.indexOf(id)!=-1) { return obj; }
+        })
+     }
+  } 
+
+  function getByLocs(id, myArray){
+     return myArray.filter(function(obj) {
+        if(obj.locs.indexOf(id) != -1) { return obj; }
+     })
   } 
 
   function getpinyin(cname){
