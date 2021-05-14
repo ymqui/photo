@@ -158,7 +158,8 @@ var clen = 10;
 while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.length)){
     document.write('<tr>');
     if (i<loc_cnts.length){
-       txcol = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
+       var txcol1 = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
+       var txcol2 = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
        tmp_url = '';
        if (locurl[loc_cnts[i][0]].length>6){
           if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!is_chinese)||((locurl[loc_cnts[i][0]].length>7) && is_chinese)){
@@ -170,11 +171,15 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.le
           }
        }
        if (tmp_url.length>0){
-          tmp_url = '<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol+loc_cnts[i][0]+'</a>';
+          tmp_url = '<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol1+loc_cnts[i][0]+'</a>';
        }else {
           tmp_url = loc_cnts[i][0];
        }
-       document.write('<td align="left"'+txcol+tmp_url+':</td><td align="right"'+txcol+loc_cnts[i][1].toString()+'</td>');
+       var loc_url = loc_cnts[i][1].toString();
+       if (loc_cnts[i][1]>0) {
+           loc_url = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&loc='+loc_cnts[i][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+loc_url+'</a>';
+       }
+       document.write('<td align="left"'+txcol1+tmp_url+':</td><td align="right"'+txcol1+loc_url+'</td>');
     }else{
        document.write('<td></td><td></td>');
     }
@@ -190,12 +195,22 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.le
     }else if(j<cou_cnts.length+py_cnts.length+2){
        fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
-       pys = py_cnts[j-cou_cnts.length-2][0];
+       txcol2  = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
+       if (py_cnts[j-cou_cnts.length-2][1]>0) {
+          pys = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+       }else{
+          pys = py_cnts[j-cou_cnts.length-2][0];
+       }
+       
        for (var l=1;l<clen;l++){
            if (j==py_cnts.length+cou_cnts.length+1){break;}
            if (py_cnts[j-cou_cnts.length-1][1]==py_cnts[j-cou_cnts.length-2][1]){
               j++;
-              pys = pys+py_cnts[j-cou_cnts.length-2][0];
+              if (py_cnts[j-cou_cnts.length-2][1]>0) {
+                 pys = pys+'<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+              }else{
+                 pys = pys+py_cnts[j-cou_cnts.length-2][0];
+              }
            }else{break;}
        }
        document.write(fcolor1+pys+'</font></td>'+fcolor2+py_cnts[j-cou_cnts.length-2][1].toString()+'</font></td>');
