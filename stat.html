@@ -200,17 +200,16 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.le
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        txcol2  = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        if (py_cnts[j-cou_cnts.length-2][1]>0) {
-          pys = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+          pys = '<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
        }else{
           pys = py_cnts[j-cou_cnts.length-2][0];
        }
-       
        for (var l=1;l<clen;l++){
            if (j==py_cnts.length+cou_cnts.length+1){break;}
            if (py_cnts[j-cou_cnts.length-1][1]==py_cnts[j-cou_cnts.length-2][1]){
               j++;
               if (py_cnts[j-cou_cnts.length-2][1]>0) {
-                 pys = pys+'<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+                 pys = pys+'<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
               }else{
                  pys = pys+py_cnts[j-cou_cnts.length-2][0];
               }
