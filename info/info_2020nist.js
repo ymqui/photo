@@ -322,6 +322,12 @@ function initAlbum(){
     this[1][i++]  = (["Spanish enrichment class with Ms Nadya","Nadya老师给大家上西班牙语课"])[cn_ind];
     this[0][i]    = "20210518_1";
     this[1][i++]  = (["Outdoor PE class with Mr Palmer","Palmer老师的户外体育课"])[cn_ind];
+    this[0][i]    = "20210519_1";
+    this[1][i++]  = (["Searching for cicadas","在户外寻找蝉"])[cn_ind];
+    this[0][i]    = "20210519_2";
+    this[1][i++]  = (["Holding a live cicada","拿着一只活的知了"])[cn_ind];
+    this[0][i]    = "20210520_1";
+    this[1][i++]  = (["Outdoor PE class with Mr Palmer","Palmer老师的户外体育课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
