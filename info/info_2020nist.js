@@ -334,6 +334,10 @@ function initAlbum(){
     this[1][i++]  = (["Leaving the work of cooking and childcare up to Molly and Philomena","将烹饪和育儿工作留给Molly和Philomena"])[cn_ind];
     this[0][i]    = "20210521_3";
     this[1][i++]  = (["Making a phone call","打电话"])[cn_ind];
+    this[0][i]    = "20210524_1";
+    this[1][i++]  = (["Nap time","午睡"])[cn_ind];
+    this[0][i]    = "20210524_2";
+    this[1][i++]  = (["Afternoon snack","下午的点心"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
