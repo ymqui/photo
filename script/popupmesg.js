@@ -140,12 +140,18 @@ function get_mouse(e){
         }catch(er){}
     }
     if(Math.abs(y+yoffset)>window.innerHeight){
+       xoffset = 5;
        yoffset = -23;
     }else{
+       xoffset = -10;
        yoffset = 23;
     }
     x = x+xoffset;
-    y = y+yyy;
+    if (yyy==-3000){ 
+       y = y+yyy;
+    }else{
+       y = y+yoffset;
+    }
     var divobj = dividobj("popup");
     if(divobj){
         if(divobj.style){
