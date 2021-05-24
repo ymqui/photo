@@ -1,4 +1,4 @@
-﻿//based upon www.steves-digicams.com
+//based upon www.steves-digicams.com
 <!--
 var update = "";
 document.write('<DIV ID="popup" style="POSITION:absolute; VISIBILITY:hidden; Z-INDEX:200"> </DIV>');
@@ -138,6 +138,11 @@ function get_mouse(e){
                 }
             }
         }catch(er){}
+    }
+    if(Math.abs(y+yoffset)>window.innerHeight){
+       yoffset = -23;
+    }else{
+       yoffset = 23;
     }
     x = x+xoffset;
     y = y+yyy;
