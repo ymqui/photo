@@ -4,7 +4,7 @@ var update = "";
 document.write('<DIV ID="popup" style="POSITION:absolute; VISIBILITY:hidden; Z-INDEX:200"> </DIV>');
 
 var xoffset = -10;
-var yoffset = 23;
+var yoffset = 25;
 var yyy     = -3000;
 
 function dividobj(divid){
@@ -140,11 +140,9 @@ function get_mouse(e){
         }catch(er){}
     }
     if(Math.abs(y+yoffset)>window.innerHeight){
-       xoffset = -4;
        yoffset = -28;
     }else{
-       xoffset = -10;
-       yoffset = 23;
+       yoffset = 25;
     }
     x = x+xoffset;
     if (yyy==-3000){ 
