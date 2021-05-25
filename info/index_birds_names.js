@@ -20,7 +20,7 @@
       cnbjsp:  ["Summer Palace","Beijing, China","北京颐和园","中国",wikiurl("Summer Palace"),baikeurl("颐和园")],
       cnbjth:  ["Temple of Heaven","Beijing, China","北京天坛公园","中国",wikiurl("Temple of Heaven"),baikeurl("天坛")],
       cnjsxp:  ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl("须江公园")],
-      cnlydp:  [gmap("Denggao Park",25.09248,117.0358),"Longyan, Fujian, China","龙岩登高山公园","中国福建省"],
+      cnlydp:  [gmap("Denggao Park",25.09248,117.0358),"Longyan, Fujian, China","龙岩"+bmap("登高山公园",13029222,2869550),"中国福建省"],
       cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl("龙门镇/4844737")],
       cnxihu:  ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")],
       cnxmjm:  ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl("厦门集美")],
