@@ -14,7 +14,6 @@
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake:  ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cactnw:  ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
-      calddm:  ["Le Domaine de Maizerets","Québec City, Québec, Canada","魁北克市Domaine de Maizerets公园","加拿大魁北克省",wikiurl("Maizerets")],
       cambsp:  ["Morro Bay State Park","California, USA","莫罗湾州立公园","美国加利福尼亚州","http://www.parks.ca.gov/?page_id=594"],
       cnbjjp:  ["Jingshan Park","Beijing, China","北京景山公园","中国",wikiurl("Jingshan Park"),baikeurl("景山公园")],
       cnbjsp:  ["Summer Palace","Beijing, China","北京颐和园","中国",wikiurl("Summer Palace"),baikeurl("颐和园")],
@@ -34,7 +33,6 @@
       flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl("比斯坎国家公园")],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","黑角公园及码头","美国佛罗里达州迈阿密-戴德郡","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
-      flmahp:  ["Matheson Hammock Park","Miami, Florida, USA","迈阿密马西森硬木公园","美国佛罗里达州","http://www.miamidade.gov/parks/matheson-hammock.asp"],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","种植园保留地","美国佛罗里达州布劳沃德郡","https://www.plantation.org/government/departments/parks-recreation/plantation-preserve-golf-course-club/about-the-preserve/linear-trail"],
       gbhydp:  ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wikiurl("Hyde Park, London"),baikeurl("海德公园")],
@@ -486,7 +484,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("18-12-08T08:10","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",p_id("1812crbirding",[93,94]),["crsanj","12/2018","Male, "+gmap("Park of Social Guarantees",9.931674,-84.076480),"","","社会保障公园","crsanj","12/2018","Female, "+gmap("Morazán Park",9.935475,-84.075441),"","","莫拉桑公园"],"hofwoo1");
   birds[j++] = new myBird("13-12-25T15:02","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",p_id("2001txbirding",[39,25]),["txsnwr","1/2020","Male","txsnwr","1/2020","Female"]);
-  birds[j++] = new myBird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","flmahp","6/2016","Female"]);
+  birds[j++] = new myBird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","arb","6/2016","Female, "+gmap("Matheson Hammock Park",25.68121,-80.27201)+", Miami, Florida, USA","雌性，美国佛罗里达州迈阿密马西森硬木公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Williamson's Sapsucker","威氏吸汁啄木鸟","Sphyrapicus thyroideus",[p_id("1601china",)],["cnbjjp","1/2016"]);
   birds[j++] = new myBird("06-02-19T11:51","PICIDAE ","Yellow-bellied Sapsucker","黄腹吸汁啄木鸟","Sphyrapicus varius",m_id(sas(["20170107","20201231","20151220"],"_YS")),["mdmdmd","1/2017","Male, "+gmap("Havre de Grace",39.538889,-76.090401),"","","哈佛德格雷斯市","vavava","12/2020","Female, "+gmap("Sky Meadows State Park",38.987436,-77.942837),"","","天空草地州立公园","mdloch","12/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Red-naped Sapsucker","红颈吸汁啄木鸟","Sphyrapicus nuchalis",[p_id("1601china",)],["cnbjjp","1/2016"]);
@@ -672,7 +670,7 @@
   birds[j++] = new myBird("20-01-25T08:44","PARIDAE ","Black-crested Titmouse","黑冠凤头山雀","Baeolophus atricristatus",[p_id("2001txbirding",38)],["txsnwr","1/2020"],3593);
 //birds[j++] = new myBird("21-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["caalgp","9/2017"],3631);
   birds[j++] = new myBird("06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[p_id("1412mckee-beshers",24),m_id("20210130_021_CarolinaChickadee")],["mdmwma","11/2014","vavava","1/2021",gmap("Bacon Street",37.232305,-76.506238)+", Yorktown","","","约克镇培根街"],3620);
-  birds[j++] = new myBird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["calddm","9/2016","arb","8/2014",gmap("Sapsucker Woods Sanctuary")+", Ithaca, New York, USA","美国纽约州伊萨卡啄木鸟树林保护区"]);
+  birds[j++] = new myBird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["arb","9/2016",gmap("Le Domaine de Maizerets",46.83991,-71.21153)+", Québec City, Québec, Canada","加拿大魁北克省魁北克市Domaine de Maizerets公园","arb","8/2014",gmap("Sapsucker Woods Sanctuary")+", Ithaca, New York, USA","美国纽约州伊萨卡啄木鸟树林保护区"]);
   birds[j++] = new myBird("16-01-15T13:47","PARIDAE ","Willow Tit","褐头山雀","Poecile montanus",[p_id("1601china",68)],["cnbjsp","1/2016"],"wiltit1");
 //birds[j++] = new myBird("21-00-00T00:00","PARIDAE ","Great Tit","大山雀","Parus major",p_id("1601china",[21,22]),["cnjsxp","1/2016"],"gretit1");
   birds[j++] = new myBird("16-01-05T10:13","PARIDAE ","Japanese Tit","远东山雀","Parus minor",p_id("1601china",[21,22]),["cnjsxp","1/2016"],"gretit4");
