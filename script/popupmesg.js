@@ -147,8 +147,12 @@ function get_mouse(e){
        yoffset = 25;
     }
     x = x+xoffset;
-    if (hidepop){ 
-       y = y-3000;
+    if (hidepop){
+       if(window.innerHeight){
+          y = y-window.innerHeight*2;
+       }else{
+          y = y-3000;
+       }
     }else{
        y = y+yoffset;
     }
