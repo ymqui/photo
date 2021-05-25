@@ -5,7 +5,7 @@ document.write('<DIV ID="popup" style="POSITION:absolute; VISIBILITY:hidden; Z-I
 
 var xoffset = -10;
 var yoffset = 25;
-var yyy     = -3000;
+var hidepop = true;
 
 function dividobj(divid){
     var divobj=null;
@@ -115,7 +115,7 @@ function popupmesg(mesg){
     content = content+'BGCOLOR=#f6f6dc style="max-width:270px;"><TD ALIGN=left bordercolor=#f6f6dc>';
     content = content+'<FONT FACE="Verdana,Arial,Helvetica,sans-serif" COLOR=black SIZE=2>';
     content = content+mesg+'</FONT></TD></TABLE>';
-    yyy = yoffset;
+    hidepop = false;
     divcontent("popup",content);
 }
 
@@ -147,8 +147,8 @@ function get_mouse(e){
        yoffset = 25;
     }
     x = x+xoffset;
-    if (yyy==-3000){ 
-       y = y+yyy;
+    if (hidepop){ 
+       y = y-3000;
     }else{
        y = y+yoffset;
     }
@@ -170,7 +170,7 @@ function get_mouse(e){
 }
 
 function killpopup(){
-    yyy = -3000;
+    hidepop = true;
     divhide("popup");
 }
 
