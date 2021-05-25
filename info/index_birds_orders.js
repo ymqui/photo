@@ -747,6 +747,15 @@
      }
   }
 
+
+  function bmap(name,cord1,cord2){
+     if ((typeof cord1 === 'undefined') || (typeof cord2 === 'undefined')){   
+        return name;
+     }else{
+        return "<a href='https://map.baidu.com/poi/@"+cord1.toString()+"%2C"+cord2.toString()+"%2C19z"+lnksty+" target='bmap'>"+name+"</a>";
+     }
+  }
+
   function npsurl(pid,isfws){
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
