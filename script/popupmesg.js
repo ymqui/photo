@@ -140,7 +140,7 @@ function get_mouse(e){
         }catch(er){}
     }
     if(Math.abs(y+yoffset)>window.innerHeight){
-       xoffset = 0;
+       xoffset = -4;
        yoffset = -28;
     }else{
        xoffset = -10;
