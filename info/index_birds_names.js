@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-05-21T08:00");
+  var modiDate  = new Date("2021-05-26T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -363,7 +363,7 @@
   birds[j++] = new myBird("18-12-05T10:33","EURYPYGI","Sunbittern","日鳽","Eurypyga helias",[p_id("1812crbirding",62)],["crarol","12/2018"],"sunbit1");
 //birds[j++] = new myBird("21-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",[m_id("")],["mdbhrp","9/2015"],"whttro");
   birds[j++] = new myBird("16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",m_id(sas(["20160326","20210206"],"_025_RTLoon")),["ncoutb","3/2016","Winter plumage",""," at Jennette's Pier","珍妮特钓鱼码头","vavava","2/2021","Winter plumage, "+gmap("Bethel Beach Natural Area Preserve",37.409672,-76.249842)+", Mathews County","","","马修斯郡伯特利海滩自然保护区"]);
-//birds[j++] = new myBird("21-00-00T00:00","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("")],["vavava","2/2021","Little Island Park, Virginia Beach","","","弗吉尼亚海滩小岛公园"]);
+  birds[j++] = new myBird("21-05-26T12:15","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",[m_id("20210526_084_PacificLoon")],["vavava","5/2021",gmap("Lake Holiday",39.3097,-78.3104)+", Frederick County","","","弗雷德里克郡假日湖"]);
   birds[j++] = new myBird("15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[p_id("1503barnegat",16),m_id("20151126_137_CommonLoon(WP)"),p_id("1503barnegat",15)],["njblsp","3/2015","mdocci","11/2015","Winter plumage",""," "+gmap("Inlet",38.324354,-75.085441),"海口","njblsp","3/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[m_id("")],["mdbhrp","9/2015"],"kinpen1");
 //birds[j++] = new myBird("21-00-00T00:00","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[m_id("")],["mdbhrp","9/2015"],"emppen1");
