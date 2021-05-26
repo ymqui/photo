@@ -338,6 +338,8 @@ function initAlbum(){
     this[1][i++]  = (["Nap time","午睡"])[cn_ind];
     this[0][i]    = "20210524_2";
     this[1][i++]  = (["Afternoon snack","下午的点心"])[cn_ind];
+    this[0][i]    = "20210526_1";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
