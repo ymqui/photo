@@ -21,6 +21,8 @@ function initAlbum(){
     this[1][i++]  = (["Humacao Nature Preserve, Puerto Rico, USA","美国波多黎各乌马考自然保护区"])[cn_ind];
     this[0][i]    = "20160424_ChimneyRockSP";
     this[1][i++]  = (["Chimney Rock State Park, North Carolina, USA","美国北卡罗来纳州烟囱岩州立公园"])[cn_ind];
+    this[0][i]    = "20181205_ArenalLodge";
+    this[1][i++]  = (["Arenal Observatory Lodge, Alajuela, Costa Rica","哥斯达黎加阿拉胡埃拉省阿雷纳火山观测台山林小屋"])[cn_ind];
     this[0][i]    = "20201228_HuntleyMeadows";
     this[1][i++]  = (["Huntley Meadows Park, Virginia, USA","美国弗吉尼亚州亨特利湿地公园"])[cn_ind];
     this[0][i]    = "20210516_VABirding";
