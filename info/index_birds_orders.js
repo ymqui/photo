@@ -747,7 +747,6 @@
      }
   }
 
-
   function bmap(name,cord1,cord2){
      if ((typeof cord1 === 'undefined') || (typeof cord2 === 'undefined')){   
         return name;
@@ -756,11 +755,17 @@
      }
   }
 
-  function npsurl(pid,isfws){
+  function npsurl(pid,isfws,name){
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
+     }else if(typeof isfws == "string"){
+        return "<a hrf='https://www.nps.gov/"+pid+"/"+linksty+" target='"+pid+"'>"+isfws+"</a>";
      }else{
-        return "https://www.fws.gov/refuge/"+pid+"/";
+        if (typeof name === 'undefined'){
+           return "https://www.fws.gov/refuge/"+pid+"/";
+        }else{
+           return "<a hrf='https://www.fws.gov/refuge/"+pid+"/"+linksty+" target='"+pid+"'>"+name+"</a>";
+        }
      }
   }
 
