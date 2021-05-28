@@ -723,11 +723,19 @@
      return sas(album+"/"+album+"_",id);
   }
 
-  function baikeurl(bid){
+  function baikeurl(bid,name){
      if (typeof bid == "string"){
-        return "https://baike.baidu.com/item/"+bid;
+        if (typeof name === 'undefined'){
+           return "https://baike.baidu.com/item/"+bid;
+        }else{
+           return "<a hrf='https://baike.baidu.com/item/"+bid+"/"+linksty+" target='"+bid+"'>"+name+"</a>";
+        }    
      }else{
-        return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
+        if (typeof name === 'undefined'){
+           return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
+        }else{
+           return "<a hrf='http://www.niaobaike.com/baike/"+bid.toString()+".html"+linksty+" target='"+bid+"'>"+name+"</a>";
+        }  
      }
   }
 
@@ -769,8 +777,12 @@
      }
   }
 
-  function wikiurl(bid){
-     return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
+  function wikiurl(bid,name){
+     if (typeof name === 'undefined'){
+        return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
+     }else{
+        return "<a hrf='https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true)+linksty+" target='"+bid+"'>"+name+"</a>";
+     }
   }
 
   function reform(name,space,apostrophe,notlowercase){
