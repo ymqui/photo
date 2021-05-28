@@ -728,13 +728,13 @@
         if (typeof name === 'undefined'){
            return "https://baike.baidu.com/item/"+bid;
         }else{
-           return "<a hrf='https://baike.baidu.com/item/"+bid+"/"+linksty+" target='"+bid+"'>"+name+"</a>";
+           return "<a hrf='https://baike.baidu.com/item/"+bid+"/"+lnksty+" target='"+bid+"'>"+name+"</a>";
         }    
      }else{
         if (typeof name === 'undefined'){
            return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
         }else{
-           return "<a hrf='http://www.niaobaike.com/baike/"+bid.toString()+".html"+linksty+" target='"+bid+"'>"+name+"</a>";
+           return "<a hrf='http://www.niaobaike.com/baike/"+bid.toString()+".html"+lnksty+" target='"+bid+"'>"+name+"</a>";
         }  
      }
   }
@@ -767,12 +767,12 @@
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
      }else if(typeof isfws == "string"){
-        return "<a hrf='https://www.nps.gov/"+pid+"/"+linksty+" target='"+pid+"'>"+isfws+"</a>";
+        return "<a hrf='https://www.nps.gov/"+pid+"/"+lnksty+" target='"+pid+"'>"+isfws+"</a>";
      }else{
         if (typeof name === 'undefined'){
            return "https://www.fws.gov/refuge/"+pid+"/";
         }else{
-           return "<a hrf='https://www.fws.gov/refuge/"+pid+"/"+linksty+" target='"+pid+"'>"+name+"</a>";
+           return "<a hrf='https://www.fws.gov/refuge/"+pid+"/"+lnksty+" target='"+pid+"'>"+name+"</a>";
         }
      }
   }
@@ -781,7 +781,7 @@
      if (typeof name === 'undefined'){
         return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
      }else{
-        return "<a hrf='https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true)+linksty+" target='"+bid+"'>"+name+"</a>";
+        return "<a hrf='https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true)+lnksty+" target='"+bid+"'>"+name+"</a>";
      }
   }
 
