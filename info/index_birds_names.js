@@ -30,7 +30,6 @@
       debowb:  ["Bowers Beach","Delaware, USA","鲍尔斯海滩","美国特拉华州",wikiurl("Bowers, Delaware")],
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
       flapop:  ["Lake Apopka-Magnolia Park","Florida, USA","阿波普卡湖玉兰公园","美国佛罗里达州",wikiurl("Magnolia Park (Apopka, Florida)")],
-      flbinp:  ["Biscayne National Park","Florida, USA","比斯坎湾国家公园","美国佛罗里达州",npsurl("bisc"),baikeurl("比斯坎国家公园")],
       flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","黑角公园及码头","美国佛罗里达州迈阿密-戴德郡","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
@@ -88,7 +87,6 @@
       prcnwr:  ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",npsurl("cabo_rojo",true)],
       prsanj:  ["San Juan","Puerto Rico, USA","圣胡安","美国波多黎各",wikiurl("San Juan, Puerto Rico")],
       scbwma:  ["Bear Island Wildlife Management Area","South Carolina, USA","熊岛野生动物管理区","美国南卡罗来纳州","https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/56"],  
-      sccnwr:  ["Carolina Sandhills National Wildlife Refuge","South Carolina, USA","卡罗来纳沙丘国家野生动物保护区","美国南卡罗来纳州",npsurl("Carolina_Sandhills",true)],  
       schbsp:  ["Huntington Beach State Park","South Carolina, USA","亨廷顿海滩州立公园","美国南卡罗来纳州","http://southcarolinaparks.com/huntingtonbeach/"],
       scjwwc:  ["James Webb Wildlife Center","South Carolina, USA","詹姆斯·韦伯野生动物中心","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/webbcenter.html"],
       sclobp:  ["Lewis Ocean Bay Heritage Preserve","South Carolina, USA","刘易斯海湾遗产保护区","美国南卡罗来纳州","https://www2.dnr.sc.gov/ManagedLands/ManagedLand/ManagedLand/104"],
@@ -388,7 +386,7 @@
   birds[j++] = new myBird("15-10-31T14:10","PHALACRO","Great Cormorant","普通鸬鹚","Phalacrocorax carbo",[p_id("1601china",61),m_id("20151031_120_GreatCormorant(I)")],["cnxmjm","1/2016","mdocci","10/2015","Immature",""," "+gmap("Inlet",38.324354,-75.085441),"海口"]);
   birds[j++] = new myBird("20-01-23T12:15","PHALACRO","Neotropic Cormorant","美洲鸬鹚","Phalacrocorax brasilianus",p_id("2001txbirding",[12,13]),["txanwr","1/2020"]);
   birds[j++] = new myBird("05-12-24T14:58","PHALACRO","Double-crested Cormorant","角鸬鹚","Phalacrocorax auritus",[p_id("1112floridabirding",19),p_id("1312savannahbirding",12)],["flevnp","12/2011","scsnwr","12/2013"]);
-  birds[j++] = new myBird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15)],["flbinp","12/2005","flevnp","12/2011"]);
+  birds[j++] = new myBird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15)],["arb","12/2005",npsurl("bisc","Biscayne National Park")+", Florida, USA","美国佛罗里达州"+baikeurl("比斯坎湾国家公园","比斯坎国家公园"),"flevnp","12/2011"]);
 //birds[j++] = new myBird("21-00-00T00:00","THRESKIO","Scarlet Ibis","美洲红鹮","Eudocimus ruber",["0504zoo/0504zoo__15","0504zoo/0504zoo__22"],["natzo","4/2005","Adult","natzo","4/2005","Immature"],"scaibi");
   birds[j++] = new myBird("05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",[p_id("0512merritt",9)],["flmnwr","12/2005"]);
   birds[j++] = new myBird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[p_id("2001txbirding",32)],["txsnwr","1/2020","Nonbreeding plumage"]);
@@ -494,7 +492,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Nuttall's Woodpecker","加州啄木鸟","Dryobates nuttallii",[p_id("1601china",)],["cnbjjp","1/2016"],10038);
   birds[j++] = new myBird("13-12-25T14:40","PICIDAE ","Ladder-backed Woodpecker","纹背啄木鸟","Dryobates scalaris",[p_id("1312bigbendbirding",1),p_id("2001txbirding",21)],["txbbnp","12/2013","Male","txsnwr","1/2020","Female"]);
   birds[j++] = new myBird("05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Dryobates pubescens",m_id(["20160130_007_DownyWoodpecker(M)","20170827_095_DownyWoodpecker(F)"]),["mdbhrp","1/2016","Male","mdcorl","8/2017","Female"]);
-  birds[j++] = new myBird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Dryobates borealis",p_id("1509charleston",[2,3]),["sccnwr","9/2015"]);
+  birds[j++] = new myBird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Dryobates borealis",p_id("1509charleston",[2,3]),["arb","9/2015",npsurl("Carolina_Sandhills",true,"Carolina Sandhills National Wildlife Refuge")+", South Carolina, USA","美国南卡罗来纳州"+npsurl("Carolina_Sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]);
   birds[j++] = new myBird("18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Dryobates fumigatus",[p_id("1812crbirding",24)],["crarol","12/2018","Male"],"smbwoo1");
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Arizona Woodpecker","亚利桑那啄木鸟","Dryobates arizonae",[p_id("1601china",)],["cnbjjp","1/2016"],10034);
   birds[j++] = new myBird("06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Dryobates villosus",[m_id("20210515_074_HairyWoodpecker"),m_id("20170506_048_HairyWoodpecker(F)")],["mdwhrp","5/2021","Male","nycenp","5/2017","Female"]);
