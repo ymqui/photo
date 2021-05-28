@@ -17,7 +17,6 @@
       cambsp:  ["Morro Bay State Park","California, USA","莫罗湾州立公园","美国加利福尼亚州","http://www.parks.ca.gov/?page_id=594"],
       cnbjjp:  ["Jingshan Park","Beijing, China","北京景山公园","中国",wikiurl("Jingshan Park"),baikeurl("景山公园")],
       cnbjsp:  ["Summer Palace","Beijing, China","北京颐和园","中国",wikiurl("Summer Palace"),baikeurl("颐和园")],
-      cnbjth:  ["Temple of Heaven","Beijing, China","北京天坛公园","中国",wikiurl("Temple of Heaven"),baikeurl("天坛")],
       cnjsxp:  ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl("须江公园")],
       cnlydp:  [gmap("Denggao Park",25.09248,117.0358),"Longyan, Fujian, China","龙岩"+bmap("登高山公园",13029222,2869550),"中国福建省"],
       cnlynv:  ["Neiban Village","Longyan, Fujian, China","龙岩龙门镇内坂村","中国福建省",baikeurl("龙门镇/4844737")],
@@ -771,7 +770,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Common Blackbird","乌鸫","Turdus merula",p_id("1601china",[16,70]),["cnjsxp","1/2016","cnbjsp","1/2016"],"eurbla");
   birds[j++] = new myBird("16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","1/2016","Male","cnjsxp","1/2016","Female"],"chibla1","乌鸫普通亚种");
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Red-throated Thrush","赤颈鸫","Turdus ruficollis",[p_id("1601china",)],["cnlydp","1/2016","Male"],"retthr1");
-  birds[j++] = new myBird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","1/2016","cnbjth","1/2016"],"dusthr1");
+  birds[j++] = new myBird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","1/2016","arb","1/2016",wikiurl("Temple of Heaven","Temple of Heaven")+", Beijing, China","中国北京"+baikeurl("天坛","天坛公园")],"dusthr1");
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",[p_id("1601china",)],["cnbjjp","1/2016"],"dusthr2","斑鸫北方亚种");
   birds[j++] = new myBird("18-12-04T07:50","TURDIDAE","Clay-colored Thrush","褐背鸫","Turdus grayi",[p_id("1812crbirding",29)],["crarol","12/2018"],"clcrob");
   birds[j++] = new myBird("19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",[p_id("1905mxbird",31)],["mxmcal","5/2019"],"rubrob");
@@ -808,7 +807,7 @@
   birds[j++] = new myBird("16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",[p_id("1601china",27)],["cnjsxp","1/2016","Female"],"yebgro1");
   birds[j++] = new myBird("14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",m_id(["20161016_104_PurpleFinch(M)","20161106_115_PurpleFinch(F)"]),["mdbhrp","10/2016","Male","mdcrvp","11/2016","Female"]);
   birds[j++] = new myBird("06-08-11T17:33","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",p_id("1412mckee-beshers",[1,35,2]),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female"]);
-  birds[j++] = new myBird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",[p_id("1601china",71)],["cnbjth","1/2016"],"origre");
+  birds[j++] = new myBird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",[p_id("1601china",71)],["arb","1/2016",wikiurl("Temple of Heaven","Temple of Heaven")+", Beijing, China","中国北京"+baikeurl("天坛","天坛公园")],"origre");
   birds[j++] = new myBird("15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7),m_id("20201027_115")],["mdbhrp","1/2015","Female, with a "+b_link("Pine Siskin")+" on the right","雌性，右边是一只"+b_link("松金翅雀"),"mdocci","10/2020","Female, "+gmap("Sunset Park",38.327652,-75.090674),"","","日落公园"]);
   birds[j++] = new myBird("21-01-24T11:53","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",m_id(["20210124_017_HoaryRedpoll","20210124_018_HoaryRedpoll"]),["papapa","1/2021",gmap("N. Oak Lane",40.805441,-77.913836)+", State College","","","州立大学北橡树巷"]);
   birds[j++] = new myBird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",[m_id("20170211_020_RedCrossbill")],["papapa","2/2017","Males red, females yellow-green, "+gmap("Owl Creek Park",40.796020,-75.928169)+", Schuylkill County","雄性带红色，雌性黄绿色","","斯古吉尔郡鸮河公园"]);
