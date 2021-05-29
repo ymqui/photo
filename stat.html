@@ -6,6 +6,7 @@
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/error.js">           </SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"> </SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/stat.js">              </SCRIPT>
 <style>
 .center{
    margin-left: auto;
@@ -100,8 +101,8 @@ var fcol1 = '#000080';
 var fcol2 = '#0000A0';
 var fcol3 = 'green';
 
-var tot_bird = '<a href="https://www.worldbirdnames.org/new/updates/" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/10806',fcol3)+'</a>';
-var tot_coun = '<a href="https://en.wikipedia.org/wiki/List_of_sovereign_states" style="text-decoration:none; color:'+fcol3+';" target="linktotc">'+mytext('/195',fcol3)+'</a>';
+var tot_bird = '<a href="https://www.worldbirdnames.org/new/updates/" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+btot.toString(),fcol3)+'</a>';
+var tot_coun = '<a href="https://en.wikipedia.org/wiki/List_of_sovereign_states" style="text-decoration:none; color:'+fcol3+';" target="linktotc">'+mytext('/'+ctot.toString(),fcol3)+'</a>';
 var tot_bord = '<a href="https://www.worldbirdnames.org/new/updates/" style="text-decoration:none; color:'+fcol3+';" target="linktoto">'+mytext('/'+otot.toString(),fcol3)+'</a>';
 var tot_bfam = '<a href="https://www.worldbirdnames.org/new/updates/" style="text-decoration:none; color:'+fcol3+';" target="linktotf">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
 
