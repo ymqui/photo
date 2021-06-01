@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-05-26T08:00");
+  var modiDate  = new Date("2021-05-31T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -344,7 +344,7 @@
   birds[j++] = new myBird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407michiganbirding",[15,16]),["mimack","7/2014"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086_Forster'sTern(I)")],["njcmsp","5/2015","mdenwr","7/2015","Winter plumage (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("")],["schbsp","6/2018"]);
+  birds[j++] = new myBird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("20210531_085_BlackTern")],["papapa","5/2021",npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge"),"","",npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
 //birds[j++] = new myBird("21-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[m_id("")],["mdocci","7/2020","",""," "+gmap("Inlet",38.324354,-75.085441),"海口"]);
 //birds[j++] = new myBird("21-00-00T00:00","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",[m_id("")],["mdocin","10/2015"]);
   birds[j++] = new myBird("21-01-17T12:01","ALCIDAE ","Dovekie","侏海雀","Alle alle",m_id(["20210117_015_Dovekie","20210117_016_Dovekie"]),["deinri","1/2021"]);
@@ -905,7 +905,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
-//birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["vavava","5/2021",gmap("Frying Pan Farm Park",38.93912,-77.41044)+", Fairfax County","","","费尔法克斯郡煎锅农场公园"]);
+//birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["papapa","5/2021",npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge"),"","",npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
   birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[p_id("2020lbrp",4)],["mdlbrp","5/2020"]);
   birds[j++] = new myBird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat(M)"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat(IM)")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdorpk","9/2017","Immature male"]);
   birds[j++] = new myBird("19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",p_id("1905mxbird",[13,12]),["mxunam","5/2019","Male"],"hooyel1");
