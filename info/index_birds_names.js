@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-05-31T08:00");
+  var modiDate  = new Date("2021-06-06T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -335,10 +335,10 @@
   birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter",""]);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The "+(t1=gmap("Bund",31.242501,121.490825)+", Shanghai, China"),"中国上海外滩","arb","1/2016","Immature, the "+t1,"未成年，中国上海外滩"],"veggul1");
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("")],["vavava","4/2021","Willis Wharf, Northampton County","","","北安普敦郡威利斯码头"]);
+//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("")],["vavava","6/2021",npsurl("fomr",true,"Fort Monroe National Monument")+", Hampton","","","汉普顿市"+npsurl("fomr",true,"门罗堡纪念碑")]);
   birds[j++] = new myBird("15-07-10T10:09","LARIDAE ","Caspian Tern","红嘴巨鸥","Hydroprogne caspia",m_id(sas("20150808_08",["9","8"],"_CaspianTern")),["vavava","8/2015",gmap("Dyke Marsh Wildlife Preserve",38.769859,-77.046406),"","","黛克湿地野生动物保护区"]);
   birds[j++] = new myBird("15-01-08T09:29","LARIDAE ","Royal Tern","橙嘴凤头燕鸥","Thalasseus maximus",[m_id("20151031_117_RoyalTern(W)"),p_id("1501prbirding",41),p_id("1501prbirding",42)],["mdocci","10/2015","Winter plumage",""," "+gmap("Inlet",38.324354,-75.085441),"海口","prsanj","1/2015"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",[m_id("")],["schbsp","6/2018"]);
+  birds[j++] = new myBird("21-06-06T13:37","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",[m_id("20210606_087_SandwichTern")],["vavava","6/2021",npsurl("fomr",true,"Fort Monroe National Monument")+", Hampton","","","汉普顿市"+npsurl("fomr",true,"门罗堡纪念碑")]);
   birds[j++] = new myBird("15-07-26T09:02","LARIDAE ","Least Tern","姬燕鸥","Sternula antillarum",m_id(["20150726_084_LeastTern","20150726_085_LeastTern(I)"]),["mdenwr","7/2015","mdenwr","7/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407michiganbirding",[15,16]),["mimack","7/2014"]);
