@@ -344,6 +344,8 @@ function initAlbum(){
     this[1][i++]  = (["Parent-teacher conference with Ms Sally and Ms Joy","跟Sally老师和Joy老师开家长会"])[cn_ind];
     this[0][i]    = "20210528_1";
     this[1][i++]  = (["Happy Memorial Day","周末愉快"])[cn_ind];
+    this[0][i]    = "20210603_1";
+    this[1][i++]  = (["Holding a parachute","一起拿着降落伞"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
