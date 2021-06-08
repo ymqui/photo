@@ -346,6 +346,12 @@ function initAlbum(){
     this[1][i++]  = (["Happy Memorial Day","周末愉快"])[cn_ind];
     this[0][i]    = "20210603_1";
     this[1][i++]  = (["Holding a parachute","一起拿着降落伞"])[cn_ind];
+    this[0][i]    = "20210607_1";
+    this[1][i++]  = (["Catching a cicada","抓知了"])[cn_ind];
+    this[0][i]    = "20210607_2";
+    this[1][i++]  = (["Dancing class with Ms Nadya","在Nadya老师的课上跳舞"])[cn_ind];
+    this[0][i]    = "20210607_3";
+    this[1][i++]  = (["Drawing family picture with Ms Nadya","和Nadya老师一起画家庭成员"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
