@@ -65,7 +65,7 @@
       mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl("麦基诺岛")], 
       mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],
       mxmcbc:  ["Chapultepec Park","Mexico City, Mexico","查普尔特佩克公园","墨西哥墨西哥城",wikiurl("Chapultepec"),baikeurl("查普尔特佩克公园")],
-      mxguan:  ["The Pipila Monument","Guanajuato City, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
+      mxguan:  ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
       mxunam:  ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
       ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州",npsurl("blri"),baikeurl("蓝岭")], 
       nccrsp:  ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"],  
