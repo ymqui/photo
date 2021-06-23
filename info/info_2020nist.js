@@ -354,6 +354,10 @@ function initAlbum(){
     this[1][i++]  = (["Drawing family picture with Ms Nadya","和Nadya老师一起画家庭成员"])[cn_ind];
     this[0][i]    = "20210608_1";
     this[1][i++]  = (["Handing off to Keshan in the beanbag balancing relay","在豆袋平衡接力中递给Keshan"])[cn_ind];
+    this[0][i]    = "20210617_1";
+    this[1][i++]  = (["Painting a jellyfish","画水母"])[cn_ind];
+    this[0][i]    = "20210623_1";
+    this[1][i++]  = (["Running like a train","像火车一样奔跑"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
