@@ -358,6 +358,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting a jellyfish","画水母"])[cn_ind];
     this[0][i]    = "20210623_1";
     this[1][i++]  = (["Running like a train","像火车一样奔跑"])[cn_ind];
+    this[0][i]    = "20210623_2";
+    this[1][i++]  = (["Lunch","午餐"])[cn_ind];
+    this[0][i]    = "20210625_1";
+    this[1][i++]  = (["Running like a train","像火车一样奔跑"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
