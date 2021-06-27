@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-06-06T08:00");
+  var modiDate  = new Date("2021-06-26T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -172,7 +172,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","ODONTOPH","Scaled Quail","鳞斑鹑","Callipepla squamata",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","ODONTOPH","California Quail","珠颈翎鹑","Callipepla californica",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("1507birdingwest",2)],["nvdnwr","7/2015","Female"]);
-//birds[j++] = new myBird("21-00-00T00:00","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[m_id("")],["vavava","6/2020","Powhatan State Park","","","博哈坦州立公园"]);
+  birds[j++] = new myBird("21-06-26T10:51","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",[m_id("20210626_094_NorthernBobwhite")],["debnwr","6/2021","Male"]);
 //birds[j++] = new myBird("21-00-00T00:00","ODONTOPH","Montezuma Quail","彩鹑","Cyrtonyx montezumae",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",[p_id("1604asheville",1)],["ncbpkw","4/2016","Female"]);
   birds[j++] = new myBird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",[p_id("1609vtcanbirding",10)],["vtwwma","9/2016"]);
