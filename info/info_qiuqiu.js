@@ -20,7 +20,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["1910parade","10/2019 Goddard School Halloween Parade","10/2019 戈达德托儿所万圣节游行"],["2001texas","1/2020 Vacationing in Texas","1/2020 德克萨斯州度假"],
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"],["2107trainride","7/2021 Train Ride in Pennsylvania","7/2021 宾夕法尼亚州乘火车"],
- 	 	  ["2107philly","7/2021 Visiting Auntie Houzi","7/2021 去候子阿姨家玩"],
+ 	 	  ["2107philly","7/2021 Visiting Auntie Houzi in Pennsylvania","7/2021 宾夕法尼亚州候子阿姨家玩"],
                   ["2020nist","11/2020-"+strDate+" NIST Daycare","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -217,7 +217,7 @@ function initAlbum(){
     this[0][i]    = ["2107trainride/2107trainride_3","20210703"];
     this[1][i++]  = ([pagelink("2107trainride","Riding a steam train on the Strasburg Rail Road")+" in Pennsylvania","在宾夕法尼亚州斯特拉斯堡"+pagelink("2107trainride","乘坐蒸汽火车")])[cn_ind];
     this[0][i]    = ["2107philly/2107philly_3","20210704"];
-    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new house")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2107philly","参观候子阿姨新家")+"时和James哥哥一起赛车"])[cn_ind];
+    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new house")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和James哥哥一起赛车"])[cn_ind];
    
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
