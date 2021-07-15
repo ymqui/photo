@@ -370,6 +370,8 @@ function initAlbum(){
     this[1][i++]  = (["Tiger art","老虎拼图"])[cn_ind];
     this[0][i]    = "20210707_1";
     this[1][i++]  = (["Letter recognition practice","字母识别练习"])[cn_ind];
+    this[0][i]    = "20210715_1";
+    this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
