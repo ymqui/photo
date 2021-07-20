@@ -220,7 +220,9 @@ function initAlbum(){
     this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new house")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和James哥哥一起赛车"])[cn_ind];
     this[0][i]    = "20210711_WaterFountain";
     this[1][i++]  = (["Playing in the water fountain with Adele at Rockville Town Square","和小希姐姐在罗克维尔市广场的喷泉中玩水"])[cn_ind];
-   
+    this[0][i]    = "20210717_20401";
+    this[1][i++]  = (["Saying goodbye to the old house at Germantown","和德国镇的老房子说再见"])[cn_ind];
+  
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
            this[1][i] = getdate(this[0][i],this[1][i]);
