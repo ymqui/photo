@@ -373,9 +373,9 @@ function initAlbum(){
     this[0][i]    = "20210715_1";
     this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
     this[0][i]    = "20210721_1";
-    this[1][i++]  = (["Painting with aluminum foil","用铝箔画画"])[cn_ind];
+    this[1][i++]  = (["Painting with aluminum foil","用铝箔涂油漆"])[cn_ind];
     this[0][i]    = "20210721_2";
-    this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[1][i++]  = (["Painting","涂油漆"])[cn_ind];
     this[0][i]    = "20210721_3";
     this[1][i++]  = (["Making a sensory bottle","制作感官瓶"])[cn_ind];
 
