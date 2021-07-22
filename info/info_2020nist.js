@@ -372,6 +372,12 @@ function initAlbum(){
     this[1][i++]  = (["Letter recognition practice","字母识别练习"])[cn_ind];
     this[0][i]    = "20210715_1";
     this[1][i++]  = (["Outdoor activity","户外活动"])[cn_ind];
+    this[0][i]    = "20210721_1";
+    this[1][i++]  = (["Painting with aluminum foil","用铝箔画画"])[cn_ind];
+    this[0][i]    = "20210721_2";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[0][i]    = "20210721_3";
+    this[1][i++]  = (["Making a sensory bottle","制作感官瓶"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
