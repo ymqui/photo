@@ -68,15 +68,31 @@
 
   var family  = [];
   var j = 0;
-  family[j++] = new newFamily("PODARGIDAE","蟆口鸱科","Frogmouths","蟆口鸱");
-  family[j++] = new newFamily("STEATORNITHIDAE","油鸱科","Oilbird","油鸱");
-  family[j++] = new newFamily("NYCTIBIIDAE","林鸮科","Potoos","林鸮");
-  family[j++] = new newFamily("CAPRIMULGIDAE","夜鹰科","Goatsuckers","夜鹰");
+  family[j++] = new newFamily("CAPRIMULGIDAE","夜鹰科","Nightjars","夜鹰");
   orders[i++] = new newOrder("CAPRIMULGIFORMES","夜鹰目","Nightjars","夜鹰",family);
 
   var family  = [];
   var j = 0;
+  family[j++] = new newFamily("STEATORNITHIDAE","油鸱科","Oilbird","油鸱");
+  orders[i++] = new newOrder("STEATORNITHIFORMES","油鸱目","Oilbird","油鸱",family);
+
+  var family  = [];
+  var j = 0;
+  family[j++] = new newFamily("NYCTIBIIDAE","林鸮科","Potoos","林鸮");
+  orders[i++] = new newOrder("NYCTIBIIFORMES","林鸮目","Potoos","林鸮",family);
+
+  var family  = [];
+  var j = 0;
+  family[j++] = new newFamily("PODARGIDAE","蟆口鸱科","Frogmouths","蟆口鸱");
+  orders[i++] = new newOrder("PODARGIFORMES","蟆口鸱目","Frogmouths","蟆口鸱",family);
+
+  var family  = [];
+  var j = 0;
   family[j++] = new newFamily("AEGOTHELIDAE","裸鼻鸱科","Owlet-nightjars","裸鼻鸱");
+  orders[i++] = new newOrder("AEGOTHELIFORMES","裸鼻鸱目","Owlet-nightjars","裸鼻鸱",family);
+
+  var family  = [];
+  var j = 0;
   family[j++] = new newFamily("HEMIPROCNIDAE","凤头雨燕科","Treeswifts","凤头雨燕");
   family[j++] = new newFamily("APODIDAE","雨燕科","Swifts","雨燕");
   family[j++] = new newFamily("TROCHILIDAE","蜂鸟科","Hummingbirds","蜂鸟");
@@ -240,20 +256,6 @@
   var j = 0;
   family[j++] = new newFamily("TROGONIDAE","咬鹃科","Trogons and Quetzals","咬鹃和绿咬鹃");
   orders[i++] = new newOrder("TROGONIFORMES","咬鹃目","Trogons and Quetzals","咬鹃和绿咬鹃",family);
-
-//var family  = [];
-//var j = 0;
-//orders[i++] = new newOrder("PODARGIFORMES","蟆口鸱目","Frogmouths","蟆口鸱",family);
-
-//var family  = [];
-//var j = 0;
-//orders[i++] = new newOrder("STEATORNITHIFORMES","油鸱目","Oilbird","油鸱",family);
-
-
-//var family  = [];
-//var j = 0;
-//orders[i++] = new newOrder("AEGOTHELIFORMES","裸鼻鸱目","Owlet-nightjars","裸鼻鸱",family);
-
 
   var family  = [];
   var j = 0;
