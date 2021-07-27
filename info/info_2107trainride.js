@@ -37,6 +37,7 @@ function initAlbum(){
         this[1][17] = "在斯特拉斯堡火车站和James哥哥和候子阿姨会面好开心。";
         this[1][18] = "在木头玩具火车里玩。";
         this[1][20] = "坐蒸汽小火车。";
+        this[1][22] = "球球不喜欢太吵的汽笛声。";
     }else{
         this[1][0] = "Brushing teeth after getting up.";
         this[1][1] = "On the steam train. Nathan had a nosebleed on the way to the Strasburg Rail Road.";
@@ -47,6 +48,7 @@ function initAlbum(){
         this[1][17] = "So happy to meet James and Auntie Houzi at the Strasburg rail station.";
         this[1][18] = "Playing in the playground.";
         this[1][20] = "Taking a mini train ride.";
+        this[1][22] = "Nathan doesn't like the loud steam whistle noise.";
     }
 }
  
