@@ -222,6 +222,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the water fountain with Adele at Rockville Town Square","和小希姐姐在罗克维尔市广场的喷泉中玩水"])[cn_ind];
     this[0][i]    = "20210717_20401";
     this[1][i++]  = (["Saying goodbye to the old house at Germantown","和德国镇的老房子说再见"])[cn_ind];
+    this[0][i]    = ["2107trainride/2107trainride_20","20210725"];
+    this[1][i++]  = (["Playing in the playground in the "+pagelink("2107trainride","Strasburg Rail Station")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2107trainride","斯特拉斯堡火车站")+"的木头游乐火车里玩"])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
