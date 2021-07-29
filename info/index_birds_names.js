@@ -372,6 +372,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","HYDROBAT","European Storm-Petrel","暴风海燕","Hydrobates pelagicus",[m_id("")],["mdbhrp","9/2015"],"bripet","海燕科/2336774");
 //birds[j++] = new myBird("21-00-00T00:00","HYDROBAT","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Hydrobates furcatus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PROCELLA","Northern Fulmar","暴风鹱","Fulmarus glacialis",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",[m_id("")],["mdbhrp","9/2015"],"corshe");
 //birds[j++] = new myBird("21-00-00T00:00","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",[m_id("")],["mdbhrp","9/2015"],"sooshe");
 //birds[j++] = new myBird("21-00-00T00:00","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",[m_id("")],["mdbhrp","9/2015"],"greshe");
 //birds[j++] = new myBird("21-00-00T00:00","PROCELLA","Manx Shearwater","普通剪水鹱","Puffinus puffinus",[m_id("")],["mdbhrp","9/2015"],"manshe","剪水鹱");
