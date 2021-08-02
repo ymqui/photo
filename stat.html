@@ -58,6 +58,9 @@ function getCountry(str,sep){
     return tmp[tmp.length-2];
 }
 
+var is_chinese = /chinese/.test(window.location.search.substring(1));
+var cn_ind = is_chinese?1:0;
+
 //chinese name for countries
 var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
 var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
@@ -145,8 +148,6 @@ for (var i=0;i<tmp.length;i++){
 }
 
 loc_cnts = sortProperties(loc_cnts);
-var is_chinese = /chinese/.test(window.location.search.substring(1));
-var cn_ind = is_chinese?1:0;
 
 document.write('<table class="center">');
 document.write('<tr><td colspan="9">');
