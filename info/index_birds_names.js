@@ -341,9 +341,9 @@
   birds[j++] = new myBird("15-01-08T09:29","LARIDAE ","Royal Tern","橙嘴凤头燕鸥","Thalasseus maximus",[m_id("20151031_117_RoyalTern(W)"),p_id("1501prbirding",41),p_id("1501prbirding",42)],["mdocci","10/2015","Winter plumage",""," "+gmap("Inlet",38.32435,-75.08544),"海口","prsanj","1/2015"]);
   birds[j++] = new myBird("21-06-06T13:37","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",[m_id("20210606_087_SandwichTern")],["vavava","6/2021",npsurl("fomr","Fort Monroe National Monument")+", Hampton","","","汉普顿市"+npsurl("fomr","门罗堡纪念碑")]);
   birds[j++] = new myBird("15-07-26T09:02","LARIDAE ","Least Tern","姬燕鸥","Sternula antillarum",m_id(["20150726_084_LeastTern","20150726_085_LeastTern(I)"]),["mdenwr","7/2015","mdenwr","7/2015","Juvenile"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[m_id("")],["marace","8/2021"]);
   birds[j++] = new myBird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407michiganbirding",[15,16]),["mimack","7/2014"]);
-//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",[m_id("")],["marace","8/2021"]);
   birds[j++] = new myBird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086_Forster'sTern(I)")],["njcmsp","5/2015","mdenwr","7/2015","Winter plumage (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"]);
   birds[j++] = new myBird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("20210531_085_BlackTern")],["papapa","5/2021","Breeding adult, "+npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge")+", Philadelphia","","","费城"+npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
 //birds[j++] = new myBird("21-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[m_id("")],["mdocci","7/2020","",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
