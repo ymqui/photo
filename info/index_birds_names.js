@@ -36,7 +36,7 @@
       gbhydp:  ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wikiurl("Hyde Park, London"),baikeurl("海德公园")],
       gblwcn:  ["London Wetland Centre","United Kingdom","伦敦湿地中心","英国","https://www.wwt.org.uk/wetland-centres/london/"],
       mahpsp:  ["Halibut Point State Park","Rockport, Massachusetts, USA","大比目鱼角州立公园","美国马萨诸塞州","https://www.mass.gov/locations/halibut-point-state-park"],
-      marace:  ["Race Point","Provincetown, Massachusetts, USA",,"普罗温斯敦横流点海滩","美国马萨诸塞州","https://www.nps.gov/caco/planyourvisit/race-point-beach.htm"],
+      marace:  ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州","https://www.nps.gov/caco/planyourvisit/race-point-beach.htm"],
       mdbhrp:  ["Black Hill Regional Park","Maryland, USA","黑山公园","美国马里兰州","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt:  ["Blue Mash Nature Trail","Maryland, USA","蓝沼自然小径","美国马里兰州","https://www.montgomerycountymd.gov/sws/facilities/oaks/"],
       mdbnwr:  ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true),baikeurl("国立黑水野生动物保护区")],
