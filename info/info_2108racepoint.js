@@ -1,7 +1,7 @@
 <!--
 //Created by Album Builder Program Sun Aug 15 20:20:38 2021
 var info_url   = "https://www.nps.gov/caco/planyourvisit/race-point-beach.htm";
-var title      = "Birding in Race Point, Provincetown, Massachusetts";
+var title      = "Birding at Race Point, Provincetown, Massachusetts";
 var cam_img    = "camera_canon_6d.jpg";
 var cam_tit    = "Canon SLR EOS 6D, 20.2 Mega Pixels.";
 var dir        = maindir+"pics/2108racepoint/";
