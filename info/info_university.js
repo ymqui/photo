@@ -24,7 +24,15 @@ function initAlbum(){
     this[1][i++]  = (["US Naval Academy, Annapolis, Maryland, United States","美国海军学院，美国马里兰州安纳波利斯市"])[cn_ind];
     this[0][i]    = "20210306_002_JHU";
     this[1][i++]  = (["Johns Hopkins University, Baltimore, Maryland, United States","约翰·霍普金斯大学，美国马里兰州巴尔的摩市"])[cn_ind];
-    
+    this[0][i]    = ["2108vacation/2108vacation_2","20210807"];
+    this[1][i++]  = (["Carnegie Mellon University, Pittsburgh, Pennsylvania, United States","卡内基梅隆大学，美国宾夕法尼亚州匹兹堡"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_39","20210812"];
+    this[1][i++]  = (["Massachusetts Institute of Technology, Cambridge, Massachusetts, United States","麻省理工学院，美国马萨诸塞州剑桥市"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_40","20210812"];
+    this[1][i++]  = (["Harvard University, Cambridge, Massachusetts, United States","哈佛大学，美国马萨诸塞州剑桥市"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_44","20210813"];
+    this[1][i++]  = (["Princeton University, Princeton, New Jersey, United States","普林斯顿大学，美国新泽西州普林斯顿"])[cn_ind];
+
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
            this[1][i] = getdate(this[0][i],this[1][i]);
