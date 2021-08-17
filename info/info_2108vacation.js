@@ -57,7 +57,7 @@ function initAlbum(){
         this[1][40] = "参观哈佛大学。";
         this[1][41] = "参观普林斯顿大学。";
     }else{
-        this[1][0] = "Arriving at the hotel in Pittsburg.";
+        this[1][0] = "Arriving at the hotel in Pittsburgh.";
         this[1][1] = "Visiting Carnegie Mellon University.";
         this[1][2] = "Visiting Carnegie Mellon University.";
         this[1][4] = "Visiting Kennywood Amusement Park in Pittsburgh.";
