@@ -20,7 +20,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["1910parade","10/2019 Goddard School Halloween Parade","10/2019 戈达德托儿所万圣节游行"],["2001texas","1/2020 Vacationing in Texas","1/2020 德克萨斯州度假"],
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"],["2107trainride","7/2021 Train Ride in Pennsylvania","7/2021 宾夕法尼亚州乘火车"],
- 	 	  ["2107philly","7/2021 Visiting Aunt Houzi in Pennsylvania","7/2021 宾夕法尼亚州候子阿姨家玩"],
+ 	 	  ["2107philly","7/2021 Visiting Aunt Houzi in Pennsylvania","7/2021 宾夕法尼亚州候子阿姨家玩"],["2108vacation","8/2021 Vacationing in Pittsburgh and Provincetown","8/2021 匹兹堡和普罗温斯敦度假"],
                   ["2020nist","11/2020-"+strDate+" NIST Daycare","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -224,6 +224,12 @@ function initAlbum(){
     this[1][i++]  = (["Saying goodbye to the old house at Germantown","和德国镇的老房子说再见"])[cn_ind];
     this[0][i]    = ["2107trainride/2107trainride_20","20210725"];
     this[1][i++]  = (["Playing in the playground in the "+pagelink("2107trainride","Strasburg Rail Station")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2107trainride","斯特拉斯堡火车站")+"的木头游乐火车里玩"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_8","20210807"];
+    this[1][i++]  = (["Riding the Thomas train during the "+pagelink("2108vacation","vacation in Pittsburg, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时乘托马斯火车"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_29","20210808"];
+    this[1][i++]  = (["Visiting the Pittsburg Zoo and PPG Aquarium during the "+pagelink("2108vacation","vacation in Pittsburg, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观匹兹堡动物园和水族馆"])[cn_ind];
+    this[0][i]    = ["2108vacation/2108vacation_34","20210808"];
+    this[1][i++]  = (["Visiting the Fallingwater designed by Frank Lloyd Wright during the "+pagelink("2108vacation","vacation in Pittsburg, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观建筑师弗兰克·劳埃德·赖特设计的落水山庄"])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
