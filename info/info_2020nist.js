@@ -384,6 +384,16 @@ function initAlbum(){
     this[1][i++]  = (["Water day","户外玩水日"])[cn_ind];
     this[0][i]    = "20210728_1";
     this[1][i++]  = (["Making a watermelon","贴西瓜"])[cn_ind];
+    this[0][i]    = "20210804_1";
+    this[1][i++]  = (["Playing with toy cars","玩玩具车"])[cn_ind];
+    this[0][i]    = "20210804_2";
+    this[1][i++]  = (["Making a mosaic art piece","贴纸片"])[cn_ind];
+    this[0][i]    = "20210817_1";
+    this[1][i++]  = (["Making an ocean animal mosaic","拼海洋动物"])[cn_ind];
+    this[0][i]    = "20210817_2";
+    this[1][i++]  = (["Making a jellyfish","制作水母图"])[cn_ind];
+    this[0][i]    = "20210818_1";
+    this[1][i++]  = (["Jellyfish","水母"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
