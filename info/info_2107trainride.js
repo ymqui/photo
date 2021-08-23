@@ -11,6 +11,7 @@ var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
+homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
     title      = "斯特拉斯堡火车之旅";

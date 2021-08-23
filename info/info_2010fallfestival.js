@@ -10,6 +10,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
+homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
     title      = "戈达德托儿所2020年金秋节";
