@@ -10,6 +10,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
+homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
     title      = "在宾夕法尼亚州匹兹堡和马萨诸塞州普罗温斯敦度假";
