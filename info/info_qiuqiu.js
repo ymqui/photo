@@ -230,6 +230,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Pittsburgh Zoo and PPG Aquarium during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观匹兹堡动物园和水族馆"])[cn_ind];
     this[0][i]    = ["2108vacation/2108vacation_34","20210808"];
     this[1][i++]  = (["Visiting the Fallingwater designed by Frank Lloyd Wright during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观建筑师弗兰克·劳埃德·赖特设计的落水山庄"])[cn_ind];
+    this[0][i]    = "20210824_007_Family";
+    this[1][i++]  = (["With Mommy and Daddy on the deck","和爸爸妈妈在阳台上"])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
