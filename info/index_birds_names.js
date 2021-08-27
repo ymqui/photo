@@ -302,7 +302,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("20-10-23T10:02","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",m_id(["20201023_108_PectoralSandpiper","20201023_109_PectoralSandpiper"]),["mdswhf","10/2020","mdswhf","10/2020","Juvenile"]);
   birds[j++] = new myBird("15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"]);
-  birds[j++] = new myBird("21-07-31T10:27","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("20210731_097_WesternSandpiper")],["mdmdmd","7/2021","Nonbreeding adult, "+gmap("Chesapeake Bay Environmental Center",38.94963,-76.23054),"","","切萨皮克湾环境中心"]);
+  birds[j++] = new myBird("21-07-31T10:27","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("20210731_097_WesternSandpiper")],["mdmdmd","7/2021",gmap("Chesapeake Bay Environmental Center",38.94963,-76.23054),"","","切萨皮克湾环境中心"]);
   birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14)],["arb","5/2015",gmap("The Wetlands Institute",39.06002,-74.77294)+", Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所"]);
   birds[j++] = new myBird("11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"]);
   birds[j++] = new myBird("16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["mdmdmd","2/2016",gmap("Patuxent River State Park at Hipsley Mill Road",39.26833,-77.11398),"","","帕塔克森特河州立公园"]);
