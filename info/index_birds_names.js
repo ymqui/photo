@@ -333,7 +333,7 @@
   birds[j++] = new myBird("15-07-11T20:16","LARIDAE ","Western Gull","西美鸥","Larus occidentalis",p_id("1507birdingwest",[33,35]),["cambsp","7/2015","cambsp","7/2015","Hatchling","幼鸟"]);
   birds[j++] = new myBird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190127_006_GlaucousGull(1W)")],["mdmdmd","1/2019","1st winter, "+gmap("West Ocean City Marina",38.32766,-75.10267),"","","大洋城西城码头"]);
   birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull(1W)","20190107_001_IcelandGull"]),["mdmapp","2/2017","1st winter","mdmdmd","1/2019","2nd winter, "+gmap("Loreley Beach Community Pier",39.3855,-76.40963)+", Baltimore County","","","巴尔的摩郡罗利滩社区码头"],9019);
-  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus argentatus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter",""]);
+  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus smithsonianus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter",""]);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The "+(t1=gmap("Bund",31.2425,121.49082)+", Shanghai, China"),"中国上海外滩","arb","1/2016","Immature, the "+t1,"未成年，中国上海外滩"],"veggul1");
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015"]);
   birds[j++] = new myBird("21-07-12T12:19","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("20210712_095_Gull-billedTern")],["debnwr","7/2021"]);
