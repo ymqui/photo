@@ -109,32 +109,32 @@ var tot_coun = '<a href="'+clnk+'" style="text-decoration:none; color:'+fcol3+';
 var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktoto">'+mytext('/'+otot.toString(),fcol3)+'</a>';
 var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotf">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
 
-var links = ['<a href="https://ebird.org/alert/summary?sid=SN35544&sortBy=obsDt&o=desc" target="link0">'+mytext('New Jersey Rare Bird Alert')+'</a>','',
-             '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link1">'+mytext('Maryland Rare Bird Alert')+'</a>','',
-             '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="link2">'+mytext('Virginia Rare Bird Alert')+'</a>','',
-             '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="link3">'+mytext('Delaware Rare Bird Alert')+'</a>','',
-             '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="link4">'+mytext('Pennsylvania Rare Bird Alert')+'</a>','',
-             '<a href="https://ebird.org/map" target="link5">'+mytext('Species Map')+'</a>','',
-             '<a href="https://ebird.org/hotspots" target="link6">'+mytext('Hotspots Map')+'</a>','',
-             '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext('MDBirding-Google Group')+'</a>','',
-             '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link8">'+mytext('MD Facebook Notable Sightings Group')+'</a>','',
-             '<a href="https://www.facebook.com/groups/118655321826890/" target="link9">'+mytext('VA Facebook Notable Sightings Group')+'</a>','',
-             '<a href="https://www.aba.org/aba-checklist/" target="link10">'+mytext('ABA Checklist')+'</a>','',
-             '<a href="https://www.aba.org/birding-news/" target="link11">'+mytext('ABA Birding News')+'</a>','',
-             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link12">'+mytext('New World Warbler Songs')+'</a>','',
+var links = ['<a href="https://ebird.org/alert/summary?sid=SN35544&sortBy=obsDt&o=desc" target="link0">'+mytext('New Jersey Rare Bird Alert')+'</a>',
+             '<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link1">'+mytext('Maryland Rare Bird Alert')+'</a>',
+             '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="link2">'+mytext('Virginia Rare Bird Alert')+'</a>',
+             '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="link3">'+mytext('Delaware Rare Bird Alert')+'</a>',
+             '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="link4">'+mytext('Pennsylvania Rare Bird Alert')+'</a>',
+             '<a href="https://ebird.org/map" target="link5">'+mytext('Species Map')+'</a>',
+             '<a href="https://ebird.org/hotspots" target="link6">'+mytext('Hotspots Map')+'</a>',
+             '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext('MDBirding-Google Group')+'</a>',
+             '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link8">'+mytext('MD Facebook Notable Sightings Group')+'</a>',
+             '<a href="https://www.facebook.com/groups/118655321826890/" target="link9">'+mytext('VA Facebook Notable Sightings Group')+'</a>',
+             '<a href="https://www.aba.org/aba-checklist/" target="link10">'+mytext('ABA Checklist')+'</a>',
+             '<a href="https://www.aba.org/birding-news/" target="link11">'+mytext('ABA Birding News')+'</a>',
+             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link12">'+mytext('New World Warbler Songs')+'</a>',
              '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link13">'+mytext('Warbler Guide Quick Finders')+'</a>'];
-var icons = ['https://static.ebird.org/images/favicons/ebird/favicon-32x32.png','',
-	     'https://ssl.gstatic.com/images/branding/product/1x/groups_32dp.png','',
-	     'https://www.facebook.com/rsrc.php/yD/r/d4ZIVX-5C-b.ico','',
-	     'https://www.facebook.com/rsrc.php/yD/r/d4ZIVX-5C-b.ico','',
-	     'https://www.aba.org/wp-content/uploads/2019/10/favaba.png','',
-	     'https://www.aba.org/wp-content/uploads/2019/10/favaba.png','',
-	     'https://ymqui.github.io/photo/thumbnail/cornell.png','',
+var icons = ['https://static.ebird.org/images/favicons/ebird/favicon-32x32.png',
+	     'https://ssl.gstatic.com/images/branding/product/1x/groups_32dp.png',
+	     'https://www.facebook.com/rsrc.php/yD/r/d4ZIVX-5C-b.ico',
+	     'https://www.facebook.com/rsrc.php/yD/r/d4ZIVX-5C-b.ico',
+	     'https://www.aba.org/wp-content/uploads/2019/10/favaba.png',
+	     'https://www.aba.org/wp-content/uploads/2019/10/favaba.png',
+	     'https://ymqui.github.io/photo/thumbnail/cornell.png',
 	     'https://ymqui.github.io/photo/thumbnail/cornell.png']
 
 //icons at the beginning of the list are all ebird
 while (icons.length<links.length){
-      icons.unshift(icons[0],icons[1]);
+      icons.unshift(icons[0]);
 }
 
 //check to see if any of the locations has little or no use
@@ -173,7 +173,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 var clen = 10;
-while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.length)){
+while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.length*2-1))){
     document.write('<tr>');
     if (i<loc_cnts.length){
        var txcol1 = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
@@ -236,11 +236,13 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<links.le
     }
     j++;
     document.write('<td></td>');
-    if (k<links.length){
-       if (links[k].length>0){
-          links[k] = '<img src="'+icons[k]+'" style="width:16px;height:16px;position:relative;top:3px;">&nbsp;'+links[k];
+    if (k<(links.length*2-1)){
+       if (k%2==0){
+          tmp_url = '<img src="'+icons[k/2]+'" style="width:16px;height:16px;position:relative;top:3px;">&nbsp;'+links[k/2];
+       }else{
+          tmp_url = '';
        }
-       document.write('<td colspan="3" align="left">'+links[k]+'</td>');   
+       document.write('<td colspan="3" align="left">'+tmp_url+'</td>');   
     }else{
        document.write('<td></td><td></td><td>&emsp;&emsp;</td>'); 
     }
