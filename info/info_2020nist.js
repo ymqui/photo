@@ -394,6 +394,8 @@ function initAlbum(){
     this[1][i++]  = (["Making a jellyfish","制作水母图"])[cn_ind];
     this[0][i]    = "20210818_1";
     this[1][i++]  = (["Jellyfish","水母"])[cn_ind];
+    this[0][i]    = "20210831_1";
+    this[1][i++]  = (["Putting the final touch on the name Nathan","给名字Nathan加上最后点缀"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
