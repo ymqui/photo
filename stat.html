@@ -22,10 +22,7 @@
 <body>
 <script type="text/javascript" language="javaScript">
 <!--
-var links = ['<a href="https://ebird.org/alert/summary?sid=SN35550&sortBy=obsDt&o=desc" target="link1">'+mytext('Maryland Rare Bird Alert')+'</a>',
-             '<a href="https://ebird.org/alert/summary?sid=SN35646&sortBy=obsDt&o=desc" target="link2">'+mytext('Virginia Rare Bird Alert')+'</a>',
-             '<a href="https://ebird.org/alert/summary?sid=SN35547&sortBy=obsDt&o=desc" target="link3">'+mytext('Delaware Rare Bird Alert')+'</a>',
-             '<a href="https://ebird.org/alert/summary?sid=SN35546&sortBy=obsDt&o=desc" target="link4">'+mytext('Pennsylvania Rare Bird Alert')+'</a>',
+var links = [ebird(35550,'Maryland'),ebird(35646,'Virginia'),ebird(35547,'Delaware'),ebird(35546,'Pennsylvania'),
              '<a href="https://ebird.org/map" target="link5">'+mytext('Species Map')+'</a>',
              '<a href="https://ebird.org/hotspots" target="link6">'+mytext('Hotspots Map')+'</a>',
              '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext('MDBirding-Google Group')+'</a>',
@@ -49,8 +46,11 @@ while (icons.length<links.length){
       icons.unshift(icons[0]);
 }
 
-function sortProperties(obj,byname)
-{
+function ebird(id,name){
+    return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
+}
+
+function sortProperties(obj,byname){
     // convert object into array
     var sortable=[];
     for(var key in obj){
@@ -69,8 +69,7 @@ function sortProperties(obj,byname)
     return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
 }
 
-function mytext(text,col)
-{   
+function mytext(text,col){   
     var fsize = '<font';
     if (cellphone) {fsize='<font size="+1"';}
     if(typeof col === 'undefined'){
