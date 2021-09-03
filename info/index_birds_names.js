@@ -271,7 +271,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","IBIDORHY","Ibisbill","鹮嘴鹬","Ibidorhyncha struthersii",[m_id("")],["mdbhrp","9/2015"],"ibisbi1");
   birds[j++] = new myBird("15-05-17T10:28","RECURVIR","Black-necked Stilt","黑颈长脚鹬","Himantopus mexicanus",[p_id("1505bombayhook",10),p_id("2001txbirding",24)],["debnwr","5/2015","txanwr","1/2020"]);
   birds[j++] = new myBird("05-12-28T09:51","RECURVIR","American Avocet","褐胸反嘴鹬","Recurvirostra americana",[p_id("0512merritt",8),p_id("1112floridabirding",31)],["flmnwr","12/2005","flevnp","12/2011"],"反嘴鷸");
-//birds[j++] = new myBird("21-00-00T00:00","CHARADRI","American Golden-Plover","美洲金鸻","Pluvialis dominica",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","CHARADRI","American Golden-Plover","美洲金鸻","Pluvialis dominica",[m_id("")],["vavava","9/2021",gmap("Bristow Road Sod Farm",38.71157,-77.52116)+", Prince William County","","","威廉王子郡布里斯托路草皮农场"]);
   birds[j++] = new myBird("15-05-17T12:01","CHARADRI","Black-bellied Plover","灰斑鸻","Pluvialis squatarola",m_id(sas(["20210522_080","20210522_081","20161204_131"],"_Black-belliedPlover")),["arb","5/2021","M"+(tmp1="ale, "+gmap("Prime Hook Beach",38.8521,-75.2396)+", Delaware, USA"),"雄"+(tmp2="性，美国特拉华州普莱姆虎克海滩"),"arb","5/2021", "Fem"+tmp1,"雌"+tmp2,"nyjbsp","12/2016","Winter plumage"]);
   birds[j++] = new myBird("15-05-17T10:11","CHARADRI","Semipalmated Plover","半蹼鸻","Charadrius semipalmatus",[p_id("1505bombayhook",7)],["debnwr","5/2015"]);
   birds[j++] = new myBird("16-06-08T17:04","CHARADRI","Wilson's Plover","厚嘴鸻","Charadrius wilsonia",p_id("1606florida",[5,6]),["schbsp","6/2016"]);
