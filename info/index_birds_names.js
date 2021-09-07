@@ -1,6 +1,6 @@
 <!--
   //date
-  var modiDate  = new Date("2021-08-29T08:00");
+  var modiDate  = new Date("2021-09-06T08:00");
   var modirange = 10;  		//range within modiDate in days
   var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
   var modiBird  = {name:[],cname:[]};
@@ -271,7 +271,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","IBIDORHY","Ibisbill","鹮嘴鹬","Ibidorhyncha struthersii",[m_id("")],["mdbhrp","9/2015"],"ibisbi1");
   birds[j++] = new myBird("15-05-17T10:28","RECURVIR","Black-necked Stilt","黑颈长脚鹬","Himantopus mexicanus",[p_id("1505bombayhook",10),p_id("2001txbirding",24)],["debnwr","5/2015","txanwr","1/2020"]);
   birds[j++] = new myBird("05-12-28T09:51","RECURVIR","American Avocet","褐胸反嘴鹬","Recurvirostra americana",[p_id("0512merritt",8),p_id("1112floridabirding",31)],["flmnwr","12/2005","flevnp","12/2011"],"反嘴鷸");
-//birds[j++] = new myBird("21-00-00T00:00","CHARADRI","American Golden-Plover","美洲金鸻","Pluvialis dominica",[m_id("")],["vavava","9/2021",gmap("Bristow Road Sod Farm",38.71157,-77.52116)+", Prince William County","","","威廉王子郡布里斯托路草皮农场"]);
+  birds[j++] = new myBird("21-09-06T11:50","CHARADRI","American Golden-Plover","美洲金鸻","Pluvialis dominica",m_id(["20210906_111_AmericanGolden-Plover","20210906_113_AmericanGolden-Plover"]),["mdmdmd","9/2021",gmap("Murray Sod Farm",38.44498,-75.25945)+", Worcester County","","","伍斯特郡默里草皮农场"]);
   birds[j++] = new myBird("15-05-17T12:01","CHARADRI","Black-bellied Plover","灰斑鸻","Pluvialis squatarola",m_id(sas(["20210522_080","20210522_081","20161204_131"],"_Black-belliedPlover")),["arb","5/2021","M"+(tmp1="ale, "+gmap("Prime Hook Beach",38.8521,-75.2396)+", Delaware, USA"),"雄"+(tmp2="性，美国特拉华州普莱姆虎克海滩"),"arb","5/2021", "Fem"+tmp1,"雌"+tmp2,"nyjbsp","12/2016","Winter plumage"]);
   birds[j++] = new myBird("15-05-17T10:11","CHARADRI","Semipalmated Plover","半蹼鸻","Charadrius semipalmatus",[p_id("1505bombayhook",7)],["debnwr","5/2015"]);
   birds[j++] = new myBird("16-06-08T17:04","CHARADRI","Wilson's Plover","厚嘴鸻","Charadrius wilsonia",p_id("1606florida",[5,6]),["schbsp","6/2016"]);
@@ -299,7 +299,7 @@
   birds[j++] = new myBird("21-08-29T10:45","SCOLOPAC","Baird's Sandpiper","白腹滨鹬","Calidris bairdii",m_id(["20210829_106_BairdSandpiper","20210829_107_BairdSandpiper"]),["vavava","8/2021",gmap("Broadway Wastewater Treatment Plant",38.63157,-78.7544)+", Rockingham County","","","洛金汉郡百老汇废水处理厂"]);
   birds[j++] = new myBird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","姬滨鹬","Calidris minutilla",[p_id("1505capemay",13),p_id("2001txbirding",5)],["arb","5/2015",gmap("The Wetlands Institute",39.06002,-74.77294)+", Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所","txanwr","1/2020","Nonbreeding adult"]);
   birds[j++] = new myBird("16-05-29T16:19","SCOLOPAC","White-rumped Sandpiper","白腰滨鹬","Calidris fuscicollis",[m_id("20160529_072_White-rumpedSandpiper")],["mdsclr","5/2016"]);
-  birds[j++] = new myBird("21-08-29T11:41","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",[m_id("20210829_109_Buff-breastedSandpiper")],["vavava","8/2021",gmap("Shenandoah Valley Produce Auction",38.44126,-79.00142)+", Rockingham County","","","洛金汉郡雪兰多谷农产品拍卖所"]);
+  birds[j++] = new myBird("21-08-29T11:41","SCOLOPAC","Buff-breasted Sandpiper","黄胸鹬","Calidris subruficollis",m_id(["20210829_109_Buff-breastedSandpiper","20210906_114_Buff-breastedSandpiper"]),["vavava","8/2021",gmap("Shenandoah Valley Produce Auction",38.44126,-79.00142)+", Rockingham County","","","洛金汉郡雪兰多谷农产品拍卖所","mdmdmd","9/2021",gmap("Murray Sod Farm",38.44498,-75.25945)+", Worcester County","","","伍斯特郡默里草皮农场"]);
   birds[j++] = new myBird("20-10-23T10:02","SCOLOPAC","Pectoral Sandpiper","斑胸滨鹬","Calidris melanotos",m_id(["20201023_108_PectoralSandpiper","20201023_109_PectoralSandpiper"]),["mdswhf","10/2020","mdswhf","10/2020","Juvenile"]);
   birds[j++] = new myBird("15-05-17T10:12","SCOLOPAC","Semipalmated Sandpiper","半蹼滨鹬","Calidris pusilla",[m_id("20170520_060_SemipalmatedSandpiper")],["debowb","5/2017"]);
   birds[j++] = new myBird("21-07-31T10:27","SCOLOPAC","Western Sandpiper","西滨鹬","Calidris mauri",[m_id("20210731_097_WesternSandpiper")],["mdmdmd","7/2021",gmap("Chesapeake Bay Environmental Center",38.94963,-76.23054),"","","切萨皮克湾环境中心"]);
