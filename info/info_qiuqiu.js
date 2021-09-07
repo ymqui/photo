@@ -217,7 +217,7 @@ function initAlbum(){
     this[0][i]    = ["2107trainride/2107trainride_3","20210703"];
     this[1][i++]  = ([pagelink("2107trainride","Riding a steam train on the Strasburg Rail Road")+" in Pennsylvania","在宾夕法尼亚州斯特拉斯堡"+pagelink("2107trainride","乘坐蒸汽火车")])[cn_ind];
     this[0][i]    = ["2107philly/2107philly_3","20210704"];
-    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new house")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和James哥哥一起赛车"])[cn_ind];
+    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new home")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和James哥哥一起赛车"])[cn_ind];
     this[0][i]    = "20210711_WaterFountain";
     this[1][i++]  = (["Playing in the water fountain with Adele at Rockville Town Square","和小希姐姐在罗克维尔市广场的喷泉中玩水"])[cn_ind];
     this[0][i]    = "20210717_20401";
