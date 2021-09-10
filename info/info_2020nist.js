@@ -397,7 +397,7 @@ function initAlbum(){
     this[0][i]    = "20210831_1";
     this[1][i++]  = (["Putting the final touch on the name Nathan","给名字Nathan加上最后点缀"])[cn_ind];
     this[0][i]    = "20210908_1";
-    this[1][i++]  = (["What makes me special","我为什么很特别：我在家说中文；我喜欢托马斯火车；我喜欢吃意大利面条；我喜欢骑自行车"])[cn_ind];
+    this[1][i++]  = (["What makes me special","我为什么很特别"])[cn_ind];
     this[0][i]    = "20210909_1";
     this[1][i++]  = (["Family painting","家庭画"])[cn_ind];
 
