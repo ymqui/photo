@@ -402,7 +402,7 @@ function initAlbum(){
     this[0][i]    = "20210909_1";
     this[1][i++]  = (["Family painting","家庭画"])[cn_ind];
     this[0][i]    = "20210913_1";
-    this[1][i++]  = (["Making a friendship bracelet to give it to a friend","制作友谊手链送给朋友"])[cn_ind];
+    this[1][i++]  = (["Making a friendship bracelet for a friend","制作友谊手链送给朋友"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
