@@ -405,6 +405,12 @@ function initAlbum(){
     this[1][i++]  = (["Making a friendship bracelet for a friend","制作友谊手链送给朋友"])[cn_ind];
     this[0][i]    = "20210914_1";
     this[1][i++]  = (["Practice writing letters","练习写字母"])[cn_ind];
+    this[0][i]    = "20210915_1";
+    this[1][i++]  = (["Friendship Recipe cooking activity","友谊食谱烹饪活动"])[cn_ind];
+    this[0][i]    = "20210915_2";
+    this[1][i++]  = (["Friendship Recipe cooking activity","友谊食谱烹饪活动"])[cn_ind];
+    this[0][i]    = "20210915_3";
+    this[1][i++]  = (["Friendship Recipe cooking activity","友谊食谱烹饪活动"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
