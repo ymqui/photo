@@ -905,7 +905,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Leiothlypis luciae",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("17-09-02T07:39","PARULIDA","Nashville Warbler","黄喉虫森莺","Leiothlypis ruficapilla",[p_id("1709algonquin",1),m_id("20210506_061_NashvilleWarbler")],["caalgp","9/2017","mdlbrp","5/2021"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[m_id("")],["mdbhrp","9/2015"]);
-//birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["papapa","9/2021","Immature, "+gmap("Logan Square",39.95575,-75.16896)+", Philadelphia","","","费城洛根广场"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["papapa","5/2021",npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge"),"","",npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
   birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[p_id("2020lbrp",4)],["mdlbrp","5/2020"]);
