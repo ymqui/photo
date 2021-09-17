@@ -235,7 +235,7 @@ function initAlbum(){
     this[0][i]    = "20210828_YelenaCrabSalad";
     this[1][i++]  = (["Making crab salad with Auntie Yelena","和Yelena阿姨一起做螃蟹沙拉"])[cn_ind];
     this[0][i]    = "20210911_Haircut";
-    this[1][i++]  = (["Getting a haircut from Mommy","妈妈给剪头发"])[cn_ind];
+    this[1][i++]  = (["Getting a haircut from Mommy","妈妈给球球剪头发"])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
