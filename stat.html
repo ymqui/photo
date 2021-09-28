@@ -22,16 +22,19 @@
 <body>
 <script type="text/javascript" language="javaScript">
 <!--
-var links = [ebird(35550,'Maryland'),ebird(35646,'Virginia'),ebird(35547,'Delaware'),ebird(35546,'Pennsylvania'),
-             '<a href="https://ebird.org/map" target="link5">'+mytext('Species Map')+'</a>',
-             '<a href="https://ebird.org/hotspots" target="link6">'+mytext('Hotspots Map')+'</a>',
-             '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext('MDBirding-Google Group')+'</a>',
-             '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link8">'+mytext('MD Facebook Notable Sightings Group')+'</a>',
-             '<a href="https://www.facebook.com/groups/118655321826890/" target="link9">'+mytext('VA Facebook Notable Sightings Group')+'</a>',
-             '<a href="https://www.aba.org/aba-checklist/" target="link10">'+mytext('ABA Checklist')+'</a>',
-             '<a href="https://www.aba.org/birding-news/" target="link11">'+mytext('ABA Birding News')+'</a>',
-             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link12">'+mytext('New World Warbler Songs')+'</a>',
-             '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link13">'+mytext('Warbler Guide Quick Finders')+'</a>'];
+var is_chinese = /chinese/.test(window.location.search.substring(1));
+var cn_ind = is_chinese?1:0;
+
+var links = [ebird(35550,(['Maryland','马里兰州'])[cn_ind]),ebird(35646,(['Virginia','弗吉尼亚州'])[cn_ind]),ebird(35547,(['Delaware','特拉华州'])[cn_ind]),ebird(35546,(['Pennsylvania','宾夕法尼亚州'])[cn_ind]),
+             '<a href="https://ebird.org/map" target="link5">'+mytext((['Species Map','鸟类分布地图'])[cn_ind])+'</a>',
+             '<a href="https://ebird.org/hotspots" target="link6">'+mytext((['Hotspots Map','观鸟热点地图'])[cn_ind])+'</a>',
+             '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext((['MDBirding-Google Group','马里兰州Google观鸟群'])[cn_ind])+'</a>',
+             '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link8">'+mytext((['MD Facebook Notable Sightings Group','马里兰州Facebook观鸟群'])[cn_ind])+'</a>',
+             '<a href="https://www.facebook.com/groups/118655321826890/" target="link9">'+mytext((['VA Facebook Notable Sightings Group','弗吉尼亚州Facebook观鸟群'])[cn_ind])+'</a>',
+             '<a href="https://www.aba.org/aba-checklist/" target="link10">'+mytext((['ABA Checklist','ABA鸟类清单'])[cn_ind])+'</a>',
+             '<a href="https://www.aba.org/birding-news/" target="link11">'+mytext((['ABA Birding News','ABA观鸟新闻'])[cn_ind])+'</a>',
+             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link12">'+mytext((['New World Warbler Songs','森莺鸣声鉴别'])[cn_ind])+'</a>',
+             '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link13">'+mytext((['Warbler Guide Quick Finders','森莺鉴别快速指南'])[cn_ind])+'</a>'];
 var icons = ['https://static.ebird.org/images/favicons/ebird/favicon-32x32.png',
 	     'https://ssl.gstatic.com/images/branding/product/1x/groups_32dp.png',
 	     'https://www.facebook.com/rsrc.php/yD/r/d4ZIVX-5C-b.ico',
@@ -47,7 +50,11 @@ while (icons.length<links.length){
 }
 
 function ebird(id,name){
-    return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
+    if (name.match(/[\u3400-\u9FBF]/)) {
+       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+'罕见鸟类警报')+'</a>';
+    }else{
+       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
+    }
 }
 
 function sortProperties(obj,byname){
@@ -83,9 +90,6 @@ function getCountry(str,sep){
     var tmp = str.split(sep);
     return tmp[tmp.length-2];
 }
-
-var is_chinese = /chinese/.test(window.location.search.substring(1));
-var cn_ind = is_chinese?1:0;
 
 //chinese name for countries
 var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
