@@ -419,6 +419,8 @@ function initAlbum(){
     this[1][i++]  = (["Making a rainbow toast","画彩虹吐司"])[cn_ind];
     this[0][i]    = "20210922_2";
     this[1][i++]  = (["Dancing","跳舞"])[cn_ind];
+    this[0][i]    = "20210930_1";
+    this[1][i++]  = (["Music class with Ms Emma","上Emma老师的音乐课"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
