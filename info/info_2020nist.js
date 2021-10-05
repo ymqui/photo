@@ -422,7 +422,7 @@ function initAlbum(){
     this[0][i]    = "20210930_1";
     this[1][i++]  = (["Music class with Ms Emma","上Emma老师的音乐课"])[cn_ind];
     this[0][i]    = "20211005_1";
-    this[1][i++]  = (["Nathan want to help the community as a firefigher when he grows up","球球长大后想当消防员来帮助社会"])[cn_ind];
+    this[1][i++]  = (["Nathan wants to be a firefigher to help the community when he grows up","球球长大后想当消防员来帮助社会"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
