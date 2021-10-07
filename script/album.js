@@ -624,4 +624,12 @@ function getdate(name,str){
        return str+comma+date;
     }
 }
+
+function myrandom(data){
+   if (data.constructor == Array){
+      return data[Math.round(Math.random()*(data.length-1))];
+   }else{
+      return data; 
+   }
+}
 //-->
