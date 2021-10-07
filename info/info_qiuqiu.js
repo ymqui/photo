@@ -34,7 +34,7 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
-    daycare       = pagelink("2018goddard",(["daycare","托儿所"])[cn_ind]);
+    daycare       = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
     this[0][i]    = "20170128_001_OvulationTest";
     this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
     this[0][i]    = "20170215_002_PregnancyTest";
@@ -87,7 +87,7 @@ function initAlbum(){
     makeface[j++] = i;
     this[1][i++]  = (["A very well-fed Nathan","茁壮成长"])[cn_ind];
     this[0][i]    = "20180210_007_Lana";
-    this[1][i++]  = (["With Auntie Lana","Lana阿姨来看球球"])[cn_ind];
+    this[1][i++]  = (["With Auntie Lana and Navami","Lana阿姨和Navami姐姐来看球球"])[cn_ind];
     this[0][i]    = "20180302_009_Sleep";
     this[1][i++]  = (["Napping","家里停电，不影响球球午睡"])[cn_ind];
     makeface[j++] = i;
@@ -112,15 +112,15 @@ function initAlbum(){
     this[0][i]    = ["1806myrtlebeach/1806myrtlebeach_2","20180603"];
     this[1][i++]  = ([pagelink("1806myrtlebeach","Vacationing at Myrtle Beach, South Carolina"),"和妈妈在"+pagelink("1806myrtlebeach","南卡罗来纳州美特尔海滩度假")])[cn_ind];
     this[0][i]    = "20180618_028_GoddardSchool";
-    this[1][i++]  = (["Nathan is going to the "+daycare,"球球上"+daycare+"了"])[cn_ind];
+    this[1][i++]  = (["Nathan is going to "+daycare,"球球上"+daycare+"了"])[cn_ind];
     this[0][i]    = "20180618_029_GoddardSchool";
-    this[1][i++]  = (["First day at the "+daycare+", Mom was heartbroken","第一天上"+daycare+"，妈妈好舍不得"])[cn_ind];
+    this[1][i++]  = (["First day at "+daycare+", Mom was heartbroken","第一天上"+daycare+"，妈妈好舍不得"])[cn_ind];
     this[0][i]    = "20180620_030_Painting";
     this[1][i++]  = (["Nathan's first painting","球球画的第一幅画"])[cn_ind];
     this[0][i]    = "20180620_031_PonyRide";
-    this[1][i++]  = (["Pony ride at the "+daycare+" with the help of Ms Mfuta","在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕"])[cn_ind];
+    this[1][i++]  = (["Pony ride at "+daycare+" with the help of Ms Mfuta","在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕"])[cn_ind];
     this[0][i]    = "20180628_Waterday";
-    this[1][i++]  = (["Water day at the "+daycare,daycare+"的玩水日"])[cn_ind];
+    this[1][i++]  = (["Water day at "+daycare,daycare+"的玩水日"])[cn_ind];
     this[0][i]    = "20180629_035_TeetherWafer";
     this[1][i++]  = (["Chewing on a teething wafer","嚼磨牙饼干"])[cn_ind];
     this[0][i]    = "20180731_Home";
@@ -199,7 +199,7 @@ function initAlbum(){
     this[1][i++]  = (["With Mommy at the Black Hill Regional Park","和妈妈在黑山公园"])[cn_ind];
     this[0][i]    = "20201031_018_BirthdayCake";
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
-    daycare       = pagelink("2020nist",(["NIST Daycare","NIST托儿所"])[cn_ind]);
+    daycare       = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
     this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
@@ -238,6 +238,8 @@ function initAlbum(){
     this[1][i++]  = (["Getting a haircut from Mommy","妈妈给球球剪头发"])[cn_ind];
     this[0][i]    = "20211002_013_Bike";
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
+    this[0][i]    = "20211007_016_NISTCCCFieldTrip";
+    this[1][i++]  = (["Getting on the bus for a field trip to an orchard at "+daycare,"在"+daycare+"排队上校车去果园"])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
