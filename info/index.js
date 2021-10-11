@@ -1331,6 +1331,11 @@
   info[2][j] = 2;
   info[3][j] = "8/2021 Race Point Birding";
   info[4][j++] = "Birding at Race Point, Provincetown(Massachusetts).";
+  info[0][j] = "2110longwood";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "10/2021 Longwood Gardens";
+  info[4][j++] = "Visiting Longwood Gardens(Pennsylvania).";
 
   if(window.usechinese){
      j = 0;
@@ -1862,6 +1867,8 @@
      info[4][j++] = "2020年小班尼特公园观鸟(马里兰州)。";
      info[3][j]   = "8/2021 横流点海滩观鸟";
      info[4][j++] = "在马萨诸塞州普罗温斯敦横流点海滩观鸟(马萨诸塞州)。";
+     info[3][j]   = "10/2021 长木花园";
+     info[4][j++] = "长木花园赏花(宾夕法尼亚州)。";
   } 
 
   //special touch
