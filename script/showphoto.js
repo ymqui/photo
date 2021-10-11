@@ -24,6 +24,10 @@ var cn_ind  = window.usechinese?1:0;
 var slideshow = true;
 var blocksave = true;
 
+if (showall){
+   homeurl     = homeurl+"showphoto.html?qiuqiu";
+}
+
 if (albumid.length==0){
     location.href = "";
 }else{
