@@ -1,5 +1,4 @@
 <!--
-var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan's Photos","球球的照片"])[cn_ind];
 var dir        = maindir+"pics/qiuqiu/";

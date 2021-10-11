@@ -11,11 +11,6 @@ var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr  = new Array("","");
 var blocksave  = false;
-var showall    = /showall/.test(window.location.search.substring(1));;
-var cn_ind     = window.usechinese?1:0;
-if (showall){
-   homeurl     = homeurl+"showphoto.html?qiuqiu";
-}
  
 if(window.usechinese){
     title      = "游览长木公园";
