@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var mididir = "http://www.pha.jhu.edu/~qiuym/photo/midi/";
 if (googledrive) mididir = "https://ymqui.github.io/photo/midi/"; 
 if(window.friendalbum){
@@ -19,6 +19,8 @@ if(window.birdalbum){
 csdpdir = "http://www.ugrad.cs.jhu.edu/~quiym/";
 
 var albumid = window.location.search.substring(1);
+var showall = /showall/.test(albumid);
+var cn_ind  = window.usechinese?1:0;
 var slideshow = true;
 var blocksave = true;
 
