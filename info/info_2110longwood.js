@@ -36,14 +36,15 @@ function initAlbum(){
        i = 0;
        this[1][i++]  = (["Nathan and James in front of the pumpkin display.","球球和James哥哥在南瓜展前。"])[cn_ind];
        this[1][i++]  = (["Maomao and Houzi.","毛毛和候子。"])[cn_ind];
-       this[1][i++]  = (["Nathan in the tree house.","球球在树屋里吹喇叭。"])[cn_ind];
-       this[1][i++]  = (["James in the tree house.","James在树屋里吹喇叭。"])[cn_ind];
+       this[1][i++]  = (["Nathan playing in the tree house.","球球在树屋里吹喇叭。"])[cn_ind];
+       this[1][i++]  = (["James playing in the tree house.","James在树屋里吹喇叭。"])[cn_ind];
        this[1][i++]  = (["Nathan and James.","球球和James哥哥。"])[cn_ind];
        this[1][i++]  = (["Nathan and James.","球球和James哥哥。"])[cn_ind];
        this[1][i++]  = (["Tree house.","树屋。"])[cn_ind];
        this[1][i++]  = (["James up on the tree house.","James在树屋上。"])[cn_ind];
        this[1][i++]  = (["Maomao.","毛毛。"])[cn_ind];
        this[1][i++]  = (["Nathan.","球球。"])[cn_ind];
+       this[1][i++]  = (["Nathan and James watching the garden railway.","球球和James哥哥看小火车。"])[cn_ind];
        this[1][i++]  = (["Nathan and James watching the garden railway.","球球和James哥哥看小火车。"])[cn_ind];
        this[1][i++]  = (["Nathan and James watching the garden railway.","球球和James哥哥看小火车。"])[cn_ind];
        this[1][i++]  = (["James and Nathan playing with pine needles.","球球和James哥哥玩落叶。"])[cn_ind];
