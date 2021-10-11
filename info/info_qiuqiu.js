@@ -21,6 +21,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"],["2107trainride","7/2021 Train Ride in Pennsylvania","7/2021 宾夕法尼亚州乘火车"],
  	 	  ["2107philly","7/2021 Visiting Aunt Houzi in Pennsylvania","7/2021 宾夕法尼亚州候子阿姨家玩"],["2108vacation","8/2021 Pittsburgh and Provincetown Vacation","8/2021 匹兹堡和普罗温斯敦度假"],
+                  ["2110longwood?showall","10/2021 Visiting Longwood Gardens in Pennsylvania","10/2021 宾夕法尼亚州游长木花园"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -35,8 +36,8 @@ function initAlbum(){
     i = 0;
     j = 0;
     daycare       = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
-    this[0][i]    = "20170128_001_OvulationTest";
-    this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
+    //this[0][i]    = "20170128_001_OvulationTest";
+    //this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
     this[0][i]    = "20170215_002_PregnancyTest";
     this[1][i++]  = (["Positive pregnancy test","怀孕测试显阳性"])[cn_ind];
     this[0][i]    = "20170309_003_Sonogram";
@@ -240,6 +241,8 @@ function initAlbum(){
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
     this[0][i]    = "20211007_016_NISTCCCFieldTrip";
     this[1][i++]  = (["Getting on the bus for a field trip to an orchard at "+daycare,"在"+daycare+"排队上校车去果园"])[cn_ind];
+    this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
+    this[1][i++]  = ([pagelink("2110longwood?showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood?showall","游览长木花园")])[cn_ind];
   
     for (var i=0;i<this[0].length;i++){
         if (this[0][i].constructor != Array){ 
