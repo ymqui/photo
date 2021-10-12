@@ -433,6 +433,8 @@ function initAlbum(){
     this[1][i++]  = (["Field trip to the Butler's Orchard","参观巴特勒果园"])[cn_ind];
     this[0][i]    = "20211007_5";
     this[1][i++]  = (["Field trip to the Butler's Orchard","参观巴特勒果园"])[cn_ind];
+    this[0][i]    = "20211012_1";
+    this[1][i++]  = (["Apple tasting","品尝苹果"])[cn_ind];
 
     for (var i=0;i<this[0].length;i++){
         this[1][i] = getdate(this[0][i],this[1][i]);
