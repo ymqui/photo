@@ -241,7 +241,7 @@ function initAlbum(){
     this[0][i]    = myrandom(["20211002_013_Bike","20211002_014_Bike"]);
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
     this[0][i]    = "20211007_016_NISTCCCFieldTrip";
-    this[1][i++]  = (["Getting on the bus for a field trip to an orchard at "+daycare,"在"+daycare+"排队上校车去果园"])[cn_ind];
+    this[1][i++]  = (["Waiting in line to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
     this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
     this[1][i++]  = ([pagelink("2110longwood&showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood&showall","游览长木花园")])[cn_ind];
   
