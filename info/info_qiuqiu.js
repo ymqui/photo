@@ -35,8 +35,10 @@ function initAlbum(){
     i = 0;
     j = 0;
     daycare       = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
-    //this[0][i]    = "20170128_001_OvulationTest";
-    //this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
+    if (showall) {
+       this[0][i]    = "20170128_001_OvulationTest";
+       this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
+    }
     this[0][i]    = "20170215_002_PregnancyTest";
     this[1][i++]  = (["Positive pregnancy test","怀孕测试显阳性"])[cn_ind];
     this[0][i]    = "20170309_003_Sonogram";
