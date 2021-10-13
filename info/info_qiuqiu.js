@@ -249,8 +249,15 @@ function initAlbum(){
         if (this[0][i].constructor != Array){ 
            this[1][i] = getdate(this[0][i],this[1][i]);
         }else{
-           this[1][i] = getdate(this[0][i][1],this[1][i]);
-           this[0][i] = "../"+this[0][i][0];
+           if (/^\d+$/.test('120120001')){
+              this[1][i] = getdate(this[0][i][this[0][i].length-1],this[1][i]);
+              this[0][i].splice(-1);
+              for (var j=0;j<this[0][i].length;j++){
+                  this[0][i][j] = "../"+this[0][i][j];
+              }
+           }else{
+              this[1][i] = getdate(this[0][i][0],this[1][i]);
+           }
         }
     }  
 }
