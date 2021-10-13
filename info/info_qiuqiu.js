@@ -238,7 +238,7 @@ function initAlbum(){
     this[1][i++]  = (["Making crab salad with Auntie Yelena","和Yelena阿姨一起做螃蟹沙拉"])[cn_ind];
     this[0][i]    = "20210911_Haircut";
     this[1][i++]  = (["Getting a haircut from Mommy","妈妈给球球剪头发"])[cn_ind];
-    this[0][i]    = myrandom(["20211002_013_Bike","20211002_014_Bike"]);
+    this[0][i]    = ["20211002_013_Bike","20211002_014_Bike"];
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
     this[0][i]    = "20211007_016_NISTCCCFieldTrip";
     this[1][i++]  = (["Waiting in line to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
