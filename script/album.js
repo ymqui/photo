@@ -152,12 +152,12 @@ function loadHidden(){
     hiddenimg = new Image();
     hiddenimg.onerror = function(){
        if (ext==ext.toUpperCase()){
-          hiddenimg.src = dir+photoalbum[0][tmp]+ext.toLowerCase();
+          hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext.toLowerCase();
        }else{
-          hiddenimg.src = dir+photoalbum[0][tmp]+ext.toUpperCase();
+          hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext.toUpperCase();
        }
     }
-    hiddenimg.src = dir+photoalbum[0][tmp]+ext;
+    hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext;
 }
 
 function showmesg(mesg){
