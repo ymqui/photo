@@ -255,6 +255,9 @@ function initAlbum(){
               for (var j=0;j<this[0][i].length;j++){
                   this[0][i][j] = "../"+this[0][i][j];
               }
+              if (this[0][i].length==1){
+                  this[0][i] = this[0][i][0];
+              }
            }else{
               this[1][i] = getdate(this[0][i][0],this[1][i]);
            }
