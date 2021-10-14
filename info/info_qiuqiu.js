@@ -159,7 +159,7 @@ function initAlbum(){
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]    = ["1905mexico/1905mexico_46","20190516"];
     this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
-    this[0][i]    = ["1906minitrain/1906minitrain_4","20190608"];
+    this[0][i]    = ["1906minitrain/1906minitrain_3","20190608"];
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
     this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
