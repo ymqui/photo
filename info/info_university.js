@@ -1,5 +1,4 @@
 <!--
-var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["Nathan Visiting Universities","球球逛大学"])[cn_ind];
 var dir        = maindir+"pics/qiuqiu/";
