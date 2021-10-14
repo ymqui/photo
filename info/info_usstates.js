@@ -196,9 +196,7 @@ function initAlbum(){
         this[1][i++] = "Wyoming, Houzi and Maomao";
     }
 
-    for (var i=0;i<this[0].length;i++){
-        this[1][i] = getdate(this[0][i],this[1][i]);
-    }   
+    adddate(this);
 }
  
 //web counter info

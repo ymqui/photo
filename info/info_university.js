@@ -33,24 +33,7 @@ function initAlbum(){
     this[0][i]    = ["2108vacation/2108vacation_44","2108vacation/2108vacation_42","20210813"];
     this[1][i++]  = (["Princeton University, Princeton, New Jersey, United States","普林斯顿大学，美国新泽西州普林斯顿"])[cn_ind];
 
-    for (var i=0;i<this[0].length;i++){
-        if (this[0][i].constructor != Array){ 
-           this[1][i] = getdate(this[0][i],this[1][i]);
-        }else{
-           if (/^\d+$/.test(this[0][i][this[0][i].length-1])){
-              this[1][i] = getdate(this[0][i][this[0][i].length-1],this[1][i]);
-              this[0][i].splice(-1);
-              for (var j=0;j<this[0][i].length;j++){
-                  this[0][i][j] = "../"+this[0][i][j];
-              }
-              if (this[0][i].length==1){
-                  this[0][i] = this[0][i][0];
-              }
-           }else{
-              this[1][i] = getdate(this[0][i][0],this[1][i]);
-           }
-        }
-    }  
+    adddate(this);
 }
 
 //web counter info

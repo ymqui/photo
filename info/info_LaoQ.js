@@ -28,14 +28,7 @@ function initAlbum(){
     this[0][i]    = "20210516_VABirding";
     this[1][i++]  = (["Cub Run Stream Valley Park, Virginia, USA","美国弗吉尼亚州熊崽溪谷公园"])[cn_ind];
    
-    for (var i=0;i<this[0].length;i++){
-        if (this[0][i].constructor != Array){ 
-           this[1][i] = getdate(this[0][i],this[1][i]);
-        }else{
-           this[1][i] = getdate(this[0][i][1],this[1][i]);
-           this[0][i] = "../"+this[0][i][0];
-        }
-    }  
+    adddate(this);
 }
 
 //web counter info

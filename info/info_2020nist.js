@@ -436,9 +436,7 @@ function initAlbum(){
     this[0][i]    = "20211012_1";
     this[1][i++]  = (["Apple tasting","品尝苹果"])[cn_ind];
 
-    for (var i=0;i<this[0].length;i++){
-        this[1][i] = getdate(this[0][i],this[1][i]);
-    }    
+    adddate(this);
 }
 
 //web counter info
