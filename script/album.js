@@ -625,6 +625,27 @@ function getdate(name,str){
     }
 }
 
+function adddate(thisalbum){
+    for (var i=0;i<thisalbum[0].length;i++){
+        if (thisalbum[0][i].constructor != Array){ 
+           thisalbum[1][i] = getdate(thisalbum[0][i],thisalbum[1][i]);
+        }else{
+           if (/^\d+$/.test(thisalbum[0][i][thisalbum[0][i].length-1])){
+              thisalbum[1][i] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i]);
+              thisalbum[0][i].splice(-1);
+              for (var j=0;j<thisalbum[0][i].length;j++){
+                  thisalbum[0][i][j] = "../"+thisalbum[0][i][j];
+              }
+              if (thisalbum[0][i].length==1){
+                  thisalbum[0][i] = thisalbum[0][i][0];
+              }
+           }else{
+              thisalbum[1][i] = getdate(thisalbum[0][i][0],thisalbum[1][i]);
+           }
+        }
+    }  
+}
+
 function myrandom(data){
    if (data.constructor == Array){
       return data[Math.round(Math.random()*(data.length-1))];
