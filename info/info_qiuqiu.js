@@ -23,7 +23,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2110longwood&showall","10/2021 Visiting Longwood Gardens in Pennsylvania","10/2021 宾夕法尼亚州游长木花园"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
-if (thisyear>2027) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
+if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
 
 document.title = title;
@@ -155,7 +155,7 @@ function initAlbum(){
     this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起听小何叔叔读书"])[cn_ind];
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
-    this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","20190420"];
+    this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","1904dcmuseum/1904dcmuseum_9","20190420"];
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]    = ["1905mexico/1905mexico_46","20190516"];
     this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
@@ -169,7 +169,7 @@ function initAlbum(){
     this[1][i++]  = (["Watching the dog parade in Baltimore","在巴尔的摩看狗狗游行"])[cn_ind];
     this[0][i]    = ["1908florida/1908florida_6","20190828"];
     this[1][i++]  = (["Visiting the Magic Kingdom during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间游迪士尼乐园的魔幻王国"])[cn_ind];
-    this[0][i]    = ["1908florida/1908florida_10","20190831"];
+    this[0][i]    = ["1908florida/1908florida_10","1908florida/1908florida_21","20190831"];
     this[1][i++]  = (["Visiting Kennedy Space Center during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间参观肯尼迪航天中心"])[cn_ind];
     this[0][i]    = "20191013_JuniorFirefighter";
     this[1][i++]  = (["Junior firefighter","小小消防员"])[cn_ind];
