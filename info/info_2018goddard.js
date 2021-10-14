@@ -1,5 +1,4 @@
 <!--
-var cn_ind     = window.usechinese?1:0;
 var info_url   = "https://www.goddardschool.com/washington/gaithersburg-wind-river-lane-md";
 var title      = (["Nathan at Goddard School","球球在戈达德托儿所的照片"])[cn_ind];
 var dir        = maindir+"pics/2018goddard/";
