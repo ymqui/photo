@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var cn_ind     = window.usechinese?1:0;
 var title      = (["Travelling around the world","环游世界"])[cn_ind];
 var dir        = maindir+"pics/world/";
@@ -23,9 +23,7 @@ function initAlbum(){
     this[0][i]    = "20190511_Mexico";
     this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, Mexico","墨西哥特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
 
-    for (var i=0;i<this[0].length;i++){
-        this[1][i] = getdate(this[0][i],this[1][i]);
-    }   
+    adddate(this);
 }
  
 //web counter info
