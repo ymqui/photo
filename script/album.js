@@ -183,7 +183,6 @@ function reform(mesg){
     return tmpmesg;
 }
 
-
 function fadeout(){
     if(opacity>0.1){
         opacity-=0.98;//0.06;
@@ -647,10 +646,10 @@ function adddate(thisalbum){
 }
 
 function myrandom(data){
-   if (data.constructor == Array){
-      return data[Math.round(Math.random()*(data.length-1))];
-   }else{
-      return data; 
-   }
+    if (data.constructor == Array){
+       return data[Math.round(Math.random()*(data.length-1))];
+    }else{
+       return data; 
+    }
 }
 //-->
