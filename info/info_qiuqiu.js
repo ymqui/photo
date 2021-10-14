@@ -49,7 +49,7 @@ function initAlbum(){
     this[1][i++]  = (["Nathan's cute little face, MedStar Montgomery Medical Center","小宝宝的脸蛋，蒙哥马利医疗中心"])[cn_ind];
     this[0][i]    = ["1709babyshower/1709babyshower_18","20170920"];
     this[1][i++]  = (["Baby shower","同事们举办的"+pagelink("1709babyshower","准妈妈派对")])[cn_ind];
-    this[0][i]    = "20171031_009_AfterBirth";
+    this[0][i]    = ["20171031_009_AfterBirth","20171031_011_AfterBirth"];
     this[1][i++]  = (["In the nursery after birth, 8 lb 12 oz, and 20 inches long","宝宝出生了，7斤9两重(8磅12盎司)，51厘米长"])[cn_ind];
     this[0][i]    = "20171101_014_WithMom";
     this[1][i++]  = (["Resting with mom in the hospital recovery room","和妈妈在医院恢复室一块休息"])[cn_ind];
