@@ -1,5 +1,4 @@
 <!--
-var cn_ind     = window.usechinese?1:0;
 var title      = (["Travelling around the world","环游世界"])[cn_ind];
 var dir        = maindir+"pics/world/";
 var thumb_dir  = maindir+"thumbnail/";
