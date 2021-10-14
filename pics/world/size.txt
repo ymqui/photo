@@ -1,1 +1,3 @@
 width 180, corner 0(right)x2(bottom)
+
+dark gray :[128b,128b,128b]
