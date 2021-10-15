@@ -739,7 +739,7 @@
   birds[j++] = new myBird("15-04-18T09:12","TROGLODY","House Wren","莺鹪鹩","Troglodytes aedon",[m_id("20150418_055_HouseWren"),m_id("20150719_083_HouseWren"),p_id("1812crbirding",18)],["mdbmnt","4/2015","mdbmnt","7/2015","crarol","12/2018"]);
   birds[j++] = new myBird("06-04-30T09:54","POLIOPTI","Blue-gray Gnatcatcher","灰蓝蚋莺","Polioptila caerulea",[m_id("20150425_060_Blue-grayGnatcatcher"),p_id("1512bhill",31),m_id("20200523_024_Blue-grayGnatcatcher")],["mdbmnt","4/2015","Male","mdbhrp","8/2015","Female","mdcorl","5/2020","Nest"]);
 //birds[j++] = new myBird("21-00-00T00:00","POLIOPTI","Black-tailed Gnatcatcher","黑尾蚋莺","Polioptila melanura",[m_id("")],["mdbhrp","9/2015"]);
-  birds[j++] = new myBird("06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸䴓","Sitta carolinensis",m_id(["20161111_119_White-breastedNuthatch(M)","20160130_004_White-breastedNuthatch(F)"]),["mdbhrp","11/2016","Male","mdbhrp","1/2016","Female"]);
+  birds[j++] = new myBird("06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸䴓","Sitta carolinensis",[m_id(["20161111_119_White-breastedNuthatch(M)","20160130_004_White-breastedNuthatch(F)"]),p_id("1507birdingwest",44)],["mdbhrp","11/2016","Male","mdbhrp","1/2016","Female","cabake","7/2015",gmap("Beale Park",35.36253,-119.02511),"","","比尔公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","SITTIDAE","Pygmy Nuthatch","小䴓","Sitta pygmaea",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-11-26T11:20","SITTIDAE","Brown-headed Nuthatch","棕头䴓","Sitta pusilla",p_id("1604asheville",[6,7]),["ncllmp","4/2016","ncllmp","4/2016","Immature"],"棕头鳾");
   birds[j++] = new myBird("16-09-15T08:27","SITTIDAE","Red-breasted Nuthatch","红胸䴓","Sitta canadensis",p_id("1609vtcanbirding",[7,8]),["vtwwma","9/2016"]);
