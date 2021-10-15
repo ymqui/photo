@@ -141,7 +141,7 @@ function initAlbum(){
     this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
     this[0][i]    = ["1810parade/1810parade_3","20181031"];
     this[1][i++]  = ([pagelink("1810parade","Goddard School Halloween parade")+". Nathan is held by Ms. Wahrhaftig",pagelink("1810parade","戈达德托儿所万圣节游行")+"，球球由Wahrhaftig老师抱着"])[cn_ind];
-    this[0][i]    = "20181125_060_Playpen";
+    this[0][i]    = ["20181125_060_Playpen","20181125_061_Playpen"];
     this[1][i++]  = (["Playing in the playpen","在围栏里独自玩耍"])[cn_ind];
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
