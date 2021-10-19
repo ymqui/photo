@@ -228,7 +228,7 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the playground in the "+pagelink("2107trainride","Strasburg Rail Station")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2107trainride","斯特拉斯堡火车站")+"的木头游乐火车里玩"])[cn_ind];
     this[0][i]    = ["2108vacation/2108vacation_8","20210807"];
     this[1][i++]  = (["Riding the Thomas train during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时乘托马斯火车"])[cn_ind];
-    this[0][i]    = ["2108vacation/2108vacation_29","20210808"];
+    this[0][i]    = ["2108vacation/2108vacation_29","2108vacation/2108vacation_25","2108vacation/2108vacation_26","20210808"];
     this[1][i++]  = (["Visiting the Pittsburgh Zoo and PPG Aquarium during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观匹兹堡动物园和水族馆"])[cn_ind];
     this[0][i]    = ["2108vacation/2108vacation_34","20210808"];
     this[1][i++]  = (["Visiting the Fallingwater designed by Frank Lloyd Wright during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观建筑师弗兰克·劳埃德·赖特设计的落水山庄"])[cn_ind];
