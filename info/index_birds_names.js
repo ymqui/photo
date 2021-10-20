@@ -850,10 +850,10 @@
   birds[j++] = new myBird("16-05-29T15:00","PASSEREL","Saltmarsh Sparrow","尖尾沙鹀","Ammospiza caudacuta",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"]);
   birds[j++] = new myBird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["ohbath","5/2017"]);
   birds[j++] = new myBird("13-07-17T18:46","PASSEREL","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8)],["arb","7/2013",gmap("Potter Marsh",61.07619,-149.82917)+", Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇波特沼泽"]);
-  birds[j++] = new myBird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",m_id(["20161112_121_SongSparrow","20161030_108_SongSparrow"]),["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic"]);
+  birds[j++] = new myBird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",[m_id("20161112_121_SongSparrow"),m_id("20161030_108_SongSparrow"),p_id("1905mxbird",21)],["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic","mxunam","5/2019","Mexicana group","墨西哥亚种"]);
   birds[j++] = new myBird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("20170305_030_LincolnSparrow"),p_id("2001txbirding",23)],["vaonwr","3/2017","txsnwr","1/2020"]);
   birds[j++] = new myBird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"]);
-  birds[j++] = new myBird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",[p_id("1905mxbird",15)],["mxunam","5/2019","",""]);
+  birds[j++] = new myBird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",[p_id("1905mxbird",15)],["mxunam","5/2019"],"","");
   birds[j++] = new myBird("19-05-12T09:44","PASSEREL","Rufous-crowned Sparrow","棕顶猛雀鹀","Aimophila ruficeps",[p_id("1905mxbird",9)],["mxunam","5/2019"]);
   birds[j++] = new myBird("21-01-06T10:52","PASSEREL","Green-tailed Towhee","绿尾唧鹀","Pipilo chlorurus",[m_id("20210106_005_Green-tailedTowhee")],["vavava","1/2021",gmap("Sky Meadows State Park",38.98744,-77.94284),"","","天空草地州立公园"]);
   birds[j++] = new myBird("12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",m_id(["20150405_050_EasternTowhee","20150628_079_EasternTowhee"]),["mdbmnt","4/2015","Male","mdbmnt","6/2015","Juvenile"]);
