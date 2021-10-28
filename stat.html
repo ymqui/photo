@@ -48,7 +48,7 @@ while (icons.length<links.length){
 
 function ebird(id,name){
     if (name.match(/[\u3400-\u9FBF]/)) {
-       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+'罕见鸟类警报')+'</a>';
+       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+'稀有鸟类警报')+'</a>';
     }else{
        return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
     }
