@@ -439,6 +439,9 @@ function initAlbum(){
     this[1][i++]  = (["Painting","画画"])[cn_ind];
     this[0][i]    = "20211019_1";
     this[1][i++]  = (["Making a pumpkin","制作南瓜"])[cn_ind];
+    makeface[j++] = i;
+    this[0][i]    = "20211028_1";
+    this[1][i++]  = (["Self portrait","自画像"])[cn_ind];
 
     adddate(this);
 }
