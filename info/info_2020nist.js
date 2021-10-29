@@ -442,6 +442,8 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20211028_1";
     this[1][i++]  = (["Self portrait","对着镜子画的自画像"])[cn_ind];
+    this[0][i]    = "20211029_1";
+    this[1][i++]  = (["Halloween costume party","万圣节化装合影"])[cn_ind];
 
     adddate(this);
 }
