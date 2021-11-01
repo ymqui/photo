@@ -244,7 +244,10 @@ function initAlbum(){
     this[1][i++]  = (["Waiting in line to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
     this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
     this[1][i++]  = ([pagelink("2110longwood&showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood&showall","游览长木花园")])[cn_ind];
-  
+    this[0][i]    = "20211031_021_WithMommy";
+    this[1][i++]  = (["Happy 4th Birthday!","四岁生日快乐！"])[cn_ind];
+    this[0][i]    = ["20211031_024_TrickorTreat","20211031_025_TrickorTreat","20211031_026_TrickorTreat"];
+    this[1][i++]  = (["Trick or treating with Mommy","和妈妈一起万圣节出去讨糖"])[cn_ind];
     adddate(this);
 }
 
