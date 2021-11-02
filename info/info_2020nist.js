@@ -445,7 +445,9 @@ function initAlbum(){
     this[0][i]    = "20211029_1";
     this[1][i++]  = (["Halloween costume party","万圣节化装合影"])[cn_ind];
     this[0][i]    = "20211101_1";
-    this[1][i++]  = (["Trunk or treat","在停车场跟家长进行万圣节讨糖活动"])[cn_ind];
+    this[1][i++]  = (["Trunk or treat at the parking lot","在停车场跟家长进行万圣节讨糖活动"])[cn_ind];
+    this[0][i]    = "20211102_1";
+    this[1][i++]  = (["Making faces to describe feelings","贴图来表达各种心情"])[cn_ind];
 
     adddate(this);
 }
