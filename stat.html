@@ -21,7 +21,7 @@
 <body>
 <script type="text/javascript" language="javaScript">
 <!--
-var links = [ebird(35550,(['Maryland','马里兰州'])[cn_ind]),ebird(35646,(['Virginia','弗吉尼亚州'])[cn_ind]),ebird(35547,(['Delaware','特拉华州'])[cn_ind]),ebird(35546,(['Pennsylvania','宾夕法尼亚州'])[cn_ind]),ebird(35533,(['Ohio','俄亥俄州'])[cn_ind]),
+var links = [ebird('Maryland'),ebird('Virginia'),ebird('Delaware'),ebird('Pennsylvania'),ebird('West Virginia'),ebird('Ohio'),
              '<a href="https://ebird.org/map" target="link5">'+mytext((['Species Map','鸟类分布地图'])[cn_ind])+'</a>',
              '<a href="https://ebird.org/hotspots" target="link6">'+mytext((['Hotspots Map','观鸟热点地图'])[cn_ind])+'</a>',
              '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext((['MDBirding-Google Group','马里兰州Google观鸟群'])[cn_ind])+'</a>',
@@ -45,11 +45,21 @@ while (icons.length<links.length){
       icons.unshift(icons[0]);
 }
 
-function ebird(id,name){
-    if (name.match(/[\u3400-\u9FBF]/)) {
-       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+'稀有鸟类警报')+'</a>';
+function ebird(name){
+    var alerts = { Maryland: 		['35550','马里兰州'],
+                   Virginia: 		['35646','弗吉尼亚州'],
+                   Delaware: 		['35547','特拉华州'],
+		   Pennsylvania: 	['35546','宾夕法尼亚州'],
+		   Arizona:             ['35601','亚利桑那州'],
+                   Florida:             ['35579','佛罗里达州'],
+                   Ohio:          	['35533','俄亥俄州'],
+                   WestVirginia:    	['35684','西弗吉尼亚州']
+                 };
+    var id = alerts[name.replace(/\s/g, "")];
+    if (cn_ind==1){
+       return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(id[1]+'稀有鸟类警报')+'</a>';
     }else{
-       return '<a href="https://ebird.org/alert/summary?sid=SN'+id.toString()+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
+       return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
     }
 }
 
