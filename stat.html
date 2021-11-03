@@ -39,7 +39,10 @@ var icons = ['https://static.ebird.org/images/favicons/ebird/favicon-32x32.png',
 	     'https://www.aba.org/wp-content/uploads/2019/10/favaba.png',
 	     'https://ymqui.github.io/photo/thumbnail/cornell.png',
 	     'https://ymqui.github.io/photo/thumbnail/cornell.png'];
-
+var date = new Date();
+if (date.getTimezoneOffset()/60 ==(-8)){ //in China
+    links.unshift(ebird('Fujian'),ebird('Zhejiang'),ebird('Beijing'),ebird('Shanghai'));
+}
 //icons at the beginning of the list are all ebird
 while (icons.length<links.length){
       icons.unshift(icons[0]);
