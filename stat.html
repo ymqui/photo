@@ -108,14 +108,44 @@ function mytext(text,col){
     }
 }
 
-function getCountry(str,sep){
-    var tmp = str.split(sep);
-    return tmp[tmp.length-2];
+function getCountry(str,offset){
+    if (str.length==0){return '';}
+    if (str.match(/,/)){
+       var tmp = str.split(/ *, */);
+       return tmp[tmp.length-offset];
+    }else{
+       return str;
+    }
+}
+
+function getlocFlag(str){
+    var tmp = locurl[str];
+    if (tmp[2].match(/[\u3400-\u9FBF]/)){
+       return getFlag(getCountry(tmp[1],1));
+    }else{
+       return getFlag(getCountry(tmp[2],1));
+    }
+}
+
+function getFlag(country){
+    var tmp = 'arb';
+    if (typeof country != 'undefined'){
+       if (country.length>0){ 
+          tmp = country;
+          if (tmp.match(/[\u3400-\u9FBF]/)) {
+             tmp = eng_cou[chn_cou.indexOf(tmp)];
+          }
+          tmp = tmp.replace(/\s/g, "");
+       }
+    }
+    return '<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:16px;height:auto;position:relative;top:0px;">&nbsp;&nbsp;';
 }
 
 //chinese name for countries
-var eng_cou = ["Canada","China","Costa Rica","Mexico","USA"];
-var chn_cou = ["加拿大","中国","哥斯达黎加","墨西哥","美国"];
+//flags https://www.worldometers.info/geography/flags-of-the-world/
+var eng_cou = ["Australia","Canada","China","Costa Rica","France","Japan","Mexico","United Kingdom","USA"];
+var chn_cou = ["澳大利亚","加拿大","中国","哥斯达黎加","法国","日本","墨西哥","英国","美国"];
+
 //count countries
 var cou_cnts  = {};
 var ocnts = 0;
@@ -138,8 +168,8 @@ for(var i=0;i<orders.length;i++){
 for (var i=0;i<birds.length;i++){
     var tmp_cnts = {};
     for (var j=0;j<birds[i].info.length;j++){
-        var tmp2 = getCountry(birds[i].info[j],/ *, */);
-        if (is_chinese) {
+        var tmp2 = getCountry(birds[i].info[j],2);
+        if (tmp2.match(/[\u3400-\u9FBF]/)) {
            tmp2 = chn_cou[eng_cou.indexOf(tmp2)];
         }
         if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
@@ -213,9 +243,9 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
           }
        }
        if (tmp_url.length>0){
-          tmp_url = '<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol1+loc_cnts[i][0]+'</a>';
+          tmp_url = getlocFlag(loc_cnts[i][0])+'<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol1+loc_cnts[i][0]+'</a>';
        }else {
-          tmp_url = loc_cnts[i][0];
+          tmp_url = getlocFlag(loc_cnts[i][0])+loc_cnts[i][0];
        }
        var loc_url = loc_cnts[i][1].toString();
        if (loc_cnts[i][1]>0) {
@@ -228,7 +258,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     i++;
     document.write('<td></td>');
     if (j<cou_cnts.length){
-       document.write('<td align="left"><a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'">'+cou_cnts[j][0]+'</a></td>');
+       document.write('<td align="left">'+getFlag(cou_cnts[j][0])+'<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'">'+cou_cnts[j][0]+'</a></td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[j][1].toString()+'</font></td>');
     }else if(j<cou_cnts.length+1){
        document.write('<td><small>&emsp;</small></td><td></td>');
