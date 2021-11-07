@@ -169,7 +169,7 @@ for (var i=0;i<birds.length;i++){
     var tmp_cnts = {};
     for (var j=0;j<birds[i].info.length;j++){
         var tmp2 = getCountry(birds[i].info[j],2);
-        if (tmp2.match(/[\u3400-\u9FBF]/)) {
+        if (is_chinese) {
            tmp2 = chn_cou[eng_cou.indexOf(tmp2)];
         }
         if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
