@@ -141,12 +141,19 @@ function getFlag(country){
     return '<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:0px;">&nbsp;&nbsp;';
 }
 
+function getColumn(anArray, columnNumber) {
+    return anArray.map(function(row) {
+        return row[columnNumber];
+    });
+}
+
 //chinese name for countries
 //flags https://www.worldometers.info/geography/flags-of-the-world/
-var eng_cou = ["Argentina","Australia","Belize","Brazil","Canada","Chile","China","Costa Rica","Cuba","Denmark","France","Iceland","India","Italy","Jamaica","Japan",
-               "Madagascar","Mexico","New Zealand","Panama","Papua New Guinea","Peru","United Kingdom","USA"];
-var chn_cou = ["阿根廷","澳大利亚","伯利兹","巴西","加拿大","智利","中国","哥斯达黎加","古巴","丹麦","法国","冰岛","印度","意大利","牙买加","日本","马达加斯加",
-               "墨西哥","新西兰","巴拿马","巴布亚新几内亚","秘鲁","英国","美国"];
+var eng_chn = [["Argentina","阿根廷"],["Australia","澳大利亚"],["Belize","伯利兹"],["Brazil","巴西"],["Canada","加拿大"],["Chile","智利"],["China","中国"],["Costa Rica","哥斯达黎加"],
+               ["Cuba","古巴"],["Denmark","丹麦"],["France","法国"],["Iceland","冰岛"],["India","印度"],["Italy","意大利"],["Jamaica","牙买加"],["Japan","日本"],
+               ["Madagascar","马达加斯加"],["Mexico","墨西哥"],["New Zealand","新西兰"],["Panama","巴拿马"],["Papua New Guinea","巴布亚新几内亚"],["Peru","秘鲁"],["United Kingdom", "英国"],["USA","美国"]];
+var eng_cou = getColumn(eng_chn,0);
+var chn_cou = getColumn(eng_chn,1);
 
 //count countries
 var cou_cnts  = {};
