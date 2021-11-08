@@ -451,7 +451,7 @@ function initAlbum(){
     this[0][i]    = "20211103_1";
     this[1][i++]  = (["Tracing letter J in salt","在盐上描字母J"])[cn_ind];
     this[0][i]    = "20211108_1";
-    this[1][i++]  = (["Art class","艺术课"])[cn_ind];
+    this[1][i++]  = (["Making letter K with play dough","用橡皮泥制作字母K"])[cn_ind];
 
     adddate(this);
 }
