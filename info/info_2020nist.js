@@ -450,6 +450,8 @@ function initAlbum(){
     this[1][i++]  = (["Making faces to describe feelings","贴图来表达各种心情"])[cn_ind];
     this[0][i]    = "20211103_1";
     this[1][i++]  = (["Tracing letter J in salt","在盐上描字母J"])[cn_ind];
+    this[0][i]    = "20211108_1";
+    this[1][i++]  = (["Art class","艺术课"])[cn_ind];
 
     adddate(this);
 }
