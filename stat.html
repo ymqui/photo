@@ -138,7 +138,7 @@ function getFlag(country){
           tmp = tmp.replace(/\s/g, "");
        }
     }
-    return '<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;">&nbsp;&nbsp;';
+    return '<a href="'+wikiurl(country)+'" style="text-decoration:none" target="'+tmp+'"><img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;"></a>&nbsp;&nbsp;';
 }
 
 function getColumn(anArray, columnNumber) {
