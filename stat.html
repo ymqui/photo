@@ -81,7 +81,7 @@ function ebird(name){
                    Zhejiang:            ['42133','中国浙江省']
                  };
     var id = alerts[name.replace(/\s/g, "")];
-    if (cn_ind==1){
+    if (is_chinese){
        return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(id[1]+'稀有鸟类警报')+'</a>';
     }else{
        return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
@@ -147,7 +147,11 @@ function getFlag(country){
           tmp = tmp.replace(/\s/g, "");
        }
     }
-    return '<a href="'+wikiurl(country)+'" style="text-decoration:none" target="country"><img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;"></a>&nbsp;&nbsp;';
+    if (is_chinese) {
+       return '<a href="'+baikeurl(country)+'" style="text-decoration:none" target="country"><img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;"></a>&nbsp;&nbsp;';
+    }else{
+       return '<a href="'+wikiurl(country)+'" style="text-decoration:none" target="country"><img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;"></a>&nbsp;&nbsp;';
+    }
 }
 
 function getColumn(anArray, columnNumber) {
