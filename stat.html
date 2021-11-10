@@ -145,7 +145,11 @@ function getFlag(country){
              tmp = eng_cou[chn_cou.indexOf(tmp)];
           }
           tmp = tmp.replace(/\s/g, "");
+       }else{
+          country = (["Country","世界"])[cn_ind];
        }
+    }else{
+       country = (["Country","世界"])[cn_ind];
     }
     if (is_chinese) {
        return '<a href="'+baikeurl(country)+'" style="text-decoration:none" target="country"><img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:20px;height:auto;position:relative;top:1px;"></a>&nbsp;&nbsp;';
