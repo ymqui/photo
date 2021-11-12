@@ -137,7 +137,7 @@ function getlocFlag(str){
 }
 
 function getFlag(country){
-    var tmp = 'arb'; //(['arb','arb1','arb2'])[Math.round(Math.random()*2)];
+    var tmp = (['arb','arb1'])[Math.round(Math.random())];
     if (typeof country != 'undefined'){
        if (country.length>0){ 
           tmp = country;
