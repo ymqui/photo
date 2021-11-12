@@ -247,7 +247,7 @@ function initAlbum(){
     this[0][i]    = "20211031_021_WithMommy";
     this[1][i++]  = (["Happy 4th Birthday!","四岁生日快乐！"])[cn_ind];
     this[0][i]    = ["20211031_024_TrickorTreat","20211031_025_TrickorTreat","20211031_026_TrickorTreat"];
-    this[1][i++]  = (["Trick or treating with Mommy","和妈妈一起万圣节出去讨糖"])[cn_ind];
+    this[1][i++]  = (["Trick or treating with Mommy","万圣节和妈妈一起出去讨糖，球球只走了两家就回来了"])[cn_ind];
     adddate(this);
 }
 
