@@ -735,7 +735,7 @@
         if (typeof name === 'undefined'){
            return "https://baike.baidu.com/item/"+bid;
         }else{
-           return "<a href='https://baike.baidu.com/item/"+bid+"/"+lnksty+" target='"+bid+"'>"+name+"</a>";
+           return "<a href='https://baike.baidu.com/item/"+bid+lnksty+" target='"+bid+"'>"+name+"</a>";
         }    
      }else{
         return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
