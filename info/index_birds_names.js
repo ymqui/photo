@@ -388,7 +388,7 @@
   birds[j++] = new myBird("15-10-31T14:10","PHALACRO","Great Cormorant","普通鸬鹚","Phalacrocorax carbo",[p_id("1601china",61),m_id("20151031_120_GreatCormorant")],["cnxmjm","1/2016","mdocci","10/2015","Immature",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
   birds[j++] = new myBird("20-01-23T12:15","PHALACRO","Neotropic Cormorant","美洲鸬鹚","Nannopterum brasilianum",p_id("2001txbirding",[12,13]),["txanwr","1/2020"]);
   birds[j++] = new myBird("05-12-24T14:58","PHALACRO","Double-crested Cormorant","角鸬鹚","Nannopterum auritum",[p_id("1112floridabirding",19),p_id("1312savannahbirding",12)],["flevnp","12/2011","scsnwr","12/2013"]);
-  birds[j++] = new myBird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15)],["arb","12/2005",npsurl("bisc","Biscayne National Park")+", Florida, USA","美国佛罗里达州"+baikeurl("比斯坎湾国家公园"),"flevnp","12/2011"]);
+  birds[j++] = new myBird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15)],["arb","12/2005",npsurl("bisc","Biscayne National Park")+", Florida, USA","美国佛罗里达州"+baikeurl("比斯坎湾国家公园","比斯坎湾国家公园"),"flevnp","12/2011"]);
 //birds[j++] = new myBird("21-00-00T00:00","THRESKIO","Scarlet Ibis","美洲红鹮","Eudocimus ruber",["0504zoo/0504zoo__15","0504zoo/0504zoo__22"],["natzo","4/2005","Adult","natzo","4/2005","Immature"],"scaibi");
   birds[j++] = new myBird("05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",[p_id("0512merritt",9)],["flmnwr","12/2005"]);
   birds[j++] = new myBird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",[p_id("2001txbirding",32)],["txsnwr","1/2020","Nonbreeding plumage"]);
