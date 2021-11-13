@@ -726,11 +726,6 @@
   }
 
   function baikeurl(bid,name){
-     if (typeof name !='undefined'){
-        if (typeof name !="string"){
-           name = bid;
-        }
-     }
      if (typeof bid == "string"){
         if (typeof name === 'undefined'){
            return "https://baike.baidu.com/item/"+bid;
