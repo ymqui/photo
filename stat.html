@@ -30,6 +30,9 @@ var eng_chn = [["Argentina","阿根廷"],["Australia","澳大利亚"],["Bahamas"
 var eng_cou = getColumn(eng_chn,0);
 var chn_cou = getColumn(eng_chn,1);
 
+var width   = [28,20];
+var offset  = [4,5];
+
 var links = [ebird('Maryland'),ebird('Virginia'),ebird('Delaware'),ebird('Pennsylvania'),ebird('New York'),ebird('New Jersey'),ebird('West Virginia'),
              '<a href="https://ebird.org/map" target="link5">'+mytext((['Species Map','鸟类分布地图'])[cn_ind])+'</a>',
              '<a href="https://ebird.org/hotspots" target="link6">'+mytext((['Hotspots Map','观鸟热点地图'])[cn_ind])+'</a>',
@@ -152,9 +155,9 @@ function getFlag(country){
        country = (["List of countries and dependencies by area","世界各国"])[cn_ind];
     }
     if (is_chinese) {
-       return '<a href="'+baikeurl(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:28px;height:auto;position:relative;top:4px;"></a>&nbsp;&nbsp;';
+       return '<a href="'+baikeurl(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:'+width[0].toString()+'px;height:auto;position:relative;top:'+offset[0].toString()+'px;"></a>&nbsp;&nbsp;';
     }else{
-       return '<a href="'+wikiurl(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:28px;height:auto;position:relative;top:4px;"></a>&nbsp;&nbsp;';
+       return '<a href="'+wikiurl(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/'+tmp.toLowerCase()+'.gif" style="width:'+width[0].toString()+'px;height:auto;position:relative;top:'+offset[0].toString()+'px;"></a>&nbsp;&nbsp;';
     }
 }
 
@@ -310,7 +313,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     document.write('<td></td>');
     if (k<(links.length*2-1)){
        if (k%2==0){
-          tmp_url = '<img src="'+icons[k/2]+'" style="width:24px;height:auto;position:relative;top:7px;">&nbsp;'+links[k/2];
+          tmp_url = '<img src="'+icons[k/2]+'" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">&nbsp;'+links[k/2];
        }else{
           tmp_url = '';
        }
