@@ -181,7 +181,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[m_id("")],["mdbhrp","9/2015"],"","");
   birds[j++] = new myBird("17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Canachites canadensis",p_id("1709algonquin",[10,8,9]),["caalgp","9/2017","Male","caalgp","9/2017","Female","caalgp","9/2017","Mating display"]);
-  birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20170129_015_Ring-neckedPheasant"),p_id("1704longyan",12)],["mdmwma","1/2017","Male","cnlynv","4/2017","Female"]);
+  birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20211121_131_Ring-neckedPheasant"),p_id("1704longyan",12)],["mdmdmd","11/2021","Male, "+gmap("Park Heights Avenue",39.40761,-76.729)+", Baltimore County","","","巴尔的摩郡公园高地大街","cnlynv","4/2017","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",[p_id("1604asheville",1)],["flmahp","6/2016","Male"]);
 //birds[j++] = new myBird("21-00-00T00:00","PHASIANI","Chukar","石鸡","Alectoris chukar",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","A released bird","一只释放鸟"]);
 //birds[j++] = new myBird("21-00-00T00:00","CAPRIMUL","Lesser Nighthawk","小灰眉夜鹰","Chordeiles acutipennis",[m_id("")],["nvdnwr","7/2015"]);
