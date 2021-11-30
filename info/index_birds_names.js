@@ -29,7 +29,6 @@
       dedede:  ["Delaware","USA","特拉华州","美国"], 
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
       flapop:  ["Lake Apopka-Magnolia Park","Florida, USA","阿波普卡湖玉兰公园","美国佛罗里达州",wikiurl("Magnolia Park (Apopka, Florida)")],
-      flbppm:  ["Black Point Park & Marina","Miami-Dade County, Florida, USA","黑角公园及码头","美国佛罗里达州迈阿密-戴德郡","http://www.miamidade.gov/parks/black-point-marina.asp"],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","种植园保留地","美国佛罗里达州布劳沃德郡","https://www.plantation.org/government/departments/parks-recreation/plantation-preserve-golf-course-club/about-the-preserve/linear-trail"],
@@ -217,7 +216,7 @@
   birds[j++] = new myBird("15-01-03T10:17","CUCULIDA","Smooth-billed Ani","滑嘴犀鹃","Crotophaga ani",[p_id("1501prbirding",16)],["prcnwr","1/2015"]);
   birds[j++] = new myBird("13-12-25T14:53","CUCULIDA","Greater Roadrunner","走鹃","Geococcyx californianus",[p_id("1312bigbendbirding",5)],["txbbnp","12/2013"]);
   birds[j++] = new myBird("06-07-30T14:31","CUCULIDA","Yellow-billed Cuckoo","黄嘴美洲鹃","Coccyzus americanus",[p_id("2009cobirding",29),p_id("1512bhill",40),m_id("20200603_035_Yellow-billedCuckoo")],["mdcovl","6/2009","mdbhrp","9/2015","mdbmnt","6/2020"]);
-  birds[j++] = new myBird("16-06-11T08:39","CUCULIDA","Mangrove Cuckoo","红树美洲鹃","Coccyzus minor",p_id("1606florida",[16,15,17]),["flbppm","6/2016"]);
+  birds[j++] = new myBird("16-06-11T08:39","CUCULIDA","Mangrove Cuckoo","红树美洲鹃","Coccyzus minor",p_id("1606florida",[16,15,17]),["arb","6/2016",gmap("Black Point Park & Marina",25.54127,-80.32845)+", Miami-Dade County, Florida, USA","美国佛罗里达州迈阿密-戴德郡黑角公园及码头"]);
   birds[j++] = new myBird("21-05-14T09:30","CUCULIDA","Black-billed Cuckoo","黑嘴美洲鹃","Coccyzus erythropthalmus",m_id(["20210514_072_Black-billedCuckoo","20210514_073_Black-billedCuckoo"]),["mdlbrp","5/2021"]);
 //birds[j++] = new myBird("21-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[m_id("")],["mdbhrp","9/2015"],"whbmes2","拟鹑");
 //birds[j++] = new myBird("21-00-00T00:00","PTEROCLI","Pallas's Sandgrouse","毛腿沙鸡","Syrrhaptes paradoxus",[m_id("")],["mdbhrp","9/2015"],"palsan1");
@@ -396,7 +395,7 @@
   birds[j++] = new myBird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064_AmericanBittern"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdmdmd","4/2015",gmap("North Point State Park",39.221,-76.42245),"","","北点州立公园","cactnw","9/2016","cactnw","9/2016"]);
   birds[j++] = new myBird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",[m_id("20210427_053_LeastBittern")],["papapa","4/2021","Female, "+gmap("Lake Redman",39.88095,-76.68707)+", York County","","","约克郡雷德曼湖"]);
   birds[j++] = new myBird("06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",m_id(["20160625_081_Black-crownedNight-Heron","20170827_096_Black-cronwedNight-Heron"]),["nyjbwr","6/2016","mdcorl","8/2017","Juvenile"]);
-  birds[j++] = new myBird("06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","flbppm","6/2016","Immature"]);
+  birds[j++] = new myBird("06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/Yellow-crownedNight-Heron_20060506_005",p_id("1509charleston",21),p_id("1606florida",14)],["mdcopl","5/2006","scpitt","9/2015","arb","6/2016","Immature, "+gmap("Black Point Park & Marina",25.54127,-80.32845)+", Miami-Dade County, Florida, USA","未成年，美国佛罗里达州迈阿密-戴德郡黑角公园及码头"]);
   birds[j++] = new myBird("05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",[m_id("20200616_040_GreenHeron"),p_id("1412mckee-beshers",4),m_id("20200617_048_GreenHeron"),"2007cobirding/20070811_117_GreenHeron"],["mdmwma","6/2020","mdmwma","8/2014","mdmwma","6/2020","mdcorl","8/2007","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","ARDEIDAE","Striated Heron","绿鹭","Butorides striata",[p_id("1601china",63)],["cnxmjm","1/2016"],"strher");
   birds[j++] = new myBird("16-01-13T16:26","ARDEIDAE","Chinese Pond Heron","池鹭","Ardeola bacchus",[p_id("1601china",63)],["cnxmjm","1/2016","Winter plumage"],"chpher1");
