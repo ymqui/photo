@@ -489,7 +489,7 @@
   birds[j++] = new myBird("16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背啄木鸟","Picoides arcticus",p_id("1609vtcanbirding",[4,5]),["vtwwma","9/2016","Female"]);
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Nuttall's Woodpecker","加州啄木鸟","Dryobates nuttallii",[p_id("1601china",)],["cnbjjp","1/2016"],"","");
   birds[j++] = new myBird("13-12-25T14:40","PICIDAE ","Ladder-backed Woodpecker","纹背啄木鸟","Dryobates scalaris",[p_id("1312bigbendbirding",1),p_id("2001txbirding",21)],["txbbnp","12/2013","Male","txsnwr","1/2020","Female"]);
-  birds[j++] = new myBird("05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Dryobates pubescens",m_id(["20160130_007_DownyWoodpecker","20170827_095_DownyWoodpecker"]),["mdbhrp","1/2016","Male","mdcocn","8/2017","Female","","","at Riley's Lock","莱利闸"]);
+  birds[j++] = new myBird("05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Dryobates pubescens",m_id(["20160130_007_DownyWoodpecker","20170827_095_DownyWoodpecker"]),["mdbhrp","1/2016","Male","mdcocn","8/2017","Female","","at Riley's Lock","莱利闸"]);
   birds[j++] = new myBird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Leuconotopicus borealis",p_id("1509charleston",[2,3]),["arb","9/2015",npsurl("Carolina_Sandhills",true,"Carolina Sandhills National Wildlife Refuge")+", South Carolina, USA","美国南卡罗来纳州"+npsurl("Carolina_Sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]);
   birds[j++] = new myBird("18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Leuconotopicus fumigatus",[p_id("1812crbirding",24)],["crarol","12/2018","Male"],"smbwoo1");
 //birds[j++] = new myBird("21-00-00T00:00","PICIDAE ","Arizona Woodpecker","亚利桑那啄木鸟","Leuconotopicus arizonae",[p_id("1601china",)],["cnbjjp","1/2016"],"","");
