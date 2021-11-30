@@ -294,7 +294,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        txcol2  = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        if (py_cnts[j-cou_cnts.length-2][1]>0) {
-          pys = '<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+          pys = '<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
        }else{
           pys = py_cnts[j-cou_cnts.length-2][0];
        }
@@ -303,7 +303,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
            if (py_cnts[j-cou_cnts.length-1][1]==py_cnts[j-cou_cnts.length-2][1]){
               j++;
               if (py_cnts[j-cou_cnts.length-2][1]>0) {
-                 pys = pys+'<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="'+loc_cnts[i][0]+'"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+                 pys = pys+'<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
               }else{
                  pys = pys+py_cnts[j-cou_cnts.length-2][0];
               }
