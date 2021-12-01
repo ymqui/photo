@@ -50,7 +50,6 @@
       mdmdmd:  ["Maryland","USA","马里兰州","美国"], 
       mdmwma:  ["McKee-Beshers Wildlife Management Area","Maryland, USA","McKee-Beshers野生动物管理区","美国马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"],
       mdocci:  ["Ocean City","Maryland, USA","大洋城","美国马里兰州"],
-      mdorpk:  ["Oregon Ridge Park","Baltimore, Maryland, USA","巴尔的摩俄勒冈岭公园","美国马里兰州","http://www.oregonridgenaturecenter.org/"],
       mdpvsp:  ["Patapsco Valley State Park"," at Henryton","Maryland, USA","帕塔普斯科河谷州立公园","亨利顿一带","美国马里兰州","http://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx"],
       mdsclr:  ["Scotts Landing Road","Worcester County, Maryland, USA","斯科茨码头路","美国马里兰州伍斯特郡","https://birdersguidemddc.org/site/truitts-landing-and-other-bayside-landings/"],
       mdswhf:  ["Swan Harbor Farm","Harford County, Maryland, USA","天鹅港农场","美国马里兰州哈福德郡","http://www.swanharborfarm.org/"],
@@ -762,7 +761,7 @@
   birds[j++] = new myBird("15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",[m_id("20150621_078_WoodThrush")],["mdpvsp","6/2015"]);
   birds[j++] = new myBird("15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[m_id("20170506_043_SwainsonThrush"),p_id("1507birdingwest",12)],["nycenp","5/2017","waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"]);
   birds[j++] = new myBird("06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1612savannah",2)],["scsnwr","12/2016"]);
-  birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",m_id(sas(["20170930_109","20210504_060"],"_Gray-cheekedThrush")),["mdorpk","9/2017","mdmdmd","5/2021",gmap("Kinder Farm Park",39.1018,-76.58972)+", Anne Arundel County","","","安妮·阿伦德尔郡金德农场公园"]);
+  birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",m_id(sas(["20170930_109","20210504_060"],"_Gray-cheekedThrush")),["mdmdmd","9/2017",gmap("Oregon Ridge Park",39.49436,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园","mdmdmd","5/2021",gmap("Kinder Farm Park",39.1018,-76.58972)+", Anne Arundel County","","","安妮·阿伦德尔郡金德农场公园"]);
 //birds[j++] = new myBird("21-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdorpk","9/2017"]);
   birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"]);
   birds[j++] = new myBird("16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","1/2016","Male","cnjsxp","1/2016","Female"],"chibla1","乌鸫普通亚种");
@@ -906,7 +905,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("")],["papapa","5/2021",npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge"),"","",npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
   birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[p_id("2020lbrp",4)],["mdlbrp","5/2020"]);
-  birds[j++] = new myBird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdorpk","9/2017","Immature male"]);
+  birds[j++] = new myBird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdorpk","9/2017","Immature male, "+gmap("Oregon Ridge Park",39.49436,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园"]);
   birds[j++] = new myBird("19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",p_id("1905mxbird",[13,12]),["mxunam","5/2019","Male"],"hooyel1");
   birds[j++] = new myBird("16-04-24T10:49","PARULIDA","Hooded Warbler","黑枕威森莺","Setophaga citrina",p_id("1604asheville",[18,17]),["nccrsp","4/2016","Male"]);
   birds[j++] = new myBird("14-07-07T16:57","PARULIDA","American Redstart","橙尾鸲莺","Setophaga ruticilla",[p_id("1407michiganbirding",20),m_id("20170826_090_AmericanRedstart")],["mimack","7/2014","Male","mdmwma","8/2017","Female"]);
