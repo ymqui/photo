@@ -2,10 +2,6 @@
   //date
   var modiDate  = new Date("2021-11-28T08:00");
   var modirange = 10;  		//range within modiDate in days
-  var modiTime  = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
-  var modiBird  = {name:[],cname:[]};
-  var birds     = [];         
-  var j         = 0;
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -99,6 +95,11 @@
       wahobb:  ["Hobuck Beach","Neah Bay, Washington, USA","尼亚湾Hobuck海滩","美国华盛顿州","http://makah.com/activities/beaches/hobuck/"],
       waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl("奥林匹克国家公园")]
   };
+
+  var modiTime = modiDate.getTime()-modirange*3600*24*1000;  	//range within modiDate converted from days to milliseconds
+  var modiBird = {name:[],cname:[]};
+  var birds  = [];         
+  var j      = 0;
 
 //birds[j++] = new myBird("21-00-00T00:00","STRUTHIO","Common Ostrich","非洲鸵鸟","Struthio camelus",[m_id("")],["mdbhrp","9/2015"],"ostric2");
 //birds[j++] = new myBird("21-00-00T00:00","STRUTHIO","Somali Ostrich","索马里鸵鸟","Struthio molybdophanes",[m_id("")],["mdbhrp","9/2015"],"ostric3");
