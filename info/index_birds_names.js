@@ -851,6 +851,7 @@
   birds[j++] = new myBird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",[p_id("1905mxbird",15)],["mxunam","5/2019"],"","");
   birds[j++] = new myBird("19-05-12T09:44","PASSEREL","Rufous-crowned Sparrow","棕顶猛雀鹀","Aimophila ruficeps",[p_id("1905mxbird",9)],["mxunam","5/2019"]);
   birds[j++] = new myBird("21-01-06T10:52","PASSEREL","Green-tailed Towhee","绿尾唧鹀","Pipilo chlorurus",[m_id("20210106_005_Green-tailedTowhee")],["vavava","1/2021",gmap("Sky Meadows State Park",38.98744,-77.94284),"","","天空草地州立公园"]);
+//birds[j++] = new myBird("21-00-00T00:00","PASSEREL","Spotted Towhee","斑唧鹀","Pipilo maculatus",[m_id("")],["mdbmnt","4/2015","Male","mdbmnt","6/2015","Juvenile"]);
   birds[j++] = new myBird("12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",m_id(["20150405_050_EasternTowhee","20150628_079_EasternTowhee"]),["mdbmnt","4/2015","Male","mdbmnt","6/2015","Juvenile"]);
 //birds[j++] = new myBird("21-00-00T00:00","CALYPTOP","Eastern Chat-Tanager","东拟䳭唐纳雀","Calyptophilus frugivorus",[m_id("")],["mdbhrp","9/2015"],"eactan1","");
 //birds[j++] = new myBird("21-00-00T00:00","PHAENICO","Black-crowned Palm-Tanager","黑顶棕榈唐纳雀","Phaenicophilus palmarum",[m_id("")],["mdbhrp","9/2015"],"bcptan1");
