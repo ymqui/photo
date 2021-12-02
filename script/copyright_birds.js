@@ -2,8 +2,8 @@
   if (!cellphone) document.write('<center>');
   document.write('<br><p style="font-family:Times New Roman;">');
   document.write('<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" SRC="https://ymqui.github.io/photo/script/date.js"></SCRIPT>');
-  for (var i=0;i<modiBird.name.length;i++){
-      mname = reform(modiBird.name[i]);
+  for (var i=0;i<modBird.name.length;i++){
+      mname = reform(modBird.name[i]);
       if ((mname!=bname) && birdFound(mname)){
          mname=mname+q_count;
          if(order) mname=mname+'&amp;order'; 
@@ -16,24 +16,24 @@
       
       if(i==0){
          if(window.usechinese){
-            document.write('，新加'+style_b+modiBird.cname[i]+"("+modiBird.name[i]+")"+style_e);
+            document.write('，新加'+style_b+modBird.cname[i]+"("+modBird.name[i]+")"+style_e);
          }else{
-            document.write(', added '+style_b+modiBird.name[i]+style_e);
+            document.write(', added '+style_b+modBird.name[i]+style_e);
          }
       }else{
-         if (i==modiBird.name.length-1){
+         if (i==modBird.name.length-1){
             if(window.usechinese){
                st_str="和";
             }else{
-               if(modiBird.name.length==2){st_str=" and ";}else{st_str=", and ";}
+               if(modBird.name.length==2){st_str=" and ";}else{st_str=", and ";}
             }
          }else{
             if(window.usechinese){st_str="，";}else{st_str=", ";}
          }
          if(window.usechinese){
-            document.write(st_str+style_b+modiBird.cname[i]+"("+modiBird.name[i]+")"+style_e);
+            document.write(st_str+style_b+modBird.cname[i]+"("+modBird.name[i]+")"+style_e);
          }else{
-            document.write(st_str+style_b+modiBird.name[i]+style_e);
+            document.write(st_str+style_b+modBird.name[i]+style_e);
          }
       }
   }
@@ -44,11 +44,11 @@
   }
   document.write("<br>");
   var tmpDate = new Date();    //current date
-  var modiYear = tmpDate.getYear();
-  modiYear = (modiYear<2000)?modiYear+1900:modiYear;  
+  var modYear = tmpDate.getYear();
+  modYear = (modYear<2000)?modYear+1900:modYear;  
   document.write("&copy; 2005");
-  if(modiYear>2005){
-     document.write("-"+modiYear);
+  if(modYear>2005){
+     document.write("-"+modYear);
   }
   document.write(" All rights reserved. ");
   var tmpem1 = "LaoQ Birding";

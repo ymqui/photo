@@ -1,11 +1,11 @@
-﻿<!--
+<!--
   document.write('</td></tr><tr><td align=center valign=center>');
-  var modiDate = new Date();    //current date
-  var modiYear = modiDate.getYear();
-  modiYear = (modiYear<2000)?modiYear+1900:modiYear;  
+  var modDate = new Date();    //current date
+  var modYear = modDate.getYear();
+  modYear = (modYear<2000)?modYear+1900:modYear;  
   document.write("&copy; 2004");
-  if(modiYear>2004){
-     document.write("-"+modiYear);
+  if(modYear>2004){
+     document.write("-"+modYear);
   }
   if(window.friendalbum||window.familyalbum){
      document.write(" All rights reserved by photo owners. ");
