@@ -3,6 +3,7 @@
   var loc_cnts  = {};
   var py_cnts   = {};
   var misc_cnts = 0;
+  var dig_cnts  = 0;
   var pic_cnts  = 0;
 
   function newOrder(name, cname, desc, cdesc, family){
@@ -526,6 +527,7 @@
          tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]); 
      }
      for (var i=0;i<this.photo.length;i++){
+         if (this.photo[i].match(/_dig_/i)){dig_cnts++;}
          this.info.push(tmp_info[Math.min(i,tmp_info.length-1)]); 
          this.cinfo.push(tmp_cinfo[Math.min(i,tmp_cinfo.length-1)]);
      }
