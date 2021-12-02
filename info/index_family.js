@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   var setWidth     = 900;             //window width
   var setHeight    = 900;             //window height
   var info   = new Array(8);          //image info
@@ -127,5 +127,5 @@
   //info[7][5] = true;
 
   //date
-  var modiDate = new Date("2008-03-09T10:00:00");
+  var modDate = new Date("2008-03-09T10:00:00");
 //-->

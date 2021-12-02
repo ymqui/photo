@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   var setWidth     = 900;             //window width
   var setHeight    = 900;             //window height
   var info   = new Array(8);          //image info
@@ -127,5 +127,5 @@
   for(var tmp=0;tmp<info[0].length;tmp++) info[7][tmp] = false;  //no password protection if not specified
 
   //date
-  var modiDate = new Date("2010-06-05T10:00:00");
+  var modDate = new Date("2010-06-05T10:00:00");
 //-->

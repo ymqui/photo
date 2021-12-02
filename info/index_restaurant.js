@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   var setWidth     = 1000;            //window width
   var setHeight    = 900;             //window height
   var info   = new Array(8);          //image info
@@ -533,5 +533,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modiDate = new Date("2016-11-26T10:00:00");
+  var modDate = new Date("2016-11-26T10:00:00");
 //-->

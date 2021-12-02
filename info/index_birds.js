@@ -373,10 +373,10 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modiDate1 = new Date("2020-10-28T12:00:00");
-  if (window.modiDate){
-     if(modiDate1.getTime()>modiDate.getTime()) modiDate = modiDate1;  
+  var modDate1 = new Date("2020-10-28T12:00:00");
+  if (window.modDate){
+     if(modDate1.getTime()>modDate.getTime()) modDate = modDate1;  
   }else{
-     modiDate = modiDate1;
+     modDate = modDate1;
   }
 //-->
