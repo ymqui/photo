@@ -456,7 +456,8 @@ function initAlbum(){
     this[1][i++]  = (["Art class with Ms Tiny","Tiny老师的美术课"])[cn_ind];
     this[0][i]    = "20211116_1";
     this[1][i++]  = (["Making a hot-air balloon","贴热气球"])[cn_ind];
-
+    this[0][i]    = "20211209_1";
+    this[1][i++]  = (["Group photo","集体照"])[cn_ind];
 
     adddate(this);
 }
