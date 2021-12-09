@@ -193,7 +193,11 @@ function getColumn(anArray, columnNumber) {
 }
 
 function tooltip(text,tooltip) {
-    return '<div class="tooltip">'+text+'<span class="tooltiptext">'+tooltip+'</span></div>';
+    if (tooltip.length>0){
+       return '<div class="tooltip">'+text+'<span class="tooltiptext">'+tooltip+'</span></div>';
+    }else{
+       return text;
+    }
 }
 
 //count countries
