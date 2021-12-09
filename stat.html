@@ -155,13 +155,32 @@ function getCountry(str,offset){
     }
 }
 
-function getlocFlag(str){
-    var tmp = locurl[str];
-    if (tmp[2].match(/[\u3400-\u9FBF]/)){
-       return getFlag(getCountry(tmp[1],1));
+function getloctooltip(str){
+    var tmp = locurl[str][0+2*cn_ind];
+    if(is_chinese){
+        return getlocCountry(loc_cnts[i][0])+tmp;
     }else{
-       return getFlag(getCountry(tmp[2],1));
+        return tmp+', '+getlocCountry(loc_cnts[i][0]);
     }
+}
+
+function getlocCountry(str){
+    var tmp = locurl[str];
+    var tmp1 = '';
+    if (tmp[2].match(/[\u3400-\u9FBF]/)){
+       tmp1 = getCountry(tmp[1],1);
+    }else{
+       tmp1 = getCountry(tmp[2],1);
+    }
+    if (is_chinese) {
+       return chn_cou[eng_cou.indexOf(tmp1)];
+    }else{
+       return tmp1;
+    }
+}
+
+function getlocFlag(str){
+    return getFlag(getlocCountry(str));
 }
 
 function getFlag(country){
@@ -301,9 +320,9 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
           }
        }
        if (tmp_url.length>0){
-          tmp_url = getlocFlag(loc_cnts[i][0])+'<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol1+tooltip('<u>'+loc_cnts[i][0]+'</u>',locurl[loc_cnts[i][0]][0+2*cn_ind])+'</a>';
+          tmp_url = getlocFlag(loc_cnts[i][0])+'<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol1+tooltip('<u>'+loc_cnts[i][0]+'</u>',getloctooltip(loc_cnts[i][0]))+'</a>';
        }else {
-          tmp_url = getlocFlag(loc_cnts[i][0])+tooltip(loc_cnts[i][0],locurl[loc_cnts[i][0]][0+2*cn_ind]);
+          tmp_url = getlocFlag(loc_cnts[i][0])+tooltip(loc_cnts[i][0],getloctooltip(loc_cnts[i][0]));
        }
        var loc_url = loc_cnts[i][1].toString();
        if (loc_cnts[i][1]>0) {
