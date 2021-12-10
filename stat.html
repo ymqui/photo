@@ -278,8 +278,13 @@ py_cnts = sortProperties(py_cnts);
 for (var i=0;i<tmp.length;i++){
     if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
 }
-
 loc_cnts = sortProperties(loc_cnts);
+var misc_cnts_str = misc_cnts[0].toString();
+for (var i=1;i<misc_cnts.length;i++){
+    if (misc_cnts[i]>0){
+       misc_cnts_str = misc_cnts_str+'/'+misc_cnts[i].toString();
+    }
+}
 
 document.write('<table class="center">');
 document.write('<tr><td colspan="9">');
@@ -293,7 +298,7 @@ document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(pic_cnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts_str,fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Digiscope Photos','望远镜照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
