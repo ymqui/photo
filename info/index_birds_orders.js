@@ -2,7 +2,7 @@
   //variables for stat counting
   var loc_cnts  = {};
   var py_cnts   = {};
-  var misc_cnts = 0;
+  var misc_cnts = [0,0,0];
   var dig_cnts  = 0;
   var pic_cnts  = 0;
 
@@ -714,11 +714,12 @@
   }
 
   function m_id(id,num){
-     if (typeof num === 'undefined'){num = "";}
+     var ind = 0;
+     if (typeof num === 'undefined'){num = "";}else{ind=num;}
      if (id.constructor == Array) {
-        misc_cnts = misc_cnts+id.length;
+        misc_cnts[ind] = misc_cnts[ind]+id.length;
      }else{
-        misc_cnts = misc_cnts+1;
+        misc_cnts[ind] = misc_cnts[ind]+1;
      }
      return sas("misc_birds"+num.toString()+"/",id);
   }
