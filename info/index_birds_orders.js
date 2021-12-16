@@ -563,10 +563,10 @@
         }
      }
    
-     //check if this bird needs to be added to modBird
-     if (modTime<=this.lifer.getTime()){
-        modBird.name[modBird.name.length]   = this.name;
-        modBird.cname[modBird.cname.length] = this.cname;
+     //check if this bird needs to be added to modBrd
+     if (modTim<=this.lifer.getTime()){
+        modBrd.name[modBrd.name.length]   = this.name;
+        modBrd.cname[modBrd.cname.length] = this.cname;
         this.newbird = true;
      }
   }
