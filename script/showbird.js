@@ -160,8 +160,8 @@ for(var i=0;i<vars.length;i++) {
 
 if (lifer) order = false;
 
-if ((bname=='')&&(modBird.name.length>0)){
-   bname = reform(modBird.name[Math.floor(myrandom()*(modBird.name.length))]);
+if ((bname=='')&&(modBrd.name.length>0)){
+   bname = reform(modBrd.name[Math.floor(myrandom()*(modBrd.name.length))]);
 }
 
 if (cellphone){
