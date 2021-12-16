@@ -63,5 +63,5 @@
   for(var tmp=0;tmp<info[0].length;tmp++) info[7][tmp] = false;  //no password protection if not specified
 
   //date
-  var modDate = new Date("2009-09-10T10:00:00");
+  var modDat = new Date("2009-09-10T10:00:00");
 //-->

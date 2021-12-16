@@ -127,5 +127,5 @@
   //info[7][5] = true;
 
   //date
-  var modDate = new Date("2008-03-09T10:00:00");
+  var modDat = new Date("2008-03-09T10:00:00");
 //-->

@@ -1,7 +1,7 @@
 <!--
   //date
-  var modDate  = new Date("2021-11-28T08:00");
-  var modrange = 10;  		//range within modDate in days
+  var modDat = new Date("2021-11-28T08:00");
+  var modran = 10;  		//range within modDat in days
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -96,7 +96,7 @@
       waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl("奥林匹克国家公园")]
   };
 
-  var modTime = modDate.getTime()-modrange*3600*24*1000;  	//range within modDate converted from days to milliseconds
+  var modTime = modDat.getTime()-modran*3600*24*1000;  	//range within modDat converted from days to milliseconds
   var modBird = {name:[],cname:[]};
   var birds   = [];         
   var j       = 0;

@@ -533,5 +533,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDate = new Date("2016-11-26T10:00:00");
+  var modDat = new Date("2016-11-26T10:00:00");
 //-->

@@ -1887,5 +1887,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDate = new Date("2021-10-12T08:00:00");
+  var modDat = new Date("2021-10-12T08:00:00");
 //-->
