@@ -616,7 +616,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","PACHYCEP","Maroon-backed Whistler","栗背啸鹟","Coracornis raveni",[m_id("")],["mdbhrp","9/2015"],"mabwhi1");
   birds[j++] = new myBird("16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[p_id("1601china",43)],["cnlynv","1/2016"],"lotshr1");
   birds[j++] = new myBird("16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",[p_id("1612savannah",11)],["scsnwr","12/2016"]);
-  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",m_id(["20161210_138_NorthernShrike","20211219_150_NorthernShrike"]),["mdmdmd","12/2016",gmap("Ben's Point Road",39.15365,-75.98918)+", Queen Anne's County","","","安妮女王郡本点路","mdbmnt","12/2021"],"伯劳");
+  birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",m_id(["20161210_138_NorthernShrike","20211219_148_NorthernShrike"]),["mdmdmd","12/2016",gmap("Ben's Point Road",39.15365,-75.98918)+", Queen Anne's County","","","安妮女王郡本点路","mdbmnt","12/2021"],"伯劳");
 //birds[j++] = new myBird("21-00-00T00:00","LANIIDAE","Great Gray Shrike","灰伯劳","Lanius excubitor",[m_id()],["scsnwr","12/2016"]);
   birds[j++] = new myBird("15-05-02T08:40","VIREONID","Red-eyed Vireo","红眼莺雀","Vireo olivaceus",m_id(["20160515_062_Red-eyedVireo","20160515_061_Red-eyedVireo"]),["mdpvsp","5/2016"]);
   birds[j++] = new myBird("20-10-01T10:07","VIREONID","Philadelphia Vireo","费城莺雀","Vireo philadelphicus",[p_id("2020lbrp",31)],["mdlbrp","10/2020"]);
