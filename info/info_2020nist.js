@@ -10,6 +10,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
+var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 document.title = title;
@@ -459,9 +460,9 @@ function initAlbum(){
     this[0][i]    = "20211209_1";
     this[1][i++]  = (["Group photo","集体照"])[cn_ind];
     this[0][i]    = "20211217_1";
-    this[1][i++]  = (["Virtual holiday performance","节日表演"])[cn_ind];
+    this[1][i++]  = ([urllink((url="https://youtu.be/HwFekbYxxrY"),"Virtual holiday performance"),urllink(url,"节日表演")])[cn_ind];
     this[0][i]    = "20211217_2";
-    this[1][i++]  = (["Virtual holiday performance","节日表演"])[cn_ind];
+    this[1][i++]  = ([urllink(url,"Virtual holiday performance"),urllink(url,"节日表演")])[cn_ind];
 
     adddate(this);
 }
