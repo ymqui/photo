@@ -756,11 +756,11 @@
      }
   }
 
-  function bmap(name,cord1,cord2){
+  function bmap(name,latt,long){
      if ((typeof cord1 === 'undefined') || (typeof cord2 === 'undefined')){   
         return name;
      }else{
-        return "<a href='https://map.baidu.com/poi/@"+cord1.toString()+"%2C"+cord2.toString()+"%2C19z"+lnksty+" target='bmap'>"+name+"</a>";
+        return "<a hrf='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
      }
   }
 
