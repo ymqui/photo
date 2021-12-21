@@ -760,7 +760,7 @@
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return name;
      }else{
-        return "<a href='http://api.map.baidu.com/marker?location="+(latt+0.0057).toString()+"%2C"+(long+0.0064).toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
+        return "<a href='https://api.map.baidu.com/marker?location="+(latt+0.0057).toString()+"%2C"+(long+0.0064).toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
      }
   }
 
