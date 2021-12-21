@@ -761,7 +761,7 @@
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return name;
      }else{
-        return "<a href='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02"+lnksty+" target='bmap'>"+name+"</a>";
+        return "<a href='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02&title="+name+lnksty+" target='bmap'>"+name+"</a>";
      }
   }
 
