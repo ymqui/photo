@@ -756,12 +756,12 @@
      }
   }
 
+  //https://lbsyun.baidu.com/index.php?title=uri/api or with offset [latt,long]+[0.0057,0.0064]
   function bmap(name,latt,long){
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return name;
      }else{
         return "<a href='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02"+lnksty+" target='bmap'>"+name+"</a>";
-        //return "<a href='http://api.map.baidu.com/marker?location="+(latt+0.0057).toString()+"%2C"+(long+0.0064).toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
      }
   }
 
