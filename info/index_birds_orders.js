@@ -757,10 +757,10 @@
   }
 
   function bmap(name,latt,long){
-     if ((typeof cord1 === 'undefined') || (typeof cord2 === 'undefined')){   
+     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return name;
      }else{
-        return "<a hrf='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
+        return "<a hrf='http://api.map.baidu.com/marker?location="+(latt+0.0057).toString()+"%2C"+(long+0.0064).toString()+"&output=html"+lnksty+" target='bmap'>"+name+"</a>";
      }
   }
 
