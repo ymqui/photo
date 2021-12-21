@@ -458,6 +458,10 @@ function initAlbum(){
     this[1][i++]  = (["Making a hot-air balloon","贴热气球"])[cn_ind];
     this[0][i]    = "20211209_1";
     this[1][i++]  = (["Group photo","集体照"])[cn_ind];
+    this[0][i]    = "20211217_1";
+    this[1][i++]  = (["Virtual holiday performance","节日表演"])[cn_ind];
+    this[0][i]    = "20211217_2";
+    this[1][i++]  = (["Virtual holiday performance","节日表演"])[cn_ind];
 
     adddate(this);
 }
