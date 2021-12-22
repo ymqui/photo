@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2021-11-28T08:00");
+  var modDat = new Date("2021-12-22T08:00");
   var modran = 10;	//range within modDat in days
 
   //location urls
@@ -267,6 +267,7 @@
 //birds[j++] = new myBird("21-00-00T00:00","IBIDORHY","Ibisbill","鹮嘴鹬","Ibidorhyncha struthersii",[m_id("")],["mdbhrp","9/2015"],"ibisbi1");
   birds[j++] = new myBird("15-05-17T10:28","RECURVIR","Black-necked Stilt","黑颈长脚鹬","Himantopus mexicanus",[p_id("1505bombayhook",10),p_id("2001txbirding",24)],["debnwr","5/2015","txanwr","1/2020"]);
   birds[j++] = new myBird("05-12-28T09:51","RECURVIR","American Avocet","褐胸反嘴鹬","Recurvirostra americana",[p_id("0512merritt",8),p_id("1112floridabirding",31)],["flmnwr","12/2005","flevnp","12/2011"],"反嘴鷸");
+  birds[j++] = new myBird("21-12-22T11:28","CHARADRI","Northern Lapwing","凤头麦鸡","Vanellus vanellus",m_id(["20211222_153_NorthernLapwing","20211222_152_NorthernLapwing"]),["mdmdmd","12/2021",gmap("Rt. 309 Pond",39.00169,-76.05124)+", Queen Anne's County","","","安妮女王郡309公路"],"norlap");
   birds[j++] = new myBird("21-09-06T11:50","CHARADRI","American Golden-Plover","美洲金鸻","Pluvialis dominica",m_id(["20210906_111_AmericanGolden-Plover","20210906_113_AmericanGolden-Plover"]),["mdmdmd","9/2021",gmap("Murray Sod Farm",38.44498,-75.25945)+", Worcester County","","","伍斯特郡默里草皮农场"]);
   birds[j++] = new myBird("15-05-17T12:01","CHARADRI","Black-bellied Plover","灰斑鸻","Pluvialis squatarola",m_id(sas(["20210522_080","20210522_081","20161204_131"],"_Black-belliedPlover")),["dedede","5/2021","Male, "+gmap("Prime Hook Beach",38.8521,-75.2396),"","","普莱姆虎克海滩","dedede","5/2021","Female, "+gmap("Prime Hook Beach",38.8521,-75.2396),"","","普莱姆虎克海滩","nyjbsp","12/2016","Winter plumage"]);
   birds[j++] = new myBird("15-05-17T10:11","CHARADRI","Semipalmated Plover","半蹼鸻","Charadrius semipalmatus",[p_id("1505bombayhook",7)],["debnwr","5/2015"]);
