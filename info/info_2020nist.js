@@ -460,9 +460,9 @@ function initAlbum(){
     this[0][i]    = "20211209_1";
     this[1][i++]  = (["Group photo","集体照"])[cn_ind];
     this[0][i]    = "20211217_1";
-    this[1][i++]  = ([urllink((url="https://youtu.be/HwFekbYxxrY?t=189"),"Virtual holiday performance"),urllink(url,"节日表演")])[cn_ind];
+    this[1][i++]  = ([urllink((url="https://youtu.be/HwFekbYxxrY?t=189"),"Virtual holiday performance (YouTube video)"),urllink(url,"节日表演(YouTube视频)")])[cn_ind];
     this[0][i]    = "20211217_2";
-    this[1][i++]  = ([urllink(url,"Virtual holiday performance"),urllink(url,"节日表演")])[cn_ind];
+    this[1][i++]  = ([urllink(url,"Virtual holiday performance (YouTube video)"),urllink(url,"节日表演(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
