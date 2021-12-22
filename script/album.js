@@ -598,7 +598,7 @@ function pagelink(pid, descrip){
 }
 
 function urllink(url, descrip){
-    return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='"newpage"'>"+descrip+"</a>";
+    return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='newpage'>"+descrip+"</a>";
 } 
 
 function getdate(name,str){
