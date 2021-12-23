@@ -158,7 +158,7 @@ function getCountry(str,offset){
 }
 
 function getloctooltip(str){
-    if (str == 'arb'){return (['All around the world','世界各地'])[cn_ind];}
+    if (str == 'arb'){return (['Miscellaneous locations','世界各地'])[cn_ind];}
     var tmp = locurl[str][0+2*cn_ind];
     if(usechinese){
         return getlocCountry(loc_cnts[i][0])+tmp;
