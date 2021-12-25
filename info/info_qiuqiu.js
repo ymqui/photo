@@ -253,6 +253,8 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20211126_Mask";
     this[1][i++]  = (["Wearing a self-made mask","戴着自制的面具"])[cn_ind];
+    this[0][i]    = ["20211225_Christmas_1","20211225_Christmas_2"];
+    this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
 
     adddate(this);
 }
