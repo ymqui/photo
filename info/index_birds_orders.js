@@ -496,6 +496,7 @@
      this.pinyin   = getpinyin(this.cname);
      this.newbird  = false;
      this.latin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
+     this.genus    = this.latin.substring(0,this.latin.indexOf(' '));
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
