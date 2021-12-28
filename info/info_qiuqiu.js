@@ -255,6 +255,10 @@ function initAlbum(){
     this[1][i++]  = (["Wearing a self-made mask","戴着自制的面具"])[cn_ind];
     this[0][i]    = ["20211225_Christmas_1","20211225_Christmas_2"];
     this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
+    this[0][i]    = "20211225_ShenandoahNP";
+    this[1][i++]  = (["Visiting the Shenandoah National Park on Christmas","在圣诞节和朋友们一起游雪兰多国家公园"])[cn_ind];
+    this[0][i]    = "20211226_LurayCavern";
+    this[1][i++]  = (["Visiting the Luray Cavern","在弗吉尼亚州的卢雷岩洞跟妈妈和小希姐姐合影"])[cn_ind];
 
     adddate(this);
 }
