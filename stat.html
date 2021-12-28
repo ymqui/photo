@@ -231,6 +231,8 @@ const unique = (value, index, self) => {
       return self.indexOf(value) === index;
 }
 var fcnts = (birds.map(({family})=>family).filter(unique)).length;
+var gcnts = (birds.map(({genus})=>genus).filter(unique)).length;
+
 for(var i=0;i<orders.length;i++){
     var ordercnt = 0;
     ftot = ftot+orders[i].family.length;
@@ -262,10 +264,12 @@ var fcol1 = '#000080';
 var fcol2 = '#0000A0';
 var fcol3 = 'green';
 
+var gtot = 2372;
 var tot_bird = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+btot.toString(),fcol3)+'</a>';
 var tot_coun = '<a href="'+clnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotc">'+mytext('/'+ctot.toString(),fcol3)+'</a>';
-var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktoto">'+mytext('/'+otot.toString(),fcol3)+'</a>';
-var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotf">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
+var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+otot.toString(),fcol3)+'</a>';
+var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
+var tot_bgen = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+gtot.toString(),fcol3)+'</a>';
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
@@ -299,10 +303,10 @@ document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts_str,fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-if (dig_cnts > 1){
+if (dig_cnts>0){
 document.write('<td align="left">'+mytext((['Total Digiscope Photos','望远镜照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
 }else{
-document.write('<td align="left">'+mytext((['Total Digiscope Photo','望远镜照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total Bird Genera','鸟属总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(gcnts.toString(),fcol2)+tot_bgen+'</td>');
 }
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp.length.toString(),fcol2)+'</td>');
