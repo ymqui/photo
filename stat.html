@@ -293,19 +293,21 @@ document.write('<tr><td colspan="9">');
 document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/'+(["lifer_stat.png","lifer_stat_cn.png"])[cn_ind]+'" class="pic"></a>');
 document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+tot_bird+'</td>');
-document.write('<td>&emsp;&emsp;</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(fcnts.toString(),fcol2)+tot_bfam+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Genera','鸟属总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(gcnts.toString(),fcol2)+tot_bgen+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(pic_cnts.toString(),fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts_str,fcol2)+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-if (dig_cnts>0){
+if (dig_cnts>1){
 document.write('<td align="left">'+mytext((['Total Digiscope Photos','望远镜照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
 }else{
-document.write('<td align="left">'+mytext((['Total Bird Genera','鸟属总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(gcnts.toString(),fcol2)+tot_bgen+'</td>');
+document.write('<td align="left">'+mytext((['Total Digiscope Photo','望远镜照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
 }
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp.length.toString(),fcol2)+'</td>');
