@@ -146,7 +146,7 @@ function initAlbum(){
     this[0][i]    = "20181127_AllergyTest";
     this[1][i++]  = (["Allergy test. Nathan is currently allergic to peanut and tree nuts","接受过敏原测试。球球目前对花生和各种坚果过敏"])[cn_ind];
     this[0][i]    = ["1812costarica/1812costarica_14","20181204"];
-    this[1][i++]  = (["Visiting the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的阿雷纳火山"])[cn_ind];
+    this[1][i++]  = (["Visiting the Arenal Volcano in the "+pagelink("1812costarica","trip to Costa Rica"),pagelink("1812costarica","游哥斯达黎加")+"的"+baikeurl("阿雷纳火山")])[cn_ind];
     this[0][i]    = "20181226_064_Walking";
     this[1][i++]  = (["Nathan can walk now","球球能自己走了"])[cn_ind];
     this[0][i]    = "20190220_Reading";
@@ -158,7 +158,7 @@ function initAlbum(){
     this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","1904dcmuseum/1904dcmuseum_9","20190420"];
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]    = ["1905mexico/1905mexico_46","20190516"];
-    this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛墨西哥城中心的宪法广场"])[cn_ind];
+    this[1][i++]  = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛"+baikeurl("墨西哥宪法广场","墨西哥城中心的宪法广场")])[cn_ind];
     this[0][i]    = ["1906minitrain/1906minitrain_3","1906minitrain/1906minitrain_4","20190608"];
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
@@ -213,7 +213,7 @@ function initAlbum(){
     this[0][i]    = "20210213_Target";
     this[1][i++]  = (["Buying a toy at Target using new year red packet money","用新年红包钱在Target商店买玩具"])[cn_ind];
     this[0][i]    = "20210306_006_JHUPHA";
-    this[1][i++]  = (["Admiring the telescope in the Department of Physics and Astronomy at Johns Hopkins University","在约翰·霍普金斯大学物理与天文学系看望远镜"])[cn_ind];
+    this[1][i++]  = (["Admiring the telescope in the Department of Physics and Astronomy at Johns Hopkins University","在"+baikeurl("约翰·霍普金斯大学")+"物理与天文学系看望远镜"])[cn_ind];
     this[0][i]    = "20210328_EatingNoodle";
     this[1][i++]  = (["Enjoying a bowl of noodle","吃面条"])[cn_ind];
     this[0][i]    = ["2107trainride/2107trainride_3","20210703"];
@@ -231,7 +231,7 @@ function initAlbum(){
     this[0][i]    = ["2108vacation/2108vacation_29","2108vacation/2108vacation_25","2108vacation/2108vacation_26","20210808"];
     this[1][i++]  = (["Visiting the Pittsburgh Zoo and PPG Aquarium during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观匹兹堡动物园和水族馆"])[cn_ind];
     this[0][i]    = ["2108vacation/2108vacation_34","20210808"];
-    this[1][i++]  = (["Visiting the Fallingwater designed by Frank Lloyd Wright during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观建筑师弗兰克·劳埃德·赖特设计的落水山庄"])[cn_ind];
+    this[1][i++]  = (["Visiting the Fallingwater designed by Frank Lloyd Wright during the "+pagelink("2108vacation","vacation in Pittsburgh, PA and Provincetown, MA"),"在"+pagelink("2108vacation","匹兹堡和普罗温斯敦度假")+"时参观建筑师"+baikeurl("弗兰克·劳埃德·赖特/6409172","弗兰克·劳埃德·赖特")+"设计的"+baikeurl("流水别墅","落水山庄")])[cn_ind];
     this[0][i]    = "20210824_007_Family";
     this[1][i++]  = (["With Mommy and Daddy on the deck at home","和爸爸妈妈在家里的阳台上"])[cn_ind];
     this[0][i]    = "20210828_YelenaCrabSalad";
@@ -247,7 +247,7 @@ function initAlbum(){
     this[0][i]    = "20211031_021_WithMommy";
     this[1][i++]  = (["Happy 4th Birthday!","四岁生日快乐！"])[cn_ind];
     this[0][i]    = ["20211031_024_TrickorTreat","20211031_025_TrickorTreat","20211031_026_TrickorTreat"];
-    this[1][i++]  = (["Trick or treating with Mommy","万圣节和妈妈一起出去讨糖，球球只走了两家就回来了"])[cn_ind];
+    this[1][i++]  = (["Trick or treating with Mommy",baikeurl("万圣节")+"和妈妈一起出去讨糖，球球只走了两家就回来了"])[cn_ind];
     this[0][i]    = "20211119_Amtrak";
     this[1][i++]  = (["Riding the Amtrak train to Philly","乘火车前往费城，在火车上和乘务员合影"])[cn_ind];
     makeface[j++] = i;
