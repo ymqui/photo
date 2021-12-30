@@ -594,11 +594,11 @@ function switchlang(){
 }
 
 function pagelink(pid, descrip){
-    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
+    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: none;' target='"+pid+"'>"+descrip+"</a>";
 }
 
 function urllink(url, descrip){
-    return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='newpage'>"+descrip+"</a>";
+    return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: none;' target='newpage'>"+descrip+"</a>";
 } 
 
 //style sheet for tooltips
