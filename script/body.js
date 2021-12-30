@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   if (window.whitebackground){
      var prefix  = "";		//prefix of the thumbnail button names
      var color_0 = "white";	//background color
@@ -171,7 +171,13 @@
      document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
      for (var i=pagelist.length-1;i>=0;i--){
          document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid]));
-         if ((i!=0)&&(!cellphone)){document.write('<font color='+link_color+'>,</font>');}
+         if (!cellphone){
+            if (i!=0){
+               document.write('<font color='+link_color+'>,</font>');
+            }else{
+               document.write('<font color='+link_color+'>.</font>');
+            }
+         }
          document.write('&nbsp;');
          if (i%3==0||cellphone){document.write('<br>');}else{document.write('&nbsp;&nbsp;');}
      }  
