@@ -634,11 +634,11 @@ function tooltip(text,tooltip) {
 }
 
 function baikeurl(bid,name){
-    if (typeof name === 'undefined'){
-       return "https://baike.baidu.com/item/"+bid;
-    }else{
-       return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(name,"前往百度百科:"+name)+"</a>";
-    }    
+    var tmpname = bid;
+    if (typeof name != 'undefined'){
+       tmpname = name;
+    }
+    return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(tmpname,"前往百度百科:"+tmpname)+"</a>";
 }
 
 function getdate(name,str){
