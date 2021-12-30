@@ -46,6 +46,30 @@ if(!window.index){
     if (window.last2first) index = 1e5;
 }
 
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: white;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  position: absolute;
+  white-space: nowrap;
+  bottom: -230%;
+  margin-left: -60%;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+
 function init(){
     window.focus();
     try{
@@ -601,11 +625,19 @@ function urllink(url, descrip){
     return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='newpage'>"+descrip+"</a>";
 } 
 
+function tooltip(text,tooltip) {
+    if (tooltip.length>0){
+       return '<div class="tooltip">'+text+'<span class="tooltiptext">'+tooltip+'</span></div>';
+    }else{
+       return text;
+    }
+}
+
 function baikeurl(bid,name){
     if (typeof name === 'undefined'){
        return "https://baike.baidu.com/item/"+bid;
     }else{
-       return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+name+"</a>";
+       return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(name,"前往百度百科:"+name)+"</a>";
     }    
 }
 
