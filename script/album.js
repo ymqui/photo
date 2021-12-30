@@ -601,6 +601,14 @@ function urllink(url, descrip){
     return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='newpage'>"+descrip+"</a>";
 } 
 
+function baikeurl(bid,name){
+    if (typeof name === 'undefined'){
+       return "https://baike.baidu.com/item/"+bid;
+    }else{
+       return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+name+"</a>";
+    }    
+}
+
 function getdate(name,str){
     var pos  = name.search(/20[0-9]{2,}/) 
     var year = name.substring(pos+0,pos+4);
