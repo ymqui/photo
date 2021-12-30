@@ -46,29 +46,29 @@ if(!window.index){
     if (window.last2first) index = 1e5;
 }
 
-<style>
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: auto;
-  background-color: white;
-  text-align: center;
-  padding: 5px 5px;
-  border-radius: 6px;
-  position: absolute;
-  white-space: nowrap;
-  bottom: -230%;
-  margin-left: -60%;
-  border: 1px solid #000000;
-  z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-</style>
+document.write('<style>');
+document.write('.tooltip {');
+document.write('  position: relative;');
+document.write('  display: inline-block;');
+document.write('}');
+document.write('.tooltip .tooltiptext {');
+document.write('  visibility: hidden;');
+document.write('  width: auto;');
+document.write('  background-color: white;');
+document.write('  text-align: center;');
+document.write('  padding: 5px 5px;');
+document.write('  border-radius: 6px;');
+document.write('  position: absolute;');
+document.write('  white-space: nowrap;');
+document.write('  bottom: -230%;');
+document.write('  margin-left: -60%;');
+document.write('  border: 1px solid #000000;');
+document.write('  z-index: 1;');
+document.write('}');
+document.write('.tooltip:hover .tooltiptext {');
+document.write('  visibility: visible;');
+document.write('}');
+document.write('</style>');
 
 function init(){
     window.focus();
