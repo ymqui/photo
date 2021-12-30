@@ -639,7 +639,7 @@ function baikeurl(bid,name){
     if (typeof name != 'undefined'){
        tmpname = name;
     }
-    return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(tmpname,"百度百科:"+tmpname)+"</a>";
+    return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: none;' target='"+bid+"'>"+tooltip(tmpname,"百度百科:"+tmpname)+"</a>";
 }
 
 function getdate(name,str){
