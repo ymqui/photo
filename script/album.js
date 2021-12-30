@@ -46,30 +46,6 @@ if(!window.index){
     if (window.last2first) index = 1e5;
 }
 
-document.write('<style>');
-document.write('.tooltip {');
-document.write('  position: relative;');
-document.write('  display: inline-block;');
-document.write('}');
-document.write('.tooltip .tooltiptext {');
-document.write('  visibility: hidden;');
-document.write('  width: auto;');
-document.write('  background-color: white;');
-document.write('  text-align: center;');
-document.write('  padding: 5px 5px;');
-document.write('  border-radius: 6px;');
-document.write('  position: absolute;');
-document.write('  white-space: nowrap;');
-document.write('  bottom: -230%;');
-document.write('  margin-left: -60%;');
-document.write('  border: 1px solid #000000;');
-document.write('  z-index: 1;');
-document.write('}');
-document.write('.tooltip:hover .tooltiptext {');
-document.write('  visibility: visible;');
-document.write('}');
-document.write('</style>');
-
 function init(){
     window.focus();
     try{
@@ -624,6 +600,31 @@ function pagelink(pid, descrip){
 function urllink(url, descrip){
     return "<a href='"+url+"' style='color: "+link_color+"; text-decoration: underline;' target='newpage'>"+descrip+"</a>";
 } 
+
+//style sheet for tooltips
+document.write('<style>');
+document.write('.tooltip {');
+document.write('  position: relative;');
+document.write('  display: inline-block;');
+document.write('}');
+document.write('.tooltip .tooltiptext {');
+document.write('  visibility: hidden;');
+document.write('  width: auto;');
+document.write('  background-color: white;');
+document.write('  text-align: center;');
+document.write('  padding: 5px 5px;');
+document.write('  border-radius: 6px;');
+document.write('  position: absolute;');
+document.write('  white-space: nowrap;');
+document.write('  bottom: -230%;');
+document.write('  margin-left: -60%;');
+document.write('  border: 1px solid #000000;');
+document.write('  z-index: 1;');
+document.write('}');
+document.write('.tooltip:hover .tooltiptext {');
+document.write('  visibility: visible;');
+document.write('}');
+document.write('</style>');
 
 function tooltip(text,tooltip) {
     if (tooltip.length>0){
