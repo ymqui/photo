@@ -594,7 +594,7 @@ function switchlang(){
 }
 
 function pagelink(pid, descrip){
-    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+tooltip(descrip,"打开相册:"+descrip)+"</a>";
+    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+tooltip(descrip,"相册:"+descrip)+"</a>";
 }
 
 function urllink(url, descrip){
@@ -639,7 +639,7 @@ function baikeurl(bid,name){
     if (typeof name != 'undefined'){
        tmpname = name;
     }
-    return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(tmpname,"前往百度百科:"+tmpname)+"</a>";
+    return "<a href='https://baike.baidu.com/item/"+bid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+bid+"'>"+tooltip(tmpname,"百度百科:"+tmpname)+"</a>";
 }
 
 function getdate(name,str){
