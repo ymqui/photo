@@ -618,7 +618,7 @@ function switchlang(){
 }
 
 function pagelink(pid, descrip){
-    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
+    return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+tooltip(descrip,"打开相册:"+descrip)+"</a>";
 }
 
 function urllink(url, descrip){
