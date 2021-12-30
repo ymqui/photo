@@ -312,7 +312,7 @@ document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[c
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(cou_cnts.length.toString(),fcol2)+tot_coun+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td colspan="3" align="left">'+mytext((['Bookmarks','观鸟链接(<a href="stat.html" style="text-decoration:none;color:'+fcol1+'">'+tooltip('英文','Switch to English Version')+'</a>网站)'])[cn_ind]+':',fcol1)+'</td></tr>');
+document.write('<td colspan="3" align="left">'+mytext((['Bookmarks','观鸟链接(<a href="stat.html" style="text-decoration:none;color:'+fcol1+'">'+tooltip('英文','转为英文版(Switch to English Version)')+'</a>网站)'])[cn_ind]+':',fcol1)+'</td></tr>');
 document.write('<tr></tr>');
 var i = 0;
 var j = 0;
@@ -355,7 +355,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     }else if(j<cou_cnts.length+1){
        document.write('<td><small>&emsp;</small></td><td></td>');
     }else if(j<cou_cnts.length+2){
-       document.write('<td align="left">'+mytext((['Total <a href="stat.html?chinese" style="text-decoration:none;color:'+fcol1+'">'+tooltip('Chinese','转为中文版')+'</a> Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+       document.write('<td align="left">'+mytext((['Total <a href="stat.html?chinese" style="text-decoration:none;color:'+fcol1+'">'+tooltip('Chinese','Switch to Chinese Version(转为中文版)')+'</a> Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
     }else if(j<cou_cnts.length+py_cnts.length+2){
        fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
