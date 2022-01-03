@@ -465,6 +465,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url,"Virtual holiday performance (YouTube video)"),urllink(url,"节日表演(YouTube视频)")])[cn_ind];
     this[0][i]    = "20211228_1";
     this[1][i++]  = (["Making a snowflake","制作雪花"])[cn_ind];
+    this[0][i]    = "20220103_1";
+    this[1][i++]  = (["Making an art project with balls and sticks","用小球和棍子拼图案"])[cn_ind];
 
     adddate(this);
 }
