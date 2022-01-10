@@ -21,10 +21,10 @@
       crarol:  ["Arenal Observatory Lodge","Alajuela, Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加阿拉胡埃拉省","https://www.arenalobservatorylodge.com/"],
       crsanj:  ["San José","Costa Rica","圣何塞","哥斯达黎加","",baikeurl("圣何塞/62358")],
       ctciws:  ["Cove Island Wildlife Sanctuary","Connecticut, USA","科夫岛野生动物保护区","美国康涅狄格州",wikiurl("Cove Island Park")],
+      dcdcdc:  ["Washington D.C.","USA","华盛顿哥伦比亚特区","美国"], 
       debnwr:  ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       dedede:  ["Delaware","USA","特拉华州","美国"], 
       deinri:  ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
-      flapop:  ["Lake Apopka-Magnolia Park","Florida, USA","阿波普卡湖玉兰公园","美国佛罗里达州",wikiurl("Magnolia Park (Apopka, Florida)")],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flplpr:  ["Plantation Preserve","Broward County, Florida, USA","种植园保留地","美国佛罗里达州布劳沃德郡","https://www.plantation.org/government/departments/parks-recreation/plantation-preserve-golf-course-club/about-the-preserve/linear-trail"],
@@ -431,7 +431,7 @@
   birds[j++] = new myBird("11-12-27T17:06","ACCIPITR","Snail Kite","蜗鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4)],["flevnp","12/2011","Female"]);
   birds[j++] = new myBird("20-01-25T07:26","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",p_id("2001txbirding",[33,27]),["txsnwr","1/2020","txsnwr","1/2020","Juvenile"]);
   birds[j++] = new myBird("20-01-24T09:40","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",[p_id("2001txbirding",22)],["txsnwr","1/2020","Juvenile"]);
-  birds[j++] = new myBird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),m_id("20190830_008_Red-shoulderedHawk"),"2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcocn","3/2009","",""," at Violettes Lock","紫罗兰闸","flapop","8/2019","mdcocn","2/2007","Juvenile"]);
+  birds[j++] = new myBird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),m_id("20190830_008_Red-shoulderedHawk"),"2007cobirding/20070204_022_Red-shoulderedHawk(J)"],["mdcocn","3/2009","",""," at Violettes Lock","紫罗兰闸","arb","8/2019",gmap("Magnolia Park",28.63385,-81.55065)+", Orange County, Florida, USA","美国佛罗里达州奥兰治郡阿波普卡湖玉兰公园","mdcocn","2/2007","Juvenile"]);
   birds[j++] = new myBird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15),p_id("2020lbrp",12)],["caalgp","9/2017","mdlbrp","8/2020"]);
 //birds[j++] = new myBird("21-00-00T00:00","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("20190109_002_Red-tailedHawk"),p_id("1412mckee-beshers",33)],["mdmdmd","1/2019","St Mary's County","","","圣玛丽郡","mdmwma","11/2014","Juvenile"]);
@@ -442,7 +442,7 @@
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["arb","6/2016",gmap("Brian Piccolo Park",26.03302,-80.27253)+", Fort Lauderdale, Florida, USA","美国佛罗里达州劳德代尔堡布莱恩皮克罗公园"]);
   birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210115_012_Long-earedOwl")],["vavava","1/2021",gmap("State Arboretum of Virginia",39.06392,-78.06551),"","","州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20210228_026_Short-earedOwl"]),["mdmdmd","2/2021",gmap("Izaak Walton Way",39.09351,-77.42656)+", Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
-  birds[j++] = new myBird("17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",m_id(["20220108_005_SnowyOwl","20170205_018_SnowyOwl"]),["arb","1/2022","Immature female, "+gmap("Union Station Plaza",38.8964,-77.00662)+", Washington D.C., USA","","","美国华盛顿哥伦比亚特区联合车站广场","papapa","2/2017","Female/immature, "+gmap("Davis Road",41.81994,-76.17107)+", Bradford County","","","布拉德福德郡戴维斯路"]);
+  birds[j++] = new myBird("17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",m_id(["20220108_005_SnowyOwl","20170205_018_SnowyOwl"]),["dcdcdc","1/2022","Immature female, "+gmap("Union Station Plaza",38.8964,-77.00662),"","","联合车站广场","papapa","2/2017","Female/immature, "+gmap("Davis Road",41.81994,-76.17107)+", Bradford County","","","布拉德福德郡戴维斯路"]);
   birds[j++] = new myBird("16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",[m_id("20160326_024_GreatHornedOwl")],["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"]);
   birds[j++] = new myBird("20-03-26T10:31","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",[m_id("20200326_001_EasternScreech-Owl")],["mdmdmd","3/2020","Red morph, "+gmap("Bruehl Road",39.59639,-76.75014)+", Baltimore County","红色形","","巴尔的摩郡布鲁尔路"]);
   birds[j++] = new myBird("06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",m_id(["20150425_058_BarredOwl","20160409_033_BarredOwl","20210512_071_BarredOwl"]),["mdbmnt","4/2015","mdmdmd","4/2016",gmap("Agricultural History Farm Park",39.165,-77.1347),"","","农史农场公园","vahump","5/2021"]);
@@ -927,8 +927,8 @@
   birds[j++] = new myBird("06-04-09T10:02","PARULIDA","Palm Warbler","棕榈林莺","Setophaga palmarum",[p_id("1604asheville",9),m_id("20151025_112_PalmWarbler"),m_id("20210503_059_PalmWarbler")],["ncllmp","4/2016","mdbmnt","10/2015","Fall plumage","mdlbrp","5/2021","Western","西部亚种"]);
   birds[j++] = new myBird("15-07-26T10:08","PARULIDA","Pine Warbler","松莺","Setophaga pinus",p_id("1612savannah",[14,13]),["scjwwc","12/2016","Male"]);
   birds[j++] = new myBird("06-04-02T11:16","PARULIDA","Yellow-rumped Warbler","黄腰林莺","Setophaga coronata",[p_id("1604asheville",8),m_id("20151101_121_Yellow-rumpedWarbler")],["ncllmp","4/2016","Male, Myrtle form","雄性，长春花形","mdbmnt","11/2015","Female/immature, Myrtle form","雌性/未成年，长春花形"]);
-  birds[j++] = new myBird("19-08-30T09:11","PARULIDA","Yellow-throated Warbler","黄喉林莺","Setophaga dominica",[m_id("20220109_006_Yellow-throatedWarbler")],["arb","1/2022",gmap("East Potomac Park",38.86413,-77.02236)+", Washington D.C., USA","","","美国华盛顿哥伦比亚特区东波托马克公园"]);
-  birds[j++] = new myBird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler","20190830_011_PrairieWarbler","20170709_081_PrairieWarbler"]),["mdlbrp","7/2017","Male","flapop","8/2019","Female","mdlbrp","7/2017","Immature"]);
+  birds[j++] = new myBird("19-08-30T09:11","PARULIDA","Yellow-throated Warbler","黄喉林莺","Setophaga dominica",[m_id("20220109_006_Yellow-throatedWarbler")],["dcdcdc","1/2022",gmap("East Potomac Park",38.86413,-77.02236),"","","东波托马克公园"]);
+  birds[j++] = new myBird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler","20190830_011_PrairieWarbler","20170709_081_PrairieWarbler"]),["mdlbrp","7/2017","Male","arb","8/2019","Female, "+gmap("Magnolia Park",28.63385,-81.55065)+", Orange County, Florida, USA","","","美国佛罗里达州奥兰治郡阿波普卡湖玉兰公园","mdlbrp","7/2017","Immature"]);
   birds[j++] = new myBird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",[p_id("1501prbirding",18)],["prcnwr","1/2015"],"adewar1");
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("21-00-00T00:00","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("")],["mdhadg","12/2016"]);
