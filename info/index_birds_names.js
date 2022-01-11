@@ -64,7 +64,7 @@
       njblsp:  ["Barnegat Lighthouse State Park","New Jersey, USA","巴尼加特灯塔州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/barnlig.html"],
       njcmsp:  ["Cape May Point State Park","New Jersey, USA","五月岬州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/capemay.html"],
       njscmm:  ["South Cape May Meadows","New Jersey, USA","南五月岬草原","美国新泽西州","https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/south-cape-may-meadows/"],
-      nvdnwr:  ["Desert National Wildlife Range","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
+      nvdnwr:  ["Desert National Wildlife Refuge","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
       nycenp:  ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")],
       nyjbsp:  ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","https://parks.ny.gov/parks/jonesbeach/"],
       nyjbwr:  ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nycaudubon.org/queens-birding/jamaica-bay-wildlife-refuge"],
