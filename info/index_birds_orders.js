@@ -509,6 +509,9 @@
      info = reform_locs(info);
      var tmp_info  = [];
      var tmp_cinfo = [];
+     var tmp_date1 = new Date(2005,0);
+     var tmp_date2 = new Date();
+     var tmp_monyr = [];
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
          if (typeof info[2+6*i]!=='undefined'){
             if (typeof info[3+6*i]==='undefined'){info.splice(3+6*i,0,"");}
@@ -525,7 +528,10 @@
          }
          this.locs.push(info[6*i]);
          tmp_info[i]   = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
-         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]); 
+         tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
+         tmp_monyr     = (info[1+6*i]).split("/");
+         tmp_date2     = new Date(parseInt(tmp_monyr[1]),parseInt(tmp_monyr[0])-1);
+         if (tmp_date2.getTime()>tmp_date1.getTime()){tmp_date1 = tmp_date2;}
      }
      for (var i=0;i<this.photo.length;i++){
          if ((""+this.photo[i]).match(/_dig_/i)!=null){dig_cnts++;}
@@ -565,7 +571,7 @@
      }
    
      //check if this bird needs to be added to modBrd
-     if (modTim<=this.lifer.getTime()){
+     if ((modTim<=this.lifer.getTime()) || (modTim <=tmp_date1.getTime())){
         modBrd.name[modBrd.name.length]   = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
         this.newbird = true;
