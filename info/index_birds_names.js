@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2021-12-22T08:00");
+  var modDat = new Date("2022-01-09T08:00");
   var modran = 10;	//range within modDat in days
 
   //location urls
