@@ -259,6 +259,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Shenandoah National Park on Christmas","圣诞节和朋友们一起游"+baikeurl("谢南多厄国家公园","仙纳度国家公园")])[cn_ind];
     this[0][i]    = "20211226_LurayCavern";
     this[1][i++]  = (["Visiting the Luray Cavern","在弗吉尼亚州的"+baikeurl("卢雷岩洞")+"跟妈妈和小希姐姐合影"])[cn_ind];
+    this[0][i]    = "20220116_001_PaintingatHome";
+    this[1][i++]  = (["Painting at home on a snowy Sunday","下雪天在家画画"])[cn_ind];
 
     adddate(this);
 }
