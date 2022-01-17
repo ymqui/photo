@@ -236,7 +236,7 @@
   birds[j++] = new myBird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus crepitans",[p_id("1509charleston",9),m_id("20201227_140_ClapperRail")],["scpitt","9/2015","vahump","12/2020"]);
   birds[j++] = new myBird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(sas("20200610_03",["7","9"],"_KingRail")),["vaonwr","6/2020"]);
   birds[j++] = new myBird("17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arb","5/2017",gmap("Mentor Marsh State Nature Perserve",41.73045,-81.31865)+", Ohio, USA","美国俄亥俄州门托沼泽州立自然保护区"]);
-  birds[j++] = new myBird("20-12-29T09:26","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("20201229_148_Sora")],["vahump","12/2020"]);
+  birds[j++] = new myBird("20-12-29T09:26","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("20220117_019_Sora")],["vahump","1/2022"]);
   birds[j++] = new myBird("11-12-27T17:43","RALLIDAE","Common Gallinule","美洲黑水鸡","Gallinula galeata",[p_id("1112floridabirding",6),p_id("1409fingerlake",9)],["flevnp","12/2011","nymnwr","8/2014","Juvenile"],"黑水鸡/4524074");
 //birds[j++] = new myBird("22-00-00T00:00","RALLIDAE","Eurasian Moorhen","黑水鸡","Gallinula chloropus",[m_id("")],["mdbhrp","6/2016"],"commoo3");
   birds[j++] = new myBird("06-05-25T18:09","RALLIDAE","American Coot","美洲骨顶","Fulica americana",[p_id("1312savannahbirding",5)],["scsnwr","12/2013"]);
