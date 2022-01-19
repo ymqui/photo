@@ -67,7 +67,6 @@
       nyjbsp:  ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","https://parks.ny.gov/parks/jonesbeach/"],
       nyjbwr:  ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nycaudubon.org/queens-birding/jamaica-bay-wildlife-refuge"],
       nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
-      ohbath:  ["Bath Nature Preserve","Ohio, USA","巴斯自然保护区","美国俄亥俄州","https://birding-in-ohio.com/summit-county/bath-nature-preserve/"],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州","http://www.mageemarsh.org/"],
       papapa:  ["Pennsylvania","USA","宾夕法尼亚州","美国"],
       prceci:  ["Ceiba Country Inn","Puerto Rico, USA","西巴乡村客栈","美国波多黎各","https://www.facebook.com/CeibaCountryInn/"],
@@ -842,7 +841,7 @@
   birds[j++] = new myBird("16-05-29T15:32","PASSEREL","Seaside Sparrow","海滨沙鹀","Ammospiza maritima",m_id(["20160529_073_SeasideSparrow","20160529_068_SeasideSparrow"]),["mdsclr","5/2016","mdtrlr","5/2016"]);
   birds[j++] = new myBird("17-02-12T11:54","PASSEREL","Nelson's Sparrow","尼尔森沙鹀","Ammospiza nelsoni",m_id(["20170212_023_NelsonSparrow","20170212_024_NelsonSparrow"]),["deinri","2/2017"]);
   birds[j++] = new myBird("16-05-29T15:00","PASSEREL","Saltmarsh Sparrow","尖尾沙鹀","Ammospiza caudacuta",m_id(["20160529_065_SaltmarshSparrow","20160529_071_SaltmarshSparrow"]),["mdtrlr","5/2016","mdsclr","5/2016"]);
-  birds[j++] = new myBird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["ohbath","5/2017"]);
+  birds[j++] = new myBird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["arb","5/2017",gmap("Bath Nature Preserve",41.18117,-81.648)+", Akron, Ohio, USA","美国俄亥俄州阿克伦市巴斯自然保护区"]);
   birds[j++] = new myBird("13-07-17T18:46","PASSEREL","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8),m_id("20211125_133_SavannahSparrow")],["arb","7/2013",gmap("Potter Marsh",61.07619,-149.82917)+", Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇波特沼泽","vavava","11/2021",gmap("Sully Woodlands Park",38.8769,-77.4933)+", Fairfax County","","","费尔法克斯郡萨利林地公园"]);
   birds[j++] = new myBird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",[m_id("20161112_121_SongSparrow"),m_id("20161030_108_SongSparrow"),p_id("1905mxbird",21)],["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic","mxunam","5/2019","Mexicana group","墨西哥亚种"]);
   birds[j++] = new myBird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("20170305_030_LincolnSparrow"),p_id("2001txbirding",23)],["vaonwr","3/2017","txsnwr","1/2020"]);
@@ -863,7 +862,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","TERETIST","Yellow-headed Warbler","黄头灰森莺","Teretistris fernandinae",[m_id("")],["mdbhrp","9/2015"],"yehwar1");
   birds[j++] = new myBird("15-05-09T10:41","ICTERIID","Yellow-breasted Chat","黄胸大鵖莺","Icteria virens",[p_id("1507birdingwest",1)],["nvdnwr","7/2015"],"","");
   birds[j++] = new myBird("21-04-17T12:09","ICTERIDA","Yellow-headed Blackbird","黄头黑鹂","Xanthocephalus xanthocephalus",[m_id("20210417_049_Yellow-headedBlackbird")],["vavava","4/2021","Female/immature male, "+gmap("Brandywine Ave",37.38551,-77.43008)+", Richmond","","","里士满市布兰迪维因街"]);
-  birds[j++] = new myBird("17-05-27T07:28","ICTERIDA","Bobolink","刺歌雀","Dolichonyx oryzivorus",[p_id("1705ohio",3)],["ohbath","5/2017","Male"]);
+  birds[j++] = new myBird("17-05-27T07:28","ICTERIDA","Bobolink","刺歌雀","Dolichonyx oryzivorus",[p_id("1705ohio",3)],["arb","5/2017","Male, "+gmap("Bath Nature Preserve",41.18117,-81.648)+", Akron, Ohio, USA","","","美国俄亥俄州阿克伦市巴斯自然保护区"]);
 //birds[j++] = new myBird("22-00-00T00:00","ICTERIDA","Western Meadowlark","西草地鹨","Sturnella neglecta",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("16-03-27T08:18","ICTERIDA","Eastern Meadowlark","东草地鹨","Sturnella magna",m_id(sas("20160327_03",["1","2"],"_EasternMeadowlark")),["ncoutb","3/2016","",""," at Cape Hatteras Cape Point Campground","哈特拉斯角野营地"]);
   birds[j++] = new myBird("18-12-04T06:39","ICTERIDA","Montezuma Oropendola","褐拟棕鸟","Psarocolius montezuma",[p_id("1812crbirding",22)],["crarol","12/2018"],"monoro1");
