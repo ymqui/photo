@@ -365,6 +365,7 @@
   family[j++] = new newFamily("DICRURIDAE","卷尾科","Drongos","卷尾");
   family[j++] = new newFamily("RHIPIDURIDAE","扇尾鹟科","Fantails","扇尾鹟");
   family[j++] = new newFamily("MONARCHIDAE","王鹟科","Monarchs","王鹟");
+  family[j++] = new newFamily("PLATYLOPHIDAE","冠鸦科","Jayshrike","冠鸦");
   family[j++] = new newFamily("CORVIDAE","鸦科","Jays, Magpies and Crows","鸦和喜鹊");
   family[j++] = new newFamily("CORCORACIDAE","澳鸦科","Australian Mudnesters","澳鸦");
   family[j++] = new newFamily("MELAMPITTIDAE","黑脚风鸟科","Melampitta","黑脚风鸟");

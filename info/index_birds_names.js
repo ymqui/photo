@@ -624,6 +624,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","DICRURID","Square-tailed Drongo","方尾卷尾","Dicrurus ludwigii",[m_id("")],["mdbhrp","9/2015"],"sqtdro1");
 //birds[j++] = new myBird("22-00-00T00:00","RHIPIDUR","White-throated Fantail","白喉扇尾鹟","Rhipidura albicollis",[m_id("")],["mdbhrp","9/2015"],"whtfan1");
 //birds[j++] = new myBird("22-00-00T00:00","MONARCHI","Black-naped Monarch","黑枕王鹟","Hypothymis azurea",[m_id("")],["mdbhrp","9/2015"],"blnmon1");
+//birds[j++] = new myBird("22-00-00T00:00","PLATYLOP","Crested Jayshrike","冠鸦","Platylophus galericulatus",[m_id("")],["mdbhrp","9/2015"],"crejay1");
   birds[j++] = new myBird("16-09-15T06:39","CORVIDAE","Canada Jay","灰噪鸦","Perisoreus canadensis",[p_id("1609vtcanbirding",2),p_id("1709algonquin",14)],["vtwwma","9/2016","caalgp","9/2017"]);
   birds[j++] = new myBird("20-01-25T08:58","CORVIDAE","Green Jay","绿蓝鸦","Cyanocorax luxuosus",[p_id("2001txbirding",40)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("18-12-06T06:57","CORVIDAE","Brown Jay","褐鸦","Psilorhinus morio",[p_id("1812crbirding",70)],["crarol","12/2018"],"brnjay");
