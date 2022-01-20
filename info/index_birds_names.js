@@ -693,8 +693,8 @@
 //birds[j++] = new myBird("22-00-00T00:00","SCOTOCER","Streaked Scrub Warbler","纹鹪莺","Scotocerca inquieta",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","ERYTHROC","Chestnut-capped Flycatcher","栗顶红鹟","Erythrocercus mccallii",[m_id("")],["mdbhrp","9/2015"],"chcfly1");
 //birds[j++] = new myBird("22-00-00T00:00","HYLIIDAE","Green Hylia","绿莺","Hylia prasina",[m_id("")],["mdbhrp","9/2015"],"grehyl1");
-  birds[j++] = new myBird("16-01-05T10:40","AEGITHAL","Black-throated Bushtit","红头长尾山雀","Aegithalos concinnus",p_id("1601china",[24,25]),["cnjsxp","1/2016"],"blttit2");
   birds[j++] = new myBird("19-05-12T09:51","AEGITHAL","Bushtit","短嘴长尾山雀","Psaltriparus minimus",[p_id("1905mxbird",14)],["mxunam","5/2019","Male, melanotis group"]);
+  birds[j++] = new myBird("16-01-05T10:40","AEGITHAL","Black-throated Bushtit","红头长尾山雀","Aegithalos concinnus",p_id("1601china",[24,25]),["cnjsxp","1/2016"],"blttit2");
   birds[j++] = new myBird("17-04-04T07:01","PHYLLOSC","Yellow-browed Warbler","黄眉柳莺","Phylloscopus inornatus",[p_id("1704longyan",17)],["cnlydp","4/2017"],"yebwar3");
 //birds[j++] = new myBird("22-00-00T00:00","PHYLLOSC","Arctic Warbler","极北柳莺","Phylloscopus borealis",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","ACROCEPH","Lesser Swamp Warbler","细嘴苇莺","Acrocephalus gracilirostris",[m_id("")],["mdbhrp","9/2015"],"leswar1");
