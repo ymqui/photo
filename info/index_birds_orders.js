@@ -21,7 +21,7 @@
      this.cdesc  = cdesc; 
   }
 	
-  //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/ V8.2
+  //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
 
   var orders = [];         
   var i = 0;
@@ -199,7 +199,6 @@
   family[j++] = new newFamily("DIOMEDEIDAE","信天翁科","Albatrosses","信天翁");
   family[j++] = new newFamily("HYDROBATIDAE","海燕科","Storm-Petrels","小海燕");
   family[j++] = new newFamily("PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱和海燕");
-//family[j++] = new newFamily("PELECANOIDIDAE","鹈燕科","Diving-Petrels","鹈燕");
   orders[i++] = new newOrder("PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",family);
 
   var family  = [];
