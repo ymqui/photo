@@ -777,7 +777,7 @@
   birds[j++] = new myBird("17-04-03T06:42","MUSCICAP","Narcissus Flycatcher","黄眉姬鹟","Ficedula narcissina",[p_id("1704longyan",4)],["cnlydp","4/2017","Male"],"narfly");
   birds[j++] = new myBird("16-01-04T11:02","MUSCICAP","Daurian Redstart","北红尾鸲","Phoenicurus auroreus",p_id("1601china",[45,12,34]),["cnlynv","1/2016","Male","cnjsxp","1/2016","Female","cnjsxp","1/2016","Female"],"daured1");
   birds[j++] = new myBird("16-01-12T15:01","MUSCICAP","Plumbeous Water Redstart","红尾水鸲","Phoenicurus fuliginosus",p_id("1601china",[52,51]),["cnlydp","1/2016","Male","cnlydp","1/2016","Female"],"plured1");
-  birds[j++] = new myBird("16-01-11T14:52","MUSCICAP","Amur Stonechat","黑喉石鵖","Saxicola stejnegeri",p_id("1601china",[48,49]),["cnlydp","1/2016","Male","cnlydp","1/2016","Female"],"stonec7");
+  birds[j++] = new myBird("16-01-11T14:52","MUSCICAP","Amur Stonechat","东亚石鵖","Saxicola stejnegeri",p_id("1601china",[48,49]),["cnlydp","1/2016","Male","cnlydp","1/2016","Female"],"stonec7","黑喉石鵖东北亚种");
 //birds[j++] = new myBird("22-00-00T00:00","CINCLIDA","American Dipper","美洲河乌","Cinclus mexicanus",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","CHLOROPS","Blue-winged Leafbird","蓝翅叶鹎","Chloropsis moluccensis",[p_id("1601china",)],["cnlydp","1/2016","Male"],"blwlea1");
   birds[j++] = new myBird("16-01-05T08:00","CHLOROPS","Orange-bellied Leafbird ","橙腹叶鹎","Chloropsis hardwickii",p_id("1601china",[13,15]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female"],"orblea1");

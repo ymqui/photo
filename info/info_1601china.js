@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 //Created by Album Builder Program Mon Jan 18 18:09:03 2016
 var info_url   = "";
 var title      = "China Birding";
@@ -74,8 +74,8 @@ function initAlbum(){
         this[1][44] = "北红尾鸲，雄性，福建龙岩内坂村。";
         this[1][45] = "暗绿绣眼鸟，福建龙岩登高公园。";
         this[1][46] = "金腰燕，福建龙岩登高公园。";
-        this[1][47] = "黑喉石鵖，雄性，福建龙岩登高公园。";
-        this[1][48] = "黑喉石鵖，雌性，福建龙岩登高公园。";
+        this[1][47] = "东亚石鵖，雄性，福建龙岩登高公园。";
+        this[1][48] = "东亚石鵖，雌性，福建龙岩登高公园。";
         this[1][49] = "灰鹡鸰，福建龙岩登高公园。";
         this[1][50] = "红尾水鸲，雌性，福建龙岩登高公园。";
         this[1][51] = "红尾水鸲，雄性，福建龙岩登高公园。";
@@ -147,8 +147,8 @@ function initAlbum(){
         this[1][44] = "Daurian Redstart, male, Neiban, Longyan, Fujian.";
         this[1][45] = "Warbling White-eye, Denggao Park, Longyan, Fujian.";
         this[1][46] = "Red-rumped Swallow, Denggao Park, Longyan, Fujian.";
-        this[1][47] = "Stejneger's Stonechat, male, Denggao Park, Longyan, Fujian.";
-        this[1][48] = "Stejneger's Stonechat, female, Denggao Park, Longyan, Fujian.";
+        this[1][47] = "Amur Stonechat, male, Denggao Park, Longyan, Fujian.";
+        this[1][48] = "Amur Stonechat, female, Denggao Park, Longyan, Fujian.";
         this[1][49] = "Grey Wagtail, Denggao Park, Longyan, Fujian.";
         this[1][50] = "Plumbeous Water Redstart, female, Denggao Park, Longyan, Fujian.";
         this[1][51] = "Plumbeous Water Redstart, male, Denggao Park, Longyan, Fujian.";
