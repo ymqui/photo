@@ -210,7 +210,7 @@
   birds[j++] = new myBird("21-05-14T09:30","CUCULIDA","Black-billed Cuckoo","黑嘴美洲鹃","Coccyzus erythropthalmus",m_id(["20210514_072_Black-billedCuckoo","20210514_073_Black-billedCuckoo"]),["mdlbrp","5/2021"]);
 //birds[j++] = new myBird("22-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[m_id("")],["mdbhrp","9/2015"],"whbmes2","拟鹑");
 //birds[j++] = new myBird("22-00-00T00:00","PTEROCLI","Pallas's Sandgrouse","毛腿沙鸡","Syrrhaptes paradoxus",[m_id("")],["mdbhrp","9/2015"],"palsan1");
-  birds[j++] = new myBird("15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[p_id("1501prbirding",46),p_id("1905mxbird",23)],["prsanj","1/2015","arb","5/2019","Adult feeding young, "+gmap("Guanajuato City",21.01555,-101.2537)+", Mexico","成年鸟喂雏鸟，墨西哥瓜纳华托城"]);
+  birds[j++] = new myBird("15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[p_id("1501prbirding",46),p_id("1601china",5),p_id("1905mxbird",23)],["prsanj","1/2015","cnbjjp","1/2016","arb","5/2019","Adult feeding young, "+gmap("Guanajuato City",21.01555,-101.2537)+", Mexico","成年鸟喂雏鸟，墨西哥瓜纳华托城"]);
 //birds[j++] = new myBird("22-00-00T00:00","COLUMBID","White-crowned Pigeon","白顶鸽","Patagioenas leucocephala",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","COLUMBID","Band-tailed Pigeon","斑尾鸽","Patagioenas fasciata",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("18-12-08T08:58","COLUMBID","Red-billed Pigeon","红嘴鸽","Patagioenas flavirostris",[p_id("1812crbirding",97)],["crsanj","12/2018",gmap("Morazán Park",9.93547,-84.07544),"","","莫拉桑公园"],"rebpig1");
