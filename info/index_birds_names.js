@@ -117,7 +117,7 @@
   birds[j++] = new myBird("15-03-06T10:23","ANATIDAE","Greater White-fronted Goose","白额雁","Anser albifrons",[m_id("20150306_030_GreaterWhite-frontedGoose")],["mdcocn","3/2015","With "+b_link("Canada Goose","Canada Geese"),"和"+b_link("加拿大黑雁")+"在一起"," at Cumberland Terminus","坎伯兰终点站"]);
   birds[j++] = new myBird("15-02-28T10:27","ANATIDAE","Mute Swan","疣鼻天鹅","Cygnus olor",[m_id("20150228_016_MuteSwan"),p_id("1505capemay",7)],["mdftmh","2/2015","njscmm","5/2015"]);
   birds[j++] = new myBird("14-07-06T11:04","ANATIDAE","Trumpeter Swan","黑嘴天鹅","Cygnus buccinator",p_id("1512bhill",[10,11]),["mdbhrp","1/2015","mdbhrp","2/2015"]); 
-  birds[j++] = new myBird("05-11-26T14:43","ANATIDAE","Tundra Swan","小天鹅","Cygnus columbianus",[p_id("0511assateague",29)],["vacnwr","11/2005"],"小天鹅/4561");
+  birds[j++] = new myBird("05-11-26T14:43","ANATIDAE","Tundra Swan","小天鹅","Cygnus columbianus",[p_id("0511assateague",29)],["vacnwr","11/2005","Whistling","啸声天鹅"],"小天鹅/4561");
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Egyptian Goose","埃及雁","Alopochen aegyptiaca",[p_id("1606florida",10)],["flplpr","6/2016"],"egygoo");
   birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",13)],["flplpr","6/2016","crsanj","12/2018",gmap("La Sabana Park",9.93542,-84.10246),"","","萨瓦纳公园"]);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"]);
