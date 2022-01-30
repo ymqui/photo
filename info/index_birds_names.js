@@ -1,7 +1,7 @@
 <!--
   //date
-  var modDat = new Date("2022-01-23T08:00");
-  var modran = 24;	//range within modDat in days
+  var modDat = new Date("2022-01-30T08:00");
+  var modran = 31;	//range within modDat in days
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -299,7 +299,7 @@
   birds[j++] = new myBird("15-05-09T16:28","SCOLOPAC","Long-billed Dowitcher","长嘴半蹼鹬","Limnodromus scolopaceus",[p_id("1505capemay",14),m_id("20211008_124_Long-billedDowitcher")],["arb","5/2015",gmap("The Wetlands Institute",39.06002,-74.77294)+", Stone Harbor, New Jersey, USA","美国新泽西州石港湿地研究所","papapa","10/2021","Juvenile, "+gmap("Hamiltonban Community Park",39.79665,-77.36155)+", Adams County","","","亚当斯郡汉密尔顿班社区公园"]);
   birds[j++] = new myBird("11-12-30T11:56","SCOLOPAC","Short-billed Dowitcher","短嘴半蹼鹬","Limnodromus griseus",[p_id("1112floridabirding",29),p_id("1505bombayhook",15)],["flevnp","12/2011","debnwr","5/2015"]);
   birds[j++] = new myBird("16-02-27T18:20","SCOLOPAC","American Woodcock","小丘鹬","Scolopax minor",[m_id("20160227_018_AmericanWoodcock")],["mdmdmd","2/2016",gmap("Patuxent River State Park at Hipsley Mill Road",39.26833,-77.11398),"","","帕塔克森特河州立公园"]);
-  birds[j++] = new myBird("16-01-30T09:03","SCOLOPAC","Wilson's Snipe","威氏鹬","Gallinago delicata",m_id(sas("20160130_00",["1","2"],"_WilsonSnipe")),["mdmdmd","1/2016",gmap("Glade Road",39.51704,-77.3373)+", Frederick County","","","弗雷德里克郡格雷德路"]);
+  birds[j++] = new myBird("16-01-30T09:03","SCOLOPAC","Wilson's Snipe","威氏鹬","Gallinago delicata",m_id(["20160130_001_WilsonSnipe","20220130_029_WilsonSnipe"]),["mdmdmd","1/2016",gmap("Glade Road",39.51704,-77.3373)+", Frederick County","","","弗雷德里克郡格雷德路","mdmdmd","1/2022",gmap("Iager Blvd Pond",39.15862,-76.91447)+", Howard County","","","霍华德郡格艾格大道池塘"]);
   birds[j++] = new myBird("20-06-22T11:58","SCOLOPAC","Wilson's Phalarope","赤斑瓣蹼鹬","Phalaropus tricolor",m_id(["20200622_051_WilsonPhalarope","20200622_050_WilsonPhalarope"]),["debnwr","6/2020","Male","debnwr","6/2020","Female"]);
   birds[j++] = new myBird("21-05-21T10:30","SCOLOPAC","Red-necked Phalarope","红颈瓣蹼鹬","Phalaropus lobatus",[m_id("20210521_078_Red-neckedPhalarope")],["vavava","5/2021","Female, "+gmap("Broadway Wastewater Treatment Plant",38.63157,-78.7544)+", Rockingham County","","","洛金汉郡百老汇废水处理厂"]);
   birds[j++] = new myBird("21-09-11T15:12","SCOLOPAC","Red Phalarope","灰瓣蹼鹬","Phalaropus fulicarius",[m_id("20210911_116_RedPhalarope")],["papapa","9/2021","Nonbreeding adult, "+gmap("Wissahickon Waterfowl Preserve",40.15455,-75.22822)+", Montgomery County","","","蒙哥马利郡威萨希肯水禽保护区"]);
