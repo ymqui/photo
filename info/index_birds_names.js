@@ -1,7 +1,7 @@
 <!--
   //date
   var modDat = new Date("2022-01-30T08:00");
-  var modran = modDat.getDay()+1; //range within modDat in days
+  var modran = modDat.getDate()+1; //range within modDat in days
 
   //location urls
   var locurl = {arb:["","","",""],
