@@ -573,7 +573,7 @@
      if ((modTim<=this.lifer.getTime()) || this.newbird){
         modBrd.name[modBrd.name.length]   = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
-        this.newbird = true;
+        this.newbird = (modTim<=this.lifer.getTime());
      }
   }
 
