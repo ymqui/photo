@@ -37,12 +37,20 @@
          }
       }
   }
+  if(!(birds.map(({newbird})=>newbird)).reduce((a,b)=>{return a||b;})){
+     if(window.usechinese){
+        document.write('照片');
+     }else{
+        document.write(' photo'+((modBrd.name.length>1)?'s':''));
+     } 
+  }
   if(window.usechinese){
      document.write('。');
   }else{
      document.write('.');
   }
   document.write("<br>");
+
   var tmpDate = new Date();    //current date
   var modYear = tmpDate.getYear();
   modYear = (modYear<2000)?modYear+1900:modYear;  
