@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-01-30T08:00");
+  var modDat = new Date("2022-02-07T08:00");
   var modran = modDat.getDate()+1; //range within modDat in days
 
   //location urls
@@ -317,19 +317,19 @@
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","Black-legged Kittiwake","三趾鸥","Rissa tridactyla",[p_id("1507birdingwest",21)],["waneah","7/2015","On the left, on the right is a "+b_link("California Gull")+", "+gmap("Hobuck Beach",48.33764,-124.66726),"左边，右边是一只"+b_link("加州鸥"),"","霍巴克海滩"]);
   birds[j++] = new myBird("17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",[m_id("20170909_099_SabineGull")],["mdcocn","9/2017","Immature",""," at Sycamore Landing","悬铃木码头"]);
   birds[j++] = new myBird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045_BGull","20201228_142_BonaparteGull"]),["mdmdmd","3/2015","Winter plumage, "+gmap("Lapidum",39.59798,-76.12817),"","","萨斯奎哈纳州立公园","mdocci","12/2020","Winter plumage",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
-  birds[j++] = new myBird("21-08-22T16:25","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",m_id(["20210822_103_Black-headedGull","20210822_104_Black-headedGull"]),["vavava","8/2021","Nonbreeding adult, "+gmap("Hunting Creek Bridge",38.78972,-77.05143)+", Fairfax County","","","费尔法克斯郡猎溪桥"]);
+  birds[j++] = new myBird("21-08-22T16:25","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",m_id(["20220206_031_Back-headedGull"]),["njnjnj","2/2022","Nonbreeding adult, "+gmap("Manasquan Inlet",40.10193,-74.03461)+", Ocean County","","","海洋郡马纳斯泉海口"]);
   birds[j++] = new myBird("21-04-07T12:13","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",[m_id("20210407_038_LittleGull")],["mdmdmd","4/2021","Nonbreeding adult, "+gmap("Cox Point Park",39.29252,-76.46582)+", Baltimore County","","","巴尔的摩郡考克斯角公园"]);
   birds[j++] = new myBird("06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Leucophaeus atricilla",[p_id("0607outerbanks",28),p_id("1505capemay",3),m_id("20161105_112_LaughingGull"),p_id("2108racepoint",6)],["ncoutb","7/2006","njcmsp","5/2015","mdocci","11/2016","Winter plumage",""," "+gmap("Inlet",38.32435,-75.08544),"海口","marace","8/2021","Juvenile"]);
 //birds[j++] = new myBird("22-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-07-09T13:34","LARIDAE ","Heermann's Gull","红嘴灰鸥","Larus heermanni",[p_id("1507birdingwest",22)],["waneah","7/2015",gmap("Hobuck Beach",48.33764,-124.66726),"","","霍巴克海滩"]);
-  birds[j++] = new myBird("05-11-26T09:57","LARIDAE ","Ring-billed Gull","环嘴鸥","Larus delawarensis",m_id(["20151031_116_Ring-billedGull","20150321_037_Ring-billedGull"]),["mdocci","10/2015","",""," "+gmap("Inlet",38.32435,-75.08544),"海口","mdmdmd","3/2015","1st winter, "+gmap("Southwest Area Park",39.23471,-76.6227)+", Baltimore","","","巴尔的摩西南地区公园"]);
+  birds[j++] = new myBird("05-11-26T09:57","LARIDAE ","Ring-billed Gull","环嘴鸥","Larus delawarensis",m_id(["20220206_033_Ring-billedGull","20150321_037_Ring-billedGull"]),["Nonbreeding adult, "+gmap("Manasquan Inlet",40.10193,-74.03461)+", Ocean County","","","海洋郡马纳斯泉海口","mdmdmd","3/2015","1st winter, "+gmap("Southwest Area Park",39.23471,-76.6227)+", Baltimore","","","巴尔的摩西南地区公园"]);
   birds[j++] = new myBird("15-07-09T13:32","LARIDAE ","California Gull","加州鸥","Larus californicus",[p_id("1507birdingwest",21)],["waneah","7/2015","On the right, on the left is a "+b_link("Black-legged Kittiwake")+", "+gmap("Hobuck Beach",48.33764,-124.66726),"右边，左边是一只"+b_link("三趾鸥"),"","霍巴克海滩"]);
   birds[j++] = new myBird("15-03-08T09:17","LARIDAE ","Great Black-backed Gull","大黑背鸥","Larus marinus",[p_id("1503barnegat",10),m_id("20151031_115_GreatBlack-backedGull")],["njblsp","3/2015","mdocci","10/2015","1st winter",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
   birds[j++] = new myBird("15-07-09T11:57","LARIDAE ","Glaucous-winged Gull","灰翅鸥","Larus glaucescens",[p_id("1507birdingwest",15)],["waneah","7/2015",gmap("Cape Flattery",48.38913,-124.71672),"","","夫拉特角"]);
   birds[j++] = new myBird("15-07-11T20:16","LARIDAE ","Western Gull","西美鸥","Larus occidentalis",p_id("1507birdingwest",[33,35]),["cambsp","7/2015","cambsp","7/2015","Hatchling","幼鸟"]);
   birds[j++] = new myBird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",[m_id("20190127_006_GlaucousGull")],["mdmdmd","1/2019","1st winter, "+gmap("West Ocean City Marina",38.32766,-75.10267),"","","大洋城西城码头"]);
   birds[j++] = new myBird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016_IcelandGull","20190107_001_IcelandGull"]),["mdmdmd","2/2017","1st winter, "+gmap("Mariner Point Park",39.39637,-76.34914)+", Harford County","","","哈福德郡水手角公园","mdmdmd","1/2019","2nd winter, "+gmap("Loreley Beach Community Pier",39.3855,-76.40963)+", Baltimore County","","","巴尔的摩郡罗利滩社区码头"],"","");
-  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus smithsonianus",[p_id("0607outerbanks",22),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","3/2015","3rd Winter",""]);
+  birds[j++] = new myBird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus smithsonianus",[p_id("0607outerbanks",22),m_id("20220206_034_HerringGull"),p_id("1503barnegat",9)],["ncoutb","7/2006","njnjnj","2/2022","1st winter, "+gmap("Manasquan Inlet",40.10193,-74.03461)+", Ocean County","","","海洋郡马纳斯泉海口","njblsp","3/2015","3rd Winter",""]);
   birds[j++] = new myBird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The "+(t1=gmap("Bund",31.2425,121.49082)+", Shanghai, China"),(t2="中国"+baikeurl("外滩","上海外滩")),"arb","1/2016","Immature, the "+t1,"未成年，"+t2],"veggul1");
   birds[j++] = new myBird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",[m_id("20151004_104_LesserBlack-backedGull")],["mdocci","10/2015"]);
   birds[j++] = new myBird("21-07-12T12:19","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",[m_id("20210712_095_Gull-billedTern")],["debnwr","7/2021"]);
