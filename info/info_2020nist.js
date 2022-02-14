@@ -473,6 +473,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing the fruit and vegetable game","玩游戏"])[cn_ind];
     this[0][i]    = "20220204_1";
     this[1][i++]  = (["Taste testing fruits","品尝水果"])[cn_ind];
+    this[0][i]    = "20220214_1";
+    this[1][i++]  = (['Making "a bowl of healthy food"',"贴图"])[cn_ind];
 
     adddate(this);
 }
