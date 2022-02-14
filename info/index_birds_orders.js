@@ -480,9 +480,9 @@
 
   var pt_eng  = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*",
                  "females* left, *males* right","females* and chicks*","females*","winter plumage","1st winter","2nd winter","3rd winter","fall plumage","winter females*","eclipse males*","adults* and (immatures*|juveniles*)","adults*",
-                 "breeding (adults*|plumage)","nonbreeding adult\/immature","nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*","(partially)* *leucistic","mating display","nest"];
+                 "breeding (adults*|plumage)","nonbreeding adult\/immature","nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*","nonbreeding females*","nonbreeding males*","(partially)* *leucistic","mating display","nest"];
   var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性","冬羽","一龄冬羽","二龄冬羽","三龄冬羽","秋羽","冬羽雌性","蚀羽雄性","成年和未成年",
-                 "成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","白变种","求偶展示","鸟巢"];     
+                 "成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢"];     
   var lnksty  = "' style='color: #3399FF; text-decoration: underline;'"; 
   var fam_ln  = 8;						//family length
   var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
