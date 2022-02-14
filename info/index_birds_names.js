@@ -380,6 +380,7 @@
   birds[j++] = new myBird("15-01-08T08:58","FREGATID","Magnificent Frigatebird","华丽军舰鸟","Fregata magnificens",p_id("1501prbirding",[40,39]),["prsanj","1/2015","Male","prsanj","1/2015","Female"]);
   birds[j++] = new myBird("15-11-14T15:06","SULIDAE ","Northern Gannet","北鲣鸟","Morus bassanus",m_id(sas("20151114_12",["4","3"],"_NorthernGannet")),["mdocci","11/2015","",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
 //birds[j++] = new myBird("22-00-00T00:00","SULIDAE ","Masked Booby","蓝脸鲣鸟","Sula dactylatra",m_id(),["mdmdmd","9/2015"]);
+//birds[j++] = new myBird("22-00-00T00:00","SULIDAE ","Red-footed Booby","红脚鲣鸟","Sula sula",m_id(),["mdmdmd","9/2015"]);
   birds[j++] = new myBird("15-09-20T11:48","SULIDAE ","Brown Booby","褐鲣鸟","Sula leucogaster",m_id(sas("20150920_10",["0","1"],"_BrownBooby")),["mdmdmd","9/2015",(t1=gmap("Baltimore Harbor",39.27302,-76.58562)),"","","巴尔的摩港","mdmdmd","9/2015","Adult left, immature right, "+t1,"左成年，右未成年","","巴尔的摩港"]);
   birds[j++] = new myBird("05-12-24T15:15","ANHINGID","Anhinga","美洲蛇鹈","Anhinga anhinga",p_id("0512everglades",[4,33]),["flevnp","12/2005","Male, breeding plumage","flevnp","12/2005","Female"]);
   birds[j++] = new myBird("15-07-11T20:45","PHALACRO","Brandt's Cormorant","加州鸬鹚","Urile penicillatus",[p_id("1507birdingwest",36)],["cambsp","7/2015"]);
@@ -622,6 +623,7 @@
   birds[j++] = new myBird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",m_id(["20161210_138_NorthernShrike","20211219_148_NorthernShrike"]),["mdmdmd","12/2016","Juvenile, "+gmap("Ben's Point Road",39.15365,-75.98918)+", Queen Anne's County","","","安妮女王郡本点路","mdbmnt","12/2021"],"伯劳");
 //birds[j++] = new myBird("22-00-00T00:00","LANIIDAE","Great Gray Shrike","灰伯劳","Lanius excubitor",[m_id()],["scsnwr","12/2016"]);
   birds[j++] = new myBird("15-05-02T08:40","VIREONID","Red-eyed Vireo","红眼莺雀","Vireo olivaceus",m_id(["20160515_062_Red-eyedVireo","20160515_061_Red-eyedVireo"]),["mdpvsp","5/2016"]);
+//birds[j++] = new myBird("22-00-00T00:00","VIREONID","Black-whiskered Vireo","黑髭莺雀","Vireo altiloquus",[m_id("")],["mdpvsp","5/2016"]);
   birds[j++] = new myBird("20-10-01T10:07","VIREONID","Philadelphia Vireo","费城莺雀","Vireo philadelphicus",[p_id("2020lbrp",31)],["mdlbrp","10/2020"]);
   birds[j++] = new myBird("15-08-22T07:06","VIREONID","Warbling Vireo","歌莺雀","Vireo gilvus",[m_id("20160514_056_WarblingVireo"),p_id("1705ohio",13)],["nyjbwr","5/2016","ohmage","5/2017"]);
   birds[j++] = new myBird("17-06-11T08:21","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",[m_id("20170611_074_Yellow-throatedVireo")],["mdmwma","6/2017"]);
@@ -878,6 +880,7 @@
   birds[j++] = new myBird("20-01-24T11:22","ICTERIDA","Altamira Oriole","橙头拟鹂","Icterus gularis",[p_id("2001txbirding",26)],["txsnwr","1/2020"]);
   birds[j++] = new myBird("15-07-12T09:26","ICTERIDA","Bullock's Oriole","布氏拟鹂","Icterus bullockii",[m_id("20220122_020_BullockOriole"),p_id("1507birdingwest",40)],["njnjnj","1/2022","Male, "+gmap("Evergreen Ave",39.73569,-75.13296)+", Pitman","","","皮特曼镇常青街","cabake","7/2015","Female, "+gmap("Yokuts Park",35.37584,-119.04749),"","","约库特公园"]);
   birds[j++] = new myBird("06-05-24T18:03","ICTERIDA","Baltimore Oriole","橙腹拟鹂","Icterus galbula",[m_id("20150830_093_BaltimoreOriole"),p_id("1812crbirding",95),m_id("20170618_077_BaltimoreOriole")],["mdwhrp","8/2015","Male","crsanj","12/2018","Female, "+gmap("Morazán Park",9.93547,-84.07544),"","","莫拉桑公园","mdcocn","6/2017","Nest",""," at Violettes Lock","紫罗兰闸"]);
+//birds[j++] = new myBird("22-00-00T00:00","ICTERIDA","Spot-breasted Oriole","斑胸拟鹂","Icterus pectoralis",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-01-03T13:57","ICTERIDA","Venezuelan Troupial","委内瑞拉拟黄鹂","Icterus icterus",[p_id("1501prbirding",20)],["arb","1/2015",gmap("Guanica Dry Forest",17.95422,-66.85136)+", Puerto Rico, USA","美国波多黎各瓜尼卡干燥森林"],"ventro1");
 //birds[j++] = new myBird("22-00-00T00:00","ICTERIDA","Hooded Oriole","巾冠拟鹂","Icterus cucullatus",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("06-07-01T09:43","ICTERIDA","Orchard Oriole","圃拟鹂","Icterus spurius",[p_id("1604asheville",11),p_id("1604asheville",10),p_id("1505bombayhook",12)],["ncllmp","4/2016","Male","ncllmp","4/2016","Female","debnwr","5/2015","Juvenile male"]);
