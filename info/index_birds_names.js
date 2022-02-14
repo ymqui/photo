@@ -92,7 +92,7 @@
   };
 
   var modTim = modDat.getTime()-modran*3600*24*1000;  	//range within modDat converted from days to milliseconds
-  var modBrd = {name:[],cname:[]};
+  var modBrd = {name:[],cname:[],newbird:[]};
   var birds  = [];         
   var j      = 0;
 

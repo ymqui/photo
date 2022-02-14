@@ -571,9 +571,10 @@
    
      //check if this bird needs to be added to modBrd
      if ((modTim<=this.lifer.getTime()) || this.newbird){
+        this.newbird = (modTim<=this.lifer.getTime());
         modBrd.name[modBrd.name.length]   = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
-        this.newbird = (modTim<=this.lifer.getTime());
+        modBrd.newbird[modBrd.newbird.length] = this.newbird;
      }
   }
 
