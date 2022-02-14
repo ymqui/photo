@@ -13,7 +13,10 @@
          style_b = "<font color='#22CCEE'>";
          style_e = "</font>";
       }
-      
+      if (modBrd.newbird[i]){
+         style_b = "<strong>"+style_b;
+         style_e = style_e+"</strong>";
+      }
       if(i==0){
          if(window.usechinese){
             document.write('，新加'+style_b+modBrd.cname[i]+"("+modBrd.name[i]+")"+style_e);
