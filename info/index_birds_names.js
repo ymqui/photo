@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-02-12T08:00");
+  var modDat = new Date("2022-02-19T08:00");
   var modran = modDat.getDate()+2; //range within modDat in days
 
   //location urls
@@ -347,7 +347,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[m_id("")],["mdocci","7/2020","",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
   birds[j++] = new myBird("21-08-11T08:38","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",p_id("2108racepoint",[3,2]),["marace","8/2021","Immature"]);
   birds[j++] = new myBird("21-01-17T12:01","ALCIDAE ","Dovekie","侏海雀","Alle alle",m_id(["20210117_015_Dovekie","20210117_016_Dovekie"]),["deinri","1/2021"]);
-  birds[j++] = new myBird("22-02-12T13:29","ALCIDAE ","Thick-billed Murre","厚嘴崖海鸦","Uria lomvia",[m_id("20220212_037_Thick-billedMurre")],["njblsp","2/2022","Nonbreeding adult/immature"],"厚嘴海鸦");
+  birds[j++] = new myBird("22-02-12T13:29","ALCIDAE ","Thick-billed Murre","厚嘴崖海鸦","Uria lomvia",m_id(["20220212_037_Thick-billedMurre","20220219_047_Thick-billedMurre"]),["njblsp","2/2022","Nonbreeding adult/immature","mdocci","2/2022","Nonbreeding adult/immature",""," "+gmap("Inlet",38.32435,-75.08544),"海口"],"厚嘴海鸦");
   birds[j++] = new myBird("15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",[p_id("1507birdingwest",27)],["arb","7/2015",gmap("Cannon Beach",45.88457,-123.96488)+", Oregon, USA","美国俄勒冈州卡农海滩"]);
   birds[j++] = new myBird("17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026_Razorbill","20170304_027_Razorbill"]),["mdocci","3/2017","Nonbreeding adults",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
   birds[j++] = new myBird("15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",[p_id("1505puffin",18)],["meeeri","5/2015"]);
