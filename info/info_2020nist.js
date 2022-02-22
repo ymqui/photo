@@ -475,6 +475,8 @@ function initAlbum(){
     this[1][i++]  = (["Taste testing fruits","品尝水果"])[cn_ind];
     this[0][i]    = "20220214_1";
     this[1][i++]  = (['Making "a bowl of healthy food"',"贴图"])[cn_ind];
+    this[0][i]    = "20220214_1";
+    this[1][i++]  = (["Spanish with Ms Luz","Luz老师的西班牙语课"])[cn_ind];
 
     adddate(this);
 }
