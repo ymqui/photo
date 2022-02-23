@@ -550,7 +550,7 @@
         ebid = "";
      }
      if (ebid !==""){
-        this.url = ebird(ebid);
+        this.url = ebirdurl(ebid);
      }else{
         this.url = cornellurl(this.name1);
      }
@@ -751,12 +751,12 @@
      return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
   }
 
-  function ebird(bid){
+  function ebirdurl(bid){
      return "https://ebird.org/species/"+bid.trim()+"/";
   }
 
-  function checklist(date,id){
-     return return "<a href='https://ebird.org/checklist/"+id+lnksty+" target='"+id+"'>"+date+"</a>";
+  function ebird(date,id){
+     return "<a href='https://ebird.org/checklist/"+id+lnksty+" target='"+id+"'>"+date+"</a>";
   }
 
   function gmap(name,latt,long){
