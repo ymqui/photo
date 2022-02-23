@@ -755,6 +755,10 @@
      return "https://ebird.org/species/"+bid.trim()+"/";
   }
 
+  function checklist(date,id){
+     return return "<a href='https://ebird.org/checklist/"+id+lnksty+" target='"+id+"'>"+date+"</a>";
+  }
+
   function gmap(name,latt,long){
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+name+"</a>";
