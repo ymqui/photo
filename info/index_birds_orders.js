@@ -5,6 +5,7 @@
   var misc_cnts = [0,0,0];
   var dig_cnts  = 0;
   var pic_cnts  = 0;
+  var dateregex = /\d+\/\d+/;
 
   function newOrder(name, cname, desc, cdesc, family){
      this.name   = name;
@@ -528,7 +529,7 @@
          this.locs.push(info[6*i]);
          tmp_info[i]   = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
          tmp_cinfo[i]  = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
-         tmp_monyr     = (info[1+6*i]).split("/");
+         tmp_monyr     = (info[1+6*i].match(dateregex))[0].split("/");
          tmp_date      = new Date(parseInt(tmp_monyr[1]),parseInt(tmp_monyr[0])-1);
          if (tmp_date.getTime()>modTim){this.newbird = true;}
      }
