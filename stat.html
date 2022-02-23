@@ -56,7 +56,7 @@ if (cellphone){
    width  = [28,20];
    offset = [3,5];
 }
-var links = [ebird('Maryland'),ebird('Washington DC'),ebird('Virginia'),ebird('Delaware'),ebird('Pennsylvania'),ebird('North Carolina'),ebird('South Carolina'),ebird('Georgia'),ebird('Florida'),ebird('New York'),ebird('New Jersey'),ebird('West Virginia'),
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('North Carolina'),erare('South Carolina'),erare('Georgia'),erare('Florida'),erare('New York'),erare('New Jersey'),erare('West Virginia'),
              '<a href="https://ebird.org/map" target="link5">'+mytext((['Species Map','鸟类分布地图'])[cn_ind])+'</a>',
              '<a href="https://ebird.org/hotspots" target="link6">'+mytext((['Hotspots Map','观鸟热点地图'])[cn_ind])+'</a>',
              '<a href="https://groups.google.com/g/mdbirding" target="link7">'+mytext((['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind])+'</a>',
@@ -82,14 +82,14 @@ var icons = ['https://ymqui.github.io/photo/thumbnail/ebird.png',
             ];
 var date = new Date();
 if (date.getTimezoneOffset()/60 ==(-8)){ //in China
-    links.unshift(ebird('Fujian'),ebird('Zhejiang'),ebird('Beijing'),ebird('Shanghai'));
+    links.unshift(erare('Fujian'),erare('Zhejiang'),erare('Beijing'),erare('Shanghai'));
 }
 //icons at the beginning of the list are all ebird
 while (icons.length<links.length){
       icons.unshift(icons[0]);
 }
 
-function ebird(name){
+function erare(name){
     var alerts = { Arizona:             ['35601','美国亚利桑那州'],
 		   Beijing:             ['39713','中国北京'],
                    California:    	['35464','美国加利福尼亚州'],
