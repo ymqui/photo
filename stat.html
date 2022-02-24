@@ -279,6 +279,7 @@ var tot_coun = '<a href="'+clnk+'" style="text-decoration:none; color:'+fcol3+';
 var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+otot.toString(),fcol3)+'</a>';
 var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
 var tot_bgen = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+gtot.toString(),fcol3)+'</a>';
+var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.filter(onlyUnique).length.toString(),fcol3)+'</a>';
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
@@ -304,7 +305,7 @@ document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind
 document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+tot_bird+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total eBird Checklist','eBird观察纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ebirdlist.filter(onlyUnique).length.toString(),fcol2)+'</td>');
+document.write('<td align="left">'+mytext((['Total eBird Checklist','eBird观察纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
