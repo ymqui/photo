@@ -5,6 +5,7 @@
   var misc_cnts = [0,0,0];
   var dig_cnts  = 0;
   var pic_cnts  = 0;
+  var ebirdlist = [];
   var dateregex = /\d+\/\d+/;
 
   function newOrder(name, cname, desc, cdesc, family){
@@ -757,6 +758,7 @@
   }
 
   function ebird(date,id){
+     ebirdlist.push(id);
      return "<a href='https://ebird.org/checklist/"+id+lnksty+" target='"+id+"'>"+date+"</a>";
   }
 
