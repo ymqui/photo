@@ -345,7 +345,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",[m_id("")],["marace","8/2021"]);
   birds[j++] = new myBird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086_ForsterTern")],["njcmsp","5/2015","mdenwr","7/2015","Winter plumage (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"]);
   birds[j++] = new myBird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("20210531_085_BlackTern"),p_id("2108racepoint",1)],["papapa","5/2021","Breeding adult, "+npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge")+", Philadelphia","","","费城"+npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区"),"marace","8/2021","Nonbreeding adults"]);
-//birds[j++] = new myBird("22-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[m_id("")],["mdocci","7/2020","",""," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
+//birds[j++] = new myBird("22-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[p_id("2204flbird")],["fldtnp","4/2022"]);
   birds[j++] = new myBird("21-08-11T08:38","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",p_id("2108racepoint",[3,2]),["marace","8/2021","Immature"]);
   birds[j++] = new myBird("21-01-17T12:01","ALCIDAE ","Dovekie","侏海雀","Alle alle",m_id(["20210117_015_Dovekie","20210117_016_Dovekie"]),["deinri","1/2021"]);
   birds[j++] = new myBird("22-02-12T13:29","ALCIDAE ","Thick-billed Murre","厚嘴崖海鸦","Uria lomvia",m_id(["20220212_037_Thick-billedMurre","20220219_047_Thick-billedMurre"]),["njblsp",ebird("2/2022","S102555804"),"Nonbreeding adult/immature","mdocci",ebird("2/2022","S103103644"),"Nonbreeding adult/immature",""," "+gmap("Inlet",38.32435,-75.08544),"海口"],"厚嘴海鸦");
@@ -376,7 +376,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",[m_id("")],["marace","8/2021"],"sooshe");
   birds[j++] = new myBird("21-08-11T14:44","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",p_id("2108racepoint",[7,8]),["marace","8/2021"],"greshe");
   birds[j++] = new myBird("21-08-12T07:37","PROCELLA","Manx Shearwater","普通剪水鹱","Puffinus puffinus",[p_id("2108racepoint",13)],["marace","8/2021"],"manshe","剪水鹱");
-//birds[j++] = new myBird("22-00-00T00:00","PROCELLA","Audubon's Shearwater","奥氏鹱","Puffinus lherminieri",[p_id("2204flbird")],["mdbhrp","9/2015"],"audshe");
+//birds[j++] = new myBird("22-00-00T00:00","PROCELLA","Audubon's Shearwater","奥氏鹱","Puffinus lherminieri",[p_id("2204flbird")],["fldtnp","4/2022"],"audshe");
 //birds[j++] = new myBird("22-00-00T00:00","PROCELLA","Common Diving Petrel","鹈燕","Pelecanoides urinatrix",[m_id("")],["mdbhrp","9/2015"],"codpet1");
   birds[j++] = new myBird("05-12-25T10:44","CICONIID","Wood Stork","黑头鹮鹳","Mycteria americana",[p_id("1112floridabirding",17)],["flevnp","12/2011"]);
   birds[j++] = new myBird("15-01-08T08:58","FREGATID","Magnificent Frigatebird","华丽军舰鸟","Fregata magnificens",p_id("1501prbirding",[40,39]),["prsanj","1/2015","Male","prsanj","1/2015","Female"]);
