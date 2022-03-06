@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-02-19T08:00");
+  var modDat = new Date("2022-03-06T08:00");
   var modran = modDat.getDate()+2; //range within modDat in days
 
   //location urls
@@ -138,7 +138,7 @@
   birds[j++] = new myBird("15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",m_id(["20170121_009_Canvasback","20170121_008_Canvasback"]),["mdmdmd","1/2017","Male, "+gmap("Cambridge",38.57957,-76.07774),"","","剑桥市","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.57957,-76.07774),"","","剑桥市"]);
   birds[j++] = new myBird("15-02-15T15:34","ANATIDAE","Redhead","美洲潜鸭","Aythya americana",[m_id("20150215_008_Redhead")],["mdloch","2/2015","Male left, female right"]);
   birds[j++] = new myBird("15-02-15T15:58","ANATIDAE","Ring-necked Duck","环颈潜鸭","Aythya collaris",[m_id("20150215_012_Ring-neckedDuck"),p_id("1512bhill",17)],["mdloch","2/2015","Males","mdbhrp","2/2015","Males and a female (center)","雄性和一雌性(中间)"]);
-//birds[j++] = new myBird("22-00-00T00:00","ANATIDAE","Tufted Duck","凤头潜鸭","Aythya fuligula",[m_id("")],["mdmdmd","2/2022",gmap("Shallow Creek",39.211,-76.435)+", Baltimore County","巴尔的摩郡浅溪湾"],"tufduc");
+  birds[j++] = new myBird("22-03-06T11:13","ANATIDAE","Tufted Duck","凤头潜鸭","Aythya fuligula",[m_id("20220306_051_TuftedDuck")],["papapa",ebird("3/2022","S104335165"),gmap("Middle Creek Wildlife Management Area",40.27692,-76.236)+", Lancaster County","兰开斯特郡中溪野生动物管理区"],"tufduc");
   birds[j++] = new myBird("17-02-04T14:16","ANATIDAE","Greater Scaup","斑背潜鸭","Aythya marila",[m_id("20170204_017_GreaterScaup")],["mdmdmd","2/2017","Female, "+gmap("Greenbelt Lake",39.003,-76.8883)+", Prince George's County","","","乔治王子郡格林贝尔特湖"]);
   birds[j++] = new myBird("06-04-09T11:38","ANATIDAE","Lesser Scaup","小潜鸭","Aythya affinis",m_id(["20170121_010_LesserScaup","20170121_011_LesserScaup"]),["mdmdmd","1/2017","Male, "+gmap("Cambridge",38.57957,-76.07774),"","","剑桥市","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.57957,-76.07774),"","","剑桥市"]);
   birds[j++] = new myBird("20-12-28T12:30","ANATIDAE","King Eider","王绒鸭","Somateria spectabilis",[m_id("20201228_144_KingEider")],["mdocci","12/2020","Immature male (surrounded by "+b_link("Surf Scoter","s")+")","未成年雄性，周围是"+b_link("斑头海番鸭")," "+gmap("Inlet",38.32435,-75.08544),"海口"]);
