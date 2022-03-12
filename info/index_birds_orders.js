@@ -7,6 +7,7 @@
   var pic_cnts  = 0;
   var ebirdlist = [];
   var dateregex = /\d+\/\d+/;
+  var all_new   = true;
 
   function newOrder(name, cname, desc, cdesc, family){
      this.name   = name;
@@ -577,6 +578,9 @@
         modBrd.name[modBrd.name.length]   = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
         modBrd.newbird[modBrd.newbird.length] = this.newbird;
+        if (!this.newbird) {
+           all_new = false;
+        } 
      }
   }
 
