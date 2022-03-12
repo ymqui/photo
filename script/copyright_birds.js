@@ -2,6 +2,7 @@
   if (!cellphone) document.write('<center>');
   document.write('<br><p style="font-family:Times New Roman;">');
   document.write('<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" SRC="https://ymqui.github.io/photo/script/date.js"></SCRIPT>');
+  
   for (var i=0;i<modBrd.name.length;i++){
       mname = reform(modBrd.name[i]);
       if ((mname!=bname) && birdFound(mname)){
@@ -13,7 +14,7 @@
          style_b = "<font color='#22CCEE'>";
          style_e = "</font>";
       }
-      if (modBrd.newbird[i]){
+      if (modBrd.newbird[i] && (!all_new)){
          style_b = "<strong>"+style_b;
          style_e = style_e+"</strong>";
       }
