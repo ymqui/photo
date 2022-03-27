@@ -42,7 +42,7 @@ function initAlbum(){
     this[0][i]    = "20170215_002_PregnancyTest";
     this[1][i++]  = (["Positive pregnancy test","怀孕测试显阳性"])[cn_ind];
     this[0][i]    = "20170309_003_Sonogram";
-    this[1][i++]  = (["Sonogram at MedStar Montgomery Medical Center. Our greatest joy to hear the baby's heartbeat for the first time","在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳"])[cn_ind];
+    this[1][i++]  = (["Sonogram at MedStar Montgomery Medical Center. It's our greatest joy to hear the baby's heartbeat for the first time","在蒙哥马利医疗中心做超声波检查。无比幸福地看到和听到胎儿的心跳"])[cn_ind];
     this[0][i]    = "20170602_007_AnatomySonogram";
     this[1][i++]  = (["Anatomy ultrasound at MedStar Montgomery Medical Center. The baby is healthy and strong","在蒙哥马利医疗中心做解剖结构超声波检查，胎儿很健康"])[cn_ind];
     this[0][i]    = "20170721_008_Sonogram";
@@ -62,7 +62,7 @@ function initAlbum(){
     this[0][i]    = "20171123_024_Thanksgiving";
     this[1][i++]  = (["First Thanksgiving at Auntie Yelena's home","球球在Yelena阿姨家过第一次感恩节"])[cn_ind];
     this[0][i]    = "20171126_027_AsleepAtHome";
-    this[1][i++]  = (["Favorite sleeping position","球球最喜欢的睡姿"])[cn_ind];
+    this[1][i++]  = (["Nathan's favorite sleeping position","球球最喜欢的睡姿"])[cn_ind];
     this[0][i]    = "20171202_028_TummyTimeAtHome";
     this[1][i++]  = (["Tummy time","练习趴着抬头"])[cn_ind];
     this[0][i]    = "20171223_028_Pacifier";
