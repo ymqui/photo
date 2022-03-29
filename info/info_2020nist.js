@@ -487,6 +487,8 @@ function initAlbum(){
     this[1][i++]  = (["Practice adding numbers","练习数字相加"])[cn_ind];
     this[0][i]    = "20220324_1";
     this[1][i++]  = (["Coloring a paper flower","给纸花上色"])[cn_ind];
+    this[0][i]    = "20220329_1";
+    this[1][i++]  = (["Practice counting numbers","练习数数"])[cn_ind];
 
     adddate(this);
 }
