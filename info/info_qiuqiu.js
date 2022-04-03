@@ -265,6 +265,8 @@ function initAlbum(){
     this[1][i++]  = (["Morning video time","早餐前看会儿视频"])[cn_ind];
     this[0][i]    = "20220304_003_Reading";
     this[1][i++]  = (["Reading on the sofa before dinner","晚饭前在沙发上看书"])[cn_ind];
+    this[0][i]    = "20220403_005_Scooter";
+    this[1][i++]  = (["Riding a scooter at the Fallsmead Park","在家附近的Fallsmead公园骑滑板车"])[cn_ind];
 
     adddate(this);
 }
