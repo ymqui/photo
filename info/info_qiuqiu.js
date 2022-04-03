@@ -152,7 +152,7 @@ function initAlbum(){
     this[0][i]    = "20190220_Reading";
     this[1][i++]  = (["Reading with Mommy","和妈妈一起看书"])[cn_ind];
     this[0][i]    = "20190407_008";
-    this[1][i++]  = (["Reading with James and Uncle He","和James哥哥一起听小何叔叔读书"])[cn_ind];
+    this[1][i++]  = (["Reading with James and Uncle He","和小凡哥哥一起听小何叔叔读书"])[cn_ind];
     this[0][i]    = "20190407_009";
     this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
     this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","1904dcmuseum/1904dcmuseum_9","20190420"];
@@ -186,7 +186,7 @@ function initAlbum(){
     this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
     this[0][i]    = ["2018goddard/20200403_1","20200403"];
-    this[1][i++]  = (["Distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上课"])[cn_ind];
+    this[1][i++]  = (["Distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
     this[0][i]    = "20200718_PottyTraining";
@@ -219,7 +219,7 @@ function initAlbum(){
     this[0][i]    = ["2107trainride/2107trainride_3","20210703"];
     this[1][i++]  = ([pagelink("2107trainride","Riding a steam train on the Strasburg Rail Road")+" in Pennsylvania","在宾夕法尼亚州斯特拉斯堡"+pagelink("2107trainride","乘坐蒸汽火车")])[cn_ind];
     this[0][i]    = ["2107philly/2107philly_3","20210704"];
-    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new home")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和James哥哥一起赛车"])[cn_ind];
+    this[1][i++]  = (["Racing with James during "+pagelink("2107philly","the visit to Auntie Houzi's new home")+" in Pennsylvania",pagelink("2107philly","在宾夕法尼亚州候子阿姨家玩")+"时和小凡哥哥一起赛车"])[cn_ind];
     this[0][i]    = "20210711_WaterFountain";
     this[1][i++]  = (["Playing in the water fountain with Adele at Rockville Town Square","和小希姐姐在罗克维尔市广场的喷泉中玩水"])[cn_ind];
     this[0][i]    = "20210717_20401";
