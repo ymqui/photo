@@ -98,7 +98,7 @@ function initAlbum(){
     this[0][i]    = "20180324_011_TummyTime";
     this[1][i++]  = (["Tummy time on the musical kick mat","又到趴着玩的时间"])[cn_ind];
     this[0][i]    = "20180331_012_WithXiaoXi";
-    this[1][i++]  = (["With sister Adele","见到小希姐姐和候子阿姨"])[cn_ind];
+    this[1][i++]  = (["With Adele","见到小希姐姐和候子阿姨"])[cn_ind];
     this[0][i]    = "20180415_014_Sitting";
     this[1][i++]  = (["Nathan can sit independently now","球球能自己坐着啦"])[cn_ind];
     this[0][i]    = "20180429_016_SolidFood";
@@ -154,7 +154,7 @@ function initAlbum(){
     this[0][i]    = "20190407_008";
     this[1][i++]  = (["Reading with James and Uncle He","和小凡哥哥一起听小何叔叔读书"])[cn_ind];
     this[0][i]    = "20190407_009";
-    this[1][i++]  = (["Playing with sister Adele","和小希姐姐一块拼积木"])[cn_ind];
+    this[1][i++]  = (["Playing with Adele","和小希姐姐一块拼积木"])[cn_ind];
     this[0][i]    = ["1904dcmuseum/1904dcmuseum_8","1904dcmuseum/1904dcmuseum_9","20190420"];
     this[1][i++]  = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]    = ["1905mexico/1905mexico_46","20190516"];
@@ -168,7 +168,7 @@ function initAlbum(){
     this[0][i]    = "20190704_055_DogParade";
     this[1][i++]  = (["Watching the dog parade in Baltimore","在巴尔的摩看狗狗游行"])[cn_ind];
     this[0][i]    = ["1908florida/1908florida_6","20190828"];
-    this[1][i++]  = (["Visiting the Magic Kingdom during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间游迪士尼乐园的魔幻王国"])[cn_ind];
+    this[1][i++]  = (["Visiting the Disney Magic Kingdom during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间游迪士尼乐园的魔幻王国"])[cn_ind];
     this[0][i]    = ["1908florida/1908florida_10","1908florida/1908florida_21","20190831"];
     this[1][i++]  = (["Visiting Kennedy Space Center during the "+pagelink("1908florida","vacation in Florida"),"在"+pagelink("1908florida","佛罗里达度假")+"期间参观"+baikeurl("肯尼迪航天中心")])[cn_ind];
     this[0][i]    = "20191013_JuniorFirefighter";
@@ -205,7 +205,7 @@ function initAlbum(){
     this[0][i]    = "20201102_020_NIST";
     this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
-    this[1][i++]  = (["First time using chopsticks for dinner","第一次用筷子吃饭"])[cn_ind];
+    this[1][i++]  = (["Eating with chopsticks for the first time","第一次用筷子吃饭"])[cn_ind];
     this[0][i]    = "20201225_022_ChristmasGift";
     this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
     this[0][i]    = "20210126_Weightlifting";
@@ -241,7 +241,7 @@ function initAlbum(){
     this[0][i]    = ["20211002_013_Bike","20211002_014_Bike"];
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
     this[0][i]    = "20211007_016_NISTCCCFieldTrip";
-    this[1][i++]  = (["Waiting in line to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
+    this[1][i++]  = (["Waiting to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
     this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
     this[1][i++]  = ([pagelink("2110longwood&showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood&showall","游览长木花园")])[cn_ind];
     this[0][i]    = "20211031_021_WithMommy";
@@ -256,7 +256,7 @@ function initAlbum(){
     this[0][i]    = ["20211225_Christmas_1","20211225_Christmas_2"];
     this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
     this[0][i]    = "20211225_ShenandoahNP";
-    this[1][i++]  = (["Visiting the Shenandoah National Park on Christmas","圣诞节和朋友们一起游"+baikeurl("谢南多厄国家公园")])[cn_ind];
+    this[1][i++]  = (["Visiting the Shenandoah National Park on Christmas day","圣诞节和朋友们一起游"+baikeurl("谢南多厄国家公园")])[cn_ind];
     this[0][i]    = "20211226_LurayCavern";
     this[1][i++]  = (["Visiting the Luray Cavern","在弗吉尼亚州的"+baikeurl("卢雷岩洞")+"跟妈妈和小希姐姐合影"])[cn_ind];
     this[0][i]    = "20220116_001_PaintingatHome";
@@ -264,7 +264,7 @@ function initAlbum(){
     this[0][i]    = "20220127_002_MorningVideo";
     this[1][i++]  = (["Morning video time","早餐前看会儿视频"])[cn_ind];
     this[0][i]    = "20220304_003_Reading";
-    this[1][i++]  = (["Reading on the sofa before dinner","晚饭前在沙发上看书"])[cn_ind];
+    this[1][i++]  = (["Reading before dinner","晚饭前在沙发上看书"])[cn_ind];
     this[0][i]    = "20220403_005_Scooter";
     this[1][i++]  = (["Riding a scooter at Fallsmead Park","在家附近的Fallsmead公园骑滑板车"])[cn_ind];
 
