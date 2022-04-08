@@ -186,7 +186,7 @@ function initAlbum(){
     this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
     this[0][i]    = ["2018goddard/20200403_1","20200403"];
-    this[1][i++]  = (["Distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
+    this[1][i++]  = (["Taking Ms Bringas's class through distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
     this[0][i]    = "20200718_PottyTraining";
