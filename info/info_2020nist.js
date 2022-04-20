@@ -495,6 +495,8 @@ function initAlbum(){
     this[1][i++]  = (["Family fun Friday activity","家长参与的特别星期五活动"])[cn_ind];
     this[0][i]    = "20220408_2";
     this[1][i++]  = (["Fitness class","健身课"])[cn_ind];
+    this[0][i]    = "20220420_1";
+    this[1][i++]  = (["Cleaning the classroom and recycling paper","打扫教室同时回收纸张"])[cn_ind];
 
     adddate(this);
 }
