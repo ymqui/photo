@@ -267,6 +267,8 @@ function initAlbum(){
     this[1][i++]  = (["Reading before dinner","晚饭前在沙发上看书"])[cn_ind];
     this[0][i]    = "20220403_005_Scooter";
     this[1][i++]  = (["Riding a scooter at Fallsmead Park","在家附近的Fallsmead公园骑滑板车"])[cn_ind];
+    this[0][i]    = ["20220424_Playstix_2","20220424_Playstix_3"];
+    this[1][i++]  = (["Building a train with playstix","拼搭火车"])[cn_ind];
 
     adddate(this);
 }
