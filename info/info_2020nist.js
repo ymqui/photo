@@ -506,9 +506,9 @@ function initAlbum(){
     this[0][i]    = "20220425_2";
     this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
     this[0][i]    = "20220425_3";
-    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
+    this[1][i++]  = (["Playing soccer","踢足球"])[cn_ind];
     this[0][i]    = "20220425_4";
-    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
+    this[1][i++]  = (["Playing soccer","踢足球"])[cn_ind];
 
     adddate(this);
 }
