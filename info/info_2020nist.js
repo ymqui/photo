@@ -501,6 +501,14 @@ function initAlbum(){
     this[1][i++]  = (["Cleaning the classroom window","擦窗户"])[cn_ind];
     this[0][i]    = "20220422_1";
     this[1][i++]  = (["Art class","美术课"])[cn_ind];
+    this[0][i]    = "20220425_1";
+    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
+    this[0][i]    = "20220425_2";
+    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
+    this[0][i]    = "20220425_3";
+    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
+    this[0][i]    = "20220425_4";
+    this[1][i++]  = (["Playing soccer with coach Shay","跟Shay教练学踢足球"])[cn_ind];
 
     adddate(this);
 }
