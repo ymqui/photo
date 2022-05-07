@@ -20,7 +20,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
                   ["2010fallfestival","10/2020 Goddard School Fall Festival","10/2020 戈达德托儿所金秋节"],["2107trainride","7/2021 Train Ride in Pennsylvania","7/2021 宾夕法尼亚州乘火车"],
  	 	  ["2107philly","7/2021 Visiting Aunt Houzi in Pennsylvania","7/2021 宾夕法尼亚州候子阿姨家玩"],["2108vacation","8/2021 Pittsburgh and Provincetown Vacation","8/2021 匹兹堡和普罗温斯敦度假"],
-                  ["2110longwood&showall","10/2021 Visiting Longwood Gardens in Pennsylvania","10/2021 宾夕法尼亚州游长木花园"],
+                  ["2110longwood&showall","10/2021 Visiting Longwood Gardens in Pennsylvania","10/2021 宾夕法尼亚州游长木花园"],["2205florida","4/2022 Vacationing in Florida","4/2022 佛罗里达州度假"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -269,6 +269,11 @@ function initAlbum(){
     this[1][i++]  = (["Riding a scooter at Fallsmead Park","在家附近的Fallsmead公园骑滑板车"])[cn_ind];
     this[0][i]    = ["20220424_Playstix_2","20220424_Playstix_3"];
     this[1][i++]  = (["Building a train with playstix","拼搭火车"])[cn_ind];
+    this[0][i]    = ["2205florida/2205florida_1","20220428"];
+    this[1][i++]  = (["Taking the Amtrak auto train for the "+pagelink("2205florida","Florida vacation"),"乘坐美铁汽车火车前往"+pagelink("2205florida","佛罗里达度假")])[cn_ind];
+    this[0][i]    = ["2205florida/2205florida_14","20220501"];
+    this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游基韦斯特岛的美国大陆最南端"])[cn_ind];
+
 
     adddate(this);
 }
