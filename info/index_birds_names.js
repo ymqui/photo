@@ -779,7 +779,7 @@
   birds[j++] = new myBird("06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",[p_id("1612savannah",2)],["scsnwr","12/2016"]);
   birds[j++] = new myBird("17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",m_id(sas(["20170930_109","20210504_060"],"_Gray-cheekedThrush")),["mdmdmd","9/2017",gmap("Oregon Ridge Park",39.49436,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园","mdmdmd","5/2021",gmap("Kinder Farm Park",39.1018,-76.58972)+", Anne Arundel County","","","安妮·阿伦德尔郡金德农场公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","TURDIDAE","Bicknell's Thrush","比氏夜鸫","Catharus bicknelli",[m_id("")],["mdmdmd","9/2017"]);
-  birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36)],["mdbhrp","8/2015"]);
+  birds[j++] = new myBird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36),m_id("20220508_058_Veery")],["mdbhrp","8/2015","vavava",ebird("5/2022","S109363991"),gmap("Luria Park",38.856,-77.207)+", Fairfax County","","","费尔法克斯郡卢里亚公园"]);
   birds[j++] = new myBird("16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","1/2016","Male","cnjsxp","1/2016","Female"],"chibla1","乌鸫普通亚种");
 //birds[j++] = new myBird("22-00-00T00:00","TURDIDAE","Common Blackbird","乌鸫","Turdus merula",p_id("1601china",[16,70]),["cnjsxp","1/2016","cnbjsp","1/2016"],"eurbla");
   birds[j++] = new myBird("17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[p_id("1704longyan",2)],["cnlydp","4/2017","Male"],"gybthr1");
