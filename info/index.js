@@ -1336,6 +1336,11 @@
   info[2][j] = 2;
   info[3][j] = "10/2021 Longwood Gardens";
   info[4][j++] = "Visiting Longwood Gardens(Pennsylvania).";
+  info[0][j] = "2204flbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "4/2022 Florida Birding";
+  info[4][j++] = "Birding in the Florida Keys and Miami-Dade area(Florida).";
 
   if(window.usechinese){
      j = 0;
@@ -1869,6 +1874,8 @@
      info[4][j++] = "在马萨诸塞州普罗温斯敦横流点海滩观鸟(马萨诸塞州)。";
      info[3][j]   = "10/2021 长木花园";
      info[4][j++] = "长木花园赏花(宾夕法尼亚州)。";
+     info[3][j]   = "4/2022 佛罗里达观鸟";
+     info[4][j++] = "在佛罗里达南部观鸟(佛罗里达州)。";
   } 
 
   //special touch
@@ -1887,5 +1894,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2021-10-12T08:00:00");
+  var modDat = new Date("2022-05-09T08:00:00");
 //-->

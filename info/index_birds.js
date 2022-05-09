@@ -256,6 +256,11 @@
   info[2][j] = 2;
   info[3][j] = "8/2021 Race Point Birding";
   info[4][j++] = "Birding at Race Point, Provincetown(Massachusetts).";
+  info[0][j] = "2204flbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "4/2022 Florida Birding";
+  info[4][j++] = "Birding in the Florida Keys and Miami-Dade area(Florida).";
 
   if(window.usechinese){
      j = 0;
@@ -357,6 +362,8 @@
      info[4][j++] = "2020年小班尼特公园观鸟(马里兰州)。";
      info[3][j]   = "8/2021 横流点海滩观鸟";
      info[4][j++] = "在马萨诸塞州普罗温斯敦横流点海滩观鸟(马萨诸塞州)。";
+     info[3][j]   = "4/2022 佛罗里达观鸟";
+     info[4][j++] = "在佛罗里达南部观鸟(佛罗里达州)。";
   } 
 
   //special touch
@@ -373,7 +380,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2020-10-28T12:00:00");
+  var modDat1 = new Date("2022-05-09T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
