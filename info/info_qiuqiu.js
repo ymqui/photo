@@ -272,7 +272,7 @@ function initAlbum(){
     this[0][i]    = ["2205florida/2205florida_1","20220428"];
     this[1][i++]  = (["Taking the Amtrak auto train for the "+pagelink("2205florida","Florida vacation"),"乘坐美铁汽车火车前往"+pagelink("2205florida","佛罗里达度假")])[cn_ind];
     this[0][i]    = ["2205florida/2205florida_14","20220501"];
-    this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游基韦斯特岛的美国大陆最南端"])[cn_ind];
+    this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游西礁岛的美国大陆最南端"])[cn_ind];
 
 
     adddate(this);
