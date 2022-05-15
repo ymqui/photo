@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-05-09T08:00");
+  var modDat = new Date("2022-05-15T08:00");
   var modran = modDat.getDate()+2; //range within modDat in days
 
   //location urls
@@ -344,7 +344,7 @@
   birds[j++] = new myBird("22-04-30T10:43","LARIDAE ","Sooty Tern","乌燕鸥","Onychoprion fuscatus",[p_id("2204flbird",5)],["fldtnp",ebird("4/2022","S108548976")],"sooter1");
   birds[j++] = new myBird("21-08-11T09:46","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[p_id("2108racepoint",5),p_id("2204flbird",8)],["marace","8/2021","fldtnp",ebird("4/2022","S108548976")]);
   birds[j++] = new myBird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407michiganbirding",[15,16]),["mimack","7/2014"]);
-//birds[j++] = new myBird("22-00-00T00:00","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",[m_id("")],["marace","8/2021"]);
+  birds[j++] = new myBird("22-05-15T11:32","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",m_id(["20220515_062_ArcticTern","20220515_060_ArcticTern"]),["papapa",ebird("5/2022","S110301496"),gmap("Marsh Creek State Park",40.069,-75.72)+", Chester County","","","切斯特郡沼泽溪州立公园"]);
   birds[j++] = new myBird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086_ForsterTern")],["njcmsp","5/2015","mdenwr","7/2015","Winter plumage (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"]);
   birds[j++] = new myBird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("20210531_085_BlackTern"),p_id("2108racepoint",1)],["papapa","5/2021","Breeding adult, "+npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge")+", Philadelphia","","","费城"+npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区"),"marace","8/2021","Nonbreeding adults"]);
 //birds[j++] = new myBird("22-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[p_id("2204flbird")],["fldtnp","4/2022"]);
