@@ -11,6 +11,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2204flbird","4/2022 Birding in South Florida","4/2022 南佛罗里达州观鸟"]]
  
 if(window.usechinese){
     title      = "Vacationing in south Florida";
@@ -33,7 +34,7 @@ function initAlbum(){
         this[1][3] = "在火车上。";
         this[1][4] = "在火车上。";
         this[1][5] = "在火车上吃早餐。";
-        this[1][6] = "在佛罗里达的西礁岛陪爸爸去前往海龟国家公园的轮渡码头。";
+        this[1][6] = "在佛罗里达的西礁岛陪爸爸去前往"+pagelink("2204flbird","海龟国家公园观鸟")+"的轮渡码头。";
         this[1][7] = "佛罗里达的西礁岛。";
         this[1][8] = "在佛罗里达的西礁岛吃早餐。";
         this[1][9] = "在佛罗里达的西礁岛乘坐观光小火车。";
@@ -55,7 +56,7 @@ function initAlbum(){
         this[1][3] = "On the Amtrak auto train.";
         this[1][4] = "On the Amtrak auto train.";
         this[1][5] = "Having breakfast on the Amtrak auto train.";
-        this[1][6] = "Accompanying Daddy to the Yankee Freedom Ferry to the Dry Tortugas National Park.";
+        this[1][6] = "Accompanying Daddy to the Yankee Freedom Ferry to "+pagelink("2204flbird","birding in Dry Tortugas National Park")+".";
         this[1][7] = "Key West.";
         this[1][8] = "Having breakfast at Key West.";
         this[1][9] = "Taking the train tour at Key West.";
