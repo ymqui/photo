@@ -921,7 +921,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",[m_id("")],["papapa","9/2021","Immature, "+gmap("Logan Square",39.95575,-75.16896)+", Philadelphia","","","费城洛根广场"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","5/2019"]);
-  birds[j++] = new myBird("22-05-22T08:57","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("20220522_066_MourningWarbler")],["vavava",ebird("5/2022","S110981402"),"Male, "+gmap("Paddy Knob",38.2656,-79.7957)+", Highland County","","","高地郡黑熊岭"]);
+  birds[j++] = new myBird("22-05-22T08:57","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("20220522_065_MourningWarbler")],["vavava",ebird("5/2022","S110981402"),"Male, "+gmap("Paddy Knob",38.2656,-79.7957)+", Highland County","","","高地郡黑熊岭"]);
   birds[j++] = new myBird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[p_id("2020lbrp",4)],["mdlbrp","5/2020"]);
   birds[j++] = new myBird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdmdmd","9/2017","Immature male, "+gmap("Oregon Ridge Park",39.49436,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园"]);
   birds[j++] = new myBird("19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",p_id("1905mxbird",[13,12]),["mxunam","5/2019","Male"],"hooyel1");
