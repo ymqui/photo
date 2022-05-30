@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-05-22T08:00");
+  var modDat = new Date("2022-05-30T08:00");
   var modran = modDat.getDate()+2; //range within modDat in days
 
   //location urls
@@ -908,7 +908,7 @@
   birds[j++] = new myBird("16-04-24T10:25","PARULIDA","Worm-eating Warbler","食虫莺","Helmitheros vermivorum",[p_id("1604asheville",15)],["nccrsp","4/2016"]);
   birds[j++] = new myBird("15-01-06T09:16","PARULIDA","Louisiana Waterthrush","白眉灶莺","Parkesia motacilla",[p_id("1501prbirding",31),p_id("2020lbrp",9)],["arb","1/2015",gmap("El Yunque National Forest")+", Puerto Rico, USA","美国波多黎各云盖热带雨林","mdlbrp","6/2020"]);
   birds[j++] = new myBird("16-05-14T09:55","PARULIDA","Northern Waterthrush","黄眉灶莺","Parkesia noveboracensis",[m_id("20160514_054_NorthernWaterthrush")],["nyjbwr","5/2016"]);
-//birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Golden-winged Warbler","金翅虫森莺","Vermivora chrysoptera",[m_id("")],["mdmdmd",ebird("5/2022",""),gmap()+", Garrett County","","","加勒特郡"]);
+  birds[j++] = new myBird("22-05-30T08:22","PARULIDA","Golden-winged Warbler","金翅虫森莺","Vermivora chrysoptera",[m_id("20220530_069_Golden-wingedWarbler")],["papapa",ebird("5/2022","S111741719"),"Male, "+gmap("Buchanan State Forest",39.9909,-77.9616)+", Fulton County","","","富尔顿郡布坎南州立森林"]);
   birds[j++] = new myBird("15-08-30T08:54","PARULIDA","Blue-winged Warbler","蓝翅虫森莺","Vermivora cyanoptera",[m_id("20150830_091_Blue-wingedWarbler")],["mdwhrp","8/2015","Male",""," at Brookside Gardens","溪边花园"]);
   birds[j++] = new myBird("15-05-24T07:17","PARULIDA","Black-and-white Warbler","黑白森莺","Mniotilta varia",[m_id("20210510_069_Black-and-whiteWarbler"),p_id("1512bhill",39)],["mdlbrp","5/2021","Male","mdbhrp","9/2015","Female"]);
   birds[j++] = new myBird("06-07-01T10:10","PARULIDA","Prothonotary Warbler","蓝翅黄森莺","Protonotaria citrea",[m_id("20200617_045_ProthonotaryWarbler"),"2006cobirding/ProthonotaryWarbler_F_20060730_009",m_id("20170611_073_Prothonotary")],["mdmwma","6/2020","Male","mdcocn","7/2006","Female",""," at Riley's Lock","莱利闸","mdmwma","6/2017","Immature"]);
