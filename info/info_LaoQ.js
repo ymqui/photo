@@ -27,7 +27,7 @@ function initAlbum(){
     this[1][i++]  = (["Huntley Meadows Park, Virginia, USA","美国弗吉尼亚州亨特利湿地公园"])[cn_ind];
     this[0][i]    = "20210516_VABirding";
     this[1][i++]  = (["Cub Run Stream Valley Park, Virginia, USA","美国弗吉尼亚州熊崽溪谷公园"])[cn_ind];
-    this[0][i]    = ["2205florida/2205florida_7","20220430"];
+    this[0][i]    = "20220430_KeyWest;
     this[1][i++]  = (["Key West, Florida, USA","美国佛罗里达州西礁岛"])[cn_ind];
 
    
