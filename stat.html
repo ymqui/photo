@@ -412,9 +412,16 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     document.write('</tr>');
 }
 document.write('</table>');
-if (!cellphone) document.write('<center>');
+ var emsp = '&nbsp;';
+if (cellphone) { 
+   emsp = '&emsp;';
+}else{
+   document.write('<center>');
+}
 document.write('<br><p style="font-family:Times New Roman;">');
 document.write('<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" SRC="https://ymqui.github.io/photo/script/date.js"></SCRIPT>');
+document.write(emsp+'<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
+document.write('<IMG SRC="https://ymqui.github.io/photo/thumbnail/insignia.png" align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>');   
 //-->
 </script>
 </body>
