@@ -308,7 +308,8 @@ document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind
 document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+tot_bird+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td align="left">'+mytext((['Total eBird Checklists','eBird观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
+var ebird = '<span style="color: #2AA64D">e</span><span style="Color: #000000">bird</span>'; 
+document.write('<td align="left">'+mytext((['Total '+ebird+' Checklists',ebird+'观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
