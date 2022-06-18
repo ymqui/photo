@@ -275,7 +275,7 @@ function initAlbum(){
     this[0][i]    = ["2205florida/2205florida_14","20220501"];
     this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游西礁岛的美国大陆最南端"])[cn_ind];
     this[0][i]    = ["2206graduation/2206graduation_11","20220617"];
-    this[1][i++]  = (["Receiving the diploma from Ms Abrial and Ms Penny at the "+pagelink("2206graduation","NIST Childcare Center Pre-K Graduation Ceremony"),"Abrial老师和Penny老师在"+pagelink("2206graduation","NIST托儿所学前班毕业典礼")+"上给球球颁发毕业证书"])[cn_ind];
+    this[1][i++]  = (["Receiving a diploma from Ms Abrial and Ms Penny at the "+pagelink("2206graduation","NIST Child Care Center Pre-K graduation ceremony"),"Abrial老师和Penny老师在"+pagelink("2206graduation","NIST托儿所学前班毕业典礼")+"上给球球颁发毕业证书"])[cn_ind];
 
     adddate(this);
 }
