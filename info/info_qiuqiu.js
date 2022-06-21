@@ -278,7 +278,7 @@ function initAlbum(){
     this[1][i++]  = (["Receiving a diploma from Ms Abrial and Ms Penny at the "+pagelink("2206graduation","NIST Child Care Center Pre-K graduation ceremony"),"Abrial老师和Penny老师在"+pagelink("2206graduation","NIST托儿所学前班毕业典礼")+"上给球球颁发毕业证书"])[cn_ind];
     this[0][i]    = "20220620_WashingDish";
     this[1][i++]  = (["Helping Mommy and Daddy wash dishes","帮爸爸妈妈洗碗"])[cn_ind];
-    this[0][i]    = "20220620_BackyardPlay";
+    this[0][i]    = ["20220620_BackyardPlay","20220620_BackyardPlay1"];
     this[1][i++]  = (["Playing in the backyard","在院子里玩火车"])[cn_ind];
 
     adddate(this);
