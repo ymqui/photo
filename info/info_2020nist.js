@@ -515,6 +515,8 @@ function initAlbum(){
     this[1][i++]  = (["Making paper plate snake","制作纸盘蛇"])[cn_ind];
     this[0][i]    = "20220527_1";
     this[1][i++]  = (["Spanish class with Ms Luz","Luz老师的西班牙语课"])[cn_ind];
+    this[0][i]    = ["20220622_1","20220622_2"];
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     adddate(this);
 }
