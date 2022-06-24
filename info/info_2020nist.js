@@ -480,7 +480,7 @@ function initAlbum(){
     this[0][i]    = "20220624_5";
     this[1][i++]  = (["Playing with Raina","跟Raina一起玩"])[cn_ind];
     this[0][i]    = "20220624_6";
-    this[1][i++]  = (["Playing with Issac and Adar","跟Issac和Adar一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with Issac and Adar","在塞内卡溪州立公园郊游时跟Issac和Adar一起玩"])[cn_ind];
 
     adddate(this);
 }
