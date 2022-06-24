@@ -469,6 +469,18 @@ function initAlbum(){
     this[1][i++]  = (["Spanish class with Ms Luz","Luz老师的西班牙语课"])[cn_ind];
     this[0][i]    = ["20220622_1","20220622_2"];
     this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[0][i]    = "20220624_1";
+    this[1][i++]  = (["Field trip to the Seneca Creek State Park","去塞内卡溪州立公园郊游"])[cn_ind];
+    this[0][i]    = "20220624_2";
+    this[1][i++]  = (["Playing with Kiran and Raina","跟Kiran和Raina一起玩"])[cn_ind];
+    this[0][i]    = "20220624_3";
+    this[1][i++]  = (["Water break with Issac and Adar","跟Issac和Adar一起喝水"])[cn_ind];
+    this[0][i]    = "20220624_4";
+    this[1][i++]  = (["Playing with Adar","跟Adar一起玩"])[cn_ind];
+    this[0][i]    = "20220624_5";
+    this[1][i++]  = (["Playing with Raina","跟Raina一起玩"])[cn_ind];
+    this[0][i]    = "20220624_6";
+    this[1][i++]  = (["Playing with Issac and Adar","跟Issac和Adar一起玩"])[cn_ind];
 
     adddate(this);
 }
