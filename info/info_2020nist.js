@@ -474,13 +474,13 @@ function initAlbum(){
     this[0][i]    = "20220624_2";
     this[1][i++]  = (["Playing with Kiran and Raina","跟Kiran和Raina一起玩"])[cn_ind];
     this[0][i]    = "20220624_3";
-    this[1][i++]  = (["Water break with Issac and Adar","跟Issac和Adar一起喝水"])[cn_ind];
+    this[1][i++]  = (["Water break with Issac and Atharv","跟Issac和Atharv一起喝水"])[cn_ind];
     this[0][i]    = "20220624_4";
-    this[1][i++]  = (["Playing with Adar","跟Adar一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with Atharv","跟Atharv一起玩"])[cn_ind];
     this[0][i]    = "20220624_5";
     this[1][i++]  = (["Playing with Raina","跟Raina一起玩"])[cn_ind];
     this[0][i]    = "20220624_6";
-    this[1][i++]  = (["Playing with Issac and Adar","在塞内卡溪州立公园郊游时跟Issac和Adar一起玩"])[cn_ind];
+    this[1][i++]  = (["Playing with Issac and Atharv","在塞内卡溪州立公园郊游时跟Issac和Atharv一起玩"])[cn_ind];
 
     adddate(this);
 }
