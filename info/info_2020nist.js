@@ -482,11 +482,17 @@ function initAlbum(){
     this[0][i]    = "20220624_6";
     this[1][i++]  = (["Playing with Issac and Atharv","在塞内卡溪州立公园郊游时跟Issac和Atharv一起玩"])[cn_ind];
     this[0][i]    = "20220628_1";
-    this[1][i++]  = (["Playing with Raina on water day","跟Raina一起玩水"])[cn_ind];
+    this[1][i++]  = (["Playing with Kiran on water day","跟Kiran一起玩水"])[cn_ind];
     this[0][i]    = "20220628_2";
-    this[1][i++]  = (["Playing with Kiran, Remy, and Annelise on water day","跟Kiran，Remy和Annelise一起玩水"])[cn_ind];
+    this[1][i++]  = (["Playing with Kiran, Remi, and Annelise on water day","跟Kiran，Remi和Annelise一起玩水"])[cn_ind];
     this[0][i]    = "20220628_3";
     this[1][i++]  = (["Playing with Bella on water day","跟Bella一起玩水"])[cn_ind];
+    this[0][i]    = "20220701_1";
+    this[1][i++]  = (["Nathan and his masterpiece","球球画的火车"])[cn_ind];
+    this[0][i]    = "20220701_2";
+    this[1][i++]  = (["Painting on a T-shirt","在 T 恤上画画"])[cn_ind];
+    this[0][i]    = "20220701_3";
+    this[1][i++]  = (["Playing ball with Issac","和Issac一起打球"])[cn_ind];
 
     adddate(this);
 }
