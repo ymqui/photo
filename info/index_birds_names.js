@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-06-12T08:00");
+  var modDat = new Date("2022-07-02T08:00");
   var modran = modDat.getDate()+3; //range within modDat in days
 
   //location urls
@@ -578,7 +578,7 @@
   birds[j++] = new myBird("15-07-12T10:38","TYRANNID","Western Kingbird","西王霸鹟","Tyrannus verticalis",[p_id("1507birdingwest",46)],["cabake","7/2015",gmap("Beale Park",35.36253,-119.02511),"","","比尔公园"]);
   birds[j++] = new myBird("20-05-12T09:40","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("20200512_006_Scissor-tailedFlycatcher")],["mdmdmd","5/2020",gmap("Severn-Danza Park",39.13755,-76.67865)+", Anne Arundel County","","","安妮阿伦德尔郡塞文丹扎公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","TYRANNID","Fork-tailed Flycatcher","叉尾王霸鹟","Tyrannus savana",[m_id("")],["mdocin","3/2017"],"fotfly");
-  birds[j++] = new myBird("06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",[p_id("1512bhill",28)],["mdbhrp","6/2015"]);
+  birds[j++] = new myBird("06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",[m_id("20220702_076_EasternKingbird")],["debnwr",ebird("7/2022","S114255213")]);
   birds[j++] = new myBird("15-01-05T14:08","TYRANNID","Gray Kingbird","灰王霸鹟","Tyrannus dominicensis",[p_id("1501prbirding",43)],["prsanj","1/2015"],"grykin");
   birds[j++] = new myBird("15-01-02T07:13","TYRANNID","Loggerhead Kingbird","圆头王霸鹟","Tyrannus caudifasciatus",[p_id("1501prbirding",4)],["arb","1/2015",gmap("Mayagüez",18.23614,-67.16159)+", Puerto Rico, USA","美国波多黎各马亚圭斯市"],"logkin");
   birds[j++] = new myBird("15-07-12T09:58","TYRANNID","Ash-throated Flycatcher","灰喉蝇霸鹟","Myiarchus cinerascens",[p_id("1507birdingwest",43)],["cabake","7/2015",gmap("Yokuts Park",35.37584,-119.04749),"","","约库特公园"]);
@@ -965,7 +965,7 @@
   birds[j++] = new myBird("05-12-24T16:03","CARDINAL","Northern Cardinal","主红雀","Cardinalis cardinalis",[p_id("1604asheville",16),m_id("20170108_006_NorthernCardinal")],["nccrsp","4/2016","Male","mdmdmd","1/2017","Female, "+gmap("Mariner Point Park",39.39637,-76.34914)+", Harford County","","","哈福德郡水手角公园"]);
   birds[j++] = new myBird("13-12-25T18:10","CARDINAL","Pyrrhuloxia","灰额主红雀","Cardinalis sinuatus",p_id("1312bigbendbirding",[16,17]),["txbbnp","12/2013","Male","txbbnp","12/2013","Female"]);
   birds[j++] = new myBird("17-05-24T07:33","CARDINAL","Dickcissel","美洲雀","Spiza americana",m_id(["20170524_065_Dickcissel","20170524_064_Dickcissel"]),["mdmdmd","5/2017","Male"+(t1=", "+gmap("Underwood Road",39.33038,-76.97791)+", Howard County"),"","","霍华德郡安德伍德路","mdmdmd","5/2017","Female"+t1,"","","霍华德郡安德伍德路"]);
-  birds[j++] = new myBird("14-08-10T11:40","CARDINAL","Blue Grosbeak","斑翅蓝彩鹀","Passerina caerulea",[p_id("1505bombayhook",13)],["debnwr","5/2015","Male"]);
+  birds[j++] = new myBird("14-08-10T11:40","CARDINAL","Blue Grosbeak","斑翅蓝彩鹀","Passerina caerulea",[m_id("20220702_077_BlueGrosbeak")],["debnwr",ebird("7/2022","S114255213"),"Male"]);
   birds[j++] = new myBird("06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14),m_id("20170709_083_IndigoBunting")],["debnwr","5/2015","Male","mdlbrp","7/2017","Female"]);
 //birds[j++] = new myBird("22-00-00T00:00","CARDINAL","Lazuli Bunting","白腹蓝彩鹀","Passerina amoena",[p_id("",87)],["crarol","12/2018","Male"]);
   birds[j++] = new myBird("16-06-08T16:12","CARDINAL","Painted Bunting","丽彩鹀","Passerina ciris",p_id("1606florida",[1,2]),["schbsp","6/2016","Male","schbsp","6/2016","Female"]);
