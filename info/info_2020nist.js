@@ -493,6 +493,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting on a T-shirt","在 T 恤上画画"])[cn_ind];
     this[0][i]    = "20220701_3";
     this[1][i++]  = (["Playing ball with Issac","和Issac一起打球"])[cn_ind];
+    this[0][i]    = ["20220708_1","20220708_2","20220708_3"];
+    this[1][i++]  = (["Field trip to the Castle Park in Germantown","去德国镇的城堡公园郊游"])[cn_ind];
 
     adddate(this);
 }
