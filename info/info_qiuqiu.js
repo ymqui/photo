@@ -280,6 +280,8 @@ function initAlbum(){
     this[1][i++]  = (["Helping Mommy and Daddy wash dishes","帮爸爸妈妈洗碗"])[cn_ind];
     this[0][i]    = ["20220620_BackyardPlay","20220620_BackyardPlay1"];
     this[1][i++]  = (["Playing in the backyard","在院子里玩火车"])[cn_ind];
+    this[0][i]    = "20220709_Bowling";
+    this[1][i++]  = (["Bowling with James and Adele","小何叔叔带着去打保龄球"])[cn_ind];
 
     adddate(this);
 }
