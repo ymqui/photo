@@ -768,7 +768,8 @@
   birds[j++] = new myBird("15-07-09T12:26","TROGLODY","Pacific Wren","太平洋鹪鹩","Troglodytes pacificus",[p_id("1507birdingwest",20)],["waneah","7/2015",gmap("Cape Flattery",48.38913,-124.71672),"","","夫拉特角"],"冬鹪鹩阿拉斯加亚种");
   birds[j++] = new myBird("15-04-18T09:12","TROGLODY","House Wren","莺鹪鹩","Troglodytes aedon",[m_id("20150418_055_HouseWren"),m_id("20150719_083_HouseWren"),p_id("1812crbirding",18)],["mdbmnt","4/2015","mdbmnt","7/2015","crarol","12/2018"]);
   birds[j++] = new myBird("06-04-30T09:54","POLIOPTI","Blue-gray Gnatcatcher","灰蓝蚋莺","Polioptila caerulea",[m_id("20150425_060_Blue-grayGnatcatcher"),p_id("1512bhill",31),m_id("20200523_024_Blue-grayGnatcatcher")],["mdbmnt","4/2015","Male","mdbhrp","8/2015","Female","mdcocn","5/2020","Nest",""," at Riley's Lock","莱利闸"]);
-//birds[j++] = new myBird("22-00-00T00:00","POLIOPTI","Black-tailed Gnatcatcher","黑尾蚋莺","Polioptila melanura",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("22-00-00T00:00","POLIOPTI","Black-tailed Gnatcatcher","黑尾蚋莺","Polioptila melanura",[p_id("2208arizona",0)],["azazaz",ebird("8/2022","")]);
+//birds[j++] = new myBird("22-00-00T00:00","POLIOPTI","Black-capped Gnatcatcher","黑顶蚋莺","Polioptila nigriceps",[p_id("2208arizona",0)],["azazaz",ebird("8/2022","")],"bkcgna");
   birds[j++] = new myBird("06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸䴓","Sitta carolinensis",[m_id("20161111_119_White-breastedNuthatch"),m_id("20160130_004_White-breastedNuthatch"),p_id("1507birdingwest",44)],["mdbhrp","11/2016","Male","mdbhrp","1/2016","Female","cabake","7/2015",gmap("Beale Park",35.36253,-119.02511),"","","比尔公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","SITTIDAE","Pygmy Nuthatch","小䴓","Sitta pygmaea",[m_id("")],["mdbhrp","9/2015"]);
   birds[j++] = new myBird("15-11-26T11:20","SITTIDAE","Brown-headed Nuthatch","棕头䴓","Sitta pusilla",p_id("1604asheville",[6,7]),["ncllmp","4/2016","ncllmp","4/2016","Immature"],"棕头鳾");
@@ -783,6 +784,7 @@
   birds[j++] = new myBird("20-01-25T08:16","MIMIDAE ","Long-billed Thrasher","长弯嘴嘲鸫","Toxostoma longirostre",[p_id("2001txbirding",36)],["txsnwr","1/2020"]);
 //birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","Bendire's Thrasher","本氏弯嘴嘲鸫","Toxostoma bendirei",[p_id("2208arizona")],["azazaz",ebird("8/2022","")]);
   birds[j++] = new myBird("19-05-12T09:21","MIMIDAE ","Curve-billed Thrasher","弯嘴嘲鸫","Toxostoma curvirostre",p_id("1905mxbird",[5,33]),["mxunam","5/2019","mxmcal","5/2019","Adult and juvenile"]);
+//birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","Crissal Thrasher","栗臀弯嘴嘲鸫","Toxostoma crissale",[p_id("2208arizona")],["azazaz",ebird("8/2022","")]);
 //birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","LeConte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[p_id("2208arizona")],["azazaz",ebird("8/2022","")]);
   birds[j++] = new myBird("15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",[p_id("1501prbirding",49)],["prsanj","1/2015"],"peethr1");
 //birds[j++] = new myBird("22-00-00T00:00","STURNIDA","Crested Myna","八哥","Acridotheres cristatellus",[p_id("1601china",)],["cnsbg","1/2016","Male"],"cremyn");
