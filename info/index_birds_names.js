@@ -973,7 +973,7 @@
   birds[j++] = new myBird("19-08-30T09:11","PARULIDA","Yellow-throated Warbler","黄喉林莺","Setophaga dominica",m_id(["20220109_006_YtW","20220109_007_YtW"]),["dcdcdc",ebird("1/2022","S100890399"),gmap("East Potomac Park",38.86413,-77.02236),"","","东波托马克公园"]);
   birds[j++] = new myBird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler","20190830_011_PrairieWarbler","20170709_081_PrairieWarbler"]),["mdlbrp","7/2017","Male","flflfl","8/2019","Female, "+gmap("Magnolia Park",28.63385,-81.55065)+", Orange County","","","奥兰治郡阿波普卡湖玉兰公园","mdlbrp","7/2017","Immature"]);
   birds[j++] = new myBird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",[p_id("1501prbirding",18)],["prcnwr","1/2015"],"adewar1");
-//birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[p_id("2208azbird",87)],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("")],["mdhadg","12/2016"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[m_id("")],["mdbhrp","9/2015"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[m_id("")],["mdbhrp","9/2015"]);
