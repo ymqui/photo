@@ -54,29 +54,27 @@ var width   = [24,18];
 var offset  = [2,4];
 if (cellphone){
    width  = [28,20];
-   offset = [3,4];
+   offset = [3,5];
 }
-var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('New York'),erare('Arizona'),
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('Arizona'),
              '<a href="https://ebird.org/map" target="link1">'+mytext((['Species Map','鸟类分布地图'])[cn_ind])+'</a>',
              '<a href="https://ebird.org/hotspots" target="link2">'+mytext((['Hotspots Map','观鸟热点地图'])[cn_ind])+'</a>',
              '<a href="https://groups.google.com/g/mdbirding" target="link3">'+mytext((['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind])+'</a>',
              '<a href="https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/" target="link4">'+mytext((['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind])+'</a>',
              '<a href="https://www.facebook.com/groups/118655321826890/" target="link5">'+mytext((['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind])+'</a>',
-             '<a href="https://americanornithology.org/nacc/current-prior-proposals/" target="link6">'+mytext((['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind])+'</a>',
-             '<a href="https://www.aba.org/aba-checklist/" target="link7">'+mytext((['ABA Checklist','ABA鸟类清单'])[cn_ind])+'</a>',
-             '<a href="https://www.aba.org/aba-area-introduced-species/" target="link8">'+mytext((['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind])+'</a>',
-             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link9">'+mytext((['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind])+'</a>',
-             '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link10">'+mytext((['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind])+'</a>',
-             '<a href="https://tropicalaudubon.org/birds-of-south-florida" target="link11">'+mytext((['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind])+'</a>',
-             '<a href="https://www.arizonabirder.com/specialty-birds-in-se-arizona/" target="link12">'+mytext((['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind])+'</a>',
-             '<a href="https://tucsonaudubon.org/news-events/southeast-arizona-birding-festival/southeast-arizona-birds/" target="link13">'+mytext((['Southeast Arizona Specialty Birds','美国亚利桑那州东南地区特有鸟类'])[cn_ind])+'</a>'
+             '<a href="https://www.aba.org/aba-checklist/" target="link6">'+mytext((['ABA Checklist','ABA鸟类清单'])[cn_ind])+'</a>',
+             '<a href="https://www.aba.org/aba-area-introduced-species/" target="link7">'+mytext((['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind])+'</a>',
+             '<a href="https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae" target="link8">'+mytext((['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind])+'</a>',
+             '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link9">'+mytext((['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind])+'</a>',
+             '<a href="https://tropicalaudubon.org/birds-of-south-florida" target="link10">'+mytext((['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind])+'</a>',
+             '<a href="https://www.arizonabirder.com/specialty-birds-in-se-arizona/" target="link11">'+mytext((['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind])+'</a>',
+             '<a href="https://tucsonaudubon.org/news-events/southeast-arizona-birding-festival/southeast-arizona-birds/" target="link12">'+mytext((['Southeast Arizona Specialty Birds','美国亚利桑那州东南地区特有鸟类'])[cn_ind])+'</a>'
 
             ];
 var icons = ['https://ymqui.github.io/photo/thumbnail2/icon_ebird.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_groups.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_facebook.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_facebook.png',
-	     'https://ymqui.github.io/photo/thumbnail2/icon_aos.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_aba.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_aba.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_cornell.png',
@@ -310,8 +308,7 @@ document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind
 document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+tot_bird+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-var ebird = '<span style="color: #2AA64D">e</span><span style="Color: #000000">bird</span>'; 
-document.write('<td align="left">'+mytext((['Total '+ebird+' Checklists',ebird+'观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
+document.write('<td align="left">'+mytext((['Total eBird Checklists','eBird观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
@@ -415,16 +412,9 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     document.write('</tr>');
 }
 document.write('</table>');
- var emsp = '&nbsp;';
-if (cellphone) { 
-   emsp = '&emsp;';
-}else{
-   document.write('<center>');
-}
+if (!cellphone) document.write('<center>');
 document.write('<br><p style="font-family:Times New Roman;">');
 document.write('<SCRIPT TYPE="text/javascript" LANGUAGE="javascript" SRC="https://ymqui.github.io/photo/script/date.js"></SCRIPT>');
-document.write(emsp+'<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
-document.write('<IMG SRC="https://ymqui.github.io/photo/thumbnail/insignia.png" align="bottom" border="0" margin="0" style=margin-bottom:-2px"></a>');   
 //-->
 </script>
 </body>
