@@ -497,6 +497,8 @@ function initAlbum(){
     this[1][i++]  = (["Field trip to the Castle Park in Germantown","去德国镇的城堡公园郊游"])[cn_ind];
     this[0][i]    = ["20220711_1","20220711_2","20220711_3"];
     this[1][i++]  = (["Water play","玩水"])[cn_ind];
+    this[0][i]    = "20220712_1";
+    this[1][i++]  = (["Playing in Bohrer Park","在Bohrer公园玩"])[cn_ind];
 
     adddate(this);
 }
