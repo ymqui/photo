@@ -8,6 +8,7 @@
       akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl("卡特迈国家公园")],
       aucass:  ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
       azazaz:  ["Arizona","USA","亚利桑那州","美国"],
+      azmcct:  [gmap("Madera Canyon Carrie National Trail",31.7128,-110.8737),"Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡"],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake:  ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cactnw:  ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
@@ -188,6 +189,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","HEMIPROC","Crested Treeswift","凤头雨燕","Hemiprocne coronata",[m_id("")],["mdbhrp","9/2015"],"cretre1");
   birds[j++] = new myBird("15-07-19T08:02","APODIDAE","Chimney Swift","烟囱雨燕","Chaetura pelagica",[m_id("20160618_077_ChimneySwift")],["dedede","6/2016",gmap("Lewes",38.77569,-75.14053),"","","刘易斯市"]);
 //birds[j++] = new myBird("22-00-00T00:00","APODIDAE","Vaux's Swift","沃氏雨燕","Chaetura vauxi",[m_id("")],["arb","6/2016"]);
+//birds[j++] = new myBird("22-00-00T00:00","APODIDAE","White-throated Swift","白喉雨燕","Aeronautes saxatalis",[p_id("2208azbird")],["azmcct",ebird("8/2022","")]);
   birds[j++] = new myBird("18-12-05T08:00","TROCHILI","Stripe-throated Hermit","纹喉隐蜂鸟","Phaethornis striigularis",[p_id("1812crbirding",54)],["crarol","12/2018"],"stther2");
   birds[j++] = new myBird("15-01-03T10:48","TROCHILI","Antillean Mango","黑胸芒果蜂鸟","Anthracothorax dominicus",[p_id("1501prbirding",17)],["prcnwr","1/2015","Female"],"antman1");
   birds[j++] = new myBird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],"grtcar1");
@@ -468,7 +470,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",[m_id("")],["mdbhrp","9/2015"],"spemou2");
 //birds[j++] = new myBird("22-00-00T00:00","LEPTOSOM","Cuckoo-roller","鹃鴗","Leptosomus discolor",[m_id("")],["mdbhrp","9/2015"],"cuckoo1");
   birds[j++] = new myBird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[p_id("1812crbirding",79)],["crarol","12/2018","Male"],"gartro1","");
-//birds[j++] = new myBird("22-00-00T00:00","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",[m_id("")],["mdbhrp","9/2015"]);
+//birds[j++] = new myBird("22-00-00T00:00","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",[p_id("2208azbird")],["azmcct",ebird("8/2022","")]);
   birds[j++] = new myBird("18-12-07T09:28","TROGONID","Collared Trogon","橙腹美洲咬鹃","Trogon collaris",[p_id("1812crbirding",91)],["crarol","12/2018","Male"],"coltro1");
 //birds[j++] = new myBird("22-00-00T00:00","UPUPIDAE","Eurasian Hoopoe","戴胜","Upupa epops",[m_id("")],["mdbhrp","9/2015"],"hoopoe");
 //birds[j++] = new myBird("22-00-00T00:00","PHOENICU","Abyssinian Scimitarbill","小弯嘴林戴胜","Rhinopomastus minor",[m_id("")],["mdbhrp","9/2015"],"absbil1");
