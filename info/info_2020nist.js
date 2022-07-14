@@ -499,6 +499,8 @@ function initAlbum(){
     this[1][i++]  = (["Water play","玩水"])[cn_ind];
     this[0][i]    = "20220712_1";
     this[1][i++]  = (["Playing in Bohrer Park","在Bohrer公园玩"])[cn_ind];
+    this[0][i]    = "20220714_1";
+    this[1][i++]  = (["Playing in the moon bounce","玩跳跳床"])[cn_ind];
 
     adddate(this);
 }
