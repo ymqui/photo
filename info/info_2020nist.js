@@ -503,6 +503,10 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the moon bounce","玩跳跳床"])[cn_ind];
     this[0][i]    = "20220715_1";
     this[1][i++]  = (["Having fun at the splash park","在水公园玩"])[cn_ind];
+    this[0][i]    = "20220716_1";
+    this[1][i++]  = (["Remi's birthday party at Wheaton Regional Park","同学Remi在惠顿公园的生日派对"])[cn_ind];
+    this[0][i]    = "20220716_2";
+    this[1][i++]  = (["Riding the minitrain with Raina on Remi's birthday party","在Remi的生日派对上和Raina一起坐小火车"])[cn_ind];
 
     adddate(this);
 }
