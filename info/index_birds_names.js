@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-07-16T08:00");
+  var modDat = new Date("2022-07-24T08:00");
   var modran = modDat.getDate()+3; //range within modDat in days
 
   //location urls
@@ -443,7 +443,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","ACCIPITR","Hen Harrier","白尾鹞","Circus cyaneus",[p_id("1612savannah",4),m_id("20161204_132_NHarrier")],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"]);
   birds[j++] = new myBird("13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus hudsonius",[m_id("20210313_028_NHarrier"),p_id("1612savannah",4),m_id("20161204_132_NHarrier")],["mdmdmd","3/2021","Male, "+gmap("Bucktown Road",38.46731,-76.0276)+", Cambridge","","","剑桥市巴克敦路","scsnwr","12/2016","Female","nyjbsp","12/2016","Juvenile"],"白尾鹞");
   birds[j++] = new myBird("05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",(m_id(["20170225_025_BaldEagle","20170108_005_BaldEagle","20210330_037_BaldEagle"])).concat(p_id("1609vtcanbirding",17)),["mdswhf","2/2017","mdmdmd","1/2017","Immature, "+gmap("Mariner Point Park",39.39637,-76.34914)+", Harford County","","","哈福德郡水手角公园","mdbnwr","3/2021","Nest","cactnw","9/2016","Immature"]);
-  birds[j++] = new myBird("15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[m_id("20210613_089_MississippiKite"),p_id("1509charleston",15),m_id("20210624_091_MississippiKite")],["mdmdmd","6/2021",gmap("Beall Elementary School",39.0882,-77.16267)+", Rockville","","","罗克维尔市比沃小学","arb","9/2015","Juvenile, "+gmap("Patriots Point",32.78888,-79.90322)+", Charleston, South Carolina, USA","未成年，美国南卡罗来纳州查尔斯顿爱国者海角","mdmdmd","6/2021","Nest, "+gmap("Beall Elementary School",39.0882,-77.16267)+", Rockville","","","罗克维尔市比沃小学"]);
+  birds[j++] = new myBird("15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[m_id("20220724_089_MississippiKite"),p_id("1509charleston",15),m_id("20210624_091_MississippiKite")],["mdmdmd","7/2022",gmap("Welsh Park",39.0909,-77.1606)+", Rockville","","","罗克维尔市威尔士公园","arb","9/2015","Juvenile, "+gmap("Patriots Point",32.78888,-79.90322)+", Charleston, South Carolina, USA","未成年，美国南卡罗来纳州查尔斯顿爱国者海角","mdmdmd","6/2021","Nest, "+gmap("Beall Elementary School",39.0882,-77.16267)+", Rockville","","","罗克维尔市比沃小学"]);
   birds[j++] = new myBird("11-12-27T17:06","ACCIPITR","Snail Kite","蜗鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4)],["flevnp","12/2011","Female"]);
 //birds[j++] = new myBird("22-00-00T00:00","ACCIPITR","Common Black Hawk","黑鸡鵟","Buteogallus anthracinus",[p_id("2208azbird",4)],["scsnwr","12/2016","Female","nyjbsp","12/2016","Immature"]);
   birds[j++] = new myBird("20-01-25T07:26","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",p_id("2001txbirding",[33,27]),["txsnwr","1/2020","txsnwr","1/2020","Juvenile"]);
