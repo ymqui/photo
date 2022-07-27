@@ -177,7 +177,7 @@
   birds[j++] = new myBird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","环颈雉","Phasianus colchicus",[m_id("20211121_131_Ring-neckedPheasant"),m_id("20211127_134_Ring-neckedPheasant"),p_id("1704longyan",12)],["mdmdmd","11/2021",(t1="Male, "+gmap("Park Heights Avenue",39.40761,-76.729)+", Baltimore County"),"","",(t2="巴尔的摩郡公园高地大街"),"mdmdmd","11/2021",t1,"","",t2,"cnlynv","4/2017","Female"]);
   birds[j++] = new myBird("22-05-02T10:11","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",p_id("2204flbird",[34,35]),["flflfl",ebird("5/2022","S108777458"),"Male, "+gmap("Crandon Park",25.706,-80.156)+", Miami-Dade County","","","迈阿密-戴德郡克兰登公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","PHASIANI","Chukar","石鸡","Alectoris chukar",[p_id("1412mckee-beshers",6)],["mdmwma","8/2014","A released bird","一只释放鸟"]);
-//birds[j++] = new myBird("22-00-00T00:00","CAPRIMUL","Lesser Nighthawk","小灰眉夜鹰","Chordeiles acutipennis",[m_id("")],["nvdnwr","7/2015"]);
+//birds[j++] = new myBird("22-00-00T00:00","CAPRIMUL","Lesser Nighthawk","小灰眉夜鹰","Chordeiles acutipennis",[p_id("2208azbird")],["nvdnwr","7/2015"]);
   birds[j++] = new myBird("16-06-14T08:11","CAPRIMUL","Common Nighthawk","美洲夜鹰","Chordeiles minor",[p_id("1606florida",27)],["scbwma","6/2016"]);
   birds[j++] = new myBird("22-05-01T11:20","CAPRIMUL","Antillean Nighthawk","安岛夜鹰","Chordeiles gundlachii",[p_id("2204flbird",29)],["flflfl",ebird("5/2022","S108664920"),gmap("Grassy Key",24.758,-80.960),"","","草岛"],"antnig");
 //birds[j++] = new myBird("22-00-00T00:00","CAPRIMUL","Chuck-will's-widow","卡氏夜鹰","Antrostomus carolinensis",[m_id("")],["scpitt","9/2015"]);
