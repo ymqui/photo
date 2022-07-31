@@ -52,8 +52,8 @@ function mouseclick(evt){
 }
 
 //A 10-minute PRNG
-function myrandom(){
-   seed = Math.sin(Math.floor(Date.now()/600000));
+function myrandom(factor){
+   seed = Math.sin(Math.floor(factor*Date.now()/600000));
    return seed-Math.floor(seed);
 }
 
@@ -161,7 +161,14 @@ for(var i=0;i<vars.length;i++) {
 if (lifer) order = false;
 
 if ((bname=='')&&(modBrd.name.length>0)){
-   bname = reform(modBrd.name[Math.floor(myrandom()*(modBrd.name.length))]);
+   var tmpi1 = Math.floor(myrandom(1)*(modBrd.name.length));
+   if (!modBrd.newbird[tmpi1]){
+      var tmpi2 = Math.floor(myrandom(4)*(modBrd.name.length));
+      if (modBrd.newbird[tmpi2]) {
+         tmpi1 = tmpi2;
+      }
+   }
+   bname = reform(modBrd.name[tmpi1]);
 }
 
 if (cellphone){
