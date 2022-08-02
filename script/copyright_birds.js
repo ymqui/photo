@@ -77,8 +77,7 @@
   document.write(emsp+'<a href="'+staturl+'" style="text-decoration:none" target="_blank">'); 
   document.write('<IMG SRC="'+maindir+'thumbnail/stat.png"'+borderstr(tmpem2)+' align="bottom" border="0" style="margin:2px 0px -2px 0px"></a>');   
   document.write(emsp+'<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">'); 
-  document.write('<IMG SRC="'+maindir+'thumbnail/insignia.png"'+borderstr(tmpem1)+' align="bottom" border="0" style="margin:2px 0px -4px 0px"></a>');   
-
+  document.write('<IMG SRC="'+maindir+'thumbnail/insignia.png"'+borderstr(tmpem1)+' align="bottom" border="0" style="width:16px;height:auto;margin:2px 0px -4px 0px"></a>'); 
   //webcounter
   var sc_project=1818758; 
   var sc_invisible=1; 
