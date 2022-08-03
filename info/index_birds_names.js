@@ -261,7 +261,7 @@
   birds[j++] = new myBird("06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",m_id(sas("20150321_",["039","040"],"_HornedGrebe")),["mdftmh","3/2015","Winter plumage","mdftmh","3/2015","Spring molt","春羽"]);
   birds[j++] = new myBird("16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",[m_id("20161226_141_EaredGrebe")],["mdcocn","12/2016","Winter plumage",""," at Riley's Lock","莱利闸"]);
   birds[j++] = new myBird("15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[p_id("1507birdingwest",9),m_id("20201204_131_WesternGrebe")],["arb","7/2015",gmap("Hayden Island",45.61298,-122.6743)+", Portland, Oregon, USA","美国俄勒冈州波特兰海登岛","mdloch","12/2020"]);
-//birds[j++] = new myBird("22-00-00T00:00","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[p_id("2208azbird",0)],["azazaz",ebird("8/2022",""),gmap("Kennedy Park",32.1806,-111.0074)+", Pima County","","","皮马郡肯尼迪公园"]);
+//birds[j++] = new myBird("22-00-00T00:00","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",[p_id("2208azbird",0)],["azazaz",ebird("8/2022",""),gmap("Kennedy Park",32.1806,-111.0074)+", Tucson","","","图森市肯尼迪公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",[p_id("2204flbird",)],["flflfl",ebird("4/2005",""),npsurl("st-marks",true,"St. Marks National Wildlife Refuge"),"","",npsurl("st-marks",true,"圣马克斯国家野生动物保护区")],"grefla2");
 //birds[j++] = new myBird("22-00-00T00:00","TURNICID","Common Buttonquail","林三趾鹑","Turnix sylvaticus",[m_id("")],["mdbhrp","9/2015"],"smabut2");
 //birds[j++] = new myBird("22-00-00T00:00","BURHINID","Eurasian Stone-curlew","欧石鸻","Burhinus oedicnemus",[m_id("")],["mdbhrp","9/2015"],"eutkne1");
@@ -548,7 +548,7 @@
 //birds[j++] = new myBird("16-06-12T07:14","PSITTACI","Red-masked Parakeet","红头鹦鹉","Psittacara erythrogenys",p_id("1606florida",[22,21]),["flflfl","6/2016",gmap("Lincoln Road Mall",25.79048,-80.13668)+", Miami","","","迈阿密林肯路购物中心"],"rempar");
   birds[j++] = new myBird("18-12-02T06:03","PSITTACI","Crimson-fronted Parakeet","绯额鹦哥","Psittacara finschi",[p_id("1812crbirding",1)],["crsanj","12/2018",gmap("Plaza Juan Mora Fernandez",9.9332,-84.07771),"","","胡安莫拉费尔南德斯广场"],"crfpar");
   birds[j++] = new myBird("15-07-12T11:15","PSITTACU","Rose-ringed Parakeet","红领绿鹦鹉","Psittacula krameri",p_id("1507birdingwest",[50,48]),["cabake","7/2015","Male, "+gmap("Beale Park",35.36253,-119.02511),"","","比尔公园","cabake","7/2015","Female, "+gmap("Beale Park",35.36253,-119.02511),"","","比尔公园"],"rorpar");
-//birds[j++] = new myBird("22-00-00T00:00","PSITTACU","Rosy-faced Lovebird","桃脸牡丹鹦鹉","Agapornis roseicollis",p_id("2208azbird",[50,48]),["azazaz",ebird("8/2022",""),gmap("Chaparral Park",33.511,-111.9066)+", Phoneix","","","凤凰城丛林公园"],"peflov");
+//birds[j++] = new myBird("22-00-00T00:00","PSITTACU","Rosy-faced Lovebird","桃脸牡丹鹦鹉","Agapornis roseicollis",p_id("2208azbird",[50,48]),["azazaz",ebird("8/2022",""),gmap("Chaparral Park",33.511,-111.9066)+", Phoenix","","","凤凰城丛林公园"],"peflov");
 //birds[j++] = new myBird("22-00-00T00:00","ACANTHIS","Rifleman","刺鹩","Acanthisitta chloris",[m_id("")],["mdbhrp","9/2015"],"riflem1");
 //birds[j++] = new myBird("22-00-00T00:00","SAPAYOID","Sapayoa","阔嘴霸鹟","Sapayoa aenigma",[m_id("")],["mdbhrp","9/2015"],"sapayo1");
 //birds[j++] = new myBird("22-00-00T00:00","PHILEPIT","Velvet Asity","紫黑裸眉鸫","Philepitta castanea",[m_id("")],["mdbhrp","9/2015"],"velasi1");
@@ -593,7 +593,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","TYRANNID","Sulphur-bellied Flycatcher","黄腹大嘴霸鹟","Myiodynastes luteiventris",[p_id("2208azbird",0)],["azazaz",ebird("8/2022","")],"subfly");
   birds[j++] = new myBird("18-12-02T08:57","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[p_id("1812crbirding",10),m_id("20211106_127_TropicalKingbird"),m_id("20211106_128_TropicalKingbird")],["crsanj","12/2018",gmap("La Sabana Park",9.93542,-84.10246),"","","萨瓦纳公园","mdbnwr","11/2021"]);
   birds[j++] = new myBird("19-05-14T08:27","TYRANNID","Cassin's Kingbird","卡氏王霸鹟","Tyrannus vociferans",p_id("1905mxbird",[26,30]),["mxguan","5/2019","arb","5/2019",gmap("Guanajuato City Bus Station",20.98338,-101.28695)+", Mexico","墨西哥瓜纳华托城汽车站"]);
-//birds[j++] = new myBird("22-00-00T00:00","TYRANNID","Thick-billed Kingbird","厚嘴王霸鹟","Tyrannus crassirostris",[p_id("2208azbird",0)],["azazaz",ebird("8/2022","")],"thbkin");
+//birds[j++] = new myBird("22-00-00T00:00","TYRANNID","Thick-billed Kingbird","厚嘴王霸鹟","Tyrannus crassirostris",[p_id("2208azbird",0)],["azazaz",ebird("8/2022",""),gmap("South Cathedral Rock Road",31.9113,-1109.1469)+", Portal","","","门户村南大教堂岩路"],"thbkin");
   birds[j++] = new myBird("15-07-12T10:38","TYRANNID","Western Kingbird","西王霸鹟","Tyrannus verticalis",[p_id("1507birdingwest",46)],["cabake","7/2015",gmap("Beale Park",35.36253,-119.02511),"","","比尔公园"]);
   birds[j++] = new myBird("20-05-12T09:40","TYRANNID","Scissor-tailed Flycatcher","剪尾王霸鹟","Tyrannus forficatus",[m_id("20200512_006_Scissor-tailedFlycatcher")],["mdmdmd","5/2020",gmap("Severn-Danza Park",39.13755,-76.67865)+", Anne Arundel County","","","安妮阿伦德尔郡塞文丹扎公园"]);
 //birds[j++] = new myBird("22-00-00T00:00","TYRANNID","Fork-tailed Flycatcher","叉尾王霸鹟","Tyrannus savana",[m_id("")],["mdocin","3/2017"],"fotfly");
@@ -792,7 +792,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","Bendire's Thrasher","本氏弯嘴嘲鸫","Toxostoma bendirei",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
   birds[j++] = new myBird("19-05-12T09:21","MIMIDAE ","Curve-billed Thrasher","弯嘴嘲鸫","Toxostoma curvirostre",p_id("1905mxbird",[5,33]),["mxunam","5/2019","mxmcal","5/2019","Adult and juvenile"]);
 //birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","Crissal Thrasher","栗臀弯嘴嘲鸫","Toxostoma crissale",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
-//birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","LeConte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[p_id("2208azbird")],["azazaz",ebird("8/2022",""),gmap("",33.3773,-112.7758)]);
+//birds[j++] = new myBird("22-00-00T00:00","MIMIDAE ","LeConte's Thrasher","勒氏弯嘴嘲鸫","Toxostoma lecontei",[p_id("2208azbird")],["azazaz",ebird("8/2022",""),gmap("Baseline Road",33.3773,-112.7758)+", Maricopa County","","","马里科帕郡基线路"]);
   birds[j++] = new myBird("15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",[p_id("1501prbirding",49)],["prsanj","1/2015"],"peethr1");
 //birds[j++] = new myBird("22-00-00T00:00","STURNIDA","Crested Myna","八哥","Acridotheres cristatellus",[p_id("1601china",)],["cnsbg","1/2016","Male"],"cremyn");
 //birds[j++] = new myBird("22-00-00T00:00","STURNIDA","Common Myna","家八哥","Acridotheres tristis",[p_id("2204flbird",)],["flflfl","5/2022",gmap("Brewer Park",25.718,-80.2962)+", Miami-Dade County","","","迈阿密-戴德郡布鲁尔公园"],"commyn");
