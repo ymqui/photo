@@ -8,7 +8,7 @@
       akknpp:  ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl("卡特迈国家公园")],
       aucass:  ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
       azazaz:  ["Arizona","USA","亚利桑那州","美国"],
-      azmcct:  [gmap("Madera Canyon Carrie National Trail",31.7128,-110.8737),"Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡"],
+      azmcct:  [gmap("Madera Canyon Carrie Nation Trail",31.7128,-110.8737),"Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡"],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake:  ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cactnw:  ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
