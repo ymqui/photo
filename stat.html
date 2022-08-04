@@ -54,11 +54,11 @@ var modYear = modDat.getYear();
 modYear = (modYear<2000)?modYear+1900:modYear;
 var tmpdat = "";
 if(window.usechinese){
-   tmpdat = '最后更新: '+modYear+'年'+(modDat.getMonth()+1).toString()+'月'+modDat.getUTCDate()+"日"; 
+   tmpdat = modYear+'年'+(modDat.getMonth()+1).toString()+'月'+modDat.getUTCDate()+"日"; 
 }else{
    var monthName = new Array("January","February","March","April","May",
    "June","July","August","September","October","November","December");
-   tmpdat = 'Last modified: '+monthName[modDat.getMonth()]+" "+modDat.getUTCDate()+", "+modYear;
+   tmpdat = monthName[modDat.getMonth()]+" "+modDat.getUTCDate()+", "+modYear;
 }
 
 var width   = [24,18];
@@ -326,8 +326,8 @@ var ebird = '<span style="color: #2AA64D">e</span><span style="Color: #000000">b
 document.write('<td align="left">'+mytext((['Total '+ebird+' Checklists',ebird+'观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">');
-document.write(mytext(tmpdat,fcol1)+'</td><td align="right"><a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">');
-document.write('<IMG SRC="https://ymqui.github.io/photo/thumbnail/LaoQ.png" align="bottom" border="0" style="height:16px;width:auto;margin:0px 0px"></a>');
+document.write(mytext(tmpdat,fcol1)+'&nbsp;&nbsp;<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">');
+document.write('<IMG SRC="https://ymqui.github.io/photo/thumbnail/LaoQ.png" align="bottom" border="0" style="height:16px;width:auto;margin:2px 0px -3px 0px"></a>');
 document.write('</td>');
 document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
