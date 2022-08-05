@@ -511,6 +511,10 @@ function initAlbum(){
     this[1][i++]  = (["Swimming in the pool","在游泳池里游泳"])[cn_ind];
     this[0][i]    = ["20220719_1","20220719_2"];
     this[1][i++]  = (["Water play","玩水"])[cn_ind];
+    this[0][i]    = ["20220804_1","20220804_2"];
+    this[1][i++]  = (["Enjoying Kona Ice","吃冰"])[cn_ind];
+    this[0][i]    = "20220804_3";
+    this[1][i++]  = (["Painting outdoors","户外画画"])[cn_ind];
 
     adddate(this);
 }
