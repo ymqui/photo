@@ -460,6 +460,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Elf Owl","娇鸺鹠","Micrathene whitneyi",[p_id("2208azbird",0)],["azazaz",ebird("8/2022","")]);
 //birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",p_id("1606florida",[8,7]),["flflfl","6/2016",gmap("Brian Piccolo Park",26.03302,-80.27253)+", Fort Lauderdale","","","劳德代尔堡布莱恩皮克罗公园"]);
+//birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium gnoma",[p_id("2208azbird",0)],["azmcct",ebird("8/2022","")]);
   birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210115_012_Long-earedOwl")],["vavava","1/2021",gmap("State Arboretum of Virginia",39.06392,-78.06551),"","","州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20210228_026_Short-earedOwl"]),["mdmdmd","2/2021",gmap("Izaak Walton Way",39.09351,-77.42656)+", Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
   birds[j++] = new myBird("17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",m_id(["20220108_005_SnowyOwl","20170205_018_SnowyOwl"]),["dcdcdc",ebird("1/2022","S100493829"),"Immature female, "+gmap("Union Station Plaza",38.8964,-77.00662),"","","联合车站广场","papapa","2/2017","Female/immature, "+gmap("Davis Road",41.81994,-76.17107)+", Bradford County","","","布拉德福德郡戴维斯路"]);
