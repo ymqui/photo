@@ -283,7 +283,7 @@ function initAlbum(){
     this[0][i]    = "20220709_Bowling";
     this[1][i++]  = (["Bowling with James and Adele","小何叔叔带着去打保龄球"])[cn_ind];
     this[0][i]    = ["2208arizona/2208arizona_3","20220807"];
-    this[1][i++]  = (["Visiting the Arizona-Sonora Desert Musuem in Tucson during the "+pagelink("2208arizona","Arizona vacation"),"在"+pagelink("2208arizona","亚利桑那度假")+"时游亚利桑那-索诺拉沙漠博物馆"])[cn_ind];
+    this[1][i++]  = (["Visiting the Arizona-Sonora Desert Musuem in Tucson during the "+pagelink("2208arizona","Arizona vacation"),"在"+pagelink("2208arizona","亚利桑那州度假")+"时游亚利桑那-索诺拉沙漠博物馆"])[cn_ind];
 
     adddate(this);
 }
