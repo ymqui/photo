@@ -14,7 +14,7 @@ homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["2204flbird","4/2022 Birding in South Florida","4/2022 南佛罗里达州观鸟"]]
  
 if(window.usechinese){
-    title      = "Vacationing in south Florida";
+    title      = "南佛罗里达州度假";
 }
  
 document.title = title;

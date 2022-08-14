@@ -1,7 +1,7 @@
 <!--
 //Created by Album Builder Program Sun Aug 14 10:52:37 2022
 var info_url   = "";
-var title      = "Vacationing in Arizona";
+var title      = "Vacationing in southern Arizona";
 var cam_img    = "";
 var dir        = maindir+"pics/2208arizona/";
 var thumb_dir  = maindir+"thumbnail/";
@@ -13,7 +13,7 @@ var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
-    title      = "亚利桑那州度假";
+    title      = "南亚利桑那州度假";
 }
  
 document.title = title;
