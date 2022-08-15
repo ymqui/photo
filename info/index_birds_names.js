@@ -609,7 +609,7 @@
   birds[j++] = new myBird("15-01-03T10:03","TYRANNID","Puerto Rican Flycatcher","波多黎各蝇霸鹟","Myiarchus antillarum",[p_id("1501prbirding",14)],["prcnwr","1/2015"],"purfly1");
 //birds[j++] = new myBird("22-00-00T00:00","COTINGID","Andean Cock-of-the-rock","安第斯冠伞鸟","Rupicola peruvianus",[m_id("")],["mdbhrp","9/2015"],"andcot1");
 //birds[j++] = new myBird("22-00-00T00:00","PIPRIDAE","Golden-winged Manakin","金翅娇鹟","Masius chrysopterus",[m_id("")],["mdbhrp","9/2015"],"gowman1");
-//birds[j++] = new myBird("22-00-00T00:00","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",[p_id("2208azbird",0)],["azazaz",ebird("8/2022",""),gmap("Patagonia Roadside Rest Area",31.5081,-110.8023)+", Santa Cruz County","","","圣克鲁斯郡巴塔哥尼亚路边休息站"],"rotbec");
+//birds[j++] = new myBird("22-00-00T00:00","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",[p_id("2208azbird",0)],["azazaz",ebird("8/2022","S116573010"),"Nest, "+gmap("Patagonia Roadside Rest Area",31.5081,-110.8023)+", Santa Cruz County","","","圣克鲁斯郡巴塔哥尼亚路边休息站"],"rotbec");
 //birds[j++] = new myBird("22-00-00T00:00","MENURIDA","Superb Lyrebird","华丽琴鸟","Menura novaehollandiae",[m_id("")],["mdbhrp","9/2015"],"suplyr1");
 //birds[j++] = new myBird("22-00-00T00:00","ATRICHOR","Rufous Scrubbird","棕薮鸟","Atrichornis rufescens",[m_id("")],["mdbhrp","9/2015"],"rusbir1");
 //birds[j++] = new myBird("22-00-00T00:00","PTILONOR","White-eared Catbird","白耳园丁鸟","Ailuroedus buccoides",[m_id("")],["mdbhrp","9/2015"],"whecat1");
