@@ -166,7 +166,7 @@ function initAlbum(){
         this[1][60] = "Black-chinned Hummingbird, immature male, Ash Canyon Bird Sanctuary.";
         this[1][61] = "Acorn Woodpecker, male, Ash Canyon Bird Sanctuary.";
         this[1][62] = "Lucifer Hummingbird, male, Ash Canyon Bird Sanctuary.";
-        this[1][63] = "Rose-breasted Becard nest, Patagonia Roadside Rest Area.";
+        this[1][63] = "Rose-throated Becard nest, Patagonia Roadside Rest Area.";
         this[1][64] = "Rosy-faced Lovebird, Chaparral Park, Scottsdale.";
         this[1][65] = "Gilded Flicker, male, Scottsdale Community College.";
         this[1][66] = "Gilded Flicker, female, Scottsdale Community College.";
