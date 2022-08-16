@@ -472,7 +472,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",[m_id("")],["mdbhrp","9/2015"],"spemou2");
 //birds[j++] = new myBird("22-00-00T00:00","LEPTOSOM","Cuckoo-roller","鹃鴗","Leptosomus discolor",[m_id("")],["mdbhrp","9/2015"],"cuckoo1");
   birds[j++] = new myBird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[p_id("1812crbirding",79)],["crarol","12/2018","Male"],"gartro1","");
-  birds[j++] = new myBird("22-08-08T09:11","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",p_id("2208azbird",[26,27]]),["azmcct",ebird("8/2022","S116560424"),"Male"]);
+  birds[j++] = new myBird("22-08-08T09:11","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",p_id("2208azbird",[26,27]),["azmcct",ebird("8/2022","S116560424"),"Male"]);
   birds[j++] = new myBird("18-12-07T09:28","TROGONID","Collared Trogon","橙腹美洲咬鹃","Trogon collaris",[p_id("1812crbirding",91)],["crarol","12/2018","Male"],"coltro1");
 //birds[j++] = new myBird("22-00-00T00:00","UPUPIDAE","Eurasian Hoopoe","戴胜","Upupa epops",[m_id("")],["mdbhrp","9/2015"],"hoopoe");
 //birds[j++] = new myBird("22-00-00T00:00","PHOENICU","Abyssinian Scimitarbill","小弯嘴林戴胜","Rhinopomastus minor",[m_id("")],["mdbhrp","9/2015"],"absbil1");
