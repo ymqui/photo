@@ -40,7 +40,7 @@ function initAlbum(){
         this[1][10] = "在塞多纳吃午饭。";
         this[1][12] = "参观斯科茨代尔的 McCormick-Stillman 铁路公园。";
         this[1][13] = "凤凰城的沙尘暴。";
-        this[1][14] = "在飞机上睡着了。";
+        this[1][14] = "在回来的飞机上睡着了。";
     }else{
         this[1][0] = "Drawing while waiting for the flight in BWI airport.";
         this[1][1] = "Visiting the Arizona-Sonora Desert Musuem in Tucson.";
