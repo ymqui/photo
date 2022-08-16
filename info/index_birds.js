@@ -261,6 +261,11 @@
   info[2][j] = 2;
   info[3][j] = "4/2022 Florida Birding";
   info[4][j++] = "Birding in the Florida Keys and Miami-Dade area(Florida).";
+  info[0][j] = "2208azbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "8/2022 Arizona Birding";
+  info[4][j++] = "Birding in southern Arizona(Arizona).";
 
   if(window.usechinese){
      j = 0;
@@ -364,6 +369,8 @@
      info[4][j++] = "在马萨诸塞州普罗温斯敦横流点海滩观鸟(马萨诸塞州)。";
      info[3][j]   = "4/2022 佛罗里达观鸟";
      info[4][j++] = "在佛罗里达南部观鸟(佛罗里达州)。";
+     info[3][j]   = "8/2022 亚利桑那观鸟";
+     info[4][j++] = "在亚利桑那南部观鸟(亚利桑那州)。";
   } 
 
   //special touch
@@ -380,7 +387,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2022-05-09T12:00:00");
+  var modDat1 = new Date("2022-08-16T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
