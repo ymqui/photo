@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 //Created by Album Builder Program Sun Jan 11 21:13:21 2015
 var info_url   = "";
 var title      = "Puerto Rico Birding";
@@ -43,7 +43,7 @@ function initAlbum(){
         this[1][13] = "波多黎各蝇霸鹟，卡沃罗霍国家野生动物保护区。";
         this[1][14] = "加勒比拟霸鹟，卡沃罗霍国家野生动物保护区。";
         this[1][15] = "滑嘴犀鹃，卡沃罗霍国家野生动物保护区。";
-        this[1][16] = "黑胸芒果蜂鸟，雌性，卡沃罗霍国家野生动物保护区。";
+        this[1][16] = "波多黎各芒果蜂鸟，雌性，卡沃罗霍国家野生动物保护区。";
         this[1][17] = "黄腹灰林莺，卡沃罗霍国家野生动物保护区。";
         this[1][18] = "地鸠，雌性，卡沃罗霍国家野生动物保护区。";
         this[1][19] = "委内瑞拉拟鹂，瓜尼卡干燥森林。";
@@ -99,7 +99,7 @@ function initAlbum(){
         this[1][13] = "Puerto Rican Flycatcher, Cabo Rojo National Wildlife Refuge.";
         this[1][14] = "Caribbean Elaenia, Cabo Rojo National Wildlife Refuge.";
         this[1][15] = "Smooth-billed Ani, Cabo Rojo National Wildlife Refuge.";
-        this[1][16] = "Antillean Mango, Female, Cabo Rojo National Wildlife Refuge.";
+        this[1][16] = "Puerto Rican Mango, Female, Cabo Rojo National Wildlife Refuge.";
         this[1][17] = "Adelaide's Warbler, Cabo Rojo National Wildlife Refuge.";
         this[1][18] = "Common Ground-Dove, Female, Cabo Rojo National Wildlife Refuge.";
         this[1][19] = "Venezuelan Troupial, Guanica Dry Forest.";
