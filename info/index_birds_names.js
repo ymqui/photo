@@ -29,7 +29,6 @@
       fldtnp:  ["Dry Tortugas National Park","Florida, USA","海龟国家公园","美国佛罗里达州",npsurl("drto"),baikeurl("海龟国家公园")],
       flevnp:  ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
       flmnwr:  ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
-      flplpr:  ["Plantation Preserve","Broward County, Florida, USA","种植园保留地","美国佛罗里达州布劳沃德郡","https://www.plantation.org/government/departments/parks-recreation/plantation-preserve-golf-course-club/about-the-preserve/linear-trail"],
       flflfl:  ["Florida","USA","佛罗里达州","美国"],
       mahpsp:  ["Halibut Point State Park","Rockport, Massachusetts, USA","大比目鱼角州立公园","美国马萨诸塞州","https://www.mass.gov/locations/halibut-point-state-park"],
       marace:  ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州","https://www.nps.gov/caco/planyourvisit/race-point-beach.htm"],
@@ -120,7 +119,7 @@
   birds[j++] = new myBird("14-07-06T11:04","ANATIDAE","Trumpeter Swan","黑嘴天鹅","Cygnus buccinator",p_id("1512bhill",[10,11]),["mdbhrp","1/2015","mdbhrp","2/2015"]); 
   birds[j++] = new myBird("05-11-26T14:43","ANATIDAE","Tundra Swan","小天鹅","Cygnus columbianus",[p_id("0511assateague",29),m_id("20220220_049_TundraSwan")],["vacnwr","11/2005","Whistling","指名亚种(啸声天鹅)","papapa",ebird("2/2022","S103273157"),gmap("Middle Creek Wildlife Management Area",40.27692,-76.236)+", Lancaster County","","","兰开斯特郡中溪野生动物管理区"],"小天鹅/4561");
   birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Egyptian Goose","埃及雁","Alopochen aegyptiaca",[p_id("2204flbird",36)],["flflfl",ebird("5/2022","S108777458"),gmap("Crandon Park",25.706,-80.156)+", Miami-Dade County","","","迈阿密-戴德郡克兰登公园"],"egygoo");
-  birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",13)],["flplpr","6/2016","crsanj","12/2018",gmap("La Sabana Park",9.93542,-84.10246),"","","萨瓦纳公园"]);
+  birds[j++] = new myBird("16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[p_id("1606florida",12),p_id("1812crbirding",13)],["flflfl","6/2016",gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地","crsanj","12/2018",gmap("La Sabana Park",9.93542,-84.10246),"","","萨瓦纳公园"]);
   birds[j++] = new myBird("06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",[m_id("20160514_055_WoodDuck"),p_id("1512bhill",27),p_id("1409fingerlake",13)],["nyjbwr","5/2016","Male","mdbhrp","6/2015","Female and chicks","nymnwr","8/2014","Eclipse male"]);
 //birds[j++] = new myBird("22-00-00T00:00","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",[p_id()],["cnxihu","4/2005"],"manduc");
   birds[j++] = new myBird("20-01-25T07:41","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",p_id("2001txbirding",[29,30]),["txsnwr","1/2020","Males left, female right","txsnwr","1/2020","Males"]);
@@ -130,7 +129,7 @@
   birds[j++] = new myBird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon")],["mdmdmd","3/2016","Male, "+gmap("Trout Run WWTP",39.38977,-79.39146)+", Garrett County","","","加勒特郡鳟鱼溪废水处理厂"]);
   birds[j++] = new myBird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Mareca americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon"]),["mdloch","2/2015","Males","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.57957,-76.07774),"","","剑桥市"]);
   birds[j++] = new myBird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdwhrp","6/2012","Eclipse male",""," at Brookside Gardens","溪边花园","mdbmnt","10/2015"]);
-  birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flplpr","6/2016","Males"]);
+  birds[j++] = new myBird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flflfl","6/2016","Males, "+gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
   birds[j++] = new myBird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]);
   birds[j++] = new myBird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["mxmcbc","5/2019","Males","mxmcbc","5/2019","Female"],"mexduc");
   birds[j++] = new myBird("15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",m_id(["20201229_147_NorthernPintail","20211214_142_NorthernPintail"]),["vahump","12/2020","Male","vahump","12/2021","Female"]);
@@ -252,7 +251,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","GRUIDAE ","Blue Crane","蓝蓑羽鹤","Grus paradisea",["0504zoo/0504zoo__10"],["natzo","4/2005"],"blucra2");
 //birds[j++] = new myBird("22-00-00T00:00","GRUIDAE ","Red-crowned Crane","丹顶鹤","Grus japonensis",["0504zoo/0504zoo__8"],["natzo","4/2005"],"reccra1");
   birds[j++] = new myBird("20-01-23T10:48","GRUIDAE ","Whooping Crane","美洲鹤","Grus americana",p_id("2001txbirding",[6,2]),["txanwr","1/2020"]);
-  birds[j++] = new myBird("16-06-10T09:17","ARAMIDAE","Limpkin","秧鹤","Aramus guarauna",[p_id("1606florida",11)],["flplpr","6/2016"]);
+  birds[j++] = new myBird("16-06-10T09:17","ARAMIDAE","Limpkin","秧鹤","Aramus guarauna",[p_id("1606florida",11)],["flflfl","6/2016",gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
   birds[j++] = new myBird("20-01-24T09:17","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[p_id("2001txbirding",18),p_id("2204flbird",39)],["txsnwr","1/2020","flflfl",ebird("5/2022","S108777458"),gmap("Crandon Park",25.706,-80.156)+", Miami-Dade County","","","迈阿密-戴德郡克兰登公园"]);
   birds[j++] = new myBird("13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[p_id("1312bigbendbirding",7),p_id("1512bhill",43),p_id("1409fingerlake",12)],["txbbnp","12/2013","mdbhrp","10/2015","Winter plumage","nymnwr","8/2014","Juvenile"]);
   birds[j++] = new myBird("16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",[m_id("20161231_143_Red-neckedGrebe")],["mdloch","12/2016","Winter plumage"]);
@@ -704,7 +703,7 @@
   birds[j++] = new myBird("22-08-09T08:33","PARIDAE ","Juniper Titmouse","林山雀","Baeolophus ridgwayi",[p_id("2208azbird",58)],["azazaz",ebird("8/2022","S116643644"),gmap("George Walker House",31.9351,-109.2192)+", Paradise, Cochise County","","","科奇斯郡天堂镇乔治沃克旅馆"]);
   birds[j++] = new myBird("06-03-16T14:27","PARIDAE ","Tufted Titmouse","美洲凤头山雀","Baeolophus bicolor",[m_id("20161112_120_TuftedTitmouse")],["mdbhrp","11/2016"]);
   birds[j++] = new myBird("20-01-25T08:44","PARIDAE ","Black-crested Titmouse","黑冠凤头山雀","Baeolophus atricristatus",[p_id("2001txbirding",38)],["txsnwr","1/2020"],"","");
-//birds[j++] = new myBird("22-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[p_id("",2)],["caalgp","9/2017"],"","");
+//birds[j++] = new myBird("22-00-00T00:00","PARIDAE ","Boreal Chickadee","北山雀","Poecile hudsonicus",[m_id("")],["caalgp",ebird("8/2022","")],"","");
   birds[j++] = new myBird("06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[p_id("1412mckee-beshers",24),m_id("20210130_021_CarolinaChickadee")],["mdmwma","11/2014","vavava","1/2021",gmap("Bacon Street",37.2323,-76.50624)+", Yorktown","","","约克镇培根街"],"","");
   birds[j++] = new myBird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1409fingerlake",2)],["arb","9/2016",gmap("Le Domaine de Maizerets",46.83991,-71.21153)+", Québec City, Québec, Canada","加拿大魁北克省魁北克市Domaine de Maizerets公园","arb","8/2014",gmap("Sapsucker Woods Sanctuary")+", Ithaca, New York, USA","美国纽约州伊萨卡啄木鸟树林保护区"]);
 //birds[j++] = new myBird("22-00-00T00:00","PARIDAE ","Mountain Chickadee","北美白眉山雀","Poecile gambeli",[p_id("2208azbird",2)],["azazaz",ebird("8/2022","")],"","");
