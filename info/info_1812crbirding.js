@@ -123,7 +123,7 @@ function initAlbum(){
         this[1][92] = "霍氏啄木鸟，雄性，圣何塞社会保障公园。";
         this[1][93] = "霍氏啄木鸟，雌性，圣何塞莫拉桑公园。";
         this[1][94] = "橙腹拟鹂，雌性，圣何塞莫拉桑公园。";
-        this[1][95] = "灰背舞雀，圣何塞莫拉桑公园。";
+        this[1][95] = "棕腹灰背舞雀，圣何塞莫拉桑公园。";
         this[1][96] = "红嘴鸽，圣何塞莫拉桑公园。";
         this[1][97] = "玫红丽唐纳雀，雌性，圣何塞莫拉桑公园。";
         this[1][98] = "热带绿霸鹟，圣何塞莫拉桑公园。";
@@ -224,7 +224,7 @@ function initAlbum(){
         this[1][92] = "Hoffmann's Woodpecker, male, Park of Social Guarantees, San Jose.";
         this[1][93] = "Hoffmann's Woodpecker, female, Morazán Park, San Jose.";
         this[1][94] = "Baltimore Oriole, female, Morazán Park, San Jose.";
-        this[1][95] = "Grayish Saltator, Morazán Park, San Jose.";
+        this[1][95] = "Cinnamon-bellied Saltator, Morazán Park, San Jose.";
         this[1][96] = "Red-billed Pigeon, Morazán Park, San Jose.";
         this[1][97] = "Summer Tanager, female, Morazán Park, San Jose.";
         this[1][98] = "Tropical Pewee, Morazán Park, San Jose.";
