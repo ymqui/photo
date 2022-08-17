@@ -208,7 +208,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","TROCHILI","White-eared Hummingbird","白耳蜂鸟","Basilinna leucotis",[p_id("2208azbird",7)],["azazaz",ebird("8/2022","")],"whehum");
   birds[j++] = new myBird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1","");
   birds[j++] = new myBird("18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",[p_id("1812crbirding",43)],["crarol","12/2018"],"scbhum1","");
-  birds[j++] = new myBird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Leucolia violiceps",p_id("1905mxbird",[4,8]),["mxunam","5/2019","Female"],"vichum");
+  birds[j++] = new myBird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",p_id("1905mxbird",[4,8]),["mxunam","5/2019","Female"],"vichum");
   birds[j++] = new myBird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","mxmcbc","5/2019"],"berhum");
   birds[j++] = new myBird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
 //birds[j++] = new myBird("22-00-00T00:00","MUSOPHAG","Great Blue Turaco","大蓝蕉鹃","Corythaeola cristata",[m_id("")],["mdbhrp","9/2015"],"grbtur1");
@@ -460,7 +460,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Elf Owl","娇鸺鹠","Micrathene whitneyi",[p_id("2208azbird",0)],["azazaz",ebird("8/2022","")]);
 //birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",[m_id("")],["arb","12/2020"]);
   birds[j++] = new myBird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",[p_id("1606florida",8),p_id("2208azbird",70),p_id("2208azbird",71)],["flflfl","6/2016",gmap("Brian Piccolo Park",26.03302,-80.27253)+", Fort Lauderdale","","","劳德代尔堡布莱恩皮克罗公园","azazaz",ebird("8/2022","S116681599"),gmap("Scottsdale Community College",33.5121,-111.885)+", Scottsdale","","","斯科茨代尔市社区大学"]);
-//birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium gnoma",[p_id("2208azbird",0)],["azmcct",ebird("8/2022","")]);
+//birds[j++] = new myBird("22-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium californicum",[p_id("2208azbird",0)],["azmcct",ebird("8/2022","")]);
   birds[j++] = new myBird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",[m_id("20210115_012_Long-earedOwl")],["vavava","1/2021",gmap("State Arboretum of Virginia",39.06392,-78.06551),"","","州立植物园"]);
   birds[j++] = new myBird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20210228_026_Short-earedOwl"]),["mdmdmd","2/2021",gmap("Izaak Walton Way",39.09351,-77.42656)+", Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
   birds[j++] = new myBird("17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",m_id(["20220108_005_SnowyOwl","20170205_018_SnowyOwl"]),["dcdcdc",ebird("1/2022","S100493829"),"Immature female, "+gmap("Union Station Plaza",38.8964,-77.00662),"","","联合车站广场","papapa","2/2017","Female/immature, "+gmap("Davis Road",41.81994,-76.17107)+", Bradford County","","","布拉德福德郡戴维斯路"]);
@@ -615,7 +615,7 @@
 //birds[j++] = new myBird("22-00-00T00:00","PTILONOR","White-eared Catbird","白耳园丁鸟","Ailuroedus buccoides",[m_id("")],["mdbhrp","9/2015"],"whecat1");
 //birds[j++] = new myBird("22-00-00T00:00","CLIMACTE","White-throated Treecreeper","白喉短嘴旋木雀","Cormobates leucophaea",[m_id("")],["mdbhrp","9/2015"],"whttre3");
 //birds[j++] = new myBird("22-00-00T00:00","MALURIDA","Wallace's Fairywren","华氏鹩莺","Sipodotus wallacii",[m_id("")],["mdbhrp","9/2015"],"walfai1");
-//birds[j++] = new myBird("22-00-00T00:00","MELIPHAG","Black Honeyeater","黑吸蜜鸟","Sugomel niger",[m_id("")],["mdbhrp","9/2015"],"blahon1");
+//birds[j++] = new myBird("22-00-00T00:00","MELIPHAG","Black Honeyeater","黑吸蜜鸟","Sugomel nigrum",[m_id("")],["mdbhrp","9/2015"],"blahon1");
 //birds[j++] = new myBird("22-00-00T00:00","DASYORNI","Eastern Bristlebird","棕刺莺","Dasyornis brachypterus",[m_id("")],["mdbhrp","9/2015"],"easbri1");
 //birds[j++] = new myBird("22-00-00T00:00","PARDALOT","Spotted Pardalote","斑翅食蜜鸟","Pardalotus punctatus",[m_id("")],["mdbhrp","9/2015"],"spopar1");
 //birds[j++] = new myBird("22-00-00T00:00","ACANTHIZ","Large-billed Gerygone","沼泽刺嘴莺","Gerygone magnirostris",[m_id("")],["mdbhrp","9/2015"],"labger1");
