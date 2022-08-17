@@ -17,7 +17,7 @@
   }
   document.write('<a href="mailto:ymqui@yahoo.com">');     
   //document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+info[5]+'insignia_'+Math.floor(Math.random()*4).toString()+'.png" ');
-  document.write('<img border="0" margin="0" align="bottom" style="margin-bottom:-2px" src="'+info[5]+'insignia.png" ');
+  document.write('<img border="0" margin="0" align="bottom" style="width:16px;height:auto;margin:2px 0px -4px 0px" src="'+info[5]+'insignia.png" ');
   document.write('     onMouseover="window.status=tmpeml;popupmesg(tmpeml);return true;"');
   document.write('     onMouseout="window.status='+"' '"+';killpopup();"></A>');
   document.write('</td></tr></table>');
