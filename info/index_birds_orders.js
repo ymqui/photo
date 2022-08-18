@@ -490,7 +490,7 @@
   var fam_ln  = 8;						//family length
   var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
   
-  function myBird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
+  function Bird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
      this.lifer    = new Date("20"+liferdate+":00"); 
      this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
      this.name     = name.trim();
