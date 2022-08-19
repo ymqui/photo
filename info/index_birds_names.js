@@ -53,8 +53,7 @@
       mdwhrp:  ["Wheaton Regional Park","Maryland, USA","惠顿公园","美国马里兰州","https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/"],
       meeeri:  ["Eastern Egg Rock Island","Maine, USA","东蛋岩岛","美国缅因州","http://projectpuffin.audubon.org/conservation/eastern-egg-rock"],
       mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl("麦基诺岛")], 
-      mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],
-      mxmcbc:  ["Chapultepec Park","Mexico City, Mexico","查普尔特佩克公园","墨西哥墨西哥城",wikiurl("Chapultepec"),baikeurl("查普尔特佩克公园")],
+      mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],                  
       mxguan:  ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
       mxunam:  ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
       ncbpkw:  ["Blue Ridge Parkway","North Carolina, USA","蓝岭公路","美国北卡罗来纳州",npsurl("blri"),baikeurl("蓝岭")], 
@@ -132,7 +131,7 @@
   birds[j++] = new Bird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdwhrp","6/2012","Eclipse male",""," at Brookside Gardens","溪边花园","mdbmnt","10/2015"]);
   birds[j++] = new Bird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flflfl","6/2016","Males, "+gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
   birds[j++] = new Bird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",[p_id("1512bhill",20)],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]);
-  birds[j++] = new Bird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["mxmcbc","5/2019","Males","mxmcbc","5/2019","Female"],"mexduc");
+  birds[j++] = new Bird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["arb","5/2019","Males, "+wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园","查普尔特佩克公园"),"arb","5/2019","Female, "+wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园","查普尔特佩克公园")],"mexduc");
   birds[j++] = new Bird("15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",m_id(["20201229_147_NorthernPintail","20211214_142_NorthernPintail"]),["vahump","12/2020","Male","vahump","12/2021","Female"]);
   birds[j++] = new Bird("15-11-22T09:50","ANATIDAE","Green-winged Teal","绿翅鸭","Anas carolinensis",m_id(["20220417_055_Green-wingedTeal","20210204_023_EurasianTeal"]),["debnwr",ebird("4/2022","S107336949"),"American","北美亚种","vavava","2/2021","Eurasian male, "+gmap("Middlesex Drive Pond",38.9083,-77.4834)+", Loudoun County","欧亚亚种雄性","","劳登郡米德尔塞克斯路池塘"]);
   birds[j++] = new Bird("15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",m_id(["20170121_009_Canvasback","20170121_008_Canvasback"]),["mdmdmd","1/2017","Male, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市"]);
@@ -207,7 +206,7 @@
   birds[j++] = new Bird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1","");
   birds[j++] = new Bird("18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",[p_id("1812crbirding",43)],["crarol","12/2018"],"scbhum1","");
   birds[j++] = new Bird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",p_id("1905mxbird",[4,8]),["mxunam","5/2019","Female"],"vichum");
-  birds[j++] = new Bird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","mxmcbc","5/2019"],"berhum");
+  birds[j++] = new Bird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","arb","5/2019",wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园","查普尔特佩克公园")],"berhum");
   birds[j++] = new Bird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
 //birds[j++] = new Bird("22-00-00T00:00","MUSOPHAG","Great Blue Turaco","大蓝蕉鹃","Corythaeola cristata",[m_id("")],["mdbhrp",ebird("1/2022","")],"grbtur1");
 //birds[j++] = new Bird("22-00-00T00:00","OTIDIDAE","White-bellied Bustard","蓝鸨","Eupodotis senegalensis",[m_id("")],["mdbhrp",ebird("1/2022","")],"whbbus2");
