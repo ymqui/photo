@@ -9,6 +9,7 @@
       aucass:  ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
       azazaz:  ["Arizona","USA","亚利桑那州","美国"],
       azmcct:  [gmap("Madera Canyon Carrie Nation Trail",31.7128,-110.8737),"Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡"],
+      azsndm:  ["Arizona-Sonora Desert Museum","Tucson, Arizona, USA","亚利桑那索诺拉沙漠博物馆","美国亚利桑那州图森市","https://www.desertmuseum.org/",baikeurl("亚利桑那索诺兰沙漠博物馆")],
       caalgp:  ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake:  ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cacaca:  ["California","USA","加利福尼亚州","美国"], 
@@ -498,7 +499,7 @@
   birds[j++] = new Bird("14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",m_id(["20140531_002_Red-headedWoodpecker","20180603_001_Red-headedWoodpecker"]),["vavava","5/2014",gmap("Piney Grove Preserve",36.9801,-77.0505)+", Sussex County","","","萨塞克斯郡松林保护区","scscsc","6/2018",gmap("Lewis Ocean Bay Heritage Preserve",33.8058,-78.891),"","","刘易斯海湾遗产保护区"]);
   birds[j++] = new Bird("15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",p_id("2208azbird",[62,29]),["azazaz",ebird("8/2022","S116616571"),"Male, "+gmap("Ash Canyon Bird Sanctuary",31.3905,-110.2393)+", Cochise County","","","科奇斯郡灰谷鸟类保护区","azazaz",ebird("8/2022","S116584565"),"Female, "+gmap("Madera Canyon Santa Rita Lodge",31.7252,-110.8801)+", Santa Cruz County","","","圣克鲁斯郡马德拉峡谷圣丽塔旅馆"]);
   birds[j++] = new Bird("18-12-05T14:12","PICIDAE ","Black-cheeked Woodpecker","黑颊啄木鸟","Melanerpes pucherani",p_id("1812crbirding",[67,66]),["crarol","12/2018","Male","crarol","12/2018","Female"],"blcwoo1");
-  birds[j++] = new Bird("22-08-07T08:05","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",p_id("2208azbird",[43,3]),["azazaz",ebird("8/2022","S116569566"),"Male, "+gmap("Paton Center for Hummingbirds",31.5389,-110.7606)+", Santa Cruz County","","","圣克鲁斯郡佩顿蜂鸟中心","azazaz",ebird("8/2022","S116522318"),"Female, "+gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆"]);
+  birds[j++] = new Bird("22-08-07T08:05","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",p_id("2208azbird",[43,3]),["azazaz",ebird("8/2022","S116569566"),"Male, "+gmap("Paton Center for Hummingbirds",31.5389,-110.7606)+", Santa Cruz County","","","圣克鲁斯郡佩顿蜂鸟中心","azsndm",ebird("8/2022","S116522318"),"Female"]);
   birds[j++] = new Bird("18-12-08T08:10","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",p_id("1812crbirding",[93,94]),["crsanj","12/2018","Male, "+gmap("Park of Social Guarantees",9.9317,-84.0765),"","","社会保障公园","crsanj","12/2018","Female, "+gmap("Morazán Park",9.9355,-84.0754),"","","莫拉桑公园"],"hofwoo1");
   birds[j++] = new Bird("13-12-25T15:02","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",p_id("2001txbirding",[39,25]),["txsnwr","1/2020","Male","txsnwr","1/2020","Female"]);
   birds[j++] = new Bird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","flflfl","6/2016","Female, "+gmap("Matheson Hammock Park",25.6812,-80.272)+", Miami-Dade County","","","迈阿密-戴德郡马西森硬木公园"]);
@@ -693,7 +694,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","BOMBYCIL","Bohemian Waxwing","太平鸟","Bombycilla garrulus",[p_id("1601china",)],["cnbjjp",ebird("1/2022","")]);
 //birds[j++] = new Bird("22-00-00T00:00","BOMBYCIL","Japanese Waxwing","小太平鸟","Bombycilla japonica",[p_id("1601china",)],["cnbjjp",ebird("1/2022","")],"japwax1");
   birds[j++] = new Bird("06-06-08T15:54","BOMBYCIL","Cedar Waxwing","雪松太平鸟","Bombycilla cedrorum",[p_id("1412mckee-beshers",39),p_id("1512bhill",30)],["mdmwma","12/2014","mdbhrp","8/2015","Juvenile"]);
-  birds[j++] = new Bird("15-07-06T13:21","PTILIOGO","Phainopepla","黑丝鹟","Phainopepla nitens",[p_id("2208azbird",6),p_id("1507birdingwest",6)],["azazaz",ebird("8/2022","S116522318"),"Male, "+gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆","nvdnwr","7/2015","Female"]);
+  birds[j++] = new Bird("15-07-06T13:21","PTILIOGO","Phainopepla","黑丝鹟","Phainopepla nitens",[p_id("2208azbird",6),p_id("1507birdingwest",6)],["azsndm",ebird("8/2022","S116522318"),"Male","nvdnwr","7/2015","Female"]);
 //birds[j++] = new Bird("22-00-00T00:00","HYPOCOLI","Grey Hypocolius","灰连雀","Hypocolius ampelinus",[m_id("")],["mdbhrp",ebird("1/2022","")],"hypoco1");
 //birds[j++] = new Bird("22-00-00T00:00","DULIDAE ","Palmchat","棕榈鵖","Dulus dominicus",[m_id("")],["mdbhrp",ebird("1/2022","")],"palmch1");
 //birds[j++] = new Bird("22-00-00T00:00","HYLOCITR","Hylocitrea","林啸鹟","Hylocitrea bonensis",[m_id("")],["mdbhrp",ebird("1/2022","")],"olfwhi1");
@@ -710,7 +711,7 @@
   birds[j++] = new Bird("16-01-15T13:47","PARIDAE ","Willow Tit","褐头山雀","Poecile montanus",[p_id("1601china",68)],["cnbjsp","1/2016"],"wiltit1");
 //birds[j++] = new Bird("22-00-00T00:00","PARIDAE ","Great Tit","大山雀","Parus major",p_id("1601china",[21,22]),["cnjsxp",ebird("1/2022","")],"gretit1");
   birds[j++] = new Bird("16-01-05T10:13","PARIDAE ","Japanese Tit","远东山雀","Parus minor",p_id("1601china",[21,22]),["cnjsxp","1/2016"],"gretit4");
-  birds[j++] = new Bird("19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[p_id("1905mxbird",25),p_id("2208azbird",4)],["mxguan","5/2019","azazaz",ebird("8/2022","S116522318"),gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆"]);
+  birds[j++] = new Bird("19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[p_id("1905mxbird",25),p_id("2208azbird",4)],["mxguan","5/2019","azsndm",ebird("8/2022","S116522318")]);
 //birds[j++] = new Bird("22-00-00T00:00","NICATORI","Western Nicator","黄翼斑斗鹎","Nicator chloris",[m_id("")],["mdbhrp",ebird("1/2022","")],"yesnic1");
 //birds[j++] = new Bird("22-00-00T00:00","PANURIDA","Bearded Reedling","文须雀","Panurus biarmicus",[m_id("")],["mdbhrp",ebird("1/2022","")],"bearee1");
   birds[j++] = new Bird("15-03-15T10:45","ALAUDIDA","Horned Lark","角百灵","Eremophila alpestris",m_id(["20160507_042_HornedLark","20150315_036_HornedLark","20160507_043_HornedLark"]),["mdcapc","5/2016","Male","mdswhf","3/2015","Female","mdcapc","5/2016","Juvenile"]);
@@ -764,7 +765,7 @@
   birds[j++] = new Bird("07-02-10T12:17","REGULIDA","Golden-crowned Kinglet","金冠戴菊","Regulus satrapa",["2007cobirding/20070210_028_Golden-crownedKinglet(M)",m_id("20201020_103_Golden-crownedKinglet")],["mdcocn","2/2007","",""," at Violettes Lock","紫罗兰闸","mdmwma","10/2020","Female"]);
 //birds[j++] = new Bird("22-00-00T00:00","ELACHURI","Spotted Elachura","丽星鹩鹛","Elachura formosa",[m_id("")],["mdbhrp",ebird("1/2022","")],"spwbab1");
 //birds[j++] = new Bird("22-00-00T00:00","HYLIOTID","Yellow-bellied Hyliota","黄腹丛莺","Hyliota flavigaster",[m_id("")],["mdbhrp",ebird("1/2022","")],"yebhyl1");
-  birds[j++] = new Bird("22-08-07T08:36","TROGLODY","Cactus Wren","棕曲嘴鹪鹩","Campylorhynchus brunneicapillus",p_id("2208azbird",[8,37]),["azazaz",ebird("8/2022","S116522318"),gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆","azazaz",ebird("8/2022","S116565221"),gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County","","","皮马郡盒子峡谷路"]);
+  birds[j++] = new Bird("22-08-07T08:36","TROGLODY","Cactus Wren","棕曲嘴鹪鹩","Campylorhynchus brunneicapillus",p_id("2208azbird",[8,37]),["azsndm",ebird("8/2022","S116522318"),"azazaz",ebird("8/2022","S116565221"),gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County","","","皮马郡盒子峡谷路"]);
 //birds[j++] = new Bird("22-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
 //birds[j++] = new Bird("22-00-00T00:00","TROGLODY","Canyon Wren","墨西哥鹪鹩","Catherpes mexicanus",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
   birds[j++] = new Bird("17-10-15T08:16","TROGLODY","Sedge Wren","短嘴沼泽鹪鹩","Cistothorus stellaris",m_id(["20171015_119_SedgeWren","20171015_117_SedgeWren"]),["mdlbrp","10/2017"]);
@@ -860,7 +861,7 @@
   birds[j++] = new Bird("21-04-08T10:03","FRINGILL","White-winged Crossbill","白翅交嘴雀","Loxia leucoptera",m_id(["20210408_040_White-wingedCrossbill","20210408_041_White-wingedCrossbill"]),["mdmdmd","4/2021","Female, "+gmap("Hermitage Drive",39.2551,-76.8594)+", Ellicott City","","","埃利科特城埃尔米塔奇路"]);
 //birds[j++] = new Bird("21-01-15T09:09","FRINGILL","European Goldfinch","红额金翅雀","Carduelis carduelis",[m_id("20210115_011_EuropeanGoldfinch")],["mdmdmd",ebird("1/2022",""),gmap("Mother Nature's Store",39.1797,-76.8279)+", Columbia","","","哥伦比亚市大自然母亲鸟店"],"eurgol");
   birds[j++] = new Bird("06-08-05T11:23","FRINGILL","American Goldfinch","美洲金翅雀","Spinus tristis",[p_id("1412mckee-beshers",9),p_id("1412mckee-beshers",10),p_id("1512bhill",44)],["mdmwma","8/2014","Male","mdmwma","8/2014","Female","mdbhrp","11/2015","Winter female"]);
-  birds[j++] = new Bird("13-12-25T19:22","FRINGILL","Lesser Goldfinch","暗背金翅雀","Spinus psaltria",[p_id("2208azbird",10),p_id("2208azbird",11),p_id("1312bigbendbirding",19)],["azazaz",ebird("8/2022","S116522318"),(t1="Male, "+gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson"),"","",(t2="图森市亚利桑那-索诺拉沙漠博物馆"),"azazaz",ebird("8/2022","S116522318"),t1,"","",t2,"txbbnp","12/2013","Female"]);
+  birds[j++] = new Bird("13-12-25T19:22","FRINGILL","Lesser Goldfinch","暗背金翅雀","Spinus psaltria",[p_id("2208azbird",10),p_id("2208azbird",11),p_id("1312bigbendbirding",19)],["azsndm",ebird("8/2022","S116522318"),"Male","azsndm",ebird("8/2022","S116522318"),"Male","txbbnp","12/2013","Female"]);
   birds[j++] = new Bird("15-01-20T08:48","FRINGILL","Pine Siskin","松金翅雀","Spinus pinus",[m_id("20201112_122_PineSiskin")],["mdbhrp","11/2020"]);
   birds[j++] = new Bird("18-12-04T06:30","FRINGILL","Yellow-throated Euphonia","黄喉歌雀","Euphonia hirundinacea",p_id("1812crbirding",[26,27]),["crarol","12/2018","Male","crarol","12/2018","Female"],"yeteup1");
   birds[j++] = new Bird("18-12-06T07:57","FRINGILL","Olive-backed Euphonia","绿背歌雀","Euphonia gouldi",[p_id("1812crbirding",72)],["crarol","12/2018","Female"],"olbeup1");
@@ -869,13 +870,13 @@
   birds[j++] = new Bird("16-12-04T08:10","CALCARII","Snow Bunting","雪鹀","Plectrophenax nivalis",[m_id("20161204_129_SnowBunting")],["nyjbsp","12/2016","Winter plumage"]);
 //birds[j++] = new Bird("22-00-00T00:00","RHODINOC","Rosy Thrush-Tanager","鸫唐纳雀","Rhodinocichla rosea",[m_id("")],["mdbhrp",ebird("1/2022","")],"rottan2");
 //birds[j++] = new Bird("22-00-00T00:00","EMBERIZI","Pine Bunting","白头鹀","Emberiza leucocephalos",p_id("1601china",[1,2]),["cnbjjp",ebird("1/2022","")],"pinbun");
-  birds[j++] = new Bird("22-08-07T08:45","PASSEREL","Rufous-winged Sparrow","棕翅珀卡雀鹀","Peucaea carpalis",[p_id("2208azbird",9)],["azazaz",ebird("8/2022","S116522318"),gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆"]);
+  birds[j++] = new Bird("22-08-07T08:45","PASSEREL","Rufous-winged Sparrow","棕翅珀卡雀鹀","Peucaea carpalis",[p_id("2208azbird",9)],["azsndm",ebird("8/2022","S116522318")]);
 //birds[j++] = new Bird("22-00-00T00:00","PASSEREL","Botteri's Sparrow","博氏珀卡雀鹀","Peucaea botterii",[p_id("2208azbird",2)],["azazaz",ebird("8/2022","")]);
   birds[j++] = new Bird("18-06-04T07:56","PASSEREL","Bachman's Sparrow","巴氏猛雀鹀","Peucaea aestivalis",[m_id("20180604_002_BachmanSparrow")],["scscsc","6/2018",gmap("Lewis Ocean Bay Heritage Preserve",33.8058,-78.891),"","","刘易斯海湾遗产保护区"]);
   birds[j++] = new Bird("16-07-16T07:02","PASSEREL","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",m_id(["20160716_086_GrasshopperSparrow","20160716_087_GrasshopperSparrow"]),["mdmdmd","7/2016",(t1=gmap("Oland Road",39.2952,-77.4599)+", Frederick County"),"","",(t2="弗雷德里克郡欧蓝德路"),"mdmdmd","7/2016","Juvenile, "+t1,"","",t2]);
 //birds[j++] = new Bird("22-00-00T00:00","PASSEREL","Black-striped Sparrow","大黑纹头雀","Arremonops conirostris",[p_id("1501prbirding",2)],["crarol",ebird("1/2022","")],"blsspa1");
   birds[j++] = new Bird("22-08-08T11:40","PASSEREL","Five-striped Sparrow","五纹漠鹀","Amphispizopsis quinquestriata",[p_id("2208azbird",38)],["azazaz",ebird("8/2022","S116565221"),gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County","","","皮马郡盒子峡谷路"],"fisspa");
-  birds[j++] = new Bird("22-08-07T07:35","PASSEREL","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",[p_id("2208azbird",2)],["azazaz",ebird("8/2022","S116522318"),gmap("Arizona-Sonora Desert Museum",32.2437,-111.1681)+", Tucson","","","图森市亚利桑那-索诺拉沙漠博物馆"]);
+  birds[j++] = new Bird("22-08-07T07:35","PASSEREL","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",[p_id("2208azbird",2)],["azsndm",ebird("8/2022","S116522318")]);
   birds[j++] = new Bird("16-01-31T08:24","PASSEREL","Lark Sparrow","鹨雀鹀","Chondestes grammacus",m_id(sas("20160131_0",["08","10"],"_LarkSparrow")),["mdcapc","1/2016"]);
   birds[j++] = new Bird("15-04-18T07:36","PASSEREL","Chipping Sparrow","棕顶雀鹀","Spizella passerina",[m_id("20160409_034_ChippingSparrow"),p_id("1612savannah",12)],["mdmdmd","4/2016",gmap("Agricultural History Farm Park",39.165,-77.1347),"","","农史农场公园","scscsc","12/2016","Winter plumage, "+gmap("James Webb Wildlife Center",32.609,-81.3006)+",  Hampton County","","","汉普顿郡詹姆斯·韦伯野生动物中心"]);
   birds[j++] = new Bird("17-09-16T10:48","PASSEREL","Clay-colored Sparrow","褐雀鹀","Spizella pallida",[m_id("20170916_103_Clay-coloredSparrow")],["mdocci","9/2017",gmap("Sunset Park",38.3277,-75.0907),"","","日落公园"]);
@@ -884,7 +885,7 @@
   birds[j++] = new Bird("15-04-05T07:51","PASSEREL","Fox Sparrow","狐色雀鹀","Passerella iliaca",m_id(["20150405_051_FoxSparrow","20211218_145_FoxSparrow"]),["mdbmnt","4/2015","Red form","红色形","mdbmnt","12/2021","Red form","红色形"]);
   birds[j++] = new Bird("15-03-21T14:05","PASSEREL","American Tree Sparrow","美洲树雀鹀","Spizelloides arborea",[m_id("20150321_044_AmericanTreeSparrow")],["mdswhf","3/2015"]);
   birds[j++] = new Bird("06-03-18T15:59","PASSEREL","Dark-eyed Junco","暗眼灯草鹀","Junco hyemalis",[p_id("1512bhill",6),m_id("20211111_129"),p_id("1507birdingwest",24)],["mdbhrp","1/2015","M"+(t1="ale, slate-colored form"),"雄"+(t2="性，石板色形"),"papapa","11/2021","Fem"+t1+", "+gmap("Waggoners Gap Hawk Watch",40.2774,-77.274)+", Cumberland County","雌"+t2,"","坎伯兰郡瓦格纳山口观鹰台","waneah","7/2015","Male, Oregon form, "+gmap("Hobuck Beach",48.3376,-124.6673),"雄性，俄勒冈形","","霍巴克海滩"]);
-  birds[j++] = new Bird("22-08-08T08:56","PASSEREL","Yellow-eyed Junco","墨西哥灯草鹀","Junco phaeonotus",[p_id("2208azbird",25)],["azmcct",ebird("8/2022","S116560424")],"yeejun");
+  birds[j++] = new Bird("22-08-08T08:56","PASSEREL","Yellow-eyed Junco","墨西哥灯草鹀","Junco phaeonotus",[p_id("2208azbird",25)],["azmcct",ebird("8/2022","S116560424")]);
   birds[j++] = new Bird("18-12-02T08:51","PASSEREL","Rufous-collared Sparrow","红领带鹀","Zonotrichia capensis",[p_id("1812crbirding",7)],["crsanj","12/2018",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园"],"rucspa1");
   birds[j++] = new Bird("15-07-09T13:51","PASSEREL","White-crowned Sparrow","白冠带鹀","Zonotrichia leucophrys",[p_id("1507birdingwest",25),m_id("20160131_011_White-crownedSparrow")],["waneah","7/2015",gmap("Hobuck Beach",48.3376,-124.6673),"","","霍巴克海滩","mdcapc","1/2016"]);
 //birds[j++] = new Bird("22-00-00T00:00","PASSEREL","Golden-crowned Sparrow","金冠带鹀","Zonotrichia atricapilla",[m_id("")],["vaonwr",ebird("1/2022","")]);
