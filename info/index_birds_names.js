@@ -83,7 +83,6 @@
       uklwcn:  ["London Wetland Centre","United Kingdom","伦敦湿地中心","英国","https://www.wwt.org.uk/wetland-centres/london/"],
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
-      vaonwr:  ["Occoquan Bay National Wildlife Refuge","Virginia, USA","奥科宽湾国家野生动物保护区","美国弗吉尼亚州",npsurl("occoquan_bay",true)],
       vavava:  ["Virginia","USA","弗吉尼亚州","美国"], 
       vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州","https://fpr.vermont.gov/wenlock-wildlife-management-area"],  
       waneah:  ["Neah Bay, Washington","USA","华盛顿州尼亚湾","美国"],
@@ -236,7 +235,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",[m_id("")],["mdbhrp",ebird("1/2022","")],"afrfin1","鳍脚鷈");
 //birds[j++] = new Bird("22-00-00T00:00","SAROTHRU","Buff-spotted Flufftail","黄点侏秧鸡","Sarothrura elegans",[m_id("")],["mdbhrp",ebird("1/2022","")],"busflu1");
   birds[j++] = new Bird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus crepitans",[p_id("1509charleston",9),m_id("20201227_140_ClapperRail")],["scpitt","9/2015","vahump","12/2020"]);
-  birds[j++] = new Bird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(sas("20200610_03",["7","9"],"_KingRail")),["vaonwr","6/2020"]);
+  birds[j++] = new Bird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(sas("20200610_03",["7","9"],"_KingRail")),["arb","6/2020",npsurl("occoquan_bay",true,"Occoquan Bay National Wildlife Refuge"),"","Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区"]);
   birds[j++] = new Bird("17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arb","5/2017",gmap("Mentor Marsh State Nature Perserve",41.7305,-81.3187)+", Ohio, USA","美国俄亥俄州门托沼泽州立自然保护区"]);
   birds[j++] = new Bird("20-12-29T09:26","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",[m_id("20220117_019_Sora")],["vahump",ebird("1/2022","S100942825")]);
   birds[j++] = new Bird("11-12-27T17:43","RALLIDAE","Common Gallinule","美洲黑水鸡","Gallinula galeata",[p_id("1112floridabirding",6),p_id("1409fingerlake",9)],["flevnp","12/2011","nymnwr","8/2014","Juvenile"],"黑水鸡/4524074");
@@ -898,7 +897,7 @@
   birds[j++] = new Bird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["arb","5/2017",gmap("Bath Nature Preserve",41.1812,-81.648)+", Akron, Ohio, USA","美国俄亥俄州阿克伦市巴斯自然保护区"]);
   birds[j++] = new Bird("13-07-17T18:46","PASSEREL","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307alaskabirding",8),m_id("20211125_133_SavannahSparrow"),m_id("20220122_023_IpswichSparrow")],["arb","7/2013",gmap("Potter Marsh",61.0762,-149.8292)+", Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇波特沼泽","vavava","11/2021",gmap("Sully Woodlands Park",38.8769,-77.4933)+", Fairfax County","","","费尔法克斯郡萨利林地公园","njnjnj",ebird("1/2022","S101264392"),"Ipswich, "+gmap("Two Mile Landing",38.9569,-74.8635)+", Cape May","伊普斯维奇雀","","五月岬两英里码头"]);
   birds[j++] = new Bird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",[m_id("20161112_121_SongSparrow"),m_id("20161030_108_SongSparrow"),p_id("1905mxbird",21)],["mdbhrp","11/2016","mdmwma","10/2016","Partially leucistic","mxunam","5/2019","Mexicana group","墨西哥亚种"]);
-  birds[j++] = new Bird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("20170305_030_LincolnSparrow"),p_id("2001txbirding",23)],["vaonwr","3/2017","txsnwr","1/2020"]);
+  birds[j++] = new Bird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("20170305_030_LincolnSparrow"),p_id("2001txbirding",23)],["arb","3/2017",npsurl("occoquan_bay",true,"Occoquan Bay National Wildlife Refuge"),"","Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区","txsnwr","1/2020"]);
   birds[j++] = new Bird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",[p_id("1412mckee-beshers",14)],["mdmwma","10/2014"]);
   birds[j++] = new Bird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",[p_id("1905mxbird",15)],["mxunam","5/2019"],"","");
   birds[j++] = new Bird("22-08-11T09:03","PASSEREL","Abert's Towhee","红腹地雀鹀","Melozone aberti",[p_id("2208azbird",72)],["azazaz",ebird("8/2022","S116756519"),gmap("Dead Horse Ranch State Park",34.7522,-112.0185)+", Cottonwood","","","卡顿伍德市死马牧场州立公园"]);
