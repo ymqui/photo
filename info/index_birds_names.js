@@ -760,7 +760,7 @@
   birds[j++] = new Bird("07-02-10T12:17","REGULIDA","Golden-crowned Kinglet","金冠戴菊","Regulus satrapa",["2007cobirding/20070210_028_Golden-crownedKinglet(M)",m_id("20201020_103_Golden-crownedKinglet")],["mdcocn","2/2007","",""," at Violettes Lock","紫罗兰闸","mdmwma","10/2020","Female"]);
 //birds[j++] = new Bird("22-00-00T00:00","ELACHURI","Spotted Elachura","丽星鹩鹛","Elachura formosa",[m_id("")],["mdbhrp",ebird("1/2022","")],"spwbab1");
 //birds[j++] = new Bird("22-00-00T00:00","HYLIOTID","Yellow-bellied Hyliota","黄腹丛莺","Hyliota flavigaster",[m_id("")],["mdbhrp",ebird("1/2022","")],"yebhyl1");
-  birds[j++] = new Bird("22-08-07T08:36","TROGLODY","Cactus Wren","棕曲嘴鹪鹩","Campylorhynchus brunneicapillus",p_id("2208azbird",[8,37]),["azsndm",ebird("8/2022","S116522318"),"azazaz",ebird("8/2022","S116565221"),gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County","","","皮马郡盒子峡谷路"]);
+  birds[j++] = new Bird("22-08-07T08:36","TROGLODY","Cactus Wren","棕曲嘴鹪鹩","Campylorhynchus brunneicapillus",p_id("2208azbird",[8,37]),["azsndm",ebird("8/2022","S116522318"),"azazaz",ebird("8/2022","S116565221"),"Nest, "+gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County","","","皮马郡盒子峡谷路"]);
 //birds[j++] = new Bird("22-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
 //birds[j++] = new Bird("22-00-00T00:00","TROGLODY","Canyon Wren","墨西哥鹪鹩","Catherpes mexicanus",[p_id("2208azbird")],["azazaz",ebird("8/2022","")]);
   birds[j++] = new Bird("17-10-15T08:16","TROGLODY","Sedge Wren","短嘴沼泽鹪鹩","Cistothorus stellaris",m_id(["20171015_119_SedgeWren","20171015_117_SedgeWren"]),["mdlbrp","10/2017"]);
