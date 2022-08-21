@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-08-16T08:00");
+  var modDat = new Date("2022-08-21T08:00");
   var modran = modDat.getDate()+3; //range within modDat in days
 
   //location urls
@@ -1001,7 +1001,7 @@
   birds[j++] = new Bird("13-12-25T18:10","CARDINAL","Pyrrhuloxia","灰额主红雀","Cardinalis sinuatus",p_id("1312bigbendbirding",[16,17]),["txbbnp","12/2013","Male","txbbnp","12/2013","Female"]);
   birds[j++] = new Bird("17-05-24T07:33","CARDINAL","Dickcissel","美洲雀","Spiza americana",m_id(["20170524_065_Dickcissel","20170524_064_Dickcissel"]),["mdmdmd","5/2017","Male"+(t1=", "+gmap("Underwood Road",39.3304,-76.9779)+", Howard County"),"","","霍华德郡安德伍德路","mdmdmd","5/2017","Female"+t1,"","","霍华德郡安德伍德路"]);
   birds[j++] = new Bird("14-08-10T11:40","CARDINAL","Blue Grosbeak","斑翅蓝彩鹀","Passerina caerulea",[m_id("20220702_077_BlueGrosbeak")],["debnwr",ebird("7/2022","S114255213"),"Male"]);
-  birds[j++] = new Bird("06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14),m_id("20170709_083_IndigoBunting")],["debnwr","5/2015","Male","mdlbrp","7/2017","Female"]);
+  birds[j++] = new Bird("06-06-08T15:10","CARDINAL","Indigo Bunting","靛彩鹀","Passerina cyanea",[p_id("1505bombayhook",14),m_id("20170709_083_IndigoBunting"),m_id("20220821_092_IndigoBunting")],["debnwr","5/2015","Male","mdlbrp","7/2017","Female","mdcocn","8/2022","Juvenile",""," at Violettes Lock","紫罗兰闸"]);
 //birds[j++] = new Bird("22-00-00T00:00","CARDINAL","Lazuli Bunting","白腹蓝彩鹀","Passerina amoena",[p_id("",87)],["crarol",ebird("1/2022",""),"Male"]);
   birds[j++] = new Bird("22-08-08T11:20","CARDINAL","Varied Bunting","杂色彩鹀","Passerina versicolor",p_id("2208azbird",[35,36]),["azazaz",ebird("8/2022","S116565221"),"Male, "+(t1=gmap("Box Canyon Road",31.7985,-110.7848)+", Pima County"),"","",(t2="皮马郡盒子峡谷路"),"azazaz",ebird("8/2022","S116565221"),"Female/immature male, "+t1,"","",t2]);
   birds[j++] = new Bird("16-06-08T16:12","CARDINAL","Painted Bunting","丽彩鹀","Passerina ciris",p_id("1606florida",[1,2]),["scscsc","6/2016","Male, "+(t1=gmap("Huntington Beach State Park",33.5095,-79.0632)),"","",(t2="亨廷顿海滩州立公园"),"scscsc","6/2016","Female, "+t1,"","",t2]);
