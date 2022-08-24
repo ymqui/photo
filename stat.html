@@ -168,10 +168,6 @@ function mytext(text,col){
     }
 }
 
-function onlyUnique(value,index,self){
-    return self.indexOf(value) === index;
-}
-
 function getCountry(str,offset){
     if (str.length==0){return '';}
     if (str.match(/,/)){
@@ -294,7 +290,7 @@ var tot_coun = '<a href="'+clnk+'" style="text-decoration:none; color:'+fcol3+';
 var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+otot.toString(),fcol3)+'</a>';
 var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
 var tot_bgen = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+gtot.toString(),fcol3)+'</a>';
-var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.filter(onlyUnique).length.toString(),fcol3)+'</a>';
+var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.length.toString(),fcol3)+'</a>';
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(locurl);
