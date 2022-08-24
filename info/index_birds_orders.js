@@ -515,6 +515,11 @@
      var tmp_date  = new Date();
      var tmp_monyr = [];
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
+         var tmp = (info[1+6*i].trim()).split(/[,\s]/);
+         if (tmp.length==2){
+            ebirdlist.push(tmp[1]);
+            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp[1]+lnksty+" target='"+tmp[1]+"'>"+tmp[0]+"</a>";  
+         }
          if (typeof info[2+6*i]!=='undefined'){
             if (typeof info[3+6*i]==='undefined'){info.splice(3+6*i,0,"");}
             if (info[3+6*i].trim().length==0){
@@ -759,11 +764,6 @@
 
   function ebirdurl(bid){
      return "https://ebird.org/species/"+bid.trim()+"/";
-  }
-
-  function ebird(date,id){
-     ebirdlist.push(id);
-     return "<a href='https://ebird.org/checklist/"+id+lnksty+" target='"+id+"'>"+date+"</a>";
   }
 
   function gmap(name,latt,long){
