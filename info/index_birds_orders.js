@@ -750,8 +750,10 @@
      if (typeof bid == "string"){
         if (typeof name === 'undefined'){
            return "https://baike.baidu.com/item/"+bid;
-        }else{
+        }else if(typeof name =="string"){
            return "<a href='https://baike.baidu.com/item/"+bid+lnksty+" target='"+bid+"'>"+name+"</a>";
+        }else{
+           return "<a href='https://baike.baidu.com/item/"+bid+lnksty+" target='"+bid+"'>"+bid+"</a>";
         }    
      }else{
         return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
@@ -797,11 +799,13 @@
      }
   }
 
-  function wikiurl(bid,name){
+  function wikiurl(id,name){
      if (typeof name === 'undefined'){
-        return "https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true);
+        return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
+     }else if(typeof name =="string"){
+        return "<a href='https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true)+lnksty+" target='"+id+"'>"+name+"</a>";
      }else{
-        return "<a href='https://en.wikipedia.org/wiki/"+reform(bid,"_","%27",true)+lnksty+" target='"+bid+"'>"+name+"</a>";
+        return "<a href='https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true)+lnksty+" target='"+id+"'>"+id+"</a>";
      }
   }
 
