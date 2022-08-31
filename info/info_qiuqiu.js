@@ -284,7 +284,7 @@ function initAlbum(){
     this[1][i++]  = (["Bowling with James and Adele","小何叔叔带着去打保龄球"])[cn_ind];
     this[0][i]    = ["2208arizona/2208arizona_3","20220807"];
     this[1][i++]  = (["Visiting the Arizona-Sonora Desert Musuem in Tucson during the "+pagelink("2208arizona","Arizona vacation"),"在"+pagelink("2208arizona","亚利桑那州度假")+"时游亚利桑那-索诺拉沙漠博物馆"])[cn_ind];
-    this[0][i]    = ["20220826_001_NiagaraFalls","20220826_003_NiagaraFalls"];
+    this[0][i]    = "20220826_003_NiagaraFalls";
     this[1][i++]  = (["Visiting the Niagara Falls in Canada","在加拿大一边看尼亚加拉大瀑布"])[cn_ind];
     this[0][i]    = "20220828_012_PAKaneIceCreamShop";
     this[1][i++]  = (["Enjoying the ice cream at the Country Pines Ice Cream Shop in Kane, Pennsylvania","在宾夕法尼亚州的凯恩小镇吃冰淇淋"])[cn_ind];
