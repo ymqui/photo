@@ -21,6 +21,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("1904dcmuseum",(["National Mall, Washington DC, United States","美国华盛顿特区国家广场"])[cn_ind]);
     this[0][i]    = "20190511_Mexico";
     this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, Mexico","墨西哥特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
+    this[0][i]    = "20220826_Canada";
+    this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, Canada","加拿大安大略省尼亚加拉大瀑布"])[cn_ind]);
 
     adddate(this);
 }
