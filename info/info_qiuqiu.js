@@ -288,7 +288,7 @@ function initAlbum(){
     this[0][i]    = ["2208canada/2208canada_2","20220826"];
     this[1][i++]  = (["Visiting the Niagara Falls on the "+pagelink("2208canada","trip to Canada"),"在"+pagelink("2208canada","加拿大之行")+"看尼亚加拉大瀑布"])[cn_ind];
     this[0][i]    = ["2208canada/2208canada_7","20220828"];
-    this[1][i++]  = (["Enjoying a cup of ice cream at Country Pines Ice Cream Shop in Kane, Pennsylvania","在宾夕法尼亚州的凯恩小镇吃冰淇淋"])[cn_ind];
+    this[1][i++]  = (["Enjoying a cup of ice cream at Country Pines Ice Cream Shop in Kane, Pennsylvania on the "+pagelink("2208canada","trip to Canada"),"从"+pagelink("2208canada","加拿大之行")+"回来时在宾夕法尼亚州的凯恩小镇吃冰淇淋"])[cn_ind];
 
     adddate(this);
 }
