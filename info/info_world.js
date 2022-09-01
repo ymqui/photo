@@ -6,9 +6,10 @@ var interval   = 5000;
 var ext        = ".JPG";
 var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
+var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
-                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"], ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"]]
+                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"], ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"]];
          
 document.title = title;
  
