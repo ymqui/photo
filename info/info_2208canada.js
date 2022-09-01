@@ -34,9 +34,10 @@ function initAlbum(){
         this[1][2] = "在加拿大一边看尼亚加拉大瀑布。";
         this[1][3] = "尼亚加拉大瀑布的双层公共汽车。";
         this[1][4] = "安大略湖岸。";
-        this[1][5] = "在宾夕法尼亚州的凯恩小镇吃冰淇淋";
-        this[1][6] = "在宾夕法尼亚州的凯恩小镇吃冰淇淋";
+        this[1][5] = "在宾夕法尼亚州的凯恩小镇吃冰淇淋。";
+        this[1][6] = "在宾夕法尼亚州的凯恩小镇吃冰淇淋。";
         this[1][7] = "宾夕法尼亚州凯恩小镇的向日葵花田。";
+        this[1][8] = "宾夕法尼亚州凯恩小镇的向日葵花田。";
     }else{
         this[1][0] = "Niagara Falls, Canada.";
         this[1][1] = "Niagara Falls, Canada.";
@@ -44,8 +45,9 @@ function initAlbum(){
         this[1][3] = "Niagara Falls, Canada.";
         this[1][4] = "Hamilton beach.";
         this[1][5] = "Country Pines Ice Cream Shop, Kane, Pennsylvania.";
-        this[1][6] = "Country Pines Ice Cream Shop, Kane, Pennsylvania.";
+        this[1][6] = "Enjoying a cup of ice cream at Country Pines Ice Cream Shop in Kane, Pennsylvania.";
         this[1][7] = "Sunflower fields in Kane, Pennsylvania.";
+        this[1][8] = "Sunflower fields in Kane, Pennsylvania.";
     }
 }
  
