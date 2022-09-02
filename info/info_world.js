@@ -8,8 +8,8 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
-                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"], ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"]];
+var pagelist   = [["1812costarica","12/2018 Trip to "+country("Costa Rica"),"12/2018 游"+country("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+country("USA"),"4/2019 "+country("美国")+"华盛顿特区参观博物馆"],
+                  ["1905mexico","5/2019 Vacationing in "+country("Mexico"),"5/2019 "+country("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+country("Canada"),"8/2022 "+country("加拿大")+"之行"]];
          
 document.title = title;
 
@@ -23,13 +23,13 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     var i = 0;    
     this[0][i]    = "20181204_CostaRica";
-    this[1][i++]  = pagelink("1812costarica",(["Arenal Volcano, Alajuela Province, "+country("Costa Rica"),country("哥斯达黎加")+"阿拉胡埃拉省阿雷纳火山"])[cn_ind]);
+    this[1][i++]  = pagelink("1812costarica",(["Arenal Volcano, Alajuela Province, Costa Rica","哥斯达黎加阿拉胡埃拉省阿雷纳火山"])[cn_ind]);
     this[0][i]    = "20190420_USA";
-    this[1][i++]  = pagelink("1904dcmuseum",(["National Mall, Washington DC, "+country("United States"),country("美国")+"华盛顿特区国家广场"])[cn_ind]);
+    this[1][i++]  = pagelink("1904dcmuseum",(["National Mall, Washington DC, United States","美国华盛顿特区国家广场"])[cn_ind]);
     this[0][i]    = "20190511_Mexico";
-    this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, "+country("Mexico"),country("墨西哥")+"特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
+    this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, Mexico","墨西哥特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
     this[0][i]    = "20220826_Canada";
-    this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+country("Canada"),country("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
+    this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, Canada","加拿大安大略省尼亚加拉大瀑布"])[cn_ind]);
 
     adddate(this);
 }
