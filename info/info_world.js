@@ -8,12 +8,12 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["1812costarica","12/2018 Trip to "+country("Costa Rica"),"12/2018 游"+country("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+country("USA"),"4/2019 "+country("美国")+"华盛顿特区参观博物馆"],
-                  ["1905mexico","5/2019 Vacationing in "+country("Mexico"),"5/2019 "+country("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+country("Canada"),"8/2022 "+country("加拿大")+"之行"]];
+var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
+                  ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"]];
          
 document.title = title;
 
-function country(text){
+function coltext(text){
     return '<font color="#DC143C">'+text+'</font>'; 
 }
  
