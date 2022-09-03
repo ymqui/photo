@@ -10,8 +10,13 @@ var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"]];
-         
+
 document.title = title;
+
+function coltext(text,col){
+    if(typeof col=== 'undefined'){col="#44BBFF";}
+    return '<font color="'+col+'">'+text+'</font>'; 
+} 
 
 function initAlbum(){
     this.length = 2;
