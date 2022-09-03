@@ -697,9 +697,4 @@ function myrandom(data){
        return data; 
     }
 }
-
-function coltext(text,col){
-    if(typeof col=== 'undefined'){col="#44BBFF";}
-    return '<font color="'+col+'">'+text+'</font>'; 
-} 
 //-->
