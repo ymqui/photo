@@ -14,7 +14,7 @@ var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/
 document.title = title;
 
 function coltext(text,col){
-    if(typeof col=== 'undefined'){col="#DC143C";}
+    if(typeof col=== 'undefined'){col="#44BBFF";}
     return '<font color="'+col+'">'+text+'</font>'; 
 } 
 
