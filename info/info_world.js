@@ -14,7 +14,7 @@ var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/
 document.title = title;
 
 function coltext(text,col){
-    if(typeof col=== 'undefined'){col="#9FE2BF";}
+    if(typeof col=== 'undefined'){col="#66CCFF";}
     return '<font color="'+col+'">'+text+'</font>'; 
 } 
 
@@ -22,7 +22,7 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    var col = "#66CCFF";
+    var col = "#9FE2BF";
     var i = 0;    
     this[0][i]    = "20181204_CostaRica";
     this[1][i++]  = pagelink("1812costarica",(["Arenal Volcano, Alajuela Province, "+coltext("Costa Rica",col),coltext("哥斯达黎加",col)+"阿拉胡埃拉省阿雷纳火山"])[cn_ind]);
