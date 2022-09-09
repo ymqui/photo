@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-08-21T08:00");
+  var modDat = new Date("2022-09-04T08:00");
   var modran = modDat.getDate()+3; //range within modDat in days
 
   //location urls
@@ -569,7 +569,7 @@
   birds[j++] = new Bird("18-12-07T06:58","TYRANNID","Western Wood-Pewee","西绿霸鹟","Contopus sordidulus",[p_id("1812crbirding",85),p_id("2208azbird",21),p_id("2208azbird",22)],["crarol","12/2018","azmcct","8/2022,S116560424"]);
   birds[j++] = new Bird("06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",[m_id("20150703_080_EasternWood-Pewee"),p_id("2020lbrp",1)],["mdcocn","7/2015","",""," at Maryland Heights","马里兰高地一带","mdlbrp","5/2020"]);
   birds[j++] = new Bird("18-12-08T08:58","TYRANNID","Tropical Pewee","热带绿霸鹟","Contopus cinereus",[p_id("1812crbirding",99)],["crsanj","12/2018",gmap("Morazán Park",9.9355,-84.0754),"","","莫拉桑公园"],"tropew1");
-  birds[j++] = new Bird("15-08-15T07:20","TYRANNID","Yellow-bellied Flycatcher","黄腹纹霸鹟","Empidonax flaviventris",[p_id("1512bhill",29)],["mdbhrp","8/2015"]);
+  birds[j++] = new Bird("15-08-15T07:20","TYRANNID","Yellow-bellied Flycatcher","黄腹纹霸鹟","Empidonax flaviventris",[p_id("1512bhill",29),m_id("20220904_YF")],["mdbhrp","8/2015","mdlbrp","9/2022,S118086980"]);
   birds[j++] = new Bird("15-05-31T09:31","TYRANNID","Acadian Flycatcher","绿纹霸鹟","Empidonax virescens",[m_id("20160508_045_AcadianFlycatcher")],["mdpvsp","5/2016"]);
   birds[j++] = new Bird("09-07-03T10:16","TYRANNID","Willow Flycatcher","柳纹霸鹟","Empidonax traillii",[p_id("1505puffin",2)],["arb","5/2015",gmap("Cove Island Wildlife Sanctuary",41.0447,-73.5052)+", Stamford, Connecticut, USA","美国康涅狄格州斯坦福市科夫岛野生动物保护区"]);
   birds[j++] = new Bird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",[p_id("1505bombayhook",5)],["debnwr","5/2015"]);
