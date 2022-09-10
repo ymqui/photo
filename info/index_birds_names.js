@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-09-04T08:00");
+  var modDat = new Date("2022-09-10T08:00");
   var modran = modDat.getDate()+3; //range within modDat in days
 
   //location urls
@@ -428,7 +428,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",[p_id("2208azbird")],["azazaz","8/2022,"]);
   birds[j++] = new Bird("16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",[p_id("1601china",67)],["cnbjsp","1/2016"],"eurspa1");
   birds[j++] = new Bird("11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",(m_id(sas(["20150215_013","20150215_014","20161106_117"],"_Sharp-shinnedHawk"))).concat(p_id("1609vtcanbirding",13)),["mdmdmd","2/2015",(t1=gmap("Cromwell Valley Park")+", Baltimore"),"","",(t2="巴尔的摩克伦威尔溪谷公园"),"mdmdmd","2/2015",t1,"","",t2,"mdmdmd","11/2016","Juvenile, "+t1,"","",t2,"cactnw","9/2016"]);
-  birds[j++] = new Bird("14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id("20141228_006_CooperHawk"),m_id("20141228_007_CooperHawk"),p_id("1507birdingwest",3)],["mdmdmd","12/2014","Germantown","","","德国镇","mdmdmd","12/2014","Germantown","","","德国镇","nvdnwr","7/2015","Juvenile"]);
+  birds[j++] = new Bird("14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id("20220910_106_CH"),m_id("20141228_007_CooperHawk"),p_id("1507birdingwest",3)],["mdmdmd","9/2022,S118461423",gmap("Redgate Park",39.0962,-77.1269)+", Rockville","","","罗克维尔市红门公园","mdmdmd","12/2014","Germantown","","","德国镇","nvdnwr","7/2015","Juvenile"]);
 //birds[j++] = new Bird("22-00-00T00:00","ACCIPITR","Northern Goshawk","苍鹰","Accipiter gentilis",[m_id("")],["mdbhrp","1/2022,"]);
 //birds[j++] = new Bird("22-00-00T00:00","ACCIPITR","Hen Harrier","白尾鹞","Circus cyaneus",[p_id("1612savannah",4),m_id("20161204_132_NHarrier")],["scsnwr","12/2016","Female","nyjbsp","1/2022,","Immature"]);
   birds[j++] = new Bird("13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus hudsonius",[m_id("20210313_028_NHarrier"),p_id("1612savannah",4),m_id("20161204_132_NHarrier")],["mdmdmd","3/2021","Male, "+gmap("Bucktown Road",38.4673,-76.0276)+", Cambridge","","","剑桥市巴克敦路","scsnwr","12/2016","Female","nyjbsp","12/2016","Juvenile"],"白尾鹞");
