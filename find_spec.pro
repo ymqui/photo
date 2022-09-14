@@ -460,7 +460,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image1 = pobj->getimagedata()
     image2 = read_bmp(get_filename(/tmpdir)+"stat.bmp",/rgb)
     dim = size(image2,/dim)
-    offset = [147,5];[135,5]
+    offset = [150,5];[135,5]
     for i=0,dim[1]-1 do begin
         for j=0,dim[2]-1 do begin
             if max(abs(image2[*,i,j]-255)) ne 0 then image1[*,i+offset[0],j+offset[1]] = image2[*,i,j]
