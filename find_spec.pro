@@ -421,7 +421,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     xtit  = (['Year','!Z(5E74,5EA6)'])[keyword_set(chinese)]
     ytit  = (['Lifer Count','!Z(9E1F,79CD,6570,76EE)'])[keyword_set(chinese)]
     pobj  = obj_new('dm_plot',xtitl=xtit,ytit=ytit,cornertxt='LaoQ \copyright '+dm_to_string(min(year))+'-'+dm_to_string(max(year)),$
-            /legdshowfill,/showygrid,axisfsize=16,ctxtfsize=11,ctxtfont='DejaVuSans*Italic',wtitle='Lifer Count',xsize=900,ysize=520)
+            /legdshowfill,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='DejaVuSans*Italic',wtitle='Lifer Count',xsize=900,ysize=520)
     pobj->setproperty,yran=yran,xran=xran,ytickminor=0,/nodraw,extragap=[-0.02,0,0,0]
     if keyword_set(movie) then pobj->movie,/open,file=get_filename(/movie),speed=(wait eq 0?5:(1/wait))
     red   = 'red';[237,28,36]
@@ -460,7 +460,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image1 = pobj->getimagedata()
     image2 = read_bmp(get_filename(/tmpdir)+"stat.bmp",/rgb)
     dim = size(image2,/dim)
-    offset = [170,5];[135,5]
+    offset = [185,5];[135,5]
     for i=0,dim[1]-1 do begin
         for j=0,dim[2]-1 do begin
             if max(abs(image2[*,i,j]-255)) ne 0 then image1[*,i+offset[0],j+offset[1]] = image2[*,i,j]
