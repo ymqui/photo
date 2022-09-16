@@ -16,6 +16,10 @@ document.title = title;
 function coltext(text,col){
     if(typeof col=== 'undefined'){col="#66CCFF";}
     return '<font color="'+col+'">'+text+'</font>'; 
+}
+
+function btext(text){
+    return '<b>'+text+'</b>';
 } 
 
 function initAlbum(){
@@ -24,13 +28,13 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     var i   = 0;    
     this[0][i]    = "20181204_CostaRica";
-    this[1][i++]  = pagelink("1812costarica",(["Arenal Volcano, Alajuela Province, Costa Rica","哥斯达黎加阿拉胡埃拉省阿雷纳火山"])[cn_ind]);
+    this[1][i++]  = pagelink("1812costarica",(["Arenal Volcano, Alajuela Province, "+btext("Costa Rica"),btext("哥斯达黎加")+"阿拉胡埃拉省阿雷纳火山"])[cn_ind]);
     this[0][i]    = "20190420_USA";
-    this[1][i++]  = pagelink("1904dcmuseum",(["National Mall, Washington DC, United States","美国华盛顿特区国家广场"])[cn_ind]);
+    this[1][i++]  = pagelink("1904dcmuseum",(["National Mall, Washington DC, "+btext("United States"),btext("美国")+"华盛顿特区国家广场"])[cn_ind]);
     this[0][i]    = "20190511_Mexico";
-    this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, State of Mexico, Mexico","墨西哥墨西哥州特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
+    this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, State of Mexico, "+btext("Mexico"),btext("墨西哥")+"墨西哥州特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
     this[0][i]    = "20220826_Canada";
-    this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, Canada","加拿大安大略省尼亚加拉大瀑布"])[cn_ind]);
+    this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+btext("Canada"),btext("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
 
     adddate(this);
 }
