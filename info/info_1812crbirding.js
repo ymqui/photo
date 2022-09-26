@@ -117,8 +117,8 @@ function initAlbum(){
         this[1][86] = "玫红丽唐纳雀，雄性"+crarol;
         this[1][87] = "绿鴷雀"+crarol;
         this[1][88] = "黄腰王森莺"+crarol;
-        this[1][89] = "橙腹美洲咬鹃，雄性"+crarol;
-        this[1][90] = "橙腹美洲咬鹃，雄性"+crarol;
+        this[1][89] = "白领美洲咬鹃，雄性"+crarol;
+        this[1][90] = "白领美洲咬鹃，雄性"+crarol;
         this[1][91] = "长尾霸鹟"+crarol;
         this[1][92] = "霍氏啄木鸟，雄性，圣何塞社会保障公园。";
         this[1][93] = "霍氏啄木鸟，雌性，圣何塞莫拉桑公园。";
@@ -218,8 +218,8 @@ function initAlbum(){
         this[1][86] = "Summer Tanager, male"+crarol;
         this[1][87] = "Olivaceous Woodcreeper"+crarol;
         this[1][88] = "Buff-rumped Warbler"+crarol;
-        this[1][89] = "Orange-bellied Trogon, male"+crarol;
-        this[1][90] = "Orange-bellied Trogon, male"+crarol;
+        this[1][89] = "Collared Trogon, male"+crarol;
+        this[1][90] = "Collared Trogon, male"+crarol;
         this[1][91] = "Long-tailed Tyrant"+crarol;
         this[1][92] = "Hoffmann's Woodpecker, male, Park of Social Guarantees, San Jose.";
         this[1][93] = "Hoffmann's Woodpecker, female, Morazán Park, San Jose.";
