@@ -166,7 +166,7 @@ if ((bname=='')&&(modBrd.name.length>0)){
        return a;
    },[]);
    if (tmpnb.length==0){ tmpnb = modBrd.name;}
-   bname = reform(modBrd.name[Math.floor(myrandom()*(tmpnb.length))]);
+   bname = reform(tmpnb[Math.floor(myrandom()*(tmpnb.length))]);
 }
 
 if (cellphone){
