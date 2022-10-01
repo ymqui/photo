@@ -520,7 +520,9 @@ function initAlbum(){
     this[0][i]    = "20220922_1";
     this[1][i++]  = (["Showing Daddy the toys in the kindergarten classroom","给爸爸看教室里的玩具"])[cn_ind];
     this[0][i]    = "20220928_1";
-    this[1][i++]  = (["Painting","画画"])[cn_ind];
+    this[1][i++]  = (["Painting with Victor","和同学Victor一块画画"])[cn_ind];
+    this[0][i]    = "20220930_1";
+    this[1][i++]  = (["Painting with Bella","和同学Bella一块画画"])[cn_ind];
 
     adddate(this);
 }
