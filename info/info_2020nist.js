@@ -523,6 +523,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting with Victor","和同学Victor一块画画"])[cn_ind];
     this[0][i]    = "20220930_1";
     this[1][i++]  = (["Painting with Bella","和同学Bella一块画画"])[cn_ind];
+    this[0][i]    = "20221003_1";
+    this[1][i++]  = (["Reading with Issac and Hao Cheng","和同学Issac和程浩一块看书"])[cn_ind];
 
     adddate(this);
 }
