@@ -296,7 +296,7 @@ function initAlbum(){
     this[0][i]    = "20220910_ChineseSchool";
     this[1][i++]  = (["Attending the Chinese school in Rockville on Saturdays","星期六在罗克维尔市的中文学校上学"])[cn_ind];
     this[0][i]    = "20221010_ApplePicking";
-    this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场采摘苹果"])[cn_ind];
+    this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
 
     adddate(this);
 }
