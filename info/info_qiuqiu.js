@@ -294,7 +294,7 @@ function initAlbum(){
     this[0][i]    = ["2209parade/2209parade_6","2209parade/2209parade_9","20220905"];
     this[1][i++]  = (["Watching the "+pagelink("2209parade","Gaithersburg Labor Day Parade"),"观看"+pagelink("2209parade","盖瑟斯堡劳动节游行")])[cn_ind];
     this[0][i]    = "20220910_ChineseSchool";
-    this[1][i++]  = (["Attending the Chinese school in Rockville on Saturdays","星期六在罗克维尔市的中文学校上学"])[cn_ind];
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/C6CrxKNunU0?feature=share"),"Attending the Chinese school (YouTube Video)")+" in Rockville on Saturdays","星期六在罗克维尔市的"+urllink(url,"中文学校上学(YouTube视频)")])[cn_ind];
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
 
