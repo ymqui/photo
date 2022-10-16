@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-10-08T08:00");
+  var modDat = new Date("2022-10-16T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -953,7 +953,7 @@
   birds[j++] = new Bird("17-09-02T07:39","PARULIDA","Nashville Warbler","黄喉虫森莺","Leiothlypis ruficapilla",[m_id("20220115_013_NashvilleWarbler"),m_id("20220115_016_NashvilleWarbler"),p_id("2208cabird",3)],["dcdcdc","1/2022,S100801147",(t1="Male, "+gmap("Heritage Island Park",38.8923,-76.9666)),"","",(t2="遗产岛公园"),"dcdcdc","1/2022,S100801147",t1,"","",t2,"caalgp","8/2022,S117638193"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[m_id("")],["mdbhrp","1/2022,"]);
   birds[j++] = new Bird("22-09-24T15:25","PARULIDA","Connecticut Warbler","灰喉地莺","Oporornis agilis",m_id(["20220924_123_CW","20220924_122_CW"]),["mdrock","9/2022,S119361226","Immature, "+gmap("Redgate Park",39.0962,-77.1269),"","","红门公园"]);
-//birds[j++] = new Bird("22-00-00T00:00","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",[p_id("1905mxbird",)],["mxunam","1/2022,"]);
+  birds[j++] = new Bird("22-10-16T13:59","PARULIDA","MacGillivray's Warbler","灰头地莺","Geothlypis tolmiei",m_id(["20221016_152_MGWarbler","20221016_154_MGWarbler"]),["dcdcdc","10/2022,S120792784",gmap("Aberfoyle Pl NW",38.9781,-77.0584),"","","阿伯福伊尔街"]);
   birds[j++] = new Bird("22-05-22T08:57","PARULIDA","Mourning Warbler","黑胸地莺","Geothlypis philadelphia",[m_id("20220522_065_MourningWarbler")],["vavava","5/2022,S110981402","Male, "+gmap("Paddy Knob",38.2656,-79.7957)+", Highland County","","","高地郡黑熊岭"]);
   birds[j++] = new Bird("20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",[m_id("20220611_071_KentuckyWarbler"),m_id("20220611_073_KentuckyWarbler"),p_id("2020lbrp",4)],["papapa","6/2022,S112712637",(tmp1="Male, "+gmap("Ashbridge Preserve",39.981,-75.5174)+", Chester County"),"","",(tmp2="切斯特郡阿什布里奇保护区"),"papapa","6/2022,S112712637",tmp1,"","",tmp2,"mdlbrp","5/2020","Female"]);
   birds[j++] = new Bird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062_CommonYellowthroat"),p_id("1505bombayhook",11),m_id("20170930_112_CommonYellowthroat")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdmdmd","9/2017","Immature male, "+gmap("Oregon Ridge Park",39.4944,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园"]);
