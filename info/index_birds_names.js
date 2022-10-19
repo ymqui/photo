@@ -99,7 +99,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",[m_id("")],["mdbhrp","1/2022,"],"horscr1");
 //birds[j++] = new Bird("22-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",[m_id("")],["mdbhrp","1/2022,"],"maggoo1");
   birds[j++] = new Bird("18-12-02T08:59","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[p_id("1812crbirding",11),p_id("2001txbirding",1)],["crsanj","12/2018",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","arb","1/2020",gmap("Hermann Park",29.718,-95.3909)+", Houston, Texas, USA","美国德克萨斯州休斯顿赫尔曼公园"]);
-//birds[j++] = new Bird("22-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[p_id("2204flbird",)],["flflfl","1/2022,"]);
+//birds[j++] = new Bird("22-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",[p_id("2204flbird",)],["flflfl","1/2022,",gmap("Lake Apopka Wildlife Drive",28.6694,-81.5916)+", Orange County","","","奥兰治郡阿波普卡湖野生动物观看车道"]);
   birds[j++] = new Bird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",[p_id("1503barnegat",8)],["njblsp","3/2015","Atlantic form","大西洋亚种"]);
   birds[j++] = new Bird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011_CanadaGoose"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdwhrp","6/2012","",""," at Brookside Gardens","溪边花园"]);
   birds[j++] = new Bird("19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",[m_id("20190114_003_BarnacleGoose")],["mdmdmd","1/2019",gmap("Whittier Lake Park",39.4555,-77.4491)+", Frederick","","","弗雷德里克市惠蒂尔湖公园"],"bargoo");
