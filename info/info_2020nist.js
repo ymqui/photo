@@ -533,6 +533,8 @@ function initAlbum(){
     this[1][i++]  = (["Building a Lego helicopter","搭乐高直升飞机"])[cn_ind];
     this[0][i]    = ["20221015_Annelise_1","20221015_Annelise_2","20221015_Annelise_3","20221015_Annelise_4"];
     this[1][i++]  = (["Celebrating friend Annelise's 5th birthday","庆贺朋友Annelise的5岁生日"])[cn_ind];
+    this[0][i]    = "20221018_1";
+    this[1][i++]  = (["Playing with playdough","玩橡皮泥"])[cn_ind];
 
     adddate(this);
 }
