@@ -536,7 +536,7 @@ function initAlbum(){
     this[0][i]    = "20221018_1";
     this[1][i++]  = (["Playing with playdough","玩橡皮泥"])[cn_ind];
     this[0][i]    = ["20221020_1","20221020_2","20221020_3"];
-    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm in Frederick"),daycare+pagelink("2210farm","去弗雷德里克郊区的Summers农场秋游")])[cn_ind];
+    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm in Frederick"),pagelink("2210farm","去弗雷德里克郊区的Summers农场秋游")])[cn_ind];
 
     adddate(this);
 }
