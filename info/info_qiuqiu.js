@@ -23,6 +23,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2110longwood&showall","10/2021 Visiting Longwood Gardens in Pennsylvania","10/2021 宾夕法尼亚州游长木花园"],["2205florida","4/2022 Vacationing in Florida","4/2022 佛罗里达州度假"],
                   ["2206graduation","6/2022 Pre-K Graduation","6/2022 学前班毕业典礼"],["2208arizona","8/2022 Vacationing in Arizona","8/2022 亚利桑那州度假"],
                   ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"],["2209parade","9/2022 Gaithersburg Labor Day Parade","9/2022 盖瑟斯堡劳动节游行"],
+                  ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
