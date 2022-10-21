@@ -297,6 +297,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/C6CrxKNunU0?feature=share"),"Attending the Chinese school (YouTube Video)")+" in Rockville on Saturdays","星期六在罗克维尔市的"+urllink(url,"中文学校上学(YouTube视频)")])[cn_ind];
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
+    this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
+    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm"),daycare+pagelink("2210farm","Summers农场秋游")])[cn_ind];
 
     adddate(this);
 }
