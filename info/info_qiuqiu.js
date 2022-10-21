@@ -299,7 +299,7 @@ function initAlbum(){
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
     this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
-    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm"),daycare+pagelink("2210farm","Summers农场秋游")])[cn_ind];
+    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm"),daycare+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
 
     adddate(this);
 }
