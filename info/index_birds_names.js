@@ -576,6 +576,7 @@
   birds[j++] = new Bird("09-07-03T10:16","TYRANNID","Willow Flycatcher","柳纹霸鹟","Empidonax traillii",[p_id("1505puffin",2)],["arb","5/2015",gmap("Cove Island Wildlife Sanctuary",41.0447,-73.5052)+", Stamford, Connecticut, USA","美国康涅狄格州斯坦福市科夫岛野生动物保护区"]);
   birds[j++] = new Bird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",[p_id("1505bombayhook",5)],["debnwr","5/2015"]);
   birds[j++] = new Bird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35),p_id("1609vtcanbirding",14)],["mdbhrp","8/2015","cactnw","9/2016"]);
+//birds[j++] = new Bird("22-00-00T00:00","TYRANNID","Hammond's Flycatcher","哈氏纹霸鹟","Empidonax hammondii",[p_id("2208azbird",0)],["azazaz","8/2022,"]);
   birds[j++] = new Bird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(sas("20201215_13",["7","8"],"_Pacific-slopeFlycatcher")),["mdmdmd","12/2020",gmap("Riverwalk Park",39.435,-77.385)+", Frederick","","","弗雷德里克市河滨公园"]);
 //birds[j++] = new Bird("22-00-00T00:00","TYRANNID","Cordilleran Flycatcher","科迪纹霸鹟","Empidonax occidentalis",[p_id("2208azbird",0)],["azazaz","8/2022,"]);
   birds[j++] = new Bird("19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",p_id("1905mxbird",[10,11]),["mxunam","5/2019"]);
