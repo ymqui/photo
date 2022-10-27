@@ -13,6 +13,8 @@ pro find_spec,name
        line  = line[ind]
        name  = name[ind]
        after = after[ind]
+       latin = latin[ind]
+       chinese = chinese[ind]
        existed = existed[ind]
     endif
     for i=0,n_elements(name)-1 do begin
