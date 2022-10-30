@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-10-16T08:00");
+  var modDat = new Date("2022-10-30T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -576,7 +576,7 @@
   birds[j++] = new Bird("09-07-03T10:16","TYRANNID","Willow Flycatcher","柳纹霸鹟","Empidonax traillii",[p_id("1505puffin",2)],["arb","5/2015",gmap("Cove Island Wildlife Sanctuary",41.0447,-73.5052)+", Stamford, Connecticut, USA","美国康涅狄格州斯坦福市科夫岛野生动物保护区"]);
   birds[j++] = new Bird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",[p_id("1505bombayhook",5)],["debnwr","5/2015"]);
   birds[j++] = new Bird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35),p_id("1609vtcanbirding",14)],["mdbhrp","8/2015","cactnw","9/2016"]);
-//birds[j++] = new Bird("22-00-00T00:00","TYRANNID","Hammond's Flycatcher","哈氏纹霸鹟","Empidonax hammondii",[p_id("2208azbird",0)],["papapa","10/2022,",gmap("Tuscarora State Park",40.807,-76.0073)+", Schuylkill County","","","斯古吉尔郡塔斯卡罗拉州立公园"]);
+  birds[j++] = new Bird("22-10-29T10:33","TYRANNID","Hammond's Flycatcher","哈氏纹霸鹟","Empidonax hammondii",m_id(["20221029_159_HF","20221029_156_HF"]),["papapa","10/2022,S121532978",gmap("Tuscarora State Park",40.807,-76.0073)+", Schuylkill County","","","斯古吉尔郡塔斯卡罗拉州立公园"]);
   birds[j++] = new Bird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(sas("20201215_13",["7","8"],"_Pacific-slopeFlycatcher")),["mdmdmd","12/2020",gmap("Riverwalk Park",39.435,-77.385)+", Frederick","","","弗雷德里克市河滨公园"]);
 //birds[j++] = new Bird("22-00-00T00:00","TYRANNID","Cordilleran Flycatcher","科迪纹霸鹟","Empidonax occidentalis",[p_id("2208azbird",0)],["azazaz","8/2022,"]);
   birds[j++] = new Bird("19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",p_id("1905mxbird",[10,11]),["mxunam","5/2019"]);
@@ -980,7 +980,7 @@
   birds[j++] = new Bird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler","20190830_011_PrairieWarbler","20170709_081_PrairieWarbler"]),["mdlbrp","7/2017","Male","flflfl","8/2019","Female, "+gmap("Magnolia Park",28.6339,-81.5507)+", Orange County","","","奥兰治郡阿波普卡湖玉兰公园","mdlbrp","7/2017","Immature"]);
   birds[j++] = new Bird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",[p_id("1501prbirding",18)],["prcnwr","1/2015"],"adewar1");
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[p_id("2208azbird",87)],["azazaz","8/2022,"]);
-//birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("")],["mdhadg","1/2022,"]);
+  birds[j++] = new Bird("22-10-30T08:59","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("20221030_161_BTGW")],["mdmdmd","10/2022,S121588250","Immature female, "+gmap("National Colonial Farm",38.6948,-77.0677)+", Prince George's County","","","乔治王子郡格国家殖民农场"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[m_id("")],["mdbhrp","1/2022,"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[m_id("")],["mdbhrp","1/2022,"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[m_id("")],["mdbhrp","1/2022,"]);
