@@ -980,7 +980,7 @@
   birds[j++] = new Bird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原林莺","Setophaga discolor",m_id(["20170709_082_PrairieWarbler","20190830_011_PrairieWarbler","20170709_081_PrairieWarbler"]),["mdlbrp","7/2017","Male","flflfl","8/2019","Female, "+gmap("Magnolia Park",28.6339,-81.5507)+", Orange County","","","奥兰治郡阿波普卡湖玉兰公园","mdlbrp","7/2017","Immature"]);
   birds[j++] = new Bird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",[p_id("1501prbirding",18)],["prcnwr","1/2015"],"adewar1");
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[p_id("2208azbird",87)],["azazaz","8/2022,"]);
-  birds[j++] = new Bird("22-10-30T08:59","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("20221030_161_BTGW")],["mdmdmd","10/2022,S121588250","Immature, "+gmap("National Colonial Farm",38.6948,-77.0677)+", Prince George's County","","","乔治王子郡格国家殖民农场"]);
+  birds[j++] = new Bird("22-10-30T08:59","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",[m_id("20221030_161_BTGW")],["mdmdmd","10/2022,S121588250","Immature, "+gmap("National Colonial Farm",38.6948,-77.0677)+", Prince George's County","","","乔治王子郡国家殖民农场"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[m_id("")],["mdbhrp","1/2022,"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[m_id("")],["mdbhrp","1/2022,"]);
 //birds[j++] = new Bird("22-00-00T00:00","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[m_id("")],["mdbhrp","1/2022,"]);
