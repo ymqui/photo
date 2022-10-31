@@ -22,23 +22,24 @@ pro find_spec,name
     endfor
 end
 
-pro convert_gray,name
-    tmp = where(stregex(name,'gray',/boolean,/fold_case),count)
-    for i=0,count-1 do begin
-        tmp1 = name[tmp[i]]
-        pos = strpos(name[tmp[i]],'gray')
-        strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(name[tmp[i]],(['Gray','gray'])[pos ge 0])
-        name[tmp[i]] = tmp1
-    endfor
-end
-
-function reform_name,name,latin=latin
-    tmp = strsplit(strlowcase(name),' ',/extract,count=ncount)
-    newname = strupcase(strmid(tmp[0],0,1))+strmid(tmp[0],1)+([' ',''])[ncount eq 1]
-    for i=1,ncount-1 do begin
-        if keyword_set(latin) then newname = newname+tmp[i]+([' ',''])[i eq ncount-1] $
-        else newname = newname+strupcase(strmid(tmp[i],0,1))+strmid(tmp[i],1)+([' ',''])[i eq ncount-1]
-    endfor
+function reform_name,name,latin=latin,gray=gray
+    if keyword_set(gray) then begin
+       newname = strtrim(name,2)
+       tmp = where(stregex(newname,'gray',/boolean,/fold_case),ncount)
+       for i=0,ncount-1 do begin
+           tmp1 = newname[tmp[i]]
+           pos = strpos(newname[tmp[i]],'gray')
+           strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(newname[tmp[i]],(['Gray','gray'])[pos ge 0])
+           newname[tmp[i]] = tmp1
+       endfor
+    endif else begin
+       tmp = strsplit(strlowcase(name),' ',/extract,count=ncount)
+       newname = strupcase(strmid(tmp[0],0,1))+strmid(tmp[0],1)+([' ',''])[ncount eq 1]
+       for i=1,ncount-1 do begin
+           if keyword_set(latin) then newname = newname+tmp[i]+([' ',''])[i eq ncount-1] $
+           else newname = newname+strupcase(strmid(tmp[i],0,1))+strmid(tmp[i],1)+([' ',''])[i eq ncount-1]
+       endfor
+    endelse
     return,newname
 end
 
@@ -63,9 +64,8 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
        name = strtrim(dm_dialog_input('name:',xsize=140),2)
        name = strsplit(name,',',/extract)
     endif
-    name1 = strtrim(name,2)
+    name1 = reform_name(name,/gray)
     if strlen(name1[0]) eq 0 then return,-1
-    convert_gray,name1
     line = lonarr(n_elements(name1))-1
     read_excel,birds=birds,latin=alllatin
     if arg_present(chinese) then begin
@@ -76,7 +76,7 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
     name1 = strlowcase(name1)
     if arg_present(after) or arg_present(existed) then begin
        read_ibn,bird=list
-       convert_gray,list
+       list = reform_name(list,/gray)
        list_num = find_spec_pos(list)
        after = strarr(n_elements(name1))
        existed = bytarr(n_elements(name1))
@@ -140,7 +140,7 @@ pro read_excel,birds=birds,header=header,latin=latin,data=data,family=family,n_s
            ind = where(strmatch(birds,name2[1,i],/fold_case),count2)
            if count2 eq 1 then birds[ind[0]] = name2[0,i]
        endfor
-       convert_gray,birds
+       birds = reform_name(birds,/gray)
     endif
     if arg_present(family) then begin
        family = strupcase(data.(ind2[0]))
