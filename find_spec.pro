@@ -22,6 +22,16 @@ pro find_spec,name
     endfor
 end
 
+pro convert_gray,name
+    tmp = where(stregex(name,'gray',/boolean,/fold_case),count)
+    for i=0,count-1 do begin
+        tmp1 = name[tmp[i]]
+        pos = strpos(name[tmp[i]],'gray')
+        strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(name[tmp[i]],(['Gray','gray'])[pos ge 0])
+        name[tmp[i]] = tmp1
+    endfor
+end
+
 function reform_name,name,latin=latin
     tmp = strsplit(strlowcase(name),' ',/extract,count=ncount)
     newname = strupcase(strmid(tmp[0],0,1))+strmid(tmp[0],1)+([' ',''])[ncount eq 1]
@@ -55,13 +65,7 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
     endif
     name1 = strtrim(name,2)
     if strlen(name1[0]) eq 0 then return,-1
-    tmp = where(stregex(name1,'gray',/boolean,/fold_case),count)
-    for i=0,count-1 do begin
-        tmp1 = name1[tmp[i]]
-        pos = strpos(name1[tmp[i]],'gray')
-        strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(name1[tmp[i]],(['Gray','gray'])[pos ge 0])
-        name1[tmp[i]] = tmp1
-    endfor
+    convert_gray,name1
     line = lonarr(n_elements(name1))-1
     read_excel,birds=birds,latin=alllatin
     if arg_present(chinese) then begin
@@ -72,13 +76,7 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
     name1 = strlowcase(name1)
     if arg_present(after) or arg_present(existed) then begin
        read_ibn,bird=list
-       tmp = where(stregex(list,'gray',/boolean,/fold_case),count)
-       for i=0,count-1 do begin
-           tmp1 = list[tmp[i]]
-           pos = strpos(list[tmp[i]],'gray')
-           strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(list[tmp[i]],(['Gray','gray'])[pos ge 0])
-           list[tmp[i]] = tmp1
-       endfor
+       convert_gray,list
        list_num = find_spec_pos(list)
        after = strarr(n_elements(name1))
        existed = bytarr(n_elements(name1))
@@ -142,13 +140,7 @@ pro read_excel,birds=birds,header=header,latin=latin,data=data,family=family,n_s
            ind = where(strmatch(birds,name2[1,i],/fold_case),count2)
            if count2 eq 1 then birds[ind[0]] = name2[0,i]
        endfor
-       tmp = where(stregex(birds,'gray',/boolean,/fold_case),count)
-       for i=0,count-1 do begin
-           tmp1 = birds[tmp[i]]
-           pos = strpos(birds[tmp[i]],'gray')
-           strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(birds[tmp[i]],(['Gray','gray'])[pos ge 0])
-           birds[tmp[i]] = tmp1
-       endfor   
+       convert_gray,birds
     endif
     if arg_present(family) then begin
        family = strupcase(data.(ind2[0]))
