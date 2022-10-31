@@ -72,6 +72,13 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
     name1 = strlowcase(name1)
     if arg_present(after) or arg_present(existed) then begin
        read_ibn,bird=list
+       tmp = where(stregex(list,'gray',/boolean,/fold_case),count)
+       for i=0,count-1 do begin
+           tmp1 = list[tmp[i]]
+           pos = strpos(list[tmp[i]],'gray')
+           strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(list[tmp[i]],(['Gray','gray'])[pos ge 0])
+           list[tmp[i]] = tmp1
+       endfor
        list_num = find_spec_pos(list)
        after = strarr(n_elements(name1))
        existed = bytarr(n_elements(name1))
