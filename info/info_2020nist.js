@@ -539,6 +539,9 @@ function initAlbum(){
     this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm in Frederick"),pagelink("2210farm","去弗雷德里克郊区的Summers农场秋游")])[cn_ind];
     this[0][i]    = "20221028_1";
     this[1][i++]  = (["Spiderman and Batman","小蜘蛛侠和小蝙蝠侠"])[cn_ind];
+    makeface[j++] = i;
+    this[0][i]    = "20221101_1";
+    this[1][i++]  = (["Batman goes Trick-Or-Treating","小蝙蝠侠万圣节讨糖果的故事：我和爸爸妈妈出去讨糖果看到一个鬼，他在我身边飞来飞去嘲笑我，吓得我都摔倒了，这时一只巨大的蝙蝠飞来把鬼吞了，然后我们接着讨糖完回家"])[cn_ind];
 
     adddate(this);
 }
