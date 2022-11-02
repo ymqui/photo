@@ -303,6 +303,20 @@ function initAlbum(){
     this[0][i]    = "20221031_012_Birthday";
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
 
+    if (/birthday/.test(albumid)) {
+       makeface = new Array();
+       var tmpid = this[1].reduce(function(a,e,i){
+           if (e.indexOf((["Birthday!","岁生日快乐"])[cn_ind])!=-1) a.push(i);
+           return a;
+       },[]);
+       for (var i=0;i<tmpid.length;i++){
+           this[0].splice(i,1,this[0][tmpid[i]]);
+           this[1].splice(i,1,this[1][tmpid[i]]);
+       }
+       this[0].length = tmpid.length;
+       this[1].length = tmpid.length;
+    }
+
     adddate(this);
 }
 
