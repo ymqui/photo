@@ -305,16 +305,16 @@ function initAlbum(){
 
     if (/birthday/.test(albumid)) {
        makeface = new Array();
-       var tmpid = this[1].reduce(function(a,e,i){
-           if (e.indexOf((["Birthday!","岁生日快乐"])[cn_ind])!=-1) a.push(i);
+       var n_id = this[1].reduce(function(a,e,i){
+           if (e.indexOf((["Birthday!","岁生日快乐"])[cn_ind])!=-1){
+              this[0].splice(a,1,this[0][i]);
+              this[1].splice(a,1,this[1][i]);
+              a++;
+           }
            return a;
-       },[]);
-       for (var i=0;i<tmpid.length;i++){
-           this[0].splice(i,1,this[0][tmpid[i]]);
-           this[1].splice(i,1,this[1][tmpid[i]]);
-       }
-       this[0].length = tmpid.length;
-       this[1].length = tmpid.length;
+       },0);
+       this[0].length = n_id;
+       this[1].length = n_id;
     }
 
     adddate(this);
