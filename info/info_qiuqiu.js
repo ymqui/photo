@@ -306,9 +306,9 @@ function initAlbum(){
     if (/birthday/.test(window.location.search.substring(1))) {
        makeface = new Array();
        var tmp  = new array();
-       tmp[0]  = new Array();
-       tmp[1]  = new Array();
-       j       = 0; 
+       tmp[0]   = new Array();
+       tmp[1]   = new Array();
+       j        = 0; 
        for (var i=0;i<this[1].length;i++){
            if (this[1][i].indexOf((["Birthday!","岁生日快乐"])[cn_ind])!=-1){
               tmp[0][j]   = this[0][i];
