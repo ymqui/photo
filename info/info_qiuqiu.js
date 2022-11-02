@@ -305,16 +305,22 @@ function initAlbum(){
 
     if (/birthday/.test(window.location.search.substring(1))) {
        makeface = new Array();
-       var n_id = this[1].reduce(function(a,e,ind){
+       var tmp = new Array();
+       tmp.length = 2;
+       tmp[0] = this[0].slice();
+       tmp[1] = this[1].slice();
+       var n_id = tmp[1].reduce(function(a,e,ind){
            if (e.indexOf((["Birthday!","岁生日快乐"])[cn_ind])!=-1){
-              this[0].splice(a,1,this[0][ind]);
-              this[1].splice(a,1,this[1][ind]);
+              tmp[0].splice(a,1,tmp[0][ind]);
+              tmp[1].splice(a,1,tmp[1][ind]);
               a++;
            }
            return a;
        },0);
-       this[0].length = n_id;
-       this[1].length = n_id;
+       tmp[0].length = n_id;
+       tmp[1].length = n_id;
+       this[0] = tmp[0].slice();
+       this[1] = tmp[1].slice();
     }
 
     adddate(this);
