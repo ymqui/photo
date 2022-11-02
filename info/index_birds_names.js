@@ -834,7 +834,7 @@
   birds[j++] = new Bird("15-01-04T07:12","PASSERID","House Sparrow","家麻雀","Passer domesticus",m_id(sas("20150315_",["032_HouseSparrow","031_HouseSparrow"])),["mdmdmd","3/2015","Male, "+gmap("Havre de Grace",39.5446,-76.0877),"","","哈佛德格雷斯市","mdmdmd","3/2015","Female, "+gmap("Havre de Grace",39.5446,-76.0877),"","","哈佛德格雷斯市"]);
 //birds[j++] = new Bird("22-00-00T00:00","PLOCEIDA","Red-billed Quelea","红嘴奎利亚雀","Quelea quelea",[p_id("1601china",)],["cnbjjp","1/2022,"],"rebque1");
   birds[j++] = new Bird("15-01-05T14:42","ESTRILDI","Bronze Mannikin","铜色文鸟","Spermestes cucullata",p_id("1501prbirding",[27,28]),["prceci","1/2015","prceci","1/2015","Immature"],"broman1");
-//birds[j++] = new Bird("22-00-00T00:00","ESTRILDI","Scaly-breasted Munia","斑文鸟","Lonchura punctulata",[p_id("2204flbird",)],["flflfl","1/2022,",gmap("Pinewoods Park",25.6471,-80.3543)+", Miami-Dade County","","","迈阿密-戴德郡松林公园"],"nutman");
+//birds[j++] = new Bird("22-00-00T00:00","ESTRILDI","Scaly-breasted Munia","斑文鸟","Lonchura punctulata",[p_id("2212flbird",)],["flflfl","12/2022,",gmap("Dunedin Hammock Park",28.0319,-82.7785)+", Pinellas County","","","皮尼拉斯郡达尼丁市硬木公园"],"nutman");
   birds[j++] = new Bird("16-01-04T10:48","ESTRILDI","White-rumped Munia","白腰文鸟","Lonchura striata",p_id("1601china",[10,11]),["cnjsxp","1/2016"],"whrmun");
 //birds[j++] = new Bird("22-00-00T00:00","VIDUIDAE","Village Indigobird","靛蓝维达雀","Vidua chalybeata",[m_id("")],["mdbhrp","1/2022,"],"vilind");
 //birds[j++] = new Bird("22-00-00T00:00","PEUCEDRA","Olive Warbler","橄榄绿森莺","Peucedramus taeniatus",[p_id("2208azbird")],["azazaz","8/2022,"],"oliwar");
