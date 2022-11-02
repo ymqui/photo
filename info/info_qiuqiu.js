@@ -305,7 +305,7 @@ function initAlbum(){
 
     if (/birthday/.test(window.location.search.substring(1))) {
        makeface = new Array();
-       var tmp  = this;
+       var tmp  = this.slice();
        this[0]  = new Array();
        this[1]  = new Array();
        j        = 0; 
