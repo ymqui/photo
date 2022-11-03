@@ -593,6 +593,43 @@ function switchlang(){
     location.href = tmpdir+"showphoto.html?"+window.location.search.substring(1);
 }
 
+function switchbirthday(){
+    stopShow();
+    if(window.usechinese){
+       // tmpdir = "../photo/";
+       if (googledrive){
+          tmpdir = "https://ymqui.github.io/photo/";  
+       }else{
+          tmpdir = "http://www.pha.jhu.edu/~qiuym/photo/";
+       }  
+    }else{
+       // tmpdir = "../zhaopian/";
+       if (googledrive){
+          tmpdir = "https://ymqui.github.io/zhaopian/";
+       }else{
+          tmpdir = "http://www.pha.jhu.edu/~qiuym/zhaopian/";
+       }
+    }
+    if(window.friendalbum){
+        tmpdir = tmpdir+"friend/";
+    }else if(window.yunalbum){
+        tmpdir = tmpdir+"yun/";
+    }else if(window.restalbum){
+        tmpdir = tmpdir+"restaurant/";
+    }else if(window.familyalbum){
+	tmpdir = tmpdir+"family/";
+    }else if(window.birdalbum){
+        tmpdir = tmpdir+"birds/";
+    }
+    var tmp = window.location.search.substring(1);
+    if (/birthday/.test(tmp)){
+       tmp = tmp+"&birthday";
+    }else{
+       tmp = tmp.replace("&birthday","");
+    }
+    location.href = tmpdir+"showphoto.html?"+tmp;
+}
+
 function pagelink(pid, descrip){
     return "<a href='showphoto.html?"+pid+"' style='color: "+link_color+"; text-decoration: underline;' target='"+pid+"'>"+descrip+"</a>";
 }
