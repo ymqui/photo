@@ -304,7 +304,7 @@ function initAlbum(){
     this[0][i]    = "20221031_012_Birthday";
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
 
-    if (/birthday/.test(window.location.search.substring(1))) {
+    if ((/birthday/i).test(window.location.search.substring(1))) {
        var n_id = 0;
        for (var i=0;i<this[1].length;i++){
            if (this[1][i].indexOf((["Birthday!","岁生日快乐！"])[cn_ind])!=-1){
