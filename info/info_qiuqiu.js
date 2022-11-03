@@ -9,6 +9,7 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
+var birthday   = true;
 var strDate    = (new Date()).toISOString();
 strDate        = strDate.substring(5,7)+"/"+strDate.substring(0,4);
 if (strDate.substring(0,1)=="0") {strDate=strDate.substring(1);}
