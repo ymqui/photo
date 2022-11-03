@@ -124,7 +124,11 @@
      document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+'english_v.png"'+borderstr('英文版/English Version')+'></A>');
      document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr('相册主页')+'></A>');
      if(window.birthday){
-        document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('生日照片')+'></A>');
+        if ((/birthday/i).test(window.location.search.substring(1))) {
+           document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('全部照片')+'></A>');
+        }else{
+           document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('生日照片')+'></A>');
+        }
      }
   }else{
      document.write('<A onclick="getFirst()"><IMG SRC="'+thumb_dir+prefix+'first.png"'+borderstr('First')+'></A>');
@@ -147,7 +151,11 @@
      document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+'chinese_v.png"'+borderstr('Chinese Version/中文版')+'></A>');
      document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr('Photo Album Home')+'></A>');
      if(window.birthday){
-        document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('Birthday Photos')+'></A>');
+        if ((/birthday/i).test(window.location.search.substring(1))) {
+           document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('All Photos')+'></A>');
+        }else{
+           document.write('<A onclick="switchbirthday()"><IMG SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('Birthday Photos')+'></A>');
+        }
      }
   }
   if(cellphone){
