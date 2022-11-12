@@ -676,7 +676,7 @@
   birds[j++] = new Bird("15-03-29T08:49","CORVIDAE","Fish Crow","鱼鸦","Corvus ossifragus",[m_id("20150329_048_FishCrow")],["vavava","3/2015",gmap("Ford's Landing Park",38.797,-77.0401)+", Alexandria","","","亚历山大市福特码头公园"]);
 //birds[j++] = new Bird("22-00-00T00:00","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",[p_id("1601china",)],["cnbjjp","1/2022,"],"carcro1");
   birds[j++] = new Bird("16-01-15T12:07","CORVIDAE","Large-billed Crow","大嘴乌鸦","Corvus macrorhynchos",[p_id("1601china",65)],["cnbjsp","1/2016"],"labcro1");
-  birds[j++] = new Bird("14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",p_id("1407michiganbirding",[4,5]),["arb","7/2014",gmap("Pictured Rocks National Lakeshore",46.53308,-86.4884)+", Michigan, USA","美国密西根州画石国家湖岸"]);
+  birds[j++] = new Bird("14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",[p_id("1407michiganbirding",5),m_id("20221112_163_CR")],["arb","7/2014",gmap("Pictured Rocks National Lakeshore",46.53308,-86.4884)+", Michigan, USA","美国密西根州画石国家湖岸","mdmdmd","11/2022,S122282263",gmap("Wootton's Mill Park",39.0836,-77.179)+", Montgomery County","","","蒙哥马利郡伍顿磨坊公园"]);
 //birds[j++] = new Bird("22-00-00T00:00","CORCORAC","White-winged Chough","白翅澳鸦","Corcorax melanorhamphos",[m_id("")],["mdbhrp","1/2022,"],"whwcho1");
 //birds[j++] = new Bird("22-00-00T00:00","MELAMPIT","Lesser Melampitta","小黑脚风鸟","Melampitta lugubris",[m_id("")],["mdbhrp","1/2022,"],"lesmel1");
 //birds[j++] = new Bird("22-00-00T00:00","IFRITIDA","Blue-capped Ifrit","蓝顶鹛鸫","Ifrita kowaldi",[m_id("")],["mdbhrp","1/2022,"],"bucifr1");
