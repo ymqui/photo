@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-10-30T08:00");
+  var modDat = new Date("2022-11-12T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
