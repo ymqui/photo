@@ -801,7 +801,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",[p_id("2208azbird")],["azazaz","8/2022,"]);
   birds[j++] = new Bird("06-03-26T16:35","TURDIDAE","Eastern Bluebird","东蓝鸲","Sialia sialis",p_id("2009cobirding",[22,3]),["mdcocn","5/2009","Male",""," at Violettes Lock","紫罗兰闸","mdcocn","2/2009","Female",""," at Violettes Lock","紫罗兰闸"]);
   birds[j++] = new Bird("20-12-07T11:16","TURDIDAE","Townsend's Solitaire","坦氏孤鸫","Myadestes townsendi",[m_id("20201207_132_TownsendSolitaire")],["papapa","12/2020",gmap("Caledonia State Park",39.9087,-77.4788)+", Franklin County","","","富兰克林郡喀里多尼亚州立公园"]);
-//birds[j++] = new Bird("22-00-00T00:00","TURDIDAE","Varied Thrush","杂色鸫","Ixoreus naevius",[m_id("")],["vavava","8/2022,",gmap("Funnell Street",36.8873,-76.1523)+", Virginia Beach","","","弗吉尼亚海滩方内尔街"]);
+//birds[j++] = new Bird("22-00-00T00:00","TURDIDAE","Varied Thrush","杂色鸫","Ixoreus naevius",[m_id("")],["vavava","11/2022,","Male, "+gmap("Funnell Street",36.8873,-76.1523)+", Virginia Beach","","","弗吉尼亚海滩方内尔街"]);
 //birds[j++] = new Bird("22-00-00T00:00","TURDIDAE","Aztec Thrush","阿芝鸫","Ridgwayia pinicola",[p_id("2208azbird",)],["azazaz","8/2022,"],"aztthr");
   birds[j++] = new Bird("15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",[m_id("20150621_078_WoodThrush")],["mdpvsp","6/2015"]);
   birds[j++] = new Bird("15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",[m_id("20170506_043_SwainsonThrush"),p_id("1507birdingwest",12)],["nycenp","5/2017","waolnp","7/2015","",""," at Marymere Falls Trail","玛莉密瀑布小道"]);
