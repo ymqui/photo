@@ -546,6 +546,8 @@ function initAlbum(){
     this[1][i++]  = (["Thanks at Thanksgiving","感恩节致谢：我特别感谢爸爸帮我一起做作业"])[cn_ind];
     this[0][i]    = ["20221117_2","20221117_3","20221117_4"];
     this[1][i++]  = (["Thanksgiving lunch","感恩节午餐"])[cn_ind];
+    this[0][i]    = "20221122_1";
+    this[1][i++]  = (["Nathan and the cheerio turkey","球球和甜麦圈火鸡"])[cn_ind];
 
     adddate(this);
 }
