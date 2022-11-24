@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-11-12T08:00");
+  var modDat = new Date("2022-11-24T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -121,7 +121,7 @@
   birds[j++] = new Bird("07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Spatula discors",m_id(["20160410_036_Blue-wingedTeal","20150321_042_Blue-wingedTeal"]),["mdcocn","4/2016","Female left, male right",""," at Riley's Lock","莱利闸","mdswhf","3/2015"]);
   birds[j++] = new Bird("12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Spatula clypeata",[m_id("20151122_129_NorthernShoveler"),m_id("20150228_019_NorthernShoveler")],["vahump","11/2015","Male left, females right","mdftmh","2/2015"]);
   birds[j++] = new Bird("15-03-02T09:21","ANATIDAE","Gadwall","赤膀鸭","Mareca strepera",m_id(["20151122_127_Gadwall","20150302_025_Gadwall"]),["vahump","11/2015","Male left, female right","mdcocn","3/2015","Males",""," at Violettes Lock","紫罗兰闸"]);
-  birds[j++] = new Bird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20160313_020_EurasianWigeon")],["mdmdmd","3/2016","Male, "+gmap("Trout Run WWTP",39.3898,-79.3915)+", Garrett County","","","加勒特郡鳟鱼溪废水处理厂"]);
+  birds[j++] = new Bird("16-03-13T09:30","ANATIDAE","Eurasian Wigeon","赤颈鸭","Mareca penelope",[m_id("20221124_175_EW")],["mdmdmd","11/2022,S122952641","Male, "+gmap("Bayside Development Pond",38.2987,-75.1364)+", Worcester County","","","伍斯特郡湾区开发池塘"]);
   birds[j++] = new Bird("15-02-15T15:42","ANATIDAE","American Wigeon","绿眉鸭","Mareca americana",m_id(["20150215_010_AmericanWigeon","20170121_012_AmericanWigeon"]),["mdloch","2/2015","Males","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市"]);
   birds[j++] = new Bird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/Mallard_20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111_Mallard")],["mdcocn","2/2006","Female left, male right","mdwhrp","6/2012","Eclipse male",""," at Brookside Gardens","溪边花园","mdbmnt","10/2015"]);
   birds[j++] = new Bird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",[p_id("1606florida",9)],["flflfl","6/2016","Males, "+gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
