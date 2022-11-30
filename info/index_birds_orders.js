@@ -542,7 +542,7 @@
          if (tmp_date.getTime()>modTim){this.newbird = true;}
      }
      for (var i=0;i<this.photo.length;i++){
-         if ((""+this.photo[i]).match(/_dig_/i)!=null){dig_cnts++;}
+         if ((""+this.photo[i]).match(/_dig/i)!=null){dig_cnts++;}
          this.info.push(tmp_info[Math.min(i,tmp_info.length-1)]); 
          this.cinfo.push(tmp_cinfo[Math.min(i,tmp_cinfo.length-1)]);
      }
