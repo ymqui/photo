@@ -252,9 +252,9 @@ function initAlbum(){
          this[1][i++] = "Green Heron";
          this[1][i++] = "Mallards";
          this[1][i++] = "Northern Mockingbird";
-
-         adddate(this);
     }
+
+    adddate(this);
 }
  
 //web counter info
