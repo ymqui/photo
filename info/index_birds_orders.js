@@ -769,6 +769,14 @@
      return "https://ebird.org/species/"+bid.trim()+"/";
   }
 
+  function hotspot(id,name){
+     if (typeof name == 'string'){
+        return "<a href='https://birdinghotspots.org/hotspot/"+id+lnksty+" target='"+id+"'>"+name+"</a>";
+     }else{
+        return "https://birdinghotspots.org/hotspot/"+id;
+     }
+  }
+
   function gmap(name,latt,long){
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
         return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+name+"</a>";
