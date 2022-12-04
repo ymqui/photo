@@ -200,7 +200,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","TROCHILI","White-eared Hummingbird","白耳蜂鸟","Basilinna leucotis",[p_id("2208azbird",7)],["azazaz","8/2022,"],"whehum");
   birds[j++] = new Bird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1","");
   birds[j++] = new Bird("18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",[p_id("1812crbirding",43)],["crarol","12/2018"],"scbhum1","");
-  birds[j++] = new Bird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",p_id("1905mxbird",[4,8]),["mxunam","5/2019","Female"],"vichum");
+  birds[j++] = new Bird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",p_id("2208azbird",42).concat(p_id("1905mxbird",[4,8])),["azazaz","8/2022,S116569566",gmap("Paton Center for Hummingbirds",31.5389,-110.7606)+", Santa Cruz County","","","圣克鲁斯郡佩顿蜂鸟中心","mxunam","5/2019","Female"],"vichum");
   birds[j++] = new Bird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","arb","5/2019",wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园",true)],"berhum");
   birds[j++] = new Bird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41)],["crarol","12/2018"],"rtlhum");
 //birds[j++] = new Bird("22-00-00T00:00","MUSOPHAG","Great Blue Turaco","大蓝蕉鹃","Corythaeola cristata",[m_id("")],["mdbhrp","1/2022,"],"grbtur1");
