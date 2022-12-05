@@ -48,7 +48,7 @@
       mdswhf:  ["Swan Harbor Farm","Harford County, Maryland, USA","天鹅港农场","美国马里兰州哈福德郡","http://www.swanharborfarm.org/"],
       mdwhrp:  ["Wheaton Regional Park","Maryland, USA","惠顿公园","美国马里兰州","https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/"],
       mdworc:  ["Worcester County","Maryland, USA","伍斯特郡","美国马里兰州"],
-      mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",wikiurl("Mackinac Island"),baikeurl("麦基诺岛")], 
+      mimack:  ["Mackinac Island","Michigan, USA","麦基诺岛","美国密西根州",hotspot("L773674"),baikeurl("麦基诺岛")], 
       mxmcal:  ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],                  
       mxguan:  ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
       mxunam:  ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
@@ -677,7 +677,7 @@
   birds[j++] = new Bird("15-03-29T08:49","CORVIDAE","Fish Crow","鱼鸦","Corvus ossifragus",m_id("20150329_048"),["vavava","3/2015",gmap("Ford's Landing Park",38.797,-77.0401)+", Alexandria","","","亚历山大市福特码头公园"]);
 //birds[j++] = new Bird("22-00-00T00:00","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",p_id("",),["cnbjjp","1/2022,"],"carcro1");
   birds[j++] = new Bird("16-01-15T12:07","CORVIDAE","Large-billed Crow","大嘴乌鸦","Corvus macrorhynchos",p_id("1601china",65),["cnbjsp","1/2016"],"labcro1");
-  birds[j++] = new Bird("14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",[p_id("1407michiganbirding",5),m_id("20221118_167")],["arb","7/2014",gmap("Pictured Rocks National Lakeshore",46.53308,-86.4884)+", Michigan, USA","美国密西根州画石国家湖岸","pawagg","11/2022,S122628666"]);
+  birds[j++] = new Bird("14-07-05T17:51","CORVIDAE","Common Raven","渡鸦","Corvus corax",[p_id("1407michiganbirding",5),m_id("20221118_167")],["arb","7/2014",npsurl("piro","Pictured Rocks National Lakeshore")+", Michigan, USA","美国密西根州"+npsurl("piro","画石国家湖岸"),"pawagg","11/2022,S122628666"]);
 //birds[j++] = new Bird("22-00-00T00:00","CORCORAC","White-winged Chough","白翅澳鸦","Corcorax melanorhamphos",m_id(""),["mdbhrp","1/2022,"],"whwcho1");
 //birds[j++] = new Bird("22-00-00T00:00","MELAMPIT","Lesser Melampitta","小黑脚风鸟","Melampitta lugubris",m_id(""),["mdbhrp","1/2022,"],"lesmel1");
 //birds[j++] = new Bird("22-00-00T00:00","IFRITIDA","Blue-capped Ifrit","蓝顶鹛鸫","Ifrita kowaldi",m_id(""),["mdbhrp","1/2022,"],"bucifr1");
