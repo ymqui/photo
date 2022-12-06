@@ -544,8 +544,10 @@ function initAlbum(){
     this[1][i++]  = (["Batman goes trick-or-treating","小蝙蝠侠万圣节讨糖果的故事：我和爸爸妈妈出去讨糖果看到一只鬼，它在我身边飞来飞去嘲笑我，吓得我都摔倒了，这时一只巨大的蝙蝠飞来把鬼给吞了，然后我们接着讨糖完回家"])[cn_ind];
     this[0][i]    = "20221117_1";
     this[1][i++]  = (["Thanks at Thanksgiving","感恩节致谢：我特别感谢爸爸帮我一起做作业"])[cn_ind];
-    this[0][i]    = ["20221117_2","20221117_3","20221117_4","20221117_5"];
+    this[0][i]    = ["20221117_2","20221117_3","20221117_4","20221117_5","20221117_6"];
     this[1][i++]  = (["Thanksgiving lunch","感恩节午餐"])[cn_ind];
+    this[0][i]    = ["20221117_7","20221117_8","20221117_9"];
+    this[1][i++]  = (["Visiting the NIST net zero house","参观NIST净零耗能住宅"])[cn_ind];
     this[0][i]    = "20221122_1";
     this[1][i++]  = (["Nathan and the cheerio turkey","球球和甜麦圈火鸡"])[cn_ind];
 
