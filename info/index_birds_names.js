@@ -79,7 +79,7 @@
       vacnwr:  ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump:  ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
       vavava:  ["Virginia","USA","弗吉尼亚州","美国"], 
-      vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","文洛克野生动物管理区","美国佛蒙特州",hotspot("L207476")],  
+      vtwwma:  ["Wenlock Wildlife Management Area","Vermont, USA","温洛克野生动物管理区","美国佛蒙特州",hotspot("L207476")],  
       waneah:  ["Neah Bay, Washington","USA","华盛顿州尼亚湾","美国"],
       waolnp:  ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl("奥林匹克国家公园")]
   };
@@ -319,7 +319,7 @@
   birds[j++] = new Bird("15-07-09T13:32","LARIDAE ","Black-legged Kittiwake","三趾鸥","Rissa tridactyla",p_id("1507birdingwest",21),["waneah","7/2015","On the left, on the right is a "+b_link("California Gull")+", "+gmap("Hobuck Beach",48.3376,-124.6673),"左边，右边是一只"+b_link("加州鸥"),"","霍巴克海滩"]);
   birds[j++] = new Bird("17-09-09T08:52","LARIDAE ","Sabine's Gull","叉尾鸥","Xema sabini",m_id("20170909_099"),["mdcocn","9/2017","Immature",""," at Sycamore Landing","悬铃木码头"]);
   birds[j++] = new Bird("15-03-21T15:08","LARIDAE ","Bonaparte's Gull","博氏鸥","Chroicocephalus philadelphia",m_id(["20150321_045","20201228_142"]),["mdmdmd","3/2015","Winter plumage, "+gmap("Lapidum",39.598,-76.1282),"","","萨斯奎哈纳州立公园","mdocci","12/2020","Winter plumage",""," "+gmap("Inlet",38.3244,-75.0854),"海口"]);
-  birds[j++] = new Bird("21-08-22T16:25","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",m_id(["20220206_031"]),["njnjnj","2/2022,S102167692","Nonbreeding adult, "+gmap("Manasquan Inlet",40.1019,-74.0346)+", Ocean County","","","海洋郡马纳斯泉海口"]);
+  birds[j++] = new Bird("21-08-22T16:25","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",m_id("20220206_031"),["njnjnj","2/2022,S102167692","Nonbreeding adult, "+gmap("Manasquan Inlet",40.1019,-74.0346)+", Ocean County","","","海洋郡马纳斯泉海口"]);
   birds[j++] = new Bird("21-04-07T12:13","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",m_id("20210407_038"),["mdmdmd","4/2021","Nonbreeding adult, "+gmap("Cox Point Park",39.2925,-76.4658)+", Baltimore County","","","巴尔的摩郡考克斯角公园"]);
   birds[j++] = new Bird("06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Leucophaeus atricilla",[p_id("0607outerbanks",28),p_id("1505capemay",3),m_id("20161105_112"),p_id("2108racepoint",6)],["ncoutb","7/2006","njnjnj","5/2015",gmap("Cape May Point State Park",38.9328,-74.958),"","","五月岬州立公园","mdocci","11/2016","Winter plumage",""," "+gmap("Inlet",38.3244,-75.0854),"海口","marace","8/2021","Juvenile"]);
 //birds[j++] = new Bird("22-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",p_id("2212flbird",),["flflfl","12/2022,",gmap("Alfred McKethan Pine Island Park",)+", Hernando County","","","埃尔南多郡阿尔弗雷德麦基森松岛公园"]);
@@ -455,7 +455,7 @@
   birds[j++] = new Bird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",[p_id("1606florida",8),p_id("2208azbird",70),p_id("2208azbird",71)],["flflfl","6/2016",gmap("Brian Piccolo Park",26.033,-80.2725)+", Fort Lauderdale","","","劳德代尔堡布莱恩皮克罗公园","azazaz","8/2022,S116681599",hotspot("L387263","Scottsdale Community College")+", Scottsdale","","","斯科茨代尔市社区大学"]);
 //birds[j++] = new Bird("22-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium californicum",p_id("",),["azmcct","8/2022,"]);
   birds[j++] = new Bird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",m_id("20210115_012"),["vavava","1/2021",gmap("State Arboretum of Virginia",39.0639,-78.0655),"","","州立植物园"]);
-  birds[j++] = new Bird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id(["20210228_026"]),["mdmdmd","2/2021",gmap("Izaak Walton Way",39.0935,-77.4266)+", Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
+  birds[j++] = new Bird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id("20210228_026"),["mdmdmd","2/2021",gmap("Izaak Walton Way",39.0935,-77.4266)+", Montgomery County","","","蒙哥马利郡艾萨克沃尔顿路"]);
   birds[j++] = new Bird("17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",m_id(["20220108_005","20170205_018"]),["dcdcdc","1/2022,S100493829","Immature female, "+gmap("Union Station Plaza",38.8964,-77.0066),"","","联合车站广场","papapa","2/2017","Female/immature, "+gmap("Davis Road",41.8199,-76.1711)+", Bradford County","","","布拉德福德郡戴维斯路"]);
   birds[j++] = new Bird("16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",m_id("20160326_024"),["ncoutb","3/2016","",""," at Oregon Inlet Marina","俄勒冈入海口船坞"]);
 //birds[j++] = new Bird("22-00-00T00:00","STRIGIDA","Western Screech-Owl","西部鸣角鸮","Megascops kennicottii",p_id("",),["azazaz","8/2022,"]);
