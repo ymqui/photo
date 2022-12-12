@@ -150,14 +150,28 @@ function loadHidden(){
        tmp = num-1;
     }
     hiddenimg = new Image();
+    var tmp_i = myrandom(photoalbum[0][tmp]);
+    var tmp_src = '';
+    var tmp_alt = '';
+    if (photoalbum[0][tmp].constructor == Array){
+       tmp_src = photoalbum[0][tmp][tmp_i];
+    }else{
+       tmp_src = photoalbum[0][tmp];
+    }
+    if (photoalbum[1][tmp].constructor == Array){
+       tmp_alt = photoalbum[1][tmp][tmp_i];
+    }else{
+       tmp_alt = photoalbum[1][tmp];
+    }
+    hiddenimg.alt = tmp_alt; 
     hiddenimg.onerror = function(){
        if (ext==ext.toUpperCase()){
-          hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext.toLowerCase();
+          hiddenimg.src = dir+tmp_src+ext.toLowerCase();
        }else{
-          hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext.toUpperCase();
+          hiddenimg.src = dir+tmp_src+ext.toUpperCase();
        }
     }
-    hiddenimg.src = dir+myrandom(photoalbum[0][tmp])+ext;
+    hiddenimg.src = dir+tmp_src+ext;
 }
 
 function showmesg(mesg){
@@ -222,8 +236,8 @@ function swap(iscamera){
            tmp_cap = "[0/"+num.toString()+"]  "+cam_tit;
            tmp_alt = cam_tit;
        }else{
-           tmp_cap = "["+(index+1).toString()+"/"+num.toString()+"]  "+photoalbum[1][index];
-           tmp_alt = photoalbum[1][index];
+           tmp_cap = "["+(index+1).toString()+"/"+num.toString()+"]  "+hiddenimg.alt;
+           tmp_alt = hiddenimg.alt;
        }
        showmesg("");
        try{
@@ -238,7 +252,7 @@ function swap(iscamera){
        }
        document.images["visible"].alt = tmp_alt;
        if(tmp_ani){
-	     document.images["visible"].src = hiddenimg.src;
+	   document.images["visible"].src = hiddenimg.src;
            currentWidth  = hiddenimg.width;
            currentHeight = hiddenimg.height;
            resize();
@@ -673,11 +687,20 @@ function getdate(name,str){
        date = date+year+".";
        comma = ",";
     }
-    if ((str.slice(-1)==="!")||(str.slice(-1)==="！")){
-       return str+date;
-    }else{
-       return str+comma+date;
+    var tmp = [];
+    var len = 1;
+    if (str.constructor == Array){
+       len = str.length;
+       for (var i=0;i<len;i++) tmp[i] = str[i];
+    }else{tmp[0] = str;}
+    for (var i=0;i<len;i++){
+        if ((tmp[i].slice(-1)==="!")||(tmp[i].slice(-1)==="！")){
+           tmp[i] = tmp[i]+date;
+        }else{
+           tmp[i] = tmp[i]+comma+date;
+        }
     }
+    if (len==1){return tmp[0];}else{return tmp;}
 }
 
 function adddate(thisalbum){
@@ -703,9 +726,9 @@ function adddate(thisalbum){
 
 function myrandom(data){
     if (data.constructor == Array){
-       return data[Math.round(Math.random()*(data.length-1))];
+       return Math.round(Math.random()*(data.length-1));
     }else{
-       return data; 
+       return 0; 
     }
 }
 //-->
