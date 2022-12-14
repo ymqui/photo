@@ -305,7 +305,7 @@ function initAlbum(){
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
-    this[1][i++]  = (["Nathan' first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包;你也可以有一个香奈儿包;妈妈说宝宝不能有香奈儿包"])[cn_ind];
+    this[1][i++]  = (["Nathan' first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
