@@ -306,7 +306,7 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
     this[1][i++]  = (["Nathan' first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
-    this[0][i]    = ["2212concert/2212concert_3","2212concert/2212concert_5","2212concert/2212concert_8","2212concert/2212concert_9","20221216"];
+    this[0][i]    = ["2212concert/2212concert_3","2212concert/2212concert_4","2212concert/2212concert_9","20221216"];
     this[1][i++]  = ([daycare+" "+pagelink("2212concert","winter holiday concert"),daycare+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
