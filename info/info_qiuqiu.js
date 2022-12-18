@@ -39,6 +39,7 @@ function initAlbum(){
     i = 0;
     j = 0;
     daycare       = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
+    daycare1      = pagelink("2018goddard",(["The Goddard School","戈达德托儿所"])[cn_ind]);
     if (showall) {
        this[0][i]    = "20170128_001_OvulationTest";
        this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
@@ -208,6 +209,7 @@ function initAlbum(){
     this[0][i]    = "20201031_018_BirthdayCake";
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
     daycare       = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
+    daycare1      = pagelink("2020nist",(["The NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
     this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
@@ -300,14 +302,14 @@ function initAlbum(){
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
     this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
-    this[1][i++]  = ([pagelink("2210farm","Field trip to Summers Farm"),"球球上的"+daycare+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
+    this[1][i++]  = ([pagelink("2210farm",daycare1+" "+"field trip to Summers Farm"),"球球上的"+daycare+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
     this[0][i]    = "20221031_012_Birthday";
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
     this[1][i++]  = (["Nathan' first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
     this[0][i]    = ["2212concert/2212concert_3","2212concert/2212concert_4","2212concert/2212concert_8","2212concert/2212concert_9","20221216"];
-    this[1][i++]  = ([daycare+" "+pagelink("2212concert","winter holiday concert"),daycare+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
+    this[1][i++]  = ([daycare1+" "+pagelink("2212concert","winter holiday concert"),daycare+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
