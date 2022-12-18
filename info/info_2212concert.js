@@ -29,7 +29,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "B老师是音乐会的主持人。";
+        this[1][0] = "球球班的B老师是音乐会的主持人。";
     }else{
         this[1][0] = "Ms B is the emcee of the concert.";
     }
