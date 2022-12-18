@@ -699,6 +699,7 @@ function getdate(name,str){
         }else{
            tmp[i] = tmp[i]+comma+date;
         }
+        if (tmp[i].charAt(0)==tmp[i].charAt(0).toLowerCase()) {tmp[i]=tmp[i].charAt(0).toUpperCase()+tmp[i].slice(1);}
     }
     if (len==1){return tmp[0];}else{return tmp;}
 }
