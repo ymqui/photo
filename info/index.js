@@ -1346,6 +1346,11 @@
   info[2][j] = 2;
   info[3][j] = "8/2022 Arizona Birding";
   info[4][j++] = "Birding in southern Arizona(Arizona).";
+  info[0][j] = "2212flbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "12/2022 Florida Birding";
+  info[4][j++] = "Birding in the Tampa area(Florida).";
 
   if(window.usechinese){
      j = 0;
@@ -1883,6 +1888,8 @@
      info[4][j++] = "在佛罗里达南部观鸟(佛罗里达州)。";
      info[3][j]   = "8/2022 亚利桑那观鸟";
      info[4][j++] = "在亚利桑那南部观鸟(亚利桑那州)。";
+     info[3][j]   = "12/2022 佛罗里达观鸟";
+     info[4][j++] = "在佛罗里达中部观鸟(佛罗里达州)。";
   } 
 
   //special touch
