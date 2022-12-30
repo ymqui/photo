@@ -25,6 +25,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2206graduation","6/2022 Pre-K Graduation","6/2022 学前班毕业典礼"],["2208arizona","8/2022 Vacationing in Arizona","8/2022 亚利桑那州度假"],
                   ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"],["2209parade","9/2022 Gaithersburg Labor Day Parade","9/2022 盖瑟斯堡劳动节游行"],
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
+                  ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达恐龙世界"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -312,6 +313,8 @@ function initAlbum(){
     this[1][i++]  = ([daycare1+" "+pagelink("2212concert","winter holiday concert"),daycare+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
     this[0][i]    = ["20221218_017","20221218_019","20221218_020","20221218_021"];
     this[1][i++]  = (["Making a cake","做蛋糕"])[cn_ind];
+    this[0][i]    = ["2212dino/2212dino_20","2212dino/2212dino_2","2212dino/2212dino_17","20221226"];
+    this[1][i++]  = ([pagelink("2212dino","Visiting the Dinosaur World near Tampa, Florida"),pagelink("2212dino","参观佛罗里达州坦帕市附近的恐龙世界")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
