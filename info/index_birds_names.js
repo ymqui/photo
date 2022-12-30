@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2022-11-26T08:00");
+  var modDat = new Date("2022-12-30T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -100,7 +100,7 @@
 //birds[j++] = new Bird("22-00-00T00:00","ANHIMIDA","Horned Screamer","角叫鸭","Anhima cornuta",m_id(""),["mdbhrp","1/2022,"],"horscr1");
 //birds[j++] = new Bird("22-00-00T00:00","ANSERANA","Magpie Goose","鹊雁","Anseranas semipalmata",m_id(""),["mdbhrp","1/2022,"],"maggoo1");
   birds[j++] = new Bird("18-12-02T08:59","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[p_id("1812crbirding",11),p_id("2001txbirding",1)],["crsanj","12/2018",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","arb","1/2020",hotspot("L128990","Hermann Park")+", Houston, Texas, USA","美国德克萨斯州休斯顿赫尔曼公园"]);
-//birds[j++] = new Bird("22-00-00T00:00","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",p_id("2212flbird",),["flflfl","12/2022,",gmap("Lake Apopka Wildlife Drive",28.6694,-81.5916)+", Orange County","","","奥兰治郡阿波普卡湖野生动物观赏车道"]);
+  birds[j++] = new Bird("22-12-24T14:08","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",p_id("2212flbird",2),["flflfl","12/2022,S124544398",gmap("Lake Apopka Wildlife Drive",28.6694,-81.5916)+", Orange County","","","奥兰治郡阿波普卡湖野生动物观赏车道"]);
   birds[j++] = new Bird("15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",p_id("1503barnegat",8),["njblsp","3/2015","Atlantic form","大西洋亚种"]);
   birds[j++] = new Bird("05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",[m_id("20150215_011"),p_id("1206brooksidebirding",6)],["mdloch","2/2015","mdwhrp","6/2012","",""," at Brookside Gardens","溪边花园"]);
   birds[j++] = new Bird("19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",m_id("20190114_003"),["mdmdmd","1/2019",gmap("Whittier Lake Park",39.4555,-77.4491)+", Frederick","","","弗雷德里克市惠蒂尔湖公园"],"bargoo");
@@ -271,7 +271,7 @@
   birds[j++] = new Bird("16-06-08T17:04","CHARADRI","Wilson's Plover","厚嘴鸻","Charadrius wilsonia",p_id("2204flbird",[43,42]),["flflfl","5/2022,S108886062","Male, "+gmap("Carlos Pointe",26.4037,-81.8838)+", Lee County","","","李郡卡洛斯角海滩","flflfl","5/2022,S108886062","Female, "+gmap("Carlos Pointe",26.4037,-81.8838)+", Lee County","","","李郡卡洛斯角海滩"]);
   birds[j++] = new Bird("14-07-07T16:07","CHARADRI","Killdeer","双领鸻","Charadrius vociferus",[m_id("20160820_092"),p_id("1407michiganbirding",18),p_id("2204flbird",47)],["mdmdmd","8/2016",gmap("Fingerboard Road",39.3301,-77.3749)+", Frederick County","","","弗雷德里克郡指板路","mimack","7/2014","flflfl","5/2022,S108886234","Juvenile, "+gmap("Little Estero Lagoon",26.415,-81.9031)+", Lee County","","","李郡小埃斯特罗泻湖"]);
   birds[j++] = new Bird("16-03-26T14:56","CHARADRI","Piping Plover","笛鸻","Charadrius melodus",m_id(["20160625_078","20160326_027"]),["nyjbsp","6/2016","ncoutb","3/2016","",""," at Oregon Inlet south jetty","俄勒冈入海口南堤"]);
-//birds[j++] = new Bird("22-00-00T00:00","CHARADRI","Snowy Plover","雪鸻","Charadrius nivosus",p_id("2212flbird",),["flflfl","12/2022,",gmap("Fort De Soto Park",27.6371,-82.7405)+", Pinellas County","","","皮尼拉斯郡德索托堡公园"]);
+  birds[j++] = new Bird("22-12-25T09:35","CHARADRI","Snowy Plover","雪鸻","Charadrius nivosus",p_id("2212flbird",[8,6,9]),["flflfl","12/2022,S124666963",(t1=gmap("Fort De Soto Park",27.6371,-82.7405)+", Pinellas County"),"","",(t2="皮尼拉斯郡德索托堡公园"),"flflfl","12/2022,","Nonbreeding/immature, "+t1,"","",t2 ]);
 //birds[j++] = new Bird("22-00-00T00:00","PLUVIANI","Egyptian Plover","埃及燕鸻","Pluvianus aegyptius",m_id(""),["mdbhrp","1/2022,"],"egyplo1");
 //birds[j++] = new Bird("22-00-00T00:00","ROSTRATU","Greater Painted-snipe","彩鹬","Rostratula benghalensis",m_id(""),["mdbhrp","1/2022,"],"grpsni1");
 //birds[j++] = new Bird("22-00-00T00:00","JACANIDA","African Jacana","非洲雉鸻","Actophilornis africanus",m_id(""),["mdbhrp","1/2022,"],"afrjac1");
@@ -535,7 +535,7 @@
   birds[j++] = new Bird("18-12-04T06:35","PSITTACI","Red-lored Amazon","红额亚马逊鹦鹉","Amazona autumnalis",p_id("1812crbirding",21),["crarol","12/2018"],"relpar");
 //birds[j++] = new Bird("22-05-04T07:26","PSITTACI","Red-crowned Parrot","红冠亚马逊鹦鹉","Amazona viridigenalis",p_id("2204flbird",49),["flflfl","5/2022,S108967469",gmap("Brewer Park",25.718,-80.296)+", Miami-Dade County","","","迈阿密-戴德郡布如尔公园"],"recpar");
   birds[j++] = new Bird("16-06-11T09:31","PSITTACI","Orange-winged Amazon","橙翅亚马逊鹦鹉","Amazona amazonica",[p_id("1606florida",20),p_id("2204flbird",48)],["flflfl","4/2005",gmap("Matheson Hammock Park",25.6812,-80.272)+", Miami-Dade County","","","迈阿密-戴德郡马西森硬木公园","flflfl","5/2022,S108967469",gmap("Brewer Park",25.718,-80.2962)+", Miami-Dade County","","","迈阿密-戴德郡布鲁尔公园"],"orwpar");
-//birds[j++] = new Bird("22-00-00T00:00","PSITTACI","Nanday Parakeet","南达锥尾鹦鹉","Aratinga nenday",p_id("2212flbird",),["flflfl","12/2022,",gmap("The Celery Fields",27.3257,-82.4329)+", Sarasota County","","","萨拉索塔郡芹菜田观鸟区"],"bkhpar");
+  birds[j++] = new Bird("22-12-25T09:04","PSITTACI","Nanday Parakeet","南达锥尾鹦鹉","Aratinga nenday",p_id("2212flbird",4),["flflfl","12/2022,S124594515",gmap("Pinellas Bayway South",27.6792,-82.7259)+", Pinellas County","","","皮尼拉斯郡南皮尼拉斯湾道"],"bkhpar");
   birds[j++] = new Bird("22-05-04T07:27","PSITTACI","Chestnut-fronted Macaw","栗额金刚鹦鹉","Ara severus",p_id("2204flbird",50),["flflfl","5/2022,S108967469",gmap("Brewer Park",25.718,-80.296)+", Miami-Dade County","","","迈阿密-戴德郡布如尔公园"],"chfmac1");
 //birds[j++] = new Bird("22-00-00T00:00","PSITTACI","Scarlet Macaw","绯红金刚鹦鹉","Ara macao",["0504zoo/0504zoo__23"],["natzo","1/2022,"],"scamac1");
   birds[j++] = new Bird("16-06-12T08:14","PSITTACI","Blue-crowned Parakeet","蓝冠鹦哥","Thectocercus acuticaudatus",p_id("1606florida",24),["flflfl","6/2016",gmap("South Beach",25.789,-80.1283)+", Miami","","","迈阿密南滩"],"bucpar");
