@@ -394,7 +394,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2022-08-16T12:00:00");
+  var modDat1 = new Date("2022-12-30T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
