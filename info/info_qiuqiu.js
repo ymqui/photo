@@ -315,6 +315,8 @@ function initAlbum(){
     this[1][i++]  = (["Making a cake","做蛋糕"])[cn_ind];
     this[0][i]    = ["2212dino/2212dino_20","2212dino/2212dino_2","2212dino/2212dino_17","20221226"];
     this[1][i++]  = ([pagelink("2212dino","Visiting the Dinosaur World near Tampa, Florida"),pagelink("2212dino","参观佛罗里达州坦帕市附近的恐龙世界")])[cn_ind];
+    this[0][i]    = ["20230107_001","20230107_002","20230107_003"];
+    this[1][i++]  = (["Playdate with Annelise","朋友Annelise来家里玩"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
