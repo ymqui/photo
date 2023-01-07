@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2023-01-02T08:00");
+  var modDat = new Date("2023-01-07T08:00");
 
   //location urls
   var locurl = {arb:["","","",""],
@@ -431,7 +431,7 @@
   birds[j++] = new Bird("07-08-11T08:00","PANDIONI","Osprey","鹗","Pandion haliaetus",[p_id("1112floridabirding",11),p_id("1408annapolisbirding",1),m_id("20200707_056")],["flevnp","12/2011","mdmdmd","8/2014",gmap("Greenbury Point",38.9834,-76.4513)+", Annapolis","","","安纳波利斯格林伯瑞角","mdbnwr","7/2020","Nest"],"鱼鹰/7753425");
 //birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","White-tailed Kite","白尾鸢","Elanus leucurus",m_id(""),["flevnp","1/2022,"]);
   birds[j++] = new Bird("21-08-03T09:54","ACCIPITR","Swallow-tailed Kite","燕尾鸢","Elanoides forficatus",[m_id("20210803_099"),p_id("2204flbird",40)],["mdmdmd","8/2021",gmap("Tavakoli Farm",38.93,-76.3529)+", Queen Anne's County","","","安妮女王郡塔瓦科利农场","flevnp","5/2022,S115841189","Shark Valley","","","鲨鱼谷"]);
-//birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",m_id(""),["mdmdmd","1/2023,S","Juvenile, "+gmap("Prettyboy Reservoir",39.652,-76.7419)+", Baltimore County","","","巴尔的摩郡美少年水库"]);
+  birds[j++] = new Bird("23-01-07T07:52","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",m_id("20230107_003"),["mdmdmd","1/2023,S125597993","Juvenile, "+gmap("Prettyboy Reservoir",39.6563,-76.7435)+", Baltimore County","","","巴尔的摩郡美少年水库"]);
   birds[j++] = new Bird("16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",p_id("1601china",67),["cnbjsp","1/2016"],"eurspa1");
   birds[j++] = new Bird("11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",m_id(["20150215_013","20150215_014","20161106_117","20220924_112"]).concat(p_id("1609vtcanbirding",13)),["mdmdmd","2/2015",(t1=gmap("Cromwell Valley Park")+", Baltimore"),"","",(t2="巴尔的摩克伦威尔溪谷公园"),"mdmdmd","2/2015",t1,"","",t2,"mdmdmd","11/2016","Juvenile, "+t1,"","",t2,"mdlbrp","9/2022,S119360269","Juvenile","cactnw","9/2016"]);
   birds[j++] = new Bird("14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id("20220910_106"),m_id("20141228_007"),p_id("1507birdingwest",3)],["mdredg","9/2022,S118461423","mdmdmd","12/2014","Germantown","","","德国镇","nvdnwr","7/2015","Juvenile"]);
