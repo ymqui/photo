@@ -318,7 +318,7 @@ function initAlbum(){
     this[0][i]    = ["20230107_001","20230107_002","20230107_003"];
     this[1][i++]  = (["Playdate with Annelise","朋友Annelise来家里玩"])[cn_ind];
     this[0][i]    = ["20230108_001","20230108_009"];
-    this[1][i++]  = (["Visiting the Dino Alive exhibition in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
+    this[1][i++]  = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
