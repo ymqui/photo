@@ -176,6 +176,7 @@
   birds[j++] = new Bird("22-08-12T06:09","CAPRIMUL","Lesser Nighthawk","小灰眉夜鹰","Chordeiles acutipennis",p_id("2208azbird",76),["azazaz","8/2022,S116797492",hotspot("L280695","Baseline Road")+", Maricopa County","","","马里科帕郡基线路"]);
   birds[j++] = new Bird("16-06-14T08:11","CAPRIMUL","Common Nighthawk","美洲夜鹰","Chordeiles minor",p_id("1606florida",27),["scscsc","6/2016",gmap("Bear Island Wildlife Management Area",32.6119,-80.4429),"","","熊岛野生动物管理区"]);
   birds[j++] = new Bird("22-05-01T11:20","CAPRIMUL","Antillean Nighthawk","安岛夜鹰","Chordeiles gundlachii",p_id("2204flbird",29),["flflfl","5/2022,S108664920",gmap("Grassy Key",24.758,-80.960),"","","草岛"],"antnig");
+//birds[j++] = new Bird("23-00-00T00:00","CAPRIMUL","Common Pauraque","帕拉夜鹰","Nyctidromus albicollis",p_id("2301pabird",),["papipe","1/2023,"]);
 //birds[j++] = new Bird("23-00-00T00:00","CAPRIMUL","Chuck-will's-widow","卡氏夜鹰","Antrostomus carolinensis",m_id(""),["scpitt","1/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","CAPRIMUL","Eastern Whip-poor-will","三声夜鹰","Antrostomus vociferus",m_id(""),["scpitt","1/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","STEATORN","Oilbird","油鸱","Steatornis caripensis",m_id(""),["mdbhrp","1/2022,"],"oilbir1");
