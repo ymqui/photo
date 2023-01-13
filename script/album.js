@@ -97,8 +97,11 @@ function init(){
    if (cellphone){
       var el = document.getElementById('visible');
       swipedetect(el, function(swipedir){
-         if (swipedir =='left'){getNext();}
-         if (swipedir =='right'){getPrev();}
+         if(swipedir=='left'){
+            getNext();
+         }else if(swipedir=='right'){
+            getPrev();
+         }
       })
    }
 }
