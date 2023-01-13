@@ -94,11 +94,13 @@ function init(){
            swap(false);
         }
     }
-    var el = document.getElementById('visible');
-    swipedetect(el, function(swipedir){
-       if (swipedir =='left'){getPrev();}
-       if (swipedir =='right'){getNext();}
-    })  
+   if (cellphone){
+      var el = document.getElementById('visible');
+      swipedetect(el, function(swipedir){
+         if (swipedir =='left'){getPrev();}
+         if (swipedir =='right'){getNext();}
+      })
+   }
 }
 
 function resize(ishidden){
