@@ -95,6 +95,7 @@ function init(){
         }
     }
    if (cellphone){
+      window.addEventListener('load', function(){
       var el = document.getElementById('visible');
       ontouch(el, function(evt, dir, phase, swipetype, distance){
          if (phase=='end'){
@@ -107,7 +108,7 @@ function init(){
                      break;
             }
          }
-     })
+     })}, false);
    }
 }
 
