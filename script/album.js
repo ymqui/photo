@@ -787,8 +787,8 @@ function swipedetect(el, callback){
                swipedir = (startX >(winWidth/2))? 'left' : 'right';
             }
         }
-        handleswipe(swipedir)
-        e.preventDefault()
+        handleswipe(swipedir);
+        e.preventDefault();
     }, false)
 }
 //-->
