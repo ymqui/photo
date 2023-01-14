@@ -764,11 +764,11 @@ function swipedetect(el, callback){
         startX = touchobj.pageX;
         startY = touchobj.pageY;
         startTime = new Date().getTime() // record time when finger first makes contact with surface
-        if (e.touches.length!=2){ e.preventDefault();}
+        //if (e.touches.length!=2){ e.preventDefault();}
     }, false)
   
     touchsurface.addEventListener('touchmove', function(e){
-        if (e.touches.length!=2){ e.preventDefault();} // prevent scrolling when inside DIV
+        //if (e.touches.length!=2){ e.preventDefault();} // prevent scrolling when inside DIV
     }, false)
   
     touchsurface.addEventListener('touchend', function(e){
@@ -789,7 +789,7 @@ function swipedetect(el, callback){
         } 
         if ((swipedir == 'left') || (swipedir == 'right')){  //pass on other events
            handleswipe(swipedir);
-           if (e.touches.length!=2){ e.preventDefault();}
+           //if (e.touches.length!=2){ e.preventDefault();}
         }
     }, false)
 }
