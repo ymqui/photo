@@ -783,9 +783,9 @@ function swipedetect(el, callback){
             else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
                 swipedir = (distY < 0)? 'up' : 'down'; // if dist traveled is negative, it indicates up swipe
             }
-            if ((swipedir=='none')&&(Math.abs(distX)<10)&&(Math.abs(distY)<10)){ //simulate click
-               swipedir = (startX >(winWidth/2))? 'left' : 'right';
-            }
+            //if ((swipedir=='none')&&(Math.abs(distX)<10)&&(Math.abs(distY)<10)){ //simulate click
+            //   swipedir = (startX >(winWidth/2))? 'left' : 'right';
+            //}
         } 
         if ((swipedir == 'left') || (swipedir == 'right')){  //pass on other events
            handleswipe(swipedir);
