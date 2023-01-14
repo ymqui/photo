@@ -789,7 +789,7 @@ function swipedetect(el, callback){
         } 
         if ((swipedir == 'left') || (swipedir == 'right')){  //pass on other events
            handleswipe(swipedir);
-           e.preventDefault();
+           if (e.touches.length!=2){ e.preventDefault();}
         }
     }, false)
 }
