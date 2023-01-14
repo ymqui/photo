@@ -786,9 +786,11 @@ function swipedetect(el, callback){
             if ((swipedir=='none')&&(Math.abs(distX)<10)&&(Math.abs(distY)<10)){ //simulate click
                swipedir = (startX >(winWidth/2))? 'left' : 'right';
             }
+        } 
+        if ((swipedir == 'left' || (swipedir == 'right')){  //pass on other events
+           handleswipe(swipedir);
+           e.preventDefault();
         }
-        handleswipe(swipedir);
-        e.preventDefault();
     }, false)
 }
 //-->
