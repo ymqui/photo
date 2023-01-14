@@ -787,7 +787,7 @@ function swipedetect(el, callback){
                swipedir = (startX >(winWidth/2))? 'left' : 'right';
             }
         } 
-        if ((swipedir == 'left' || (swipedir == 'right')){  //pass on other events
+        if ((swipedir == 'left') || (swipedir == 'right')){  //pass on other events
            handleswipe(swipedir);
            e.preventDefault();
         }
