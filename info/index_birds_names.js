@@ -63,6 +63,7 @@
       nyjbwr:  ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nycaudubon.org/queens-birding/jamaica-bay-wildlife-refuge"],
       nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州",hotspot("L275986")],
+      pagatu:  ["Gatun Lake","Panama Canal, Panama","加通湖","巴拿马巴拿马运河",wikiurl("Gatun Lake"),baikeurl("加通湖")],
       pametr:  ["Metropolitan Natural Park","Panama City, Panama","大都会自然公园","巴拿马巴拿马城","http://madaboutpanama.com/panama-sights/wildlife/metropolitan-park/"],
       papapa:  ["Pennsylvania","USA","宾夕法尼亚州","美国"],
       papipe:  ["Pipeline Road","Soberania National Park, Panama","输油管路","巴拿马索伯拉尼亚国家公园","https://www.whitehawkbirding.com/a-neotropical-birding-mecca-pipeline-road-panama/"],
@@ -488,6 +489,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","CORACIID","Indian Roller","棕胸佛法僧","Coracias benghalensis",m_id(""),["mdbhrp","1/2022,"],"indrol1");
 //birds[j++] = new Bird("23-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",m_id(""),["mdbhrp","1/2022,"],"plgrol1");
   birds[j++] = new Bird("16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female",],"comkin1");
+//birds[j++] = new Bird("23-00-00T00:00","ALCEDINI","American Pygmy Kingfisher","侏绿鱼狗","Chloroceryle aenea",p_id("2301pabird",),["pagatu","1/2023,"],"ampkin1");
   birds[j++] = new Bird("20-01-25T08:31","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",p_id("2001txbirding",37),["txsnwr","1/2020","Male"],"grnkin");
   birds[j++] = new Bird("20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",p_id("2001txbirding",17),["txsnwr","1/2020","Female"],"rinkin1");
   birds[j++] = new Bird("06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[p_id("1512bhill",37),m_id("20220122_024"),m_id("20160806_090")],["mdbhrp","8/2015","Male","njnjnj","1/2022,S101264392","Immature male, "+gmap("Two Mile Landing",38.9569,-74.8635)+", Cape May","","","五月岬两英里码头","mdmdmd","8/2016","Juvenile female, "+gmap("Lilypons Water Garden",39.2933,-77.4342),"","","莉丽庞斯水上花园"]);
