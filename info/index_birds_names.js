@@ -287,7 +287,7 @@
   birds[j++] = new Bird("22-12-25T09:35","CHARADRI","Snowy Plover","雪鸻","Charadrius nivosus",p_id("2212flbird",[8,6,9]),["flflfl","12/2022,S124666963",(t1=gmap("Fort De Soto Park",27.6371,-82.7405)+", Pinellas County"),"","",(t2="皮尼拉斯郡德索托堡公园"),"flflfl","12/2022,S124666963","Nonbreeding/immature, "+t1,"","",t2 ]);
 //birds[j++] = new Bird("23-00-00T00:00","PLUVIANI","Egyptian Plover","埃及燕鸻","Pluvianus aegyptius",m_id(""),["mdbhrp","1/2022,"],"egyplo1");
 //birds[j++] = new Bird("23-00-00T00:00","ROSTRATU","Greater Painted-snipe","彩鹬","Rostratula benghalensis",m_id(""),["mdbhrp","1/2022,"],"grpsni1");
-//birds[j++] = new Bird("23-00-00T00:00","JACANIDA","Wattled Jacana","肉垂水雉","Jacana jacana",p_id("2301pabird",),["papipe","1/2023,"],"watjac1");
+//birds[j++] = new Bird("23-00-00T00:00","JACANIDA","Wattled Jacana","肉垂水雉","Jacana jacana",p_id("2301pabird",),["pagatu","1/2023,"],"watjac1");
 //birds[j++] = new Bird("23-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",m_id(""),["mdbhrp","1/2022,"],"plawan1");
 //birds[j++] = new Bird("23-00-00T00:00","THINOCOR","Least Seedsnipe","小籽鹬","Thinocorus rumicivorus",m_id(""),["mdbhrp","1/2022,"],"leasee1");
   birds[j++] = new Bird("21-04-14T11:28","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",m_id("20210414_046"),["vavava","4/2021",gmap("Tidewater Trail",38.2277,-77.3089)+", Caroline County","","","卡罗琳郡潮水公路"]);
@@ -764,7 +764,7 @@
   birds[j++] = new Bird("13-07-17T17:11","HIRUNDIN","Bank Swallow","崖沙燕","Riparia riparia",p_id("1307alaskabirding",6),["arb","7/2013",gmap("Point Woronzof Park",61.2031,-150.0195)+", Anchorage, Alaska, USA","美国阿拉斯加州安克雷奇沃隆佐夫角公园"]);
   birds[j++] = new Bird("06-04-30T08:56","HIRUNDIN","Tree Swallow","双色树燕","Tachycineta bicolor",[m_id("20150405_049"),p_id("1505puffin",1)],["mdbmnt","4/2015","Male","arb","5/2015","Female, "+hotspot("L1976059","Cove Island Wildlife Sanctuary"),"","Stamford, Connecticut, USA","美国康涅狄格州斯坦福市科夫岛野生动物保护区"]);
 //birds[j++] = new Bird("23-00-00T00:00","HIRUNDIN","Violet-green Swallow","紫绿树燕","Tachycineta thalassina",p_id("",),["azazaz","8/2022,"]);
-//birds[j++] = new Bird("23-00-00T00:00","HIRUNDIN","Mangrove Swallow","红树燕","Tachycineta albilinea",p_id("2301pabird",),["papipe","1/2023,"],"manswa1");
+//birds[j++] = new Bird("23-00-00T00:00","HIRUNDIN","Mangrove Swallow","红树燕","Tachycineta albilinea",p_id("2301pabird",),["pagatu","1/2023,"],"manswa1");
   birds[j++] = new Bird("06-04-09T11:23","HIRUNDIN","Northern Rough-winged Swallow","中北美毛翅燕","Stelgidopteryx serripennis",m_id("20210419_051"),["mdmwma","4/2021"]);
   birds[j++] = new Bird("18-12-06T08:52","HIRUNDIN","Southern Rough-winged Swallow","红翎毛翅燕","Stelgidopteryx ruficollis",p_id("1812crbirding",75),["crarol","12/2018"],"srwswa1");
   birds[j++] = new Bird("15-05-09T11:56","HIRUNDIN","Purple Martin","紫崖燕","Progne subis",[p_id("1505capemay",5),p_id("1505puffin",3)],["njnjnj","5/2015","Female left, male right, "+gmap("Cape May Point State Park",38.9328,-74.958),"","","五月岬州立公园","arb","5/2015","Male, "+hotspot("L1976059","Cove Island Wildlife Sanctuary"),"","Stamford, Connecticut, USA","美国康涅狄格州斯坦福市科夫岛野生动物保护区"]);
