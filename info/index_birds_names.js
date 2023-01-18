@@ -194,7 +194,6 @@
   birds[j++] = new Bird("15-01-03T10:48","TROCHILI","Puerto Rican Mango","波多黎各芒果蜂鸟","Anthracothorax aurulentus",p_id("1501prbirding",17),["prcnwr","1/2015","Female"],"antman1","黑胸芒果蜂鸟");
   birds[j++] = new Bird("15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",p_id("1501prbirding",[38,53]),["prsanj","1/2015"],"grtcar1");
   birds[j++] = new Bird("19-05-12T09:25","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",p_id("1905mxbird",[17,7]),["mxunam","5/2019","Male","mxunam","5/2019","Female"]);
-//birds[j++] = new Bird("23-00-00T00:00","TROCHILI","Blue-throated Mountain-gem","蓝喉宝石蜂鸟","Lampornis clemenciae",p_id("2208azbird",7),["azazaz","8/2022,"]);
   birds[j++] = new Bird("22-08-09T11:17","TROCHILI","Lucifer Hummingbird","瑰丽蜂鸟","Calothorax lucifer",p_id("2208azbird",63),["azazaz","8/2022,S116616571","Male, "+hotspot("L199300","Ash Canyon Bird Sanctuary")+", Cochise County","","","科奇斯郡灰谷鸟类保护区"]);
   birds[j++] = new Bird("22-08-08T13:21","TROCHILI","Black-chinned Hummingbird","黑颏北蜂鸟","Archilochus alexandri",p_id("2208azbird",[41,61]),["azazaz","8/2022,S116569566","Female, "+hotspot("L247122","Paton Center for Hummingbirds")+", Santa Cruz County","","","圣克鲁斯郡佩顿蜂鸟中心","azazaz","8/2022,S116616571","Immature male, "+hotspot("L199300","Ash Canyon Bird Sanctuary")+", Cochise County","","","科奇斯郡灰谷鸟类保护区"]);
   birds[j++] = new Bird("06-09-07T17:00","TROCHILI","Ruby-throated Hummingbird","红喉北蜂鸟","Archilochus colubris",p_id("1107brookside",[10,13]),["mdwhrp","7/2011","Female/immature",""," at Brookside Gardens","溪边花园"]);
@@ -259,6 +258,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","GRUIDAE ","Red-crowned Crane","丹顶鹤","Grus japonensis",["0504zoo/0504zoo__8"],["natzo","1/2022,"],"reccra1");
   birds[j++] = new Bird("20-01-23T10:48","GRUIDAE ","Whooping Crane","美洲鹤","Grus americana",p_id("2001txbirding",[6,2]),["txanwr","1/2020"]);
   birds[j++] = new Bird("16-06-10T09:17","ARAMIDAE","Limpkin","秧鹤","Aramus guarauna",p_id("1606florida",11),["flflfl","6/2016",gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
+//birds[j++] = new Bird("23-00-00T00:00","PODICIPE","Little Grebe","小䴙䴘","Tachybaptus ruficollis",p_id("",),["cnxihu","1/2022,"],"litgre1");
   birds[j++] = new Bird("20-01-24T09:17","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[p_id("2001txbirding",18),p_id("2204flbird",39)],["txsnwr","1/2020","flflfl","5/2022,S108777458",gmap("Crandon Park",25.706,-80.156)+", Miami-Dade County","","","迈阿密-戴德郡克兰登公园"]);
   birds[j++] = new Bird("13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[p_id("1312bigbendbirding",7),p_id("1512bhill",43),p_id("1409fingerlake",12)],["txbbnp","12/2013","mdbhrp","10/2015","Winter plumage","nymnwr","8/2014","Juvenile"]);
   birds[j++] = new Bird("16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",m_id("20161231_143"),["mdloch","12/2016","Winter plumage"]);
@@ -682,7 +682,6 @@
   birds[j++] = new Bird("16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",p_id("1601china",43),["cnlynv","1/2016"],"lotshr1");
   birds[j++] = new Bird("16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",p_id("1612savannah",11),["scsnwr","12/2016"]);
   birds[j++] = new Bird("16-12-10T08:44","LANIIDAE","Northern Shrike","北伯劳","Lanius borealis",m_id(["20161210_138","20211219_148"]),["mdmdmd","12/2016","Juvenile, "+gmap("Ben's Point Road",39.1537,-75.9892)+", Queen Anne's County","","","安妮女王郡本点路","mdbmnt","12/2021"],"伯劳");
-//birds[j++] = new Bird("23-00-00T00:00","LANIIDAE","Great Gray Shrike","灰伯劳","Lanius excubitor",m_id(""),["scsnwr","1/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","VIREONID","Green Shrike-Vireo","绿鵙雀","Vireolanius pulchellus",p_id("2301pabird",),["papipe","1/2023,"],"grsvir1","");
 //birds[j++] = new Bird("23-00-00T00:00","VIREONID","Lesser Greenlet","灰头绿莺雀","Pachysylvia decurtata",p_id("2301pabird",),["papipe","1/2023,"],"lesgre1","");
 //birds[j++] = new Bird("23-00-00T00:00","VIREONID","Golden-fronted Greenlet","金额绿莺雀","Pachysylvia aurantiifrons",p_id("2301pabird",),["pametr","1/2023,"],"gofgre1");
