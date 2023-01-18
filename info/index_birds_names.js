@@ -239,7 +239,7 @@
   birds[j++] = new Bird("06-04-29T08:07","COLUMBID","Mourning Dove","哀鸽","Zenaida macroura",[m_id("20160130_006"),p_id("2208cabird",1)],["mdbhrp","1/2016","arb","8/2022,S117602480",gmap("Van Wagner's Beach",43.2623,-79.7682)+", Hamilton, Canada","加拿大汉密尔顿市范瓦格纳湖滩"]);
   birds[j++] = new Bird("15-01-08T10:50","COLUMBID","Zenaida Dove","鸣哀鸽","Zenaida aurita",p_id("1501prbirding",45),["prsanj","1/2015"],"zendov");
   birds[j++] = new Bird("13-12-25T17:15","COLUMBID","White-winged Dove","白翅哀鸽","Zenaida asiatica",p_id("1312bigbendbirding",10),["txbbnp","12/2013"]);
-//birds[j++] = new Bird("23-00-00T00:00","HELIORNI","African Finfoot","非洲鳍趾䴘","Podica senegalensis",m_id(""),["mdbhrp","1/2022,"],"afrfin1","鳍脚鷈");
+//birds[j++] = new Bird("23-00-00T00:00","HELIORNI","Sungrebe","日䴘","Heliornis fulica",p_id("2301pabird",),["pagatu","1/2023,"],"sungre1");
 //birds[j++] = new Bird("23-00-00T00:00","SAROTHRU","Buff-spotted Flufftail","黄点侏秧鸡","Sarothrura elegans",m_id(""),["mdbhrp","1/2022,"],"busflu1");
   birds[j++] = new Bird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus crepitans",[p_id("1509charleston",9),m_id("20201227_140")],["scpitt","9/2015","vahump","12/2020"]);
   birds[j++] = new Bird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(["20200610_037","20200610_039"]),["arb","6/2020",npsurl("occoquan_bay",true,"Occoquan Bay National Wildlife Refuge"),"","Virginia, USA","美国弗吉尼亚州奥科宽湾国家野生动物保护区"]);
