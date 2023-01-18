@@ -490,6 +490,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","CORACIID","Indian Roller","棕胸佛法僧","Coracias benghalensis",m_id(""),["mdbhrp","1/2023,"],"indrol1");
 //birds[j++] = new Bird("23-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",m_id(""),["mdbhrp","1/2023,"],"plgrol1");
   birds[j++] = new Bird("16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",p_id("1601china",[23,30]),["cnjsxp","1/2016","Male","cnjsxp","1/2016","Female",],"comkin1");
+//birds[j++] = new Bird("23-00-00T00:00","ALCEDINI","Amazon Kingfisher","亚马逊绿鱼狗","Chloroceryle amazona",p_id("2301pabird",),["papuru","1/2023,"],"amakin1");
 //birds[j++] = new Bird("23-00-00T00:00","ALCEDINI","American Pygmy Kingfisher","侏绿鱼狗","Chloroceryle aenea",p_id("2301pabird",),["pagatu","1/2023,"],"ampkin1");
   birds[j++] = new Bird("20-01-25T08:31","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",p_id("2001txbirding",37),["txsnwr","1/2020","Male"],"grnkin");
   birds[j++] = new Bird("20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",p_id("2001txbirding",17),["txsnwr","1/2020","Female"],"rinkin1");
