@@ -550,7 +550,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the NIST net zero house","参观NIST净零耗能住宅"])[cn_ind];
     this[0][i]    = "20221122_1";
     this[1][i++]  = (["Nathan and the cheerio turkey","球球和甜麦圈火鸡"])[cn_ind];
-
+    this[0][i]    = "20230118_1";
+    this[1][i++]  = (["Playing with marble run","滚玻璃珠"])[cn_ind];
     adddate(this);
 }
 
