@@ -67,7 +67,7 @@
       pametr:  ["Metropolitan Natural Park","Panama City, Panama","大都会自然公园","巴拿马巴拿马城","http://madaboutpanama.com/panama-sights/wildlife/metropolitan-park/"],
       papapa:  ["Pennsylvania","USA","宾夕法尼亚州","美国"],
       papipe:  ["Pipeline Road","Soberania National Park, Panama","输油管路","巴拿马索韦拉尼亚国家公园","https://www.whitehawkbirding.com/a-neotropical-birding-mecca-pipeline-road-panama/"],
-      papuru:  ["Emberá Purú Village","Panamá Province, Panama","恩贝拉部落普鲁村","巴拿马巴拿马省","http://www.emberavillagetours.com/the-ember--tribe.html"],
+      papuru:  ["Emberá Purú Village","Panamá Province, Panama","恩贝拉部落普鲁土著村","巴拿马巴拿马省","http://www.emberavillagetours.com/the-ember--tribe.html"],
       pawagg:  ["Waggoner's Gap Hawk Watch","Cumberland County, Pennsylvania, USA","瓦格纳山口观鹰台","美国宾夕法尼亚州坎伯兰郡","https://pa.audubon.org/birds/waggoner%E2%80%99s-gap-hawk-watch"],
       prceci:  ["Ceiba Country Inn","Puerto Rico, USA","西巴乡村客栈","美国波多黎各","https://www.facebook.com/CeibaCountryInn/"],
       prcnwr:  ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",npsurl("cabo_rojo",true)],
