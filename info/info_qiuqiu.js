@@ -15,7 +15,7 @@ strDate        = strDate.substring(5,7)+"/"+strDate.substring(0,4);
 if (strDate.substring(0,1)=="0") {strDate=strDate.substring(1);}
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
-                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
+                  ["1905mexico","5/2019 Vacationing in Mexico","5/2019 在墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
                   ["1906artechouse","6/2019 Infinite Space at DC Artechouse","6/2019 Artechouse无限空间展览"],["1908florida","8/2019 Vacationing in Florida","8/2019 佛罗里达州度假"],
                   ["1910parade","10/2019 Goddard School Halloween Parade","10/2019 戈达德托儿所万圣节游行"],["2001texas","1/2020 Vacationing in Texas","1/2020 德克萨斯州度假"],
                   ["2002trainshow","2/2020 Model Train Show","2/2020 看火车模型展"],["2018goddard","6/2018-10/2020 Goddard School","6/2018-10/2020 戈达德托儿所"],
@@ -25,7 +25,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2206graduation","6/2022 Pre-K Graduation","6/2022 学前班毕业典礼"],["2208arizona","8/2022 Vacationing in Arizona","8/2022 亚利桑那州度假"],
                   ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"],["2209parade","9/2022 Gaithersburg Labor Day Parade","9/2022 盖瑟斯堡劳动节游行"],
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
-                  ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],
+                  ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
@@ -319,6 +319,8 @@ function initAlbum(){
     this[1][i++]  = (["Playdate with Annelise","朋友Annelise来家里玩"])[cn_ind];
     this[0][i]    = ["20230108_001","20230108_009"];
     this[1][i++]  = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
+    this[0][i]    = ["2301panama/2301panama_4","2301panama/2301panama_16","2301panama/2301panama_37","2301panama/2301panama_46","202301"];
+    this[1][i++]  = ([pagelink("2301panama","Vacationing in Panama"),pagelink("2301panama","在巴拿马度假")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;

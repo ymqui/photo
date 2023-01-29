@@ -14,7 +14,7 @@ var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
-    title      = "Vacationing in Panama";
+    title      = "在巴拿马度假";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
 }
  
