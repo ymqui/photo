@@ -552,6 +552,9 @@ function initAlbum(){
     this[1][i++]  = (["Nathan and the cheerio turkey","球球和甜麦圈火鸡"])[cn_ind];
     this[0][i]    = "20230118_1";
     this[1][i++]  = (["Playing with marble run","滚玻璃珠"])[cn_ind];
+    this[0][i]    = "20230120_1";
+    this[1][i++]  = (["I have a dream","我有一个梦想：我想成为一个研究恐龙的古生物学家；大家都友好相处"])[cn_ind];
+
     adddate(this);
 }
 
