@@ -55,3 +55,5 @@ Blue-throated Mountain-gem,			Blue-throated Mountaingem
 Northern Beardless-Tyrannulet,			Northern Beardless Tyrannulet
 Northern Pygmy-Owl,				Northern Pygmy Owl
 Common Pauraque,				Pauraque
+Yellow-olive Flycatcher,			Yellow-olive Flatbill
+
