@@ -71,7 +71,7 @@ function initAlbum(){
         this[1][43] = "舞蹈表演。";
         this[1][45] = "和村民一起跳舞。";
         this[1][47] = "土著村里的一户居民。";
-        this[1][48] = "在飞机上画画。";
+        this[1][48] = "在回来的飞机上画画。";
     }else{
         this[1][0] = "At Casco Viejo in Panama City.";
         this[1][1] = "At Casco Viejo in Panama City.";
