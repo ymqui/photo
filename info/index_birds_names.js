@@ -64,7 +64,7 @@
       nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州",hotspot("L275986")],
       pacasc:  ["Casco Viejo","Panama City, Panama","加通湖","巴拿马巴拿马城Casco Viejo老城区",wikiurl("Casco Viejo, Panama"),baikeurl("Casco Viejo老城区")],
-      pagatu:  ["Gatun Lake","Panama Canal, Panama","加通湖","巴拿马巴拿马运河",wikiurl("Gatun Lake"),baikeurl("加通湖")],
+      pagatu:  ["arb","1/2023,S126866014","Gatun Lake, Panama Canal, Panama","","",,"巴拿马巴拿马运河加通湖"],
       pametr:  ["Metropolitan Natural Park","Panama City, Panama","大都会自然公园","巴拿马巴拿马城","http://madaboutpanama.com/panama-sights/wildlife/metropolitan-park/"],
       papipe:  ["Pipeline Road","Soberania National Park, Panama","输油管路","巴拿马索韦拉尼亚国家公园","https://www.whitehawkbirding.com/a-neotropical-birding-mecca-pipeline-road-panama/"],
       papuru:  ["Emberá Purú Village","Panamá Province, Panama","恩贝拉部落普鲁土著村","巴拿马巴拿马省","http://www.emberavillagetours.com/the-ember--tribe.html"],
@@ -457,7 +457,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Common Black Hawk","黑鸡鵟","Buteogallus anthracinus",p_id("2208azbird",4),["azazaz","8/2022,"]);
   birds[j++] = new Bird("20-01-25T07:26","ACCIPITR","Harris's Hawk","栗翅鹰","Parabuteo unicinctus",p_id("2001txbirding",[33,27]),["txsnwr","1/2020","txsnwr","1/2020","Juvenile"]);
   birds[j++] = new Bird("20-01-24T09:40","ACCIPITR","Gray Hawk","灰鵟","Buteo plagiatus",p_id("2001txbirding",22),["txsnwr","1/2020","Juvenile"]);
-//birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Gray-lined Hawk","灰纹鵟","Buteo nitidus",p_id("2301pabird",),["papipe","1/2023,S126866746"],"gryhaw3");
+//birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Gray-lined Hawk","灰纹鵟","Buteo nitidus",p_id("2301pabird",),["arb","1/2023,S126866746",gmap("Gamboa",9.1122,-79.6921)+", Colón Province, Panama","","","巴拿马科隆省甘博阿镇"],"gryhaw3");
   birds[j++] = new Bird("06-03-04T16:05","ACCIPITR","Red-shouldered Hawk","赤肩鵟","Buteo lineatus",[p_id("2009cobirding",9),m_id("20190830_008"),m_id("20221112_164")],["mdcocn","3/2009","",""," at Violettes Lock","紫罗兰闸","flflfl","8/2019",gmap("Magnolia Park",28.6339,-81.5507)+", Orange County","","","奥兰治郡阿波普卡湖玉兰公园","mdredg","11/2022,S122313059","Juvenile"]);
   birds[j++] = new Bird("11-12-28T15:32","ACCIPITR","Broad-winged Hawk","巨翅鵟","Buteo platypterus",[p_id("1709algonquin",15),p_id("2020lbrp",12)],["caalgp","9/2017","mdlbrp","8/2020"]);
   birds[j++] = new Bird("22-05-04T09:39","ACCIPITR","Short-tailed Hawk","短尾鵟","Buteo brachyurus",p_id("2204flbird",55),["flflfl","5/2022,S108968954","Immature dark morph, "+gmap("Matheson Hammock Park",25.6812,-80.272)+", Miami-Dade County","未成年黑色形","","迈阿密-戴德郡马西森硬木公园"]);
@@ -635,7 +635,7 @@
   birds[j++] = new Bird("18-12-05T09:31","TYRANNID","Great Kiskadee","大食蝇霸鹟","Pitangus sulphuratus",[p_id("1812crbirding",56),p_id("2001txbirding",31)],["crarol","12/2018","txsnwr","1/2020"]);
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Lesser Kiskadee","小食蝇霸鹟","Philohydor lictor",p_id("2301pabird",),["papipe","1/2023,S126820115"],"leskis1");
   birds[j++] = new Bird("22-08-08T08:10","TYRANNID","Sulphur-bellied Flycatcher","黄腹大嘴霸鹟","Myiodynastes luteiventris",p_id("2208azbird",20),["azmcct","8/2022,S116560424"],"subfly");
-//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Streaked Flycatcher","纹大嘴霸鹟","Myiodynastes maculatus",p_id("2301pabird",),["papipe","1/2023,S126866746"],"strfly1");
+//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Streaked Flycatcher","纹大嘴霸鹟","Myiodynastes maculatus",p_id("2301pabird",),["arb","1/2023,S126866746",gmap("Gamboa",9.1122,-79.6921)+", Colón Province, Panama","","","巴拿马科隆省甘博阿镇"],"strfly1");
   birds[j++] = new Bird("18-12-02T08:57","TYRANNID","Tropical Kingbird","热带王霸鹟","Tyrannus melancholicus",[p_id("1812crbirding",10),m_id("20211106_127"),m_id("20211106_128")],["crsanj","12/2018",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","mdbnwr","11/2021"]);
   birds[j++] = new Bird("19-05-14T08:27","TYRANNID","Cassin's Kingbird","卡氏王霸鹟","Tyrannus vociferans",p_id("1905mxbird",[26,30]),["mxguan","5/2019","arb","5/2019",gmap("Guanajuato City Bus Station",20.9834,-101.287)+", Mexico","墨西哥瓜纳华托城汽车站"]);
   birds[j++] = new Bird("22-08-09T06:17","TYRANNID","Thick-billed Kingbird","厚嘴王霸鹟","Tyrannus crassirostris",p_id("2208azbird",[48,49,50]),["azazaz","8/2022,S116614981",gmap("South Cathedral Rock Road",31.9113,-109.1469)+", Portal","","","门户镇南大教堂岩路"],"thbkin");
