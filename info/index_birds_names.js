@@ -63,6 +63,7 @@
       nyjbwr:  ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nycaudubon.org/queens-birding/jamaica-bay-wildlife-refuge"],
       nymnwr:  ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
       ohmage:  ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州",hotspot("L275986")],
+      pacasc:  ["Casco Viejo","Panama City, Panama","加通湖","巴拿马巴拿马城Casco Viejo老城区",wikiurl("Casco Viejo, Panama"),baikeurl("Casco Viejo老城区")],
       pagatu:  ["Gatun Lake","Panama Canal, Panama","加通湖","巴拿马巴拿马运河",wikiurl("Gatun Lake"),baikeurl("加通湖")],
       pametr:  ["Metropolitan Natural Park","Panama City, Panama","大都会自然公园","巴拿马巴拿马城","http://madaboutpanama.com/panama-sights/wildlife/metropolitan-park/"],
       papipe:  ["Pipeline Road","Soberania National Park, Panama","输油管路","巴拿马索韦拉尼亚国家公园","https://www.whitehawkbirding.com/a-neotropical-birding-mecca-pipeline-road-panama/"],
@@ -187,7 +188,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","HEMIPROC","Crested Treeswift","凤头雨燕","Hemiprocne coronata",m_id(""),["mdbhrp","1/2023,"],"cretre1");
   birds[j++] = new Bird("15-07-19T08:02","APODIDAE","Chimney Swift","烟囱雨燕","Chaetura pelagica",m_id("20160618_077"),["dedede","6/2016",gmap("Lewes",38.7757,-75.1405),"","","刘易斯市"]);
 //birds[j++] = new Bird("23-00-00T00:00","APODIDAE","Vaux's Swift","沃氏雨燕","Chaetura vauxi",m_id(""),["arb","1/2023,"]);
-//birds[j++] = new Bird("23-00-00T00:00","APODIDAE","Short-tailed Swift","短尾雨燕","Chaetura brachyura",p_id("2301pabird",),["papipe","1/2023,S126834645"],"shtswi1");
+//birds[j++] = new Bird("23-00-00T00:00","APODIDAE","Short-tailed Swift","短尾雨燕","Chaetura brachyura",p_id("2301pabird",),["pacasc","1/2023,S126834645"],"shtswi1");
 //birds[j++] = new Bird("23-00-00T00:00","APODIDAE","White-throated Swift","白喉雨燕","Aeronautes saxatalis",p_id("",),["azmcct","8/2022,"]);
   birds[j++] = new Bird("18-12-05T08:00","TROCHILI","Stripe-throated Hermit","纹喉隐蜂鸟","Phaethornis striigularis",p_id("1812crbirding",54),["crarol","12/2018"],"stther2");
 //birds[j++] = new Bird("23-00-00T00:00","TROCHILI","Purple-crowned Fairy","紫冠仙蜂鸟","Heliothryx barroti",p_id("2301pabird",),["pametr","1/2023,S126933504"],"pucfai1");
@@ -226,7 +227,7 @@
   birds[j++] = new Bird("15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[p_id("1501prbirding",46),p_id("1601china",5),p_id("1905mxbird",23)],["prsanj","1/2015","cnbjjp","1/2016","arb","5/2019","Adult feeding young, "+gmap("Guanajuato City",21.0156,-101.2537)+", Mexico","成年鸟喂雏鸟，墨西哥瓜纳华托城"]);
   birds[j++] = new Bird("22-05-01T07:24","COLUMBID","White-crowned Pigeon","白顶鸽","Patagioenas leucocephala",p_id("2204flbird",26),["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]);
 //birds[j++] = new Bird("23-00-00T00:00","COLUMBID","Band-tailed Pigeon","斑尾鸽","Patagioenas fasciata",p_id("",),["azazaz","8/2022,"]);
-//birds[j++] = new Bird("23-00-00T00:00","COLUMBID","Pale-vented Pigeon","淡腹鸽","Patagioenas cayennensis",p_id("2301pabird",),["papipe","1/2023,S126820115"],"pavpig2");
+//birds[j++] = new Bird("23-00-00T00:00","COLUMBID","Pale-vented Pigeon","淡腹鸽","Patagioenas cayennensis",p_id("2301pabird",),["pacasc","1/2023,S126834645"],"pavpig2");
   birds[j++] = new Bird("18-12-08T08:58","COLUMBID","Red-billed Pigeon","红嘴鸽","Patagioenas flavirostris",p_id("1812crbirding",97),["crsanj","12/2018",gmap("Morazán Park",9.9355,-84.0754),"","","莫拉桑公园"],"rebpig1");
   birds[j++] = new Bird("17-04-03T07:11","COLUMBID","Oriental Turtle Dove","山斑鸠","Streptopelia orientalis",p_id("1704longyan",6),["cnlydp","4/2017"],"ortdov");
   birds[j++] = new Bird("15-07-12T10:32","COLUMBID","Eurasian Collared-Dove","灰斑鸠","Streptopelia decaocto",p_id("1606florida",25),["flflfl","6/2016",gmap("South Beach",25.789,-80.1283)+", Miami","","","迈阿密南滩"]);
@@ -234,7 +235,7 @@
   birds[j++] = new Bird("16-01-03T10:00","COLUMBID","Spotted Dove","珠颈斑鸠","Spilopelia chinensis",p_id("1601china",7),["cnbjjp","1/2016"],"spodov");
   birds[j++] = new Bird("13-12-25T14:41","COLUMBID","Inca Dove","印加地鸠","Columbina inca",[p_id("1312bigbendbirding",2),p_id("1812crbirding",8),p_id("1905mxbird",34)],["txbbnp","12/2013","crsanj","12/2018",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","mxmcal","5/2019"]);
   birds[j++] = new Bird("15-01-02T09:54","COLUMBID","Common Ground Dove","地鸠","Columbina passerina",p_id("1501prbirding",[8,19]),["arb","1/2015","Male, "+gmap("Rincón",18.34083,-67.2554)+", Puerto Rico, USA","雄性，美国波多黎各林孔市","prcnwr","1/2015","Female"]);
-//birds[j++] = new Bird("23-00-00T00:00","COLUMBID","Ruddy Ground Dove","红地鸠","Columbina talpacoti",p_id("2301pabird",),["papipe","1/2023,S126834645"],"rugdov");
+//birds[j++] = new Bird("23-00-00T00:00","COLUMBID","Ruddy Ground Dove","红地鸠","Columbina talpacoti",p_id("2301pabird",),["pacasc","1/2023,S126834645"],"rugdov");
   birds[j++] = new Bird("18-12-07T08:02","COLUMBID","White-tipped Dove","白额棕翅鸠","Leptotila verreauxi",p_id("1812crbirding",86),["crarol","12/2018"],"whtdov");
   birds[j++] = new Bird("06-04-29T08:07","COLUMBID","Mourning Dove","哀鸽","Zenaida macroura",[m_id("20160130_006"),p_id("2208cabird",1)],["mdbhrp","1/2016","arb","8/2022,S117602480",gmap("Van Wagner's Beach",43.2623,-79.7682)+", Hamilton, Canada","加拿大汉密尔顿市范瓦格纳湖滩"]);
   birds[j++] = new Bird("15-01-08T10:50","COLUMBID","Zenaida Dove","鸣哀鸽","Zenaida aurita",p_id("1501prbirding",45),["prsanj","1/2015"],"zendov");
@@ -603,11 +604,12 @@
 //birds[j++] = new Bird("23-00-00T00:00","MELANOPA","Collared Crescentchest","领月胸窜鸟","Melanopareia torquata",m_id(""),["mdbhrp","1/2023,"],"colcre1");  
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Forest Elaenia","林伊拉鹟","Myiopagis gaimardii",p_id("2301pabird",),["papipe","1/2023,S126820118"],"forela1");
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Greenish Elaenia","绿伊拉鹟","Myiopagis viridicata",p_id("2301pabird",),["pametr","1/2023,S126960214"],"greela");
+//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Yellow-bellied Elaenia","黄腹拟霸鹟","Elaenia flavogaster",p_id("2301pabird",),["pacasc","1/2023,S126834645"],"yebela1");
   birds[j++] = new Bird("15-01-03T10:13","TYRANNID","Caribbean Elaenia","加勒比拟霸鹟","Elaenia martinica",p_id("1501prbirding",15),["prcnwr","1/2015"],"carela1");
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Northern Beardless-Tyrannulet","北无须小霸鹟","Camptostoma imberbe",p_id("",),["azazaz","8/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Ochre-bellied Flycatcher","赭腹霸鹟","Mionectes oleagineus",p_id("2301pabird",),["pametr","1/2023,S126960214"],"ocbfly1");
-//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Southern Bentbill","南弯嘴霸鹟","Oncostoma olivaceum",p_id("2301pabird",),["papipe","1/2023,"],"souben1");
-//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Common Tody-Flycatcher","哑霸鹟","Todirostrum cinereum",p_id("2301pabird",),["papipe","1/2023,S126834645"],"cotfly1");
+//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Southern Bentbill","南弯嘴霸鹟","Oncostoma olivaceum",p_id("2301pabird",),["papipe","1/2023,S126820118"],"souben1");
+//birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Common Tody-Flycatcher","哑霸鹟","Todirostrum cinereum",p_id("2301pabird",),["pacasc","1/2023,S126834645"],"cotfly1");
 //birds[j++] = new Bird("23-00-00T00:00","TYRANNID","Yellow-olive Flycatcher","黄绿霸鹟","Tolmomyias sulphurescens",p_id("2301pabird",),["pametr","1/2023,S126960214"],"yeofly1");
   birds[j++] = new Bird("06-04-14T16:40","TYRANNID","Eastern Phoebe","灰胸长尾霸鹟","Sayornis phoebe",[m_id("20210506_064"),m_id("20220619_074"),p_id("1408annapolisbirding",18)],["mdlbrp","5/2021","mdrock","6/2022,S113250965",gmap("Wootton's Mill Park",39.0836,-77.179),"","","伍顿磨坊公园","mdmdmd","8/2014","Juvenile, "+gmap("Greenbury Point",38.9834,-76.4513)+", Annapolis","","","安纳波利斯格林伯瑞角"]);
   birds[j++] = new Bird("13-12-25T18:43","TYRANNID","Black Phoebe","黑长尾霸鹟","Sayornis nigricans",[p_id("1312bigbendbirding",18),p_id("2208azbird",73)],["txbbnp","12/2013","azazaz","8/2022,S116756623","Juvenile, "+hotspot("L5808871","Crescent Moon Ranch Picnic Area")+", Sedona","","","塞多纳市新月牧场野餐区"]);
