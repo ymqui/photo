@@ -37,7 +37,7 @@ function initAlbum(){
     this[0][i]    = "20220826_Canada";
     this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+btext("Canada"),btext("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
     this[0][i]    = "20230122_Panama";
-    this[1][i++]  = pagelink("2301panama",(["Panama City, "+btext("Panama"),btext("巴拿马")+"巴拿马城"])[cn_ind]);
+    this[1][i++]  = pagelink("2301panama",(["Casco Viejo, Panama City, "+btext("Panama"),btext("巴拿马")+"巴拿马城Casco Viejo老城"])[cn_ind]);
 
     adddate(this);
 }
