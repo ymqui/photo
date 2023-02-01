@@ -716,7 +716,7 @@ function adddate(thisalbum){
            thisalbum[1][i] = getdate(thisalbum[0][i],thisalbum[1][i]);
         }else{
            if (/^\d+$/.test(thisalbum[0][i][thisalbum[0][i].length-1])){
-              if (thisalbum[1][i].constructor !=array){
+              if (thisalbum[1][i].constructor !=Array){
                  thisalbum[1][i] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i]);
               }else{
                  for (var j=0;j<thisalbum[1][i].length;j++){
