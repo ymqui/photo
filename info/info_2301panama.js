@@ -76,7 +76,7 @@ function initAlbum(){
         this[1][0] = "At Casco Viejo in Panama City.";
         this[1][1] = "At Casco Viejo in Panama City.";
         this[1][2] = "At Casco Viejo in Panama City.";
-        this[1][3] = "At the Casco Viejo in Panama City.";
+        this[1][3] = "At Casco Viejo in Panama City.";
         this[1][4] = "Panama City cityscape.";
         this[1][5] = "At Casco Viejo in Panama City.";
         this[1][6] = "At Casco Viejo in Panama City.";
@@ -105,17 +105,17 @@ function initAlbum(){
         this[1][30] = "Visiting the Biomuseo.";
         this[1][31] = "Visiting the Biomuseo.";
         this[1][32] = "Visiting the Biomuseo.";
-        this[1][33] = "Taking a canoe ride to visit the Embera Puru Village.";
-        this[1][35] = "Taking a canoe ride to visit the Embera Puru Village.";
-        this[1][36] = "Taking a canoe ride to visit the Embera Puru Village.";
-        this[1][37] = "Welcome from the Embera village people.";
-        this[1][38] = "The Embera Puru Village community gathering place.";
+        this[1][33] = "Taking a canoe ride to visit the Emberá Purú village.";
+        this[1][35] = "Taking a canoe ride to visit the Emberá Purú village.";
+        this[1][36] = "Taking a canoe ride to visit the Emberá Purú village.";
+        this[1][37] = "Welcome from the Emberá village people.";
+        this[1][38] = "The Emberá Purú village community gathering place.";
         this[1][40] = "Lunch is fried fish and plantain.";
         this[1][42] = "Dance performance.";
         this[1][43] = "Dance performance.";
         this[1][45] = "Dancing with the tribe.";
-        this[1][47] = "An Embera family at the village.";
-        this[1][48] = "Drawing during the flight back home.";
+        this[1][47] = "An Emberá family at the village.";
+        this[1][48] = "Drawing a dragon during the flight back home.";
     }
 }
  
