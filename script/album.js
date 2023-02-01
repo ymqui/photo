@@ -678,10 +678,15 @@ function baikeurl(bid,name){
 }
 
 function getdate(name,str){
-    var pos  = name.search(/20[0-9]{2,}/) 
-    var year = name.substring(pos+0,pos+4);
-    var mon  = name.substring(pos+4,pos+6);
-    var day  = name.substring(pos+6,pos+8);
+    var nam1  = "";
+    var tmp   = "";
+    var date  = "";
+    var comma = ",";
+    if (name.constructor==Array){nam1=name[0];}else{nam1=name;}
+    var pos   = nam1.search(/20[0-9]{2,}/) 
+    var year  = nam1.substring(pos+0,pos+4);
+    var mon   = nam1.substring(pos+4,pos+6);
+    var day   = nam1.substring(pos+6,pos+8);
     if (window.usechinese){
        date = year
        if (mon.length!=0) {date = date+"-"+mon;}
@@ -695,31 +700,29 @@ function getdate(name,str){
        if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
        date = date+year+".";
-       comma = ",";
     }
-    var tmp = [];
-    var len = 1;
-    if (str.constructor == Array){
-       len = str.length;
-       for (var i=0;i<len;i++) tmp[i] = str[i];
-    }else{tmp[0] = str;}
-    for (var i=0;i<len;i++){
-        if ((tmp[i].slice(-1)==="!")||(tmp[i].slice(-1)==="！")){
-           tmp[i] = tmp[i]+date;
-        }else{
-           tmp[i] = tmp[i]+comma+date;
-        }
+    if (str.constructor==Array){tmp=str[0];}else{tmp=str;}
+    if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
+       tmp = tmp+date;
+    }else{
+       tmp = tmp+comma+date;
     }
-    if (len==1){return tmp[0];}else{return tmp;}
+    return tmp;
 }
 
 function adddate(thisalbum){
     for (var i=0;i<thisalbum[0].length;i++){
-        if (thisalbum[0][i].constructor != Array){ 
+        if (thisalbum[0][i].constructor != Array){
            thisalbum[1][i] = getdate(thisalbum[0][i],thisalbum[1][i]);
         }else{
            if (/^\d+$/.test(thisalbum[0][i][thisalbum[0][i].length-1])){
-              thisalbum[1][i] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i]);
+              if (thisalbum[1][i].constructor !=array){
+                 thisalbum[1][i] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i]);
+              }else{
+                 for (var j=0;j<thisalbum[1][i].length;j++){
+                     thisalbum[1][i][j] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i][j]);
+                 }
+              }
               thisalbum[0][i].splice(-1);
               for (var j=0;j<thisalbum[0][i].length;j++){
                   thisalbum[0][i][j] = "../"+thisalbum[0][i][j];
@@ -728,7 +731,13 @@ function adddate(thisalbum){
                   thisalbum[0][i] = thisalbum[0][i][0];
               }
            }else{
-              thisalbum[1][i] = getdate(thisalbum[0][i][0],thisalbum[1][i]);
+              if (thisalbum[1][i].constructor!=Array){
+                 thisalbum[1][i] = getdate(thisalbum[0][i][0],thisalbum[1][i]);
+              }else{
+                 for (var j=0;j<thisalbum[1][i].length;j++){
+                     thisalbum[1][i][j] = getdate(thisalbum[0][i][(thisalbum[1][i].length==thisalbum[0][i].length)?j:0],thisalbum[1][i][j]); 
+                 }
+              }
            }
         }
     }  
