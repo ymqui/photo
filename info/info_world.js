@@ -36,8 +36,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, State of Mexico, "+btext("Mexico"),btext("墨西哥")+"墨西哥州特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
     this[0][i]    = "20220826_Canada";
     this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+btext("Canada"),btext("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
-    this[0][i]    = ["20230122_Panama","20230127_Panama"];
-    this[1][i++]  = ([[pagelink("2301panama","Casco Viejo, Panama City, "+btext("Panama")),pagelink("2301panama","Lake Alajuela, Panamá Province, "+btext("Panama"))],[pagelink("2301panama",btext("巴拿马")+"巴拿马城Casco Viejo老城"),pagelink("2301panama",btext("巴拿马")+"巴拿马省阿拉胡埃拉湖")]])[cn_ind]);
+    this[0][i]    = ["20230122_Panama","20230124_Panama"];
+    this[1][i++]  = ([[pagelink("2301panama","Casco Viejo, Panama City, "+btext("Panama")),pagelink("2301panama","Monkey Island, Panama Canal, "+btext("Panama"))],[pagelink("2301panama",btext("巴拿马")+"巴拿马城Casco Viejo老城"),pagelink("2301panama",btext("巴拿马")+"巴拿马运河猴岛")]])[cn_ind]);
 
     adddate(this);
 }
