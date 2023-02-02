@@ -678,20 +678,17 @@ function baikeurl(bid,name){
 }
 
 function getdate(name,str){
-    var nam1  = "";
-    var tmp   = "";
-    var date  = "";
-    var comma = ",";
+    var nam1,tmp,date,comma=",";
     if (name.constructor==Array){nam1=name[0];}else{nam1=name;}
-    var pos   = nam1.search(/20[0-9]{2,}/) 
-    var year  = nam1.substring(pos+0,pos+4);
-    var mon   = nam1.substring(pos+4,pos+6);
-    var day   = nam1.substring(pos+6,pos+8);
+    var pos  = nam1.search(/20[0-9]{2,}/) 
+    var year = nam1.substring(pos+0,pos+4);
+    var mon  = nam1.substring(pos+4,pos+6);
+    var day  = nam1.substring(pos+6,pos+8);
     if (window.usechinese){
-       date = year
+       date  = year
        if (mon.length!=0) {date = date+"-"+mon;}
        if (day.length!=0) {date = date+"-"+day;}
-       date = date+"。";
+       date  = date+"。";
        comma = "，";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
@@ -711,16 +708,25 @@ function getdate(name,str){
 }
 
 function adddate(thisalbum){
+    var tmp;
     for (var i=0;i<thisalbum[0].length;i++){
         if (thisalbum[0][i].constructor != Array){
            thisalbum[1][i] = getdate(thisalbum[0][i],thisalbum[1][i]);
         }else{
-           if (/^\d+$/.test(thisalbum[0][i][thisalbum[0][i].length-1])){
+           if (thisalbum[0][i][thisalbum[0][i].length-1].constructor!=Array){
+              tmp = thisalbum[0][i][thisalbum[0][i].length-1];
+           }else{
+              tmp = thisalbum[0][i][thisalbum[0][i].length-1][0];
+           }
+           if (/^\d+$/.test(tmp)){
               if (thisalbum[1][i].constructor !=Array){
-                 thisalbum[1][i] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i]);
+                 thisalbum[1][i] = getdate(tmp,thisalbum[1][i]);
               }else{
                  for (var j=0;j<thisalbum[1][i].length;j++){
-                     thisalbum[1][i][j] = getdate(thisalbum[0][i][thisalbum[0][i].length-1],thisalbum[1][i][j]);
+                     if (thisalbum[0][i][thisalbum[0][i].length-1].constructor==Array){
+                        tmp = thisalbum[0][i][thisalbum[0][i].length-1][j];
+                     }
+                     thisalbum[1][i][j] = getdate(tmp,thisalbum[1][i][j]);
                  }
               }
               thisalbum[0][i].splice(-1);
