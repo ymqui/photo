@@ -735,8 +735,7 @@ function adddate(thisalbum){
                  thisalbum[1][i] = getdate(thisalbum[0][i][0],thisalbum[1][i]);
               }else{
                  for (var j=0;j<thisalbum[1][i].length;j++){
-                     var ind = (thisalbum[1][i].length==thisalbum[0][i].length)?j:0;
-                     thisalbum[1][i][j] = getdate(thisalbum[0][i][ind],thisalbum[1][i][j]); 
+                     thisalbum[1][i][j] = getdate(thisalbum[0][i][(thisalbum[1][i].length==thisalbum[0][i].length)?j:0],thisalbum[1][i][j]); 
                  }
               }
            }
