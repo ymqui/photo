@@ -1351,6 +1351,11 @@
   info[2][j] = 2;
   info[3][j] = "12/2022 Florida Birding";
   info[4][j++] = "Birding in the Tampa area(Florida).";
+  info[0][j] = "2301pabird";
+  info[1][j] = 6;
+  info[2][j] = 2;
+  info[3][j] = "1/2023 Panama Birding";
+  info[4][j++] = "Birding in Panama City and Soberania National Park(Panama).";
 
   if(window.usechinese){
      j = 0;
@@ -1890,6 +1895,8 @@
      info[4][j++] = "在亚利桑那南部观鸟(亚利桑那州)。";
      info[3][j]   = "12/2022 佛罗里达观鸟";
      info[4][j++] = "在佛罗里达中部观鸟(佛罗里达州)。";
+     info[3][j]   = "1/2023 巴拿马观鸟";
+     info[4][j++] = "在巴拿马城和索韦拉尼亚国家公园观鸟(巴拿马)。";
   } 
 
   //special touch
