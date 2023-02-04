@@ -1915,5 +1915,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2022-12-30T08:00:00");
+  var modDat = new Date("2023-02-04T08:00:00");
 //-->
