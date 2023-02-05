@@ -47,7 +47,7 @@ function initAlbum(){
         this[1][16] = "厚嘴巨嘴鸟，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][17] = "黑嘴巨嘴鸟，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][18] = "斑尾美洲咬鹃，巴拿马索韦拉尼亚国家公园输油管路。";
-        this[1][19] = "朱冠啄木鸟，巴拿马索韦拉尼亚国家公园输油管路。";
+        this[1][19] = "朱冠啄木鸟，雄性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][20] = "斑翅蚁鹩，雌性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][21] = "斑翅蚁鹩，雄性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][22] = "白胁蚁鹩，雄性，巴拿马索韦拉尼亚国家公园输油管路。";
@@ -71,9 +71,10 @@ function initAlbum(){
         this[1][40] = "红尾霸鹟，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][41] = "带斑蚁鵙，雄性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][42] = "棕翠鴗，巴拿马索韦拉尼亚国家公园输油管路。";
+        this[1][43] = "棕翠鴗，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][44] = "紫喉果伞鸟，左雄性，右雌性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][45] = "紫喉果伞鸟，雌性，巴拿马索韦拉尼亚国家公园输油管路。";
-        this[1][46] = "点斑蚁鸟，巴拿马索韦拉尼亚国家公园输油管路。";
+        this[1][46] = "点斑蚁鸟，雄性，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][47] = "可岛䴕雀，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][48] = "栗头拟椋鸟，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][49] = "黑纹䴕雀，巴拿马索韦拉尼亚国家公园输油管路。";
@@ -190,7 +191,7 @@ function initAlbum(){
         this[1][16] = "Keel-billed Toucan, Pipeline Road, Soberania National Park.";
         this[1][17] = "Yellow-throated Toucan, Pipeline Road, Soberania National Park.";
         this[1][18] = "Gartered Trogon, Pipeline Road, Soberania National Park.";
-        this[1][19] = "Crimson-crested Woodpecker, Pipeline Road, Soberania National Park.";
+        this[1][19] = "Crimson-crested Woodpecker, male, Pipeline Road, Soberania National Park.";
         this[1][20] = "Dot-winged Antwren, female, Pipeline Road, Soberania National Park.";
         this[1][21] = "Dot-winged Antwren, male, Pipeline Road, Soberania National Park.";
         this[1][22] = "White-flanked Antwren, male, Pipeline Road, Soberania National Park.";
@@ -214,9 +215,10 @@ function initAlbum(){
         this[1][40] = "Ruddy-tailed Flycatcher, Pipeline Road, Soberania National Park.";
         this[1][41] = "Fasciated Antshrike, male, Pipeline Road, Soberania National Park.";
         this[1][42] = "Rufous Motmot, Pipeline Road, Soberania National Park.";
+        this[1][43] = "Rufous Motmot, Pipeline Road, Soberania National Park.";
         this[1][44] = "Purple-throated Fruitcrow, male left, female right, Pipeline Road, Soberania National Park.";
         this[1][45] = "Purple-throated Fruitcrow, female, Pipeline Road, Soberania National Park.";
-        this[1][46] = "Spotted Antbird, Pipeline Road, Soberania National Park.";
+        this[1][46] = "Spotted Antbird, male, Pipeline Road, Soberania National Park.";
         this[1][47] = "Cocoa Woodcreeper, Pipeline Road, Soberania National Park.";
         this[1][48] = "Chestnut-headed Oropendola, Pipeline Road, Soberania National Park.";
         this[1][49] = "Black-striped Woodcreeper, Pipeline Road, Soberania National Park.";
