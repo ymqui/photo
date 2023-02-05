@@ -7,8 +7,8 @@
         homeurl = "https://ymqui.github.io/photo/";  
     }
     var maindir = "https://ymqui.github.io/photo/";
-    window.onerror = function(msg,url,line)
-    {   
-        window.location.href = homeurl+"error.html?"+msg+' at line '+line;
-    }
+    //window.onerror = function(msg,url,line)
+    //{   
+    //    window.location.href = homeurl+"error.html?"+msg+' at line '+line;
+   // }
 //-->
