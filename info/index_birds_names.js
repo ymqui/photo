@@ -582,7 +582,7 @@
   birds[j++] = new Bird("23-01-23T07:36","THAMNOPH","Dot-winged Antwren","斑翅蚁鹩","Microrhopias quixensis",p_id("2301pabird",[22,21]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"dowant1","");
   birds[j++] = new Bird("23-01-23T08:40","THAMNOPH","Checker-throated Stipplethroat","格喉蚁鹩","Epinecrophylla fulviventris",p_id("2301pabird",[40,34]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"chtant1");
   birds[j++] = new Bird("23-01-23T09:13","THAMNOPH","Moustached Antwren","鬃蚁鹩","Myrmotherula ignota",p_id("2301pabird",38),["papipe","1/2023,S126820118"],"mouant");
-  birds[j++] = new Bird("23-00-00T08:09","THAMNOPH","White-flanked Antwren","白胁蚁鹩","Myrmotherula axillaris",p_id("2301pabird",[23,25]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"whfant2");
+  birds[j++] = new Bird("23-08-09T08:09","THAMNOPH","White-flanked Antwren","白胁蚁鹩","Myrmotherula axillaris",p_id("2301pabird",[23,25]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"whfant2");
   birds[j++] = new Bird("23-01-23T06:57","THAMNOPH","Barred Antshrike","横斑蚁鵙","Thamnophilus doliatus",p_id("2301pabird",[9,10]),["papipe","1/2023,S126820115","Male","papipe","1/2023,S126820115","Female"],"barant1");
   birds[j++] = new Bird("23-01-23T08:11","THAMNOPH","Black-crowned Antshrike","西蓝灰蚁鵙","Thamnophilus atrinucha",p_id("2301pabird",[26,24]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"wesant1");
   birds[j++] = new Bird("23-01-23T09:37","THAMNOPH","Fasciated Antshrike","带斑蚁鵙","Cymbilaimus lineatus",p_id("2301pabird",42),["papipe","1/2023,S126820118","Male"],"fasant1");
