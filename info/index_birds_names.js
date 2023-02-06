@@ -407,7 +407,7 @@
   birds[j++] = new Bird("05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",p_id("0512merritt",9),["flmnwr","12/2005"]);
   birds[j++] = new Bird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",p_id("2001txbirding",32),["txsnwr","1/2020","Nonbreeding plumage"]);
   birds[j++] = new Bird("05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","12/2005","scscsc","6/2016",gmap("Bear Island Wildlife Management Area",32.6119,-80.4429),"","","熊岛野生动物管理区"]);
-  birds[j++] = new Bird("23-01-23T07:12","ARDEIDAE","Rufescent Tiger Heron","栗虎鹭","Tigrisoma lineatum",p_id("2301pabird",14),["papipe","1/2023,S126820115","Juvenile"],"uther1");
+  birds[j++] = new Bird("23-01-23T07:12","ARDEIDAE","Rufescent Tiger Heron","栗虎鹭","Tigrisoma lineatum",p_id("2301pabird",14),["papipe","1/2023,S126820115","Juvenile"],"ruther1");
   birds[j++] = new Bird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdmdmd","4/2015",gmap("North Point State Park",39.221,-76.4225),"","","北点州立公园","cactnw","9/2016","cactnw","9/2016"]);
   birds[j++] = new Bird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",m_id("20210427_053"),["papapa","4/2021","Female, "+gmap("Lake Redman",39.881,-76.6871)+", York County","","","约克郡雷德曼湖"]);
   birds[j++] = new Bird("06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",m_id(["20160625_081","20170827_096"]),["nyjbwr","6/2016","mdcocn","8/2017","Juvenile",""," at Riley's Lock","莱利闸"]);
