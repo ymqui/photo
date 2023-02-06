@@ -321,7 +321,7 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
     this[0][i]    = ["2301panama/2301panama_4","2301panama/2301panama_16","2301panama/2301panama_46",["20230122","20230124","20230127"]];
     this[1][i++]  = ([["Visiting Casco Viejo in Panama City during the "+pagelink("2301panama","vacation in Panama"),"Watching monkeys in Monkey Island during the "+pagelink("2301panama","vacation in Panama"),"Visiting the Emberá Purú village during the "+pagelink("2301panama","vacation in Panama")],
-                    [pagelink("2301panama","在巴拿马度假")+"时巴拿马城的Casco Viejo老城",pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
+                    [pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的Casco Viejo老城",pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
