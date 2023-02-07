@@ -834,7 +834,7 @@
      var indx = 2;
      var prev = 0;
      while(indx<link.length){
-         if (typeof locurl[link[indx]] !== 'undefined'){
+         if (typeof lurls[link[indx]] !== 'undefined'){
             switch(indx-prev){
 		case 2:
                      link.splice(indx,0,"","","","");
@@ -870,9 +870,9 @@
      if (typeof header === 'undefined') {header = "";} 
      if (header.length>0) {header = header+comma;}
      if (typeof extra === 'undefined') {var extra = "";}
-     if (typeof locurl[pid] === 'undefined') {return header+extra+date;}
-     var tmp = locurl[pid].slice(0);
-     if (locurl[pid].length>=7){
+     if (typeof lurls[pid] === 'undefined') {return header+extra+date;}
+     var tmp = lurls[pid].slice(0);
+     if (lurls[pid].length>=7){
         extra = tmp[([1,4])[cn_ind]];
         tmp.splice(4,1);
         tmp.splice(1,1);
