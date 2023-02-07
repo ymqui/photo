@@ -181,7 +181,7 @@ function getCountry(str,offset){
 
 function getloctooltip(str){
     if (str == 'arb'){return (['Miscellaneous locations','世界各地'])[cn_ind];}
-    var tmp = locurl[str][0+2*cn_ind];
+    var tmp = lurls[str][0+2*cn_ind];
     if(usechinese){
         return getlocCountry(loc_cnts[i][0])+tmp;
     }else{
@@ -190,7 +190,7 @@ function getloctooltip(str){
 }
 
 function getlocCountry(str){
-    var tmp = locurl[str];
+    var tmp = lurls[str];
     var tmp1 = '';
     if (tmp[2].match(/[\u3400-\u9FBF]/)){
        tmp1 = getCountry(tmp[1],1);
@@ -294,7 +294,7 @@ var tot_bgen = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';
 var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.length.toString(),fcol3)+'</a>';
 
 //check to see if any of the locations has little or no use
-var tmp = Object.keys(locurl);
+var tmp = Object.keys(lurls);
 var tmp1 = Object.keys(py);
 for (var i=0;i<tmp1.length;i++){
     if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
@@ -355,13 +355,13 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
        var txcol2 = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
        tmp_url = '';
        ind = 0;
-       if (locurl[loc_cnts[i][0]].length>6){
-          if (locurl[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!usechinese)||((locurl[loc_cnts[i][0]].length>7) && usechinese)){
-             tmp_url = locurl[loc_cnts[i][0]][Math.min(6+cn_ind,locurl[loc_cnts[i][0]].length-1)];
+       if (lurls[loc_cnts[i][0]].length>6){
+          if (lurls[loc_cnts[i][0]][6].match(/[\u3400-\u9FBF]/)||(!usechinese)||((lurls[loc_cnts[i][0]].length>7) && usechinese)){
+             tmp_url = lurls[loc_cnts[i][0]][Math.min(6+cn_ind,lurls[loc_cnts[i][0]].length-1)];
           }
-       }else if (locurl[loc_cnts[i][0]].length>4){
-          if (locurl[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)||(!usechinese)||((locurl[loc_cnts[i][0]].length>5) && usechinese)){
-             tmp_url = locurl[loc_cnts[i][0]][Math.min(4+cn_ind,locurl[loc_cnts[i][0]].length-1)];
+       }else if (lurls[loc_cnts[i][0]].length>4){
+          if (lurls[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)||(!usechinese)||((lurls[loc_cnts[i][0]].length>5) && usechinese)){
+             tmp_url = lurls[loc_cnts[i][0]][Math.min(4+cn_ind,lurls[loc_cnts[i][0]].length-1)];
           }
        }
        if (tmp_url.length>0){
