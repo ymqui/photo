@@ -35,7 +35,6 @@
       mdbmnt: ["Blue Mash Nature Trail","Montgomery County, Maryland, USA","蓝沼自然小径","美国马里兰州蒙哥马利郡","https://www.montgomerycountymd.gov/sws/facilities/oaks/"],
       mdbnwr: ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true),baikeurl("国立黑水野生动物保护区")],
       mdcocn: ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baikeurl("切萨皮克和俄亥俄运河")],
-      mdenwr: ["Eastern Neck National Wildlife Refuge","Maryland, USA","东内克国家野生动物保护区","美国马里兰州",npsurl("eastern_neck",true)],
       mdftmh: ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州",npsurl("fomc"),baikeurl("麦克亨利堡")],
       mdlbrp: ["Little Bennett Regional Park","Montgomery County, Maryland, USA","小班尼特公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/"],
       mdloch: ["Loch Raven Reservoir","Maryland, USA","渡鸦湖水库","美国马里兰州",wikiurl("Loch Raven Reservoir")],
@@ -349,13 +348,13 @@
   birds[j++] = new Bird("15-01-08T09:29","LARIDAE ","Royal Tern","橙嘴凤头燕鸥","Thalasseus maximus",[m_id("20151031_117"),p_id("1501prbirding",41),p_id("1501prbirding",42)],["mdocci","10/2015","Winter plumage",""," "+gmap("Inlet",38.3244,-75.0854),"海口","prsanj","1/2015"]);
   birds[j++] = new Bird("21-06-06T13:37","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",m_id("20210606_087"),["vavava","6/2021",npsurl("fomr","Fort Monroe National Monument")+", Hampton","","","汉普顿市"+npsurl("fomr","门罗堡纪念碑")]);
 //birds[j++] = new Bird("23-00-00T00:00","LARIDAE ","Elegant Tern","丽色凤头燕鸥","Thalasseus elegans",p_id("",),["azazaz","8/2022,",gmap("Arthur Pack Regional Park",32.3744,-111.0549)+", Pima County","","","皮马郡亚瑟帕克公园"]); 
-  birds[j++] = new Bird("15-07-26T09:02","LARIDAE ","Least Tern","姬燕鸥","Sternula antillarum",m_id(["20150726_084","20150726_085"]),["mdenwr","7/2015","mdenwr","7/2015","Juvenile"]);
+  birds[j++] = new Bird("15-07-26T09:02","LARIDAE ","Least Tern","姬燕鸥","Sternula antillarum",m_id(["20150726_084","20150726_085"]),["mdmdmd","7/2015",npsurl("eastern_neck",true,"Eastern Neck National Wildlife Refuge"),"","",npsurl("eastern_neck",true,"东内克国家野生动物保护区"),"mdmdmd","7/2015","Juvenile, "+npsurl("eastern_neck",true,"Eastern Neck National Wildlife Refuge"),"","",npsurl("eastern_neck",true,"东内克国家野生动物保护区")]);
   birds[j++] = new Bird("22-04-30T12:13","LARIDAE ","Bridled Tern","褐翅燕鸥","Onychoprion anaethetus",p_id("2204flbird",[10,11]),["fldtnp","4/2022,S108548976"],"briter1");
   birds[j++] = new Bird("22-04-30T10:43","LARIDAE ","Sooty Tern","乌燕鸥","Onychoprion fuscatus",p_id("2204flbird",5),["fldtnp","4/2022,S108548976"],"sooter1");
   birds[j++] = new Bird("21-08-11T09:46","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[p_id("2108racepoint",5),p_id("2204flbird",8)],["marace","8/2021","fldtnp","4/2022,S108548976"]);
   birds[j++] = new Bird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407michiganbirding",[15,16]),["mimack","7/2014"]);
   birds[j++] = new Bird("22-05-15T11:32","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",m_id(["20220515_062","20220515_060"]),["papapa","5/2022,S110301496",gmap("Marsh Creek State Park",40.069,-75.72)+", Chester County","","","切斯特郡沼泽溪州立公园"]);
-  birds[j++] = new Bird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086")],["njnjnj","5/2015",gmap("Cape May Point State Park",38.9328,-74.958),"","","五月岬州立公园","mdenwr","7/2015","Winter plumage (with two "+b_link("Laughing Gull","s")+" at the back)","未成年(背后是两只"+b_link("笑鸥")+")"]);
+  birds[j++] = new Bird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086")],["njnjnj","5/2015",gmap("Cape May Point State Park",38.9328,-74.958),"","","五月岬州立公园","mdmdmd","7/2015","Winter plumage, "+npsurl("eastern_neck",true,"Eastern Neck National Wildlife Refuge"),"","",npsurl("eastern_neck",true,"东内克国家野生动物保护区")]);
   birds[j++] = new Bird("22-07-16T07:44","LARIDAE ","White-winged Tern","白翅浮鸥","Chlidonias leucopterus",m_id(["20220716_084","20220716_085"]),["dedede","7/2022,S115177433","Molting adult, "+gmap("Big Stone Beach Marsh",39,-75.33)+",  Kent County","","","肯特郡大石滩沼泽"],"whwter"); 
   birds[j++] = new Bird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("20210531_085"),p_id("2108racepoint",1)],["papapa","5/2021","Breeding adult, "+npsurl("John_Heinz",true,"John Heinz National Wildlife Refuge")+", Philadelphia","","","费城"+npsurl("John_Heinz",true,"约翰·亨氏国家野生动物保护区"),"marace","8/2021","Nonbreeding adults"]);
 //birds[j++] = new Bird("23-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",p_id("",),["fldtnp","1/2023,"]);
