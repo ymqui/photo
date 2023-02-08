@@ -1196,7 +1196,7 @@
   info[2][j] = 2;
   info[3][j] = "4/2014 Holi DC";
   info[4][j++] = "2014 Holi DC, the Festival of Colors(Maryland).";
-  info[0][j] = "1407michiganbirding";
+  info[0][j] = "1407mibird";
   info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "7/2014 Michigan Birding";

@@ -126,7 +126,7 @@
   info[2][j] = 2;
   info[3][j] = "12/2013 Savannah Birding";
   info[4][j++] = "Birding in Savannah National Wildlife Refuge(South Carolina).";
-  info[0][j] = "1407michiganbirding";
+  info[0][j] = "1407mibird";
   info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "7/2014 Michigan Birding";
