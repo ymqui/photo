@@ -669,7 +669,7 @@ function tooltip(text,tooltip) {
     }
 }
 
-function baikeurl(bid,name){
+function baike(bid,name){
     var tmpname = bid;
     if (typeof name != 'undefined'){
        tmpname = name;
