@@ -571,7 +571,7 @@
   birds[j++] = new Bird("23-01-25T08:08","FURNARII","Plain-brown Woodcreeper","纯褐䴕雀","Dendrocincla fuliginosa",p_id("2301pabird",92),["pametr","1/2023,S126933504"],"plbwoo1","");
   birds[j++] = new Bird("23-01-23T11:01","FURNARII","Wedge-billed Woodcreeper","楔嘴䴕雀","Glyphorynchus spirurus",p_id("2301pabird",62),["papipe","1/2023,S126820118"],"webwoo1");
   birds[j++] = new Bird("23-01-23T08:15","FURNARII","Cocoa Woodcreeper","可岛䴕雀","Xiphorhynchus susurrans",p_id("2301pabird",[27,48]),["papipe","1/2023,S126820118"],"cocwoo1");
-  birds[j++] = new Bird("23-01-23T10:16","FURNARII","Black-striped Woodcreeper","黑纹䴕雀","Xiphorhynchus lachrymosus",p_id("2301pabird",50),["papipe","1/2023,S126820118"],"blswoo1");
+  birds[j++] = new Bird("23-01-23T10:16","FURNARII","Black-striped Woodcreeper","黑纹䴕雀","Xiphorhynchus lachrymosus",p_id("2301pabird",[50,0]),["papipe","1/2023,S126820118"],"blswoo1");
   birds[j++] = new Bird("18-12-06T09:38","FURNARII","Spotted Woodcreeper","点斑鴷雀","Xiphorhynchus erythropygius",p_id("1812crbirding",78),["crarol","12/2018"],"spowoo1");
   birds[j++] = new Bird("18-12-06T08:12","FURNARII","Streak-headed Woodcreeper","纹头鴷雀","Lepidocolaptes souleyetii",p_id("1812crbirding",74),["crarol","12/2018"],"sthwoo1");
   birds[j++] = new Bird("18-12-05T10:14","FURNARII","Plain Xenops","纯色翘嘴雀","Xenops minutus",[p_id("1812crbirding",60),p_id("2301pabird",28)],["crarol","12/2018","papipe","1/2023,S126820118"],"plaxen1");
