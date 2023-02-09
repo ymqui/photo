@@ -27,6 +27,7 @@ function initAlbum(){
         this[0][i] = "2301pabird_"+(i+1).toString();
         this[1][i] = "";
     }
+    this[0][49] = ["2301pabird_50","2301pabird_0"];
     if(window.usechinese){
         this[1][0] = "灰头小冠雉，巴拿马索韦拉尼亚国家公园输油管路。";
         this[1][1] = "热带小嘲鸫，巴拿马索韦拉尼亚国家公园输油管路。";
