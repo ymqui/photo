@@ -4,40 +4,40 @@
 
   //location urls
   var lurls = {arb:["","","",""],
-      akknpp: ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baikeurl("卡特迈国家公园")],
+      akknpp: ["Katmai National Park & Preserve","Alaska, USA","卡特迈国家公园","美国阿拉斯加州",npsurl("katm"),baike("卡特迈国家公园")],
       aucass: ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
       azazaz: ["Arizona","USA","亚利桑那州","美国"],
       azmcct: ["Madera Canyon Carrie Nation Trail","Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡",hotspot("L2413068")],
-      azsndm: ["Arizona-Sonora Desert Museum","Tucson, Arizona, USA","亚利桑那索诺拉沙漠博物馆","美国亚利桑那州图森市",hotspot("L128879"),baikeurl("亚利桑那索诺兰沙漠博物馆")],
+      azsndm: ["Arizona-Sonora Desert Museum","Tucson, Arizona, USA","亚利桑那索诺拉沙漠博物馆","美国亚利桑那州图森市",hotspot("L128879"),baike("亚利桑那索诺兰沙漠博物馆")],
       caalgp: ["Algonquin Provincial Park","Ontario, Canada","阿冈昆省立公园","加拿大安大略省","http://www.algonquinpark.on.ca/","https://agangkun.ca/"],
       cabake: ["Bakersfield, California","USA","贝克斯菲尔德市","美国加利福尼亚州"],      
       cacaca: ["California","USA","加利福尼亚州","美国"], 
-      cactnw: ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wikiurl("Cap Tourmente National Wildlife Area")],
-      cnbjjp: ["Jingshan Park","Beijing, China","北京景山公园","中国",wikiurl("Jingshan Park"),baikeurl("景山公园")],
-      cnbjsp: ["Summer Palace","Beijing, China","北京颐和园","中国",wikiurl("Summer Palace"),baikeurl("颐和园")],
-      cnjsxp: ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baikeurl("须江公园")],
+      cactnw: ["Cap Tourmente National Wildlife Area","Québec, Canada","杜门角国家野生动物保护区","加拿大魁北克省",wiki("Cap Tourmente National Wildlife Area")],
+      cnbjjp: ["Jingshan Park","Beijing, China","北京景山公园","中国",wiki("Jingshan Park"),baike("景山公园")],
+      cnbjsp: ["Summer Palace","Beijing, China","北京颐和园","中国",wiki("Summer Palace"),baike("颐和园")],
+      cnjsxp: ["Xujiang Park","Jiangshan, Zhejiang, China","江山须江公园","中国浙江省",baike("须江公园")],
       cnlydp: [gmap("Denggao Park",25.0933,117.0356),"Longyan, Fujian, China","龙岩"+bmap("登高山公园",25.0933,117.0356),"中国福建省"],
       cnlynv: [gmap("Neiban Village",25.13745,116.9584),"Longyan, Fujian, China","龙岩"+bmap("龙门镇内坂村",25.13745,116.9584),"中国福建省"],
-      cnxihu: ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wikiurl("West Lake"),baikeurl("西湖")],
-      cnxmjm: ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wikiurl("Jimei District"),baikeurl("厦门集美")],
+      cnxihu: ["West Lake","Hangzhou, Zhejiang, China","杭州西湖","中国浙江省",wiki("West Lake"),baike("西湖")],
+      cnxmjm: ["Jimei","Xiamen, Fujian, China","厦门集美","中国福建省",wiki("Jimei District"),baike("厦门集美")],
       crarol: ["Arenal Observatory Lodge","Alajuela, Costa Rica","阿雷纳火山观测台山林小屋","哥斯达黎加阿拉胡埃拉省","https://www.arenalobservatorylodge.com/"],
-      crsanj: ["San José","Costa Rica","圣何塞","哥斯达黎加","",baikeurl("圣何塞/62358")],
+      crsanj: ["San José","Costa Rica","圣何塞","哥斯达黎加","",baike("圣何塞/62358")],
       dcdcdc: ["Washington D.C.","USA","华盛顿哥伦比亚特区","美国"],
       debnwr: ["Bombay Hook National Wildlife Refuge","Delaware, USA","庞贝虎克国家野生动物保护区","美国特拉华州",npsurl("bombay_hook",true)],
       dedede: ["Delaware","USA","特拉华州","美国"],
-      deinri: ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wikiurl("Indian River (Delaware)")],
-      fldtnp: ["Dry Tortugas National Park","Florida, USA","海龟国家公园","美国佛罗里达州",npsurl("drto"),baikeurl("海龟国家公园")],
-      flevnp: ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baikeurl("大沼泽地国家公园")],
+      deinri: ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wiki("Indian River (Delaware)")],
+      fldtnp: ["Dry Tortugas National Park","Florida, USA","海龟国家公园","美国佛罗里达州",npsurl("drto"),baike("海龟国家公园")],
+      flevnp: ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",npsurl("ever"),baike("大沼泽地国家公园")],
       flmnwr: ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",npsurl("Merritt_Island",true)],
       flflfl: ["Florida","USA","佛罗里达州","美国"],
       marace: ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州",hotspot("L364733")],
       mdbhrp: ["Black Hill Regional Park","Montgomery County, Maryland, USA","黑山公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt: ["Blue Mash Nature Trail","Montgomery County, Maryland, USA","蓝沼自然小径","美国马里兰州蒙哥马利郡","https://www.montgomerycountymd.gov/sws/facilities/oaks/"],
-      mdbnwr: ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true),baikeurl("国立黑水野生动物保护区")],
-      mdcocn: ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baikeurl("切萨皮克和俄亥俄运河")],
-      mdftmh: ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州",npsurl("fomc"),baikeurl("麦克亨利堡")],
+      mdbnwr: ["Blackwater National Wildlife Refuge","Maryland, USA","黑水国家野生动物保护区","美国马里兰州",npsurl("blackwater",true),baike("国立黑水野生动物保护区")],
+      mdcocn: ["C&O Canal","Maryland, USA","切萨皮克-俄亥俄运河","美国马里兰州",npsurl("choh"),baike("切萨皮克和俄亥俄运河")],
+      mdftmh: ["Fort McHenry","Maryland, USA","麦克亨利堡","美国马里兰州",npsurl("fomc"),baike("麦克亨利堡")],
       mdlbrp: ["Little Bennett Regional Park","Montgomery County, Maryland, USA","小班尼特公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/"],
-      mdloch: ["Loch Raven Reservoir","Maryland, USA","渡鸦湖水库","美国马里兰州",wikiurl("Loch Raven Reservoir")],
+      mdloch: ["Loch Raven Reservoir","Maryland, USA","渡鸦湖水库","美国马里兰州",wiki("Loch Raven Reservoir")],
       mdmdmd: ["Maryland","USA","马里兰州","美国"], 
       mdmwma: ["McKee-Beshers Wildlife Management Area","Maryland, USA","McKee-Beshers野生动物管理区","美国马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"],
       mdocci: ["Ocean City","Maryland, USA","大洋城","美国马里兰州"],
@@ -46,21 +46,21 @@
       mdswhf: ["Swan Harbor Farm","Harford County, Maryland, USA","天鹅港农场","美国马里兰州哈福德郡","http://www.swanharborfarm.org/"],
       mdwhrp: ["Wheaton Regional Park","Maryland, USA","惠顿公园","美国马里兰州","https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/"],
       mdworc: ["Worcester County","Maryland, USA","伍斯特郡","美国马里兰州"],
-      mxmcal: ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wikiurl("Alameda Central")],                  
-      mxguan: ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wikiurl("El Pípila"),baikeurl("瓜纳华托")],
-      mxunam: ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baikeurl("墨西哥国立自治大学")],
+      mxmcal: ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wiki("Alameda Central")],                  
+      mxguan: ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wiki("El Pípila"),baike("瓜纳华托")],
+      mxunam: ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baike("墨西哥国立自治大学")],
       nccrsp: ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"],  
       ncllmp: ["Morse Park","Lake Lure, North Carolina, USA","路尔湖摩士公园","美国北卡罗来纳州","http://www.townoflakelure.com/morse-park.php"],
-      ncoutb: ["Outer Banks","North Carolina, USA","外滩","美国北卡罗来纳州",wikiurl("Outer Banks"),baikeurl("外滩群岛")],
+      ncoutb: ["Outer Banks","North Carolina, USA","外滩","美国北卡罗来纳州",wiki("Outer Banks"),baike("外滩群岛")],
       njblsp: ["Barnegat Lighthouse State Park","New Jersey, USA","巴尼加特灯塔州立公园","美国新泽西州","http://www.state.nj.us/dep/parksandforests/parks/barnlig.html"],    
       njnjnj: ["New Jersey","USA","新泽西州","美国"],
       nvdnwr: ["Desert National Wildlife Refuge","Corn Creek, Nevada, USA","玉米溪沙漠国家野生动物保护区","美国内华达州",npsurl("desert",true)],
-      nycenp: ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baikeurl("纽约中央公园")],
+      nycenp: ["Central Park","New York City, New York, USA","纽约市中央公园","美国纽约州","http://www.nycaudubon.org/manhattan-birding/central-park",baike("纽约中央公园")],
       nyjbsp: ["Jones Beach State Park","New York, USA","琼斯海滩州立公园","美国纽约州","https://parks.ny.gov/parks/jonesbeach/"],
       nyjbwr: ["Jamaica Bay Wildlife Refuge","New York, USA","牙买加湾野生动物保护区","美国纽约州","http://www.nycaudubon.org/queens-birding/jamaica-bay-wildlife-refuge"],
       nymnwr: ["Montezuma National Wildlife Refuge","New York, USA","蒙特祖玛国家野生动物保护区","美国纽约州",npsurl("montezuma",true)],
       ohmage: ["Magee Marsh Wildlife Area","Ohio, USA","玛吉沼泽野生动物保护区","美国俄亥俄州",hotspot("L275986")],
-      pacasc: ["Casco Viejo","Panama City, Panama","Casco Viejo老城区","巴拿马巴拿马城",wikiurl("Casco Viejo, Panama"),baikeurl("Casco Viejo老城区")],
+      pacasc: ["Casco Viejo","Panama City, Panama","Casco Viejo老城区","巴拿马巴拿马城",wiki("Casco Viejo, Panama"),baike("Casco Viejo老城区")],
       pametr: ["Metropolitan Natural Park","Panama City, Panama","大都会自然公园","巴拿马巴拿马城","http://madaboutpanama.com/panama-sights/wildlife/metropolitan-park/"],
       papipe: ["Pipeline Road","Soberania National Park, Panama","输油管路","巴拿马索韦拉尼亚国家公园","https://www.whitehawkbirding.com/a-neotropical-birding-mecca-pipeline-road-panama/"],
       papuru: ["Emberá Purú Village","Panamá Province, Panama","恩贝拉部落普鲁土著村","巴拿马巴拿马省","http://www.emberavillagetours.com/the-ember--tribe.html"],
@@ -68,21 +68,21 @@
       pawagg: ["Waggoner's Gap Hawk Watch","Cumberland County, Pennsylvania, USA","瓦格纳山口观鹰台","美国宾夕法尼亚州坎伯兰郡","https://pa.audubon.org/birds/waggoner%E2%80%99s-gap-hawk-watch"],
       prceci: ["Ceiba Country Inn","Puerto Rico, USA","西巴乡村客栈","美国波多黎各","https://www.facebook.com/CeibaCountryInn/"],
       prcnwr: ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",npsurl("cabo_rojo",true)],
-      prsanj: ["San Juan","Puerto Rico, USA","圣胡安","美国波多黎各",wikiurl("San Juan, Puerto Rico"),baikeurl("圣胡安/15970695")],    
+      prsanj: ["San Juan","Puerto Rico, USA","圣胡安","美国波多黎各",wiki("San Juan, Puerto Rico"),baike("圣胡安/15970695")],    
       scpitt: ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/pittstreet.html"],
       scscsc: ["South Carolina","USA","南卡罗来纳州","美国"],
       scsnwr: ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",npsurl("savannah",true)],
-      txanwr: ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baikeurl("阿兰萨斯国家野生动物保护区")],
-      txbbnp: ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baikeurl("大弯国家公园")],
+      txanwr: ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",npsurl("Aransas",true),baike("阿兰萨斯国家野生动物保护区")],
+      txbbnp: ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",npsurl("bibe"),baike("大弯国家公园")],
       txsnwr: ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",npsurl("santa_ana",true)],
-      ukhydp: ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wikiurl("Hyde Park, London"),baikeurl("海德公园")],
+      ukhydp: ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wiki("Hyde Park, London"),baike("海德公园")],
       uklwcn: ["London Wetland Centre","United Kingdom","伦敦湿地中心","英国","https://www.wwt.org.uk/wetland-centres/london/"],
       vacnwr: ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",npsurl("chincoteague",true)],
       vahump: ["Huntley Meadows Park","Virginia, USA","亨特利湿地公园","美国弗吉尼亚州","http://www.fairfaxcounty.gov/parks/huntley-meadows-park/"],
       vavava: ["Virginia","USA","弗吉尼亚州","美国"], 
       vtwwma: ["Wenlock Wildlife Management Area","Vermont, USA","温洛克野生动物管理区","美国佛蒙特州",hotspot("L207476")],  
       waneah: ["Neah Bay, Washington","USA","华盛顿州尼亚湾","美国"],
-      waolnp: ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baikeurl("奥林匹克国家公园")]
+      waolnp: ["Olympic National Park","Washington, USA","奥林匹克国家公园","美国华盛顿州",npsurl("olym"),baike("奥林匹克国家公园")]
   };
 
   var modTim = modDat.getTime()-(modDat.getDate()+10)*3600*24*1000;  	//range within modDat converted from days to milliseconds, within the last 10 days of previous month
@@ -126,7 +126,7 @@
   birds[j++] = new Bird("06-02-20T14:57","ANATIDAE","Mallard","绿头鸭","Anas platyrhynchos",["2006cobirding/20060220_004",p_id("1206brooksidebirding",21),m_id("20151025_111")],["mdcocn","2/2006","Female left, male right","mdwhrp","6/2012","Eclipse male",""," at Brookside Gardens","溪边花园","mdbmnt","10/2015"]);
   birds[j++] = new Bird("16-06-10T09:01","ANATIDAE","Mottled Duck","北美斑鸭","Anas fulvigula",p_id("1606florida",9),["flflfl","6/2016","Males, "+gmap("Plantation Preserve",26.1175,-80.2394)+", Broward County","","","布劳沃德郡种植园保留地"]);
   birds[j++] = new Bird("15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",p_id("1512bhill",20),["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]);
-  birds[j++] = new Bird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["arb","5/2019","Males, "+wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园",true),"arb","5/2019","Female, "+wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园",true)],"mexduc");
+  birds[j++] = new Bird("19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",p_id("1905mxbird",[1,2]),["arb","5/2019","Males, "+wiki("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baike("查普尔特佩克公园",true),"arb","5/2019","Female, "+wiki("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baike("查普尔特佩克公园",true)],"mexduc");
   birds[j++] = new Bird("15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",m_id(["20201229_147","20211214_142"]),["vahump","12/2020","Male","vahump","12/2021","Female"]);
   birds[j++] = new Bird("15-11-22T09:50","ANATIDAE","Green-winged Teal","绿翅鸭","Anas carolinensis",m_id(["20220417_055","20210204_023"]),["debnwr","4/2022,S107336949","American","北美亚种","vavava","2/2021","Eurasian male, "+gmap("Middlesex Drive Pond",38.9083,-77.4834)+", Loudoun County","欧亚亚种雄性","","劳登郡米德尔塞克斯路池塘"]);
   birds[j++] = new Bird("15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",m_id(["20170121_009","20170121_008"]),["mdmdmd","1/2017","Male, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市","mdmdmd","1/2017","Female, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市"]);
@@ -161,7 +161,7 @@
   birds[j++] = new Bird("15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("2208azbird",75),p_id("1507birdingwest",2)],["azazaz","8/2022,S116797492",hotspot("L280695","Baseline Road")+", Maricopa County","","","马里科帕郡基线路","nvdnwr","7/2015","Female"]);
   birds[j++] = new Bird("21-06-26T10:51","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",m_id("20210626_094"),["debnwr","6/2021","Male"]);
 //birds[j++] = new Bird("23-00-00T00:00","ODONTOPH","Montezuma Quail","彩鹑","Cyrtonyx montezumae",m_id(""),["mdbhrp","1/2023,"]);
-  birds[j++] = new Bird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",p_id("1604asheville",1),["arb","4/2016","Female, "+npsurl("blri","Blue Ridge Parkway"),"","North Carolina, USA","美国北卡罗来纳州"+baikeurl("蓝岭","蓝岭公路")]);
+  birds[j++] = new Bird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",p_id("1604asheville",1),["arb","4/2016","Female, "+npsurl("blri","Blue Ridge Parkway"),"","North Carolina, USA","美国北卡罗来纳州"+baike("蓝岭","蓝岭公路")]);
   birds[j++] = new Bird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",p_id("1609vtcanbirding",10),["vtwwma","9/2016"]);
 //birds[j++] = new Bird("23-00-00T00:00","PHASIANI","Greater Sage-Grouse","艾草松鸡","Centrocercus urophasianus",m_id(""),["mdbhrp","1/2023,"]);
 //birds[j++] = new Bird("23-00-00T00:00","PHASIANI","Dusky Grouse","蓝镰翅鸡","Dendragapus obscurus",m_id(""),["mdbhrp","1/2023,"]);
@@ -201,7 +201,7 @@
   birds[j++] = new Bird("18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",p_id("1812crbirding",[69,55]),["crarol","12/2018","Male","crarol","12/2018","Female"],"vihhum1","");
   birds[j++] = new Bird("18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",p_id("1812crbirding",43),["crarol","12/2018"],"scbhum1","");
   birds[j++] = new Bird("19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",p_id("2208azbird",42).concat(p_id("1905mxbird",[4,8])),["azazaz","8/2022,S116569566",hotspot("L247122","Paton Center for Hummingbirds")+", Santa Cruz County","","","圣克鲁斯郡佩顿蜂鸟中心","mxunam","5/2019","Female"],"vichum");
-  birds[j++] = new Bird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","arb","5/2019",wikiurl("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baikeurl("查普尔特佩克公园",true)],"berhum");
+  birds[j++] = new Bird("19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",p_id("1905mxbird",[6,3]),["mxunam","5/2019","arb","5/2019",wiki("Chapultepec","Chapultepec Park"),"","Mexico City, Mexico","墨西哥墨西哥城"+baike("查普尔特佩克公园",true)],"berhum");
   birds[j++] = new Bird("18-12-04T09:51","TROCHILI","Rufous-tailed Hummingbird","棕尾蜂鸟","Amazilia tzacatl",[p_id("1812crbirding",41),p_id("2301pabird",138)],["crarol","12/2018","papuru","1/2023,S127054013"],"rtlhum");
   birds[j++] = new Bird("23-01-25T08:56","TROCHILI","Blue-chested Hummingbird","蓝胸蜂鸟","Polyerata amabilis",p_id("2301pabird",103),["pametr","1/2023,S126933504","Female"],"blchum1");
 //birds[j++] = new Bird("23-00-00T00:00","MUSOPHAG","Great Blue Turaco","大蓝蕉鹃","Corythaeola cristata",m_id(""),["mdbhrp","1/2023,"],"grbtur1");
@@ -275,7 +275,7 @@
   birds[j++] = new Bird("15-05-17T12:01","CHARADRI","Black-bellied Plover","灰斑鸻","Pluvialis squatarola",m_id(["20210522_080","20210522_081","20220122_028"]),["dedede","5/2021","Male, "+gmap("Prime Hook Beach",38.8521,-75.2396),"","","普莱姆虎克海滩","dedede","5/2021","Female, "+gmap("Prime Hook Beach",38.8521,-75.2396),"","","普莱姆虎克海滩","njnjnj","1/2022,S101264392","Winter plumage, "+gmap("Two Mile Landing",38.9569,-74.8635)+", Cape May","","","五月岬两英里码头"]);
   birds[j++] = new Bird("15-05-17T10:11","CHARADRI","Semipalmated Plover","半蹼鸻","Charadrius semipalmatus",p_id("2204flbird",28),["flflfl","5/2022,S108664920",gmap("Grassy Key",24.758,-80.96),"","","草岛"]);
   birds[j++] = new Bird("16-06-08T17:04","CHARADRI","Wilson's Plover","厚嘴鸻","Charadrius wilsonia",p_id("2204flbird",[43,42]),["flflfl","5/2022,S108886062","Male, "+gmap("Carlos Pointe",26.4037,-81.8838)+", Lee County","","","李郡卡洛斯角海滩","flflfl","5/2022,S108886062","Female, "+gmap("Carlos Pointe",26.4037,-81.8838)+", Lee County","","","李郡卡洛斯角海滩"]);
-  birds[j++] = new Bird("14-07-07T16:07","CHARADRI","Killdeer","双领鸻","Charadrius vociferus",[m_id("20160820_092"),p_id("1407mibird",18),p_id("2204flbird",47)],["mdmdmd","8/2016",gmap("Fingerboard Road",39.33,-77.375)+", Frederick County","","","弗雷德里克郡指板路","arb","7/2014",hotspot("L773674","Mackinac Island")+", Michigan, USA","美国密西根州"+baikeurl("麦基诺岛",true),"flflfl","5/2022,S108886234","Juvenile, "+gmap("Little Estero Lagoon",26.415,-81.903)+", Lee County","","","李郡小埃斯特罗泻湖"]);
+  birds[j++] = new Bird("14-07-07T16:07","CHARADRI","Killdeer","双领鸻","Charadrius vociferus",[m_id("20160820_092"),p_id("1407mibird",18),p_id("2204flbird",47)],["mdmdmd","8/2016",gmap("Fingerboard Road",39.33,-77.375)+", Frederick County","","","弗雷德里克郡指板路","arb","7/2014",hotspot("L773674","Mackinac Island")+", Michigan, USA","美国密西根州"+baike("麦基诺岛",true),"flflfl","5/2022,S108886234","Juvenile, "+gmap("Little Estero Lagoon",26.415,-81.903)+", Lee County","","","李郡小埃斯特罗泻湖"]);
   birds[j++] = new Bird("16-03-26T14:56","CHARADRI","Piping Plover","笛鸻","Charadrius melodus",m_id(["20160625_078","20160326_027"]),["nyjbsp","6/2016","ncoutb","3/2016","",""," at Oregon Inlet south jetty","俄勒冈入海口南堤"]);
   birds[j++] = new Bird("22-12-25T09:35","CHARADRI","Snowy Plover","雪鸻","Charadrius nivosus",p_id("2212flbird",[8,6,9]),["flflfl","12/2022,S124666963",(t1=gmap("Fort De Soto Park",27.6371,-82.7405)+", Pinellas County"),"","",(t2="皮尼拉斯郡德索托堡公园"),"flflfl","12/2022,S124666963","Nonbreeding/immature, "+t1,"","",t2 ]);
 //birds[j++] = new Bird("23-00-00T00:00","PLUVIANI","Egyptian Plover","埃及燕鸻","Pluvianus aegyptius",m_id(""),["mdbhrp","1/2023,"],"egyplo1");
@@ -339,7 +339,7 @@
   birds[j++] = new Bird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",m_id("20190127_006"),["mdmdmd","1/2019","1st winter, "+gmap("West Ocean City Marina",38.3277,-75.1027),"","","大洋城西城码头"]);
   birds[j++] = new Bird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["20170204_016","20190107_001"]),["mdmdmd","2/2017","1st winter, "+gmap("Mariner Point Park",39.3964,-76.3491)+", Harford County","","","哈福德郡水手角公园","mdmdmd","1/2019","2nd winter, "+gmap("Loreley Beach Community Pier",39.3855,-76.4096)+", Baltimore County","","","巴尔的摩郡罗利滩社区码头"],"","");
   birds[j++] = new Bird("06-02-19T11:53","LARIDAE ","Herring Gull","银鸥","Larus smithsonianus",[p_id("0607outerbanks",22),m_id("20220212_045"),m_id("20220206_034"),p_id("1503barnegat",9)],["ncoutb","7/2006","njblsp","2/2022,S102555804","Nonbreeding adult","njnjnj","2/2022,S102167692","1st winter, "+gmap("Manasquan Inlet",40.1019,-74.0346)+", Ocean County","","","海洋郡马纳斯泉海口","njblsp","3/2015","3rd winter"]);
-  birds[j++] = new Bird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The "+(t1=gmap("Bund",31.2425,121.4908)+", Shanghai, China"),(t2="中国"+baikeurl("外滩","上海外滩")),"arb","1/2016","Immature, the "+t1,"未成年，"+t2],"veggul1");
+  birds[j++] = new Bird("16-01-07T14:49","LARIDAE ","Vega Gull","织女银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","1/2016","The "+(t1=gmap("Bund",31.2425,121.4908)+", Shanghai, China"),(t2="中国"+baike("外滩","上海外滩")),"arb","1/2016","Immature, the "+t1,"未成年，"+t2],"veggul1");
   birds[j++] = new Bird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",m_id("20151004_104"),["mdocci","10/2015"]);
   birds[j++] = new Bird("21-07-12T12:19","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",m_id("20220703_079"),["njnjnj","7/2022,S114359788",npsurl("edwin-b-forsythe",true,"Edwin B. Forsythe National Wildlife Refuge")+", Atlantic County","","","大西洋郡"+npsurl("edwin-b-forsythe",true,"埃德温·福赛斯国家野生动物保护区")]);
   birds[j++] = new Bird("15-07-10T10:09","LARIDAE ","Caspian Tern","红嘴巨鸥","Hydroprogne caspia",[m_id("20150808_089"),m_id("20150808_088"),p_id("1601china",62)],["vavava","8/2015",(t1=gmap("Dyke Marsh Wildlife Preserve",38.7699,-77.0464)),"","",(t2="黛克湿地野生动物保护区"),"vavava","8/2015",t1,"","",t2,"cnxmjm","1/2016"]);
@@ -350,7 +350,7 @@
   birds[j++] = new Bird("22-04-30T12:13","LARIDAE ","Bridled Tern","褐翅燕鸥","Onychoprion anaethetus",p_id("2204flbird",[10,11]),["fldtnp","4/2022,S108548976"],"briter1");
   birds[j++] = new Bird("22-04-30T10:43","LARIDAE ","Sooty Tern","乌燕鸥","Onychoprion fuscatus",p_id("2204flbird",5),["fldtnp","4/2022,S108548976"],"sooter1");
   birds[j++] = new Bird("21-08-11T09:46","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[p_id("2108racepoint",5),p_id("2204flbird",8)],["marace","8/2021","fldtnp","4/2022,S108548976"]);
-  birds[j++] = new Bird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407mibird",[15,16]),["arb","7/2014",hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baikeurl("麦基诺岛",true)]);
+  birds[j++] = new Bird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407mibird",[15,16]),["arb","7/2014",hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baike("麦基诺岛",true)]);
   birds[j++] = new Bird("22-05-15T11:32","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",m_id(["20220515_062","20220515_060"]),["papapa","5/2022,S110301496",gmap("Marsh Creek State Park",40.069,-75.72)+", Chester County","","","切斯特郡沼泽溪州立公园"]);
   birds[j++] = new Bird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("20150726_086")],["njnjnj","5/2015",gmap("Cape May Point State Park",38.9328,-74.958),"","","五月岬州立公园","mdmdmd","7/2015","Winter plumage, "+npsurl("eastern_neck",true,"Eastern Neck National Wildlife Refuge"),"","",npsurl("eastern_neck",true,"东内克国家野生动物保护区")]);
   birds[j++] = new Bird("22-07-16T07:44","LARIDAE ","White-winged Tern","白翅浮鸥","Chlidonias leucopterus",m_id(["20220716_084","20220716_085"]),["dedede","7/2022,S115177433","Molting adult, "+gmap("Big Stone Beach Marsh",39,-75.33)+",  Kent County","","","肯特郡大石滩沼泽"],"whwter"); 
@@ -361,10 +361,10 @@
   birds[j++] = new Bird("22-02-12T13:29","ALCIDAE ","Thick-billed Murre","厚嘴崖海鸦","Uria lomvia",m_id(["20220212_037","20220219_047"]),["njblsp","2/2022,S102555804","Nonbreeding adult/immature","mdocci","2/2022,S103103644","Nonbreeding adult/immature",""," "+gmap("Inlet",38.3244,-75.0854),"海口"],"厚嘴海鸦");
   birds[j++] = new Bird("15-07-10T10:07","ALCIDAE ","Common Murre","崖海鸦","Uria aalge",p_id("1507birdingwest",27),["arb","7/2015",gmap("Cannon Beach",45.8846,-123.9649)+", Oregon, USA","美国俄勒冈州卡农海滩"]);
   birds[j++] = new Bird("17-03-04T09:24","ALCIDAE ","Razorbill","刀嘴海雀","Alca torda",m_id(["20170304_026","20170304_027"]),["mdocci","3/2017","Nonbreeding adults",""," "+gmap("Inlet",38.3244,-75.0854),"海口"]);
-  birds[j++] = new Bird("15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",p_id("1505puffin",18),["arb","5/2015",wikiurl("Eastern Egg Rock Island",true),"","Maine, USA","美国缅因州东蛋岩岛"]);
+  birds[j++] = new Bird("15-05-24T18:34","ALCIDAE ","Black Guillemot","白翅斑海鸽","Cepphus grylle",p_id("1505puffin",18),["arb","5/2015",wiki("Eastern Egg Rock Island",true),"","Maine, USA","美国缅因州东蛋岩岛"]);
   birds[j++] = new Bird("15-07-09T12:19","ALCIDAE ","Pigeon Guillemot","海鸽","Cepphus columba",p_id("1507birdingwest",[16,17]),["waneah","7/2015",gmap("Cape Flattery",48.3891,-124.7167),"","","夫拉特角"]);
 //birds[j++] = new Bird("23-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",p_id("",),["arb","1/2023,"]);
-  birds[j++] = new Bird("15-05-24T18:04","ALCIDAE ","Atlantic Puffin","北极海鹦","Fratercula arctica",p_id("1505puffin",[15,16]),["arb","5/2015",wikiurl("Eastern Egg Rock Island",true),"","Maine, USA","美国缅因州东蛋岩岛"]);
+  birds[j++] = new Bird("15-05-24T18:04","ALCIDAE ","Atlantic Puffin","北极海鹦","Fratercula arctica",p_id("1505puffin",[15,16]),["arb","5/2015",wiki("Eastern Egg Rock Island",true),"","Maine, USA","美国缅因州东蛋岩岛"]);
 //birds[j++] = new Bird("23-00-00T00:00","ALCIDAE ","Horned Puffin","角海鹦","Fratercula corniculata",p_id("",),["arb","1/2023,"]);
   birds[j++] = new Bird("15-07-10T09:58","ALCIDAE ","Tufted Puffin","簇羽海鹦","Fratercula cirrhata",p_id("1507birdingwest",26),["arb","7/2015",gmap("Cannon Beach",45.8846,-123.9649)+", Oregon, USA","美国俄勒冈州卡农海滩"]);
 //birds[j++] = new Bird("23-00-00T00:00","RHYNOCHE","Kagu","鹭鹤","Rhynochetos jubatus",m_id(""),["mdbhrp","1/2023,"],"kagu1");
@@ -398,7 +398,7 @@
   birds[j++] = new Bird("15-10-31T14:10","PHALACRO","Great Cormorant","普通鸬鹚","Phalacrocorax carbo",[p_id("1601china",61),m_id("20151031_120")],["cnxmjm","1/2016","mdocci","10/2015","Immature",""," "+gmap("Inlet",38.3244,-75.0854),"海口"]);
   birds[j++] = new Bird("20-01-23T12:15","PHALACRO","Neotropic Cormorant","美洲鸬鹚","Nannopterum brasilianum",p_id("2001txbirding",[12,13]).concat(p_id("2301pabird",74)),["txanwr","1/2020","txanwr","1/2020","pacasc","1/2023,S126834645"]);
   birds[j++] = new Bird("05-12-24T14:58","PHALACRO","Double-crested Cormorant","角鸬鹚","Nannopterum auritum",[p_id("1112floridabirding",19),p_id("1312savannahbirding",12)],["flevnp","12/2011","scsnwr","12/2013"]);
-  birds[j++] = new Bird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15),p_id("2301pabird",130)],["flflfl","12/2005",npsurl("bisc","Biscayne National Park"),"","",baikeurl("比斯坎湾国家公园",true),"flevnp","12/2011","pacasc","1/2023,S126981122"]);
+  birds[j++] = new Bird("05-12-25T10:42","THRESKIO","White Ibis","美洲白鹮","Eudocimus albus",[p_id("0512biscayne",2),p_id("1112floridabirding",15),p_id("2301pabird",130)],["flflfl","12/2005",npsurl("bisc","Biscayne National Park"),"","",baike("比斯坎湾国家公园",true),"flevnp","12/2011","pacasc","1/2023,S126981122"]);
 //birds[j++] = new Bird("23-00-00T00:00","THRESKIO","Scarlet Ibis","美洲红鹮","Eudocimus ruber",["0504zoo/0504zoo__15","0504zoo/0504zoo__22"],["natzo","4/2005","Adult","natzo","1/2022,","Immature"],"scaibi");
   birds[j++] = new Bird("05-12-25T10:42","THRESKIO","Glossy Ibis","彩鹮","Plegadis falcinellus",p_id("0512merritt",9),["flmnwr","12/2005"]);
   birds[j++] = new Bird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",p_id("2001txbirding",32),["txsnwr","1/2020","Nonbreeding plumage"]);
@@ -420,7 +420,7 @@
   birds[j++] = new Bird("05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[p_id("1112floridabirding",18),p_id("0512everglades",20)],["flevnp","12/2011","flevnp","12/2005"]);
   birds[j++] = new Bird("05-12-25T16:18","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",[p_id("1112floridabirding",14),p_id("1312savannahbirding",4),p_id("1812crbirding",63)],["flevnp","12/2011","scsnwr","12/2013","Juvenile","crarol","12/2018","Immature"]);
   birds[j++] = new Bird("05-12-28T09:36","ARDEIDAE","Snowy Egret","雪鹭","Egretta thula",p_id("1112floridabirding",20),["flevnp","12/2011"]);
-  birds[j++] = new Bird("16-01-07T14:51","ARDEIDAE","Little Egret","小白鹭","Egretta garzetta",p_id("1601china",37),["arb","1/2016","The "+gmap("Bund",31.2425,121.4908)+", Shanghai, China","中国"+baikeurl("外滩","上海外滩")],"litegr");
+  birds[j++] = new Bird("16-01-07T14:51","ARDEIDAE","Little Egret","小白鹭","Egretta garzetta",p_id("1601china",37),["arb","1/2016","The "+gmap("Bund",31.2425,121.4908)+", Shanghai, China","中国"+baike("外滩","上海外滩")],"litegr");
 //birds[j++] = new Bird("23-00-00T00:00","SCOPIDAE","Hamerkop","锤头鹳","Scopus umbretta",m_id(""),["mdbhrp","1/2023,"],"hamerk1");
 //birds[j++] = new Bird("23-00-00T00:00","BALAENIC","Shoebill","鲸头鹳","Balaeniceps rex",m_id(""),["mdbhrp","1/2023,"],"shoebi1");
   birds[j++] = new Bird("05-12-28T13:35","PELECANI","American White Pelican","美洲白鹈鹕","Pelecanus erythrorhynchos",p_id("2001txbirding",[4,9]),["txanwr","1/2020"]);
@@ -836,7 +836,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","STURNIDA","Common Myna","家八哥","Acridotheres tristis",p_id("",),["flflfl","1/2023,",gmap("Brewer Park",25.718,-80.2962)+", Miami-Dade County","","","迈阿密-戴德郡布鲁尔公园"],"commyn");
   birds[j++] = new Bird("16-01-04T08:04","STURNIDA","Red-billed Starling","丝光椋鸟","Spodiopsar sericeus",p_id("1601china",9),["cnjsxp","1/2016","Female"],"rebsta1");
   birds[j++] = new Bird("16-01-03T09:46","STURNIDA","White-cheeked Starling","灰椋鸟","Spodiopsar cineraceus",p_id("1601china",3),["cnbjjp","1/2016"],"whcsta1");
-  birds[j++] = new Bird("06-03-18T08:21","STURNIDA","European Starling","欧椋鸟","Sturnus vulgaris",[m_id("20170506_036"),p_id("1407mibird",11)],["nycenp","5/2017","arb","7/2014","Juvenile, "+hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baikeurl("麦基诺岛",true)]);
+  birds[j++] = new Bird("06-03-18T08:21","STURNIDA","European Starling","欧椋鸟","Sturnus vulgaris",[m_id("20170506_036"),p_id("1407mibird",11)],["nycenp","5/2017","arb","7/2014","Juvenile, "+hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baike("麦基诺岛",true)]);
 //birds[j++] = new Bird("23-00-00T00:00","BUPHAGID","Yellow-billed Oxpecker","黄嘴牛椋鸟","Buphagus africanus",m_id(""),["mdbhrp","1/2023,"],"yeboxp1");
   birds[j++] = new Bird("20-11-11T09:57","TURDIDAE","Mountain Bluebird","山蓝鸲","Sialia currucoides",m_id(["20201111_121","20201111_122"]),["mdswhf","11/2020","Immature male"]);
 //birds[j++] = new Bird("23-00-00T00:00","TURDIDAE","Western Bluebird","西蓝鸲","Sialia mexicana",p_id("",),["azazaz","8/2022,"]);
@@ -854,7 +854,7 @@
   birds[j++] = new Bird("17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",p_id("1704longyan",2),["cnlydp","4/2017","Male"],"gybthr1");
 //birds[j++] = new Bird("23-00-00T00:00","TURDIDAE","Red-throated Thrush","赤颈鸫","Turdus ruficollis",p_id("",),["cnlydp","1/2023,","Male"],"retthr1");
 //birds[j++] = new Bird("23-00-00T00:00","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",p_id("",),["cnbjjp","1/2023,"],"dusthr2","斑鸫北方亚种");
-  birds[j++] = new Bird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","1/2016","arb","1/2016",wikiurl("Temple of Heaven",true)+", Beijing, China","中国北京"+baikeurl("天坛","天坛公园")],"dusthr1");
+  birds[j++] = new Bird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","1/2016","arb","1/2016",wiki("Temple of Heaven",true)+", Beijing, China","中国北京"+baike("天坛","天坛公园")],"dusthr1");
   birds[j++] = new Bird("06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",[m_id("20170506_042"),m_id("20220403_052"),p_id("1206brooksidebirding",12),p_id("1204robin",2)],["nycenp","5/2017","Male","mdrock","4/2022","Female","mdwhrp","6/2012","Juvenile",""," at Brookside Gardens","溪边花园","mdmdmd","4/2012","Germantown","","","德国镇"]);
   birds[j++] = new Bird("15-01-08T07:25","TURDIDAE","Red-legged Thrush","红腿鸫","Turdus plumbeus",p_id("1501prbirding",36),["prsanj","1/2015"],"relthr1");
   birds[j++] = new Bird("19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",p_id("1905mxbird",31),["mxmcal","5/2019"],"rubrob");
@@ -891,7 +891,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","FRINGILL","Pine Grosbeak","松雀","Pinicola enucleator",m_id(""),["mdmdmd","1/2023,"]);
   birds[j++] = new Bird("14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",m_id(["20161016_104","20161106_115"]),["mdbhrp","10/2016","Male","mdmdmd","11/2016","Female, "+gmap("Cromwell Valley Park")+", Baltimore","","","巴尔的摩克伦威尔溪谷公园"]);
   birds[j++] = new Bird("06-08-11T17:33","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",p_id("1412mckee-beshers",[1,35,2]).concat(p_id("1905mxbird",19)),["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female","mxunam","5/2019"]);
-  birds[j++] = new Bird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",p_id("1601china",71),["arb","1/2016",wikiurl("Temple of Heaven",true)+", Beijing, China","中国北京"+baikeurl("天坛","天坛公园")],"origre");
+  birds[j++] = new Bird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",p_id("1601china",71),["arb","1/2016",wiki("Temple of Heaven",true)+", Beijing, China","中国北京"+baike("天坛","天坛公园")],"origre");
   birds[j++] = new Bird("15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7),m_id("20201027_115")],["mdbhrp","1/2015","Female, with a "+b_link("Pine Siskin")+" on the right","雌性，右边是一只"+b_link("松金翅雀"),"mdocci","10/2020","Female, "+gmap("Sunset Park",38.3277,-75.0907),"","","日落公园"]);
   birds[j++] = new Bird("21-01-24T11:53","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",m_id(["20210124_017","20210124_018"]),["papapa","1/2021",gmap("N. Oak Lane",40.8054,-77.9138)+", State College","","","州立大学北橡树巷"]);
   birds[j++] = new Bird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",m_id("20170211_020"),["papapa","2/2017","Males red, females yellow-green, "+gmap("Owl Creek Park",40.796,-75.9282)+", Schuylkill County","雄性带红色，雌性黄绿色","","斯古吉尔郡鸮河公园"]);
@@ -1006,14 +1006,14 @@
   birds[j++] = new Bird("06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",[m_id("20150426_062"),p_id("1505bombayhook",11),m_id("20170930_112")],["mdbmnt","4/2015","Male","debnwr","5/2015","Female","mdmdmd","9/2017","Immature male, "+gmap("Oregon Ridge Park",39.4944,-76.6909)+", Baltimore","","","巴尔的摩俄勒冈岭公园"]);
   birds[j++] = new Bird("19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",p_id("1905mxbird",[13,12]),["mxunam","5/2019","Male"],"hooyel1");
   birds[j++] = new Bird("16-04-24T10:49","PARULIDA","Hooded Warbler","黑枕威森莺","Setophaga citrina",[p_id("1604asheville",18),m_id("20220924_117")],["nccrsp","4/2016","Male","mdredg","9/2022,S119361226","Male"]);
-  birds[j++] = new Bird("14-07-07T16:57","PARULIDA","American Redstart","橙尾鸲莺","Setophaga ruticilla",[p_id("1407mibird",20),m_id("20170826_090")],["arb","7/2014","Male, "+hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baikeurl("麦基诺岛",true),"mdmwma","8/2017","Female"]);
+  birds[j++] = new Bird("14-07-07T16:57","PARULIDA","American Redstart","橙尾鸲莺","Setophaga ruticilla",[p_id("1407mibird",20),m_id("20170826_090")],["arb","7/2014","Male, "+hotspot("L773674","Mackinac Island"),"","Michigan, USA","美国密西根州"+baike("麦基诺岛",true),"mdmwma","8/2017","Female"]);
   birds[j++] = new Bird("21-10-10T11:37","PARULIDA","Kirtland's Warbler","黑纹背林莺","Setophaga kirtlandii",m_id(["20211010_121","20211010_122"]),["mdmdmd","10/2021","Female/immature, "+gmap("Swann Park",39.2656,-76.6203)+", Baltimore","","","巴尔的摩市斯旺公园"]);
   birds[j++] = new Bird("16-09-03T08:39","PARULIDA","Cape May Warbler","栗颊林莺","Setophaga tigrina",[p_id("2204flbird",20),p_id("2204flbird",13),m_id("20220115_011")],["fldtnp","4/2022,S108548976","Male","fldtnp","4/2022,S108548976","Female","dcdcdc","1/2022,S100801147","Male, nonbreeding plumage, "+gmap("Heritage Island Park",38.8923,-76.9666),"","","遗产岛公园"]);
   birds[j++] = new Bird("16-05-15T07:51","PARULIDA","Cerulean Warbler","蓝林莺","Setophaga cerulea",m_id(["20160515_064","20160515_063"]),["mdmdmd","5/2016",gmap("Patapsco Valley State Park",39.3508,-76.9139),"","","帕塔普斯科河谷州立公园"],"","");
   birds[j++] = new Bird("15-05-03T08:33","PARULIDA","Northern Parula","北森莺","Setophaga americana",[m_id("20150503_072"),p_id("1505puffin",4),p_id("2020lbrp",17),p_id("2020lbrp",16)],["mdcocn","5/2015","Male",""," at Pennyfield Lock","彭尼菲尔德闸","arb","5/2015","Female, "+gmap("Lobster Cove Preserve",43.8614,-69.6147),"","Boothbay Harbor, Maine, USA","美国缅因州布斯贝港龙虾湾保护区","mdlbrp","9/2020","Immature male","mdlbrp","9/2020","Immature female"]);
   birds[j++] = new Bird("15-05-24T07:55","PARULIDA","Magnolia Warbler","纹胸林莺","Setophaga magnolia",[m_id("20170506_038"),p_id("1512bhill",41)],["nycenp","5/2017","Male","mdbhrp","9/2015","Female"]);
   birds[j++] = new Bird("18-12-05T14:14","PARULIDA","Bay-breasted Warbler","栗胸林莺","Setophaga castanea",[p_id("1812crbirding",68),p_id("2208cabird",5),p_id("2301pabird",98)],["crarol","12/2018",(t1="Nonbreeding female/immature male"),"caalgp","8/2022,S117650777",t1,"pametr","1/2023,S126933504",t1]);
-  birds[j++] = new Bird("16-04-23T14:07","PARULIDA","Blackburnian Warbler","橙胸林莺","Setophaga fusca",[p_id("1705ohio",12),p_id("1604asheville",4)],["ohmage","5/2017","Male","arb","4/2016","Male, "+npsurl("blri","Blue Ridge Parkway"),"","North Carolina, USA","美国北卡罗来纳州"+baikeurl("蓝岭","蓝岭公路")]);
+  birds[j++] = new Bird("16-04-23T14:07","PARULIDA","Blackburnian Warbler","橙胸林莺","Setophaga fusca",[p_id("1705ohio",12),p_id("1604asheville",4)],["ohmage","5/2017","Male","arb","4/2016","Male, "+npsurl("blri","Blue Ridge Parkway"),"","North Carolina, USA","美国北卡罗来纳州"+baike("蓝岭","蓝岭公路")]);
   birds[j++] = new Bird("15-04-26T09:16","PARULIDA","Yellow Warbler","黄林莺","Setophaga petechia",m_id(["20150426_063","20160514_047","20160514_048"]),["mdbmnt","4/2015","Male","nyjbwr","5/2016","Female","nyjbwr","5/2016","Nest"]);
   birds[j++] = new Bird("15-09-12T07:38","PARULIDA","Chestnut-sided Warbler","栗胁林莺","Setophaga pensylvanica",[m_id("20210506_063"),p_id("1812crbirding",23),m_id("20170827_094")],["mdlbrp","5/2021","Male","crarol","12/2018","Female","mdlbrp","8/2017","Immature"]);
   birds[j++] = new Bird("17-05-28T10:42","PARULIDA","Blackpoll Warbler","白颊林莺","Setophaga striata",[p_id("2020lbrp",3),p_id("1705ohio",11)],["mdlbrp","5/2020","Male","ohmage","5/2017","Female"]);

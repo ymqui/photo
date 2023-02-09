@@ -574,7 +574,7 @@
         if ((typeof curl == "string") && (curl.match(/^http/))){
            this.url = curl;
         }else if (curl !==""){
-           this.url = baikeurl(curl);
+           this.url = baike(curl);
         }
      }
    
@@ -747,7 +747,7 @@
      return sas(album+"/"+album+"_",id);
   }
 
-  function baikeurl(bid,name){
+  function baike(bid,name){
      if (typeof bid == "string"){
         if (typeof name === 'undefined'){
            return "https://baike.baidu.com/item/"+bid;
@@ -808,7 +808,7 @@
      }
   }
 
-  function wikiurl(id,name){
+  function wiki(id,name){
      if (typeof name === 'undefined'){
         return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
      }else if(typeof name =="string"){
