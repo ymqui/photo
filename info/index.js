@@ -1156,7 +1156,7 @@
   info[2][j] = 2;
   info[3][j] = "3/2013 Middle Creek";
   info[4][j++] = "Watching Migrant Snow Geese in Middle Creek Wildlife Management Area(Pennsylvania).";
-  info[0][j] = "1307alaskabirding";
+  info[0][j] = "1307akbird";
   info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "7/2013 Alaska Birding";
