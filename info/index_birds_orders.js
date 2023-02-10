@@ -794,7 +794,7 @@
      }
   }
 
-  function npsurl(pid,isfws,name){
+  function nps(pid,isfws,name){
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
      }else if(typeof isfws == "string"){
