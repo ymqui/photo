@@ -473,7 +473,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",m_id(""),["mdbhrp","1/2023,"],"spemou2");
 //birds[j++] = new Bird("23-00-00T00:00","LEPTOSOM","Cuckoo-roller","鹃鴗","Leptosomus discolor",m_id(""),["mdbhrp","1/2023,"],"cuckoo1");
   birds[j++] = new Bird("23-01-23T11:11","TROGONID","Slaty-tailed Trogon","灰尾美洲咬鹃","Trogon massena",p_id("2301pabird",[63,123]),["papipe","1/2023,S126820118","Female","pametr","1/2023,S126960214","Female"],"slttro1");
-  birds[j++] = new Bird("23-01-23T10:49","TROGONID","Black-tailed Trogon","黑尾美洲咬鹃","Trogon melanurus",p_id("2301pabird",60),["papipe","1/2023,S126820118"],"blttro1");
+  birds[j++] = new Bird("23-01-23T10:49","TROGONID","Black-tailed Trogon","黑尾美洲咬鹃","Trogon melanurus",p_id("2301pabird",60),["papipe","1/2023,S126820118","Female"],"blttro1");
   birds[j++] = new Bird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",p_id("1812crbirding",79),["crarol","12/2018","Male"],"gartro1","");
   birds[j++] = new Bird("23-01-23T08:32","TROGONID","Black-throated Trogon","黑喉美洲咬鹃","Trogon rufus",p_id("2301pabird",[29,30]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"blttro2");
   birds[j++] = new Bird("22-08-08T09:11","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",p_id("2208azbird",[26,27]),["azmcct","8/2022,S116560424","Male"]);
