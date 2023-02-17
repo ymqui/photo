@@ -474,7 +474,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","LEPTOSOM","Cuckoo-roller","鹃鴗","Leptosomus discolor",m_id(""),["mdbhrp","1/2023,"],"cuckoo1");
   birds[j++] = new Bird("23-01-23T11:11","TROGONID","Slaty-tailed Trogon","灰尾美洲咬鹃","Trogon massena",p_id("2301pabird",[63,123]),["papipe","1/2023,S126820118","Female","pametr","1/2023,S126960214","Female"],"slttro1");
   birds[j++] = new Bird("23-01-23T10:49","TROGONID","Black-tailed Trogon","黑尾美洲咬鹃","Trogon melanurus",p_id("2301pabird",60),["papipe","1/2023,S126820118","Female"],"blttro1");
-  birds[j++] = new Bird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",p_id("1812crbirding",79),["crarol","12/2018","Male"],"gartro1","");
+  birds[j++] = new Bird("18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[p_id("1812crbirding",79),(p_id("2301pabird",19))],["crarol","12/2018","Male","papipe","1/2023,S126820118","Male"],"gartro1","");
   birds[j++] = new Bird("23-01-23T08:32","TROGONID","Black-throated Trogon","黑喉美洲咬鹃","Trogon rufus",p_id("2301pabird",[29,30]),["papipe","1/2023,S126820118","Male","papipe","1/2023,S126820118","Female"],"blttro2");
   birds[j++] = new Bird("22-08-08T09:11","TROGONID","Elegant Trogon","铜尾美洲咬鹃","Trogon elegans",p_id("2208azbird",[26,27]),["azmcct","8/2022,S116560424","Male"]);
   birds[j++] = new Bird("18-12-07T09:28","TROGONID","Collared Trogon","白领美洲咬鹃","Trogon collaris",p_id("1812crbirding",91),["crarol","12/2018","Male"],"coltro1");
@@ -491,7 +491,7 @@
   birds[j++] = new Bird("15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",p_id("1501prbirding",[23,29]),["prceci","1/2015","Male","prceci","1/2015","Female"],"purtod1","短尾鴗科");
   birds[j++] = new Bird("23-01-23T07:16","MOMOTIDA","Whooping Motmot","叫翠鴗","Momotus subrufescens",p_id("2301pabird",[15,111]),["papipe","1/2023,S126820118","pametr","1/2023,S126960214"],"bucmot3","");
   birds[j++] = new Bird("23-01-23T09:47","MOMOTIDA","Rufous Motmot","棕翠鴗","Baryphthengus martii",p_id("2301pabird",[43,44]),["papipe","1/2023,S126820118"],"rufmot1");
-  birds[j++] = new Bird("23-01-26T08:51","MOMOTIDA","Broad-billed Motmot","阔嘴翠鴗","Electron platyrhynchum",p_id("2301pabird",116),["pametr","1/2023,S126960214"],"brbmot1");
+  birds[j++] = new Bird("23-01-26T08:51","MOMOTIDA","Broad-billed Motmot","阔嘴翠鴗","Electron platyrhynchum",p_id("2301pabird",116),["pametr","1/2023,S126960214","Broad-billed","阔嘴型"],"brbmot1");
 //birds[j++] = new Bird("23-00-00T00:00","MEROPIDA","Blue-throated Bee-eater","蓝喉蜂虎","Merops viridis",m_id(""),["mdbhrp","1/2023,"],"btbeat2");
 //birds[j++] = new Bird("23-00-00T00:00","GALBULID","Rufous-tailed Jacamar","棕尾鹟鴷","Galbula ruficauda",m_id(""),["mdbhrp","1/2023,"],"rutjac1");
   birds[j++] = new Bird("23-01-23T10:39","BUCCONID","White-necked Puffbird","白颈蓬头䴕","Notharchus hyperrhynchus",p_id("2301pabird",[55,109]),["papipe","1/2023,S126820115","pametr","1/2023,S126960214"],"whnpuf2","");
