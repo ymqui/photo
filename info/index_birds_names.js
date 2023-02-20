@@ -547,7 +547,7 @@
   birds[j++] = new Bird("15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[p_id("1501prbirding",47),p_id("1606florida",23)],["prsanj","1/2015","flflfl","6/2016",gmap("Lincoln Road Mall",25.7905,-80.1367)+", Miami","","","迈阿密林肯路购物中心"]);
   birds[j++] = new Bird("15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",p_id("1501prbirding",3),["arb","1/2015",gmap("Mayagüez",18.2361,-67.1616)+", Puerto Rico, USA","美国波多黎各马亚圭斯市"],"whwpar");
   birds[j++] = new Bird("22-05-04T08:21","PSITTACI","Yellow-chevroned Parakeet","黄翅斑鹦哥","Brotogeris chiriri",p_id("2204flbird",51),["flflfl","5/2022,S108968251",gmap("Fuchs Park",25.696,-80.298)+", Miami-Dade County","","","迈阿密-戴德郡福克斯公园"],"yecpar");
-  birds[j++] = new Bird("18-12-02T06:05","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",p_id("2301pabird",104),["pametr","1/2023,S126933504"],"orcpar");
+  birds[j++] = new Bird("23-01-25T09:21","PSITTACI","Orange-chinned Parakeet","橙颏鹦哥","Brotogeris jugularis",p_id("2301pabird",104),["pametr","1/2023,S126933504"],"orcpar");
   birds[j++] = new Bird("18-12-04T08:09","PSITTACI","White-crowned Parrot","白额鹦鹉","Pionus senilis",p_id("1812crbirding",30),["crarol","12/2018"],"whcpar");
   birds[j++] = new Bird("18-12-04T06:35","PSITTACI","Red-lored Amazon","红额亚马逊鹦鹉","Amazona autumnalis",[p_id("1812crbirding",21),p_id("2301pabird",11)],["crarol","12/2018","papipe","1/2023,S126820115"],"relpar");
 //birds[j++] = new Bird("22-05-04T07:26","PSITTACI","Red-crowned Parrot","红冠亚马逊鹦鹉","Amazona viridigenalis",p_id("2204flbird",49),["flflfl","5/2022,S108967469",gmap("Brewer Park",25.718,-80.296)+", Miami-Dade County","","","迈阿密-戴德郡布如尔公园"],"recpar");

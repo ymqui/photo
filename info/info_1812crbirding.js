@@ -29,7 +29,6 @@ function initAlbum(){
     if(window.usechinese){
         crarol     = "，阿雷纳火山观测台山林小屋。";
         this[1][0] = "绯额鹦哥，圣何塞胡安莫拉费尔南德斯广场。";
-        this[1][1] = "橙颏鹦哥，圣何塞胡安莫拉费尔南德斯广场。";
         this[1][2] = "大尾拟八哥，雄性，圣何塞社会保障公园。";
         this[1][3] = "灰冠虫森莺，圣何塞社会保障公园。";
         this[1][4] = "大食蝇霸鹟，圣何塞。";
@@ -130,7 +129,6 @@ function initAlbum(){
     }else{
         crarol     = ", Arenal Observatory Lodge.";
         this[1][0] = "Crimson-fronted Parakeet, Plaza Juan Mora Fernandez, San Jose.";
-        this[1][1] = "Orange-chinned Parakeet, Plaza Juan Mora Fernandez, San Jose.";
         this[1][2] = "Great-tailed Grackle, male, Park of Social Guarantees, San Jose.";
         this[1][3] = "Tennessee Warbler, Park of Social Guarantees, San Jose.";
         this[1][4] = "Great Kiskadee, San Jose.";
