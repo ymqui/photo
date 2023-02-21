@@ -620,13 +620,14 @@
      return tmp;
   }
 
+  //if no ',' return [str,''] else return separted string array
   function strsplit(str){
      var tmp,tmp1;
      if (str.constructor === Array){tmp = str[0];}else{tmp=str;}
      tmp1 = tmp.indexOf(',');
      if (tmp1>=0){
         return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
-     }else{return tmp;}
+     }else{return [tmp,''];}
   }
 
   function birdFound(id){
@@ -781,7 +782,6 @@
   function hotspot(id,name){
      if (typeof name == 'string'){
         var tmp = strsplit(name);
-        if (tmp.constructor !== Array){tmp = [tmp,''];}
         return "<a href='https://birdinghotspots.org/hotspot/"+id+lnksty+" target='"+id+"'>"+tmp[0]+"</a>"+tmp[1];
      }else{
         return "https://birdinghotspots.org/hotspot/"+id;
@@ -790,9 +790,8 @@
 
   function gmap(name,latt,long){
      var tmp = strsplit(name);
-     if (tmp.constructor !== Array){tmp = [tmp,''];}
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],'+')+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
      }else{
         return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
      }
