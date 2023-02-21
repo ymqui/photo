@@ -504,7 +504,7 @@
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
-     if (photo.constructor == Array){
+     if (photo.constructor === Array){
         this.photo = photo;
      }else{
         this.photo = [photo]; 
@@ -566,7 +566,7 @@
      
      if (window.usechinese) {
         if (typeof curl == 'undefined') {curl = this.cname;} 
-        if (curl.constructor == Array){
+        if (curl.constructor === Array){
            if (typeof curl[0] == "string"){
               curl = curl[0];
            }
@@ -592,25 +592,25 @@
 
   function sas(in1,in2,in3){
      var len = 1;
-     if (in1.constructor == Array) len = in1.length;
-     if (in2.constructor == Array) len = Math.max(len,in2.length);
+     if (in1.constructor === Array) len = in1.length;
+     if (in2.constructor === Array) len = Math.max(len,in2.length);
      if (typeof in3 !== 'undefined'){
-        if (in3.constructor == Array) len = Math.max(len,in3.length);
+        if (in3.constructor === Array) len = Math.max(len,in3.length);
      }
      var tmp =[];
      for (var i=0;i<len;i++){
-         if (in1.constructor == Array){
+         if (in1.constructor === Array){
             tmp[i] = in1[Math.min(i,in1.length-1)];
          }else{
             tmp[i] = in1;
          }
-         if (in2.constructor == Array){
+         if (in2.constructor === Array){
             tmp[i] = tmp[i]+in2[Math.min(i,in2.length-1)];
          }else{
             tmp[i] = tmp[i]+in2;
          }
          if (typeof in3 !== 'undefined'){
-            if (in3.constructor == Array){
+            if (in3.constructor === Array){
                tmp[i] = tmp[i]+in3[Math.min(i,in3.length-1)];
             }else{
                tmp[i] = tmp[i]+in3;
@@ -618,6 +618,15 @@
          }
      }
      return tmp;
+  }
+
+  function strsplit(str){
+     var tmp,tmp1;
+     if (str.constructor === Array){tmp = str[0];}else{tmp=str;}
+     tmp1 = tmp.indexOf(',');
+     if (tmp1>=0){
+        return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
+     }else{return tmp;}
   }
 
   function birdFound(id){
@@ -735,7 +744,7 @@
   function m_id(id,num){
      var ind = 0;
      if (typeof num === 'undefined'){num = "";}else{ind=num;}
-     if (id.constructor == Array) {
+     if (id.constructor === Array) {
         misc_cnts[ind] = misc_cnts[ind]+id.length;
      }else{
         misc_cnts[ind] = misc_cnts[ind]+1;
@@ -771,17 +780,21 @@
 
   function hotspot(id,name){
      if (typeof name == 'string'){
-        return "<a href='https://birdinghotspots.org/hotspot/"+id+lnksty+" target='"+id+"'>"+name+"</a>";
+        var tmp = strsplit(name);
+        if (tmp.constructor !== Array){tmp = [tmp,''];}
+        return "<a href='https://birdinghotspots.org/hotspot/"+id+lnksty+" target='"+id+"'>"+tmp[0]+"</a>"+tmp[1];
      }else{
         return "https://birdinghotspots.org/hotspot/"+id;
      }
   }
 
   function gmap(name,latt,long){
+     var tmp = strsplit(name);
+     if (tmp.constructor !== Array){tmp = [tmp,''];}
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+name+"</a>";
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(name,'+')+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
      }else{
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+name+"</a>";
+        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
      }
   }
 
