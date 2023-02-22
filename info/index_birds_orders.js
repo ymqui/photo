@@ -757,17 +757,18 @@
      return sas(album+"/"+album+"_",id);
   }
 
-  function baike(bid,name){
-     if (typeof bid == "string"){
-        if (typeof name === 'undefined'){
-           return "https://baike.baidu.com/item/"+bid;
-        }else if(typeof name =="string"){
-           return "<a href='https://baike.baidu.com/item/"+bid+lnksty+" target='"+bid+"'>"+name+"</a>";
+  function baike(name,before,afterin,afterout){
+     if (typeof name === 'string'){
+        if (typeof before === 'undefined'){
+           return "https://baike.baidu.com/item/"+name;
         }else{
-           return "<a href='https://baike.baidu.com/item/"+bid+lnksty+" target='"+bid+"'>"+bid+"</a>";
+           var tmp1='',tmp2='';
+           if(typeof afterin !== 'undefined'){tmp1=afterin;}
+           if(typeof afterout !== 'undefined'){tmp2=afterout;}
+           return before+"<a href='https://baike.baidu.com/item/"+name+lnksty+" target='"+name+"'>"+name+tmp1+"</a>"+tmp2;
         }    
      }else{
-        return "http://www.niaobaike.com/baike/"+bid.toString()+".html";
+        return "http://www.niaobaike.com/baike/"+name.toString()+".html";
      }
   }
 
