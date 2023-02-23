@@ -281,7 +281,7 @@ function initAlbum(){
     this[0][i]    = ["2205florida/2205florida_1","2205florida/2205florida_4","20220428"];
     this[1][i++]  = (["Taking the Amtrak auto train for the "+pagelink("2205florida","Florida vacation"),"乘坐美铁汽车火车前往"+pagelink("2205florida","佛罗里达度假")])[cn_ind];
     this[0][i]    = ["2205florida/2205florida_14","20220501"];
-    this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游西礁岛的美国大陆最南端"])[cn_ind];
+    this[1][i++]  = (["Visiting the southernmost point in Key West during the "+pagelink("2205florida","Florida vacation"),"在"+pagelink("2205florida","佛罗里达度假")+"时游"+baike("基韦斯特","西礁岛")+"的美国大陆最南端"])[cn_ind];
     this[0][i]    = ["2206graduation/2206graduation_11","2206graduation/2206graduation_10","20220617"];
     this[1][i++]  = (["Receiving a diploma from Ms Abrial and Ms Penny at the "+pagelink("2206graduation","NIST Child Care Center Pre-K graduation ceremony"),"Abrial老师和Penny老师在"+pagelink("2206graduation","NIST托儿所学前班毕业典礼")+"上给球球颁发毕业证书"])[cn_ind];
     this[0][i]    = "20220620_WashingDish";
@@ -291,7 +291,7 @@ function initAlbum(){
     this[0][i]    = "20220709_Bowling";
     this[1][i++]  = (["Bowling with James and Adele","小何叔叔带着去打保龄球"])[cn_ind];
     this[0][i]    = ["2208arizona/2208arizona_3","20220807"];
-    this[1][i++]  = (["Visiting the Arizona-Sonora Desert Musuem in Tucson during the "+pagelink("2208arizona","Arizona vacation"),"在"+pagelink("2208arizona","亚利桑那州度假")+"时游亚利桑那-索诺拉沙漠博物馆"])[cn_ind];
+    this[1][i++]  = (["Visiting the Arizona-Sonora Desert Musuem in Tucson during the "+pagelink("2208arizona","Arizona vacation"),"在"+pagelink("2208arizona","亚利桑那州度假")+"时游"+baike("亚利桑那索诺兰沙漠博物馆","亚利桑那-索诺拉沙漠博物馆")])[cn_ind];
     this[0][i]    = ["2208canada/2208canada_2","20220826"];
     this[1][i++]  = (["Visiting the Niagara Falls on the "+pagelink("2208canada","trip to Canada"),"在"+pagelink("2208canada","加拿大之行")+"看尼亚加拉大瀑布"])[cn_ind];
     this[0][i]    = ["2208canada/2208canada_7","20220828"];
@@ -321,7 +321,7 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
     this[0][i]    = ["2301panama/2301panama_4","2301panama/2301panama_16","2301panama/2301panama_46",["20230122","20230124","20230127"]];
     this[1][i++]  = ([["Visiting Casco Viejo in Panama City during the "+pagelink("2301panama","vacation in Panama"),"Watching monkeys in Monkey Island during the "+pagelink("2301panama","vacation in Panama"),"Visiting the Emberá Purú village during the "+pagelink("2301panama","vacation in Panama")],
-                    [pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的Casco Viejo老城",pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
+                    [pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的"+baike("Casco Viejo老城区"),pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
     this[0][i]    = ["20230212_006","20230212_008"];
     this[1][i++]  = (["Baking with Mommy","和妈妈一起做甜点"])[cn_ind];
 
