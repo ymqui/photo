@@ -566,6 +566,7 @@ function initAlbum(){
     this[1][i++]  = (["Counting to 100 by 10s","以10为单位数到100"])[cn_ind];
     this[0][i]    = "20230216_1";
     this[1][i++]  = (["Presenting the arctic animal wolverine","介绍北极动物貂熊"])[cn_ind];
+//    this[1][i++]  = ([urllink((url="https://youtu.be/HwFekbYxxrY?t=189"),"Presenting the arctic animal wolverine (YouTube video)"),urllink(url,"介绍北极动物貂熊(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
