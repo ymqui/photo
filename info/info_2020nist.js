@@ -556,6 +556,16 @@ function initAlbum(){
     this[1][i++]  = (["Playing with marble run","滚玻璃珠"])[cn_ind];
     this[0][i]    = "20230120_1";
     this[1][i++]  = (["I have a dream","我有一个梦想：我想成为一个研究恐龙的古生物学家；大家都友好相处"])[cn_ind];
+    this[0][i]    = "20230208_0";
+    this[1][i++]  = (["Happy Chinese New Year","新年快乐"])[cn_ind];
+    this[0][i]    = ["20230208_1","20230208_2"];
+    this[1][i++]  = ([["Making a headband for the 100th day celebration","Celebrating the 100th day at kindergarten"],["制作头带庆祝学前班第100天","庆祝学前班第100天"]])[cn_ind];
+    this[0][i]    = "20230214_1";
+    this[1][i++]  = (["With Daddy","和爸爸在一起"])[cn_ind];
+    this[0][i]    = "20230215_1";
+    this[1][i++]  = (["Counting to 100 by 10s","以10为单位数到100"])[cn_ind];
+    this[0][i]    = "20230216_1";
+    this[1][i++]  = (["Presenting the arctic animal wolverine","介绍北极动物貂熊"])[cn_ind];
 
     adddate(this);
 }
