@@ -567,7 +567,7 @@ function initAlbum(){
     this[0][i]    = "20230216_1";
     this[1][i++]  = ([urllink((url="https://youtu.be/3xnQndXFw7I"),"Making a presentation about the arctic animal wolverine (YouTube video)"),urllink(url,"介绍北极动物貂熊(YouTube视频)")])[cn_ind];
     this[0][i]    = "20230223_0";
-    this[1][i++]  = (["Celebrating Ms B's birthday","庆祝B老师的生日"])[cn_ind];
+    this[1][i++]  = (["Celebrating Ms B's birthday","庆祝B老师生日快乐"])[cn_ind];
     this[0][i]    = ["20230223_1","20230223_2","20230223_3"];
     this[1][i++]  = (["Visiting the NIST fire and police department","参观NIST消防队和警察局"])[cn_ind];
 
