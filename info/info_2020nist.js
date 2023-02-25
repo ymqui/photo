@@ -568,7 +568,7 @@ function initAlbum(){
     this[1][i++]  = ([urllink((url="https://youtu.be/3xnQndXFw7I"),"Making a presentation about the arctic animal wolverine (YouTube video)"),urllink(url,"介绍北极动物貂熊(YouTube视频)")])[cn_ind];
     this[0][i]    = "20230224_0";
     this[1][i++]  = (["Celebrating Ms B's birthday","庆祝B老师的生日"])[cn_ind];
-    this[0][i]    = "20230224_1";
+    this[0][i]    = ["20230224_1","20230224_2"];
     this[1][i++]  = (["Visiting the NIST fire and police department","参观NIST消防队和警察局"])[cn_ind];
 
     adddate(this);
