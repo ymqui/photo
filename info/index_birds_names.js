@@ -522,6 +522,7 @@
   birds[j++] = new Bird("18-12-04T13:59","THAMNOPH","Bicolored Antbird","双色蚁鸟","Gymnopithys bicolor",p_id("1812crbirding",48),["crarol","12/2018"],"bicant2");
   birds[j++] = new Bird("18-12-04T13:58","THAMNOPH","Spotted Antbird","点斑蚁鸟","Hylophylax naevioides",p_id("1812crbirding",[46,45]).concat(p_id("2301pabird",47)),["crarol","12/2018","Male","crarol","12/2018","Female","papipe","1/2023,S126820118","Male"],"spoant1");
   birds[j++] = new Bird("23-01-23T08:52","THAMNOPH","Chestnut-backed Antbird","栗背蚁鸟","Poliocrania exsul",p_id("2301pabird",36),["papipe","1/2023,S126820118","Male"],"chbant1");
+//birds[j++] = new Bird("23-00-00T00:00","FORMICAR","Black-faced Antthrush","黑脸蚁鸫","Formicarius analis",m_id(""),["mdbhrp","1/2023,"],"blfant1");
   birds[j++] = new Bird("23-01-23T08:35","GRALLARI","Streak-chested Antpitta","纹胸蚁鸫","Hylopezus perspicillatus",p_id("2301pabird",[31,32]),["papipe","1/2023,S126820118"],"stcant2");
 //birds[j++] = new Bird("23-00-00T00:00","CONOPOPH","Chestnut-belted Gnateater","栗带食蚊鸟","Conopophaga aurita",m_id(""),["mdbhrp","1/2023,"],"chbgna1");
 //birds[j++] = new Bird("23-00-00T00:00","RHINOCRY","Chucao Tapaculo","智利窜鸟","Scelorchilus rubecula",m_id(""),["mdbhrp","1/2023,"],"chutap1");
@@ -698,6 +699,7 @@
   birds[j++] = new Bird("16-01-11T14:29","ZOSTEROP","Warbling White-eye","暗绿绣眼鸟","Zosterops japonicus",[p_id("1704longyan",13),p_id("1601china",46)],["cnlydp","4/2017","cnlydp","1/2016"],"warwhe1");
 //birds[j++] = new Bird("23-00-00T00:00","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",m_id(""),["mdbhrp","1/2023,"],"sbsbab3");
 //birds[j++] = new Bird("23-00-00T00:00","PELLORNE","Dusky Fulvetta","褐顶雀鹛","Schoeniparus brunneus",m_id(""),["mdbhrp","1/2023,"],"dusful1");
+//birds[j++] = new Bird("23-00-00T00:00","ALCIPPEI","Brown-cheeked Fulvetta","褐脸雀鹛","Alcippe poioicephala",m_id(""),["mdbhrp","1/2023,"],"brcful1");
   birds[j++] = new Bird("16-01-05T09:34","LEIOTHRI","Red-billed Leiothrix","红嘴相思鸟","Leiothrix lutea",p_id("1601china",17),["cnjsxp","1/2016"],"reblei");
   birds[j++] = new Bird("16-01-06T10:14","LEIOTHRI","Chinese Hwamei","画眉","Garrulax canorus",p_id("1601china",[32,33]),["cnjsxp","1/2016"],"melthr");
 //birds[j++] = new Bird("23-00-00T00:00","MODULATR","Dapple-throat","纹喉鵖","Arcanator orostruthus",m_id(""),["mdbhrp","1/2023,"],"dapthr1");
