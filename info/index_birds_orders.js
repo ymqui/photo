@@ -514,12 +514,28 @@
      var tmp_info  = [];
      var tmp_cinfo = [];
      var tmp_date  = new Date();
-     var tmp_monyr = [];
+     var tmp_monyr = [],tmp1,tmp2,tmp3;
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
-         var tmp = (info[1+6*i].trim()).split(/[,\s]/);
-         if (tmp.length==2){
-            if (ebirdlist.indexOf(tmp[1]) === -1){ebirdlist.push(tmp[1]);}
-            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp[1]+lnksty+" target='"+tmp[1]+"'>"+tmp[0]+"</a>";  
+         if (typeof info[1+6*i]==='undefined'){info.splice(1+6*i,0,"");}
+         info[1+6*i] = info[1+6*i].trim();
+         tmp1 = '',tmp2 = '';
+         tmp3 = info[1+6*i].lastIndexOf(','); 
+         if (tmp3>=0){
+            tmp2 = info[1+6*i].substr(tmp3+1);
+            tmp1 = info[1+6*i].substr(0,tmp3); 
+         }else{
+            if (info[1+6*i].match(/[0-9]{1,2}\/[0-9]{4}/)){
+               tmp1 = info[1+6*i];
+            }else{
+               tmp2 = info[1+6*i];
+            }
+         }
+         if (tmp1.length==0){tmp1=getdate(this.photo[i]);}
+         if (tmp2.length>0){
+            if (ebirdlist.indexOf(tmp2)===-1){ebirdlist.push(tmp2);}
+            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp2+lnksty+" target='"+tmp2+"'>"+tmp1+"</a>";  
+         }else{
+            info[1+6*i] = tmp1;
          }
          if (typeof info[2+6*i]!=='undefined'){
             if (typeof info[3+6*i]==='undefined'){info.splice(3+6*i,0,"");}
@@ -704,6 +720,31 @@
      })
   } 
 
+  function getdate(path){
+     var date = "",year="",mon="",name;
+     if (path.constructor === Array) {
+        name = path[0].substr(path[0].lastIndexOf('/') + 1);
+     }else{
+        name = path.substr(path.lastIndexOf('/') + 1);
+     }
+     var pos  = name.search(/20[0-9]{4,}/);
+     if (pos==-1){
+        pos  = name.search(/[0-9]{4,}/);
+        if (pos>=0){
+           year = name.substring(pos+0,pos+2);
+           mon  = name.substring(pos+2,pos+4);
+        }
+     }else{
+        year = name.substring(pos+0,pos+4);
+        mon  = name.substring(pos+4,pos+6);
+     }
+     if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
+     if (year.length==2){year = "20"+year;}
+     if (mon.length!=0) {date = date+mon+"/";}
+     if (year.length!=0){date = date+year;}
+     return date;
+  }
+
   function getpinyin(cname){
      var tmp = '';
      for (var i=0;i<cname.length;i++){
@@ -844,11 +885,15 @@
   }
 
   function reform_locs(link){
-     var indx = 2;
+     var indx = 1;
      var prev = 0;
      while(indx<link.length){
          if (typeof lurls[link[indx]] !== 'undefined'){
             switch(indx-prev){
+                case 1:
+                     link.splice(indx,0,"","","","","");
+                     indx = indx+5;
+                     break;
 		case 2:
                      link.splice(indx,0,"","","","");
                      indx = indx+4;
