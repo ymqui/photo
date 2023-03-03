@@ -908,7 +908,7 @@
                      break;
                      
             }
-            prev = indx++;  
+            prev = indx;  
          } 
          indx++;
      }
