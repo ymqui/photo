@@ -1206,10 +1206,10 @@
   info[2][j] = 2;
   info[3][j] = "8/2014 Annapolis Birding";
   info[4][j++] = "Birding at Greenbury Point in Annapolis (Maryland).";
-  info[0][j] = "1409fingerlake";
+  info[0][j] = "1408fingerlake";
   info[1][j] = 5;
   info[2][j] = 2;
-  info[3][j] = "9/2014 Finger Lakes Birding";
+  info[3][j] = "8/2014 Finger Lakes Birding";
   info[4][j++] = "Birding in the Finger Lakes Region (New York).";
   info[0][j] = "1412mckee-beshers";
   info[1][j] = 7;
