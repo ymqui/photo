@@ -570,6 +570,12 @@ function initAlbum(){
     this[1][i++]  = (["Celebrating Ms B's birthday","庆祝B老师生日快乐"])[cn_ind];
     this[0][i]    = ["20230223_1","20230223_2","20230223_3"];
     this[1][i++]  = (["Visiting the NIST fire and police department","参观NIST消防队和警察局"])[cn_ind];
+    this[0][i]    = ["20230303_1","20230303_2"];
+    this[1][i++]  = (["Reading with Akash's Mom","听Akash的妈妈读书"])[cn_ind];
+    this[0][i]    = ["20230303_3"];
+    this[1][i++]  = (["Snack time","吃零食"])[cn_ind];
+    this[0][i]    = ["20230303_4","20230303_5"];
+    this[1][i++]  = (["Visiting Remy's Mom's lab to learn about fire","参观Remy的妈妈的实验室来了解什么是火"])[cn_ind];
 
     adddate(this);
 }
