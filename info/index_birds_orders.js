@@ -516,7 +516,7 @@
      if (!this.newbird){
         for (var i=0;i<this.photo.length;i++){
             tmp_date = getdate(this.photo[i],true);
-            if (tmp_date!==''){
+            if (typeof tmp_date!=='undefined'){
                if (tmp_date.getTime()>modTim){
                   all_new = false;
                   add_mod = true;
@@ -695,7 +695,7 @@
      }
      var pos  = name.search(/20[0-9]{4,}/);
      if (pos==-1){
-        if(typeof returndate !== 'undefined'){return '';} 
+        if(typeof returndate !== 'undefined'){return;} 
         pos  = name.search(/[0-9]{4,}/);
         if (pos>=0){
            year = name.substring(pos+0,pos+2);
