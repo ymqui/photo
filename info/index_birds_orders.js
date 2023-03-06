@@ -504,17 +504,33 @@
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
-     var tmp_date;
      if (photo.constructor !== Array){photo = [photo];}
      this.photo    = photo;
-     for (var i=0;i<this.photo.length;i++){
-        if ((""+this.photo[i]).match(/_dig/i)!=null){dig_cnts++;}
-        tmp_date = getdate(this.photo[i],true);
-        if (tmp_date!==''){
-           if (tmp_date.getTime()>modTim){this.newbird = true;}
+     pic_cnts      = pic_cnts+this.photo.length;
+     var tmp_match = photo.join().match(/_dig/gi);
+     if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
+     
+     //check if this bird needs to be added to modBrd
+     this.newbird = (modTim<=this.lifer.getTime());
+     var tmp_date,add_mod=false;  
+     if (!this.newbird){
+        for (var i=0;i<this.photo.length;i++){
+            tmp_date = getdate(this.photo[i],true);
+            if (tmp_date!==''){
+               if (tmp_date.getTime()>modTim){
+                  all_new = false;
+                  add_mod = true;
+                  break;
+               }
+            }
         }
      }
-     pic_cnts = pic_cnts+this.photo.length;
+     if (this.newbird||add_mod){
+        modBrd.name[modBrd.name.length]   = this.name;
+        modBrd.cname[modBrd.cname.length] = this.cname;
+        modBrd.newbird[modBrd.newbird.length] = this.newbird; 
+     }     
+
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
         this.info  = tmp_info.info; 
@@ -553,16 +569,7 @@
         }else if (curl !==""){
            this.url = baike(curl);
         }
-     }
-   
-     //check if this bird needs to be added to modBrd
-     if ((modTim<=this.lifer.getTime()) || this.newbird){
-        this.newbird = (modTim<=this.lifer.getTime());
-        modBrd.name[modBrd.name.length]   = this.name;
-        modBrd.cname[modBrd.cname.length] = this.cname;
-        modBrd.newbird[modBrd.newbird.length] = this.newbird;
-        if (!this.newbird) {all_new = false;} 
-     }
+     }     
   }
 
   function sas(in1,in2,in3){
