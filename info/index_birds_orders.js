@@ -517,19 +517,17 @@
         for (var i=0;i<this.photo.length;i++){
             tmp_date = getdate(this.photo[i],true);
             if (typeof tmp_date!=='undefined'){
-               if (tmp_date.getTime()>modTim){
-                  all_new = false;
-                  add_mod = true;
-                  break;
-               }
+               add_mod = (modTim<=tmp_date.getTime());
+               if (add_mod){break;}
             }
         }
      }
      if (this.newbird||add_mod){
         modBrd.name[modBrd.name.length]   = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
-        modBrd.newbird[modBrd.newbird.length] = this.newbird; 
-     }     
+        modBrd.newbird[modBrd.newbird.length] = this.newbird;
+        if (add_mod){all_new = false;}
+     }
 
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
