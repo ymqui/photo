@@ -517,11 +517,9 @@
      pic_cnts = pic_cnts+this.photo.length;
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
-        for (var i=0;i<photo.length;i++){
-            this.info.push(tmp_info.eng_info[Math.min(i,tmp_info.eng_info.length-1)]); 
-            this.cinfo.push(tmp_info.chn_info[Math.min(i,tmp_info.chn_info.length-1)]);
-        }
-        this.locs = tmp_info.locs;
+        this.info  = tmp_info.eng_info; 
+        this.cinfo = tmp_info.chn_info;
+        this.locs  = tmp_info.locs;
      }else{
         this.info = info;
      }
