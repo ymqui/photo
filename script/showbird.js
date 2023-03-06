@@ -422,14 +422,16 @@ if(window.usechinese){
    if (title.length!=0) title = title+" ";
    title = "LaoQ's "+title+"Life List: ";
 }
-var eng_info,chn_info;
+var eng_info = [],chn_info = [];
 if (window.expandinfo){
    eng_info = bid.info;
    chn_info = bid.cinfo;   
 }else{
    var tmp_info = reform_locs(bid.info,bid.photo);
-   eng_info = tmp_info.eng_info;
-   chn_info = tmp_info.chn_info;
+   for (var i=0;i<bid.photo.length;i++){
+       eng_info.push(tmp_info.eng_info[Math.min(i,tmp_info.eng_info.length-1)]); 
+       chn_info.push(tmp_info.chn_info[Math.min(i,tmp_info.chn_info.length-1)]);
+   }
 }
 if(window.usechinese){
    document.title = title+bid.cname;
