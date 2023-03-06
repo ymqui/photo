@@ -517,8 +517,8 @@
      pic_cnts = pic_cnts+this.photo.length;
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
-        this.info  = tmp_info.eng_info; 
-        this.cinfo = tmp_info.chn_info;
+        this.info  = tmp_info.info; 
+        this.cinfo = tmp_info.cinfo;
         this.locs  = tmp_info.locs;
      }else{
         this.info = info;
@@ -921,7 +921,7 @@
          tmp_info[i]  = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
          tmp_cinfo[i] = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
      }
-     return {eng_info:tmp_info,chn_info:tmp_cinfo,locs:tmp_locs};
+     return {info:tmp_info,cinfo:tmp_cinfo,locs:tmp_locs};
   } 
 
   function loclink(pid,date,usechinese,header,extra){
