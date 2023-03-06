@@ -470,7 +470,7 @@
       鸲:"qu2",鹡:"ji2",圃:"pu3",布:"bu4",河:"he2",鵖:"bi1",斯:"si1",鸬:"lu2",苏:"su1",玫:"mei2",昏:"hun1",弯:"wan1",腿:"tui3",花:"hua1",灶:"zao4",文:"wen2",桃:"tao2",刘:"liu2",饰:"shi4",窜:"cuan4",鸰:"ling2",唐:"tang2",松:"song1",枞:"cong1",爪:"zhao3",鲸:"jing1", 鵟:"kuang2",
       鹉:"wu3",热:"re4",勒:"le4",鹕:"hu2",霸:"ba4",拉:"la1",鹚:"ci2",波:"bo1",簇:"cu4",蚋:"rui4",鸵:"tuo2",贼:"zei2",反:"fan3",信:"xin4",纹:"wen2",黑:"hei1",燕:"yan4",岩:"yan2",非:"fei1",潜:"qian2",鳽:"jian1",靛:"dian4",囱:"cong1",灵:"ling2",镰:"lian2",交:"jiao1", 橡:"xiang4",
       鹈:"ti2",漠:"mo4",姬:"ji1",刺:"ci4",吉:"ji2",骨:"gu3",鴗:"li4",鼻:"bi2",吸:"xi1",蛇:"she2",戴:"dai4",咬:"yao3",巾:"jin1",加:"jia1",秋:"qiu1",费:"fei4",食:"shi2",疣:"you2",瑞:"rui4",榛:"zhen1",洲:"zhou1",叫:"jiao4",纯:"chun2",针:"zhen1",鹲:"meng2",棕:"zong1", 虫:"chong2",
-      褐:"he4",普:"pu3",弗:"fu2",尼:"ni2",䴙:"pi4",西:"xi1",八:"ba1",旅:"lv3",籽:"zi3",北:"bei3",毛:"mao2",鹞:"yao4",烟:"yan1",果:"guo3",家:"jia1",柳:"liu3",胁:"xie2",隐:"yin3",高:"gao1",小:"xiao3",神:"shen2",角:"jiao3",短:"duan3",铜:"tong2",蓬:"peng2",鸢:"yuan1", 亮:"liang4",
+      褐:"he4",普:"pu3",弗:"fu2",尼:"ni2",䴙:"pi4",西:"xi1",八:"ba1",旅:"lv3",籽:"zi3",北:"bei3",毛:"mao2",鹞:"yao4",烟:"yan1",果:"guo3",家:"jia1",柳:"liu3",胁:"xie2",隐:"yin3",高:"gao1",小:"xiao3",神:"shen2",角:"jiao3",短:"duan3",铜:"tong2",蓬:"peng2",鸢:"yuan1", 城:"cheng2",
       浮:"fu2",黎:"li2",企:"qi3",达:"da2",鵙:"ju2",佛:"fo2",鹤:"he4",琵:"pi2",及:"ji2",火:"huo3",石:"shi2",印:"yin4",铁:"tie3",苇:"wei3",锈:"xiu4",内:"nei4",恺:"kai3",委:"wei3",岛:"dao3",冠:"guan1",山:"shan1",鹋:"miao2",水:"shui3",宽:"kuan1",跷:"qiao1",䳍:"gong1", 相:"xiang1",
       鸭:"ya1",色:"se4",鹱:"hu4",蹼:"pu3",鸥:"ou1",博:"bo2",里:"li3",喜:"xi3",埃:"ai1",眉:"mei2",主:"zhu3",多:"duo1",刀:"dao1",翅:"chi4",嘴:"zui3",鹊:"que4",氏:"shi4",雪:"xue3",鹠:"liu2",垂:"chui2",鸯:"yang1",鹳:"guan4",鸳:"yuan1",王:"wang2",鹇:"xian2",鲣:"jian1", 橙:"cheng2",
       乌:"wu1",披:"pi1",栗:"li4",亚:"ya4",安:"an1",鱼:"yu2",榈:"lv2",鹂:"li2",蜜:"mi4",番:"fan1",桂:"gui4",买:"mai3",䴓:"shi1",森:"sen1",瓣:"ban4",隼:"sun3",矛:"mao2",眼:"yan3",哲:"zhe2",雕:"diao1",锥:"zhui1",顶:"ding3",鹟:"weng1",鸫:"dong1",秧:"yang1",仙:"xian1", 胸:"xiong1", 
@@ -479,7 +479,7 @@
       几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",部:"bu4",薮:"sou3",索:"suo3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",阔:"kuo4",膀:"bang3",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",亨:"heng1", 响:"xiang3",
       伍:"wu3",思:"si1",距:"ju4",蜗:"wo1",舞:"wu3",蒂:"di4",䳭:"ji2",那:"na4",沃:"wo4",蛛:"zhu1",酋:"qiu2",莱:"lai2",䴕:"lie4",瑰:"gui1",泰:"tai4",坦:"tan3",沟:"gou1",鸺:"xiu1",楔:"xie1",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",鬃:"zong1",铅:"qian1", 蝗:"huang2",
       槲:"hu2",纳:"na4",蚁:"yi3",菊:"ju2",墨:"mo2",和:"he2",米:"mi3",髭:"zi1",哈:"ha1",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",赭:"zhe3",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1", 煌:"huang2",
-      女:"nv3",泽:"ze2",孤:"gu1",格:"ge2",利:"li4",特:"te4",迪:"di2",奥:"ao4",凫:"fu2",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",国:"guo2",翎:"ling2",通:"tong1",鸮:"xiao1",猛:"meng3",椒:"jiao1",鸟:"niao3",光:"guang1",城:"cheng2",双:"shuang1"};
+      女:"nv3",泽:"ze2",孤:"gu1",格:"ge2",利:"li4",特:"te4",迪:"di2",奥:"ao4",凫:"fu2",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",国:"guo2",翎:"ling2",通:"tong1",鸮:"xiao1",猛:"meng3",椒:"jiao1",鸟:"niao3",光:"guang1",双:"shuang1"};
 
   var pt_eng  = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*",
                  "females* left, *males* right","females* and chicks*","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*","eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*",
@@ -512,18 +512,18 @@
      
      //check if this bird needs to be added to modBrd
      this.newbird = (modTim<=this.lifer.getTime());
-     var tmp_date,add_mod=false;  
+     var tmp_date,add_mod = false;  
      if (!this.newbird){
         for (var i=0;i<this.photo.length;i++){
             tmp_date = getdate(this.photo[i],true);
-            if (typeof tmp_date!=='undefined'){
+            if (typeof tmp_date !== 'undefined'){
                add_mod = (modTim<=tmp_date.getTime());
                if (add_mod){break;}
             }
         }
      }
      if (this.newbird||add_mod){
-        modBrd.name[modBrd.name.length]   = this.name;
+        modBrd.name[modBrd.name.length] = this.name;
         modBrd.cname[modBrd.cname.length] = this.cname;
         modBrd.newbird[modBrd.newbird.length] = this.newbird;
         if (add_mod){all_new = false;}
@@ -549,7 +549,7 @@
         curl = ebid;
         ebid = "";
      }
-     if (ebid !==""){
+     if (ebid !== ""){
         this.url = ebirdurl(ebid);
      }else{
         this.url = cornellurl(this.name1);
@@ -685,17 +685,17 @@
   } 
 
   function getdate(path,returndate){
-     var date = "",year="",mon="",name;
+     var date = "",year = "",mon = "",name;
      if (path.constructor === Array) {
         name = path[0].substr(path[0].lastIndexOf('/') + 1);
      }else{
         name = path.substr(path.lastIndexOf('/') + 1);
      }
-     var pos  = name.search(/20[0-9]{4,}/);
-     if (pos==-1){
+     var pos = name.search(/20[0-9]{4,}/);
+     if (pos == -1){
         if(typeof returndate !== 'undefined'){return;} 
-        pos  = name.search(/[0-9]{4,}/);
-        if (pos>=0){
+        pos = name.search(/[0-9]{4,}/);
+        if (pos >= 0){
            year = name.substring(pos+0,pos+2);
            mon  = name.substring(pos+2,pos+4);
         }
@@ -709,10 +709,10 @@
            return new Date(year,mon,day);
         } 
      }
-     if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
-     if (year.length==2){year = "20"+year;}
-     if (mon.length!=0) {date = date+mon+"/";}
-     if (year.length!=0){date = date+year;}
+     if (mon.substring(0,1) == "0"){mon = mon.substring(1,2);}
+     if (year.length == 2){year = "20"+year;}
+     if (mon.length != 0) {date = date+mon+"/";}
+     if (year.length != 0){date = date+year;}
      return date;
   }
 
