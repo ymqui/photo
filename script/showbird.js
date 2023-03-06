@@ -422,18 +422,26 @@ if(window.usechinese){
    if (title.length!=0) title = title+" ";
    title = "LaoQ's "+title+"Life List: ";
 }
-
+var eng_info,chn_info;
+if (window.expandinfo){
+   eng_info = bid.info;
+   chn_info = bid.cinfo;   
+}else{
+   var tmp_info = reform_locs(bid.info,bid.photo);
+   eng_info = tmp_info.eng_info;
+   chn_info = tmp_info.chn_info;
+}
 if(window.usechinese){
    document.title = title+bid.cname;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      if((bid.cinfo[i]!=bid.cinfo[Math.min(i+1,bid.photo.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+bid.cinfo[i]+'。');}
+      if((chn_info[i]!=chn_info[Math.min(i+1,bid.photo.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+chn_info[i]+'。');}
    }
 }else{
    document.title = title+bid.name;
    for(var i=0;i<bid.photo.length;i++){
       document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
-      if((bid.info[i]!=bid.info[Math.min(i+1,bid.photo.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+bid.info[i]+'.</i>');}
+      if((eng_info[i]!=eng_info[Math.min(i+1,bid.photo.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+eng_info[i]+'.</i>');}
    }
 }
 document.write("</center>");
