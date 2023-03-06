@@ -428,8 +428,8 @@ if (window.expandinfo){
    chn_info = bid.cinfo;   
 }else{
    var tmp_info = reform_locs(bid.info,bid.photo);
-   eng_info = tmp_info.eng_info;
-   chn_info = tmp_info.chn_info;
+   eng_info = tmp_info.info;
+   chn_info = tmp_info.cinfo;
 }
 if(window.usechinese){
    document.title = title+bid.cname;
