@@ -534,12 +534,12 @@
         this.info  = tmp_info.info; 
         this.cinfo = tmp_info.cinfo;
         this.locs  = tmp_info.locs;
-        this.url   = reform_url(this.name1,this.cname,ebid,curl);
      }else{
         this.info = info;
-        if (typeof ebid !== 'undefined'){this.ebid = ebid;}
-        if (typeof curl !== 'undefined'){this.curl = curl;}
      }
+
+     if (typeof ebid !== 'undefined'){this.ebid = ebid;}
+     if (typeof curl !== 'undefined'){this.curl = curl;}
   }
 
   function sas(in1,in2,in3){
