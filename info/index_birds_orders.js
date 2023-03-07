@@ -482,11 +482,11 @@
       女:"nv3",泽:"ze2",孤:"gu1",格:"ge2",利:"li4",特:"te4",迪:"di2",奥:"ao4",凫:"fu2",口:"kou3",彩:"cai3",盔:"kui1",翻:"fan1",腰:"yao1",鸨:"bao3",雁:"yan4",鹨:"liu4",月:"yue3",国:"guo2",翎:"ling2",通:"tong1",鸮:"xiao1",猛:"meng3",椒:"jiao1",鸟:"niao3",光:"guang1",双:"shuang1"};
 
   var pt_eng  = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*",
-                 "females* left, *males* right","females* and chicks*","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*","eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*",
-                 "breeding (adults*|plumage)","breeding males*","breeding females*","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*","nonbreeding females*","nonbreeding males*","(partially)* *leucistic",
-                 "mating display","nest","light morph","dark morph"];
-  var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟",
-                 "成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];     
+                 "females* left, *males* right","females* and chicks*","females* and (immature|juvenile)s*","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*","eclipse males*",
+                 "molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","breeding males*","breeding females*","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*",
+                 "nonbreeding females*","nonbreeding males*","(partially)* *leucistic","mating display","nest","light morph","dark morph"];
+  var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性",
+                 "蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];     
   var lnksty  = "' style='color: #3399FF; text-decoration: underline;'"; 
   var fam_ln  = 8;						//family length
   var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
@@ -852,6 +852,8 @@
                      
             }
             prev = indx;  
+         }else if((indx==prev+1)&&(info[indx].length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(info[indx]))){
+            info.splice(indx,0,"");
          } 
          indx++;
      }
