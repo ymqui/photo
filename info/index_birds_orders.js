@@ -537,6 +537,8 @@
         this.url   = reform_url(this.name1,this.cname,ebid,curl);
      }else{
         this.info = info;
+        if (typeof ebid !== 'undefined'){this.ebid = ebid;}
+        if (typeof curl !== 'undefined'){this.curl = curl;}
      }
   }
 
