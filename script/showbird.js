@@ -406,16 +406,15 @@ if(window.usechinese){
    mesg2 = "Bird Photo Album Home";
    mesg3 = "Chinese Version/中文版";  
 }
-var eng_info,chn_info,tmp_url;
+var tmp_url  = reform_url(bid.name1,bid.cname,bid.ebid,bid.curl);
+var eng_info,chn_info;
 if (window.expandinfo){
    eng_info = bid.info;
    chn_info = bid.cinfo;
-   tmp_url  = bid.url;
 }else{
    var tmp_info = reform_locs(bid.info,bid.photo);
    eng_info = tmp_info.info;
    chn_info = tmp_info.cinfo;
-   tmp_url  = reform_url(bid.name1,bid.cname,bid.ebid,bid.curl);
 }
 document.write('<a href="'+tmp_url+'" style="text-decoration:none" target="binfo">');
 document.write('<IMG SRC="'+p_info+'"'+borderstr(mesg1)+' align="top" border="0" style="margin:'+space1+'"></a>');
