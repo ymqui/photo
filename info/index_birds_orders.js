@@ -927,11 +927,7 @@
      }
      if (window.usechinese) {
         if (typeof curl == 'undefined') {curl = cname;} 
-        if (curl.constructor === Array){
-           if (typeof curl[0] == "string"){
-              curl = curl[0];
-           }
-        }
+        if (curl.constructor === Array) {curl = curl[0];}
         if ((typeof curl == "string") && (curl.match(/^http/))){
            url = curl;
         }else if (curl !==""){
