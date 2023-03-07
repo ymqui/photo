@@ -534,40 +534,10 @@
         this.info  = tmp_info.info; 
         this.cinfo = tmp_info.cinfo;
         this.locs  = tmp_info.locs;
+        this.url   = reform_url(this.name1,this.cname,ebid,curl);
      }else{
         this.info = info;
      }
-     
-     if(typeof ebid == 'undefined'){ 
-        ebid = "";  
-     }else if(typeof ebid == "string"){
-        if (ebid.match(/[\u3400-\u9FBF]/)) {
-           curl = ebid;
-           ebid = "";
-        }
-     }else{
-        curl = ebid;
-        ebid = "";
-     }
-     if (ebid !== ""){
-        this.url = ebirdurl(ebid);
-     }else{
-        this.url = cornellurl(this.name1);
-     }
-     
-     if (window.usechinese) {
-        if (typeof curl == 'undefined') {curl = this.cname;} 
-        if (curl.constructor === Array){
-           if (typeof curl[0] == "string"){
-              curl = curl[0];
-           }
-        }
-        if ((typeof curl == "string") && (curl.match(/^http/))){
-           this.url = curl;
-        }else if (curl !==""){
-           this.url = baike(curl);
-        }
-     }     
   }
 
   function sas(in1,in2,in3){
@@ -928,6 +898,40 @@
      }
      return {info:tmp_info,cinfo:tmp_cinfo,locs:tmp_locs};
   } 
+
+  function reform_url(name,cname,ebid,curl){
+     var url = "";
+     if(typeof ebid == 'undefined'){ 
+        ebid = "";  
+     }else if(typeof ebid == "string"){
+        if (ebid.match(/[\u3400-\u9FBF]/)) {
+           curl = ebid;
+           ebid = "";
+        }
+     }else{
+        curl = ebid;
+        ebid = "";
+     }
+     if (ebid !== ""){
+        url = ebirdurl(ebid);
+     }else{
+        url = cornellurl(name);
+     }
+     if (window.usechinese) {
+        if (typeof curl == 'undefined') {curl = cname;} 
+        if (curl.constructor === Array){
+           if (typeof curl[0] == "string"){
+              curl = curl[0];
+           }
+        }
+        if ((typeof curl == "string") && (curl.match(/^http/))){
+           url = curl;
+        }else if (curl !==""){
+           url = baike(curl);
+        }
+     }     
+     return url;
+  }
 
   function loclink(pid,date,usechinese,header,extra){
      pid = pid.trim().toLowerCase();
