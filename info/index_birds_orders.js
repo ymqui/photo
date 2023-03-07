@@ -492,7 +492,7 @@
   var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
   
   //info format: ["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]
-  //info[1] can be "5/2022","S111311543","", or optional. If date string is not provided, the date string will be constructed from the file name.
+  //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If date string mon/year is not provided, the date string will be constructed from the file name.
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
