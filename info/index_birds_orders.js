@@ -798,15 +798,13 @@
   function nps(pid,isfws,name){
      if (typeof isfws === 'undefined'){
         return "https://www.nps.gov/"+pid+"/";
-     }else if(typeof isfws == "string"){
-        return "<a href='https://www.nps.gov/"+pid+"/"+lnksty+" target='"+pid+"'>"+isfws+"</a>";
-     }else{
-        if (typeof name === 'undefined'){
-           return "https://www.fws.gov/refuge/"+pid+"/";
-        }else{
-           return "<a href='https://www.fws.gov/refuge/"+pid+"/"+lnksty+" target='"+pid+"'>"+name+"</a>";
-        }
      }
+     if (typeof isfws === "string"){name = isfws;}
+     if (typeof name === 'undefined'){
+        return "https://www.fws.gov/refuge/"+pid+"/";
+     }
+     var tmp = strsplit(name);
+     return "<a href='https://www.fws.gov/refuge/"+pid+"/"+lnksty+" target='"+pid+"'>"+tmp[0]+"</a>"+tmp[1];
   }
 
   function wiki(id,name){
