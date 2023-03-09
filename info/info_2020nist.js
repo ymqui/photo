@@ -576,7 +576,7 @@ function initAlbum(){
     this[1][i++]  = (["Snack time","吃零食"])[cn_ind];
     this[0][i]    = ["20230303_4","20230303_5"];
     this[1][i++]  = (["Visiting Remy's Mom's lab to learn about fire","参观Remy妈妈的实验室来了解什么是火"])[cn_ind];
-    this[0][i]    = ["20230308_1,20230308_2,20230308_3"];
+    this[0][i]    = ["20230308_1","20230308_2","20230308_3"];
     this[1][i++]  = (["Reptiles show","爬行动物展示"])[cn_ind];
 
     adddate(this);
