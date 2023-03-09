@@ -496,13 +496,13 @@
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
-     this.lifer    = new Date("20"+liferdate+":00"); 
+     this.lifer    = new Date("20"+liferdate+":00");
+     this.newbird = (modTim<=this.lifer.getTime());
      this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
      this.name     = name.trim();
      this.name1    = reform(this.name);
      this.cname    = cname.trim();
      this.pinyin   = getpinyin(this.cname);
-     this.newbird  = false;
      this.latin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
      this.genus    = (latin.trim()).substring(0,this.latin.indexOf(' '));
      this.info     = [];
@@ -515,7 +515,6 @@
      if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
      
      //check if this bird needs to be added to modBrd
-     this.newbird = (modTim<=this.lifer.getTime());
      var tmp_date,add_mod = false;  
      if (!this.newbird){
         for (var i=0;i<this.photo.length;i++){
