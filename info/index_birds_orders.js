@@ -489,7 +489,7 @@
                  "蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];     
   var lnksty  = "' style='color: #3399FF; text-decoration: underline;'"; 
   var fam_ln  = 8;						//family length
-  var order   = ((window.location.search.substring(1)).match(/&order|^order/i)!=null);
+  var order   = (/&order|^order/i).test(window.location.search.substring(1));
   
   //info format: ["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]
   //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If date string mon/year is not provided, the date string will be constructed from the file name.
