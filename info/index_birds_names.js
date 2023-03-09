@@ -935,13 +935,13 @@
   birds[j++] = new Bird("23-01-27T12:20","THRAUPID","Flame-rumped Tanager","火腰厚嘴唐纳雀","Ramphocelus flammigerus",p_id("2301pabird",139),["papuru","S127054013","Female, lemon-rumped","雌性，柠檬腰型"],"flrtan1");
   birds[j++] = new Bird("18-12-05T06:57","THRAUPID","Scarlet-rumped Tanager","红腰厚嘴唐纳雀","Ramphocelus passerinii",p_id("1812crbirding",51),["crarol","Male"],"pastan1");
   birds[j++] = new Bird("23-01-25T09:33","THRAUPID","Crimson-backed Tanager","绯背厚嘴唐纳雀","Ramphocelus dimidiatus",p_id("2301pabird",[105,124]),["pametr","S126933504","Male","pametr","S126960214","Female"],"crbtan1");
-  birds[j++] = new Bird("18-12-06T13:54","THRAUPID","Variable Seedeater","黑食籽雀","Sporophila corvina",p_id("1812crbirding",[82,81]).concat(p_id("2301pabird",134)),["crarol","Male","crarol","Female","papuru","S127054013","Male"],"varsee3","杂色食籽雀");
+  birds[j++] = new Bird("18-12-06T13:54","THRAUPID","Variable Seedeater","黑食籽雀","Sporophila corvina",p_id("1812crbirding",[82,81]).concat(p_id("2301pabird",134)),["crarol","Male","crarol","Female","papuru","S127054013","Male"],"varsee3",10785);
   birds[j++] = new Bird("15-01-07T07:12","THRAUPID","Saffron Finch","橙黄雀鹀","Sicalis flaveola",p_id("1501prbirding",[34,55]),["prsanj","prsanj","Juvenile"],"saffin");
   birds[j++] = new Bird("19-05-12T11:07","THRAUPID","Cinnamon-bellied Flowerpiercer","灰腹刺花鸟","Diglossa baritula",p_id("1905mxbird",18),["mxunam","Female"],"cibflo1",10669);
   birds[j++] = new Bird("18-12-04T09:09","THRAUPID","Blue-gray Tanager","灰蓝裸鼻雀","Thraupis episcopus",[p_id("1812crbirding",34),p_id("2301pabird",78)],["crarol","pacasc","S126834645"],"bugtan");
   birds[j++] = new Bird("18-12-04T07:00","THRAUPID","Palm Tanager","棕榈裸鼻雀","Thraupis palmarum",[p_id("2301pabird",132),p_id("1812crbirding",28)],["pacasc","S126981122","crarol"],"paltan1");
   birds[j++] = new Bird("18-12-03T16:02","THRAUPID","Golden-hooded Tanager","金头靓唐纳雀","Stilpnia larvata",p_id("1812crbirding",16),["crarol"],"gohtan1",10620);
-  birds[j++] = new Bird("18-12-05T13:58","THRAUPID","Bay-headed Tanager","栗头靓唐纳雀","Tangara gyrola",p_id("1812crbirding",65),["crarol"],"bahtan1",10607);
-  birds[j++] = new Bird("18-12-03T15:50","THRAUPID","Emerald Tanager","翠绿靓唐纳雀","Tangara florida",p_id("1812crbirding",15),["crarol"],"emetan1",10596);
-  birds[j++] = new Bird("23-01-26T09:49","THRAUPID","Plain-colored Tanager","纯色靓唐纳雀","Tangara inornata",p_id("2301pabird",126),["pametr","S126960214"],"plctan1",10584);
+  birds[j++] = new Bird("18-12-05T13:58","THRAUPID","Bay-headed Tanager","栗头靓唐纳雀","Tangara gyrola",p_id("1812crbirding",65),["crarol"],"bahtan1","栗头唐加拉雀");
+  birds[j++] = new Bird("18-12-03T15:50","THRAUPID","Emerald Tanager","翠绿靓唐纳雀","Tangara florida",p_id("1812crbirding",15),["crarol"],"emetan1","翠绿唐加拉雀");
+  birds[j++] = new Bird("23-01-26T09:49","THRAUPID","Plain-colored Tanager","纯色靓唐纳雀","Tangara inornata",p_id("2301pabird",126),["pametr","S126960214"],"plctan1","纯色唐加拉雀");
 //-->
