@@ -108,9 +108,7 @@ for(var i=0;i<vars.length;i++) {
            break;
       case "name":
            bname = decodeURIComponent(pair[1]);
-           if(!(bname.match(/[\u3400-\u9FFF]/))){
-              bname = bname.toLowerCase();
-           }
+           if(!(/[\u3400-\u9FFF]/.test(bname))){bname = bname.toLowerCase();}
            q_name = "&amp;"+vars[i];
            break;
       case "hanzi":
