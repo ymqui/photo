@@ -13,7 +13,7 @@
      this.name   = name;
      this.cname  = cname;
      this.desc   = desc;
-     this.cdesc  = cdesc; 
+     this.cdesc  = cdesc;
      this.family = family;
   }
 
@@ -21,12 +21,12 @@
      this.name   = name;
      this.cname  = cname;
      this.desc   = desc;
-     this.cdesc  = cdesc; 
+     this.cdesc  = cdesc;
   }
 	
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
 
-  var orders = [];         
+  var orders = [];
   var i = 0;
 
   var family  = [];
@@ -475,7 +475,7 @@
       鸭:"ya1",色:"se4",鹱:"hu4",蹼:"pu3",鸥:"ou1",喜:"xi3",埃:"ai1",雅:"ya3",伊:"yi1", 眉:"mei2",主:"zhu3",多:"duo1",刀:"dao1",翅:"chi4",嘴:"zui3",鹊:"que4",氏:"shi4",雪:"xue3",垂:"chui2",鸯:"yang1",鹳:"guan4",鸳:"yuan1",王:"wang2",鹇:"xian2",鲣:"jian1",橙:"cheng2",
       乌:"wu1",披:"pi1",栗:"li4",亚:"ya4",安:"an1",鱼:"yu2",榈:"lv2",鹂:"li2",蜜:"mi4", 番:"fan1",桂:"gui4",买:"mai3",䴓:"shi1",森:"sen1",瓣:"ban4",隼:"sun3",矛:"mao2",眼:"yan3",雕:"diao1",锥:"zhui1",顶:"ding3",鹟:"weng1",鸫:"dong1",秧:"yang1",鸣:"ming2",胸:"xiong1", 
       腹:"fu4",巴:"ba1",比:"bi3",库:"ku4",极:"ji2",科:"ke1",歌:"ge1",拟:"ni3",虎:"hu3", 头:"tou2",颊:"jia2",油:"you2",走:"zou3",鼠:"shu3",喙:"hui4",画:"hua4",鬼:"gui3",辉:"hui1",啄:"zhuo2",丑:"chou3",笑:"xiao4",原:"yuan2",风:"feng1",颈:"jing3",僧:"seng1",黄:"huang2",靓:"liang4",
-      䴘:"ti1",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",五:"wu2", 绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",榄:"lan3",蟹:"xie4",豆:"dou4",麝:"she4",扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",亨:"heng1",中:"zhong1",蝗:"huang2",   
+      䴘:"ti1",日:"ri4",须:"xu1",第:"di4",棘:"ji2",杂:"za2",澳:"ao4",翼:"yi4",五:"wu2", 绯:"fei1",臀:"tun2",蚊:"wen2",智:"zhi4",橄:"gan3",榄:"lan3",蟹:"xie4",豆:"dou4",麝:"she4",扇:"shan4",天:"tian1",点:"dian3",硬:"ying4",刚:"gang1",鹑:"chun2",亨:"heng1",中:"zhong1",蝗:"huang2",
       几:"ji3",壁:"bi4",帝:"di4",锡:"xi1",叭:"ba1",喇:"la3",法:"fa3",蟆:"ma2",部:"bu4", 薮:"sou3",奎:"kui2",滑:"hua2",背:"bei4",穴:"xue2",流:"liu2",美:"mei3",鳞:"lin2",楔:"xie1",膀:"bang3",枕:"zhen3",肩:"jian1",鹮:"huan2",猩:"xing1",舰:"jian4",旋:"xuan2",响:"xiang3",煌:"huang2",
       伍:"wu3",思:"si1",距:"ju4",舞:"wu3",蒂:"di4",䳭:"ji2",那:"na4",沃:"wo4",蛙:"wa1", 酋:"qiu2",莱:"lai2",䴕:"lie4",瑰:"gui1",泰:"tai4",坦:"tan3",沟:"gou1",鸺:"xiu1",草:"cao3",锤:"chui2",远:"yuan3",翁:"weng1",冬:"dong1",蝇:"ying2",卷:"juan3",鞘:"qiao4",塚:"zhong3",光:"guang1",
       纳:"na4",蚁:"yi3",菊:"ju2",墨:"mo2",和:"he2",米:"mi3",髭:"zi1",哈:"ha1",斑:"ban1",蓝:"lan2",军:"jun1",尾:"wei3",银:"yin2",雀:"que4",琴:"qin2",宝:"bao3",暴:"bao4",赭:"zhe3",红:"hong2",啸:"xiao4",洋:"yang2",仓:"cang1",莺:"ying1",凤:"feng4",鹃:"juan1",钟:"zhong1",椋:"liang2",
@@ -486,8 +486,8 @@
                  "molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","breeding males*","breeding females*","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*",
                  "nonbreeding females*","nonbreeding males*","(partially)* *leucistic","mating display","nest","light morph","dark morph"];
   var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性",
-                 "蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];     
-  var lnksty  = "' style='color: #3399FF; text-decoration: underline;'"; 
+                 "蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];
+  var lnksty  = "' style='color: #3399FF; text-decoration: underline;'";
   var fam_ln  = 8;						//family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   
@@ -497,8 +497,8 @@
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
      this.lifer    = new Date("20"+liferdate+":00");
-     this.newbird = (modTim<=this.lifer.getTime());
-     this.family   = family.trim().slice(0,fam_ln).toUpperCase(); 
+     this.newbird  = (modTim<=this.lifer.getTime());
+     this.family   = family.trim().slice(0,fam_ln).toUpperCase();
      this.name     = name.trim();
      this.name1    = reform(this.name);
      this.cname    = cname.trim();
@@ -513,9 +513,9 @@
      pic_cnts      = pic_cnts+this.photo.length;
      var tmp_match = photo.join().match(/_dig/gi);
      if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
-     
+
      //check if this bird needs to be added to modBrd
-     var tmp_date,add_mod = false;  
+     var tmp_date,add_mod = false;
      if (!this.newbird){
         for (var i=0;i<this.photo.length;i++){
             tmp_date = getdate(this.photo[i],true);
@@ -534,7 +534,7 @@
 
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
-        this.info  = tmp_info.info; 
+        this.info  = tmp_info.info;
         this.cinfo = tmp_info.cinfo;
         this.locs  = tmp_info.locs;
      }else{
@@ -589,7 +589,7 @@
      for (var i=0;i<birds.length;i++){
          if (birds[i].name1 == id) return true;
      }
-     return false; 
+     return false;
   }
 
   function b_link(bid,info){
@@ -616,12 +616,12 @@
            }
         })
      }
-  } 
+  }
 
   function getByFamily(id, myArray) {
      var tmpid = id.slice(0,fam_ln);
      return myArray.filter(function(obj) {if(obj.family == tmpid) { return obj; }});
-  } 
+  }
 
   function getByLiferYear(year, myArray){
      return myArray.filter(function(obj) {if(obj.lifer.getFullYear() == year) { return obj; }});
@@ -643,7 +643,7 @@
            }
         })
      }
-  } 
+  }
 
   function getByHanzi(id, myArray){
      if (/[\u3400-\u9FBF]/.test(id)){
@@ -651,13 +651,13 @@
             if(obj.cname.indexOf(id)!=-1) { return obj; }
         })
      }
-  } 
+  }
 
   function getByLocs(id, myArray){
      return myArray.filter(function(obj) {
         if(obj.locs.indexOf(id) != -1) { return obj; }
      })
-  } 
+  }
 
   function getdate(path,returndate){
      var date = "",year = "",mon = "",name;
@@ -668,7 +668,7 @@
      }
      var pos = name.search(/20[0-9]{4,}/);
      if (pos == -1){
-        if(typeof returndate !== 'undefined'){return;} 
+        if(typeof returndate !== 'undefined'){return;}
         pos = name.search(/[0-9]{4,}/);
         if (pos >= 0){
            year = name.substring(pos+0,pos+2);
@@ -682,7 +682,7 @@
            if (isNaN(day.parseInt)){day=0;}
            mon = parseInt(mon)-1;
            return new Date(year,mon,day);
-        } 
+        }
      }
      if (mon.substring(0,1) == "0"){mon = mon.substring(1,2);}
      if (year.length == 2){year = "20"+year;}
@@ -714,13 +714,13 @@
         }
      }
      if (window.usechinese){
-        if (a.pinyin < b.pinyin ){ 
+        if (a.pinyin < b.pinyin ){
            return  -1;
         }else if(a.pinyin > b.pinyin){
            return  1;
         }
      }else{
-        if (a.name < b.name ){ 
+        if (a.name < b.name ){
            return  -1;
         }else if(a.name > b.name){
            return  1;
@@ -753,7 +753,7 @@
            if(typeof afterin !== 'undefined'){tmp1=afterin;}
            if(typeof afterout !== 'undefined'){tmp2=afterout;}
            return before+"<a href='https://baike.baidu.com/item/"+name+lnksty+" target='"+name+"'>"+name+tmp1+"</a>"+tmp2;
-        }    
+        }
      }else{
         return "https://dongniao.net/nd/"+name.toString();
      }
@@ -778,7 +778,7 @@
 
   function gmap(name,latt,long){
      var tmp = strsplit(name);
-     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
+     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
         return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],'+')+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
      }else{
         return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
@@ -787,7 +787,7 @@
 
   //https://lbsyun.baidu.com/index.php?title=uri/api or with offset [latt,long]+[0.0057,0.0064]
   function bmap(name,latt,long){
-     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){   
+     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
         return name;
      }else{
         return "<a href='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02&title="+name+lnksty+" target='bmap'>"+name+"</a>";
@@ -817,7 +817,7 @@
   }
 
   function reform(name,space,apostrophe,notlowercase){
-     if (typeof space === 'undefined')	    {var space = '_';}
+     if (typeof space === 'undefined') {var space = '_';}
      if (typeof apostrophe === 'undefined') {var apostrophe = '';}
      var tmp = name.replace(/ |\+/g,space);
      tmp = tmp.replace(/'/g,apostrophe);
@@ -850,12 +850,11 @@
                      info.splice(indx,0,"","");
                      indx = indx+2;
                      break;
-                     
             }
-            prev = indx;  
+            prev = indx;
          }else if((indx==prev+1)&&(info[indx].length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(info[indx]))){
             info.splice(indx,0,"");
-         } 
+         }
          indx++;
      }
      var tmp_info  = [];
@@ -866,10 +865,10 @@
          if (typeof info[1+6*i]==='undefined'){info.splice(1+6*i,0,"");}
          info[1+6*i] = info[1+6*i].trim();
          tmp1 = '',tmp2 = '';
-         tmp3 = info[1+6*i].lastIndexOf(','); 
+         tmp3 = info[1+6*i].lastIndexOf(',');
          if (tmp3>=0){
             tmp2 = info[1+6*i].substr(tmp3+1);
-            tmp1 = info[1+6*i].substr(0,tmp3); 
+            tmp1 = info[1+6*i].substr(0,tmp3);
          }else{
             if (/[0-9]{1,2}\/[0-9]{4}/.test(info[1+6*i])){
                tmp1 = info[1+6*i];
@@ -880,7 +879,7 @@
          if (tmp1.length==0){tmp1=getdate(photo[i]);}
          if (tmp2.length>0){
             if (ebirdlist.indexOf(tmp2)===-1){ebirdlist.push(tmp2);}
-            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp2+lnksty+" target='"+tmp2+"'>"+tmp1+"</a>";  
+            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp2+lnksty+" target='"+tmp2+"'>"+tmp1+"</a>";
          }else{
             info[1+6*i] = tmp1;
          }
@@ -889,7 +888,7 @@
             if (info[3+6*i].trim().length==0){
                var tmp = info[2+6*i].trim();
                for (var j=0;j<pt_eng.length;j++){
-                   var rexp = new RegExp("^"+pt_eng[j],"i");        
+                   var rexp = new RegExp("^"+pt_eng[j],"i");
                    if (rexp.test(tmp)){
                       info[3+6*i] = pt_chn[j];
                       break;
@@ -898,15 +897,15 @@
             }
          }
          tmp_locs[i]  = info[6*i];
-         tmp_info[i]  = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]); 
+         tmp_info[i]  = loclink(info[6*i],info[1+6*i],false,info[2+6*i],info[4+6*i]);
          tmp_cinfo[i] = loclink(info[6*i],info[1+6*i],true,info[3+6*i],info[5+6*i]);
      }
      return {info:tmp_info,cinfo:tmp_cinfo,locs:tmp_locs};
-  } 
+  }
 
   function reform_url(name,cname,ebid,curl){
      var url = "";
-     if (typeof ebid == 'undefined'){ 
+     if (typeof ebid == 'undefined'){
         ebid = "";
      }else if ((typeof ebid !== 'string') || (/[\u3400-\u9FBF]/.test(ebid)) ){
         curl = ebid;
@@ -918,9 +917,9 @@
         url = cornellurl(name);
      }
      if (window.usechinese){
-        if (typeof curl == 'undefined'){curl = cname;} 
+        if (typeof curl == 'undefined'){curl = cname;}
         if (curl !== ""){url = baike(curl);}
-     }     
+     }
      return url;
   }
 
@@ -934,7 +933,7 @@
         loc_cnts[pid]++;
      }
      if (typeof date === 'undefined') {var date  = "";}
-     if (typeof header === 'undefined') {header = "";} 
+     if (typeof header === 'undefined') {header = "";}
      if (header.length>0) {header = header+comma;}
      if (typeof extra === 'undefined') {var extra = "";}
      if (typeof lurls[pid] === 'undefined') {return header+extra+date;}
