@@ -788,9 +788,9 @@
      var prev = 0;
      while(indx<info.length){
          if (typeof lurls[info[indx]] !== 'undefined'){
-            for (var i=0;i<6-(indx-prev);i++){info.splice(indx,0,"");}
-            indx = prev+6;
-            prev = indx;
+            prev = prev+6;
+            for (var i=0;i<prev-indx;i++){info.splice(indx,0,"");}
+            indx = prev;
          }else if((indx==prev+1)&&(info[indx].length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(info[indx]))){
             info.splice(indx,0,"");
          }
