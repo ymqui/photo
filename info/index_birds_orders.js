@@ -788,24 +788,8 @@
      var prev = 0;
      while(indx<info.length){
          if (typeof lurls[info[indx]] !== 'undefined'){
-            switch(indx-prev){
-                case 1:
-                     info.splice(indx,0,"","","","","");
-                     indx = indx+5;
-                     break;
-		case 2:
-                     info.splice(indx,0,"","","","");
-                     indx = indx+4;
-                     break;
-                case 3:
-                     info.splice(indx,0,"","","");
-                     indx = indx+3;
-                     break;
-                case 4:
-                     info.splice(indx,0,"","");
-                     indx = indx+2;
-                     break;
-            }
+            for (var i=0;i<6-(indx-prev);i++){info.splice(indx,0,"");}
+            indx = prev+6;
             prev = indx;
          }else if((indx==prev+1)&&(info[indx].length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(info[indx]))){
             info.splice(indx,0,"");
