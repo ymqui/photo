@@ -1,6 +1,6 @@
 <!--
   //date
-  var modDat = new Date("2023-02-04T08:00");
+  var modDat = new Date("2023-03-12T08:00");
 
   //location urls
   var lurls = {arb:["","","",""],
@@ -410,7 +410,7 @@
   birds[j++] = new Bird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("20230311_016"),p_id("1412mckee-beshers",33)],["mdredg","S130689889","mdmwma","11/2014","Juvenile"]);
   birds[j++] = new Bird("21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",m_id(["20210113_008","20210113_009"]),["vavava","Light morph, "+gmap("Prince William County Landfill",38.6376,-77.4209),"","","威廉王子郡垃圾填埋场"]);
   birds[j++] = new Bird("16-06-25T11:19","TYTONIDA","Barn Owl","美洲仓鸮","Tyto furcata",m_id("20160625_083"),["nyjbwr"],2352);
-//birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",m_id(""),["papapa","",nps("John_Heinz",true,"John Heinz National Wildlife Refuge, Philadelphia"),"","","费城"+nps("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
+  birds[j++] = new Bird("23-03-12T10:24","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",m_id("20230312_019"),["papapa","S130760758",nps("John_Heinz",true,"John Heinz National Wildlife Refuge, Philadelphia"),"","","费城"+nps("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
   birds[j++] = new Bird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",[p_id("1606florida",8),p_id("2208azbird",70),p_id("2208azbird",71)],["flflfl",gmap("Brian Piccolo Park, Fort Lauderdale",26.033,-80.2725),"","","劳德代尔堡布莱恩皮克罗公园","azazaz","S116681599",hotspot("L387263","Scottsdale Community College, Scottsdale"),"","","斯科茨代尔市社区大学"]);
   birds[j++] = new Bird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",m_id("20210115_012"),["vavava",gmap("State Arboretum of Virginia",39.0639,-78.0655),"","","州立植物园"]);
   birds[j++] = new Bird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id("20210228_026"),["mdmdmd",gmap("Izaak Walton Way, Montgomery County",39.0935,-77.4266),"","","蒙哥马利郡艾萨克沃尔顿路"]);
