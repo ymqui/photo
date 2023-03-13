@@ -25,6 +25,7 @@
   }
 	
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
+  //chinese names https://dongniao.net/taxonomy.html
 
   var orders  = [], i = 0;
   var family  = [], j = 0;
@@ -37,8 +38,8 @@
   orders[i++] = new myOrder("RHEIFORMES","美洲鸵鸟目","Rheas","美洲鸵鸟",family);
 
   j=0, family = [];
-  family[j++] = new myFamily("APTERYGIDAE","鹬鸵科","Kiwis","鹬鸵");
-  orders[i++] = new myOrder("APTERYGIFORMES","鹬鸵目","Kiwis","鹬鸵",family);
+  family[j++] = new myFamily("APTERYGIDAE","鹬鸵科","Kiwis","几维鸟");
+  orders[i++] = new myOrder("APTERYGIFORMES","鹬鸵目","Kiwis","几维鸟",family);
 
   j=0, family = [];
   family[j++] = new myFamily("CASUARIIDAE","鹤鸵科","Cassowaries and Emus","鹤鸵和鸸鹋");
@@ -50,16 +51,16 @@
 
   j=0, family = [];
   family[j++] = new myFamily("ANHIMIDAE","叫鸭科","Screamers","叫鸭");
-  family[j++] = new myFamily("ANSERANATIDAE","鹊雁科","Magpie-Goose","鹊雁");
+  family[j++] = new myFamily("ANSERANATIDAE","鹊雁科","Magpie Goose","鹊雁");
   family[j++] = new myFamily("ANATIDAE","鸭科","Ducks, Geese, and Swans","鸭，雁和天鹅");
   orders[i++] = new myOrder("ANSERIFORMES","雁形目","Ducks, Geese, and Swans","鸭，雁和天鹅",family);
 
   j=0, family = [];
   family[j++] = new myFamily("MEGAPODIIDAE","塚雉科","Megapodes","塚雉");
-  family[j++] = new myFamily("CRACIDAE","凤冠雉科","Chachalacas, Curassows and Guans","小冠雉，凤冠雉和冠雉");
+  family[j++] = new myFamily("CRACIDAE","凤冠雉科","Chachalacas, Curassows, and Guans","小冠雉，凤冠雉和冠雉");
   family[j++] = new myFamily("NUMIDIDAE","珠鸡科","Guineafowl","珠鸡");
   family[j++] = new myFamily("ODONTOPHORIDAE","齿鹑科","New World Quail","美洲鹑");
-  family[j++] = new myFamily("PHASIANIDAE","雉科","Partridges, Grouse, Turkeys and Old World Quail","山鹑，松鸡，火鸡和旧大陆的鹑");
+  family[j++] = new myFamily("PHASIANIDAE","雉科","Pheasants and Allies","雉鸡，松鸡，火鸡和旧大陆的鹑");
   orders[i++] = new myOrder("GALLIFORMES","鸡形目","Grouse, Quail, and Allies","鸡，鹑和雉等",family);
 
   j=0, family = [];
@@ -75,8 +76,8 @@
   orders[i++] = new myOrder("NYCTIBIIFORMES","林鸮目","Potoos","林鸮",family);
 
   j=0, family = [];
-  family[j++] = new myFamily("PODARGIDAE","蟆口鸱科","Frogmouths","蟆口鸱");
-  orders[i++] = new myOrder("PODARGIFORMES","蟆口鸱目","Frogmouths","蟆口鸱",family);
+  family[j++] = new myFamily("PODARGIDAE","蛙口夜鹰科","Frogmouths","蛙口夜鹰");
+  orders[i++] = new myOrder("PODARGIFORMES","蛙口夜鹰目","Frogmouths","蛙口夜鹰",family);
 
   j=0, family = [];
   family[j++] = new myFamily("AEGOTHELIDAE","裸鼻鸱科","Owlet-nightjars","裸鼻鸱");
@@ -116,7 +117,7 @@
   family[j++] = new myFamily("HELIORNITHIDAE","日鷉科","Finfoots","鳍趾鷉");
   family[j++] = new myFamily("SAROTHRURIDAE","侏秧鸡科","Flufftails","侏秧鸡");
   family[j++] = new myFamily("RALLIDAE","秧鸡科","Rails, Gallinules, and Coots","秧鸡，水鸡和骨顶鸡");
-  family[j++] = new myFamily("PSOPHIIDAE","喇叭鸟科","Trumpeters","喇叭鸟");
+  family[j++] = new myFamily("PSOPHIIDAE","喇叭鸟科","Trumpeters","喇叭声鹤");
   family[j++] = new myFamily("GRUIDAE","鹤科","Cranes","鹤");
   family[j++] = new myFamily("ARAMIDAE","秧鹤科","Limpkins","秧鹤");
   orders[i++] = new myOrder("GRUIFORMES","鹤形目","Cranes and Rails","鹤和秧鸡等",family);
@@ -130,7 +131,7 @@
   orders[i++] = new myOrder("PHOENICOPTERIFORMES","火烈鸟目","Flamingos","火烈鸟",family);
 
   j=0, family = [];
-  family[j++] = new myFamily("TURNICIDAE","三趾鹑科","Buttonquail","三趾鹑科");
+  family[j++] = new myFamily("TURNICIDAE","三趾鹑科","Buttonquail","三趾鹑");
   family[j++] = new myFamily("BURHINIDAE","石鸻科","Thick-knees","石鸻");
   family[j++] = new myFamily("CHIONIDAE","鞘嘴鸥科","Sheathbills","鞘嘴鸥");
   family[j++] = new myFamily("PLUVIANELLIDAE","短腿鸻科","Magellanic Plover","短腿鸻");
@@ -143,7 +144,7 @@
   family[j++] = new myFamily("JACANIDAE","水雉科","Jacanas","水雉");
   family[j++] = new myFamily("PEDIONOMIDAE","领鹑科","Plains-wanderer","领鹑");
   family[j++] = new myFamily("THINOCORIDAE","籽鹬科","Seedsnipes","籽鹬");
-  family[j++] = new myFamily("SCOLOPACIDAE","鹬科","Sandpipers, Phalaropes, and Allies","矶鹬和瓣蹼鹬等");
+  family[j++] = new myFamily("SCOLOPACIDAE","鹬科","Sandpipers, Phalaropes, and Allies","鹬，矶鹬和瓣蹼鹬等");
   family[j++] = new myFamily("DROMADIDAE","蟹鸻科","Crab Plover","蟹鸻");
   family[j++] = new myFamily("GLAREOLIDAE","燕鸻科","Coursers and Pratincoles","走鸻和燕鸻");
   family[j++] = new myFamily("LARIDAE","鸥科","Gulls, Terns, and Skimmers","鸥，燕鸥和剪嘴鸥");
@@ -171,8 +172,8 @@
   j=0, family = [];
   family[j++] = new myFamily("OCEANITIDAE","洋海燕科","Austral Storm Petrels","澳洲海燕");
   family[j++] = new myFamily("DIOMEDEIDAE","信天翁科","Albatrosses","信天翁");
-  family[j++] = new myFamily("HYDROBATIDAE","海燕科","Storm-Petrels","小海燕");
-  family[j++] = new myFamily("PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱和海燕");
+  family[j++] = new myFamily("HYDROBATIDAE","海燕科","Storm-Petrels","海燕");
+  family[j++] = new myFamily("PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱");
   orders[i++] = new myOrder("PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",family);
 
   j=0, family = [];
@@ -187,7 +188,7 @@
   orders[i++] = new myOrder("SULIFORMES","鲣鸟目","Frigatebirds, Boobies, Cormorants, Darters, and Allies","军舰鸟，鲣鸟，鸬鹚和蛇鹈等",family);
 
   j=0, family = [];
-  family[j++] = new myFamily("THRESKIORNITHIDAE","鹮科","Ibises and Spoonbills","朱鹭和琵鹭");
+  family[j++] = new myFamily("THRESKIORNITHIDAE","鹮科","Ibises and Spoonbills","鹮和琵鹭");
   family[j++] = new myFamily("ARDEIDAE","鹭科","Bitterns, Herons, and Allies","鹭和麻鳽");
   family[j++] = new myFamily("SCOPIDAE","锤头鹳科","Hamerkop","锤头鹳");
   family[j++] = new myFamily("BALAENICIPITIDAE","鲸头鹳科","Shoebill","鲸头鹳");
@@ -206,7 +207,7 @@
   orders[i++] = new myOrder("ACCIPITRIFORMES","鹰形目","Hawks, Kites, Eagles, and Allies","鹰，鹗和鹫等",family);
 
   j=0, family = [];
-  family[j++] = new myFamily("TYTONIDAE","草鸮科","Barn Owls","仓鸮");
+  family[j++] = new myFamily("TYTONIDAE","仓鸮科","Barn Owls","仓鸮");
   family[j++] = new myFamily("STRIGIDAE","鸱鸮科","Typical Owls","鸮");
   orders[i++] = new myOrder("STRIGIFORMES","鸮形目","Owls","鸮",family);
 
@@ -262,20 +263,20 @@
   family[j++] = new myFamily("STRIGOPIDAE","鸮鹦鹉科","New Zealand Parrots","新西兰鹦鹉");
   family[j++] = new myFamily("CACATUIDAE","凤头鹦鹉科","Cockatoos","凤头鹦鹉");
   family[j++] = new myFamily("PSITTACIDAE","鹦鹉科","African and American Parrots","非洲和美洲鹦鹉");
-  family[j++] = new myFamily("PSITTACULIDAE","旧大陆鹦鹉科","Old World Parrots","旧大陆鹦鹉");
+  family[j++] = new myFamily("PSITTACULIDAE","长尾鹦鹉科","Old World Parrots","旧大陆鹦鹉");
   orders[i++] = new myOrder("PSITTACIFORMES","鹦形目","Parrots and Allies","鹦鹉",family);
 
   j=0, family = [];
   family[j++] = new myFamily("ACANTHISITTIDAE","刺鹩科","New Zealand Wrens","刺鹩");
-  family[j++] = new myFamily("SAPAYOIDAE","阔嘴鸟科","Sapayoa","阔嘴霸鹟");
+  family[j++] = new myFamily("SAPAYOIDAE","阔嘴霸鹟科","Sapayoa","阔嘴霸鹟");
   family[j++] = new myFamily("PHILEPITTIDAE","裸眉鸫科","Asities","裸眉鸫");
   family[j++] = new myFamily("EURYLAIMIDAE","阔嘴鸟科","Broadbills","阔嘴鸟");
   family[j++] = new myFamily("CALYPTOMENIDAE","绿阔嘴鸟","African & Green Broadbills","绿阔嘴鸟");
   family[j++] = new myFamily("PITTIDAE","八色鸫科","Pittas","八色鸫");
   family[j++] = new myFamily("FURNARIIDAE","灶鸟科","Ovenbirds","灶鸟");
   family[j++] = new myFamily("THAMNOPHILIDAE","蚁鸟科","Antbirds","蚁鸟");
-  family[j++] = new myFamily("FORMICARIIDAE","蚁鸫科","Ant-thrushes","蚁鸫");
-  family[j++] = new myFamily("GRALLARIIDAE","蚁八色鸫科","Ant-pittas","蚁鸫");
+  family[j++] = new myFamily("FORMICARIIDAE","蚁鸫科","Antthrushes","蚁鸫");
+  family[j++] = new myFamily("GRALLARIIDAE","蚁八色鸫科","Antpittas","蚁鸫");
   family[j++] = new myFamily("CONOPOPHAGIDAE","食蚊鸟科","Gnateaters","食蚊鸟");
   family[j++] = new myFamily("RHINOCRYPTIDAE","窜鸟科","Tapaculos","窜鸟");
   family[j++] = new myFamily("MELANOPAREIIDAE","月胸窜鸟科","Crescent-chests","月胸窜鸟");
@@ -290,17 +291,17 @@
   family[j++] = new myFamily("MALURIDAE","细尾鹩莺科","Australasian Wrens","细尾鹩莺");
   family[j++] = new myFamily("MELIPHAGIDAE","吸蜜鸟科","Honeyeaters","吸蜜鸟");
   family[j++] = new myFamily("DASYORNITHIDAE","刺莺科","Bristlebirds","刺莺");
-  family[j++] = new myFamily("PARDALOTIDAE","斑食蜜鸟科","Gerygones and allies","食蜜鸟");
+  family[j++] = new myFamily("PARDALOTIDAE","斑食蜜鸟科","Pardalotes","斑食蜜鸟");
   family[j++] = new myFamily("ACANTHIZIDAE","细嘴莺科","Australasian Warblers","细嘴莺");
   family[j++] = new myFamily("POMATOSTOMIDAE","弯嘴鹛科","Australasian Babblers","弯嘴鹛");
   family[j++] = new myFamily("ORTHONYCHIDAE","刺尾鸫科","Logrunners","刺尾鸫");
   family[j++] = new myFamily("CNEMOPHILIDAE","冠极乐鸟科","Satinbirds","极乐鸟");
   family[j++] = new myFamily("MELANOCHARITIDAE","啄果鸟科","Berrypeckers and Longbills","啄果鸟和弯嘴吸蜜鸟");
-  family[j++] = new myFamily("PARAMYTHIIDAE","冠啄果鸟科","Painted Berrypeckers","啄果鸟");
+  family[j++] = new myFamily("PARAMYTHIIDAE","冠啄果鸟科","Painted Berrypeckers","冠啄果鸟");
   family[j++] = new myFamily("CALLAEIDAE","垂耳鸦科","New Zealand Wattlebirds","垂耳鸦");
   family[j++] = new myFamily("NOTIOMYSTIDAE","缝叶吸蜜鸟科","Stitchbird","缝叶吸蜜鸟");
-  family[j++] = new myFamily("PSOPHODIDAE","啸冠鸫科","Whipbirds, Jewel-babblers and Quail-thrushes","鹑鸫和丽鸫");
-  family[j++] = new myFamily("CINCLOSOMATIDAE","啸冠鸫科","Quail-thrushes and Jewel-babblers","鹑鸫和丽鸫");
+  family[j++] = new myFamily("PSOPHODIDAE","啸冠鸫科","Whipbirds","啸冠鸫");
+  family[j++] = new myFamily("CINCLOSOMATIDAE","鹑鸫科","Quail-thrushes and Jewel-babblers","鹑鸫和丽鸫");
   family[j++] = new myFamily("PLATYSTEIRIDAE","疣眼鹟科","Wattle-eyes and Batises","疣眼鹟和蓬背鹟");
   family[j++] = new myFamily("MALACONOTIDAE","丛鵙科","Bush-shrikes and Puffbacks","丛鵙和篷背鵙");
   family[j++] = new myFamily("MACHAERIRHYNCHIDAE","船嘴鹟科","Boatbills","船嘴鹟");
@@ -309,15 +310,15 @@
   family[j++] = new myFamily("ARTAMIDAE","燕鵙科","Woodswallows and Butcherbirds","燕鵙和钟鹊");
   family[j++] = new myFamily("RHAGOLOGIDAE","斑啸鹟科","Mottled Berryhunter","斑啸鹟");
   family[j++] = new myFamily("AEGITHINIDAE","雀鹎科","Ioras","雀鹎");
-  family[j++] = new myFamily("CAMPEPHAGIDAE","山椒鸟科","Cuckooshrikes","山椒鸟");
-  family[j++] = new myFamily("MOHOUIDAE","黄头刺莺科","Whitehead & allies","刺莺");
+  family[j++] = new myFamily("CAMPEPHAGIDAE","鹃鵙科","Cuckooshrikes","鹃鵙");
+  family[j++] = new myFamily("MOHOUIDAE","黄头刺莺科","Whiteheads","刺莺");
   family[j++] = new myFamily("NEOSITTIDAE","澳鳾科","Sittellas","澳鳾");
   family[j++] = new myFamily("EULACESTOMATIDAE","肉垂鵙雀鹟科","Ploughbill","肉垂鵙雀鹟");
-  family[j++] = new myFamily("OREOICIDAE","钟鹟科","Australo-Papuan Bellbirds","钟鹟");
+  family[j++] = new myFamily("OREOICIDAE","冠钟鹟科","Australo-Papuan Bellbirds","钟鹟");
   family[j++] = new myFamily("FALCUNCULIDAE","鵙雀鹟科","Shriketit","鵙雀鹟");
   family[j++] = new myFamily("PACHYCEPHALIDAE","啸鹟科","Whistlers","啸鹟");
   family[j++] = new myFamily("LANIIDAE","伯劳科","Shrikes","伯劳");
-  family[j++] = new myFamily("VIREONIDAE","绿鹃科","Vireos","莺雀");
+  family[j++] = new myFamily("VIREONIDAE","莺雀科","Vireos","莺雀");
   family[j++] = new myFamily("ORIOLIDAE","黄鹂科","Orioles and Figbirds","黄鹂和裸眼鹂");
   family[j++] = new myFamily("DICRURIDAE","卷尾科","Drongos","卷尾");
   family[j++] = new myFamily("RHIPIDURIDAE","扇尾鹟科","Fantails","扇尾鹟");
@@ -328,7 +329,7 @@
   family[j++] = new myFamily("MELAMPITTIDAE","黑脚风鸟科","Melampitta","黑脚风鸟");
   family[j++] = new myFamily("IFRITIDAE","蓝顶鹛鸫科","Ifrit","蓝顶鹛鸫");
   family[j++] = new myFamily("PARADISAEIDAE","极乐鸟科","Birds-of-paradise","极乐鸟");
-  family[j++] = new myFamily("PETROICIDAE","鸲鹟科","Australasian Robins","澳大拉西亚鸲鹟");
+  family[j++] = new myFamily("PETROICIDAE","鸲鹟科","Australasian Robins","鸲鹟");
   family[j++] = new myFamily("PICATHARTIDAE","岩鹛科","Rockfowl","岩鹛");
   family[j++] = new myFamily("CHAETOPIDAE","岩鸫科","Rockjumpers","岩鸫");
   family[j++] = new myFamily("EUPETIDAE","长颈鸫科","Rail-babbler","长颈鸫");
@@ -338,7 +339,7 @@
   family[j++] = new myFamily("DULIDAE","棕榈䳭科","Palmchat","棕榈䳭");
   family[j++] = new myFamily("MOHOIDAE","夏威夷吸蜜鸟科","Hawaiian Honeyeaters","夏威夷吸蜜鸟");
   family[j++] = new myFamily("HYLOCITREIDAE","林啸鹟科","Hylocitrea","林啸鹟");
-  family[j++] = new myFamily("STENOSTIRIDAE","莺鹟科","Fairy Flycatchers","仙莺等");
+  family[j++] = new myFamily("STENOSTIRIDAE","仙莺科","Fairy Flycatchers","仙莺");
   family[j++] = new myFamily("PARIDAE","山雀科","Chickadees and Titmice","山雀");
   family[j++] = new myFamily("REMIZIDAE","攀雀科","Penduline-Tits","攀雀");
   family[j++] = new myFamily("NICATORIDAE","斗鹎科","Nicators","斗鹎");
@@ -346,27 +347,27 @@
   family[j++] = new myFamily("ALAUDIDAE","百灵科","Larks","百灵");
   family[j++] = new myFamily("PYCNONOTIDAE","鹎科","Bulbuls","鹎 ");
   family[j++] = new myFamily("HIRUNDINIDAE","燕科","Swallows","燕");
-  family[j++] = new myFamily("PNOEPYGIDAE","鳞胸鹪鹛科","Wren-babblers","鹪鹛");
+  family[j++] = new myFamily("PNOEPYGIDAE","鳞胸鹪鹛科","Cupwings","鹪鹛");
   family[j++] = new myFamily("MACROSPHENIDAE","长嘴莺科","Crombecs and African Warblers","森莺和长嘴莺");
   family[j++] = new myFamily("CETTIIDAE","树莺科","Cettid Warblers","树莺");
   family[j++] = new myFamily("SCOTOCERCIDAE","纹鹪莺科","Streaked Scrub Warbler","纹鹪莺");
   family[j++] = new myFamily("ERYTHROCERCIDAE","红鹟科","Yellow Flycatchers","红鹟");
-  family[j++] = new myFamily("HYLIIDAE","绿莺科","Hylias","绿莺");
+  family[j++] = new myFamily("HYLIIDAE","拟攀雀科","Hylias","拟攀雀");
   family[j++] = new myFamily("AEGITHALIDAE","长尾山雀科","Bushtits","长尾山雀");
   family[j++] = new myFamily("PHYLLOSCOPIDAE","柳莺科","Leaf Warblers","柳莺");
   family[j++] = new myFamily("ACROCEPHALIDAE","苇莺科","Reed-Warblers","苇莺");
   family[j++] = new myFamily("LOCUSTELLIDAE","蝗莺科","Grassbirds","蝗莺");
   family[j++] = new myFamily("DONACOBIIDAE","黑顶鹪鹩科","Donacobius","黑顶鹪鹩");
-  family[j++] = new myFamily("BERNIERIDAE","马岛鹎科","Malagasy Warblers","马岛鹎");
+  family[j++] = new myFamily("BERNIERIDAE","马岛鹎科","Madagascan Warblers","马岛鹎");
   family[j++] = new myFamily("CISTICOLIDAE","扇尾莺科","Cisticolas","扇尾莺");
-  family[j++] = new myFamily("SYLVIIDAE","莺科","Old World Warblers","旧大陆莺");
+  family[j++] = new myFamily("SYLVIIDAE","莺鹛科","Old World Warblers","旧大陆莺");
   family[j++] = new myFamily("PARADOXORNITHIDAE","鸦雀科","Parrotbills and allies","鸦雀");
   family[j++] = new myFamily("ZOSTEROPIDAE","绣眼鸟科","White-eyes","绣眼鸟");
-  family[j++] = new myFamily("TIMALIIDAE","画眉科","Babblers and Scimitar-Babblers","画眉");
+  family[j++] = new myFamily("TIMALIIDAE","鹛科","Babblers and Scimitar-Babblers","鹛和钩嘴鹛");
   family[j++] = new myFamily("PELLORNEIDAE","幽鹛科","Fulvettas and Ground Babblers","幽鹛");
   family[j++] = new myFamily("ALCIPPEIDAE","雀鹛科","Alcippe Fulvettas","雀鹛");
   family[j++] = new myFamily("LEIOTHRICHIDAE","噪鹛科","Laughingthrushes","噪鹛");
-  family[j++] = new myFamily("MODULATRICIDAE","纹喉䳭科","Dapplethroat and allies","纹喉䳭");
+  family[j++] = new myFamily("MODULATRICIDAE","斑喉䳭科","Dapplethroat and allies","斑喉䳭");
   family[j++] = new myFamily("PROMEROPIDAE","非洲食蜜鸟科","Sugarbirds","非洲食蜜鸟");
   family[j++] = new myFamily("IRENIDAE","和平鸟科","Fairy Bluebirds","和平鸟");
   family[j++] = new myFamily("REGULIDAE","戴菊科","Kinglets","戴菊");
@@ -387,19 +388,19 @@
   family[j++] = new myFamily("DICAEIDAE","啄花鸟科","Flowerpeckers","啄花鸟");
   family[j++] = new myFamily("NECTARINIIDAE","太阳鸟科","Sunbirds","太阳鸟");
   family[j++] = new myFamily("PASSERIDAE","雀科","Old World Sparrows","旧大陆麻雀");
-  family[j++] = new myFamily("PLOCEIDAE","织布鸟科","Weavers","织布鸟");
-  family[j++] = new myFamily("ESTRILDIDAE","梅花雀科","weaver-finches","梅花雀");
+  family[j++] = new myFamily("PLOCEIDAE","织雀科","Weavers","织雀");
+  family[j++] = new myFamily("ESTRILDIDAE","梅花雀科","Waxbills，Munias and Allies","梅花雀和文鸟等");
   family[j++] = new myFamily("VIDUIDAE","维达雀科","Indigobirds and Whydahs","维达雀");
   family[j++] = new myFamily("PEUCEDRAMIDAE","绿森莺科","Olive Warbler","绿森莺");
   family[j++] = new myFamily("PRUNELLIDAE","岩鹨科","Accentors","岩鹨");
-  family[j++] = new myFamily("MOTACILLIDAE","鹡鸰科","Wagtails and Pipits","鹡和鸰鹨 ");
+  family[j++] = new myFamily("MOTACILLIDAE","鹡鸰科","Wagtails and Pipits","鹡鸰和鹨 ");
   family[j++] = new myFamily("UROCYNCHRAMIDAE","朱鹀科","Przevalski's Finch","朱鹀");
   family[j++] = new myFamily("FRINGILLIDAE","燕雀科","Finches and Allies","燕雀等");
   family[j++] = new myFamily("CALCARIIDAE","铁爪鹀科","Longspurs and Snow Buntings","铁爪鹀和雪鹀");
   family[j++] = new myFamily("RHODINOCICHLIDAE","鸫唐纳雀科","Thrush-tanager","鸫唐纳雀");
-  family[j++] = new myFamily("EMBERIZIDAE","鹀科","New World Sparrows and Allies","美洲鹀");
-  family[j++] = new myFamily("PASSERELLIDAE","美洲麻雀科","New World Sparrows","美洲麻雀");
-  family[j++] = new myFamily("CALYPTOPHILIDAE","拟䳭唐纳雀科","Chat-tanagers","拟䳭唐纳雀");
+  family[j++] = new myFamily("EMBERIZIDAE","鹀科","Buntings","鹀");
+  family[j++] = new myFamily("PASSERELLIDAE","雀鹀科","New World Sparrows","美洲麻雀");
+  family[j++] = new myFamily("CALYPTOPHILIDAE","拟䳭唐纳雀科","Chat-tanagers","䳭唐纳雀");
   family[j++] = new myFamily("PHAENICOPHILIDAE","棕榈唐纳雀科","Hispaniolan Tanagers","海地唐纳雀");
   family[j++] = new myFamily("NESOSPINGIDAE","波多黎各唐纳雀科","Puerto Rican Tanager","波多黎各唐纳雀");
   family[j++] = new myFamily("SPINDALIDAE","纹头唐纳雀科","Spindalises","纹头唐纳雀");
@@ -410,8 +411,8 @@
   family[j++] = new myFamily("PARULIDAE","森莺科","Wood-Warblers","森莺");
   family[j++] = new myFamily("MITROSPINGIDAE","乌脸唐纳雀科","Mitrospingid Tanagers","乌脸唐纳雀");
   family[j++] = new myFamily("CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies","美洲雀");
-  family[j++] = new myFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀");
-  orders[i++] = new myOrder("PASSERIFORMES","雀形目","Perching Birds","雀",family);
+  family[j++] = new myFamily("THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀等");
+  orders[i++] = new myOrder("PASSERIFORMES","雀形目","Perching Birds","栖鸟",family);
 
   //functions and variables used in index_birds_names
   //table for Chinese pinyin, string.localeCompare() does not work in all browsers
