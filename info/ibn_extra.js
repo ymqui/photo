@@ -47,7 +47,6 @@
 //birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Zone-tailed Hawk","斑尾鵟","Buteo albonotatus",p_id("",),["azazaz","8/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","ACCIPITR","Ferruginous Hawk","锈色鵟","Buteo regalis",m_id(""),["mdbhrp","1/2023,"],"王鵟");
 //birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Elf Owl","娇鸺鹠","Micrathene whitneyi",p_id("",),["azazaz","8/2022,"]);
-//birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",m_id(""),["caalgp","8/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium californicum",p_id("",),["azmcct","8/2022,"]);
 //birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Western Screech-Owl","西美角鸮","Megascops kennicottii",p_id("",),["azazaz","8/2022,"],"西部鸣角鸮");
 //birds[j++] = new Bird("23-00-00T00:00","STRIGIDA","Spotted Owl","斑林鸮","Strix occidentalis",p_id("",),["azazaz","8/2022,"]);
