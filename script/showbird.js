@@ -404,7 +404,7 @@ if(window.usechinese){
    mesg2 = "Bird Photo Album Home";
    mesg3 = "Chinese Version/中文版";  
 }
-var tmp_url  = reform_url(bid.name1,bid.cname,bid.ebid,bid.curl);
+var tmp_url  = reform_url(bid.name1,bid.cname,bid.ebid,bid.cbid);
 var eng_info,chn_info;
 if (window.expandinfo){
    eng_info = bid.info;
