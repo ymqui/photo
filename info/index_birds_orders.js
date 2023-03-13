@@ -468,7 +468,7 @@
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
-     if (photo.constructor !== Array){photo = [photo];}
+     if (!Array.isArray(photo)){photo = [photo];}
      this.photo    = photo;
      pic_cnts      = pic_cnts+this.photo.length;
      var tmp_match = photo.join().match(/_dig/gi);
@@ -507,25 +507,25 @@
 
   function sas(in1,in2,in3){
      var len = 1;
-     if (in1.constructor === Array) len = in1.length;
-     if (in2.constructor === Array) len = Math.max(len,in2.length);
+     if (Array.isArray(in1)) len = in1.length;
+     if (Array.isArray(in2)) len = Math.max(len,in2.length);
      if (typeof in3 !== 'undefined'){
-        if (in3.constructor === Array) len = Math.max(len,in3.length);
+        if (Array.isArray(in3)) len = Math.max(len,in3.length);
      }
      var tmp =[];
      for (var i=0;i<len;i++){
-         if (in1.constructor === Array){
+         if (Array.isArray(in1)){
             tmp[i] = in1[Math.min(i,in1.length-1)];
          }else{
             tmp[i] = in1;
          }
-         if (in2.constructor === Array){
+         if (Array.isArray(in2)){
             tmp[i] = tmp[i]+in2[Math.min(i,in2.length-1)];
          }else{
             tmp[i] = tmp[i]+in2;
          }
          if (typeof in3 !== 'undefined'){
-            if (in3.constructor === Array){
+            if (Array.isArray(in3)){
                tmp[i] = tmp[i]+in3[Math.min(i,in3.length-1)];
             }else{
                tmp[i] = tmp[i]+in3;
@@ -538,7 +538,7 @@
   //if no ',' return [str,''] else return separted string array
   function strsplit(str){
      var tmp,tmp1;
-     if (str.constructor === Array){tmp = str[0];}else{tmp=str;}
+     if (Array.isArray(str)){tmp = str[0];}else{tmp=str;}
      tmp1 = tmp.indexOf(',');
      if (tmp1>=0){
         return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
@@ -621,7 +621,7 @@
 
   function getdate(path,returndate){
      var date = "",year = "",mon = "",name;
-     if (path.constructor === Array) {
+     if (Array.isArray(path)) {
         name = path[0].substr(path[0].lastIndexOf('/') + 1);
      }else{
         name = path.substr(path.lastIndexOf('/') + 1);
@@ -692,7 +692,7 @@
   function m_id(id,num){
      var ind = 0;
      if (typeof num === 'undefined'){num = "";}else{ind=num;}
-     if (id.constructor === Array) {
+     if (Array.isArray(id)) {
         misc_cnts[ind] = misc_cnts[ind]+id.length;
      }else{
         misc_cnts[ind] = misc_cnts[ind]+1;
