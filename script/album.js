@@ -163,12 +163,12 @@ function loadHidden(){
     var tmp_i = myrandom(photoalbum[0][tmp]);
     var tmp_src = '';
     var tmp_alt = '';
-    if (photoalbum[0][tmp].constructor == Array){
+    if (Array.isArray(photoalbum[0][tmp])){
        tmp_src = photoalbum[0][tmp][tmp_i];
     }else{
        tmp_src = photoalbum[0][tmp];
     }
-    if (photoalbum[1][tmp].constructor == Array){
+    if (Array.isArray(photoalbum[1][tmp])){
        tmp_alt = photoalbum[1][tmp][tmp_i];
     }else{
        tmp_alt = photoalbum[1][tmp];
@@ -679,7 +679,7 @@ function baike(bid,name){
 
 function getdate(name,str){
     var nam1,tmp,date,comma=",";
-    if (name.constructor==Array){nam1=name[0];}else{nam1=name;}
+    if (Array.isArray(name)){nam1=name[0];}else{nam1=name;}
     var pos  = nam1.search(/20[0-9]{2,}/) 
     var year = nam1.substring(pos+0,pos+4);
     var mon  = nam1.substring(pos+4,pos+6);
@@ -698,7 +698,7 @@ function getdate(name,str){
        if (day.length!=0) {date = date+day+"/";}
        date = date+year+".";
     }
-    if (str.constructor==Array){tmp=str[0];}else{tmp=str;}
+    if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
        tmp = tmp+date;
     }else{
@@ -710,20 +710,20 @@ function getdate(name,str){
 function adddate(thisalbum){
     var tmp;
     for (var i=0;i<thisalbum[0].length;i++){
-        if (thisalbum[0][i].constructor != Array){
+        if (!Array.isArray(thisalbum[0][i])){
            thisalbum[1][i] = getdate(thisalbum[0][i],thisalbum[1][i]);
         }else{
-           if (thisalbum[0][i][thisalbum[0][i].length-1].constructor!=Array){
+           if (!Array.isArray(thisalbum[0][i][thisalbum[0][i].length-1])){
               tmp = thisalbum[0][i][thisalbum[0][i].length-1];
            }else{
               tmp = thisalbum[0][i][thisalbum[0][i].length-1][0];
            }
            if (/^\d+$/.test(tmp)){
-              if (thisalbum[1][i].constructor !=Array){
+              if (!Array.isArray(thisalbum[1][i])){
                  thisalbum[1][i] = getdate(tmp,thisalbum[1][i]);
               }else{
                  for (var j=0;j<thisalbum[1][i].length;j++){
-                     if (thisalbum[0][i][thisalbum[0][i].length-1].constructor==Array){
+                     if (Array.isArray(thisalbum[0][i][thisalbum[0][i].length-1])){
                         tmp = thisalbum[0][i][thisalbum[0][i].length-1][j];
                      }
                      thisalbum[1][i][j] = getdate(tmp,thisalbum[1][i][j]);
@@ -737,7 +737,7 @@ function adddate(thisalbum){
                   thisalbum[0][i] = thisalbum[0][i][0];
               }
            }else{
-              if (thisalbum[1][i].constructor!=Array){
+              if (!Array.isArray(thisalbum[1][i])){
                  thisalbum[1][i] = getdate(thisalbum[0][i][0],thisalbum[1][i]);
               }else{
                  for (var j=0;j<thisalbum[1][i].length;j++){
@@ -750,7 +750,7 @@ function adddate(thisalbum){
 }
 
 function myrandom(data){
-    if (data.constructor == Array){
+    if (Array.isArray(data)){
        return Math.round(Math.random()*(data.length-1));
     }else{
        return 0; 
