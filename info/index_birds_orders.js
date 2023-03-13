@@ -455,7 +455,7 @@
   //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If date string mon/year is not provided, the date string will be constructed from the file name.
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
-  function Bird(liferdate, family, name, cname, latin, photo, info, ebid, curl){
+  function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
      this.lifer    = new Date("20"+liferdate+":00");
      this.newbird  = (modTim<=this.lifer.getTime());
      this.family   = family.trim().slice(0,fam_ln).toUpperCase();
@@ -464,7 +464,7 @@
      this.cname    = cname.trim();
      this.pinyin   = getpinyin(this.cname);
      this.latin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
-     this.genus    = (latin.trim()).substring(0,this.latin.indexOf(' '));
+     this.genus    = this.latin.substring(0,this.latin.indexOf(' '));
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
@@ -502,7 +502,7 @@
      }
 
      if (typeof ebid !== 'undefined'){this.ebid = ebid;}
-     if (typeof curl !== 'undefined'){this.curl = curl;}
+     if (typeof cbid !== 'undefined'){this.cbid = cbid;}
   }
 
   function sas(in1,in2,in3){
@@ -847,12 +847,12 @@
      return {info:tmp_info,cinfo:tmp_cinfo,locs:tmp_locs};
   }
 
-  function reform_url(name,cname,ebid,curl){
+  function reform_url(name,cname,ebid,cbid){
      var url = "";
      if (typeof ebid == 'undefined'){
         ebid = "";
      }else if ((typeof ebid !== 'string') || (/[\u3400-\u9FBF]/.test(ebid)) ){
-        curl = ebid;
+        cbid = ebid;
         ebid = "";
      }
      if (ebid !== ""){
@@ -861,8 +861,8 @@
         url = cornellurl(name);
      }
      if (window.usechinese){
-        if (typeof curl == 'undefined'){curl = cname;}
-        if (curl !== ""){url = baike(curl);}
+        if (typeof cbid == 'undefined'){cbid = cname;}
+        if (cbid !== ""){url = baike(cbid);}
      }
      return url;
   }
