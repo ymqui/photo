@@ -553,7 +553,7 @@
   }
 
   function b_link(bid,info){
-     if (typeof info === 'undefined') {var info = bid;} else {
+     if (typeof info === 'undefined') {info = bid;} else {
         if (info==='s'){info = bid.trim()+info;}
      }
      if (order){bid = bid+"&order";}
@@ -777,8 +777,8 @@
   }
 
   function reform(name,space,apostrophe,notlowercase){
-     if (typeof space === 'undefined') {var space = '_';}
-     if (typeof apostrophe === 'undefined') {var apostrophe = '';}
+     if (typeof space === 'undefined') {space = '_';}
+     if (typeof apostrophe === 'undefined') {apostrophe = '';}
      var tmp = name.replace(/ |\+/g,space);
      tmp = tmp.replace(/'/g,apostrophe);
      if (notlowercase){
@@ -876,17 +876,12 @@
         if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
         loc_cnts[pid]++;
      }
-     if (typeof date === 'undefined') {var date  = "";}
+     if (typeof date === 'undefined') {date  = "";}
      if (typeof header === 'undefined') {header = "";}
      if (header.length>0) {header = header+comma;}
-     if (typeof extra === 'undefined') {var extra = "";}
+     if (typeof extra === 'undefined') {extra = "";}
      if (typeof lurls[pid] === 'undefined') {return header+extra+date;}
      var tmp = lurls[pid].slice(0);
-     if (lurls[pid].length>=7){
-        extra = tmp[([1,4])[cn_ind]];
-        tmp.splice(4,1);
-        tmp.splice(1,1);
-     }
      if ((typeof tmp[5]!=='undefined') && usechinese){tmp[4] = tmp[5];}
      if ((extra.length>0)||(usechinese&&(tmp[0+id_0].length>0))){extra = extra+comma;}
      if ((tmp[0+id_0].length>0) && (!usechinese)) {
