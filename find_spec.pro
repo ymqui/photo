@@ -593,12 +593,23 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     pobj->updatelegend,/draw,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
+    ;legend location
     ind = where((image1[0,*,*] eq 255) and (image1[1,*,*] eq 0) and (image1[2,*,*] eq 0),cnt)
     x_ind = ind mod xsize
     y_ind = ind/xsize
     tmp = max(y_ind,i_max)
-    xoffset = [x_ind[i_max]+18,451,28]
-    yoffset = [y_ind[i_max]-37,10,186]+round((ysize-450)*[0,0.08,0.5])
+    ;xtit location
+    ind = where((image1[0,300:*,*] ne 255) and (image1[1,300:*,*] ne 255) and (image1[2,300:*,*] ne 255),cnt)
+    x_ind1 = 300+(ind mod (xsize-300))
+    y_ind1 = ind/(xsize-300)
+    tmp = min(y_ind1,i_min1)
+    ;ytit location
+    ind = where((image1[0,*,100:*] ne 255) and (image1[1,*,100:*] ne 255) and (image1[2,*,100:*] ne 255),cnt)    
+    x_ind2 = ind mod xsize
+    y_ind2 = 100+(ind/xsize)
+    tmp = min(x_ind2,i_min2)
+    xoffset = [x_ind[i_max],x_ind1[i_min1],x_ind2[i_min2]]+[18,-5,-7]
+    yoffset = [y_ind[i_max],y_ind1[i_min1],y_ind2[i_min2]]-[37,11,17]
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
     for i=0,n_elements(fnames)-1 do begin
         image3 = read_bmp(fnames[i],/rgb)
