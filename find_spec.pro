@@ -537,7 +537,8 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     gap   = 0.04*(yran[1]-yran[0])
     edge  = [0.06,0.1,0.15]  ;[+/-x,-y,+y]
     fsize = ([12,10,8])[(yran[1] gt 700)+(yran[1] gt 2000)]
-    ysize = ([450,520])[cuml[n_elements(cuml)-1] gt 1000]
+    xsize = 900
+    ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
        edge[1]  = 0.15
        allbelow = 1b
@@ -547,7 +548,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     xtit  = (['Year','!Z(5E74,5EA6)'])[keyword_set(chinese)]
     ytit  = (['Lifer Count','!Z(9E1F,79CD,6570,76EE)'])[keyword_set(chinese)]
     pobj  = obj_new('dm_plot',xtitl=xtit,ytit=ytit,cornertxt='LaoQ \copyright '+dm_to_string(min(year))+'-'+dm_to_string(max(year)),$
-            /legdshowfill,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='helvetica italic',wtitle='Lifer Count',xsize=900,ysize=ysize)
+            /legdshowfill,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='helvetica italic',wtitle='Lifer Count',xsize=xsize,ysize=ysize)
     pobj->setproperty,yran=yran,xran=xran,ytickminor=0,/nodraw,extragap=[-0.02,0,0,0]
     if keyword_set(movie) then pobj->movie,/open,file=get_filename(/movie),speed=(wait eq 0?5:(1/wait))
     red   = 'red';[237,28,36]
@@ -576,7 +577,6 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     endfor   
     pobj->setproperty,object=otext,color='black'
     pobj->setproperty,title=''
-    ;pobj->add_text,(['annual avg','!Z(5E74,5747)'])[keyword_set(chinese)]+'='+dm_to_string(ann_avg,res=1),0.06,0.75,fontsize=12
     pobj->add_plot,[2000,2100],[ann_avg,ann_avg],linestyle='dashed',color='gray',/draw
     pobj->add_text,dm_to_string(ann_avg,res=1),1.01,(ann_avg-yran[0])/(yran[1]-yran[0])+0.017,fontsize=12,color='dark gray'
     if keyword_set(movie) then begin
@@ -593,8 +593,8 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     pobj->updatelegend,/draw,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
-    xoffset = [171,451,28]
-    yoffset = [338,10,186]+round((ysize-450)*[0.85,0.08,0.5])
+    xoffset = [171+round((float(ysize)/xsize-0.5)*(ysize-450)*0.1),451,28]
+    yoffset = [341,10,186]+round((ysize-450)*[0.86,0.08,0.5])
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
     for i=0,n_elements(fnames)-1 do begin
         image3 = read_bmp(fnames[i],/rgb)
