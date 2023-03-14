@@ -531,13 +531,13 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
        endfor
     endif
     ann_avg = total(cnts)/(max(year)-min(year)+1.0)
-    cuml  = total(cnts,/cumulative) & cuml[-1] = 2000
+    cuml  = total(cnts,/cumulative)
     yran  = [min(cuml),max(cuml)]
     xran  = [min(year),max(year)]
     gap   = 0.04*(yran[1]-yran[0])
     edge  = [0.06,0.1,0.15]  ;[+/-x,-y,+y]
     fsize = ([12,10,8])[(yran[1] gt 1000)+(yran[1] gt 2000)]
-    xsize = 1000
+    xsize = 900
     ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
        edge[1]  = 0.15
@@ -545,7 +545,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     endif
     xran  = xran+[-1,1]*edge[0]*(xran[1]-xran[0])
     yran  = yran+[-edge[1],edge[2]]*(yran[1]-yran[0])
-    xtit  = (['Year','!Z(5E74,5EA6)'])[keyword_set(chinese)]
+    xtit  = (['Year','年份'])[keyword_set(chinese)]
     ytit  = (['Lifer Count','!Z(9E1F,79CD,6570,76EE)'])[keyword_set(chinese)]
     pobj  = obj_new('dm_plot',xtitl=xtit,ytit=ytit,cornertxt='LaoQ \copyright '+dm_to_string(min(year))+'-'+dm_to_string(max(year)),$
             /legdshowfill,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='helvetica italic',wtitle='Lifer Count',xsize=xsize,ysize=ysize)
