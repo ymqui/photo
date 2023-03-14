@@ -1,5 +1,4 @@
-﻿<!--
-var cn_ind     = window.usechinese?1:0;
+<!--
 var info_url   = "https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/wheaton-miniature-train/";
 var title      = "Wheaton Miniature Train Ride";
 var cam_img    = "camera_canon_6d.jpg";

@@ -1,5 +1,4 @@
-﻿<!--
-var cn_ind     = window.usechinese?1:0;
+<!--
 var info_url   = "";
 var title      = "Trip to Costa Rica";
 var cam_img    = "camera_canon_6d.jpg";

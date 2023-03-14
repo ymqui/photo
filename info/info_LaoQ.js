@@ -1,5 +1,4 @@
 <!--
-var cn_ind     = window.usechinese?1:0;
 var info_url   = "";
 var title      = (["LaoQ birding","老Q拍鸟"])[cn_ind];
 var dir        = maindir+"pics/LaoQ/";

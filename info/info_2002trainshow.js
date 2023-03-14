@@ -1,5 +1,4 @@
-﻿<!--
-var cn_ind     = window.usechinese?1:0;
+<!--
 var info_url   = "http://wghshow.com/";
 var title      = (["Model Train Show","火车模型展"])[cn_ind];
 var cam_img    = "camera_canon_6d.jpg";
