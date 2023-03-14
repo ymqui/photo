@@ -531,7 +531,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
        endfor
     endif
     ann_avg = total(cnts)/(max(year)-min(year)+1.0)
-    cuml  = total(cnts,/cumulative)
+    cuml  = total(cnts,/cumulative) & cuml[-1] = 2000
     yran  = [min(cuml),max(cuml)]
     xran  = [min(year),max(year)]
     gap   = 0.04*(yran[1]-yran[0])
@@ -611,7 +611,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     x_ind2 = ind mod 50
     y_ind2 = 100+(ind/50)
     tmp = min(y_ind2,i_min2)
-    xoffset = [x_ind[i_max],x_ind1[i_min1],x_ind2[i_min2]]+[18,-5,-8]
+    xoffset = [x_ind[i_max],x_ind1[i_min1],x_ind2[i_min2]]+[15,-5,-8]
     yoffset = [y_ind[i_max],y_ind1[i_min1],y_ind2[i_min2]]-[37,11,6]
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
     for i=0,n_elements(fnames)-1 do begin
