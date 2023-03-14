@@ -586,7 +586,10 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image1 = pobj->getimagedata()
     image2 = read_bmp(get_filename(/tmpdir)+"stat.bmp",/rgb)
     dim = size(image2,/dim)
-    offset = [175,5];[150,5] for 10 dejavusans italic, [135,5] for 10 helvetica
+    ind = where((image1[0,0:299,0:40] ne 255) and (image1[1,0:299,0:40] ne 255) and (image1[2,0:299,0:40] ne 255),cnt)
+    x_ind = ind mod 300
+    y_ind = ind/300
+    offset = [max(x_ind)+28,min(y_ind)]
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     write_image,get_filename(/tmpdir)+"lifer_stat.png",'png',image1
     ;chinese version
