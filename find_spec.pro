@@ -536,7 +536,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     xran  = [min(year),max(year)]
     gap   = 0.04*(yran[1]-yran[0])
     edge  = [0.06,0.1,0.15]  ;[+/-x,-y,+y]
-    fsize = ([12,10,8])[(yran[1] gt 700)+(yran[1] gt 2000)]
+    fsize = ([12,10,8])[(yran[1] gt 1000)+(yran[1] gt 2000)]
     xsize = 900
     ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
@@ -593,7 +593,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     write_image,get_filename(/tmpdir)+"lifer_stat.png",'png',image1
     ;chinese version
-    pobj->updatelegend,/draw,newlabel=['hi','hi']
+    pobj->updatelegend,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     ;legend location
