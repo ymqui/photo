@@ -593,8 +593,12 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     pobj->updatelegend,/draw,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
-    xoffset = [171+round((float(ysize)/xsize-0.5)*(ysize-450)*0.1),451,28]
-    yoffset = [341,10,186]+round((ysize-450)*[0.86,0.08,0.5])
+    ind = where((image1[0,*,*] eq 255) and (image1[1,*,*] eq 0) and (image1[2,*,*] eq 0),cnt)
+    x_ind = ind mod xsize
+    y_ind = ind/xsize
+    tmp = max(y_ind,i_max)
+    xoffset = [x_ind[i_max]+18,451,28]
+    yoffset = [y_ind[i_max]-37,10,186]+round((ysize-450)*[0,0.08,0.5])
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
     for i=0,n_elements(fnames)-1 do begin
         image3 = read_bmp(fnames[i],/rgb)
