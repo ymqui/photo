@@ -537,7 +537,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     gap   = 0.04*(yran[1]-yran[0])
     edge  = [0.06,0.1,0.15]  ;[+/-x,-y,+y]
     fsize = ([12,10,8])[(yran[1] gt 1000)+(yran[1] gt 2000)]
-    xsize = 900
+    xsize = 1000
     ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
        edge[1]  = 0.15
@@ -586,33 +586,33 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image1 = pobj->getimagedata()
     image2 = read_bmp(get_filename(/tmpdir)+"stat.bmp",/rgb)
     dim = size(image2,/dim)
-    ind = where((image1[0,0:299,0:20] ne 255) and (image1[1,0:299,0:20] ne 255) and (image1[2,0:299,0:20] ne 255),cnt)
+    ind = where(min(image1[*,0:299,0:20],dim=1) lt 255,cnt)
     x_ind = ind mod 300
     y_ind = ind/300
     offset = [max(x_ind)+28,min(y_ind)]
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     write_image,get_filename(/tmpdir)+"lifer_stat.png",'png',image1
-    ;chinese version
+    ;;chinese version
     pobj->updatelegend,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
     image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     ;legend location
-    ind = where((image1[0,*,*] eq 255) and (image1[1,*,*] eq 0) and (image1[2,*,*] eq 0),cnt)
+    ind = where(image1[0,*,*]-image1[1,*,*]-image1[2,*,*] eq 255,cnt) ;red color
     x_ind = ind mod xsize
     y_ind = ind/xsize
     tmp = max(y_ind,i_max)
     ;xtit location
-    ind = where((image1[0,300:*,*] ne 255) and (image1[1,300:*,*] ne 255) and (image1[2,300:*,*] ne 255),cnt)
+    ind = where(min(image1[*,300:*,*],dim=1) lt 255,cnt)
     x_ind1 = 300+(ind mod (xsize-300))
     y_ind1 = ind/(xsize-300)
     tmp = min(y_ind1,i_min1)
     ;ytit location
-    ind = where((image1[0,*,100:*] ne 255) and (image1[1,*,100:*] ne 255) and (image1[2,*,100:*] ne 255),cnt)    
-    x_ind2 = ind mod xsize
-    y_ind2 = 100+(ind/xsize)
-    tmp = min(x_ind2,i_min2)
-    xoffset = [x_ind[i_max],x_ind1[i_min1],x_ind2[i_min2]]+[18,-5,-7]
-    yoffset = [y_ind[i_max],y_ind1[i_min1],y_ind2[i_min2]]-[37,11,17]
+    ind = where(min(image1[*,0:49,100:*],dim=1) lt 255,cnt)
+    x_ind2 = ind mod 50
+    y_ind2 = 100+(ind/50)
+    tmp = min(y_ind2,i_min2)
+    xoffset = [x_ind[i_max],x_ind1[i_min1],x_ind2[i_min2]]+[18,-5,-8]
+    yoffset = [y_ind[i_max],y_ind1[i_min1],y_ind2[i_min2]]-[37,11,6]
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
     for i=0,n_elements(fnames)-1 do begin
         image3 = read_bmp(fnames[i],/rgb)
