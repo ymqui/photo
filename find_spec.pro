@@ -587,20 +587,12 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     image2 = read_bmp(get_filename(/tmpdir)+"stat.bmp",/rgb)
     dim = size(image2,/dim)
     offset = [175,5];[150,5] for 10 dejavusans italic, [135,5] for 10 helvetica
-    for i=0,dim[1]-1 do begin
-        for j=0,dim[2]-1 do begin
-            if max(abs(image2[*,i,j]-255)) ne 0 then image1[*,i+offset[0],j+offset[1]] = image2[*,i,j]
-        endfor
-    endfor
+    image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     write_image,get_filename(/tmpdir)+"lifer_stat.png",'png',image1
+    ;chinese version
     pobj->updatelegend,/draw,newlabel=['hi','hi']
     image1 = pobj->getimagedata()
-    for i=0,dim[1]-1 do begin
-        for j=0,dim[2]-1 do begin
-            if max(abs(image2[*,i,j]-255)) ne 0 then image1[*,i+offset[0],j+offset[1]] = image2[*,i,j]
-        endfor
-    endfor
-    ;chinese version
+    image1[*,offset[0]:(offset[0]+dim[1]-1),offset[1]:(offset[1]+dim[2]-1)] = image2
     xoffset = [171,451,28]
     yoffset = [338,10,186]+round((ysize-450)*[0.85,0.08,0.5])
     fnames  = get_filename(/tmpdir)+'chinese_'+['legend','xtit','ytit']+'.bmp'
