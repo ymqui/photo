@@ -505,32 +505,12 @@
      if (typeof cbid !== 'undefined'){this.cbid = cbid;}
   }
 
-  function sas(in1,in2,in3){
-     var len = 1;
-     if (Array.isArray(in1)) len = in1.length;
-     if (Array.isArray(in2)) len = Math.max(len,in2.length);
-     if (typeof in3 !== 'undefined'){
-        if (Array.isArray(in3)) len = Math.max(len,in3.length);
-     }
-     var tmp =[];
-     for (var i=0;i<len;i++){
-         if (Array.isArray(in1)){
-            tmp[i] = in1[Math.min(i,in1.length-1)];
-         }else{
-            tmp[i] = in1;
-         }
-         if (Array.isArray(in2)){
-            tmp[i] = tmp[i]+in2[Math.min(i,in2.length-1)];
-         }else{
-            tmp[i] = tmp[i]+in2;
-         }
-         if (typeof in3 !== 'undefined'){
-            if (Array.isArray(in3)){
-               tmp[i] = tmp[i]+in3[Math.min(i,in3.length-1)];
-            }else{
-               tmp[i] = tmp[i]+in3;
-            }
-         }
+  function sas(in1,in2){
+     if (!Array.isArray(in1)){in1 = [in1];}
+     if (!Array.isArray(in2)){in2 = [in2];}
+     var tmp = [];
+     for (var i=0;i<Math.max(in1.length,in2.length);i++){
+         tmp[i] = in1[Math.min(i,in1.length-1)]+in2[Math.min(i,in2.length-1)];
      }
      return tmp;
   }
