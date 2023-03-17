@@ -505,7 +505,7 @@
      if (typeof cbid !== 'undefined'){this.cbid = cbid;}
   }
 
-  function sas(in1,in2){
+  function stradd(in1,in2){
      if (!Array.isArray(in1)){in1 = [in1];}
      if (!Array.isArray(in2)){in2 = [in2];}
      var tmp = [];
@@ -677,11 +677,11 @@
      }else{
         misc_cnts[ind] = misc_cnts[ind]+1;
      }
-     return sas("misc_birds"+num.toString()+"/",id);
+     return stradd("misc_birds"+num.toString()+"/",id);
   }
 
   function p_id(album,id){
-     return sas(album+"/"+album+"_",id);
+     return stradd(album+"/"+album+"_",id);
   }
 
   function baike(name,before,afterin,afterout){
