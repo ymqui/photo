@@ -579,6 +579,10 @@ function initAlbum(){
     this[1][i++]  = (["Reptiles show","爬行动物展示"])[cn_ind];
     this[0][i]    = ["20230315_1","20230315_2"];
     this[1][i++]  = (["Measuring with a ruler","用尺子量东西"])[cn_ind];
+    this[0][i]    = ["20230317_2"];
+    this[1][i++]  = (["Measuring the gingerbread man","测量姜饼人"])[cn_ind];
+    this[0][i]    = ["20230317_1"];
+    this[1][i++]  = (["My favorite cake: 3-layer vanilla cake","最喜欢的蛋糕：三层香草蛋糕"])[cn_ind];
 
     adddate(this);
 }
