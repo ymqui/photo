@@ -468,7 +468,7 @@
      this.info     = [];
      this.cinfo    = [];
      this.locs     = [];
-     if (!Array.isArray(photo)){photo = [photo];}
+     if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
      this.photo    = photo;
      pic_cnts      = pic_cnts+this.photo.length;
      var tmp_match = photo.join().match(/_dig/gi);
