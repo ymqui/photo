@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 var info = new Array(4);
 info[0]  = new Array();
 info[1]  = new Array();
@@ -204,7 +204,7 @@ info[1][i]   = "usstates";
 info[2][i]   = "Leigh Ann's MIDI World";
 info[3][i++] = "http://www.angelfire.com/mo/NeverKnowWhat/MidiWorld.html";
 info[0][i]   = "DancesWithWolves";
-info[1][i]   = "1609vtcanbirding";
+info[1][i]   = "1609vcbird";
 info[2][i]   = "Leigh Ann's MIDI World";
 info[3][i++] = "http://www.angelfire.com/mo/NeverKnowWhat/MidiWorld.html";
 info[0][i]   = "DaydreamBeliever";
