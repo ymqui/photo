@@ -116,8 +116,8 @@
   info[2][j] = 2;
   info[3][j] = "7/2013 Alaska Birding";
   info[4][j++] = "Birding in Alaska (Alaska).";
-  info[0][j] = "1312bigbendbirding";
-  info[1][j] = 6;
+  info[0][j] = "1312bbbird";
+  info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "12/2013 Big Bend Birding";
   info[4][j++] = "Birding in Big Bend National Park (Texas).";
@@ -171,8 +171,8 @@
   info[2][j] = 2;
   info[3][j] = "5/2015 Puffin Watch";
   info[4][j++] = "Puffin Watch at Eastern Egg Rock (Connecticut, Maine).";
-  info[0][j] = "1507birdingwest";
-  info[1][j] = 7;
+  info[0][j] = "1507wbird";
+  info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "7/2015 Birding West";
   info[4][j++] = "Birding on the West Coast (Nevada, Oregon, Washington, California).";
