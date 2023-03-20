@@ -141,8 +141,8 @@
   info[2][j] = 2;
   info[3][j] = "9/2014 Finger Lakes Birding";
   info[4][j++] = "Birding in the Finger Lakes Region (New York).";
-  info[0][j] = "1412mckee-beshers";
-  info[1][j] = 7;
+  info[0][j] = "1412mckee";
+  info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "12/2014 McKee-Beshers Birding";
   info[4][j++] = "Birding in McKee-Beshers Wildlife Management Area (Maryland).";
