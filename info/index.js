@@ -1306,7 +1306,7 @@
   info[2][j] = 2;
   info[3][j] = "9/2017 Birding Algonquin";
   info[4][j++] = "Birding in Algonquin Provincial Park (Ontario, Canada).";
-  info[0][j] = "1812crbirding";
+  info[0][j] = "1812crbird";
   info[1][j] = 6;
   info[2][j] = 2;
   info[3][j] = "12/2018 Birding in Costa Rica";
