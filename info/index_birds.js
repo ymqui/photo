@@ -206,7 +206,7 @@
   info[2][j] = 2;
   info[3][j] = "6/2016 Birding South";
   info[4][j++] = "Birding in South Carolina and Florida (South Carolina, Florida).";
-  info[0][j] = "1609vtcanbirding";
+  info[0][j] = "1609vcbird";
   info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "9/2016 Birding North";

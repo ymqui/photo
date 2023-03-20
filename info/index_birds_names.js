@@ -155,7 +155,7 @@
   birds[j++] = new Bird("15-07-06T12:41","ODONTOPH","Gambel's Quail","黑腹翎鹑","Callipepla gambelii",[p_id("2208azbird",75),p_id("1507birdingwest",2)],["azazaz","S116797492",hotspot("L280695","Baseline Road, Maricopa County"),"","","马里科帕郡基线路","nvdnwr","Female"]);
   birds[j++] = new Bird("21-06-26T10:51","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",m_id("20210626_094"),["debnwr","Male"]);
   birds[j++] = new Bird("16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",p_id("1604asheville",1),["arb","Female, "+nps("blri","Blue Ridge Parkway, North Carolina, USA"),"","",baike("蓝岭","美国北卡罗来纳州","公路")]);
-  birds[j++] = new Bird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",p_id("1609vtcanbirding",10),["vtwwma"]);
+  birds[j++] = new Bird("16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",p_id("1609vcbird",10),["vtwwma"]);
   birds[j++] = new Bird("17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Canachites canadensis",p_id("1709algonquin",[10,8,9]),["caalgp","Male","caalgp","Female","caalgp","Mating display"]);
   birds[j++] = new Bird("17-01-29T09:29","PHASIANI","Ring-necked Pheasant","雉鸡","Phasianus colchicus",[m_id(["20211121_131","20211127_134"]),p_id("1704longyan",12)],["mdmdmd",(t1="Male, "+gmap("Park Heights Avenue, Baltimore County",39.4076,-76.729)),"","",(t2="巴尔的摩郡公园高地大街"),"mdmdmd",t1,"","",t2,"cnlynv","Female"]);
   birds[j++] = new Bird("22-05-02T10:11","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",p_id("2204flbird",[34,35]),["flflfl","5/2022,S108777458","Male, "+gmap("Crandon Park, Miami-Dade County",25.706,-80.156),"","","迈阿密-戴德郡克兰登公园"]);
@@ -364,7 +364,7 @@
   birds[j++] = new Bird("20-01-25T07:48","THRESKIO","White-faced Ibis","白脸彩鹮","Plegadis chihi",p_id("2001txbirding",32),["txsnwr","Nonbreeding plumage"]);
   birds[j++] = new Bird("05-12-28T08:55","THRESKIO","Roseate Spoonbill","粉红琵鹭","Platalea ajaja",[p_id("0512merritt",5),p_id("1606florida",28)],["flmnwr","scscsc",gmap("Bear Island Wildlife Management Area",32.6119,-80.4429),"","","熊岛野生动物管理区"]);
   birds[j++] = new Bird("23-01-23T07:12","ARDEIDAE","Rufescent Tiger Heron","栗虎鹭","Tigrisoma lineatum",p_id("2301pabird",14),["papipe","S126820115","Juvenile"],"ruther1");
-  birds[j++] = new Bird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064"),p_id("1609vtcanbirding",18),p_id("1609vtcanbirding",19)],["mdmdmd",gmap("North Point State Park",39.221,-76.4225),"","","北点州立公园","cactnw","cactnw"]);
+  birds[j++] = new Bird("15-04-26T14:02","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",[m_id("20150426_064"),p_id("1609vcbird",18),p_id("1609vcbird",19)],["mdmdmd",gmap("North Point State Park",39.221,-76.4225),"","","北点州立公园","cactnw","cactnw"]);
   birds[j++] = new Bird("20-07-07T11:10","ARDEIDAE","Least Bittern","姬苇鳽","Ixobrychus exilis",m_id("20210427_053"),["papapa","Female, "+gmap("Lake Redman, York County",39.881,-76.6871),"","","约克郡雷德曼湖"]);
   birds[j++] = new Bird("06-05-06T17:42","ARDEIDAE","Black-crowned Night-Heron","夜鹭","Nycticorax nycticorax",m_id(["20160625_081","20170827_096"]),["nyjbwr","mdcocn","Juvenile",""," at Riley's Lock","莱利闸"]);
   birds[j++] = new Bird("06-05-06T17:25","ARDEIDAE","Yellow-crowned Night-Heron","黄冠夜鹭","Nyctanassa violacea",["2006cobirding/20060506_105",p_id("2301pabird",64),p_id("1606florida",14)],["mdcocn","","",""," at Pennyfield Lock","彭尼菲尔德闸","pacasc","S126834645","flflfl","Immature, "+gmap("Black Point Park & Marina, Miami-Dade County",25.5413,-80.3285),"","","迈阿密-戴德郡黑角公园及码头"]);
@@ -393,10 +393,10 @@
   birds[j++] = new Bird("21-08-03T09:54","ACCIPITR","Swallow-tailed Kite","燕尾鸢","Elanoides forficatus",[m_id("20210803_099"),p_id("2204flbird",40)],["mdmdmd",gmap("Tavakoli Farm, Queen Anne's County",38.93,-76.3529),"","","安妮女王郡塔瓦科利农场","flevnp","5/2022,S115841189","Shark Valley","","","鲨鱼谷"]);
   birds[j++] = new Bird("23-01-07T07:52","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",m_id("20230107_003"),["mdmdmd","S125597993","Juvenile, "+gmap("Prettyboy Reservoir, Baltimore County",39.6563,-76.7435),"","","巴尔的摩郡美少年水库"]);
   birds[j++] = new Bird("16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",p_id("1601china",67),["cnbjsp"],"eurspa1");
-  birds[j++] = new Bird("11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",[m_id(["20150215_013","20150215_014","20161106_117","20220924_112"]),p_id("1609vtcanbirding",13)],["mdmdmd",(t1=gmap("Cromwell Valley Park, Baltimore",39.4138,-76.551)),"","",(t2="巴尔的摩克伦威尔溪谷公园"),"mdmdmd",t1,"","",t2,"mdmdmd","Juvenile, "+t1,"","",t2,"mdlbrp","S119360269","Juvenile","cactnw"]);
+  birds[j++] = new Bird("11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",[m_id(["20150215_013","20150215_014","20161106_117","20220924_112"]),p_id("1609vcbird",13)],["mdmdmd",(t1=gmap("Cromwell Valley Park, Baltimore",39.4138,-76.551)),"","",(t2="巴尔的摩克伦威尔溪谷公园"),"mdmdmd",t1,"","",t2,"mdmdmd","Juvenile, "+t1,"","",t2,"mdlbrp","S119360269","Juvenile","cactnw"]);
   birds[j++] = new Bird("14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",[m_id(["20220910_106","20141228_007"]),p_id("1507birdingwest",3)],["mdredg","S118461423","mdmdmd","Germantown","","","德国镇","nvdnwr","Juvenile"]);
   birds[j++] = new Bird("13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus hudsonius",[m_id("20210313_028"),p_id("1612savannah",4),m_id(["20161204_132","20221118_166"])],["mdmdmd","Male, "+gmap("Bucktown Road, Cambridge",38.4673,-76.0276),"","","剑桥市巴克敦路","scsnwr","Female","nyjbsp","Juvenile","pawagg","S122628666","Juvenile"]);
-  birds[j++] = new Bird("05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",[m_id(["20221119_169","20170108_005","20221118_168","20210330_037"]),p_id("1609vtcanbirding",17)],["mdredg","S122677464","mdmdmd","Juvenile, "+gmap("Mariner Point Park, Harford County",39.3964,-76.3491),"","","哈福德郡水手角公园","pawagg","S122628666","2nd year","mdbnwr","Nest","cactnw","Immature"]);
+  birds[j++] = new Bird("05-10-30T09:34","ACCIPITR","Bald Eagle","白头海雕","Haliaeetus leucocephalus",[m_id(["20221119_169","20170108_005","20221118_168","20210330_037"]),p_id("1609vcbird",17)],["mdredg","S122677464","mdmdmd","Juvenile, "+gmap("Mariner Point Park, Harford County",39.3964,-76.3491),"","","哈福德郡水手角公园","pawagg","S122628666","2nd year","mdbnwr","Nest","cactnw","Immature"]);
   birds[j++] = new Bird("15-09-06T11:23","ACCIPITR","Mississippi Kite","密西西比灰鸢","Ictinia mississippiensis",[m_id("20220724_089"),p_id("1509charleston",15),m_id("20210624_091")],["mdrock","S115692742",gmap("Welsh Park",39.0909,-77.1606),"","","威尔士公园","scscsc","Juvenile, "+gmap("Patriots Point, Charleston",32.7889,-79.9032),"","","查尔斯顿爱国者海角","mdrock","Nest, "+gmap("Beall Elementary School",39.0882,-77.1627),"","","比沃小学"]);
   birds[j++] = new Bird("11-12-27T17:06","ACCIPITR","Snail Kite","食螺鸢","Rostrhamus sociabilis",[p_id("1112floridabirding",4),p_id("2301pabird",82)],["flevnp","Female","arb","S126866014","Female/immature, "+gmap("Gatun Lake",9.1845,-79.8369),"","Panama Canal, Panama","巴拿马巴拿马运河加通湖"],"蜗鸢");
   birds[j++] = new Bird("23-01-25T08:47","ACCIPITR","Crane Hawk","鹤鹰","Geranospiza caerulescens",p_id("2301pabird",101),["pametr","S126933504","Blackish","黑色型"],"crahaw",1149);
@@ -463,7 +463,7 @@
   birds[j++] = new Bird("06-03-05T15:33","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",[p_id("1512bhill",22),p_id("1606florida",19)],["mdbhrp","2/2015","Male","flflfl","Female, "+gmap("Matheson Hammock Park, Miami-Dade County",25.6812,-80.272),"","","迈阿密-戴德郡马西森硬木公园"]);
   birds[j++] = new Bird("06-02-19T11:51","PICIDAE ","Yellow-bellied Sapsucker","黄腹吸汁啄木鸟","Sphyrapicus varius",m_id(["20170107_000","20201231_000","20211219_000"]),["mdmdmd","Male, "+gmap("Havre de Grace",39.5389,-76.0904),"","","哈佛德格雷斯市","vavava","Female, "+gmap("Sky Meadows State Park",38.9874,-77.9428),"","","天空草地州立公园","mdbmnt","Juvenile"]);
   birds[j++] = new Bird("13-07-14T18:56","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",p_id("1307akbird",4),["akknpp","Female"]);
-  birds[j++] = new Bird("16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背三趾啄木鸟","Picoides arcticus",p_id("1609vtcanbirding",[4,5]),["vtwwma","Female"]);
+  birds[j++] = new Bird("16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背三趾啄木鸟","Picoides arcticus",p_id("1609vcbird",[4,5]),["vtwwma","Female"]);
   birds[j++] = new Bird("13-12-25T14:40","PICIDAE ","Ladder-backed Woodpecker","纹背啄木鸟","Dryobates scalaris",[p_id("1312bigbendbirding",1),p_id("2001txbirding",21)],["txbbnp","Male","txsnwr","Female"]);
   birds[j++] = new Bird("05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Dryobates pubescens",m_id(["20160130_007","20170827_095"]),["mdbhrp","Male","mdcocn","Female",""," at Riley's Lock","莱利闸"]);
   birds[j++] = new Bird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Leuconotopicus borealis",p_id("1509charleston",[2,3]),["scscsc",nps("Carolina_Sandhills",true,"Carolina Sandhills National Wildlife Refuge"),"","",nps("Carolina_Sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]);
@@ -481,7 +481,7 @@
   birds[j++] = new Bird("20-01-23T11:47","FALCONID","Crested Caracara","凤头巨隼","Caracara plancus",p_id("2001txbirding",[10,11]),["txanwr"]);
   birds[j++] = new Bird("18-12-05T13:19","FALCONID","Laughing Falcon","笑隼","Herpetotheres cachinnans",p_id("1812crbirding",64),["crarol"],"laufal1");
   birds[j++] = new Bird("15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",m_id(["20150321_041","20210320_031"]),["mdftmh","Male","dedede","Male, "+gmap("Hourglass Road, Kent County",39.1495,-75.714),"","","肯特郡沙漏路"]);
-  birds[j++] = new Bird("15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134"),p_id("2204flbird",16),p_id("1609vtcanbirding",16)],["nyjbsp","Male (Taiga)","雄性(泰加林种)","fldtnp","S108548976","cactnw"]);
+  birds[j++] = new Bird("15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",[m_id("20161204_134"),p_id("2204flbird",16),p_id("1609vcbird",16)],["nyjbsp","Male (Taiga)","雄性(泰加林种)","fldtnp","S108548976","cactnw"]);
   birds[j++] = new Bird("15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",m_id(["20210314_029","20150607_076"]),["mdcocn","Male",""," at Maryland Heights","马里兰高地一带","mdcocn","Female",""," at Maryland Heights","马里兰高地一带"]);
 //birds[j++] = new Bird("23-00-00T00:00","STRIGOPI","Kakapo","鸮面鹦鹉","Strigops habroptila",m_id(""),["arb",""],"kakapo2",4000);
 //birds[j++] = new Bird("23-00-00T00:00","CACATUID","Palm Cockatoo","棕树凤头鹦鹉","Probosciger aterrimus",m_id(""),["arb",""],"palcoc1",4010);
@@ -548,7 +548,7 @@
   birds[j++] = new Bird("15-05-31T09:31","TYRANNID","Acadian Flycatcher","绿纹霸鹟","Empidonax virescens",m_id("20160508_045"),["mdmdmd",gmap("Patapsco Valley State Park",39.3508,-76.9139),"","","帕塔普斯科河谷州立公园"]);
   birds[j++] = new Bird("09-07-03T10:16","TYRANNID","Willow Flycatcher","纹霸鹟","Empidonax traillii",p_id("1505puffin",2),["arb",hotspot("L1976059","Cove Island Wildlife Sanctuary, Stamford, Connecticut, USA"),"美国康涅狄格州斯坦福市科夫岛野生动物保护区"],5422);
   birds[j++] = new Bird("15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",p_id("1505bombayhook",5),["debnwr"]);
-  birds[j++] = new Bird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35),p_id("1609vtcanbirding",14)],["mdbhrp","8/2015","cactnw"]);
+  birds[j++] = new Bird("15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[p_id("1512bhill",35),p_id("1609vcbird",14)],["mdbhrp","8/2015","cactnw"]);
   birds[j++] = new Bird("22-10-29T10:33","TYRANNID","Hammond's Flycatcher","哈氏纹霸鹟","Empidonax hammondii",m_id(["20221029_159","20221029_156"]),["papapa","S121532978",gmap("Tuscarora State Park, Schuylkill County",40.807,-76.0073),"","","斯古吉尔郡塔斯卡罗拉州立公园"]);
   birds[j++] = new Bird("20-12-12T15:19","TYRANNID","Pacific-slope Flycatcher","北美纹霸鹟","Empidonax difficilis",m_id(["20201215_137","20201215_138"]),["mdmdmd",gmap("Riverwalk Park, Frederick",39.435,-77.385),"","","弗雷德里克市河滨公园"]);
   birds[j++] = new Bird("19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",p_id("1905mxbird",[10,11]),["mxunam"]);
@@ -618,14 +618,14 @@
   birds[j++] = new Bird("20-10-01T10:07","VIREONID","Philadelphia Vireo","费城莺雀","Vireo philadelphicus",p_id("2020lbrp",31),["mdlbrp","10/2020"]);
   birds[j++] = new Bird("15-08-22T07:06","VIREONID","Warbling Vireo","歌莺雀","Vireo gilvus",[m_id("20160514_056"),p_id("1705ohio",13)],["nyjbwr","ohmage"]);
   birds[j++] = new Bird("17-06-11T08:21","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",m_id("20170611_074"),["mdmwma"]);
-  birds[j++] = new Bird("16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[m_id("20161106_114"),p_id("1609vtcanbirding",15)],["mdmdmd",gmap("Cromwell Valley Park, Baltimore",39.4138,-76.551),"","","巴尔的摩克伦威尔溪谷公园","cactnw"]);
+  birds[j++] = new Bird("16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",[m_id("20161106_114"),p_id("1609vcbird",15)],["mdmdmd",gmap("Cromwell Valley Park, Baltimore",39.4138,-76.551),"","","巴尔的摩克伦威尔溪谷公园","cactnw"]);
   birds[j++] = new Bird("15-09-13T07:30","VIREONID","White-eyed Vireo","白眼莺雀","Vireo griseus",[p_id("2204flbird",41),m_id("20150913_095")],["flevnp","5/2022,S115841189","Shark Valley","","","鲨鱼谷","mdlbrp","Juvenile"]);
 //birds[j++] = new Bird("23-00-00T00:00","ORIOLIDA","Black-naped Oriole","黑枕黄鹂","Oriolus chinensis",m_id(""),["arb",""],"blnori1");
 //birds[j++] = new Bird("23-00-00T00:00","DICRURID","Square-tailed Drongo","方尾卷尾","Dicrurus ludwigii",m_id(""),["arb",""],"sqtdro1");
 //birds[j++] = new Bird("23-00-00T00:00","RHIPIDUR","White-throated Fantail","白喉扇尾鹟","Rhipidura albicollis",m_id(""),["arb",""],"whtfan1");
 //birds[j++] = new Bird("23-00-00T00:00","MONARCHI","Black-naped Monarch","黑枕王鹟","Hypothymis azurea",m_id(""),["arb",""],"blnmon1");
 //birds[j++] = new Bird("23-00-00T00:00","PLATYLOP","Crested Jayshrike","冠鸦","Platylophus galericulatus",m_id(""),["arb",""],"crejay1");
-  birds[j++] = new Bird("16-09-15T06:39","CORVIDAE","Canada Jay","灰噪鸦","Perisoreus canadensis",[p_id("1609vtcanbirding",2),p_id("1709algonquin",14)],["vtwwma","caalgp"]);
+  birds[j++] = new Bird("16-09-15T06:39","CORVIDAE","Canada Jay","灰噪鸦","Perisoreus canadensis",[p_id("1609vcbird",2),p_id("1709algonquin",14)],["vtwwma","caalgp"]);
   birds[j++] = new Bird("20-01-25T08:58","CORVIDAE","Green Jay","绿蓝鸦","Cyanocorax luxuosus",p_id("2001txbirding",40),["txsnwr"]);
   birds[j++] = new Bird("18-12-06T06:57","CORVIDAE","Brown Jay","褐鸦","Psilorhinus morio",p_id("1812crbirding",70),["crarol"],"brnjay");
   birds[j++] = new Bird("06-03-04T15:28","CORVIDAE","Blue Jay","冠蓝鸦","Cyanocitta cristata",[p_id("1412mckee-beshers",34),m_id("20170506_053")],["mdmwma","11/2014","nycenp"]);
@@ -659,7 +659,7 @@
   birds[j++] = new Bird("06-03-16T14:27","PARIDAE ","Tufted Titmouse","美洲凤头山雀","Baeolophus bicolor",m_id("20161112_120"),["mdbhrp"]);
   birds[j++] = new Bird("20-01-25T08:44","PARIDAE ","Black-crested Titmouse","黑冠凤头山雀","Baeolophus atricristatus",p_id("2001txbirding",38),["txsnwr"]);
   birds[j++] = new Bird("06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[p_id("1412mckee-beshers",24),m_id("20210130_021")],["mdmwma","11/2014","vavava",gmap("Bacon Street, Yorktown",37.2323,-76.5062),"","","约克镇培根街"]);
-  birds[j++] = new Bird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vtcanbirding",11),p_id("1408fingerlake",2)],["arb",gmap("Le Domaine de Maizerets, Québec City, Québec, Canada",46.8399,-71.2115),"加拿大魁北克省魁北克市Domaine de Maizerets公园","arb",gmap("Sapsucker Woods Sanctuary, Ithaca, New York, USA"),"美国纽约州伊萨卡啄木鸟树林保护区"]);
+  birds[j++] = new Bird("13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[p_id("1609vcbird",11),p_id("1408fingerlake",2)],["arb",gmap("Le Domaine de Maizerets, Québec City, Québec, Canada",46.8399,-71.2115),"加拿大魁北克省魁北克市Domaine de Maizerets公园","arb",gmap("Sapsucker Woods Sanctuary, Ithaca, New York, USA"),"美国纽约州伊萨卡啄木鸟树林保护区"]);
   birds[j++] = new Bird("16-01-15T13:47","PARIDAE ","Willow Tit","褐头山雀","Poecile montanus",p_id("1601china",68),["cnbjsp"],"wiltit1");
   birds[j++] = new Bird("16-01-05T10:13","PARIDAE ","Japanese Tit","远东山雀","Parus minor",p_id("1601china",[21,22]),["cnjsxp"],"gretit4");
   birds[j++] = new Bird("19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[p_id("1905mxbird",25),p_id("2208azbird",4)],["mxguan","azsndm","S116522318"]);
@@ -725,7 +725,7 @@
   birds[j++] = new Bird("06-04-30T09:54","POLIOPTI","Blue-gray Gnatcatcher","灰蓝蚋莺","Polioptila caerulea",[m_id("20150425_060"),p_id("1512bhill",31),m_id("20200523_024")],["mdbmnt","Male","mdbhrp","8/2015","Female","mdcocn","Nest",""," at Riley's Lock","莱利闸"]);
   birds[j++] = new Bird("06-02-20T13:41","SITTIDAE","White-breasted Nuthatch","白胸䴓","Sitta carolinensis",[m_id(["20161111_119","20160130_004"]),p_id("1507birdingwest",44)],["mdbhrp","Male","mdbhrp","Female","cabake",gmap("Beale Park",35.3625,-119.0251),"","","比尔公园"]);
   birds[j++] = new Bird("15-11-26T11:20","SITTIDAE","Brown-headed Nuthatch","褐头䴓","Sitta pusilla",[p_id("1604asheville",6),m_id("20220716_088")],["ncllmp","dedede","S115177433","Juvenile, "+gmap("Big Stone Beach Marsh, Kent County",39,-75.33),"","","肯特郡大石滩沼泽"],8463);
-  birds[j++] = new Bird("16-09-15T08:27","SITTIDAE","Red-breasted Nuthatch","红胸䴓","Sitta canadensis",p_id("1609vtcanbirding",[7,8]),["vtwwma"]);
+  birds[j++] = new Bird("16-09-15T08:27","SITTIDAE","Red-breasted Nuthatch","红胸䴓","Sitta canadensis",p_id("1609vcbird",[7,8]),["vtwwma"]);
   birds[j++] = new Bird("16-01-15T13:49","SITTIDAE","Chinese Nuthatch","黑头䴓","Sitta villosa",p_id("1601china",69),["cnbjsp"],"snbnut1");
 //birds[j++] = new Bird("23-00-00T00:00","TICHODRO","Wallcreeper","红翅旋壁雀","Tichodroma muraria",m_id(""),["arb",""]);
   birds[j++] = new Bird("07-02-04T12:26","CERTHIID","Brown Creeper","美洲旋木雀","Certhia americana",p_id("1512bhill",24),["mdbhrp","2/2015"]);
@@ -902,7 +902,7 @@
   birds[j++] = new Bird("15-05-09T09:59","PARULIDA","Prairie Warbler","草原绿林莺","Setophaga discolor",m_id(["20170709_082","20190830_011","20170709_081"]),["mdlbrp","Male","flflfl","Female, "+gmap("Magnolia Park, Orange County",28.6339,-81.5507),"","","奥兰治郡阿波普卡湖玉兰公园","mdlbrp","Immature"],"草原林莺");
   birds[j++] = new Bird("15-01-03T10:58","PARULIDA","Adelaide's Warbler","黄腹灰林莺","Setophaga adelaidae",p_id("1501prbirding",18),["prcnwr"],"adewar1");
   birds[j++] = new Bird("22-10-30T08:59","PARULIDA","Black-throated Gray Warbler","黑喉灰林莺","Setophaga nigrescens",m_id("20221030_161"),["mdmdmd","S121588250","Immature, "+gmap("National Colonial Farm, Prince George's County",38.6948,-77.0677),"","","乔治王子郡国家殖民农场"]);
-  birds[j++] = new Bird("15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1705ohio",16),p_id("1609vtcanbirding",9)],["ohmage","Male","vtwwma","Female"]);
+  birds[j++] = new Bird("15-09-26T08:56","PARULIDA","Black-throated Green Warbler","黑喉绿林莺","Setophaga virens",[p_id("1705ohio",16),p_id("1609vcbird",9)],["ohmage","Male","vtwwma","Female"]);
   birds[j++] = new Bird("18-12-05T09:48","PARULIDA","Buff-rumped Warbler","黄腰王森莺","Myiothlypis fulvicauda",p_id("1812crbirding",57),["crarol"],"burwar1");
   birds[j++] = new Bird("17-08-19T08:25","PARULIDA","Canada Warbler","加拿大威森莺","Cardellina canadensis",m_id(["20200525_027","20170826_092"]),["mdcocn","Male",""," at Riley's Lock","莱利闸","mdmwma","Female"]);
   birds[j++] = new Bird("21-03-21T12:39","PARULIDA","Wilson's Warbler","黑头威森莺","Cardellina pusilla",m_id("20210321_034"),["vavava","Male, "+gmap("Moore House Road, Yorktown",37.2226,-76.4891),"","","约克镇摩尔庄园路"]);
