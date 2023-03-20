@@ -117,7 +117,7 @@
   info[3][j] = "7/2013 Alaska Birding";
   info[4][j++] = "Birding in Alaska (Alaska).";
   info[0][j] = "1312bbbird";
-  info[1][j] = 5;
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "12/2013 Big Bend Birding";
   info[4][j++] = "Birding in Big Bend National Park (Texas).";
