@@ -86,8 +86,8 @@
   info[2][j] = 2;
   info[3][j] = "11/2011 Chincoteague Birding";
   info[4][j++] = "Birding in Chincoteague National Wildlife Refuge (Virginia).";
-  info[0][j] = "1112floridabirding";
-  info[1][j] = 6;
+  info[0][j] = "1112flbird";
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "12/2011 Florida Birding";
   info[4][j++] = "Birding in the Everglades and the Merritt Island (Florida).";
@@ -101,8 +101,8 @@
   info[2][j] = 2;
   info[3][j] = "4/2012 American Robin";
   info[4][j++] = "An American Robin Nest (Maryland).";
-  info[0][j] = "1206brooksidebirding";
-  info[1][j] = 5;
+  info[0][j] = "1206bsbird";
+  info[1][j] = 3;
   info[2][j] = 2;
   info[3][j] = "6/2012 Brookside Garden";
   info[4][j++] = "Birding in Brookside Garden (Maryland).";
@@ -121,7 +121,7 @@
   info[2][j] = 2;
   info[3][j] = "12/2013 Big Bend Birding";
   info[4][j++] = "Birding in Big Bend National Park (Texas).";
-  info[0][j] = "1312savannahbirding";
+  info[0][j] = "1312svbird";
   info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "12/2013 Savannah Birding";
@@ -131,8 +131,8 @@
   info[2][j] = 2;
   info[3][j] = "7/2014 Michigan Birding";
   info[4][j++] = "Birding in Upper Michigan (Michigan).";
-  info[0][j] = "1408annapolisbirding";
-  info[1][j] = 5;
+  info[0][j] = "1408anbird";
+  info[1][j] = 3;
   info[2][j] = 2;
   info[3][j] = "8/2014 Annapolis Birding";
   info[4][j++] = "Birding at Greenbury Point in Annapolis (Maryland).";
