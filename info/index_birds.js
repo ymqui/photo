@@ -147,7 +147,7 @@
   info[3][j] = "12/2014 McKee-Beshers Birding";
   info[4][j++] = "Birding in McKee-Beshers Wildlife Management Area (Maryland).";
   info[0][j] = "1501prbird";
-  info[1][j] = 8;
+  info[1][j] = 5;
   info[2][j] = 2;
   info[3][j] = "1/2015 Puerto Rico Birding";
   info[4][j++] = "Birding in Puerto Rico (Puerto Rico).";
