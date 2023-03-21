@@ -677,7 +677,7 @@
      }else{
         misc_cnts[ind] = misc_cnts[ind]+1;
      }
-     return stradd("misc_birds"+num.toString()+"/",id);
+     return stradd("misc_birds"+num.toString()+"/20",id);
   }
 
   function p_id(album,id){
