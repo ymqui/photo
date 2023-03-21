@@ -356,8 +356,8 @@
   info[2][j] = 3;
   info[3][j] = "12/2006 Commencement";
   info[4][j++] = "Huigang Attending the 2006 University of Maryland Commencement (Maryland).";
-  info[0][j] = "2006cobirding";
-  info[1][j] = 6;
+  info[0][j] = "2006cobird";
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "2006 C&O Birds";
   info[4][j++] = "Birding at C&O Canal in 2006 (Maryland).";
@@ -611,8 +611,8 @@
   info[2][j] = 2;
   info[3][j] = "12/2007-2/2008 Beijing";
   info[4][j++] = "Alleys and other Scenes (Beijing, China).";
-  info[0][j] = "2007cobirding";
-  info[1][j] = 6;
+  info[0][j] = "2007cobird";
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "2007 C&O Birds";
   info[4][j++] = "Birding at C&O Canal in 2007 (Maryland).";
@@ -771,8 +771,8 @@
   info[2][j] = 3;
   info[3][j] = "12/2008 Xiao Mi";
   info[4][j++] = "Two-year-old Xiao Mi (Maryland).";
-  info[0][j] = "2008cobirding";
-  info[1][j] = 6;
+  info[0][j] = "2008cobird";
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "2008 C&O Birds";
   info[4][j++] = "Birding at C&O Canal in 2008 (Maryland).";
@@ -856,8 +856,8 @@
   info[2][j] = 2;
   info[3][j] = "12/2009 Amish Buggy";
   info[4][j++] = "Amish Buggy in Lancaster County (Pennsylvania).";
-  info[0][j] = "2009cobirding";
-  info[1][j] = 6;
+  info[0][j] = "2009cobird";
+  info[1][j] = 4;
   info[2][j] = 2;
   info[3][j] = "2009 C&O Birds";
   info[4][j++] = "Birding at C&O Canal in 2009 (Maryland).";
