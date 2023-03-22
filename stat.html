@@ -69,6 +69,7 @@ if (cellphone){
    offset = [3,4];
    clen   = 12;
 }
+var linkid = 0;
 var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),
              mylink('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind]),
              mylink('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind]),
@@ -135,11 +136,7 @@ function erare(name){
                    Zhejiang:            ['42133','中国浙江省']
                  };
     var id = alerts[name.replace(/\s/g, "")];
-    if (usechinese){
-       return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(id[1]+'稀有鸟类警报')+'</a>';
-    }else{
-       return '<a href="https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc" target="link0">'+mytext(name+' Rare Bird Alert')+'</a>';
-    }
+    return mylink('https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc',([name+' Rare Bird Alert',id[1]+'稀有鸟类警报'])[cn_ind],'ebirdalert');
 }
 
 function sortProperties(obj,byname){
@@ -246,13 +243,14 @@ function tooltip(text,tooltip) {
     }
 }
 
-function mylink(link,name) {
+function mylink(link,name,target) {
+    if (typeof target === 'undefined'){target='mylink'+(linkid++).toString();}
     if (Array.isArray(link)){
        for (var i=0;i<link.length;i++){
-           link[i] = '<a href="'+link[i]+'" target="mylink">'+mytext(name+([' ',''])[cn_ind]+(i+1).toString())+'</a>';
+           link[i] = '<a href="'+link[i]+'" target="'+target+'">'+mytext(name+([' ',''])[cn_ind]+(i+1).toString())+'</a>';
        }
     }else{
-       link = '<a href="'+link+'" target="mylink">'+mytext(name)+'</a>';
+       link = '<a href="'+link+'" target="'+target+'">'+mytext(name)+'</a>';
     }
     return link;
 }
