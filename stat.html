@@ -71,19 +71,19 @@ if (cellphone){
 }
 var linkid = 0;
 var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('Iceland'),
-             bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'icon_ebird.png'),
-             bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'icon_ebird.png'),
-             bookmark('https://groups.google.com/g/mdbirding',(['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind],'icon_groups.png'),
-             bookmark('https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/',(['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind],'icon_facebook.png'),
-             bookmark('https://www.facebook.com/groups/118655321826890/',(['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind],'icon_facebook.png'),
-             bookmark('https://americanornithology.org/nacc/current-prior-proposals/',(['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind],'icon_aos.png'),
-             bookmark('https://www.aba.org/aba-checklist/',(['ABA Checklist','ABA鸟类清单'])[cn_ind],'icon_aba.png'),
-             bookmark('https://www.aba.org/aba-area-introduced-species/',(['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind],'icon_aba.png'),
-             bookmark('https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae',(['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind],'icon_cornell.png'),
-             bookmark('https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing',(['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind],'icon_cornell.png'),
-             bookmark('https://tropicalaudubon.org/birds-of-south-florida',(['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind],'icon_kite.png'),
-             bookmark('https://www.arizonabirder.com/specialty-birds-in-se-arizona/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'icon_trogon.png'),
-             bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'icon_puffin.png')
+             bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
+             bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
+             bookmark('https://groups.google.com/g/mdbirding',(['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind],'groups'),
+             bookmark('https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/',(['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind],'facebook'),
+             bookmark('https://www.facebook.com/groups/118655321826890/',(['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind],'facebook'),
+             bookmark('https://americanornithology.org/nacc/current-prior-proposals/',(['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind],'aos'),
+             bookmark('https://www.aba.org/aba-checklist/',(['ABA Checklist','ABA鸟类清单'])[cn_ind],'aba'),
+             bookmark('https://www.aba.org/aba-area-introduced-species/',(['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind],'aba'),
+             bookmark('https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae',(['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind],'cornell'),
+             bookmark('https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing',(['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind],'cornell'),
+             bookmark('https://tropicalaudubon.org/birds-of-south-florida',(['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind],'kite'),
+             bookmark('https://www.arizonabirder.com/specialty-birds-in-se-arizona/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'trogon'),
+             bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'puffin')
             ];
 var date = new Date();
 if (date.getTimezoneOffset()/60 ==(-8)){ //in China
@@ -120,7 +120,7 @@ function erare(name){
                    Zhejiang:            ['42133','中国浙江省']
                  };
     var id = alerts[name.replace(/\s/g, "")];
-    return bookmark('https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc',([name+' Rare Bird Alert',id[1]+'稀有鸟类警报'])[cn_ind],'icon_ebird.png','ebirdalert');
+    return bookmark('https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc',([name+' Rare Bird Alert',id[1]+'稀有鸟类警报'])[cn_ind],'ebird','ebirdalert');
 }
 
 function sortProperties(obj,byname){
@@ -228,7 +228,7 @@ function tooltip(text,tooltip) {
 }
 
 function bookmark(link,name,icon,target) {
-    var tmp_url = '<img src="https://ymqui.github.io/photo/thumbnail2/'+icon+'" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
+    var tmp_url = '<img src="https://ymqui.github.io/photo/thumbnail2/icon_'+icon+'.png" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
     if (typeof target === 'undefined'){target='bookmark'+(linkid++).toString();}
     if (Array.isArray(link)){
        for (var i=0;i<link.length;i++){
