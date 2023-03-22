@@ -249,7 +249,7 @@ function tooltip(text,tooltip) {
 function mylink(link,name) {
     if (Array.isArray(link)){
        for (var i=0;i<link.length;i++){
-           link[i] = '<a href="'+link[i]+'" target="mylink">'+mytext(name)+([' ',''])[cn_ind]+(i+1).toString()+'</a>';
+           link[i] = '<a href="'+link[i]+'" target="mylink">'+mytext(name+([' ',''])[cn_ind]+(i+1).toString())+'</a>';
        }
     }else{
        link = '<a href="'+link+'" target="mylink">'+mytext(name)+'</a>';
