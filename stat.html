@@ -82,7 +82,7 @@ var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('D
              '<a href="https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing" target="link10">'+mytext((['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind])+'</a>',
              '<a href="https://tropicalaudubon.org/birds-of-south-florida" target="link11">'+mytext((['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind])+'</a>',
              '<a href="https://www.arizonabirder.com/specialty-birds-in-se-arizona/" target="link12">'+mytext((['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind])+'</a>',
-             '<a href="https://wingsbirds.com/tours/iceland/" target="link13">'+mytext((['Birds of Iceland','冰岛鸟类'])[cn_ind])+'</a>'
+             ['<a href="https://guidetoiceland.is/nature-info/birds-in-iceland" target="link13">'+mytext((['Birds of Iceland 1','冰岛鸟类1'])[cn_ind])+'</a>','<a href="https://wingsbirds.com/tours/iceland/" target="link14">'+mytext((['Birds of Iceland 2','冰岛鸟类2'])[cn_ind])+'</a>']
             ];
 var icons = ['https://ymqui.github.io/photo/thumbnail2/icon_ebird.png',
 	     'https://ymqui.github.io/photo/thumbnail2/icon_groups.png',
@@ -416,7 +416,14 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     document.write('<td></td>');
     if (k<(links.length*2-1)){
        if (k%2==0){
-          tmp_url = '<img src="'+icons[k/2]+'" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">&nbsp;'+links[k/2];
+          if (Array.isArray(links[k/2])){
+             tmp_url = '<img src="'+icons[k/2]+'" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
+             for (var ii=0;ii<links[k/2].length;ii++){
+                 tmp_url =  tmp_url+'&nbsp;'+links[k/2][ii]+((ii==links[k/2].length-1)?'':([',&nbsp;','，'])[cn_ind]);
+             }
+          }else{
+             tmp_url = '<img src="'+icons[k/2]+'" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">&nbsp;'+links[k/2];
+          }
        }else{
           tmp_url = '';
        }
