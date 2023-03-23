@@ -48,7 +48,6 @@
       mdswhf: ["Swan Harbor Farm","Harford County, Maryland, USA","天鹅港农场","美国马里兰州哈福德郡","http://www.swanharborfarm.org/"],
       mdwhrp: ["Wheaton Regional Park","Maryland, USA","惠顿公园","美国马里兰州","https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/"],
       mdworc: ["Worcester County","Maryland, USA","伍斯特郡","美国马里兰州"],
-      mxmcal: ["Alameda Central","Mexico City, Mexico","阿拉米达中央公园","墨西哥墨西哥城",wiki("Alameda Central")],
       mxguan: ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wiki("El Pípila"),baike("瓜纳华托")],
       mxunam: ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baike("墨西哥国立自治大学")],
       nccrsp: ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"], 
@@ -208,7 +207,7 @@
   birds[j++] = new Bird("15-07-12T10:32","COLUMBID","Eurasian Collared-Dove","灰斑鸠","Streptopelia decaocto",p_id("1606florida",25),["flflfl",gmap("South Beach, Miami",25.789,-80.1283),"","","迈阿密南滩"]);
   birds[j++] = new Bird("15-01-03T06:48","COLUMBID","African Collared-Dove","粉头斑鸠","Streptopelia roseogrisea",p_id("1501prbird",12),["prprpr",gmap("Ponce",18.0114,-66.6139),"","","蓬塞市"]);
   birds[j++] = new Bird("16-01-03T10:00","COLUMBID","Spotted Dove","珠颈斑鸠","Spilopelia chinensis",p_id("1601china",7),["cnbjjp"],"spodov");
-  birds[j++] = new Bird("13-12-25T14:41","COLUMBID","Inca Dove","印加地鸠","Columbina inca",[p_id("1312bbbird",2),p_id("1812crbird",8),p_id("1905mxbird",34)],["txbbnp","crsanj",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","mxmcal"]);
+  birds[j++] = new Bird("13-12-25T14:41","COLUMBID","Inca Dove","印加地鸠","Columbina inca",[p_id("1312bbbird",2),p_id("1812crbird",8),p_id("1905mxbird",34)],["txbbnp","crsanj",gmap("La Sabana Park",9.9354,-84.1025),"","","萨瓦纳公园","arb",wiki("Alameda Central",true),"","Mexico City, Mexico","墨西哥墨西哥城阿拉米达中央公园"]);
   birds[j++] = new Bird("15-01-02T09:54","COLUMBID","Common Ground Dove","地鸠","Columbina passerina",p_id("1501prbird",[8,19]),["prprpr","Male, "+gmap("Rincón",18.3408,-67.2554),"","","林孔市","prcnwr","Female"]);
   birds[j++] = new Bird("23-01-23T15:05","COLUMBID","Ruddy Ground Dove","红地鸠","Columbina talpacoti",p_id("2301pabird",[65,133]),["pacasc","S126834645","Male","pacasc","S126981122","Female"],"rugdov");
   birds[j++] = new Bird("18-12-07T08:02","COLUMBID","White-tipped Dove","白额棕翅鸠","Leptotila verreauxi",p_id("1812crbird",86),["crarol"],"whtdov");
@@ -715,7 +714,7 @@
   birds[j++] = new Bird("22-08-07T08:36","TROGLODY","Cactus Wren","棕曲嘴鹪鹩","Campylorhynchus brunneicapillus",p_id("2208azbird",[8,37]),["azsndm","S116522318","azazaz","S116565221","Nest, "+hotspot("L340405","Box Canyon Road, Pima County"),"","","皮马郡盒子峡谷路"]);
   birds[j++] = new Bird("17-10-15T08:16","TROGLODY","Sedge Wren","北美沼泽鹪鹩","Cistothorus stellaris",m_id(["171015_119","171015_117"]),["mdlbrp"],8372);
   birds[j++] = new Bird("15-05-17T09:53","TROGLODY","Marsh Wren","长嘴沼泽鹪鹩","Cistothorus palustris",p_id("1505bombayhook",6),["debnwr"]);
-  birds[j++] = new Bird("19-05-12T10:14","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",p_id("1905mxbird",[28,35]),["mxguan","mxmcal"]);
+  birds[j++] = new Bird("19-05-12T10:14","TROGLODY","Bewick's Wren","比氏苇鹪鹩","Thryomanes bewickii",p_id("1905mxbird",[28,35]),["mxguan","arb",wiki("Alameda Central",true),"","Mexico City, Mexico","墨西哥墨西哥城阿拉米达中央公园"]);
   birds[j++] = new Bird("23-01-25T08:51","TROGLODY","Rufous-breasted Wren","棕胸苇鹪鹩","Pheugopedius rutilus",p_id("2301pabird",102),["pametr","S126933504"],"rubwre1");
   birds[j++] = new Bird("06-04-15T10:41","TROGLODY","Carolina Wren","卡罗苇鹪鹩","Thryothorus ludovicianus",[p_id("1512bhill",21),m_id("160221_017")],["mdbhrp","2/2015","mdcocn","","",""," at Riley's Lock","莱利闸"]);
   birds[j++] = new Bird("06-03-04T15:46","TROGLODY","Winter Wren","冬鹪鹩","Troglodytes hiemalis",m_id("220115_012"),["dcdcdc","S100801147",gmap("Heritage Island Park",38.8923,-76.9666),"","","遗产岛公园"]);
@@ -735,7 +734,7 @@
   birds[j++] = new Bird("23-01-23T06:46","MIMIDAE ","Tropical Mockingbird","热带小嘲鸫","Mimus gilvus",p_id("2301pabird",2),["papipe","S126820115"],"tromoc");
   birds[j++] = new Bird("15-04-25T14:13","MIMIDAE ","Brown Thrasher","褐弯嘴嘲鸫","Toxostoma rufum",p_id("1512bhill",[26,33]),["mdbhrp","4/2015","mdbhrp","8/2015","Immature, with minor crossed-bill deformity","未成年，嘴略显交叉畸形"]);
   birds[j++] = new Bird("20-01-25T08:16","MIMIDAE ","Long-billed Thrasher","长弯嘴嘲鸫","Toxostoma longirostre",p_id("2001txbirding",36),["txsnwr"]);
-  birds[j++] = new Bird("19-05-12T09:21","MIMIDAE ","Curve-billed Thrasher","弯嘴嘲鸫","Toxostoma curvirostre",[p_id("1905mxbird",[5,33]),p_id("2208azbird",40)],["mxunam","mxmcal","Adult and juvenile","azazaz","S116569566","Juvenile, "+hotspot("L247122","Paton Center for Hummingbirds, Santa Cruz County"),"","","圣克鲁斯郡佩顿蜂鸟中心"]);
+  birds[j++] = new Bird("19-05-12T09:21","MIMIDAE ","Curve-billed Thrasher","弯嘴嘲鸫","Toxostoma curvirostre",[p_id("1905mxbird",[5,33]),p_id("2208azbird",40)],["mxunam","arb","Adult and juvenile, "+wiki("Alameda Central",true),"","Mexico City, Mexico","墨西哥墨西哥城阿拉米达中央公园","azazaz","S116569566","Juvenile, "+hotspot("L247122","Paton Center for Hummingbirds, Santa Cruz County"),"","","圣克鲁斯郡佩顿蜂鸟中心"]);
   birds[j++] = new Bird("15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",p_id("1501prbird",49),["prsanj"],"peethr1");
   birds[j++] = new Bird("16-01-04T08:04","STURNIDA","Red-billed Starling","丝光椋鸟","Spodiopsar sericeus",p_id("1601china",9),["cnjsxp","Female"],"rebsta1");
   birds[j++] = new Bird("16-01-03T09:46","STURNIDA","White-cheeked Starling","灰椋鸟","Spodiopsar cineraceus",p_id("1601china",3),["cnbjjp"],"whcsta1");
@@ -752,10 +751,10 @@
   birds[j++] = new Bird("15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[p_id("1512bhill",36),m_id("220508_058")],["mdbhrp","8/2015","vavava","S109363991",gmap("Luria Park, Fairfax County",38.856,-77.207),"","","费尔法克斯郡卢里亚公园"]);
   birds[j++] = new Bird("16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",p_id("1601china",[70,16]),["cnbjsp","Male","cnjsxp","Female"],"chibla1","乌鸫普通亚种");
   birds[j++] = new Bird("17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",p_id("1704longyan",2),["cnlydp","Male"],"gybthr1");
-  birds[j++] = new Bird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾斑鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","arb",wiki("Temple of Heaven",true)+", Beijing, China",baike("天坛公园","中国北京")],"dusthr1","红尾鸫");
+  birds[j++] = new Bird("16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾斑鸫","Turdus naumanni",p_id("1601china",[8,72]),["cnbjjp","arb",wiki("Temple of Heaven",true),"","Beijing, China",baike("天坛公园","中国北京")],"dusthr1","红尾鸫");
   birds[j++] = new Bird("06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",[m_id(["170506_042","220403_052"]),p_id("1206bsbird",12),p_id("1204robin",2)],["nycenp","Male","mdrock","Female","mdwhrp","Juvenile",""," at Brookside Gardens","溪边花园","mdmdmd","Germantown","","","德国镇"]);
   birds[j++] = new Bird("15-01-08T07:25","TURDIDAE","Red-legged Thrush","红腿鸫","Turdus plumbeus",p_id("1501prbird",36),["prsanj"],"relthr1");
-  birds[j++] = new Bird("19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",p_id("1905mxbird",31),["mxmcal"],"rubrob");
+  birds[j++] = new Bird("19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",p_id("1905mxbird",31),["arb",wiki("Alameda Central",true),"","Mexico City, Mexico","墨西哥墨西哥城阿拉米达中央公园"],"rubrob");
   birds[j++] = new Bird("18-12-04T07:50","TURDIDAE","Clay-colored Thrush","褐背鸫","Turdus grayi",[p_id("1812crbird",29),p_id("2301pabird",68)],["crarol","pacasc","S126834645"],"clcrob");
   birds[j++] = new Bird("16-01-06T09:03","MUSCICAP","Oriental Magpie-Robin","鹊鸲","Copsychus saularis",p_id("1601china",26),["cnjsxp","Male"],"magrob");
   birds[j++] = new Bird("16-01-05T09:41","MUSCICAP","Red-flanked Bluetail","红胁蓝尾鸲","Tarsiger cyanurus",p_id("1601china",[18,19]),["cnjsxp","Female"],"refblu");
@@ -785,7 +784,7 @@
   birds[j++] = new Bird("16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",p_id("1601china",27),["cnjsxp","Female"],"yebgro1");
   birds[j++] = new Bird("14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",m_id(["161016_104","161106_115"]),["mdbhrp","Male","mdmdmd","Female, "+gmap("Cromwell Valley Park, Baltimore",39.4138,-76.551),"","","巴尔的摩克伦威尔溪谷公园"]);
   birds[j++] = new Bird("06-08-11T17:33","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",[p_id("1412mckee",[1,35,2]),p_id("1905mxbird",19)],["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female","mxunam"]);
-  birds[j++] = new Bird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",p_id("1601china",71),["arb",wiki("Temple of Heaven",true)+", Beijing, China",baike("天坛公园","中国北京")],"origre");
+  birds[j++] = new Bird("16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",p_id("1601china",71),["arb",wiki("Temple of Heaven",true),"","Beijing, China",baike("天坛公园","中国北京")],"origre");
   birds[j++] = new Bird("15-01-20T08:48","FRINGILL","Common Redpoll","白腰朱顶雀","Acanthis flammea",[p_id("1512bhill",7),m_id("201027_115")],["mdbhrp","1/2015","Female, with a "+b_link("Pine Siskin")+" on the right","雌性，右边是一只"+b_link("松金翅雀"),"mdocci","Female, "+gmap("Sunset Park",38.3277,-75.0907),"","","日落公园"]);
   birds[j++] = new Bird("21-01-24T11:53","FRINGILL","Hoary Redpoll","极北朱顶雀","Acanthis hornemanni",m_id(["210124_017","210124_018"]),["papapa",gmap("N. Oak Lane, State College",40.8054,-77.9138),"","","州立大学北橡树巷"]);
   birds[j++] = new Bird("17-02-11T11:47","FRINGILL","Red Crossbill","红交嘴雀","Loxia curvirostra",m_id("170211_020"),["papapa","Males red, females yellow-green, "+gmap("Owl Creek Park, Schuylkill County",40.796,-75.9282),"雄性带红色，雌性黄绿色","","斯古吉尔郡鸮河公园"]);
