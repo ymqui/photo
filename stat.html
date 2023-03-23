@@ -174,12 +174,7 @@ function getloctooltip(str){
 
 function getlocCountry(str){
     var tmp = lurls[str];
-    var tmp1 = '';
-    if (tmp[2].match(/[\u3400-\u9FBF]/)){
-       tmp1 = getCountry(tmp[1],1);
-    }else{
-       tmp1 = getCountry(tmp[2],1);
-    }
+    var tmp1 = getCountry(tmp[1],1);
     if (usechinese) {
        return chn_cou[eng_cou.indexOf(tmp1)];
     }else{
