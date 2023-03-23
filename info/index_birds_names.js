@@ -31,6 +31,7 @@
       flevnp: ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",nps("ever"),baike("大沼泽地国家公园")],
       flmnwr: ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",nps("Merritt_Island",true)],
       flflfl: ["Florida","USA","佛罗里达州","美国"],
+      isisis: ["","Iceland","","冰岛"],
       marace: ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州",hotspot("L364733")],
       mdbhrp: ["Black Hill Regional Park","Montgomery County, Maryland, USA","黑山公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt: ["Blue Mash Nature Trail","Montgomery County, Maryland, USA","蓝沼自然小径","美国马里兰州蒙哥马利郡","https://www.montgomerycountymd.gov/sws/facilities/oaks/"],
