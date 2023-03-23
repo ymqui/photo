@@ -736,15 +736,14 @@
   }
 
   function nps(pid,isfws,name){
-     if (typeof isfws === 'undefined'){
-        return "https://www.nps.gov/"+pid+"/";
-     }
+     var url = 'https://www.'+(typeof isfws === 'boolean')?'fws.gov/refuge/':'nps.gov/'+pid+'/';
      if (typeof isfws === "string"){name = isfws;}
-     if (typeof name === 'undefined'){
-        return "https://www.fws.gov/refuge/"+pid+"/";
+     if (typeof name === 'string'){
+        var tmp = strsplit(name);
+        if ((/nwr/i).test(tmp[0])){tmp[0] = tmp[0].replace(/nwr/ig,'National Wildlife Refuge');}
+        url = "<a href='"+url+lnksty+" target='"+pid+"'>"+tmp[0]+"</a>"+tmp[1];
      }
-     var tmp = strsplit(name);
-     return "<a href='https://www.fws.gov/refuge/"+pid+"/"+lnksty+" target='"+pid+"'>"+tmp[0]+"</a>"+tmp[1];
+     return url;
   }
 
   function wiki(id,name){
