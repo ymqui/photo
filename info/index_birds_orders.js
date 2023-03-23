@@ -736,7 +736,7 @@
   }
 
   function nps(pid,isfws,name){
-     var url = 'https://www.'+(typeof isfws === 'boolean')?'fws.gov/refuge/':'nps.gov/'+pid+'/';
+     var url = 'https://www.'+((typeof isfws === 'boolean')?'fws.gov/refuge/':'nps.gov/')+pid+'/';
      if (typeof isfws === "string"){name = isfws;}
      if (typeof name === 'string'){
         var tmp = strsplit(name);
