@@ -8,7 +8,7 @@
       if ((mname!=bname) && birdFound(mname)){
          mname=mname+q_count;
          if(order) mname=mname+'&amp;order'; 
-         style_b = "<a href='showbird.html?name="+mname+lnksty+">";
+         style_b = my_href("showbird.html?name="+mname);
          style_e = "</A>";
       }else{
          style_b = "<font color='#DDEEEE'>";
