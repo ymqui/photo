@@ -70,7 +70,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","PICIDAE ","Red-breasted Sapsucker","红胸吸汁啄木鸟","Sphyrapicus ruber",p_id("",),["cnbjjp","1/2023,"]);
 //birds[j++] = new Bird("23-00-00T00:00","PICIDAE ","Nuttall's Woodpecker","加州啄木鸟","Dryobates nuttallii",p_id("",),["cnbjjp","1/2023,"],"","");
 //birds[j++] = new Bird("23-00-00T00:00","PICIDAE ","Great Spotted Woodpecker","大斑啄木鸟","Dendrocopos major",p_id("",),["cnbjjp","1/2023,"],"grswoo");
-//birds[j++] = new Bird("23-00-00T00:00","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",m_id(""),["mdbhrp","1/2023,"]);
+//birds[j++] = new Bird("23-00-00T00:00","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",p_id("2306isbird",),["isisis",""]);
 //birds[j++] = new Bird("22-05-04T07:26","PSITTACI","Red-crowned Parrot","红冠鹦哥","Amazona viridigenalis",p_id("2204flbird",49),["flflfl","5/2022,S108967469",gmap("Brewer Park, Miami-Dade County",25.718,-80.296),"","","迈阿密-戴德郡布如尔公园"],"recpar",4098);
 //birds[j++] = new Bird("23-00-00T00:00","PSITTACI","Scarlet Macaw","绯红金刚鹦鹉","Ara macao",["0504zoo/0504zoo__23"],["natzo","1/2023,"],"scamac1");
 //birds[j++] = new Bird("23-00-00T00:00","PSITTACI","Mitred Parakeet","红耳绿鹦哥","Psittacara mitratus",m_id(""),["flflfl","1/2023,",gmap("Lincoln Road Mall, Miami",25.7905,-80.1367),"","","迈阿密林肯路购物中心"],"mitpar",4199);
@@ -119,6 +119,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","TURDIDAE","Red-throated Thrush","赤颈鸫","Turdus ruficollis",p_id("",),["cnlydp","1/2023,","Male"],"retthr1");
 //birds[j++] = new Bird("23-00-00T00:00","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",p_id("",),["cnbjjp","1/2023,"],"dusthr2",8772);
 //birds[j++] = new Bird("23-00-00T00:00","MUSCICAP","Bluethroat","蓝喉歌鸲","Luscinia svecica",m_id(""),["mdbhrp","1/2023,"]);
+//birds[j++] = new Bird("23-00-00T00:00","MUSCICAP","Northern Wheatear","穗䳭","Oenanthe oenanthe",p_id("2306isbird",),["arb",""],"norwhe");
 //birds[j++] = new Bird("23-00-00T00:00","CHLOROPS","Blue-winged Leafbird","蓝翅叶鹎","Chloropsis moluccensis",p_id("",),["cnlydp","1/2023,","Male"],"blwlea1");
 //birds[j++] = new Bird("23-00-00T00:00","ESTRILDI","Scaly-breasted Munia","斑文鸟","Lonchura punctulata",p_id("2212flbird",),["flflfl","12/2022,",gmap("Dunedin Hammock Park, Pinellas County",28.0319,-82.7785),"","","皮尼拉斯郡达尼丁市硬木公园"],"nutman");
 //birds[j++] = new Bird("23-00-00T00:00","FRINGILL","Pine Grosbeak","松雀","Pinicola enucleator",m_id(""),["mdmdmd","1/2023,"]);
