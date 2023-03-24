@@ -571,7 +571,7 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the NIST fire and police department","参观NIST消防队和警察局"])[cn_ind];
     this[0][i]    = ["20230303_1","20230303_2"];
     this[1][i++]  = (["Reading with Akash's Mom","听Akash的妈妈读书"])[cn_ind];
-    this[0][i]    = ["20230303_3"];
+    this[0][i]    = "20230303_3";
     this[1][i++]  = (["Snack time","吃零食"])[cn_ind];
     this[0][i]    = ["20230303_4","20230303_5"];
     this[1][i++]  = (["Visiting Remy's Mom's lab to learn about fire","参观Remy妈妈的实验室来了解什么是火"])[cn_ind];
@@ -579,10 +579,14 @@ function initAlbum(){
     this[1][i++]  = (["Reptiles show","爬行动物展示"])[cn_ind];
     this[0][i]    = ["20230315_1","20230315_2"];
     this[1][i++]  = (["Measuring with a ruler","用尺子量东西"])[cn_ind];
-    this[0][i]    = ["20230317_2"];
+    this[0][i]    = "20230317_2";
     this[1][i++]  = (["Measuring the gingerbread man","测量姜饼人"])[cn_ind];
-    this[0][i]    = ["20230317_1"];
+    this[0][i]    = "20230317_1";
     this[1][i++]  = (["My favorite cake: 3-layer vanilla cake","最喜欢的蛋糕：三层香草蛋糕"])[cn_ind];
+    this[0][i]    = ["20230322_1","20230322_2"];
+    this[1][i++]  = (["Visiting the polymer's lab","参观聚合物实验室"])[cn_ind];
+    this[0][i]    = "20230323_1";
+    this[1][i++]  = (["Building a person out of magnet tiles","用磁块搭人"])[cn_ind];
 
     adddate(this);
 }
