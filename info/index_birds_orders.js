@@ -447,7 +447,6 @@
                  "nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*","nonbreeding females*","nonbreeding males*","(partially)* *leucistic","mating display","nest","light morph","dark morph"];
   var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽",
                  "秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];
-  var lnksty  = "' style='color: #3399FF; text-decoration: underline;'";
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   
@@ -531,13 +530,23 @@
      }
      return false;
   }
+  
+  function my_href(url,name,target){
+     if (typeof name === 'undefined'){
+        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>";
+     }else if (typeof target === 'undefined'){
+        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>"+name+"</a>";
+     }else{
+        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;' target='"+target+"'>"+name+"</a>";
+     }
+  }
 
   function b_link(bid,info){
      if (typeof info === 'undefined') {info = bid;} else {
         if (info==='s'){info = bid.trim()+info;}
      }
      if (order){bid = bid+"&order";}
-     return "<a href='showbird.html?name="+reform(bid)+lnksty+">"+info+"</a>";
+     return my_href('showbird.html?name='+reform(bid),info);
   }
 
   function getByCountry(id, myArray){
@@ -693,7 +702,7 @@
            var tmp1='',tmp2='';
            if(typeof afterin !== 'undefined'){tmp1=afterin;}
            if(typeof afterout !== 'undefined'){tmp2=afterout;}
-           return before+"<a href='https://baike.baidu.com/item/"+name+lnksty+" target='"+name+"'>"+name+tmp1+"</a>"+tmp2;
+           return before+my_href("https://baike.baidu.com/item/"+name,name+tmp1,name)+tmp2;
         }
      }else{
         return "https://dongniao.net/nd/"+name.toString();
@@ -711,7 +720,7 @@
   function hotspot(id,name){
      if (typeof name == 'string'){
         var tmp = strsplit(name);
-        return "<a href='https://birdinghotspots.org/hotspot/"+id+lnksty+" target='"+id+"'>"+tmp[0]+"</a>"+tmp[1];
+        return my_href("https://birdinghotspots.org/hotspot/"+id,tmp[0],id)+tmp[1];
      }else{
         return "https://birdinghotspots.org/hotspot/"+id;
      }
@@ -720,9 +729,9 @@
   function gmap(name,latt,long){
      var tmp = strsplit(name);
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],'+')+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
+        return my_href("https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],"+"),tmp[0],"gmap")+tmp[1];
      }else{
-        return "<a href='https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString()+lnksty+" target='gmap'>"+tmp[0]+"</a>"+tmp[1];
+        return my_href("https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString(),tmp[0],"gmap")+tmp[1];
      }
   }
 
@@ -731,7 +740,7 @@
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
         return name;
      }else{
-        return "<a href='http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02&title="+name+lnksty+" target='bmap'>"+name+"</a>";
+        return my_href("http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02&title="+name,name,"bmap");
      }
   }
 
@@ -741,7 +750,7 @@
      if (typeof name === 'string'){
         var tmp = strsplit(name);
         if ((/nwr/i).test(tmp[0])){tmp[0] = tmp[0].replace(/nwr/ig,'National Wildlife Refuge');}
-        url = "<a href='"+url+lnksty+" target='"+pid+"'>"+tmp[0]+"</a>"+tmp[1];
+        url = my_href(url,tmp[0],pid)+tmp[1];
      }
      return url;
   }
@@ -749,11 +758,9 @@
   function wiki(id,name){
      if (typeof name === 'undefined'){
         return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
-     }else if(typeof name =="string"){
-        return "<a href='https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true)+lnksty+" target='"+id+"'>"+name+"</a>";
-     }else{
-        return "<a href='https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true)+lnksty+" target='"+id+"'>"+id+"</a>";
      }
+     if(typeof name !== "string") {name = id;}
+     return my_href("https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true),name,id);
   }
 
   function reform(name,space,apostrophe,notlowercase){
@@ -803,7 +810,7 @@
          if (tmp1.length==0){tmp1=getdate(photo[i]);}
          if (tmp2.length>0){
             if (ebirdlist.indexOf(tmp2)===-1){ebirdlist.push(tmp2);}
-            info[1+6*i] = "<a href='https://ebird.org/checklist/"+tmp2+lnksty+" target='"+tmp2+"'>"+tmp1+"</a>";
+            info[1+6*i] = my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2);
          }else{
             info[1+6*i] = tmp1;
          }
@@ -847,7 +854,7 @@
      return url;
   }
 
-  function loclink(pid,date,usechinese,header,extra){
+  function loclink(pid,date,usechinese,head,tail){
      pid = pid.trim().toLowerCase();
      var cn_ind = usechinese?1:0;
      var comma  = ([", ","，"])[cn_ind];
@@ -856,24 +863,24 @@
         if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
         loc_cnts[pid]++;
      }
-     if (typeof date === 'undefined') {date  = "";}
-     if (typeof header === 'undefined') {header = "";}
-     if (typeof extra === 'undefined') {extra = "";}
-     if (header.length>0) {header = header+comma;}
+     if (typeof date === 'undefined') {date = "";}
+     if (typeof head === 'undefined') {head = "";}
+     if (typeof tail === 'undefined') {tail = "";}
+     if (head.length>0) {head = head+comma;}
      if (date.length>0) {date = comma+date;}
-     if (typeof lurls[pid] === 'undefined') {return header+extra+date;}
+     if (typeof lurls[pid] === 'undefined') {return head+tail+date;}
      var tmp = lurls[pid].slice(0);
      if ((typeof tmp[5]!=='undefined') && usechinese) {tmp[4] = tmp[5];}
      if (!usechinese){
-        if ((tmp[0+id_0].length>0)&&(extra.length>0)) {extra = ' '+extra;}
+        if ((tmp[0+id_0].length>0)&&(tail.length>0)) {tail = ' '+tail;}
         if (tmp[1+id_0].length>0) {tmp[1+id_0] = comma+tmp[1+id_0];}
      }
      if (typeof tmp[4] !== 'undefined') {
-        if (tmp[4].length > 0) {tmp[0+id_0] = "<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>";}
+        if (tmp[4].length > 0) {tmp[0+id_0] = my_href(tmp[4],tmp[0+id_0],pid);}
      }
-     tmp[0] = header+tmp[0+id_0]+extra+tmp[1+id_0];
+     tmp[0] = head+tmp[0+id_0]+tail+tmp[1+id_0];
      tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);
-     tmp[1] = header+tmp[1+id_0]+tmp[0+id_0]+extra;
+     tmp[1] = head+tmp[1+id_0]+tmp[0+id_0]+tail;
      return tmp[cn_ind]+date;
   }
 //-->
