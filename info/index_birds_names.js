@@ -29,7 +29,7 @@
       deinri: ["Indian River Inlet","Delaware, USA","印第安河入海口","美国特拉华州",wiki("Indian River (Delaware)")],
       fldtnp: ["Dry Tortugas National Park","Florida, USA","海龟国家公园","美国佛罗里达州",nps("drto"),baike("海龟国家公园")],
       flevnp: ["Everglades National Park","Florida, USA","大沼泽地国家公园","美国佛罗里达州",nps("ever"),baike("大沼泽地国家公园")],
-      flmnwr: ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",nps("Merritt_Island",true)],
+      flmnwr: ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",nps("merritt-island",true)],
       flflfl: ["Florida","USA","佛罗里达州","美国"],
       isisis: ["","Iceland","","冰岛"],
       marace: ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州",hotspot("L364733")],
@@ -66,15 +66,15 @@
       papuru: ["Emberá Purú Village","Panamá Province, Panama","恩贝拉部落普鲁土著村","巴拿马巴拿马省","http://www.emberavillagetours.com/the-ember--tribe.html"],
       papapa: ["Pennsylvania","USA","宾夕法尼亚州","美国"],
       pawagg: ["Waggoner's Gap Hawk Watch","Cumberland County, Pennsylvania, USA","瓦格纳山口观鹰台","美国宾夕法尼亚州坎伯兰郡","https://pa.audubon.org/birds/waggoner%E2%80%99s-gap-hawk-watch"],
-      prcnwr: ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",nps("cabo_rojo",true)],
+      prcnwr: ["Cabo Rojo National Wildlife Refuge","Puerto Rico, USA","卡沃罗霍国家野生动物保护区","美国波多黎各",nps("cabo-rojo",true)],
       prsanj: ["San Juan","Puerto Rico, USA","圣胡安","美国波多黎各",wiki("San Juan, Puerto Rico"),baike("圣胡安/15970695")], 
       prprpr: ["Puerto Rico","USA","波多黎各","美国"],
       scpitt: ["Pitt Street Causeway","Charleston, South Carolina, USA","查尔斯顿皮特街堤道","美国南卡罗来纳州","https://www.carolinabirdclub.org/sites/SC/pittstreet.html"],
       scscsc: ["South Carolina","USA","南卡罗来纳州","美国"],
       scsnwr: ["Savannah National Wildlife Refuge","South Carolina, USA","萨凡纳国家野生动物保护区","美国南卡罗来纳州",nps("savannah",true)],
-      txanwr: ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",nps("Aransas",true),baike("阿兰萨斯国家野生动物保护区")],
+      txanwr: ["Aransas National Wildlife Refuge","Texas, USA","阿兰萨斯国家野生动物保护区","美国德克萨斯州",nps("aransas",true),baike("阿兰萨斯国家野生动物保护区")],
       txbbnp: ["Big Bend National Park","Texas, USA","大弯国家公园","美国德克萨斯州",nps("bibe"),baike("大弯国家公园")],
-      txsnwr: ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",nps("santa_ana",true)],
+      txsnwr: ["Santa Ana National Wildlife Refuge","Texas, USA","圣安娜国家野生动物保护区","美国德克萨斯州",nps("santa-ana",true)],
       ukhydp: ["Hyde Park","London, United Kingdom","海德公园","英国伦敦",wiki("Hyde Park, London"),baike("海德公园")],
       uklwcn: ["London Wetland Centre","United Kingdom","伦敦湿地中心","英国","https://www.wwt.org.uk/wetland-centres/london/"],
       vacnwr: ["Chincoteague National Wildlife Refuge","Virginia, USA","钦科蒂格国家野生动物保护区","美国弗吉尼亚州",nps("chincoteague",true)],
@@ -215,7 +215,7 @@
 //birds[j++] = new Bird("23-00-00T00:00","HELIORNI","Sungrebe","日䴘","Heliornis fulica",p_id("2301pabird",),["pagatu",""],"sungre1");
 //birds[j++] = new Bird("23-00-00T00:00","SAROTHRU","Buff-spotted Flufftail","黄斑侏秧鸡","Sarothrura elegans",m_id(""),["arb",""],"busflu1",1240);
   birds[j++] = new Bird("15-09-06T07:58","RALLIDAE","Clapper Rail","长嘴秧鸡","Rallus crepitans",[p_id("1509charleston",9),m_id("201227_140")],["scpitt","vahump"]);
-  birds[j++] = new Bird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(["200610_037","200610_039"]),["vavava",nps("occoquan_bay",true,"Occoquan Bay NWR"),"","","奥科宽湾国家野生动物保护区"]);
+  birds[j++] = new Bird("20-06-10T09:36","RALLIDAE","King Rail","王秧鸡","Rallus elegans",m_id(["200610_037","200610_039"]),["vavava",nps("occoquan-bay",true,"Occoquan Bay NWR"),"","",nps("occoquan-bay",true,"奥科宽湾国家野生动物保护区")]);
   birds[j++] = new Bird("17-05-28T06:24","RALLIDAE","Virginia Rail","弗吉尼亚秧鸡","Rallus limicola",p_id("1705ohio",[8,6]),["arb",hotspot("L603712","Mentor Marsh State Nature Perserve, Ohio, USA"),"美国俄亥俄州门托沼泽州立自然保护区"]);
   birds[j++] = new Bird("20-12-29T09:26","RALLIDAE","Sora","黑脸田鸡","Porzana carolina",m_id("220117_019"),["vahump","S100942825"]);
   birds[j++] = new Bird("11-12-27T17:43","RALLIDAE","Common Gallinule","美洲黑水鸡","Gallinula galeata",[p_id("1112flbird",6),p_id("1408fingerlake",9)],["flevnp","nymnwr","Juvenile"],1389);
@@ -268,7 +268,7 @@
   birds[j++] = new Bird("20-10-23T10:15","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",m_id("201023_113"),["mdswhf","Nonbreeding plumage, in front of a "+b_link("Lesser Yellowlegs"),"非繁殖羽，后面是一只"+b_link("小黄脚鹬")]);
   birds[j++] = new Bird("20-10-23T10:03","SCOLOPAC","Curlew Sandpiper","弯嘴滨鹬","Calidris ferruginea",m_id(["201023_114","201023_110"]),["mdswhf","Juvenile"],"cursan");
   birds[j++] = new Bird("15-09-07T07:44","SCOLOPAC","Sanderling","三趾滨鹬","Calidris alba",[p_id("2108racepoint",10),p_id("1612savannah",15),p_id("1509charleston",17)],["marace","arb","Winter plumage, "+hotspot("L993099","Tybee Island"),"","Georgia, USA","美国乔治亚州泰碧岛","scscsc","Juvenile, "+gmap("Fort Moultrie"),"","","莫尔特里堡"]);
-  birds[j++] = new Bird("15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",m_id(["170520_061","151114_122","210102_003"]),["dedede",gmap("Bowers Beach, Kent County",39.0646,-75.3992),"","","肯特郡鲍尔斯海滩","mdmdmd","Winter plumage, "+nps("asis","Assateague Island National Seashore"),"","","阿萨蒂格岛国家海岸","deinri"]);
+  birds[j++] = new Bird("15-05-17T10:14","SCOLOPAC","Dunlin","黑腹滨鹬","Calidris alpina",m_id(["170520_061","151114_122","210102_003"]),["dedede",gmap("Bowers Beach, Kent County",39.0646,-75.3992),"","","肯特郡鲍尔斯海滩","mdmdmd","Winter plumage, "+nps("asis","Assateague Island National Seashore"),"","",nps("asis","阿萨蒂格岛国家海岸"),"deinri"]);
   birds[j++] = new Bird("15-11-26T14:15","SCOLOPAC","Purple Sandpiper","紫滨鹬","Calidris maritima",m_id(["151126_134","151126_135"]),["mdocci","","",""," "+gmap("Inlet",38.3244,-75.0854),"海口"]);
   birds[j++] = new Bird("21-08-29T10:45","SCOLOPAC","Baird's Sandpiper","黑腰滨鹬","Calidris bairdii",m_id(["210829_106","210829_107"]),["vavava",gmap("Broadway Wastewater Treatment Plant, Rockingham County",38.6316,-78.7544),"","","洛金汉郡百老汇废水处理厂"]);
   birds[j++] = new Bird("15-05-09T16:24","SCOLOPAC","Least Sandpiper","美洲小滨鹬","Calidris minutilla",[p_id("1505capemay",13),p_id("2212flbird",16)],["njnjnj",gmap("The Wetlands Institute, Stone Harbor"),"","","石港湿地研究所","flflfl","Nonbreeding adult, "+gmap("Cypress Point Park, Tampa"),"","","坦帕市柏树点公园"],"姬滨鹬");
@@ -315,15 +315,15 @@
   birds[j++] = new Bird("15-07-10T10:09","LARIDAE ","Caspian Tern","红嘴巨燕鸥","Hydroprogne caspia",[m_id(["150808_089","150808_088"]),p_id("1601china",62)],["vavava",(t1=gmap("Dyke Marsh Wildlife Preserve")),"","",(t2="黛克湿地野生动物保护区"),"vavava",t1,"","",t2,"cnxmjm"]);
   birds[j++] = new Bird("15-01-08T09:29","LARIDAE ","Royal Tern","橙嘴凤头燕鸥","Thalasseus maximus",[m_id("151031_117"),p_id("1501prbird",41),p_id("1501prbird",42)],["mdocci","Winter plumage",""," "+gmap("Inlet",38.3244,-75.0854),"海口","prsanj"]);
   birds[j++] = new Bird("21-06-06T13:37","LARIDAE ","Sandwich Tern","白嘴端凤头燕鸥","Thalasseus sandvicensis",m_id("210606_087"),["vavava",nps("fomr","Fort Monroe National Monument, Hampton"),"","","汉普顿市"+nps("fomr","门罗堡纪念碑")]);
-  birds[j++] = new Bird("15-07-26T09:02","LARIDAE ","Least Tern","小白额燕鸥","Sternula antillarum",m_id(["150726_084","150726_085"]),["mdmdmd",(t1=nps("eastern_neck",true,"Eastern Neck NWR")),"","",(t2=nps("eastern_neck",true,"东内克国家野生动物保护区")),"mdmdmd","Juvenile, "+t1,"","",t2],1748);
+  birds[j++] = new Bird("15-07-26T09:02","LARIDAE ","Least Tern","小白额燕鸥","Sternula antillarum",m_id(["150726_084","150726_085"]),["mdmdmd",(t1=nps("eastern-neck",true,"Eastern Neck NWR")),"","",(t2=nps("eastern-neck",true,"东内克国家野生动物保护区")),"mdmdmd","Juvenile, "+t1,"","",t2],1748);
   birds[j++] = new Bird("22-04-30T12:13","LARIDAE ","Bridled Tern","褐翅燕鸥","Onychoprion anaethetus",p_id("2204flbird",[10,11]),["fldtnp","S108548976"],"briter1");
   birds[j++] = new Bird("22-04-30T10:43","LARIDAE ","Sooty Tern","乌燕鸥","Onychoprion fuscatus",p_id("2204flbird",5),["fldtnp","S108548976"],"sooter1");
   birds[j++] = new Bird("21-08-11T09:46","LARIDAE ","Roseate Tern","粉红燕鸥","Sterna dougallii",[p_id("2108racepoint",5),p_id("2204flbird",8)],["marace","fldtnp","S108548976"]);
   birds[j++] = new Bird("14-07-07T14:11","LARIDAE ","Common Tern","普通燕鸥","Sterna hirundo",p_id("1407mibird",[15,16]),["arb",hotspot("L773674","Mackinac Island"),"","Michigan, USA",baike("麦基诺岛","美国密西根州")]);
   birds[j++] = new Bird("22-05-15T11:32","LARIDAE ","Arctic Tern","北极燕鸥","Sterna paradisaea",m_id(["220515_062","220515_060"]),["papapa","S110301496",gmap("Marsh Creek State Park, Chester County"),"","","切斯特郡沼泽溪州立公园"]);
-  birds[j++] = new Bird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("150726_086")],["njnjnj",gmap("Cape May Point State Park"),"","","五月岬州立公园","mdmdmd","Winter plumage, "+nps("eastern_neck",true,"Eastern Neck NWR"),"","",nps("eastern_neck",true,"东内克国家野生动物保护区")]);
+  birds[j++] = new Bird("15-05-09T11:22","LARIDAE ","Forster's Tern","弗氏燕鸥","Sterna forsteri",[p_id("1505capemay",4),m_id("150726_086")],["njnjnj",gmap("Cape May Point State Park"),"","","五月岬州立公园","mdmdmd","Winter plumage, "+nps("eastern-neck",true,"Eastern Neck NWR"),"","",nps("eastern-neck",true,"东内克国家野生动物保护区")]);
   birds[j++] = new Bird("22-07-16T07:44","LARIDAE ","White-winged Tern","白翅浮鸥","Chlidonias leucopterus",m_id(["220716_084","220716_085"]),["dedede","S115177433","Molting adult, "+gmap("Big Stone Beach Marsh, Kent County",39,-75.33),"","","肯特郡大石滩沼泽"],"whwter"); 
-  birds[j++] = new Bird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("210531_085"),p_id("2108racepoint",1)],["papapa","Breeding adult, "+nps("John_Heinz",true,"John Heinz NWR, Philadelphia"),"","","费城"+nps("John_Heinz",true,"约翰·亨氏国家野生动物保护区"),"marace","Nonbreeding adults"]);
+  birds[j++] = new Bird("21-05-31T11:05","LARIDAE ","Black Tern","黑浮鸥","Chlidonias niger",[m_id("210531_085"),p_id("2108racepoint",1)],["papapa","Breeding adult, "+nps("john-heinz-tinicum",true,"John Heinz NWR, Philadelphia"),"","","费城"+nps("john-heinz-tinicum",true,"约翰·亨氏国家野生动物保护区"),"marace","Nonbreeding adults"]);
   birds[j++] = new Bird("21-08-11T08:38","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",p_id("2108racepoint",[3,2]),["marace","Immature"]);
   birds[j++] = new Bird("21-01-17T12:01","ALCIDAE ","Dovekie","黑头海雀","Alle alle",m_id(["210117_015","210117_016"]),["deinri"],1783);
   birds[j++] = new Bird("22-02-12T13:29","ALCIDAE ","Thick-billed Murre","厚嘴崖海鸦","Uria lomvia",m_id(["220212_037","220219_047"]),["njblsp","S102555804","Nonbreeding adult/immature","mdocci","S103103644","Nonbreeding adult/immature",""," "+gmap("Inlet",38.3244,-75.0854),"海口"],1784);
@@ -408,7 +408,7 @@
   birds[j++] = new Bird("06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",[m_id("230311_016"),p_id("1412mckee",33)],["mdredg","S130689889","mdmwma","11/2014","Juvenile"]);
   birds[j++] = new Bird("21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",m_id(["210113_008","210113_009"]),["vavava","Light morph, "+gmap("Prince William County Landfill",38.6376,-77.4209),"","","威廉王子郡垃圾填埋场"]);
   birds[j++] = new Bird("16-06-25T11:19","TYTONIDA","Barn Owl","美洲仓鸮","Tyto furcata",m_id("160625_083"),["nyjbwr"],2352);
-  birds[j++] = new Bird("23-03-12T10:24","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",m_id("230312_019"),["papapa","S130760758",nps("John_Heinz",true,"John Heinz NWR, Philadelphia"),"","","费城"+nps("John_Heinz",true,"约翰·亨氏国家野生动物保护区")]);
+  birds[j++] = new Bird("23-03-12T10:24","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",m_id("230312_019"),["papapa","S130760758",nps("john-heinz-tinicum",true,"John Heinz NWR, Philadelphia"),"","","费城"+nps("john-heinz-tinicum",true,"约翰·亨氏国家野生动物保护区")]);
   birds[j++] = new Bird("16-06-10T08:23","STRIGIDA","Burrowing Owl","穴小鸮","Athene cunicularia",[p_id("1606florida",8),p_id("2208azbird",70)],["flflfl",gmap("Brian Piccolo Park, Fort Lauderdale",26.033,-80.2725),"","","劳德代尔堡布莱恩皮克罗公园","azazaz","S116681599",hotspot("L387263","Scottsdale Community College, Scottsdale"),"","","斯科茨代尔市社区大学"]);
   birds[j++] = new Bird("21-01-06T11:29","STRIGIDA","Long-eared Owl","长耳鸮","Asio otus",m_id("210115_012"),["vavava",gmap("State Arboretum of Virginia"),"","","州立植物园"]);
   birds[j++] = new Bird("17-01-01T17:19","STRIGIDA","Short-eared Owl","短耳鸮","Asio flammeus",m_id("210228_026"),["mdmdmd",gmap("Izaak Walton Way, Montgomery County"),"","","蒙哥马利郡艾萨克沃尔顿路"]);
@@ -464,7 +464,7 @@
   birds[j++] = new Bird("16-09-15T08:06","PICIDAE ","Black-backed Woodpecker","黑背三趾啄木鸟","Picoides arcticus",p_id("1609vcbird",[4,5]),["vtwwma","Female"]);
   birds[j++] = new Bird("13-12-25T14:40","PICIDAE ","Ladder-backed Woodpecker","纹背啄木鸟","Dryobates scalaris",[p_id("1312bbbird",1),p_id("2001txbirding",21)],["txbbnp","Male","txsnwr","Female"]);
   birds[j++] = new Bird("05-11-26T09:17","PICIDAE ","Downy Woodpecker","绒啄木鸟","Dryobates pubescens",m_id(["160130_007","170827_095"]),["mdbhrp","Male","mdcocn","Female",""," at Riley's Lock","莱利闸"]);
-  birds[j++] = new Bird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Leuconotopicus borealis",p_id("1509charleston",[2,3]),["scscsc",nps("Carolina_Sandhills",true,"Carolina Sandhills NWR"),"","",nps("Carolina_Sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]);
+  birds[j++] = new Bird("15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Leuconotopicus borealis",p_id("1509charleston",[2,3]),["scscsc",nps("carolina-sandhills",true,"Carolina Sandhills NWR"),"","",nps("carolina-sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]);
   birds[j++] = new Bird("18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Leuconotopicus fumigatus",p_id("1812crbird",24),["crarol","Male"],"smbwoo1");
   birds[j++] = new Bird("22-08-09T07:30","PICIDAE ","Arizona Woodpecker","亚利桑那啄木鸟","Leuconotopicus arizonae",p_id("2208azbird",[55,54]),["azwalk","S116643644","Male","azwalk","S116643644","Female"],3824);
   birds[j++] = new Bird("06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Leuconotopicus villosus",[m_id(["210515_074","170506_048"]),p_id("2208cabird",[6,7])],["mdwhrp","Male","nycenp","Female","caalgp","S117650777","Male","caalgp","S117650777","Female"]);
@@ -823,7 +823,7 @@
   birds[j++] = new Bird("17-05-27T07:23","PASSEREL","Henslow's Sparrow","亨氏草鹀","Centronyx henslowii",p_id("1705ohio",[1,2]),["arb",hotspot("L139740","Bath Nature Preserve, Akron, Ohio, USA"),"美国俄亥俄州阿克伦市巴斯自然保护区"]);
   birds[j++] = new Bird("13-07-17T18:46","PASSEREL","Savannah Sparrow","稀树草鹀","Passerculus sandwichensis",[p_id("1307akbird",8),m_id(["211125_133","220122_023"])],["arb",gmap("Potter Marsh, Anchorage, Alaska, USA",61.076,-149.829),"美国阿拉斯加州安克雷奇波特沼泽","vavava",gmap("Sully Woodlands Park, Fairfax County"),"","","费尔法克斯郡萨利林地公园","njnjnj","S101264392","Ipswich, "+gmap("Two Mile Landing, Cape May"),"伊普斯维奇雀","","五月岬两英里码头"]);
   birds[j++] = new Bird("06-03-04T15:56","PASSEREL","Song Sparrow","歌带鹀","Melospiza melodia",[m_id(["221210_181","161030_108"]),p_id("1905mxbird",21)],["mdredg","S123754306","mdmwma","Partially leucistic","mxunam","Mexicana group","墨西哥亚种"]);
-  birds[j++] = new Bird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("170305_030"),p_id("2001txbirding",23)],["vavava",nps("occoquan_bay",true,"Occoquan Bay NWR"),"","","奥科宽湾国家野生动物保护区","txsnwr"]);
+  birds[j++] = new Bird("17-03-05T09:21","PASSEREL","Lincoln's Sparrow","林氏带鹀","Melospiza lincolnii",[m_id("170305_030"),p_id("2001txbirding",23)],["vavava",nps("occoquan-bay",true,"Occoquan Bay NWR"),"","",nps("occoquan-bay",true,"奥科宽湾国家野生动物保护区"),"txsnwr"]);
   birds[j++] = new Bird("06-02-19T13:42","PASSEREL","Swamp Sparrow","沼泽带鹀","Melospiza georgiana",p_id("1412mckee",14),["mdmwma","10/2014"]);
   birds[j++] = new Bird("19-05-12T09:54","PASSEREL","Canyon Towhee","棕喉唧鹀","Melozone fusca",p_id("1905mxbird",15),["mxunam"]);
   birds[j++] = new Bird("22-08-11T09:03","PASSEREL","Abert's Towhee","红腹唧鹀","Melozone aberti",p_id("2208azbird",72),["azazaz","S116756519",hotspot("L302348","Dead Horse Ranch State Park, Cottonwood"),"","","卡顿伍德市死马牧场州立公园"],10103);
