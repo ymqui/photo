@@ -862,18 +862,18 @@
      if (typeof extra === 'undefined') {extra = "";}
      if (typeof lurls[pid] === 'undefined') {return header+extra+date;}
      var tmp = lurls[pid].slice(0);
-     if ((typeof tmp[5]!=='undefined') && usechinese){tmp[4] = tmp[5];}
-     if ((extra.length>0)||(usechinese&&(tmp[0+id_0].length>0))){extra = extra+comma;}
-     if ((tmp[0+id_0].length>0) && (!usechinese)) {
-        if (extra.length==0) { extra = comma+extra;}
-        if ((header.length==0) && (tmp[0].charAt(0)==tmp[0].charAt(0).toLowerCase())) {tmp[0]=tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
+     if ((typeof tmp[5]!=='undefined') && usechinese) {tmp[4] = tmp[5];}
+     if ((extra.length>0)||(usechinese&&(tmp[0+id_0].length>0))) {extra = extra+comma;}
+     if (!usechinese){
+        if ((tmp[0+id_0].length>0) && (extra.length==0)) {extra = comma+extra;}
+        if (tmp[1+id_0].length>0) {tmp[1+id_0] = tmp[1+id_0]+comma;}
      }
-     if (tmp[1+id_0].length>0 && (!usechinese)){ tmp[1+id_0] = tmp[1+id_0]+comma;}
      if (typeof tmp[4] !== 'undefined') {
-        if (tmp[4].length > 0) {
-           return ([header+"<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>"+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+"<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>"+extra+date])[cn_ind];
-        }
+        if (tmp[4].length > 0) {tmp[0+id_0] = "<a href='"+tmp[4]+lnksty+" target='"+pid+"'>"+tmp[0+id_0]+"</a>";}
      }
-     return ([header+tmp[0+id_0]+extra+tmp[1+id_0]+date,header+tmp[1+id_0]+tmp[0+id_0]+extra+date])[cn_ind];
+     tmp[0] = header+tmp[0+id_0]+extra+tmp[1+id_0];
+     tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);
+     tmp[1] = header+tmp[1+id_0]+tmp[0+id_0]+extra;
+     return tmp[cn_ind]+date;
   }
 //-->
