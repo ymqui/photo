@@ -866,7 +866,7 @@
      if (typeof date === 'undefined') {date = "";}
      if (typeof head === 'undefined') {head = "";}
      if (typeof tail === 'undefined') {tail = "";}
-     if (head.length>0) {head = head+comma;}
+     if ((head.length>0)&&((tmp[0+id_0]+tmp[1+id_0]+tail).length>0)) {head = head+comma;}
      if (date.length>0) {date = comma+date;}
      if (typeof lurls[pid] === 'undefined') {return head+tail+date;}
      var tmp = lurls[pid].slice(0);
