@@ -324,6 +324,8 @@ function initAlbum(){
                     [pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的"+baike("Casco Viejo老城区"),pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
     this[0][i]    = ["20230212_006","20230212_008"];
     this[1][i++]  = (["Baking with Mommy","和妈妈一起做甜点"])[cn_ind];
+    this[0][i]    = ["20230326_011","20230326_015"];
+    this[1][i++]  = (["Flying kite at the DC Cherry Blossom Kite Festival","在华盛顿特区樱花风筝节上放风筝"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
