@@ -866,7 +866,6 @@
      if (date.length>0) {date = stradd(comma,date);}
      if (typeof lurls[pid] === 'undefined') {return stradd(stradd(head,tail),date);}
      var tmp = lurls[pid].slice(0);
-     if (typeof tmp[5] === 'undefined'){tmp[5] = tmp[4];}
      head[0] = head[0].charAt(0).toUpperCase()+head[0].slice(1);
      if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
      if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
@@ -874,6 +873,7 @@
      if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
      if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
      if (typeof tmp[4] !== 'undefined') {
+        if (typeof tmp[5] === 'undefined') {tmp[5] = tmp[4];}
         if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
         if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
      }
