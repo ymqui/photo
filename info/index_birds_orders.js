@@ -1,13 +1,14 @@
 <!--
   //variables for stat counting
-  var loc_cnts  = {};
-  var py_cnts   = {};
-  var misc_cnts = [0,0,0];
-  var dig_cnts  = 0;
-  var pic_cnts  = 0;
-  var ebirdlist = [];
-  var all_new   = true;
+  var loc_cnts   = {};
+  var py_cnts    = {};
+  var misc_cnts  = [0,0,0];
+  var dig_cnts   = 0;
+  var pic_cnts   = 0;
+  var ebirdlist  = [];
+  var all_new    = true;
   var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
+  var comma      = [", ","，"];
 
   function myOrder(name, cname, desc, cdesc, family){
      this.name   = name;
@@ -517,11 +518,10 @@
   //if no ',' return [str,''] else return separted string array
   function strsplit(str){
      var tmp,tmp1;
-     if (Array.isArray(str)){tmp = str[0];}else{tmp=str;}
+     if (Array.isArray(str)) {tmp = str[0];}else{tmp=str;}
      tmp1 = tmp.indexOf(',');
-     if (tmp1>=0){
-        return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
-     }else{return [tmp,''];}
+     if (tmp1===-1) {return [tmp,''];}
+     return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
   }
 
   function birdFound(id){
@@ -532,13 +532,9 @@
   }
   
   function my_href(url,name,target){
-     if (typeof name === 'undefined'){
-        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>";
-     }else if (typeof target === 'undefined'){
-        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>"+name+"</a>";
-     }else{
-        return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;' target='"+target+"'>"+name+"</a>";
-     }
+     if (typeof name === 'undefined')   {return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>";}
+     if (typeof target === 'undefined') {return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'>"+name+"</a>";}
+     return "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;' target='"+target+"'>"+name+"</a>";
   }
 
   function b_link(bid,info){
@@ -695,18 +691,12 @@
   }
 
   function baike(name,before,afterin,afterout){
-     if (typeof name === 'string'){
-        if (typeof before === 'undefined'){
-           return "https://baike.baidu.com/item/"+name;
-        }else{
-           var tmp1='',tmp2='';
-           if(typeof afterin !== 'undefined'){tmp1=afterin;}
-           if(typeof afterout !== 'undefined'){tmp2=afterout;}
-           return before+my_href("https://baike.baidu.com/item/"+name,name+tmp1,name)+tmp2;
-        }
-     }else{
-        return "https://dongniao.net/nd/"+name.toString();
-     }
+     if (typeof name !== 'string') {return "https://dongniao.net/nd/"+name.toString();}
+     if (typeof before === 'undefined') {return "https://baike.baidu.com/item/"+name;}
+     var tmp1='',tmp2='';
+     if(typeof afterin  !== 'undefined') {tmp1=afterin;}
+     if(typeof afterout !== 'undefined') {tmp2=afterout;}
+     return before+my_href("https://baike.baidu.com/item/"+name,name+tmp1,name)+tmp2;
   }
 
   function cornellurl(bid){
@@ -718,12 +708,9 @@
   }
 
   function hotspot(id,name){
-     if (typeof name == 'string'){
-        var tmp = strsplit(name);
-        return my_href("https://birdinghotspots.org/hotspot/"+id,tmp[0],id)+tmp[1];
-     }else{
-        return "https://birdinghotspots.org/hotspot/"+id;
-     }
+     if (typeof name !== 'string') {return "https://birdinghotspots.org/hotspot/"+id;}
+     var tmp = strsplit(name);
+     return my_href("https://birdinghotspots.org/hotspot/"+id,tmp[0],id)+tmp[1];
   }
 
   function gmap(name,latt,long){
@@ -756,9 +743,7 @@
   }
 
   function wiki(id,name){
-     if (typeof name === 'undefined'){
-        return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
-     }
+     if (typeof name === 'undefined') {return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);}
      if(typeof name !== "string") {name = id;}
      return my_href("https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true),name,id);
   }
@@ -791,46 +776,64 @@
      var tmp_einfo = [];
      var tmp_cinfo = [];
      var tmp_locs  = [];
-     var tmp1,tmp2,tmp3,tmp_info;
+     var tmp1,tmp2,tmp3,tmp,rexp,pid,date,head,tail;
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
-         if (typeof info[1+6*i]==='undefined'){info.splice(1+6*i,0,"");}
-         info[1+6*i] = info[1+6*i].trim();
+         if (typeof info[6*i+1]==='undefined'){info.splice(6*i+1,0,"");}
+         info[6*i+1] = info[6*i+1].trim();
          tmp1 = '',tmp2 = '';
-         tmp3 = info[1+6*i].lastIndexOf(',');
+         tmp3 = info[6*i+1].lastIndexOf(',');
          if (tmp3>=0){
-            tmp2 = info[1+6*i].substr(tmp3+1);
-            tmp1 = info[1+6*i].substr(0,tmp3);
+            tmp2 = info[6*i+1].substr(tmp3+1);
+            tmp1 = info[6*i+1].substr(0,tmp3);
          }else{
-            if (/[0-9]{1,2}\/[0-9]{4}/.test(info[1+6*i])){
-               tmp1 = info[1+6*i];
+            if (/[0-9]{1,2}\/[0-9]{4}/.test(info[6*i+1])){
+               tmp1 = info[6*i+1];
             }else{
-               tmp2 = info[1+6*i];
+               tmp2 = info[6*i+1];
             }
          }
          if (tmp1.length==0){tmp1=getdate(photo[i]);}
          if (tmp2.length>0){
             if (ebirdlist.indexOf(tmp2)===-1){ebirdlist.push(tmp2);}
-            info[1+6*i] = my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2);
+            date = my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2);
          }else{
-            info[1+6*i] = tmp1;
+            date = tmp1;
          }
-         if (typeof info[2+6*i]!=='undefined'){
-            if (typeof info[3+6*i]==='undefined'){info.splice(3+6*i,0,"");}
-            if (info[3+6*i].trim().length==0){
-               var tmp = info[2+6*i].trim();
+         if (typeof info[6*i+2]!=='undefined'){
+            if (typeof info[6*i+3]==='undefined'){info.splice(6*i+3,0,"");}
+            if (info[6*i+3].trim().length==0){
+               tmp1 = info[6*i+2].trim();
                for (var j=0;j<pt_eng.length;j++){
-                   var rexp = new RegExp("^"+pt_eng[j],"i");
-                   if (rexp.test(tmp)){
-                      info[3+6*i] = pt_chn[j];
+                   rexp = new RegExp("^"+pt_eng[j],"i");
+                   if (rexp.test(tmp1)){
+                      info[6*i+3] = pt_chn[j];
                       break;
                    }
                }
             }
          }
-         tmp_info     = loclink(info.slice(6*i,6*i+6));
-         tmp_locs[i]  = info[6*i];
-         tmp_einfo[i] = tmp_info[0];
-         tmp_cinfo[i] = tmp_info[1];
+         pid  = info[6*i].trim().toLowerCase();
+         if (typeof lurls[pid] === 'undefined') {continue;}
+         head = (typeof info[6*i+2]!=='undefined')?info.slice(6*i+2,6*i+4):['',''];
+         tail = (typeof info[6*i+4]!=='undefined')?info.slice(6*i+4,6*i+6):['',''];
+         if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
+         loc_cnts[pid]++;
+     	 if (date.length>0) {date = stradd(comma,date);}
+         tmp = lurls[pid].slice(0);
+         head[0] = head[0].charAt(0).toUpperCase()+head[0].slice(1);
+         if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
+         if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
+         if ((head[0].length==0)&&(tmp[0].length>0)){tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
+         if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
+         if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
+         if (typeof tmp[4] !== 'undefined') {
+            if (typeof tmp[5] === 'undefined') {tmp[5] = tmp[4];}
+            if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
+            if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
+         }
+         tmp_einfo[i] = head[0]+tmp[0]+tail[0]+tmp[1]+date[0];
+         tmp_cinfo[i] = head[1]+tmp[3]+tmp[2]+tail[1]+date[1];
+         tmp_locs[i]  = pid;
      }
      return {info:tmp_einfo,cinfo:tmp_cinfo,locs:tmp_locs};
   }
@@ -853,32 +856,5 @@
         if (cbid !== ""){url = baike(cbid);}
      }
      return url;
-  }
-
-  function loclink(pinfo){
-     var pid   = pinfo[0].trim().toLowerCase();
-     var date  = (pinfo.length>1)?pinfo[1]:'';
-     var head  = (pinfo.length>3)?pinfo.slice(2,4):['',''];
-     var tail  = (pinfo.length>5)?pinfo.slice(4,6):['',''];
-     var comma = [", ","，"];
-     if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
-     loc_cnts[pid]++;
-     if (date.length>0) {date = stradd(comma,date);}
-     if (typeof lurls[pid] === 'undefined') {return stradd(stradd(head,tail),date);}
-     var tmp = lurls[pid].slice(0);
-     head[0] = head[0].charAt(0).toUpperCase()+head[0].slice(1);
-     if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
-     if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
-     if ((head[0].length==0)&&(tmp[0].length>0)){tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
-     if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
-     if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
-     if (typeof tmp[4] !== 'undefined') {
-        if (typeof tmp[5] === 'undefined') {tmp[5] = tmp[4];}
-        if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
-        if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
-     }
-     tmp[0] = head[0]+tmp[0]+tail[0]+tmp[1];
-     tmp[1] = head[1]+tmp[3]+tmp[2]+tail[1];
-     return stradd(tmp.slice(0,2),date);
   }
 //-->
