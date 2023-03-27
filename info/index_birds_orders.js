@@ -861,7 +861,6 @@
      var head  = (pinfo.length>3)?pinfo.slice(2,4):['',''];
      var tail  = (pinfo.length>5)?pinfo.slice(4,6):['',''];
      var comma = [", ","，"];
-     var id_0  = [0,2];
      if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
      loc_cnts[pid]++;
      if (date.length>0) {date = stradd(comma,date);}
@@ -869,17 +868,17 @@
      var tmp = lurls[pid].slice(0);
      if (typeof tmp[5] === 'undefined'){tmp[5] = tmp[4];}
      head[0] = head[0].charAt(0).toUpperCase()+head[0].slice(1);
-     if ((head[0].length>0)&&((tmp[id_0[0]]+tmp[1+id_0[0]]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
-     if ((head[1].length>0)&&((tmp[id_0[1]]+tmp[1+id_0[1]]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
-     if ((head[0].length==0)&&(tmp[id_0[0]].length>0)){tmp[id_0[0]] = tmp[id_0[0]].charAt(0).toUpperCase()+tmp[id_0[0]].slice(1);}
-     if ((tmp[id_0[0]].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
-     if (tmp[1+id_0[0]].length>0) {tmp[1+id_0[0]] = comma[0]+tmp[1+id_0[0]];}
+     if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
+     if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
+     if ((head[0].length==0)&&(tmp[0].length>0)){tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
+     if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
+     if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
      if (typeof tmp[4] !== 'undefined') {
-        if (tmp[4].length > 0) {tmp[id_0[0]] = my_href(tmp[4],tmp[id_0[0]],pid);}
-        if (tmp[5].length > 0) {tmp[id_0[1]] = my_href(tmp[5],tmp[id_0[1]],pid);}
+        if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
+        if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
      }
-     tmp[0] = head[0]+tmp[id_0[0]]+tail[0]+tmp[1+id_0[0]];
-     tmp[1] = head[1]+tmp[1+id_0[1]]+tmp[id_0[1]]+tail[1];
+     tmp[0] = head[0]+tmp[0]+tail[0]+tmp[1];
+     tmp[1] = head[1]+tmp[3]+tmp[2]+tail[1];
      return stradd(tmp.slice(0,2),date);
   }
 //-->
