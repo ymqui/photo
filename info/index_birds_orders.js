@@ -524,6 +524,15 @@
      return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
   }
 
+  //upper case to the first letter, works for href link
+  function strupcase(str){
+     var tmpstr = str.trim();
+     var tmp1 = tmpstr.indexOf('<');
+     var tmp2 = tmpstr.indexOf('>');
+     if ((tmp1===0)&&(tmp2!==-1)) {tmpstr = tmpstr.substring(0,tmp2+1)+strupcase(tmpstr.substring(tmp2+1));}
+     return tmpstr.charAt(0).toUpperCase()+tmpstr.slice(1);
+  }
+
   function birdFound(id){
      for (var i=0;i<birds.length;i++){
          if (birds[i].name1 == id) return true;
@@ -802,10 +811,9 @@
          if (typeof info[6*i+2]!=='undefined'){
             if (typeof info[6*i+3]==='undefined'){info.splice(6*i+3,0,"");}
             if (info[6*i+3].trim().length==0){
-               tmp1 = info[6*i+2].trim();
                for (var j=0;j<pt_eng.length;j++){
-                   rexp = new RegExp("^"+pt_eng[j],"i");
-                   if (rexp.test(tmp1)){
+                   rexp = new RegExp("^ *"+pt_eng[j],"i");
+                   if (rexp.test(info[6*i+2])){
                       info[6*i+3] = pt_chn[j];
                       break;
                    }
@@ -820,10 +828,8 @@
          loc_cnts[pid]++;
      	 if (date.length>0) {date = stradd(comma,date);}
          tmp = lurls[pid].slice(0);
-         head[0] = head[0].charAt(0).toUpperCase()+head[0].slice(1);
          if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
          if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
-         if ((head[0].length==0)&&(tmp[0].length>0)){tmp[0] = tmp[0].charAt(0).toUpperCase()+tmp[0].slice(1);}
          if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
          if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
          if (typeof tmp[4] !== 'undefined') {
@@ -831,7 +837,7 @@
             if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
             if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
          }
-         tmp_einfo[i] = head[0]+tmp[0]+tail[0]+tmp[1]+date[0];
+         tmp_einfo[i] = strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]);
          tmp_cinfo[i] = head[1]+tmp[3]+tmp[2]+tail[1]+date[1];
          tmp_locs[i]  = pid;
      }

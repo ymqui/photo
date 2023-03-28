@@ -47,7 +47,7 @@
       mdswhf: ["Swan Harbor Farm","Harford County, Maryland, USA","天鹅港农场","美国马里兰州哈福德郡","http://www.swanharborfarm.org/"],
       mdwhrp: ["Wheaton Regional Park","Maryland, USA","惠顿公园","美国马里兰州","https://www.montgomeryparks.org/parks-and-trails/wheaton-regional-park/"],
       mdworc: ["Worcester County","Maryland, USA","伍斯特郡","美国马里兰州"],
-      mxguan: ["The Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wiki("El Pípila"),baike("瓜纳华托")],
+      mxguan: ["El Pipila Monument","Guanajuato City, Guanajuato, Mexico","皮毕拉纪念碑","墨西哥瓜纳华托州瓜纳华托城",wiki("El Pípila"),baike("瓜纳华托")],
       mxunam: ["UNAM Botanical Garden","Mexico City, Mexico","国立自治大学植物园","墨西哥墨西哥城","http://www.ib.unam.mx/jardin/",baike("墨西哥国立自治大学")],
       nccrsp: ["Chimney Rock State Park","North Carolina, USA","烟囱岩州立公园","美国北卡罗来纳州","http://www.chimneyrockpark.com/"], 
       ncllmp: ["Morse Park","Lake Lure, North Carolina, USA","路尔湖摩士公园","美国北卡罗来纳州","http://www.townoflakelure.com/morse-park.php"],
@@ -309,7 +309,7 @@
   birds[j++] = new Bird("19-01-27T13:12","LARIDAE ","Glaucous Gull","北极鸥","Larus hyperboreus",m_id("190127_006"),["mdmdmd","1st winter, "+gmap("West Ocean City Marina",38.3277,-75.1027),"","","大洋城西城码头"]);
   birds[j++] = new Bird("17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",m_id(["170204_016","190107_001"]),["mdmdmd","1st winter, "+gmap("Mariner Point Park, Harford County",39.3964,-76.3491),"","","哈福德郡水手角公园","mdmdmd","2nd winter, "+gmap("Loreley Beach Community Pier, Baltimore County",39.3855,-76.4096),"","","巴尔的摩郡罗利滩社区码头"]);
   birds[j++] = new Bird("06-02-19T11:53","LARIDAE ","Herring Gull","美洲银鸥","Larus smithsonianus",[p_id("0607outerbanks",22),m_id(["220212_045","220206_034"]),p_id("1503barnegat",9)],["ncoutb","njblsp","S102555804","Nonbreeding adult","njnjnj","S102167692","1st winter, "+gmap("Manasquan Inlet, Ocean County",40.1019,-74.0346),"","","海洋郡马纳斯泉海口","njblsp","3rd winter"]);
-  birds[j++] = new Bird("16-01-07T14:49","LARIDAE ","Vega Gull","西伯利亚银鸥","Larus vegae",p_id("1601china",[36,35]),["arb","The "+(t1=gmap("Bund, Shanghai, China",31.2425,121.4908)),(t2=baike("外滩","中国上海")),"arb","Immature, the "+t1,"未成年，"+t2],"veggul1");
+  birds[j++] = new Bird("16-01-07T14:49","LARIDAE ","Vega Gull","西伯利亚银鸥","Larus vegae",p_id("1601china",[36,35]),["arb",(t1=gmap("the Bund, Shanghai, China",31.2425,121.4908)),(t2=baike("外滩","中国上海")),"arb","Immature, "+t1,"未成年，"+t2],"veggul1");
   birds[j++] = new Bird("15-10-04T14:12","LARIDAE ","Lesser Black-backed Gull","小黑背鸥","Larus fuscus",m_id("151004_104"),["mdocci"]);
   birds[j++] = new Bird("21-07-12T12:19","LARIDAE ","Gull-billed Tern","鸥嘴噪鸥","Gelochelidon nilotica",m_id("220703_079"),["njnjnj","S114359788",nps("edwin-b-forsythe",true,"Edwin B. Forsythe NWR, Atlantic County"),"","","大西洋郡"+nps("edwin-b-forsythe",true,"埃德温·福赛斯国家野生动物保护区")]);
   birds[j++] = new Bird("15-07-10T10:09","LARIDAE ","Caspian Tern","红嘴巨燕鸥","Hydroprogne caspia",[m_id(["150808_089","150808_088"]),p_id("1601china",62)],["vavava",(t1=gmap("Dyke Marsh Wildlife Preserve")),"","",(t2="黛克湿地野生动物保护区"),"vavava",t1,"","",t2,"cnxmjm"]);
@@ -377,7 +377,7 @@
   birds[j++] = new Bird("05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[p_id("1112flbird",18),p_id("0512everglades",20)],["flevnp","flevnp"]);
   birds[j++] = new Bird("05-12-25T16:18","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",[p_id("1112flbird",14),p_id("1312svbird",4),p_id("1812crbird",63)],["flevnp","scsnwr","Juvenile","crarol","Immature"]);
   birds[j++] = new Bird("05-12-28T09:36","ARDEIDAE","Snowy Egret","雪鹭","Egretta thula",p_id("1112flbird",20),["flevnp"]);
-  birds[j++] = new Bird("16-01-07T14:51","ARDEIDAE","Little Egret","白鹭","Egretta garzetta",p_id("1601china",37),["arb","The "+gmap("Bund, Shanghai, China",31.2425,121.4908),baike("外滩","中国上海")],"litegr",861);
+  birds[j++] = new Bird("16-01-07T14:51","ARDEIDAE","Little Egret","白鹭","Egretta garzetta",p_id("1601china",37),["arb",gmap("the Bund, Shanghai, China",31.2425,121.4908),baike("外滩","中国上海")],"litegr",861);
 //birds[j++] = new Bird("23-00-00T00:00","SCOPIDAE","Hamerkop","锤头鹳","Scopus umbretta",m_id(""),["arb",""],"hamerk1");
 //birds[j++] = new Bird("23-00-00T00:00","BALAENIC","Shoebill","鲸头鹳","Balaeniceps rex",m_id(""),["arb",""],"shoebi1");
   birds[j++] = new Bird("05-12-28T13:35","PELECANI","American White Pelican","美洲鹈鹕","Pelecanus erythrorhynchos",p_id("2001txbirding",[4,9]),["txanwr"],"美洲白鹈鹕");
