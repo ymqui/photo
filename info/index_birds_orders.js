@@ -408,26 +408,25 @@
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
-     var thislifer    = new Date("20"+liferdate+":00");
-     var thisnewbird  = (modTim<=thislifer.getTime());
-     var thisfamily   = family.trim().slice(0,fam_ln).toUpperCase();
-     var thisname     = name.trim();
-     var thisname1    = reform(thisname);
-     var thiscname    = cname.trim();
-     var thispinyin   = getpinyin(thiscname);
-     var thislatin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
-     var thisgenus    = thislatin.substring(0,thislatin.indexOf(' '));
-     var thisinfo     = [];
-     var thiscinfo    = [];
-     var thislocs     = [];
+     name        = name.trim();
+     cname       = cname.trim();
+     latin       = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
+     var lifer   = new Date("20"+liferdate+":00");
+     var newbird = (modTim<=lifer.getTime());
+     var name1   = reform(name);
+     var pinyin  = getpinyin(cname);
+     var genus   = latin.substring(0,latin.indexOf(' '));
+     var cinfo   = [];
+     var locs    = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
-     pic_cnts      = pic_cnts+photo.length;
+     pic_cnts    = pic_cnts+photo.length;
+     family      = family.trim().slice(0,fam_ln).toUpperCase();
      var tmp_match = photo.join().match(/_dig/gi);
      if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
 
      //check if this bird needs to be added to modBrd
      var tmp_date,add_mod = false;
-     if (!thisnewbird){
+     if (!newbird){
         for (var i=0;i<photo.length;i++){
             tmp_date = getdate(photo[i],true);
             if (typeof tmp_date !== 'undefined'){
@@ -436,24 +435,21 @@
             }
         }
      }
-     if (thisnewbird||add_mod){
-        modBrd.name[modBrd.name.length] = thisname;
-        modBrd.cname[modBrd.cname.length] = thiscname;
-        modBrd.newbird[modBrd.newbird.length] = thisnewbird;
+     if (newbird||add_mod){
+        modBrd.name[modBrd.name.length] = name;
+        modBrd.cname[modBrd.cname.length] = cname;
+        modBrd.newbird[modBrd.newbird.length] = newbird;
         if (add_mod){all_new = false;}
      }
 
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
-        thisinfo  = tmp_info.info;
-        thiscinfo = tmp_info.cinfo;
-        thislocs  = tmp_info.locs;
-     }else{
-        thisinfo = info;
+        info  = tmp_info.info;
+        cinfo = tmp_info.cinfo;
+        locs  = tmp_info.locs;
      }
 
-     return {lifer:thislifer,newbird:thisnewbird,family:thisfamily,name:thisname,name1:thisname1,cname:thiscname,pinyin:thispinyin,latin:thislatin,
-             genus:thisgenus,info:thisinfo,cinfo:thiscinfo,locs:thislocs,photo:photo,ebid:ebid,cbid:cbid};
+     return {lifer:lifer,newbird:newbird,family:family,name:name,name1:name1,cname:cname,pinyin:pinyin,latin:latin,genus:genus,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
   }
 
   function stradd(in1,in2){
