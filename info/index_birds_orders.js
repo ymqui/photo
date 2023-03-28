@@ -408,53 +408,52 @@
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
-     this.lifer    = new Date("20"+liferdate+":00");
-     this.newbird  = (modTim<=this.lifer.getTime());
-     this.family   = family.trim().slice(0,fam_ln).toUpperCase();
-     this.name     = name.trim();
-     this.name1    = reform(this.name);
-     this.cname    = cname.trim();
-     this.pinyin   = getpinyin(this.cname);
-     this.latin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
-     this.genus    = this.latin.substring(0,this.latin.indexOf(' '));
-     this.info     = [];
-     this.cinfo    = [];
-     this.locs     = [];
+     var thislifer    = new Date("20"+liferdate+":00");
+     var thisnewbird  = (modTim<=thislifer.getTime());
+     var thisfamily   = family.trim().slice(0,fam_ln).toUpperCase();
+     var thisname     = name.trim();
+     var thisname1    = reform(thisname);
+     var thiscname    = cname.trim();
+     var thispinyin   = getpinyin(thiscname);
+     var thislatin    = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
+     var thisgenus    = thislatin.substring(0,thislatin.indexOf(' '));
+     var thisinfo     = [];
+     var thiscinfo    = [];
+     var thislocs     = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
-     this.photo    = photo;
-     pic_cnts      = pic_cnts+this.photo.length;
+     pic_cnts      = pic_cnts+photo.length;
      var tmp_match = photo.join().match(/_dig/gi);
      if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
 
      //check if this bird needs to be added to modBrd
      var tmp_date,add_mod = false;
-     if (!this.newbird){
-        for (var i=0;i<this.photo.length;i++){
-            tmp_date = getdate(this.photo[i],true);
+     if (!thisnewbird){
+        for (var i=0;i<photo.length;i++){
+            tmp_date = getdate(photo[i],true);
             if (typeof tmp_date !== 'undefined'){
                add_mod = (modTim<=tmp_date.getTime());
                if (add_mod){break;}
             }
         }
      }
-     if (this.newbird||add_mod){
-        modBrd.name[modBrd.name.length] = this.name;
-        modBrd.cname[modBrd.cname.length] = this.cname;
-        modBrd.newbird[modBrd.newbird.length] = this.newbird;
+     if (thisnewbird||add_mod){
+        modBrd.name[modBrd.name.length] = thisname;
+        modBrd.cname[modBrd.cname.length] = thiscname;
+        modBrd.newbird[modBrd.newbird.length] = thisnewbird;
         if (add_mod){all_new = false;}
      }
 
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
-        this.info  = tmp_info.info;
-        this.cinfo = tmp_info.cinfo;
-        this.locs  = tmp_info.locs;
+        thisinfo  = tmp_info.info;
+        thiscinfo = tmp_info.cinfo;
+        thislocs  = tmp_info.locs;
      }else{
-        this.info = info;
+        thisinfo = info;
      }
 
-     if (typeof ebid !== 'undefined'){this.ebid = ebid;}
-     if (typeof cbid !== 'undefined'){this.cbid = cbid;}
+     return {lifer:thislifer,newbird:thisnewbird,family:thisfamily,name:thisname,name1:thisname1,cname:thiscname,pinyin:thispinyin,latin:thislatin,
+             genus:thisgenus,info:thisinfo,cinfo:thiscinfo,locs:thislocs,photo:photo,ebid:ebid,cbid:cbid};
   }
 
   function stradd(in1,in2){
