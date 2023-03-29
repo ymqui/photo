@@ -168,7 +168,7 @@ function getloctooltip(str){
     if(usechinese){
         return getlocCountry(loc_cnts[i][0])+tmp;
     }else{
-        return tmp+', '+getlocCountry(loc_cnts[i][0]);
+        return tmp+((tmp.length>0)?', ':'')+getlocCountry(loc_cnts[i][0]);
     }
 }
 
