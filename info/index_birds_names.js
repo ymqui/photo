@@ -32,6 +32,8 @@
       flmnwr: ["Merritt Island National Wildlife Refuge","Florida, USA","美丽特岛国家野生动物保护区","美国佛罗里达州",nps("merritt-island",true)],
       flflfl: ["Florida","USA","佛罗里达州","美国"],
       isisis: ["","Iceland","","冰岛"],
+      islatr: ["Látrabjarg","Westfjords, Iceland","拉特拉尔角","冰岛西峡湾区","https://guidetoiceland.is/travel-iceland/drive/latrabjarg",baike("拉特拉尔角")],
+      istjor: ["Tjörnin Lake","Reykjavík, Iceland","托宁湖","冰岛雷克雅未克","https://guidetoiceland.is/reykjavik-guide/tjornin-the-pond-in-reykjavik#birdwatching-at-tjornin",baike("托宁湖")],
       marace: ["Race Point","Provincetown, Massachusetts, USA","普罗温斯敦横流点海滩","美国马萨诸塞州",hotspot("L364733")],
       mdbhrp: ["Black Hill Regional Park","Montgomery County, Maryland, USA","黑山公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/black-hill-regional-park/"],
       mdbmnt: ["Blue Mash Nature Trail","Montgomery County, Maryland, USA","蓝沼自然小径","美国马里兰州蒙哥马利郡","https://www.montgomerycountymd.gov/sws/facilities/oaks/"],
