@@ -371,8 +371,9 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
     i++;
     document.write('<td></td>');
     if (j<cou_cnts.length){
-       document.write('<td align="left">'+getFlag(cou_cnts[j][0])+'<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'">'+cou_cnts[j][0]+'</a></td>');
-       document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+cou_cnts[j][1].toString()+'</font></td>');
+       tmp_url = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'"';
+       document.write('<td align="left">'+getFlag(cou_cnts[j][0])+tmp_url+'>'+cou_cnts[j][0]+'</a></td>');
+       document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+tmp_url+' style="text-decoration:none; color:blue;">'+cou_cnts[j][1].toString()+'</a></font></td>');
     }else if(j<cou_cnts.length+1){
        document.write('<td><small>&emsp;</small></td><td></td>');
     }else if(j<cou_cnts.length+2){
