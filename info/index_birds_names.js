@@ -42,7 +42,7 @@
       mdlbrp: ["Little Bennett Regional Park","Montgomery County, Maryland, USA","小班尼特公园","美国马里兰州蒙哥马利郡","http://www.montgomeryparks.org/parks-and-trails/little-bennett-regional-park/"],
       mdloch: ["Loch Raven Reservoir","Maryland, USA","渡鸦湖水库","美国马里兰州",wiki("Loch Raven Reservoir")],
       mdmdmd: ["Maryland","USA","马里兰州","美国"], 
-      mdmwma: ["McKee-Beshers Wildlife Management Area","Maryland, USA","McKee-Beshers野生动物管理区","美国马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"],
+      mdmwma: ["McKee-Beshers Wildlife Management Area","Maryland, USA","麦基·贝希尔野生动物管理区","美国马里兰州","http://dnr.maryland.gov/wildlife/Pages/publiclands/central/mckeebeshers.aspx"],
       mdocci: ["Ocean City","Maryland, USA","大洋城","美国马里兰州"],
       mdredg: ["Redgate Park","Rockville, Maryland, USA","红门公园","美国马里兰州罗克维尔市","https://redgatepark.org/"],
       mdrock: ["Rockville","Maryland, USA","罗克维尔市","美国马里兰州"],
