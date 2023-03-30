@@ -166,9 +166,9 @@ function getloctooltip(str){
     if (str == 'arb'){return (['Miscellaneous locations','世界各地'])[cn_ind];}
     var tmp = lurls[str][0+2*cn_ind];
     if(usechinese){
-        return getlocCountry(loc_cnts[i][0])+tmp;
+        return replace_acronym(getlocCountry(loc_cnts[i][0])+tmp,true);
     }else{
-        return tmp+((tmp.length>0)?', ':'')+getlocCountry(loc_cnts[i][0]);
+        return replace_acronym(tmp+((tmp.length>0)?', ':'')+getlocCountry(loc_cnts[i][0]));
     }
 }
 
