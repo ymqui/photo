@@ -569,7 +569,7 @@
      }
      var pos = name.search(/20[0-9]{4,}/);
      if (pos == -1){
-        if(typeof returndate !== 'undefined'){return;}
+        if (returndate) {return;}
         pos = name.search(/[0-9]{4,}/);
         if (pos >= 0){
            year = name.substring(pos+0,pos+2);
@@ -578,7 +578,7 @@
      }else{
         year = name.substring(pos+0,pos+4);
         mon  = name.substring(pos+4,pos+6);
-        if(typeof returndate !== 'undefined'){
+        if (returndate){
            day = name.substring(pos+6,pos+8);
            if (isNaN(day.parseInt)){day=0;}
            mon = parseInt(mon)-1;
@@ -644,10 +644,11 @@
 
   function baike(name,before,afterin,afterout){
      if (typeof name !== 'string') {return "https://dongniao.net/nd/"+name.toString();}
+     name = replace_acronym(name,true);
      if (typeof before === 'undefined') {return "https://baike.baidu.com/item/"+name;}
      var tmp1='',tmp2='';
-     if(typeof afterin  !== 'undefined') {tmp1=afterin;}
-     if(typeof afterout !== 'undefined') {tmp2=afterout;}
+     if (typeof afterin  !== 'undefined') {tmp1=afterin;}
+     if (typeof afterout !== 'undefined') {tmp2=afterout;}
      return before+my_href("https://baike.baidu.com/item/"+name,name+tmp1,name)+tmp2;
   }
 
@@ -668,6 +669,7 @@
   function gmap(name,latt,long){
      var tmp = strsplit(name);
      if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
+        tmp[0] = replace_acronym(tmp[0]);
         return my_href("https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],"+"),tmp[0],"gmap")+tmp[1];
      }else{
         return my_href("https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString(),tmp[0],"gmap")+tmp[1];
@@ -693,7 +695,8 @@
 
   function wiki(id,name){
      if (typeof name === 'undefined') {return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);}
-     if(typeof name !== "string") {name = id;}
+     id = replace_acronym(id);
+     if ((typeof name !== 'string')||(name === '')) {name = id;}
      return my_href("https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true),name,id);
   }
 
@@ -765,8 +768,8 @@
             if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
             if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
          }
-         tmp_einfo[i] = strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]);
-         tmp_cinfo[i] = head[1]+tmp[3]+tmp[2]+tail[1]+date[1];
+         tmp_einfo[i] = replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]));
+         tmp_cinfo[i] = replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1],true);
          tmp_locs[i]  = pid;
      }
      return {info:tmp_einfo,cinfo:tmp_cinfo,locs:tmp_locs};
@@ -781,9 +784,20 @@
      }
      var url = (ebid !== "")?ebirdurl(ebid):cornellurl(name);
      if (window.usechinese){
-        if (typeof cbid == 'undefined'){cbid = cname;}
+        if (typeof cbid === 'undefined'){cbid = cname;}
         if (cbid !== ""){url = baike(cbid);}
      }
      return url;
+  }
+
+  //acronym is case sensitive
+  function replace_acronym(name,inchinese){
+     var acro = ['NWR','National Wildlife Refuge','国家野生动物保护区','NP','National Park','国家公园','WMA','Wildlife Management Area','野生动物管理区'];
+     var indx = (inchinese?2:1),rexp;
+     for (var i=0;i<Math.round((acro.length)/3.0);i++){
+         rexp = new RegExp(acro[3*i]);
+         if (rexp.test(name)){name = name.replace(rexp,acro[3*i+indx]);} 
+     }
+     return name;
   }
 //-->
