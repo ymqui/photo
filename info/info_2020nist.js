@@ -587,6 +587,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the polymer's lab","参观聚合物实验室"])[cn_ind];
     this[0][i]    = "20230323_1";
     this[1][i++]  = (["Building a person out of magnet tiles","用磁块搭人"])[cn_ind];
+    this[0][i]    = "20230330_1";
+    this[1][i++]  = ([urllink((url="https://youtu.be/cjoSwCbf6UE "),"Making a presentation about the Sun (YouTube video)"),urllink(url,"介绍太阳(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
