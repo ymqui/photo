@@ -687,7 +687,6 @@
      if (typeof isfws === "string"){name = isfws;}
      if (typeof name === 'string'){
         var tmp = strsplit(name);
-        if ((/nwr/i).test(tmp[0])){tmp[0] = tmp[0].replace(/nwr/ig,'National Wildlife Refuge');}
         url = my_href(url,tmp[0],pid)+tmp[1];
      }
      return url;
