@@ -662,13 +662,10 @@
   }
 
   function gmap(name,latt,long){
-     var tmp = strsplit(name);
-     if ((typeof latt === 'undefined') || (typeof long === 'undefined')){
-        tmp[0] = replace_acronym(tmp[0]);
-        return my_href("https://www.google.com/maps/search/?api=1&query="+reform(tmp[0],"+"),tmp[0],"gmap")+tmp[1];
-     }else{
-        return my_href("https://www.google.com/maps/search/?api=1&query="+latt.toString()+"%2C"+long.toString(),tmp[0],"gmap")+tmp[1];
-     }
+     var tmp  = strsplit(name);
+     tmp[0]   = replace_acronym(tmp[0]);
+     var tmp1 = ((typeof latt === 'undefined')||(typeof long === 'undefined'))?reform(tmp[0],"+"):(latt.toString()+"%2C"+long.toString());
+     return my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[0],"gmap")+tmp[1];
   }
 
   //https://lbsyun.baidu.com/index.php?title=uri/api or with offset [latt,long]+[0.0057,0.0064]
@@ -770,18 +767,13 @@
   }
 
   function reform_url(name,cname,ebid,cbid){
-     if (typeof ebid == 'undefined'){
-        ebid = "";
-     }else if ((typeof ebid !== 'string')||(cnrexp.test(ebid))){
+     if (typeof ebid === 'undefined') {ebid = "";}
+     if ((typeof ebid !== 'string')||(cnrexp.test(ebid))){
         cbid = ebid;
         ebid = "";
      }
-     var url = (ebid !== "")?ebirdurl(ebid):cornellurl(name);
-     if (window.usechinese){
-        if (typeof cbid === 'undefined'){cbid = cname;}
-        if (cbid !== ""){url = baike(cbid);}
-     }
-     return url;
+     if (typeof cbid === 'undefined') {cbid = cname;}
+     return (window.usechinese && (cbid !== ""))?baike(cbid):((ebid !== "")?ebirdurl(ebid):cornellurl(name));
   }
   
   //acronym is case sensitive 
