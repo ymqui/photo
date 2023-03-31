@@ -564,7 +564,7 @@ function initAlbum(){
     this[0][i]    = "20230215_1";
     this[1][i++]  = (["Counting to 100 by 10s","以10为单位数到100"])[cn_ind];
     this[0][i]    = "20230216_1";
-    this[1][i++]  = ([urllink((url="https://youtu.be/3xnQndXFw7I"),"Making a presentation about the arctic animal wolverine (YouTube video)"),urllink(url,"介绍北极动物貂熊(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink((url="https://youtu.be/3xnQndXFw7I"),"Making a presentation about the arctic animal wolverine (YouTube video)"),urllink(url,"在课堂上做报告介绍北极动物貂熊(YouTube视频)")])[cn_ind];
     this[0][i]    = "20230223_0";
     this[1][i++]  = (["Celebrating Ms B's birthday","庆祝B老师生日快乐"])[cn_ind];
     this[0][i]    = ["20230223_1","20230223_2","20230223_3"];
@@ -587,8 +587,10 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the polymer's lab","参观聚合物实验室"])[cn_ind];
     this[0][i]    = "20230323_1";
     this[1][i++]  = (["Building a person out of magnet tiles","用磁块搭人"])[cn_ind];
+    this[0][i]    = "20230330_2";
+    this[1][i++]  = (["A dinosaur","恐龙"])[cn_ind];
     this[0][i]    = "20230330_1";
-    this[1][i++]  = ([urllink((url="https://youtu.be/cjoSwCbf6UE "),"Making a presentation about the Sun (YouTube video)"),urllink(url,"介绍太阳(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink((url="https://youtu.be/cjoSwCbf6UE "),"Making a presentation about the Sun (YouTube video)"),urllink(url,"在课堂上做报告介绍太阳(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
