@@ -6,9 +6,6 @@
   var dig_cnts   = 0;
   var pic_cnts   = 0;
   var ebirdlist  = [];
-  var all_new    = true;
-  var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
-  var comma      = [", ","，"];
 
   function myOrder(name,cname,desc,cdesc,family){
      return {name:name,cname:cname,desc:desc,cdesc:cdesc,family:family};
@@ -402,25 +399,28 @@
                  "秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
-  
+  var all_new = true;
+  var comma   = [", ","，"];
+  var cnrexp  = /[\u3400-\u9FBF]/;
+  var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
+
   //info format: ["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]
   //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If date string mon/year is not provided, the date string will be constructed from the file name.
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
+     family      = family.trim().slice(0,fam_ln).toUpperCase();
      name        = name.trim();
      cname       = cname.trim();
      latin       = latin.trim().charAt(0).toUpperCase()+latin.trim().slice(1).toLowerCase();
+     var genus   = latin.substring(0,latin.indexOf(' '));
      var lifer   = new Date("20"+liferdate+":00");
      var newbird = (modTim<=lifer.getTime());
      var name1   = reform(name);
      var pinyin  = getpinyin(cname);
-     var genus   = latin.substring(0,latin.indexOf(' '));
-     var cinfo   = [];
-     var locs    = [];
+     var cinfo   = [], locs = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
      pic_cnts    = pic_cnts+photo.length;
-     family      = family.trim().slice(0,fam_ln).toUpperCase();
      var tmp_match = photo.join().match(/_dig/gi);
      if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
 
@@ -431,7 +431,7 @@
             tmp_date = getdate(photo[i],true);
             if (typeof tmp_date !== 'undefined'){
                add_mod = (modTim<=tmp_date.getTime());
-               if (add_mod){break;}
+               if (add_mod){all_new = false; break;}
             }
         }
      }
@@ -439,7 +439,6 @@
         modBrd.name[modBrd.name.length] = name;
         modBrd.cname[modBrd.cname.length] = cname;
         modBrd.newbird[modBrd.newbird.length] = newbird;
-        if (add_mod){all_new = false;}
      }
 
      if (window.expandinfo){
@@ -449,17 +448,13 @@
         locs  = tmp_info.locs;
      }
 
-     return {lifer:lifer,newbird:newbird,family:family,name:name,name1:name1,cname:cname,pinyin:pinyin,latin:latin,genus:genus,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
+     return {lifer:lifer,newbird:newbird,family:family,genus:genus,name:name,name1:name1,cname:cname,pinyin:pinyin,latin:latin,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
   }
 
-  function stradd(in1,in2){
-     if (!Array.isArray(in1)){in1 = [in1];}
-     if (!Array.isArray(in2)){in2 = [in2];}
-     var tmp = [];
-     for (var i=0;i<Math.max(in1.length,in2.length);i++){
-         tmp[i] = in1[Math.min(i,in1.length-1)]+in2[Math.min(i,in2.length-1)];
-     }
-     return tmp;
+  function stradd(...arrays) {
+     const n = arrays.reduce((max, xs) => Math.max(max, Array.isArray(xs)?xs.length:1), 0);
+     const result = Array.from({ length: n });
+     return result.map((_, i) => arrays.map(xs => (Array.isArray(xs)?xs[Math.min(i,xs.length-1)]:xs)).reduce((sum, x) => sum + x, ''));
   }
 
   //if no ',' return [str,''] else return separted string array
@@ -502,7 +497,7 @@
   }
 
   function getByCountry(id, myArray){
-     if (/[\u3400-\u9FBF]/.test(id)){
+     if (cnrexp.test(id)){
         return myArray.filter(function(obj) {
            for (var i=0;i<obj.cinfo.length;i++){
                var tmp = reform(obj.cinfo[i]);
@@ -529,7 +524,7 @@
   }
 
   function getByQuery(id, myArray){
-     if (/[\u3400-\u9FBF]/.test(id)){
+     if (cnrexp.test(id)){
         return myArray.filter(function(obj) {
            for (var i=0;i<obj.cinfo.length;i++){
                var tmp = reform(obj.cinfo[i]);
@@ -547,7 +542,7 @@
   }
 
   function getByHanzi(id, myArray){
-     if (/[\u3400-\u9FBF]/.test(id)){
+     if (cnrexp.test(id)){
         return myArray.filter(function(obj) {
             if(obj.cname.indexOf(id)!=-1) { return obj; }
         })
@@ -644,7 +639,7 @@
 
   function baike(name,before,afterin,afterout){
      if (typeof name !== 'string') {return "https://dongniao.net/nd/"+name.toString();}
-     name = replace_acronym(name,true);
+     name = replace_acronym(name);
      if (typeof before === 'undefined') {return "https://baike.baidu.com/item/"+name;}
      var tmp1='',tmp2='';
      if (typeof afterin  !== 'undefined') {tmp1=afterin;}
@@ -724,7 +719,7 @@
      var tmp_einfo = [];
      var tmp_cinfo = [];
      var tmp_locs  = [];
-     var tmp1,tmp2,tmp3,tmp,rexp,pid,date,head,tail;
+     var tmp1,tmp2,tmp3,rexp,tmp,pid,date,head,tail;
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
          if (typeof info[6*i+1]==='undefined'){info.splice(6*i+1,0,"");}
          info[6*i+1] = info[6*i+1].trim();
@@ -768,7 +763,7 @@
             if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
          }
          tmp_einfo[i] = replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]));
-         tmp_cinfo[i] = replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1],true);
+         tmp_cinfo[i] = replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]);
          tmp_locs[i]  = pid;
      }
      return {info:tmp_einfo,cinfo:tmp_cinfo,locs:tmp_locs};
@@ -777,7 +772,7 @@
   function reform_url(name,cname,ebid,cbid){
      if (typeof ebid == 'undefined'){
         ebid = "";
-     }else if ((typeof ebid !== 'string') || (/[\u3400-\u9FBF]/.test(ebid)) ){
+     }else if ((typeof ebid !== 'string')||(cnrexp.test(ebid))){
         cbid = ebid;
         ebid = "";
      }
@@ -788,15 +783,14 @@
      }
      return url;
   }
-
-  //acronym is case sensitive
-  function replace_acronym(name,inchinese){
-     var acro = ['NWR','National Wildlife Refuge','国家野生动物保护区','NP','National Park','国家公园','WMA','Wildlife Management Area','野生动物管理区'];
-     var indx = (inchinese?2:1),rexp;
-     for (var i=0;i<Math.round((acro.length)/3.0);i++){
-         rexp = new RegExp(acro[3*i]);
-         if (rexp.test(name)){name = name.replace(rexp,acro[3*i+indx]);} 
-     }
+  
+  //acronym is case sensitive 
+  var acronym = {NWR:['National Wildlife Refuge','国家野生动物保护区'],NP:['National Park','国家公园'],WMA:['Wildlife Management Area','野生动物管理区'],WR:['Wildlife Refuge','野生动物保护区']};
+  var acrrexp = new RegExp('('+Object.keys(acronym).join('|')+')','g');
+  function replace_acronym(name){
+     var indx = cnrexp.test(name)?1:0;
+     var tmp  = name.match(acrrexp);
+     if (tmp!==null){for(var i=0;i<tmp.length;i++){name = name.replace(tmp[i],(acronym[tmp[i]])[indx]);}}
      return name;
   }
 //-->
