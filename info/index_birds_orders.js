@@ -498,61 +498,38 @@
 
   function getByCountry(id, myArray){
      if (cnrexp.test(id)){
-        return myArray.filter(function(obj) {
-           for (var i=0;i<obj.cinfo.length;i++){
-               var tmp = reform(obj.cinfo[i]);
-               if(tmp.indexOf(id)==0||tmp.indexOf("，"+id)!=-1||tmp.indexOf("，_"+id)!=-1) { return obj; }
-           }
-        })
+        var rexp = new RegExp('(^'+id+'|_{2}'+id+'|， *'+id+')');
+        return myArray.filter(function(obj) {return rexp.test(obj.cinfo.join('__'));});
      }else{
-        return myArray.filter(function(obj) {
-           for (var i=0;i<obj.info.length;i++){
-               var tmp = reform(obj.info[i]);
-               if(tmp.indexOf(","+id)!=-1||tmp.indexOf(",_"+id)!=-1) { return obj; }
-           }
-        })
+        var rexp = new RegExp(', *'+id);
+        return myArray.filter(function(obj) {return rexp.test(obj.info.join('__'));});
      }
   }
 
   function getByFamily(id, myArray) {
-     var tmpid = id.slice(0,fam_ln);
-     return myArray.filter(function(obj) {if(obj.family == tmpid) { return obj; }});
+     return myArray.filter(function(obj) {return obj.family === id.slice(0,fam_ln);});
   }
 
   function getByLiferYear(year, myArray){
-     return myArray.filter(function(obj) {if(obj.lifer.getFullYear() == year) { return obj; }});
+     return myArray.filter(function(obj) {return obj.lifer.getFullYear() === year;});
   }
 
   function getByQuery(id, myArray){
      if (cnrexp.test(id)){
-        return myArray.filter(function(obj) {
-           for (var i=0;i<obj.cinfo.length;i++){
-               var tmp = reform(obj.cinfo[i]);
-               if(tmp.indexOf(id)!=-1) { return obj; }
-           }
-        })
+        return myArray.filter(function(obj) {return obj.cinfo.join('__').match(id)!==null;});
      }else{
-        return myArray.filter(function(obj) {
-           for (var i=0;i<obj.info.length;i++){
-               var tmp = reform(obj.info[i]);
-               if(tmp.indexOf(id) != -1) { return obj; }
-           }
-        })
+        return myArray.filter(function(obj) {return reform(obj.info.join('__')).match(id)!==null;});
      }
   }
 
   function getByHanzi(id, myArray){
      if (cnrexp.test(id)){
-        return myArray.filter(function(obj) {
-            if(obj.cname.indexOf(id)!=-1) { return obj; }
-        })
+        return myArray.filter(function(obj) {return obj.cname.match(id)!==null;});
      }
   }
 
   function getByLocs(id, myArray){
-     return myArray.filter(function(obj) {
-        if(obj.locs.indexOf(id) != -1) { return obj; }
-     })
+     return myArray.filter(function(obj) {return obj.locs.indexOf(id) !== -1;});
   }
 
   function getdate(path,returndate){
@@ -603,26 +580,11 @@
 
   function mysort(a,b){
      if (window.lifer){
-        if (a.lifer < b.lifer){
-           return -1;
-        }else if (a.lifer > b.lifer){
-           return 1;
-        }
+        return (a.lifer < b.lifer)?(-1):((a.lifer > b.lifer)?1:0);
+     }else if (window.usechinese){
+        return (a.pinyin < b.pinyin )?(-1):((a.pinyin > b.pinyin)?1:0); 
      }
-     if (window.usechinese){
-        if (a.pinyin < b.pinyin ){
-           return  -1;
-        }else if(a.pinyin > b.pinyin){
-           return  1;
-        }
-     }else{
-        if (a.name < b.name ){
-           return  -1;
-        }else if(a.name > b.name){
-           return  1;
-        }
-     }
-     return 0;
+     return (a.name < b.name )?(-1):((a.name > b.name)?1:0);
   }
 
   //append '20' to id automatically
