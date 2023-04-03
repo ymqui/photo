@@ -498,39 +498,40 @@
 
   function getByCountry(id, myArray){
      if (cnrexp.test(id)){
-        var rexp = new RegExp('(^'+id+'|__'+id+'|，_*'+id+')');
-        return myArray.filter(function(obj) {return rexp.test(reform(obj.cinfo.join('__')));});
+        var rexp = new RegExp('(^'+id+'|@@_*'+id+'|，_*'+id+')');
+        return myArray.filter((el)=>rexp.test(reform(el.cinfo.join('@@'))));
      }else{
         var rexp = new RegExp(',_*'+id);
-        return myArray.filter(function(obj) {return rexp.test(reform(obj.info.join('__')));});
+        return myArray.filter((el)=>rexp.test(reform(el.info.join('@@'))));
      }
   }
 
   function getByFamily(id, myArray) {
-     return myArray.filter(function(obj) {return obj.family === id.slice(0,fam_ln);});
+     id = id.slice(0,fam_ln);
+     return myArray.filter((el)=>el.family === id);
   }
 
   function getByLiferYear(year, myArray){
      year = parseInt(year);
-     return myArray.filter(function(obj) {return obj.lifer.getFullYear() === year;});
+     return myArray.filter((el)=>el.lifer.getFullYear() === year);
   }
 
   function getByQuery(id, myArray){
      if (cnrexp.test(id)){
-        return myArray.filter(function(obj) {return obj.cinfo.join('__').match(id)!==null;});
+        return myArray.filter((el)=>reform(el.cinfo.join('@@')).match(id)!==null);
      }else{
-        return myArray.filter(function(obj) {return reform(obj.info.join('__')).match(id)!==null;});
+        return myArray.filter((el)=>reform(el.info.join('@@')).match(id)!==null);
      }
   }
 
   function getByHanzi(id, myArray){
      if (cnrexp.test(id)){
-        return myArray.filter(function(obj) {return obj.cname.match(id)!==null;});
+        return myArray.filter((el)=>el.cname.match(id)!==null);
      }
   }
 
   function getByLocs(id, myArray){
-     return myArray.filter(function(obj) {return obj.locs.indexOf(id) !== -1;});
+     return myArray.filter((el)=>el.locs.indexOf(id)!==-1);
   }
 
   function getdate(path,returndate){
