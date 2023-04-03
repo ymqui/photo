@@ -498,7 +498,7 @@
 
   function getByCountry(id, myArray){
      if (cnrexp.test(id)){
-        var rexp = new RegExp('(^'+id+'|_{2}'+id+'|， *'+id+')');
+        var rexp = new RegExp('(^'+id+'|_{2}'+id+'|，_*'+id+')');
         return myArray.filter(function(obj) {return rexp.test(obj.cinfo.join('__'));});
      }else{
         var rexp = new RegExp(',_*'+id);
