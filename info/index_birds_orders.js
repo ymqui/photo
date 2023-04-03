@@ -391,12 +391,13 @@
       伊:"yi1",沃:"wo4",翼:"yi4",拟:"ni3",鹂:"li2",雅:"ya3",琵:"pi2",岩:"yan2",舌:"she2",艳:"yan4",帆:"fan1",霍:"huo4",池:"chi2",疣:"you2",凤:"feng4",旋:"xuan2",颈:"jing3",鹇:"xian2",蓬:"peng2",交:"jiao1",船:"chuan2",胜:"sheng4",
       旅:"lv3",鼻:"bi2",波:"bo1",苏:"su1",欧:"ou1",密:"mi4",笛:"di2",非:"fei1",暴:"bao4",鹛:"mei2",阔:"kuo4",本:"ben3",麦:"mai4",群:"qun2",椒:"jiao1",卷:"juan3",鹑:"chun2",秧:"yang1",跷:"qiao1",铅:"qian1",橡:"xiang4",双:"shuang1"};
 
-  var pt_eng  = ["males* left, *females* right","males*, *breeding plumage","males*, *nonbreeding plumage","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)","females*\/immature males*",
-                 "females*\/immatures*","females* left, *males* right","females* and chicks*","females* and (immature|juvenile)s*","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage",
-                 "winter females*","eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","breeding males*","breeding females*","nonbreeding *(adult)*\/immature",
-                 "nonbreeding (adults*|plumage)","nonbreeding females*\/immature males*","nonbreeding females*","nonbreeding males*","(partially)* *leucistic","mating display","nest","light morph","dark morph"];
-  var pt_chn  = ["左雄性，右雌性","雄性，繁殖羽","雄性，非繁殖羽","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽",
-                 "秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","繁殖羽雄性","繁殖羽雌性","非繁殖羽/未成年","非繁殖羽","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","非繁殖羽雄性","白变种","求偶展示","鸟巢","浅色型","暗色型"];
+  var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*",
+                 "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and chicks*","females* and (immature|juvenile)s*","(females*, *breeding plumage|breeding females*)",
+                 "nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*",
+                 "eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display",
+                 "nest","light morph","dark morph"];
+  var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","雌性",
+                 "冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型"];
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   var all_new = true;
@@ -421,24 +422,16 @@
      var cinfo   = [], locs = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
      pic_cnts    = pic_cnts+photo.length;
-     var tmp_match = photo.join().match(/_dig/gi);
-     if (tmp_match!=null){dig_cnts=dig_cnts+tmp_match.length;}
+     dig_cnts    = photo.reduce((tot,el)=>tot+((/_dig/i.test(el))?1:0),dig_cnts);
 
      //check if this bird needs to be added to modBrd
      var tmp_date,add_mod = false;
-     if (!newbird){
-        for (var i=0;i<photo.length;i++){
-            tmp_date = getdate(photo[i],true);
-            if (typeof tmp_date !== 'undefined'){
-               add_mod = (modTim<=tmp_date.getTime());
-               if (add_mod){all_new = false; break;}
-            }
-        }
-     }
+     if (!newbird){add_mod = photo.some((el)=>{tmp_date=getdate(el,true);return (typeof tmp_date !== 'undefined')?(modTim<=tmp_date.getTime()):false;});}
      if (newbird||add_mod){
         modBrd.name[modBrd.name.length] = name;
         modBrd.cname[modBrd.cname.length] = cname;
         modBrd.newbird[modBrd.newbird.length] = newbird;
+        if (add_mod){all_new = false;}
      }
 
      if (window.expandinfo){
@@ -680,7 +673,7 @@
      var tmp_einfo = [];
      var tmp_cinfo = [];
      var tmp_locs  = [];
-     var tmp1,tmp2,tmp3,rexp,tmp,pid,date,head,tail;
+     var tmp1,tmp2,tmp3,tmp,pid,date,head,tail;
      for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
          if (typeof info[6*i+1]==='undefined'){info.splice(6*i+1,0,"");}
          info[6*i+1] = info[6*i+1].trim();
@@ -696,14 +689,8 @@
          }
          if (typeof info[6*i+2]!=='undefined'){
             if (typeof info[6*i+3]==='undefined'){info.splice(6*i+3,0,"");}
-            if (info[6*i+3].trim().length==0){
-               for (var j=0;j<pt_eng.length;j++){
-                   rexp = new RegExp("^ *"+pt_eng[j],"i");
-                   if (rexp.test(info[6*i+2])){
-                      info[6*i+3] = pt_chn[j];
-                      break;
-                   }
-               }
+            if (info[6*i+3].trim().length===0){
+               if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el,"i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
             }
          }
          pid  = info[6*i].trim().toLowerCase();
