@@ -501,7 +501,7 @@
         var rexp = new RegExp('(^'+id+'|_{2}'+id+'|， *'+id+')');
         return myArray.filter(function(obj) {return rexp.test(obj.cinfo.join('__'));});
      }else{
-        var rexp = new RegExp(', *'+id);
+        var rexp = new RegExp(',_*'+id);
         return myArray.filter(function(obj) {return rexp.test(obj.info.join('__'));});
      }
   }
@@ -511,6 +511,7 @@
   }
 
   function getByLiferYear(year, myArray){
+     year = parseInt(year);
      return myArray.filter(function(obj) {return obj.lifer.getFullYear() === year;});
   }
 
