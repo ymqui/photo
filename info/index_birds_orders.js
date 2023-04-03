@@ -12,11 +12,7 @@
   }
 
   function myFamily(info){
-     var tmp = [];
-     for (var i=0;i<Math.round((info.length)/4.0);i++){
-         tmp.push({name:info[4*i],cname:info[4*i+1],desc:info[4*i+2],cdesc:info[4*i+3]});
-     }
-     return tmp;
+     return info.reduce((result,el,index,info)=>{if((index%4)===0)result.push({name:info[index],cname:info[index+1],desc:info[index+2],cdesc:info[index+3]}); return result;},[]);
   }
 	
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
@@ -469,10 +465,7 @@
   }
 
   function birdFound(id){
-     for (var i=0;i<birds.length;i++){
-         if (birds[i].name1 == id) return true;
-     }
-     return false;
+     return birds.some((el)=>el.name1===id);
   }
   
   function my_href(url,name,target){
