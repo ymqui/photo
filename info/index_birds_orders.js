@@ -498,11 +498,11 @@
 
   function getByCountry(id, myArray){
      if (cnrexp.test(id)){
-        var rexp = new RegExp('(^'+id+'|_{2}'+id+'|，_*'+id+')');
-        return myArray.filter(function(obj) {return rexp.test(obj.cinfo.join('__'));});
+        var rexp = new RegExp('(^'+id+'|__'+id+'|，_*'+id+')');
+        return myArray.filter(function(obj) {return rexp.test(reform(obj.cinfo.join('__')));});
      }else{
         var rexp = new RegExp(',_*'+id);
-        return myArray.filter(function(obj) {return rexp.test(obj.info.join('__'));});
+        return myArray.filter(function(obj) {return rexp.test(reform(obj.info.join('__')));});
      }
   }
 
