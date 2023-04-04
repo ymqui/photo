@@ -391,9 +391,10 @@
                  "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and chicks*","females* and (immature|juvenile)s*","(females*, *breeding plumage|breeding females*)",
                  "nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*",
                  "eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display",
-                 "nest","light morph","dark morph"];
+                 "nest","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)","spring molt"];
   var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","雌性",
-                 "冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型"];
+                 "冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型","未成年深色型",
+                 "幼鸟","春羽"];
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   var all_new = true;
@@ -683,7 +684,7 @@
          if (typeof info[6*i+2]!=='undefined'){
             if (typeof info[6*i+3]==='undefined'){info.splice(6*i+3,0,"");}
             if (info[6*i+3].trim().length===0){
-               if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el,"i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
+               if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
             }
          }
          pid  = info[6*i].trim().toLowerCase();
