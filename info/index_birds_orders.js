@@ -313,14 +313,13 @@
       伊:"yi1",沃:"wo4",翼:"yi4",拟:"ni3",鹂:"li2",雅:"ya3",琵:"pi2",岩:"yan2",舌:"she2",艳:"yan4",帆:"fan1",霍:"huo4",池:"chi2",疣:"you2",凤:"feng4",旋:"xuan2",颈:"jing3",鹇:"xian2",蓬:"peng2",交:"jiao1",船:"chuan2",胜:"sheng4",
       旅:"lv3",鼻:"bi2",波:"bo1",苏:"su1",欧:"ou1",密:"mi4",笛:"di2",非:"fei1",暴:"bao4",鹛:"mei2",阔:"kuo4",本:"ben3",麦:"mai4",群:"qun2",椒:"jiao1",卷:"juan3",鹑:"chun2",秧:"yang1",跷:"qiao1",铅:"qian1",橡:"xiang4",双:"shuang1"};
 
-  var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*",
-                 "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and chicks*","females* and (immature|juvenile)s*","(females*, *breeding plumage|breeding females*)",
+  var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)",
+                 "females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and (chicks*|hatchlings*)","females* and (immature|juvenile)s*","(females*, *breeding plumage|breeding females*)",
                  "nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*",
                  "eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display",
                  "nest","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)","spring molt"];
-  var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","雌性",
-                 "冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型","未成年深色型",
-                 "幼鸟","春羽"];
+  var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","雌性","冬羽",
+                 "一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型","未成年深色型","幼鸟","春羽"];
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   var all_new = true;
