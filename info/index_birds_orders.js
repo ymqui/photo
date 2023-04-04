@@ -6,99 +6,60 @@
   var dig_cnts   = 0;
   var pic_cnts   = 0;
   var ebirdlist  = [];
+  var orders     = [];
 
-  function myOrder(name,cname,desc,cdesc,family){
-     return {name:name,cname:cname,desc:desc,cdesc:cdesc,family:family};
+  //info [0-3: name,cname,desc,cdesc for order, 4*i-4*i+3: name, cname, desc,cdesc for families]
+  function myOrder(info){
+     return {name:info[0],cname:info[1],desc:info[2],cdesc:info[3],family:myFamily(info.slice(4))};
   }
 
   function myFamily(info){
      return info.reduce((result,el,index,info)=>{if((index%4)===0)result.push({name:info[index],cname:info[index+1],desc:info[index+2],cdesc:info[index+3]}); return result;},[]);
   }
-	
+
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
   //chinese names https://dongniao.net/taxonomy.html
-  var orders = [], family = [];
-
-  family = myFamily(["STRUTHIONIDAE","鸵鸟科","Ostriches","鸵鸟"]);
-  orders.push(myOrder("STRUTHIONIFORMES","鸵鸟目","Ostriches","鸵鸟",family));
-
-  family = myFamily(["RHEIDAE","美洲鸵鸟科","Rheas","美洲鸵鸟"]);
-  orders.push(myOrder("RHEIFORMES","美洲鸵鸟目","Rheas","美洲鸵鸟",family));
-
-  family = myFamily(["APTERYGIDAE","鹬鸵科","Kiwis","几维鸟"]);
-  orders.push(myOrder("APTERYGIFORMES","鹬鸵目","Kiwis","几维鸟",family));
-
-  family = myFamily(["CASUARIIDAE","鹤鸵科","Cassowaries and Emus","鹤鸵和鸸鹋"]);
-  orders.push(myOrder("CASUARIIFORMES","鹤鸵目","Cassowaries and Emus","鹤鸵和鸸鹋",family));
-
-  family = myFamily(["TINAMIDAE","䳍科","Tinamous","䳍鸟"]);
-  orders.push(myOrder("TINAMIFORMES","䳍形目","Tinamous","䳍鸟",family));
-
-  family = myFamily(["ANHIMIDAE","叫鸭科","Screamers","叫鸭",                       
+  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","Ostriches","鸵鸟","STRUTHIONIDAE","鸵鸟科","Ostriches","鸵鸟"]));
+  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","Rheas","美洲鸵鸟","RHEIDAE","美洲鸵鸟科","Rheas","美洲鸵鸟"]));
+  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","Kiwis","几维鸟","APTERYGIDAE","鹬鸵科","Kiwis","几维鸟"]));
+  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","Cassowaries and Emus","鹤鸵和鸸鹋","CASUARIIDAE","鹤鸵科","Cassowaries and Emus","鹤鸵和鸸鹋"]));
+  orders.push(myOrder(["TINAMIFORMES","䳍形目","Tinamous","䳍鸟","TINAMIDAE","䳍科","Tinamous","䳍鸟"]));
+  orders.push(myOrder(["ANSERIFORMES","雁形目","Ducks, Geese, and Swans","鸭，雁和天鹅",
+     "ANHIMIDAE","叫鸭科","Screamers","叫鸭",                       
      "ANSERANATIDAE","鹊雁科","Magpie Goose","鹊雁",
-     "ANATIDAE","鸭科","Ducks, Geese, and Swans","鸭，雁和天鹅"]);
-  orders.push(myOrder("ANSERIFORMES","雁形目","Ducks, Geese, and Swans","鸭，雁和天鹅",family));
-
-  family = myFamily(["MEGAPODIIDAE","塚雉科","Megapodes","塚雉",
+     "ANATIDAE","鸭科","Ducks, Geese, and Swans","鸭，雁和天鹅"]));
+  orders.push(myOrder(["GALLIFORMES","鸡形目","Grouse, Quail, and Allies","鸡，鹑和雉等",
+     "MEGAPODIIDAE","塚雉科","Megapodes","塚雉",
      "CRACIDAE","凤冠雉科","Chachalacas, Curassows, and Guans","小冠雉，凤冠雉和冠雉",
      "NUMIDIDAE","珠鸡科","Guineafowl","珠鸡",
      "ODONTOPHORIDAE","齿鹑科","New World Quail","美洲鹑",
-     "PHASIANIDAE","雉科","Pheasants and Allies","雉鸡，松鸡，火鸡和旧大陆的鹑"]);
-  orders.push(myOrder("GALLIFORMES","鸡形目","Grouse, Quail, and Allies","鸡，鹑和雉等",family));
-
-  family = myFamily(["CAPRIMULGIDAE","夜鹰科","Nightjars","夜鹰"]);
-  orders.push(myOrder("CAPRIMULGIFORMES","夜鹰目","Nightjars","夜鹰",family));
-
-  family = myFamily(["STEATORNITHIDAE","油鸱科","Oilbird","油鸱"]);
-  orders.push(myOrder("STEATORNITHIFORMES","油鸱目","Oilbird","油鸱",family));
-
-  family = myFamily(["NYCTIBIIDAE","林鸮科","Potoos","林鸮"]);
-  orders.push(myOrder("NYCTIBIIFORMES","林鸮目","Potoos","林鸮",family));
-
-  family = myFamily(["PODARGIDAE","蛙口夜鹰科","Frogmouths","蛙口夜鹰"]);
-  orders.push(myOrder("PODARGIFORMES","蛙口夜鹰目","Frogmouths","蛙口夜鹰",family));
-
-  family = myFamily(["AEGOTHELIDAE","裸鼻鸱科","Owlet-nightjars","裸鼻鸱"]);
-  orders.push(myOrder("AEGOTHELIFORMES","裸鼻鸱目","Owlet-nightjars","裸鼻鸱",family));
-
-  family = myFamily(["HEMIPROCNIDAE","凤头雨燕科","Treeswifts","凤头雨燕",
+     "PHASIANIDAE","雉科","Pheasants and Allies","雉鸡，松鸡，火鸡和旧大陆的鹑"]));
+  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","Nightjars","夜鹰","CAPRIMULGIDAE","夜鹰科","Nightjars","夜鹰"]));
+  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","Oilbird","油鸱","STEATORNITHIDAE","油鸱科","Oilbird","油鸱"]));
+  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","Potoos","林鸮","NYCTIBIIDAE","林鸮科","Potoos","林鸮"]));
+  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","Frogmouths","蛙口夜鹰","PODARGIDAE","蛙口夜鹰科","Frogmouths","蛙口夜鹰"]));
+  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","Owlet-nightjars","裸鼻鸱","AEGOTHELIDAE","裸鼻鸱科","Owlet-nightjars","裸鼻鸱"]));
+  orders.push(myOrder(["APODIFORMES","雨燕目","Swifts and Hummingbirds","雨燕和蜂鸟",
+    "HEMIPROCNIDAE","凤头雨燕科","Treeswifts","凤头雨燕",
     "APODIDAE","雨燕科","Swifts","雨燕",
-    "TROCHILIDAE","蜂鸟科","Hummingbirds","蜂鸟"]);
-  orders.push(myOrder("APODIFORMES","雨燕目","Swifts and Hummingbirds","雨燕和蜂鸟",family));
-
-  family = myFamily(["MUSOPHAGIDAE","蕉鹃科","Turacos","蕉鹃"]);
-  orders.push(myOrder("MUSOPHAGIFORMES","蕉鹃目","Turacos","蕉鹃",family));
-
-  family = myFamily(["OTIDIDAE","鸨科","Bustards","鸨"]);
-  orders.push(myOrder("OTIDIFORMES","鸨形目","Bustards","鸨",family));
-
-  family = myFamily(["CUCULIDAE","杜鹃科","Cuckoos, Roadrunners, and Anis","杜鹃，走鹃和犀鹃"]);
-  orders.push(myOrder("CUCULIFORMES","鹃形目","Cuckoos","杜鹃等",family));
-
-  family = myFamily(["MESITORNITHIDAE","拟鹑科","Mesites","拟鹑"]);
-  orders.push(myOrder("MESITORNITHIFORMES","拟鹑目","Mesites","拟鹑",family));
-
-  family = myFamily(["PTEROCLIDAE","沙鸡科","Sandgrouse","沙鸡"]);
-  orders.push(myOrder("PTEROCLIFORMES","沙鸡目","Sandgrouse","沙鸡",family));
-
-  family = myFamily(["COLUMBIDAE","鸽鸠科","Pigeons and Doves","鸽和鸠"]);
-  orders.push(myOrder("COLUMBIFORMES","鸽形目","Pigeons and Doves","鸽和鸠",family));
-
-  family = myFamily(["HELIORNITHIDAE","日鷉科","Finfoots","鳍趾鷉",
+    "TROCHILIDAE","蜂鸟科","Hummingbirds","蜂鸟"]));
+  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","Turacos","蕉鹃","MUSOPHAGIDAE","蕉鹃科","Turacos","蕉鹃"]));
+  orders.push(myOrder(["OTIDIFORMES","鸨形目","Bustards","鸨","OTIDIDAE","鸨科","Bustards","鸨"]));
+  orders.push(myOrder(["CUCULIFORMES","鹃形目","Cuckoos","杜鹃等","CUCULIDAE","杜鹃科","Cuckoos, Roadrunners, and Anis","杜鹃，走鹃和犀鹃"]));
+  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","Mesites","拟鹑","MESITORNITHIDAE","拟鹑科","Mesites","拟鹑"]));
+  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","Sandgrouse","沙鸡","PTEROCLIDAE","沙鸡科","Sandgrouse","沙鸡"]));
+  orders.push(myOrder(["COLUMBIFORMES","鸽形目","Pigeons and Doves","鸽和鸠","COLUMBIDAE","鸽鸠科","Pigeons and Doves","鸽和鸠"]));
+  orders.push(myOrder(["GRUIFORMES","鹤形目","Cranes and Rails","鹤和秧鸡等",
+    "HELIORNITHIDAE","日鷉科","Finfoots","鳍趾鷉",
     "SAROTHRURIDAE","侏秧鸡科","Flufftails","侏秧鸡",
     "RALLIDAE","秧鸡科","Rails, Gallinules, and Coots","秧鸡，水鸡和骨顶鸡",
     "PSOPHIIDAE","喇叭鸟科","Trumpeters","喇叭声鹤",
     "GRUIDAE","鹤科","Cranes","鹤",
-    "ARAMIDAE","秧鹤科","Limpkins","秧鹤"]);
-  orders.push(myOrder("GRUIFORMES","鹤形目","Cranes and Rails","鹤和秧鸡等",family));
-
-  family = myFamily(["PODICIPEDIDAE","䴙䴘科","Grebes","䴙䴘"]);
-  orders.push(myOrder("PODICIPEDIFORMES","䴙䴘目","Grebes","䴙䴘",family));
-
-  family = myFamily(["PHOENICOPTERIDAE","火烈鸟科","Flamingos","火烈鸟"]);
-  orders.push(myOrder("PHOENICOPTERIFORMES","火烈鸟目","Flamingos","火烈鸟",family));
-
-  family = myFamily(["TURNICIDAE","三趾鹑科","Buttonquail","三趾鹑",
+    "ARAMIDAE","秧鹤科","Limpkins","秧鹤"]));
+  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","Grebes","䴙䴘","PODICIPEDIDAE","䴙䴘科","Grebes","䴙䴘"]));
+  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","Flamingos","火烈鸟","PHOENICOPTERIDAE","火烈鸟科","Flamingos","火烈鸟"]));
+  orders.push(myOrder(["CHARADRIIFORMES","鸻形目","Plovers, Sandpipers, and Allies","鸻，鹬和鸥等",
+    "TURNICIDAE","三趾鹑科","Buttonquail","三趾鹑",
     "BURHINIDAE","石鸻科","Thick-knees","石鸻",
     "CHIONIDAE","鞘嘴鸥科","Sheathbills","鞘嘴鸥",
     "PLUVIANELLIDAE","短腿鸻科","Magellanic Plover","短腿鸻",
@@ -116,81 +77,56 @@
     "GLAREOLIDAE","燕鸻科","Coursers and Pratincoles","走鸻和燕鸻",
     "LARIDAE","鸥科","Gulls, Terns, and Skimmers","鸥，燕鸥和剪嘴鸥",
     "STERCORARIIDAE","贼鸥科","Skuas and Jaegers","贼鸥",
-    "ALCIDAE","海雀科","Auks, Murres, and Puffins","海雀，海鸦和海鹦"]);
-  orders.push(myOrder("CHARADRIIFORMES","鸻形目","Plovers, Sandpipers, and Allies","鸻，鹬和鸥等",family));
-
-  family = myFamily(["RHYNOCHETIDAE","鹭鹤科","Rhynochetos","鹭鹤",
-    "EURYPYGIDAE","日鳽科","Sunbittern","日鳽"]);
-  orders.push(myOrder("EURYPYGIFORMES","日鳽目","Rhynochetos and Sunbittern","鹭鹤和日鳽",family));
-
-  family = myFamily(["PHAETHONTIDAE","鹲科","Tropicbirds","鹲"]);
-  orders.push(myOrder("PHAETHONTIFORMES","鹲形目","Tropicbird","鹲",family));
-
-  family = myFamily(["GAVIIDAE","潜鸟科","Loons","潜鸟"]);
-  orders.push(myOrder("GAVIIFORMES","潜鸟目","Loons","潜鸟",family));
-
-  family = myFamily(["SPHENISCIDAE","企鹅科","Penguin","企鹅"]);
-  orders.push(myOrder("SPHENISCIFORMES","企鹅目","Penguin","企鹅",family));
-
-  family = myFamily(["OCEANITIDAE","洋海燕科","Austral Storm Petrels","澳洲海燕",
+    "ALCIDAE","海雀科","Auks, Murres, and Puffins","海雀，海鸦和海鹦"]));
+  orders.push(myOrder(["EURYPYGIFORMES","日鳽目","Rhynochetos and Sunbittern","鹭鹤和日鳽",
+    "RHYNOCHETIDAE","鹭鹤科","Rhynochetos","鹭鹤",
+    "EURYPYGIDAE","日鳽科","Sunbittern","日鳽"]));
+  orders.push(myOrder(["PHAETHONTIFORMES","鹲形目","Tropicbird","鹲","PHAETHONTIDAE","鹲科","Tropicbirds","鹲"]));
+  orders.push(myOrder(["GAVIIFORMES","潜鸟目","Loons","潜鸟","GAVIIDAE","潜鸟科","Loons","潜鸟"]));
+  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","Penguin","企鹅","SPHENISCIDAE","企鹅科","Penguin","企鹅"]));
+  orders.push(myOrder(["PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",
+    "OCEANITIDAE","洋海燕科","Austral Storm Petrels","澳洲海燕",
     "DIOMEDEIDAE","信天翁科","Albatrosses","信天翁",
     "HYDROBATIDAE","海燕科","Storm-Petrels","海燕",
-    "PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱"]);
-  orders.push(myOrder("PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",family));
-
-  family = myFamily(["CICONIIDAE","鹳科","Storks","鹳"]);
-  orders.push(myOrder("CICONIIFORMES","鹳形目","Storks","鹳",family));
-
-  family = myFamily(["FREGATIDAE","军舰鸟科","Frigatebirds","军舰鸟",
+    "PROCELLARIIDAE","鹱科","Shearwaters and Petrels","鹱"]));
+  orders.push(myOrder(["CICONIIFORMES","鹳形目","Storks","鹳","CICONIIDAE","鹳科","Storks","鹳"]));
+  orders.push(myOrder(["SULIFORMES","鲣鸟目","Frigatebirds, Boobies, Cormorants, Darters, and Allies","军舰鸟，鲣鸟，鸬鹚和蛇鹈等",
+    "FREGATIDAE","军舰鸟科","Frigatebirds","军舰鸟",
     "SULIDAE","鲣鸟科","Boobies and Gannets","鲣鸟",
     "ANHINGIDAE","蛇鹈科","Darters","蛇鹈",
-    "PHALACROCORACIDAE","鸬鹚科","Cormorants","鸬鹚"]);
-  orders.push(myOrder("SULIFORMES","鲣鸟目","Frigatebirds, Boobies, Cormorants, Darters, and Allies","军舰鸟，鲣鸟，鸬鹚和蛇鹈等",family));
-
-  family = myFamily(["THRESKIORNITHIDAE","鹮科","Ibises and Spoonbills","鹮和琵鹭",
+    "PHALACROCORACIDAE","鸬鹚科","Cormorants","鸬鹚"]));
+  orders.push(myOrder(["PELECANIFORMES","鹈形目","Pelicans, Herons, Ibises, and Allies","鹈鹕，鹭和朱鹭等",
+    "THRESKIORNITHIDAE","鹮科","Ibises and Spoonbills","鹮和琵鹭",
     "ARDEIDAE","鹭科","Bitterns, Herons, and Allies","鹭和麻鳽",
     "SCOPIDAE","锤头鹳科","Hamerkop","锤头鹳",
     "BALAENICIPITIDAE","鲸头鹳科","Shoebill","鲸头鹳",
-    "PELECANIDAE","鹈鹕科","Pelicans","鹈鹕"]);
-  orders.push(myOrder("PELECANIFORMES","鹈形目","Pelicans, Herons, Ibises, and Allies","鹈鹕，鹭和朱鹭等",family));
-
-  family = myFamily(["OPISTHOCOMIDAE","麝雉科","Hoatzin","麝雉"]);
-  orders.push(myOrder("OPISTHOCOMIFORMES","麝雉目","Hoatzin","麝雉",family));
-
-  family = myFamily(["CATHARTIDAE","美洲鹫科","New World Vultures","美洲鹫",
+    "PELECANIDAE","鹈鹕科","Pelicans","鹈鹕"]));
+  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","Hoatzin","麝雉","OPISTHOCOMIDAE","麝雉科","Hoatzin","麝雉"]));
+  orders.push(myOrder(["ACCIPITRIFORMES","鹰形目","Hawks, Kites, Eagles, and Allies","鹰，鹗和鹫等",
+    "CATHARTIDAE","美洲鹫科","New World Vultures","美洲鹫",
     "SAGITTARIIDAE","鹭鹰科","Secretarybird","鹭鹰",
     "PANDIONIDAE","鹗科","Ospreys","鹗",
-    "ACCIPITRIDAE","鹰科","Kites, Hawks, Eagles, and Allies","鹰"]);
-  orders.push(myOrder("ACCIPITRIFORMES","鹰形目","Hawks, Kites, Eagles, and Allies","鹰，鹗和鹫等",family));
-
-  family = myFamily(["TYTONIDAE","仓鸮科","Barn Owls","仓鸮",
-    "STRIGIDAE","鸱鸮科","Typical Owls","鸮"]);
-  orders.push(myOrder("STRIGIFORMES","鸮形目","Owls","鸮",family));
-
-  family = myFamily(["COLIIDAE","鼠鸟科","Mousebirds","鼠鸟"]);
-  orders.push(myOrder("COLIIFORMES","鼠鸟目","Mousebirds","鼠鸟",family));
-
-  family = myFamily(["LEPTOSOMIDAE","鹃三宝鸟科","Cuckoo Roller","鹃三宝鸟"]);
-  orders.push(myOrder("LEPTOSOMIFORMES","鹃三宝鸟目","Cuckoo Roller","鹃三宝鸟",family));
-
-  family = myFamily(["TROGONIDAE","咬鹃科","Trogons and Quetzals","咬鹃和绿咬鹃"]);
-  orders.push(myOrder("TROGONIFORMES","咬鹃目","Trogons and Quetzals","咬鹃和绿咬鹃",family));
-
-  family = myFamily(["UPUPIDAE","戴胜科","Hoopoes","戴胜",
+    "ACCIPITRIDAE","鹰科","Kites, Hawks, Eagles, and Allies","鹰"]));
+  orders.push(myOrder(["STRIGIFORMES","鸮形目","Owls","鸮",
+    "TYTONIDAE","仓鸮科","Barn Owls","仓鸮",
+    "STRIGIDAE","鸱鸮科","Typical Owls","鸮"]));
+  orders.push(myOrder(["COLIIFORMES","鼠鸟目","Mousebirds","鼠鸟","COLIIDAE","鼠鸟科","Mousebirds","鼠鸟"]));
+  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","Cuckoo Roller","鹃三宝鸟","LEPTOSOMIDAE","鹃三宝鸟科","Cuckoo Roller","鹃三宝鸟"]));
+  orders.push(myOrder(["TROGONIFORMES","咬鹃目","Trogons and Quetzals","咬鹃和绿咬鹃","TROGONIDAE","咬鹃科","Trogons and Quetzals","咬鹃和绿咬鹃"]));
+  orders.push(myOrder(["BUCEROTIFORMES","犀鸟目","Hornbills, Hoopoes and Wood Hoopoes","犀鸟，戴胜和林戴胜",
+    "UPUPIDAE","戴胜科","Hoopoes","戴胜",
     "PHOENICULIDAE","林戴胜科","Wood Hoopoes","林戴胜",
     "BUCORVIDAE","地犀鸟科","Ground Hornbills","地犀鸟",
-    "BUCEROTIDAE","犀鸟科","Hornbills","犀鸟"]);
-  orders.push(myOrder("BUCEROTIFORMES","犀鸟目","Hornbills, Hoopoes and Wood Hoopoes","犀鸟，戴胜和林戴胜",family));
-
-  family = myFamily(["CORACIIDAE","佛法僧科","Rollers","三宝鸟",
+    "BUCEROTIDAE","犀鸟科","Hornbills","犀鸟"]));
+  orders.push(myOrder(["CORACIIFORMES","佛法僧目","Kingfishers and Allies","翠鸟等",
+    "CORACIIDAE","佛法僧科","Rollers","三宝鸟",
     "BRACHYPTERACIIDAE","地三宝鸟科","Ground-Rollers","地三宝鸟",
     "ALCEDINIDAE","翠鸟科","Kingfishers","翠鸟",
     "TODIDAE","短尾鴗科","Todies","短尾鴗",
     "MOMOTIDAE","翠鴗科","Motmots","翠鴗",
-    "MEROPIDAE","蜂虎科","Bee-eaters","蜂虎"]);
-  orders.push(myOrder("CORACIIFORMES","佛法僧目","Kingfishers and Allies","翠鸟等",family));
-
-  family = myFamily(["GALBULIDAE","鹟鴷科","Jacamars","鹟鴷",
+    "MEROPIDAE","蜂虎科","Bee-eaters","蜂虎"]));
+  orders.push(myOrder(["PICIFORMES","䴕形目","Woodpeckers","啄木鸟",
+    "GALBULIDAE","鹟鴷科","Jacamars","鹟鴷",
     "BUCCONIDAE","蓬头鴷科","Puffbirds","蓬头鴷",
     "CAPITONIDAE","须鴷科","New World Barbets","须鴷",
     "SEMNORNITHIDAE","巨嘴拟鴷科","Toucan-barbets","巨嘴拟鴷",
@@ -198,22 +134,16 @@
     "MEGALAIMIDAE","拟鴷科","Asian Barbets","拟鴷",
     "LYBIIDAE","非洲拟啄木鸟科","African Barbets and Tinkerbirds","非洲拟鴷",
     "INDICATORIDAE","响蜜鴷科","Honeyguides","响蜜鴷",
-    "PICIDAE","啄木鸟科","Woodpeckers and Allies","啄木鸟等"]);
-  orders.push(myOrder("PICIFORMES","䴕形目","Woodpeckers","啄木鸟",family));
-
-  family = myFamily(["CARIAMIDAE","叫鹤科","Seriemas","叫鹤"]);
-  orders.push(myOrder("CARIAMIFORMES","叫鹤目","Seriemas","叫鹤",family));
-
-  family = myFamily(["FALCONIDAE","隼科","Caracaras and Falcons","隼"]);
-  orders.push(myOrder("FALCONIFORMES","隼形目","Caracaras and Falcons","隼",family));
-  
-  family = myFamily(["STRIGOPIDAE","鸮鹦鹉科","New Zealand Parrots","新西兰鹦鹉",
+    "PICIDAE","啄木鸟科","Woodpeckers and Allies","啄木鸟等"]));
+  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","Seriemas","叫鹤","CARIAMIDAE","叫鹤科","Seriemas","叫鹤"]));
+  orders.push(myOrder(["FALCONIFORMES","隼形目","Caracaras and Falcons","隼","FALCONIDAE","隼科","Caracaras and Falcons","隼"]));
+  orders.push(myOrder(["PSITTACIFORMES","鹦形目","Parrots and Allies","鹦鹉",
+    "STRIGOPIDAE","鸮鹦鹉科","New Zealand Parrots","新西兰鹦鹉",
     "CACATUIDAE","凤头鹦鹉科","Cockatoos","凤头鹦鹉",
     "PSITTACIDAE","鹦鹉科","African and American Parrots","非洲和美洲鹦鹉",
-    "PSITTACULIDAE","长尾鹦鹉科","Old World Parrots","旧大陆鹦鹉"]);
-  orders.push(myOrder("PSITTACIFORMES","鹦形目","Parrots and Allies","鹦鹉",family));
-
-  family = myFamily(["ACANTHISITTIDAE","刺鹩科","New Zealand Wrens","刺鹩",
+    "PSITTACULIDAE","长尾鹦鹉科","Old World Parrots","旧大陆鹦鹉"]));
+  orders.push(myOrder(["PASSERIFORMES","雀形目","Perching Birds","栖鸟",
+    "ACANTHISITTIDAE","刺鹩科","New Zealand Wrens","刺鹩",
     "SAPAYOIDAE","阔嘴霸鹟科","Sapayoa","阔嘴霸鹟",
     "PHILEPITTIDAE","裸眉鸫科","Asities","裸眉鸫",
     "EURYLAIMIDAE","阔嘴鸟科","Broadbills","阔嘴鸟",
@@ -291,7 +221,7 @@
     "NICATORIDAE","斗鹎科","Nicators","斗鹎",
     "PANURIDAE","文须雀科","Bearded Reedling","文须雀",
     "ALAUDIDAE","百灵科","Larks","百灵",
-    "PYCNONOTIDAE","鹎科","Bulbuls","鹎 ",
+    "PYCNONOTIDAE","鹎科","Bulbuls","鹎",
     "HIRUNDINIDAE","燕科","Swallows","燕",
     "PNOEPYGIDAE","鳞胸鹪鹛科","Cupwings","鹪鹛",
     "MACROSPHENIDAE","长嘴莺科","Crombecs and African Warblers","森莺和长嘴莺",
@@ -339,7 +269,7 @@
     "VIDUIDAE","维达雀科","Indigobirds and Whydahs","维达雀",
     "PEUCEDRAMIDAE","绿森莺科","Olive Warbler","绿森莺",
     "PRUNELLIDAE","岩鹨科","Accentors","岩鹨",
-    "MOTACILLIDAE","鹡鸰科","Wagtails and Pipits","鹡鸰和鹨 ",
+    "MOTACILLIDAE","鹡鸰科","Wagtails and Pipits","鹡鸰和鹨",
     "UROCYNCHRAMIDAE","朱鹀科","Przevalski's Finch","朱鹀",
     "FRINGILLIDAE","燕雀科","Finches and Allies","燕雀等",
     "CALCARIIDAE","铁爪鹀科","Longspurs and Snow Buntings","铁爪鹀和雪鹀",
@@ -357,8 +287,7 @@
     "PARULIDAE","森莺科","Wood-Warblers","森莺",
     "MITROSPINGIDAE","乌脸唐纳雀科","Mitrospingid Tanagers","乌脸唐纳雀",
     "CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies","美洲雀",
-    "THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀等"]);
-  orders.push(myOrder("PASSERIFORMES","雀形目","Perching Birds","栖鸟",family));
+    "THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀等"]));
 
   //functions and variables used in index_birds_names
   //table for Chinese pinyin, string.localeCompare() does not work in all browsers
@@ -555,12 +484,11 @@
 
   function getpinyin(cname){
      var chars = cname.split('');
-     return chars.reduce((tot,el)=>{
-            if (typeof py[el] !== 'undefined'){
-               tot = tot+py[el]+' ';
-               py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1);
-            }else{document.write('<br>'+el+' pinyin not found!<br>');}
-            return tot;},'');
+     return chars.reduce((tot,el)=>{if (typeof py[el] !== 'undefined'){
+            tot = tot+py[el]+' ';
+            py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1);
+        }else{document.write('<br>'+el+' pinyin not found!<br>');}
+        return tot;},'');
   }
 
   function mysort(a,b){
@@ -574,10 +502,9 @@
 
   //append '20' to id automatically
   function m_id(id,num){
-     var ind = 0;
-     if (typeof num === 'undefined'){num = "";}else{ind=num;}
-     misc_cnts[ind] = (Array.isArray(id))?(misc_cnts[ind]+id.length):(misc_cnts[ind]+1);
-     return stradd("misc_birds"+num.toString()+"/20",id);
+     if (typeof num === 'undefined'){num = 0;}
+     misc_cnts[num] = (Array.isArray(id))?(misc_cnts[num]+id.length):(misc_cnts[num]+1);
+     return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
   }
 
   function p_id(album,id){
