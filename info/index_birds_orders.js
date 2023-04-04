@@ -554,17 +554,13 @@
   }
 
   function getpinyin(cname){
-     var tmp = '';
-     for (var i=0;i<cname.length;i++){
-         if (typeof py[cname.charAt(i)] !== 'undefined'){
-            tmp = tmp+py[cname.charAt(i)]+' ';
-            if (typeof py_cnts[cname.charAt(i)] === 'undefined') py_cnts[cname.charAt(i)] = 0;
-            py_cnts[cname.charAt(i)]++;
-         }else{
-            document.write('<br>'+cname.charAt(i)+' pinyin not found!<br>');
-         }
-     }
-     return tmp;
+     var chars = cname.split('');
+     return chars.reduce((tot,el)=>{
+            if (typeof py[el] !== 'undefined'){
+               tot = tot+py[el]+' ';
+               py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1);
+            }else{document.write('<br>'+el+' pinyin not found!<br>');}
+            return tot;},'');
   }
 
   function mysort(a,b){
