@@ -313,13 +313,13 @@
       伊:"yi1",沃:"wo4",翼:"yi4",拟:"ni3",鹂:"li2",雅:"ya3",琵:"pi2",岩:"yan2",舌:"she2",艳:"yan4",帆:"fan1",霍:"huo4",池:"chi2",疣:"you2",凤:"feng4",旋:"xuan2",颈:"jing3",鹇:"xian2",蓬:"peng2",交:"jiao1",船:"chuan2",胜:"sheng4",
       旅:"lv3",鼻:"bi2",波:"bo1",苏:"su1",欧:"ou1",密:"mi4",笛:"di2",非:"fei1",暴:"bao4",鹛:"mei2",阔:"kuo4",本:"ben3",麦:"mai4",群:"qun2",椒:"jiao1",卷:"juan3",鹑:"chun2",秧:"yang1",跷:"qiao1",铅:"qian1",橡:"xiang4",双:"shuang1"};
 
-  var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*","(immatures*|juveniles*)",
-                 "females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and (chicks*|hatchlings*)","females* and (immature|juvenile)s*","(females*, *breeding plumage|breeding females*)",
-                 "nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter","2nd year","3rd winter","3rd year","fall plumage","winter females*",
-                 "eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display",
-                 "nest","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)","spring molt"];
-  var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性","雌性","冬羽",
-                 "一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","鸟巢","淡色型","深色型","未成年深色型","幼鸟","春羽"];
+  var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*",
+                 "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and (chicks*|hatchlings*)","females* and (immature|juvenile)s*","spring molt","nest",
+                 "(females*, *breeding plumage|breeding females*)","nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter",
+                 "2nd year","3rd winter","3rd year","fall plumage","winter females*","eclipse males*","molting adult","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)","nonbreeding *(adult)*\/immature",
+                 "nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)"];
+  var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","春羽","鸟巢","繁殖羽雌性","非繁殖羽雌性/未成年雄性","非繁殖羽雌性",
+                 "雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","淡色型","深色型","未成年深色型","幼鸟"];
   var fam_ln  = 8;  //family length
   var order   = (/&order|^order/i).test(window.location.search.substring(1));
   var all_new = true;
@@ -328,7 +328,7 @@
   var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
 
   //info format: ["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]
-  //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If date string mon/year is not provided, the date string will be constructed from the file name.
+  //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If mon/year is absent, it will be constructed from the file name.
   //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
   //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
@@ -571,28 +571,20 @@
   }
 
   function reform_locs(info,photo){
-     var indx = 1;
-     var prev = 0;
-     while(indx<info.length){
-         if (typeof lurls[info[indx]] !== 'undefined'){
-            prev = prev+6;
-            for (var i=0;i<prev-indx;i++){info.splice(indx,0,"");}
-            indx = prev;
-         }else if((indx==prev+1)&&(info[indx].length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(info[indx]))){
-            info.splice(indx,0,"");
-         }
-         indx++;
-     }
-     var tmp_einfo = [];
-     var tmp_cinfo = [];
-     var tmp_locs  = [];
-     var tmp1,tmp2,tmp3,tmp,pid,date,head,tail;
-     for (var i=0;i<Math.floor((info.length-1)/6.0)+1;i++){
-         if (typeof info[6*i+1]==='undefined'){info.splice(6*i+1,0,"");}
-         info[6*i+1] = info[6*i+1].trim();
-         tmp3 = info[6*i+1].lastIndexOf(',');
-         tmp1 = (tmp3>=0)?info[6*i+1].substr(0,tmp3):((/[0-9]{1,2}\/[0-9]{4}/.test(info[6*i+1]))?info[6*i+1]:'');
-         tmp2 = (tmp3>=0)?info[6*i+1].substr(tmp3+1):((!(/[0-9]{1,2}\/[0-9]{4}/.test(info[6*i+1])))?info[6*i+1]:'');
+     var info1 = [], tmp_einfo = [], tmp_cinfo = [], tmp_locs  = [];
+     var tmp1,tmp2,tmp3,tmp,pid,date,head,tail,indx;
+     info.forEach((el,ind,arr)=>{
+          if ((ind>0)&&(typeof lurls[el] !== 'undefined')){
+             if ((info1.length%6)>0) info1.push(...Array(6-(info1.length%6)).fill(''));
+          }else if (((info1.length%6)===1)&&(el.length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(el))){info1.push('');}
+          info1.push(el);
+     });
+     for (var i=0;i<Math.ceil(info1.length/6.0);i++){
+         if (typeof info1[6*i+1]==='undefined'){info1.splice(6*i+1,0,"");}
+         info1[6*i+1] = info1[6*i+1].trim();
+         tmp3 = info1[6*i+1].lastIndexOf(',');
+         tmp1 = (tmp3>=0)?info1[6*i+1].substr(0,tmp3):((/[0-9]{1,2}\/[0-9]{4}/.test(info1[6*i+1]))?info1[6*i+1]:'');
+         tmp2 = (tmp3>=0)?info1[6*i+1].substr(tmp3+1):((!(/[0-9]{1,2}\/[0-9]{4}/.test(info1[6*i+1])))?info1[6*i+1]:'');
          if (tmp1.length==0){tmp1=getdate(photo[i]);}
          if (tmp2.length>0){
             if (ebirdlist.indexOf(tmp2)===-1){ebirdlist.push(tmp2);}
@@ -600,20 +592,19 @@
          }else{
             date = tmp1;
          }
-         if (typeof info[6*i+2]!=='undefined'){
-            if (typeof info[6*i+3]==='undefined'){info.splice(6*i+3,0,"");}
-            if (info[6*i+3].trim().length===0){
-               if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
+         if (typeof info1[6*i+2]!=='undefined'){
+            if (typeof info1[6*i+3]==='undefined'){info1.splice(6*i+3,0,"");}
+            if (info1[6*i+3].trim().length===0){
+               if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el+" *($|,)","i")).test(info1[6*i+2]);})) {info1[6*i+3] = pt_chn[indx];}
             }
          }
-         pid  = info[6*i].trim().toLowerCase();
-         if (typeof lurls[pid] === 'undefined') {continue;}
-         head = (typeof info[6*i+2]!=='undefined')?info.slice(6*i+2,6*i+4):['',''];
-         tail = (typeof info[6*i+4]!=='undefined')?info.slice(6*i+4,6*i+6):['',''];
+         pid  = info1[6*i].trim().toLowerCase();
+         tmp  = (typeof lurls[pid]==='undefined')?['','','','']:(lurls[pid].slice(0));
+         head = (typeof info1[6*i+2]!=='undefined')?info1.slice(6*i+2,6*i+4):['',''];
+         tail = (typeof info1[6*i+4]!=='undefined')?info1.slice(6*i+4,6*i+6):['',''];
          if (typeof loc_cnts[pid] === 'undefined') loc_cnts[pid] = 0;
          loc_cnts[pid]++;
      	 if (date.length>0) {date = stradd(comma,date);}
-         tmp = lurls[pid].slice(0);
          if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
          if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
          if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
@@ -623,9 +614,9 @@
             if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
             if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
          }
-         tmp_einfo[i] = replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]));
-         tmp_cinfo[i] = replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]);
-         tmp_locs[i]  = pid;
+         tmp_einfo.push(replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0])));
+         tmp_cinfo.push(replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]));
+         tmp_locs.push(pid);
      }
      return {info:tmp_einfo,cinfo:tmp_cinfo,locs:tmp_locs};
   }
