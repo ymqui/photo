@@ -1,14 +1,14 @@
 <!--
   //variables for stat counting
-  var loc_cnts   = {};
-  var py_cnts    = {};
-  var misc_cnts  = [0,0,0];
-  var dig_cnts   = 0;
-  var pic_cnts   = 0;
-  var ebirdlist  = [];
-  var orders     = [];
-  var cnrexp     = /[\u3400-\u9FBF]/;
-  var frexp      = /idae *$/i;
+  var loc_cnts  = {};
+  var py_cnts   = {};
+  var misc_cnts = [0,0,0];
+  var dig_cnts  = 0;
+  var pic_cnts  = 0;
+  var ebirdlist = [];
+  var orders    = [];
+  var cnrexp    = /[\u3400-\u9FBF]/;
+  var frexp     = /idae *$/i;
 
   //info [0-3: name,cname,desc,cdesc(opt.) for order, 4*i-4*i+3: name, cname, desc,cdesc(opt.) for families]
   function myOrder(info){
@@ -187,11 +187,10 @@
      return birds.some((el)=>el.name1===id);
   }
   
-  function my_href(url,name,target,checklist){
+  function my_href(url,name,target){
      var tmp = "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'";
      if (typeof target!=='undefined'){tmp = tmp+" target='"+target+"'";}
      if (typeof name!=='undefined'){tmp = tmp+">"+name+"</a";}
-     if (checklist&&(!ebirdlist.includes(target))){ebirdlist.push(target);}
      return tmp+">";
   }
 
@@ -364,9 +363,10 @@
          tmp1 = (tmp3>=0)?info[6*i+1].substr(0,tmp3):(tmp4?info[6*i+1]:'');
          tmp2 = (tmp3>=0)?info[6*i+1].substr(tmp3+1):(tmp4?'':info[6*i+1]);
          if (tmp1.length==0){tmp1=getdate(photo[i]);}
-         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2,true):tmp1;
+         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))){ebirdlist.push(tmp2);}
+         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
          if ((info[6*i+2].length>0)&&(info[6*i+3].length==0)){
-            if (pt_eng.some((el,index)=>{indx=index;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
+            if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
          }
          pid  = info[6*i].toLowerCase();
          tmp  = (typeof lurls[pid]==='undefined')?['','','','']:(lurls[pid].slice(0));
