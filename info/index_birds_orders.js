@@ -12,8 +12,7 @@
 
   //info [0-3: name,cname,desc,cdesc(opt.) for order, 4*i-4*i+3: name, cname, desc,cdesc(opt.) for families]
   function myOrder(info){
-     var fams = (info.slice(2)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1]}); return fam;},[]);
-     return {name:info[0],cname:info[1],family:fams};
+     return {name:info[0],cname:info[1],family:(info.slice(2)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1]}); return fam;},[])};
   }
 
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
