@@ -12,77 +12,282 @@
 
   //info [0-3: name,cname,desc,cdesc(opt.) for order, 4*i-4*i+3: name, cname, desc,cdesc(opt.) for families]
   function myOrder(info){
-     var fams = (info.slice(2)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1]}); return fam;},[]);
-     return {name:info[0],cname:info[1],family:fams};
+     var tmp = cnrexp.test(info[3]);
+     var fams = (info.slice(tmp?4:3)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1],desc:ar[ind+2],cdesc:(cnrexp.test(ar[ind+3]))?ar[ind+3]:ar[ind+1].substring(0,ar[ind+1].length-1)}); return fam;},[]);
+     return {name:info[0],cname:info[1],desc:info[2],cdesc:(tmp?info[3]:info[1].substring(0,info[1].length-1)),family:fams};
   }
 
   //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
   //chinese names https://dongniao.net/taxonomy.html
-  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","STRUTHIONIDAE","鸵鸟科"]));
-  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","RHEIDAE","美洲鸵鸟科"]));
-  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","APTERYGIDAE","鹬鸵科"]));
-  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","CASUARIIDAE","鹤鸵科"]));
-  orders.push(myOrder(["TINAMIFORMES","䳍形目","TINAMIDAE","䳍科"]));
-  orders.push(myOrder(["ANSERIFORMES","雁形目","ANHIMIDAE","叫鸭科","ANSERANATIDAE","鹊雁科","ANATIDAE","鸭科"]));
-  orders.push(myOrder(["GALLIFORMES","鸡形目","MEGAPODIIDAE","塚雉科","CRACIDAE","凤冠雉科","NUMIDIDAE","珠鸡科","ODONTOPHORIDAE","齿鹑科","PHASIANIDAE","雉科"]));
-  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","CAPRIMULGIDAE","夜鹰科"]));
-  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","STEATORNITHIDAE","油鸱科"]));
-  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","NYCTIBIIDAE","林鸮科"]));
-  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","PODARGIDAE","蛙口夜鹰科"]));
-  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","AEGOTHELIDAE","裸鼻鸱科"]));
-  orders.push(myOrder(["APODIFORMES","雨燕目","HEMIPROCNIDAE","凤头雨燕科","APODIDAE","雨燕科","TROCHILIDAE","蜂鸟科"]));
-  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","MUSOPHAGIDAE","蕉鹃科"]));
-  orders.push(myOrder(["OTIDIFORMES","鸨形目","OTIDIDAE","鸨科"]));
-  orders.push(myOrder(["CUCULIFORMES","鹃形目","CUCULIDAE","杜鹃科"]));
-  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","MESITORNITHIDAE","拟鹑科"]));
-  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","PTEROCLIDAE","沙鸡科"]));
-  orders.push(myOrder(["COLUMBIFORMES","鸽形目","COLUMBIDAE","鸽鸠科"]));
-  orders.push(myOrder(["GRUIFORMES","鹤形目","HELIORNITHIDAE","日鷉科","SAROTHRURIDAE","侏秧鸡科","RALLIDAE","秧鸡科","PSOPHIIDAE","喇叭鸟科","GRUIDAE","鹤科","ARAMIDAE","秧鹤科"]));
-  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","PODICIPEDIDAE","䴙䴘科"]));
-  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","PHOENICOPTERIDAE","火烈鸟科"]));
-  orders.push(myOrder(["CHARADRIIFORMES","鸻形目","TURNICIDAE","三趾鹑科","BURHINIDAE","石鸻科","CHIONIDAE","鞘嘴鸥科","PLUVIANELLIDAE","短腿鸻科","HAEMATOPODIDAE","蛎鹬科","IBIDORHYNCHIDAE","鹮嘴鹬科",
-    "RECURVIROSTRIDAE","反嘴鹬科","CHARADRIIDAE","鸻科","PLUVIANIDAE","埃及燕鸻科","ROSTRATULIDAE","彩鹬科","JACANIDAE","水雉科","PEDIONOMIDAE","领鹑科","THINOCORIDAE","籽鹬科","SCOLOPACIDAE","鹬科",
-    "DROMADIDAE","蟹鸻科","GLAREOLIDAE","燕鸻科","LARIDAE","鸥科","STERCORARIIDAE","贼鸥科","ALCIDAE","海雀科"]));
-  orders.push(myOrder(["EURYPYGIFORMES","日鳽目","RHYNOCHETIDAE","鹭鹤科","EURYPYGIDAE","日鳽科"]));
-  orders.push(myOrder(["PHAETHONTIFORMES","鹲形目","PHAETHONTIDAE","鹲科"]));
-  orders.push(myOrder(["GAVIIFORMES","潜鸟目","GAVIIDAE","潜鸟科"]));
-  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","SPHENISCIDAE","企鹅科"]));
-  orders.push(myOrder(["PROCELLARIIFORMES","鹱形目","OCEANITIDAE","洋海燕科","DIOMEDEIDAE","信天翁科","HYDROBATIDAE","海燕科","PROCELLARIIDAE","鹱科"]));
-  orders.push(myOrder(["CICONIIFORMES","鹳形目","CICONIIDAE","鹳科"]));
-  orders.push(myOrder(["SULIFORMES","鲣鸟目","FREGATIDAE","军舰鸟科","SULIDAE","鲣鸟科","ANHINGIDAE","蛇鹈科","PHALACROCORACIDAE","鸬鹚科"]));
-  orders.push(myOrder(["PELECANIFORMES","鹈形目","THRESKIORNITHIDAE","鹮科","ARDEIDAE","鹭科","SCOPIDAE","锤头鹳科","BALAENICIPITIDAE","鲸头鹳科","PELECANIDAE","鹈鹕科"]));
-  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","OPISTHOCOMIDAE","麝雉科"]));
-  orders.push(myOrder(["ACCIPITRIFORMES","鹰形目","CATHARTIDAE","美洲鹫科","SAGITTARIIDAE","鹭鹰科","PANDIONIDAE","鹗科","ACCIPITRIDAE","鹰科"]));
-  orders.push(myOrder(["STRIGIFORMES","鸮形目","TYTONIDAE","仓鸮科","STRIGIDAE","鸱鸮科"]));
-  orders.push(myOrder(["COLIIFORMES","鼠鸟目","COLIIDAE","鼠鸟科"]));
-  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","LEPTOSOMIDAE","鹃三宝鸟科"]));
-  orders.push(myOrder(["TROGONIFORMES","咬鹃目","TROGONIDAE","咬鹃科"]));
-  orders.push(myOrder(["BUCEROTIFORMES","犀鸟目","UPUPIDAE","戴胜科","PHOENICULIDAE","林戴胜科","BUCORVIDAE","地犀鸟科","BUCEROTIDAE","犀鸟科"]));
-  orders.push(myOrder(["CORACIIFORMES","佛法僧目","CORACIIDAE","佛法僧科","BRACHYPTERACIIDAE","地三宝鸟科","ALCEDINIDAE","翠鸟科","TODIDAE","短尾鴗科","MOMOTIDAE","翠鴗科","MEROPIDAE","蜂虎科"]));
-  orders.push(myOrder(["PICIFORMES","䴕形目","GALBULIDAE","鹟鴷科","BUCCONIDAE","蓬头鴷科","CAPITONIDAE","须鴷科","SEMNORNITHIDAE","巨嘴拟鴷科","RAMPHASTIDAE","巨嘴鸟科","MEGALAIMIDAE","拟鴷科",
-    "LYBIIDAE","非洲拟啄木鸟科","INDICATORIDAE","响蜜鴷科","PICIDAE","啄木鸟科"]));
-  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","CARIAMIDAE","叫鹤科"]));
-  orders.push(myOrder(["FALCONIFORMES","隼形目","FALCONIDAE","隼科"]));
-  orders.push(myOrder(["PSITTACIFORMES","鹦形目","STRIGOPIDAE","鸮鹦鹉科","CACATUIDAE","凤头鹦鹉科","PSITTACIDAE","鹦鹉科","PSITTACULIDAE","长尾鹦鹉科"]));
-  orders.push(myOrder(["PASSERIFORMES","雀形目","ACANTHISITTIDAE","刺鹩科","SAPAYOIDAE","阔嘴霸鹟科","PHILEPITTIDAE","裸眉鸫科","EURYLAIMIDAE","阔嘴鸟科","CALYPTOMENIDAE","绿阔嘴鸟科","PITTIDAE","八色鸫科",
-    "FURNARIIDAE","灶鸟科","THAMNOPHILIDAE","蚁鸟科","FORMICARIIDAE","蚁鸫科","GRALLARIIDAE","短尾蚁鸫科","CONOPOPHAGIDAE","食蚊鸟科","RHINOCRYPTIDAE","窜鸟科","MELANOPAREIIDAE","月胸窜鸟科","TYRANNIDAE","霸鹟科",
-    "COTINGIDAE","伞鸟科","PIPRIDAE","娇鹟科","TITYRIDAE","蒂泰霸鹟科","MENURIDAE","琴鸟科","ATRICHORNITHIDAE","薮鸟科","PTILONORHYNCHIDAE","园丁鸟科","CLIMACTERIDAE","短嘴旋木雀科","MALURIDAE","细尾鹩莺科",
-    "MELIPHAGIDAE","吸蜜鸟科","DASYORNITHIDAE","刺莺科","PARDALOTIDAE","斑食蜜鸟科","ACANTHIZIDAE","细嘴莺科","POMATOSTOMIDAE","弯嘴鹛科","ORTHONYCHIDAE","刺尾鸫科","CNEMOPHILIDAE","短嘴极乐鸟科",
-    "MELANOCHARITIDAE","啄果鸟科","PARAMYTHIIDAE","冠啄果鸟科","CALLAEIDAE","垂耳鸦科","NOTIOMYSTIDAE","缝叶吸蜜鸟科","PSOPHODIDAE","啸冠鸫科","CINCLOSOMATIDAE","鹑鸫科","PLATYSTEIRIDAE","疣眼鹟科",
-    "MALACONOTIDAE","丛鵙科","MACHAERIRHYNCHIDAE","船嘴鹟科","VANGIDAE","钩嘴鵙科","PITYRIASIDAE","棘头鵙科","ARTAMIDAE","燕鵙科","RHAGOLOGIDAE","斑啸鹟科","AEGITHINIDAE","雀鹎科","CAMPEPHAGIDAE","鹃鵙科",
-    "MOHOUIDAE","黄头刺莺科","NEOSITTIDAE","澳鳾科","EULACESTOMATIDAE","肉垂鵙雀鹟科","OREOICIDAE","冠钟鹟科","FALCUNCULIDAE","鵙雀鹟科","PACHYCEPHALIDAE","啸鹟科","LANIIDAE","伯劳科","VIREONIDAE","莺雀科",
-    "ORIOLIDAE","黄鹂科","DICRURIDAE","卷尾科","RHIPIDURIDAE","扇尾鹟科","MONARCHIDAE","王鹟科","PLATYLOPHIDAE","冠鸦科","CORVIDAE","鸦科","CORCORACIDAE","澳鸦科","MELAMPITTIDAE","黑脚风鸟科","IFRITIDAE","蓝顶鹛鸫科",
-    "PARADISAEIDAE","极乐鸟科","PETROICIDAE","鸲鹟科","PICATHARTIDAE","岩鹛科","CHAETOPIDAE","岩鸫科","EUPETIDAE","长颈鸫科","BOMBYCILLIDAE","太平鸟科","PTILIOGONATIDAE","丝鹟科","HYPOCOLIIDAE","连雀科",
-    "DULIDAE","棕榈䳭科","MOHOIDAE","夏威夷吸蜜鸟科","HYLOCITREIDAE","林啸鹟科","STENOSTIRIDAE","仙莺科","PARIDAE","山雀科","REMIZIDAE","攀雀科","NICATORIDAE","斗鹎科","PANURIDAE","文须雀科","ALAUDIDAE","百灵科",
-    "PYCNONOTIDAE","鹎科","HIRUNDINIDAE","燕科","PNOEPYGIDAE","鳞胸鹪鹛科","MACROSPHENIDAE","长嘴莺科","CETTIIDAE","树莺科","SCOTOCERCIDAE","纹鹪莺科","ERYTHROCERCIDAE","红鹟科","HYLIIDAE","拟攀雀科",
-    "AEGITHALIDAE","长尾山雀科","PHYLLOSCOPIDAE","柳莺科","ACROCEPHALIDAE","苇莺科","LOCUSTELLIDAE","蝗莺科","DONACOBIIDAE","黑顶鹪鹩科","BERNIERIDAE","马岛鹎科","CISTICOLIDAE","扇尾莺科","SYLVIIDAE","莺鹛科",
-    "PARADOXORNITHIDAE","鸦雀科","ZOSTEROPIDAE","绣眼鸟科","TIMALIIDAE","鹛科","PELLORNEIDAE","幽鹛科","ALCIPPEIDAE","雀鹛科","LEIOTHRICHIDAE","噪鹛科","MODULATRICIDAE","斑喉䳭科","PROMEROPIDAE","非洲食蜜鸟科",
-    "IRENIDAE","和平鸟科","REGULIDAE","戴菊科","ELACHURIDAE","丽星鹩鹛科","HYLIOTIDAE","丛莺科","TROGLODYTIDAE","鹪鹩科","POLIOPTILIDAE","蚋莺科","SITTIDAE","䴓科","TICHODROMIDAE","旋壁雀科","CERTHIIDAE","旋木雀科",
-    "MIMIDAE","嘲鸫科","STURNIDAE","椋鸟科","BUPHAGIDAE","牛椋鸟科","TURDIDAE","鸫科","MUSCICAPIDAE","鹟科","CINCLIDAE","河乌科","CHLOROPSEIDAE","叶鹎科","DICAEIDAE","啄花鸟科","NECTARINIIDAE","太阳鸟科",
-    "PASSERIDAE","雀科","PLOCEIDAE","织雀科","ESTRILDIDAE","梅花雀科","VIDUIDAE","维达雀科","PEUCEDRAMIDAE","绿森莺科","PRUNELLIDAE","岩鹨科","MOTACILLIDAE","鹡鸰科","UROCYNCHRAMIDAE","朱鹀科","FRINGILLIDAE","燕雀科",
-    "CALCARIIDAE","铁爪鹀科","RHODINOCICHLIDAE","鸫唐纳雀科","EMBERIZIDAE","鹀科","PASSERELLIDAE","雀鹀科","CALYPTOPHILIDAE","拟䳭唐纳雀科","PHAENICOPHILIDAE","棕榈唐纳雀科","NESOSPINGIDAE","波多黎各唐纳雀科",
-    "SPINDALIDAE","纹头唐纳雀科","ZELEDONIIDAE","冠鹩森莺科","TERETISTRIDAE","灰森莺科","ICTERIIDAE","黄胸大䳭莺科","ICTERIDAE","拟鹂科","PARULIDAE","森莺科","MITROSPINGIDAE","乌脸唐纳雀科","CARDINALIDAE","美洲雀科",
-    "THRAUPIDAE","裸鼻雀科"]));
+  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","Ostriches","STRUTHIONIDAE","鸵鸟科","Ostriches"]));
+  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","Rheas","RHEIDAE","美洲鸵鸟科","Rheas"]));
+  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","Kiwis","几维鸟","APTERYGIDAE","鹬鸵科","Kiwis","几维鸟"]));
+  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","Cassowaries and Emus","鹤鸵和鸸鹋","CASUARIIDAE","鹤鸵科","Cassowaries and Emus","鹤鸵和鸸鹋"]));
+  orders.push(myOrder(["TINAMIFORMES","䳍形目","Tinamous","䳍鸟","TINAMIDAE","䳍科","Tinamous","䳍鸟"]));
+  orders.push(myOrder(["ANSERIFORMES","雁形目","Ducks, Geese, and Swans","鸭，雁和天鹅",
+     "ANHIMIDAE","叫鸭科","Screamers",
+     "ANSERANATIDAE","鹊雁科","Magpie Goose",
+     "ANATIDAE","鸭科","Ducks, Geese, and Swans","鸭，雁和天鹅"]));
+  orders.push(myOrder(["GALLIFORMES","鸡形目","Grouse, Quail, and Allies","鸡，鹑和雉等",
+     "MEGAPODIIDAE","塚雉科","Megapodes",
+     "CRACIDAE","凤冠雉科","Chachalacas, Curassows, and Guans","小冠雉，凤冠雉和冠雉",
+     "NUMIDIDAE","珠鸡科","Guineafowl",
+     "ODONTOPHORIDAE","齿鹑科","New World Quail","美洲鹑",
+     "PHASIANIDAE","雉科","Pheasants and Allies","雉鸡，松鸡，火鸡和旧大陆的鹑"]));
+  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","Nightjars","CAPRIMULGIDAE","夜鹰科","Nightjars"]));
+  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","Oilbird","STEATORNITHIDAE","油鸱科","Oilbird"]));
+  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","Potoos","NYCTIBIIDAE","林鸮科","Potoos"]));
+  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","Frogmouths","PODARGIDAE","蛙口夜鹰科","Frogmouths"]));
+  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","Owlet-nightjars","AEGOTHELIDAE","裸鼻鸱科","Owlet-nightjars"]));
+  orders.push(myOrder(["APODIFORMES","雨燕目","Swifts and Hummingbirds","雨燕和蜂鸟",
+    "HEMIPROCNIDAE","凤头雨燕科","Treeswifts",
+    "APODIDAE","雨燕科","Swifts",
+    "TROCHILIDAE","蜂鸟科","Hummingbirds"]));
+  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","Turacos","MUSOPHAGIDAE","蕉鹃科","Turacos"]));
+  orders.push(myOrder(["OTIDIFORMES","鸨形目","Bustards","OTIDIDAE","鸨科","Bustards"]));
+  orders.push(myOrder(["CUCULIFORMES","鹃形目","Cuckoos","杜鹃等","CUCULIDAE","杜鹃科","Cuckoos, Roadrunners, and Anis","杜鹃，走鹃和犀鹃"]));
+  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","Mesites","MESITORNITHIDAE","拟鹑科","Mesites"]));
+  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","Sandgrouse","PTEROCLIDAE","沙鸡科","Sandgrouse"]));
+  orders.push(myOrder(["COLUMBIFORMES","鸽形目","Pigeons and Doves","鸽和鸠","COLUMBIDAE","鸽鸠科","Pigeons and Doves","鸽和鸠"]));
+  orders.push(myOrder(["GRUIFORMES","鹤形目","Cranes and Rails","鹤和秧鸡等",
+    "HELIORNITHIDAE","日鷉科","Finfoots","鳍趾鷉",
+    "SAROTHRURIDAE","侏秧鸡科","Flufftails",
+    "RALLIDAE","秧鸡科","Rails, Gallinules, and Coots","秧鸡，水鸡和骨顶鸡",
+    "PSOPHIIDAE","喇叭鸟科","Trumpeters","喇叭声鹤",
+    "GRUIDAE","鹤科","Cranes",
+    "ARAMIDAE","秧鹤科","Limpkins"]));
+  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","Grebes","PODICIPEDIDAE","䴙䴘科","Grebes"]));
+  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","Flamingos","PHOENICOPTERIDAE","火烈鸟科","Flamingos"]));
+  orders.push(myOrder(["CHARADRIIFORMES","鸻形目","Plovers, Sandpipers, and Allies","鸻，鹬和鸥等",
+    "TURNICIDAE","三趾鹑科","Buttonquail",
+    "BURHINIDAE","石鸻科","Thick-knees",
+    "CHIONIDAE","鞘嘴鸥科","Sheathbills",
+    "PLUVIANELLIDAE","短腿鸻科","Magellanic Plover",
+    "HAEMATOPODIDAE","蛎鹬科","Oystercatchers",
+    "IBIDORHYNCHIDAE","鹮嘴鹬科","Ibisbill",
+    "RECURVIROSTRIDAE","反嘴鹬科","Stilts and Avocets","长脚鹬和反嘴鹬",
+    "CHARADRIIDAE","鸻科","Plovers and Lapwings","鸻和麦鸡",
+    "PLUVIANIDAE","埃及燕鸻科","Egyptian Plover",
+    "ROSTRATULIDAE","彩鹬科","Painted-snipes",
+    "JACANIDAE","水雉科","Jacanas",
+    "PEDIONOMIDAE","领鹑科","Plains-wanderer",
+    "THINOCORIDAE","籽鹬科","Seedsnipes",
+    "SCOLOPACIDAE","鹬科","Sandpipers, Phalaropes, and Allies","鹬，矶鹬和瓣蹼鹬等",
+    "DROMADIDAE","蟹鸻科","Crab Plover",
+    "GLAREOLIDAE","燕鸻科","Coursers and Pratincoles","走鸻和燕鸻",
+    "LARIDAE","鸥科","Gulls, Terns, and Skimmers","鸥，燕鸥和剪嘴鸥",
+    "STERCORARIIDAE","贼鸥科","Skuas and Jaegers",
+    "ALCIDAE","海雀科","Auks, Murres, and Puffins","海雀，海鸦和海鹦"]));
+  orders.push(myOrder(["EURYPYGIFORMES","日鳽目","Rhynochetos and Sunbittern","鹭鹤和日鳽",
+    "RHYNOCHETIDAE","鹭鹤科","Rhynochetos",
+    "EURYPYGIDAE","日鳽科","Sunbittern"]));
+  orders.push(myOrder(["PHAETHONTIFORMES","鹲形目","Tropicbird","鹲","PHAETHONTIDAE","鹲科","Tropicbirds"]));
+  orders.push(myOrder(["GAVIIFORMES","潜鸟目","Loons","GAVIIDAE","潜鸟科","Loons"]));
+  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","Penguin","SPHENISCIDAE","企鹅科","Penguin"]));
+  orders.push(myOrder(["PROCELLARIIFORMES","鹱形目","Tubenoses","管鼻类鸟",
+    "OCEANITIDAE","洋海燕科","Austral Storm Petrels","澳洲海燕",
+    "DIOMEDEIDAE","信天翁科","Albatrosses",
+    "HYDROBATIDAE","海燕科","Storm-Petrels",
+    "PROCELLARIIDAE","鹱科","Shearwaters and Petrels"]));
+  orders.push(myOrder(["CICONIIFORMES","鹳形目","Storks","鹳","CICONIIDAE","鹳科","Storks"]));
+  orders.push(myOrder(["SULIFORMES","鲣鸟目","Frigatebirds, Boobies, Cormorants, Darters, and Allies","军舰鸟，鲣鸟，鸬鹚和蛇鹈等",
+    "FREGATIDAE","军舰鸟科","Frigatebirds",
+    "SULIDAE","鲣鸟科","Boobies and Gannets",
+    "ANHINGIDAE","蛇鹈科","Darters",
+    "PHALACROCORACIDAE","鸬鹚科","Cormorants"]));
+  orders.push(myOrder(["PELECANIFORMES","鹈形目","Pelicans, Herons, Ibises, and Allies","鹈鹕，鹭和朱鹭等",
+    "THRESKIORNITHIDAE","鹮科","Ibises and Spoonbills","鹮和琵鹭",
+    "ARDEIDAE","鹭科","Bitterns, Herons, and Allies","鹭和麻鳽",
+    "SCOPIDAE","锤头鹳科","Hamerkop",
+    "BALAENICIPITIDAE","鲸头鹳科","Shoebill",
+    "PELECANIDAE","鹈鹕科","Pelicans"]));
+  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","Hoatzin","OPISTHOCOMIDAE","麝雉科","Hoatzin"]));
+  orders.push(myOrder(["ACCIPITRIFORMES","鹰形目","Hawks, Kites, Eagles, and Allies","鹰，鹗和鹫等",
+    "CATHARTIDAE","美洲鹫科","New World Vultures",
+    "SAGITTARIIDAE","鹭鹰科","Secretarybird",
+    "PANDIONIDAE","鹗科","Ospreys",
+    "ACCIPITRIDAE","鹰科","Kites, Hawks, Eagles, and Allies"]));
+  orders.push(myOrder(["STRIGIFORMES","鸮形目","Owls","鸮",
+    "TYTONIDAE","仓鸮科","Barn Owls",
+    "STRIGIDAE","鸱鸮科","Typical Owls","鸮"]));
+  orders.push(myOrder(["COLIIFORMES","鼠鸟目","Mousebirds","COLIIDAE","鼠鸟科","Mousebirds"]));
+  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","Cuckoo Roller","LEPTOSOMIDAE","鹃三宝鸟科","Cuckoo Roller"]));
+  orders.push(myOrder(["TROGONIFORMES","咬鹃目","Trogons and Quetzals","咬鹃和绿咬鹃","TROGONIDAE","咬鹃科","Trogons and Quetzals","咬鹃和绿咬鹃"]));
+  orders.push(myOrder(["BUCEROTIFORMES","犀鸟目","Hornbills, Hoopoes and Wood Hoopoes","犀鸟，戴胜和林戴胜",
+    "UPUPIDAE","戴胜科","Hoopoes",
+    "PHOENICULIDAE","林戴胜科","Wood Hoopoes",
+    "BUCORVIDAE","地犀鸟科","Ground Hornbills",
+    "BUCEROTIDAE","犀鸟科","Hornbills"]));
+  orders.push(myOrder(["CORACIIFORMES","佛法僧目","Kingfishers and Allies","翠鸟等",
+    "CORACIIDAE","佛法僧科","Rollers","三宝鸟",
+    "BRACHYPTERACIIDAE","地三宝鸟科","Ground-Rollers",
+    "ALCEDINIDAE","翠鸟科","Kingfishers",
+    "TODIDAE","短尾鴗科","Todies",
+    "MOMOTIDAE","翠鴗科","Motmots",
+    "MEROPIDAE","蜂虎科","Bee-eaters"]));
+  orders.push(myOrder(["PICIFORMES","䴕形目","Woodpeckers","啄木鸟",
+    "GALBULIDAE","鹟鴷科","Jacamars",
+    "BUCCONIDAE","蓬头鴷科","Puffbirds",
+    "CAPITONIDAE","须鴷科","New World Barbets",
+    "SEMNORNITHIDAE","巨嘴拟鴷科","Toucan-barbets",
+    "RAMPHASTIDAE","巨嘴鸟科","Toucans, Aracaris and Toucanets",
+    "MEGALAIMIDAE","拟鴷科","Asian Barbets",
+    "LYBIIDAE","非洲拟啄木鸟科","African Barbets and Tinkerbirds",
+    "INDICATORIDAE","响蜜鴷科","Honeyguides",
+    "PICIDAE","啄木鸟科","Woodpeckers and Allies"]));
+  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","Seriemas","CARIAMIDAE","叫鹤科","Seriemas"]));
+  orders.push(myOrder(["FALCONIFORMES","隼形目","Caracaras and Falcons","隼","FALCONIDAE","隼科","Caracaras and Falcons"]));
+  orders.push(myOrder(["PSITTACIFORMES","鹦形目","Parrots and Allies","鹦鹉",
+    "STRIGOPIDAE","鸮鹦鹉科","New Zealand Parrots","新西兰鹦鹉",
+    "CACATUIDAE","凤头鹦鹉科","Cockatoos",
+    "PSITTACIDAE","鹦鹉科","African and American Parrots","非洲和美洲鹦鹉",
+    "PSITTACULIDAE","长尾鹦鹉科","Old World Parrots","旧大陆鹦鹉"]));
+  orders.push(myOrder(["PASSERIFORMES","雀形目","Perching Birds","栖鸟",
+    "ACANTHISITTIDAE","刺鹩科","New Zealand Wrens",
+    "SAPAYOIDAE","阔嘴霸鹟科","Sapayoa",
+    "PHILEPITTIDAE","裸眉鸫科","Asities",
+    "EURYLAIMIDAE","阔嘴鸟科","Broadbills",
+    "CALYPTOMENIDAE","绿阔嘴鸟科","African & Green Broadbills",
+    "PITTIDAE","八色鸫科","Pittas",
+    "FURNARIIDAE","灶鸟科","Ovenbirds",
+    "THAMNOPHILIDAE","蚁鸟科","Antbirds",
+    "FORMICARIIDAE","蚁鸫科","Antthrushes",
+    "GRALLARIIDAE","短尾蚁鸫科","Antpittas","蚁鸫",
+    "CONOPOPHAGIDAE","食蚊鸟科","Gnateaters",
+    "RHINOCRYPTIDAE","窜鸟科","Tapaculos",
+    "MELANOPAREIIDAE","月胸窜鸟科","Crescent-chests",
+    "TYRANNIDAE","霸鹟科","Tyrant Flycatchers",
+    "COTINGIDAE","伞鸟科","Cotingas",
+    "PIPRIDAE","娇鹟科","Manakins",
+    "TITYRIDAE","蒂泰霸鹟科","Tityras and Becards","蒂泰霸鹟和厚嘴霸鹟",
+    "MENURIDAE","琴鸟科","Lyrebirds",
+    "ATRICHORNITHIDAE","薮鸟科","Scrub-birds",
+    "PTILONORHYNCHIDAE","园丁鸟科","Bowerbirds",
+    "CLIMACTERIDAE","短嘴旋木雀科","Australasian Treecreepers",
+    "MALURIDAE","细尾鹩莺科","Australasian Wrens",
+    "MELIPHAGIDAE","吸蜜鸟科","Honeyeaters",
+    "DASYORNITHIDAE","刺莺科","Bristlebirds",
+    "PARDALOTIDAE","斑食蜜鸟科","Pardalotes",
+    "ACANTHIZIDAE","细嘴莺科","Australasian Warblers",
+    "POMATOSTOMIDAE","弯嘴鹛科","Australasian Babblers",
+    "ORTHONYCHIDAE","刺尾鸫科","Logrunners",
+    "CNEMOPHILIDAE","短嘴极乐鸟科","Satinbirds",
+    "MELANOCHARITIDAE","啄果鸟科","Berrypeckers and Longbills","啄果鸟和弯嘴吸蜜鸟",
+    "PARAMYTHIIDAE","冠啄果鸟科","Painted Berrypeckers",
+    "CALLAEIDAE","垂耳鸦科","New Zealand Wattlebirds",
+    "NOTIOMYSTIDAE","缝叶吸蜜鸟科","Stitchbird",
+    "PSOPHODIDAE","啸冠鸫科","Whipbirds",
+    "CINCLOSOMATIDAE","鹑鸫科","Quail-thrushes and Jewel-babblers","鹑鸫和丽鸫",
+    "PLATYSTEIRIDAE","疣眼鹟科","Wattle-eyes and Batises","疣眼鹟和蓬背鹟",
+    "MALACONOTIDAE","丛鵙科","Bush-shrikes and Puffbacks","丛鵙和篷背鵙",
+    "MACHAERIRHYNCHIDAE","船嘴鹟科","Boatbills",
+    "VANGIDAE","钩嘴鵙科","Vangas",
+    "PITYRIASIDAE","棘头鵙科","Bristlehead",
+    "ARTAMIDAE","燕鵙科","Woodswallows and Butcherbirds","燕鵙和钟鹊",
+    "RHAGOLOGIDAE","斑啸鹟科","Mottled Berryhunter",
+    "AEGITHINIDAE","雀鹎科","Ioras",
+    "CAMPEPHAGIDAE","鹃鵙科","Cuckooshrikes",
+    "MOHOUIDAE","黄头刺莺科","Whiteheads","刺莺",
+    "NEOSITTIDAE","澳鳾科","Sittellas",
+    "EULACESTOMATIDAE","肉垂鵙雀鹟科","Ploughbill",
+    "OREOICIDAE","冠钟鹟科","Australo-Papuan Bellbirds","钟鹟",
+    "FALCUNCULIDAE","鵙雀鹟科","Shriketit",
+    "PACHYCEPHALIDAE","啸鹟科","Whistlers",
+    "LANIIDAE","伯劳科","Shrikes",
+    "VIREONIDAE","莺雀科","Vireos",
+    "ORIOLIDAE","黄鹂科","Orioles and Figbirds","黄鹂和裸眼鹂",
+    "DICRURIDAE","卷尾科","Drongos",
+    "RHIPIDURIDAE","扇尾鹟科","Fantails",
+    "MONARCHIDAE","王鹟科","Monarchs",
+    "PLATYLOPHIDAE","冠鸦科","Jayshrike",
+    "CORVIDAE","鸦科","Jays, Magpies and Crows","鸦和喜鹊",
+    "CORCORACIDAE","澳鸦科","Australian Mudnesters",
+    "MELAMPITTIDAE","黑脚风鸟科","Melampitta",
+    "IFRITIDAE","蓝顶鹛鸫科","Ifrit",
+    "PARADISAEIDAE","极乐鸟科","Birds-of-paradise",
+    "PETROICIDAE","鸲鹟科","Australasian Robins",
+    "PICATHARTIDAE","岩鹛科","Rockfowl",
+    "CHAETOPIDAE","岩鸫科","Rockjumpers",
+    "EUPETIDAE","长颈鸫科","Rail-babbler",
+    "BOMBYCILLIDAE","太平鸟科","Waxwings",
+    "PTILIOGONATIDAE","丝鹟科","Silky-flycatchers",
+    "HYPOCOLIIDAE","连雀科","Hypocolius",
+    "DULIDAE","棕榈䳭科","Palmchat",
+    "MOHOIDAE","夏威夷吸蜜鸟科","Hawaiian Honeyeaters",
+    "HYLOCITREIDAE","林啸鹟科","Hylocitrea",
+    "STENOSTIRIDAE","仙莺科","Fairy Flycatchers",
+    "PARIDAE","山雀科","Chickadees and Titmice",
+    "REMIZIDAE","攀雀科","Penduline-Tits",
+    "NICATORIDAE","斗鹎科","Nicators",
+    "PANURIDAE","文须雀科","Bearded Reedling",
+    "ALAUDIDAE","百灵科","Larks",
+    "PYCNONOTIDAE","鹎科","Bulbuls",
+    "HIRUNDINIDAE","燕科","Swallows",
+    "PNOEPYGIDAE","鳞胸鹪鹛科","Cupwings","鹪鹛",
+    "MACROSPHENIDAE","长嘴莺科","Crombecs and African Warblers",
+    "CETTIIDAE","树莺科","Cettid Warblers",
+    "SCOTOCERCIDAE","纹鹪莺科","Streaked Scrub Warbler",
+    "ERYTHROCERCIDAE","红鹟科","Yellow Flycatchers",
+    "HYLIIDAE","拟攀雀科","Hylias",
+    "AEGITHALIDAE","长尾山雀科","Bushtits",
+    "PHYLLOSCOPIDAE","柳莺科","Leaf Warblers",
+    "ACROCEPHALIDAE","苇莺科","Reed-Warblers",
+    "LOCUSTELLIDAE","蝗莺科","Grassbirds",
+    "DONACOBIIDAE","黑顶鹪鹩科","Donacobius",
+    "BERNIERIDAE","马岛鹎科","Madagascan Warblers",
+    "CISTICOLIDAE","扇尾莺科","Cisticolas",
+    "SYLVIIDAE","莺鹛科","Old World Warblers","旧大陆莺",
+    "PARADOXORNITHIDAE","鸦雀科","Parrotbills and allies",
+    "ZOSTEROPIDAE","绣眼鸟科","White-eyes",
+    "TIMALIIDAE","鹛科","Babblers and Scimitar-Babblers","鹛和钩嘴鹛",
+    "PELLORNEIDAE","幽鹛科","Fulvettas and Ground Babblers",
+    "ALCIPPEIDAE","雀鹛科","Alcippe Fulvettas",
+    "LEIOTHRICHIDAE","噪鹛科","Laughingthrushes",
+    "MODULATRICIDAE","斑喉䳭科","Dapplethroat and allies",
+    "PROMEROPIDAE","非洲食蜜鸟科","Sugarbirds",
+    "IRENIDAE","和平鸟科","Fairy Bluebirds",
+    "REGULIDAE","戴菊科","Kinglets",
+    "ELACHURIDAE","丽星鹩鹛科","Elachura",
+    "HYLIOTIDAE","丛莺科","Hyliotas",
+    "TROGLODYTIDAE","鹪鹩科","Wrens",
+    "POLIOPTILIDAE","蚋莺科","Gnatcatchers",
+    "SITTIDAE","䴓科","Nuthatches",
+    "TICHODROMIDAE","旋壁雀科","Wallcreeper",
+    "CERTHIIDAE","旋木雀科","Creepers",
+    "MIMIDAE","嘲鸫科","Mockingbirds, Thrashers, and Allies",
+    "STURNIDAE","椋鸟科","Starlings and Allies",
+    "BUPHAGIDAE","牛椋鸟科","Oxpeckers",
+    "TURDIDAE","鸫科","Thrushes",
+    "MUSCICAPIDAE","鹟科","Old World Flycatchers","旧大陆鹟",
+    "CINCLIDAE","河乌科","Dippers",
+    "CHLOROPSEIDAE","叶鹎科","Leafbirds",
+    "DICAEIDAE","啄花鸟科","Flowerpeckers",
+    "NECTARINIIDAE","太阳鸟科","Sunbirds",
+    "PASSERIDAE","雀科","Old World Sparrows","旧大陆麻雀",
+    "PLOCEIDAE","织雀科","Weavers",
+    "ESTRILDIDAE","梅花雀科","Waxbills，Munias and Allies","梅花雀和文鸟等",
+    "VIDUIDAE","维达雀科","Indigobirds and Whydahs",
+    "PEUCEDRAMIDAE","绿森莺科","Olive Warbler",
+    "PRUNELLIDAE","岩鹨科","Accentors",
+    "MOTACILLIDAE","鹡鸰科","Wagtails and Pipits","鹡鸰和鹨",
+    "UROCYNCHRAMIDAE","朱鹀科","Przevalski's Finch",
+    "FRINGILLIDAE","燕雀科","Finches and Allies",
+    "CALCARIIDAE","铁爪鹀科","Longspurs and Snow Buntings","铁爪鹀和雪鹀",
+    "RHODINOCICHLIDAE","鸫唐纳雀科","Thrush-tanager",
+    "EMBERIZIDAE","鹀科","Buntings",
+    "PASSERELLIDAE","雀鹀科","New World Sparrows","美洲麻雀",
+    "CALYPTOPHILIDAE","拟䳭唐纳雀科","Chat-tanagers",
+    "PHAENICOPHILIDAE","棕榈唐纳雀科","Hispaniolan Tanagers","海地唐纳雀",
+    "NESOSPINGIDAE","波多黎各唐纳雀科","Puerto Rican Tanager",
+    "SPINDALIDAE","纹头唐纳雀科","Spindalises",
+    "ZELEDONIIDAE","冠鹩森莺科","Wrenthrush",
+    "TERETISTRIDAE","灰森莺科","Cuban Warblers","古巴莺",
+    "ICTERIIDAE","黄胸大䳭莺科","Yellow-breasted Chat",
+    "ICTERIDAE","拟鹂科","Blackbirds and Allies",
+    "PARULIDAE","森莺科","Wood-Warblers",
+    "MITROSPINGIDAE","乌脸唐纳雀科","Mitrospingid Tanagers",
+    "CARDINALIDAE","美洲雀科","Cardinals, Grosbeaks, and Allies",
+    "THRAUPIDAE","裸鼻雀科","Tanagers and Allies","唐纳雀等"]));
 
   //functions and variables used in index_birds_names
   //table for Chinese pinyin, string.localeCompare() does not work in all browsers
