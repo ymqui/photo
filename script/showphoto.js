@@ -1,22 +1,10 @@
 <!--
-var mididir = "http://www.pha.jhu.edu/~qiuym/photo/midi/";
-if (googledrive) mididir = "https://ymqui.github.io/photo/midi/"; 
-if(window.friendalbum){
-    homeurl = homeurl+"friend/";
-}
-if(window.yunalbum){
-    homeurl = homeurl+"yun/";
-}
-if(window.restalbum){
-    homeurl = homeurl+"restaurant/";
-}
-if(window.familyalbum){
-    homeurl = homeurl+"family/";
-}
-if(window.birdalbum){
-    homeurl = homeurl+"birds/";
-}
-csdpdir = "http://www.ugrad.cs.jhu.edu/~quiym/";
+var mididir = "https://ymqui.github.io/photo/midi/"; 
+if(window.friendalbum){homeurl = homeurl+"friend/";}
+if(window.yunalbum){homeurl = homeurl+"yun/";}
+if(window.restalbum){homeurl = homeurl+"restaurant/";}
+if(window.familyalbum){homeurl = homeurl+"family/";}
+if(window.birdalbum){homeurl = homeurl+"birds/";}
 
 var albumid = window.location.search.substring(1);
 var showall = /showall/.test(albumid);
@@ -24,9 +12,7 @@ var cn_ind  = window.usechinese?1:0;
 var slideshow = true;
 var blocksave = true;
 
-if (showall){
-   homeurl     = homeurl+"showphoto.html?qiuqiu";
-}
+if (showall){homeurl = homeurl+"showphoto.html?qiuqiu";}
 
 if (albumid.length==0){
     location.href = "";

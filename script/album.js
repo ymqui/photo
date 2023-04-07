@@ -27,8 +27,7 @@ var link_color   = "#3399FF";
 var facesize     = 15;
 if (cellphone){ facesize = 40; }
 
-
-if(window.blocksave && (!googledrive)){
+if(window.blocksave && (!cellphone)){
     document.onmousedown=function(event){
         if (!event) var event = window.event;
         if (event.button==2){
@@ -588,21 +587,7 @@ function switchmesg3(){
 
 function switchlang(){
     stopShow();
-    if(window.usechinese){
-       // tmpdir = "../photo/";
-       if (googledrive){
-          tmpdir = "https://ymqui.github.io/photo/";  
-       }else{
-          tmpdir = "http://www.pha.jhu.edu/~qiuym/photo/";
-       }  
-    }else{
-       // tmpdir = "../zhaopian/";
-       if (googledrive){
-          tmpdir = "https://ymqui.github.io/zhaopian/";
-       }else{
-          tmpdir = "http://www.pha.jhu.edu/~qiuym/zhaopian/";
-       }
-    }
+    tmpdir = (window.usechinese)?"https://ymqui.github.io/photo/":"https://ymqui.github.io/zhaopian/";
     if(window.friendalbum){
         tmpdir = tmpdir+"friend/";
     }else if(window.yunalbum){

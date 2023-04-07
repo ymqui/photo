@@ -1,12 +1,12 @@
 <!--
 document.onmousedown=function(event){
    if (!event) var event = window.event;
-   if ((event.button==2)&&(!googledrive)){
+   if ((event.button==2)&&(!cellphone)){
       if (window.usechinese){
          alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');
-       }else{
+      }else{
          alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
-       }
+      }
    }
 }
 
@@ -82,22 +82,13 @@ var capcnt  = 0;
 if (window.usechinese){
    newpic = maindir+"thumbnail/new_c.gif";
    p_lang = "birdenglish_v.png";
-   if (googledrive){
-      langurl = "https://ymqui.github.io/photo/birds/showbird.html?"+query;  
-   }else{
-      langurl = "http://www.pha.jhu.edu/~qiuym/photo/birds/showbird.html?"+query;
-   }  
+   langurl = "https://ymqui.github.io/photo/birds/showbird.html?"+query;
 }else{
    newpic = maindir+"thumbnail/new.gif";
    p_lang = "birdchinese_v.png";
-   if (googledrive){
-      langurl = "https://ymqui.github.io/zhaopian/birds/showbird.html?"+query;
-   }else{
-      langurl = "http://www.pha.jhu.edu/~qiuym/zhaopian/birds/showbird.html?"+query;
-   }
+   langurl = "https://ymqui.github.io/zhaopian/birds/showbird.html?"+query;
 }
 
-//var newsty  = 'background-image:url('+newpic+');background-repeat:no-repeat;background-position:right;';
 var newsty  = 'background:url('+newpic+') no-repeat right;';
 
 for(var i=0;i<vars.length;i++) {

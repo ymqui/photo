@@ -1,4 +1,4 @@
-﻿<!--
+<!--
   document.write('<p><center>');
   document.write('<font color="#AAAAAA" size=3 face="Times New Roman">');
   var tmpdir = "";
@@ -13,11 +13,7 @@
   var tmpyun = "";
   var tmpeml = "Comments";
   if(window.usechinese){
-     if (googledrive){
-        tmpdir = "https://ymqui.github.io/photo/";  
-     }else{
-        tmpdir = "http://www.pha.jhu.edu/~qiuym/photo/";
-     }  
+     tmpdir = "https://ymqui.github.io/photo/";
      tmpeml = "留言";
      if(window.is_thumb){
         tmpoth = '&nbsp;&nbsp;|&nbsp; <A href="../" target="_self" >其它照片</A>';
@@ -68,11 +64,7 @@
         tmpsum = '&nbsp;&nbsp;|&nbsp; <A href="./" target="_self" >图形模式</A>';
      }
   }else{
-     if (googledrive){
-        tmpdir = "https://ymqui.github.io/zhaopian/";
-     }else{
-        tmpdir = "http://www.pha.jhu.edu/~qiuym/zhaopian/";
-     }
+     tmpdir = "https://ymqui.github.io/zhaopian/";
      if(window.is_thumb){
         tmpoth = '&nbsp;&nbsp;|&nbsp; <A href="../" target="_self" >Other&nbsp;Photos</A>';
         tmpyun = '&nbsp;&nbsp;|&nbsp; <A href="../yun/" target="_self" >Yun'+"'"+'s&nbsp;Photos</A>';
