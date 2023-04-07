@@ -7,80 +7,71 @@
   var ebirdlist = [];
   var orders    = [];
   var cnrexp    = /[\u3400-\u9FBF]/;
-  var frexp     = /idae *$/i;
 
   function myOrder(info){
-     if (info.length==3) info.push(info[1].substring(0,info[1].length-1)+'科');
-     return {name:info[0],cname:info[1],family:(info.slice(2)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1]}); return fam;},[])};
+     if (info.length==3) info.push(info[1]);
+     return {name:info[0]+"IFORMES",cname:info[1]+"目",family:(info.slice(2)).reduce((fam,el,ind,ar)=>{if(!cnrexp.test(el))fam.push({name:el+"IDAE",cname:ar[ind+1]+"科"}); return fam;},[])};
   }
 
   //http://www.worldbirdnames.org/ioc-lists/master-list-2/
   //https://dongniao.net/taxonomy.html
-  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","STRUTHIONIDAE"]));
-  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","RHEIDAE"]));
-  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","APTERYGIDAE"]));
-  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","CASUARIIDAE"]));
-  orders.push(myOrder(["TINAMIFORMES","䳍形目","TINAMIDAE","䳍科"]));
-  orders.push(myOrder(["ANSERIFORMES","雁形目","ANHIMIDAE","叫鸭科","ANSERANATIDAE","鹊雁科","ANATIDAE","鸭科"]));
-  orders.push(myOrder(["GALLIFORMES","鸡形目","MEGAPODIIDAE","塚雉科","CRACIDAE","凤冠雉科","NUMIDIDAE","珠鸡科","ODONTOPHORIDAE","齿鹑科","PHASIANIDAE","雉科"]));
-  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","CAPRIMULGIDAE"]));
-  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","STEATORNITHIDAE"]));
-  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","NYCTIBIIDAE"]));
-  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","PODARGIDAE"]));
-  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","AEGOTHELIDAE"]));
-  orders.push(myOrder(["APODIFORMES","雨燕目","HEMIPROCNIDAE","凤头雨燕科","APODIDAE","雨燕科","TROCHILIDAE","蜂鸟科"]));
-  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","MUSOPHAGIDAE"]));
-  orders.push(myOrder(["OTIDIFORMES","鸨形目","OTIDIDAE","鸨科"]));
-  orders.push(myOrder(["CUCULIFORMES","鹃形目","CUCULIDAE","杜鹃科"]));
-  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","MESITORNITHIDAE"]));
-  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","PTEROCLIDAE"]));
-  orders.push(myOrder(["COLUMBIFORMES","鸽形目","COLUMBIDAE","鸽鸠科"]));
-  orders.push(myOrder(["GRUIFORMES","鹤形目","HELIORNITHIDAE","日鷉科","SAROTHRURIDAE","侏秧鸡科","RALLIDAE","秧鸡科","PSOPHIIDAE","喇叭鸟科","GRUIDAE","鹤科","ARAMIDAE","秧鹤科"]));
-  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","PODICIPEDIDAE"]));
-  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","PHOENICOPTERIDAE"]));
-  orders.push(myOrder(["CHARADRIIFORMES","鸻形目","TURNICIDAE","三趾鹑科","BURHINIDAE","石鸻科","CHIONIDAE","鞘嘴鸥科","PLUVIANELLIDAE","短腿鸻科","HAEMATOPODIDAE","蛎鹬科","IBIDORHYNCHIDAE","鹮嘴鹬科",
-    "RECURVIROSTRIDAE","反嘴鹬科","CHARADRIIDAE","鸻科","PLUVIANIDAE","埃及燕鸻科","ROSTRATULIDAE","彩鹬科","JACANIDAE","水雉科","PEDIONOMIDAE","领鹑科","THINOCORIDAE","籽鹬科","SCOLOPACIDAE","鹬科",
-    "DROMADIDAE","蟹鸻科","GLAREOLIDAE","燕鸻科","LARIDAE","鸥科","STERCORARIIDAE","贼鸥科","ALCIDAE","海雀科"]));
-  orders.push(myOrder(["EURYPYGIFORMES","日鳽目","RHYNOCHETIDAE","鹭鹤科","EURYPYGIDAE","日鳽科"]));
-  orders.push(myOrder(["PHAETHONTIFORMES","鹲形目","PHAETHONTIDAE","鹲科"]));
-  orders.push(myOrder(["GAVIIFORMES","潜鸟目","GAVIIDAE"]));
-  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","SPHENISCIDAE"]));
-  orders.push(myOrder(["PROCELLARIIFORMES","鹱形目","OCEANITIDAE","洋海燕科","DIOMEDEIDAE","信天翁科","HYDROBATIDAE","海燕科","PROCELLARIIDAE","鹱科"]));
-  orders.push(myOrder(["CICONIIFORMES","鹳形目","CICONIIDAE","鹳科"]));
-  orders.push(myOrder(["SULIFORMES","鲣鸟目","FREGATIDAE","军舰鸟科","SULIDAE","鲣鸟科","ANHINGIDAE","蛇鹈科","PHALACROCORACIDAE","鸬鹚科"]));
-  orders.push(myOrder(["PELECANIFORMES","鹈形目","THRESKIORNITHIDAE","鹮科","ARDEIDAE","鹭科","SCOPIDAE","锤头鹳科","BALAENICIPITIDAE","鲸头鹳科","PELECANIDAE","鹈鹕科"]));
-  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","OPISTHOCOMIDAE"]));
-  orders.push(myOrder(["ACCIPITRIFORMES","鹰形目","CATHARTIDAE","美洲鹫科","SAGITTARIIDAE","鹭鹰科","PANDIONIDAE","鹗科","ACCIPITRIDAE","鹰科"]));
-  orders.push(myOrder(["STRIGIFORMES","鸮形目","TYTONIDAE","仓鸮科","STRIGIDAE","鸱鸮科"]));
-  orders.push(myOrder(["COLIIFORMES","鼠鸟目","COLIIDAE"]));
-  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","LEPTOSOMIDAE"]));
-  orders.push(myOrder(["TROGONIFORMES","咬鹃目","TROGONIDAE"]));
-  orders.push(myOrder(["BUCEROTIFORMES","犀鸟目","UPUPIDAE","戴胜科","PHOENICULIDAE","林戴胜科","BUCORVIDAE","地犀鸟科","BUCEROTIDAE","犀鸟科"]));
-  orders.push(myOrder(["CORACIIFORMES","佛法僧目","CORACIIDAE","佛法僧科","BRACHYPTERACIIDAE","地三宝鸟科","ALCEDINIDAE","翠鸟科","TODIDAE","短尾鴗科","MOMOTIDAE","翠鴗科","MEROPIDAE","蜂虎科"]));
-  orders.push(myOrder(["PICIFORMES","䴕形目","GALBULIDAE","鹟鴷科","BUCCONIDAE","蓬头鴷科","CAPITONIDAE","须鴷科","SEMNORNITHIDAE","巨嘴拟鴷科","RAMPHASTIDAE","巨嘴鸟科","MEGALAIMIDAE","拟鴷科",
-    "LYBIIDAE","非洲拟啄木鸟科","INDICATORIDAE","响蜜鴷科","PICIDAE","啄木鸟科"]));
-  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","CARIAMIDAE"]));
-  orders.push(myOrder(["FALCONIFORMES","隼形目","FALCONIDAE","隼科"]));
-  orders.push(myOrder(["PSITTACIFORMES","鹦形目","STRIGOPIDAE","鸮鹦鹉科","CACATUIDAE","凤头鹦鹉科","PSITTACIDAE","鹦鹉科","PSITTACULIDAE","长尾鹦鹉科"]));
-  orders.push(myOrder(["PASSERIFORMES","雀形目","ACANTHISITTIDAE","刺鹩科","SAPAYOIDAE","阔嘴霸鹟科","PHILEPITTIDAE","裸眉鸫科","EURYLAIMIDAE","阔嘴鸟科","CALYPTOMENIDAE","绿阔嘴鸟科","PITTIDAE","八色鸫科",
-    "FURNARIIDAE","灶鸟科","THAMNOPHILIDAE","蚁鸟科","FORMICARIIDAE","蚁鸫科","GRALLARIIDAE","短尾蚁鸫科","CONOPOPHAGIDAE","食蚊鸟科","RHINOCRYPTIDAE","窜鸟科","MELANOPAREIIDAE","月胸窜鸟科","TYRANNIDAE","霸鹟科",
-    "COTINGIDAE","伞鸟科","PIPRIDAE","娇鹟科","TITYRIDAE","蒂泰霸鹟科","MENURIDAE","琴鸟科","ATRICHORNITHIDAE","薮鸟科","PTILONORHYNCHIDAE","园丁鸟科","CLIMACTERIDAE","短嘴旋木雀科","MALURIDAE","细尾鹩莺科",
-    "MELIPHAGIDAE","吸蜜鸟科","DASYORNITHIDAE","刺莺科","PARDALOTIDAE","斑食蜜鸟科","ACANTHIZIDAE","细嘴莺科","POMATOSTOMIDAE","弯嘴鹛科","ORTHONYCHIDAE","刺尾鸫科","CNEMOPHILIDAE","短嘴极乐鸟科",
-    "MELANOCHARITIDAE","啄果鸟科","PARAMYTHIIDAE","冠啄果鸟科","CALLAEIDAE","垂耳鸦科","NOTIOMYSTIDAE","缝叶吸蜜鸟科","PSOPHODIDAE","啸冠鸫科","CINCLOSOMATIDAE","鹑鸫科","PLATYSTEIRIDAE","疣眼鹟科",
-    "MALACONOTIDAE","丛鵙科","MACHAERIRHYNCHIDAE","船嘴鹟科","VANGIDAE","钩嘴鵙科","PITYRIASIDAE","棘头鵙科","ARTAMIDAE","燕鵙科","RHAGOLOGIDAE","斑啸鹟科","AEGITHINIDAE","雀鹎科","CAMPEPHAGIDAE","鹃鵙科",
-    "MOHOUIDAE","黄头刺莺科","NEOSITTIDAE","澳鳾科","EULACESTOMATIDAE","肉垂鵙雀鹟科","OREOICIDAE","冠钟鹟科","FALCUNCULIDAE","鵙雀鹟科","PACHYCEPHALIDAE","啸鹟科","LANIIDAE","伯劳科","VIREONIDAE","莺雀科",
-    "ORIOLIDAE","黄鹂科","DICRURIDAE","卷尾科","RHIPIDURIDAE","扇尾鹟科","MONARCHIDAE","王鹟科","PLATYLOPHIDAE","冠鸦科","CORVIDAE","鸦科","CORCORACIDAE","澳鸦科","MELAMPITTIDAE","黑脚风鸟科","IFRITIDAE","蓝顶鹛鸫科",
-    "PARADISAEIDAE","极乐鸟科","PETROICIDAE","鸲鹟科","PICATHARTIDAE","岩鹛科","CHAETOPIDAE","岩鸫科","EUPETIDAE","长颈鸫科","BOMBYCILLIDAE","太平鸟科","PTILIOGONATIDAE","丝鹟科","HYPOCOLIIDAE","连雀科",
-    "DULIDAE","棕榈䳭科","MOHOIDAE","夏威夷吸蜜鸟科","HYLOCITREIDAE","林啸鹟科","STENOSTIRIDAE","仙莺科","PARIDAE","山雀科","REMIZIDAE","攀雀科","NICATORIDAE","斗鹎科","PANURIDAE","文须雀科","ALAUDIDAE","百灵科",
-    "PYCNONOTIDAE","鹎科","HIRUNDINIDAE","燕科","PNOEPYGIDAE","鳞胸鹪鹛科","MACROSPHENIDAE","长嘴莺科","CETTIIDAE","树莺科","SCOTOCERCIDAE","纹鹪莺科","ERYTHROCERCIDAE","红鹟科","HYLIIDAE","拟攀雀科",
-    "AEGITHALIDAE","长尾山雀科","PHYLLOSCOPIDAE","柳莺科","ACROCEPHALIDAE","苇莺科","LOCUSTELLIDAE","蝗莺科","DONACOBIIDAE","黑顶鹪鹩科","BERNIERIDAE","马岛鹎科","CISTICOLIDAE","扇尾莺科","SYLVIIDAE","莺鹛科",
-    "PARADOXORNITHIDAE","鸦雀科","ZOSTEROPIDAE","绣眼鸟科","TIMALIIDAE","鹛科","PELLORNEIDAE","幽鹛科","ALCIPPEIDAE","雀鹛科","LEIOTHRICHIDAE","噪鹛科","MODULATRICIDAE","斑喉䳭科","PROMEROPIDAE","非洲食蜜鸟科",
-    "IRENIDAE","和平鸟科","REGULIDAE","戴菊科","ELACHURIDAE","丽星鹩鹛科","HYLIOTIDAE","丛莺科","TROGLODYTIDAE","鹪鹩科","POLIOPTILIDAE","蚋莺科","SITTIDAE","䴓科","TICHODROMIDAE","旋壁雀科","CERTHIIDAE","旋木雀科",
-    "MIMIDAE","嘲鸫科","STURNIDAE","椋鸟科","BUPHAGIDAE","牛椋鸟科","TURDIDAE","鸫科","MUSCICAPIDAE","鹟科","CINCLIDAE","河乌科","CHLOROPSEIDAE","叶鹎科","DICAEIDAE","啄花鸟科","NECTARINIIDAE","太阳鸟科",
-    "PASSERIDAE","雀科","PLOCEIDAE","织雀科","ESTRILDIDAE","梅花雀科","VIDUIDAE","维达雀科","PEUCEDRAMIDAE","绿森莺科","PRUNELLIDAE","岩鹨科","MOTACILLIDAE","鹡鸰科","UROCYNCHRAMIDAE","朱鹀科","FRINGILLIDAE","燕雀科",
-    "CALCARIIDAE","铁爪鹀科","RHODINOCICHLIDAE","鸫唐纳雀科","EMBERIZIDAE","鹀科","PASSERELLIDAE","雀鹀科","CALYPTOPHILIDAE","拟䳭唐纳雀科","PHAENICOPHILIDAE","棕榈唐纳雀科","NESOSPINGIDAE","波多黎各唐纳雀科",
-    "SPINDALIDAE","纹头唐纳雀科","ZELEDONIIDAE","冠鹩森莺科","TERETISTRIDAE","灰森莺科","ICTERIIDAE","黄胸大䳭莺科","ICTERIDAE","拟鹂科","PARULIDAE","森莺科","MITROSPINGIDAE","乌脸唐纳雀科","CARDINALIDAE","美洲雀科",
-    "THRAUPIDAE","裸鼻雀科"]));
+  orders.push(myOrder(["STRUTHION","鸵鸟","STRUTHION"]));
+  orders.push(myOrder(["RHE","美洲鸵鸟","RHE"]));
+  orders.push(myOrder(["APTERYG","鹬鸵","APTERYG"]));
+  orders.push(myOrder(["CASUARI","鹤鸵","CASUARI"]));
+  orders.push(myOrder(["TINAM","䳍形","TINAM","䳍"]));
+  orders.push(myOrder(["ANSER","雁形","ANHIM","叫鸭","ANSERANAT","鹊雁","ANAT","鸭"]));
+  orders.push(myOrder(["GALL","鸡形","MEGAPODI","塚雉","CRAC","凤冠雉","NUMID","珠鸡","ODONTOPHOR","齿鹑","PHASIAN","雉"]));
+  orders.push(myOrder(["CAPRIMULG","夜鹰","CAPRIMULG"]));
+  orders.push(myOrder(["STEATORNITH","油鸱","STEATORNITH"]));
+  orders.push(myOrder(["NYCTIBI","林鸮","NYCTIBI"]));
+  orders.push(myOrder(["PODARG","蛙口夜鹰","PODARG"]));
+  orders.push(myOrder(["AEGOTHEL","裸鼻鸱","AEGOTHEL"]));
+  orders.push(myOrder(["APOD","雨燕","HEMIPROCN","凤头雨燕","APOD","雨燕","TROCHIL","蜂鸟"]));
+  orders.push(myOrder(["MUSOPHAG","蕉鹃","MUSOPHAG"]));
+  orders.push(myOrder(["OTID","鸨形","OTID","鸨"]));
+  orders.push(myOrder(["CUCUL","鹃形","CUCUL","杜鹃"]));
+  orders.push(myOrder(["MESITORNITH","拟鹑","MESITORNITH"]));
+  orders.push(myOrder(["PTEROCL","沙鸡","PTEROCL"]));
+  orders.push(myOrder(["COLUMB","鸽形","COLUMB","鸽鸠"]));
+  orders.push(myOrder(["GRU","鹤形","HELIORNITH","日鷉","SAROTHRUR","侏秧鸡","RALL","秧鸡","PSOPHI","喇叭鸟","GRU","鹤","ARAM","秧鹤"]));
+  orders.push(myOrder(["PODICIPED","䴙䴘","PODICIPED"]));
+  orders.push(myOrder(["PHOENICOPTER","火烈鸟","PHOENICOPTER"]));
+  orders.push(myOrder(["CHARADRI","鸻形","TURNIC","三趾鹑","BURHIN","石鸻","CHION","鞘嘴鸥","PLUVIANELL","短腿鸻","HAEMATOPOD","蛎鹬","IBIDORHYNCH","鹮嘴鹬","RECURVIROSTR","反嘴鹬","CHARADRI","鸻",
+    "PLUVIAN","埃及燕鸻","ROSTRATUL","彩鹬","JACAN","水雉","PEDIONOM","领鹑","THINOCOR","籽鹬","SCOLOPAC","鹬","DROMAD","蟹鸻","GLAREOL","燕鸻","LAR","鸥","STERCORARI","贼鸥","ALC","海雀"]));
+  orders.push(myOrder(["EURYPYG","日鳽","RHYNOCHET","鹭鹤","EURYPYG","日鳽"]));
+  orders.push(myOrder(["PHAETHONT","鹲形","PHAETHONT","鹲"]));
+  orders.push(myOrder(["GAVI","潜鸟","GAVI"]));
+  orders.push(myOrder(["SPHENISC","企鹅","SPHENISC"]));
+  orders.push(myOrder(["PROCELLARI","鹱形","OCEANIT","洋海燕","DIOMEDE","信天翁","HYDROBAT","海燕","PROCELLARI","鹱"]));
+  orders.push(myOrder(["CICONI","鹳形","CICONI","鹳"]));
+  orders.push(myOrder(["SUL","鲣鸟","FREGAT","军舰鸟","SUL","鲣鸟","ANHING","蛇鹈","PHALACROCORAC","鸬鹚"]));
+  orders.push(myOrder(["PELECAN","鹈形","THRESKIORNITH","鹮","ARDE","鹭","SCOP","锤头鹳","BALAENICIPIT","鲸头鹳","PELECAN","鹈鹕"]));
+  orders.push(myOrder(["OPISTHOCOM","麝雉","OPISTHOCOM"]));
+  orders.push(myOrder(["ACCIPITR","鹰形","CATHART","美洲鹫","SAGITTARI","鹭鹰","PANDION","鹗","ACCIPITR","鹰"]));
+  orders.push(myOrder(["STRIG","鸮形","TYTON","仓鸮","STRIG","鸱鸮"]));
+  orders.push(myOrder(["COLI","鼠鸟","COLI"]));
+  orders.push(myOrder(["LEPTOSOM","鹃三宝鸟","LEPTOSOM"]));
+  orders.push(myOrder(["TROGON","咬鹃","TROGON"]));
+  orders.push(myOrder(["BUCEROT","犀鸟","UPUP","戴胜","PHOENICUL","林戴胜","BUCORV","地犀鸟","BUCEROT","犀鸟"]));
+  orders.push(myOrder(["CORACI","佛法僧","CORACI","佛法僧","BRACHYPTERACI","地三宝鸟","ALCEDIN","翠鸟","TOD","短尾鴗","MOMOT","翠鴗","MEROP","蜂虎"]));
+  orders.push(myOrder(["PIC","䴕形","GALBUL","鹟鴷","BUCCON","蓬头鴷","CAPITON","须鴷","SEMNORNITH","巨嘴拟鴷","RAMPHAST","巨嘴鸟","MEGALAIM","拟鴷","LYBI","非洲拟啄木鸟","INDICATOR","响蜜鴷","PIC","啄木鸟"]));
+  orders.push(myOrder(["CARIAM","叫鹤","CARIAM"]));
+  orders.push(myOrder(["FALCON","隼形","FALCON","隼"]));
+  orders.push(myOrder(["PSITTAC","鹦形","STRIGOP","鸮鹦鹉","CACATU","凤头鹦鹉","PSITTAC","鹦鹉","PSITTACUL","长尾鹦鹉"]));
+  orders.push(myOrder(["PASSER","雀形","ACANTHISITT","刺鹩","SAPAYO","阔嘴霸鹟","PHILEPITT","裸眉鸫","EURYLAIM","阔嘴鸟","CALYPTOMEN","绿阔嘴鸟","PITT","八色鸫","FURNARI","灶鸟","THAMNOPHIL","蚁鸟","FORMICARI","蚁鸫",
+    "GRALLARI","短尾蚁鸫","CONOPOPHAG","食蚊鸟","RHINOCRYPT","窜鸟","MELANOPAREI","月胸窜鸟","TYRANN","霸鹟","COTING","伞鸟","PIPR","娇鹟","TITYR","蒂泰霸鹟","MENUR","琴鸟","ATRICHORNITH","薮鸟","PTILONORHYNCH","园丁鸟",
+    "CLIMACTER","短嘴旋木雀","MALUR","细尾鹩莺","MELIPHAG","吸蜜鸟","DASYORNITH","刺莺","PARDALOT","斑食蜜鸟","ACANTHIZ","细嘴莺","POMATOSTOM","弯嘴鹛","ORTHONYCH","刺尾鸫","CNEMOPHIL","短嘴极乐鸟","MELANOCHARIT","啄果鸟",
+    "PARAMYTHI","冠啄果鸟","CALLAE","垂耳鸦","NOTIOMYST","缝叶吸蜜鸟","PSOPHOD","啸冠鸫","CINCLOSOMAT","鹑鸫","PLATYSTEIR","疣眼鹟","MALACONOT","丛鵙","MACHAERIRHYNCH","船嘴鹟","VANG","钩嘴鵙","PITYRIAS","棘头鵙","ARTAM","燕鵙",
+    "RHAGOLOG","斑啸鹟","AEGITHIN","雀鹎","CAMPEPHAG","鹃鵙","MOHOU","黄头刺莺","NEOSITT","澳鳾","EULACESTOMAT","肉垂鵙雀鹟","OREOIC","冠钟鹟","FALCUNCUL","鵙雀鹟","PACHYCEPHAL","啸鹟","LANI","伯劳","VIREON","莺雀","ORIOL","黄鹂",
+    "DICRUR","卷尾","RHIPIDUR","扇尾鹟","MONARCH","王鹟","PLATYLOPH","冠鸦","CORV","鸦","CORCORAC","澳鸦","MELAMPITT","黑脚风鸟","IFRIT","蓝顶鹛鸫","PARADISAE","极乐鸟","PETROIC","鸲鹟","PICATHART","岩鹛","CHAETOP","岩鸫",
+    "EUPET","长颈鸫","BOMBYCILL","太平鸟","PTILIOGONAT","丝鹟","HYPOCOLI","连雀","DUL","棕榈䳭","MOHO","夏威夷吸蜜鸟","HYLOCITRE","林啸鹟","STENOSTIR","仙莺","PAR","山雀","REMIZ","攀雀","NICATOR","斗鹎","PANUR","文须雀",
+    "ALAUD","百灵","PYCNONOT","鹎","HIRUNDIN","燕","PNOEPYG","鳞胸鹪鹛","MACROSPHEN","长嘴莺","CETTI","树莺","SCOTOCERC","纹鹪莺","ERYTHROCERC","红鹟","HYLI","拟攀雀","AEGITHAL","长尾山雀","PHYLLOSCOP","柳莺","ACROCEPHAL","苇莺",
+    "LOCUSTELL","蝗莺","DONACOBI","黑顶鹪鹩","BERNIER","马岛鹎","CISTICOL","扇尾莺","SYLVI","莺鹛","PARADOXORNITH","鸦雀","ZOSTEROP","绣眼鸟","TIMALI","鹛","PELLORNE","幽鹛","ALCIPPE","雀鹛","LEIOTHRICH","噪鹛","MODULATRIC","斑喉䳭",
+    "PROMEROP","非洲食蜜鸟","IREN","和平鸟","REGUL","戴菊","ELACHUR","丽星鹩鹛","HYLIOT","丛莺","TROGLODYT","鹪鹩","POLIOPTIL","蚋莺","SITT","䴓","TICHODROM","旋壁雀","CERTHI","旋木雀","MIM","嘲鸫","STURN","椋鸟","BUPHAG","牛椋鸟",
+    "TURD","鸫","MUSCICAP","鹟","CINCL","河乌","CHLOROPSE","叶鹎","DICAE","啄花鸟","NECTARINI","太阳鸟","PASSER","雀","PLOCE","织雀","ESTRILD","梅花雀","VIDU","维达雀","PEUCEDRAM","绿森莺","PRUNELL","岩鹨","MOTACILL","鹡鸰",
+    "UROCYNCHRAM","朱鹀","FRINGILL","燕雀","CALCARI","铁爪鹀","RHODINOCICHL","鸫唐纳雀","EMBERIZ","鹀","PASSERELL","雀鹀","CALYPTOPHIL","拟䳭唐纳雀","PHAENICOPHIL","棕榈唐纳雀","NESOSPING","波多黎各唐纳雀","SPINDAL","纹头唐纳雀",
+    "ZELEDONI","冠鹩森莺","TERETISTR","灰森莺","ICTERI","黄胸大䳭莺","ICTER","拟鹂","PARUL","森莺","MITROSPING","乌脸唐纳雀","CARDINAL","美洲雀","THRAUP","裸鼻雀"]));
 
   //string.localeCompare() does not work in all browsers
   var py  =  { 额:"e2", 鹅:"e2", 鹗:"e4", 阿:"a1", 恶:"e4", 唧:"ji1", 姬:"ji1", 斗:"dou4",树:"shu4",茶:"cha2",林:"lin2",白:"bai2",赤:"chi4",肉:"rou4", 环:"huan2",平:"ping2",横:"heng2",苍:"cang1",娇:"jiao1",玄:"xuan2",
