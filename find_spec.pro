@@ -75,8 +75,8 @@ function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=b
     if keyword_set(ibn)      then return,'C:\Users\qiuym\Desktop\index_birds_names.js'
     if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v13.1.csv'
     if keyword_set(chinese)  then return,'C:\Users\qiuym\Documents\Yiming\tmp\Multiling_IOC_V13.1.csv'
-    ;if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
-    if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
+    if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
+    ;if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
     if keyword_set(namecomp) then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_namecompare.txt'
     if keyword_set(movie)    then return,'C:\Users\qiuym\Desktop\lifer.mp4'
     if keyword_set(birdname) then return,read_namecomp()
@@ -235,16 +235,6 @@ pro read_ibn,bird=bird,latin=latin,line=line,all=all,year=year,family=family,chi
           free_lun,unit
        endelse
     endif
-    ;replace t0
-    for i=0,n_elements(line)-1 do begin
-        if stregex(line[i],'\(t0=("[a-z]+ ")\)',/boolean,/fold_case) then begin
-           tmp = strsplit(line[i],'t0="',/regex,/extract,/preserve_null)
-           t0 = strmid(tmp[1],0,strpos(tmp[1],'"'));
-           line[i] = strjoin(strsplit(line[i],'\(t0="[a-z]+ "\)\+"',/fold_case,/regex,/extract,/preserve_null),'"'+t0)
-        endif else if stregex(line[i],'t0\+"',/boolean,/fold_case) then begin
-           line[i] = strjoin(strsplit(line[i],'t0\+"',/regex,/extract,/preserve_null),'"'+t0)
-        endif
-    endfor
     if keyword_set(all) then return
     ind  = where(stregex(line,'birds\.push\(Bird\("',/boolean,/fold_case),count)
     line = line[ind]
