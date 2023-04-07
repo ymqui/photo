@@ -1,5 +1,4 @@
 <!--
-  //variables for stat counting
   var loc_cnts  = {};
   var py_cnts   = {};
   var misc_cnts = [0,0,0];
@@ -10,57 +9,57 @@
   var cnrexp    = /[\u3400-\u9FBF]/;
   var frexp     = /idae *$/i;
 
-  //info [0-3: name,cname,desc,cdesc(opt.) for order, 4*i-4*i+3: name, cname, desc,cdesc(opt.) for families]
   function myOrder(info){
+     if (info.length==3) info.push(info[1].substring(0,info[1].length-1)+'科');
      return {name:info[0],cname:info[1],family:(info.slice(2)).reduce((fam,el,ind,ar)=>{if(frexp.test(el))fam.push({name:el,cname:ar[ind+1]}); return fam;},[])};
   }
 
-  //according to http://www.worldbirdnames.org/ioc-lists/master-list-2/
-  //chinese names https://dongniao.net/taxonomy.html
-  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","STRUTHIONIDAE","鸵鸟科"]));
-  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","RHEIDAE","美洲鸵鸟科"]));
-  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","APTERYGIDAE","鹬鸵科"]));
-  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","CASUARIIDAE","鹤鸵科"]));
+  //http://www.worldbirdnames.org/ioc-lists/master-list-2/
+  //https://dongniao.net/taxonomy.html
+  orders.push(myOrder(["STRUTHIONIFORMES","鸵鸟目","STRUTHIONIDAE"]));
+  orders.push(myOrder(["RHEIFORMES","美洲鸵鸟目","RHEIDAE"]));
+  orders.push(myOrder(["APTERYGIFORMES","鹬鸵目","APTERYGIDAE"]));
+  orders.push(myOrder(["CASUARIIFORMES","鹤鸵目","CASUARIIDAE"]));
   orders.push(myOrder(["TINAMIFORMES","䳍形目","TINAMIDAE","䳍科"]));
   orders.push(myOrder(["ANSERIFORMES","雁形目","ANHIMIDAE","叫鸭科","ANSERANATIDAE","鹊雁科","ANATIDAE","鸭科"]));
   orders.push(myOrder(["GALLIFORMES","鸡形目","MEGAPODIIDAE","塚雉科","CRACIDAE","凤冠雉科","NUMIDIDAE","珠鸡科","ODONTOPHORIDAE","齿鹑科","PHASIANIDAE","雉科"]));
-  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","CAPRIMULGIDAE","夜鹰科"]));
-  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","STEATORNITHIDAE","油鸱科"]));
-  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","NYCTIBIIDAE","林鸮科"]));
-  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","PODARGIDAE","蛙口夜鹰科"]));
-  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","AEGOTHELIDAE","裸鼻鸱科"]));
+  orders.push(myOrder(["CAPRIMULGIFORMES","夜鹰目","CAPRIMULGIDAE"]));
+  orders.push(myOrder(["STEATORNITHIFORMES","油鸱目","STEATORNITHIDAE"]));
+  orders.push(myOrder(["NYCTIBIIFORMES","林鸮目","NYCTIBIIDAE"]));
+  orders.push(myOrder(["PODARGIFORMES","蛙口夜鹰目","PODARGIDAE"]));
+  orders.push(myOrder(["AEGOTHELIFORMES","裸鼻鸱目","AEGOTHELIDAE"]));
   orders.push(myOrder(["APODIFORMES","雨燕目","HEMIPROCNIDAE","凤头雨燕科","APODIDAE","雨燕科","TROCHILIDAE","蜂鸟科"]));
-  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","MUSOPHAGIDAE","蕉鹃科"]));
+  orders.push(myOrder(["MUSOPHAGIFORMES","蕉鹃目","MUSOPHAGIDAE"]));
   orders.push(myOrder(["OTIDIFORMES","鸨形目","OTIDIDAE","鸨科"]));
   orders.push(myOrder(["CUCULIFORMES","鹃形目","CUCULIDAE","杜鹃科"]));
-  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","MESITORNITHIDAE","拟鹑科"]));
-  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","PTEROCLIDAE","沙鸡科"]));
+  orders.push(myOrder(["MESITORNITHIFORMES","拟鹑目","MESITORNITHIDAE"]));
+  orders.push(myOrder(["PTEROCLIFORMES","沙鸡目","PTEROCLIDAE"]));
   orders.push(myOrder(["COLUMBIFORMES","鸽形目","COLUMBIDAE","鸽鸠科"]));
   orders.push(myOrder(["GRUIFORMES","鹤形目","HELIORNITHIDAE","日鷉科","SAROTHRURIDAE","侏秧鸡科","RALLIDAE","秧鸡科","PSOPHIIDAE","喇叭鸟科","GRUIDAE","鹤科","ARAMIDAE","秧鹤科"]));
-  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","PODICIPEDIDAE","䴙䴘科"]));
-  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","PHOENICOPTERIDAE","火烈鸟科"]));
+  orders.push(myOrder(["PODICIPEDIFORMES","䴙䴘目","PODICIPEDIDAE"]));
+  orders.push(myOrder(["PHOENICOPTERIFORMES","火烈鸟目","PHOENICOPTERIDAE"]));
   orders.push(myOrder(["CHARADRIIFORMES","鸻形目","TURNICIDAE","三趾鹑科","BURHINIDAE","石鸻科","CHIONIDAE","鞘嘴鸥科","PLUVIANELLIDAE","短腿鸻科","HAEMATOPODIDAE","蛎鹬科","IBIDORHYNCHIDAE","鹮嘴鹬科",
     "RECURVIROSTRIDAE","反嘴鹬科","CHARADRIIDAE","鸻科","PLUVIANIDAE","埃及燕鸻科","ROSTRATULIDAE","彩鹬科","JACANIDAE","水雉科","PEDIONOMIDAE","领鹑科","THINOCORIDAE","籽鹬科","SCOLOPACIDAE","鹬科",
     "DROMADIDAE","蟹鸻科","GLAREOLIDAE","燕鸻科","LARIDAE","鸥科","STERCORARIIDAE","贼鸥科","ALCIDAE","海雀科"]));
   orders.push(myOrder(["EURYPYGIFORMES","日鳽目","RHYNOCHETIDAE","鹭鹤科","EURYPYGIDAE","日鳽科"]));
   orders.push(myOrder(["PHAETHONTIFORMES","鹲形目","PHAETHONTIDAE","鹲科"]));
-  orders.push(myOrder(["GAVIIFORMES","潜鸟目","GAVIIDAE","潜鸟科"]));
-  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","SPHENISCIDAE","企鹅科"]));
+  orders.push(myOrder(["GAVIIFORMES","潜鸟目","GAVIIDAE"]));
+  orders.push(myOrder(["SPHENISCIFORMES","企鹅目","SPHENISCIDAE"]));
   orders.push(myOrder(["PROCELLARIIFORMES","鹱形目","OCEANITIDAE","洋海燕科","DIOMEDEIDAE","信天翁科","HYDROBATIDAE","海燕科","PROCELLARIIDAE","鹱科"]));
   orders.push(myOrder(["CICONIIFORMES","鹳形目","CICONIIDAE","鹳科"]));
   orders.push(myOrder(["SULIFORMES","鲣鸟目","FREGATIDAE","军舰鸟科","SULIDAE","鲣鸟科","ANHINGIDAE","蛇鹈科","PHALACROCORACIDAE","鸬鹚科"]));
   orders.push(myOrder(["PELECANIFORMES","鹈形目","THRESKIORNITHIDAE","鹮科","ARDEIDAE","鹭科","SCOPIDAE","锤头鹳科","BALAENICIPITIDAE","鲸头鹳科","PELECANIDAE","鹈鹕科"]));
-  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","OPISTHOCOMIDAE","麝雉科"]));
+  orders.push(myOrder(["OPISTHOCOMIFORMES","麝雉目","OPISTHOCOMIDAE"]));
   orders.push(myOrder(["ACCIPITRIFORMES","鹰形目","CATHARTIDAE","美洲鹫科","SAGITTARIIDAE","鹭鹰科","PANDIONIDAE","鹗科","ACCIPITRIDAE","鹰科"]));
   orders.push(myOrder(["STRIGIFORMES","鸮形目","TYTONIDAE","仓鸮科","STRIGIDAE","鸱鸮科"]));
-  orders.push(myOrder(["COLIIFORMES","鼠鸟目","COLIIDAE","鼠鸟科"]));
-  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","LEPTOSOMIDAE","鹃三宝鸟科"]));
-  orders.push(myOrder(["TROGONIFORMES","咬鹃目","TROGONIDAE","咬鹃科"]));
+  orders.push(myOrder(["COLIIFORMES","鼠鸟目","COLIIDAE"]));
+  orders.push(myOrder(["LEPTOSOMIFORMES","鹃三宝鸟目","LEPTOSOMIDAE"]));
+  orders.push(myOrder(["TROGONIFORMES","咬鹃目","TROGONIDAE"]));
   orders.push(myOrder(["BUCEROTIFORMES","犀鸟目","UPUPIDAE","戴胜科","PHOENICULIDAE","林戴胜科","BUCORVIDAE","地犀鸟科","BUCEROTIDAE","犀鸟科"]));
   orders.push(myOrder(["CORACIIFORMES","佛法僧目","CORACIIDAE","佛法僧科","BRACHYPTERACIIDAE","地三宝鸟科","ALCEDINIDAE","翠鸟科","TODIDAE","短尾鴗科","MOMOTIDAE","翠鴗科","MEROPIDAE","蜂虎科"]));
   orders.push(myOrder(["PICIFORMES","䴕形目","GALBULIDAE","鹟鴷科","BUCCONIDAE","蓬头鴷科","CAPITONIDAE","须鴷科","SEMNORNITHIDAE","巨嘴拟鴷科","RAMPHASTIDAE","巨嘴鸟科","MEGALAIMIDAE","拟鴷科",
     "LYBIIDAE","非洲拟啄木鸟科","INDICATORIDAE","响蜜鴷科","PICIDAE","啄木鸟科"]));
-  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","CARIAMIDAE","叫鹤科"]));
+  orders.push(myOrder(["CARIAMIFORMES","叫鹤目","CARIAMIDAE"]));
   orders.push(myOrder(["FALCONIFORMES","隼形目","FALCONIDAE","隼科"]));
   orders.push(myOrder(["PSITTACIFORMES","鹦形目","STRIGOPIDAE","鸮鹦鹉科","CACATUIDAE","凤头鹦鹉科","PSITTACIDAE","鹦鹉科","PSITTACULIDAE","长尾鹦鹉科"]));
   orders.push(myOrder(["PASSERIFORMES","雀形目","ACANTHISITTIDAE","刺鹩科","SAPAYOIDAE","阔嘴霸鹟科","PHILEPITTIDAE","裸眉鸫科","EURYLAIMIDAE","阔嘴鸟科","CALYPTOMENIDAE","绿阔嘴鸟科","PITTIDAE","八色鸫科",
@@ -83,8 +82,7 @@
     "SPINDALIDAE","纹头唐纳雀科","ZELEDONIIDAE","冠鹩森莺科","TERETISTRIDAE","灰森莺科","ICTERIIDAE","黄胸大䳭莺科","ICTERIDAE","拟鹂科","PARULIDAE","森莺科","MITROSPINGIDAE","乌脸唐纳雀科","CARDINALIDAE","美洲雀科",
     "THRAUPIDAE","裸鼻雀科"]));
 
-  //functions and variables used in index_birds_names
-  //table for Chinese pinyin, string.localeCompare() does not work in all browsers
+  //string.localeCompare() does not work in all browsers
   var py  =  { 额:"e2", 鹅:"e2", 鹗:"e4", 阿:"a1", 恶:"e4", 唧:"ji1", 姬:"ji1", 斗:"dou4",树:"shu4",茶:"cha2",林:"lin2",白:"bai2",赤:"chi4",肉:"rou4", 环:"huan2",平:"ping2",横:"heng2",苍:"cang1",娇:"jiao1",玄:"xuan2",
       拿:"na2",绿:"lv4",艾:"ai4",鸡:"ji1",狐:"hu2",曲:"qu1",牙:"ya2",稀:"xi1", 海:"hai3",喉:"hou2",太:"tai4",沙:"sha1",雉:"zhi4",珠:"zhu1",齿:"chi3", 东:"dong1",鸻:"heng2",尖:"jian1",杓:"shao2",连:"lian2",鸢:"yuan1",
       巨:"ju4",夜:"ye4",克:"ke4",鹭:"lu4",无:"wu2",麻:"ma2",叶:"ye4",苦:"ku3", 鹫:"jiu4",华:"hua2",灰:"hui1",叉:"cha1",粉:"fen3",三:"san1",牛:"niu2", 面:"mian2",脸:"lian3",州:"zhou1",鹰:"ying1",方:"fang1",蕉:"jiao1",
@@ -123,10 +121,10 @@
   var comma   = [", ","，"];
   var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
 
-  //info format: ["flflfl","5/2022,S111311543",gmap("Key West",24.5613, -81.8044),"","","西礁岛"]
-  //info[1] can also be "5/2022","S111311543","", or optional if info[2] is not empty string. If mon/year is absent, it will be constructed from the file name.
-  //info[2,3] - English and Chinese info attached before the locid description, a comma will be added at the end.
-  //info[4,5] - English and Chinese info attached after the locid description, no extra characters will be added.
+  //info[0]   - locid
+  //info[1]   - "5/2022,S111311543","5/2022","S111311543","", or optional if info[2] is not empty string. If mon/year is absent, it will be constructed from the file name.
+  //info[2,3] - Eng & Chinese info attached before the locid description, a comma will be added at the end.
+  //info[4,5] - Eng & Chinese info attached after the locid description, no extra characters will be added.
   function Bird(liferdate, family, name, cname, latin, photo, info, ebid, cbid){
      family      = family.trim().slice(0,fam_ln).toUpperCase();
      name        = name.trim();
@@ -143,12 +141,12 @@
      dig_cnts    = photo.reduce((tot,el)=>tot+((/_dig/i.test(el))?1:0),dig_cnts);
      //check if this bird needs to be added to modBrd
      var tmp_date,add_mod = false;
-     if (!newbird){add_mod = photo.some((el)=>{tmp_date=getdate(el,true);return (typeof tmp_date!=='undefined')?(modTim<=tmp_date.getTime()):false;});}
+     if (!newbird) add_mod = photo.some((el)=>{tmp_date=getdate(el,true);return (typeof tmp_date!=='undefined')?(modTim<=tmp_date.getTime()):false;});
      if (newbird||add_mod){
         modBrd.name.push(name);
         modBrd.cname.push(cname);
         modBrd.newbird.push(newbird);
-        if (add_mod){all_new = false;}
+        if (add_mod) all_new = false;
      }
      if (window.expandinfo){
         var tmp_info = reform_locs(info,photo);
@@ -165,12 +163,12 @@
      return result.map((_, i) => arrays.map(xs => (Array.isArray(xs)?xs[Math.min(i,xs.length-1)]:xs)).reduce((sum, x) => sum + x, ''));
   }
 
-  //if no ',' return [str,''] else return separted string array
+  //if no ',' return [str,''] else return splitted string array
   function strsplit(str){
      var tmp,tmp1;
      if (Array.isArray(str)) {tmp = str[0];}else{tmp=str;}
      tmp1 = tmp.indexOf(',');
-     if (tmp1===-1) {return [tmp,''];}
+     if (tmp1===-1) return [tmp,''];
      return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
   }
 
@@ -179,7 +177,7 @@
      var tmpstr = str.trim();
      var tmp1 = tmpstr.indexOf('<');
      var tmp2 = tmpstr.indexOf('>');
-     if ((tmp1==0)&&(tmp2!=-1)) {tmpstr = tmpstr.substring(0,tmp2+1)+strupcase(tmpstr.substring(tmp2+1));}
+     if ((tmp1==0)&&(tmp2!=-1)) tmpstr = tmpstr.substring(0,tmp2+1)+strupcase(tmpstr.substring(tmp2+1));
      return tmpstr.charAt(0).toUpperCase()+tmpstr.slice(1);
   }
 
@@ -189,27 +187,22 @@
   
   function my_href(url,name,target){
      var tmp = "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'";
-     if (typeof target!=='undefined'){tmp = tmp+" target='"+target+"'";}
-     if (typeof name!=='undefined'){tmp = tmp+">"+name+"</a";}
+     if (typeof target!=='undefined') tmp = tmp+" target='"+target+"'";
+     if (typeof name!=='undefined') tmp = tmp+">"+name+"</a";
      return tmp+">";
   }
 
   function b_link(bid,info){
-     if (typeof info==='undefined') {info = bid;} else {
-        if (info==='s'){info = bid.trim()+info;}
-     }
-     if (order){bid = bid+"&order";}
+     if (typeof info==='undefined') info = bid;
+     if (info==='s') info = bid.trim()+'s';
+     if (order) bid = bid+'&order';
      return my_href('showbird.html?name='+reform(bid),info);
   }
 
   function getByCountry(id, myArray){
-     if (cnrexp.test(id)){
-        var rexp = new RegExp('(^'+id+'|@@_*'+id+'|，_*'+id+')');
-        return myArray.filter((el)=>rexp.test(reform(el.cinfo.join('@@'))));
-     }else{
-        var rexp = new RegExp(',_*'+id);
-        return myArray.filter((el)=>rexp.test(reform(el.info.join('@@'))));
-     }
+     var rexp = new RegExp((cnrexp.test(id))?'(^'+id+'|@@_*'+id+'|，_*'+id+')':',_*'+id);
+     if (cnrexp.test(id)) return myArray.filter((el)=>rexp.test(reform(el.cinfo.join('@@'))));
+     else return myArray.filter((el)=>rexp.test(reform(el.info.join('@@'))));
   }
 
   function getByFamily(id, myArray) {
@@ -223,17 +216,12 @@
   }
 
   function getByQuery(id, myArray){
-     if (cnrexp.test(id)){
-        return myArray.filter((el)=>reform(el.cinfo.join('@@')).match(id)!==null);
-     }else{
-        return myArray.filter((el)=>reform(el.info.join('@@')).match(id)!==null);
-     }
+     if (cnrexp.test(id)) return myArray.filter((el)=>reform(el.cinfo.join('@@')).match(id)!==null);
+     else return myArray.filter((el)=>reform(el.info.join('@@')).match(id)!==null);
   }
 
   function getByHanzi(id, myArray){
-     if (cnrexp.test(id)){
-        return myArray.filter((el)=>el.cname.match(id)!==null);
-     }
+     if (cnrexp.test(id)) return myArray.filter((el)=>el.cname.match(id)!==null);
   }
 
   function getByLocs(id, myArray){
@@ -252,10 +240,10 @@
         year = name.substring(pos,pos+off);
         mon  = name.substring(pos+off,pos+off+2);
         day  = name.substring(pos+off+2,pos+off+4);
-        if (year.length==2){year = '20'+year;}
-        if (mon.substring(0,1)=='0'){mon = mon.substring(1,2);}
-        if (isNaN(parseInt(day))){day='0';}
-        if (retdate){return new Date(year,parseInt(mon)-1,day);}
+        if (year.length==2) year = '20'+year;
+        if (mon.substring(0,1)=='0') mon = mon.substring(1,2);
+        if (isNaN(parseInt(day))) day='0';
+        if (retdate) return new Date(year,parseInt(mon)-1,day);
      }else if (retdate){return;}
      return mon+'/'+year;
   }
@@ -270,14 +258,14 @@
   }
 
   function mysort(a,b){
-     if (window.lifer){return (a.lifer < b.lifer)?(-1):((a.lifer > b.lifer)?1:0);}
-     if (window.usechinese){return (a.pinyin < b.pinyin )?(-1):((a.pinyin > b.pinyin)?1:0);}
+     if (window.lifer) return (a.lifer < b.lifer)?(-1):((a.lifer > b.lifer)?1:0);
+     if (window.usechinese) return (a.pinyin < b.pinyin )?(-1):((a.pinyin > b.pinyin)?1:0);
      return (a.name < b.name )?(-1):((a.name > b.name)?1:0);
   }
 
   //append '20' to id automatically
   function m_id(id,num){
-     if (typeof num==='undefined'){num = 0;}
+     if (typeof num==='undefined') num = 0;
      misc_cnts[num] = (Array.isArray(id))?(misc_cnts[num]+id.length):(misc_cnts[num]+1);
      return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
   }
@@ -287,11 +275,11 @@
   }
 
   function baike(name,before,afterin,afterout){
-     if (typeof name!=='string') {return "https://dongniao.net/nd/"+name.toString();}
+     if (typeof name!=='string') return "https://dongniao.net/nd/"+name.toString();
      name = replace_acronym(name);
-     if (typeof before==='undefined') {return "https://baike.baidu.com/item/"+name;}
-     if (typeof afterin==='undefined'){afterin='';}
-     if (typeof afterout==='undefined'){afterout='';}
+     if (typeof before==='undefined') return "https://baike.baidu.com/item/"+name;
+     if (typeof afterin==='undefined') afterin='';
+     if (typeof afterout==='undefined') afterout='';
      return before+my_href("https://baike.baidu.com/item/"+name,name+afterin,name)+afterout;
   }
 
@@ -304,7 +292,7 @@
   }
 
   function hotspot(id,name){
-     if (typeof name!=='string') {return "https://birdinghotspots.org/hotspot/"+id;}
+     if (typeof name!=='string') return "https://birdinghotspots.org/hotspot/"+id;
      var tmp = strsplit(name);
      return my_href("https://birdinghotspots.org/hotspot/"+id,tmp[0],id)+tmp[1];
   }
@@ -316,15 +304,14 @@
      return my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[0],"gmap")+tmp[1];
   }
 
-  //https://lbsyun.baidu.com/index.php?title=uri/api or with offset [latt,long]+[0.0057,0.0064]
   function bmap(name,latt,long){
-     if ((typeof latt==='undefined') || (typeof long==='undefined')) {return name;}
+     if ((typeof latt==='undefined') || (typeof long==='undefined')) return name;
      return my_href("http://api.map.baidu.com/marker?location="+latt.toString()+"%2C"+long.toString()+"&output=html&coord_type=gcj02&title="+name,name,"bmap");
   }
 
   function nps(pid,isfws,name){
      var url = 'https://www.'+((typeof isfws==='boolean')?'fws.gov/refuge/':'nps.gov/')+pid+'/';
-     if (typeof isfws==='string'){name = isfws;}
+     if (typeof isfws==='string') name = isfws;
      if (typeof name==='string'){
         var tmp = strsplit(name);
         url = my_href(url,tmp[0],pid)+tmp[1];
@@ -333,15 +320,15 @@
   }
 
   function wiki(id,name){
-     if (typeof name==='undefined') {return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);}
+     if (typeof name==='undefined') return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
      id = replace_acronym(id);
-     if ((typeof name!=='string')||(name==='')) {name = id;}
+     if ((typeof name!=='string')||(name==='')) name = id;
      return my_href("https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true),name,id);
   }
 
   function reform(name,space,apostrophe,notlowercase){
-     if (typeof space==='undefined') {space = '_';}
-     if (typeof apostrophe==='undefined') {apostrophe = '';}
+     if (typeof space==='undefined') space = '_';
+     if (typeof apostrophe==='undefined') apostrophe = '';
      var tmp = name.replace(/ |\+/g,space);
      tmp = tmp.replace(/'/g,apostrophe);
      return (notlowercase)?tmp:tmp.toLowerCase();
@@ -362,11 +349,11 @@
          tmp4 = /[0-9]{1,2}\/[0-9]{4}/.test(info[6*i+1]);
          tmp1 = (tmp3>=0)?info[6*i+1].substr(0,tmp3):(tmp4?info[6*i+1]:'');
          tmp2 = (tmp3>=0)?info[6*i+1].substr(tmp3+1):(tmp4?'':info[6*i+1]);
-         if (tmp1.length==0){tmp1=getdate(photo[i]);}
-         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))){ebirdlist.push(tmp2);}
+         if (tmp1.length==0) tmp1=getdate(photo[i]);
+         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
          date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
          if ((info[6*i+2].length>0)&&(info[6*i+3].length==0)){
-            if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {info[6*i+3] = pt_chn[indx];}
+            if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) info[6*i+3] = pt_chn[indx];
          }
          pid  = info[6*i].toLowerCase();
          tmp  = (typeof lurls[pid]==='undefined')?['','','','']:(lurls[pid].slice(0));
@@ -374,15 +361,15 @@
          tail = info.slice(6*i+4,6*i+6);
          if (typeof loc_cnts[pid]==='undefined') loc_cnts[pid] = 0;
          loc_cnts[pid]++;
-     	 if (date.length>0) {date = stradd(comma,date);}
-         if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) {head[0] = head[0]+comma[0];}
-         if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) {head[1] = head[1]+comma[1];}
-         if ((tmp[0].length>0)&&(tail[0].length>0)) {tail[0] = ' '+tail[0];}
-         if (tmp[1].length>0) {tmp[1] = comma[0]+tmp[1];}
+     	 if (date.length>0) date = stradd(comma,date);
+         if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) head[0] = head[0]+comma[0];
+         if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) head[1] = head[1]+comma[1];
+         if ((tmp[0].length>0)&&(tail[0].length>0)) tail[0] = ' '+tail[0];
+         if (tmp[1].length>0) tmp[1] = comma[0]+tmp[1];
          if (typeof tmp[4]!=='undefined') {
-            if (typeof tmp[5]==='undefined') {tmp[5] = tmp[4];}
-            if (tmp[4].length > 0) {tmp[0] = my_href(tmp[4],tmp[0],pid);}
-            if (tmp[5].length > 0) {tmp[2] = my_href(tmp[5],tmp[2],pid);}
+            if (typeof tmp[5]==='undefined') tmp[5] = tmp[4];
+            if (tmp[4].length > 0) tmp[0] = my_href(tmp[4],tmp[0],pid);
+            if (tmp[5].length > 0) tmp[2] = my_href(tmp[5],tmp[2],pid);
          }
          tmp_einf.push(replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0])));
          tmp_cinf.push(replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]));
@@ -392,18 +379,17 @@
   }
 
   function reform_url(name,cname,ebid,cbid){
-     if (typeof ebid==='undefined') {ebid = "";}
+     if (typeof ebid==='undefined') ebid = "";
      if ((typeof ebid!=='string')||(cnrexp.test(ebid))){
         cbid = ebid;
         ebid = "";
      }
-     if (typeof cbid==='undefined') {cbid = cname;}
+     if (typeof cbid==='undefined') cbid = cname;
      return (window.usechinese && (cbid!==""))?baike(cbid):((ebid!=="")?ebirdurl(ebid):cornellurl(name));
   }
-  
-  //acronym is case sensitive 
+
   var acronym = {NWR:['National Wildlife Refuge','国家野生动物保护区'],NP:['National Park','国家公园'],WMA:['Wildlife Management Area','野生动物管理区'],WR:['Wildlife Refuge','野生动物保护区']};
-  var acrrexp = new RegExp('('+Object.keys(acronym).join('|')+')','g');
+  var acrrexp = new RegExp('('+Object.keys(acronym).join('|')+')','g');  //case sensitive
   function replace_acronym(name){
      var indx = cnrexp.test(name)?1:0;
      var tmp  = name.match(acrrexp);
