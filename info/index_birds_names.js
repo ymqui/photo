@@ -86,7 +86,7 @@
       waneah: ["Neah Bay, Washington","USA","华盛顿州尼亚湾","美国"]
   };
 
-  var modTim = modDat.getTime()-(modDat.getDate()+10)*3600*24*1000;  	//range within modDat converted from days to milliseconds, within the last 10 days of previous month
+  var modTim = modDat.getTime()-(modDat.getDate()+10)*3600*24*1000;  	//range within modDat in milliseconds, within the last 10 days of previous month
   var modBrd = {name:[],cname:[],newbird:[]}, birds = [],t0,t1,t2;
 
 //birds.push(Bird("23-00-00T00:00","STRUTHIO","Common Ostrich","非洲鸵鸟","Struthio camelus",m_id(""),["arb",""],"ostric2"));
