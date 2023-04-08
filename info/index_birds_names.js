@@ -474,7 +474,7 @@
   birds.push(Bird("22-08-10T13:06","PICIDAE ","Gilded Flicker","黄扑翅䴕","Colaptes chrysoides",p_id("2208azbird",[66,67]),["azazaz","S116681599","Male, "+(t1=hotspot("L387263","Scottsdale Community College, Scottsdale")),"","",(t2="斯科茨代尔市社区大学"),"azazaz","S116681599","Female, "+t1,"","",t2]));
   birds.push(Bird("23-01-23T10:42","PICIDAE ","Cinnamon Woodpecker","桂红啄木鸟","Celeus loricatus",p_id("2301pabird",57),["papipe","S126820118"],"cinwoo1"));
   birds.push(Bird("23-01-23T10:41","PICIDAE ","Lineated Woodpecker","细纹黑啄木鸟","Dryocopus lineatus",p_id("2301pabird",56),["papipe","S126820118","Male"],"linwoo1"));
-  birds.push(Bird("05-12-28T10:22","PICIDAE ","Pileated Woodpecker","北美黑啄木鸟","Dryocopus pileatus",[p_id("2020lbrp",7),m_id("161119_124")],["mdlbrp","5/2020","Male","mdbhrp","Female"]));
+  birds.push(Bird("05-12-28T10:22","PICIDAE ","Pileated Woodpecker","北美黑啄木鸟","Dryocopus pileatus",[m_id([230408_030,"161119_124"]),p_id("2020lbrp",7)],["mdredg","S133098258","Male","mdbhrp","Female","mdlbrp","5/2020","Male at nest entrance","雄性在鸟巢口"]));
   birds.push(Bird("23-01-23T07:33","PICIDAE ","Crimson-crested Woodpecker","朱冠啄木鸟","Campephilus melanoleucos",p_id("2301pabird",20),["papipe","S126820118","Male"],"crcwoo1"));
   birds.push(Bird("18-12-04T13:35","PICIDAE ","Pale-billed Woodpecker","淡嘴啄木鸟","Campephilus guatemalensis",p_id("1812crbird",44),["crarol","Female"],"pabwoo1"));
 //birds.push(Bird("23-00-00T00:00","CARIAMID","Red-legged Seriema","红腿叫鹤","Cariama cristata",m_id(""),["arb",""],"relser1"));
