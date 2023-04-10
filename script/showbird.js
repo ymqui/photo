@@ -1,12 +1,19 @@
 <!--
-document.onmousedown=function(event){
-   if (!event) var event = window.event;
-   if ((event.button==2)&&(!cellphone)){
-      if (window.usechinese){
-         alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');
-      }else{
-         alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
-      }
+//document.onmousedown=function(event){
+//   if (!event) var event = window.event;
+//   if ((event.button==2)&&(!cellphone)){
+//      if (window.usechinese){
+//         alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');
+//      }else{
+//         alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
+//      }
+//   }
+}
+
+function rightclick(evt){
+   if (!cellphone){
+      if (window.usechinese){alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');}
+      else{alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');}
    }
 }
 
@@ -425,13 +432,13 @@ if(window.usechinese){
 if(window.usechinese){
    document.title = title+bid.cname;
    for(var i=0;i<bid.photo.length;i++){
-      document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
+      document.write('<p><img onclick="mouseclick(event)" oncontextmenu="rightclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
       if((chn_info[Math.min(i,chn_info.length-1)]!=chn_info[Math.min(i+1,chn_info.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'">'+chn_info[Math.min(i,chn_info.length-1)]+'。');}
    }
 }else{
    document.title = title+bid.name;
    for(var i=0;i<bid.photo.length;i++){
-      document.write('<p><img onclick="mouseclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
+      document.write('<p><img onclick="mouseclick(event)" oncontextmenu="rightclick(event)" src="'+maindir+"pics/"+bid.photo[i]+'.jpg" alt="" style="max-width:100%;">');
       if((eng_info[Math.min(i,eng_info.length-1)]!=eng_info[Math.min(i+1,eng_info.length-1)])||(i==bid.photo.length-1)) {document.write('<p style="'+qfont+'"><i>'+eng_info[Math.min(i,eng_info.length-1)]+'.</i>');}
    }
 }
