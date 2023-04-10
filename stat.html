@@ -4,8 +4,8 @@
 <META http-equiv="Cache-Control" content="no-cache">   
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/error.js">           </SCRIPT>
 <script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/stat.js">              </SCRIPT>
-<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
-<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"> </SCRIPT>
+<script type="text/javascript" language="javaScript" src="index_birds_orders.js"></SCRIPT>
+<script type="text/javascript" language="javaScript" src="index_birds_names.js"> </SCRIPT>
 <style>
 .center{
    margin-left: auto;
@@ -286,10 +286,7 @@ var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(lurls);
-var tmp1 = Object.keys(py);
-for (var i=0;i<tmp1.length;i++){
-    if (typeof py_cnts[tmp1[i]] === 'undefined') py_cnts[tmp1[i]] = 0;
-}
+var tmp1 = Object.keys(py_cnts);
 py_cnts = sortProperties(py_cnts);
 for (var i=0;i<tmp.length;i++){
     if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;

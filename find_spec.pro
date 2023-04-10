@@ -282,7 +282,8 @@ pro read_order,family=family,order=order,line=line,all=all,pinyin=pinyin
        free_lun,unit
     endelse
     ind0 = where(stregex(line,'orders\.push',/boolean))
-    ind1 = where(stregex(line,'var py += ',/boolean))
+    ind1 = where(stregex(line,'^ *var',/boolean))
+    ind1 = ind1[where(ind1 gt ind0[0])]
     if arg_present(pinyin) then begin
        ind2 = where(stregex(line,'var pt_eng += ',/boolean))
        pinyin = ''
@@ -450,6 +451,7 @@ pro check_hanzi,name,py_wch=py_wch,py_cnt=py_cnt,py_mis=py_mis
 end
 
 pro check_pinyin,allgood=allgood  ;search for pinyin that is never used
+    return
     read_order,pinyin=pinyin,/all
     py_wch = I18N_MULTIBYTETOWIDECHAR(strjoin(pinyin))
     py_cnt = lonarr(n_elements(pinyin))
