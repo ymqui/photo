@@ -75,8 +75,8 @@ function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=b
     if keyword_set(ibn)      then return,'C:\Users\qiuym\Desktop\index_birds_names.js'
     if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v13.1.csv'
     if keyword_set(chinese)  then return,'C:\Users\qiuym\Documents\Yiming\tmp\Multiling_IOC_V13.1.csv'
-    if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
-    ;if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
+    ;if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
+    if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
     if keyword_set(namecomp) then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_namecompare.txt'
     if keyword_set(movie)    then return,'C:\Users\qiuym\Desktop\lifer.mp4'
     if keyword_set(birdname) then return,read_namecomp()
@@ -298,10 +298,13 @@ pro read_order,family=family,order=order,line=line,all=all,pinyin=pinyin
     order = '' & family = ''
     for i=ind0[0],ind1[0]-1 do begin
         if strlen(strtrim(line[i],2)) eq 0 then continue
-        tmp1 = line[i]   
+        tmp1 = line[i]
+        tmp  = strsplit(tmp1,'," ',/extract,count=cnt)
+        dupl = (cnt eq 4) and stregex(tmp[0],'orders',/fold_case,/boolean)
         while stregex(tmp1,'" *([a-z]+) *"',/fold_case,/boolean) do begin ;in case multiple family in one line
               tmp  = stregex(tmp1,'\[*" *([a-z]+) *"',/fold_case,/extract,/sub)
-              if stregex(tmp[0],'\[',/boolean,/fold_case) then order = [order,tmp[1]+"IFORMES"] else family = [family,tmp[1]+"IDAE"] 
+              if stregex(tmp[0],'\[',/boolean,/fold_case) then order = [order,tmp[1]+"IFORMES"] else family = [family,tmp[1]+"IDAE"]
+              if dupl then family = [family,tmp[1]+"IDAE"]
               tmp2 = strpos(tmp1,tmp[1])
               tmp1 = strmid(tmp1,0,tmp2)+strmid(tmp1,tmp2+strlen(tmp[1]))
         endwhile
