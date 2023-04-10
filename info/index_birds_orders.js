@@ -74,33 +74,6 @@
       "PRUNELL","岩鹨","MOTACILL","鹡鸰","UROCYNCHRAM","朱鹀","FRINGILL","燕雀","CALCARI","铁爪鹀","RHODINOCICHL","鸫唐纳雀","EMBERIZ","鹀","PASSERELL","雀鹀","CALYPTOPHIL","拟䳭唐纳雀","PHAENICOPHIL","棕榈唐纳雀",
       "NESOSPING","波多黎各唐纳雀","SPINDAL","纹头唐纳雀","ZELEDONI","冠鹩森莺","TERETISTR","灰森莺","ICTERI","黄胸大䳭莺","ICTER","拟鹂","PARUL","森莺","MITROSPING","乌脸唐纳雀","CARDINAL","美洲雀","THRAUP","裸鼻雀"]));
 
-  //string.localeCompare() does not work in all browsers (aáǎȁ,eéěȅ,iíǐȉ,oóǒȍ,uúǔȕ,üǘǚǜ)
-  var py  =  {额:"é", 鹅:"é", 鹗:"ȅ", 阿:"a", 恶:"ȅ", 唧:"ji",  姬:"ji", 斗:"dȍu",树:"shȕ",茶:"chá",林:"lín",白:"bái",赤:"chȉ",肉:"rȍu", 环:"huán",平:"píng",横:"héng",苍:"cang",玄:"xuán",
-      拿:"ná",绿:"lǜ",艾:"ȁi",鸡:"ji",狐:"hú",曲:"qu",牙:"yá", 海:"hǎi",喉:"hóu",太:"tȁi",沙:"sha",雉:"zhȉ",珠:"zhu",齿:"chǐ",胁:"xié", 东:"dong",鸻:"héng",尖:"jian",杓:"sháo",鸢:"yuan",
-      巨:"jȕ",夜:"yȅ",克:"kȅ",鹭:"lȕ",无:"wú",麻:"má",叶:"yȅ", 鹫:"jiȕ",华:"huá",灰:"hui",叉:"cha",粉:"fěn",三:"san",牛:"niú",食:"shí", 面:"mián",脸:"liǎn",州:"zhou",鹰:"ying",方:"fang",
-      细:"xȉ",紫:"zǐ",羽:"yǔ",蛎:"lȉ",鹬:"yȕ",矶:"ji",丽:"lȉ", 金:"jin",丘:"qiu",丹:"dan",蓑:"suo",厚:"hȍu",半:"bȁn",云:"yún",侏:"zhu", 田:"tián",青:"qing",领:"lǐng",翘:"qiȁo",端:"duan",
-      大:"dȁ",地:"dȉ",崖:"yá",鸦:"ya",鸽:"ge",耳:"ěr",卡:"kǎ", 伞:"sǎn",滨:"bin",噪:"zȁo",趾:"zhǐ",鸠:"jiu",威:"wei",朱:"zhu",裸:"luǒ", 冰:"bing",鹦:"ying",绒:"róng",沼:"zhǎo",星:"xing",
-      栖:"qi",雨:"yǔ",各:"gȅ",颏:"ke",木:"mȕ",哥:"ge",渡:"dȕ", 鸱:"chi",翠:"cuȉ",狗:"gǒu",汁:"zhi",游:"yóu",淡:"dȁn",南:"nán",燕:"yȁn", 丁:"ding",鹪:"jiao",鹩:"liáo",蜂:"feng",芒:"máng",
-      伯:"bó",暗:"ȁn",丝:"si",蜡:"lȁ",鹀:"wú",犀:"xi",乐:"lȅ", 带:"dȁi",钩:"gou",呆:"dai",劳:"láo",百:"bǎi",鹎:"bei",罗:"luó",绣:"xiȕ", 圆:"yuán",脚:"jiǎo",嘲:"cháo",丛:"cóng",缝:"féng",
-      鸲:"qú",鹡:"jí",圃:"pǔ",布:"bȕ",河:"hé",斯:"si",鸬:"lú", 玫:"méi",昏:"hun",弯:"wan",腿:"tuǐ",花:"hua",灶:"zȁo",文:"wén",刘:"liú", 窜:"cuȁn",鸰:"líng",唐:"táng",松:"song",枞:"cong", 光:"guang",
-      鹉:"wǔ",热:"rȅ",勒:"lȅ",鹕:"hú",霸:"bȁ",拉:"la",鹚:"cí", 蚋:"ruȉ",鸵:"tuó",贼:"zéi",反:"fǎn",信:"xȉn",纹:"wén",黑:"hei",园:"yuán",潜:"qián",鳽:"jian",靛:"diȁn",囱:"cong",灵:"líng", 煌:"huáng",
-      鹈:"tí",漠:"mȍ",及:"jí",刺:"cȉ",吉:"jí",骨:"gǔ",鴗:"lȉ", 蛇:"shé",戴:"dȁi",咬:"yǎo",巾:"jin",加:"jia",秋:"qiu",费:"fȅi",榛:"zhen",洲:"zhou",叫:"jiȁo",纯:"chún",针:"zhen",亨:"heng", 蝗:"huáng",
-      褐:"hȅ",普:"pǔ",弗:"fú",尼:"ní",䴙:"pȉ",西:"xi",八:"ba", 北:"běi",毛:"máo",鹞:"yȁo",烟:"yan",果:"guǒ",家:"jia",柳:"liǔ",小:"xiǎo",神:"shén",角:"jiǎo",短:"duǎn",铜:"tóng",鲸:"jing", 黄:"huáng",
-      浮:"fú",黎:"lí",企:"qǐ",达:"dá",鵙:"jú",佛:"fó",鹤:"hȅ", 火:"huǒ",石:"shí",印:"yȉn",铁:"tiě",苇:"wěi",锈:"xiȕ",恺:"kǎi",冠:"guan",山:"shan",鹋:"miáo",水:"shuǐ",宽:"kuan",僧:"seng", 相:"xiang",
-      鸭:"ya",色:"sȅ",鹱:"hȕ",蹼:"pǔ",鸥:"ou",喜:"xǐ",埃:"ai", 眉:"méi",主:"zhǔ",多:"duo",刀:"dao",翅:"chȉ",嘴:"zuǐ",鹊:"quȅ",垂:"chuí",鸯:"yang",鹳:"guȁn",鸳:"yuan",王:"wáng",孔:"kǒng", 橙:"chéng",
-      乌:"wu",披:"pi",栗:"lȉ",亚:"yȁ",安:"an",鱼:"yú",榈:"lǘ", 番:"fan",桂:"guȉ",买:"mǎi",䴓:"shi",森:"sen",瓣:"bȁn",隼:"sǔn",雕:"diao",锥:"zhui",顶:"dǐng",鹟:"weng",鸫:"dong",剑:"jiȁn", 胸:"xiong",
-      腹:"fȕ",巴:"ba",比:"bǐ",库:"kȕ",极:"jí",科:"ke",歌:"ge", 头:"tóu",颊:"jiá",油:"yóu",走:"zǒu",鼠:"shǔ",喙:"huȉ",画:"huȁ",啄:"zhuó",丑:"chǒu",笑:"xiȁo",原:"yuán",风:"feng",鹲:"méng", 城:"chéng",
-      䴘:"ti",日:"rȉ",须:"xu",第:"dȉ",棘:"jí",杂:"zá",澳:"ȁo", 绯:"fei",臀:"tún",蚊:"wén",智:"zhȉ",橄:"gǎn",榄:"lǎn",蟹:"xiȅ",扇:"shȁn",天:"tian",点:"diǎn",硬:"yȉng",刚:"gang",爪:"zhǎo", 中:"zhong",
-      几:"jǐ",壁:"bȉ",帝:"dȉ",锡:"xi",叭:"ba",喇:"lǎ",法:"fǎ", 薮:"sǒu",奎:"kuí",滑:"huá",背:"bȅi",穴:"xué",流:"liú",美:"měi",枕:"zhěn",肩:"jian",鹮:"huán",猩:"xing",舰:"jiȁn",镰:"lián", 响:"xiǎng",
-      伍:"wǔ",思:"si",距:"jȕ",舞:"wǔ",蒂:"dȉ",䳭:"jí",那:"nȁ", 酋:"qiú",莱:"lái",䴕:"liȅ",瑰:"gui",泰:"tȁi",坦:"tǎn",沟:"gou",锤:"chuí",远:"yuǎn",翁:"weng",冬:"dong",蝇:"yíng",交:"jiao", 塚:"zhǒng",
-      纳:"nȁ",蚁:"yǐ",菊:"jú",墨:"mó",和:"hé",髭:"zi",哈:"ha", 斑:"ban",蓝:"lán",军:"jun",尾:"wěi",银:"yín",雀:"quȅ",琴:"qín",红:"hóng",啸:"xiȁo",洋:"yáng",仓:"cang",莺:"ying",藏:"zȁng", 钟:"zhong",
-      泽:"zé",孤:"gu",格:"gé",利:"lȉ",迪:"dí",奥:"ȁo",可:"kě", 口:"kǒu",彩:"cǎi",翻:"fan",腰:"yao",鸨:"bǎo",雁:"yȁn",鹨:"liȕ",膀:"bǎng",翎:"líng",通:"tong",鸮:"xiao",猛:"měng",铅:"qian", 声:"sheng",
-      蜜:"mȉ",籽:"zǐ",吸:"xi",簇:"cȕ",犁:"lí",马:"mǎ",哀:"ai", 高:"gao",优:"you",掩:"yǎn",鹠:"liú",螺:"luó",赭:"zhě",维:"wéi",鲣:"jian",鸟:"niǎo",鹃:"juan",鸣:"míng",剪:"jiǎn",鵟:"kuáng",长:"cháng",
-      鸸:"ér",哑:"yǎ",赫:"hȅ",牡:"mǔ",虎:"hǔ",五:"wú",草:"cǎo",楔:"xie",麝:"shȅ",辉:"hui",眼:"yǎn",雪:"xuě",隐:"yǐn",穗:"suȉ",灯:"deng",鞘:"qiȁo",仙:"xian",棕:"zong",䳍:"gong",虫:"chóng",靓:"liȁng",
-      伊:"yi",沃:"wȍ",翼:"yȉ",拟:"nǐ",鹂:"lí",雅:"yǎ",岩:"yán",舌:"shé",艳:"yȁn",帆:"fan",霍:"huȍ",池:"chí",疣:"yóu",岛:"dǎo",凤:"fȅng",旋:"xuán",颈:"jǐng",鹇:"xián",蓬:"péng",船:"chuán",胜:"shȅng",
-      旅:"lǚ",鼻:"bí",波:"bo",苏:"su",欧:"ou",密:"mȉ",非:"fei",暴:"bȁo",鹛:"méi",阔:"kuȍ",本:"běn",麦:"mȁi",群:"qún",氏:"shȉ",椒:"jiao",卷:"juǎn",鹑:"chún",秧:"yang",跷:"qiao",橡:"xiȁng",椋:"liáng",
-      扑:"pu",苦:"kǔ",稀:"xi",笛:"dí",琵:"pí",蛙:"wa",雷:"léi",月:"yuě",宝:"bǎo",鸺:"xiu",鳞:"lín",豆:"dȍu",鬼:"guǐ",矛:"máo",娇:"jiao",连:"lián",蕉:"jiao",桑:"sang",阳:"yáng",塍:"chéng",双:"shuang"};
-
   var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breeding males*)","(males*, *nonbreeding plumage|nonbreeding males*)","males*","(immature|juvenile) males*","(immature|juvenile) females*",
       "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and (chicks*|hatchlings*)","females* and (immature|juvenile)s*","spring molt",
       "(females*, *breeding plumage|breeding females*)","nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter",
@@ -128,7 +101,8 @@
      lifer       = new Date("20"+lifer+":00");
      var newbird = (modTim<=lifer.getTime());
      var name1   = reform(name);
-     var pinyin  = getpinyin(cname);
+     var chars   = cname.split('');
+     chars.forEach((el)=>py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1));
      var cinfo   = [], locs = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
      pic_cnts    = pic_cnts+photo.length;
@@ -146,7 +120,7 @@
         cinfo = tmp_info.cinfo;
         locs  = tmp_info.locs;
      }
-     return {lifer:lifer,newbird:newbird,family:family,genus:genus,name:name,name1:name1,cname:cname,pinyin:pinyin,latin:latin,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
+     return {lifer:lifer,newbird:newbird,family:family,genus:genus,name:name,name1:name1,cname:cname,latin:latin,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
   }
 
   function stradd(...arrays) {
@@ -239,18 +213,9 @@
      return mon+'/'+year;
   }
 
-  function getpinyin(cname){
-     var chars = cname.split('');
-     return chars.reduce((tot,el)=>{if (py[el]!=null){
-            tot = tot+py[el]+' ';
-            py_cnts[el] = (py_cnts[el]==null)?1:(py_cnts[el]+1);
-        }else{document.write('<br>'+el+' pinyin not found!<br>');}
-        return tot;},'');
-  }
-
   function mysort(a,b){
      if (window.lifer) return (a.lifer < b.lifer)?(-1):((a.lifer > b.lifer)?1:0);
-     if (window.usechinese) return (a.pinyin < b.pinyin )?(-1):((a.pinyin > b.pinyin)?1:0);
+     if (window.usechinese) return a.cname.localeCompare(b.cname, 'zh-CN');
      return (a.name < b.name )?(-1):((a.name > b.name)?1:0);
   }
 
