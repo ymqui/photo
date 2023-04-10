@@ -8,7 +8,7 @@
 //         alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
 //      }
 //   }
-}
+//}
 
 function rightclick(evt){
    if (!cellphone){
