@@ -213,9 +213,9 @@
   }
 
   function mysort(a,b){
-     if (window.lifer) return (a.lifer < b.lifer)?(-1):((a.lifer > b.lifer)?1:0);
-     if (window.usechinese) return a.cname.localeCompare(b.cname, 'zh-CN');
-     return (a.name < b.name )?(-1):((a.name > b.name)?1:0);
+     if (window.lifer) return a.lifer.toJSON().localeCompare(b.lifer.toJSON());
+     if (window.usechinese) return a.cname.localeCompare(b.cname,'zh-CN');
+     return a.name.localeCompare(b.name,'en');
   }
 
   //append '20' to id automatically
