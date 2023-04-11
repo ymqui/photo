@@ -165,9 +165,12 @@
      fsize = "100%;";
      n_brk = 6;
   }
+
+  var click = ' onclick="mouseclick(event)"';
+  if(window.blocksave && (!cellphone)){click = click+' oncontextmenu="rightclick(event)"';}
   document.write('<p>&nbsp;');
   document.write('<p>');
-  document.write('<IMG onclick="mouseclick(event)" name="visible" id="visible" SRC="'+thumb_dir+'blank.png" BORDER="0px" width=0 height=0>');
+  document.write('<IMG'+click+' name="visible" id="visible" SRC="'+thumb_dir+'blank.png" BORDER="0px" width=0 height=0>');
   document.write('<p style="margin-top:6px;">');
   document.write('<p>&nbsp;');
   document.write('<div id="text" style="font-size: '+fsize+' color:'+color_3+';">&nbsp;</div>');

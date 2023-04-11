@@ -27,19 +27,6 @@ var link_color   = "#3399FF";
 var facesize     = 15;
 if (cellphone){ facesize = 40; }
 
-if(window.blocksave && (!cellphone)){
-    document.onmousedown=function(event){
-        if (!event) var event = window.event;
-        if (event.button==2){
-           if (window.usechinese){
-              alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');
-           }else{
-              alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');
-           }
-        }
-    }
-}
-
 if(!window.index){
     var index = 0;      //default starting from file 0
     if (window.last2first) index = 1e5;
@@ -341,6 +328,12 @@ function swap(iscamera){
           swaptimerID = setTimeout('swap(false)',swapinterval);
        }
     }
+}
+
+function rightclick(evt){
+   evt.preventDefault();
+   if (window.usechinese){alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');}
+   else{alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');}
 }
 
 function mouseclick(evt){
