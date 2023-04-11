@@ -88,10 +88,6 @@
   var comma   = [", ","，"];
   var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
 
-  //info[0]   - locid
-  //info[1]   - "5/2022,S111311543","5/2022","S111311543","", or optional if info[2] is not empty string. If mon/year is absent, it will be constructed from the file name.
-  //info[2,3] - Eng & Chinese info attached before the locid description, a comma will be added at the end.
-  //info[4,5] - Eng & Chinese info attached after the locid description, no extra characters will be added.
   function Bird(lifer,family,name,cname,latin,photo,info,ebid,cbid){
      family      = family.trim().slice(0,fam_ln).toUpperCase();
      name        = name.trim();
