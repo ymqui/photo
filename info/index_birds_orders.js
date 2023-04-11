@@ -101,8 +101,6 @@
      lifer       = new Date("20"+lifer+":00");
      var newbird = (modTim<=lifer.getTime());
      var name1   = reform(name);
-     var chars   = cname.split('');
-     chars.forEach((el)=>py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1));
      var cinfo   = [], locs = [];
      if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
      pic_cnts    = pic_cnts+photo.length;
@@ -119,6 +117,7 @@
         info  = tmp_info.info;
         cinfo = tmp_info.cinfo;
         locs  = tmp_info.locs;
+        (cname.split('')).forEach((el)=>py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1));
      }
      return {lifer:lifer,newbird:newbird,family:family,genus:genus,name:name,name1:name1,cname:cname,latin:latin,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
   }
