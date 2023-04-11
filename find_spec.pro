@@ -205,6 +205,11 @@ end
 ;  line: string array, return all bird lines
 ;  all:  if set, return all lines in ibn file in line keyword
 ;  year: float array, return lifer years
+;info format:
+;//info[0]   - locid
+;//info[1]   - "5/2022,S111311543","5/2022","S111311543","", or optional if info[2] is not empty string. If mon/year is absent, it will be constructed from the file name.
+;//info[2,3] - Eng & Chinese info attached before the locid description, a comma will be added at the end.
+;//info[4,5] - Eng & Chinese info attached after the locid description, no extra characters will be added.
 pro read_ibn,bird=bird,latin=latin,line=line,all=all,year=year,family=family,chinese=chinese,extra=extra
     file = get_filename(/ibn)
     
