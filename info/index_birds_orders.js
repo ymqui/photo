@@ -232,8 +232,8 @@
   }
 
   function p_id(){
-     if ((arguments.length==2)&&is_num(arguments[1])) return a_id(arguments[0],arguments[1]);
-     return Array.prototype.concat.apply([],Array.from(arguments).map((el)=>Array.isArray(el)?(Number.isFinite(el[0])?m_id(el[1],el[0]):a_id(el[0],el[1])):m_id(el)));
+     if (is_num(arguments[1])) return a_id(arguments[0],arguments[1]);
+     return Array.prototype.concat.apply([],Array.from(arguments).map((el)=>Array.isArray(el)?(is_num(el[0])?m_id(el[1],el[0]):(is_num(el[1])?a_id(el[0],el[1]):m_id(el))):(/\//.test(el)?el:m_id(el))));
   }
 
   function baike(name,before,aftin,aftout){
