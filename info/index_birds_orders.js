@@ -88,6 +88,10 @@
   var comma   = [", ","，"];
   var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
 
+  function allBirds(info){
+     return info.reduce((brds,el)=>{brds.push(Bird(...el));return brds;},[]);
+  }
+
   function Bird(lifer,family,name,cname,latin,photo,info,ebid,cbid){
      family      = family.trim().slice(0,fam_ln).toUpperCase();
      name        = name.trim();
