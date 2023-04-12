@@ -1,6 +1,6 @@
 <!--
   var loc_cnts  = {};
-  var py_cnts   = {};
+  var hz_cnts   = {};
   var misc_cnts = [];
   var dig_cnts  = 0;
   var pic_cnts  = 0;
@@ -113,7 +113,7 @@
         info  = tmp_info.info;
         cinfo = tmp_info.cinfo;
         locs  = tmp_info.locs;
-        (cname.split('')).forEach((el)=>py_cnts[el] = (typeof py_cnts[el] === 'undefined')?1:(py_cnts[el]+1));
+        (cname.split('')).forEach((el)=>hz_cnts[el] = (typeof hz_cnts[el] === 'undefined')?1:(hz_cnts[el]+1));
      }
      return {lifer:lifer,newbird:newbird,family:family,genus:genus,name:name,name1:name1,cname:cname,latin:latin,info:info,cinfo:cinfo,locs:locs,photo:photo,ebid:ebid,cbid:cbid};
   }
