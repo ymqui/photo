@@ -98,7 +98,7 @@
      var newbird = (modTim<=lifer.getTime());
      var name1   = reform(name);
      var cinfo   = [], locs = [];
-     if (!Array.isArray(photo)){photo = [photo];}else{photo = Array.prototype.concat.apply([],photo);}
+     photo       = p_id(photo);
      pic_cnts    = pic_cnts+photo.length;
      dig_cnts    = photo.reduce((tot,el)=>tot+((/_dig/i.test(el))?1:0),dig_cnts);
      //check if this bird needs to be added to modBrd
@@ -231,9 +231,10 @@
      return Number.isFinite(num);
   }
 
-  function p_id(){
-     if (is_num(arguments[1])) return a_id(arguments[0],arguments[1]);
-     return Array.prototype.concat.apply([],Array.from(arguments).map((el)=>Array.isArray(el)?(is_num(el[0])?m_id(el[1],el[0]):(is_num(el[1])?a_id(el[0],el[1]):m_id(el))):(/\//.test(el)?el:m_id(el))));
+  function p_id(photo){
+     if (!Array.isArray(photo)){photo = [photo];}
+     if (is_num(photo[1])) return a_id(photo[0],photo[1]);
+     return Array.prototype.concat.apply([],photo.map((el)=>Array.isArray(el)?(is_num(el[0])?m_id(el[1],el[0]):(is_num(el[1])?a_id(el[0],el[1]):m_id(el))):(/\//.test(el)?el:m_id(el))));
   }
 
   function baike(name,before,aftin,aftout){
