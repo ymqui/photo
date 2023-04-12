@@ -1,7 +1,7 @@
 pro find_spec,name,locid=locid,pid=pid
-    pid = '2306isbird'
+    ;pid = '2306isbird'
     if n_elements(locid) eq 0 then locid = 'arb'
-    if n_elements(pid) ne 0 then mid = 'p_id("'+pid+'",' else mid = 'm_id(""'
+    if n_elements(pid) ne 0 then pid = '["'+pid+'",' else pid = '['
     if n_elements(name) eq 0 then begin
        plot_lifer & return
        name = strtrim(dm_dialog_input('name:',xsize=140,cancel=cancel),2)
@@ -24,16 +24,12 @@ pro find_spec,name,locid=locid,pid=pid
     if cnt gt 0 then begin
        caldat,systime(/julian),m,d,year
        year = strmid(dm_to_string(year),2)
-       read_order,/all,pinyin=pinyin
-       py_wch = I18N_MULTIBYTETOWIDECHAR(strjoin(pinyin))
-       py_mis = ''
     endif
     for i=0,n_elements(name)-1 do begin
         print,reform_name(name[i])+': '+string(9b)+latin[i]+strjoin(strarr(1>(30-strlen(latin[i]))),' ')+string(9b),chinese[i]+string(9b),line[i],(existed[i] eq 1)?' (already in the list)':' (after '+after[i]+(['','',', already in ibn_extra'])[0>(existed[i])<2]+  ')'
         if (~existed[i]) and (strlen(chinese[i]) gt 0) then begin
-           check_hanzi,chinese[i],py_wch=py_wch,py_mis=py_mis
            print,' '
-           print,'//birds.push(Bird("'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+mid+'),["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"));'
+           print,'//birds.push(Bird("'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+pid+'],["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"));'
            print,' '
         endif
     endfor
@@ -271,7 +267,7 @@ function read_namecomp
     return,names[*,1:*]
 end
 
-pro read_order,family=family,order=order,line=line,all=all,pinyin=pinyin
+pro read_order,family=family,order=order,line=line,all=all
     file = get_filename(/order)
     if stregex(file,'http',/boolean) then begin
        ourl = obj_new('IDLnetURL')
@@ -289,17 +285,6 @@ pro read_order,family=family,order=order,line=line,all=all,pinyin=pinyin
     ind0 = where(stregex(line,'orders\.push',/boolean))
     ind1 = where(stregex(line,'^ *var',/boolean))
     ind1 = ind1[where(ind1 gt ind0[0])]
-    if arg_present(pinyin) then begin
-       ind2 = where(stregex(line,'var pt_eng += ',/boolean))
-       pinyin = ''
-       for i=ind1[0],ind2[0] do begin
-           tmp = I18N_MULTIBYTETOWIDECHAR(line[i])
-           for j=0,n_elements(tmp)-1 do begin
-               if tmp[j] gt '3400'x then pinyin = [pinyin, I18N_WIDECHARTOMULTIBYTE(tmp[j])]
-           endfor
-       endfor
-       pinyin = pinyin[1:*]
-    endif
     if keyword_set(all) then return
     order = '' & family = ''
     for i=ind0[0],ind1[0]-1 do begin
@@ -351,8 +336,6 @@ pro check_file,linenum=linenum
     check_latin,allgood=allgood,ibn=ibn
     print,'checking chinese name'
     check_chinese,allgood=allgood,ibn=ibn
-    print,'checking pinyin'
-    check_pinyin,allgood=allgood
     if keyword_set(allgood) then print,string(13b)+string(10b)+"There's no problem with the file."
     print,string(13b)+string(10b)+'Done in ',systime(/sec)-current,' secs.' 
 end
@@ -640,15 +623,13 @@ end
 pro find_bird
     ;read_ibn,/all,line=line
     read_ibn,/all,line=line & help,line
-    pattern = ['p_id.*m_id.*p_id.*']
+    pattern0 = '\)\,\["'
+    pattern1 = '\)\,\["[a-z]{3,6}"'
     j = 0
-    for i=0,n_elements(line)-1 do begin
-        
-        if stregex(line[i],pattern[0],/boolean) then print,j++,line[i]
+    for i=0,n_elements(line)-1 do begin    
+        if stregex(line[i],pattern1,/fold_case,/boolean)  then print,j++,line[i]
            
-
     endfor
-    
     print,'Done'
 end
 
