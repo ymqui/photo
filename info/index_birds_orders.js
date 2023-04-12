@@ -1,7 +1,7 @@
 <!--
   var loc_cnts  = {};
   var py_cnts   = {};
-  var misc_cnts = [0,0,0];
+  var misc_cnts = [];
   var dig_cnts  = 0;
   var pic_cnts  = 0;
   var ebirdlist = [];
@@ -214,15 +214,26 @@
      return a.name.localeCompare(b.name,'en');
   }
 
+  function a_id(album,id){
+     return stradd(album+"/"+album+"_",id);
+  }
+
   //append '20' to id automatically
   function m_id(id,num){
      if (num==null) num = 0;
+     if (misc_cnts[num]==null) misc_cnts[num]=0;
      misc_cnts[num] = (Array.isArray(id))?(misc_cnts[num]+id.length):(misc_cnts[num]+1);
      return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
   }
 
-  function p_id(album,id){
-     return stradd(album+"/"+album+"_",id);
+  function is_num(num){
+     if (Array.isArray(num)) return !num.some((el)=>!Number.isFinite(el));
+     return Number.isFinite(num);
+  }
+
+  function p_id(){
+     if ((arguments.length==2)&&is_num(arguments[1])) return a_id(arguments[0],arguments[1]);
+     return Array.prototype.concat.apply([],Array.from(arguments).map((el)=>Array.isArray(el)?(Number.isFinite(el[0])?m_id(el[1],el[0]):a_id(el[0],el[1])):m_id(el)));
   }
 
   function baike(name,before,aftin,aftout){
