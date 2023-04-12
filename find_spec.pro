@@ -29,7 +29,7 @@ pro find_spec,name,locid=locid,pid=pid
         print,reform_name(name[i])+': '+string(9b)+latin[i]+strjoin(strarr(1>(30-strlen(latin[i]))),' ')+string(9b),chinese[i]+string(9b),line[i],(existed[i] eq 1)?' (already in the list)':' (after '+after[i]+(['','',', already in ibn_extra'])[0>(existed[i])<2]+  ')'
         if (~existed[i]) and (strlen(chinese[i]) gt 0) then begin
            print,' '
-           print,'//    ["'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+pid+'],["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"],'
+           print,'//  ["'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+pid+'],["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"],'
            print,' '
         endif
     endfor
