@@ -29,7 +29,7 @@ pro find_spec,name,locid=locid,pid=pid
         print,reform_name(name[i])+': '+string(9b)+latin[i]+strjoin(strarr(1>(30-strlen(latin[i]))),' ')+string(9b),chinese[i]+string(9b),line[i],(existed[i] eq 1)?' (already in the list)':' (after '+after[i]+(['','',', already in ibn_extra'])[0>(existed[i])<2]+  ')'
         if (~existed[i]) and (strlen(chinese[i]) gt 0) then begin
            print,' '
-           print,'//birds.push(Bird("'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+pid+'],["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"));'
+           print,'//    ["'+year+'-00-00T00:00","'+reform_name(family[i],/family)+'","'+reform_name(name[i])+'","'+chinese[i]+'","'+latin[i]+'",'+pid+'],["'+locid+'",""],"'+reform_name(name[i],/ebird)+'"],'
            print,' '
         endif
     endfor
@@ -237,7 +237,7 @@ pro read_ibn,bird=bird,latin=latin,line=line,all=all,year=year,family=family,chi
        endelse
     endif
     if keyword_set(all) then return
-    ind  = where(stregex(line,'birds\.push\(Bird\("',/boolean,/fold_case),count)
+    ind  = where(stregex(line,'"[0-9]{2}-[0-9]{2}-[0-9]{2}T[0-9]{2}',/boolean,/fold_case),count)
     line = line[ind]
     bird = strarr(count) & latin = strarr(count) & family = strarr(count) & chinese = strarr(count)
     p0   = (strsplit(line[0],'"'))[3]
@@ -248,7 +248,7 @@ pro read_ibn,bird=bird,latin=latin,line=line,all=all,year=year,family=family,chi
         chinese[i] = tmp[4]
         latin[i]   = reform_name(tmp[6],/latin)
     endfor
-    tmp  = stregex(line,'^ +birds\.push\(Bird\("([0-9]{2})-([0-9]{2})-([0-9]{2})',/extract,/sub) ;actual lifers
+    tmp  = stregex(line,'^ +\["([0-9]{2})-([0-9]{2})-([0-9]{2})',/extract,/sub) ;actual lifers
     ind  = where(strlen(tmp[1,*]) eq 2,cnt)
     year = 2000.+reform(fix(tmp[1,ind]))
     print,dm_to_string(cnt)+'/'+dm_to_string(count)+' lifers.'
