@@ -286,15 +286,15 @@ var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(lurls);
-var tmp1 = Object.keys(py_cnts);
-py_cnts = sortProperties(py_cnts);
+var tmp1 = Object.keys(hz_cnts);
+hz_cnts = sortProperties(hz_cnts);
 for (var i=0;i<tmp.length;i++){
     if (typeof loc_cnts[tmp[i]] === 'undefined') loc_cnts[tmp[i]] = 0;
 }
 loc_cnts = sortProperties(loc_cnts);
 var misc_cnts_str = misc_cnts[0].toString();
 for (var i=1;i<misc_cnts.length;i++){
-    if (misc_cnts[i]>0){
+    if (misc_cnts[i]!=null){
        misc_cnts_str = misc_cnts_str+'/'+misc_cnts[i].toString();
     }
 }
@@ -336,7 +336,7 @@ document.write('<tr></tr>');
 var i = 0;
 var j = 0;
 var k = 0;
-while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.length*2-1))){
+while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.length*2-1))){
     document.write('<tr>');
     if (i<loc_cnts.length){
        var txcol1 = ' style="color: '+(['red','orange','blue'])[Math.min(2,loc_cnts[i][1])]+'">';
@@ -375,27 +375,27 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+py_cnts.length+2) || (k<(links.l
        document.write('<td><small>&emsp;</small></td><td></td>');
     }else if(j<cou_cnts.length+2){
        document.write('<td align="left">'+mytext((['Total <a href="stat.html?chinese" style="text-decoration:none;color:'+fcol1+'">'+tooltip('Chinese','Switch to Chinese Version(转为中文版)')+'</a> Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
-    }else if(j<cou_cnts.length+py_cnts.length+2){
-       fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
-       fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
-       txcol2  = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,py_cnts[j-cou_cnts.length-2][1])]+'">';
-       if (py_cnts[j-cou_cnts.length-2][1]>0) {
-          pys = '<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+    }else if(j<cou_cnts.length+hz_cnts.length+2){
+       fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])]+'">';
+       fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])]+'">';
+       txcol2  = ' style="text-decoration:none; color: '+(['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])]+'">';
+       if (hz_cnts[j-cou_cnts.length-2][1]>0) {
+          pys = '<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+hz_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+hz_cnts[j-cou_cnts.length-2][0]+'</a>';
        }else{
-          pys = py_cnts[j-cou_cnts.length-2][0];
+          pys = hz_cnts[j-cou_cnts.length-2][0];
        }
        for (var l=1;l<clen;l++){
-           if (j==py_cnts.length+cou_cnts.length+1){break;}
-           if (py_cnts[j-cou_cnts.length-1][1]==py_cnts[j-cou_cnts.length-2][1]){
+           if (j==hz_cnts.length+cou_cnts.length+1){break;}
+           if (hz_cnts[j-cou_cnts.length-1][1]==hz_cnts[j-cou_cnts.length-2][1]){
               j++;
-              if (py_cnts[j-cou_cnts.length-2][1]>0) {
-                 pys = pys+'<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+py_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+py_cnts[j-cou_cnts.length-2][0]+'</a>';
+              if (hz_cnts[j-cou_cnts.length-2][1]>0) {
+                 pys = pys+'<a href="https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+hz_cnts[j-cou_cnts.length-2][0]+'" target="hanzi"'+txcol2+hz_cnts[j-cou_cnts.length-2][0]+'</a>';
               }else{
-                 pys = pys+py_cnts[j-cou_cnts.length-2][0];
+                 pys = pys+hz_cnts[j-cou_cnts.length-2][0];
               }
            }else{break;}
        }
-       document.write(fcolor1+pys+'</font></td>'+fcolor2+py_cnts[j-cou_cnts.length-2][1].toString()+'</font></td>');
+       document.write(fcolor1+pys+'</font></td>'+fcolor2+hz_cnts[j-cou_cnts.length-2][1].toString()+'</font></td>');
     }else{
        document.write('<td></td><td></td>');
     }
