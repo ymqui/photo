@@ -124,6 +124,7 @@ function erare(name){
 }
 
 function sortProperties(obj,byname){
+    if (byname!=null) byname = ([true,false])[Math.round(Math.random())];
     // convert object into array
     var sortable=[];
     for(var key in obj){
@@ -136,7 +137,7 @@ function sortProperties(obj,byname){
     { if ((a[1]!==b[1]) && !byname){
          return a[1]-b[1]; // compare numbers
       }else{
-         return (a[0]).localeCompare(b[0]);
+         return (a[0]).localeCompare(b[0],(['en','zh-CN'])[cn_ind]);
       }
     });
     return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
@@ -235,54 +236,38 @@ function bookmark(link,name,icon,target) {
     return tmp_url;
 }
 
-//count countries
-var cou_cnts  = {};
-var ocnts = 0;
+function mylink(url,desc,col,target){
+    if (col==null) {col = '';}else{col = ' color:'+col+';';}
+    if (target==null) {target = '';}else{target = ' target="'+target+'"';}
+    return '<a href="'+url+'" style="text-decoration:none;'+col+'"'+target+'>'+mytext(desc)+'</a>';
+}
+
 var otot = orders.length;
-var ftot = 0;
+var ftot = orders.reduce((sum,el)=>sum+el.family.length,0);
 const unique = (value, index, self) => {
       return self.indexOf(value) === index;
 }
 var fcnts = (birds.map(({family})=>family).filter(unique)).length;
 var gcnts = (birds.map(({genus})=>genus).filter(unique)).length;
+var famnm = '';
+var ocnts = orders.reduce((sum,el)=>{if(el.family.some((el1)=>{famnm = el1.name.slice(0,fam_ln); return birds.some((el2)=>(el2.family===famnm));}))sum=sum+1;return sum;},0);
 
-for(var i=0;i<orders.length;i++){
-    var ordercnt = 0;
-    ftot = ftot+orders[i].family.length;
-    for(var j=0;j<orders[i].family.length;j++){
-         tmp0 = getByFamily(orders[i].family[j].name, birds);
-         if (tmp0.length==0) continue;
-         ordercnt = 1;
-    }
-    if (ordercnt!=0){ocnts++;}
-}     
-for (var i=0;i<birds.length;i++){
-    var tmp_cnts = {};
-    for (var j=0;j<birds[i].info.length;j++){
-        var tmp2 = getCountry(birds[i].info[j],2);
-        if (usechinese) {
-           tmp2 = chn_cou[eng_cou.indexOf(tmp2)];
-        }
-        if (typeof cou_cnts[tmp2] ==='undefined') cou_cnts[tmp2] = 0;
-        if (typeof tmp_cnts[tmp2] ==='undefined') tmp_cnts[tmp2] = 0;
-        if (tmp_cnts[tmp2]==0){
-           cou_cnts[tmp2]++;
-           tmp_cnts[tmp2]++;
-        }
-    }
-}
-cou_cnts = sortProperties(cou_cnts,([true,false])[cn_ind]);
+//count countries
+var cou_cnts = {};
+birds.forEach((el)=>{let tmp_cou = el.info.reduce((res,el1)=>{let tmp2 = getCountry(el1,2);if (usechinese)tmp2 = chn_cou[eng_cou.indexOf(tmp2)];if (res.indexOf(tmp2)==-1){tmp3= res.push(tmp2);if (cou_cnts[tmp2]==null){cou_cnts[tmp2]=1;}else{cou_cnts[tmp2]++;}}return res;},[]);});
+cou_cnts = sortProperties(cou_cnts,true);
 
 var fcol1 = '#000080';
 var fcol2 = '#0000A0';
 var fcol3 = 'green';
 
-var tot_bird = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+btot.toString(),fcol3)+'</a>';
-var tot_coun = '<a href="'+clnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotc">'+mytext('/'+ctot.toString(),fcol3)+'</a>';
-var tot_bord = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+otot.toString(),fcol3)+'</a>';
-var tot_bfam = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+ftot.toString(),fcol3)+'</a>';
-var tot_bgen = '<a href="'+blnk+'" style="text-decoration:none; color:'+fcol3+';" target="linktotb">'+mytext('/'+gtot.toString(),fcol3)+'</a>';
-var my_ebird = '<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.length.toString(),fcol3)+'</a>';
+var tot_bird = mylink(blnk,'/'+btot.toString(),fcol3,'linktob');
+var tot_coun = mylink(clnk,'/'+ctot.toString(),fcol3,'linktoc');
+var tot_bord = mylink(blnk,'/'+otot.toString(),fcol3,'linktob');
+var tot_bfam = mylink(blnk,'/'+ftot.toString(),fcol3,'linktob');
+var tot_bgen = mylink(blnk,'/'+gtot.toString(),fcol3,'linktob');
+var my_ebird = mylink("https://ebird.org/mychecklists",ebirdlist.length.toString(),fcol3,'myebird');
+//'<a href="https://ebird.org/mychecklists" style="text-decoration:none; color:'+fcol3+';" target="myebird">'+mytext(ebirdlist.length.toString(),fcol3)+'</a>';
 
 //check to see if any of the locations has little or no use
 var tmp = Object.keys(lurls);
@@ -331,7 +316,7 @@ document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[c
 document.write('<td>&emsp;&emsp;</td>');
 document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(cou_cnts.length.toString(),fcol2)+tot_coun+'</td>');
 document.write('<td>&emsp;&emsp;</td>');
-document.write('<td colspan="3" align="left">'+mytext((['Bookmarks','观鸟链接(<a href="stat.html" style="text-decoration:none;color:'+fcol1+'">'+tooltip('英文','转为英文版(Switch to English Version)')+'</a>网站)'])[cn_ind]+':',fcol1)+'</td></tr>');
+document.write('<td colspan="3" align="left">'+mytext((['Bookmarks','观鸟链接('+mylink("stat.html",tooltip('英文','转为英文版(Switch to English Version)'),fcol1)+'网站)'])[cn_ind]+':',fcol1)+'</td></tr>');
 document.write('<tr></tr>');
 var i = 0;
 var j = 0;
@@ -374,7 +359,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
     }else if(j<cou_cnts.length+1){
        document.write('<td><small>&emsp;</small></td><td></td>');
     }else if(j<cou_cnts.length+2){
-       document.write('<td align="left">'+mytext((['Total <a href="stat.html?chinese" style="text-decoration:none;color:'+fcol1+'">'+tooltip('Chinese','Switch to Chinese Version(转为中文版)')+'</a> Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+       document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
     }else if(j<cou_cnts.length+hz_cnts.length+2){
        fcolor1 = '<td align="left"><font color="'+(['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])]+'">';
        fcolor2 = '<td align="right"><font color="'+(['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])]+'">';
