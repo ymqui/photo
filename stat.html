@@ -50,20 +50,18 @@ var eng_chn = [["Argentina","阿根廷"],["Australia","澳大利亚"],["Bahamas"
 var eng_cou = getColumn(eng_chn,0);
 var chn_cou = getColumn(eng_chn,1);
 //update date
-var modYear = modDat.getYear();
-modYear = (modYear<2000)?modYear+1900:modYear;
+var modYear = modDat.getFullYear();
 var tmpdat = "";
 if(window.usechinese){
    tmpdat = modYear+'年'+(modDat.getMonth()+1).toString()+'月'+modDat.getUTCDate()+"日"; 
 }else{
-   var monthName = new Array("January","February","March","April","May",
-   "June","July","August","September","October","November","December");
+   var monthName = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
    tmpdat = monthName[modDat.getMonth()]+" "+modDat.getUTCDate()+", "+modYear;
 }
 
-var width   = [24,18];
-var offset  = [2,4];
-var clen    = 15;
+var width  = [24,18];
+var offset = [2,4];
+var clen   = 15;
 if (cellphone){
    width  = [28,20];
    offset = [3,4];
@@ -71,54 +69,55 @@ if (cellphone){
 }
 var linkid = 0;
 var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('Iceland'),
-             bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
-             bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
-             bookmark('https://groups.google.com/g/mdbirding',(['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind],'groups'),
-             bookmark('https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/',(['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind],'facebook'),
-             bookmark('https://www.facebook.com/groups/118655321826890/',(['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind],'facebook'),
-             bookmark('https://americanornithology.org/nacc/current-prior-proposals/',(['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind],'aos'),
-             bookmark('https://www.aba.org/aba-checklist/',(['ABA Checklist','ABA鸟类清单'])[cn_ind],'aba'),
-             bookmark('https://www.aba.org/aba-area-introduced-species/',(['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind],'aba'),
-             bookmark('https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae',(['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind],'cornell'),
-             bookmark('https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing',(['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind],'cornell'),
-             bookmark('https://tropicalaudubon.org/birds-of-south-florida',(['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind],'kite'),
-             bookmark('https://www.arizonabirder.com/specialty-birds-in-se-arizona/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'trogon'),
-             bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'puffin')
-            ];
+    bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
+    bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
+    bookmark('https://groups.google.com/g/mdbirding',(['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind],'groups'),
+    bookmark('https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/',(['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind],'facebook'),
+    bookmark('https://www.facebook.com/groups/118655321826890/',(['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind],'facebook'),
+    bookmark('https://americanornithology.org/nacc/current-prior-proposals/',(['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind],'aos'),
+    bookmark('https://www.aba.org/aba-checklist/',(['ABA Checklist','ABA鸟类清单'])[cn_ind],'aba'),
+    bookmark('https://www.aba.org/aba-area-introduced-species/',(['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind],'aba'),
+    bookmark('https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae',(['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind],'cornell'),
+    bookmark('https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing',(['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind],'cornell'),
+    bookmark('https://tropicalaudubon.org/birds-of-south-florida',(['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind],'kite'),
+    bookmark('https://www.arizonabirder.com/specialty-birds-in-se-arizona/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'trogon'),
+    bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'puffin')
+    ];
 var date = new Date();
 if (date.getTimezoneOffset()/60 ==(-8)){ //in China
     links.unshift(erare('Fujian'),erare('Zhejiang'),erare('Beijing'),erare('Shanghai'));
 }
 
 function erare(name){
-    var alerts = { Arizona:             ['35601','美国亚利桑那州'],
-		   Beijing:             ['39713','中国北京'],
-                   California:    	['35464','美国加利福尼亚州'],
-		   Delaware: 		['35547','美国特拉华州'],
-                   Florida:             ['35579','美国佛罗里达州'],
-		   Fujian:              ['55849','中国福建省'],
-                   Georgia:             ['35569','美国乔治亚州'],
-		   HongKong:            ['38532','香港'],
-                   Iceland:             ['37234','冰岛'],
-		   Maryland: 		['35550','美国马里兰州'],
-                   Michigan:            ['35641','美国密歇根州'],
-                   Nevada:     	       	['35528','美国内华达州'],
-                   NewJersey:          	['35544','美国新泽西州'],
-                   NewYork:           	['35466','美国纽约州'],
-                   NorthCarolina:       ['35561','美国北卡罗来纳州'],
-                   Ohio:          	['35533','美国俄亥俄州'],
-                   Ontario:          	['35610','加拿大安大略省'],
-                   Oregon:          	['35555','美国俄勒冈州'],
-                   Panama:              ['37709','巴拿马'],
-		   Pennsylvania: 	['35546','美国宾夕法尼亚州'],
-		   Shanghai:            ['45783','中国上海'],
-                   SouthCarolina:       ['35594','美国南卡罗来纳州'],
-                   Virginia: 		['35646','美国弗吉尼亚州'],
-                   Washington:    	['35602','美国华盛顿州'],
-                   WashingtonDC:        ['35744','美国华盛顿哥伦比亚特区'],
-                   WestVirginia:    	['35684','美国西弗吉尼亚州'],
-                   Zhejiang:            ['42133','中国浙江省']
-                 };
+    let alerts = { 
+	Arizona:	['35601','美国亚利桑那州'],
+	Beijing:	['39713','中国北京'],
+	California:	['35464','美国加利福尼亚州'],
+	Delaware:	['35547','美国特拉华州'],
+	Florida:	['35579','美国佛罗里达州'],
+	Fujian:		['55849','中国福建省'],
+	Georgia:	['35569','美国乔治亚州'],
+	HongKong:	['38532','香港'],
+	Iceland:	['37234','冰岛'],
+	Maryland:	['35550','美国马里兰州'],
+	Michigan:	['35641','美国密歇根州'],
+	Nevada:		['35528','美国内华达州'],
+	NewJersey:	['35544','美国新泽西州'],
+	NewYork:	['35466','美国纽约州'],
+	NorthCarolina:	['35561','美国北卡罗来纳州'],
+	Ohio:		['35533','美国俄亥俄州'],
+	Ontario:	['35610','加拿大安大略省'],
+	Oregon:		['35555','美国俄勒冈州'],
+	Panama:		['37709','巴拿马'],
+	Pennsylvania:	['35546','美国宾夕法尼亚州'],
+	Shanghai:	['45783','中国上海'],
+	SouthCarolina:	['35594','美国南卡罗来纳州'],
+	Virginia:	['35646','美国弗吉尼亚州'],
+	Washington:	['35602','美国华盛顿州'],
+	WashingtonDC:	['35744','美国华盛顿哥伦比亚特区'],
+	WestVirginia:	['35684','美国西弗吉尼亚州'],
+	Zhejiang:	['42133','中国浙江省']
+	};
     var id = alerts[name.replace(/\s/g, "")];
     return bookmark('https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc',([name+' Rare Bird Alert',id[1]+'稀有鸟类警报'])[cn_ind],'ebird','ebirdalert');
 }
@@ -215,26 +214,19 @@ function tooltip(text,tooltip) {
 
 function bookmark(link,name,icon,target) {
     var tmp_url = '<img src="https://ymqui.github.io/photo/thumbnail2/icon_'+icon+'.png" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
-    if (typeof target === 'undefined'){target='bookmark'+(linkid++).toString();}
-    if (Array.isArray(link)){
-       for (var i=0;i<link.length;i++){
-           tmp_url = tmp_url+'&nbsp;<a href="'+link[i]+'" target="'+target+'">'+mytext(name+([' ',''])[cn_ind]+(i+1).toString())+'</a>'+((i==link.length-1)?'':([',&nbsp;','，'])[cn_ind]);
-       }
-    }else{
-       tmp_url = tmp_url+'&nbsp;<a href="'+link+'" target="'+target+'">'+mytext(name)+'</a>';
+    if (target == null){target='bookmark'+(linkid++).toString();}
+    if (!Array.isArray(link))link = [link];
+    for (var i=0;i<link.length;i++){
+        tmp_url = tmp_url+'&nbsp;<a href="'+link[i]+'" target="'+target+'">'+mytext(name+((link.length==1)?'':(([' ',''])[cn_ind]+(i+1).toString())))+'</a>'+((i==link.length-1)?'':([',&nbsp;','，'])[cn_ind]);
     }
     return tmp_url;
 }
 
-
 function mytext(text,col){   
     var fsize = '<font';
     if (cellphone) {fsize='<font size="+1"';}
-    if(typeof col === 'undefined'){
-       return fsize+'><strong>'+text+'</strong></font>';
-    }else{
-       return fsize+' color="'+col+'"><strong>'+text+'</strong></font>';
-    }
+    if(col ==null){ col = '';}else{col = ' color="'+col+'"';}
+    return fsize+col+'><strong>'+text+'</strong></font>';
 }
 
 function mylink(url,desc,col,target){
@@ -333,9 +325,7 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
           tmp_url = getlocFlag(loc_cnts[i][0])+tooltip(loc_cnts[i][0],getloctooltip(loc_cnts[i][0]));
        }
        var loc_url = loc_cnts[i][1].toString();
-       if (loc_cnts[i][1]>0) {
-           loc_url = mylink('https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&loc='+loc_cnts[i][0],loc_url,txcol1,loc_cnts[i][0]);
-       }
+       if (loc_cnts[i][1]>0) loc_url = mylink('https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&loc='+loc_cnts[i][0],loc_url,txcol1,loc_cnts[i][0]);
        document.write('<td align="left"'+txcol2+tmp_url+'</td><td align="right"'+txcol2+loc_url+'</td>');
     }else{
        document.write('<td></td><td></td>');
