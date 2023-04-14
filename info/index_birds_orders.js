@@ -86,9 +86,9 @@ var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","�
     "未成年深色型","幼鸟","鸟巢","雄性在鸟巢口"];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
+var all_new = true;
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
-var all_new = true;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
 
 function myBirds(info){
@@ -101,6 +101,13 @@ function myBirds(info){
       el[5] = p_id(el[5]);
       pic_cnts = pic_cnts+el[5].length;
       dig_cnts = el[5].reduce((tot,ele)=>tot+((/_dig/i.test(ele))?1:0),dig_cnts);
+      let newb = (modTim<=el[0].getTime());  
+      if (newb||el[5].some((ele)=>{tmp_date=getdate(ele,true);return (tmp_date!=null)?(modTim<=tmp_date.getTime()):false;})){
+         modBrd.name.push(el[2]);
+         modBrd.cname.push(el[3]);
+         modBrd.newbird.push(newb);
+         if (!newb) all_new = false;
+      }
       var cinfo = [], locs = [];
       if (window.expandinfo){
          let tmp_info = reform_locs(el[6],el[5]);
@@ -109,16 +116,15 @@ function myBirds(info){
          locs  = tmp_info.locs;
          (el[3].split('')).forEach((ele)=>hz_cnts[ele] = (typeof hz_cnts[ele] === 'undefined')?1:(hz_cnts[ele]+1));
       }
-      return {lifer:el[0],family:el[1],name:el[2],cname:el[3],latin:el[4],photo:el[5],info:el[6],ebid:el[7],cbid:el[8],newbird:false,genus:el[4].substring(0,el[4].indexOf(' ')),name1:reform(el[2]),cinfo:cinfo,locs:locs};
+      return {lifer:el[0],family:el[1],name:el[2],cname:el[3],latin:el[4],photo:el[5],info:el[6],ebid:el[7],cbid:el[8],newbird:newb,genus:el[4].substring(0,el[4].indexOf(' ')),name1:reform(el[2]),cinfo:cinfo,locs:locs};
     });
 }
 
-//return a Date that is n_days before the end of the previous month of the datstr
-function modTime(dateStr,n_days){
-    if (dateStr==null) dateStr = new Date(Math.max(...birds.map(e => e.lifer)));
+//return a time that is n_days before the end of the previous month of the datstr
+function modTime(datstr,n_days){
+    modDat = new Date(datstr);
     if (n_days==null) n_days = 10;
-    modDat = new Date(dateStr);
-    return new Date(modDat.getTime()-(modDat.getDate()+n_days)*3600*24*1000);
+    return modDat.getTime()-(modDat.getDate()+n_days)*3600*24*1000;
 }
 
 function stradd(...arrays) {

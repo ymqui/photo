@@ -1,4 +1,7 @@
 <!--
+//date
+var modTim = modTime("2023-03-12T08:00");
+
 //location urls
 var lurls = {arb:["","","",""],
     akknpp: ["Katmai NP & Preserve","Alaska, USA","卡特迈NP","美国阿拉斯加州",nps("katm"),baike("卡特迈NP")],
@@ -941,15 +944,4 @@ var birds = myBirds([
     ["18-12-03T15:50","THRAUPID","Emerald Tanager","翠绿靓唐纳雀","Tangara florida",["1812crbird",15],["crarol"],"emetan1",10596],
     ["23-01-26T09:49","THRAUPID","Plain-colored Tanager","纯色靓唐纳雀","Tangara inornata",["2301pabird",126],["pametr","S126960214"],"plctan1",10584]
 ]);
-
-var modTim = modTime();
-birds.forEach((el)=>{
-    el.newbird=(modTim<=el.lifer);
-    if (el.newbird||el.photo.some((ele)=>{tmp_date=getdate(ele,true);return (tmp_date!=null)?(modTim<=tmp_date):false;})){
-       modBrd.name.push(el.name);
-       modBrd.cname.push(el.cname);
-       modBrd.newbird.push(el.newbird);
-       if (!el.newbird) all_new = false;
-    }
-});
 //-->
