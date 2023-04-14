@@ -125,12 +125,7 @@ function erare(name){
 function sortProperties(obj,byname){
     if (byname!=null) byname = ([true,false])[Math.round(Math.random())];
     // convert object into array
-    var sortable=[];
-    for(var key in obj){
-        if(obj.hasOwnProperty(key)){
-            sortable.push([key, obj[key]]); // each item is an array in format [key, value]
-        }
-    }
+    var sortable = Object.keys(obj).map((key)=>[key, obj[key]]);
     // sort items by value
     sortable.sort(function(a, b)
     { if ((a[1]!==b[1]) && !byname){
@@ -139,7 +134,7 @@ function sortProperties(obj,byname){
          return (a[0]).localeCompare(b[0],(['en','zh-CN'])[cn_ind]);
       }
     });
-    return sortable; // array in format [ [ key1, val1 ], [ key2, val2 ], ... ]
+    return sortable;
 }
 
 function getCountry(str,offset){
@@ -199,9 +194,7 @@ function getFlag(country){
 }
 
 function getColumn(anArray, columnNumber) {
-    return anArray.map(function(row) {
-        return row[columnNumber];
-    });
+    return anArray.map((el)=>el[columnNumber]);
 }
 
 function tooltip(text,tooltip) {
@@ -216,10 +209,7 @@ function bookmark(link,name,icon,target) {
     var tmp_url = '<img src="https://ymqui.github.io/photo/thumbnail2/icon_'+icon+'.png" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
     if (target == null){target='bookmark'+(linkid++).toString();}
     if (!Array.isArray(link))link = [link];
-    for (var i=0;i<link.length;i++){
-        tmp_url = tmp_url+'&nbsp;<a href="'+link[i]+'" target="'+target+'">'+mytext(name+((link.length==1)?'':(([' ',''])[cn_ind]+(i+1).toString())))+'</a>'+((i==link.length-1)?'':([',&nbsp;','，'])[cn_ind]);
-    }
-    return tmp_url;
+    return link.reduce((res,el,ind,arr)=>res+'&nbsp;<a href="'+el+'" target="'+target+'">'+mytext(name+((arr.length==1)?'':(([' ',''])[cn_ind]+(ind+1).toString())))+'</a>'+((ind==arr.length-1)?'':([',&nbsp;','，'])[cn_ind]),tmp_url);
 }
 
 function mytext(text,col){   
