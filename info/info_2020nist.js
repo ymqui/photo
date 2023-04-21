@@ -595,6 +595,10 @@ function initAlbum(){
     this[1][i++]  = (["In front of the solar system research project display","站在太阳系调研项目展示前"])[cn_ind];
     this[0][i]    = ["20230414_0","20230414_1","20230414_2"];
     this[1][i++]  = (["Easter egg hunt","寻找复活节彩蛋"])[cn_ind];
+    this[0][i]    = "20230421_2";
+    this[1][i++]  = (["Chinese flag","五星红旗"])[cn_ind];
+    this[0][i]    = "20230421_1";
+    this[1][i++]  = (["International week performance","国际周表演"])[cn_ind];
 
     adddate(this);
 }
