@@ -229,7 +229,8 @@ function a_id(album,id){
 //append '20' to id automatically
 function m_id(id){
     if (!Array.isArray(id)){id = [id];}
-    let num = parseInt(id[0].slice(0,6))>900000?1:0;
+    let tmp = parseInt(id[0].slice(0,6));
+    let num = (tmp>450000)?((tmp>700000)?2:1):0;
     if (misc_cnts[num]==null) misc_cnts[num]=0;
     misc_cnts[num] = misc_cnts[num]+id.length;
     return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
