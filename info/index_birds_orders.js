@@ -227,10 +227,11 @@ function a_id(album,id){
 }
 
 //append '20' to id automatically
-function m_id(id,num){
-    if (num==null) num = 0;
+function m_id(id){
+    if (!Array.isArray(id)) id = [id];
+    let num = parseInt(id[0].slice(0,6))>900000?1:0;
     if (misc_cnts[num]==null) misc_cnts[num]=0;
-    misc_cnts[num] = (Array.isArray(id))?(misc_cnts[num]+id.length):(misc_cnts[num]+1);
+    misc_cnts[num] = misc_cnts[num]+id.length;
     return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
 }
 
@@ -242,7 +243,7 @@ function is_num(num){
 function p_id(photo){
     if (!Array.isArray(photo)){photo = [photo];}
     if (is_num(photo[1])) return a_id(photo[0],photo[1]);
-    return Array.prototype.concat.apply([],photo.map((el)=>Array.isArray(el)?(is_num(el[0])?m_id(el[1],el[0]):(is_num(el[1])?a_id(el[0],el[1]):m_id(el))):(/\//.test(el)?el:m_id(el))));
+    return Array.prototype.concat.apply([],photo.map((el)=>Array.isArray(el)?(is_num(el[1])?a_id(el[0],el[1]):m_id(el)):(/\//.test(el)?el:m_id(el))));
 }
 
 function baike(name,before,aftin,aftout){
