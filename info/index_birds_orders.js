@@ -228,7 +228,7 @@ function a_id(album,id){
 
 //append '20' to id automatically
 function m_id(id){
-    if (!Array.isArray(id)) id = [id];
+    if (!Array.isArray(id)){id = [id];}
     let num = parseInt(id[0].slice(0,6))>900000?1:0;
     if (misc_cnts[num]==null) misc_cnts[num]=0;
     misc_cnts[num] = misc_cnts[num]+id.length;
