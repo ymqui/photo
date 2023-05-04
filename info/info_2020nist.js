@@ -601,6 +601,8 @@ function initAlbum(){
     this[1][i++]  = (["International week performance","国际周表演"])[cn_ind];
     this[0][i]    = ["20230501_1","20230501_2","20230501_3"];
     this[1][i++]  = (["Wearing the tie-dye t-shirt","穿自己染的扎染T恤"])[cn_ind];
+    this[0][i]    = "20230504_1";
+    this[1][i++]  = (["Nathan's dinosaur project","球球的恐龙调研项目"])[cn_ind];
 
     adddate(this);
 }
