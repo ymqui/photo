@@ -104,6 +104,7 @@
 //  ["23-00-00T00:00","HIRUNDIN","Common House Martin","西方毛脚燕","Delichon urbicum",["2306isbird",],["isisis",""],"cohmar1",7400],
 //  ["23-00-00T00:00","ZOSTEROP","Striated Yuhina","栗耳凤鹛","Staphida castaniceps",[],["cnlydp","1/2023,","Male"],"stryuh1"],
 //  ["23-00-00T00:00","ZOSTEROP","Swinhoe's White-eye","暗绿绣眼鸟","Zosterops simplex",[],["cnlydp","1/2023,"],"swiwhe1",10892],
+//  ["23-00-00T00:00","REGULIDA","Goldcrest","戴菊","Regulus regulus",["2306isbird",],["isisis",""],"goldcr1"],
 //  ["23-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[],["azazaz","8/2022,"]],
 //  ["23-00-00T00:00","TROGLODY","Canyon Wren","墨西哥鹪鹩","Catherpes mexicanus",[],["azazaz","8/2022,"]],
 //  ["23-00-00T00:00","TROGLODY","Eurasian Wren","鹪鹩","Troglodytes troglodytes",["2306isbird",],["isisis",""],"winwre4"],
