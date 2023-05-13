@@ -97,7 +97,7 @@ var birds = myBirds([
     ["18-12-02T08:59","ANATIDAE","Black-bellied Whistling-Duck","黑腹树鸭","Dendrocygna autumnalis",[["1812crbird",11],["2001txbirding",1]],["crsanj",gmap("La Sabana Park"),"","","萨瓦纳公园","arb",hotspot("L128990","Hermann Park")+", Houston, Texas, USA","美国德克萨斯州休斯顿赫尔曼公园"]],
     ["22-12-24T14:08","ANATIDAE","Fulvous Whistling-Duck","茶色树鸭","Dendrocygna bicolor",["2212flbird",[2,1]],["flflfl","S124544398",gmap("Lake Apopka Wildlife Drive, Orange County"),"","","奥兰治郡阿波普卡湖野生动物观赏车道"]],
     ["15-03-07T15:31","ANATIDAE","Brant","黑雁","Branta bernicla",["1503barnegat",8],["njblsp","Atlantic form","大西洋亚种"]],
-    ["05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",["150215_011",["1206bsbird",6]],["mdloch","mdwhrp","","","","at Brookside Gardens","溪边花园"]],
+    ["05-10-30T08:00","ANATIDAE","Canada Goose","加拿大黑雁","Branta canadensis",["150215_011",["1206bsbird",6],"230513_069"],["mdloch","mdwhrp","","","","at Brookside Gardens","溪边花园","mdredg","S137501541"]],
     ["19-01-14T13:24","ANATIDAE","Barnacle Goose","白颊黑雁","Branta leucopsis",["190114_003"],["mdmdmd",gmap("Whittier Lake Park, Frederick"),"","","弗雷德里克市惠蒂尔湖公园"],"bargoo"],
     ["15-12-31T08:48","ANATIDAE","Cackling Goose","小美洲黑雁","Branta hutchinsii",["220102_001","220102_002"],["vavava","S102634595","On the right, "+(t1=gmap("Woodbridge Veterans Memorial Park, Prince William County")),"右边","",(t2="威廉王子郡伍德布里奇退伍军人纪念公园"),"vavava","S102634595",t1,"","",t2]],
     ["16-12-12T08:10","ANATIDAE","Ross's Goose","细嘴雁","Anser rossii",["161212_140"],["mdmdmd",gmap("Whittier Lake Park, Frederick"),"","","弗雷德里克市惠蒂尔湖公园"]],
