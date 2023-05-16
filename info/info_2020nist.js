@@ -603,6 +603,10 @@ function initAlbum(){
     this[1][i++]  = (["Wearing the tie-dye t-shirt","穿自己染的扎染T恤"])[cn_ind];
     this[0][i]    = "20230504_1";
     this[1][i++]  = (["Nathan's dinosaur project","球球的恐龙调研项目"])[cn_ind];
+    this[0][i]    = ["20230512_1","20230512_2"];
+    this[1][i++]  = (["STEM Lab visit with Dr. Leber on funnels and ramps","参观Leber博士的实验室学习关于漏斗和坡道的知识"])[cn_ind];
+    this[0][i]    = ["20230515_1","20230515_2"];
+    this[1][i++]  = (["Solar system walk with Dr. Adam Creuziger","Adam Creuziger博士的户外太阳系课"])[cn_ind];
 
     adddate(this);
 }
