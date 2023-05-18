@@ -34,6 +34,7 @@
 //  ["23-00-00T00:00","SCOLOPAC","Bar-tailed Godwit","斑尾塍鹬","Limosa lapponica",[],["flflfl","12/2022,",gmap("Fort De Soto Park, Pinellas County",27.6371,-82.7405),"","","皮尼拉斯郡德索托堡公园"],"batgod"],
 //  ["23-00-00T00:00","SCOLOPAC","Sharp-tailed Sandpiper","尖尾滨鹬","Calidris acuminata",[],["debnwr","1/2023,","Female"],"shtsan"],
 //  ["23-00-00T00:00","HAEMATOP","Eurasian Oystercatcher","蛎鹬","Haematopus ostralegus",["2306isbird",],["isisis",""],"euroys1"],
+//  ["23-00-00T00:00","RECURVIR","Black-winged Stilt","黑翅长脚鹬","Himantopus himantopus",["2306isbird",],["isisis",""],"bkwsti"],
 //  ["23-00-00T00:00","CHARADRI","European Golden Plover","欧金鸻","Pluvialis apricaria",["2306isbird",],["isisis",""],"eugplo"],
 //  ["23-00-00T00:00","CHARADRI","Common Ringed Plover","剑鸻","Charadrius hiaticula",["2306isbird",],["isisis",""],"corplo"],
 //  ["23-00-00T00:00","MOTACILL","Meadow Pipit","草地鹨","Anthus pratensis",["2306isbird",],["isisis",""],"meapip1"],
