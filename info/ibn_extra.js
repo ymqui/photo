@@ -14,7 +14,6 @@
 //  ["23-00-00T00:00","PHASIANI","Sooty Grouse","乌镰翅鸡","Dendragapus fuliginosus",[],["mdbhrp","1/2023,"],"",""],
 //  ["23-00-00T00:00","PHASIANI","Chukar","石鸡","Alectoris chukar",["1412mckee-beshers",6],["mdmwma","1/2023,","A released bird","一只释放鸟"]],
 //  ["23-00-00T00:00","CAPRIMUL","Chuck-will's-widow","卡氏夜鹰","Antrostomus carolinensis",[],["scpitt","1/2023,"]],
-//  ["23-00-00T00:00","CAPRIMUL","Eastern Whip-poor-will","三声夜鹰","Antrostomus vociferus",[""],["papapa","",gmap("Michaux State Forest, Cumberland County",40.061,-77.2826),"","","坎伯兰郡米肖州立森林"]],
 //  ["23-00-00T00:00","APODIDAE","Vaux's Swift","沃氏雨燕","Chaetura vauxi",[],["arb","1/2023,"]],
 //  ["23-00-00T00:00","TROCHILI","Calliope Hummingbird","星蜂鸟","Selasphorus calliope",[],["mdbhrp","1/2023,"]],
 //  ["23-00-00T00:00","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[],["mdbhrp","1/2023,"]],

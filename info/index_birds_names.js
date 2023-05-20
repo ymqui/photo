@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2023-03-12T08:00");
+var modTim = modTime("2023-05-20T08:00");
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -160,6 +160,7 @@ var birds = myBirds([
     ["22-08-12T06:09","CAPRIMUL","Lesser Nighthawk","小灰眉夜鹰","Chordeiles acutipennis",["2208azbird",76],["azazaz","S116797492",hotspot("L280695","Baseline Road, Maricopa County"),"","","马里科帕郡基线路"]],
     ["16-06-14T08:11","CAPRIMUL","Common Nighthawk","美洲夜鹰","Chordeiles minor",["1606florida",27],["scscsc",gmap("Bear Island WMA"),"","","熊岛WMA"]],
     ["22-05-01T11:20","CAPRIMUL","Antillean Nighthawk","安岛夜鹰","Chordeiles gundlachii",["2204flbird",29],["flflfl","5/2022,S108664920",gmap("Grassy Key",24.758,-80.960),"","","草岛"],"antnig"],
+    ["23-05-19T08:56","CAPRIMUL","Eastern Whip-poor-will","三声夜鹰","Antrostomus vociferus",["230519_078"],["papapa","S138500436",gmap("Michaux State Forest, Cumberland County",40.061,-77.2826),"","","坎伯兰郡米肖州立森林"]],
 //  ["23-00-00T00:00","STEATORN","Oilbird","油夜鹰","Steatornis caripensis",[],["arb",""],"oilbir1",2600],
     ["23-01-26T07:36","NYCTIBII","Common Potoo","钩嘴夜鹰","Nyctibius griseus",["2301pabird",110],["pametr","S126960214"],"compot1",2604],
 //  ["23-00-00T00:00","PODARGID","Tawny Frogmouth","茶色蛙口夜鹰","Podargus strigoides",[],["arb",""],"tawfro1",2586],
