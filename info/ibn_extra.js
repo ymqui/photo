@@ -40,6 +40,7 @@
 //  ["23-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",[],["flflfl","12/2022,",gmap("Alfred McKethan Pine Island Park, Hernando County"),"","","埃尔南多郡阿尔弗雷德麦基森松岛公园"]],
 //  ["23-00-00T00:00","LARIDAE ","Common Gull","普通海鸥","Larus canus",["2306isbird",],["isisis",""],"mewgul","海鸥"], 
 //  ["23-00-00T00:00","LARIDAE ","Elegant Tern","美洲凤头燕鸥","Thalasseus elegans",[],["azazaz","8/2022,",gmap("Arthur Pack Regional Park, Pima County",32.3744,-111.0549),"","","皮马郡亚瑟帕克公园"],1745], 
+//  ["23-00-00T00:00","GAVIIDAE","Arctic Loon","黑喉潜鸟","Gavia arctica",["2306isbird",],["isisis",""],"arcloo"],
 //  ["23-00-00T00:00","STERCORA","Great Skua","北贼鸥","Stercorarius skua",["2306isbird",],["isisis",""],"gresku1"],
 //  ["23-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[],["fldtnp","1/2023,"]],
 //  ["23-00-00T00:00","ALCIDAE ","Rhinoceros Auklet","角嘴海雀","Cerorhinca monocerata",[],["arb","1/2023,"]],
