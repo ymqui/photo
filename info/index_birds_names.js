@@ -805,7 +805,7 @@ var birds = myBirds([
     ["22-08-08T11:40","PASSEREL","Five-striped Sparrow","五纹猛雀鹀","Amphispizopsis quinquestriata",["2208azbird",38],["azazaz","S116565221",hotspot("L340405","Box Canyon Road, Pima County"),"","","皮马郡盒子峡谷路"],"fisspa",10076],
     ["22-08-07T07:35","PASSEREL","Black-throated Sparrow","黑喉漠鹀","Amphispiza bilineata",["2208azbird",2],["azsndm","S116522318"]],
     ["16-01-31T08:24","PASSEREL","Lark Sparrow","云雀鹀","Chondestes grammacus",["160131_008","160131_010"],["mdmdmd",gmap("Congressional Polo Club, Poolesville"),"","","普尔斯维尔镇国会马球俱乐部"],"鹨雀鹀"],
-    ["15-04-18T07:36","PASSEREL","Chipping Sparrow","棕顶雀鹀","Spizella passerina",["160409_034",["1612savannah",12],["2208cabird",8]],["mdmdmd",gmap("Agricultural History Farm Park",39.165,-77.1347),"","","农史农场公园","scscsc","Winter plumage, "+gmap("James Webb Wildlife Center, Hampton County",32.609,-81.3006),"","","汉普顿郡詹姆斯·韦伯野生动物中心","caalgp","S117650777","Juvenile"]],
+    ["15-04-18T07:36","PASSEREL","Chipping Sparrow","棕顶雀鹀","Spizella passerina",["160409_034",["1612savannah",12],["2208cabird",8]],["mdmdmd",gmap("Agricultural History Farm Park, Montgomery County",39.165,-77.1347),"","","蒙哥马利郡农史农场公园","scscsc","Winter plumage, "+gmap("James Webb Wildlife Center, Hampton County",32.609,-81.3006),"","","汉普顿郡詹姆斯·韦伯野生动物中心","caalgp","S117650777","Juvenile"]],
     ["17-09-16T10:48","PASSEREL","Clay-colored Sparrow","褐雀鹀","Spizella pallida",["170916_103"],["mdocci",gmap("Sunset Park",38.3277,-75.0907),"","","日落公园"]],
     ["15-04-12T08:59","PASSEREL","Field Sparrow","田雀鹀","Spizella pusilla",["151018_108","160417_040"],["mdbmnt","mdbhrp"]],
     ["15-04-05T07:51","PASSEREL","Fox Sparrow","狐色雀鹀","Passerella iliaca",["150405_051","211218_145"],["mdbmnt","Red form","红色型","mdbmnt","Red form","红色型"]],
