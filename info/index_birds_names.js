@@ -416,7 +416,7 @@ var birds = myBirds([
     ["17-02-05T10:12","STRIGIDA","Snowy Owl","雪鸮","Bubo scandiacus",["220108_005","170205_018"],["dcdcdc","S100493829","Immature female, "+gmap("Union Station Plaza",38.8964,-77.0066),"","","联合火车站广场","papapa","Female/immature, "+gmap("Davis Road, Bradford County",41.8199,-76.1711),"","","布拉德福德郡戴维斯路"]],
     ["16-03-26T11:53","STRIGIDA","Great Horned Owl","美洲雕鸮","Bubo virginianus",["160326_024"],["ncoutb","","","","at Oregon Inlet Marina","俄勒冈入海口船坞"]],
     ["20-03-26T10:31","STRIGIDA","Eastern Screech-Owl","东美角鸮","Megascops asio",["200326_001",["2204flbird",54]],["mdmdmd","Red morph, "+gmap("Bruehl Road, Baltimore County",39.5964,-76.7501),"红色型","","巴尔的摩郡布鲁尔路","flflfl","5/2022,S108968954","Gray morph, "+gmap("Matheson Hammock Park, Miami-Dade County",25.6812,-80.272),"灰色型","","迈阿密-戴德郡马西森硬木公园"]],
-    ["06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",["150425_058","160409_033","230507_066","230521_080"],["mdbmnt","mdmdmd",gmap("Agricultural History Farm Park",39.165,-77.1347),"","","农史农场公园","mdwoot","S136523030","mdwoot","S138696554","Nest"]],
+    ["06-05-07T18:43","STRIGIDA","Barred Owl","横斑林鸮","Strix varia",["150425_058","160409_033","230507_066","230521_080"],["mdbmnt","mdmdmd",gmap("Agricultural History Farm Park, Montgomery County",39.165,-77.1347),"","","蒙哥马利郡农史农场公园","mdwoot","S136523030","mdwoot","S138696554","Nest"]],
 //  ["23-00-00T00:00","COLIIDAE","Speckled Mousebird","斑鼠鸟","Colius striatus",[],["arb",""],"spemou2"],
 //  ["23-00-00T00:00","LEPTOSOM","Cuckoo-roller","鹃三宝鸟","Leptosomus discolor",[],["arb",""],"cuckoo1"],
     ["23-01-23T11:11","TROGONID","Slaty-tailed Trogon","灰尾美洲咬鹃","Trogon massena",["2301pabird",[63,123]],["papipe","S126820118","Female","pametr","S126960214","Female"],"slttro1"],
