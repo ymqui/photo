@@ -4,6 +4,7 @@
 //  ["23-00-00T00:00","ANATIDAE","Whooper Swan","大天鹅","Cygnus cygnus",["2306isbird",],["isisis",""],"whoswa"],
 //  ["23-00-00T00:00","ANATIDAE","Common Scoter","普通海番鸭","Melanitta nigra",["2306isbird",],["isisis",""],"blksco1",215],
 //  ["23-00-00T00:00","ANATIDAE","Velvet Scoter","丝绒海番鸭","Melanitta fusca",["2306isbird",],["isisis",""],"whwsco3",213],
+//  ["23-00-00T00:00","ANATIDAE","Garganey","白眉鸭","Spatula querquedula",["2306isbird",],["isisis",""],"gargan"],
 //  ["23-00-00T00:00","ODONTOPH","Mountain Quail","山翎鹑","Oreortyx pictus",[],["mdbhrp","1/2023,"]],
 //  ["23-00-00T00:00","ODONTOPH","Scaled Quail","鳞斑鹑","Callipepla squamata",[],["mdbhrp","1/2023,"]],
 //  ["23-00-00T00:00","ODONTOPH","California Quail","珠颈斑鹑","Callipepla californica",[],["mdbhrp","1/2023,"],327],
