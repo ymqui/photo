@@ -609,6 +609,8 @@ function initAlbum(){
     this[1][i++]  = (["Making Mother's Day cupcakes","做母亲节蛋糕"])[cn_ind];
     this[0][i]    = ["20230515_1","20230515_2"];
     this[1][i++]  = (["Solar system walk with Dr. Adam Creuziger","Adam Creuziger博士的户外太阳系课"])[cn_ind];
+    this[0][i]    = "20230531_1";
+    this[1][i++]  = (["Painting a coconut shell for a bird feeder or planter","画椰子壳"])[cn_ind];
 
     adddate(this);
 }
