@@ -94,6 +94,7 @@
 //  ["23-00-00T00:00","CORVIDAE","Red-billed Blue Magpie","红嘴蓝鹊","Urocissa erythroryncha",[],["cnbjjp","1/2023,"],"rbbmag"],
 //  ["23-00-00T00:00","CORVIDAE","Clark's Nutcracker","北美星鸦","Nucifraga columbiana",[],["azazaz","8/2022,"]],
 //  ["23-00-00T00:00","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",[],["cnbjjp","1/2023,"],"carcro1"],
+//  ["23-00-00T00:00","CORVIDAE","Hooded Crow","冠小嘴乌鸦","Corvus cornix",["2306isbird",],["isisis",""],"hoocro1"],
 //  ["23-00-00T00:00","PARADISA","Magnificent Bird-of-paradise","丽色极乐鸟","Diphyllodes magnificus",[],["mdbhrp","1/2023,"],"mbopar2"],
 //  ["23-00-00T00:00","BOMBYCIL","Bohemian Waxwing","太平鸟","Bombycilla garrulus",[],["cnbjjp","1/2023,"]],
 //  ["23-00-00T00:00","BOMBYCIL","Japanese Waxwing","小太平鸟","Bombycilla japonica",[],["cnbjjp","1/2023,"],"japwax1"],
