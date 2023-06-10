@@ -326,6 +326,8 @@ function initAlbum(){
     this[1][i++]  = (["Baking with Mommy","和妈妈一起做甜点"])[cn_ind];
     this[0][i]    = ["20230326_011","20230326_015"];
     this[1][i++]  = (["Flying kite at the DC Cherry Blossom Kite Festival","在华盛顿特区樱花风筝节上放风筝"])[cn_ind];
+    this[0][i]    = ["20230610_028","20230610_032"];
+    this[1][i++]  = (["Chinese school end of school year performance","中文学校学年结业典礼汇报表演"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
