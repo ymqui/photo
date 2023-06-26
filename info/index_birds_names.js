@@ -355,7 +355,7 @@ var birds = myBirds([
     ["16-06-18T09:35","OCEANITI","Wilson's Storm-Petrel","黄蹼洋海燕","Oceanites oceanicus",["160618_076",["2108racepoint",14]],["arb",gmap("Cape May-Lewes Ferry, Delaware/New Jersey, USA",38.8772,-75.0701),"美国特拉华州/新泽西州五月岬-刘易斯轮渡","marace"],"wispet"],
 //  ["23-00-00T00:00","DIOMEDEI","Laysan Albatross","黑背信天翁","Phoebastria immutabilis",[],["arb",""]],
 //  ["23-00-00T00:00","HYDROBAT","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Hydrobates furcatus",[],["arb",""]],
-    ["23-06-16T13:23","PROCELLA","Northern Fulmar","暴雪鹱","Fulmarus glacialis",["2306isbird",[14,40]],["isisis","S141713912","Drangsnes, Westfjords","","","西峡湾区德朗斯内斯小镇","isisis","S142692860","Hvitserkur, Northwestern Region","","","西北地区犀牛石"],610],
+    ["23-06-16T13:23","PROCELLA","Northern Fulmar","暴雪鹱","Fulmarus glacialis",["2306isbird",[5,14,40]],["isisis","S141703789","Hólmavík, Westfjords","","","西峡湾区侯尔马维克小镇","isisis","S141713912","Drangsnes, Westfjords","","","西峡湾区德朗斯内斯小镇","isisis","S142692860","Hvitserkur, Northwestern Region","","","西北地区犀牛石"],610],
     ["21-08-11T09:00","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",["2108racepoint",[11,12]],["marace"],"corshe"],
     ["21-08-11T14:44","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",["2108racepoint",[7,8]],["marace"],"greshe"],
     ["21-08-12T07:37","PROCELLA","Manx Shearwater","大西洋鹱","Puffinus puffinus",["2108racepoint",13],["marace"],"manshe"],
