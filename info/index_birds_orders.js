@@ -337,7 +337,7 @@ function reform_locs(loc,photo){
         if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) head[0] = head[0]+comma[0];
         if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) head[1] = head[1]+comma[1];
         if ((tmp[0].length>0)&&(tail[0].length>0)) tail[0] = ' '+tail[0];
-        if (tmp[1].length>0) tmp[1] = comma[0]+tmp[1];
+        if ((tmp[1].length>0)&&(tmp[0].length>0)) tmp[1] = comma[0]+tmp[1];
         if (tmp[4]!=null) {
            if (tmp[5]==null) tmp[5] = tmp[4];
            if (tmp[4].length>0) tmp[0] = my_href(tmp[4],tmp[0],pid);
