@@ -57,4 +57,5 @@ Northern Pygmy-Owl,				Northern Pygmy Owl
 Common Pauraque,				Pauraque
 Yellow-olive Flycatcher,			Yellow-olive Flatbill
 Arctic Loon,					Black-throated Loon
+Eurasian Blackbird,				Common Blackbird
 

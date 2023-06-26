@@ -80,7 +80,7 @@ function initAlbum(){
         this[1][50] = "白骨顶，东北地区Kaldbakstjarnir池塘。";
         this[1][51] = "欧金鸻，雄性，东北地区Héðinshöfða2号民居。";
         this[1][52] = "短尾贼鸥，东北地区Héðinshöfða2号民居。";
-        this[1][53] = "穗䳭，东北地区黛提瀑布。";
+        this[1][53] = "穗䳭，雄性，东北地区黛提瀑布。";
         this[1][54] = "普通海番鸭，东部地区Þvottárskriður海岸。";
         this[1][55] = "白颊黑雁，东部地区苏杜斯韦特。";
         this[1][56] = "雪鹀，雌性，东部地区杰古沙龙冰河湖。";
@@ -96,8 +96,8 @@ function initAlbum(){
         this[1][66] = "蛎鹬，首都地区巴卡特约恩湖。";
         this[1][67] = "翘鼻麻鸭，首都地区巴卡特约恩湖。";
         this[1][68] = "翘鼻麻鸭，未成年，首都地区巴卡特约恩湖。";
-        this[1][69] = "红颈瓣蹼鹬，首都地区巴卡特约恩湖。";
-        this[1][70] = "红颈瓣蹼鹬，首都地区巴卡特约恩湖。";
+        this[1][69] = "红颈瓣蹼鹬，雌性，首都地区巴卡特约恩湖。";
+        this[1][70] = "红颈瓣蹼鹬，雌性，首都地区巴卡特约恩湖。";
         this[1][71] = "小黑背鸥，首都地区巴卡特约恩湖。";
         this[1][72] = "大黑背鸥，首都地区巴卡特约恩湖。";
         this[1][73] = "黑尾塍鹬，首都地区巴卡特约恩湖。";
@@ -168,7 +168,7 @@ function initAlbum(){
         this[1][50] = "Eurasian Coot, Kaldbakstjarnir, Northeastern Region.";
         this[1][51] = "European Golden Plover, male, Héðinshöfða 2, Northeastern Region.";
         this[1][52] = "Parasitic Jaeger, Héðinshöfða 2, Northeastern Region.";
-        this[1][53] = "Northern Wheatear, Dettifoss, Northeastern Region.";
+        this[1][53] = "Northern Wheatear, male, Dettifoss, Northeastern Region.";
         this[1][54] = "Common Scoter, Þvottárskriður, Eastern Region.";
         this[1][55] = "Barnacle Goose, Suðursveit, Eastern Region.";
         this[1][56] = "Snow Bunting, female, Jökulsárlón, Eastern Region.";
@@ -184,8 +184,8 @@ function initAlbum(){
         this[1][66] = "Eurasian Oystercatcher, Bakkatjörn, Capital Region.";
         this[1][67] = "Common Shelduck, Bakkatjörn, Capital Region.";
         this[1][68] = "Common Shelduck, juvenile, Bakkatjörn, Capital Region.";
-        this[1][69] = "Red-necked Phalarope, Bakkatjörn, Capital Region.";
-        this[1][70] = "Red-necked Phalarope, Bakkatjörn, Capital Region.";
+        this[1][69] = "Red-necked Phalarope, female, Bakkatjörn, Capital Region.";
+        this[1][70] = "Red-necked Phalarope, female, Bakkatjörn, Capital Region.";
         this[1][71] = "Lesser Black-backed Gull, Bakkatjörn, Capital Region.";
         this[1][72] = "Great Black-backed Gull, Bakkatjörn, Capital Region.";
         this[1][73] = "Black-tailed Godwit, Bakkatjörn, Capital Region.";
