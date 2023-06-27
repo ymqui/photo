@@ -276,6 +276,11 @@
   info[2][j] = 2;
   info[3][j] = "1/2023 Panama Birding";
   info[4][j++] = "Birding in Panama City and Soberania National Park (Panama).";
+  info[0][j] = "2306isbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "6/2023 Iceland Birding";
+  info[4][j++] = "Birding in Iceland (Iceland).";
 
   if(window.usechinese){
      j = 0;
@@ -385,6 +390,8 @@
      info[4][j++] = "在佛罗里达中部观鸟(佛罗里达州)。";
      info[3][j]   = "1/2023 巴拿马观鸟";
      info[4][j++] = "在巴拿马城和索韦拉尼亚国家公园观鸟(巴拿马)。";
+     info[3][j]   = "6/2023 冰岛观鸟";
+     info[4][j++] = "在冰岛观鸟(冰岛)。";
   } 
 
   //special touch
@@ -401,7 +408,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2023-02-04T12:00:00");
+  var modDat1 = new Date("2023-06-27T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
