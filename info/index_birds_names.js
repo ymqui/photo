@@ -494,7 +494,7 @@ var birds = myBirds([
     ["18-12-05T13:19","FALCONID","Laughing Falcon","笑隼","Herpetotheres cachinnans",["1812crbird",64],["crarol"],"laufal1"],
     ["15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",["150321_041","210320_031"],["mdftmh","Male","dedede","Male, "+gmap("Hourglass Road, Kent County",39.1495,-75.714),"","","肯特郡沙漏路"]],
     ["15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",["161204_134",["2204flbird",16],["1609vcbird",16]],["nyjbsp","Male (Taiga)","雄性(泰加林种)","fldtnp","S108548976","cactnw"]],
-    ["23-06-18T11:20","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",["2306isbird",38],["isisis","S142038589","Immature gray morph, Borðeyrarvegur, Westfjords","未成年灰色型","","西峡湾区Borðeyrarvegur路"]],
+    ["23-06-18T11:20","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",["2306isbird",38],["isisis","S142038589","Immature gray morph, Borðeyri, Westfjords","未成年灰色型","","西峡湾区Borðeyri村"]],
     ["15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",["210314_029","150607_076","230527_082"],["mdcocn","Male","","at Maryland Heights","马里兰高地一带","mdcocn","Female","","at Maryland Heights","马里兰高地一带","mdcocn","S139423775","Nest","","at Point of Rocks","岩石点一带"]],
 //  ["23-00-00T00:00","STRIGOPI","Kakapo","鸮面鹦鹉","Strigops habroptila",[],["arb",""],"kakapo2",4000],
 //  ["23-00-00T00:00","CACATUID","Palm Cockatoo","棕树凤头鹦鹉","Probosciger aterrimus",[],["arb",""],"palcoc1",4010],

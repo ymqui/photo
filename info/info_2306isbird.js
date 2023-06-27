@@ -64,7 +64,7 @@ function initAlbum(){
         this[1][34] = "北极海鹦，西峡湾区拉特拉尔角。";
         this[1][35] = "白翅斑海鸽，西峡湾区Innstrandavegur路。";
         this[1][36] = "白翅斑海鸽，西峡湾区Innstrandavegur路。";
-        this[1][37] = "矛隼，未成年灰色型，西峡湾区Borðeyrarvegur路。";
+        this[1][37] = "矛隼，未成年灰色型，西峡湾区Borðeyri村。";
         this[1][38] = "欧鸬鹚，西北地区犀牛石。";
         this[1][39] = "暴雪鹱，西北地区犀牛石。";
         this[1][40] = "欧乌鸫，未成年，东北地区Kjarnaskógur森林。";
@@ -152,7 +152,7 @@ function initAlbum(){
         this[1][34] = "Atlantic Puffin, Látrabjarg, Westfjords.";
         this[1][35] = "Black Guillemot, Innstrandavegur, Westfjords.";
         this[1][36] = "Black Guillemot, Innstrandavegur, Westfjords.";
-        this[1][37] = "Gyrfalcon, immature gray morph, Borðeyrarvegur, Westfjords.";
+        this[1][37] = "Gyrfalcon, immature gray morph, Borðeyri, Westfjords.";
         this[1][38] = "European Shag, Hvitserkur, Northwestern Region.";
         this[1][39] = "Northern Fulmar, Hvitserkur, Northwestern Region.";
         this[1][40] = "Eurasian Blackbird, juvenile, Kjarnaskógur, Northeastern Region.";
