@@ -94,7 +94,7 @@ function initAlbum(){
         this[1][64] = "短尾贼鸥，深色型，东部地区Fjallsárlón冰河湖。";
         this[1][65] = "北极海鹦，南部地区雷尼斯黑沙滩。";
         this[1][66] = "蛎鹬，首都地区巴卡特约恩湖。";
-        this[1][67] = "翘鼻麻鸭，首都地区巴卡特约恩湖。";
+        this[1][67] = "翘鼻麻鸭，雌性，首都地区巴卡特约恩湖。";
         this[1][68] = "翘鼻麻鸭，未成年，首都地区巴卡特约恩湖。";
         this[1][69] = "红颈瓣蹼鹬，雌性，首都地区巴卡特约恩湖。";
         this[1][70] = "红颈瓣蹼鹬，雌性，首都地区巴卡特约恩湖。";
@@ -111,7 +111,7 @@ function initAlbum(){
         this[1][81] = "凤头潜鸭，雄性，雷克雅未克托宁湖。";
         this[1][82] = "凤头潜鸭，雌性，雷克雅未克托宁湖。";
         this[1][83] = "绿头鸭，雄性，雷克雅未克托宁湖。";
-        this[1][84] = "欧乌鸫，雷克雅未克托宁湖。";
+        this[1][84] = "欧乌鸫，雄性，雷克雅未克托宁湖。";
         this[1][85] = "白腰朱顶雀，未成年，雷克雅未克托宁湖。";
         this[1][86] = "紫翅椋鸟，雷克雅未克托宁湖。";
     }else{
@@ -182,7 +182,7 @@ function initAlbum(){
         this[1][64] = "Parasitic Jaeger, dark morph, Fjallsárlón, Eastern Region.";
         this[1][65] = "Atlantic Puffin, Reynisfjara, Southern Region.";
         this[1][66] = "Eurasian Oystercatcher, Bakkatjörn, Capital Region.";
-        this[1][67] = "Common Shelduck, Bakkatjörn, Capital Region.";
+        this[1][67] = "Common Shelduck, female, Bakkatjörn, Capital Region.";
         this[1][68] = "Common Shelduck, juvenile, Bakkatjörn, Capital Region.";
         this[1][69] = "Red-necked Phalarope, female, Bakkatjörn, Capital Region.";
         this[1][70] = "Red-necked Phalarope, female, Bakkatjörn, Capital Region.";
@@ -199,7 +199,7 @@ function initAlbum(){
         this[1][81] = "Tufted Duck, male, Tjörnin Lake, Reykjavík";
         this[1][82] = "Tufted Duck, female, Tjörnin Lake, Reykjavík";
         this[1][83] = "Mallard, male, Tjörnin Lake, Reykjavík";
-        this[1][84] = "Eurasian Blackbird, Tjörnin Lake, Reykjavík";
+        this[1][84] = "Eurasian Blackbird, male, Tjörnin Lake, Reykjavík";
         this[1][85] = "Common Redpoll, immature, Tjörnin Lake, Reykjavík";
         this[1][86] = "European Starling, Tjörnin Lake, Reykjavík";
     }
