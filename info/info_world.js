@@ -10,7 +10,7 @@ var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"],
-                  ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"]];
+                  ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+coltext("Iceland"),"6/2023 "+coltext("冰岛")+"度假"]];
 
 document.title = title;
 
@@ -38,6 +38,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+btext("Canada"),btext("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
     this[0][i]    = ["20230122_Panama","20230124_Panama","20230127_Panama"];
     this[1][i++]  = ([[pagelink("2301panama","Casco Viejo, Panama City, "+btext("Panama")),pagelink("2301panama","Monkey Island, Panama Canal, "+btext("Panama")),pagelink("2301panama","Lake Alajuela, Panamá Province, "+btext("Panama"))],[pagelink("2301panama",btext("巴拿马")+"巴拿马城Casco Viejo老城"),pagelink("2301panama",btext("巴拿马")+"巴拿马运河猴岛"),pagelink("2301panama",btext("巴拿马")+"巴拿马省阿拉胡埃拉湖")]])[cn_ind];
+    this[0][i]    = ["20230622_Iceland_1","20230622_Iceland_2","20230623_Iceland"];
+    this[1][i++]  = ([[pagelink("2306iceland","Jökulsárlón, Eastern Region, "+btext("Iceland")),pagelink("2306iceland","Seljalandsfoss, Southern Region, "+btext("Iceland")),pagelink("2306iceland","Blue Lagoon, Southern Peninsula, "+btext("Iceland"))],[pagelink("2306iceland",btext("冰岛")+"东部地区杰古沙龙冰河湖"),pagelink("2306iceland",btext("冰岛")+"南部地区塞里雅兰瀑布"),pagelink("2306iceland",btext("冰岛")+"雷克雅内斯半岛蓝湖温泉")]])[cn_ind];
 
     adddate(this);
 }
