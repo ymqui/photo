@@ -58,4 +58,8 @@ Common Pauraque,				Pauraque
 Yellow-olive Flycatcher,			Yellow-olive Flatbill
 Arctic Loon,					Black-throated Loon
 Eurasian Blackbird,				Common Blackbird
+Eurasian Kestrel,				Common Kestrel
+Eurasian Jackdaw,				Western Jackdaw
+Eurasian Green Woodpecker,			European Green Woodpecker
+Eurasian Linnet,				Common Linnet
 
