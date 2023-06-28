@@ -29,7 +29,7 @@ function initAlbum(){
     if(window.usechinese){
         this[1][0] = "欧金鸻，雄性，西部地区博尔加内斯Borgarfjarðarbraut路。";
         this[1][1] = "欧金鸻，雌性，西部地区博尔加内斯Borgarfjarðarbraut路。";
-        this[1][2] = "普通秋沙鸭，雌性，西峡湾区侯尔马维克小镇。";
+        this[1][2] = "红胸秋沙鸭，雌性，西峡湾区侯尔马维克小镇。";
         this[1][3] = "普通潜鸟，西峡湾区侯尔马维克小镇。";
         this[1][4] = "暴雪鹱，西峡湾区侯尔马维克小镇。";
         this[1][5] = "红嘴鸥，西峡湾区侯尔马维克小镇。";
@@ -102,7 +102,7 @@ function initAlbum(){
         this[1][72] = "大黑背鸥，首都地区巴卡特约恩湖。";
         this[1][73] = "黑尾塍鹬，首都地区巴卡特约恩湖。";
         this[1][74] = "草地鹨，首都地区巴卡特约恩湖。";
-        this[1][75] = "赤膀鸭，雌性和幼鸟，首都地区巴卡特约恩湖。";
+        this[1][75] = "绿头鸭，雌性和幼鸟，首都地区巴卡特约恩湖。";
         this[1][76] = "蛎鹬，未成年，首都地区塞尔特贾纳内斯高尔夫球场。";
         this[1][77] = "灰雁，首都地区塞尔特贾纳内斯高尔夫球场。";
         this[1][78] = "红喉潜鸟，首都地区塞尔特贾纳内斯高尔夫球场。";
@@ -117,7 +117,7 @@ function initAlbum(){
     }else{
         this[1][0] = "European Golden Plover, male, Borgarfjarðarbraut, Borgarnes, Western Region.";
         this[1][1] = "European Golden Plover, female, Borgarfjarðarbraut, Borgarnes, Western Region.";
-        this[1][2] = "Common Merganser, female, Hólmavík, Westfjords.";
+        this[1][2] = "Red-breasted Merganser, female, Hólmavík, Westfjords.";
         this[1][3] = "Common Loon, Hólmavík, Westfjords.";
         this[1][4] = "Northern Fulmar, Hólmavík, Westfjords.";
         this[1][5] = "Black-headed Gull, Hólmavík, Westfjords.";
@@ -190,7 +190,7 @@ function initAlbum(){
         this[1][72] = "Great Black-backed Gull, Bakkatjörn, Capital Region.";
         this[1][73] = "Black-tailed Godwit, Bakkatjörn, Capital Region.";
         this[1][74] = "Meadow Pipit, Bakkatjörn, Capital Region.";
-        this[1][75] = "Gadwall, female with chicks, Bakkatjörn, Capital Region.";
+        this[1][75] = "Mallard, female with chicks, Bakkatjörn, Capital Region.";
         this[1][76] = "Eurasian Oystercatcher, immature, Golfklúbbur Seltjarnarnes, Capital Region. ";
         this[1][77] = "Graylag Goose, Golfklúbbur Seltjarnarnes, Capital Region. ";
         this[1][78] = "Red-throated Loon, Golfklúbbur Seltjarnarnes, Capital Region. ";
