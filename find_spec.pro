@@ -1,5 +1,5 @@
 pro find_spec,name,locid=locid,pid=pid
-    pid = '2306isbird' &locid = 'isisis'
+    pid = '2308ukbird' &locid = 'ukregp'
     if n_elements(locid) eq 0 then locid = 'arb'
     if n_elements(pid) ne 0 then pid = '["'+pid+'",' else pid = '['
     if n_elements(name) eq 0 then begin
@@ -71,17 +71,17 @@ function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=b
     if keyword_set(ibn)      then return,'C:\Users\qiuym\Desktop\index_birds_names.js'
     if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v13.1.csv'
     if keyword_set(chinese)  then return,'C:\Users\qiuym\Documents\Yiming\tmp\Multiling_IOC_V13.1.csv'
-    ;if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
-    if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
-    if keyword_set(namecomp) then return,'https://ymqui.github.io/photo/info/ibn_namecompare.txt'
-    ;if keyword_set(namecomp) then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_namecompare.txt'
+    if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
+    ;if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
+    ;if keyword_set(namecomp) then return,'https://ymqui.github.io/photo/info/ibn_namecompare.txt'
+    if keyword_set(namecomp) then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_namecompare.txt'
     if keyword_set(movie)    then return,'C:\Users\qiuym\Desktop\lifer.mp4'
     if keyword_set(birdname) then return,read_namecomp()
     if keyword_set(totbird)  then return,'https://www.worldbirdnames.org/new/updates/'
     if keyword_set(country)  then return,'https://en.wikipedia.org/wiki/List_of_sovereign_states'
     if keyword_set(tmpdir)   then return,'C:\Users\qiuym\Documents\Yiming\tmp\'
-    if keyword_set(extra)    then return,'https://ymqui.github.io/photo/info/ibn_extra.js'
-    ;if keyword_set(extra)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_extra.js'
+    ;if keyword_set(extra)    then return,'https://ymqui.github.io/photo/info/ibn_extra.js'
+    if keyword_set(extra)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_extra.js'
     return,'C:\Users\qiuym\Desktop\index_birds_names1.js'  ;for writing
 end
 
@@ -628,11 +628,11 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
 end
 
 pro find_bird
-;    read_ibn,/all,line=line1& help,line1
+    read_ibn,/all,line=line1& help,line1
     read_ibn,/all,extra=line & help,line
-
+line = [line,line1]
     pattern0 = '\)\,\["'
-    pattern1 = 'isisis'
+    pattern1 = '2308ukbird'
     j = 0
     for i=0,n_elements(line)-1 do begin    
         if stregex(line[i],pattern1,/fold_case,/boolean)  then print,j++,line[i]
