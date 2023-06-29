@@ -611,6 +611,8 @@ function initAlbum(){
     this[1][i++]  = (["Solar system walk with Dr. Adam Creuziger","Adam Creuziger博士的户外太阳系课"])[cn_ind];
     this[0][i]    = "20230531_1";
     this[1][i++]  = (["Painting a coconut shell for a bird feeder or planter","画椰子壳"])[cn_ind];
+    this[0][i]    = "20230628_1";
+    this[1][i++]  = (["Going to the movie theater","去电影院看电影"])[cn_ind];
 
     adddate(this);
 }
