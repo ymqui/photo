@@ -12,6 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2306isbird","6/2023 Birding in Iceland","6/2023 冰岛观鸟"]]
  
 if(window.usechinese){
     title      = "Vacationing in Iceland";
@@ -35,7 +36,7 @@ function initAlbum(){
         this[1][3] = "西峡湾。";
         this[1][4] = "西峡湾。";
         this[1][5] = "西峡湾的拉特拉尔角。";
-        this[1][6] = "在西峡湾的拉特拉尔角看海鹦。";
+        this[1][6] = "在西峡湾的拉特拉尔角"+pagelink("2306isbird&35","看海鹦")+"。";
         this[1][7] = "犀牛石。";
         this[1][8] = "犀牛石。";
         this[1][9] = "众神瀑布。";
@@ -80,7 +81,7 @@ function initAlbum(){
         this[1][3] = "Westfjords.";
         this[1][4] = "Westfjords.";
         this[1][5] = "Látrabjarg.";
-        this[1][6] = "Watching an Atlantic Puffin at Látrabjarg.";
+        this[1][6] = pagelink("2306isbird&35","Watching an Atlantic Puffin")+" at Látrabjarg.";
         this[1][7] = "Hvitserkur.";
         this[1][8] = "Hvitserkur.";
         this[1][9] = "Goðafoss.";
