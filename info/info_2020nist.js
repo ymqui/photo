@@ -613,6 +613,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting a coconut shell for a bird feeder or planter","画椰子壳"])[cn_ind];
     this[0][i]    = "20230628_1";
     this[1][i++]  = (["Going to the movie theater","去电影院看电影"])[cn_ind];
+    this[0][i]    = "20230630_1";
+    this[1][i++]  = (["Enjoying the desert","吃甜食"])[cn_ind];
 
     adddate(this);
 }
