@@ -156,7 +156,7 @@ var birds = myBirds([
     ["21-06-26T10:51","ODONTOPH","Northern Bobwhite","山齿鹑","Colinus virginianus",["210626_094"],["debnwr","Male"]],
     ["16-02-28T09:29","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",["1604asheville",1],["arb","Female, "+nps("blri","Blue Ridge Parkway, North Carolina, USA"),"","",baike("蓝岭","美国北卡罗来纳州","公路")]],
     ["16-09-15T08:53","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",["1609vcbird",10],["vtwwma"]],
-    ["23-06-16T15:21","PHASIANI","Rock Ptarmigan","岩雷鸟","Lagopus muta",["2306isbird",17],["isisis","S141725260","Male, Strandavegur, Westfjords","","","西峡湾区Strandavegur路"],"rocpta1"],
+    ["23-06-16T15:21","PHASIANI","Rock Ptarmigan","岩雷鸟","Lagopus muta",["2306isbird",17],["isisis","S141725260","Male, Strandavegur, Westfjords","","","西峡湾区Strandavegur路"]],
     ["17-09-02T08:51","PHASIANI","Spruce Grouse","枞树镰翅鸡","Canachites canadensis",["1709algonquin",[10,8,9]],["caalgp","Male","caalgp","Female","caalgp","Mating display"]],
     ["17-01-29T09:29","PHASIANI","Ring-necked Pheasant","雉鸡","Phasianus colchicus",["211121_131","211127_134",["1704longyan",12]],["mdmdmd",(t1="Male, "+gmap("Park Heights Avenue, Baltimore County",39.4076,-76.729)),"","",(t2="巴尔的摩郡公园高地大街"),"mdmdmd",t1,"","",t2,"cnlynv","Female"]],
     ["22-05-02T10:11","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",["2204flbird",[34,35]],["flflfl","5/2022,S108777458","Male, Crandon Park, Miami-Dade County","","","迈阿密-戴德郡克兰登公园"]],
