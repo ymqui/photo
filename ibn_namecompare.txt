@@ -1,6 +1,5 @@
 Ring-necked Pheasant,				Common Pheasant
 Brant,						Brant Goose
-Herring Gull,					American Herring Gull
 Common Raven,					Northern Raven
 White-winged Crossbill,				Two-barred Crossbill
 Chukar,						Chukar Partridge
