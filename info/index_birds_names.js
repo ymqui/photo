@@ -124,7 +124,7 @@ var birds = myBirds([
     ["15-02-17T12:51","ANATIDAE","American Black Duck","北美黑鸭","Anas rubripes",["1512bhill",20],["mdbhrp","2/2015","Two males and a female (center)","两雄性和一雌性(中间)"]],
     ["19-05-10T10:35","ANATIDAE","Mexican Duck","墨西哥鸭","Anas diazi",["1905mxbird",[1,2]],["arb","Males, "+wiki("Chapultepec Park",true),"","Mexico City, Mexico",baike("查普尔特佩克公园","墨西哥墨西哥城"),"arb","Female, "+wiki("Chapultepec Park",true),"","Mexico City, Mexico",baike("查普尔特佩克公园","墨西哥墨西哥城")],"mexduc"],
     ["15-11-22T09:17","ANATIDAE","Northern Pintail","针尾鸭","Anas acuta",["201229_147","211214_142"],["vahump","Male","vahump","Female"]],
-    ["21-02-04T09:36","ANATIDAE","Eurasian Teal","绿翅鸭","Anas crecca",["210204_023"],["vavava","Male, "+gmap("Middlesex Drive Pond, Loudoun County",38.9083,-77.4834),"","","劳登郡米德尔塞克斯路池塘"],"eurtea"],
+    ["21-02-04T09:36","ANATIDAE","Eurasian Teal","绿翅鸭","Anas crecca",["210204_023"],["vavava","Male, "+gmap("Middlesex Drive Pond, Loudoun County",38.9083,-77.4834),"","","劳登郡米德尔塞克斯路池塘"],"egwtea1"],
     ["15-11-22T09:50","ANATIDAE","Green-winged Teal","美洲绿翅鸭","Anas carolinensis",["220417_055","210204_023"],["debnwr","S107336949"],177],
     ["15-01-19T10:52","ANATIDAE","Canvasback","帆背潜鸭","Aythya valisineria",["170121_009","170121_008"],["mdmdmd","Male, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市","mdmdmd","Female, "+gmap("Cambridge",38.5796,-76.0777),"","","剑桥市"]],
     ["15-02-15T15:34","ANATIDAE","Redhead","美洲潜鸭","Aythya americana",["150215_008"],["mdloch","Male left, female right"]],
