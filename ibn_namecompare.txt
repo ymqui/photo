@@ -28,7 +28,6 @@ Black-crowned Palm-Tanager,			Black-crowned Tanager
 Yellow Warbler,					Mangrove Warbler
 Yellow-rumped Warbler,				Myrtle Warbler
 Hoary Redpoll,					Arctic Redpoll
-Whimbrel,					Eurasian Whimbrel
 Red-crowned Parrot,				Red-crowned Amazon
 Lucifer Hummingbird,				Lucifer Sheartail
 Blue-throated Mountain-gem,			Blue-throated Mountaingem
