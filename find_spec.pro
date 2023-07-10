@@ -37,7 +37,7 @@ pro find_spec,name,locid=locid,pid=pid
 end
 
 function reform_name,name,latin=latin,gray=gray,family=family,ebird=ebird
-    if keyword_set(gray) then begin ;gray
+    if keyword_set(gray) then begin ;gray and dash line
        newname = strtrim(name,2)
        tmp = where(stregex(newname,'gray',/boolean,/fold_case),ncount)
        for i=0,ncount-1 do begin
@@ -45,6 +45,9 @@ function reform_name,name,latin=latin,gray=gray,family=family,ebird=ebird
            pos = strpos(newname[tmp[i]],'gray')
            strput,tmp1,(['Grey','grey'])[pos ge 0],strpos(newname[tmp[i]],(['Gray','gray'])[pos ge 0])
            newname[tmp[i]] = tmp1
+       endfor
+       for i=0,n_elements(newname)-1 do begin
+           if stregex(newname[i],'\-',/boolean) then newname[i] = strjoin(strsplit(newname[i],'-',/extract,/preserve_null),' ')
        endfor
     endif else if keyword_set(family) then begin  ;family
        newname = strmid(strupcase(strtrim(name,2))+'                     ',0,8)
@@ -103,6 +106,7 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
     if arg_present(after) or arg_present(existed) then begin
        read_ibn,bird=list,extra=extra
        list = reform_name(list,/gray)
+       extra = reform_name(extra,/gray)
        list_num = find_spec_pos(list)
        after = strarr(n_elements(name1))
        existed = bytarr(n_elements(name1))
@@ -630,7 +634,7 @@ end
 pro find_bird
     read_ibn,/all,line=line1& help,line1
     read_ibn,/all,extra=line & help,line
-line = [line,line1]
+    line = [line,line1]
     pattern0 = '\)\,\["'
     pattern1 = '2308ukbird'
     j = 0
@@ -672,4 +676,3 @@ function rotmatrix,r_axis,r_ang
   ind = where(abs(R) lt 1e-15,count) & if count gt 0 then R[ind] = 0d
   return,R
 end
-
