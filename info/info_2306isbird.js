@@ -41,7 +41,7 @@ function initAlbum(){
         this[1][11] = "欧绒鸭，西峡湾区德朗斯内斯小镇。";
         this[1][12] = "三趾鸥，西峡湾区德朗斯内斯小镇。";
         this[1][13] = "暴雪鹱，西峡湾区德朗斯内斯小镇。";
-        this[1][14] = "美洲银鸥，西峡湾区德朗斯内斯小镇。";
+        this[1][14] = "银鸥，西峡湾区德朗斯内斯小镇。";
         this[1][15] = "白鹡鸰，西峡湾区德朗斯内斯小镇。";
         this[1][16] = "岩雷鸟，雄性，西峡湾区Strandavegur路。";
         this[1][17] = "白眉歌鸫，西峡湾区Laugarhóll旅馆。";
@@ -129,7 +129,7 @@ function initAlbum(){
         this[1][11] = "Common Eider, Drangsnes, Westfjords.";
         this[1][12] = "Black-legged Kittiwake, Drangsnes, Westfjords.";
         this[1][13] = "Northern Fulmar, Drangsnes, Westfjords.";
-        this[1][14] = "Herring Gull, Drangsnes, Westfjords.";
+        this[1][14] = "European Herring Gull, Drangsnes, Westfjords.";
         this[1][15] = "White Wagtail, Drangsnes, Westfjords.";
         this[1][16] = "Rock Ptarmigan, male, Strandavegur, Westfjords.";
         this[1][17] = "Redwing, Hótel Laugarhóll, Westfjords.";
