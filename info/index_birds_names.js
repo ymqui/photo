@@ -267,7 +267,6 @@ var birds = myBirds([
 //  ["23-00-00T00:00","PEDIONOM","Plains-wanderer","领鹑","Pedionomus torquatus",[],["arb",""],"plawan1"],
 //  ["23-00-00T00:00","THINOCOR","Least Seedsnipe","小籽鹬","Thinocorus rumicivorus",[],["arb",""],"leasee1"],
     ["21-04-14T11:28","SCOLOPAC","Upland Sandpiper","高原鹬","Bartramia longicauda",["210414_046"],["vavava",gmap("Tidewater Trail, Caroline County",38.2277,-77.3089),"","","卡罗琳郡潮水公路"]],
-
     ["23-06-16T16:14","SCOLOPAC","Eurasian Whimbrel","中杓鹬","Numenius phaeopus",["2306isbird",19],["isisis","S141734657","Hótel Laugarhóll, Westfjords","","","西峡湾区Laugarhóll旅馆"],"whimbr1"],
     ["21-05-09T13:47","SCOLOPAC","Hudsonian Whimbrel","哈德森杓鹬","Numenius hudsonicus",["210509_066","210509_067",["2301pabird",72]],["vavava",(t1=gmap("Quinby Bridge Road, Accomack County",37.5656,-75.7438)),"","",(t2="阿科马克郡昆比桥路"),"vavava",t1,"","",t2,"pacasc","S126834645"],cornellurl("Whimbrel"),10932],
     ["20-01-23T10:49","SCOLOPAC","Long-billed Curlew","长嘴杓鹬","Numenius americanus",["2001txbirding",7],["txanwr"]],
