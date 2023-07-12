@@ -621,7 +621,8 @@ function initAlbum(){
     this[1][i++]  = (["Field trip to the Brookside Garden in Wheaton","去惠顿的溪边公园郊游"])[cn_ind];
     this[0][i]    = ["20230710_1","20230710_2"];
     this[1][i++]  = (["Swimming at Bohrer park","在Bohrer公园游泳"])[cn_ind];
-
+    this[0][i]    = ["20230711_1","20230711_2"];
+    this[1][i++]  = (["Visiting the National Aquarium in Baltimore","参观巴尔的摩的国家水族馆"])[cn_ind];
 
     adddate(this);
 }
