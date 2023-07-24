@@ -2,7 +2,7 @@
   var blnk = 'https://www.worldbirdnames.org/new/updates/';
   var clnk = 'https://en.wikipedia.org/wiki/List_of_sovereign_states';
   var btot = 11001;
-  var ctot = 0;
+  var ctot = 195;
   var gtot = 2376;
   var usechinese = /chinese/.test(window.location.search.substring(1));
   var cn_ind = usechinese?1:0;
