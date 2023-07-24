@@ -8,10 +8,8 @@ Gunnison Sage-Grouse,				Gunnison Grouse
 White Ibis,					American White Ibis
 Painted Redstart,				Painted Whitestart
 Eared Grebe,					Black-necked Grebe
-Square-tailed Drongo,				Common Square-tailed Drongo
 American Pipit,					Buff-bellied Pipit
 Cattle Egret,					Western Cattle Egret
-Osprey,						Western Osprey
 Rough-legged Hawk,				Rough-legged Buzzard
 Eurasian Moorhen,				Common Moorhen
 Rock Pigeon,					Rock Dove
