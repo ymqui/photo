@@ -72,10 +72,10 @@ end
 function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=birdname,namecomp=namecomp,locs=locs,movie=movie,tmpdir=tmpdir,totbird=totbird,country=country,extra=extra
     ;if keyword_set(ibn)      then return,'https://ymqui.github.io/photo/info/index_birds_names.js'
     if keyword_set(ibn)      then return,'C:\Users\qiuym\Desktop\index_birds_names.js'
-    if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v13.1.csv'
-    if keyword_set(chinese)  then return,'C:\Users\qiuym\Documents\Yiming\tmp\Multiling_IOC_V13.1.csv'
-    if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
-    ;if keyword_set(order)    then return,'C:\Users\qiuym\Desktop\index_birds_orders.js'
+    if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v13.2.csv'
+    if keyword_set(chinese)  then return,'C:\Users\qiuym\Documents\Yiming\tmp\Multiling_IOC_13.2.csv'
+    ;if keyword_set(order)    then return,'https://ymqui.github.io/photo/info/index_birds_orders.js'
+    if keyword_set(order)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\index_birds_orders.js'
     ;if keyword_set(namecomp) then return,'https://ymqui.github.io/photo/info/ibn_namecompare.txt'
     if keyword_set(namecomp) then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_namecompare.txt'
     if keyword_set(movie)    then return,'C:\Users\qiuym\Desktop\lifer.mp4'
@@ -363,8 +363,8 @@ pro check_order,ind_ord=ind_ord,ind_fam=ind_fam,allgood=allgood ;check if family
     newfam = family(sort(ind_fam))
     neword = order(sort(ind_ord))
     j = 0L
-    for i=0,n_elements(family)-1 do if family[i] ne newfam[i] then print, family[i],newfam[i],stdio=(j++)
-    for i=0,n_elements(order)-1 do if order[i] ne neword[i] then print,order[i],neword[i],stdio=(j++)
+    for i=0,n_elements(family)-1 do if family[i] ne newfam[i] then print, family[i],' ',newfam[i],stdio=(j++)
+    for i=0,n_elements(order)-1 do if order[i] ne neword[i] then print,order[i],' ',neword[i],stdio=(j++)
     if arg_present(allgood) then begin
        if j gt 0 then allgood = 0b
     endif else begin
