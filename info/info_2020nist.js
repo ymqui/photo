@@ -633,6 +633,9 @@ function initAlbum(){
     this[1][i++]  = (["Having lunch during the trip to Catoctin Wildlife Preserve","在卡托克廷野生动物保护区吃午餐"])[cn_ind];
     this[0][i]    = ["20230721_1","20230721_2"];
     this[1][i++]  = (["Summer camp activity","夏令营活动"])[cn_ind];
+    this[0][i]    = ["20230725_1","20230725_2"];
+    this[1][i++]  = (["Visiting the Adventure Park USA","去游乐园玩"])[cn_ind];
+
     adddate(this);
 }
 
