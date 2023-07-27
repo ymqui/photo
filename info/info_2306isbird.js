@@ -47,7 +47,7 @@ function initAlbum(){
         this[1][17] = "白眉歌鸫，西峡湾区Laugarhóll旅馆。";
         this[1][18] = "中杓鹬，西峡湾区Laugarhóll旅馆。";
         this[1][19] = "扇尾沙锥，西峡湾区Laugarhóll旅馆。";
-        this[1][20] = "白腰朱顶雀，西峡湾区Laugarhóll旅馆。";
+        this[1][20] = "白腰朱顶雀，雌性，西峡湾区Laugarhóll旅馆。";
         this[1][21] = "红脚鹬，西峡湾区Laugarhóll旅馆。";
         this[1][22] = "红脚鹬，西峡湾区Laugarhóll旅馆。";
         this[1][23] = "草地鹨，西峡湾区Laugarhóll旅馆。";
@@ -69,7 +69,7 @@ function initAlbum(){
         this[1][39] = "暴雪鹱，西北地区犀牛石。";
         this[1][40] = "欧乌鸫，未成年，东北地区Kjarnaskógur森林。";
         this[1][41] = "普通海鸥，东北地区Kjarnaskógur森林。";
-        this[1][42] = "白腰朱顶雀，东北地区Kjarnaskógur森林。";
+        this[1][42] = "白腰朱顶雀，雌性，东北地区Kjarnaskógur森林。";
         this[1][43] = "白眉歌鸫，东北地区Kjarnaskógur森林。";
         this[1][44] = "灰雁，东北地区阿克雷里市。";
         this[1][45] = "戴菊，未成年，东北地区Kjarnaskógur森林。";
@@ -135,7 +135,7 @@ function initAlbum(){
         this[1][17] = "Redwing, Hótel Laugarhóll, Westfjords.";
         this[1][18] = "Whimbrel, Hótel Laugarhóll, Westfjords.";
         this[1][19] = "Common Snipe, Hótel Laugarhóll, Westfjords.";
-        this[1][20] = "Common Redpoll, Hótel Laugarhóll, Westfjords.";
+        this[1][20] = "Common Redpoll, female, Hótel Laugarhóll, Westfjords.";
         this[1][21] = "Common Redshank, Hótel Laugarhóll, Westfjords.";
         this[1][22] = "Common Redshank, Hótel Laugarhóll, Westfjords.";
         this[1][23] = "Meadow Pipit, Hótel Laugarhóll, Westfjords.";
@@ -157,7 +157,7 @@ function initAlbum(){
         this[1][39] = "Northern Fulmar, Hvitserkur, Northwestern Region.";
         this[1][40] = "Eurasian Blackbird, juvenile, Kjarnaskógur, Northeastern Region.";
         this[1][41] = "Common Gull, Kjarnaskógur, Northeastern Region.";
-        this[1][42] = "Common Redpoll, Kjarnaskógur, Northeastern Region.";
+        this[1][42] = "Common Redpoll, female, Kjarnaskógur, Northeastern Region.";
         this[1][43] = "Redwing, Kjarnaskógur, Northeastern Region.";
         this[1][44] = "Graylag Goose, Akureyri, Northeastern Region.";
         this[1][45] = "Goldcrest, juvenile, Kjarnaskógur, Northeastern Region.";
@@ -200,7 +200,7 @@ function initAlbum(){
         this[1][82] = "Tufted Duck, female, Tjörnin Lake, Reykjavík";
         this[1][83] = "Mallard, male, Tjörnin Lake, Reykjavík";
         this[1][84] = "Eurasian Blackbird, male, Tjörnin Lake, Reykjavík";
-        this[1][85] = "Common Redpoll, immature, Tjörnin Lake, Reykjavík";
+        this[1][85] = "Common Redpoll, juvenile, Tjörnin Lake, Reykjavík";
         this[1][86] = "European Starling, Tjörnin Lake, Reykjavík";
     }
 }
