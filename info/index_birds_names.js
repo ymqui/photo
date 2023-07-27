@@ -797,7 +797,7 @@ var birds = myBirds([
 //  ["23-00-00T00:00","PEUCEDRA","Olive Warbler","橄榄绿森莺","Peucedramus taeniatus",["",],["azazaz",""],"oliwar"],
 //  ["23-00-00T00:00","PRUNELLI","Alpine Accentor","领岩鹨","Prunella collaris",[],["arb",""],"alpacc1"],
     ["16-01-12T15:04","MOTACILL","Grey Wagtail","灰鹡鸰","Motacilla cinerea",["1601china",50],["cnlydp"],"grywag"],
-    ["16-01-06T09:42","MOTACILL","White Wagtail","白鹡鸰","Motacilla alba",[["1601china",[31,56,59,60]],["2306isbird",16]],["cnjsxp","cnlydp","cnxmjm","cnxmjm","isisis","S141713912","Drangsnes, Westfjords","","","西峡湾区德朗斯内斯小镇"],"whiwag"],
+    ["16-01-06T09:42","MOTACILL","White Wagtail","白鹡鸰","Motacilla alba",[["1601china",[31,56,59,60]],["2306isbird",16]],["cnjsxp","cnlydp","cnxmjm","cnxmjm","Immature","isisis","S141713912","Drangsnes, Westfjords","","","西峡湾区德朗斯内斯小镇"],"whiwag"],
     ["23-06-23T12:15","MOTACILL","Meadow Pipit","草地鹨","Anthus pratensis",["2306isbird",75],["isisis","S142430735","Bakkatjörn, Capital Region","","","首都地区巴卡特约恩湖"],"meapip1"],
     ["16-01-12T16:06","MOTACILL","Olive-backed Pipit","树鹨","Anthus hodgsoni",["1601china",53],["cnlydp"],"olbpip"],
     ["15-07-08T17:06","MOTACILL","American Pipit","黄腹鹨","Anthus rubescens",["1507wbird",11],["arb",nps("olym","Olympic NP, Washington, USA"),baike("奥林匹克NP","美国华盛顿州")]],
