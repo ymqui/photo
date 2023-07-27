@@ -637,6 +637,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Adventure Park USA","去游乐园玩"])[cn_ind];
     this[0][i]    = "20230726_1";
     this[1][i++]  = (["Swimming at Bohrer park","在Bohrer公园游泳"])[cn_ind];
+    this[0][i]    = ["20230727_1","20230727_2","20230727_3"];
+    this[1][i++]  = (["Having fun at Fourth Dimension Fun Center in Frederick","在弗雷德里克的第四维度游乐中心玩"])[cn_ind];
 
     adddate(this);
 }
