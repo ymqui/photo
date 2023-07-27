@@ -353,7 +353,7 @@ var birds = myBirds([
 //  ["23-00-00T00:00","RHYNOCHE","Kagu","鹭鹤","Rhynochetos jubatus",[],["arb",""],"kagu1"],
     ["18-12-05T10:33","EURYPYGI","Sunbittern","日鳽","Eurypyga helias",["1812crbird",62],["crarol"],"sunbit1"],
 //  ["23-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",[],["arb",""],"whttro"],
-    ["16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[["2306isbird",79],"160326_025"],["isisis","S142431897","Adults and chick, Golfklúbbur Seltjarnarnes, Capital Region","","","首都地区塞尔特贾纳内斯高尔夫球场","ncoutb","Winter plumage","","at Jennette's Pier","珍妮特钓鱼码头"]],
+    ["16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[["2306isbird",79],"160326_025","220212_025"],["isisis","S142431897","Adults and chick, Golfklúbbur Seltjarnarnes, Capital Region","","","首都地区塞尔特贾纳内斯高尔夫球场","ncoutb","Winter plumage","","at Jennette's Pier","珍妮特钓鱼码头","njblsp","S102555804","Immature"]],
     ["21-05-26T12:15","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",["210526_084"],["vavava",gmap("Lake Holiday, Frederick County",39.3097,-78.3104),"","","弗雷德里克郡假日湖"]],
     ["15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[["1503barnegat",16],"220212_043",["1503barnegat",15],["2306isbird",4]],["njblsp","njblsp","S102555804","Winter plumage","njblsp","Juvenile","isisis","S141703789","Hólmavík, Westfjords","","","西峡湾区侯尔马维克小镇"]],
 //  ["23-00-00T00:00","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[],["arb",""],"kinpen1"],
