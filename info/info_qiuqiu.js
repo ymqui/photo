@@ -26,7 +26,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"],["2209parade","9/2022 Gaithersburg Labor Day Parade","9/2022 盖瑟斯堡劳动节游行"],
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
-                  ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"]];
+                  ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
