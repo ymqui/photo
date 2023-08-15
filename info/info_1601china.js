@@ -165,7 +165,7 @@ function initAlbum(){
         this[1][62] = "Chinese Pond Heron, winter plumage, Jimei, Xiamen, Fujian.";
         this[1][63] = "Large-billed Crow, Summer Palace, Beijing.";
         this[1][64] = "Large-billed Crow, Summer Palace, Beijing.";
-        this[1][65] = "Eurasian Magpie, Summer Palace, Beijing.";
+        this[1][65] = "Oriental Magpie, Summer Palace, Beijing.";
         this[1][66] = "Eurasian Sparrowhawk, Summer Palace, Beijing.";
         this[1][67] = "Willow Tit, Summer Palace, Beijing.";
         this[1][68] = "Chinese Nuthatch, Summer Palace, Beijing.";
