@@ -31,6 +31,10 @@ function initAlbum(){
     this[1][i++]  = (["Harvard University, Cambridge, Massachusetts, United States","哈佛大学，美国马萨诸塞州剑桥市"])[cn_ind];
     this[0][i]    = ["2108vacation/2108vacation_44","2108vacation/2108vacation_42","20210813"];
     this[1][i++]  = (["Princeton University, Princeton, New Jersey, United States","普林斯顿大学，美国新泽西州普林斯顿"])[cn_ind];
+    this[0][i]    = ["2308uk/2308uk_26","20230809"];
+    this[1][i++]  = (["Chirst Church, Oxford University, Oxford, United Kingdom","牛津大学基督堂学院，英国牛津"])[cn_ind];
+    this[0][i]    = ["2308uk/2308uk_36","20230811"];
+    this[1][i++]  = (["Trinity College, Cambridge University, Cambridge, United Kingdom","剑桥大学三一学院，英国剑桥"])[cn_ind];
 
     adddate(this);
 }

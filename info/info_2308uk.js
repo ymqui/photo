@@ -87,19 +87,19 @@ function initAlbum(){
         this[1][20] = "Visiting Stonehenge.";
         this[1][21] = "Paddington Bear in Paddington Station.";
         this[1][22] = "Paddington Bear in Paddington Station.";
-        this[1][23] = "Visiting Christ Church in the University of Oxford.";
-        this[1][24] = "Visiting Christ Church in the University of Oxford.";
-        this[1][25] = "Visiting Christ Church in the University of Oxford.";
-        this[1][26] = "Visiting Christ Church in the University of Oxford.";
-        this[1][27] = "Visiting Christ Church in the University of Oxford.";
-        this[1][28] = "Visiting Christ Church in the University of Oxford.";
+        this[1][23] = "Visiting Christ Church in Oxford University.";
+        this[1][24] = "Visiting Christ Church in Oxford University.";
+        this[1][25] = "Visiting Christ Church in Oxford University.";
+        this[1][26] = "Visiting Christ Church in Oxford University.";
+        this[1][27] = "Visiting Christ Church in Oxford University.";
+        this[1][28] = "Visiting Christ Church in Oxford University.";
         this[1][29] = "A wall painting in Camden Town, London.";
         this[1][30] = "Camden Town market.";
         this[1][31] = "Dover White Cliff.";
         this[1][32] = "Dover White Cliff.";
         this[1][33] = "Visiting Canterbury.";
-        this[1][34] = "Taking a punting tour in the University of Cambridge.";
-        this[1][35] = "Trinity College in the University of Cambridge.";
+        this[1][34] = "Taking a punting tour in Cambridge University.";
+        this[1][35] = "Trinity College in Cambridge University.";
     }
 }
  
