@@ -26,7 +26,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2208canada","8/2022 Trip to Canada","8/2022 加拿大之行"],["2209parade","9/2022 Gaithersburg Labor Day Parade","9/2022 盖瑟斯堡劳动节游行"],
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
-                  ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"]];
+                  ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
+                  ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -331,6 +332,8 @@ function initAlbum(){
     this[0][i]    = ["2306iceland/2306iceland_26","2306iceland/2306iceland_34","2306iceland/2306iceland_44",["20230622","20230622","20230623"]];
     this[1][i++]  = ([["Visiting Jökulsárlón glacier lagoon during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting Seljalandsfoss during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting the Blue Lagoon during the "+pagelink("2306iceland","vacation in Iceland")],
                     [pagelink("2306iceland","在冰岛度假")+"时游杰古沙龙冰河湖",pagelink("2306iceland","在冰岛度假")+"时游塞里雅兰瀑布",pagelink("2306iceland","在冰岛度假")+"时游蓝湖温泉"]])[cn_ind];
+    this[0][i]    = ["2308uk/2308uk_21","20230807"];
+    this[1][i++]  = (["Visiting the Stonehenge during the "+pagelink("2308uk","vacation in the United Kingdom"),"在"+pagelink("2308uk","英国度假")+"期间游威尔特郡的"+baike("巨石阵")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
