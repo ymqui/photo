@@ -649,6 +649,8 @@ function initAlbum(){
     this[1][i++]  = (["Swimming at Bohrer park","在Bohrer公园游泳"])[cn_ind];
     this[0][i]    = ["20230815_1","20230815_2"];
     this[1][i++]  = (["Foam party","泡泡派对"])[cn_ind];
+    this[0][i]    = "20230817_1";
+    this[1][i++]  = (["Indoor rock climbing","室内攀岩"])[cn_ind];
 
     adddate(this);
 }
