@@ -44,7 +44,7 @@ function initAlbum(){
         this[1][14] = "小嘴乌鸦，伦敦摄政公园。";
         this[1][15] = "北长尾山雀，伦敦摄政公园。";
         this[1][16] = "北长尾山雀，伦敦摄政公园。";
-        this[1][17] = "青山雀，伦敦摄政公园。";
+        this[1][17] = "青山雀，未成年，伦敦摄政公园。";
         this[1][18] = "庭园林莺，伦敦摄政公园。";
         this[1][19] = "秃鼻乌鸦，威尔特郡巨石阵。";
         this[1][20] = "寒鸦，威尔特郡巨石阵。";
@@ -118,7 +118,7 @@ function initAlbum(){
         this[1][14] = "Carrion Crow, Regent's Park, London.";
         this[1][15] = "Long-tailed Tit, Regent's Park, London.";
         this[1][16] = "Long-tailed Tit, Regent's Park, London.";
-        this[1][17] = "Eurasian Blue Tit, Regent's Park, London.";
+        this[1][17] = "Eurasian Blue Tit, juvenile, Regent's Park, London.";
         this[1][18] = "Garden Warbler, Regent's Park, London.";
         this[1][19] = "Rook, Stonehenge, Wiltshire.";
         this[1][20] = "Eurasian Jackdaw, Stonehenge, Wiltshire.";

@@ -697,7 +697,7 @@ var birds = myBirds([
     ["06-02-18T12:26","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",[["1412mckee",24],"210130_021"],["mdmwma","11/2014","vavava",gmap("Bacon Street, Yorktown",37.2323,-76.5062),"","","约克镇培根街"]],
     ["13-07-17T16:16","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",[["1609vcbird",11],["1408fingerlake",2]],["arb",gmap("Le Domaine de Maizerets, Québec City, Québec, Canada"),"加拿大魁北克省魁北克市Domaine de Maizerets公园","arb",gmap("Sapsucker Woods Sanctuary, Ithaca, New York, USA"),"美国纽约州伊萨卡啄木鸟树林保护区"]],
     ["16-01-15T13:47","PARIDAE ","Willow Tit","褐头山雀","Poecile montanus",["1601china",68],["cnbjsp"],"wiltit1"],
-    ["23-08-06T07:56","PARIDAE ","Eurasian Blue Tit","青山雀","Cyanistes caeruleus",["2308ukbird",[49,18]],["ukregp","S146922493","ukregp","S146565886"],"blutit"],
+    ["23-08-06T07:56","PARIDAE ","Eurasian Blue Tit","青山雀","Cyanistes caeruleus",["2308ukbird",[49,18]],["ukregp","S146922493","ukregp","S146565886","Juvenile"],"blutit"],
     ["23-08-08T10:53","PARIDAE ","Great Tit","欧亚大山雀","Parus major",["2308ukbird",[45,31]],["ukregp","S146922493","uklwcn","S146754960","Juvenile"],"gretit1","大山雀"],
     ["16-01-05T10:13","PARIDAE ","Japanese Tit","大山雀","Parus minor",["1601china",[21,22]],["cnjsxp"],"gretit4","远东山雀"],
     ["19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[["1905mxbird",25],["2208azbird",4]],["mxguan","azsndm","S116522318"]],
