@@ -1361,6 +1361,11 @@
   info[2][j] = 2;
   info[3][j] = "6/2023 Iceland Birding";
   info[4][j++] = "Birding in Iceland (Iceland).";
+  info[0][j] = "2308ukbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "8/2023 England Birding";
+  info[4][j++] = "Birding in England (United Kingdom).";
 
   if(window.usechinese){
      j = 0;
@@ -1904,6 +1909,8 @@
      info[4][j++] = "在巴拿马城和索韦拉尼亚国家公园观鸟(巴拿马)。";
      info[3][j]   = "6/2023 冰岛观鸟";
      info[4][j++] = "在冰岛观鸟(冰岛)。";
+     info[3][j]   = "8/2023 英国观鸟";
+     info[4][j++] = "在英国观鸟(英国)。";
   } 
 
   //special touch
@@ -1922,5 +1929,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2023-06-27T08:00:00");
+  var modDat = new Date("2023-08-17T08:00:00");
 //-->
