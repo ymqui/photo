@@ -27,7 +27,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "欧乌鸫，伦敦摄政公园。";
+        this[1][0] = "欧乌鸫，雄性，伦敦摄政公园。";
         this[1][1] = "苍鹭，伦敦摄政公园。";
         this[1][2] = "林岩鹨，伦敦摄政公园。";
         this[1][3] = "斑尾林鸽，伦敦摄政公园。";
@@ -101,7 +101,7 @@ function initAlbum(){
         this[1][71] = "欧亚鸲，伦敦摄政公园。";
         this[1][72] = "欧柳莺，伦敦摄政公园。";
     }else{
-        this[1][0] = "Eurasian Blackbird, Regent's Park, London.";
+        this[1][0] = "Eurasian Blackbird, male, Regent's Park, London.";
         this[1][1] = "Gray Heron, Regent's Park, London.";
         this[1][2] = "Dunnock, Regent's Park, London.";
         this[1][3] = "Common Wood Pigeon, Regent's Park, London.";
