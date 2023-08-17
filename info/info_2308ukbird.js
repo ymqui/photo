@@ -70,7 +70,7 @@ function initAlbum(){
         this[1][40] = "红领绿鹦鹉，雌性，伦敦湿地中心。";
         this[1][41] = "白骨顶，伦敦湿地中心。";
         this[1][42] = "寒鸦，伦敦湿地中心。";
-        this[1][43] = "黑顶林莺，雌性，伦敦摄政运河小道。";
+        this[1][43] = "黑顶林莺，雌性，伦敦摄政运河步道。";
         this[1][44] = "欧亚大山雀，伦敦摄政公园。";
         this[1][45] = "黑顶林莺，雄性，伦敦摄政公园。";
         this[1][46] = "普通䴓，伦敦摄政公园。";
@@ -144,7 +144,7 @@ function initAlbum(){
         this[1][40] = "Rose-ringed Parakeet, female, London Wetland Centre.";
         this[1][41] = "Eurasian Coot, London Wetland Centre.";
         this[1][42] = "Eurasian Jackdaw, London Wetland Centre.";
-        this[1][43] = "Eurasian Blackcap, female, Regent Canal Walk, London.";
+        this[1][43] = "Eurasian Blackcap, female, Regent's Canal Walk, London.";
         this[1][44] = "Great Tit, Regent's Park, London.";
         this[1][45] = "Eurasian Blackcap, male, Regent's Park, London.";
         this[1][46] = "Eurasian Nuthatch, Regent's Park, London.";
