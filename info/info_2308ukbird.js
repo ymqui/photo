@@ -27,7 +27,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "欧乌鸫，雄性，伦敦摄政公园。";
+        this[1][0] = "欧乌鸫，伦敦摄政公园。";
         this[1][1] = "苍鹭，伦敦摄政公园。";
         this[1][2] = "林岩鹨，伦敦摄政公园。";
         this[1][3] = "斑尾林鸽，伦敦摄政公园。";
@@ -44,11 +44,11 @@ function initAlbum(){
         this[1][14] = "小嘴乌鸦，伦敦摄政公园。";
         this[1][15] = "北长尾山雀，伦敦摄政公园。";
         this[1][16] = "北长尾山雀，伦敦摄政公园。";
-        this[1][17] = "青山雀，未成年，伦敦摄政公园。";
+        this[1][17] = "青山雀，伦敦摄政公园。";
         this[1][18] = "庭园林莺，伦敦摄政公园。";
         this[1][19] = "秃鼻乌鸦，威尔特郡巨石阵。";
         this[1][20] = "寒鸦，威尔特郡巨石阵。";
-        this[1][21] = "秃鼻乌鸦，未成年，威尔特郡巨石阵。";
+        this[1][21] = "小嘴乌鸦，威尔特郡巨石阵。";
         this[1][22] = "红额金翅雀，威尔特郡巨石阵。";
         this[1][23] = "白鹡鸰，威尔特郡巨石阵。";
         this[1][24] = "欧亚鵟，威尔特郡巨石阵。";
@@ -70,7 +70,7 @@ function initAlbum(){
         this[1][40] = "红领绿鹦鹉，雌性，伦敦湿地中心。";
         this[1][41] = "白骨顶，伦敦湿地中心。";
         this[1][42] = "寒鸦，伦敦湿地中心。";
-        this[1][43] = "黑顶林莺，雌性，伦敦摄政运河步道。";
+        this[1][43] = "黑顶林莺，雌性，伦敦摄政运河小道。";
         this[1][44] = "欧亚大山雀，伦敦摄政公园。";
         this[1][45] = "黑顶林莺，雄性，伦敦摄政公园。";
         this[1][46] = "普通䴓，伦敦摄政公园。";
@@ -101,7 +101,7 @@ function initAlbum(){
         this[1][71] = "欧亚鸲，伦敦摄政公园。";
         this[1][72] = "欧柳莺，伦敦摄政公园。";
     }else{
-        this[1][0] = "Eurasian Blackbird, male, Regent's Park, London.";
+        this[1][0] = "Eurasian Blackbird, Regent's Park, London.";
         this[1][1] = "Gray Heron, Regent's Park, London.";
         this[1][2] = "Dunnock, Regent's Park, London.";
         this[1][3] = "Common Wood Pigeon, Regent's Park, London.";
@@ -118,11 +118,11 @@ function initAlbum(){
         this[1][14] = "Carrion Crow, Regent's Park, London.";
         this[1][15] = "Long-tailed Tit, Regent's Park, London.";
         this[1][16] = "Long-tailed Tit, Regent's Park, London.";
-        this[1][17] = "Eurasian Blue Tit, juvenile, Regent's Park, London.";
+        this[1][17] = "Eurasian Blue Tit, Regent's Park, London.";
         this[1][18] = "Garden Warbler, Regent's Park, London.";
         this[1][19] = "Rook, Stonehenge, Wiltshire.";
         this[1][20] = "Eurasian Jackdaw, Stonehenge, Wiltshire.";
-        this[1][21] = "Rook, juvenile, Stonehenge, Wiltshire.";
+        this[1][21] = "Carrion Crow, Stonehenge, Wiltshire.";
         this[1][22] = "European Goldfinch, Stonehenge, Wiltshire.";
         this[1][23] = "White Wagtail, Stonehenge, Wiltshire.";
         this[1][24] = "Common Buzzard, Stonehenge, Wiltshire.";
@@ -144,7 +144,7 @@ function initAlbum(){
         this[1][40] = "Rose-ringed Parakeet, female, London Wetland Centre.";
         this[1][41] = "Eurasian Coot, London Wetland Centre.";
         this[1][42] = "Eurasian Jackdaw, London Wetland Centre.";
-        this[1][43] = "Eurasian Blackcap, female, Regent's Canal Walk, London.";
+        this[1][43] = "Eurasian Blackcap, female, Regent Canal Walk, London.";
         this[1][44] = "Great Tit, Regent's Park, London.";
         this[1][45] = "Eurasian Blackcap, male, Regent's Park, London.";
         this[1][46] = "Eurasian Nuthatch, Regent's Park, London.";
