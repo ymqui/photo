@@ -48,7 +48,7 @@ function initAlbum(){
         this[1][18] = "庭园林莺，伦敦摄政公园。";
         this[1][19] = "秃鼻乌鸦，威尔特郡巨石阵。";
         this[1][20] = "寒鸦，威尔特郡巨石阵。";
-        this[1][21] = "小嘴乌鸦，威尔特郡巨石阵。";
+        this[1][21] = "秃鼻乌鸦，未成年，威尔特郡巨石阵。";
         this[1][22] = "红额金翅雀，威尔特郡巨石阵。";
         this[1][23] = "白鹡鸰，威尔特郡巨石阵。";
         this[1][24] = "欧亚鵟，威尔特郡巨石阵。";
@@ -122,7 +122,7 @@ function initAlbum(){
         this[1][18] = "Garden Warbler, Regent's Park, London.";
         this[1][19] = "Rook, Stonehenge, Wiltshire.";
         this[1][20] = "Eurasian Jackdaw, Stonehenge, Wiltshire.";
-        this[1][21] = "Carrion Crow, Stonehenge, Wiltshire.";
+        this[1][21] = "Rook, juvenile, Stonehenge, Wiltshire.";
         this[1][22] = "European Goldfinch, Stonehenge, Wiltshire.";
         this[1][23] = "White Wagtail, Stonehenge, Wiltshire.";
         this[1][24] = "Common Buzzard, Stonehenge, Wiltshire.";
