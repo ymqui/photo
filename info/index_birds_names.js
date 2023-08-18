@@ -527,7 +527,7 @@ var birds = myBirds([
     ["16-06-12T08:14","PSITTACI","Blue-crowned Parakeet","蓝冠鹦哥","Thectocercus acuticaudatus",["1606florida",24],["flflfl",gmap("South Beach, Miami",25.789,-80.1283),"","","迈阿密南滩"],"bucpar"],
     ["16-06-12T07:14","PSITTACI","Red-masked Parakeet","红头鹦哥","Psittacara erythrogenys",["1606florida",[22,21]],["flflfl",gmap("Lincoln Road Mall, Miami",25.7905,-80.1367),"","","迈阿密林肯路购物中心"],"rempar",4200],
     ["18-12-02T06:03","PSITTACI","Crimson-fronted Parakeet","绯额鹦哥","Psittacara finschi",["1812crbird",1],["crsanj",gmap("Plaza Juan Mora Fernandez",9.9332,-84.0777),"","","胡安莫拉费尔南德斯广场"],"crfpar"],
-    ["15-07-12T11:15","PSITTACU","Rose-ringed Parakeet","红领绿鹦鹉","Psittacula krameri",[["1507wbird",[50,48]],["2308ukbird",71]],["cabake","Male, "+gmap("Beale Park",35.3625,-119.0251),"","","比尔公园","cabake","Female, "+gmap("Beale Park",35.3625,-119.0251),"","","比尔公园","ukregp","S147032481"],"rorpar"],
+    ["15-07-12T11:15","PSITTACU","Rose-ringed Parakeet","红领绿鹦鹉","Psittacula krameri",[["1507wbird",[50,48]],["2308ukbird",71]],["cabake","Male, "+gmap("Beale Park",35.3625,-119.0251),"","","比尔公园","cabake","Female, "+gmap("Beale Park",35.3625,-119.0251),"","","比尔公园","ukregp","S147032481","Female"],"rorpar"],
     ["22-08-10T11:05","PSITTACU","Rosy-faced Lovebird","粉脸牡丹鹦鹉","Agapornis roseicollis",["2208azbird",65],["azazaz","S116675218",hotspot("L357429","Chaparral Park, Scottsdale"),"","","斯科茨代尔市丛林公园"],"peflov",4391],
 //  ["23-00-00T00:00","ACANTHIS","Rifleman","刺鹩","Acanthisitta chloris",[],["arb",""],"riflem1"],
 //  ["23-00-00T00:00","SAPAYOID","Sapayoa","阔嘴霸鹟","Sapayoa aenigma",[],["arb",""],"sapayo1"],
