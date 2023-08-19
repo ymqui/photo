@@ -35,6 +35,7 @@ function initAlbum(){
         this[1][3] = "参观大英博物馆。";
         this[1][4] = "维纳斯雕像。";
         this[1][5] = "参观大英博物馆。";
+        this[1][6] = "希腊帕特农神庙大理石雕像。";
         this[1][7] = "参观大英博物馆。";
         this[1][8] = "中国清朝地图。";
         this[1][9] = "参观大英博物馆。";
@@ -71,6 +72,7 @@ function initAlbum(){
         this[1][3] = "Visiting the British Museum.";
         this[1][4] = "Crouching Venus statute in the British Museum.";
         this[1][5] = "Visiting the British Museum.";
+        this[1][6] = "Parthenon marbles.";
         this[1][7] = "Visiting the British Museum.";
         this[1][8] = "Map of China in Qing Dynasty.";
         this[1][9] = "Visiting the British Museum.";
