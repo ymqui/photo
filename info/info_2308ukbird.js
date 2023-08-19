@@ -95,7 +95,7 @@ function initAlbum(){
         this[1][65] = "疣鼻天鹅，未成年，伦敦摄政公园。";
         this[1][66] = "赤嘴潜鸭，雄性，伦敦摄政公园。";
         this[1][67] = "小䴙䴘，伦敦摄政公园。";
-        this[1][68] = "大斑啄木鸟，雄性，伦敦摄政公园。";
+        this[1][68] = "大斑啄木鸟，未成年雄性，伦敦摄政公园。";
         this[1][69] = "煤山雀，伦敦摄政公园。";
         this[1][70] = "红领绿鹦鹉，雌性，伦敦摄政公园。";
         this[1][71] = "欧亚鸲，伦敦摄政公园。";
@@ -169,7 +169,7 @@ function initAlbum(){
         this[1][65] = "Mute Swan, juvenile, Regent's Park, London.";
         this[1][66] = "Red-crested Pochard, male, Regent's Park, London.";
         this[1][67] = "Little Grebe, Regent's Park, London.";
-        this[1][68] = "Great Spotted Woodpecker, male, Regent's Park, London.";
+        this[1][68] = "Great Spotted Woodpecker, juvenile male, Regent's Park, London.";
         this[1][69] = "Coal Tit, Regent's Park, London.";
         this[1][70] = "Rose-ringed Parakeet, female, Regent's Park, London.";
         this[1][71] = "European Robin, Regent's Park, London.";
