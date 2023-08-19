@@ -78,7 +78,7 @@ function initAlbum(){
         this[1][48] = "青山雀，伦敦摄政公园。";
         this[1][49] = "斑尾林鸽，未成年，伦敦摄政公园。";
         this[1][50] = "林岩鹨，伦敦摄政公园。";
-        this[1][51] = "灰白喉林莺，多佛白崖。";
+        this[1][51] = "灰白喉林莺，雌性/未成年，多佛白崖。";
         this[1][52] = "林岩鹨，未成年，多佛白崖。";
         this[1][53] = "黄鹀，雄性，多佛白崖。";
         this[1][54] = "草地鹨，多佛白崖。";
@@ -152,7 +152,7 @@ function initAlbum(){
         this[1][48] = "Eurasian Blue Tit, Regent's Park, London.";
         this[1][49] = "Common Wood Pigeon, juvenile, Regent's Park, London.";
         this[1][50] = "Dunnock, Regent's Park, London.";
-        this[1][51] = "Greater Whitethroat, Dover White Cliff.";
+        this[1][51] = "Greater Whitethroat, female/immature, Dover White Cliff.";
         this[1][52] = "Dunnock, juvenile, Dover White Cliff.";
         this[1][53] = "Yellowhammer, male, Dover White Cliff.";
         this[1][54] = "Meadow Pipit, Dover White Cliff.";

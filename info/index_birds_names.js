@@ -739,7 +739,7 @@ var birds = myBirds([
     ["16-01-12T16:09","CISTICOL","Common Tailorbird","长尾缝叶莺","Orthotomus sutorius",["1601china",[54,55]],["cnlydp"],"comtai1"],
     ["23-08-09T06:16","SYLVIIDA","Eurasian Blackcap","黑顶林莺","Sylvia atricapilla",["2308ukbird",[46,44]],["ukregp","S146922493","Male","arb","S146853272","Female, Regent's Canal Walk, London, United Kingdom","","","英国伦敦摄政运河步道"],"blackc1"],
     ["23-08-06T08:10","SYLVIIDA","Garden Warbler","庭园林莺","Sylvia borin",["2308ukbird",19],["ukregp","S146565886"],"garwar1"],
-    ["23-08-10T10:40","SYLVIIDA","Greater Whitethroat","灰白喉林莺","Curruca communis",["2308ukbird",52],["ukdove","S146958151"],"grewhi1"],
+    ["23-08-10T10:40","SYLVIIDA","Greater Whitethroat","灰白喉林莺","Curruca communis",["2308ukbird",52],["ukdove","S146958151","Female/immature"],"grewhi1"],
 //  ["23-00-00T00:00","PARADOXO","Wrentit","鹪雀莺","Chamaea fasciata",[],["arb",""]],
     ["16-01-11T14:29","ZOSTEROP","Warbling White-eye","日本绣眼鸟","Zosterops japonicus",[["1704longyan",13],["1601china",46]],["cnlydp","cnlydp"],"warwhe1",8245],
 //  ["23-00-00T00:00","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",[],["arb",""],"sbsbab3"],
