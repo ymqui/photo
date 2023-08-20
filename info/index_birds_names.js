@@ -912,7 +912,7 @@ var birds = myBirds([
     ["06-07-01T09:43","ICTERIDA","Orchard Oriole","圃拟鹂","Icterus spurius",[["1604asheville",11],["1604asheville",10],["1505bombayhook",12]],["ncllmp","Male","ncllmp","Female","debnwr","Juvenile male"]],
     ["06-07-22T10:00","ICTERIDA","Red-winged Blackbird","红翅黑鹂","Agelaius phoeniceus",[["1505capemay",9],"230423_042","170611_071"],["njnjnj","Male, "+gmap("South Cape May Meadows"),"","","南五月岬草甸","mdredg","S134768768","Female","mdmwma","Immature"]],
     ["19-05-12T10:37","ICTERIDA","Bronzed Cowbird","铜色牛鹂","Molothrus aeneus",["1905mxbird",22],["mxunam","Male"]],
-    ["06-07-16T09:30","ICTERIDA","Brown-headed Cowbird","褐头牛鹂","Molothrus ater",["160417_039",["1412mckee",29]],["mdbhrp","Male","mdmwma","11/2014","Female"]],
+    ["06-07-16T09:30","ICTERIDA","Brown-headed Cowbird","褐头牛鹂","Molothrus ater",["160417_039",["1412mckee",29],"230820_108"],["mdbhrp","Male","mdmwma","11/2014","Female","mdwoot","S147691025","Juvenile"]],
     ["18-12-06T13:54","ICTERIDA","Melodious Blackbird","艳拟鹂","Dives dives",["1812crbird",80],["crarol"],"melbla1"],
     ["14-11-11T12:32","ICTERIDA","Rusty Blackbird","锈色黑鹂","Euphagus carolinus",["1412mckee",[27,28]],["mdmwma","11/2014","Male","mdmwma","11/2014","Female"]],
     ["15-07-12T09:23","ICTERIDA","Brewer's Blackbird","蓝头黑鹂","Euphagus cyanocephalus",["1507wbird",[39,38]],["cabake","M"+(t1="ale, "+gmap("Yokuts Park")),"","","约库特公园","cabake","Fem"+t1,"","","约库特公园"]],
