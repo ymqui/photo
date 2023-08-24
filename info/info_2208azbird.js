@@ -61,7 +61,7 @@ function initAlbum(){
         this[1][32] = "巾冠拟鹂，雄性，盒子峡谷路。";
         this[1][33] = "巾冠拟鹂，雄性，盒子峡谷路。";
         this[1][34] = "杂色彩鹀，雄性，盒子峡谷路。";
-        this[1][35] = "杂色彩鹀，雌性，盒子峡谷路。";
+        this[1][35] = "杂色彩鹀，未成年雄性，盒子峡谷路。";
         this[1][36] = "棕曲嘴鹪鹩，盒子峡谷路。";
         this[1][37] = "五纹漠鹀，盒子峡谷路。";
         this[1][38] = "R棕煌蜂鸟，佩顿蜂鸟中心。";
@@ -138,7 +138,7 @@ function initAlbum(){
         this[1][32] = "Hooded Oriole, male, Box Canyon Road.";
         this[1][33] = "Hooded Oriole, male, Box Canyon Road.";
         this[1][34] = "Varied Bunting, male, Box Canyon Road.";
-        this[1][35] = "Varied Bunting, female, Box Canyon Road.";
+        this[1][35] = "Varied Bunting, immature male, Box Canyon Road.";
         this[1][36] = "Cactus Wren, Box Canyon Road.";
         this[1][37] = "Five-striped Sparrow, Box Canyon Road.";
         this[1][38] = "Rufous Hummingbird, Paton Center for Hummingbirds.";
