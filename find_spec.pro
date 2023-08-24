@@ -119,10 +119,10 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
         if count ne 0 then line[i] = ind[count-1]
         if arg_present(after) then after[i] = list[(where(list_num lt line[i]))[-1]]
         if arg_present(existed) then begin
-           tmp = where(stregex(list,name1[i],/fold_case,/boolean),tmpcnt)
+           tmp = where(stregex(list,'^'+name1[i]+'$',/fold_case,/boolean),tmpcnt)
            existed[i] = (tmpcnt eq 1)
            if (tmpcnt ne 1) then begin
-              tmp = where(stregex(extra,name1[i],/fold_case,/boolean),tmpcnt)
+              tmp = where(stregex(extra,'"'+name1[i]+'"',/fold_case,/boolean),tmpcnt)
               existed[i] = (tmpcnt eq 1)*2
            endif
         endif
@@ -140,7 +140,7 @@ function find_spec_pos,name,print=print,after=after,latin=latin,existed=existed,
 end
 
 ;keyword n_spec for number of species, may include extinct ones
-pro read_excel,birds=birds,header=header,latin=latin,data=data,family=family,n_spec=n_spec,chinese=chinese
+pro read_excel,birds=birds,header=header,latin=latin,data=data,family=family,n_spec=n_spec,chinese=chinese,nocomp=nocomp
     if arg_present(chinese) then begin
        file = get_filename(/chinese)
        data = READ_CSV(file, HEADER=SedHeader,N_TABLE_HEADER=1, TABLE_HEADER=header)
@@ -170,7 +170,7 @@ pro read_excel,birds=birds,header=header,latin=latin,data=data,family=family,n_s
           birds = [strtrim(data.(ind0[0]),2),birds]
        endif
     endelse
-    if n_elements(birds) ne 0 then begin
+    if (n_elements(birds) ne 0) and ~keyword_set(nocomp) then begin
        name2 = get_filename(/birdname) ;list of names need to changed
        for i=0,n_elements(name2[0,*])-1 do begin
            ind = where(strmatch(birds,name2[1,i],/fold_case),count2)
@@ -481,7 +481,7 @@ pro write_stat
     line = ourl->get(url=file,/string_array)
     obj_destroy, ourl
     for i=0,n_elements(line)-1 do begin
-        if stregex(line[i],'[0-9]+[^0-9]+member states',/boolean) then begin
+        if stregex(line[i],'[0-9]{3}[^0-9]+member states',/boolean) then begin
            tmp = stregex(line[i],'([0-9]+)[^0-9]+member states.*([0-9]+)[^0-9]+observer states',/SUBEXPR,/EXTRACT)
            if n_elements(tmp) eq 3 then begin
               ncount = fix(tmp[1])+fix(tmp[2])
@@ -632,12 +632,12 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
 end
 
 pro find_bird
-    read_ibn,/all,line=line1& help,line1
-    read_ibn,/all,extra=line & help,line
-    line = [line,line1]
+    read_ibn,/all,line=line& help,line
+;    read_ibn,/all,extra=line1 & help,line1
+;    line = [line1,line]
     pattern0 = '\)\,\["'
     pattern1 = '2308ukbird'
-    j = 0
+    j = 1
     for i=0,n_elements(line)-1 do begin    
         if stregex(line[i],pattern1,/fold_case,/boolean)  then print,j++,line[i]
            
@@ -669,10 +669,12 @@ pro count_family
     endfor
 end
 
-function rotmatrix,r_axis,r_ang
-  ang = r_ang*!dpi/(180d) & cosang = cos(ang) & sinang = sin(ang)
-  if norm(r_axis) ne 1 then r_axis = r_axis/norm(r_axis,/double)
-  R   = cosang*Identity(3)+sinang*([[0.,-r_axis[2],r_axis[1]],[r_axis[2],0,-r_axis[0]],[-r_axis[1],r_axis[0],0]])+(1-cosang)*(r_axis#transpose(r_axis))
-  ind = where(abs(R) lt 1e-15,count) & if count gt 0 then R[ind] = 0d
-  return,R
+pro check_compare
+    tmp = read_namecomp()
+    read_excel,birds=birds,/nocomp
+    for i=0,n_elements(tmp[1,*])-1 do begin
+        id = where(birds eq tmp[1,i],cnt)
+        if cnt eq 0 then print,tmp[1,i],' is not in the list'
+    endfor
+    print,'Done'
 end
