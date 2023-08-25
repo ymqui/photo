@@ -27,7 +27,7 @@
 //  ["23-00-00T00:00","SCOLOPAC","Eurasian Curlew","白腰杓鹬","Numenius arquata",["2308ukbird",],["ukregp",""],"eurcur"],
 //  ["23-00-00T00:00","CHARADRI","Little Ringed Plover","金眶鸻","Charadrius dubius",["2308ukbird",],["ukregp",""],"lirplo"],
 //  ["23-00-00T00:00","RECURVIR","Black-winged Stilt","黑翅长脚鹬","Himantopus himantopus",["",],["",""],"bkwsti"],
-//  ["23-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",[],["flflfl","12/2022,",gmap("Alfred McKethan Pine Island Park, Hernando County"),"","","埃尔南多郡阿尔弗雷德麦基森松岛公园"]],
+//  ["23-00-00T00:00","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",["230826_"],["mdmdmd","S",gmap("Sandy Point State Park",39.0118,-76.3954),"","","沙点州立公园"]],
 //  ["23-00-00T00:00","LARIDAE ","Elegant Tern","美洲凤头燕鸥","Thalasseus elegans",[],["azazaz","8/2022,",gmap("Arthur Pack Regional Park, Pima County",32.3744,-111.0549),"","","皮马郡亚瑟帕克公园"],1745], 
 //  ["23-00-00T00:00","GAVIIDAE","Arctic Loon","黑喉潜鸟","Gavia arctica",["",],["",""],"arcloo"],
 //  ["23-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[],["fldtnp","1/2023,"]],
