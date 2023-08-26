@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2023-08-17T08:00");
+var modTim = modTime("2023-08-26T08:00");
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -323,6 +323,7 @@ var birds = myBirds([
     ["21-08-22T16:25","LARIDAE ","Black-headed Gull","红嘴鸥","Chroicocephalus ridibundus",[["2306isbird",6],["2308ukbird",13],"220206_031"],["isisis","S141703789","Hólmavík, Westfjords","","","西峡湾区侯尔马维克小镇","ukregp","S146565886","njnjnj","S102167692","Nonbreeding adult, Manasquan Inlet, Ocean County","","","海洋郡马纳斯泉海口"]],
     ["21-04-07T12:13","LARIDAE ","Little Gull","小鸥","Hydrocoloeus minutus",["210407_038"],["mdmdmd","Nonbreeding adult, "+gmap("Cox Point Park, Baltimore County"),"","","巴尔的摩郡考克斯角公园"]],
     ["06-07-16T14:43","LARIDAE ","Laughing Gull","笑鸥","Leucophaeus atricilla",[["0607outerbanks",28],["1505capemay",3],"161105_112",["2108racepoint",6]],["ncoutb","njnjnj",gmap("Cape May Point State Park"),"","","五月岬州立公园","mdocci","Winter plumage","",gmap("Inlet",38.3244,-75.0854),"海口","marace","Juvenile"]],
+    ["23-08-26T10:07","LARIDAE ","Franklin's Gull","弗氏鸥","Leucophaeus pipixcan",["230826_113"],["mdmdmd","S148131222""Nonbreeding adult, "+gmap("Sandy Point State Park",39.0118,-76.3954),"","","沙点州立公园"]],
     ["15-07-09T13:34","LARIDAE ","Heermann's Gull","红嘴灰鸥","Larus heermanni",["1507wbird",22],["waneah",gmap("Hobuck Beach"),"","","霍巴克海滩"]],
     ["23-06-18T16:38","LARIDAE ","Common Gull","普通海鸥","Larus canus",["2306isbird",42],["isisis","S142693663","Kjarnaskógur, Northeastern Region","","","东北地区Kjarnaskógur森林"],"mewgul","海鸥"], 
     ["05-11-26T09:57","LARIDAE ","Ring-billed Gull","环嘴鸥","Larus delawarensis",["220206_033","150321_037"],["njnjnj","S102167692","Nonbreeding adult, Manasquan Inlet, Ocean County","","","海洋郡马纳斯泉海口","mdmdmd","1st winter, "+gmap("Southwest Area Park, Baltimore",39.2347,-76.6227),"","","巴尔的摩西南地区公园"]],
