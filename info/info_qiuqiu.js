@@ -337,7 +337,7 @@ function initAlbum(){
     school        = pagelink("2023fallsmead",(["Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     school1       = pagelink("2023fallsmead",(["The Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     this[0][i]    = ["2023fallsmead/20230828_1","20230828"];
-    this[1][i++]  = (["First day to "+school,"第一天上"+school])[cn_ind];
+    this[1][i++]  = (["First day to "+school+" (Kindergarten)","第一天上"+school+"(幼儿园)"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
