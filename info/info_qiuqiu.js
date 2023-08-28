@@ -27,8 +27,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
-                  ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"]];
-//,["2308fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
+                  ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -41,8 +40,8 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
-    daycare       = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
-    daycare1      = pagelink("2018goddard",(["The Goddard School","戈达德托儿所"])[cn_ind]);
+    school  = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
+    school1 = pagelink("2018goddard",(["The Goddard School","戈达德托儿所"])[cn_ind]);
     if (showall) {
        this[0][i]    = "20170128_001_OvulationTest";
        this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
@@ -122,15 +121,15 @@ function initAlbum(){
     this[0][i]    = ["1806myrtlebeach/1806myrtlebeach_2","20180603"];
     this[1][i++]  = ([pagelink("1806myrtlebeach","Vacationing at Myrtle Beach, South Carolina"),"和妈妈在"+pagelink("1806myrtlebeach","南卡罗来纳州美特尔海滩度假")])[cn_ind];
     this[0][i]    = "20180618_028_GoddardSchool";
-    this[1][i++]  = (["Nathan is going to "+daycare,"球球上"+daycare+"了"])[cn_ind];
+    this[1][i++]  = (["Nathan is going to "+school,"球球上"+school+"了"])[cn_ind];
     this[0][i]    = "20180618_029_GoddardSchool";
-    this[1][i++]  = (["First day at "+daycare+", Mom was heartbroken","第一天上"+daycare+"，妈妈好舍不得"])[cn_ind];
+    this[1][i++]  = (["First day at "+school+", Mom was heartbroken","第一天上"+school+"，妈妈好舍不得"])[cn_ind];
     this[0][i]    = "20180620_030_Painting";
     this[1][i++]  = (["Nathan's first painting","球球画的第一幅画"])[cn_ind];
     this[0][i]    = "20180620_031_PonyRide";
-    this[1][i++]  = (["Pony ride at "+daycare+" with the help of Ms Mfuta","在"+daycare+"骑小马，Mfuta老师抱着还是有点害怕"])[cn_ind];
+    this[1][i++]  = (["Pony ride at "+school+" with the help of Ms Mfuta","在"+school+"骑小马，Mfuta老师抱着还是有点害怕"])[cn_ind];
     this[0][i]    = "20180628_Waterday";
-    this[1][i++]  = (["Water day at "+daycare,daycare+"的玩水日"])[cn_ind];
+    this[1][i++]  = (["Water day at "+school,school+"的玩水日"])[cn_ind];
     this[0][i]    = "20180629_035_TeetherWafer";
     this[1][i++]  = (["Chewing on a teething wafer","嚼磨牙饼干"])[cn_ind];
     this[0][i]    = "20180731_Home";
@@ -194,11 +193,11 @@ function initAlbum(){
     this[0][i]    = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++]  = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
     this[0][i]    = ["2018goddard/20200403_1","20200403"];
-    this[1][i++]  = (["Taking Ms Bringas's class at "+daycare+" through distance learning from home due to the Coronavirus pandemic",daycare+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
+    this[1][i++]  = (["Taking Ms Bringas's class at "+school+" through distance learning from home due to the Coronavirus pandemic",school+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
     this[0][i]    = "20200410_Reading";
     this[1][i++]  = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
     this[0][i]    = ["2018goddard/20200427_1","20200427"];
-    this[1][i++]  = (["Teacher appreciation week assignment at "+daycare,daycare+"教师节给老师准备的感谢组句词语，球球的词是“我们”"])[cn_ind];
+    this[1][i++]  = (["Teacher appreciation week assignment at "+school,school+"教师节给老师准备的感谢组句词语，球球的词是“我们”"])[cn_ind];
     this[0][i]    = "20200718_PottyTraining";
     this[1][i++]  = (["Potty training","便盆训练"])[cn_ind];
     this[0][i]    = "20200720_Mask";
@@ -211,10 +210,10 @@ function initAlbum(){
     this[1][i++]  = (["With Mommy at the Black Hill Regional Park","和妈妈在黑山公园"])[cn_ind];
     this[0][i]    = "20201031_018_BirthdayCake";
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
-    daycare       = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
-    daycare1      = pagelink("2020nist",(["The NIST Child Care Center","NIST托儿所"])[cn_ind]);
+    school        = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
+    school1       = pagelink("2020nist",(["The NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
-    this[1][i++]  = (["First day to "+daycare,"第一天上"+daycare])[cn_ind];
+    this[1][i++]  = (["First day to "+school,"第一天上"+school])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
     this[1][i++]  = (["Eating with chopsticks for the first time","第一次用筷子吃饭"])[cn_ind];
     this[0][i]    = "20201225_022_ChristmasGift";
@@ -252,7 +251,7 @@ function initAlbum(){
     this[0][i]    = ["20211002_013_Bike","20211002_014_Bike"];
     this[1][i++]  = (["Riding bicycle with Mommy","和妈妈一起骑自行车"])[cn_ind];
     this[0][i]    = "20211007_016_NISTCCCFieldTrip";
-    this[1][i++]  = (["Waiting to get on the school bus at "+daycare+" for a field trip to the Butler's Orchard","在"+daycare+"排队上校车去巴特勒果园"])[cn_ind];
+    this[1][i++]  = (["Waiting to get on the school bus at "+school+" for a field trip to the Butler's Orchard","在"+school+"排队上校车去巴特勒果园"])[cn_ind];
     this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
     this[1][i++]  = ([pagelink("2110longwood&showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood&showall","游览长木花园")])[cn_ind];
     this[0][i]    = "20211031_021_WithMommy";
@@ -305,14 +304,14 @@ function initAlbum(){
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
     this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
-    this[1][i++]  = ([daycare1+" "+pagelink("2210farm","field trip to Summers Farm"),"球球上的"+daycare+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
+    this[1][i++]  = ([school1+" "+pagelink("2210farm","field trip to Summers Farm"),"球球上的"+school+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
     this[0][i]    = "20221031_012_Birthday";
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
     this[1][i++]  = (["Nathan's first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
     this[0][i]    = ["2212concert/2212concert_3","2212concert/2212concert_4","2212concert/2212concert_8","2212concert/2212concert_9","20221216"];
-    this[1][i++]  = ([daycare1+" "+pagelink("2212concert","winter holiday concert"),daycare+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
+    this[1][i++]  = ([school1+" "+pagelink("2212concert","winter holiday concert"),school+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
     this[0][i]    = ["20221218_017","20221218_019","20221218_020","20221218_021"];
     this[1][i++]  = (["Making a cake","做蛋糕"])[cn_ind];
     this[0][i]    = ["2212dino/2212dino_20","2212dino/2212dino_2","2212dino/2212dino_17","20221226"];
@@ -335,6 +334,10 @@ function initAlbum(){
                     [pagelink("2306iceland","在冰岛度假")+"时游杰古沙龙冰河湖",pagelink("2306iceland","在冰岛度假")+"时游塞里雅兰瀑布",pagelink("2306iceland","在冰岛度假")+"时游蓝湖温泉"]])[cn_ind];
     this[0][i]    = ["2308uk/2308uk_21","20230807"];
     this[1][i++]  = (["Visiting the Stonehenge during the "+pagelink("2308uk","vacation in the United Kingdom"),"在"+pagelink("2308uk","英国度假")+"期间游威尔特郡的"+baike("巨石阵")])[cn_ind];
+    school        = pagelink("2023fallsmead",(["Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
+    school1       = pagelink("2023fallsmead",(["The Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
+    this[0][i]    = ["2023fallsmead/20230828_1","20230828"];
+    this[1][i++]  = (["First day to "+school,"第一天上"+school])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
