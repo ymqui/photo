@@ -626,7 +626,7 @@ var birds = myBirds([
 //  ["23-00-00T00:00","PLATYSTE","Brown-throated Wattle-eye","褐喉疣眼鹟","Platysteira cyanea",[],["arb",""],"btweye2",6155],
 //  ["23-00-00T00:00","MALACONO","Grey-headed Bushshrike","灰头丛鵙","Malaconotus blanchoti",[],["arb",""],"gyhbus1"],
 //  ["23-00-00T00:00","MACHAERI","Yellow-breasted Boatbill","黄胸船嘴鹟","Machaerirhynchus flaviventer",[],["arb",""],"yebboa1"],
-//  ["23-00-00T00:00","VANGIDAE","Large Woodshrike","钩嘴林鵙","Tephrodornis virgatus",["",],["cnbeij",""],"larwoo1"],
+//  ["23-00-00T00:00","VANGIDAE","Large Woodshrike","钩嘴林鵙","Tephrodornis virgatus",["",],["arb",""],"larwoo1"],
 //  ["23-00-00T00:00","PITYRIAS","Bornean Bristlehead","棘头鵙","Pityriasis gymnocephala",[],["arb",""],"borbri1"],
 //  ["23-00-00T00:00","ARTAMIDA","Ashy Woodswallow","灰燕鵙","Artamus fuscus",[],["arb",""],"ashwoo2"],
 //  ["23-00-00T00:00","RHAGOLOG","Mottled Berryhunter","斑啸鹟","Rhagologus leucostigma",[],["arb",""],"motwhi1"],

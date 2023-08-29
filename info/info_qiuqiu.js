@@ -41,7 +41,6 @@ function initAlbum(){
     i = 0;
     j = 0;
     school  = pagelink("2018goddard",(["the Goddard School","戈达德托儿所"])[cn_ind]);
-    school1 = pagelink("2018goddard",(["The Goddard School","戈达德托儿所"])[cn_ind]);
     if (showall) {
        this[0][i]    = "20170128_001_OvulationTest";
        this[1][i++]  = (["Positive ovulation test","排卵测试显阳性"])[cn_ind];
@@ -211,7 +210,6 @@ function initAlbum(){
     this[0][i]    = "20201031_018_BirthdayCake";
     this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
     school        = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
-    school1       = pagelink("2020nist",(["The NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
     this[1][i++]  = (["First day to "+school,"第一天上"+school])[cn_ind];
     this[0][i]    = "20201122_021_Chopstick";
@@ -304,14 +302,14 @@ function initAlbum(){
     this[0][i]    = "20221010_ApplePicking";
     this[1][i++]  = (["Picking apples at the Homestead Farm in Poolesville","在普尔斯维尔的Homestead农场摘苹果"])[cn_ind];
     this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
-    this[1][i++]  = ([school1+" "+pagelink("2210farm","field trip to Summers Farm"),"球球上的"+school+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
+    this[1][i++]  = ([school+" "+pagelink("2210farm","field trip to Summers Farm"),"球球上的"+school+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
     this[0][i]    = "20221031_012_Birthday";
     this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
     this[1][i++]  = (["Nathan's first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
     this[0][i]    = ["2212concert/2212concert_3","2212concert/2212concert_4","2212concert/2212concert_8","2212concert/2212concert_9","20221216"];
-    this[1][i++]  = ([school1+" "+pagelink("2212concert","winter holiday concert"),school+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
+    this[1][i++]  = ([school+" "+pagelink("2212concert","winter holiday concert"),school+pagelink("2212concert","冬季节日音乐会")])[cn_ind];
     this[0][i]    = ["20221218_017","20221218_019","20221218_020","20221218_021"];
     this[1][i++]  = (["Making a cake","做蛋糕"])[cn_ind];
     this[0][i]    = ["2212dino/2212dino_20","2212dino/2212dino_2","2212dino/2212dino_17","20221226"];
@@ -334,8 +332,7 @@ function initAlbum(){
                     [pagelink("2306iceland","在冰岛度假")+"时游杰古沙龙冰河湖",pagelink("2306iceland","在冰岛度假")+"时游塞里雅兰瀑布",pagelink("2306iceland","在冰岛度假")+"时游蓝湖温泉"]])[cn_ind];
     this[0][i]    = ["2308uk/2308uk_21","20230807"];
     this[1][i++]  = (["Visiting the Stonehenge during the "+pagelink("2308uk","vacation in the United Kingdom"),"在"+pagelink("2308uk","英国度假")+"期间游威尔特郡的"+baike("巨石阵")])[cn_ind];
-    school        = pagelink("2023fallsmead",(["Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
-    school1       = pagelink("2023fallsmead",(["The Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
+    school        = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     this[0][i]    = ["2023fallsmead/20230828_1","20230828"];
     this[1][i++]  = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
 
