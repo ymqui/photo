@@ -657,6 +657,7 @@ function baike(bid,name){
 
 function getdate(name,str){
     var nam1,tmp,date,comma=",";
+    if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if (Array.isArray(name)){nam1=name[0];}else{nam1=name;}
     var pos  = nam1.search(/20[0-9]{2,}/) 
     var year = nam1.substring(pos+0,pos+4);
@@ -675,14 +676,22 @@ function getdate(name,str){
        if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
        date = date+year+".";
+       tmp  = strupcase(tmp);
     }
-    if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
        tmp = tmp+date;
     }else{
        tmp = tmp+comma+date;
     }
     return tmp;
+}
+
+//upper case to the first letter, works for href link
+function strupcase(str){
+    let tmpstr = str.trim();
+    let tmp = tmpstr.indexOf('>');
+    if ((tmpstr.indexOf('<')==0)&&(tmp!=-1)) tmpstr = tmpstr.substring(0,tmp+1)+strupcase(tmpstr.substring(tmp+1));
+    return tmpstr.charAt(0).toUpperCase()+tmpstr.slice(1);
 }
 
 function adddate(thisalbum){
