@@ -306,13 +306,14 @@ function reform(name,space,apost,notlc){
     return (notlc)?tmp:tmp.toLowerCase();
 }
 
+//loc = ["locid","date,ebirdID","beforeEng","afterChn","beforeChn","afterEng"]
 function reform_locs(loc,photo){
     let info = [], tmp_einf = [], tmp_cinf = [], tmp_locs  = [];
     let tmp1,tmp2,tmp3,tmp4,tmp,pid,date,head,tail,indx;
     loc.forEach((el)=>{
         el = el.trim();
         if (((info.length%6)>0)&&(lurls[el]!=null)){info.push(...Array(6-(info.length%6)).fill(''));}
-        else if (((info.length%6)==1)&&(el.length>0)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(el))){info.push('');} 
+        else if (((info.length%6)==1)&&(!(/([0-9]{1,2}\/[0-9]{4}|s[0-9]{8,})/i).test(el))){info.push('');} 
         info.push(el);
     });
     if ((info.length%6)>0) info.push(...Array(6-(info.length%6)).fill(''));
@@ -324,13 +325,13 @@ function reform_locs(loc,photo){
         if (tmp1.length==0) tmp1=getdate(photo[i]);
         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
-        if ((info[6*i+2].length>0)&&(info[6*i+3].length==0)){
-           if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) info[6*i+3] = pt_chn[indx];
+        if ((info[6*i+2].length>0)&&(info[6*i+4].length==0)){
+           if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) info[6*i+4] = pt_chn[indx];
         }
         pid  = info[6*i].toLowerCase();
         tmp  = (lurls[pid]==null)?['','','','']:(lurls[pid].slice(0));
-        head = info.slice(6*i+2,6*i+4);
-        tail = info.slice(6*i+4,6*i+6);
+        head = [info[6*i+2],info[6*i+4]];
+        tail = [info[6*i+5],info[6*i+3]];
         if (loc_cnts[pid]==null) loc_cnts[pid] = 0;
         loc_cnts[pid]++;
         if (date.length>0) date = stradd(comma,date);
