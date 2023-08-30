@@ -248,7 +248,6 @@ function p_id(photo){
 
 function baike(name,before,aftin,aftout){
     if (typeof name!=='string') return "https://dongniao.net/nd/"+name.toString();
-    name = replace_acronym(name);
     if (before==null) return "https://baike.baidu.com/item/"+name;
     if (aftin==null) aftin='';
     if (aftout==null) aftout='';
@@ -271,7 +270,6 @@ function hotspot(id,name){
 
 function gmap(name,lat,lon){
     let tmp  = strsplit(name);
-    tmp[0]   = replace_acronym(tmp[0]);
     let tmp1 = ((lat==null)||(lon==null))?reform(tmp[0],"+"):(lat.toString()+"%2C"+lon.toString());
     return my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[0],"gmap")+tmp[1];
 }
@@ -293,7 +291,6 @@ function nps(pid,isfws,name){
 
 function wiki(id,name){
     if (name==null) return "https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true);
-    id = replace_acronym(id);
     if ((typeof name!=='string')||(name==='')) name = id;
     return my_href("https://en.wikipedia.org/wiki/"+reform(id,"_","%27",true),name,id);
 }
@@ -344,8 +341,8 @@ function reform_locs(loc,photo){
            if (tmp[4].length>0) tmp[0] = my_href(tmp[4],tmp[0],pid);
            if (tmp[5].length>0) tmp[2] = my_href(tmp[5],tmp[2],pid);
         }
-        tmp_einf.push(replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0])));
-        tmp_cinf.push(replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]));
+        tmp_einf.push(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]));
+        tmp_cinf.push(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]);
         tmp_locs.push(pid);
     }
     return {info:tmp_einf,cinfo:tmp_cinf,locs:tmp_locs};
@@ -359,14 +356,5 @@ function reform_url(name,cname,ebid,cbid){
     }
     if (cbid==null) cbid = cname;
     return (window.usechinese && (cbid!==""))?baike(cbid):((ebid!=="")?ebirdurl(ebid):cornellurl(name));
-}
-
-var acronym = {NWR:['National Wildlife Refuge','国家野生动物保护区'],NP:['National Park','国家公园'],WMA:['Wildlife Management Area','野生动物管理区'],WR:['Wildlife Refuge','野生动物保护区']};
-var acrrexp = new RegExp('('+Object.keys(acronym).join('|')+')','g');  //case sensitive
-function replace_acronym(name){
-    let indx = cnrexp.test(name)?1:0;
-    let tmp  = name.match(acrrexp);
-    if (tmp!==null){for(var i=0;i<tmp.length;i++){name = name.replace(tmp[i],(acronym[tmp[i]])[indx]);}}
-    return name;
 }
 //-->
