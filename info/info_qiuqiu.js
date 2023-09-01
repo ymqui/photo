@@ -335,6 +335,8 @@ function initAlbum(){
     school        = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     this[0][i]    = ["2023fallsmead/20230828_1","20230828"];
     this[1][i++]  = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
+    this[0][i]    = ["20230901_044_KickKarate","20230901_045_KickKarate",20230901_047_KickKarate];
+    this[1][i++]  = (["Taking karate lessons at Kicks Karate","在Kicks Karate学习空手道"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
