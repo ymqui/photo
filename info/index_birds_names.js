@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2023-08-26T08:00");
+var modTim = modTime("2023-09-09T08:00");
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -245,7 +245,7 @@ var birds = myBirds([
     ["16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",["161226_141"],["mdcocn","Winter plumage, Riley's Lock","莱利闸"]],
     ["15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[["1507wbird",9],"201204_131"],["arb",gmap("Hayden Island, Portland, Oregon, USA",45.613,-122.6743),"美国俄勒冈州波特兰海登岛","mdloch"]],
     ["22-08-07T14:11","PODICIPE","Clark's Grebe","克氏䴙䴘","Aechmophorus clarkii",["2208azbird",16],["azazaz","S116518164",hotspot("L272736","Kennedy Park, Tucson"),"图森市肯尼迪公园"]],
-//  ["23-00-00T00:00","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",[],["papapa","","Long Lane Pond, Franklin County","富兰克林郡长巷池塘"],"grefla2"],
+    ["23-09-08T17:53","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",["230908_127","230908_126"],["papapa","S149390653","Long Lane Pond, Franklin County","富兰克林郡长巷池塘","papapa","S149390653","Immature, Long Lane Pond, Franklin County","富兰克林郡长巷池塘"],"grefla2"],
 //  ["23-00-00T00:00","TURNICID","Common Buttonquail","林三趾鹑","Turnix sylvaticus",[],["arb",""],"smabut2"],
 //  ["23-00-00T00:00","BURHINID","Eurasian Stone-curlew","石鸻","Burhinus oedicnemus",[],["arb",""],"eutkne1"],
 //  ["23-00-00T00:00","CHIONIDA","Snowy Sheathbill","白鞘嘴鸥","Chionis albus",[],["arb",""],"snoshe2"],
