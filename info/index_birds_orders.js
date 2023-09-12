@@ -122,7 +122,7 @@ function myBirds(info){
 
 //return a time that is n_days before the end of the previous month of the datstr
 function modTime(datstr,n_days){
-    modDat = new Date(datstr);
+    modDat = new Date(datstr+"T08:00");
     if (n_days==null) n_days = 10;
     return modDat.getTime()-(modDat.getDate()+n_days)*3600*24*1000;
 }
