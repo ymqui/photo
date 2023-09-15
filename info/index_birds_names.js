@@ -417,7 +417,7 @@ var birds = myBirds([
     ["23-01-26T09:38","ACCIPITR","Gray-headed Kite","灰头美洲鸢","Leptodon cayanensis",["2301pabird",[122,121]],["pametr","S126960214"],"grhkit1"],
     ["21-08-03T09:54","ACCIPITR","Swallow-tailed Kite","燕尾鸢","Elanoides forficatus",["210803_099",["2204flbird",40]],["mdmdmd",gmap("Tavakoli Farm, Queen Anne's County",38.93,-76.3529),"安妮女王郡塔瓦科利农场","flevnp","5/2022,S115841189","Shark Valley","鲨鱼谷"]],
     ["23-01-07T07:52","ACCIPITR","Golden Eagle","金雕","Aquila chrysaetos",["230107_003"],["mdmdmd","S125597993","Juvenile, Prettyboy Reservoir, Baltimore County","巴尔的摩郡美少年水库"]],
-    ["16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",["1601china",67],["cnbjbj","Summer Palace","颐和园"],"eurspa1"],
+    ["16-01-15T13:39","ACCIPITR","Eurasian Sparrowhawk","雀鹰","Accipiter nisus",["1601china",67],["cnbjbj","Juvenile, Summer Palace","颐和园"],"eurspa1"],
     ["11-10-08T15:34","ACCIPITR","Sharp-shinned Hawk","纹腹鹰","Accipiter striatus",["150215_013","150215_014","161106_117","220924_112",["1609vcbird",13]],["mdmdmd",(t1=gmap("Cromwell Valley Park, Baltimore")),(t2="巴尔的摩克伦威尔溪谷公园"),"mdmdmd",t1,t2,"mdmdmd","Juvenile, "+t1,t2,"mdlbrp","S119360269","Juvenile","cactnw"]],
     ["14-12-28T11:16","ACCIPITR","Cooper's Hawk","库氏鹰","Accipiter cooperii",["220910_106","141228_007",["1507wbird",3]],["mdredg","S118461423","mdmdmd","Germantown","德国镇","nvdnwr","Juvenile"]],
     ["13-12-29T15:19","ACCIPITR","Northern Harrier","北鹞","Circus hudsonius",["210313_028",["1612savannah",4],"161204_132","221118_166"],["mdmdmd","Male, "+gmap("Bucktown Road, Cambridge",38.4673,-76.0276),"剑桥市巴克敦路","scsnwr","Female","nyjbsp","Juvenile","papapa","S122628666","Juvenile, Waggoner's Gap Hawk Watch, Cumberland County","坎伯兰郡瓦格纳山口观鹰台"]],
