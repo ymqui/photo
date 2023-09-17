@@ -919,7 +919,7 @@ var birds = myBirds([
     ["15-01-02T09:39","ICTERIDA","Greater Antillean Grackle","黑拟八哥","Quiscalus niger",["1501prbird",[6,7]],["prprpr",gmap("Rincón",18.3408,-67.2554),"林孔市"],"gragra1"],
     ["11-12-30T11:34","ICTERIDA","Boat-tailed Grackle","宽尾拟八哥","Quiscalus major",[["2204flbird",33],["1612savannah",16],["1612savannah",17]],["flflfl","5/2022,S108629325","Male, Dolphin Mall pond, Miami-Dade County","迈阿密-戴德郡海豚购物中心池塘","arb","M"+(t1="ale, "+hotspot("L993099","Tybee Island, Georgia, USA")),(t2="美国乔治亚州泰碧岛"),"arb","Fem"+t1,t2]],
     ["18-12-02T06:19","ICTERIDA","Great-tailed Grackle","大尾拟八哥","Quiscalus mexicanus",[["1812crbird",[3,9]],["2301pabird",76]],["crsanj","Male, "+gmap("Park of Social Guarantees",9.9317,-84.0765),"社会保障公园","crsanj","Female, "+gmap("La Sabana Park"),"萨瓦纳公园","pacasc","S126834645","Male"]],
-    ["15-05-24T08:16","PARULIDA","Ovenbird","橙顶灶莺","Seiurus aurocapilla",["2204flbird",12],["fldtnp","S108548976"]],
+    ["15-05-24T08:16","PARULIDA","Ovenbird","橙顶灶莺","Seiurus aurocapilla",[["2204flbird",12],"230916_141"],["fldtnp","S108548976","mdredg","S150049870"]],
     ["16-04-24T10:25","PARULIDA","Worm-eating Warbler","食虫森莺","Helmitheros vermivorum",["1604asheville",15],["ncncnc",gmap("Chimney Rock State Park",35.4327,-82.2496),"烟囱岩州立公园"],"食虫莺"],
     ["15-01-06T09:16","PARULIDA","Louisiana Waterthrush","白眉灶莺","Parkesia motacilla",[["1501prbird",31],["2020lbrp",9]],["prprpr",gmap("El Yunque National Forest"),"云盖热带雨林","mdlbrp","6/2020"]],
     ["16-05-14T09:55","PARULIDA","Northern Waterthrush","黄眉灶莺","Parkesia noveboracensis",["160514_054",["2301pabird",8]],["nyjbwr","papipe","S126820115"]],
