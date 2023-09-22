@@ -719,7 +719,7 @@ var birds = myBirds([
     ["22-05-04T11:20","HIRUNDIN","Cave Swallow","穴崖燕","Petrochelidon fulva",["2204flbird",56],["flflfl","5/2022,S108969618","SW 248th Street Turnpike Bridge, Miami-Dade County","迈阿密-戴德郡西南248街收费公路大桥"]],
 //  ["23-00-00T00:00","PNOEPYGI","Pygmy Cupwing","小鳞胸鹪鹛","Pnoepyga pusilla",["2312cnbird",],["cnzjzj",""],"pywbab1"],
 //  ["23-00-00T00:00","MACROSPH","Moustached Grass Warbler","须薮莺","Melocichla mentalis",[],["arb",""],"mogwar1"],
-//  ["23-00-00T00:00","CETTIIDA","Cetti's Warbler","宽尾树莺","Cettia cetti",["",],["",""],"cetwar1"],
+//  ["23-00-00T00:00","CETTIIDA","Brown-flanked Bush Warbler","强脚树莺","Horornis fortipes",["2312cnbird",],["cnzjzj",""],"bfbwar1"],
 //  ["23-00-00T00:00","SCOTOCER","Streaked Scrub Warbler","纹鹪莺","Scotocerca inquieta",[],["arb",""]],
 //  ["23-00-00T00:00","ERYTHROC","Chestnut-capped Flycatcher","栗顶红鹟","Erythrocercus mccallii",[],["arb",""],"chcfly1"],
 //  ["23-00-00T00:00","HYLIIDAE","Green Hylia","绿莺","Hylia prasina",[],["arb",""],"grehyl1"],
