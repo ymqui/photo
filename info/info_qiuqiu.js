@@ -337,7 +337,7 @@ function initAlbum(){
     this[0][i]    = ["2023fallsmead/20230828_1","20230828"];
     this[1][i++]  = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
     this[0][i]    = ["2023karate/20230901_044_KickKarate","2023karate/20230901_045_KickKarate","2023karate/20230901_047_KickKarate","20230901"];
-    this[1][i++]  = (["Taking karate lessons at "+pagelink("2023karate","Kicks Karate"),"在"+pagelink("2023karate","Kicks Karate")+"学习空手道"])[cn_ind];
+    this[1][i++]  = (["Taking karate lessons at "+pagelink("2023karate","Kicks Karate"),"在"+pagelink("2023karate","Kicks Karate学习空手道")])[cn_ind];
     this[0][i]    = ["20230903_1","20230903_2","20230903_3"];
     this[1][i++]  = (["Hunting for shark tooth fossil at Matoaka Beach in Maryland","在马里兰州马托卡海滩寻找鲨鱼牙齿化石"])[cn_ind];
 
