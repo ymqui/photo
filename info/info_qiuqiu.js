@@ -340,6 +340,9 @@ function initAlbum(){
     this[1][i++]  = (["Taking karate lessons at "+pagelink("2023karate","Kicks Karate"),"在"+pagelink("2023karate","Kicks Karate学习空手道")])[cn_ind];
     this[0][i]    = ["20230903_1","20230903_2","20230903_3"];
     this[1][i++]  = (["Hunting for shark tooth fossil at Matoaka Beach in Maryland","在马里兰州马托卡海滩寻找鲨鱼牙齿化石"])[cn_ind];
+    this[0][i]    = "20231005_050";
+    this[1][i++]  = (["Playing the violin at home","在家拉小提琴"])[cn_ind];
+
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
