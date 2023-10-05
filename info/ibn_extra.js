@@ -126,7 +126,6 @@
 //  ["23-00-00T00:00","PARADOXO","Gray-headed Parrotbill","灰头鸦雀","Paradoxornis gularis",["2312cnbird",],["cnhzbg",""],"gyhpar3"],
 //  ["23-00-00T00:00","PARADOXO","Reed Parrotbill","震旦鸦雀","Paradoxornis heudei",["2312cnbird",],["cnbofp",""],"reepar3"],
 //  ["23-00-00T00:00","ZOSTEROP","Striated Yuhina","栗耳凤鹛","Staphida castaniceps",["2312cnbird",],["cnhzbg",""],"stryuh1"],
-//  ["23-00-00T00:00","ZOSTEROP","Swinhoe's White-eye","暗绿绣眼鸟","Zosterops simplex",["2312cnbird",],["cnhzbg",""],"swiwhe1",10892],
 //  ["23-00-00T00:00","ZOSTEROP","Indochinese Yuhina","栗颈凤鹛","Staphida torqueola",["2312cnbird",],["cnhzbg",""],"indyuh1"],
 //  ["23-00-00T00:00","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",["2312cnbird",],["cnhzbg",""],"sbsbab3"],
 //  ["23-00-00T00:00","TROGLODY","Rock Wren","岩鹪鹩","Salpinctes obsoletus",[],["azazaz","8/2022,"]],
