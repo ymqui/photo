@@ -498,7 +498,7 @@ var birds = myBirds([
     ["15-09-05T11:04","PICIDAE ","Red-cockaded Woodpecker","红顶啄木鸟","Leuconotopicus borealis",["1509charleston",[2,3]],["scscsc",nps("carolina-sandhills",true,"Carolina Sandhills National Wildlife Refuge"),nps("carolina-sandhills",true,"卡罗来纳沙丘国家野生动物保护区")]],
     ["18-12-04T06:46","PICIDAE ","Smoky-brown Woodpecker","褐啄木鸟","Leuconotopicus fumigatus",["1812crbird",24],["crarol","Male"],"smbwoo1"],
     ["22-08-09T07:30","PICIDAE ","Arizona Woodpecker","亚利桑那啄木鸟","Leuconotopicus arizonae",["2208azbird",[55,54]],["azwalk","S116643644","Male","azwalk","S116643644","Female"],3824],
-    ["06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Leuconotopicus villosus",["210515_074","170506_048",["2208cabird",[6,7]]],["mdwhrp","Male","nycenp","Female","caalgp","S117650777","Male","caalgp","S117650777","Female"]],
+    ["06-08-12T10:22","PICIDAE ","Hairy Woodpecker","长嘴啄木鸟","Leuconotopicus villosus",["210515_074","231007_182",["2208cabird",[6,7]]],["mdwhrp","Male","mdwoot","S151655370","Female","caalgp","S117650777","Male","caalgp","S117650777","Female"]],
     ["23-08-11T07:40","PICIDAE ","Great Spotted Woodpecker","大斑啄木鸟","Dendrocopos major",["2308ukbird",69],["ukregp","S146957264","Juvenile male"],"grswoo"],
     ["08-12-13T15:36","PICIDAE ","Northern Flicker","北扑翅䴕","Colaptes auratus",["171022_124","160625_085",["2208azbird",23]],["mdbhrp","Male, yellow-shafted","","黄羽雄性","nyjbwr","Female, yellow-shafted","","黄羽雌性","azmcct","S116560424","Male, red-shafted","","红羽雄性"]],
     ["22-08-10T13:06","PICIDAE ","Gilded Flicker","黄扑翅䴕","Colaptes chrysoides",["2208azbird",[66,67]],["azazaz","S116681599","Male, "+(t1=hotspot("L387263","Scottsdale Community College, Scottsdale")),(t2="斯科茨代尔市社区大学"),"azazaz","S116681599","Female, "+t1,t2]],
