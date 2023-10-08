@@ -265,7 +265,7 @@ function initAlbum(){
     this[0][i]    = ["20211225_Christmas_1","20211225_Christmas_2"];
     this[1][i++]  = (["Merry Christmas","圣诞快乐"])[cn_ind];
     this[0][i]    = "20211225_ShenandoahNP";
-    this[1][i++]  = (["Visiting the Shenandoah National Park in Virginia on Christmas day","圣诞节和朋友们一起游弗吉尼亚州的"+baike("谢南多厄国家公园")])[cn_ind];
+    this[1][i++]  = (["Visiting the Shenandoah National Park in Virginia on Christmas day","圣诞节和朋友们一起游弗吉尼亚州的"+baike("美国山那都国家公园")])[cn_ind];
     this[0][i]    = "20211226_LurayCavern";
     this[1][i++]  = (["Visiting the Luray Cavern in Virginia","在弗吉尼亚州的"+baike("卢雷岩洞")+"跟妈妈和小希姐姐合影"])[cn_ind];
     this[0][i]    = "20220116_001_PaintingatHome";
@@ -343,7 +343,7 @@ function initAlbum(){
     this[0][i]    = "20231005_050";
     this[1][i++]  = (["Playing the violin at home","在家拉小提琴"])[cn_ind];
     this[0][i]    = ["20231008_059","20231008_060","20231008_062"];
-    this[1][i++]  = (["Hiking in Shenandoah National Park",["在谢南多厄国家公园爬山","在谢南多厄国家公园爬山","在谢南多厄国家公园爬山，球球手上拿着一片石菇"]])[cn_ind];
+    this[1][i++]  = (["Hiking in Shenandoah National Park",["在"+baike("美国山那都国家公园")+"爬山","在"+baike("美国山那都国家公园")+"爬山","在"+baike("美国山那都国家公园")+"爬山，球球手上拿着一片石菇"]])[cn_ind];
 
 
     if (/birthday/.test(window.location.search.substring(1))) {
