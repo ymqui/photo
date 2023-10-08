@@ -342,6 +342,8 @@ function initAlbum(){
     this[1][i++]  = (["Hunting for shark tooth fossil at Matoaka Beach in Maryland","在马里兰州马托卡海滩寻找鲨鱼牙齿化石"])[cn_ind];
     this[0][i]    = "20231005_050";
     this[1][i++]  = (["Playing the violin at home","在家拉小提琴"])[cn_ind];
+    this[0][i]    = ["20231008_059","20231008_060","20231008_062"];
+    this[1][i++]  = (["Hiking in Shenandoah National Park",["在谢南多厄国家公园爬山","在谢南多厄国家公园爬山","在谢南多厄国家公园爬山，球球手上拿着一片石菇"]])[cn_ind];
 
 
     if (/birthday/.test(window.location.search.substring(1))) {
