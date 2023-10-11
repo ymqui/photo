@@ -343,7 +343,7 @@ function initAlbum(){
     this[0][i]    = "20231005_050";
     this[1][i++]  = (["Playing the violin at home","在家拉小提琴"])[cn_ind];
     this[0][i]    = ["20231008_059","20231008_060","20231008_062"];
-    this[1][i++]  = (["Hiking in Shenandoah National Park",["在"+baike("美国仙纳度国家公园")+"爬山","在"+baike("美国仙纳度国家公园")+"爬山","在"+baike("美国仙纳度国家公园")+"爬山，球球手上拿着一片石菇"]])[cn_ind];
+    this[1][i++]  = (["Hiking in Shenandoah National Park in Virginia",["在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山，球球手上拿着一片石菇"]])[cn_ind];
     this[0][i]    = "20231009_063";
     this[1][i++]  = (["Clay animals made by Nathan","球球捏的小动物"])[cn_ind];
 
