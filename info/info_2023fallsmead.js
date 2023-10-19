@@ -25,6 +25,8 @@ function initAlbum(){
     this[1][i++]  = (["Walking to school","开学第一天走路去上学"])[cn_ind];
     this[0][i]    = "20230828_1";
     this[1][i++]  = (["The first day of kindergarten at Fallsmead","在Fallsmead小学上幼儿园的第一天"])[cn_ind];
+    this[0][i]    = "20231019_064";
+    this[1][i++]  = (["On the way home","放学回家的路上"])[cn_ind];
 
     adddate(this);
 }
