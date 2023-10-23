@@ -27,7 +27,8 @@ function initAlbum(){
     this[1][i++]  = (["The first day of kindergarten at Fallsmead","在Fallsmead小学上幼儿园的第一天"])[cn_ind];
     this[0][i]    = "20231019_064";
     this[1][i++]  = (["On the way home","放学回家的路上"])[cn_ind];
-
+    this[0][i]    = "20231023_1";
+    this[1][i++]  = (["Class picture","班级照片"])[cn_ind];
     adddate(this);
 }
 
