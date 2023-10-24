@@ -20,7 +20,7 @@ function initAlbum(){
     i = 0;
     j = 0;
     this[0][i]    = "20201102_1";
-    this[1][i++]  = (["Nathan was this happy all day","球球一整天都这么开心"])[cn_ind];
+    this[1][i++]  = (["On the first day at NIST Child Care Center, Nathan was this happy all day","第一天上NIST托儿所，球球一整天都这么开心"])[cn_ind];
     this[0][i]    = ["20201104_1","20201104_2"];
     this[1][i++]  = (["Making a turkey","贴火鸡"])[cn_ind];
     this[0][i]    = "20201106_1";
