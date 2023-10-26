@@ -397,7 +397,7 @@ var birds = myBirds([
     ["05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",["200616_040",["1412mckee",4],"200617_048","2007cobird/20070811_117"],["mdmwma","mdmwma","8/2014","mdmwma","mdcocn","Juvenile, Riley's Lock","莱利闸"]],
     ["23-01-27T12:53","ARDEIDAE","Striated Heron","绿鹭","Butorides striata",["2301pabird",141],["papuru","S127054013"],"strher"],
     ["16-01-13T16:26","ARDEIDAE","Chinese Pond Heron","池鹭","Ardeola bacchus",["1601china",63],["cnfjfj","Winter plumage, Jimei, Xiamen","厦门集美"],"chpher1"],
-    ["15-01-02T10:21","ARDEIDAE","Cattle Egret","西牛背鹭","Bubulcus ibis",[["1501prbird",9],["1812crbird",61]],["prprpr",gmap("Rincón",18.3408,-67.2554),"林孔市","crarol"],837],
+    ["15-01-02T10:21","ARDEIDAE","Western Cattle Egret","西牛背鹭","Bubulcus ibis",[["1501prbird",9],["1812crbird",61]],["prprpr",gmap("Rincón",18.3408,-67.2554),"林孔市","crarol"],837],
     ["16-01-13T15:31","ARDEIDAE","Grey Heron","苍鹭","Ardea cinerea",[["1601china",57],["2308ukbird",34]],["cnfjfj","Jimei, Xiamen","厦门集美","uklwcn","S146754960"],"graher1"],
     ["05-11-26T14:09","ARDEIDAE","Great Blue Heron","大蓝鹭","Ardea herodias",["160731_089",["0511assateague",26]],["vahump","vacnwr"]],
     ["23-01-27T13:07","ARDEIDAE","Cocoi Heron","黑冠白颈鹭","Ardea cocoi",["2301pabird",142],["papuru","S127054013"],"cocher1"],

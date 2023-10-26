@@ -9,7 +9,6 @@ White Ibis,					American White Ibis
 Painted Redstart,				Painted Whitestart
 Eared Grebe,					Black-necked Grebe
 American Pipit,					Buff-bellied Pipit
-Cattle Egret,					Western Cattle Egret
 Rough-legged Hawk,				Rough-legged Buzzard
 Eurasian Moorhen,				Common Moorhen
 Rock Pigeon,					Rock Dove
