@@ -29,7 +29,7 @@
 //  ["23-00-00T00:00","SCOLOPAC","Bar-tailed Godwit","斑尾塍鹬","Limosa lapponica",[],["flflfl","12/2022,",gmap("Fort De Soto Park, Pinellas County",27.6371,-82.7405),"","","皮尼拉斯郡德索托堡公园"],"batgod"],
 //  ["23-00-00T00:00","SCOLOPAC","Eurasian Woodcock","丘鹬","Scolopax rusticola",["2312cnbird",],["cnhzbg",""],"eurwoo"],
 //  ["23-00-00T00:00","SCOLOPAC","Sharp-tailed Sandpiper","尖尾滨鹬","Calidris acuminata",[],["debnwr","1/2023,","Female"],"shtsan"],
-//  ["23-00-00T00:00","SCOLOPAC","Common Sandpiper","矶鹬","Actitis hypoleucos",["2312cnbird",],["jptwbp",""],"comsan"],
+//  ["23-00-00T00:00","SCOLOPAC","Common Sandpiper","矶鹬","Actitis hypoleucos",["2312cnbird",],["arb","","Tokyo Port Wild Bird Park, Tokyo, Japan","日本东京东京港野鸟公园"],"comsan"],
 //  ["23-00-00T00:00","SCOLOPAC","Eurasian Curlew","白腰杓鹬","Numenius arquata",["2308ukbird",],["ukregp",""],"eurcur"],
 //  ["23-00-00T00:00","CHARADRI","Little Ringed Plover","金眶鸻","Charadrius dubius",["2308ukbird",],["ukregp",""],"lirplo"],
 //  ["23-00-00T00:00","CHARADRI","Long-billed Plover","长嘴剑鸻","Charadrius placidus",["2312cnbird",],["jptwbp",""],"lobplo1"],
