@@ -35,7 +35,7 @@ function initAlbum(){
         this[1][5] = "黑拟八哥，林孔。";
         this[1][6] = "黑拟八哥，林孔。";
         this[1][7] = "地鸠，雄性，林孔。";
-        this[1][8] = "牛背鹭，林孔。";
+        this[1][8] = "西牛背鹭，林孔。";
         this[1][9] = "波多黎各啄木鸟，雌性，林孔。";
         this[1][10] = "波多纹头唐纳雀，雄性，庞塞。";
         this[1][11] = "粉头斑鸠，庞塞。";
@@ -91,7 +91,7 @@ function initAlbum(){
         this[1][5] = "Greater Antillean Grackle, Rincón.";
         this[1][6] = "Greater Antillean Grackle, Rincón.";
         this[1][7] = "Common Ground-Dove, Male, Rincón.";
-        this[1][8] = "Cattle Egret, Rincón.";
+        this[1][8] = "Western Cattle Egret, Rincón.";
         this[1][9] = "Puerto Rican Woodpecker, Female, Rincón.";
         this[1][10] = "Puerto Rican Spindalis, Male, Ponce.";
         this[1][11] = "African Collared-Dove, Ponce.";

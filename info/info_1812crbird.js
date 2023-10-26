@@ -87,7 +87,7 @@ function initAlbum(){
         this[1][57] = "领簇舌巨嘴鸟"+crarol;
         this[1][58] = "领簇舌巨嘴鸟"+crarol;
         this[1][59] = "纯色翘嘴雀"+crarol;
-        this[1][60] = "牛背鹭"+crarol;
+        this[1][60] = "西牛背鹭"+crarol;
         this[1][61] = "日鳽"+crarol;
         this[1][62] = "小蓝鹭，未成年"+crarol;
         this[1][63] = "笑隼"+crarol;
@@ -187,7 +187,7 @@ function initAlbum(){
         this[1][57] = "Collared Aracari"+crarol;
         this[1][58] = "Collared Aracari"+crarol;
         this[1][59] = "Plain Xenops"+crarol;
-        this[1][60] = "Cattle Egret"+crarol;
+        this[1][60] = "Western Cattle Egret"+crarol;
         this[1][61] = "Sunbittern"+crarol;
         this[1][62] = "Little Blue Heron, immature"+crarol;
         this[1][63] = "Laughing Falcon"+crarol;

@@ -40,7 +40,7 @@ function initAlbum(){
         this[1][10] = "褐翅燕鸥，海龟国家公园。";
         this[1][11] = "橙顶灶莺，海龟国家公园。";
         this[1][12] = "栗颊林莺，雌性，海龟国家公园。";
-        this[1][13] = "牛背鹭，海龟国家公园。";
+        this[1][13] = "西牛背鹭，海龟国家公园。";
         this[1][14] = "灰王霸鹟，海龟国家公园。";
         this[1][15] = "灰背隼，海龟国家公园。";
         this[1][16] = "橙尾鸲莺，雌性，海龟国家公园。";
@@ -98,7 +98,7 @@ function initAlbum(){
         this[1][10] = "Bridled Tern, Dry Tortugas National Park.";
         this[1][11] = "Ovenbird, Dry Tortugas National Park.";
         this[1][12] = "Cape May Warbler, female, Dry Tortugas National Park.";
-        this[1][13] = "Cattle Egret, Dry Tortugas National Park.";
+        this[1][13] = "Western Cattle Egret, Dry Tortugas National Park.";
         this[1][14] = "Gray Kingbird, Dry Tortugas National Park.";
         this[1][15] = "Merlin, Dry Tortugas National Park.";
         this[1][16] = "American Redstart, female, Dry Tortugas National Park.";
