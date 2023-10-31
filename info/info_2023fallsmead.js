@@ -11,6 +11,7 @@ var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2310parade","10/2023 Halloween Parade","10/2023 万圣节游行"]];
  
 document.title = title;
  
@@ -29,6 +30,9 @@ function initAlbum(){
     this[1][i++]  = (["On the way home","放学回家的路上"])[cn_ind];
     this[0][i]    = "20231023_1";
     this[1][i++]  = (["Class picture","班级照片"])[cn_ind];
+    this[0][i]    = ["2310parade/2310parade_3","2310parade/2310parade_9","20231023"];
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+
     adddate(this);
 }
 
