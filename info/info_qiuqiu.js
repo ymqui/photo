@@ -346,6 +346,8 @@ function initAlbum(){
     this[1][i++]  = (["Hiking in Shenandoah National Park in Virginia",["在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山，球球手上拿着一片石菇"]])[cn_ind];
     this[0][i]    = "20231009_063";
     this[1][i++]  = (["Clay animals made by Nathan","球球捏的小动物"])[cn_ind];
+    this[0][i]    = ["20231031_065_Birthday","20231031_067_Birthday"];
+    this[1][i++]  = (["Happy 6th Birthday!","六岁生日快乐！"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
