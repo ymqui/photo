@@ -667,7 +667,12 @@ function getdate(name,str){
        date  = year
        if (mon.length!=0) {date = date+"-"+mon;}
        if (day.length!=0) {date = date+"-"+day;}
-       date  = date+"。";
+       if (tmp.slice(-1)==="！"){
+          tmp = tmp.slice(0,-1);
+          date = date+"！";
+       }else{
+          date  = date+"。";
+       }
        comma = "，";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
@@ -675,15 +680,15 @@ function getdate(name,str){
        date = " ";
        if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
-       date = date+year+".";
        tmp  = strupcase(tmp);
+       if (tmp.slice(-1)==="!"){
+          tmp = tmp.slice(0,-1);
+          date = date+year+"!";
+       }else{
+          date = date+year+".";
+       } 
     }
-    if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
-       tmp = tmp+date;
-    }else{
-       tmp = tmp+comma+date;
-    }
-    return tmp;
+    return tmp+comma+date;
 }
 
 //upper case to the first letter, works for href link
