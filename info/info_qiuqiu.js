@@ -27,8 +27,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2210farm","10/2022 Field Trip to Summers Farm","10/2022 Summers农场秋游"],["2212concert","12/2022 Winter Holiday Concert","12/2022 冬季节日音乐会"],
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
-                  ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],
-                  ["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"]];
+                  ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],
+                  ["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"]];
 var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -346,6 +346,8 @@ function initAlbum(){
     this[1][i++]  = (["Hiking in Shenandoah National Park in Virginia",["在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山","在弗吉尼亚州的"+baike("美国仙纳度国家公园")+"爬山，球球手上拿着一片石菇"]])[cn_ind];
     this[0][i]    = "20231009_063";
     this[1][i++]  = (["Clay animals made by Nathan","球球捏的小动物"])[cn_ind];
+    this[0][i]    = ["2310parade/2310parade_9","20231031"];
+    this[1][i++]  = pagelink("2310parade",(["Fallsmead Elementary School Halloween parade","Fallsmead小学万圣节游行"])[cn_ind]);
     this[0][i]    = ["20231031_065_Birthday","20231031_067_Birthday"];
     this[1][i++]  = (["Happy 6th Birthday!","六岁生日快乐！"])[cn_ind];
 
