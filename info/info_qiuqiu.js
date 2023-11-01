@@ -145,7 +145,7 @@ function initAlbum(){
     this[0][i]    = "20181007_048_StandingWithMom";
     this[1][i++]  = (["Standing with Mommy's help","妈妈扶着站起来"])[cn_ind];
     this[0][i]    = "20181031_051_WithMom";
-    this[1][i++]  = (["Happy 1st Birthday!","一岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 1st birthday!","一岁生日快乐！"])[cn_ind];
     this[0][i]    = ["1810parade/1810parade_3","20181031"];
     this[1][i++]  = ([pagelink("1810parade","Goddard School Halloween parade")+". Nathan is held by Ms. Wahrhaftig",pagelink("1810parade","戈达德托儿所万圣节游行")+"，球球由Wahrhaftig老师抱着"])[cn_ind];
     this[0][i]    = ["20181125_060_Playpen","20181125_061_Playpen"];
@@ -183,7 +183,7 @@ function initAlbum(){
     this[0][i]    = ["1910parade/1910parade_10","20191031"];
     this[1][i++]  = pagelink("1910parade",(["Goddard School Halloween parade","戈达德托儿所万圣节游行"])[cn_ind]);
     this[0][i]    = "20191031_023";
-    this[1][i++]  = (["Happy 2nd Birthday!","两岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 2nd birthday!","两岁生日快乐！"])[cn_ind];
     this[0][i]    = "20191225_061";
     this[1][i++]  = (["Opening the Christmas present","打开圣诞礼物"])[cn_ind];
     this[0][i]    = "20191225_067";
@@ -209,7 +209,7 @@ function initAlbum(){
     this[0][i]    = "20201031_014_BlackHillRP";
     this[1][i++]  = (["With Mommy at the Black Hill Regional Park","和妈妈在黑山公园"])[cn_ind];
     this[0][i]    = "20201031_018_BirthdayCake";
-    this[1][i++]  = (["Happy 3rd Birthday!","三岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 3rd birthday!","三岁生日快乐！"])[cn_ind];
     school        = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]    = "20201102_020_NIST";
     this[1][i++]  = (["First day to "+school,"第一天上"+school])[cn_ind];
@@ -254,7 +254,7 @@ function initAlbum(){
     this[0][i]    = ["2110longwood/2110longwood_10","20211009"];
     this[1][i++]  = ([pagelink("2110longwood&showall","Visiting Longwood Gardens")+" in Pennsylvania","在宾夕法尼亚州"+pagelink("2110longwood&showall","游览长木花园")])[cn_ind];
     this[0][i]    = "20211031_021_WithMommy";
-    this[1][i++]  = (["Happy 4th Birthday!","四岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 4th birthday!","四岁生日快乐！"])[cn_ind];
     this[0][i]    = ["20211031_024_TrickorTreat","20211031_025_TrickorTreat","20211031_026_TrickorTreat"];
     this[1][i++]  = ([[(tmp1="Trick or treating with Mommy"),"Trick or treating",tmp1],[(tmp1=baike("万圣节")+"和妈妈一起出去讨糖，球球只走了两家就回来了"),baike("万圣节")+"出去讨糖，球球只走了两家就回来了",tmp1]])[cn_ind];
     this[0][i]    = "20211119_Amtrak";
@@ -305,7 +305,7 @@ function initAlbum(){
     this[0][i]    = ["2210farm/2210farm_1","2210farm/2210farm_13","20221020"];
     this[1][i++]  = ([school+" "+pagelink("2210farm","field trip to Summers Farm"),"球球上的"+school+"大班去"+pagelink("2210farm","Summers农场秋游")])[cn_ind];
     this[0][i]    = "20221031_012_Birthday";
-    this[1][i++]  = (["Happy 5th Birthday!","五岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 5th birthday!","五岁生日快乐！"])[cn_ind];
     makeface[j++] = i;
     this[0][i]    = "20221213_ChanelBook";
     this[1][i++]  = (["Nathan's first picture book","球球写的第一本图画书<<香奈儿包>>：妈妈喜欢香奈儿包，你也可以有一个香奈儿包，妈妈说宝宝不能有香奈儿包"])[cn_ind];
@@ -349,12 +349,12 @@ function initAlbum(){
     this[0][i]    = ["2310parade/2310parade_9","20231031"];
     this[1][i++]  = pagelink("2310parade",(["Fallsmead Elementary School Halloween parade","Fallsmead小学万圣节游行"])[cn_ind]);
     this[0][i]    = ["20231031_065_Birthday","20231031_067_Birthday"];
-    this[1][i++]  = (["Happy 6th Birthday!","六岁生日快乐！"])[cn_ind];
+    this[1][i++]  = (["Happy 6th birthday!","六岁生日快乐！"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
        for (var i=0;i<this[1].length;i++){
-           if (this[1][i].indexOf((["Birthday!","岁生日快乐！"])[cn_ind])!=-1){
+           if (this[1][i].indexOf((["birthday!","岁生日快乐！"])[cn_ind])!=-1){
               this[0].splice(n_id,1,this[0][i]);
               this[1].splice(n_id++,1,this[1][i]);
            }
