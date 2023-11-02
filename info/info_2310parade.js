@@ -27,7 +27,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "老师穿着芭比娃娃服装。";
+        this[1][0] = "学校领导穿着芭比盒子服装。";
         this[1][1] = "Donovan老师带着幼儿园的孩子们。";
         this[1][2] = "球球和他的同学。";
         this[1][3] = "校长Spaugh老师和副校长Bowerman老师。";
