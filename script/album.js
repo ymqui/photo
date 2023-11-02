@@ -656,7 +656,7 @@ function baike(bid,name){
 }
 
 function getdate(name,str){
-    var nam1,tmp,date,comma=",";
+    var nam1,tmp,date;
     if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if (Array.isArray(name)){nam1=name[0];}else{nam1=name;}
     var pos  = nam1.search(/20[0-9]{2,}/) 
@@ -667,28 +667,24 @@ function getdate(name,str){
        date  = year
        if (mon.length!=0) {date = date+"-"+mon;}
        if (day.length!=0) {date = date+"-"+day;}
-       if (tmp.slice(-1)==="！"){
-          tmp = tmp.slice(0,-1);
-          date = date+"！";
-       }else{
-          date  = date+"。";
+       if (tmp.slice(-1)!=="！"){
+          tmp  = tmp+"，";
+          date = date+"。";
        }
-       comma = "，";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
        if (day.substring(0,1)=="0"){day = day.substring(1,2);}
        date = " ";
        if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
+       date = date+year
        tmp  = strupcase(tmp);
-       if (tmp.slice(-1)==="!"){
-          tmp = tmp.slice(0,-1);
-          date = date+year+"!";
-       }else{
-          date = date+year+".";
+       if (tmp.slice(-1)!=="!"){
+          tmp  = tmp+","; 
+          date = date+".";
        } 
     }
-    return tmp+comma+date;
+    return tmp+date;
 }
 
 //upper case to the first letter, works for href link
