@@ -350,6 +350,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2310parade",(["Fallsmead Elementary School Halloween parade","Fallsmead小学万圣节游行"])[cn_ind]);
     this[0][i]    = ["20231031_065_Birthday","20231031_067_Birthday"];
     this[1][i++]  = (["Happy 6th birthday!","六岁生日快乐！"])[cn_ind];
+    this[0][i]    = ["20231105_070_RakingLeaves","20231105_073_RakingLeaves"];
+    this[1][i++]  = (["Helping Daddy rake the autumn leaves","帮爸爸清扫秋天的落叶"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
