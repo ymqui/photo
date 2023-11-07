@@ -10,9 +10,9 @@ var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
 var birthday   = true;
-var strDate    = (new Date()).toISOString();
-strDate        = strDate.substring(5,7)+"/"+strDate.substring(0,4);
-if (strDate.substring(0,1)=="0") {strDate=strDate.substring(1);}
+var thisyear   = (new Date()).getFullYear();
+var thismon    = (new Date()).getMonth()+1;
+var strDate    = thismon.toString()+"/"+thisyear.toString();
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in Mexico","5/2019 在墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
@@ -29,7 +29,6 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
                   ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],
                   ["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"]];
-var thisyear   = (new Date()).getFullYear();
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
 
