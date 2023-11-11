@@ -168,7 +168,7 @@ function initAlbum(){
     this[0][i]    = ["1906minitrain/1906minitrain_3","1906minitrain/1906minitrain_4","20190608"];
     this[1][i++]  = ([pagelink("1906minitrain","Riding the miniature train")+" in Wheaton Regional Park","在"+pagelink("1906minitrain","惠顿公园坐小火车")])[cn_ind];
     this[0][i]    = "20190609_040";
-    this[1][i++]  = (["Writing in the feeding diary","翻看喂养日记"])[cn_ind];
+    this[1][i++]  = (["Writing in the feeding diary (Nathan is left-handed)","翻看喂养日记（球球是左撇子）"])[cn_ind];
     this[0][i]    = ["1906artechouse/1906artechouse_20","20190629"];
     this[1][i++]  = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington DC","在华盛顿特区的"+pagelink("1906artechouse","Artechouse参观标题为无限空间的展览")])[cn_ind];
     this[0][i]    = "20190704_055_DogParade";
