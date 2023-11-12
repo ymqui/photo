@@ -888,7 +888,7 @@ var birds = myBirds([
     ["22-08-11T09:03","PASSEREL","Abert's Towhee","红腹唧鹀","Melozone aberti",["2208azbird",72],["azazaz","S116756519",hotspot("L302348","Dead Horse Ranch State Park, Cottonwood"),"卡顿伍德市死马牧场州立公园"],10103],
     ["19-05-12T09:44","PASSEREL","Rufous-crowned Sparrow","棕顶猛雀鹀","Aimophila ruficeps",["1905mxbird",9],["mxunam"]],
     ["21-01-06T10:52","PASSEREL","Green-tailed Towhee","绿尾唧鹀","Pipilo chlorurus",["210106_005"],["vavava",gmap("Sky Meadows State Park",38.9874,-77.9428),"天空草地州立公园"]],
-    ["12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",["150405_050","150628_079"],["mdbmnt","Male","mdbmnt","Juvenile"]],
+    ["12-06-09T09:55","PASSEREL","Eastern Towhee","棕胁唧鹀","Pipilo erythrophthalmus",["150405_050","231111_221","150628_079"],["mdbmnt","Male","mdredg","S154254958","Female","mdbmnt","Juvenile"]],
 //  ["23-00-00T00:00","CALYPTOP","Eastern Chat-Tanager","东䳭唐纳雀","Calyptophilus frugivorus",[],["arb",""],"eactan1"],
 //  ["23-00-00T00:00","PHAENICO","Black-crowned Palm-Tanager","黑顶长尾唐纳雀","Phaenicophilus palmarum",[],["arb",""],"bcptan1","黑顶棕榈唐纳雀"],
 //  ["23-00-00T00:00","NESOSPIN","Puerto Rican Tanager","暗唐纳雀","Nesospingus speculiferus",[],["arb",""],"purtan1","波多黎各唐纳雀"],
