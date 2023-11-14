@@ -351,6 +351,9 @@ function initAlbum(){
     this[1][i++]  = (["Happy 6th birthday!","六岁生日快乐！"])[cn_ind];
     this[0][i]    = ["20231105_070_RakingLeaves","20231105_073_RakingLeaves"];
     this[1][i++]  = (["Helping Daddy rake the autumn leaves","帮爸爸清扫秋天的落叶"])[cn_ind];
+    makeface[j++] = i;
+    this[0][i]    = "20231114_074_Note";
+    this[1][i++]  = (["A note to Daddy","给爸爸的纸条：亲爱的爸爸，我这么爱你，你能给我买我想要的两本书吗？我是这么这么这么地爱你"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
