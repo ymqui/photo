@@ -11,7 +11,7 @@
          style_b = my_href("showbird.html?name="+mname);
          style_e = "</A>";
       }else{
-         style_b = "<font color='#DDEEEE'>";
+         style_b = "<font color='#FFDDDD'>";
          style_e = "</font>";
       }
       if (modBrd.newbird[i] && (!all_new)){
