@@ -31,7 +31,7 @@ function initAlbum(){
     this[0][i]    = "20230923_049_KickKarate";
     this[1][i++]  = (["High kick","踢得好高"])[cn_ind];
     this[0][i]    = "20231115_Karate";
-    this[1][i++]  = ([urllink(url=("https://youtu.be/QqZm_C8t5FA"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink(url=("https://youtu.be/29kJejchWKQ"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
 
 
 
