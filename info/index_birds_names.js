@@ -434,7 +434,7 @@ var birds = myBirds([
     ["22-05-04T09:39","ACCIPITR","Short-tailed Hawk","短尾鵟","Buteo brachyurus",[["2301pabird",114],["2204flbird",55]],["pametr","S126960214","Light morph","flflfl","5/2022,S108968954","Immature dark morph, Matheson Hammock Park, Miami-Dade County","迈阿密-戴德郡马西森硬木公园"]],
     ["22-08-09T09:21","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",["2208azbird",59],["azazaz","S116639537","Light morph, Route 80, Cochise County","科奇斯郡80号公路"]],
     ["06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",["230311_016",["1412mckee",33]],["mdredg","S130689889","mdmwma","11/2014","Juvenile"]],
-    ["21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",["210113_008","210113_009"],["vavava","Light morph, "+gmap("Prince William County Landfill",38.6376,-77.4209),"威廉王子郡垃圾填埋场"]],
+    ["21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",["231119_226","210113_008","210113_009"],["mdmdmd","S154790088","Dark morph, Egypt Road, Dorchester County","多切斯特郡埃及路","vavava","Light morph, "+gmap("Prince William County Landfill",38.6376,-77.4209),"威廉王子郡垃圾填埋场"]],
     ["23-08-07T17:45","ACCIPITR","Common Buzzard","欧亚鵟","Buteo buteo",["2308ukbird",25],["ukston","S146716357"],"combuz1"],
     ["16-06-25T11:19","TYTONIDA","Barn Owl","美洲仓鸮","Tyto furcata",["160625_083"],["nyjbwr"],2352],
     ["23-03-12T10:24","STRIGIDA","Northern Saw-whet Owl","棕榈鬼鸮","Aegolius acadicus",["230312_019"],["papapa","S130760758",nps("john-heinz-tinicum",true,"John Heinz National Wildlife Refuge, Philadelphia"),"费城"+nps("john-heinz-tinicum",true,"约翰·亨氏国家野生动物保护区")]],
