@@ -835,7 +835,7 @@ var birds = myBirds([
     ["16-01-03T09:36","FRINGILL","Brambling","燕雀","Fringilla montifringilla",["1601china",[1,2]],["cnbjbj","Female, Jingshan Park","景山公园"],"brambl"],
     ["20-11-16T10:43","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Hesperiphona vespertina",["201116_124","201116_125","201116_126"],["vavava","Male"+(t1=", "+gmap("Shenandoah River Campus at Cool Spring Battlefield")),(t2="雪兰多大学冷泉战场临河校区"),"vavava","Female"+t1,t2]],
     ["16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",["1601china",27],["cnjsxp","Female"],"yebgro1"],
-    ["14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",["161016_104","230416_039","161106_115"],["mdbhrp","Male","mdwoot","S133952736","Female","mdmdmd","Female/immature, "+gmap("Cromwell Valley Park, Baltimore"),"巴尔的摩克伦威尔溪谷公园"]],
+    ["14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",["161016_104","230416_039","231124_234"],["mdbhrp","Male","mdwoot","S133952736","Female","mdwoot","S155091153","Female/immature"]],
     ["06-08-11T17:33","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",[["1412mckee",[1,35,2]],["1905mxbird",19]],["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female","mxunam"]],
     ["23-08-08T12:29","FRINGILL","European Greenfinch","欧金翅雀","Chloris chloris",["2308ukbird",40],["uklwcn","S146754960","Male"],"eurgre1",9863],
     ["16-01-16T09:02","FRINGILL","Grey-capped Greenfinch","金翅雀","Chloris sinica",["1601china",71],["cnbjbj","Temple of Heaven","天坛公园"],"origre"],
