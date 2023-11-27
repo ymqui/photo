@@ -37,4 +37,5 @@ Eurasian Jackdaw,				Western Jackdaw
 Eurasian Green Woodpecker,			European Green Woodpecker
 Eurasian Linnet,				Common Linnet
 Greater Whitethroat,				Common Whitethroat
+Gray Flycatcher,				American Gray Flycatcher
 
