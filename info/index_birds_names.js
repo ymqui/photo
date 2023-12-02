@@ -580,7 +580,7 @@ var birds = myBirds([
     ["15-05-17T09:46","TYRANNID","Alder Flycatcher","恺木纹霸鹟","Empidonax alnorum",["1505bombayhook",5],["debnwr"]],
     ["15-08-29T07:34","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",[["1512bhill",35],["1609vcbird",14]],["mdbhrp","8/2015","cactnw"]],
     ["22-10-29T10:33","TYRANNID","Hammond's Flycatcher","哈氏纹霸鹟","Empidonax hammondii",["221029_159","221029_156"],["papapa","S121532978","Tuscarora State Park, Schuylkill County","斯古吉尔郡塔斯卡罗拉州立公园"]],
-    ["23-11-25T12:19","TYRANNID","Gray Flycatcher","灰纹霸鹟","Empidonax wrightii",["231125_238"],["papapa","S155204494","West Back Mountain Road, Mifflin County","米夫林郡西后山路"]],
+    ["23-11-25T12:19","TYRANNID","Gray Flycatcher","灰纹霸鹟","Empidonax wrightii",["231125_238"],["papapa","S155204494","West Back Mountain Road, Belleville, Mifflin County","米夫林郡贝尔维尔镇西后山路"]],
     ["20-12-12T15:19","TYRANNID","Western Flycatcher","北美纹霸鹟","Empidonax difficilis",["201215_137","201215_138"],["mdmdmd",gmap("Riverwalk Park, Frederick",39.435,-77.385),"弗雷德里克市河滨公园"]],
     ["19-05-12T09:45","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",["1905mxbird",[10,11]],["mxunam"]],
     ["13-12-25T14:52","TYRANNID","Vermilion Flycatcher","朱红霸鹟","Pyrocephalus obscurus",[["1312bbbird",3],["2001txbirding",35],["2208azbird",15]],["txbbnp","Male","txsnwr","Male","azazaz","S116518164","Female and juveniles, "+hotspot("L272736","Kennedy Park, Tucson"),"图森市肯尼迪公园"]],
