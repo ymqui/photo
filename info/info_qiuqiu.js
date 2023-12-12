@@ -354,6 +354,8 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20231113_074_Note";
     this[1][i++]  = (["A note to Daddy","给爸爸的纸条：亲爱的爸爸，我这么爱你，我可以买我想要的两本书吗？我是这么这么这么地爱你哟"])[cn_ind];
+    this[0][i]    = ["20231211_079_PuppetShow","20231211_080_PuppetShow","20231211_081_PuppetShow"];
+    this[1][i++]  = (["Performing a finger puppet show","表演掌中木偶戏"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
