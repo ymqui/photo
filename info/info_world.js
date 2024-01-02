@@ -11,7 +11,7 @@ homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"],
                   ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+coltext("Iceland"),"6/2023 "+coltext("冰岛")+"度假"],
-                  ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"]];
+                  ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"],["2312china","12/2023 Vacationing in "+coltext("China"),"12/2023 "+coltext("中国")+"度假"]];
 
 document.title = title;
 
@@ -43,6 +43,8 @@ function initAlbum(){
     this[1][i++]  = ([[pagelink("2306iceland","Jökulsárlón, Eastern Region, "+btext("Iceland")),pagelink("2306iceland","Seljalandsfoss, Southern Region, "+btext("Iceland")),pagelink("2306iceland","Blue Lagoon, Southern Peninsula, "+btext("Iceland"))],[pagelink("2306iceland",btext("冰岛")+"东部地区杰古沙龙冰河湖"),pagelink("2306iceland",btext("冰岛")+"南部地区塞里雅兰瀑布"),pagelink("2306iceland",btext("冰岛")+"雷克雅内斯半岛蓝湖温泉")]])[cn_ind];
     this[0][i]    = "20230807_UK";
     this[1][i++]  = pagelink("2308uk",(["Stonehenge, Wiltshire, "+btext("United Kingdom"),btext("英国")+"威尔特郡巨石阵"])[cn_ind]);
+    this[0][i]    = "20231215_China";
+    this[1][i++]  = pagelink("2312china",(["Tiananmen, Beijing, "+btext("China"),btext("中国")+"北京天安门"])[cn_ind]);
 
     adddate(this);
 }
