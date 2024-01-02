@@ -44,7 +44,7 @@ function initAlbum(){
     this[0][i]    = "20230807_UK";
     this[1][i++]  = pagelink("2308uk",(["Stonehenge, Wiltshire, "+btext("United Kingdom"),btext("英国")+"威尔特郡巨石阵"])[cn_ind]);
     this[0][i]    = ["20231215_China","20231221_China"];
-    this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind]);
+    this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind];
 
     adddate(this);
 }
