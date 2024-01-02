@@ -28,6 +28,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
                   ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],
+                  ["2312china","12/2023 Vacationing in China","12/2023 回中国探亲"],		  
                   ["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" Travel Around the World","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -356,6 +357,16 @@ function initAlbum(){
     this[1][i++]  = (["A note to Daddy","给爸爸的纸条：亲爱的爸爸，我这么爱你，我可以买我想要的两本书吗？我是这么这么这么地爱你哟"])[cn_ind];
     this[0][i]    = ["20231211_079_PuppetShow","20231211_080_PuppetShow","20231211_081_PuppetShow"];
     this[1][i++]  = (["Performing a finger puppet show","表演掌中木偶戏"])[cn_ind];
+    this[0][i]    = ["2312china/2312china_3","20231215"];
+    this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
+    this[0][i]    = ["2312china/2312china_3","20231215"];
+    this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
+    this[0][i]    = ["2312china/2312china_3","20231215"];
+    this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
+    this[0][i]    = ["2312china/2312china_14","20231221"];
+    this[1][i++]  = (["Visiting grandparents at Daddy's hometown Longyan during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时去爸爸的故乡龙岩看望爷爷奶奶"])[cn_ind];
+    this[0][i]    = ["2312china/2312china_31","20231225"];
+    this[1][i++]  = (["Visiting grandparents at Mommy's hometown Jiangshan during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时去妈妈的故乡江山看望外公外婆"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
