@@ -43,8 +43,8 @@ function initAlbum(){
     this[1][i++]  = ([[pagelink("2306iceland","Jökulsárlón, Eastern Region, "+btext("Iceland")),pagelink("2306iceland","Seljalandsfoss, Southern Region, "+btext("Iceland")),pagelink("2306iceland","Blue Lagoon, Southern Peninsula, "+btext("Iceland"))],[pagelink("2306iceland",btext("冰岛")+"东部地区杰古沙龙冰河湖"),pagelink("2306iceland",btext("冰岛")+"南部地区塞里雅兰瀑布"),pagelink("2306iceland",btext("冰岛")+"雷克雅内斯半岛蓝湖温泉")]])[cn_ind];
     this[0][i]    = "20230807_UK";
     this[1][i++]  = pagelink("2308uk",(["Stonehenge, Wiltshire, "+btext("United Kingdom"),btext("英国")+"威尔特郡巨石阵"])[cn_ind]);
-    this[0][i]    = "20231215_China";
-    this[1][i++]  = pagelink("2312china",(["Tiananmen, Beijing, "+btext("China"),btext("中国")+"北京天安门"])[cn_ind]);
+    this[0][i]    = ["20231215_China","20231221_China"];
+    this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind]);
 
     adddate(this);
 }
