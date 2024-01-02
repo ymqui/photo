@@ -359,10 +359,6 @@ function initAlbum(){
     this[1][i++]  = (["Performing a finger puppet show","表演掌中木偶戏"])[cn_ind];
     this[0][i]    = ["2312china/2312china_3","20231215"];
     this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
-    this[0][i]    = ["2312china/2312china_3","20231215"];
-    this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
-    this[0][i]    = ["2312china/2312china_3","20231215"];
-    this[1][i++]  = (["Visiting Tiananmen in Beijing during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时游北京天安门"])[cn_ind];
     this[0][i]    = ["2312china/2312china_14","20231221"];
     this[1][i++]  = (["Visiting grandparents at Daddy's hometown Longyan during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时去爸爸的故乡龙岩看望爷爷奶奶"])[cn_ind];
     this[0][i]    = ["2312china/2312china_31","20231225"];
