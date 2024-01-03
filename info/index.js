@@ -1366,6 +1366,12 @@
   info[2][j] = 2;
   info[3][j] = "8/2023 England Birding";
   info[4][j++] = "Birding in England (United Kingdom).";
+  info[0][j] = "2312cnbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "12/2023 Birding China & Japan";
+  info[4][j++] = "Birding in Beijing, Zhejiang, Fujian (China) and Tokyo (Japan).";
+
 
   if(window.usechinese){
      j = 0;
@@ -1911,6 +1917,8 @@
      info[4][j++] = "在冰岛观鸟(冰岛)。";
      info[3][j]   = "8/2023 英国观鸟";
      info[4][j++] = "在英国观鸟(英国)。";
+     info[3][j]   = "12/2023 中国和日本观鸟";
+     info[4][j++] = "在北京，浙江，福建(中国)和日本东京(日本)观鸟。";
   } 
 
   //special touch
@@ -1929,5 +1937,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2023-08-17T08:00:00");
+  var modDat = new Date("2024-01-03T08:00:00");
 //-->
