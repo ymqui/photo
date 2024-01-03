@@ -10,7 +10,6 @@ Painted Redstart,				Painted Whitestart
 Eared Grebe,					Black-necked Grebe
 American Pipit,					Buff-bellied Pipit
 Rough-legged Hawk,				Rough-legged Buzzard
-Eurasian Moorhen,				Common Moorhen
 Rock Pigeon,					Rock Dove
 Black-bellied Plover,				Grey Plover
 Dovekie,					Little Auk
