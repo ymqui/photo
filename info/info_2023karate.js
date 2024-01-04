@@ -32,8 +32,12 @@ function initAlbum(){
     this[1][i++]  = (["High kick","踢得好高"])[cn_ind];
     this[0][i]    = "20231115_Karate";
     this[1][i++]  = ([urllink(url=("https://youtu.be/29kJejchWKQ"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
-
-
+    this[0][i]    = "20231231_082_Karate";
+    this[1][i++]  = (["Practice at home","在家练习"])[cn_ind];
+    this[0][i]    = "20231231_083_Karate";
+    this[1][i++]  = (["Practice at home","在家练习"])[cn_ind];
+    this[0][i]    = "20231231_084_Karate";
+    this[1][i++]  = (["Practice at home","在家练习"])[cn_ind];
 
     adddate(this);
 }
