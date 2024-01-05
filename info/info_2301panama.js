@@ -12,6 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2301pabird","1/2023 Birding in Panama","1/2023 巴拿马观鸟"]]
  
 if(window.usechinese){
     title      = "在巴拿马度假";

@@ -12,6 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2308ukbird","8/2023 Birding in England","8/2023 英国观鸟"]]
  
 if(window.usechinese){
     title      = "英国度假";

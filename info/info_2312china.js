@@ -11,6 +11,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2312cnbird","12/2023 Birding in China and Japan","12/2023 中国和日本观鸟"]]
  
 if(window.usechinese){
     title      = "回中国探亲";
