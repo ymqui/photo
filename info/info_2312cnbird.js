@@ -161,7 +161,7 @@ function initAlbum(){
         this[1][131] = "赤膀鸭，日本东京羽田机场多摩川河口。";
         this[1][132] = "灰椋鸟，日本东京羽田机场多摩川河口。";
         this[1][133] = "北红尾鸲，雌性，日本东京羽田机场多摩川河口。";
-        this[1][134] = "牛头伯劳，日本东京羽田机场多摩川河口。";
+        this[1][134] = "牛头伯劳，雌性，日本东京羽田机场多摩川河口。";
         this[1][135] = "西伯利亚银鸥，日本东京羽田机场多摩川河口。";
         this[1][136] = "蓝矶鸫，雌性，日本东京羽田机场多摩川河口。";
         this[1][137] = "麻雀，日本东京羽田机场多摩川河口。";
@@ -307,7 +307,7 @@ function initAlbum(){
         this[1][131] = "Gadwall, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][132] = "White-cheeked Starling, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][133] = "Daurian Redstart, female, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
-        this[1][134] = "Bull-headed Shrike, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
+        this[1][134] = "Bull-headed Shrike, female, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][135] = "Vega Gull, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][136] = "Blue Rock-Thrush, female, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][137] = "Eurasian Tree Sparrow, Tama River Mouth at Haneda Airport, Tokyo, Japan.";

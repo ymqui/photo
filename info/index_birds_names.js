@@ -669,7 +669,7 @@ var birds = myBirds([
 //  ["24-00-00T00:00","PLATYLOP","Crested Jayshrike","冠鸦","Platylophus galericulatus",[],["arb",""],"crejay1"],
     ["16-02-05T09:01","LANIIDAE","Loggerhead Shrike","呆头伯劳","Lanius ludovicianus",["1612savannah",11],["scsnwr"]],
     ["16-12-10T08:44","LANIIDAE","Northern Shrike","灰伯劳","Lanius borealis",["161210_138","211219_148"],["mdmdmd","Juvenile, "+gmap("Ben's Point Road, Queen Anne's County",39.1537,-75.9892),"安妮女王郡本点路","mdbmnt"],6458],
-    ["23-12-29T08:02","LANIIDAE","Bull-headed Shrike","牛头伯劳","Lanius bucephalus",["2312cnbird",135],["jphaap","S157775175"],"buhshr1"],
+    ["23-12-29T08:02","LANIIDAE","Bull-headed Shrike","牛头伯劳","Lanius bucephalus",["2312cnbird",135],["jphaap","S157775175","Female"],"buhshr1"],
     ["16-01-10T09:41","LANIIDAE","Long-tailed Shrike","棕背伯劳","Lanius schach",[["1601china",43],["2312cnbird",33]],["cnlynv","cnlynv","S157713157"],"lotshr1"],
     ["16-09-15T06:39","CORVIDAE","Canada Jay","灰噪鸦","Perisoreus canadensis",[["1609vcbird",2],["1709algonquin",14]],["vtwwma","caalgp"]],
     ["20-01-25T08:58","CORVIDAE","Green Jay","绿蓝鸦","Cyanocorax luxuosus",["2001txbirding",40],["txsnwr"]],
