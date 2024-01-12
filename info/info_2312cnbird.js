@@ -81,7 +81,7 @@ function initAlbum(){
         this[1][51] = "赤红山椒鸟，雄性，福建永定洪坑土楼。";
         this[1][52] = "普通翠鸟，福建永定洪坑土楼。";
         this[1][53] = "赤红山椒鸟，雌性，福建永定洪坑土楼。";
-        this[1][54] = "黑短脚鹎，浙江江山须江公园。";
+        this[1][54] = "黑短脚鹎，白头型，浙江江山须江公园。";
         this[1][55] = "黄腰柳莺，浙江江山须江公园。";
         this[1][56] = "鹊鸲，浙江江山须江公园。";
         this[1][57] = "白鹡鸰，浙江江山须江公园。";
@@ -227,7 +227,7 @@ function initAlbum(){
         this[1][51] = "Scarlet Minivet, male, Yongding Hongkeng Tulou, Fujian.";
         this[1][52] = "Common Kingfisher, Yongding Hongkeng Tulou, Fujian.";
         this[1][53] = "Scarlet Minivet, female, Yongding Hongkeng Tulou, Fujian.";
-        this[1][54] = "Black Bulbul, Xujiang Park, Jiangshan, Zhejiang.";
+        this[1][54] = "Black Bulbul, White-headed form, Xujiang Park, Jiangshan, Zhejiang.";
         this[1][55] = "Pallas's Leaf Warbler, Xujiang Park, Jiangshan, Zhejiang.";
         this[1][56] = "Oriental Magpie-Robin, Xujiang Park, Jiangshan, Zhejiang.";
         this[1][57] = "White Wagtail, Xujiang Park, Jiangshan, Zhejiang.";

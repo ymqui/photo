@@ -727,7 +727,7 @@ var birds = myBirds([
     ["23-12-16T16:34","PYCNONOT","Chestnut Bulbul","栗背短脚鹎","Hemixos castanonotus",["2312cnbird",[26,27]],["cnhzbg","S157705395"],"chebul1"],
     ["23-12-20T09:12","PYCNONOT","Mountain Bulbul","绿翅短脚鹎","Ixos mcclellandii",["2312cnbird",[42,89]],["cnfjfj","S157741735","Lianhuashan Park, Longyan","龙岩市莲花山公园","cnzjzj","S157762161","Xishan Park, Jiangshan","江山市西山公园"],"moubul2"],
     ["23-12-29T07:46","PYCNONOT","Brown-eared Bulbul","栗耳短脚鹎","Hypsipetes amaurotis",["2312cnbird",127],["jphaap","S157775175"],"brebul1"],
-    ["16-01-09T14:54","PYCNONOT","Black Bulbul","黑短脚鹎","Hypsipetes leucocephalus",[["1704longyan",3],["1601china",38]],["cnlydp","cnlydp","White-headed form","","白头型"],"blabul1"],
+    ["16-01-09T14:54","PYCNONOT","Black Bulbul","黑短脚鹎","Hypsipetes leucocephalus",[["1704longyan",3],["2312cnbird",55]],["cnlydp","cnjsxp","S157745464","White-headed form","","白头型"],"blabul1"],
     ["16-01-10T10:01","PYCNONOT","Collared Finchbill","领雀嘴鹎","Spizixos semitorques",[["1601china",42],["2312cnbird",91]],["cnlynv","cnzjzj","S157762161","Xishan Park, Jiangshan","江山市西山公园"],"colfin1"],
     ["16-01-05T10:09","PYCNONOT","Light-vented Bulbul","白头鹎","Pycnonotus sinensis",["2312cnbird",5],["cnbjof","S157703762"],"livbul1"],
     ["16-01-10T10:03","PYCNONOT","Red-whiskered Bulbul","红耳鹎","Pycnonotus jocosus",["1601china",44],["cnlynv"],"rewbul"],
