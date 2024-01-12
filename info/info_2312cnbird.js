@@ -97,7 +97,7 @@ function initAlbum(){
         this[1][67] = "红头长尾山雀，浙江江山江山港绿道。";
         this[1][68] = "暗绿绣眼鸟，浙江江山江山港绿道。";
         this[1][69] = "斑鸫，浙江江山江山港绿道。";
-        this[1][70] = "灰头鹀，浙江江山江山港绿道。";
+        this[1][70] = "灰头鹀，雌性/未成年，浙江江山江山港绿道。";
         this[1][71] = "丝光椋鸟，浙江江山江山港绿道。";
         this[1][72] = "斑文鸟，浙江江山江山港绿道。";
         this[1][73] = "褐柳莺，浙江江山江山港绿道。";
@@ -139,7 +139,7 @@ function initAlbum(){
         this[1][109] = "苍鹰，未成年，北京植物园。";
         this[1][110] = "苍鹰，未成年，北京植物园。";
         this[1][111] = "珠颈斑鸠，北京植物园。";
-        this[1][112] = "赤颈鸫，北京植物园。";
+        this[1][112] = "赤颈鸫，雄性，北京植物园。";
         this[1][113] = "黄雀，雌性，北京植物园。";
         this[1][114] = "黑头䴓，雄性，北京植物园。";
         this[1][115] = "红交嘴雀，雌性，北京植物园。";
@@ -154,8 +154,8 @@ function initAlbum(){
         this[1][124] = "黑天鹅，未成年，北京圆明园。";
         this[1][125] = "鸳鸯，北京圆明园。";
         this[1][126] = "栗耳短脚鹎，日本东京羽田机场多摩川河口。";
-        this[1][127] = "芦鹀，日本东京羽田机场多摩川河口。";
-        this[1][128] = "芦鹀，日本东京羽田机场多摩川河口。";
+        this[1][127] = "芦鹀，非繁殖羽雄性，日本东京羽田机场多摩川河口。";
+        this[1][128] = "芦鹀，非繁殖羽雄性，日本东京羽田机场多摩川河口。";
         this[1][129] = "白鹡鸰，日本东京羽田机场多摩川河口。";
         this[1][130] = "赤颈鸭，日本东京羽田机场多摩川河口。";
         this[1][131] = "赤膀鸭，日本东京羽田机场多摩川河口。";
@@ -243,7 +243,7 @@ function initAlbum(){
         this[1][67] = "Black-throated Bushtit, Jiangshangang Greenway, Jiangshan, Zhejiang.";
         this[1][68] = "Swinhoe's White-eye, Jiangshangang Greenway, Jiangshan, Zhejiang.";
         this[1][69] = "Dusky Thrush, Jiangshangang Greenway, Jiangshan, Zhejiang.";
-        this[1][70] = "Black-faced Bunting, Jiangshangang Greenway, Jiangshan, Zhejiang.";
+        this[1][70] = "Black-faced Bunting, female/immature, Jiangshangang Greenway, Jiangshan, Zhejiang.";
         this[1][71] = "Red-billed Starling, Jiangshangang Greenway, Jiangshan, Zhejiang.";
         this[1][72] = "Scaly-breasted Munia, Jiangshangang Greenway, Jiangshan, Zhejiang.";
         this[1][73] = "Dusky Warbler, Jiangshangang Greenway, Jiangshan, Zhejiang.";
@@ -285,7 +285,7 @@ function initAlbum(){
         this[1][109] = "Eurasian Goshawk, immature, Botanical Garden, Beijing.";
         this[1][110] = "Eurasian Goshawk, immature, Botanical Garden, Beijing.";
         this[1][111] = "Spotted Dove, Botanical Garden, Beijing.";
-        this[1][112] = "Red-throated Thrush, Botanical Garden, Beijing.";
+        this[1][112] = "Red-throated Thrush, male, Botanical Garden, Beijing.";
         this[1][113] = "Eurasian Siskin, female, Botanical Garden, Beijing.";
         this[1][114] = "Chinese Nuthatch, male, Botanical Garden, Beijing.";
         this[1][115] = "Red Crossbill, female, Botanical Garden, Beijing.";
@@ -300,8 +300,8 @@ function initAlbum(){
         this[1][124] = "Black Swan, immature, Yuanmingyuan, Beijing.";
         this[1][125] = "Mandarin Duck, Yuanmingyuan, Beijing.";
         this[1][126] = "Brown-eared Bulbul, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
-        this[1][127] = "Common Reed Bunting, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
-        this[1][128] = "Common Reed Bunting, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
+        this[1][127] = "Common Reed Bunting, nonbreeding male, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
+        this[1][128] = "Common Reed Bunting, nonbreeding male, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][129] = "White Wagtail, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][130] = "Eurasian Wigeon, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
         this[1][131] = "Gadwall, Tama River Mouth at Haneda Airport, Tokyo, Japan.";
