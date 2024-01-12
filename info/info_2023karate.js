@@ -38,7 +38,7 @@ function initAlbum(){
     this[1][i++]  = (["Practice at home","在家练习"])[cn_ind];
     this[0][i]    = "20231231_084_Karate";
     this[1][i++]  = (["Practice at home","在家练习"])[cn_ind];
-    this[0][i]    = ["20240110_003_KickKarate","20240110_003_KickKarate"];
+    this[0][i]    = ["20240110_003_KickKarate","20240110_004_KickKarate"];
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/dqQ_NQJp5o0?feature=share"),"Playing before the class (YouTube Video)"),urllink(url,"课前玩耍(YouTube视频)")])[cn_ind];
     this[0][i]    = "20240110_005_KickKarate";
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/FNFrp9ZDb24?feature=share"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
