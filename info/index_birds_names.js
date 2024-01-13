@@ -845,7 +845,7 @@ var birds = myBirds([
     ["23-12-24T13:55","MUSCICAP","White-crowned Forktail","白冠燕尾","Enicurus leschenaulti",["2312cnbird",[82,83]],["cnzjzj","S157756774","Nianbadu, Jiangshan","江山市廿八都"],"whcfor1","白额燕尾"],
     ["17-04-03T06:42","MUSCICAP","Narcissus Flycatcher","黄眉姬鹟","Ficedula narcissina",["1704longyan",4],["cnlydp","Male"],"narfly"],
     ["16-01-05T09:41","MUSCICAP","Red-flanked Bluetail","红胁蓝尾鸲","Tarsiger cyanurus",[["2312cnbird",59],["1601china",[18,19]]],["cnjsxp","S157746788","Male","cnjsxp","Female"],"refblu"],
-    ["16-01-12T15:01","MUSCICAP","Plumbeous Water Redstart","红尾水鸲","Phoenicurus fuliginosus",["1601china",[48,84]],["cnfjfj","S157743512","Male, Yongding Hongkeng Tulou","永定洪坑土楼","cnzjzj","S157756774","Female, Nianbadu, Jiangshan","江山市廿八都"],"plured1"],
+    ["16-01-12T15:01","MUSCICAP","Plumbeous Water Redstart","红尾水鸲","Phoenicurus fuliginosus",["2312cnbird",[48,84]],["cnfjfj","S157743512","Male, Yongding Hongkeng Tulou","永定洪坑土楼","cnzjzj","S157756774","Female, Nianbadu, Jiangshan","江山市廿八都"],"plured1"],
     ["16-01-04T11:02","MUSCICAP","Daurian Redstart","北红尾鸲","Phoenicurus auroreus",["2312cnbird",[94,29,96,134]],["cnzjzj","S157762161","Male, Xishan Park, Jiangshan","江山市西山公园","cnfjfj","S157710876","Female, Jiangshan Shuimeiren, Longyan","龙岩市江山睡美人","cnzjzj","S157764958","Immature male, Jiangshangang Greenway, Jiangshan","江山市江山港绿道","jphaap","S157775175","Female"],"daured1"],
     ["23-12-29T08:03","MUSCICAP","Blue Rock-Thrush","蓝矶鸫","Monticola solitarius",["2312cnbird",137],["jphaap","S157775175","Female"],"burthr"],
     ["16-01-11T14:52","MUSCICAP","Amur Stonechat","东亚石䳭","Saxicola stejnegeri",["1601china",[48,49]],["cnlydp","Male","cnlydp","Female"],"stonec7",9091],
