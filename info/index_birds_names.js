@@ -770,7 +770,7 @@ var birds = myBirds([
     ["23-12-27T11:04","PARADOXO","Beijing Babbler","山鹛","Rhopophilus pekinensis",["2312cnbird",107],["cnbjbg","S157768838"],"beibab1"],
     ["23-12-15T15:20","PARADOXO","Reed Parrotbill","震旦鸦雀","Paradoxornis heudei",["2312cnbird",14],["cnbjof","S157703762"],"reepar3"],
     ["23-12-15T15:36","PARADOXO","Vinous-throated Parrotbill","棕头鸦雀","Suthora webbiana",["2312cnbird",[15,88]],["cnbjof","S157703762","cnzjzj","S157762161","Xishan Park, Jiangshan","江山市西山公园"],"vitpar1"],
-    ["17-04-04T06:37","ZOSTEROP","Swinhoe's White-eye","暗绿绣眼鸟","Zosterops simplex",["1704longyan",13],["cnlydp"],"swiwhe1",10892],
+    ["17-04-04T06:37","ZOSTEROP","Swinhoe's White-eye","暗绿绣眼鸟","Zosterops simplex",[["1704longyan",13],["2312cnbird",69]],["cnlydp","cnzjzj","S157750029","Jiangshangang Greenway, Jiangshan","江山市江山港绿道"],"swiwhe1",10892],
     ["16-01-11T14:29","ZOSTEROP","Warbling White-eye","日本绣眼鸟","Zosterops japonicus",["1601china",46],["cnlydp"],"warwhe1",8245],
     ["23-12-25T10:59","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",["2312cnbird",[92,93]],["cnzjzj","S157762161","Xishan Park, Jiangshan","江山市西山公园"],"sbsbab3"],
 //  ["24-00-00T00:00","PELLORNE","Dusky Fulvetta","褐顶雀鹛","Schoeniparus brunneus",["2312cnbird",],["cnhzbg",""],"dusful1"],
