@@ -364,9 +364,9 @@ function initAlbum(){
     this[0][i]    = ["2312china/2312china_31","20231225"];
     this[1][i++]  = (["Visiting grandparents at Mommy's hometown Jiangshan during the "+pagelink("2312china","vacation in China"),pagelink("2312china","回中国探亲")+"时去妈妈的故乡江山看望外公外婆"])[cn_ind];
     this[0][i]    = ["20240116_006_Snow","20240116_007_Snow","20240116_008_Snow","20240116_009_Snow","20240116_013_Snow"];
-    this[1][i++]  = (["Playing in the snow during the first snow day of the year","下雪天不用上学，在家外头玩雪"])[cn_ind];
+    this[1][i++]  = (["Playing in the snow on the first snow day of the year","下雪天不用上学，在家外头玩雪"])[cn_ind];
     this[0][i]    = ["20240116_010_SnowAngel","20240116_011_SnowAngel"];
-    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/9dgLi4F6Lgs?feature=share"),"Making a snow angel (YouTube Video)")+" during the first snow day of the year","下雪天不用上学，"+urllink(url,"在雪里玩雪天使(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/9dgLi4F6Lgs?feature=share"),"Making a snow angel (YouTube Video)")+" on the first snow day of the year","下雪天不用上学，"+urllink(url,"在雪里玩雪天使(YouTube视频)")])[cn_ind];
 
 
     if (/birthday/.test(window.location.search.substring(1))) {
