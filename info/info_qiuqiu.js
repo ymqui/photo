@@ -367,7 +367,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing in the snow on the first snow day of the year","下雪天不用上学，在家外头玩雪"])[cn_ind];
     this[0][i]    = ["20240116_010_SnowAngel","20240116_011_SnowAngel"];
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/9dgLi4F6Lgs?feature=share"),"Making a snow angel (YouTube Video)")+" on the first snow day of the year","下雪天不用上学，"+urllink(url,"在雪里玩雪天使(YouTube视频)")])[cn_ind];
-
+    this[0][i]    = ["20240119_014_ShovellingSnow","20240119_015_ShovellingSnow"];
+    this[1][i++]  = (["Helping Daddy shovel snow on the second snow day in a week","一周内第二个下雪天不用上学，帮爸爸铲雪"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
