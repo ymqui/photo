@@ -248,7 +248,7 @@ var birds = myBirds([
     ["20-01-24T09:17","PODICIPE","Least Grebe","侏䴙䴘","Tachybaptus dominicus",[["2001txbirding",18],["2204flbird",39]],["txsnwr","flflfl","5/2022,S108777458","Crandon Park, Miami-Dade County","迈阿密-戴德郡克兰登公园"]],
     ["13-12-25T15:11","PODICIPE","Pied-billed Grebe","斑嘴巨䴙䴘","Podilymbus podiceps",[["1312bbbird",7],["1512bhill",43],["1408fingerlake",12]],["txbbnp","mdbhrp","10/2015","Winter plumage","nymnwr","Juvenile"]],
     ["16-12-31T09:49","PODICIPE","Red-necked Grebe","赤颈䴙䴘","Podiceps grisegena",["161231_143"],["mdloch","Winter plumage"]],
-    ["23-08-06T07:18","PODICIPE","Great Crested Grebe","凤头䴙䴘","Podiceps cristatus",[["2308ukbird",[10,9]],["2312cnbird",141]],["ukregp","S146565886","ukregp","S146565886","jphaap","S157775175"],"grcgre1"],
+    ["23-08-06T07:18","PODICIPE","Great Crested Grebe","凤头䴙䴘","Podiceps cristatus",[["2308ukbird",[10,9]],["2312cnbird",141]],["ukregp","S146565886","Breeding adult with juvenile","","成年繁殖羽和幼鸟","ukregp","S146565886","Breeding adult with juvenile","","成年繁殖羽和幼鸟","jphaap","S157775175","Nonbreeding adult/immature"],"grcgre1"],
     ["06-11-10T15:16","PODICIPE","Horned Grebe","角䴙䴘","Podiceps auritus",[["2306isbird",48],"150321_039","150321_040"],["isisis","S142420917","Vestmannsvatn, Northeastern Region","东北地区Vestmannsvatn湖","mdftmh","Winter plumage","mdftmh","Spring molt"]],
     ["16-12-26T10:31","PODICIPE","Eared Grebe","黑颈䴙䴘","Podiceps nigricollis",["161226_141"],["mdcocn","Winter plumage, Riley's Lock","莱利闸"]],
     ["15-07-08T09:55","PODICIPE","Western Grebe","北美䴙䴘","Aechmophorus occidentalis",[["1507wbird",9],"201204_131"],["arb",gmap("Hayden Island, Portland, Oregon, USA",45.613,-122.6743),"美国俄勒冈州波特兰海登岛","mdloch"]],
