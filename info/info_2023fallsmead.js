@@ -36,6 +36,8 @@ function initAlbum(){
     this[1][i++]  = (["Picked up by Daddy today","今天爸爸来接球球"])[cn_ind];
     this[0][i]    = "20240111";
     this[1][i++]  = (["Perfect score","满分成绩单"])[cn_ind];
+    this[0][i]    = "20240124_017";
+    this[1][i++]  = (["Picked up by Mommy after school","放学妈妈来接球球"])[cn_ind];
 
     adddate(this);
 }
