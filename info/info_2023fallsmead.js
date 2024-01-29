@@ -38,6 +38,8 @@ function initAlbum(){
     this[1][i++]  = (["Perfect score","满分成绩单"])[cn_ind];
     this[0][i]    = ["20240124_016","20240124_017"];
     this[1][i++]  = (["Picked up by Mommy after school","放学妈妈来接球球"])[cn_ind];
+    this[0][i]    = "20240128";
+    this[1][i++]  = (["Nathan's 100th day project: a Chinese dragon decorated with 100 sequins","球球庆祝幼儿园第100天的作业：用100个亮片装饰的中国龙"])[cn_ind];
 
     adddate(this);
 }
