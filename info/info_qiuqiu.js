@@ -368,7 +368,7 @@ function initAlbum(){
     this[0][i]    = ["20240116_010_SnowAngel","20240116_011_SnowAngel"];
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/9dgLi4F6Lgs?feature=share"),"Making a snow angel (YouTube Video)")+" on the first snow day of the year","下雪天不用上学，"+urllink(url,"在雪里玩雪天使(YouTube视频)")])[cn_ind];
     this[0][i]    = ["20240119_014_ShovellingSnow","20240119_015_ShovellingSnow"];
-    this[1][i++]  = (["Helping Daddy shovel snow on the second snow day in a week","一周内第二个下雪天不用上学，帮爸爸铲雪"])[cn_ind];
+    this[1][i++]  = (["Helping Daddy shovel snow on the second snow day in a week","一周内第二个下雪天不用上学，在家帮爸爸铲雪"])[cn_ind];
     this[0][i]    = ["20240130_018_AllergyTest","20240130_019_AllergyTest"];
     this[1][i++]  = (["Allergy test. Nathan is still allergic to peanut and tree nuts","接受过敏原测试。球球仍然对花生和各种坚果过敏"])[cn_ind];
 
