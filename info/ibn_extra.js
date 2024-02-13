@@ -134,6 +134,7 @@
 //  ["24-00-00T00:00","MOTACILL","Western Yellow Wagtail","西黄鹡鸰","Motacilla flava",["2308ukbird",],["ukregp",""],"eaywag1"],
 //  ["24-00-00T00:00","PRUNELLI","Alpine Accentor","领岩鹨","Prunella collaris",[],["arb",""],"alpacc1"],
 //  ["24-00-00T00:00","CHLOROPS","Blue-winged Leafbird","蓝翅叶鹎","Chloropsis moluccensis",["2312cnbird",],["cnhzbg",""],"blwlea1"],
+//  ["24-00-00T00:00","FRINGILL","Gray-crowned Rosy-Finch","灰头岭雀","Leucosticte tephrocotis",[""],["vavava","S157768838","Mount Pleasant Trail, Amherst County","阿默斯特郡普莱森特山顶"],9791],
 //  ["24-00-00T00:00","FRINGILL","Pine Grosbeak","松雀","Pinicola enucleator",[],["mdmdmd","1/2023,"]],
 //  ["24-00-00T00:00","FRINGILL","Common Chaffinch","苍头燕雀","Fringilla coelebs",["2308ukbird",],["ukregp",""],"comcha"],
 //  ["24-00-00T00:00","FRINGILL","Eurasian Chaffinch","苍头燕雀","Fringilla coelebs",["2312cnbird",],["cnbjbg",""],"comcha"],
