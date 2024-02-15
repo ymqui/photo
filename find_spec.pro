@@ -579,15 +579,27 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
        edge[1] = 0.17
-       updown  = 0b
+       if year[-1] gt 2030 then updown  = 1b
     endif
+    print,year[-1]
     xran  = xran+[-1,1]*edge[0]*(xran[1]-xran[0])
     yran  = yran+[-edge[1],edge[2]]*(yran[1]-yran[0])
     xtit  = (['Year','年份'])[keyword_set(chinese)]
     ytit  = (['Lifer Count','!Z(9E1F,79CD,6570,76EE)'])[keyword_set(chinese)]
-    pobj  = obj_new('dm_plot',xtitl=xtit,ytit=ytit,cornertxt='LaoQ \copyright '+dm_to_string(min(year))+'-'+dm_to_string(max(year)),$
-            /legdshowfill,/legdshowoutline,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='helvetica italic',wtitle='Lifer Count',xsize=xsize,ysize=ysize)
-    pobj->setproperty,yran=yran,xran=xran,ytickminor=0,/nodraw,extragap=[-0.02,0,0,0]
+    
+    tmp = obj_valid()
+    ind = where(obj_isa(tmp,'dm_plot'),count)
+    for i=0,count-1 do begin
+        tmp[ind[i]]->getproperty,xtit=xtit0,ytit=ytit0
+        if (xtit0 eq xtit) and (ytit0 eq ytit) then begin
+           pobj = tmp[ind[i]]
+           pobj->erase,/nodraw,/keepaxes
+           break
+        endif
+    endfor
+    if n_elements(pobj) eq 0 then $
+    pobj  = obj_new('dm_plot',xtitl=xtit,ytit=ytit,/legdshowfill,/legdshowoutline,/showygrid,axisfsize=16,ctxtfsize=12,ctxtfont='helvetica italic',wtitle='Lifer Count',xsize=xsize,ysize=ysize)
+    pobj->setproperty,yran=yran,xran=xran,ytickminor=0,/nodraw,extragap=[-0.02,0,0,0],cornertxt='LaoQ \copyright '+dm_to_string(min(year))+'-'+dm_to_string(max(year))
     if keyword_set(movie) then pobj->movie,/open,file=get_filename(/movie),speed=(wait eq 0?5:(1/wait)),movie_type='gif'
     red   = 'red';[237,28,36]
     green = 'green';[34,177,76]
