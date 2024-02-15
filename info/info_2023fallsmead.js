@@ -40,6 +40,9 @@ function initAlbum(){
     this[1][i++]  = (["Picked up by Mommy after school","放学妈妈来接球球"])[cn_ind];
     this[0][i]    = "20240128";
     this[1][i++]  = (["Nathan's 100th day project: a Chinese dragon decorated with 100 sequins","球球庆祝幼儿园第100天的作业：用100个亮片装饰的中国龙"])[cn_ind];
+    makeface[j++] = i;
+    this[0][i]    = "20240215_1";
+    this[1][i++]  = (["100 is special","100很特别: 100年后我希望我能看视频； 如果我有100美元，我会买玩具"])[cn_ind];
 
     adddate(this);
 }
