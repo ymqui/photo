@@ -21,7 +21,6 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
-//    makeface[j++] = i;
     this[0][i]    = "20230828_0";
     this[1][i++]  = (["Walking to school","开学第一天走路去上学"])[cn_ind];
     this[0][i]    = "20230828_1";
