@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2024-01-03",18);
+var modTim = modTime("2024-02-18",18);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -874,6 +874,7 @@ var birds = myBirds([
     ["20-11-16T10:43","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Hesperiphona vespertina",["201116_124","201116_125","201116_126"],["vavava","Male"+(t1=", "+gmap("Shenandoah River Campus at Cool Spring Battlefield")),(t2="雪兰多大学冷泉战场临河校区"),"vavava","Female"+t1,t2]],
     ["23-12-28T08:46","FRINGILL","Hawfinch","锡嘴雀","Coccothraustes coccothraustes",["2312cnbird",[120,121]],["cnbjbj","S157773108","Yuanmingyuan Park",baike("圆明园","")],"hawfin"],
     ["16-01-06T09:08","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",["2312cnbird",[32,1]],["cnfjfj","S157710876","Male, Jiangshan Shuimeiren, Longyan",baike("江山睡美人","龙岩市"),"cnbjbj","S157702328","Female, Taoranting Park",baike("陶然亭公园","")],"yebgro1"],
+    ["24-02-18T08:50","FRINGILL","Gray-crowned Rosy-Finch","灰头岭雀","Leucosticte tephrocotis",["240218_060"],["vavava","S162069211","Mount Pleasant Summit, Amherst County","阿默斯特郡普莱森特山顶"],9791],
     ["14-11-15T11:10","FRINGILL","Purple Finch","紫朱雀","Haemorhous purpureus",["161016_104","230416_039","231124_234"],["mdbhrp","Male","mdwoot","S133952736","Female","mdwoot","S155091153","Female/immature"]],
     ["06-08-11T17:33","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",[["1412mckee",[1,35,2]],["1905mxbird",19]],["mdmwma","8/2014","Male","mdmwma","11/2014","Male","mdmwma","8/2014","Female","mxunam"]],
     ["23-08-08T12:29","FRINGILL","European Greenfinch","欧金翅雀","Chloris chloris",["2308ukbird",40],["uklwcn","S146754960","Male"],"eurgre1",9863],
