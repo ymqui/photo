@@ -42,6 +42,8 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20240215_1";
     this[1][i++]  = (["100 is special","100很特别: 100年后我希望我能看视频； 如果我有100美元，我会买玩具"])[cn_ind];
+    this[0][i]    = "20240223";
+    this[1][i++]  = (["Art project: a colorful hat that also works as a phone","在学校制作的艺术帽子"])[cn_ind];
 
     adddate(this);
 }
