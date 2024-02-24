@@ -371,10 +371,8 @@ function initAlbum(){
     this[1][i++]  = (["Helping Daddy shovel snow on the second snow day in a week","一周内第二个下雪天不用上学，在家帮爸爸铲雪"])[cn_ind];
     this[0][i]    = ["20240130_018_AllergyTest","20240130_019_AllergyTest"];
     this[1][i++]  = (["Allergy test. Nathan is still allergic to peanut and tree nuts","接受过敏原测试。球球仍然对花生和各种坚果过敏"])[cn_ind];
-    this[0][i]    = "20240219_Teeth";
-    this[1][i++]  = (["Showing off the newly erupted permanent molar teeth","看我新长出的恒磨牙"])[cn_ind];
     this[0][i]    = "20240221_DentalVisit";
-    this[1][i++]  = (["Dental checkup","定期牙齿检查"])[cn_ind];
+    this[1][i++]  = (["Dental visit","半年一次的定期牙齿检查"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
