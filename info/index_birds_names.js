@@ -514,7 +514,7 @@ var birds = myBirds([
     ["22-08-10T13:06","PICIDAE ","Gilded Flicker","黄扑翅䴕","Colaptes chrysoides",["2208azbird",[66,67]],["azazaz","S116681599","Male, "+(t1=hotspot("L387263","Scottsdale Community College, Scottsdale")),(t2="斯科茨代尔市社区大学"),"azazaz","S116681599","Female, "+t1,t2]],
     ["23-01-23T10:42","PICIDAE ","Cinnamon Woodpecker","桂红啄木鸟","Celeus loricatus",["2301pabird",57],["papipe","S126820118"],"cinwoo1"],
     ["23-01-23T10:41","PICIDAE ","Lineated Woodpecker","细纹黑啄木鸟","Dryocopus lineatus",["2301pabird",56],["papipe","S126820118","Male"],"linwoo1"],
-    ["05-12-28T10:22","PICIDAE ","Pileated Woodpecker","北美黑啄木鸟","Dryocopus pileatus",["230408_030","231202_242",["2020lbrp",7]],["mdredg","S133098258","Male","mdwoot","S155589787","Female","mdlbrp","5/2020","Male at nest cavity"]],
+    ["05-12-28T10:22","PICIDAE ","Pileated Woodpecker","北美黑啄木鸟","Dryocopus pileatus",["230408_030","240224_063",["2020lbrp",7]],["mdredg","S133098258","Male","mdwoot","S162743214","Female","mdlbrp","5/2020","Male at nest cavity"]],
     ["23-01-23T07:33","PICIDAE ","Crimson-crested Woodpecker","朱冠啄木鸟","Campephilus melanoleucos",["2301pabird",20],["papipe","S126820118","Male"],"crcwoo1"],
     ["18-12-04T13:35","PICIDAE ","Pale-billed Woodpecker","淡嘴啄木鸟","Campephilus guatemalensis",["1812crbird",44],["crarol","Female"],"pabwoo1"],
     ["23-12-15T15:43","PICIDAE ","Grey-headed Woodpecker","灰头绿啄木鸟","Picus canus",["2312cnbird",[16,17]],["cnbjof","S157703762","Male","cnbjof","S157703762","Female"],"gyfwoo1"],
