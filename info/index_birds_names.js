@@ -832,7 +832,6 @@ var birds = myBirds([
     ["23-06-16T15:59","TURDIDAE","Redwing","白眉歌鸫","Turdus iliacus",["2306isbird",[18,47]],["isisis","S141734657","Hótel Laugarhóll, Westfjords","西峡湾区Laugarhóll旅馆","isisis","S142043460","Juvenile, Kjarnaskógur, Northeastern Region","东北地区Kjarnaskógur森林"],"redwin"],
     ["23-06-18T16:37","TURDIDAE","Eurasian Blackbird","欧乌鸫","Turdus merula",[["2306isbird",[85,41]],["2308ukbird",[1,12]]],["isisis","S142515181","Male, Tjörnin Lake, Reykjavík","雷克雅未克托宁湖","isisis","S142693663","Juvenile, Kjarnaskógur, Northeastern Region","东北地区Kjarnaskógur森林","ukregp","S146565886","Male","ukregp","S146565886","Juvenile"],"eurbla"],
     ["17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[["1704longyan",2],["2312cnbird",64]],["cnlydp","Male","cnzjzj","S157748283","Female, Wanyao Reservior, Jiangshan",baike("碗窑水库","江山市")],"gybthr1"],
-    ["23-12-27T08:45","TURDIDAE","Black-throated Thrush","黑喉鸫","Turdus atrogularis",["2312cnbird",100],["cnbjbg","S157768838"],"datthr1"],
     ["23-12-27T13:21","TURDIDAE","Red-throated Thrush","赤颈鸫","Turdus ruficollis",["2312cnbird",113],["cnbjbg","S157768838","Male"],"retthr1"],
     ["23-12-23T15:26","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",["2312cnbird",70],["cnzjzj","S157750029","Jiangshangang Greenway, Jiangshan","江山市江山港滨水绿道"],"dusthr2"],
     ["16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾斑鸫","Turdus naumanni",["2312cnbird",97],["cnbjbg","S157768838"],"dusthr1","红尾鸫"],
