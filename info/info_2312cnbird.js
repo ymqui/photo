@@ -126,7 +126,7 @@ function initAlbum(){
         this[1][96] = "红尾斑鸫，北京植物园。";
         this[1][97] = "山斑鸠，北京植物园。";
         this[1][98] = "太平鸟，北京植物园。";
-        this[1][99] = "黑喉鸫，北京植物园。";
+        this[1][99] = "黑喉/赤颈鸫，北京植物园。";
         this[1][100] = "小太平鸟，北京植物园。";
         this[1][101] = "红嘴蓝鹊，北京植物园。";
         this[1][102] = "大斑啄木鸟，雄性，北京植物园。";
@@ -272,7 +272,7 @@ function initAlbum(){
         this[1][96] = "Naumann's Thrush, Botanical Garden, Beijing.";
         this[1][97] = "Oriental Turtle Dove, Botanical Garden, Beijing.";
         this[1][98] = "Bohemian Waxwing, Botanical Garden, Beijing.";
-        this[1][99] = "Black-throated Thrush, Botanical Garden, Beijing.";
+        this[1][99] = "Black-throated/Red-throated Thrush, Botanical Garden, Beijing.";
         this[1][100] = "Japanese Waxwing, Botanical Garden, Beijing.";
         this[1][101] = "Red-billed Blue Magpie, Botanical Garden, Beijing.";
         this[1][102] = "Great Spotted Woodpecker, male, Botanical Garden, Beijing.";
