@@ -61,7 +61,7 @@ function reform_name,name,latin=latin,gray=gray,family=family,ebird=ebird
            newname = newname+strmid(tmp[i],0,([([6,3,2,1])[0>(ncount-1)<3],([3,1,1])[0>(ncount-2)<2],([3,1])[0>(ncount-3)<1],([3])[0>(ncount-4)<0]])[i<3])
        endfor
     endif else begin ;name and latin
-       tmp = strsplit(strlowcase(name),' ',/extract,count=ncount)
+       tmp = strsplit(strlowcase(name),' -',/extract,count=ncount)
        newname = strupcase(strmid(tmp[0],0,1))+strmid(tmp[0],1)+([' ',''])[ncount eq 1]
        for i=1,ncount-1 do begin
            if keyword_set(latin) then newname = newname+tmp[i]+([' ',''])[i eq ncount-1] $
@@ -71,7 +71,7 @@ function reform_name,name,latin=latin,gray=gray,family=family,ebird=ebird
     return,newname
 end
 
-function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=birdname,namecomp=namecomp,locs=locs,movie=movie,tmpdir=tmpdir,totbird=totbird,country=country,extra=extra
+function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=birdname,namecomp=namecomp,locs=locs,photo=photo,ebird=ebird,movie=movie,tmpdir=tmpdir,totbird=totbird,country=country,extra=extra
     ;if keyword_set(ibn)      then return,'https://ymqui.github.io/photo/info/index_birds_names.js'
     if keyword_set(ibn)      then return,'C:\Users\qiuym\Desktop\index_birds_names.js'
     if keyword_set(excel)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\master_ioc_list_v14.1.csv'
@@ -87,6 +87,8 @@ function get_filename,excel=excel,chinese=chinese,ibn=ibn,order=order,birdname=b
     if keyword_set(tmpdir)   then return,'C:\Users\qiuym\Documents\Yiming\tmp\'
     ;if keyword_set(extra)    then return,'https://ymqui.github.io/photo/info/ibn_extra.js'
     if keyword_set(extra)    then return,'C:\Users\qiuym\Documents\Yiming\tmp\ibn_extra.js'
+    if keyword_set(photo)    then return,(file_search('C:\Users\qiuym\Desktop','ML_*.csv'))[0]
+    if keyword_set(ebird)    then return,(file_search('C:\Users\qiuym\Desktop','ebird_*.csv'))[0]
     return,'C:\Users\qiuym\Desktop\index_birds_names1.js'  ;for writing
 end
 
@@ -560,7 +562,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     if n_elements(wait) eq 0 then wait=0;0.2
     read_ibn,year=year,/stat
     cnts = fltarr(n_elements(year))+1.0
-    dm_step_bin,1,year,ydat=cnts,/avgsum,/const  ;aggregate based on year
+    dm_step_bin,1,year,ydat=cnts,/avgsum;,/const  ;aggregate based on year
     cyr  = fix((strsplit(systime(),' ',/extract))[-1]) ;current year
 ;    if cyr gt max(year) then begin
 ;       for i = max(year)+1,cyr do begin
@@ -574,7 +576,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
     xran  = [min(year),max(year)]
     gap   = 0.04*(yran[1]-yran[0])
     edge  = [0.06,0.1,0.15]  ;[+/-x,-y,+y]
-    fsize = ([12,10,8])[(yran[1] gt 1000)+(yran[1] gt 2000)]
+    fsize = ([12,10,10])[(yran[1] gt 1000)+(yran[1] gt 2000)]
     xsize = 900
     ysize = ([450,520,600])[(cuml[n_elements(cuml)-1] gt 1000)+(cuml[n_elements(cuml)-1] gt 1500)]
     if yran[1] gt 700 then begin
@@ -592,7 +594,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
         tmp[ind[i]]->getproperty,xtit=xtit0,ytit=ytit0
         if (xtit0 eq xtit) and (ytit0 eq ytit) then begin
            pobj = tmp[ind[i]]
-           pobj->erase,/nodraw,/keepaxes
+           pobj->erase,/keepaxes
            break
         endif
     endfor
@@ -610,7 +612,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
         endif
         if i eq 0 then begin
            pobj->add_plot,year[i],cnts[i],psym='Filled Circle',color=red,legend=(['annual count','!Z(5E74,5EA6,6570,76EE)'])[keyword_set(chinese)]
-           pobj->add_plot,year[i],cuml[i],psym='Filled Circle',color=green,legend=(['total count','!Z(5E74,5EA6,603B,6570)'])[keyword_set(chinese)]
+           pobj->add_plot,year[i],cuml[i],psym='Filled Circle',color=green,legend=(['total count',',!Z(5E74,5EA6,603B,6570)'])[keyword_set(chinese)]
         endif else begin
            pobj->add_plot,year[i-1:i],cnts[i-1:i],psym='Filled Circle',color=red
            pobj->add_plot,year[i-1:i],cuml[i-1:i],psym='Filled Circle',color=green
@@ -676,9 +678,9 @@ end
 
 pro find_bird
     read_ibn,/all,line=line,extra=line1 & help,line,line1
-    line = [line,line1]
+    ;line = [line,line1]
     pattern0 = '\)\,\["'
-    pattern1 = '^//.*flflfl'
+    pattern1 = '\["2[01]-'
     j = 1
     for i=0,n_elements(line)-1 do begin    
         if stregex(line[i],pattern1,/fold_case,/boolean)  then print,j++,line[i]
@@ -709,6 +711,55 @@ pro count_family
         tmp = where(family0 eq family2[i],cnt)
         if cnt eq 0 then print,family1[i],' is not in IBN.'
     endfor
+end
+
+pro check_photo
+    file = get_filename(/photo)
+    
+    if file eq '' then return
+    data = READ_CSV(file,N_TABLE_HEADER=1,table_header=header)
+    header = strsplit(header[0],',',/extract)
+    id = where(header eq 'Common Name')    
+    photo = data.([id[0]])
+    for i=0,n_elements(photo)-1 do photo[i] = reform_name((strsplit(photo[i],'(',/extract))[0])
+    photo = photo[UNIQ(photo, SORT(photo))] & help,photo
+    file = get_filename(/ebird)
+    if file ne '' then begin
+       data = READ_CSV(file,N_TABLE_HEADER=1,table_header=header)
+       header = strsplit(header[0],',',/extract)
+       id = where(header eq 'Common Name')
+       ebird = data.([id[0]])
+       for i=0,n_elements(ebird)-1 do ebird[i] = reform_name((strsplit(ebird[i],'(',/extract))[0])
+       ebird = ebird[UNIQ(ebird, SORT(ebird))]
+       missing = ''
+       for i=0,n_elements(ebird)-1 do begin
+           ind = where(photo eq reform_name(ebird[i]),cnt)
+           if (cnt eq 0) then missing = [missing,ebird[i]]
+       endfor
+       if n_elements(missing) gt 1 then begin
+          print,'missing photos in ebird:'
+          print,missing[1:*]+', '
+          help,missing
+       endif
+    endif
+    print,''
+    read_ibn,bird=bird,line=line
+    missing = ''
+    for i=0,n_elements(bird)-1 do begin
+        ind = where(photo eq reform_name(bird[i]),cnt)
+        if (cnt eq 0) and (strmid(line[i],0,1) ne '/') then missing = [missing,bird[i]]
+    endfor
+    print,'mising photos in ibn:'
+    print,missing[1:*]+', '
+    help,missing
+    j=0
+;    for i=0,n_elements(line)-1 do begin
+;        if (strmid(line[i],0,1) ne '/') and (stregex(line[i],'"[^\]]+[a-z]{3,6}"\],',/boolean) or stregex(line[i],'"[a-z]{3,6}","[^S]',/boolean)) then begin
+;           print,line[i]
+;           j++
+;        endif
+;    endfor
+    print,'done',j
 end
 
 pro check_compare
