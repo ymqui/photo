@@ -849,7 +849,7 @@ var birds = myBirds([
     ["23-12-29T08:03","MUSCICAP","Blue Rock-Thrush","蓝矶鸫","Monticola solitarius",["2312cnbird",137],["jphaap","S157775175","Female"],"burthr"],
     ["16-01-11T14:52","MUSCICAP","Amur Stonechat","东亚石䳭","Saxicola stejnegeri",["1601china",[48,49]],["cnlydp","S164340615","Male","cnlydp","S164341098","Female"],"stonec7"],
     ["23-06-21T10:18","MUSCICAP","Northern Wheatear","穗䳭","Oenanthe oenanthe",["2306isbird",54],["isisis","S142289423","Male, Dettifoss, Northeastern Region","东北地区黛提瀑布"],"norwhe"],
-//  ["24-00-00T00:00","CINCLIDA","American Dipper","美洲河乌","Cinclus mexicanus",[],["arb",""]],
+//  ["24-00-00T00:00","CINCLIDA","American Dipper","美洲河乌","Cinclus mexicanus",["2403cobird",],["arb",""]],
     ["16-01-05T08:00","CHLOROPS","Orange-bellied Leafbird ","黄冠橙腹叶鹎","Chloropsis hardwickii",["2312cnbird",[76,77]],["cnzjzj","S157755372","Male, Xianxiaguan Trail, Jiangshan","江山市仙霞关古道","cnzjzj","S157755372","Female, Xianxiaguan Trail, Jiangshan","江山市仙霞关古道"],"orblea1","橙腹叶鹎"],
     ["23-12-19T15:36","DICAEIDA","Fire-breasted Flowerpecker","红胸啄花鸟","Dicaeum ignipectus",["2312cnbird",[38,44]],["cnfjfj","S157717105","Male, Lianhuashan Park, Longyan","龙岩市莲花山公园","cnfjfj","S157741735","Female, Lianhuashan Park, Longyan","龙岩市莲花山公园"],"fibflo1"],
     ["16-01-09T15:13","NECTARIN","Fork-tailed Sunbird","叉尾太阳鸟","Aethopyga christinae",["1601china",[39,40]],["cnlydp","S164338706","Male","cnlydp","S164338706","Female"],"fotsun1"],
