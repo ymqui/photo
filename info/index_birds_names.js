@@ -826,7 +826,7 @@ var birds = myBirds([
     ["15-06-21T09:04","TURDIDAE","Wood Thrush","棕林鸫","Hylocichla mustelina",["150621_078"],["mdmdmd","Patapsco Valley State Park","帕塔普斯科河谷州立公园"]],
     ["15-07-08T19:10","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",["170506_043",["1507wbird",12]],["nycenp","S164193135","arb","Olympic National Park, Washington, USA","美国华盛顿州奥林匹克国家公园"]],
     ["06-10-29T12:42","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",["1612savannah",2],["scsnwr","S164222788"]],
-    ["17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",["170930_109","210504_060"],["mdmdmd","S164200861","Oregon Ridge Park, Baltimore","巴尔的摩俄勒冈岭公园","mdmdmd","Kinder Farm Park, Anne Arundel County","安妮·阿伦德尔郡金德农场公园"]],
+    ["17-09-30T07:59","TURDIDAE","Gray-cheeked Thrush","灰颊夜鸫","Catharus minimus",["170930_109"],["mdmdmd","S164200861","Oregon Ridge Park, Baltimore","巴尔的摩俄勒冈岭公园"]],
     ["15-08-29T07:46","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",[["1512bhill",36],"220508_058"],["mdbhrp","8/2015","vavava","S109363991","Luria Park, Fairfax County","费尔法克斯郡卢里亚公园"]],
     ["23-08-10T15:23","TURDIDAE","Song Thrush","欧歌鸫","Turdus philomelos",["2308ukbird",63],["arb","S146922087","Great Stour Way, Canterbury, United Kingdom","英国坎特伯雷市大斯陶尔河河岸小道"],"sonthr1"],
     ["16-01-05T08:16","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",["1601china",[70,16]],["cnbjbj","S164343089","Male, Summer Palace","颐和园","cnjsxp","S164336822","Female"],"chibla1","乌鸫普通亚种"],
