@@ -42,7 +42,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/dqQ_NQJp5o0?feature=share"),"Playing before the class (YouTube Video)"),urllink(url,"课前玩耍(YouTube视频)")])[cn_ind];
     this[0][i]    = "20240110_005_KickKarate";
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/FNFrp9ZDb24?feature=share"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
-
+    this[0][i]    = ["20240315_1","20240315_2"];
+    this[1][i++]  = (["Belt test","升级测试"])[cn_ind];
     adddate(this);
 }
 
