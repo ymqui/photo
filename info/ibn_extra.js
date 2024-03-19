@@ -151,6 +151,7 @@
 //  ["24-00-00T00:00","EMBERIZI","Yellow-browed Bunting","黄眉鹀","Emberiza chrysophrys",["2312cnbird",],["cnhzbg",""],"yebbun1"],
 //  ["24-00-00T00:00","EMBERIZI","Yellow-throated Bunting","黄喉鹀","Emberiza elegans",["2312cnbird",],["cnhzbg",""],"yetbun1"],
 //  ["24-00-00T00:00","EMBERIZI","Tristram's Bunting","白眉鹀","Emberiza tristrami",["2312cnbird",],["cnhzbg",""],"tribun1"],
+//  ["24-00-00T00:00","PASSEREL","Sagebrush Sparrow","艾草漠鹀","Artemisiospiza nevadensis",["2403cobird",],["cococo",""]],
 //  ["24-00-00T00:00","PASSEREL","Botteri's Sparrow","伯氏猛雀鹀","Peucaea botterii",[],["azazaz","8/2022,"],10089],
 //  ["24-00-00T00:00","PASSEREL","Black-striped Sparrow","大黑纹头雀","Arremonops conirostris",[],["crarol","1/2023,"],"blsspa1"],
 //  ["24-00-00T00:00","PASSEREL","Black-chinned Sparrow","黑颏雀鹀","Spizella atrogularis",[],["azazaz","8/2022,"]],
