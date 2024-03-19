@@ -1,6 +1,6 @@
 @dm_plot__define
 pro find_spec,name,locid=locid,pid=pid,ebird=ebird
-    pid = '2312cnbird' &locid = 'cnbjbg' & ebird = 'S157768838'
+    pid = '2403cobird' &locid = 'cococo' & ebird = ''
     if n_elements(locid) eq 0 then locid = 'arb'
     if n_elements(ebird) eq 0 then ebird = ''
     if n_elements(pid) ne 0 then pid = '["'+pid+'",' else pid = '['
@@ -559,6 +559,7 @@ end
 
 ;plot lifer counts vs year
 pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
+;    target = 820
     if n_elements(wait) eq 0 then wait=0;0.2
     read_ibn,year=year,/stat
     cnts = fltarr(n_elements(year))+1.0
@@ -570,6 +571,7 @@ pro plot_lifer,wait=wait,movie=movie,chinese=chinese,image2=image2,pobj=pobj
 ;           cnts = [cnts,0]
 ;       endfor
 ;    endif
+    if n_elements(target) ne 0 then cnts[-1] = cnts[-1]+target-total(cnts)
     ann_avg = total(cnts)/(max(year)-min(year)+1.0)
     cuml  = total(cnts,/cumulative)
     yran  = [min(cuml),max(cuml)]
@@ -678,9 +680,9 @@ end
 
 pro find_bird
     read_ibn,/all,line=line,extra=line1 & help,line,line1
-    ;line = [line,line1]
+    line = [line,line1]
     pattern0 = '\)\,\["'
-    pattern1 = '\["2[01]-'
+    pattern1 = '1312bbbird'
     j = 1
     for i=0,n_elements(line)-1 do begin    
         if stregex(line[i],pattern1,/fold_case,/boolean)  then print,j++,line[i]
@@ -753,12 +755,13 @@ pro check_photo
     print,missing[1:*]+', '
     help,missing
     j=0
-;    for i=0,n_elements(line)-1 do begin
-;        if (strmid(line[i],0,1) ne '/') and (stregex(line[i],'"[^\]]+[a-z]{3,6}"\],',/boolean) or stregex(line[i],'"[a-z]{3,6}","[^S]',/boolean)) then begin
-;           print,line[i]
-;           j++
-;        endif
-;    endfor
+    for i=0,n_elements(line)-1 do begin
+        ;if (strmid(line[i],0,1) ne '/') and (stregex(line[i],'"[^\]]+[a-z]{3,6}"\],',/boolean) or stregex(line[i],'"[a-z]{3,6}","[^S]+"',/boolean)) then begin
+        if (strmid(line[i],0,1) ne '/') and ~(stregex(line[i],'S[0-9]{9}',/boolean)) then begin
+           print,line[i]
+           j++
+        endif
+    endfor
     print,'done',j
 end
 
