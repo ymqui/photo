@@ -47,6 +47,8 @@ function initAlbum(){
     makeface[j++] = i;
     this[0][i]    = "20240311_1";
     this[1][i++]  = (["My plan to get ready for first grade math","我为一年级数学做好准备的计划: 爸爸是帮助我练习的人； 我练习的地方； 这是我做好准备上一年级"])[cn_ind];
+    this[0][i]    = "20240318";
+    this[1][i++]  = (["Art project: clay bird nest","在学校用粘土捏成的鸟巢"])[cn_ind];
 
     adddate(this);
 }
