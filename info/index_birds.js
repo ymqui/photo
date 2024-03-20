@@ -179,7 +179,7 @@
   info[0][j] = "1509charleston";
   info[1][j] = 4;
   info[2][j] = 2;
-  info[3][j] = "7/2015 Charleston Birding";
+  info[3][j] = "9/2015 Charleston Birding";
   info[4][j++] = "Birding in Carolina Sandhills NWR and the Charleston Area (South Carolina).";
   info[0][j] = "1512boston";
   info[1][j] = 4;
