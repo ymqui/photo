@@ -56,7 +56,6 @@
 //  ["24-00-00T00:00","ACCIPITR","Hen Harrier","白尾鹞","Circus cyaneus",[],["nyjbsp","1/2023,","Immature"]],
 //  ["24-00-00T00:00","ACCIPITR","White-tailed Eagle","白尾海雕","Haliaeetus albicilla",["",],["",""],"whteag"],
 //  ["24-00-00T00:00","ACCIPITR","Zone-tailed Hawk","斑尾鵟","Buteo albonotatus",[],["azazaz","8/2022,"]],
-//  ["24-00-00T00:00","ACCIPITR","Ferruginous Hawk","锈色鵟","Buteo regalis",["2403cobird",],["cococo","","Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区"],"王鵟"],
 //  ["24-00-00T00:00","ACCIPITR","Red Kite","赤鸢","Milvus milvus",["2308ukbird",],["ukregp",""],"redkit1","红鸢"],
 //  ["24-00-00T00:00","STRIGIDA","Elf Owl","娇鸺鹠","Micrathene whitneyi",[],["azazaz","8/2022,"]],
 //  ["24-00-00T00:00","STRIGIDA","Northern Pygmy-Owl","北美鸺鹠","Glaucidium californicum",[],["azmcct","8/2022,"]],
