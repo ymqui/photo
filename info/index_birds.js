@@ -291,6 +291,11 @@
   info[2][j] = 2;
   info[3][j] = "12/2023 Birding China & Japan";
   info[4][j++] = "Birding in Beijing, Zhejiang, Fujian (China) and Tokyo (Japan).";
+  info[0][j] = "2403cobird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "3/2024 Denver Birding";
+  info[4][j++] = "Birding in Denver area (Colorado).";
 
   if(window.usechinese){
      j = 0;
@@ -406,6 +411,8 @@
      info[4][j++] = "在英国观鸟(英国)。";
      info[3][j]   = "12/2023 中国和日本观鸟";
      info[4][j++] = "在北京，浙江，福建(中国)和日本东京(日本)观鸟。";
+     info[3][j]   = "3/2024 丹佛观鸟";
+     info[4][j++] = "在丹佛地区观鸟(科罗拉多州)。";
   } 
 
   //special touch
