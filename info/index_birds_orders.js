@@ -80,7 +80,7 @@ var pt_eng  = ["males* left, *females* right","(males*, *breeding plumage|breedi
     "(immatures*|juveniles*)","females*\/immature males*","females*\/immatures*","females* left, *males* right","females* and (chicks*|hatchlings*)","females* and (immature|juvenile)s*","spring molt",
     "(females*, *breeding plumage|breeding females*)","nonbreeding females*\/immature males*","(females*, *nonbreeding plumage|nonbreeding females*)","females*","winter plumage","1st winter","2nd winter",
     "2nd year","3rd winter","3rd year","fall plumage","winter females*","eclipse males*","molting adult","adults* and (chicks*|hatchlings*)","adults* and (immatures*|juveniles*)","adults*","breeding (adults*|plumage)",
-    "nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)","nest","males* at nest cavity"];
+    "nonbreeding *(adult)*\/immature","nonbreeding (adults*|plumage)","(partially)* *leucistic","mating display","light morph","dark morph","immature dark morph","(chicks*|hatchlings*)","nests*","males* at nest cavity"];
 var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","雄性","未成年雄性","未成年雌性","未成年","雌性/未成年雄性","雌性/未成年","左雌性，右雄性","雌性和幼鸟","雌性和未成年","春羽","繁殖羽雌性","非繁殖羽雌性/未成年雄性",
     "非繁殖羽雌性","雌性","冬羽","一龄冬羽","二龄冬羽","二龄羽","三龄冬羽","三龄羽","秋羽","冬羽雌性","蚀羽雄性","换羽成年鸟","成年和幼鸟","成年和未成年","成年","繁殖羽","非繁殖羽/未成年","非繁殖羽","白变种","求偶展示","淡色型",
     "深色型","未成年深色型","幼鸟","鸟巢","雄性在鸟巢口"];
