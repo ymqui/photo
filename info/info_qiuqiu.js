@@ -28,7 +28,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
                   ["2020nist","11/2020-8/2023 NIST Child Care Center","11/2020-8/2023 NIST托儿所"],["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],
-                  ["2312china","12/2023 Vacationing in China","12/2023 回中国探亲"],		  
+                  ["2312china","12/2023 Vacationing in China","12/2023 回中国探亲"],["2403denver","3/2024 Spring Break in Denver","3/2024 在丹佛度春假"],		  
                   ["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -375,6 +375,9 @@ function initAlbum(){
     this[1][i++]  = (["Showing off the newly erupted permanent molar teeth","看我新长出的恒磨牙"])[cn_ind];
     this[0][i]    = "20240221_DentalVisit";
     this[1][i++]  = (["Dental checkup","半年一次的定期牙齿检查"])[cn_ind];
+    this[0][i]    = ["2403denver/2403denver_5","2403denver/2403denver_6","20240326"];
+    this[1][i++]  = (["Visiting Idaho Springs, a historic mining town west of Denver, during the "+pagelink("2403denver","spring break in Denver"),pagelink("2403denver","在丹佛度春假")+"时游丹佛市西部历史悠久的矿业小镇爱达荷斯普林斯。"])[cn_ind];
+
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
