@@ -66,7 +66,7 @@ function initAlbum(){
         this[1][36] = "西草地鹨，莱克伍德市熊溪湖公园。";
         this[1][37] = "西草地鹨，莱克伍德市熊溪湖公园。";
         this[1][38] = "西草地鹨，莱克伍德市熊溪湖公园。";
-        this[1][39] = "灰背隼，利特尔顿市沃特顿峡谷。";
+        this[1][39] = "纹腹鹰，未成年，利特尔顿市沃特顿峡谷。";
         this[1][40] = "绒啄木鸟，雄性，利特尔顿市沃特顿峡谷。";
         this[1][41] = "岩鹪鹩，利特尔顿市沃特顿峡谷。";
         this[1][42] = "伍氏丛鸦，利特尔顿市沃特顿峡谷。";
@@ -120,7 +120,7 @@ function initAlbum(){
         this[1][36] = "Western Meadowlark, Bear Creek Lake Park.";
         this[1][37] = "Western Meadowlark, Bear Creek Lake Park.";
         this[1][38] = "Western Meadowlark, Bear Creek Lake Park.";
-        this[1][39] = "Merlin, Waterton Canyon.";
+        this[1][39] = "Sharp-shinned Hawk, juvenile, Waterton Canyon.";
         this[1][40] = "Downy Woodpecker, male, Waterton Canyon.";
         this[1][41] = "Rock Wren, Waterton Canyon.";
         this[1][42] = "Woodhouse's Scrub-Jay, Waterton Canyon.";
