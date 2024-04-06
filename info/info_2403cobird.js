@@ -12,7 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
  
 if(window.usechinese){
-    title      = "Birding in Denver, Colorado";
+    title      = "科罗拉多州丹佛地区观鸟";
     cam_tit    = "佳能EOS R6相机，2020万像素。";
 }
  
