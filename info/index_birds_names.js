@@ -447,7 +447,6 @@ var birds = myBirds([
     ["22-05-04T09:39","ACCIPITR","Short-tailed Hawk","短尾鵟","Buteo brachyurus",[["2301pabird",114],["2204flbird",55]],["pametr","S126960214","Light morph","flflfl","5/2022,S108968954","Immature dark morph, Matheson Hammock Park, Miami-Dade County","迈阿密-戴德郡马西森硬木公园"]],
     ["22-08-09T09:21","ACCIPITR","Swainson's Hawk","斯氏鵟","Buteo swainsoni",["2208azbird",59],["azazaz","S116639537","Light morph, Route 80, Cochise County","科奇斯郡80号公路"]],
     ["06-03-05T14:30","ACCIPITR","Red-tailed Hawk","红尾鵟","Buteo jamaicensis",["230311_016",["1412mckee",33],["2403cobird",48]],["mdredg","S130689889","mdmwma","11/2014","Juvenile","cococo","S166240926","Immature Harlan's, Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区","未成年哈兰亚种"]],
-    ["24-03-28T08:14","ACCIPITR","Ferruginous Hawk","锈色鵟","Buteo regalis",["2403cobird",50],["cococo","S166240926","Immature, Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区"],"王鵟"],
     ["21-01-13T11:15","ACCIPITR","Rough-legged Hawk","毛脚鵟","Buteo lagopus",["231119_226","210113_008","210113_009"],["mdmdmd","S154790088","Dark morph, Egypt Road, Dorchester County","多切斯特郡埃及路","vavava","S165021786","Light morph, Prince William County Landfill","威廉王子郡垃圾填埋场"]],
     ["23-12-24T08:56","ACCIPITR","Eastern Buzzard","普通鵟","Buteo japonicus",["2312cnbird",75],["cnzjzj","S157753571","Xiakouzhen, Jiangshan","江山市峡口镇"],"combuz6"],
     ["23-08-07T17:45","ACCIPITR","Common Buzzard","欧亚鵟","Buteo buteo",["2308ukbird",25],["ukston","S146716357"],"combuz1"],

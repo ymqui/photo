@@ -48,6 +48,7 @@
 //  ["24-00-00T00:00","ARDEIDAE","Eurasian Bittern","大麻鳽","Botaurus stellaris",["2312cnbird",],["cnbjbg",""],"grebit1"],
 //  ["24-00-00T00:00","CATHARTI","California Condor","加州神鹫","Gymnogyps californianus",[],["azazaz","8/2022,"]],
 //  ["24-00-00T00:00","CATHARTI","King Vulture","王鹫","Sarcoramphus papa",["0504zoo/0504zoo__16"],["natzo","1/2023,"],"kinvul1"],
+//  ["24-03-28T08:14","ACCIPITR","Ferruginous Hawk","锈色鵟","Buteo regalis",["2403cobird",50],["cococo","S166240926","Immature, Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区"],"王鵟"],
 //  ["24-00-00T00:00","ACCIPITR","Black Kite","黑鸢","Milvus migrans",["2312cnbird",],["jphaap","S157775175"],"blakit1"],
 //  ["24-00-00T00:00","ACCIPITR","Chinese Sparrowhawk","赤腹鹰","Accipiter soloensis",["2312cnbird",],["cnbjbg",""],"grfhaw1"],
 //  ["24-00-00T00:00","ACCIPITR","Japanese Sparrowhawk","日本松雀鹰","Accipiter gularis",["2312cnbird",],["cnbjbg",""],"japspa1"],
