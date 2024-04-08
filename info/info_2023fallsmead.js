@@ -49,6 +49,10 @@ function initAlbum(){
     this[1][i++]  = (["My plan to get ready for first grade math","我为一年级数学做好准备的计划: 爸爸是帮助我练习的人； 我练习的地方； 这是我做好准备上一年级"])[cn_ind];
     this[0][i]    = "20240318";
     this[1][i++]  = (["Art project: clay bird nest","在学校用粘土捏的鸟巢"])[cn_ind];
+    this[0][i]    = "20240408_1";
+    this[1][i++]  = (["Watching solar eclipse after school","放学后看日食"])[cn_ind];
+    this[0][i]    = ["20240408_2","20240408_3","20240408_4"];
+    this[1][i++]  = (["Watching solar eclipse after school","放学后看日食"])[cn_ind];
 
     adddate(this);
 }
