@@ -44,7 +44,6 @@
 //  ["24-00-00T00:00","SULIDAE ","Red-footed Booby","红脚鲣鸟","Sula sula",[],["fldtnp","1/2023,"]],
 //  ["24-00-00T00:00","PHALACRO","Japanese Cormorant","暗绿背鸬鹚","Phalacrocorax capillatus",["2312cnbird",],["jphaap","S157775175"],"japcor1"],
 //  ["24-00-00T00:00","THRESKIO","Scarlet Ibis","美洲红鹮","Eudocimus ruber",["0504zoo/0504zoo__15","0504zoo/0504zoo__22"],["natzo","4/2005","Adult","natzo","1/2022,","Immature"],"scaibi"],
-//  ["24-00-00T00:00","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",[],["flflfl","12/2022,",gmap("Fort De Soto Park, Pinellas County",27.6371,-82.7405),"皮尼拉斯郡德索托堡公园"]],
 //  ["24-00-00T00:00","ARDEIDAE","Eurasian Bittern","大麻鳽","Botaurus stellaris",["2312cnbird",],["cnbjbg",""],"grebit1"],
 //  ["24-00-00T00:00","CATHARTI","California Condor","加州神鹫","Gymnogyps californianus",[],["azazaz","8/2022,"]],
 //  ["24-00-00T00:00","CATHARTI","King Vulture","王鹫","Sarcoramphus papa",["0504zoo/0504zoo__16"],["natzo","1/2023,"],"kinvul1"],

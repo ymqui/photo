@@ -84,7 +84,7 @@ function initAlbum(){
         this[1][23] = "Juvenile Broad-winged Hawk.";
         this[1][24] = "American Coot.";
         this[1][25] = "Juvenile Boat-tailed Grackle.";
-        this[1][26] = "Roseate Spoonbills and a white-formed Reddish Egret.";
+        this[1][26] = "Roseate Spoonbills and a white-morphed Reddish Egret.";
         this[1][27] = "American Coot.";
         this[1][28] = "Short-billed Dowitcher.";
         this[1][29] = "Roseate Spoonbill.";
