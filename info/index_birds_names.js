@@ -790,7 +790,7 @@ var birds = myBirds([
 //  ["24-00-00T00:00","MODULATR","Dapple-throat","纹喉䳭","Arcanator orostruthus",[],["arb",""],"dapthr1"],
 //  ["24-00-00T00:00","PROMEROP","Cape Sugarbird","长尾食蜜鸟","Promerops cafer",[],["arb",""],"capsug1",8332],
 //  ["24-00-00T00:00","IRENIDAE","Asian Fairy-bluebird","和平鸟","Irena puella",["0504zoo/0504zoo__11"],["natzo",""],"asfblu1"],
-    ["09-04-12T13:39","REGULIDA","Ruby-crowned Kinglet","红冠戴菊","Corthylio calendula",["220115_009","171014_115"],["dcdcdc","S100801147","Male, Heritage Island Park","遗产岛公园","mdlbrp","S168185215"]],
+    ["09-04-12T13:39","REGULIDA","Ruby-crowned Kinglet","红冠戴菊","Corthylio calendula",["220115_009","240413_084"],["dcdcdc","S100801147","Male, Heritage Island Park","遗产岛公园","mdwoot","S168391454"]],
     ["07-02-10T12:17","REGULIDA","Golden-crowned Kinglet","金冠戴菊","Regulus satrapa",["2007cobird/20070210_028","201020_103",["2208cabird",4]],["mdcocn","S167935875","Violettes Lock","紫罗兰闸","mdmwma","S165019199","Female","caalgp","S117638193"]],
     ["23-06-19T09:33","REGULIDA","Goldcrest","戴菊","Regulus regulus",["2306isbird",46],["isisis","S142043460","Juvenile, Kjarnaskógur, Northeastern Region","东北地区Kjarnaskógur森林"],"goldcr1"],
 //  ["24-00-00T00:00","ELACHURI","Spotted Elachura","丽星鹩鹛","Elachura formosa",["2312cnbird",],["cnlydp","Male"],"spwbab1"],
