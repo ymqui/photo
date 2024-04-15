@@ -55,6 +55,10 @@ function initAlbum(){
     this[1][i++]  = (["Watching solar eclipse after school","放学后看日食"])[cn_ind];
     this[0][i]    = "20240410";
     this[1][i++]  = (["Painting a robin","画一只旅鸫"])[cn_ind];
+    this[0][i]    = ["20240414_1","20240414_2"];
+    this[1][i++]  = (["Orienteering with friend Jason in Cabin John Regional Park","和朋友Jason在Cabin John公园参加定向越野活动"])[cn_ind];
+    this[0][i]    = "20240415";
+    this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
 
     adddate(this);
 }
