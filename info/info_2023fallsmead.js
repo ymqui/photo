@@ -54,11 +54,16 @@ function initAlbum(){
     this[0][i]    = ["20240408_2","20240408_3","20240408_4"];
     this[1][i++]  = (["Watching solar eclipse after school","放学后看日食"])[cn_ind];
     this[0][i]    = "20240410";
-    this[1][i++]  = (["Painting a robin","画一只旅鸫"])[cn_ind];
+    this[1][i++]  = (["Painting a robin","一只旅鸫"])[cn_ind];
     this[0][i]    = ["20240414_1","20240414_2"];
     this[1][i++]  = (["Orienteering with friend Jason in Cabin John Regional Park","和朋友Jason在Cabin John公园参加定向越野活动"])[cn_ind];
     this[0][i]    = "20240415";
     this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
+    this[0][i]    = "20240416";
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/N_yAu7Jc6XQ?feature=share"),"Monster (YouTube Video)"),urllink(url,"球球画的恶魔(YouTube视频)")])[cn_ind];
+
+
+
 
     adddate(this);
 }
