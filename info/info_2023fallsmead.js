@@ -59,11 +59,9 @@ function initAlbum(){
     this[1][i++]  = (["Orienteering with friend Jason in Cabin John Regional Park","和朋友Jason在Cabin John公园参加定向越野活动"])[cn_ind];
     this[0][i]    = "20240415";
     this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
-    this[0][i]    = "20240416";
-    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/N_yAu7Jc6XQ?feature=share"),"Monster (YouTube Video)"),urllink(url,"球球画的恶魔(YouTube视频)")])[cn_ind];
-
-
-
+    this[0][i]    = ["20240416","20240416"];
+    var urltmp    = (['N_yAu7Jc6XQ','g_MZNn0vtC4'])[Math.round(Math.random())];
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Monster creation (YouTube Video)"),urllink(url,"球球画的恶魔(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
