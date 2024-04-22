@@ -62,7 +62,8 @@ function initAlbum(){
     this[0][i]    = "20240416";
     var urltmp    = (['N_yAu7Jc6XQ','g_MZNn0vtC4'])[Math.round(Math.random())];
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Monster creation (YouTube Video)"),urllink(url,"球球画的恶魔(YouTube视频)")])[cn_ind];
-
+    this[0][i]    = "20240422";
+    this[1][i++]  = (["Riding scooter on asynchronous learning day","异步在家学习日骑滑板车"])[cn_ind];
     adddate(this);
 }
 
