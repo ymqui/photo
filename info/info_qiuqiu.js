@@ -378,7 +378,7 @@ function initAlbum(){
     this[0][i]    = ["2403denver/2403denver_5","2403denver/2403denver_6","20240326"];
     this[1][i++]  = (["Visiting Idaho Springs, a historic mining town west of Denver, during the "+pagelink("2403denver","spring break in Denver"),pagelink("2403denver","在丹佛度春假")+"时游丹佛市西部历史悠久的矿业小镇爱达荷斯普林斯。"])[cn_ind];
     this[0][i]    = ["2023fallsmead/20240408_1","20240408"];
-    this[1][i++]  = (["Watching solar eclipse after school","放学后看日食"])[cn_ind];
+    this[1][i++]  = (["Watching solar eclipse after "+pagelink("2023fallsmead","school"),pagelink("2023fallsmead","放学后")+"看日食"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
