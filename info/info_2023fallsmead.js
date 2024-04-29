@@ -65,9 +65,9 @@ function initAlbum(){
     this[0][i]    = "20240422";
     this[1][i++]  = (["Riding scooter on asynchronous learning day","异步在家学习日骑滑板车"])[cn_ind];
     this[0][i]    = "20240428_1";
-    this[1][i++]  = (["Orienteering with friend Jason in Rock Creek Park","和朋友Jason在岩溪公园公园参加定向越野活动"])[cn_ind];
+    this[1][i++]  = (["Orienteering with friend Jason in Rock Creek Park","和朋友Jason在岩溪公园参加定向越野活动"])[cn_ind];
     this[0][i]    = "20240428_2";
-    this[1][i++]  = (["Orienteering in Rock Creek Park","在岩溪公园公园参加定向越野活动"])[cn_ind];
+    this[1][i++]  = (["Orienteering in Rock Creek Park","在岩溪公园参加定向越野活动"])[cn_ind];
 
     adddate(this);
 }
