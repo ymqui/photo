@@ -99,6 +99,7 @@
 //  ["24-00-00T00:00","FALCONID","Lesser Kestrel","黄爪隼","Falco naumanni",["2408frbird",],["frrncc",""],"leskes1"],
 //  ["24-00-00T00:00","FALCONID","Eurasian Hobby","燕隼","Falco subbuteo",["2308ukbird",],["ukregp",""],"eurhob"],
 //  ["24-00-00T00:00","FALCONID","Prairie Falcon","草原隼","Falco mexicanus",["2403cobird",],["cococo","","Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区"]],
+    ["16-06-12T07:14","PSITTACI","Red-masked Parakeet","红头鹦哥","Psittacara erythrogenys",["1606florida",[22,21]],["flflfl","S164261339","Lincoln Road Mall, Miami","迈阿密林肯路购物中心"],"rempar"],
 //  ["22-05-04T07:26","PSITTACI","Red-crowned Parrot","红冠鹦哥","Amazona viridigenalis",["2204flbird",49],["flflfl","5/2022,S108967469",gmap("Brewer Park, Miami-Dade County",25.718,-80.296),"迈阿密-戴德郡布如尔公园"],"recpar",4098],
 //  ["24-00-00T00:00","PSITTACI","Scarlet Macaw","绯红金刚鹦鹉","Ara macao",["0504zoo/0504zoo__23"],["natzo","1/2023,"],"scamac1"],
 //  ["24-00-00T00:00","PSITTACI","Mitred Parakeet","红耳绿鹦哥","Psittacara mitratus",[],["flflfl","1/2023,",gmap("Lincoln Road Mall, Miami",25.7905,-80.1367),"迈阿密林肯路购物中心"],"mitpar",4199],
