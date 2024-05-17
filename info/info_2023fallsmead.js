@@ -70,6 +70,8 @@ function initAlbum(){
     this[1][i++]  = (["Orienteering in Rock Creek Park","在岩溪公园参加定向越野活动"])[cn_ind];
     this[0][i]    = "20240506";
     this[1][i++]  = ([urllink(url=("https://youtu.be/4UT84x5GyMM"),"Paper puppet made at school (Puppet show in YouTube Video)"),urllink(url,"在学校制作的纸偶(纸偶表演YouTube视频)")])[cn_ind];
+    this[0][i]    = "20240516";
+    this[1][i++]  = (["Field trip to the zoo","参观动物园"])[cn_ind];
 
     adddate(this);
 }
