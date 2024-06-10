@@ -74,6 +74,8 @@ function initAlbum(){
     this[1][i++]  = (["Field trip to the zoo","参观动物园"])[cn_ind];
     this[0][i]    = ["20240531_1","20240531_2"];
     this[1][i++]  = (["Playing basketball with Nathan W. at the end-of-year community celebration","在庆祝学年结束社区活动中和朋友Nathan W.一起打篮球"])[cn_ind];
+    this[0][i]    = "20240607";
+    this[1][i++]  = (["Kindergarten class photo","幼儿园班级照片"])[cn_ind];
 
     adddate(this);
 }

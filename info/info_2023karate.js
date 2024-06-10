@@ -44,6 +44,9 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/FNFrp9ZDb24?feature=share"),"Practicing kicks (YouTube Video)"),urllink(url,"练习空手道踢腿(YouTube视频)")])[cn_ind];
     this[0][i]    = ["20240315_1","20240315_2"];
     this[1][i++]  = (["Belt test","升级测试"])[cn_ind];
+    this[0][i]    = ["20240608_1","20240608_2"];
+    this[1][i++]  = ([urllink(url=("https://youtu.be/T9ZWlIHNWLQ"),"Belt test (YouTube Video)"),urllink(url,"升级测试(YouTube视频)")])[cn_ind];
+
     adddate(this);
 }
 
