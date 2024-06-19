@@ -382,6 +382,10 @@ function initAlbum(){
     this[1][i++]  = (["Watching solar eclipse after "+pagelink("2023fallsmead","school"),pagelink("2023fallsmead","放学后")+"看日食"])[cn_ind];
     this[0][i]    = ["2405outerbank/2405outerbank_4","2405outerbank/2405outerbank_9","20240526"];
     this[1][i++]  = pagelink("2405outerbank",(["Memorial Day weekend on Outer Banks, North Carolina","纪念日周末在北卡罗莱纳州外滩度假"])[cn_ind]);
+    this[0][i]    = "20240619_026_BubbleWand";
+    this[1][i++]  = (["Making bubbles","吹泡泡"])[cn_ind];
+    this[0][i]    = "20240619_022_MonkeyBar";
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/6FtdvOt70uw?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
