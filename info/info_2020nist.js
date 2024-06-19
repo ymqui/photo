@@ -652,7 +652,7 @@ function initAlbum(){
     this[0][i]    = "20230817_1";
     this[1][i++]  = (["Indoor rock climbing","室内攀岩"])[cn_ind];
     this[0][i]    = "20230818_1";
-    this[1][i++]  = (["Visiting Seneca Creek State Park on the last day of summer camp","夏令营的最后一天在塞内卡溪州立公园玩"])[cn_ind];
+    this[1][i++]  = (["Visiting Seneca Creek State Park on the last day of 2023 summer camp","2023年夏令营的最后一天在塞内卡溪州立公园玩"])[cn_ind];
     this[0][i]    = "20240618_1";
     this[1][i++]  = (["Visiting Bohrer park in the first week of 2024 summer camp","2024年夏令营的第一周在Bohrer公园玩"])[cn_ind];
 
