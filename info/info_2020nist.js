@@ -7,6 +7,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
+var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
