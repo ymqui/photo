@@ -384,8 +384,9 @@ function initAlbum(){
     this[1][i++]  = pagelink("2405outerbank",(["Memorial Day weekend on Outer Banks, North Carolina","纪念日周末在北卡罗莱纳州外滩度假"])[cn_ind]);
     this[0][i]    = "20240619_026_BubbleWand";
     this[1][i++]  = (["Making bubbles","吹泡泡"])[cn_ind];
+    var urltmp    = (['6FtdvOt70uw','6wdHgLadu6w'])[Math.round(Math.random())];
     this[0][i]    = "20240619_022_MonkeyBar";
-    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/6FtdvOt70uw?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
