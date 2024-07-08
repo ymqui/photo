@@ -1,6 +1,6 @@
 <!--
 var info_url   = "https://www.thelittlegym.com/maryland-gaithersburg/";
-var title      = (["Nathan at Little Gym","球球在Little Gym学习体操"])[cn_ind];
+var title      = (["Nathan at Little Gym","球球在Little Gym小体操馆学体操"])[cn_ind];
 var dir        = maindir+"pics/2024gym/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
