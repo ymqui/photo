@@ -591,7 +591,7 @@ var birds = myBirds([
     ["13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",["1507wbird",4],["nvdnwr","S164994760"]],
     ["20-09-09T09:21","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",["200909_067"],["mdmwma","S163639575"]],
     ["18-12-07T06:58","TYRANNID","Western Wood-Pewee","西绿霸鹟","Contopus sordidulus",[["1812crbird",85],["2208azbird",[21,22]]],["crarol","S163932247","azmcct","S116560424"]],
-    ["06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",["150703_080","230916_140","240706_213"],["mdcocn","S165235630","Maryland Heights","马里兰高地一带","mdredg","S150049870","mdwoot","S185635708","Nest"]],
+    ["06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",["150703_080","240714_214","240706_213"],["mdcocn","S165235630","Maryland Heights","马里兰高地一带","mdwoot","S186949753","mdwoot","S185635708","Nest"]],
     ["18-12-08T08:58","TYRANNID","Northern Tropical Pewee","北热带绿霸鹟","Contopus bogotensis",["1812crbird",99],["crsanj","S163965530","Morazán Park","莫拉桑公园"],"tropew4","热带绿霸鹟"],
     ["15-08-15T07:20","TYRANNID","Yellow-bellied Flycatcher","黄腹纹霸鹟","Empidonax flaviventris",[["1512bhill",29],"220904_000"],["mdbhrp","8/2015,S165067012","mdlbrp","S118086980"]],
     ["15-05-31T09:31","TYRANNID","Acadian Flycatcher","绿纹霸鹟","Empidonax virescens",["160508_045"],["mdmdmd","S164375731","Patapsco Valley State Park","帕塔普斯科河谷州立公园"]],
