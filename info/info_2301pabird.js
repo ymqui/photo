@@ -134,7 +134,7 @@ function initAlbum(){
         this[1][102] = "蓝胸蜂鸟，雌性，巴拿马城大都会自然公园。";
         this[1][103] = "橙颏鹦哥，巴拿马城大都会自然公园。";
         this[1][104] = "绯背厚嘴唐纳雀，雄性，巴拿马城大都会自然公园。";
-        this[1][105] = "莺鹪鹩，巴拿马城大都会自然公园。";
+        this[1][105] = "南莺鹪鹩，巴拿马城大都会自然公园。";
         this[1][106] = "哑霸鹟，巴拿马城大都会自然公园。";
         this[1][107] = "红冠啄木鸟，雄性，巴拿马城大都会自然公园。";
         this[1][108] = "白颈蓬头䴕，巴拿马城大都会自然公园。";
@@ -278,7 +278,7 @@ function initAlbum(){
         this[1][102] = "Blue-chested Hummingbird, female, Metropolitan Natural Park, Panama City.";
         this[1][103] = "Orange-chinned Parakeet, Metropolitan Natural Park, Panama City.";
         this[1][104] = "Crimson-backed Tanager, male, Metropolitan Natural Park, Panama City.";
-        this[1][105] = "House Wren, Metropolitan Natural Park, Panama City.";
+        this[1][105] = "Southern House Wren, Metropolitan Natural Park, Panama City.";
         this[1][106] = "Common Tody-Flycatcher, Metropolitan Natural Park, Panama City.";
         this[1][107] = "Red-crowned Woodpecker, male, Metropolitan Natural Park, Panama City.";
         this[1][108] = "White-necked Puffbird, Metropolitan Natural Park, Panama City.";

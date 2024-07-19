@@ -44,7 +44,7 @@ function initAlbum(){
         this[1][14] = "翠绿唐加拉雀"+crarol;
         this[1][15] = "金头唐加拉雀"+crarol;
         this[1][16] = "曲嘴森莺"+crarol;
-        this[1][17] = "莺鹪鹩"+crarol;
+        this[1][17] = "南莺鹪鹩"+crarol;
         this[1][18] = "黄顶歌雀，雄性"+crarol;
         this[1][19] = "黄喉歌雀，雄性"+crarol;
         this[1][20] = "红额亚马逊鹦鹉"+crarol;
@@ -144,7 +144,7 @@ function initAlbum(){
         this[1][14] = "Emerald Tanager"+crarol;
         this[1][15] = "Golden-hooded Tanager"+crarol;
         this[1][16] = "Bananaquit"+crarol;
-        this[1][17] = "House Wren"+crarol;
+        this[1][17] = "Southern House Wren"+crarol;
         this[1][18] = "Tawny-capped Euphonia, male"+crarol;
         this[1][19] = "Yellow-throated Euphonia, male"+crarol;
         this[1][20] = "Red-lored Parrot"+crarol;
