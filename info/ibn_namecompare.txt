@@ -13,7 +13,6 @@ Rough-legged Hawk,				Rough-legged Buzzard
 Rock Pigeon,					Rock Dove
 Black-bellied Plover,				Grey Plover
 Dovekie,					Little Auk
-Barn Owl,					American Barn Owl
 Crimson-fronted Parakeet,			Finsch's Parakeet
 Bank Swallow,					Sand Martin
 Cliff Swallow,					American Cliff Swallow
