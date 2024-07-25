@@ -46,6 +46,8 @@ function initAlbum(){
     this[1][i++]  = (["Belt test","升级测试"])[cn_ind];
     this[0][i]    = ["20240608_1","20240608_2"];
     this[1][i++]  = ([urllink(url=("https://youtu.be/T9ZWlIHNWLQ"),"Belt test (YouTube Video)"),urllink(url,"升级测试(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["20240724_1","20240724_2"];
+    this[1][i++]  = (["Karate class","空手道课"])[cn_ind];
 
     adddate(this);
 }
