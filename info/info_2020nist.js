@@ -689,6 +689,10 @@ function initAlbum(){
     this[1][i++]  = (["Trip to Imagination Stage","参观幻想舞台"])[cn_ind];
     this[0][i]    = ["20240801_1","20240801_2"];
     this[1][i++]  = (["Mad science show","科学实验表演"])[cn_ind];
+    this[0][i]    = "20240802_1";
+    this[1][i++]  = (["Having lunch","吃午餐"])[cn_ind];
+    this[0][i]    = "20240802_2";
+    this[1][i++]  = (["Painting","画画"])[cn_ind];
 
     adddate(this);
 }
