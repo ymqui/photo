@@ -695,6 +695,8 @@ function initAlbum(){
     this[1][i++]  = (["Painting","画画"])[cn_ind];
     this[0][i]    = "20240807_1";
     this[1][i++]  = (["Pool day at Bohrer park","在Bohrer公园游泳"])[cn_ind];
+    this[0][i]    = ["20240808_1","20240808_2"];
+    this[1][i++]  = (["Visiting Medieval Times Dinner & Tournament","去中世纪时代餐厅观看表演"])[cn_ind];
 
     adddate(this);
 }
