@@ -29,8 +29,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
                   ["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],["2312china","12/2023 Vacationing in China","12/2023 回中国探亲"],
                   ["2403denver","3/2024 Spring Break in Denver","3/2024 在丹佛度春假"],["2405outerbank","5/2024 Memorial Day on Outer Banks","5/2024 北卡外滩纪念日度假"],		  
-                  ["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],["2023karate","9/2023-"+strDate+" Kicks Karate","9/2023-"+strDate+" Kicks Karate空手道"],
-                  ["2020nist","11/2020-"+strDate+" NIST Child Care Center","11/2020-"+strDate+" NIST托儿所"],["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"]];
+                  ["2020nist","11/2020-8/2024 NIST Child Care Center","11/2020-8/2024 NIST托儿所"],["2023karate","9/2023-8/2024 Kicks Karate","9/2023-8/2024 Kicks Karate空手道"],
+                  ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
 
