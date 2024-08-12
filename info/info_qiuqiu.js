@@ -377,7 +377,7 @@ function initAlbum(){
     this[0][i]    = "20240221_DentalVisit";
     this[1][i++]  = (["Dental checkup","半年一次的定期牙齿检查"])[cn_ind];
     this[0][i]    = ["2403denver/2403denver_5","2403denver/2403denver_6","20240326"];
-    this[1][i++]  = (["Visiting Idaho Springs, a historic mining town west of Denver, during the "+pagelink("2403denver","spring break in Denver, Colorado"),pagelink("2403denver","在丹佛度春假")+"时游丹佛市西部历史悠久的矿业小镇爱达荷斯普林斯。"])[cn_ind];
+    this[1][i++]  = (["Visiting Idaho Springs, a historic mining town west of Denver, during the "+pagelink("2403denver","spring break in Denver, Colorado"),pagelink("2403denver","在丹佛度春假")+"时游丹佛市西部历史悠久的矿业小镇爱达荷斯普林斯"])[cn_ind];
     this[0][i]    = ["2023fallsmead/20240408_1","20240408"];
     this[1][i++]  = (["Watching solar eclipse after "+pagelink("2023fallsmead","school"),pagelink("2023fallsmead","放学后")+"看日食"])[cn_ind];
     this[0][i]    = ["2405outerbank/2405outerbank_4","2405outerbank/2405outerbank_9","20240526"];
