@@ -5,7 +5,6 @@ var dir        = maindir+"pics/2023karate/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
 var ext        = ".JPG";
-var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
