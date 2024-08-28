@@ -1,0 +1,172 @@
+<!--
+//Created by Album Builder Program Wed Aug 28 05:38:17 2024
+var info_url   = "";
+var title      = "Vacationing in France";
+var cam_img    = "camera_canon_6d.jpg";
+var cam_tit    = "Canon SLR EOS 6D, 20.2 Mega Pixels.";
+var dir        = maindir+"pics/2408france/";
+var thumb_dir  = maindir+"thumbnail/";
+var interval   = 5000;
+var ext        = ".jpg";
+var midi_file  = "";
+//var midi_cr    = new Array("","");
+var blocksave  = false;
+homeurl        = homeurl+"showphoto.html?qiuqiu";
+ 
+if(window.usechinese){
+    title      = "法国度假";
+    cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
+}
+ 
+document.title = title;
+ 
+function initAlbum(){
+    this.length = 2;
+    this[0] = new Array();  //store file names
+    this[1] = new Array();  //store file infos,shown as browser status
+    for (var i=0;i<66;i++){
+        this[0][i] = "2408france_"+(i+1).toString();
+        this[1][i] = "";
+    }
+    if(window.usechinese){
+        this[1][0] = "Col de la Colombiere山口下的Chinaillon Grand-Bornand小镇。";
+        this[1][1] = "Col de la Colombiere山口下的Chinaillon Grand-Bornand小镇。";
+        this[1][2] = "前往Col de la Colombiere山口途中的美景。";
+        this[1][3] = "安纳西街景。";
+        this[1][4] = "安纳西的安锡列思圣母院。";
+        this[1][5] = "球球在安纳西。";
+        this[1][6] = "毛毛在安纳西的岛宫前。";
+        this[1][7] = "球球在安纳西的斯大林格勒广场玩。";
+        this[1][8] = "安纳西的地标性建筑-岛宫。";
+        this[1][9] = "安纳西的蒂乌河。";
+        this[1][10] = "球球在夏慕尼的南针峰。";
+        this[1][11] = "球球在夏慕尼的南针峰。";
+        this[1][12] = "球球和妈妈在夏慕尼的南针峰。";
+        this[1][13] = "登南针峰的缆车上看到的风景。";
+        this[1][14] = "在南针峰的缆车中途站吃午餐。";
+        this[1][15] = "登南针峰的缆车。";
+        this[1][16] = "南针峰缆车中途站的小餐馆。";
+        this[1][17] = "球球在南针峰缆车中途站。";
+        this[1][18] = "夏慕尼前往冰川景点的火车站。";
+        this[1][19] = "乘火车去看冰川。";
+        this[1][20] = "乘火车去看冰川。";
+        this[1][21] = "冰川峡谷。";
+        this[1][22] = "在冰川峡谷前。";
+        this[1][23] = "在夏慕尼的旅馆里荡秋千。";
+        this[1][24] = "梵高在阿尔勒画的咖啡馆露台。";
+        this[1][25] = "球球在阿尔勒的咖啡馆露台前。";
+        this[1][26] = "在阿尔勒吃午餐。";
+        this[1][27] = "在阿尔勒附近的蓬德高鸟类公园看大火烈鸟。";
+        this[1][28] = "游阿尔勒附近的蓬德高鸟类公园。";
+        this[1][29] = "在阿尔勒城中心的共和国广场。";
+        this[1][30] = "吃完冰后舌头都蓝了。";
+        this[1][31] = "球球在阿尔勒的古罗马剧场前。";
+        this[1][32] = "球球在阿尔勒的古罗马剧场前做侧手翻。";
+        this[1][33] = "阿尔勒的古罗马剧场。";
+        this[1][34] = "在阿尔勒的一家店铺前。";
+        this[1][35] = "游马赛的圣母加德大教堂。";
+        this[1][36] = "游马赛的圣母加德大教堂。";
+        this[1][37] = "马赛老港。";
+        this[1][38] = "阿尔勒的一幅街头壁画。";
+        this[1][39] = "在里昂的高卢古罗马剧场。";
+        this[1][40] = "在里昂的高卢罗马博物馆。";
+        this[1][41] = "参观里昂的高卢罗马博物馆。";
+        this[1][42] = "参观里昂的高卢罗马博物馆。";
+        this[1][43] = "在里昂的富维耶圣母院。";
+        this[1][44] = "在巴黎乘地铁。";
+        this[1][45] = "游巴黎的埃菲尔铁塔。";
+        this[1][46] = "游巴黎的埃菲尔铁塔。";
+        this[1][47] = "游巴黎的埃菲尔铁塔。";
+        this[1][48] = "游巴黎的埃菲尔铁塔。";
+        this[1][49] = "游巴黎的凯旋门。";
+        this[1][50] = "巴黎的凯旋门。";
+        this[1][51] = "卢浮宫的胜利女神像。";
+        this[1][52] = "参观卢浮宫。";
+        this[1][53] = "卢浮宫的蒙娜丽莎。";
+        this[1][54] = "卢浮宫的蒙娜丽莎。";
+        this[1][55] = "卢浮宫的蒙娜丽莎。";
+        this[1][56] = "卢浮宫广场入口。";
+        this[1][57] = "巴黎有好多玩具熊。";
+        this[1][58] = "参观巴黎先贤祠。";
+        this[1][59] = "参观巴黎先贤祠，球球坐在雨果墓边上。";
+        this[1][60] = "坐船游巴黎塞纳河。";
+        this[1][61] = "坐船游巴黎塞纳河。";
+        this[1][62] = "坐船游巴黎塞纳河。";
+        this[1][63] = "巴黎街景。";
+        this[1][64] = "艾菲尔铁塔的夜景。";
+        this[1][65] = "艾菲尔铁塔的夜景。";
+    }else{
+        this[1][0] = "At Chinaillon Grand-Bornand below Col de la Colombiere.";
+        this[1][1] = "At Chinaillon Grand-Bornand below Col de la Colombiere.";
+        this[1][2] = "En route to Col de la Colombiere.";
+        this[1][3] = "Annecy street view.";
+        this[1][4] = "Notre-Dame de Liesse church in Annecy.";
+        this[1][5] = "Nathan in Annecy.";
+        this[1][6] = "Maomao at Palais de l'Ile, Annecy.";
+        this[1][7] = "Nathan playing at Stalingrad Square in Annecy.";
+        this[1][8] = "Palais de l'Ile, the landmark monument of Annecy.";
+        this[1][9] = "Thiou river in Annecy.";
+        this[1][10] = "Nathan at Aiguille du Midi in Chamonix.";
+        this[1][11] = "Nathan at Aiguille du Midi in Chamonix.";
+        this[1][12] = "Nathan and Mom at  Aiguille du Midi in Chamonix.";
+        this[1][13] = "View from the cable car descending Aiguille du Midi.";
+        this[1][14] = "Lunch at the mid stop of Aiguille du Midi.";
+        this[1][15] = "Cable car to the Aiguille du Midi.";
+        this[1][16] = "Bar du Plan de l'Aiguille at the mid stop of Aiguille du Midi.";
+        this[1][17] = "Nathan at the mid stop of Aiguille du Midi.";
+        this[1][18] = "Montenvers - Mer de Glace train station in Chamonix.";
+        this[1][19] = "Train ride to Mer de Glace.";
+        this[1][20] = "Train ride to Mer de Glace.";
+        this[1][21] = "The glacier valley of Mer de Glace.";
+        this[1][22] = "At Mer de Glace.";
+        this[1][23] = "Enjoying the swing at the hotel in Chamonix.";
+        this[1][24] = "The cafe terrace on the Place du Forum in Arles.";
+        this[1][25] = "Nathan in front of the cafe terrace on the Place du Forum in Arles.";
+        this[1][26] = "Lunch on the Place du Forum in Arles.";
+        this[1][27] = "Watching flamingos in Parc Ornithologique du Pont de Gau near Arles.";
+        this[1][28] = "Hiking in Parc Ornithologique du Pont de Gau near Arles.";
+        this[1][29] = "On Place de la République in Arles.";
+        this[1][30] = "Blue tongue after drinking blue raspberry icee.";
+        this[1][31] = "Nathan in front of the Roman amphitheatre in Arles.";
+        this[1][32] = "Doing a cartwheel in front of the Roman amphitheatre in Arles.";
+        this[1][33] = "Arènes d'Arles: the Roman amphitheatre in Arles.";
+        this[1][34] = "In front of a shop display in Arles.";
+        this[1][35] = "Notre-Dame de la Garde in Marseille.";
+        this[1][36] = "View of Marseille from Notre-Dame de la Garde.";
+        this[1][37] = "The old port of Marseille.";
+        this[1][38] = "A street painting in Arles.";
+        this[1][39] = "At the Gallo-RomanTheater in Lyon.";
+        this[1][40] = "Visiting the Gallo-Roman Museum of Lyon-Fourvière.";
+        this[1][41] = "Visiting the Gallo-Roman Museum of Lyon-Fourvière.";
+        this[1][42] = "Visiting the Gallo-Roman Museum of Lyon-Fourvière.";
+        this[1][43] = "At the Basilique Notre-Dame de Fourvière in Lyon.";
+        this[1][44] = "Riding the metro in Paris.";
+        this[1][45] = "Visiting the Eiffel Tower in Paris.";
+        this[1][46] = "Visiting the Eiffel Tower in Paris.";
+        this[1][47] = "Visiting the Eiffel Tower in Paris.";
+        this[1][48] = "Visiting the Eiffel Tower in Paris.";
+        this[1][49] = "Visiting the Arc de Triomphe in Paris.";
+        this[1][50] = "The Arc de Triomphe in Paris.";
+        this[1][51] = "The Winged Victory of Samothrace in the Louvre Museum.";
+        this[1][52] = "Visiting the Louvre Museum.";
+        this[1][53] = "Mona Lisa at the Louvre Museum.";
+        this[1][54] = "Mona Lisa at the Louvre Museum.";
+        this[1][55] = "Mona Lisa at the Louvre Museum.";
+        this[1][56] = "At the courtyard of the Louvre Museum.";
+        this[1][57] = "Sitting with the teddy bears in Paris.";
+        this[1][58] = "Visiting the Panthéon in Paris.";
+        this[1][59] = "Visiting the Panthéon in Paris.";
+        this[1][60] = "Taking the river cruise on the Seine in Paris.";
+        this[1][61] = "Taking the river cruise on the Seine in Paris.";
+        this[1][62] = "Taking the river cruise on the Seine in Paris.";
+        this[1][63] = "Paris street.";
+        this[1][64] = "Night view of the Eiffel Tower.";
+        this[1][65] = "Night view of the Eiffel Tower.";
+    }
+}
+ 
+//web counter info
+var sc_project   = 9592725;
+var sc_invisible = 1;
+var sc_security  = "8084e75a";
+//-->

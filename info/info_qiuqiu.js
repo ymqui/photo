@@ -28,8 +28,9 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2212dino","12/2022 Florida Dinosaur World","12/2022 佛罗里达州恐龙世界"],["2301panama","1/2023 Vacationing in Panama","1/2023 在巴拿马度假"],
                   ["2306iceland","6/2023 Vacationing in Iceland","6/2023 在冰岛度假"],["2308uk","8/2023 Vacationing in the United Kingdom","8/2023 在英国度假"],
                   ["2310parade","10/2023 Fallsmead Halloween Parade","10/2023 Fallsmead小学万圣节游行"],["2312china","12/2023 Vacationing in China","12/2023 回中国探亲"],
-                  ["2403denver","3/2024 Spring Break in Denver","3/2024 在丹佛度春假"],["2405outerbank","5/2024 Memorial Day on Outer Banks","5/2024 北卡外滩纪念日度假"],		  
+                  ["2403denver","3/2024 Spring Break in Denver","3/2024 在丹佛度春假"],["2405outerbank","5/2024 Memorial Day on Outer Banks","5/2024 北卡外滩纪念日度假"],
                   ["2020nist","11/2020-8/2024 NIST Child Care Center","11/2020-8/2024 NIST托儿所"],["2023karate","9/2023-8/2024 Kicks Karate","9/2023-8/2024 Kicks Karate空手道"],
+                  ["2408france","8/2024 Vacationing in France","8/2024 在法国度假"],
                   ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -387,6 +388,8 @@ function initAlbum(){
     var urltmp    = (['6FtdvOt70uw','6wdHgLadu6w'])[Math.round(Math.random())];
     this[0][i]    = "20240619_022_MonkeyBar";
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["2408france/2408france_49","20240821"];
+    this[1][i++]  = (["Visiting the Eiffel Tower during the "+pagelink("2408france","vacation in France"),"在"+pagelink("2408france","法国度假")+"期间游巴黎的"+baike("埃菲尔铁塔")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
