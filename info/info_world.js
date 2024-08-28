@@ -11,7 +11,8 @@ homeurl        = homeurl+"showphoto.html?qiuqiu";
 var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"],
                   ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+coltext("Iceland"),"6/2023 "+coltext("冰岛")+"度假"],
-                  ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"],["2312china","12/2023 Vacationing in "+coltext("China"),"12/2023 "+coltext("中国")+"度假"]];
+                  ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"],["2312china","12/2023 Vacationing in "+coltext("China"),"12/2023 "+coltext("中国")+"度假"],
+                  ["2408france","8/2024 Vacationing in "+coltext("France"),"8/2024 "+coltext("法国")+"度假"]];
 
 document.title = title;
 
@@ -45,6 +46,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2308uk",(["Stonehenge, Wiltshire, "+btext("United Kingdom"),btext("英国")+"威尔特郡巨石阵"])[cn_ind]);
     this[0][i]    = ["20231215_China","20231221_China"];
     this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind];
+    this[0][i]    = "20240821_France";
+    this[1][i++]  = pagelink("2408france",(["Eiffel Tower, Paris, "+btext("France"),btext("法国")+"巴黎艾菲尔铁塔"])[cn_ind]);
 
     adddate(this);
 }
