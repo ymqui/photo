@@ -39,7 +39,7 @@ function initAlbum(){
         this[1][7] = "球球在安纳西的斯大林格勒广场玩。";
         this[1][8] = "安纳西的地标性建筑-岛宫。";
         this[1][9] = "安纳西的蒂乌河。";
-        this[1][10] = "球球在夏慕尼的南针峰。";
+        this[1][10] = "球球在夏慕尼的南针峰。远处的雪山是阿尔卑斯山的最高峰勃朗峰。";
         this[1][11] = "球球在夏慕尼的南针峰。";
         this[1][12] = "球球和妈妈在夏慕尼的南针峰。";
         this[1][13] = "登南针峰的缆车上看到的风景。";
@@ -106,7 +106,7 @@ function initAlbum(){
         this[1][7] = "Nathan playing at Stalingrad Square in Annecy.";
         this[1][8] = "Palais de l'Ile, the landmark monument of Annecy.";
         this[1][9] = "Thiou river in Annecy.";
-        this[1][10] = "Nathan at Aiguille du Midi in Chamonix.";
+        this[1][10] = "Nathan at Aiguille du Midi in Chamonix. The snowy mountain behind is the highest peak in the Alps, Mont Blanc.";
         this[1][11] = "Nathan at Aiguille du Midi in Chamonix.";
         this[1][12] = "Nathan and Mom at  Aiguille du Midi in Chamonix.";
         this[1][13] = "View from the cable car descending Aiguille du Midi.";
