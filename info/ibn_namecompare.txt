@@ -20,9 +20,9 @@ Bushtit,					American Bushtit
 European Starling,				Common Starling
 Fox Sparrow,					Red Fox Sparrow
 Black-crowned Palm-Tanager,			Black-crowned Tanager
-Yellow Warbler,					Mangrove Warbler
+Yellow Warbler,					American Yellow Warbler
 Yellow-rumped Warbler,				Myrtle Warbler
-Hoary Redpoll,					Arctic Redpoll
+Common Redpoll,					Redpoll
 Red-crowned Parrot,				Red-crowned Amazon
 Lucifer Hummingbird,				Lucifer Sheartail
 Blue-throated Mountain-gem,			Blue-throated Mountaingem
@@ -36,4 +36,5 @@ Eurasian Green Woodpecker,			European Green Woodpecker
 Eurasian Linnet,				Common Linnet
 Greater Whitethroat,				Common Whitethroat
 Gray Flycatcher,				American Grey Flycatcher
+Red-rumped Swallow,				Eastern Red-rumped Swallow
 
