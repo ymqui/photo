@@ -29,9 +29,9 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "Col de la Colombiere山口下的Chinaillon Grand-Bornand小镇。";
-        this[1][1] = "Col de la Colombiere山口下的Chinaillon Grand-Bornand小镇。";
-        this[1][2] = "前往Col de la Colombiere山口途中的美景。";
+        this[1][0] = "科隆比耶山隘下的大博尔南恰尼永小镇。";
+        this[1][1] = "科隆比耶山隘下的大博尔南恰尼永小镇。";
+        this[1][2] = "前往科隆比耶山隘途中的美景。";
         this[1][3] = "安纳西街景。";
         this[1][4] = "安纳西的安锡列思圣母院。";
         this[1][5] = "球球在安纳西。";
@@ -88,7 +88,7 @@ function initAlbum(){
         this[1][56] = "卢浮宫广场入口。";
         this[1][57] = "巴黎有好多玩具熊。";
         this[1][58] = "参观巴黎先贤祠。";
-        this[1][59] = "参观巴黎先贤祠，球球坐在雨果墓边上。";
+        this[1][59] = "参观巴黎先贤祠。球球坐在雨果墓边上。";
         this[1][60] = "坐船游巴黎塞纳河。";
         this[1][61] = "坐船游巴黎塞纳河。";
         this[1][62] = "坐船游巴黎塞纳河。";

@@ -475,7 +475,7 @@ var birds = myBirds([
 //  ["24-00-00T00:00","PHOENICU","Abyssinian Scimitarbill","小弯嘴林戴胜","Rhinopomastus minor",[],["arb",""],"absbil1"],
 //  ["24-00-00T00:00","BUCORVID","Southern Ground Hornbill","红脸地犀鸟","Bucorvus leadbeateri",[],["arb",""],"soghor1"],
 //  ["24-00-00T00:00","BUCEROTI","African Grey Hornbill","黑嘴弯嘴犀鸟","Lophoceros nasutus",[],["arb",""],"afghor1"],
-//  ["24-00-00T00:00","CORACIID","European Roller","蓝胸佛法僧","Coracias garrulus",["2408frbird",],["frfrfr",""],"eurrol1"],
+//  ["24-00-00T00:00","CORACIID","European Roller","蓝胸佛法僧","Coracias garrulus",["2408frbird",],["frfrfr","S193236103","Rte des Saintes Maries de la Mer, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur","普罗旺斯-阿尔卑斯-蓝色海岸大区罗纳河口省阿尔勒市滨海圣玛丽路"],"eurrol1"],
 //  ["24-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",[],["arb",""],"plgrol1"],
     ["16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",["2312cnbird",[53,60,61]],["cnfjfj","S157743512","Male, Yongding Hongkeng Tulou","永定洪坑土楼","cnjsxp","S157746788","Male","cnjsxp","S157746788","Female"],"comkin1"],
     ["20-01-25T08:31","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",["2001txbirding",37],["txsnwr","S163595749","Male"]],
