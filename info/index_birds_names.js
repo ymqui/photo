@@ -748,7 +748,7 @@ var birds = myBirds([
     ["19-05-14T08:25","REMIZIDA","Verdin","黄头金雀","Auriparus flaviceps",[["1905mxbird",25],["2208azbird",4]],["arb","S163772320","El Pipila Monument, Guanajuato City, Guanajuato, Mexico","墨西哥瓜纳华托州瓜纳华托城皮毕拉纪念碑","azsndm","S116522318"]],
 //  ["24-00-00T00:00","NICATORI","Western Nicator","黄翼斑斗鹎","Nicator chloris",[],["arb",""],"yesnic1"],
 //  ["24-00-00T00:00","PANURIDA","Bearded Reedling","文须雀","Panurus biarmicus",["2408frbird",],["frpopg",""],"bearee1"],
-//  ["24-08-15T06:59","ALAUDIDA","Woodlark","林百灵","Lullula arborea",["2408frbird",2],["frcolc","S191506731"],"woolar1","林百灵/62549"],
+    ["24-08-15T06:59","ALAUDIDA","Woodlark","林百灵","Lullula arborea",["2408frbird",2],["frcolc","S191506731"],"woolar1","林百灵/62549"],
     ["15-03-15T10:45","ALAUDIDA","Horned Lark","角百灵","Eremophila alpestris",["160507_042","150315_036","160507_043"],["mdmdmd","S164375390","Male, "+(t1="Congressional Polo Club, Poolesville"),(t2="普尔斯维尔镇国会马球俱乐部"),"mdswhf","S165231833","Female","mdmdmd","S164375390","Juvenile, "+t1,t2]],
     ["23-12-16T16:34","PYCNONOT","Chestnut Bulbul","栗背短脚鹎","Hemixos castanonotus",["2312cnbird",[26,27]],["cnhzbg","S157705395"],"chebul1"],
     ["23-12-20T09:12","PYCNONOT","Mountain Bulbul","绿翅短脚鹎","Ixos mcclellandii",["2312cnbird",[42,89]],["cnfjfj","S157741735","Lianhuashan Park, Longyan","龙岩市莲花山公园","cnzjzj","S157762161","Xishan Park, Jiangshan","江山市西山健身公园"],"moubul2"],
