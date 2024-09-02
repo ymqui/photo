@@ -1376,7 +1376,11 @@
   info[2][j] = 2;
   info[3][j] = "3/2024 Denver Birding";
   info[4][j++] = "Birding in Denver area (Colorado).";
-
+  info[0][j] = "2408frbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "8/2024 France Birding";
+  info[4][j++] = "Birding in France (France).";
 
   if(window.usechinese){
      j = 0;
@@ -1926,6 +1930,8 @@
      info[4][j++] = "在北京，浙江，福建(中国)和日本东京(日本)观鸟。";
      info[3][j]   = "3/2024 丹佛观鸟";
      info[4][j++] = "在丹佛地区观鸟(科罗拉多州)。";
+     info[3][j]   = "8/2024 法国观鸟";
+     info[4][j++] = "在法国观鸟(法国)。";
   } 
 
   //special touch
@@ -1944,5 +1950,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2024-04-05T08:00:00");
+  var modDat = new Date("2024-09-01T08:00:00");
 //-->
