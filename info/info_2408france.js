@@ -12,6 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2408frbird","8/2024 Birding in France","8/2024 法国观鸟"]]
  
 if(window.usechinese){
     title      = "法国度假";
@@ -62,7 +63,7 @@ function initAlbum(){
         this[1][24] = "梵高在阿尔勒画的咖啡馆露台。";
         this[1][25] = "球球在阿尔勒的咖啡馆露台前。";
         this[1][26] = "在阿尔勒吃午餐。";
-        this[1][27] = "在阿尔勒附近的蓬德高鸟类公园看大火烈鸟。";
+        this[1][27] = "在阿尔勒附近的蓬德高鸟类公园"+pagelink("2408frbird&30","看大火烈鸟")+"。";
         this[1][28] = "大火烈鸟。";
         this[1][29] = "游阿尔勒附近的蓬德高鸟类公园。";
         this[1][30] = "在阿尔勒城中心的共和国广场。";
@@ -103,9 +104,9 @@ function initAlbum(){
         this[1][65] = "艾菲尔铁塔的夜景。";
         this[1][66] = "艾菲尔铁塔的夜景。";
     }else{
-        this[1][0] = "At Chinaillon Grand-Bornand below Col de la Colombiere.";
-        this[1][1] = "At Chinaillon Grand-Bornand below Col de la Colombiere.";
-        this[1][2] = "En route to Col de la Colombiere.";
+        this[1][0] = "At Chinaillon Grand-Bornand below Col de la Colombière.";
+        this[1][1] = "At Chinaillon Grand-Bornand below Col de la Colombière.";
+        this[1][2] = "En route to Col de la Colombière.";
         this[1][3] = "Annecy street view.";
         this[1][4] = "Notre-Dame de Liesse church in Annecy.";
         this[1][5] = "Nathan in Annecy.";
@@ -130,7 +131,7 @@ function initAlbum(){
         this[1][24] = "The cafe terrace on the Place du Forum in Arles.";
         this[1][25] = "Nathan in front of the cafe terrace on the Place du Forum in Arles.";
         this[1][26] = "Lunch on the Place du Forum in Arles.";
-        this[1][27] = "Watching greater flamingos in Parc Ornithologique du Pont de Gau near Arles.";
+        this[1][27] = pagelink("2408frbird&30","Watching greater flamingos")+" in Parc Ornithologique du Pont de Gau near Arles.";
         this[1][28] = "Greater flamingos.";
         this[1][29] = "Hiking in Parc Ornithologique du Pont de Gau near Arles.";
         this[1][30] = "On Place de la République in Arles.";
