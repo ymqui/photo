@@ -390,6 +390,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
     this[0][i]    = ["2408france/2408france_49","20240821"];
     this[1][i++]  = (["Visiting the Eiffel Tower during the "+pagelink("2408france","vacation in France"),"在"+pagelink("2408france","法国度假")+"期间游巴黎的"+baike("埃菲尔铁塔")])[cn_ind];
+    this[0][i]    = ["20240906_DentalVisit_1","20240906_DentalVisit_2"];
+    this[1][i++]  = (["Dental checkup","半年一次的定期牙齿检查"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
