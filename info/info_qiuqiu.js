@@ -394,6 +394,8 @@ function initAlbum(){
     this[1][i++]  = (["Photo with the King and Queen at the "+pagelink("2409renfest","Maryland Renaissance Festival"),"在"+pagelink("2409renfest","马里兰文艺复兴节")+"上和国王和王后合影"])[cn_ind];
     this[0][i]    = ["20240906_DentalVisit_1","20240906_DentalVisit_2"];
     this[1][i++]  = (["Dental checkup","半年一次的定期牙齿检查"])[cn_ind];
+    this[0][i]    = ["20240901","20240907_1","20240907_2","20240907_3","20240907_0"];
+    this[1][i++]  = ([urllink(url=("https://youtu.be/VZf-4H-zbs8"),"Playdate with Annelise (YouTube Video)"),urllink(url,"和朋友Annelise一起玩(YouTube视频)")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
