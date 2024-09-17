@@ -30,12 +30,14 @@ function initAlbum(){
     }
     if(window.usechinese){
         this[1][0] = "国家美术馆举办的巴黎1874印象派时刻画展。";
+        this[1][1] = "画展同时展示了巴黎印象派画家和沙龙画家1874年出展的作品。";
         this[1][2] = "克劳德·莫奈的《日出印象》。";
         this[1][3] = "爱德华·德泰尔的《第9胸甲骑兵团在莫斯布隆冲锋》。";
         this[1][5] = "欣赏奥古斯特·兰松的《巴泽耶战役死亡战线》。";
         this[1][6] = "球球展示他的侧手翻技巧。";
     }else{
         this[1][0] = "Paris 1874: The Impressionist Moment exhibition at National Gallery of Art.";
+        this[1][1] = "The exhibition showcases the works by both impressionists and Salon painters on display in 1874.";
         this[1][2] = "Impression Sunrise by Claude Monet.";
         this[1][3] = "Charge of the 9th Regiment of Cuirassiers at Morsbronn by Édouard Detaille.";
         this[1][5] = "Morts en Ligne, La Bataille de Bazeilles by Auguste Lançon.";
