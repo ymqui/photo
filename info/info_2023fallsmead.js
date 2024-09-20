@@ -76,6 +76,8 @@ function initAlbum(){
     this[1][i++]  = (["Playing basketball with Nathan W. at the end-of-year community celebration","在庆祝学年结束社区活动中和朋友Nathan W.一起打篮球"])[cn_ind];
     this[0][i]    = "20240607";
     this[1][i++]  = (["Kindergarten class photo taken during the end-of-year graduation party","庆祝学年结束活动中拍摄的幼儿园班级照片"])[cn_ind];
+    this[0][i]    = "20240919";
+    this[1][i++]  = (["Mrs. Wasser telling parents about the 1st grade science curriculum at the back to school night","Wasser老师在返校之夜向家长讲述一年级的科学课程规划"])[cn_ind];
 
     adddate(this);
 }
