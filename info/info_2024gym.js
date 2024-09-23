@@ -26,6 +26,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink((url="https://youtu.be/5GE-QWfPmhI"),"Practicing cartwheels at the Little Gym (YouTube video)"),urllink(url,"在Little Gym练习侧手翻(YouTube视频)")])[cn_ind];
     this[0][i]    = ["20240915_1","20240915_2","20240915_3"];
     this[1][i++]  = ([urllink((url="https://youtube.com/shorts/F--W_cVdOpg?feature=share"),"Taking gymnastics class at the Little Gym (YouTube video)"),urllink(url,"在Little Gym练习体操(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["20240922_1","20240922_2"];
+    this[1][i++]  = (["Practicing handstand","练习倒立"])[cn_ind];
 
     adddate(this);
 }
