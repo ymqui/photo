@@ -211,7 +211,7 @@ var birds = myBirds([
     ["15-01-03T10:17","CUCULIDA","Smooth-billed Ani","滑嘴犀鹃","Crotophaga ani",["1501prbird",16],["prcnwr","S164772863"]],
     ["13-12-25T14:53","CUCULIDA","Greater Roadrunner","走鹃","Geococcyx californianus",[["2208azbird",14],["1312bbbird",5]],["azazaz","S116518164","Kennedy Park, Tucson","图森市肯尼迪公园","txbbnp","S167799354"]],
     ["23-01-23T10:48","CUCULIDA","Squirrel Cuckoo","灰腹棕鹃","Piaya cayana",["2301pabird",59],["papipe","S126820118"]],
-    ["06-07-30T14:31","CUCULIDA","Yellow-billed Cuckoo","黄嘴美洲鹃","Coccyzus americanus",[["2009cobird",29],["1512bhill",40],"200603_035"],["mdcocn","6/2009,S167836150","Violettes Lock","紫罗兰闸","mdbhrp","9/2015,S165064061","mdbmnt","S165015490"]],
+    ["06-07-30T14:31","CUCULIDA","Yellow-billed Cuckoo","黄嘴美洲鹃","Coccyzus americanus",["240929_233",["2009cobird",29],["1512bhill",40]],["mdwoot","S196884251","mdcocn","6/2009,S167836150","Violettes Lock","紫罗兰闸","mdbhrp","9/2015,S165064061"]],
     ["16-06-11T08:39","CUCULIDA","Mangrove Cuckoo","红树美洲鹃","Coccyzus minor",["1606florida",[16,15,17]],["flflfl","S164260929","Black Point Park & Marina, Miami-Dade County","迈阿密-戴德郡黑角公园及码头"]],
     ["21-05-14T09:30","CUCULIDA","Black-billed Cuckoo","黑嘴美洲鹃","Coccyzus erythropthalmus",["210514_072","210514_073"],["mdlbrp","S163433241"]],
 //  ["24-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[],["arb",""],"whbmes2"],
