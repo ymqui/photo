@@ -146,7 +146,7 @@ function initAlbum(){
         this[1][43] = "Red-whiskered Bulbul, Neiban, Longyan, Fujian.";
         this[1][44] = "Daurian Redstart, male, Neiban, Longyan, Fujian.";
         this[1][45] = "Warbling White-eye, Denggao Park, Longyan, Fujian.";
-        this[1][46] = "Red-rumped Swallow, Denggao Park, Longyan, Fujian.";
+        this[1][46] = "Eastern Red-rumped Swallow, Denggao Park, Longyan, Fujian.";
         this[1][47] = "Amur Stonechat, male, Denggao Park, Longyan, Fujian.";
         this[1][48] = "Amur Stonechat, female, Denggao Park, Longyan, Fujian.";
         this[1][49] = "Grey Wagtail, Denggao Park, Longyan, Fujian.";

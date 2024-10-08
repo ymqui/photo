@@ -209,7 +209,7 @@ function initAlbum(){
         this[1][33] = "Amur Stonechat, female, Neiban Village, Longyan, Fujian.";
         this[1][34] = "House Swift, Denggaoshan Park, Longyan, Fujian.";
         this[1][35] = "Fork-tailed Sunbird, female, Denggaoshan Park, Longyan, Fujian.";
-        this[1][36] = "Red-rumped Swallow, Denggaoshan Park, Longyan, Fujian.";
+        this[1][36] = "Eastern Red-rumped Swallow, Denggaoshan Park, Longyan, Fujian.";
         this[1][37] = "Fire-breasted Flowerpecker, male, Lianhuashan Park, Longyan, Fujian.";
         this[1][38] = "Black Bulbul, Lianhuashan Park, Longyan, Fujian.";
         this[1][39] = "Fork-tailed Sunbird, male, Denggaoshan Park, Longyan, Fujian.";
