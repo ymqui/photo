@@ -767,7 +767,7 @@ var birds = myBirds([
     ["24-08-15T15:34","HIRUNDIN","Eurasian Crag-Martin","岩燕","Ptyonoprogne rupestris",["2408frbird",17],["frfrfr","S193135103","Grand-Bornand Chinaillon, Haute-Savoie, Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区上萨瓦省大博尔南恰尼永镇"],"eurcrm1"],
     ["12-06-09T09:07","HIRUNDIN","Barn Swallow","家燕","Hirundo rustica",[["1206bsbird",10],["1505capemay",8],["1704longyan",7],["2408frbird",30],"200629_053"],["mdbroo","S167832749","njnjnj","S164956643","South Cape May Meadows","南五月岬草甸","cnlynv","S164149236","frrncc","S193135708","mdmdmd","S165016446","Nest, Germantown","德国镇"]],
     ["24-08-17T08:21","HIRUNDIN","Western House-Martin","西方毛脚燕","Delichon urbicum",["2408frbird",20],["frfrfr","S193135647","Chamonix, Haute-Savoie, Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区上萨瓦省夏蒙尼市"],"comhom1","白腹毛脚燕"],
-    ["16-01-11T14:49","HIRUNDIN","Red-rumped Swallow","金腰燕","Cecropis daurica",["1601china",47],["cnlydp","S164340615"],"rerswa1"],
+    ["16-01-11T14:49","HIRUNDIN","Eastern Red-rumped Swallow","金腰燕","Cecropis daurica",["1601china",47],["cnlydp","S164340615"],"rerswa1"],
     ["15-05-16T09:59","HIRUNDIN","Cliff Swallow","美洲燕","Petrochelidon pyrrhonota",["150516_074"],["mdloch","S165234345","Paper Mill Road Bridge","造纸厂路桥"]],
     ["22-05-04T11:20","HIRUNDIN","Cave Swallow","穴崖燕","Petrochelidon fulva",["2204flbird",56],["flflfl","5/2022,S108969618","SW 248th Street Turnpike Bridge, Miami-Dade County","迈阿密-戴德郡西南248街收费公路大桥"]],
 //  ["24-00-00T00:00","PNOEPYGI","Pygmy Cupwing","小鳞胸鹪鹛","Pnoepyga pusilla",["2312cnbird",],["cnhzbg",""],"pywbab1"],
