@@ -886,7 +886,7 @@ var birds = myBirds([
     ["24-08-15T07:12","MUSCICAP","Common Rock Thrush","白背矶鸫","Monticola saxatilis",["2408frbird",[7,8]],["frcolc","S191506731","Female"],"rtrthr1"],
     ["23-12-29T08:03","MUSCICAP","Blue Rock-Thrush","蓝矶鸫","Monticola solitarius",["2312cnbird",137],["jphaap","S157775175","Female"],"burthr"],
     ["16-01-11T14:52","MUSCICAP","Amur Stonechat","东亚石䳭","Saxicola stejnegeri",["1601china",[48,49]],["cnlydp","S164340615","Male","cnlydp","S164341098","Female"],"stonec7"],
-    ["23-06-21T10:18","MUSCICAP","Northern Wheatear","穗䳭","Oenanthe oenanthe",["2306isbird",54],["isisis","S142289423","Male, Dettifoss, Northeastern Region","东北地区黛提瀑布"]],
+    ["23-06-21T10:18","MUSCICAP","Northern Wheatear","穗䳭","Oenanthe oenanthe",[["2306isbird",54],["2408frbird",11]],["isisis","S142289423","Male, Dettifoss, Northeastern Region","东北地区黛提瀑布","frcolc","S191506731","Juvenile"]],
     ["24-03-25T14:40","CINCLIDA","American Dipper","美洲河乌","Cinclus mexicanus",["2403cobird",[10,11,12,13]],["cococo","S165976802","Clear Creek Trail, Wheat Ridge","麦岭市清溪步道"]],
     ["16-01-05T08:00","CHLOROPS","Orange-bellied Leafbird ","橙腹叶鹎","Chloropsis hardwickii",["2312cnbird",[76,77]],["cnzjzj","S157755372","Male, Xianxiaguan Trail, Jiangshan","江山市仙霞关古道","cnzjzj","S157755372","Female, Xianxiaguan Trail, Jiangshan","江山市仙霞关古道"],"orblea1"],
     ["23-12-19T15:36","DICAEIDA","Fire-breasted Flowerpecker","红胸啄花鸟","Dicaeum ignipectus",["2312cnbird",[38,44]],["cnfjfj","S157717105","Male, Lianhuashan Park, Longyan","龙岩市莲花山公园","cnfjfj","S157741735","Female, Lianhuashan Park, Longyan","龙岩市莲花山公园"],"fibflo1"],

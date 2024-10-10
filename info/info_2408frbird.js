@@ -37,7 +37,7 @@ function initAlbum(){
         this[1][7] = "白背矶鸫，雌性，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][8] = "林鹨，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][9] = "林鹨，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
-        this[1][10] = "不明鸟类，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
+        this[1][10] = "穗䳭，未成年，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][11] = "赤胸朱顶雀，雄性，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][12] = "赤胸朱顶雀，雌性，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][13] = "胡兀鹫，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
@@ -101,7 +101,7 @@ function initAlbum(){
         this[1][7] = "Common Rock Thrush, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][8] = "Tree PiPit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][9] = "Tree PiPit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
-        this[1][10] = "Unknown passerine, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
+        this[1][10] = "Northern Wheatear, juvenile, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][11] = "Eurasian Linnet, male, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][12] = "Eurasian Linnet, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][13] = "Bearded Vulture, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
