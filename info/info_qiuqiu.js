@@ -401,6 +401,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtu.be/VZf-4H-zbs8"),"Playdate with Annelise (YouTube Video)"),urllink(url,"和朋友Annelise一起玩(YouTube视频)")])[cn_ind];
     this[0][i]    = ["2409nga/2409nga_6","20240915"];
     this[1][i++]  = pagelink("2409nga",(["Visiting the Paris 1874: The Impressionist Moment exhibition at National Gallery of Art","参观国家美术馆举办的巴黎1874印象派时刻画展"])[cn_ind]);
+    this[0][i]    = "20241016_028_CometTsuchinshan";
+    this[1][i++]  = (["Watching Comet Tsuchinshan-ATLAS on Fallsmead Elementary School playground","在Fallsmead小学操场上观看紫金山-阿特拉斯彗星"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
