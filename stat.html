@@ -332,15 +332,11 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
        tmp_url = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'"';
        document.write('<td align="left">'+getFlag(cou_cnts[j][0])+tmp_url+'>'+cou_cnts[j][0]+'</a></td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+tmp_url+' style="text-decoration:none; color:blue;">'+cou_cnts[j][1].toString()+'</a></font></td>');
-    }else if(j<cou_cnts.length+1){
+    }else if((j<cou_cnts.length+1)&&(hz_cnts.length>0)){
        document.write('<td><small>&emsp;</small></td><td></td>');
-    }else if(j<cou_cnts.length+2){
-       if (hz_cnts.length>0) {
-          document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
-       }else{
-          document.write('<td></td><td></td>');
-       }
-    }else if(j<cou_cnts.length+hz_cnts.length+2){
+    }else if((j<cou_cnts.length+2)&&(hz_cnts.length>0)){
+       document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+    }else if((j<cou_cnts.length+hz_cnts.length+2)&&(hz_cnts.length>0)){
        txcol2  = (['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])];
        let pys = '';
        for (var l=0;l<clen;l++){
