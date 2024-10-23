@@ -69,7 +69,7 @@ if (cellphone){
    clen   = 12;
 }
 var linkid = 0;
-var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('California'),
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),
     bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
     bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
     bookmark('https://dashboard.birdcast.info/region/US-MD-031',(['Birdcast Maryland','马里兰州鸟类迁徙预报'])[cn_ind],'cornell'),
@@ -85,7 +85,6 @@ var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('D
     bookmark('https://www.arizonabirder.com/birding-in-se-az/specialty-birds-in-se-az/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'trogon'),
     bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'puffin'),
     bookmark('https://birdingbeijing.com/birders-guide-to-beijing/',(['Birds of Beijing, China','中国北京鸟类'])[cn_ind],'magpie'),
-    bookmark('https://happygringo.com/blog/galapagos-birds/',(['Birds of Galapagos Islands, Ecuador','厄瓜多尔加拉帕戈斯群岛鸟类'])[cn_ind],'booby'),
     bookmark('https://www.birdingecotours.com/field-guides-to-asia-what-to-take-into-the-field/',(['Field Guides to Asia','亚洲鸟类野外手册'])[cn_ind],'guide')
     ];
 //var date = new Date();
@@ -303,6 +302,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 let txcol1,txcol2;
+if (cou_cnts.length>30) hz_cnts.length = 0;
 while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.length*2-1))){
     document.write('<tr>');
     if (i<loc_cnts.length){
@@ -335,7 +335,11 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
     }else if(j<cou_cnts.length+1){
        document.write('<td><small>&emsp;</small></td><td></td>');
     }else if(j<cou_cnts.length+2){
-       document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+       if (hz_cnts.length>0) {
+          document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+       }else{
+          document.write('<td></td><td></td>');
+       }
     }else if(j<cou_cnts.length+hz_cnts.length+2){
        txcol2  = (['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])];
        let pys = '';
