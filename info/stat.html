@@ -1,0 +1,367 @@
+<html>
+<head>
+<META http-equiv="Pragma" content="no-cache">
+<META http-equiv="Cache-Control" content="no-cache">   
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/script/error.js">           </SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/stat.js">              </SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_orders.js"></SCRIPT>
+<script type="text/javascript" language="javaScript" src="https://ymqui.github.io/photo/info/index_birds_names.js"> </SCRIPT>
+<style>
+.center{
+   margin-left: auto;
+   margin-right:auto;
+}
+.pic{
+   position: relative;
+   width: 100%;
+   max-width: 900px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #f6f6dc;
+  text-align: center;
+  padding: 3px 5px;
+  position: absolute;
+  white-space: nowrap;
+  bottom: -230%;
+  margin-left: -60%;
+  border: 1px solid #000000;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" language="javaScript">
+<!--
+//chinese name for countries
+//flags https://www.worldometers.info/geography/flags-of-the-world/
+var eng_chn = [["Argentina","阿根廷"],["Australia","澳大利亚"],["Bahamas","巴哈马"],["Belize","伯利兹"],["Brazil","巴西"],["Cambodia","柬埔寨"],["Canada","加拿大"],["Chile","智利"],["China","中国"],["Congo","刚果"],["Costa Rica","哥斯达黎加"],["Cuba","古巴"],
+               ["Denmark","丹麦"],["Ecuador","厄瓜多尔"],["Egypt","埃及"],["Ethiopia","埃塞俄比亚"],["Fiji","斐济"],["France","法国"],["Germany","德国"],["Greece","希腊"],["Guatemala","危地马拉"],["Iceland","冰岛"],["India","印度"],["Italy","意大利"],
+               ["Jamaica","牙买加"],["Japan","日本"],["Kenya","肯尼亚"],["Madagascar","马达加斯加"],["Malaysia","马来西亚"],["Mexico","墨西哥"],["Nepal","尼泊尔"],["New Zealand","新西兰"],["Norway","挪威"],["Panama","巴拿马"],["Papua New Guinea","巴布亚新几内亚"],
+               ["Peru","秘鲁"],["Portugal","葡萄牙"],["Singapore","新加坡"],["South Africa","南非"],["South Korea","韩国"],["Spain","西班牙"],["Tanzania","坦桑尼亚"],["Thailand","泰国"],["Trinidad and Tobago","特立尼达和多巴哥"],["United Kingdom", "英国"],
+               ["USA","美国"],["Zimbabwe","津巴布韦"]];
+var eng_cou = getColumn(eng_chn,0);
+var chn_cou = getColumn(eng_chn,1);
+//update date
+var modYear = modDat.getFullYear();
+var tmpdat = "";
+if(window.usechinese){
+   tmpdat = modYear+'年'+(modDat.getMonth()+1).toString()+'月'+modDat.getUTCDate()+"日"; 
+}else{
+   var monthName = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+   tmpdat = monthName[modDat.getMonth()]+" "+modDat.getUTCDate()+", "+modYear;
+}
+
+var width  = [24,18];
+var offset = [2,4];
+var clen   = 15;
+if (cellphone){
+   width  = [28,20];
+   offset = [3,4];
+   clen   = 12;
+}
+var linkid = 0;
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),
+    bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
+    bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
+    bookmark('https://dashboard.birdcast.info/region/US-MD-031',(['Birdcast Maryland','马里兰州鸟类迁徙预报'])[cn_ind],'cornell'),
+    bookmark('https://groups.google.com/g/mdbirding',(['MDBirding-Google Group','美国马里兰州Google观鸟群'])[cn_ind],'groups'),
+    bookmark('https://www.facebook.com/groups/MDRareBirdsDiscussionGroup/',(['MD Facebook Notable Sightings Group','美国马里兰州Facebook观鸟群'])[cn_ind],'facebook'),
+    bookmark('https://www.facebook.com/groups/118655321826890/',(['VA Facebook Notable Sightings Group','美国弗吉尼亚州Facebook观鸟群'])[cn_ind],'facebook'),
+    bookmark('https://americanornithology.org/nacc/current-prior-proposals/',(['AOS NACC Proposals','AOS鸟类分类提案'])[cn_ind],'aos'),
+    bookmark('https://www.aba.org/aba-checklist/',(['ABA Checklist','ABA鸟类清单'])[cn_ind],'aba'),
+    bookmark('https://www.aba.org/aba-area-introduced-species/',(['ABA Area Introduced Species','ABA地区引进鸟类清单'])[cn_ind],'aba'),
+    bookmark('https://www.allaboutbirds.org/guide/browse/taxonomy/Parulidae',(['New World Warbler Songs','北美森莺鸣声鉴别'])[cn_ind],'cornell'),
+    bookmark('https://drive.google.com/file/d/1H0vaHGGroxPiH6FvUH8616ml7r34XcbH/view?usp=sharing',(['Warbler Guide Quick Finders','北美森莺鉴别快速指南'])[cn_ind],'cornell'),
+    bookmark('https://tropicalaudubon.org/birds-of-south-florida',(['Birds of South Florida','美国南佛罗里达州鸟类'])[cn_ind],'kite'),
+    bookmark('https://www.arizonabirder.com/birding-in-se-az/specialty-birds-in-se-az/',(['Birds of Southeast Arizona','美国亚利桑那州东南地区鸟类'])[cn_ind],'trogon'),
+    bookmark(['https://guidetoiceland.is/nature-info/birds-in-iceland','https://wingsbirds.com/tours/iceland/'],(['Birds of Iceland','冰岛鸟类'])[cn_ind],'puffin'),
+    bookmark('https://birdingbeijing.com/birders-guide-to-beijing/',(['Birds of Beijing, China','中国北京鸟类'])[cn_ind],'magpie'),
+    bookmark('https://www.birdingecotours.com/field-guides-to-asia-what-to-take-into-the-field/',(['Field Guides to Asia','亚洲鸟类野外手册'])[cn_ind],'guide')
+    ];
+//var date = new Date();
+//if (date.getTimezoneOffset()/60 ==(-8)){ //in China
+//    links.unshift(erare('Fujian'),erare('Zhejiang'),erare('Beijing'),erare('Shanghai'));
+//}
+
+function erare(name){
+    let alerts = { 
+	Arizona:	['35601','美国亚利桑那州'],
+	Beijing:	['39713','中国北京'],
+	California:	['35464','美国加利福尼亚州'],
+        Colorado:       ['35566','科罗拉多州'],
+	Delaware:	['35547','美国特拉华州'],
+	Florida:	['35579','美国佛罗里达州'],
+	Fujian:		['55849','中国福建省'],
+	Georgia:	['35569','美国乔治亚州'],
+	HongKong:	['38532','香港'],
+	Maryland:	['35550','美国马里兰州'],
+	Michigan:	['35641','美国密歇根州'],
+	Nevada:		['35528','美国内华达州'],
+	NewJersey:	['35544','美国新泽西州'],
+	NewYork:	['35466','美国纽约州'],
+	NorthCarolina:	['35561','美国北卡罗来纳州'],
+	Ohio:		['35533','美国俄亥俄州'],
+	Ontario:	['35610','加拿大安大略省'],
+	Oregon:		['35555','美国俄勒冈州'],
+	Panama:		['37709','巴拿马'],
+	Pennsylvania:	['35546','美国宾夕法尼亚州'],
+	Shanghai:	['45783','中国上海'],
+	SouthCarolina:	['35594','美国南卡罗来纳州'],
+        Tennessee:      ['35623','美国田纳西州'],
+	Virginia:	['35646','美国弗吉尼亚州'],
+	Washington:	['35602','美国华盛顿州'],
+	WashingtonDC:	['35744','美国华盛顿哥伦比亚特区'],
+	WestVirginia:	['35684','美国西弗吉尼亚州'],
+	Zhejiang:	['42133','中国浙江省']
+	};
+    var id = alerts[name.replace(/\s/g, "")];
+    return bookmark('https://ebird.org/alert/summary?sid=SN'+id[0]+'&sortBy=obsDt&o=desc',([name+' Rare Bird Alert',id[1]+'稀有鸟类警报'])[cn_ind],'ebird','ebirdalert');
+}
+
+function sortProperties(obj,byname){
+    if (byname!=null) byname = ([true,false])[Math.round(Math.random())];
+    // convert object into array
+    var sortable = Object.keys(obj).map((key)=>[key, obj[key]]);
+    // sort items by value
+    sortable.sort(function(a, b)
+    { if ((a[1]!==b[1]) && !byname){
+         return a[1]-b[1]; // compare numbers
+      }else{
+         return (a[0]).localeCompare(b[0],(['en','zh-CN'])[cn_ind]);
+      }
+    });
+    return sortable;
+}
+
+function getCountry(str,offset){
+    if (str.length==0){return '';}
+    if (str.match(/,/)){
+       var tmp = str.split(/ *, */);
+       return tmp[tmp.length-offset];
+    }else{
+       return str;
+    }
+}
+
+function getloctooltip(str){
+    if (str == 'arb'){return (['Miscellaneous locations','世界各地'])[cn_ind];}
+    var tmp = lurls[str][0+2*cn_ind];
+    if(usechinese){
+        return getlocCountry(loc_cnts[i][0])+tmp;
+    }else{
+        return tmp+((tmp.length>0)?', ':'')+getlocCountry(loc_cnts[i][0]);
+    }
+}
+
+function getlocCountry(str){
+    var tmp = lurls[str];
+    var tmp1 = getCountry(tmp[1],1);
+    if (usechinese) {
+       return chn_cou[eng_cou.indexOf(tmp1)];
+    }else{
+       return tmp1;
+    }
+}
+
+function getlocFlag(str){
+    return getFlag(getlocCountry(str));
+}
+
+function getFlag(country){
+    var tmp = (['arb','arb2','arb1'])[Math.round(Math.random()*2)];
+    if (typeof country != 'undefined'){
+       if (country.length>0){ 
+          tmp = country;
+          if (tmp.match(/[\u3400-\u9FBF]/)) {
+             tmp = eng_cou[chn_cou.indexOf(tmp)];
+          }
+          tmp = tmp.replace(/\s/g, "");
+       }else{
+          country = (["List of countries and dependencies by area","世界各国"])[cn_ind];
+       }
+    }else{
+       country = (["List of countries and dependencies by area","世界各国"])[cn_ind];
+    }
+    if (usechinese) {
+       return '<a href="'+baike(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/flag_'+tmp.toLowerCase()+'.gif" style="width:'+width[0].toString()+'px;height:auto;position:relative;top:'+offset[0].toString()+'px;"></a>&nbsp;&nbsp;';
+    }else{
+       return '<a href="'+wiki(country)+'" style="text-decoration:none" target="country">&nbsp;<img src="https://ymqui.github.io/photo/thumbnail2/flag_'+tmp.toLowerCase()+'.gif" style="width:'+width[0].toString()+'px;height:auto;position:relative;top:'+offset[0].toString()+'px;"></a>&nbsp;&nbsp;';
+    }
+}
+
+function getColumn(anArray, columnNumber) {
+    return anArray.map((el)=>el[columnNumber]);
+}
+
+function tooltip(text,tooltip) {
+    if (tooltip.length>0){
+       return '<div class="tooltip">'+text+'<span class="tooltiptext">'+tooltip+'</span></div>';
+    }else{
+       return text;
+    }
+}
+
+function bookmark(link,name,icon,target) {
+    var tmp_url = '<img src="https://ymqui.github.io/photo/thumbnail2/icon_'+icon+'.png" style="width:'+width[1].toString()+'px;height:auto;position:relative;top:'+offset[1].toString()+'px;">';
+    if (target == null){target='bookmark'+(linkid++).toString();}
+    if (!Array.isArray(link))link = [link];
+    return link.reduce((res,el,ind,arr)=>res+'&nbsp;<a href="'+el+'" target="'+target+'">'+mytext(name+((arr.length==1)?'':(([' ',''])[cn_ind]+(ind+1).toString())))+'</a>'+((ind==arr.length-1)?'':([',&nbsp;','，'])[cn_ind]),tmp_url);
+}
+
+function mytext(text,col){   
+    var fsize = '<font';
+    if (cellphone) {fsize='<font size="+1"';}
+    if(col ==null){ col = '';}else{col = ' color="'+col+'"';}
+    return fsize+col+'><strong>'+text+'</strong></font>';
+}
+
+function mylink(url,desc,col,target){
+    if (col==null) {col = '';}else{desc = '<font color="'+col+'">'+desc+'</font>';col = ' color:'+col+';';}
+    if (target==null) {target = '';}else{target = ' target="'+target+'"';}
+    return '<a href="'+url+'" style="text-decoration:none;'+col+'"'+target+'>'+desc+'</a>';
+}
+
+var otot = orders.length;
+var ftot = orders.reduce((sum,el)=>sum+el.family.length,0);
+const unique = (value, index, self) => {
+      return self.indexOf(value) === index;
+}
+var fcnts = (birds.map(({family})=>family).filter(unique)).length;
+var gcnts = (birds.map(({genus})=>genus).filter(unique)).length;
+var famnm = '';
+var ocnts = orders.reduce((sum,el)=>{if(el.family.some((el1)=>{famnm = el1.name.slice(0,fam_ln); return birds.some((el2)=>(el2.family===famnm));}))sum=sum+1;return sum;},0);
+
+//count countries
+var cou_cnts = {};
+birds.forEach((el)=>{let tmp_cou = el.info.reduce((res,el1)=>{let tmp2 = getCountry(el1,2);if (usechinese)tmp2 = chn_cou[eng_cou.indexOf(tmp2)];if (res.indexOf(tmp2)==-1){tmp3= res.push(tmp2);if (cou_cnts[tmp2]==null){cou_cnts[tmp2]=1;}else{cou_cnts[tmp2]++;}}return res;},[]);});
+cou_cnts = sortProperties(cou_cnts,true);
+
+var fcol1 = '#000080';
+var fcol2 = '#0000A0';
+var fcol3 = 'green';
+
+var tot_bird = mylink(blnk,mytext('/'+btot),fcol3,'linktob');
+var tot_coun = mylink(clnk,mytext('/'+ctot),fcol3,'linktoc');
+var tot_bord = mylink(blnk,mytext('/'+otot),fcol3,'linktob');
+var tot_bfam = mylink(blnk,mytext('/'+ftot),fcol3,'linktob');
+var tot_bgen = mylink(blnk,mytext('/'+gtot),fcol3,'linktob');
+var my_ebird = mylink("https://ebird.org/mychecklists",mytext(ebirdlist.length),fcol3,'myebird');
+
+//check to see if any of the locations has little or no use
+var tmp = Object.keys(lurls);
+var tmp1 = Object.keys(hz_cnts);
+hz_cnts = sortProperties(hz_cnts);
+tmp.forEach((el)=>{if (loc_cnts[el]==null) loc_cnts[el] = 0;});
+loc_cnts = sortProperties(loc_cnts);
+var misc_cnts_str = misc_cnts.join('/');
+
+document.write('<table class="center">');
+document.write('<tr><td colspan="9">');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/'+(["lifer_stat.png","lifer_stat_cn.png"])[cn_ind]+'" class="pic"></a>');
+document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">');
+document.write(mytext(tmpdat,fcol1)+'&nbsp;&nbsp;<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">');
+document.write('<IMG SRC="https://ymqui.github.io/photo/thumbnail/LaoQ.png" align="bottom" border="0" style="height:16px;width:auto;margin:2px 0px -3px 0px"></a>');
+document.write('</td><td></td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Species','鸟类总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(birds.length.toString(),fcol2)+tot_bird+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+var ebird = '<span style="color: #2AA64D">e</span><span style="Color: '+fcol1+'">Bird</span>'; 
+document.write('<td align="left">'+mytext((['Total '+ebird+' Checklists',ebird+'观鸟纪录清单'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+my_ebird+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Bird Orders','鸟目总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(ocnts.toString(),fcol2)+tot_bord+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Families','鸟科总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(fcnts.toString(),fcol2)+tot_bfam+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Bird Genera','鸟属总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(gcnts.toString(),fcol2)+tot_bgen+'</td>');
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Bird Photos','照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(pic_cnts.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Misc Bird Photos','misc文件夹照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(misc_cnts_str,fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+if (dig_cnts>0){
+document.write('<td align="left">'+mytext((['Total Digiscope Photo'+((dig_cnts>1)?'s':''),'望远镜拍的照片总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(dig_cnts.toString(),fcol2)+'</td>');
+}
+document.write('</tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
+document.write('<td align="left">'+mytext((['Total Locations','地址总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp.length.toString(),fcol2)+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td align="left">'+mytext((['Total Countries','国家总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(cou_cnts.length.toString(),fcol2)+tot_coun+'</td>');
+document.write('<td>&emsp;&emsp;</td>');
+document.write('<td colspan="3" align="left">'+mytext((['Bookmarks','观鸟链接('+mylink("stat.html",tooltip('英文','转为英文版(Switch to English Version)'),fcol1)+'网站)'])[cn_ind]+':',fcol1)+'</td></tr>');
+document.write('<tr></tr>');
+var i = 0;
+var j = 0;
+var k = 0;
+let txcol1,txcol2;
+if (cou_cnts.length>35) hz_cnts.length = 0;
+while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.length*2-1))){
+    document.write('<tr>');
+    if (i<loc_cnts.length){
+       txcol1 = (['red','orange','blue'])[Math.min(2,loc_cnts[i][1])];
+       txcol2 = ' style="color: '+txcol1+'">';
+       tmp_url = '';
+       ind = 0;
+       if (lurls[loc_cnts[i][0]].length>4){
+          if (lurls[loc_cnts[i][0]][4].match(/[\u3400-\u9FBF]/)||(!usechinese)||((lurls[loc_cnts[i][0]].length>5) && usechinese)){
+             tmp_url = lurls[loc_cnts[i][0]][Math.min(4+cn_ind,lurls[loc_cnts[i][0]].length-1)];
+          }
+       }
+       if (tmp_url.length>0){
+          tmp_url = getlocFlag(loc_cnts[i][0])+'<a href="'+tmp_url+'" target="'+loc_cnts[i][0]+'"'+txcol2+tooltip('<u>'+loc_cnts[i][0]+'</u>',getloctooltip(loc_cnts[i][0]))+'</a>';
+       }else {
+          tmp_url = getlocFlag(loc_cnts[i][0])+tooltip(loc_cnts[i][0],getloctooltip(loc_cnts[i][0]));
+       }
+       var loc_url = loc_cnts[i][1].toString();
+       if (loc_cnts[i][1]>0) loc_url = mylink('https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&loc='+loc_cnts[i][0],loc_url,txcol1,loc_cnts[i][0]);
+       document.write('<td align="left"'+txcol2+tmp_url+'</td><td align="right"'+txcol2+loc_url+'</td>');
+    }else{
+       document.write('<td></td><td></td>');
+    }
+    i++;
+    document.write('<td></td>');
+    if (j<cou_cnts.length){
+       tmp_url = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'"';
+       document.write('<td align="left">'+getFlag(cou_cnts[j][0])+tmp_url+'>'+cou_cnts[j][0]+'</a></td>');
+       document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+tmp_url+' style="text-decoration:none; color:blue;">'+cou_cnts[j][1].toString()+'</a></font></td>');
+    }else if((hz_cnts.length== 0) || (j>=cou_cnts.length+hz_cnts.length+2)){
+       document.write('<td></td><td></td>');
+    }else if(j==cou_cnts.length){
+       document.write('<td><small>&emsp;</small></td><td></td>');
+    }else if(j==cou_cnts.length+1){
+       document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
+    }else{
+       txcol2  = (['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])];
+       let pys = '';
+       for (var l=0;l<clen;l++){
+           if ((l==0)||(hz_cnts[j-cou_cnts.length-2][1]==hz_cnts[j-cou_cnts.length-1][1])){
+              if (l>0)j++;
+              pys = pys+mylink('https://ymqui.github.io/zhaopian/birds/showbird.html?order&hanzi='+hz_cnts[j-cou_cnts.length-2][0],hz_cnts[j-cou_cnts.length-2][0],txcol2,'hanzi');
+              if (j==hz_cnts.length+cou_cnts.length+1){break;}
+           }else{break;}
+       }
+       document.write('<td align="left"><font color="'+txcol2+'">'+pys+'</font></td><td align="right"><font color="'+txcol2+'">'+hz_cnts[j-cou_cnts.length-2][1].toString()+'</font></td>');
+    }
+    j++;
+    document.write('<td></td>');
+    if (k<(links.length*2-1)){
+       document.write('<td colspan="3" align="left">'+((k%2==0)?links[k/2]:'')+'</td>');   
+    }else{
+       document.write('<td></td><td></td><td>&emsp;&emsp;</td>'); 
+    }
+    k++;
+    document.write('</tr>');
+}
+document.write('</table>');
+//-->
+</script>
+</body>
+</html>
