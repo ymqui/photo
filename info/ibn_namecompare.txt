@@ -22,7 +22,6 @@ Fox Sparrow,					Red Fox Sparrow
 Black-crowned Palm-Tanager,			Black-crowned Tanager
 Yellow Warbler,					American Yellow Warbler
 Yellow-rumped Warbler,				Myrtle Warbler
-Common Redpoll,					Redpoll
 Red-crowned Parrot,				Red-crowned Amazon
 Lucifer Hummingbird,				Lucifer Sheartail
 Blue-throated Mountain-gem,			Blue-throated Mountaingem
