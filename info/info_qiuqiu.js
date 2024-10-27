@@ -405,6 +405,8 @@ function initAlbum(){
     this[1][i++]  = (["Watching Comet Tsuchinshan-ATLAS on Fallsmead Elementary School playground","在Fallsmead小学操场上观看紫金山-阿特拉斯彗星"])[cn_ind];
     this[0][i]    = "20241020_029_Bracelet";
     this[1][i++]  = (["Making a Rainbow Loom triple single bracelet","用橡皮筋编三重手链"])[cn_ind];
+    this[0][i]    = "20241026_033_WithGrandparents";
+    this[1][i++]  = (["So happy to see Grandpa and Grandma again, especially with so many toys","见到外公外婆好开心，特别是又带来好多玩具"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
