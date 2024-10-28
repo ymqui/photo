@@ -69,7 +69,7 @@ if (cellphone){
    clen   = 12;
 }
 var linkid = 0;
-var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('NiagaraFalls'),erare('California'),
     bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
     bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
     bookmark('https://dashboard.birdcast.info/region/US-MD-031',(['Birdcast Maryland','马里兰州鸟类迁徙预报'])[cn_ind],'cornell'),
@@ -108,6 +108,7 @@ function erare(name){
 	Nevada:		['35528','美国内华达州'],
 	NewJersey:	['35544','美国新泽西州'],
 	NewYork:	['35466','美国纽约州'],
+        NiagaraFalls:   ['35858','尼亚加拉瀑布'],
 	NorthCarolina:	['35561','美国北卡罗来纳州'],
 	Ohio:		['35533','美国俄亥俄州'],
 	Ontario:	['35610','加拿大安大略省'],
@@ -302,7 +303,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 let txcol1,txcol2;
-if (cou_cnts.length>30) hz_cnts.length = 0;
+if (cou_cnts.length>35) hz_cnts.length = 0;
 while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.length*2-1))){
     document.write('<tr>');
     if (i<loc_cnts.length){
@@ -332,11 +333,13 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
        tmp_url = '<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order&country='+cou_cnts[j][0]+'" target="'+cou_cnts[j][0]+'"';
        document.write('<td align="left">'+getFlag(cou_cnts[j][0])+tmp_url+'>'+cou_cnts[j][0]+'</a></td>');
        document.write('<td align="right"><font color="blue">'+(['&emsp;','&emsp;&emsp;'])[cn_ind]+tmp_url+' style="text-decoration:none; color:blue;">'+cou_cnts[j][1].toString()+'</a></font></td>');
-    }else if((j<cou_cnts.length+1)&&(hz_cnts.length>0)){
+    }else if((hz_cnts.length== 0) || (j>=cou_cnts.length+hz_cnts.length+2)){
+       document.write('<td></td><td></td>');
+    }else if(j==cou_cnts.length){
        document.write('<td><small>&emsp;</small></td><td></td>');
-    }else if((j<cou_cnts.length+2)&&(hz_cnts.length>0)){
+    }else if(j==cou_cnts.length+1){
        document.write('<td align="left">'+mytext((['Total '+mylink("stat.html?chinese",tooltip('Chinese','Switch to Chinese Version(转为中文版)'),fcol1)+' Hanzi','汉字总数'])[cn_ind]+':&emsp;',fcol1)+'</td><td align="right">'+mytext(tmp1.length.toString(),fcol2)+'</td>');
-    }else if((j<cou_cnts.length+hz_cnts.length+2)&&(hz_cnts.length>0)){
+    }else{
        txcol2  = (['red','orange','blue'])[Math.min(2,hz_cnts[j-cou_cnts.length-2][1])];
        let pys = '';
        for (var l=0;l<clen;l++){
@@ -347,8 +350,6 @@ while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.l
            }else{break;}
        }
        document.write('<td align="left"><font color="'+txcol2+'">'+pys+'</font></td><td align="right"><font color="'+txcol2+'">'+hz_cnts[j-cou_cnts.length-2][1].toString()+'</font></td>');
-    }else{
-       document.write('<td></td><td></td>');
     }
     j++;
     document.write('<td></td>');
