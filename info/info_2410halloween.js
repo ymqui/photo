@@ -29,35 +29,35 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "20241031_001_MrsSpaugh.JPG";
-        this[1][1] = "20241031_002_MrsWasser.JPG";
-        this[1][2] = "20241031_003_Gia&Nathan&Ema.JPG";
-        this[1][3] = "20241031_005_Nathan.JPG";
-        this[1][4] = "20241031_006_MsMorris.JPG";
-        this[1][5] = "20241031_014_.JPG";
-        this[1][6] = "20241031_016_Nathan.JPG";
-        this[1][7] = "20241031_032_.JPG";
-        this[1][8] = "20241031_033_.JPG";
-        this[1][9] = "20241031_036_.JPG";
-        this[1][10] = "20241031_047_Nathan.JPG";
-        this[1][11] = "20241031_048_Nathan.JPG";
-        this[1][12] = "20241031_056_Nathan.JPG";
-        this[1][13] = "20241031_066_.JPG";
+        this[1][0] = "Pricipal Mrs. Spaugh leads the parade.";
+        this[1][1] = "Mrs. Wasser and the first grade kids.";
+        this[1][2] = "Nathan and his classmates Gia and Ema.";
+        this[1][3] = "Nathan wearing the Pikachu costume in the parade.";
+        this[1][4] = "Ms Morris and the first grade kids.";
+        this[1][5] = "Nathan in the Halloween party.";
+        this[1][6] = "Nathan in the Halloween party.";
+        this[1][7] = "Mrs. Wasser helping Nathan do a volcano experiment.";
+        this[1][8] = "Mrs. Wasser helping Nathan do a volcano experiment.";
+        this[1][9] = "Nathan decorating a pumpkin.";
+        this[1][10] = "Nathan holding his pumpkin.";
+        this[1][11] = "Nathan holding his pumpkin.";
+        this[1][12] = "Nathan holding his hand shaped popcorn bag.";
+        this[1][13] = "Playing bingo games with Mrs. Wasser.";
     }else{
-        this[1][0] = "20241031_001_MrsSpaugh.JPG";
-        this[1][1] = "20241031_002_MrsWasser.JPG";
-        this[1][2] = "20241031_003_Gia&Nathan&Ema.JPG";
-        this[1][3] = "20241031_005_Nathan.JPG";
-        this[1][4] = "20241031_006_MsMorris.JPG";
-        this[1][5] = "20241031_014_.JPG";
-        this[1][6] = "20241031_016_Nathan.JPG";
-        this[1][7] = "20241031_032_.JPG";
-        this[1][8] = "20241031_033_.JPG";
-        this[1][9] = "20241031_036_.JPG";
-        this[1][10] = "20241031_047_Nathan.JPG";
-        this[1][11] = "20241031_048_Nathan.JPG";
-        this[1][12] = "20241031_056_Nathan.JPG";
-        this[1][13] = "20241031_066_.JPG";
+        this[1][0] = "Pricipal Mrs. Spaugh leads the parade.";
+        this[1][1] = "Mrs. Wasser and the first grade kids.";
+        this[1][2] = "Nathan and his classmates Gia and Ema.";
+        this[1][3] = "Nathan wearing the Pikachu costume in the parade.";
+        this[1][4] = "Ms Morris and the first grade kids.";
+        this[1][5] = "Nathan in the Halloween party.";
+        this[1][6] = "Nathan in the Halloween party.";
+        this[1][7] = "Mrs. Wasser helping Nathan do a volcano experiment.";
+        this[1][8] = "Mrs. Wasser helping Nathan do a volcano experiment.";
+        this[1][9] = "Nathan decorating a pumpkin.";
+        this[1][10] = "Nathan holding his pumpkin.";
+        this[1][11] = "Nathan holding his pumpkin.";
+        this[1][12] = "Nathan holding his hand shaped popcorn bag.";
+        this[1][13] = "Playing bingo games with Mrs. Wasser.";
     }
 }
  
