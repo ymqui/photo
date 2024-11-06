@@ -31,7 +31,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2403denver","3/2024 Spring Break in Denver","3/2024 在丹佛度春假"],["2405outerbank","5/2024 Memorial Day on Outer Banks","5/2024 北卡外滩纪念日度假"],
                   ["2020nist","11/2020-8/2024 NIST Child Care Center","11/2020-8/2024 NIST托儿所"],["2023karate","9/2023-8/2024 Kicks Karate","9/2023-8/2024 Kicks Karate空手道"],
                   ["2408france","8/2024 Vacationing in France","8/2024 在法国度假"],["2409renfest","9/2024 Maryland Renaissance Festival","9/2024 马里兰文艺复兴节"],
-                  ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],
+                  ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],["2410halloween","10/2024 Halloween Parade & Party","10/2024 万圣节游行和联欢"],
                   ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -407,6 +407,8 @@ function initAlbum(){
     this[1][i++]  = (["Making a Rainbow Loom triple single bracelet","用橡皮筋编三重手链"])[cn_ind];
     this[0][i]    = "20241026_033_WithGrandparents";
     this[1][i++]  = (["So happy to see Grandpa and Grandma again, especially with so many toys","见到外公外婆好开心，特别是又带来好多玩具"])[cn_ind];
+    this[0][i]    = ["2410halloween/2410halloween_4","20241031"];
+    this[1][i++]  = pagelink("2410halloween",(["Fallsmead Elementary School Halloween parade","Fallsmead小学万圣节游行"])[cn_ind]);
     this[0][i]    = "20241031_035_Birthday";
     this[1][i++]  = (["Happy 7th birthday!","七岁生日快乐！"])[cn_ind];
 

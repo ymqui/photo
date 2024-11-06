@@ -11,7 +11,7 @@ var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["2310parade","10/2023 Halloween Parade","10/2023 万圣节游行"]];
+var pagelist   = [["2310parade","10/2023 Halloween Parade","10/2023 万圣节游行"],["2410halloween","10/2024 Halloween Parade & Party","10/2024 万圣节游行和联欢会"]];
  
 document.title = title;
  
@@ -80,12 +80,14 @@ function initAlbum(){
     this[1][i++]  = (["Mrs. Wasser telling parents about the 1st grade science curriculum at the back to school night","Wasser老师在返校之夜向家长讲述一年级的科学课程规划"])[cn_ind];
     this[0][i]    = "20241014";
     this[1][i++]  = (["Doctor Nathan holding his badge and a syringe pen","球球在学校当医生"])[cn_ind];
+    this[0][i]    = ["2410halloween/2410halloween_4","2410halloween/2410halloween_13","20241031"];
+    this[1][i++]  = pagelink("2410halloween",(["Halloween parade and party","万圣节游行和联欢会"])[cn_ind]);
     this[0][i]    = "20241031_1";
-    this[1][i++]  = (["Fire evacuation","火警疏散，大家在操场集合"])[cn_ind];
+    this[1][i++]  = (["Fire evacuation during the Halloween party","火警疏散，大家在操场集合"])[cn_ind];
     this[0][i]    = "20241031_2";
     this[1][i++]  = (["Nathan is in the Kindness Garden","球球上了友善花园榜"])[cn_ind];
     this[0][i]    = "20241031_3";
-    this[1][i++]  = (["Getting ready to go home","放学了，准备回家"])[cn_ind];
+    this[1][i++]  = (["Getting ready to go to the afterschool group music class","放学了，准备去参加课后音乐课"])[cn_ind];
 
     adddate(this);
 }
