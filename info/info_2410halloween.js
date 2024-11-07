@@ -44,15 +44,15 @@ function initAlbum(){
         this[1][12] = "球球拿着他的手形爆米花袋。";
         this[1][13] = "和Wasser老师一起玩宾果游戏。";
     }else{
-        this[1][0] = "Pricipal Mrs. Spaugh leads the parade.";
+        this[1][0] = "Principal Mrs. Spaugh leads the parade.";
         this[1][1] = "Mrs. Wasser and the first grade kids.";
         this[1][2] = "Nathan and his classmates Gia and Ema.";
         this[1][3] = "Nathan wearing the Pikachu costume in the parade.";
         this[1][4] = "Ms Morris and the first grade kids.";
         this[1][5] = "Nathan in the Halloween party.";
         this[1][6] = "Nathan in the Halloween party.";
-        this[1][7] = "Mrs. Wasser helping Nathan make a witches brew.";
-        this[1][8] = "Mrs. Wasser helping Nathan make a witches brew.";
+        this[1][7] = "Mrs. Wasser helping Nathan make a witches' brew.";
+        this[1][8] = "Mrs. Wasser helping Nathan make a witches' brew.";
         this[1][9] = "Nathan decorating a pumpkin.";
         this[1][10] = "Nathan holding his pumpkin.";
         this[1][11] = "Nathan holding his pumpkin.";
