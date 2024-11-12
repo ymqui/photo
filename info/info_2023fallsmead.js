@@ -88,6 +88,8 @@ function initAlbum(){
     this[1][i++]  = (["Nathan is in the Kindness Garden","球球上了友善花园榜"])[cn_ind];
     this[0][i]    = "20241031_3";
     this[1][i++]  = (["Getting ready to go to the afterschool group music class","放学了，准备去参加课后音乐课"])[cn_ind];
+    this[0][i]    = "20241111";
+    this[1][i++]  = (["Math class by Mrs. Wasser","听Wasser老师上数学课"])[cn_ind];
 
     adddate(this);
 }

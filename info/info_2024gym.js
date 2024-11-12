@@ -36,6 +36,8 @@ function initAlbum(){
     this[1][i++]  = (["Practicing handstand","练习倒立"])[cn_ind];
     this[0][i]    = "20241027";
     this[1][i++]  = (["Practicing backbend","练习后弯"])[cn_ind];
+    this[0][i]    = ["20241110_1","20241110_2"];
+    this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
 
     adddate(this);
 }
