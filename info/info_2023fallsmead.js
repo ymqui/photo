@@ -92,6 +92,8 @@ function initAlbum(){
     this[1][i++]  = (["Math class by Mrs. Wasser","听Wasser老师上数学课"])[cn_ind];
     this[0][i]    = "20241202";
     this[1][i++]  = (["Preparing a poster about Chinese New Year for the family culture project","为学校做关于春节的海报"])[cn_ind];
+    this[0][i]    = "20241207";
+    this[1][i++]  = (["Celebrating Brandon's 7th birthday","庆祝同学Brandon的7岁生日"])[cn_ind];
 
     adddate(this);
 }
