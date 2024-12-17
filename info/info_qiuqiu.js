@@ -413,6 +413,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2411niagara",(["Taking a boat tour of the Niagara Falls on the Maid of the Mist","乘坐雾中少女号游船游览尼亚加拉大瀑布"])[cn_ind]);
     this[0][i]    = "20241108_040_Crochet";
     this[1][i++]  = (["Making a Positive Potato crochet","用钩针编织趣味马铃薯"])[cn_ind];
+    this[0][i]    = ["20241216_041_Dumpling","20241216_042_Dumpling","20241216_044_Dumpling","20241216_047_Dumpling"];
+    this[1][i++]  = (["Making dumplings with Grandpa","和外公一起包水饺"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
