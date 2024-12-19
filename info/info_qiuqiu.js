@@ -418,10 +418,10 @@ function initAlbum(){
 
     if (/birthday/.test(window.location.search.substring(1))) {
        this[0][0] = "20171031_009_AfterBirth";
-       this[1][0] = (["Happy 0th birthday!","出生快乐！"])[cn_ind];
+       this[1][0] = (["Happy birthday!","生日快乐！"])[cn_ind];
        var n_id = 0;
        for (var i=0;i<this[1].length;i++){
-           if (this[1][i].indexOf((["birthday!","快乐！"])[cn_ind])!=-1){
+           if (this[1][i].indexOf((["birthday!","生日快乐！"])[cn_ind])!=-1){
               this[0].splice(n_id,1,this[0][i]);
               this[1].splice(n_id++,1,this[1][i]);
            }
