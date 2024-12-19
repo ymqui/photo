@@ -417,11 +417,11 @@ function initAlbum(){
     this[1][i++]  = (["Making dumplings with Grandpa","和外公一起包水饺"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
-       this[0][0] = ["20171031_009_AfterBirth","20171031_011_AfterBirth"];
-       this[1][0] = (["In the nursery after birth, 8 lb 12 oz, and 20 inches long","宝宝出生了，7斤9两重(8磅12盎司)，51厘米长"])[cn_ind];
-       var n_id = 1;
+       this[0][0] = "20171031_009_AfterBirth";
+       this[1][0] = (["Happy 0th birthday!","出生快乐！"])[cn_ind];
+       var n_id = 0;
        for (var i=0;i<this[1].length;i++){
-           if (this[1][i].indexOf((["birthday!","岁生日快乐！"])[cn_ind])!=-1){
+           if (this[1][i].indexOf((["birthday!","快乐！"])[cn_ind])!=-1){
               this[0].splice(n_id,1,this[0][i]);
               this[1].splice(n_id++,1,this[1][i]);
            }
