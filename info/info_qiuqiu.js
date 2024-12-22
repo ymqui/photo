@@ -415,13 +415,13 @@ function initAlbum(){
     this[1][i++]  = (["Making a Positive Potato crochet","用钩针编织趣味马铃薯"])[cn_ind];
     this[0][i]    = ["20241216_041_Dumpling","20241216_042_Dumpling","20241216_044_Dumpling","20241216_047_Dumpling"];
     this[1][i++]  = (["Making dumplings with Grandpa","和外公一起包水饺"])[cn_ind];
+    this[0][i]    = ["20241221_049_Dumpling","20241221_050_Dumpling"];
+    this[1][i++]  = (["Making dumplings with Annelise","和朋友Annelise一起包水饺"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
-       this[0][0] = "20171031_009_AfterBirth";
-       this[1][0] = (["Happy birthday!","生日快乐！"])[cn_ind];
        var n_id = 0;
        for (var i=0;i<this[1].length;i++){
-           if (this[1][i].indexOf((["birthday!","生日快乐！"])[cn_ind])!=-1){
+           if (this[1][i].indexOf((["birthday!","岁生日快乐！"])[cn_ind])!=-1){
               this[0].splice(n_id,1,this[0][i]);
               this[1].splice(n_id++,1,this[1][i]);
            }
