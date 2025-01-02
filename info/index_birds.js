@@ -301,6 +301,11 @@
   info[2][j] = 2;
   info[3][j] = "8/2024 France Birding";
   info[4][j++] = "Birding in France (France).";
+  info[0][j] = "2412flbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "12/2024 Florida Birding";
+  info[4][j++] = "Birding in Florida (Florida).";
 
   if(window.usechinese){
      j = 0;
@@ -420,6 +425,8 @@
      info[4][j++] = "在丹佛地区观鸟(科罗拉多州)。";
      info[3][j]   = "8/2024 法国观鸟";
      info[4][j++] = "在法国观鸟(法国)。";
+     info[3][j]   = "12/2024 佛罗里达观鸟";
+     info[4][j++] = "在佛罗里达观鸟(佛罗里达州)。";
   } 
 
   //special touch
@@ -436,7 +443,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2024-09-01T12:00:00");
+  var modDat1 = new Date("2025-01-01T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
