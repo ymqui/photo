@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-01-02",20);
+var modTim = modTime("2025-01-02",10);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -854,7 +854,7 @@ var birds = myBirds([
     ["19-05-12T09:21","MIMIDAE ","Curve-billed Thrasher","弯嘴嘲鸫","Toxostoma curvirostre",[["1905mxbird",[5,33]],["2208azbird",40]],["mxunam","S163747032","mxcity","S163775414","Adult and juvenile, Alameda Central","阿拉米达中央公园","azazaz","S116569566","Juvenile, Paton Center for Hummingbirds, Santa Cruz County","圣克鲁斯郡佩顿蜂鸟中心"]],
     ["15-01-08T12:54","MIMIDAE ","Pearly-eyed Thrasher","珠眼嘲鸫","Margarops fuscatus",["1501prbird",49],["prsanj","S164852600"],"peethr1"],
     ["23-12-24T13:52","STURNIDA","Crested Myna","八哥","Acridotheres cristatellus",["2312cnbird",81],["cnzjzj","S157756774","Nianbadu, Jiangshan","江山市廿八都"],"cremyn"],
-    ["24-12-28T08:48","STURNIDA","Common Myna","家八哥","Acridotheres tristis",["2412flbird",11],["flflfl","S206943901",gmap("Biscayne Drive, Homestead",25.4994,-80.412),"霍姆斯特德市比斯坎大道"],"commyn"],
+    ["24-12-28T08:48","STURNIDA","Common Myna","家八哥","Acridotheres tristis",["2412flbird",11],["flflfl","S206943901","Biscayne Drive, Homestead","霍姆斯特德市比斯坎大道"],"commyn"],
     ["16-01-04T08:04","STURNIDA","Red-billed Starling","丝光椋鸟","Spodiopsar sericeus",["1601china",9],["cnjsxp","S164336237","Female"],"rebsta1"],
     ["16-01-03T09:46","STURNIDA","White-cheeked Starling","灰椋鸟","Spodiopsar cineraceus",[["1601china",3],["2312cnbird",133]],["cnbjbj","S164335836","Jingshan Park","景山公园","jphaap","S157775175"],"whcsta1"],
     ["06-03-18T08:21","STURNIDA","European Starling","紫翅椋鸟","Sturnus vulgaris",["170506_036",["1407mibird",11],["2306isbird",87]],["nycenp","S164193135","arb","S167637584","Juvenile, Mackinac Island, Michigan, USA","美国密西根州麦基诺岛","isisis","S142515181","Tjörnin Lake, Reykjavík","雷克雅未克托宁湖"]],
