@@ -186,7 +186,6 @@
 //  ["25-00-00T00:00","ESTRILDI","Tricolored Munia","黑头文鸟","Lonchura malacca",["2412prbird",],["prprpr",""],"trimun"],
 //  ["25-00-00T00:00","ESTRILDI","Orange-cheeked Waxbill","橙颊梅花雀","Estrilda melpoda",["2412prbird",],["prprpr",""],"orcwax"],
 //  ["25-00-00T00:00","VIDUIDAE","Village Indigobird","靛蓝维达雀","Vidua chalybeata",[],["arb",""],"vilind"],
-//  ["25-00-00T00:00","PRUNELLI","Alpine Accentor","领岩鹨","Prunella collaris",["2408frbird"],["frcolc",""],"alpacc1"],
 //  ["25-00-00T00:00","PRUNELLI","Alpine Accentor","领岩鹨","Prunella collaris",[],["arb",""],"alpacc1"],
 //  ["25-00-00T00:00","PRUNELLI","Siberian Accentor","棕眉山岩鹨","Prunella montanella",["2312cnbird",],["cnbjbg",""],"sibacc"],
 //  ["25-00-00T00:00","MOTACILL","Western Yellow Wagtail","西黄鹡鸰","Motacilla flava",["2408frbird",],["frpopg",""],"eaywag1"],
