@@ -32,6 +32,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2020nist","11/2020-8/2024 NIST Child Care Center","11/2020-8/2024 NIST托儿所"],["2023karate","9/2023-8/2024 Kicks Karate","9/2023-8/2024 Kicks Karate空手道"],
                   ["2408france","8/2024 Vacationing in France","8/2024 在法国度假"],["2409renfest","9/2024 Maryland Renaissance Festival","9/2024 马里兰文艺复兴节"],
                   ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],["2411niagara","11/2024 Niagara Falls","11/2024 尼亚加拉大瀑布"],
+                  ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],
                   ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -417,6 +418,16 @@ function initAlbum(){
     this[1][i++]  = (["Making dumplings with Grandpa","和外公一起包水饺"])[cn_ind];
     this[0][i]    = ["20241221_049_Dumpling","20241221_050_Dumpling"];
     this[1][i++]  = (["Making dumplings with Annelise","和朋友Annelise一起包水饺"])[cn_ind];
+    this[0][i]    = ["2412florida/2412florida_1","20241225"];
+    this[1][i++]  = (["Opening Christmas presents in the hotel room during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","去佛罗里达度假")+"路上在旅馆房间里打开圣诞礼物"])[cn_ind];
+    this[0][i]    = ["2412florida/2412florida_9","20241226"];
+    this[1][i++]  = (["Meeting a mermaid in Weeki Wachee Springs State Park during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","在佛罗里达度假")+"看完维基瓦治泉州立公园的美人鱼表演后和美人鱼合影"])[cn_ind];
+    this[0][i]    = ["2412florida/2412florida_10","2412florida/2412florida_12","20241226"];
+    this[1][i++]  = (["Watching manatees in the Tampa Electric's Manatee Viewing Center during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","在佛罗里达度假")+"时在坦帕电力公司的海牛观赏中心看海牛"])[cn_ind];
+    this[0][i]    = ["2412florida/2412florida_15","20241229"];
+    this[1][i++]  = (["Visiting Hemingway's Key West home in heavy rain during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","在佛罗里达度假")+"时冒着大雨参观海明威在西礁岛的故居"])[cn_ind];
+    this[0][i]    = ["2412florida/2412florida_26","20241230"];
+    this[1][i++]  = (["Visiting the river front of Savannah with Grandpa and Grandma during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","在佛罗里达度假")+"时和爷爷奶奶一起逛萨凡纳的河滨街道"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
