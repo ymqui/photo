@@ -86,8 +86,8 @@ function initAlbum(){
         this[1][23] = "Visiting the river front street of Savannah.";
         this[1][24] = "Visiting the river front street of Savannah.";
         this[1][25] = "Visiting the river front street of Savannah.";
-        this[1][26] = "Visiting a market in the river front street of Savannah.";
-        this[1][27] = "Visiting a market in the river front street of Savannah.";
+        this[1][26] = "Visiting a river front street market in Savannah.";
+        this[1][27] = "Visiting a river front street market in Savannah.";
         this[1][28] = "Dinner at a river front restaurant in Savannah.";
         this[1][29] = "Dinner at a river front restaurant in Savannah.";
     }
