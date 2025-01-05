@@ -229,7 +229,7 @@ var birds = myBirds([
     ["15-01-03T06:48","COLUMBID","African Collared-Dove","粉头斑鸠","Streptopelia roseogrisea",["1501prbird",12],["prprpr","S164769894","Ponce","蓬塞市"]],
     ["16-01-03T10:00","COLUMBID","Spotted Dove","珠颈斑鸠","Spilopelia chinensis",["1601china",7],["cnbjbj","S164335836","Jingshan Park","景山公园"],"spodov"],
     ["13-12-25T14:41","COLUMBID","Inca Dove","印加地鸠","Columbina inca",[["1312bbbird",2],["1812crbird",8],["1905mxbird",34]],["txbbnp","S167799354","crsanj","S163842934","La Sabana Park","萨瓦纳公园","mxcity","S163775414","Alameda Central","阿拉米达中央公园"]],
-    ["15-01-02T09:54","COLUMBID","Common Ground Dove","地鸠","Columbina passerina",[["1501prbird",[8,19]],["2412flbird",7]],["prprpr","S164769596","Male, Rincón","林孔市","flflfl","S206739280","Female, Shamrock Park & Nature Center, Sarasota County","萨拉索塔郡三叶草公园"]],
+    ["15-01-02T09:54","COLUMBID","Common Ground Dove","地鸠","Columbina passerina",[["1501prbird",8],["2412flbird",7]],["prprpr","S164769596","Male, Rincón","林孔市","flflfl","S206739280","Female, Shamrock Park & Nature Center, Sarasota County","萨拉索塔郡三叶草公园"]],
     ["23-01-23T15:05","COLUMBID","Ruddy Ground Dove","红地鸠","Columbina talpacoti",["2301pabird",[65,133]],["pacasc","S126834645","Male","pacasc","S126981122","Female"],"rugdov"],
     ["18-12-07T08:02","COLUMBID","White-tipped Dove","白额棕翅鸠","Leptotila verreauxi",["1812crbird",86],["crarol","S163932247"]],
     ["06-04-29T08:07","COLUMBID","Mourning Dove","哀鸽","Zenaida macroura",["160130_006",["2208cabird",1]],["mdbhrp","S164358911","arb","S117602480","Van Wagner's Beach, Hamilton, Canada","加拿大汉密尔顿市范瓦格纳湖滩"]],
