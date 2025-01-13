@@ -44,6 +44,8 @@ function initAlbum(){
     this[1][i++]  = (["Practicing backbend","练习后弯"])[cn_ind];
     this[0][i]    = ["20241222_1","20241222_2","20241222_3"];
     this[1][i++]  = ([urllink((url="https://youtu.be/K46t6H8Fltc"),"Taking gymnastics class at the Little Gym (YouTube video)"),urllink(url,"在Little Gym练习体操(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["20250112_1","20250112_2","20250112_3"];
+    this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
 
     adddate(this);
 }
