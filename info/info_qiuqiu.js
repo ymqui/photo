@@ -432,6 +432,10 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the river front of Savannah with Grandpa and Grandma during "+pagelink("2412florida","the road trip to Florida"),pagelink("2412florida","在佛罗里达度假")+"时和外公外婆一起逛萨凡纳的河滨街道"])[cn_ind];
     this[0][i]    = ["20250106_001_Snowman","20250106_004_Snowman","20250106_005_Snowman"];
     this[1][i++]  = (["Making a snowman on the first snow day of the year","今年的第一个大雪天，不用上学，在家堆雪人"])[cn_ind];
+    this[0][i]    = ["20250127","20250128_1"];
+    this[1][i++]  = (["Staying home from school due to fever","因发烧而呆在家里不上学"])[cn_ind];
+    this[0][i]    = "20250128_2";
+    this[1][i++]  = (["Receiving a Hong Bao from grandpa for the Chinese New Year","过年了，外公给球球红包"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
