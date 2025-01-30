@@ -433,7 +433,7 @@ function initAlbum(){
     this[0][i]    = ["20250106_001_Snowman","20250106_004_Snowman","20250106_005_Snowman"];
     this[1][i++]  = (["Making a snowman on the first snow day of the year","今年的第一个大雪天，不用上学，在家堆雪人"])[cn_ind];
     this[0][i]    = ["20250127","20250128_1"];
-    this[1][i++]  = ([[(tmp1="Staying home from school due to fever"),tmp1],[(tmp1="因发烧而呆在家里不上学"),tmp1]])[cn_ind];
+    this[1][i++]  = ([[(tmp1="Staying home from school due to fever"),tmp1],[(tmp1="因发烧而呆在家里没去上学"),tmp1]])[cn_ind];
     this[0][i]    = "20250128_2";
     this[1][i++]  = (["Receiving a Hong Bao from grandpa for the Chinese New Year","过年了，外公给球球红包"])[cn_ind];
 
