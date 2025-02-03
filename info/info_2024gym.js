@@ -48,6 +48,8 @@ function initAlbum(){
     this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
     this[0][i]    = ["20250119_1","20250119_2"];
     this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
+    this[0][i]    = ["20250202_1","20250202_2"];
+    this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
 
     adddate(this);
 }
