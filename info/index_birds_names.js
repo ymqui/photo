@@ -595,7 +595,7 @@ var birds = myBirds([
     ["18-12-04T13:59","THAMNOPH","Bicolored Antbird","双色蚁鸟","Gymnopithys bicolor",["1812crbird",48],["crarol","S163868074"],"bicant2"],
     ["18-12-04T13:58","THAMNOPH","Spotted Antbird","点斑蚁鸟","Hylophylax naevioides",[["1812crbird",[46,45]],["2301pabird",47]],["crarol","S163868074","Male","crarol","S163868074","Female","papipe","S126820118","Male"],"spoant1"],
     ["23-01-23T08:52","THAMNOPH","Chestnut-backed Antbird","栗背蚁鸟","Poliocrania exsul",["2301pabird",36],["papipe","S126820118","Male"],"chbant1"],
-//* ["25-00-00T00:00","FORMICAR","Black-faced Antthrush","黑脸蚁鸫","Formicarius analis",["2504gtbird",],["gtmgtm",""],"blfant1"],
+//  ["25-00-00T00:00","FORMICAR","Mayan Antthrush","玛雅蚁鸫","Formicarius moniliger",["2504gtbird",],["gtmgtm",""],"blfant2"],
     ["23-01-23T08:35","GRALLARI","Streak-chested Antpitta","纹胸蚁鸫","Hylopezus perspicillatus",["2301pabird",[31,32]],["papipe","S126820118"],"stcant2"],
 //  ["25-00-00T00:00","CONOPOPH","Chestnut-belted Gnateater","栗带食蚊鸟","Conopophaga aurita",[],["arb",""],"chbgna1"],
 //  ["25-00-00T00:00","RHINOCRY","Chucao Tapaculo","智利窜鸟","Scelorchilus rubecula",[],["arb",""],"chutap1"],
