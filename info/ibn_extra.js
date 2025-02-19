@@ -177,7 +177,7 @@
 //  ["25-00-00T00:00","COTINGID","Andean Cock-of-the-rock","安第斯冠伞鸟","Rupicola peruvianus",[],["mdbhrp","1/2023,"],"andcot1"],
 //  ["25-00-00T00:00","PIPRIDAE","White-collared Manakin","白头娇鹟","Manacus candei",["2504gtbird",],["gtmgtm",""],"whcman1"],
 //  ["25-00-00T00:00","PIPRIDAE","Red-capped Manakin","红顶娇鹟","Ceratopipra mentalis",["2504gtbird",],["gtmgtm",""],"recman1"],
-//  ["25-00-00T00:00","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",["2504gtbird",],["gtmgtm","","azazaz","8/2022,S116573010","Nest, "+hotspot("L129051","Patagonia Roadside Rest Area, Santa Cruz County"),"圣克鲁斯郡巴塔哥尼亚路边休息站"],"rotbec"],
+//  ["25-00-00T00:00","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",[["2504gtbird",],["2208azbird",64]],["gtmgtm","","azazaz","8/2022,S116573010","Nest, "+hotspot("L129051","Patagonia Roadside Rest Area, Santa Cruz County"),"圣克鲁斯郡巴塔哥尼亚路边休息站"],"rotbec"],
 //  ["25-00-00T00:00","TITYRIDA","Black-crowned Tityra","黑顶蒂泰霸鹟","Tityra inquisitor",["2504gtbird",],["gtmgtm",""],"blctit1"],
 //  ["25-00-00T00:00","TITYRIDA","Northern Schiffornis","北希夫霸鹟","Schiffornis veraepacis",["2504gtbird",],["gtmgtm",""],"thlsch2"],
 //  ["25-00-00T00:00","TITYRIDA","Tropical Royal Flycatcher","皇霸鹟","Onychorhynchus coronatus",["2504gtbird",],["gtmgtm",""],"royfly1"],
