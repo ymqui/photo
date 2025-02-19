@@ -20,6 +20,7 @@
 //  ["25-00-00T00:00","PHASIANI","Chinese Bamboo Partridge","灰胸竹鸡","Bambusicola thoracicus",["2312cnbird",],["cnhzbg",""],"chbpar3"],
 //  ["25-00-00T00:00","PHASIANI","Chukar","石鸡","Alectoris chukar",["1412mckee-beshers",6],["mdmwma","1/2023,","A released bird","一只释放鸟"]],
 //  ["25-00-00T00:00","PHASIANI","Rock Partridge","欧石鸡","Alectoris graeca",["2408frbird",],["frcolc",""],"rocpar2"],
+//  ["25-00-00T00:00","CAPRIMUL","Common Pauraque","帕拉夜鹰","Nyctidromus albicollis",["2504gtbird",],["gtmgtm",""]],
 //  ["25-00-00T00:00","CAPRIMUL","Chuck-will's-widow","卡氏夜鹰","Antrostomus carolinensis",[],["scpitt","1/2023,"]],
 //  ["25-00-00T00:00","CAPRIMUL","Puerto Rican Nightjar","波多黎各夜鹰","Antrostomus noctitherus",["2412prbird",],["prprpr",""],"purnig1"],
 //  ["25-00-00T00:00","APODIDAE","Antillean Palm Swift","西印棕雨燕","Tachornis phoenicobia",["2412flbird",],["flflfl",""],"anpswi"],
