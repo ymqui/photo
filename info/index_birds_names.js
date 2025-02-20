@@ -4,7 +4,6 @@ var modTim = modTime("2025-01-02",10);
 
 //location urls
 var lurls = {arb:["","","",""],
-    aucass: ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
     azazaz: ["Arizona","USA","亚利桑那州","美国"],
     azmcct: ["Madera Canyon Carrie Nation Trail","Santa Cruz County, Arizona, USA","马德拉峡谷嘉莉国家山道","美国亚利桑那州圣克鲁斯郡",hotspot("L2413068")],
     azsndm: ["Arizona-Sonora Desert Museum","Tucson, Arizona, USA","亚利桑那索诺拉沙漠博物馆","美国亚利桑那州图森市",hotspot("L128879"),baike("亚利桑那索诺兰沙漠博物馆")],
@@ -38,7 +37,9 @@ var lurls = {arb:["","","",""],
     frpaca: ["Bouches-du-Rhône, Provence-Alpes-Côte d'Azur","France","普罗旺斯-阿尔卑斯-蓝色海岸大区罗纳河口省","法国"],
     frpopg: ["Parc Ornithologique du Pont de Gau","Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","蓬德高鸟类公园","法国普罗旺斯-阿尔卑斯-蓝色海岸大区罗纳河口省","https://www.parcornithologique.com/en/welcome.html"],
     frrncc: ["Réserve Naturelle des Coussouls de Crau","Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France","库苏尔斯德克劳自然保护区","法国普罗旺斯-阿尔卑斯-蓝色海岸大区罗纳河口省","https://www.orniverse.com/site/998/rn-des-coussouls-de-crau"],
+    gtfelp: ["Finca El Pilar","Antigua Guatemala, Sacatepéquez, Guatemala","埃尔皮拉尔庄园","危地马拉萨卡特佩克斯省安提瓜危地马拉市","https://www.cayaya-birding.com/pilar.htm"],
     gtmgtm: ["","Guatemala","","危地马拉"],
+    gttknp: ["Tikal National Park","Petén, Guatemala","蒂卡尔国家公园","危地马拉佩滕省","https://www.cayaya-birding.com/Tikal.htm",baike("蒂卡尔国家公园")],
     islisl: ["","Iceland","","冰岛"],
     jphaap: ["Tama River Mouth at Haneda Airport","Tokyo, Japan","羽田机场多摩川河口","日本东京"],
     mamama: ["Massachusetts","USA","马萨诸塞州","美国"],

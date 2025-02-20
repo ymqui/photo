@@ -1,3 +1,4 @@
+//    aucass: ["Cassowary House","Kuranda, Queensland, Australia","鹤鸵屋","澳大利亚昆士兰州库兰达","https://www.cassowary-house.com.au/"],
 //* ["25-00-00T00:00","TINAMIDA","Little Tinamou","小穴䳍","Crypturellus soui",["2504gtbird",],["gtmgtm",""],"littin1"],
 //* ["25-00-00T00:00","TINAMIDA","Thicket Tinamou","棕穴䳍","Crypturellus cinnamomeus",["2504gtbird",],["gtmgtm",""],"thitin1"],
 //  ["25-00-00T00:00","CASUARII","Emu","鸸鹋","Dromaius novaehollandiae",[],["mdbhrp","1/2023,"],"emu1"],
