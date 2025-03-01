@@ -584,7 +584,7 @@ var birds = myBirds([
     ["23-01-23T10:16","FURNARII","Black-striped Woodcreeper","黑纹䴕雀","Xiphorhynchus lachrymosus",["2301pabird",[0,50]],["papipe","S126820118"],"blswoo1"],
     ["18-12-06T09:38","FURNARII","Spotted Woodcreeper","点斑䴕雀","Xiphorhynchus erythropygius",["1812crbird",78],["crarol","S163930913"],"spowoo1"],
     ["18-12-06T08:12","FURNARII","Streak-headed Woodcreeper","纹头䴕雀","Lepidocolaptes souleyetii",["1812crbird",74],["crarol","S163930913"],"sthwoo1"],
-    ["18-12-05T10:14","FURNARII","Northern Plain Xenops","北纯色翘嘴雀","Xenops mexicanus",[["1812crbird",60],["2301pabird",28]],["crarol","S163930178","papipe","S126820118"],"plaxen1"],
+    ["18-12-05T10:14","FURNARII","Northern Plain Xenops","北纯色翘嘴雀","Xenops mexicanus",[["1812crbird",60],["2301pabird",28]],["crarol","S163930178","papipe","S126820118"],"plaxen2"],
     ["23-01-23T07:36","THAMNOPH","Dot-winged Antwren","斑翅蚁鹩","Microrhopias quixensis",["2301pabird",[22,21]],["papipe","S126820118","Male","papipe","S126820118","Female"],"dowant1"],
     ["23-01-23T08:40","THAMNOPH","Checker-throated Stipplethroat","格喉蚁鹩","Epinecrophylla fulviventris",["2301pabird",[40,34]],["papipe","S126820118","Male","papipe","S126820118","Female"],"chtant1"],
     ["23-01-23T09:13","THAMNOPH","Moustached Antwren","须蚁鹩","Myrmotherula ignota",["2301pabird",38],["papipe","S126820118"],"mouant"],
