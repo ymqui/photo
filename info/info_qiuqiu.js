@@ -436,6 +436,14 @@ function initAlbum(){
     this[1][i++]  = ([[(tmp1="Staying home from school due to fever"),tmp1],[(tmp1="因发烧而呆在家里没去上学"),tmp1]])[cn_ind];
     this[0][i]    = "20250128_2";
     this[1][i++]  = (["Receiving a Hong Bao from grandpa for the Chinese New Year","过年了，外公给球球红包"])[cn_ind];
+    this[0][i]    = "20250307_Icecream";
+    this[1][i++]  = (["Enjoying an ice cream","吃冰淇淋"])[cn_ind];
+    this[0][i]    = "20250311_Walk";
+    this[1][i++]  = (["Taking a walk on a sunny afternoon with Mom","和妈妈一起散步"])[cn_ind];
+    this[0][i]    = "20250312_Chinese";
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/PpiY_9zQKQg?feature=share"),"Reading Chinese"),urllink(url,"读中文(YouTube视频)")])[cn_ind];
+    this[0][i]    = "20250321_X-ray";
+    this[1][i++]  = (["Taking x-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍x光片"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
