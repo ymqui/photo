@@ -32,7 +32,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2020nist","11/2020-8/2024 NIST Child Care Center","11/2020-8/2024 NIST托儿所"],["2023karate","9/2023-8/2024 Kicks Karate","9/2023-8/2024 Kicks Karate空手道"],
                   ["2408france","8/2024 Vacationing in France","8/2024 在法国度假"],["2409renfest","9/2024 Maryland Renaissance Festival","9/2024 马里兰文艺复兴节"],
                   ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],["2411niagara","11/2024 Niagara Falls","11/2024 尼亚加拉大瀑布"],
-                  ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],
+                  ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],["2503liberty","3/2025 Statute of Liberty","3/2025 参观自由女神像"],
                   ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -444,6 +444,8 @@ function initAlbum(){
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/PpiY_9zQKQg?feature=share"),"Reading Chinese"),urllink(url,"读中文(YouTube视频)")])[cn_ind];
     this[0][i]    = "20250321_X-ray";
     this[1][i++]  = (["Taking x-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍x光片"])[cn_ind];
+    this[0][i]    = ["2503liberty/2503liberty_9","2503liberty/2503liberty_12","20250315"];
+    this[1][i++]  = pagelink("2503liberty",(["Visiting the Statute of Liberty","参观自由女神像"])[cn_ind]);
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
