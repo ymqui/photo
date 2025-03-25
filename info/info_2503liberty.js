@@ -49,7 +49,7 @@ function initAlbum(){
     }else{
         this[1][0] = "Taking a ferry to visit the Ellis Island and the Statue of Liberty.";
         this[1][1] = "Taking a ferry to visit the Ellis Island and the Statue of Liberty.";
-        this[1][2] = "Skyscrapers in Manhaton, New York.";
+        this[1][2] = "Skyscrapers in Manhattan, New York.";
         this[1][3] = "Ellis Island.";
         this[1][4] = "Liberty Island.";
         this[1][5] = "Taking a ferry to visit the Ellis Island and the Statue of Liberty.";
@@ -63,7 +63,7 @@ function initAlbum(){
         this[1][13] = "Statute of Liberty.";
         this[1][14] = "Visiting the Statute of Liberty Museum.";
         this[1][15] = "Visiting the Statute of Liberty Museum.";
-        this[1][16] = "A full scale face replica of the Statute of Liberty.";
+        this[1][16] = "A full scale replica of the face of the Statute of Liberty.";
         this[1][17] = "Sitting on a full scale replica of the foot of the Statute of Liberty.";
     }
 }
