@@ -439,7 +439,7 @@ function initAlbum(){
     this[0][i]    = "20250307_Icecream";
     this[1][i++]  = (["Enjoying an ice cream","吃冰淇淋"])[cn_ind];
     this[0][i]    = "20250311_Walk";
-    this[1][i++]  = (["Taking a walk on a sunny afternoon with Mom","和妈妈一起散步"])[cn_ind];
+    this[1][i++]  = (["Taking a walk on a sunny afternoon with Mom","和妈妈一起午后散步"])[cn_ind];
     this[0][i]    = "20250312_Chinese";
     this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/PpiY_9zQKQg?feature=share"),"Reading Chinese (YouTube Video)"),urllink(url,"读中文(YouTube视频)")])[cn_ind];
     this[0][i]    = ["2503liberty/2503liberty_9","2503liberty/2503liberty_12","20250315"];
