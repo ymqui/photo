@@ -441,11 +441,11 @@ function initAlbum(){
     this[0][i]    = "20250311_Walk";
     this[1][i++]  = (["Taking a walk on a sunny afternoon with Mom","和妈妈一起散步"])[cn_ind];
     this[0][i]    = "20250312_Chinese";
-    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/PpiY_9zQKQg?feature=share"),"Reading Chinese"),urllink(url,"读中文(YouTube视频)")])[cn_ind];
+    this[1][i++]  = ([urllink(url=("https://youtube.com/shorts/PpiY_9zQKQg?feature=share"),"Reading Chinese (YouTube Video)"),urllink(url,"读中文(YouTube视频)")])[cn_ind];
     this[0][i]    = ["2503liberty/2503liberty_9","2503liberty/2503liberty_12","20250315"];
     this[1][i++]  = pagelink("2503liberty",(["Visiting the Statute of Liberty in New York","参观纽约的自由女神像"])[cn_ind]);
     this[0][i]    = "20250321_X-ray";
-    this[1][i++]  = (["Taking x-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍x光片"])[cn_ind];
+    this[1][i++]  = (["Getting a panoramic dental X-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍全景X光"])[cn_ind];
 
 
     if (/birthday/.test(window.location.search.substring(1))) {
