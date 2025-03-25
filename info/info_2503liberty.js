@@ -10,6 +10,8 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "";
 //var midi_cr    = new Array("","");
+var blocksave  = false;
+homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
     info_url   = "https://baike.baidu.com/item/%E8%87%AA%E7%94%B1%E5%A5%B3%E7%A5%9E%E5%83%8F";
@@ -69,8 +71,7 @@ function initAlbum(){
 }
  
 //web counter info
-var sc_project   = 613905;
+var sc_project   = 9592725;
 var sc_invisible = 1;
-var sc_partition = 3;
-var sc_security  = "f5cfdd4f";
+var sc_security  = "8084e75a";
 //-->
