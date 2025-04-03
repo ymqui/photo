@@ -446,7 +446,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2503liberty",(["Visiting the Statute of Liberty in New York","参观纽约的自由女神像"])[cn_ind]);
     this[0][i]    = "20250321_X-ray";
     this[1][i++]  = (["Getting a panoramic dental X-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍全景X光"])[cn_ind];
-
+    this[0][i]    = "20250403_007_Teeth";
+    this[1][i++]  = (["Big smile with missing teeth","正在换牙的球球"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
