@@ -98,6 +98,8 @@ function initAlbum(){
     this[1][i++]  = (["Picked up by Mommy after school on a snowy day","下雪天放学后妈妈来接球球回家"])[cn_ind];
     this[0][i]    = "20250403";
     this[1][i++]  = (["Mrs. Wasser's star student","当选为Wasser老师的明星学生"])[cn_ind];
+    this[0][i]    = "20250423";
+    this[1][i++]  = (["Shape party","班里举行形状派对"])[cn_ind];
 
     adddate(this);
 }
