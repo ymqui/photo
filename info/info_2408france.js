@@ -12,7 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["2408frbird","8/2024 Birding in France","8/2024 法国观鸟"]]
+var pagelist   = [["2408frbird","8/2024 Birding in France","8/2024 法国观鸟"]];
  
 if(window.usechinese){
     title      = "法国度假";

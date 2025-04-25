@@ -12,7 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["2504gtbird","4/2025 Birding in Guatemala","4/2025 危地马拉观鸟"]]
+var pagelist   = [["2504gtbird","4/2025 Birding in Guatemala","4/2025 危地马拉观鸟"]];
  
 if(window.usechinese){
     title      = "危地马拉度春假";
