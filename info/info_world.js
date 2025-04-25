@@ -48,6 +48,8 @@ function initAlbum(){
     this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind];
     this[0][i]    = "20240821_France";
     this[1][i++]  = pagelink("2408france",(["Eiffel Tower, Paris, "+btext("France"),btext("法国")+"巴黎艾菲尔铁塔"])[cn_ind]);
+    this[0][i]    = ["20250413_Guatemala","20250419_Guatemala"];
+    this[1][i++]  = ([[pagelink("2504guatemala","Temple I, Tikal National Park, Petén, "+btext("Guatemala")),pagelink("2504guatemala","Santa Catalina Arch, Antigua Guatemala, Sacatepéquez, "+btext("Guatemala"))],[pagelink("2504guatemala",btext("危地马拉")+"佩滕省蒂卡尔国家公园1号神殿"),pagelink("2504guatemala",btext("危地马拉")+"萨卡特佩克斯省安提瓜危地马拉市圣卡塔利娜拱门")]])[cn_ind];
 
     adddate(this);
 }
