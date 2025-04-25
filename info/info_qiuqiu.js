@@ -449,6 +449,10 @@ function initAlbum(){
     this[1][i++]  = (["Getting a panoramic dental X-ray on the semi-annual dental visit","半年一次的定期牙齿检查时拍全景X光"])[cn_ind];
     this[0][i]    = "20250403_007_Teeth";
     this[1][i++]  = (["Big smile with missing teeth","正在换牙的球球"])[cn_ind];
+    this[0][i]    = ["2504guatemala/2504guatemala_12","20250413"];
+    this[1][i++]  = (["Visiting the Mayan temples in Tikal National Park during the "+pagelink("2504guatemala","spring break in Guatemala"),pagelink("2504guatemala","在危地马拉度春假")+"时参观蒂卡尔国家公园的玛雅遗址"])[cn_ind];
+    this[0][i]    = ["2504guatemala/2504guatemala_59","20250419"];
+    this[1][i++]  = (["Visiting the Santa Catalina Arch in Antigua Guatemala during the "+pagelink("2504guatemala","spring break in Guatemala"),pagelink("2504guatemala","在危地马拉度春假")+"时游安提瓜危地马拉的圣卡塔利娜拱门"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
