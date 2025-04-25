@@ -453,6 +453,12 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Mayan temples in Tikal National Park during the "+pagelink("2504guatemala","spring break in Guatemala"),pagelink("2504guatemala","在危地马拉度春假")+"时参观蒂卡尔国家公园的玛雅遗址"])[cn_ind];
     this[0][i]    = ["2504guatemala/2504guatemala_59","20250419"];
     this[1][i++]  = (["Visiting the Santa Catalina Arch in Antigua Guatemala during the "+pagelink("2504guatemala","spring break in Guatemala"),pagelink("2504guatemala","在危地马拉度春假")+"时游安提瓜危地马拉的圣卡塔利娜拱门"])[cn_ind];
+    this[0][i]    = ["20250424_1","20250424_2","20250424_6"];
+    this[1][i++]  = ([[(tmp1="Visiting the million pounds machine at NIST during the Take Our Kids To Work Day"),tmp1,"Watching atoms trapped by laser in Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"],
+                    [(tmp1="在“带孩子上班日”参观NIST的百万镑机器"),tmp1,"在“带孩子上班日”参观朋友Annelise爸爸的实验室，观察激光冷却捕获的原子团"]])[cn_ind];
+    this[0][i]    = ["20250424_3","20250424_4","20250424_5"];
+    this[1][i++]  = ([[(tmp1="Visiting Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"),tmp1,tmp1],[(tmp1="在“带孩子上班日”参观朋友Annelise爸爸的实验室"),tmp1,tmp1]])[cn_ind];
+
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
