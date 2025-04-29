@@ -306,6 +306,11 @@
   info[2][j] = 2;
   info[3][j] = "12/2024 Florida Birding";
   info[4][j++] = "Birding in Florida (Florida).";
+  info[0][j] = "2504gtbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "4/2025 Guatemala Birding";
+  info[4][j++] = "Birding in Guatemala (Guatemala).";
 
   if(window.usechinese){
      j = 0;
@@ -427,6 +432,8 @@
      info[4][j++] = "在法国观鸟(法国)。";
      info[3][j]   = "12/2024 佛罗里达观鸟";
      info[4][j++] = "在佛罗里达观鸟(佛罗里达州)。";
+     info[3][j]   = "4/2025 危地马拉观鸟";
+     info[4][j++] = "在危地马拉观鸟(危地马拉)。";
   } 
 
   //special touch
