@@ -145,7 +145,7 @@ function initAlbum(){
         this[1][115] = "20250418_210_WarblingVireo_FincaElPilar.JPG";
         this[1][116] = "20250418_211_Orange-billedNightingale-Thrush_FincaElPilar.JPG";
         this[1][117] = "20250418_212_MacGillivray'sWarbler(M)_FincaElPilar.JPG";
-        this[1][118] = "20250418_214_Townsend'sWarbler(F)_FincaElPilar.JPG";
+        this[1][118] = "20250418_214_Black-throatedGreenWarbler(F)_FincaElPilar.JPG";
         this[1][119] = "20250418_216_Wilson'sWarbler_FincaElPilar.JPG";
         this[1][120] = "20250418_217_Rose-throatedBecard(M)_FincaElPilar.JPG";
         this[1][121] = "20250418_218_Rose-throatedBecard(M)_FincaElPilar.JPG";
@@ -296,7 +296,7 @@ function initAlbum(){
         this[1][115] = "20250418_210_WarblingVireo_FincaElPilar.JPG";
         this[1][116] = "20250418_211_Orange-billedNightingale-Thrush_FincaElPilar.JPG";
         this[1][117] = "20250418_212_MacGillivray'sWarbler(M)_FincaElPilar.JPG";
-        this[1][118] = "20250418_214_Townsend'sWarbler(F)_FincaElPilar.JPG";
+        this[1][118] = "20250418_214_Black-throatedGreenWarbler(F)_FincaElPilar.JPG";
         this[1][119] = "20250418_216_Wilson'sWarbler_FincaElPilar.JPG";
         this[1][120] = "20250418_217_Rose-throatedBecard(M)_FincaElPilar.JPG";
         this[1][121] = "20250418_218_Rose-throatedBecard(M)_FincaElPilar.JPG";
