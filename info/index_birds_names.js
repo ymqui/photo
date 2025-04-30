@@ -512,6 +512,7 @@ var birds = myBirds([
     ["20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",["2001txbirding",17],["txsnwr","S163594505","Female"]],
     ["06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[["1512bhill",37],"220122_024","160806_090"],["mdbhrp","8/2015,S165064846","Male","njnjnj","S101264392","Immature male, Two Mile Landing, Cape May","五月岬两英里码头","mdmdmd","S164471957","Juvenile female, Lilypons Water Garden, Frederick County","弗雷德里克郡莉丽庞斯水上花园"]],
     ["15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",["1501prbird",[23,29]],["prprpr","S164850573","Male, Ceiba Country Inn","西巴乡村客栈","prprpr","S164850831","Female, Ceiba Country Inn","西巴乡村客栈"],"purtod1"],
+    ["25-04-15T08:53","MOMOTIDA","Lesson's Motmot","雷氏翠鴗","Momotus lessonii",["2504gtbird",57],["gttaya","S225921979"],"bucmot2"],
     ["23-01-23T07:16","MOMOTIDA","Whooping Motmot","叫翠鴗","Momotus subrufescens",["2301pabird",[15,111]],["papipe","S126820118","pametr","S126960214"],"bucmot3",3378],
     ["23-01-23T09:47","MOMOTIDA","Rufous Motmot","棕翠鴗","Baryphthengus martii",["2301pabird",[43,44]],["papipe","S126820118"],"rufmot1"],
     ["23-01-26T08:51","MOMOTIDA","Broad-billed Motmot","阔嘴翠鴗","Electron platyrhynchum",["2301pabird",116],["pametr","S126960214","Broad-billed","","阔嘴型"],"brbmot1"],
