@@ -8,7 +8,6 @@ Gunnison Sage-Grouse,				Gunnison Grouse
 White Ibis,					American White Ibis
 Painted Redstart,				Painted Whitestart
 Eared Grebe,					Black-necked Grebe
-American Pipit,					Buff-bellied Pipit
 Rough-legged Hawk,				Rough-legged Buzzard
 Rock Pigeon,					Rock Dove
 Black-bellied Plover,				Grey Plover
