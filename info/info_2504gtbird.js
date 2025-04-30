@@ -33,7 +33,7 @@ function initAlbum(){
         this[1][3] = "中美食籽雀，雌性，弗洛雷斯。";
         this[1][4] = "灰蓝裸鼻雀，弗洛雷斯。";
         this[1][5] = "美洲黄林莺，弗洛雷斯。";
-        this[1][6] = "圃拟鹂，未成年，弗洛雷斯。";
+        this[1][6] = "圃拟鹂，未成年雄性，弗洛雷斯。";
         this[1][7] = "圃拟鹂，雌性，弗洛雷斯。";
         this[1][8] = "圃拟鹂，雄性，弗洛雷斯。";
         this[1][9] = "橙腹拟鹂，雌性，弗洛雷斯。";
@@ -114,7 +114,7 @@ function initAlbum(){
         this[1][84] = "北弯嘴霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][85] = "黄绿霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][86] = "船嘴霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
-        this[1][87] = "铜色牛鹂，弗洛雷斯市塔亚萨尔考古遗址。";
+        this[1][87] = "铜色牛鹂，雌性，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][88] = "棕尾蜂鸟，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][89] = "美洲水雉，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][90] = "美洲燕，帕卡亚火山国家公园。";
@@ -137,7 +137,7 @@ function initAlbum(){
         this[1][107] = "亮丽歌雀，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][108] = "斑背曲嘴鹪鹩，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][109] = "斑背曲嘴鹪鹩，安提瓜危地马拉市埃尔皮拉尔山庄。";
-        this[1][110] = "黄腹丽唐纳雀，安提瓜危地马拉市埃尔皮拉尔山庄。";
+        this[1][110] = "黄腹丽唐纳雀，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][111] = "红眼莺雀，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][112] = "白颈薮雀，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][113] = "蓝冠绿雀，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
@@ -148,7 +148,7 @@ function initAlbum(){
         this[1][118] = "橙腹夜鸫，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][119] = "灰头地莺，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][120] = "黑喉绿林莺，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
-        this[1][121] = "黑头威森莺，安提瓜危地马拉市埃尔皮拉尔山庄。";
+        this[1][121] = "黑头威森莺，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][122] = "红喉厚嘴霸鹟，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][123] = "红喉厚嘴霸鹟，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][124] = "红喉厚嘴霸鹟，安提瓜危地马拉市埃尔皮拉尔山庄。";
@@ -157,7 +157,7 @@ function initAlbum(){
         this[1][127] = "浓冠鸦，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][128] = "大蜂鸟，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][129] = "绿喉宝石蜂鸟，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
-        this[1][130] = "黄喉虫森莺，安提瓜危地马拉市埃尔皮拉尔山庄。";
+        this[1][130] = "黄喉虫森莺，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][131] = "红嘴蜂鸟，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][132] = "灰丝鹟，安提瓜危地马拉市十字架山。";
         this[1][133] = "灰丝鹟，安提瓜危地马拉市十字架山。";
@@ -186,7 +186,7 @@ function initAlbum(){
         this[1][3] = "Morelet's Seedeater, female, Flores.";
         this[1][4] = "Blue-gray Tanager, Flores.";
         this[1][5] = "Yellow Warbler, Flores.";
-        this[1][6] = "Orchard Oriole, immature, Flores.";
+        this[1][6] = "Orchard Oriole, immature male, Flores.";
         this[1][7] = "Orchard Oriole, female, Flores.";
         this[1][8] = "Orchard Oriole, male, Flores.";
         this[1][9] = "Baltimore Oriole, female, Flores.";
@@ -267,7 +267,7 @@ function initAlbum(){
         this[1][84] = "Northern Bentbill, Tayasal Archaeological Site, Flores.";
         this[1][85] = "Yellow-olive Flycatcher, Tayasal Archaeological Site, Flores.";
         this[1][86] = "Boat-billed Flycatcher, Tayasal Archaeological Site, Flores.";
-        this[1][87] = "Bronzed Cowbird, Tayasal Archaeological Site, Flores.";
+        this[1][87] = "Bronzed Cowbird, male, Tayasal Archaeological Site, Flores.";
         this[1][88] = "Rufous-tailed Hummingbird, Tayasal Archaeological Site, Flores.";
         this[1][89] = "Northern Jacana, Tayasal Archaeological Site, Flores.";
         this[1][90] = "Cliff Swallow, Pacaya Volcano National Park.";
@@ -290,7 +290,7 @@ function initAlbum(){
         this[1][107] = "Elegant Euphonia, male, Finca El Pilar, Antigua Guatemala.";
         this[1][108] = "Band-backed Wren, Finca El Pilar, Antigua Guatemala.";
         this[1][109] = "Band-backed Wren, Finca El Pilar, Antigua Guatemala.";
-        this[1][110] = "Western Tanager, Finca El Pilar, Antigua Guatemala.";
+        this[1][110] = "Western Tanager, male, Finca El Pilar, Antigua Guatemala.";
         this[1][111] = "Red-eyed Vireo, Finca El Pilar, Antigua Guatemala.";
         this[1][112] = "White-naped Brushfinch, Finca El Pilar, Antigua Guatemala.";
         this[1][113] = "Blue-crowned Chlorophonia, female, Finca El Pilar, Antigua Guatemala.";
@@ -301,7 +301,7 @@ function initAlbum(){
         this[1][118] = "Orange-billed Nightingale-Thrush, Finca El Pilar, Antigua Guatemala.";
         this[1][119] = "MacGillivray's Warbler, male, Finca El Pilar, Antigua Guatemala.";
         this[1][120] = "Black-throated Green Warbler, female, Finca El Pilar, Antigua Guatemala.";
-        this[1][121] = "Wilson's Warbler, Finca El Pilar, Antigua Guatemala.";
+        this[1][121] = "Wilson's Warbler, female, Finca El Pilar, Antigua Guatemala.";
         this[1][122] = "Rose-throated Becard, male, Finca El Pilar, Antigua Guatemala.";
         this[1][123] = "Rose-throated Becard, male, Finca El Pilar, Antigua Guatemala.";
         this[1][124] = "Rose-throated Becard, Finca El Pilar, Antigua Guatemala.";
@@ -310,7 +310,7 @@ function initAlbum(){
         this[1][127] = "Bushy-crested Jay, Finca El Pilar, Antigua Guatemala.";
         this[1][128] = "Rivoli's Hummingbird, female, Finca El Pilar, Antigua Guatemala.";
         this[1][129] = "Green-throated Mountain-gem, female, Finca El Pilar, Antigua Guatemala.";
-        this[1][130] = "Nashville Warbler, Finca El Pilar, Antigua Guatemala.";
+        this[1][130] = "Nashville Warbler, female, Finca El Pilar, Antigua Guatemala.";
         this[1][131] = "Azure-crowned Hummingbird, Finca El Pilar, Antigua Guatemala.";
         this[1][132] = "Gray Silky-flycatcher, Cerro de la Cruz, Antigua Guatemala.";
         this[1][133] = "Gray Silky-flycatcher, Cerro de la Cruz, Antigua Guatemala.";
