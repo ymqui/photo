@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-04-29",20);
+var modTim = modTime("2025-04-30",20);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -632,7 +632,7 @@ var birds = myBirds([
     ["13-12-25T18:43","TYRANNID","Black Phoebe","黑长尾霸鹟","Sayornis nigricans",[["1312bbbird",18],["2208azbird",73]],["txbbnp","S167800653","azazaz","S116756623","Juvenile, Crescent Moon Ranch Picnic Area, Sedona","塞多纳市新月牧场野餐区"]],
     ["13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",["1507wbird",4],["nvdnwr","S164994760"]],
     ["20-09-09T09:21","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",["200909_067"],["mdmwma","S163639575"]],
-    ["25-04-19T09:24","TYRANNID","Greater Pewee","大绿霸鹟","Contopus pertinax",["2504gtbird",138],["gtmgtm","S227060243","Cerro de La Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"]],
+    ["25-04-19T09:24","TYRANNID","Greater Pewee","大绿霸鹟","Contopus pertinax",["2504gtbird",138],["gtmgtm","S227060243","Cerro de la Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"]],
     ["18-12-07T06:58","TYRANNID","Western Wood-Pewee","西绿霸鹟","Contopus sordidulus",[["1812crbird",85],["2208azbird",[21,22]]],["crarol","S163932247","azmcct","S116560424"]],
     ["06-08-20T11:26","TYRANNID","Eastern Wood-Pewee","东绿霸鹟","Contopus virens",["150703_080","240714_214","240706_213"],["mdcocn","S165235630","Maryland Heights","马里兰高地一带","mdwoot","S186949753","mdwoot","S185635708","Nest"]],
     ["18-12-08T08:58","TYRANNID","Northern Tropical Pewee","北热带绿霸鹟","Contopus bogotensis",["1812crbird",99],["crsanj","S163965530","Morazán Park","莫拉桑公园"],"tropew4","热带绿霸鹟"],
@@ -662,7 +662,7 @@ var birds = myBirds([
     ["06-05-06T11:03","TYRANNID","Eastern Kingbird","东王霸鹟","Tyrannus tyrannus",["220702_076"],["debnwr","S114255213"]],
     ["15-01-05T14:08","TYRANNID","Gray Kingbird","灰王霸鹟","Tyrannus dominicensis",["1501prbird",43],["prsanj","S164852600"]],
     ["15-01-02T07:13","TYRANNID","Loggerhead Kingbird","圆头王霸鹟","Tyrannus caudifasciatus",["1501prbird",4],["prprpr","S164768866","Mayagüez","马亚圭斯市"],"logkin"],
-    ["25-04-18T09:12","TYRANNID","Dusky-capped Flycatcher","暗顶蝇霸鹟","Myiarchus tuberculifer",["2504gtbird",[116,137]],["gtfelp","S226755612","gtmgtm","S227060243","Cerro de La Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"]],
+    ["25-04-18T09:12","TYRANNID","Dusky-capped Flycatcher","暗顶蝇霸鹟","Myiarchus tuberculifer",["2504gtbird",[116,137]],["gtfelp","S226755612","gtmgtm","S227060243","Cerro de la Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"]],
     ["15-07-12T09:58","TYRANNID","Ash-throated Flycatcher","灰喉蝇霸鹟","Myiarchus cinerascens",["1507wbird",43],["cabake","S165003418","Yokuts Park","约库特公园"]],
     ["14-08-10T10:54","TYRANNID","Great Crested Flycatcher","大冠蝇霸鹟","Myiarchus crinitus",["200525_026"],["mdcocn","S165015084","Riley's Lock","莱利闸"]],
     ["25-04-16T06:09","TYRANNID","Brown-crested Flycatcher","褐冠蝇霸鹟","Myiarchus tyrannulus",["2504gtbird",72],["gttaya","S226129581"]],
@@ -763,7 +763,7 @@ var birds = myBirds([
     ["23-12-27T08:44","BOMBYCIL","Bohemian Waxwing","太平鸟","Bombycilla garrulus",["2312cnbird",99],["cnbjbg","S157768838"]],
     ["23-12-27T08:48","BOMBYCIL","Japanese Waxwing","小太平鸟","Bombycilla japonica",["2312cnbird",101],["cnbjbg","S157768838"],"japwax1"],
     ["06-06-08T15:54","BOMBYCIL","Cedar Waxwing","雪松太平鸟","Bombycilla cedrorum",[["1412mckee",39],["1512bhill",30]],["mdmwma","S167448489","mdbhrp","8/2015,S165067012","Juvenile"]],
-    ["25-04-19T08:00","PTILIOGO","Gray Silky-flycatcher","灰丝鹟","Ptiliogonys cinereus",["2504gtbird",[133,134]],["gtmgtm","S227060243","Cerro de La Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"],"grsfly1"],
+    ["25-04-19T08:00","PTILIOGO","Gray Silky-flycatcher","灰丝鹟","Ptiliogonys cinereus",["2504gtbird",[133,134]],["gtmgtm","S227060243","Cerro de la Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"],"grsfly1"],
     ["15-07-06T13:21","PTILIOGO","Phainopepla","黑丝鹟","Phainopepla nitens",[["2208azbird",6],["1507wbird",6]],["azsndm","S116522318","Male","nvdnwr","S164994760","Female"]],
 //  ["25-00-00T00:00","HYPOCOLI","Grey Hypocolius","灰连雀","Hypocolius ampelinus",[],["arb",""],"hypoco1"],
 //  ["25-00-00T00:00","DULIDAE ","Palmchat","棕榈䳭","Dulus dominicus",[],["arb",""],"palmch1"],
@@ -918,7 +918,7 @@ var birds = myBirds([
     ["23-12-23T15:26","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",["2312cnbird",70],["cnzjzj","S157750029","Jiangshangang Greenway, Jiangshan","江山市江山港滨水绿道"],"dusthr2"],
     ["16-01-03T10:09","TURDIDAE","Naumann's Thrush","红尾斑鸫","Turdus naumanni",["2312cnbird",97],["cnbjbg","S157768838"],"dusthr1","红尾鸫"],
     ["06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",["170506_042","220403_052",["1206bsbird",12],["1204robin",2]],["nycenp","S164193135","Male","mdwoot","S165034956","Female","mdbroo","S167832749","Juvenile","mdmdmd","S167832994","Germantown","德国镇"]],
-    ["25-04-19T09:01","TURDIDAE","Rufous-collared Thrush","中美棕颈鸫","Turdus rufitorques",["2504gtbird",135],["gtmgtm","S227060243","Female, Cerro de La Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"],"rucrob1"],
+    ["25-04-19T09:01","TURDIDAE","Rufous-collared Thrush","中美棕颈鸫","Turdus rufitorques",["2504gtbird",135],["gtmgtm","S227060243","Female, Cerro de la Cruz, Antigua Guatemala, Sacatepéquez","萨卡特佩克斯省安提瓜危地马拉市十字架山"],"rucrob1"],
     ["15-01-08T07:25","TURDIDAE","Red-legged Thrush","红腿鸫","Turdus plumbeus",["1501prbird",36],["prsanj","S164852107"],"relthr1"],
     ["19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",["1905mxbird",31],["mxcity","S163775414","Alameda Central","阿拉米达中央公园"],"rubrob"],
     ["18-12-04T07:50","TURDIDAE","Clay-colored Thrush","褐背鸫","Turdus grayi",[["1812crbird",29],["2301pabird",68]],["crarol","S163868074","pacasc","S126834645"],"clcrob"],
