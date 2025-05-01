@@ -121,11 +121,11 @@ function myBirds(info){
     });
 }
 
-//return a time that is n_days before the end of the previous month of the datstr
+//return a time that is n_days before the datstr (modDat) 
 function modTime(datstr,n_days){
     modDat = new Date(datstr+"T08:00");
-    if (n_days==null) n_days = 10;
-    return modDat.getTime()-(modDat.getDate()+n_days)*3600*24*1000;
+    if (n_days==null) n_days = 20;
+    return modDat.getTime()-n_days*3600*24*1000;
 }
 
 function stradd(...arrays) {
