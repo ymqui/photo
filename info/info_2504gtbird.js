@@ -2,7 +2,7 @@
 //Created by Album Builder Program Tue Apr 29 14:06:41 2025
 var info_url   = "";
 var title      = "Birding in Guatemala";
-var cam_img    = "camera_canon_r6.";
+var cam_img    = "camera_canon_r6.jpg";
 var cam_tit    = "Canon EOS R6, 20.2 Mega Pixels.";
 var dir        = maindir+"pics/2504gtbird/";
 var thumb_dir  = maindir+"thumbnail/";
