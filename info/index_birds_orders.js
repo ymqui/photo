@@ -323,7 +323,7 @@ function reform_locs(loc,photo){
         if (tmp1.length==0) tmp1=getdate(photo[i]);
         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
-        if ((info[6*i+2].length>0)&&(info[6*i+4].length==0)){
+        if (info[6*i+2].length>0){
            if (pt_eng.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el+" *($|,)","i")).test(info[6*i+2]);})) {
               if (info[6*i+4].length>0) info[6*i+4] = comma[1]+info[6*i+4];
               info[6*i+4] = pt_chn[indx]+info[6*i+4];
