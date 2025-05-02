@@ -99,8 +99,8 @@ function initAlbum(){
         this[1][69] = "灰颊夜鸫，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][70] = "斑尾美洲咬鹃，雄性，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][71] = "褐冠蝇霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
-        this[1][72] = "黄眉林莺，弗洛雷斯市塔亚萨尔考古遗址。";
-        this[1][73] = "黄眉林莺，弗洛雷斯市塔亚萨尔考古遗址。";
+        this[1][72] = "黑喉绿林莺，弗洛雷斯市塔亚萨尔考古遗址。";
+        this[1][73] = "黑喉绿林莺，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][74] = "黑白森莺，雌性，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][75] = "黄腹大嘴霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
         this[1][76] = "褐冠蝇霸鹟，弗洛雷斯市塔亚萨尔考古遗址。";
@@ -252,8 +252,8 @@ function initAlbum(){
         this[1][69] = "Gray-cheeked Thrush, Tayasal Archaeological Site, Flores.";
         this[1][70] = "Gartered Trogon, male, Tayasal Archaeological Site, Flores.";
         this[1][71] = "Brown-crested Flycatcher, Tayasal Archaeological Site, Flores.";
-        this[1][72] = "Townsend's Warbler, Tayasal Archaeological Site, Flores.";
-        this[1][73] = "Townsend's Warbler, Tayasal Archaeological Site, Flores.";
+        this[1][72] = "Black-throated Green Warbler, Tayasal Archaeological Site, Flores.";
+        this[1][73] = "Black-throated Green Warbler, Tayasal Archaeological Site, Flores.";
         this[1][74] = "Black-and-white Warbler, female, Tayasal Archaeological Site, Flores.";
         this[1][75] = "Sulphur-bellied Flycatcher, Tayasal Archaeological Site, Flores.";
         this[1][76] = "Brown-crested Flycatcher, Tayasal Archaeological Site, Flores.";
