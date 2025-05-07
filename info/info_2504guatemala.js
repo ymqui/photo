@@ -97,7 +97,7 @@ function initAlbum(){
         this[1][0] = "On the flight to Guatemala City.";
         this[1][1] = "Face to face with an iguana in Flores.";
         this[1][2] = "Enjoying some cold drinks in Flores.";
-        this[1][3] = "Walking the alleys in Flores island.";
+        this[1][3] = "Walking the alleys on Flores island.";
         this[1][4] = "Visiting the Tikal National Park.";
         this[1][5] = "Standing beneath a towering Ceiba tree, the national tree of Guatemala.";
         this[1][6] = "Visiting the Tikal National Park.";
