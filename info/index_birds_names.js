@@ -277,7 +277,7 @@ var birds = myBirds([
     ["24-08-18T15:11","PHOENICO","Greater Flamingo","大红鹳","Phoenicopterus roseus",["2408frbird",[31,32]],["frpopg","S193138851"],"grefla3"],
     ["23-09-08T17:53","PHOENICO","American Flamingo","美洲红鹳","Phoenicopterus ruber",["230908_127","230908_126"],["papapa","S149390653",(t1="Long Lane Pond, St. Thomas, Franklin County"),(t2="富兰克林郡圣托马斯镇长巷池塘"),"papapa","S149390653","Immature, "+t1,t2],"grefla2"],
 //  ["25-00-00T00:00","TURNICID","Common Buttonquail","林三趾鹑","Turnix sylvaticus",[],["arb",""],"smabut2"],
-//  ["25-00-00T00:00","BURHINID","Eurasian Stone-curlew","石鸻","Burhinus oedicnemus",["2408frbird",],["frrncc",""],"eutkne1"],
+//* ["25-00-00T00:00","BURHINID","Eurasian Stone-curlew","石鸻","Burhinus oedicnemus",["2508itbird",],["itlitl",""],"eutkne1"],
 //  ["25-00-00T00:00","PLUVIANE","Magellanic Plover","短腿鸻","Pluvianellus socialis",[],["arb",""],"magplo1",1454],
 //  ["25-00-00T00:00","CHIONIDA","Snowy Sheathbill","白鞘嘴鸥","Chionis albus",[],["arb",""],"snoshe2"],
     ["15-07-09T12:04","HAEMATOP","Black Oystercatcher","北美黑蛎鹬","Haematopus bachmani",["1507wbird",34],["usausa","S165002563","Morro Rock, Morro Bay, California","加利福尼亚州莫罗湾莫罗岩"],1457],
