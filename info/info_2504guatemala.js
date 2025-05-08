@@ -42,7 +42,7 @@ function initAlbum(){
         this[1][9] = "参观蒂卡尔国家公园。";
         this[1][10] = "参观蒂卡尔国家公园。";
         this[1][11] = "蒂卡尔国家公园1号神殿。";
-        this[1][12] = "蒂卡尔国家公园1号神殿。";
+        this[1][12] = "站在蒂卡尔国家公园2号神殿拍1号神殿。";
         this[1][13] = "从蒂卡尔国家公园4号神殿看到的景色。";
         this[1][14] = "在蒂卡尔国家公园4号神殿的平台上拍照。";
         this[1][15] = "爬下4号神殿的楼梯。";
@@ -106,7 +106,7 @@ function initAlbum(){
         this[1][9] = "Visiting the Tikal National Park.";
         this[1][10] = "Visiting the Tikal National Park.";
         this[1][11] = "Photo in front of Tikal Temple I.";
-        this[1][12] = "Photo in front of Tiakl Temple I.";
+        this[1][12] = "Photo of Tiakl Temple I taken from Temple 2.";
         this[1][13] = "View from Tikal Temple IV.";
         this[1][14] = "Photo from Tikal Temple IV.";
         this[1][15] = "Climbing down the stairs of Tikal Temple IV.";
