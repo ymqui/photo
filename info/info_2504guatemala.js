@@ -56,7 +56,7 @@ function initAlbum(){
         this[1][23] = "和导游Neftali Escobar合影。";
         this[1][24] = "亚克夏国家公园里看到的一只吼猴。";
         this[1][25] = "亚克夏国家公园里看到的一只蜘蛛猴。";
-        this[1][26] = "在弗洛雷斯和爸爸一起乘船去"+pagelink("2504gtbird","观鸟"+"。");
+        this[1][26] = "在弗洛雷斯和爸爸一起乘船去"+pagelink("2504gtbird","观鸟")+"。";
         this[1][27] = "在佩滕伊察湖边玩。";
         this[1][28] = "在蒙多玛雅机场等待飞往危地马拉城的航班。";
         this[1][29] = "漫步安提瓜危地马拉的鹅卵石街道。";
@@ -120,7 +120,7 @@ function initAlbum(){
         this[1][23] = "Photo with our guide Neftali Escobar.";
         this[1][24] = "A howler monkey in Yaxhá National Park.";
         this[1][25] = "A spider monkey in Yaxhá National Park.";
-        this[1][26] = "Taking a boat ride to go "+pagelink("2504gtbird","birding with Daddy in Flores"+".");
+        this[1][26] = "Taking a boat ride to go "+pagelink("2504gtbird","birding with Daddy in Flores")+".";
         this[1][27] = "Playing by the Lake Petén Itzá.";
         this[1][28] = "Waiting for a flight to Guatemala City in Mundo Maya Airport.";
         this[1][29] = "Walking the streets of Antigua Guatemala.";
