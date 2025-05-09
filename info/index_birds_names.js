@@ -511,7 +511,7 @@ var birds = myBirds([
 //  ["25-00-00T00:00","BRACHYPT","Pitta-like Ground Roller","地三宝鸟","Atelornis pittoides",[],["arb",""],"plgrol1"],
     ["16-01-05T10:21","ALCEDINI","Common Kingfisher","普通翠鸟","Alcedo atthis",["2312cnbird",[53,60,61]],["cnfjfj","S157743512","Male, Yongding Hongkeng Tulou","永定洪坑土楼","cnjsxp","S157746788","Male","cnjsxp","S157746788","Female"],"comkin1"],
     ["20-01-25T08:31","ALCEDINI","Green Kingfisher","绿鱼狗","Chloroceryle americana",["2001txbirding",37],["txsnwr","S163595749","Male"]],
-    ["20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",[["2001txbirding",17],["2504gtbird",19]],["txsnwr","S163594505","Female","gtflor","S225173486","Female"]],
+    ["20-01-24T09:13","ALCEDINI","Ringed Kingfisher","棕腹鱼狗","Megaceryle torquata",[["2001txbirding",17],["2504gtbird",19]],["txsnwr","S163594505","Female","gtflor","S225173486","Immature female"]],
     ["06-04-09T09:34","ALCEDINI","Belted Kingfisher","白腹鱼狗","Megaceryle alcyon",[["1512bhill",37],"220122_024","160806_090"],["mdbhrp","8/2015,S165064846","Male","njnjnj","S101264392","Immature male, Two Mile Landing, Cape May","五月岬两英里码头","mdmdmd","S164471957","Juvenile female, Lilypons Water Garden, Frederick County","弗雷德里克郡莉丽庞斯水上花园"]],
     ["15-01-05T06:39","TODIDAE ","Puerto Rican Tody","波多黎各短尾鴗","Todus mexicanus",["1501prbird",[23,29]],["prprpr","S164850573","Male, Ceiba Country Inn","西巴乡村客栈","prprpr","S164850831","Female, Ceiba Country Inn","西巴乡村客栈"],"purtod1"],
     ["25-04-15T08:53","MOMOTIDA","Lesson's Motmot","雷氏翠鴗","Momotus lessonii",["2504gtbird",57],["gttaya","S225921979"],"bucmot2"],

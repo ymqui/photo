@@ -45,10 +45,10 @@ function initAlbum(){
         this[1][15] = "群栖短嘴霸鹟，弗洛雷斯。";
         this[1][16] = "黄翅裸鼻雀，弗洛雷斯。";
         this[1][17] = "白翅哀鸽，弗洛雷斯。";
-        this[1][18] = "棕腹鱼狗，雌性，弗洛雷斯。";
+        this[1][18] = "棕腹鱼狗，未成年雌性，弗洛雷斯。";
         this[1][19] = "褐鸦，蒂卡尔国家公园。";
         this[1][20] = "艳拟鹂，蒂卡尔国家公园。";
-        this[1][21] = "黄腰白喉林莺，蒂卡尔国家公园。";
+        this[1][21] = "黄腰白喉林莺，雌性，蒂卡尔国家公园。";
         this[1][22] = "群栖短嘴霸鹟，蒂卡尔国家公园。";
         this[1][23] = "黄喉莺雀，蒂卡尔国家公园。";
         this[1][24] = "船嘴霸鹟，蒂卡尔国家公园。";
@@ -201,7 +201,7 @@ function initAlbum(){
         this[1][18] = "Ringed Kingfisher, female, Flores.";
         this[1][19] = "Brown Jay, Tikal National Park.";
         this[1][20] = "Melodious Blackbird, Tikal National Park.";
-        this[1][21] = "Yellow-rumped Warbler, Tikal National Park.";
+        this[1][21] = "Yellow-rumped Warbler, female, Tikal National Park.";
         this[1][22] = "Social Flycatcher, Tikal National Park.";
         this[1][23] = "Yellow-throated Vireo, Tikal National Park.";
         this[1][24] = "Boat-billed Flycatcher, Tikal National Park.";
