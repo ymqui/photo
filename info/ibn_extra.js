@@ -229,7 +229,7 @@
 //  ["25-00-00T00:00","MUSCICAP","Spotted Flycatcher","斑鹟","Muscicapa striata",["2308ukbird",],["ukregp",""],"spofly1"],
 //  ["25-00-00T00:00","MUSCICAP","Common Nightingale","新疆歌鸲","Luscinia megarhynchos",["2408frbird",],["frpopg",""],"comnig1"],
 //  ["25-00-00T00:00","MUSCICAP","Bluethroat","蓝喉歌鸲","Luscinia svecica",[],["mdbhrp","1/2023,"]],
-//  ["25-00-00T00:00","MUSCICAP","Common Redstart","欧亚红尾鸲","Phoenicurus phoenicurus",["2408frbird",],["frcolc",""],"comred2"],
+//  ["25-00-00T00:00","MUSCICAP","Common Redstart","欧亚红尾鸲","Phoenicurus phoenicurus",["2508itbird",],["itlitl",""],"comred2"],
 //  ["25-00-00T00:00","MUSCICAP","Whinchat","草原石䳭","Saxicola rubetra",["2408frbird",],["frcolc",""],"whinch1"],
 //  ["25-00-00T00:00","CHLOROPS","Blue-winged Leafbird","蓝翅叶鹎","Chloropsis moluccensis",["2312cnbird",],["cnhzbg",""],"blwlea1"],
 //  ["25-00-00T00:00","PLOCEIDA","Red-billed Quelea","红嘴奎利亚雀","Quelea quelea",["",],["arb",""],"rebque1"],
