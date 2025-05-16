@@ -719,6 +719,7 @@ var birds = myBirds([
     ["22-04-30T13:40","VIREONID","Black-whiskered Vireo","黑髭莺雀","Vireo altiloquus",["2204flbird",24],["fldtnp","S108548976"]],
     ["20-10-01T10:07","VIREONID","Philadelphia Vireo","费城莺雀","Vireo philadelphicus",[["2020lbrp",31],["2504gtbird",30]],["mdlbrp","10/2020,S163638073","gttknp","S225428347"]],
     ["15-08-22T07:06","VIREONID","Warbling Vireo","歌莺雀","Vireo gilvus",["160514_056",["2504gtbird",118]],["nyjbwr","S164376133","gtfelp","S226812699"]],
+    ["25-04-18T08:33","VIREONID","Brown-capped Vireo","褐顶莺雀","Vireo leucophrys",["2504gtbird",106],["gtfelp","S226812699"],"brcvir1"],
     ["25-04-18T08:37","VIREONID","Hutton's Vireo","赫氏莺雀","Vireo huttoni",["2504gtbird",107],["gtfelp","S226812699"],"郝氏莺雀"],
     ["17-06-11T08:21","VIREONID","Yellow-throated Vireo","黄喉莺雀","Vireo flavifrons",["170611_074","240601_195",["2504gtbird",24]],["mdmwma","S164195489","mdwoot","S178605470","gttknp","S225428347"]],
     ["16-04-23T08:15","VIREONID","Blue-headed Vireo","蓝头莺雀","Vireo solitarius",["240420_098",["1609vcbird",15],["2504gtbird",148]],["mdwoot","S169445838","cactnw","S164259549","gtfelp","S227540483"]],
