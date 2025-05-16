@@ -103,7 +103,7 @@ function myBirds(info){
       pic_cnts = pic_cnts+el[5].length;
       dig_cnts = el[5].reduce((tot,ele)=>tot+((/_dig/i.test(ele))?1:0),dig_cnts);
       let newb = (modTim<=el[0].getTime());  
-      if (newb||el[5].some((ele)=>{tmp_date=getdate(ele,true);return (tmp_date!=null)?(modTim<=tmp_date.getTime()):false;})){
+      if (newb||el[5].some((ele)=>{tmp_date=getdate(ele,true);if (modDat.getTime()<tmp_date.getTime()){modDat=tmp_date;} return (tmp_date!=null)?(modTim<=tmp_date.getTime()):false;})){
          modBrd.name.push(el[2]);
          modBrd.cname.push(el[3]);
          modBrd.newbird.push(newb);
