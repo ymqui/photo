@@ -10,7 +10,7 @@
          if(order) mname=mname+'&amp;order'; 
          style_b = my_href("showbird.html?name="+mname);
          style_e = "</A>";
-      }else if (modBrd.newbird[i]){
+      }else if (mname==bname){
          style_b = "<font color='#FFDDDD'>";
          style_e = "</font>";
       }else{
