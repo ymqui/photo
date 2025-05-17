@@ -458,7 +458,8 @@ function initAlbum(){
                     [(tmp1="在“带孩子上班日”参观NIST的百万磅机器"),tmp1,"在“带孩子上班日”参观朋友Annelise爸爸在NIST的实验室，观察激光冷却捕获的原子团"]])[cn_ind];
     this[0][i]    = ["20250424_3","20250424_4","20250424_5"];
     this[1][i++]  = ([[(tmp1="Visiting Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"),tmp1,tmp1],[(tmp1="在“带孩子上班日”参观朋友Annelise爸爸在NIST的实验室"),tmp1,tmp1]])[cn_ind];
-
+    this[0][i]    = "20250517_008_ClimbingTree";
+    this[1][i++]  = (["Climbing a tree outside the home","在家外头爬树"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
