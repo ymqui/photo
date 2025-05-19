@@ -15,8 +15,8 @@
             style_e = "</font>";
          }
       }else{
-         style_b = "<font color='#BBBBBB'>";
-         style_e = "</font>";
+         style_b = "";
+         style_e = "";
       }
       if (modBrd.newbird[i] && (!all_new)){
          style_b = "<strong>"+style_b;
