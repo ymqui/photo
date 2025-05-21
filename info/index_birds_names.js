@@ -674,7 +674,7 @@ var birds = myBirds([
     ["23-01-25T07:38","PIPRIDAE","Lance-tailed Manakin","尖尾娇鹟","Chiroxiphia lanceolata",["2301pabird",[89,88]],["pametr","S126933504","Male","pametr","S126933504","Female"],"latman1"],
     ["25-04-13T11:38","TITYRIDA","Black-crowned Tityra","黑顶蒂泰霸鹟","Tityra inquisitor",["2504gtbird",26],["gttknp","S225428347","Male"],"blctit1"],
     ["23-01-23T10:22","TITYRIDA","Masked Tityra","花脸蒂泰霸鹟","Tityra semifasciata",[["2301pabird",52],["2504gtbird",27]],["papipe","S126820118","Male","gttknp","S225428347","Male"],"mastit1"],
-    ["25-04-18T08:28","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",["2504gtbird",[123,105,125]],["gtfelp","S226812699","Male","gtfelp","S226812699","Female","gtfelp","S226812699","Nest"],"rotbec"],
+    ["25-04-18T08:28","TITYRIDA","Rose-throated Becard","红喉厚嘴霸鹟","Pachyramphus aglaiae",["2504gtbird",[123,105,125]],["gtfelp","S226812699","Male","gtfelp","S226812699","Female","gtfelp","S226812699","Nest"]],
 //  ["25-00-00T00:00","OXYRUNCI","Sharpbill","尖喙霸鹟","Oxyruncus cristatus",[],["arb",""],"sharpb1"],
     ["23-01-23T09:36","ONYCHORH","Ruddy-tailed Flycatcher","红尾霸鹟","Terenotriccus erythrurus",["2301pabird",41],["papipe","S126820118"],"rutfly2"],
 //  ["25-00-00T00:00","MENURIDA","Superb Lyrebird","华丽琴鸟","Menura novaehollandiae",[],["arb",""],"suplyr1"],
