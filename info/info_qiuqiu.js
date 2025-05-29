@@ -33,7 +33,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2408france","8/2024 Vacationing in France","8/2024 在法国度假"],["2409renfest","9/2024 Maryland Renaissance Festival","9/2024 马里兰文艺复兴节"],
                   ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],["2411niagara","11/2024 Niagara Falls","11/2024 尼亚加拉大瀑布"],
                   ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],["2503liberty","3/2025 Statute of Liberty","3/2025 参观自由女神像"],
-                  ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Collonial Williamsburg","5/2025 威廉斯堡"],
+                  ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Colonial Williamsburg","5/2025 威廉斯堡"],
                   ["2024gym","7/2024-"+strDate+" Little Gym","7/2024-"+strDate+" Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -461,7 +461,7 @@ function initAlbum(){
     this[0][i]    = "20250517_008_ClimbingTree";
     this[1][i++]  = (["Climbing a tree outside the home","在家外头爬树"])[cn_ind];
     this[0][i]    = ["2505williamsburg/2505williamsburg_1","20250525"];
-    this[1][i++]  = pagelink("2505williamsburg",(["Visiting the Collonial Williamsburg in Virginia during the Memorial Day weekend","阵亡将士纪念日周末参观弗吉尼亚州威廉斯堡"])[cn_ind]);
+    this[1][i++]  = pagelink("2505williamsburg",(["Visiting the Colonial Williamsburg in Virginia during the Memorial Day weekend","阵亡将士纪念日周末参观弗吉尼亚州威廉斯堡"])[cn_ind]);
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
