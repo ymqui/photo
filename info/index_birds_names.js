@@ -572,7 +572,7 @@ var birds = myBirds([
     ["15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",["161204_134",["2204flbird",16],["1609vcbird",16]],["nyjbsp","S164739884","Male (Taiga)","","雄性(泰加林种)","fldtnp","S108548976","cactnw","S164259549"]],
     ["23-06-18T11:20","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",["2306isbird",38],["islisl","S142038589","Immature gray morph, Borðeyri, Westfjords","西峡湾区Borðeyri村","未成年灰色型"]],
     ["15-06-07T11:55","FALCONID","Peregrine Falcon","游隼","Falco peregrinus",["210314_029","150607_076",["2403cobird",28],"230527_082"],["mdcocn","S165023778","M"+(t1="ale, Maryland Heights"),(t2="马里兰高地一带"),"mdcocn","S165235103","Fem"+t1,t2,"cococo","S166099342","Immature, Red Rocks Park, Denver","丹佛市红石公园","mdcocn","S139423775","Nest, Point of Rocks","岩石点一带"]],
-//  ["25-00-00T00:00","STRIGOPI","Kakapo","鸮面鹦鹉","Strigops habroptilus",[],["arb",""],"kakapo2"],
+//  ["25-00-00T00:00","STRIGOPI","New Zealand Kaka","白顶啄羊鹦鹉","Nestor meridionalis",["",],["",""],"nezkak1"],
 //  ["25-00-00T00:00","CACATUID","Palm Cockatoo","棕树凤头鹦鹉","Probosciger aterrimus",[],["arb",""],"palcoc1"],
     ["15-01-08T12:31","PSITTACI","Monk Parakeet","灰胸鹦哥","Myiopsitta monachus",[["1501prbird",47],["1606florida",23]],["prsanj","S164852600","flflfl","S164261339","Lincoln Road Mall, Miami","迈阿密林肯路购物中心"]],
     ["15-01-02T07:03","PSITTACI","White-winged Parakeet","淡黄翅鹦哥","Brotogeris versicolurus",["1501prbird",3],["prprpr","S164768866","Mayagüez","马亚圭斯市"],"whwpar"],

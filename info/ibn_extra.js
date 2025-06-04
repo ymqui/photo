@@ -145,6 +145,7 @@
 //  ["25-00-00T00:00","FALCONID","Yellow-headed Caracara","黄头叫隼","Milvago chimachima",["2412flbird",],["flflfl",""],"yehcar1"],
 //  ["25-00-00T00:00","FALCONID","Eurasian Hobby","燕隼","Falco subbuteo",["2308ukbird",],["ukregp",""],"eurhob"],
 //  ["25-00-00T00:00","FALCONID","Prairie Falcon","草原隼","Falco mexicanus",["2403cobird",],["cococo","","Rocky Mountain Arsenal National Wildlife Refuge, Denver","丹佛市落基山阿森纳国家野生动物保护区"]],
+//  ["25-00-00T00:00","STRIGOPI","Kakapo","鸮面鹦鹉","Strigops habroptilus",[],["arb",""],"kakapo2"],
 //  ["25-00-00T00:00","PSITTACI","Olive-throated Parakeet","绿喉鹦哥","Eupsittula nana",["2504gtbird",],["gtmgtm",""],"oltpar1"],
 //  ["25-00-00T00:00","PSITTACI","Mealy Amazon","斑点鹦哥","Amazona farinosa",["2504gtbird",],["gtmgtm",""],"meapar"],
 //  ["25-00-00T00:00","PSITTACI","Brown-hooded Parrot","褐冠鹦哥","Pyrilia haematotis",["2504gtbird",],["gtmgtm",""],"brhpar1"],
