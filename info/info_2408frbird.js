@@ -28,7 +28,7 @@ function initAlbum(){
     }
     if(window.usechinese){
         this[1][0] = "黑顶林莺，雌性，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
-        this[1][1] = "林百灵，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
+        this[1][1] = "林鹨，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][2] = "水鹨，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][3] = "赤胸朱顶雀，雌性/未成年，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
         this[1][4] = "赭红尾鸲，雌性，奥弗涅-罗纳-阿尔卑斯大区上萨瓦省科隆比耶山隘。";
@@ -92,15 +92,15 @@ function initAlbum(){
         this[1][62] = "斑尾林鸽，巴黎市布洛涅森林。";
     }else{
         this[1][0] = "Eurasian Blackcap, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
-        this[1][1] = "Woodlark, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
+        this[1][1] = "Tree Pipit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][2] = "Water Pipit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][3] = "Eurasian Linnet, female/immature, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][4] = "Black Redstart, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][5] = "Black Redstart, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][6] = "Common Rock Thrush, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][7] = "Common Rock Thrush, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
-        this[1][8] = "Tree PiPit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
-        this[1][9] = "Tree PiPit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
+        this[1][8] = "Tree Pipit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
+        this[1][9] = "Tree Pipit, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][10] = "Northern Wheatear, juvenile, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][11] = "Eurasian Linnet, male, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
         this[1][12] = "Eurasian Linnet, female, Col de la Colombière, Haute-Savoie, Auvergne-Rhône-Alpes.";
