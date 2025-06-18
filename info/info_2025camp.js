@@ -22,6 +22,8 @@ function initAlbum(){
     j = 0;
     this[0][i]    = "20250618_1";
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
+    this[0][i]    = "20250618_2";
+    this[1][i++]  = (["Making fiber arts at VisArts summer camp","在VisArts夏令营制作纤维艺术"])[cn_ind];
 
     adddate(this);
 }
