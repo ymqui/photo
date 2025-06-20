@@ -30,6 +30,8 @@ function initAlbum(){
     this[1][i++]  = (["Making flower embroidery at VisArts summer camp","在VisArts夏令营制作花卉刺绣"])[cn_ind];
     this[0][i]    = "20250620_1";
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
+    this[0][i]    = "20250620_2";
+    this[1][i++]  = (["Cleaning up","课后清洗"])[cn_ind];
 
     adddate(this);
 }
