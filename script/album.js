@@ -466,7 +466,14 @@ function moreInfo(){
     var wattr = 'width=750,height=730,left=100,top=10,directories=yes,location=yes,';
     wattr  = wattr+'menubar=yes,resizable=yes,scrollbars=yes,status=yes,titlebar=yes,';
     wattr  = wattr+'toolbar=yes';
-    newWin = window.open(info_url,'newWin',wattr);
+    let tmp_ind = 0;
+    if (!Array.isArray(info_url)) info_url = [info_url];
+    if (window.info_ind) {
+       if (!Array.isArray(info_ind)) info_ind = [info_ind];
+       const isLarger = (element) => index > element;
+       tmp_ind = info_ind.findIndex(isLarger)+1;
+    } 
+    newWin = window.open(info_url[tmp_ind],'newWin',wattr);
     newWin.focus();
 }
 
