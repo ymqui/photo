@@ -1,5 +1,6 @@
 <!--
-var info_url   = "https://www.visartscenter.org/";
+var info_url   = ["https://www.visartscenter.org/","https://dc.madscience.org/"];
+var info_ind   = 1;
 var title      = (["2025 Summer Camp","2025夏令营"])[cn_ind];
 var dir        = maindir+"pics/2025camp/";
 var thumb_dir  = maindir+"thumbnail/";
@@ -32,6 +33,10 @@ function initAlbum(){
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
     this[0][i]    = "20250620_2";
     this[1][i++]  = (["Cleaning up","课后清洗"])[cn_ind];
+    this[0][i]    = "20250622";
+    this[1][i++]  = (["Fiber arts made at VisArts summer camp","在VisArts夏令营制作的纤维艺术"])[cn_ind];
+    this[0][i]    = "20250623_1";
+    this[1][i++]  = (["Making fiber arts at VisArts summer camp","在VisArts夏令营制作纤维艺术"])[cn_ind];
 
     adddate(this);
 }
