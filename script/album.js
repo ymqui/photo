@@ -468,10 +468,10 @@ function moreInfo(){
     wattr  = wattr+'toolbar=yes';
     let tmp_ind = 0;
     if (!Array.isArray(info_url)) info_url = [info_url];
-    if (window.info_ind) {
-       if (!Array.isArray(info_ind)) info_ind = [info_ind];
+    if (window.info_sep) {
+       if (!Array.isArray(info_sep)) info_sep = [info_sep];
        const isLarger = (element) => index > element;
-       tmp_ind = info_ind.findIndex(isLarger)+1;
+       tmp_ind = info_sep.findIndex(isLarger)+1;
     } 
     newWin = window.open(info_url[tmp_ind],'newWin',wattr);
     newWin.focus();
