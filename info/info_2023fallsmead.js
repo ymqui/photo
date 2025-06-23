@@ -75,7 +75,7 @@ function initAlbum(){
     this[0][i]    = ["20240531_1","20240531_2"];
     this[1][i++]  = (["Playing basketball with Nathan W. at the end-of-year community celebration","在庆祝学年结束社区活动中和朋友Nathan W.一起打篮球"])[cn_ind];
     this[0][i]    = "20240607";
-    this[1][i++]  = (["Mrs Donovan's kindergarten class photo taken during the end-of-year graduation party","庆祝学年结束活动中拍摄的Donovan老师的幼儿园班级照片"])[cn_ind];
+    this[1][i++]  = (["Mrs Donovan's kindergarten class photo taken during the end-of-year graduation party","庆祝学年结束联欢会中拍摄的Donovan老师的幼儿园班级照片"])[cn_ind];
     this[0][i]    = "20240919";
     this[1][i++]  = (["Mrs. Wasser telling parents about the 1st grade science curriculum at the back to school night","Wasser老师在返校之夜向家长讲述一年级的科学课程规划"])[cn_ind];
     this[0][i]    = "20241014";
@@ -102,6 +102,12 @@ function initAlbum(){
     this[1][i++]  = (["Shape party","班里举行形状派对"])[cn_ind];
     this[0][i]    = "20250517";
     this[1][i++]  = (["Playing with Jason at Fallsmead's 50th anniversary celebration","在Fallsmead小学50周年庆典上和朋友Jason一起玩"])[cn_ind];
+    this[0][i]    = "20250610_1";
+    this[1][i++]  = (["End-of-year party","学校年终联欢会"])[cn_ind];
+    this[0][i]    = ["20250610_2","20250610_3"];
+    this[1][i++]  = (["End-of-year party","学校年终联欢会"])[cn_ind];
+    this[0][i]    = ["20250610_4","20250610_5"];
+    this[1][i++]  = (["Mrs Wasser's 1st grade class photo taken during the end-of-year party","庆祝学年结束联欢会中拍摄的Wasser老师的一年级班级照片"])[cn_ind];
 
     adddate(this);
 }
