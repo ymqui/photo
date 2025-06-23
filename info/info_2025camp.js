@@ -1,6 +1,6 @@
 <!--
 var info_url   = ["https://www.visartscenter.org/","https://dc.madscience.org/"];
-var info_ind   = 1;
+var info_sep   = 0;
 var title      = (["2025 Summer Camp","2025夏令营"])[cn_ind];
 var dir        = maindir+"pics/2025camp/";
 var thumb_dir  = maindir+"thumbnail/";
@@ -38,6 +38,7 @@ function initAlbum(){
     this[0][i]    = "20250623_1";
     this[1][i++]  = (["Making fiber arts at VisArts summer camp","在VisArts夏令营制作纤维艺术"])[cn_ind];
 
+    info_sep      = i;    //madscience starts
     adddate(this);
 }
 
