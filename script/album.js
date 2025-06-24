@@ -470,8 +470,12 @@ function moreInfo(){
     if (!Array.isArray(info_url)) info_url = [info_url];
     if (window.info_sep) {
        if (!Array.isArray(info_sep)) info_sep = [info_sep];
-       const isLarger = (element) => index > element;
-       tmp_ind = info_sep.findIndex(isLarger)+1;
+       for (let ii = 0; ii < info_sep.length; ii++) {
+           if (index>=info_sep[ii]){
+              tmp_ind = ii+1;
+              break;
+           }
+       }
     } 
     newWin = window.open(info_url[tmp_ind],'newWin',wattr);
     newWin.focus();
