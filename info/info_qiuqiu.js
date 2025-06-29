@@ -463,6 +463,10 @@ function initAlbum(){
     this[1][i++]  = (["Climbing a tree outside the home","在家外头爬树"])[cn_ind];
     this[0][i]    = ["2505williamsburg/2505williamsburg_1","20250525"];
     this[1][i++]  = pagelink("2505williamsburg",(["Visiting the Colonial Williamsburg in Virginia during the Memorial Day weekend","阵亡将士纪念日周末参观弗吉尼亚州威廉斯堡"])[cn_ind]);
+    this[0][i]    = ["20250615_009_Crochet","20250615_11_Crochet"];
+    this[1][i++]  = (["Making a crochet bag","手工制作钩针编织包"])[cn_ind];
+    this[0][i]    = "20250627_013_PuppetShow";
+    this[1][i++]  = ([urllink(url=("https://youtu.be/GIj7jbSRHsI"),"Performing a puppet show (YouTube Video)"),urllink(url,"表演木偶戏(YouTube视频)")])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
