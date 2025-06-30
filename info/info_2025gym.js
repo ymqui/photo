@@ -1,6 +1,6 @@
 <!--
 var info_url   = "https://www.dominiquedawesgymnasticsacademy.com/";
-var title      = (["Nathan at Dominique Dawes Gymnastics & Ninja Academy","球球在Dominique Dawes体操馆学体操"])[cn_ind];
+var title      = (["Nathan at Dominique Dawes Gymnastics & Ninja Academy","球球在多米尼克·道斯体操馆学体操"])[cn_ind];
 var dir        = maindir+"pics/2025gym/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
@@ -26,6 +26,8 @@ function initAlbum(){
     this[1][i++]  = (["Practicing at the gym","在体操馆练习"])[cn_ind];
     this[0][i]    = "20250621_1";
     this[1][i++]  = ([urllink((url="https://youtube.com/shorts/3g9RT4JcxDo?feature=share"),"Taking gymnastics class at the Gym (YouTube video)"),urllink(url,"在体操馆学体操(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["20250628_1","20250628_2"];
+    this[1][i++]  = ([urllink((url="https://youtu.be/lB__J5EJzFA"),"Taking gymnastics class at the Gym (YouTube video)"),urllink(url,"在体操馆学体操(YouTube视频)")])[cn_ind];
 
     adddate(this);
 }
