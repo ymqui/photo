@@ -411,6 +411,8 @@ var birds = myBirds([
 //  ["25-00-00T00:00","HYDROBAT","Fork-tailed Storm-Petrel","灰蓝叉尾海燕","Hydrobates furcatus",[],["arb",""]],
     ["23-06-16T13:23","PROCELLA","Northern Fulmar","暴雪鹱","Fulmarus glacialis",["2306isbird",[5,14,40]],["islisl","S141703789","Light morph, Hólmavík, Westfjords","西峡湾区侯尔马维克小镇","islisl","S141713912","Light morph, Drangsnes, Westfjords","西峡湾区德朗斯内斯小镇","islisl","S142692860","Light morph, Hvitserkur, Northwestern Region","西北地区犀牛石"]],
     ["21-08-12T07:08","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",["2108racepoint",12],["marace","S163502506"],"corshe"],
+//  ["25-00-00T00:00","PROCELLA","Scopoli's Shearwater","斯氏鹱","Calonectris diomedea",["2507seabird",],["mamama","S257610840","Whale Watch Plymouth","普利茅斯海洋观鲸"],"scoshe1"],
+//  ["25-00-00T00:00","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",["2507seabird",],["mamama","S257610932","Whale Watch Plymouth","普利茅斯海洋观鲸"]],
     ["21-08-11T14:44","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",["2108racepoint",[7,8]],["marace","S163501862"]],
     ["21-08-12T07:37","PROCELLA","Manx Shearwater","大西洋鹱","Puffinus puffinus",["2108racepoint",13],["marace","S163502506"],"manshe"],
     ["05-12-25T10:44","CICONIID","Wood Stork","黑头鹮鹳","Mycteria americana",["1112flbird",17],["flevnp","S167833635"]],
