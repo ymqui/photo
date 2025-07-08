@@ -1391,6 +1391,11 @@
   info[2][j] = 2;
   info[3][j] = "4/2025 Guatemala Birding";
   info[4][j++] = "Birding in Guatemala (Guatemala).";
+  info[0][j] = "2507seabird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "7/2025 Plymouth Birding";
+  info[4][j++] = "Birding with Plymouth Whale Watching (Massachusetts).";
 
   if(window.usechinese){
      j = 0;
@@ -1946,6 +1951,8 @@
      info[4][j++] = "在佛罗里达观鸟(佛罗里达州)。";
      info[3][j]   = "4/2025 危地马拉观鸟";
      info[4][j++] = "在危地马拉观鸟(危地马拉)。";
+     info[3][j]   = "7/2025 普利茅斯远洋观鸟";
+     info[4][j++] = "普利茅斯观鲸远洋观鸟(马萨诸塞州)。";
   } 
 
   //special touch
@@ -1964,5 +1971,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2025-04-30T08:00:00");
+  var modDat = new Date("2025-07-08T08:00:00");
 //-->

@@ -311,6 +311,11 @@
   info[2][j] = 2;
   info[3][j] = "4/2025 Guatemala Birding";
   info[4][j++] = "Birding in Guatemala (Guatemala).";
+  info[0][j] = "2507seabird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "7/2025 Plymouth Birding";
+  info[4][j++] = "Birding with Plymouth Whale Watching (Massachusetts).";
 
   if(window.usechinese){
      j = 0;
@@ -434,6 +439,8 @@
      info[4][j++] = "在佛罗里达观鸟(佛罗里达州)。";
      info[3][j]   = "4/2025 危地马拉观鸟";
      info[4][j++] = "在危地马拉观鸟(危地马拉)。";
+     info[3][j]   = "7/2025 普利茅斯远洋观鸟";
+     info[4][j++] = "普利茅斯观鲸远洋观鸟(马萨诸塞州)。";
   } 
 
   //special touch
@@ -450,7 +457,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2025-04-30T12:00:00");
+  var modDat1 = new Date("2025-07-08T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
