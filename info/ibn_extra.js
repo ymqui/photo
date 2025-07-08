@@ -86,6 +86,7 @@
 //  ["25-00-00T00:00","SPHENISC","Galapagos Penguin","加岛企鹅","Spheniscus mendiculus",[],["mdbhrp","1/2023,"],"galpen1"],
 //  ["25-00-00T00:00","SPHENISC","African Penguin","南非企鹅","Spheniscus demersus",[],["mdbhrp","1/2023,"],"jacpen1",556],
 //  ["25-00-00T00:00","HYDROBAT","Leach's Storm-Petrel","白腰叉尾海燕","Hydrobates leucorhous",["",],["mamama","","Whale Watch Plymouth","普利茅斯海洋观鲸"]],
+//  ["25-00-00T00:00","PROCELLA","Scopoli's Shearwater","斯氏鹱","Calonectris diomedea",["2507seabird",],["mamama","S257610840","Whale Watch Plymouth","普利茅斯海洋观鲸"],"scoshe1"],
 //  ["25-00-00T00:00","PROCELLA","Sargasso Shearwater","奥氏鹱","Puffinus lherminieri",[],["fldtnp","1/2023,"],"audshe"],
 //  ["25-00-00T00:00","SULIDAE ","Red-footed Booby","红脚鲣鸟","Sula sula",["2412prbird",],["prprpr",""]],
 //  ["25-00-00T00:00","PHALACRO","Japanese Cormorant","暗绿背鸬鹚","Phalacrocorax capillatus",["2312cnbird",],["jphaap","S157775175"],"japcor1"],
