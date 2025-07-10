@@ -51,6 +51,8 @@ function initAlbum(){
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
     this[0][i]    = "20250707_1";
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
+    this[0][i]    = "20250710_1";
+    this[1][i++]  = (["A painting made at VisArts summer camp","在VisArts夏令营画的画"])[cn_ind];
 
     info_sep      = i;    //madscience starts
     adddate(this);
