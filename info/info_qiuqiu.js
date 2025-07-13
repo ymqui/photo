@@ -35,6 +35,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],["2503liberty","3/2025 Statute of Liberty","3/2025 参观自由女神像"],
                   ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Colonial Williamsburg","5/2025 威廉斯堡"],
                   ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],
+                  ["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" Dominique Dawes体操馆"],["2025camp","6/2025-"+strDate+" Summer Camp","6/2025-"+strDate+" 夏令营"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
@@ -467,6 +468,10 @@ function initAlbum(){
     this[1][i++]  = (["Making a crochet bag","手工制作钩针编织包"])[cn_ind];
     this[0][i]    = "20250627_013_PuppetShow";
     this[1][i++]  = ([urllink(url=("https://youtu.be/GIj7jbSRHsI"),"Performing a puppet show (YouTube Video)"),urllink(url,"表演木偶戏(YouTube视频)")])[cn_ind];
+    this[0][i]    = ["2507plymouth/2507plymouth_2","20250704"];
+    this[1][i++]  = (["Sharing a cupcake with Mom during "+pagelink("2507plymouth","the whale watching trip to Plymouth"),"在"+pagelink("2507plymouth","普利茅斯观鲸度假")+"时和妈妈分享蛋糕"])[cn_ind];
+    this[0][i]    = ["2507plymouth/2507plymouth_14","20250705"];
+    this[1][i++]  = pagelink("2507plymouth",(["Whale watching in Plymouth, Masssachusetts","在马萨诸塞州普利茅斯观鲸"])[cn_ind]);
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
