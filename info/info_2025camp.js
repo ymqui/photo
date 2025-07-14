@@ -55,7 +55,7 @@ function initAlbum(){
     this[1][i++]  = (["A painting made at VisArts summer camp","在VisArts夏令营画的画"])[cn_ind];
     info_sep      = i;    //madscience starts
     this[0][i]    = ["20250714_1","20250714_2"];
-    this[1][i++]  = (["Looking a little bit disappointed at the Mad Science summer camp on the first day","第一天参加疯狂科学夏令营时看起来有点失望"])[cn_ind];
+    this[1][i++]  = (["Looking a little bit disappointed at the Mad Science summer camp on the first day","第一天参加疯狂科学夏令营，看起来有点失望"])[cn_ind];
 
 
     adddate(this);
