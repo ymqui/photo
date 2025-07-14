@@ -17,6 +17,7 @@ homeurl        = homeurl+"showphoto.html?qiuqiu";
 if(window.usechinese){
     title      = "在普利茅斯观鲸";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
+    info_url[0] = "https://baike.baidu.com/item/%E6%99%AE%E5%88%A9%E8%8C%85%E6%96%AF/734782";
 }
  
 document.title = title;
