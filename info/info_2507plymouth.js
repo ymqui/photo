@@ -1,6 +1,7 @@
 <!--
 //Created by Album Builder Program Sun Jul 13 11:11:25 2025
-var info_url   = "https://www.captjohn.com/";
+var info_url   = ["https://seeplymouth.com/","https://www.captjohn.com/"];
+var info_sep   = 0;
 var title      = "Whale Watching in Plymouth";
 var cam_img    = "camera_canon_6d.jpg";
 var cam_tit    = "Canon SLR EOS 6D, 20.2 Mega Pixels.";
@@ -28,6 +29,7 @@ function initAlbum(){
         this[0][i] = "2507plymouth_"+(i+1).toString();
         this[1][i] = "";
     }
+    info_sep =  13;
     if(window.usechinese){
         this[1][0] = "在码头酒馆糕点店吃蛋糕。";
         this[1][1] = "和妈妈分享蛋糕。";
