@@ -472,6 +472,8 @@ function initAlbum(){
     this[1][i++]  = (["Sharing a cupcake with Mom during "+pagelink("2507plymouth","the whale watching trip to Plymouth"),"在"+pagelink("2507plymouth","普利茅斯观鲸度假")+"时和妈妈分享蛋糕"])[cn_ind];
     this[0][i]    = ["2507plymouth/2507plymouth_14","20250705"];
     this[1][i++]  = pagelink("2507plymouth",(["Whale watching in Plymouth, Masssachusetts","在马萨诸塞州普利茅斯看鲸鱼"])[cn_ind]);
+    this[0][i]    = "20250727_TimesTable";
+    this[1][i++]  = (["Reading the multiplication table","读乘法口诀表"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
