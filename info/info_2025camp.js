@@ -56,7 +56,8 @@ function initAlbum(){
     info_sep      = i;    //madscience starts
     this[0][i]    = ["20250714_1","20250714_2"];
     this[1][i++]  = (["Looking a little bit disappointed at the Mad Science summer camp on the first day","第一天参加疯狂科学夏令营，看起来有点失望"])[cn_ind];
-
+    this[0][i]    = "20250807";
+    this[1][i++]  = (["Ready to head home from the Mad Science summer camp","准备从疯狂科学夏令营回家"])[cn_ind];
 
     adddate(this);
 }
