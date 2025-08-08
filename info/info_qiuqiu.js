@@ -36,7 +36,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Colonial Williamsburg","5/2025 威廉斯堡"],
                   ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
                   ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],
-                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" Dominique Dawes体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
+                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
 
