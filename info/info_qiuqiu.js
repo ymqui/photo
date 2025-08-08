@@ -34,9 +34,9 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2409nga","9/2024 Paris 1874 Exhibition","9/2024 巴黎1874印象派时刻画展"],["2411niagara","11/2024 Niagara Falls","11/2024 尼亚加拉大瀑布"],
                   ["2412florida","12/2024 Vacationing in Florida","12/2024 佛罗里达州度假"],["2503liberty","3/2025 Statute of Liberty","3/2025 参观自由女神像"],
                   ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Colonial Williamsburg","5/2025 威廉斯堡"],
-                  ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],
-                  ["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
-                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" Dominique Dawes体操馆"],["2025camp","6/2025-"+strDate+" Summer Camp","6/2025-"+strDate+" 夏令营"]];
+                  ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
+                  ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],
+                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" Dominique Dawes体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2030) {pagelist = pagelist.concat([["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]]);} 
 if (thisyear>2026) {pagelist = pagelist.concat([["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]]);} 
 
