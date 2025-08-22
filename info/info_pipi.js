@@ -11,7 +11,8 @@ var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?pipi";
- 
+var pagelist   = [["qiqi","Qiqi's Photos","妈妈的照片"]];
+
 document.title = title;
  
 function initAlbum(){
