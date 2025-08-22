@@ -21,6 +21,16 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
+    this[0][i]    = "20250409_1";
+    this[1][i++]  = (["Taking a bath","洗澡"])[cn_ind];
+    this[0][i]    = "20250409_2";
+    this[1][i++]  = (["Cutie boy","可爱的皮皮"])[cn_ind];
+    this[0][i]    = "20250411_1";
+    this[1][i++]  = (["Yawning","困了"])[cn_ind];
+    this[0][i]    = ["20250414_1","20250614_1"];
+    this[1][i++]  = (["Taking a nap","打个盹"])[cn_ind];
+    this[0][i]    = "20250723_1";
+    this[1][i++]  = (["Cutie boy","可爱的皮皮"])[cn_ind];
     this[0][i]    = "20250810_1";
     this[1][i++]  = (["Cutie boy","可爱的皮皮"])[cn_ind];
     this[0][i]    = ["20250813_1","20250813_2","20250813_3"];
