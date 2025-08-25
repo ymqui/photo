@@ -32,13 +32,15 @@ function initAlbum(){
     this[0][i]    = "20250411_1";
     this[1][i++]  = (["Yawning","困了"])[cn_ind];
     this[0][i]    = "20250414_1";
+    this[1][i++]  = (["Taking a nap","打个盹"])[cn_ind];
+    this[0][i]    = "20250414_2";
     this[1][i++]  = (["Swimming for the first time","第一次游泳"])[cn_ind];
     this[0][i]    = ["20250417_1","20250417_2","20250417_3","20250417_4"];
     this[1][i++]  = (["Studio photoshoot","第17天拍的艺术照"])[cn_ind];
-    this[0][i]    = ["20250414_1","20250614_1"];
-    this[1][i++]  = (["Taking a nap","打个盹"])[cn_ind];
     this[0][i]    = "20250610_1";
     this[1][i++]  = (["Pipi can raise his head very well now","抬头很稳了"])[cn_ind];
+    this[0][i]    = "20250614_1";
+    this[1][i++]  = (["Taking a nap","打个盹"])[cn_ind];
     this[0][i]    = "20250629_1";
     this[1][i++]  = (["Having a fever for the first time","第一次发烧生病了"])[cn_ind];
     this[0][i]    = "20250720_1";
