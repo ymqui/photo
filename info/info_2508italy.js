@@ -171,7 +171,7 @@ function initAlbum(){
         this[1][49] = "Walking Via Toledo at night in Naples.";
         this[1][50] = "Pizza delivery at Via Toledo.";
         this[1][51] = "At Galleria Umberto I, a shopping gallery in Naples.";
-        this[1][52] = "Performance at Galleria Umberto I.";
+        this[1][52] = "Street performance at Galleria Umberto I.";
         this[1][53] = "Visiting Trevi Fountain in Rome.";
         this[1][54] = "Trevi Fountain in Rome.";
         this[1][55] = "Visiting Trevi Fountain in Rome.";
@@ -192,7 +192,7 @@ function initAlbum(){
         this[1][70] = "Visiting the Colosseum in Rome.";
         this[1][71] = "Arch of Titus at Roman Forum.";
         this[1][72] = "Visiting the Roman Forum, the center of the ancient Rome.";
-        this[1][73] = "Our guide showing a comparison of the Forum in its heyday and the current state.";
+        this[1][73] = "Our guide showing a comparison of the Forum in its heyday and the present day.";
         this[1][74] = "At the Roman Forum.";
         this[1][75] = "In front of Altare della Patria national monument in Rome.";
         this[1][76] = "Visiting the Pantheon in Rome.";
