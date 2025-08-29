@@ -194,7 +194,7 @@ function initAlbum(){
         this[1][72] = "Visiting the Roman Forum, the center of the ancient Rome.";
         this[1][73] = "Our guide showing a comparison of the Forum in its heyday and the current state.";
         this[1][74] = "At the Roman Forum.";
-        this[1][75] = "In front of Altar della Patria in Rome.";
+        this[1][75] = "In front of Altare della Patria national monument in Rome.";
         this[1][76] = "Visiting the Pantheon in Rome.";
         this[1][77] = "In front of the WWI Memoral of Postal Workers in Rome.";
         this[1][78] = "Church Saint Ignatius Loyola in Rome.";
@@ -205,9 +205,9 @@ function initAlbum(){
         this[1][83] = "Taking a family selfie at Castel Sant'Angelo in Rome.";
         this[1][84] = "Visiting Vatican City.";
         this[1][85] = "Visiting Vatican City.";
-        this[1][86] = "Visiting Basilica di San Pietro in Vatican City.";
-        this[1][87] = "Visiting Basilica di San Pietro in Vatican City.";
-        this[1][88] = "Visiting Basilica di San Pietro in Vatican City.";
+        this[1][86] = "Visiting Saint Peter’s Basilica in Vatican City.";
+        this[1][87] = "Visiting Saint Peter’s Basilica in Vatican City.";
+        this[1][88] = "Visiting Saint Peter’s Basilica in Vatican City.";
     }
     makeface = new Array();
     makeface[0] = 19;
