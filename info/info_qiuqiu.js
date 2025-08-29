@@ -477,7 +477,8 @@ function initAlbum(){
     this[0][i]    = ["2508italy/2508italy_22","2508italy/2508italy_68",["20250812","20250818"]];
     this[1][i++]  = ([["Visiting the Leaning Tower of Pisa during the "+pagelink("2508italy","vacation in Italy"),"Visiting the Colosseum in Rome during the "+pagelink("2508italy","vacation in Italy")],
                     [pagelink("2508italy","在意大利度假")+"时参观比萨斜塔",pagelink("2508italy","在意大利度假")+"时参观罗马斗兽场"]])[cn_ind];
-
+    this[0][i]    = ["2508italy/2508italy_85","20250819"];
+    this[1][i++]  = (["Visiting the Vatican City during the "+pagelink("2508italy","vacation in Italy"),pagelink("2508italy","在意大利度假")+"时参观梵蒂冈城"])[cn_ind];
 
     if (/birthday/.test(window.location.search.substring(1))) {
        var n_id = 0;
