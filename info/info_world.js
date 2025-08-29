@@ -12,7 +12,8 @@ var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/
                   ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"],
                   ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+coltext("Iceland"),"6/2023 "+coltext("冰岛")+"度假"],
                   ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"],["2312china","12/2023 Vacationing in "+coltext("China"),"12/2023 "+coltext("中国")+"度假"],
-                  ["2408france","8/2024 Vacationing in "+coltext("France"),"8/2024 "+coltext("法国")+"度假"]];
+                  ["2408france","8/2024 Vacationing in "+coltext("France"),"8/2024 "+coltext("法国")+"度假"],["2504guatemala","4/2025 Vacationing in "+coltext("Guatemala"),"4/2025 "+coltext("危地马拉")+"度假"],
+                  ["2508italy","8/2025 Vacationing in "+coltext("Italy"),"8/2025 "+coltext("意大利")+"度假"]];
 
 document.title = title;
 
@@ -50,6 +51,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("2408france",(["Eiffel Tower, Paris, "+btext("France"),btext("法国")+"巴黎艾菲尔铁塔"])[cn_ind]);
     this[0][i]    = ["20250413_Guatemala","20250419_Guatemala"];
     this[1][i++]  = ([[pagelink("2504guatemala","Temple I, Tikal National Park, Petén, "+btext("Guatemala")),pagelink("2504guatemala","Santa Catalina Arch, Antigua Guatemala, Sacatepéquez, "+btext("Guatemala"))],[pagelink("2504guatemala",btext("危地马拉")+"佩滕省蒂卡尔国家公园1号神殿"),pagelink("2504guatemala",btext("危地马拉")+"萨卡特佩克斯省安提瓜危地马拉市圣卡塔利娜拱门")]])[cn_ind];
+    this[0][i]    = ["20250810_Italy","20250812_Italy","20250818_Italy"];
+    this[1][i++]  = ([[pagelink("2508italy","Piazza Michelangelo, Florence, Tuscany, "+btext("Italy")),pagelink("2508italy","Leaning Tower of Pisa, Tuscany, "+btext("Italy")),pagelink("2508italy","Colosseum, Rome, Lazio, "+btext("Italy"))],[pagelink("2508italy",btext("意大利")+"托斯卡纳大区佛罗伦萨市米开朗基罗广场"),pagelink("2508italy",btext("意大利")+"托斯卡纳大区比萨斜塔"),pagelink("2508italy",btext("意大利")+"拉齐奥大区罗马市斗兽场")]])[cn_ind];
 
     adddate(this);
 }
