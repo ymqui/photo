@@ -1396,6 +1396,11 @@
   info[2][j] = 2;
   info[3][j] = "7/2025 Plymouth Birding";
   info[4][j++] = "Birding with Plymouth Whale Watching (Massachusetts).";
+  info[0][j] = "2508itbird";
+  info[1][j] = 5;
+  info[2][j] = 2;
+  info[3][j] = "8/2025 Italy Birding";
+  info[4][j++] = "Birding in Italy (Italy).";
 
   if(window.usechinese){
      j = 0;
@@ -1953,6 +1958,8 @@
      info[4][j++] = "在危地马拉观鸟(危地马拉)。";
      info[3][j]   = "7/2025 普利茅斯远洋观鸟";
      info[4][j++] = "普利茅斯观鲸远洋观鸟(马萨诸塞州)。";
+     info[3][j]   = "8/2025 意大利观鸟";
+     info[4][j++] = "在意大利观鸟(危地马拉)。";
   } 
 
   //special touch
@@ -1971,5 +1978,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2025-07-08T08:00:00");
+  var modDat = new Date("2025-08-30T08:00:00");
 //-->
