@@ -1978,5 +1978,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2025-08-30T08:00:00");
+  var modDat = new Date("2025-08-31T08:00:00");
 //-->
