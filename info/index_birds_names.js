@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-07-08");
+var modTim = modTime("2025-08-30");
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -129,7 +129,8 @@ var birds = myBirds([
     ["23-06-23T12:05","ANATIDAE","Common Shelduck","翘鼻麻鸭","Tadorna tadorna",["2306isbird",[68,69]],["islisl","S142430735","Female, "+(t1="Bakkatjörn, Capital Region"),(t2="首都地区巴卡特约恩湖"),"islisl","S142430735","Juvenile, "+t1,t2],"comshe"],
     ["16-06-10T09:27","ANATIDAE","Muscovy Duck","疣鼻栖鸭","Cairina moschata",[["1606florida",12],["1812crbird",13]],["flflfl","S164260645","Plantation Preserve, Broward County","布劳沃德郡种植园保留地","crsanj","S163842934","La Sabana Park","萨瓦纳公园"]],
     ["06-04-17T17:21","ANATIDAE","Wood Duck","林鸳鸯","Aix sponsa",["160514_055",["1512bhill",27],["1408fingerlake",13]],["nyjbwr","S164376133","Male","mdbhrp","6/2015,S165061461","Female and chicks","usausa","S167507235","Eclipse male, Montezuma National Wildlife Refuge, New York","纽约州蒙特祖玛国家野生动物保护区"]],
-    ["23-08-08T11:58","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",[["2312cnbird",[4,3]],["2308ukbird",36]],["cnbjbj","S157702328","Male, Taoranting Park","陶然亭公园","cnbjbj","S157702328","Female, Taoranting Park","陶然亭公园","uklwcn","S146754960","Juvenile"],"manduc"],
+    ["23-08-08T11:58","ANATIDAE","Mandarin Duck","鸳鸯","Aix galericulata",[["2312cnbird",[4,3]],["2308ukbird",36]],["cnbjbj","S157702328","Male, Taoranting Park","陶然亭公园","cnbjbj","S157702328","Female, Taoranting Park","陶然亭公园","uklwcn","S146754960","Juvenile"],"manduc"]
+    ["25-08-13T07:33","ANATIDAE","Garganey","白眉鸭","Spatula querquedula",["2508itbird",22],["ittusc","S266914460","Female, Fattoria L'Olmetto, Pisa","比萨市L'Olmetto农场酒店"],"gargan"],
     ["20-01-25T07:41","ANATIDAE","Cinnamon Teal","桂红鸭","Spatula cyanoptera",["2001txbirding",[29,30]],["txsnwr","S163595749","Males left, female right","txsnwr","S163595749","Males"]],
     ["07-04-29T10:46","ANATIDAE","Blue-winged Teal","蓝翅鸭","Spatula discors",["160410_036","150321_042"],["mdcocn","S164375089","Female left, male right, Riley's Lock","莱利闸","mdswhf","S165232650"]],
     ["12-03-10T09:25","ANATIDAE","Northern Shoveler","琵嘴鸭","Spatula clypeata",["151122_129","150228_019"],["vahump","S165531350","Male left, females right","mdftmh","S165086838"]],

@@ -3,7 +3,6 @@
 //  ["25-00-00T00:00","CASUARII","Emu","鸸鹋","Dromaius novaehollandiae",[],["mdbhrp","1/2023,"],"emu1"],
 //  ["25-00-00T00:00","ANATIDAE","West Indian Whistling-Duck","西印度树鸭","Dendrocygna arborea",["2412prbird",],["prprpr",""],"wiwduc1"],
 //  ["25-00-00T00:00","ANATIDAE","Black Swan","黑天鹅","Cygnus atratus",["2408frbird",],["frpopg",""],"blkswa","黑天鹅/552"],
-//  ["25-00-00T00:00","ANATIDAE","Garganey","白眉鸭","Spatula querquedula",["2508itbird",],["itlitl",""],"gargan"],
 //  ["25-00-00T00:00","ANATIDAE","Ferruginous Duck","白眼潜鸭","Aythya nyroca",["2508itbird",],["itlitl",""],"ferduc"],
 //  ["25-00-00T00:00","ANATIDAE","White-cheeked Pintail","白脸针尾鸭","Anas bahamensis",["2412prbird",],["prprpr",""],"whcpin"],
 //  ["25-00-00T00:00","ANATIDAE","Velvet Scoter","丝绒海番鸭","Melanitta fusca",["",],["",""],"whwsco3",213],
