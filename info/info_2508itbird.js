@@ -87,7 +87,7 @@ function initAlbum(){
         this[1][57] = "绿头鸭，瓦里科尼绿洲。";
         this[1][58] = "林鹬，瓦里科尼绿洲。";
         this[1][59] = "林鹬，瓦里科尼绿洲。";
-        this[1][60] = "灰白喉林莺，雌性，瓦里科尼绿洲。";
+        this[1][60] = "灰白喉林莺，雌性/未成年，瓦里科尼绿洲。";
         this[1][61] = "白骨顶，Regi Lagni运河口。";
         this[1][62] = "普通鸬鹚，Regi Lagni运河口。";
         this[1][63] = "西牛背鹭，Regi Lagni运河口。";
@@ -180,7 +180,7 @@ function initAlbum(){
         this[1][57] = "Mallard, Variconi Oasis.";
         this[1][58] = "Wood Sandpiper, Variconi Oasis.";
         this[1][59] = "Wood Sandpiper, Variconi Oasis.";
-        this[1][60] = "Greater Whitethroat, female, Variconi Oasis.";
+        this[1][60] = "Greater Whitethroat, female/immature, Variconi Oasis.";
         this[1][61] = "Eurasian Coot, Foce dei Regi Lagni.";
         this[1][62] = "Great Cormorant, Foce dei Regi Lagni.";
         this[1][63] = "Western Cattle Egret, Foce dei Regi Lagni.";
