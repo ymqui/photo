@@ -18,7 +18,7 @@
          style_b = "";
          style_e = "";
       }
-      if (modBrd.newbird[i] && (!all_new)){
+      if (modBrd.newbird[i]){
          style_b = "<strong>"+style_b;
          style_e = style_e+"</strong>";
       }
