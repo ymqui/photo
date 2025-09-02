@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-08-30",31);
+var modTim = modTime("2025-08-30",30);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -581,7 +581,7 @@ var birds = myBirds([
     ["20-01-23T11:47","FALCONID","Crested Caracara","凤头巨隼","Caracara plancus",["2001txbirding",[10,11]],["txanwr","S163591767"]],
     ["18-12-05T13:19","FALCONID","Laughing Falcon","笑隼","Herpetotheres cachinnans",["1812crbird",64],["crarol","S163930535"],"laufal1"],
     ["24-08-18T09:00","FALCONID","Lesser Kestrel","黄爪隼","Falco naumanni",["2408frbird",[26,27]],["frrncc","S193135708","Male","frrncc","S193135708","Female"],"leskes1"],
-    ["23-08-10T12:00","FALCONID","Eurasian Kestrel","红隼","Falco tinnunculus",[["2508itbird",71],["2308ukbird",61],["2408frbird",23]],["itcamp","S267669915","Mouth of Regi Lagni","Regi Lagni运河口","ukdove","S146958151","Female","frrncc","S193135708","Female"],"eurkes"],
+    ["23-08-10T12:00","FALCONID","Eurasian Kestrel","红隼","Falco tinnunculus",[["2508itbird",71],["2308ukbird",61],["2408frbird",23]],["itcamp","S267669915","Male, Mouth of Regi Lagni","Regi Lagni运河口","ukdove","S146958151","Female","frrncc","S193135708","Female"],"eurkes"],
     ["15-03-21T10:26","FALCONID","American Kestrel","美洲隼","Falco sparverius",["150321_041","231014_188",["2412flbird",15]],["mdftmh","S165232295","Male","mdredg","S152231654","Male","flflfl","S206948451","Female, Frog Pond Wildlife Management Area, Miami-Dade County","迈阿密-戴德郡蛙塘野生动物管理区"]],
     ["15-03-02T10:16","FALCONID","Merlin","灰背隼","Falco columbarius",["161204_134",["2204flbird",16],["1609vcbird",16]],["nyjbsp","S164739884","Male (Taiga)","","雄性(泰加林种)","fldtnp","S108548976","cactnw","S164259549"]],
     ["23-06-18T11:20","FALCONID","Gyrfalcon","矛隼","Falco rusticolus",["2306isbird",38],["islisl","S142038589","Immature gray morph, Borðeyri, Westfjords","西峡湾区Borðeyri村","未成年灰色型"]],
