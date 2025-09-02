@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-08-30");
+var modTim = modTime("2025-08-30",30);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -451,7 +451,7 @@ var birds = myBirds([
     ["05-12-25T09:59","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",[["1112flbird",18],["0512everglades",20]],["flevnp","S167833635","flevnp","S168111420"]],
     ["11-12-30T11:43","ARDEIDAE","Reddish Egret","棕颈鹭","Egretta rufescens",["111230_051"],["flmnwr","S167834079","White morph","","白色型"]],
     ["05-12-28T09:36","ARDEIDAE","Snowy Egret","雪鹭","Egretta thula",["1112flbird",20],["flevnp","S167833635"]],
-    ["16-01-07T14:51","ARDEIDAE","Little Egret","白鹭","Egretta garzetta",[["1601china",37],["2312cnbird",139],["2408frbird",42]],["arb","S164338046","The Bund, Shanghai, China","中国上海外滩","jphaap","S157775175","frpopg","S193138851"],"litegr","小白鹭"],
+    ["16-01-07T14:51","ARDEIDAE","Little Egret","白鹭","Egretta garzetta",[["1601china",37],["2312cnbird",139],["2408frbird",42],["2508itbird",81]],["arb","S164338046","The Bund, Shanghai, China","中国上海外滩","jphaap","S157775175","frpopg","S193138851","itrome","S268182597","Villa Borghese","博尔盖塞公园"],"litegr","小白鹭"],
     ["23-01-27T12:53","ARDEIDAE","Striated Heron","绿鹭","Butorides striata",["2301pabird",141],["papuru","S127054013"],"strher"],
     ["05-12-25T15:48","ARDEIDAE","Green Heron","美洲绿鹭","Butorides virescens",["200616_040",["1412mckee",4],"200617_048","2007cobird/20070811_117"],["mdmwma","S165015945","mdmwma","8/2014,S167438962","mdmwma","S163641476","mdcocn","S167936416","Juvenile, Riley's Lock","莱利闸"]],
     ["25-08-11T11:32","ARDEIDAE","Squacco Heron","白翅黄池鹭","Ardeola ralloides",["2508itbird",[12,69]],["ittusc","S266684804","Lake Massaciuccoli","马萨丘科利湖","itcamp","S267669915","Mouth of Regi Lagni","Regi Lagni运河口"],"squher1"],
