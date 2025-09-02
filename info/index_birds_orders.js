@@ -87,7 +87,6 @@ var pt_chn  = ["左雄性，右雌性","繁殖羽雄性","非繁殖羽雄性","�
     "未成年浅色型","深色型","未成年深色型","幼鸟","鸟巢","雄性在鸟巢口"];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
-var all_new = true;
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
@@ -108,7 +107,6 @@ function myBirds(info){
          modBrd.name.push(el[2]);
          modBrd.cname.push(el[3]);
          modBrd.newbird.push(newb);
-         if (!newb) all_new = false;
       }
       var cinfo = [], locs = [];
       if (window.expandinfo){
