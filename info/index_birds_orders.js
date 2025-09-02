@@ -120,10 +120,11 @@ function myBirds(info){
     });
 }
 
-//return a time that is n_days before the datstr (modDat) 
+//return a time that is n_days before the datstr (modDat)
+//if n_days is not specified, return the begining of the month
 function modTime(datstr,n_days){
     modDat = new Date(datstr+"T08:00");
-    if (n_days==null) n_days = 20;
+    if (n_days==null) n_days = modDat.getDate();
     return modDat.getTime()-n_days*3600*24*1000;
 }
 
