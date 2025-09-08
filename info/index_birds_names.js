@@ -238,7 +238,7 @@ var birds = myBirds([
     ["21-05-14T09:30","CUCULIDA","Black-billed Cuckoo","黑嘴美洲鹃","Coccyzus erythropthalmus",["210514_072","210514_073"],["mdlbrp","S163433241"]],
 //  ["25-00-00T00:00","MESITORN","White-breasted Mesite","白胸拟鹑","Mesitornis variegatus",[],["arb",""],"whbmes2"],
 //  ["25-00-00T00:00","PTEROCLI","Pin-tailed Sandgrouse","白腹沙鸡","Pterocles alchata",["2508itbird",],["itlitl",""],"pitsan1"],
-    ["15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[["1501prbird",46],["1601china",5],["1905mxbird",23]],["prsanj","S164852600","cnbjbj","S164335836","Jingshan Park","景山公园","mexmex","S163772320","Adult feeding young, Guanajuato City, Guanajuato","瓜纳华托州瓜纳华托城","成年鸟喂雏鸟"]],
+    ["15-01-08T12:35","COLUMBID","Rock Pigeon","原鸽","Columba livia",[["1501prbird",46],["1601china",5],["1905mxbird",23]],["prsanj","S164852600","cnbjbj","S164335836","Jingshan Park","景山公园","mexmex","S163772320","Adult feeding young, Guanajuato City, Guanajuato","瓜纳华托州瓜纳华托城"]],
     ["23-08-11T06:34","COLUMBID","Stock Dove","欧鸽","Columba oenas",["2308ukbird",64],["ukregp","S146957264"],"stodov1"],
     ["23-08-06T07:00","COLUMBID","Common Wood-Pigeon","斑尾林鸽","Columba palumbus",[["2308ukbird",[4,50]],["2408frbird",63]],["ukregp","S146565886","ukregp","S146922493","Juvenile","frafra","S192434654","Bois de Boulogne, Paris","巴黎市布洛涅森林"]],
     ["22-05-01T07:24","COLUMBID","White-crowned Pigeon","白顶鸽","Patagioenas leucocephala",["2204flbird",26],["flflfl","5/2022,S111311543","Key West","西礁岛"]],
