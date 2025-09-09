@@ -161,11 +161,18 @@ function my_href(url,name,target){
     return tmp+">";
 }
 
-function b_link(bid,info){
-    if (info==null) info = bid;
-    if (info==='s') info = bid.trim()+'s';
+function b_link(bid,name,extra){
+    if (name==null) name = bid;
+    if (name==='s') name  = bid.trim()+'s';
+    if ((name==='right') || (name==='left')) {
+       extra = name;
+       name  = bid;
+    }
+    if (extra==null) {extra = '';}else{
+       if ((extra==='right') || (extra==='left')) extra = ' on the '+extra;
+    }
     if (order) bid = bid+'&order';
-    return my_href('showbird.html?name='+reform(bid),info);
+    return my_href('showbird.html?name='+reform(bid),name)+extra;
 }
 
 function getByCountry(id,myArray){
