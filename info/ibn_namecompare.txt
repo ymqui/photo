@@ -1,42 +1,9 @@
-Ring-necked Pheasant,				Common Pheasant
-Brant,						Brant Goose
-Common Raven,					Northern Raven
-White-winged Crossbill,				Two-barred Crossbill
-Chukar,						Chukar Partridge
-Greater Sage-Grouse,				Sage Grouse
-Gunnison Sage-Grouse,				Gunnison Grouse
-White Ibis,					American White Ibis
-Painted Redstart,				Painted Whitestart
-Eared Grebe,					Black-necked Grebe
-Rough-legged Hawk,				Rough-legged Buzzard
-Rock Pigeon,					Rock Dove
-Black-bellied Plover,				Grey Plover
-Dovekie,					Little Auk
-Crimson-fronted Parakeet,			Finsch's Parakeet
-Bank Swallow,					Sand Martin
-Cliff Swallow,					American Cliff Swallow
-Bushtit,					American Bushtit
-European Starling,				Common Starling
 Fox Sparrow,					Red Fox Sparrow
-Black-crowned Palm-Tanager,			Black-crowned Tanager
-Yellow Warbler,					American Yellow Warbler
 Yellow-rumped Warbler,				Myrtle Warbler
-Common Redpoll,					Redpoll
-Red-crowned Parrot,				Red-crowned Amazon
-Lucifer Hummingbird,				Lucifer Sheartail
-Blue-throated Mountain-gem,			Blue-throated Mountaingem
-Common Pauraque,				Pauraque
-Yellow-olive Flycatcher,			Yellow-olive Flatbill
-Arctic Loon,					Black-throated Loon
-Eurasian Blackbird,				Common Blackbird
-Eurasian Kestrel,				Common Kestrel
-Eurasian Jackdaw,				Western Jackdaw
-Eurasian Green Woodpecker,			European Green Woodpecker
-Eurasian Linnet,				Common Linnet
-Greater Whitethroat,				Common Whitethroat
-Gray Flycatcher,				American Grey Flycatcher
-Eastern Red-rumped Swallow,                     Red-rumped Swallow
-Redpoll,                                        Common Redpoll
-Slate-throated Redstart,			Slate-throated Whitestart
-Northern Emerald-Toucanet,			Emerald Toucanet
+Northern Emerald Toucanet,			Emerald Toucanet
+Common Hoopoe,					Eurasian Hoopoe
+Graceful Black-throated Trogon,			Northern Black-throated Trogon
+Eastern Red-legged Thrush,			Red-legged Thrush
+Blue Mountain Elaenia,				Greater Antillean Elaenia
+Ochre-crowned Greenlet,				Tawny-crowned Greenlet	
 
