@@ -11,69 +11,72 @@ function myOrder(info){
     return info.map((el)=>({name:el[0],cname:el[1]+"目",family:(el.slice(2)).reduce((fam,ele,ind,ar)=>{if(!cnrexp.test(ele))fam.push({name:ele,cname:ar[ind+1]+"科"}); return fam;},[])}));
 }
 
+//https://www.avilist.org/
 //http://www.worldbirdnames.org/ioc-lists/master-list-2/
 //https://dongniao.net/taxonomy.html
 var orders = myOrder([
     ["STRUTHIONIFORMES","鸵鸟","STRUTHIONIDAE","鸵鸟"],
-    ["RHEIFORMES","美洲鸵鸟","RHEIDAE","美洲鸵鸟"],
-    ["APTERYGIFORMES","鹬鸵","APTERYGIDAE","鹬鸵"],
     ["CASUARIIFORMES","鹤鸵","CASUARIIDAE","鹤鸵"],
+    ["APTERYGIFORMES","鹬鸵","APTERYGIDAE","鹬鸵"],
+    ["RHEIFORMES","美洲鸵鸟","RHEIDAE","美洲鸵鸟"],
     ["TINAMIFORMES","䳍形","TINAMIDAE","䳍"],
     ["ANSERIFORMES","雁形","ANHIMIDAE","叫鸭","ANSERANATIDAE","鹊雁","ANATIDAE","鸭"],
     ["GALLIFORMES","鸡形","MEGAPODIIDAE","塚雉","CRACIDAE","凤冠雉","NUMIDIDAE","珠鸡","ODONTOPHORIDAE","齿鹑","PHASIANIDAE","雉"],
-    ["CAPRIMULGIFORMES","夜鹰","CAPRIMULGIDAE","夜鹰"],
-    ["STEATORNITHIFORMES","油鸱","STEATORNITHIDAE","油鸱"],
-    ["NYCTIBIIFORMES","林鸮","NYCTIBIIDAE","林鸮"],
-    ["PODARGIFORMES","蛙口夜鹰","PODARGIDAE","蛙口夜鹰"],
-    ["AEGOTHELIFORMES","裸鼻鸱","AEGOTHELIDAE","裸鼻鸱"],
-    ["APODIFORMES","雨燕","HEMIPROCNIDAE","凤头雨燕","APODIDAE","雨燕","TROCHILIDAE","蜂鸟"],
+    ["PHOENICOPTERIFORMES","火烈鸟","PHOENICOPTERIDAE","火烈鸟"],
+    ["PODICIPEDIFORMES","䴙䴘","PODICIPEDIDAE","䴙䴘"],
     ["MUSOPHAGIFORMES","蕉鹃","MUSOPHAGIDAE","蕉鹃"],
     ["OTIDIFORMES","鸨形","OTIDIDAE","鸨"],
     ["CUCULIFORMES","鹃形","CUCULIDAE","杜鹃"],
     ["MESITORNITHIFORMES","拟鹑","MESITORNITHIDAE","拟鹑"],
     ["PTEROCLIFORMES","沙鸡","PTEROCLIDAE","沙鸡"],
     ["COLUMBIFORMES","鸽形","COLUMBIDAE","鸽鸠"],
-    ["GRUIFORMES","鹤形","HELIORNITHIDAE","日鷉","SAROTHRURIDAE","侏秧鸡","RALLIDAE","秧鸡","PSOPHIIDAE","喇叭鸟","GRUIDAE","鹤","ARAMIDAE","秧鹤"],
-    ["PODICIPEDIFORMES","䴙䴘","PODICIPEDIDAE","䴙䴘"],
-    ["PHOENICOPTERIFORMES","火烈鸟","PHOENICOPTERIDAE","火烈鸟"],
-    ["CHARADRIIFORMES","鸻形","TURNICIDAE","三趾鹑","BURHINIDAE","石鸻","PLUVIANELLIDAE","短腿鸻","CHIONIDAE","鞘嘴鸥","HAEMATOPODIDAE","蛎鹬","IBIDORHYNCHIDAE","鹮嘴鹬","RECURVIROSTRIDAE","反嘴鹬","CHARADRIIDAE","鸻",
-     "PLUVIANIDAE","埃及燕鸻","ROSTRATULIDAE","彩鹬","JACANIDAE","水雉","PEDIONOMIDAE","领鹑","THINOCORIDAE","籽鹬","SCOLOPACIDAE","鹬","DROMADIDAE","蟹鸻","GLAREOLIDAE","燕鸻","LARIDAE","鸥","STERCORARIIDAE","贼鸥","ALCIDAE","海雀"],
-    ["EURYPYGIFORMES","日鳽","RHYNOCHETIDAE","鹭鹤","EURYPYGIDAE","日鳽"],
+    ["OPISTHOCOMIFORMES","麝雉","OPISTHOCOMIDAE","麝雉"],
+    ["GRUIFORMES","鹤形","PSOPHIIDAE","喇叭鸟","ARAMIDAE","秧鹤","GRUIDAE","鹤","HELIORNITHIDAE","日鷉","SAROTHRURIDAE","侏秧鸡","RALLIDAE","秧鸡"],
+    ["CHARADRIIFORMES","鸻形","PLUVIANELLIDAE","短腿鸻","CHIONIDAE","鞘嘴鸥","BURHINIDAE","石鸻","PLUVIANIDAE","埃及燕鸻","RECURVIROSTRIDAE","反嘴鹬","IBIDORHYNCHIDAE","鹮嘴鹬","HAEMATOPODIDAE","蛎鹬","CHARADRIIDAE","鸻",
+     "PEDIONOMIDAE","领鹑","THINOCORIDAE","籽鹬","ROSTRATULIDAE","彩鹬","JACANIDAE","水雉","SCOLOPACIDAE","鹬","TURNICIDAE","三趾鹑","DROMADIDAE","蟹鸻","GLAREOLIDAE","燕鸻","STERCORARIIDAE","贼鸥","ALCIDAE","海雀","LARIDAE","鸥"],
+    ["EURYPYGIFORMES","日鳽","EURYPYGIDAE","日鳽","RHYNOCHETIDAE","鹭鹤"],
     ["PHAETHONTIFORMES","鹲形","PHAETHONTIDAE","鹲"],
     ["GAVIIFORMES","潜鸟","GAVIIDAE","潜鸟"],
     ["SPHENISCIFORMES","企鹅","SPHENISCIDAE","企鹅"],
-    ["PROCELLARIIFORMES","鹱形","OCEANITIDAE","洋海燕","DIOMEDEIDAE","信天翁","HYDROBATIDAE","海燕","PROCELLARIIDAE","鹱"],
+    ["PROCELLARIIFORMES","鹱形","DIOMEDEIDAE","信天翁","OCEANITIDAE","洋海燕","HYDROBATIDAE","海燕","PROCELLARIIDAE","鹱"],
     ["CICONIIFORMES","鹳形","CICONIIDAE","鹳"],
     ["SULIFORMES","鲣鸟","FREGATIDAE","军舰鸟","SULIDAE","鲣鸟","ANHINGIDAE","蛇鹈","PHALACROCORACIDAE","鸬鹚"],
-    ["PELECANIFORMES","鹈形","THRESKIORNITHIDAE","鹮","ARDEIDAE","鹭","SCOPIDAE","锤头鹳","BALAENICIPITIDAE","鲸头鹳","PELECANIDAE","鹈鹕"],
-    ["OPISTHOCOMIFORMES","麝雉","OPISTHOCOMIDAE","麝雉"],
-    ["ACCIPITRIFORMES","鹰形","CATHARTIDAE","美洲鹫","SAGITTARIIDAE","鹭鹰","PANDIONIDAE","鹗","ACCIPITRIDAE","鹰"],
+    ["PELECANIFORMES","鹈形","THRESKIORNITHIDAE","鹮","BALAENICIPITIDAE","鲸头鹳","SCOPIDAE","锤头鹳","PELECANIDAE","鹈鹕","ARDEIDAE","鹭"],
+    ["CAPRIMULGIFORMES","夜鹰","CAPRIMULGIDAE","夜鹰"],
+    ["STEATORNITHIFORMES","油鸱","STEATORNITHIDAE","油鸱"],
+    ["NYCTIBIIFORMES","林鸮","NYCTIBIIDAE","林鸮"],
+    ["PODARGIFORMES","蛙口夜鹰","PODARGIDAE","蛙口夜鹰"],
+    ["AEGOTHELIFORMES","裸鼻鸱","AEGOTHELIDAE","裸鼻鸱"],
+    ["APODIFORMES","雨燕","HEMIPROCNIDAE","凤头雨燕","APODIDAE","雨燕","TROCHILIDAE","蜂鸟"],
     ["STRIGIFORMES","鸮形","TYTONIDAE","仓鸮","STRIGIDAE","鸱鸮"],
+    ["CATHARTIFORMES","美洲鹫","CATHARTIDAE","美洲鹫"],
+    ["ACCIPITRIFORMES","鹰形","SAGITTARIIDAE","鹭鹰","PANDIONIDAE","鹗","ACCIPITRIDAE","鹰"],
     ["COLIIFORMES","鼠鸟","COLIIDAE","鼠鸟"],
     ["LEPTOSOMIFORMES","鹃三宝鸟","LEPTOSOMIDAE","鹃三宝鸟"],
     ["TROGONIFORMES","咬鹃","TROGONIDAE","咬鹃"],
-    ["BUCEROTIFORMES","犀鸟","UPUPIDAE","戴胜","PHOENICULIDAE","林戴胜","BUCORVIDAE","地犀鸟","BUCEROTIDAE","犀鸟"],
-    ["CORACIIFORMES","佛法僧","CORACIIDAE","佛法僧","BRACHYPTERACIIDAE","地三宝鸟","ALCEDINIDAE","翠鸟","TODIDAE","短尾鴗","MOMOTIDAE","翠鴗","MEROPIDAE","蜂虎"],
-    ["PICIFORMES","䴕形","GALBULIDAE","鹟鴷","BUCCONIDAE","蓬头鴷","CAPITONIDAE","须鴷","SEMNORNITHIDAE","巨嘴拟鴷","RAMPHASTIDAE","巨嘴鸟","MEGALAIMIDAE","拟鴷","LYBIIDAE","非洲拟啄木鸟","INDICATORIDAE","响蜜鴷","PICIDAE","啄木鸟"],
+    ["BUCEROTIFORMES","犀鸟","UPUPIDAE","戴胜","PHOENICULIDAE","林戴胜","BUCEROTIDAE","犀鸟"],
+    ["CORACIIFORMES","佛法僧","BRACHYPTERACIIDAE","地三宝鸟","CORACIIDAE","佛法僧","MEROPIDAE","蜂虎","TODIDAE","短尾鴗","MOMOTIDAE","翠鴗","ALCEDINIDAE","翠鸟"],
+    ["GALBULIFORMES","鹟鴷","GALBULIDAE","鹟鴷","BUCCONIDAE","蓬头鴷"],
+    ["PICIFORMES","䴕形","MEGALAIMIDAE","拟鴷","LYBIIDAE","非洲拟啄木鸟","CAPITONIDAE","须鴷","SEMNORNITHIDAE","巨嘴拟鴷","RAMPHASTIDAE","巨嘴鸟","INDICATORIDAE","响蜜鴷","PICIDAE","啄木鸟"],
     ["CARIAMIFORMES","叫鹤","CARIAMIDAE","叫鹤"],
     ["FALCONIFORMES","隼形","FALCONIDAE","隼"],
     ["PSITTACIFORMES","鹦形","STRIGOPIDAE","鸮鹦鹉","CACATUIDAE","凤头鹦鹉","PSITTACIDAE","鹦鹉","PSITTACULIDAE","长尾鹦鹉"],
-    ["PASSERIFORMES","雀形","ACANTHISITTIDAE","刺鹩","SAPAYOIDAE","阔嘴霸鹟","PHILEPITTIDAE","裸眉鸫","EURYLAIMIDAE","阔嘴鸟","CALYPTOMENIDAE","绿阔嘴鸟","PITTIDAE","八色鸫","FURNARIIDAE","灶鸟","THAMNOPHILIDAE","蚁鸟",
-     "FORMICARIIDAE","蚁鸫","GRALLARIIDAE","短尾蚁鸫","CONOPOPHAGIDAE","食蚊鸟","RHINOCRYPTIDAE","窜鸟","MELANOPAREIIDAE","月胸窜鸟","TYRANNIDAE","霸鹟","COTINGIDAE","伞鸟","PIPRIDAE","娇鹟","TITYRIDAE","蒂泰霸鹟","OXYRUNCIDAE","尖喙霸鹟",
-     "ONYCHORHYNCHIDAE","皇霸鹟","MENURIDAE","琴鸟","ATRICHORNITHIDAE","薮鸟","PTILONORHYNCHIDAE","园丁鸟","CLIMACTERIDAE","短嘴旋木雀","MALURIDAE","细尾鹩莺","MELIPHAGIDAE","吸蜜鸟","DASYORNITHIDAE","刺莺","PARDALOTIDAE","斑食蜜鸟",
-     "ACANTHIZIDAE","细嘴莺","POMATOSTOMIDAE","弯嘴鹛","ORTHONYCHIDAE","刺尾鸫","CNEMOPHILIDAE","短嘴极乐鸟","MELANOCHARITIDAE","啄果鸟","PARAMYTHIIDAE","冠啄果鸟","CALLAEIDAE","垂耳鸦","NOTIOMYSTIDAE","缝叶吸蜜鸟","PSOPHODIDAE","啸冠鸫",
-     "CINCLOSOMATIDAE","鹑鸫","PLATYSTEIRIDAE","疣眼鹟","MALACONOTIDAE","丛鵙","MACHAERIRHYNCHIDAE","船嘴鹟","VANGIDAE","钩嘴鵙","PITYRIASIDAE","棘头鵙","ARTAMIDAE","燕鵙","RHAGOLOGIDAE","斑啸鹟","AEGITHINIDAE","雀鹎","CAMPEPHAGIDAE","鹃鵙",
-     "MOHOUIDAE","黄头刺莺","NEOSITTIDAE","澳鳾","EULACESTOMATIDAE","肉垂鵙雀鹟","OREOICIDAE","冠钟鹟","FALCUNCULIDAE","鵙雀鹟","PACHYCEPHALIDAE","啸鹟","VIREONIDAE","莺雀","ORIOLIDAE","黄鹂","DICRURIDAE","卷尾","RHIPIDURIDAE","扇尾鹟",
-     "MONARCHIDAE","王鹟","PLATYLOPHIDAE","冠鸦","LANIIDAE","伯劳","CORVIDAE","鸦","CORCORACIDAE","澳鸦","MELAMPITTIDAE","黑脚风鸟","IFRITIDAE","蓝顶鹛鸫","PARADISAEIDAE","极乐鸟","PETROICIDAE","鸲鹟","PICATHARTIDAE","岩鹛",
-     "CHAETOPIDAE","岩鸫","EUPETIDAE","长颈鸫","BOMBYCILLIDAE","太平鸟","PTILIOGONATIDAE","丝鹟","HYPOCOLIIDAE","连雀","DULIDAE","棕榈䳭","MOHOIDAE","夏威夷吸蜜鸟","HYLOCITREIDAE","林啸鹟","STENOSTIRIDAE","仙莺","PARIDAE","山雀",
-     "REMIZIDAE","攀雀","NICATORIDAE","斗鹎","PANURIDAE","文须雀","ALAUDIDAE","百灵","PYCNONOTIDAE","鹎","HIRUNDINIDAE","燕","PNOEPYGIDAE","鳞胸鹪鹛","MACROSPHENIDAE","长嘴莺","CETTIIDAE","树莺","SCOTOCERCIDAE","纹鹪莺",
-     "ERYTHROCERCIDAE","红鹟","HYLIIDAE","拟攀雀","AEGITHALIDAE","长尾山雀","PHYLLOSCOPIDAE","柳莺","ACROCEPHALIDAE","苇莺","LOCUSTELLIDAE","蝗莺","DONACOBIIDAE","黑顶鹪鹩","BERNIERIDAE","马岛鹎","CISTICOLIDAE","扇尾莺","SYLVIIDAE","莺鹛",
-     "PARADOXORNITHIDAE","鸦雀","ZOSTEROPIDAE","绣眼鸟","TIMALIIDAE","鹛","PELLORNEIDAE","幽鹛","ALCIPPEIDAE","雀鹛","LEIOTHRICHIDAE","噪鹛","MODULATRICIDAE","斑喉䳭","PROMEROPIDAE","非洲食蜜鸟","IRENIDAE","和平鸟","REGULIDAE","戴菊",
-     "ELACHURIDAE","丽星鹩鹛","HYLIOTIDAE","丛莺","TROGLODYTIDAE","鹪鹩","POLIOPTILIDAE","蚋莺","SITTIDAE","䴓","TICHODROMIDAE","旋壁雀","CERTHIIDAE","旋木雀","SALPORNITHIDAE","斑旋木雀","MIMIDAE","嘲鸫","STURNIDAE","椋鸟",
-     "BUPHAGIDAE","牛椋鸟","TURDIDAE","鸫","MUSCICAPIDAE","鹟","CINCLIDAE","河乌","CHLOROPSEIDAE","叶鹎","DICAEIDAE","啄花鸟","NECTARINIIDAE","太阳鸟","PASSERIDAE","雀","PLOCEIDAE","织雀","ESTRILDIDAE","梅花雀","VIDUIDAE","维达雀",
-     "PEUCEDRAMIDAE","绿森莺","PRUNELLIDAE","岩鹨","MOTACILLIDAE","鹡鸰","UROCYNCHRAMIDAE","朱鹀","FRINGILLIDAE","燕雀","CALCARIIDAE","铁爪鹀","RHODINOCICHLIDAE","鸫唐纳雀","EMBERIZIDAE","鹀","PASSERELLIDAE","雀鹀",
-     "CALYPTOPHILIDAE","拟䳭唐纳雀","PHAENICOPHILIDAE","棕榈唐纳雀","NESOSPINGIDAE","波多黎各唐纳雀","SPINDALIDAE","纹头唐纳雀","ZELEDONIIDAE","冠鹩森莺","TERETISTRIDAE","灰森莺","ICTERIIDAE","黄胸大䳭莺","ICTERIDAE","拟鹂",
-     "PARULIDAE","森莺","MITROSPINGIDAE","乌脸唐纳雀","CARDINALIDAE","美洲雀","THRAUPIDAE","裸鼻雀"]
+    ["PASSERIFORMES","雀形","ACANTHISITTIDAE","刺鹩","PHILEPITTIDAE","裸眉鸫","EURYLAIMIDAE","阔嘴鸟","CALYPTOMENIDAE","绿阔嘴鸟","SAPAYOIDAE","阔嘴霸鹟","PITTIDAE","八色鸫","PIPRIDAE","娇鹟","COTINGIDAE","伞鸟","TITYRIDAE","蒂泰霸鹟",
+     "OXYRUNCIDAE","尖喙霸鹟","ONYCHORHYNCHIDAE","皇霸鹟","TYRANNIDAE","霸鹟","MELANOPAREIIDAE","月胸窜鸟","CONOPOPHAGIDAE","食蚊鸟","THAMNOPHILIDAE","蚁鸟","GRALLARIIDAE","短尾蚁鸫","RHINOCRYPTIDAE","窜鸟","FORMICARIIDAE","蚁鸫",
+     "FURNARIIDAE","灶鸟","MENURIDAE","琴鸟","ATRICHORNITHIDAE","薮鸟","CLIMACTERIDAE","短嘴旋木雀","PTILONORHYNCHIDAE","园丁鸟","MALURIDAE","细尾鹩莺","DASYORNITHIDAE","刺莺","PARDALOTIDAE","斑食蜜鸟","ACANTHIZIDAE","细嘴莺",
+     "MELIPHAGIDAE","吸蜜鸟","ORTHONYCHIDAE","刺尾鸫","POMATOSTOMIDAE","弯嘴鹛","CINCLOSOMATIDAE","鹑鸫","CAMPEPHAGIDAE","鹃鵙","MOHOUIDAE","黄头刺莺","MACHAERIRHYNCHIDAE","船嘴鹟","ARTAMIDAE","燕鵙","RHAGOLOGIDAE","斑啸鹟",
+     "PITYRIASIDAE","棘头鵙","AEGITHINIDAE","雀鹎","MALACONOTIDAE","丛鵙","PLATYSTEIRIDAE","疣眼鹟","VANGIDAE","钩嘴鵙","NEOSITTIDAE","澳鳾","PSOPHODIDAE","啸冠鸫","EULACESTOMATIDAE","肉垂鵙雀鹟","OREOICIDAE","冠钟鹟",
+     "FALCUNCULIDAE","鵙雀鹟","PARAMYTHIIDAE","冠啄果鸟","VIREONIDAE","莺雀","ORIOLIDAE","黄鹂","PACHYCEPHALIDAE","啸鹟","RHIPIDURIDAE","扇尾鹟","DICRURIDAE","卷尾","MONARCHIDAE","王鹟","CORCORACIDAE","澳鸦","IFRITIDAE","蓝顶鹛鸫",
+     "PARADISAEIDAE","极乐鸟","MELAMPITTIDAE","黑脚风鸟","PLATYLOPHIDAE","冠鸦","LANIIDAE","伯劳","CORVIDAE","鸦","CNEMOPHILIDAE","短嘴极乐鸟","MELANOCHARITIDAE","啄果鸟","NOTIOMYSTIDAE","缝叶吸蜜鸟","CALLAEIDAE","垂耳鸦",
+     "EUPETIDAE","长颈鸫","CHAETOPIDAE","岩鸫","PICATHARTIDAE","岩鹛","PETROICIDAE","鸲鹟","STENOSTIRIDAE","仙莺","HYLIOTIDAE","丛莺","REMIZIDAE","攀雀","PARIDAE","山雀","PANURIDAE","文须雀","ALAUDIDAE","百灵","NICATORIDAE","斗鹎",
+     "MACROSPHENIDAE","长嘴莺","CISTICOLIDAE","扇尾莺","ACROCEPHALIDAE","苇莺","DONACOBIIDAE","黑顶鹪鹩","BERNIERIDAE","马岛鹎","LOCUSTELLIDAE","蝗莺","PNOEPYGIDAE","鳞胸鹪鹛","HIRUNDINIDAE","燕","HYLIIDAE","拟攀雀",
+     "AEGITHALIDAE","长尾山雀","ERYTHROCERCIDAE","红鹟","CETTIIDAE","树莺","PHYLLOSCOPIDAE","柳莺","PYCNONOTIDAE","鹎","SYLVIIDAE","莺鹛","PARADOXORNITHIDAE","鸦雀","ZOSTEROPIDAE","绣眼鸟","TIMALIIDAE","鹛","PELLORNEIDAE","幽鹛",
+     "LEIOTHRICHIDAE","噪鹛","DULIDAE","棕榈䳭","BOMBYCILLIDAE","太平鸟","PTILIOGONATIDAE","丝鹟","HYLOCITREIDAE","林啸鹟","HYPOCOLIIDAE","连雀","MOHOIDAE","夏威夷吸蜜鸟","REGULIDAE","戴菊","TICHODROMIDAE","旋壁雀","SITTIDAE","䴓",
+     "SALPORNITHIDAE","斑旋木雀","CERTHIIDAE","旋木雀","POLIOPTILIDAE","蚋莺","TROGLODYTIDAE","鹪鹩","ELACHURIDAE","丽星鹩鹛","BUPHAGIDAE","牛椋鸟","MIMIDAE","嘲鸫","STURNIDAE","椋鸟","CINCLIDAE","河乌","TURDIDAE","鸫",
+     "MUSCICAPIDAE","鹟","PROMEROPIDAE","非洲食蜜鸟","MODULATRICIDAE","斑喉䳭","DICAEIDAE","啄花鸟","NECTARINIIDAE","太阳鸟","CHLOROPSEIDAE","叶鹎","IRENIDAE","和平鸟","PEUCEDRAMIDAE","绿森莺","UROCYNCHRAMIDAE","朱鹀",
+     "PLOCEIDAE","织雀","VIDUIDAE","维达雀","ESTRILDIDAE","梅花雀","PRUNELLIDAE","岩鹨","PASSERIDAE","雀","MOTACILLIDAE","鹡鸰","FRINGILLIDAE","燕雀","RHODINOCICHLIDAE","鸫唐纳雀","CALCARIIDAE","铁爪鹀","EMBERIZIDAE","鹀",
+     "PASSERELLIDAE","雀鹀","CALYPTOPHILIDAE","拟䳭唐纳雀","ZELEDONIIDAE","冠鹩森莺","PHAENICOPHILIDAE","棕榈唐纳雀","NESOSPINGIDAE","波多黎各唐纳雀","SPINDALIDAE","纹头唐纳雀","TERETISTRIDAE","灰森莺","ICTERIDAE","拟鹂",
+     "PARULIDAE","森莺","CARDINALIDAE","美洲雀","MITROSPINGIDAE","乌脸唐纳雀","THRAUPIDAE","裸鼻雀"]
 ]);
 
 var pt_eng  = ["males* left","males* right","females* left","females* right","adults* left","adults* right","immatures* left","immatures* right","(males*, *breeding plumage|breeding males*)",
@@ -91,6 +94,12 @@ var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
+var cornell_name = [["whistling_duck","whistling-duck"],["brant_goose","brant"],["common_pheasant","ring-necked_pheasant"],["common_squirrel_cuckoo","squirrel_cuckoo"],
+              ["grey_plover","black-bellied_plover"],["wood_pigeon","wood-pigeon"],["grey","gray"],["golden_plover","golden-plover"],["little_auk","dovekie"],
+              ["storm_petrel","storm-petrel"],["american_white_ibis","white_ibis"],["screech_owl","screech-owl"],["rough-legged_buzzard","rough-legged_hawk"],
+              ["wood_pewee","wood-pewee"],["scrub_jay","scrub-jay"],["western_jackdaw","eurasian_jackdaw"],["northern_raven","common_raven"],["sand_martin","bank_swallow"],
+              ["american_cliff_swallow","cliff_swallow"],["american_bushtit","bushtit"],["common_starling","european_starling"],["common_blackbird","eurasian_blackbird"],
+              ["two-barred_crossbill","white-winged_crossbill"],["american_yellow_warbler","yellow_warbler"],["rosy_finch","rosy-finch"]];
 
 function myBirds(info){
     return info.map((el)=>{
@@ -263,8 +272,13 @@ function baike(name,before,aftin,aftout){
     return before+my_href("https://baike.baidu.com/item/"+name,name+aftin,name)+aftout;
 }
 
+function cornellrename(name){
+    for (let i=0;i<cornell_name.length;i++) name = name.replace(cornell_name[i][0],cornell_name[i][1]);
+    return name;
+}
+
 function cornellurl(bid){
-    return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
+    return "https://www.allaboutbirds.org/guide/"+cornellrename(bid.trim())+"/id";
 }
 
 function ebirdurl(bid){
