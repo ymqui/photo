@@ -94,12 +94,11 @@ var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
-var cornell_name = [["whistling_duck","whistling-duck"],["brant_goose","brant"],["common_pheasant","ring-necked_pheasant"],["common_squirrel_cuckoo","squirrel_cuckoo"],
-              ["grey_plover","black-bellied_plover"],["wood_pigeon","wood-pigeon"],["grey","gray"],["golden_plover","golden-plover"],["little_auk","dovekie"],
-              ["storm_petrel","storm-petrel"],["american_white_ibis","white_ibis"],["screech_owl","screech-owl"],["rough-legged_buzzard","rough-legged_hawk"],
-              ["wood_pewee","wood-pewee"],["scrub_jay","scrub-jay"],["western_jackdaw","eurasian_jackdaw"],["northern_raven","common_raven"],["sand_martin","bank_swallow"],
-              ["american_cliff_swallow","cliff_swallow"],["american_bushtit","bushtit"],["common_starling","european_starling"],["common_blackbird","eurasian_blackbird"],
-              ["two-barred_crossbill","white-winged_crossbill"],["american_yellow_warbler","yellow_warbler"],["rosy_finch","rosy-finch"]];
+var cornell_name = [["whistling_duck","whistling-duck"],["brant_goose","brant"],["common_pheasant","ring-necked_pheasant"],["common_squirrel_cuckoo","squirrel_cuckoo"],["grey_plover","black-bellied_plover"],
+              ["wood_pigeon","wood-pigeon"],["grey","gray"],["golden_plover","golden-plover"],["little_auk","dovekie"],["storm_petrel","storm-petrel"],["american_white_ibis","white_ibis"],["screech_owl","screech-owl"],
+              ["rough-legged_buzzard","rough-legged_hawk"],["wood_pewee","wood-pewee"],["scrub_jay","scrub-jay"],["western_jackdaw","eurasian_jackdaw"],["northern_raven","common_raven"],["sand_martin","bank_swallow"],
+              ["american_cliff_swallow","cliff_swallow"],["american_bushtit","bushtit"],["common_starling","european_starling"],["common_blackbird","eurasian_blackbird"],["two-barred_crossbill","white-winged_crossbill"],
+              ["american_yellow_warbler","yellow_warbler"],["rosy_finch","rosy-finch"],["lucifer_sheartail","lucifer_hummingbird"]];
 
 function myBirds(info){
     return info.map((el)=>{
@@ -272,13 +271,9 @@ function baike(name,before,aftin,aftout){
     return before+my_href("https://baike.baidu.com/item/"+name,name+aftin,name)+aftout;
 }
 
-function cornellrename(name){
-    for (let i=0;i<cornell_name.length;i++) name = name.replace(cornell_name[i][0],cornell_name[i][1]);
-    return name;
-}
-
 function cornellurl(bid){
-    return "https://www.allaboutbirds.org/guide/"+cornellrename(bid.trim())+"/id";
+    cornell_name.forEach((el)=>{bid = bid.replace(el[0],el[1]);});
+    return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
 }
 
 function ebirdurl(bid){
