@@ -272,7 +272,7 @@ function baike(name,before,aftin,aftout){
 }
 
 function cornellurl(bid){
-    cornell_name.forEach((el)=>{bid = bid.replace(el[0],el[1]);});
+    cornell_name.forEach((el)=>{bid = bid.replace(el[0],el[1]);});  //currently Avilist name doesn't agree with allaboutbirds
     return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
 }
 
