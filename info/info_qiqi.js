@@ -60,16 +60,16 @@ function initAlbum(){
     this[1][i++] = (["Xiamen University, Xiamen, Fujian","大学毕业了，福建厦门大学"])[cn_ind];
     rose[0]      = i;
     this[0][i]   = "other/20240923_Qiqi_1";
-    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼, 福建龙岩"])[cn_ind];
+    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
     this[0][i]   = ["other/20240923_Qiqi_2","other/20240923_Qiqi_3"];
-    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼, 福建龙岩"])[cn_ind];
+    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
     this[0][i]   = "other/20240923_Qiqi_4";
-    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼, 福建龙岩"])[cn_ind];
+    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
     this[0][i]   = "other/20240923_Qiqi_5";
-    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼, 福建龙岩"])[cn_ind];
+    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
     rose[1]      = i;
     this[0][i]   = ["other/20240923_Qiqi_6","other/20240923_Qiqi_7"];
-    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼, 福建龙岩"])[cn_ind];
+    this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
 
     adddate(this);
     
