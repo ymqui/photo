@@ -62,11 +62,11 @@ function initAlbum(){
     this[0][i]   = ["other/20240923_Qiqi_2","other/20240923_Qiqi_3"];
     this[1][i++] = '9/23/2024 Wedding, Longyan, Fujian<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
     this[0][i]   = "other/20240923_Qiqi_4";
-    this[1][i++] = "9/23/2024 Wedding, Longyan, Fujian";
+    this[1][i++] = '9/23/2024 Wedding, Longyan, Fujian<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
     this[0][i]   = "other/20240923_Qiqi_5";
-    this[1][i++] = "9/23/2024 Wedding, Longyan, Fujian";
+    this[1][i++] = '9/23/2024 Wedding, Longyan, Fujian<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
     this[0][i]   = ["other/20240923_Qiqi_6","other/20240923_Qiqi_7"];
-    this[1][i++] = "9/23/2024 Wedding, Longyan, Fujian";
+    this[1][i++] = '9/23/2024 Wedding, Longyan, Fujian<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
 
     if(window.usechinese){
         i = 0;
@@ -90,9 +90,9 @@ function initAlbum(){
 	this[1][i++] = "6/2019 福建厦门大学毕业典礼";
         this[1][i++] = '9/23/2024 婚礼, 福建龙岩<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
         this[1][i++] = '9/23/2024 婚礼, 福建龙岩<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
-        this[1][i++] = "9/23/2024 婚礼, 福建龙岩";
-        this[1][i++] = "9/23/2024 婚礼, 福建龙岩";
-        this[1][i++] = "9/23/2024 婚礼, 福建龙岩";
+        this[1][i++] = '9/23/2024 婚礼, 福建龙岩<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
+        this[1][i++] = '9/23/2024 婚礼, 福建龙岩<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
+        this[1][i++] = '9/23/2024 婚礼, 福建龙岩<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
     }
 }
  
