@@ -23,13 +23,13 @@ function initAlbum(){
     i = 0;
     this[0][i]   = ["0410picnic/0410picnic_3","200410"];
     this[1][i++] = pagelink("0410picnic",(["Barbecuing at Dongxiao Forest Park, Longyan, Fujian","在福建龙岩东肖森林公园烧烤"])[cn_ind]);
-    this[0][i]   = ["200501_qiqi_1","200501"];
+    this[0][i]   = "200501_qiqi_1";
     this[1][i++] = (["Longyan, Fujian","福建龙岩天马山公园"])[cn_ind];
-    this[0][i]   = ["200501_qiqi_2","200501"];
+    this[0][i]   = "200501_qiqi_2";
     this[1][i++] = (["Longyan, Fujian","福建龙岩天马山公园"])[cn_ind];
-    this[0][i]   = ["200502_qiqi","200502"];
+    this[0][i]   = "200502_qiqi";
     this[1][i++] = (["Spring Festival, Longyan, Fujian","春节，福建龙岩"])[cn_ind];
-    this[0][i]   = ["200504_qiqi";
+    this[0][i]   = "200504_qiqi";
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
     this[0][i]   = ["0505zhangping/0505zhangping__13","200505"];
     this[1][i++] = pagelink("0505zhangping",(["Visiting Jiupengxi, Zhangping, Fujian","游福建漳平九鹏溪"])[cn_ind]);
