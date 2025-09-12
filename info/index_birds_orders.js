@@ -343,13 +343,11 @@ function reform_locs(loc,photo){
            let tmp_info = info[6*i+2];
            let tmp_chn  = "";
            while (pt_eng_chn.some((el)=>{tmp5=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
-              if (tmp_chn.length>0) tmp_chn = tmp_chn+comma[1];
-              tmp_chn = tmp_chn+tmp5;
+              tmp_chn = tmp_chn+((tmp_chn.length>0)?comma[1]:"")+tmp5;
               tmp_info = RegExp.rightContext;
            }
            if (tmp_chn.length>0){
-              if (info[6*i+4].length>0) info[6*i+4] = comma[1]+info[6*i+4];
-              info[6*i+4] = tmp_chn+info[6*i+4];
+              info[6*i+4] = tmp_chn+((info[6*i+4].length>0)?comma[1]:"")+info[6*i+4];
            }
         }
         pid  = info[6*i].toLowerCase();
