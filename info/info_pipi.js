@@ -24,7 +24,7 @@ function initAlbum(){
     this[0][i]    = "20241219_1";
     this[1][i++]  = (["4D ultrasound taken at 24 weeks","24周的四维彩超"])[cn_ind];
     this[0][i]    = "20250403_1";
-    this[1][i++]  = (["Pipi right out of the hospital nursury, 3.1 Kg in weight and 50 cm in length","刚出产房，重3.1公斤，长50cm"])[cn_ind];
+    this[1][i++]  = (["Pipi right out of the hospital nursery, 3.1 Kg in weight and 50 cm in length","刚出产房，重3.1公斤，长50cm"])[cn_ind];
     this[0][i]    = "20250409_1";
     this[1][i++]  = (["Taking a bath for the first time","第一次洗澡"])[cn_ind];
     this[0][i]    = "20250409_2";
@@ -65,8 +65,7 @@ function initAlbum(){
 }
 
 //web counter info
-var sc_project   = 613905;
-var sc_invisible = 1;
-var sc_partition = 3;
-var sc_security  = "f5cfdd4f";
+var sc_project=13166693;
+var sc_invisible=1;
+var sc_security="ed762a8c";
 //-->
