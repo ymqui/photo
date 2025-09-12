@@ -323,7 +323,7 @@ function reform(name,space,apost,notlc){
 //loc = ["locid","date,ebirdID","beforeEng","afterChn","beforeChn","afterEng"]
 function reform_locs(loc,photo){
     let info = [], tmp_einf = [], tmp_cinf = [], tmp_locs  = [];
-    let tmp1,tmp2,tmp3,tmp4,tmp,pid,date,head,tail,indx;
+    let tmp1,tmp2,tmp3,tmp4,tmp5,tmp,pid,date,head,tail;
     loc.forEach((el)=>{
         el = el.trim();
         if (((info.length%6)>0)&&(lurls[el]!=null)){info.push(...Array(6-(info.length%6)).fill(''));}
@@ -342,9 +342,9 @@ function reform_locs(loc,photo){
         if (info[6*i+2].length>0){
            let tmp_info = info[6*i+2];
            let tmp_chn  = "";
-           while (pt_eng_chn.some((el,ind)=>{indx=ind;return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
+           while (pt_eng_chn.some((el)=>{tmp5=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
               if (tmp_chn.length>0) tmp_chn = tmp_chn+comma[1];
-              tmp_chn = tmp_chn+pt_eng_chn[indx][1];
+              tmp_chn = tmp_chn+tmp5;
               tmp_info = RegExp.rightContext;
            }
            if (tmp_chn.length>0){
