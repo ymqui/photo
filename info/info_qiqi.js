@@ -1,7 +1,7 @@
 <!--
 //Created by Album Builder Program Mon Nov 14 22:05:07 2005
 var info_url   = "";
-var title      = "Qiqi's Photo";
+var title      = (["Qiqi's Photo","琦琦的照片"])[cn_ind];
 var dir        = maindir+"pics/other/";
 var thumb_dir  = maindir+"thumbnail/";
 var interval   = 5000;
@@ -11,11 +11,7 @@ var midi_cr    = new Array("Mfiles","http://www.mfiles.co.uk/midi-files.htm");
 var pagelist   = [["0410picnic","10/2004 Barbecuing at Dongxiao Forest Park","10/2004 龙岩东肖森林公园烧烤"],["0505zhangping","5/2005 Visiting Zhangping","5/2005 游漳平"],
                   ["0507tongbo","7/2005 Visiting Tongbo","7/2005 游铜钵"],["0511mum","11/2005 Chrysanthemums in Zhongshan Park","11/2005 中山公园赏菊"],
                   ["0605qiqi","5/2006 9th Birthday","5/2006 9岁生日"],["0510xiamen","10/2005 Visting Xiamen","10/2005 国庆游厦门"],
-                  ["0712family","12/2007 Family","12/2007 家人照片"],["nannan","Nannan's Photos","楠楠的照片"],["pipi","Pipi's Photos","皮皮的照片"]];
-
-if(window.usechinese){
-    title      = "琦琦的照片";
-}
+                  ["0712family","12/2007 Family Photos","12/2007 家人照片"],["nannan","Nannan's Photos","楠楠的照片"],["pipi","Pipi's Photos","皮皮的照片"]];
  
 document.title = title;
  
