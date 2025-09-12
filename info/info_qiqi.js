@@ -72,7 +72,7 @@ function initAlbum(){
 
     adddate(this);
     
-    for (let j=rose[0];j<=rose[1];j++){
+    for (let j=rose[0];j<=rose[1];j++){ //add rose to the wedding photos
         this[1][j] = this[1][j]+'<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
     }
 }
