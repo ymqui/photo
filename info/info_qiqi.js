@@ -52,7 +52,7 @@ function initAlbum(){
     this[1][i++] = (["Children's Palace, Longyan, Fujian","福建龙岩青少年宫"])[cn_ind];
     this[0][i]   = "200807_qiqi";
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
-    this[0][i]   = 201103_qiqi";
+    this[0][i]   = "201103_qiqi";
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
     this[0][i]   = "201202_qiqi";
     this[1][i++] = (["Yongfu Tea Plantation, Zhangping, Fujian","福建漳平永福茶园"])[cn_ind];
