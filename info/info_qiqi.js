@@ -38,7 +38,7 @@ function initAlbum(){
     this[1][i++] = (["Tongbo, Longyan, Fujian","福建龙岩铜钵村美水库"])[cn_ind];
     this[0][i]   = ["0510xiamen/0510xiamen_42","200510"];
     this[1][i++] = (["Gulangyu, Xiamen, Fujian","福建厦门鼓浪屿"])[cn_ind];
-    this[0][i]   = "[0511mum/0511mum_8","200511"];
+    this[0][i]   = ["0511mum/0511mum_8","200511"];
     this[1][i++] = (["Zhongshan Park, Longyan, Fujian","福建龙岩中山公园"])[cn_ind];
     this[0][i]   = ["other/200601_qiqi","200601"];
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
