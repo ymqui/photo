@@ -674,6 +674,7 @@ function getdate(name,str){
     var year = nam1.substring(pos+0,pos+4);
     var mon  = nam1.substring(pos+4,pos+6);
     var day  = nam1.substring(pos+6,pos+8);
+    if (isNaN(day)||isNaN(parseFloat(day))) day="";
     if (window.usechinese){
        date  = year
        if (mon.length!=0) {date = date+"-"+mon;}
