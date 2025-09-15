@@ -138,7 +138,7 @@ function resize(ishidden){
 }
 
 function loadHidden(){
-    var tmp = index+1;
+    let tmp = index+1;
     if(window.last2first){tmp = index-1;}
     if (tmp>num-1){
        tmp = 0;
@@ -146,14 +146,16 @@ function loadHidden(){
        tmp = num-1;
     }
     hiddenimg = new Image();
-    var tmp_i = myrandom(photoalbum[0][tmp]);
-    var tmp_src = '';
-    var tmp_alt = '';
+    let tmp_i = myrandom(photoalbum[0][tmp]);
+    let tmp_src = '';
+    let tmp_alt = '';
+    let tmp_dir = dir;
     if (Array.isArray(photoalbum[0][tmp])){
        tmp_src = photoalbum[0][tmp][tmp_i];
     }else{
        tmp_src = photoalbum[0][tmp];
     }
+    if(/\//.test(tmp_src)) tmp_dir = maindir+'pics/';
     if (Array.isArray(photoalbum[1][tmp])){
        tmp_alt = photoalbum[1][tmp][tmp_i];
     }else{
@@ -162,12 +164,12 @@ function loadHidden(){
     hiddenimg.alt = tmp_alt; 
     hiddenimg.onerror = function(){
        if (ext==ext.toUpperCase()){
-          hiddenimg.src = dir+tmp_src+ext.toLowerCase();
+          hiddenimg.src = tmp_dir+tmp_src+ext.toLowerCase();
        }else{
-          hiddenimg.src = dir+tmp_src+ext.toUpperCase();
+          hiddenimg.src = tmp_dir+tmp_src+ext.toUpperCase();
        }
     }
-    hiddenimg.src = dir+tmp_src+ext;
+    hiddenimg.src = tmp_dir+tmp_src+ext;
 }
 
 function showmesg(mesg){
@@ -729,9 +731,6 @@ function adddate(thisalbum){
                  }
               }
               thisalbum[0][i].splice(-1);
-              for (var j=0;j<thisalbum[0][i].length;j++){
-                  if(/\//.test(thisalbum[0][i][j])) thisalbum[0][i][j] = "../"+thisalbum[0][i][j];
-              }
               if (thisalbum[0][i].length==1){
                   thisalbum[0][i] = thisalbum[0][i][0];
               }
