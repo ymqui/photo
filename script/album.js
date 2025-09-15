@@ -730,7 +730,7 @@ function adddate(thisalbum){
               }
               thisalbum[0][i].splice(-1);
               for (var j=0;j<thisalbum[0][i].length;j++){
-                  thisalbum[0][i][j] = "../"+thisalbum[0][i][j];
+                  if(/\//.test(thisalbum[0][i][j])) thisalbum[0][i][j] = "../"+thisalbum[0][i][j];
               }
               if (thisalbum[0][i].length==1){
                   thisalbum[0][i] = thisalbum[0][i][0];
