@@ -38,6 +38,8 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20250906_1","20250906_2"];
     this[1][i++]  = urllink((url="https://youtube.com/shorts/Ouk40Vkw8Sc?feature=share"),tmptxt2);
+    this[0][i]    = ["20250913_1","20250913_2"];
+    this[1][i++]  = tmptxt1;
 
     adddate(this);
 }
