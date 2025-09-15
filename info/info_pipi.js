@@ -9,7 +9,6 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
-var url        = "";
 homeurl        = homeurl+"showphoto.html?pipi";
 var pagelist   = [["qiqi","Qiqi's Photos","妈妈的照片"]];
 
@@ -44,7 +43,7 @@ function initAlbum(){
     this[0][i]    = "20250614_1";
     this[1][i++]  = (["Taking a nap","打个盹"])[cn_ind];
     this[0][i]    = "20250629_1";
-    this[1][i++]  = (["Having a fever for the first time","第一次发烧生病了"])[cn_ind];
+    this[1][i++]  = (["Having a fever for the first time","第一次发烧生病"])[cn_ind];
     this[0][i]    = "20250720_1";
     this[1][i++]  = (["Taking a walk in the stroller","小区溜达溜达"])[cn_ind];
     this[0][i]    = "20250723_1";

@@ -8,6 +8,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "StrangeLandsPeople.mid";
 var midi_cr    = new Array("Mfiles","http://www.mfiles.co.uk/midi-files.htm");
+var addrose    = new Array();
 var pagelist   = [["0410picnic","10/2004 Barbecuing at Forest Park","10/2004 森林公园烧烤"],["0505zhangping","5/2005 Visiting Zhangping","5/2005 游漳平"],
                   ["0507tongbo","7/2005 Visiting Tongbo","7/2005 游铜钵"],["0511mum","11/2005 Chrysanthemums in Zhongshan Park","11/2005 中山公园赏菊"],
                   ["0605qiqi","5/2006 9th Birthday","5/2006 9岁生日"],["0510xiamen","10/2005 Visting Xiamen","10/2005 国庆游厦门"],
@@ -19,8 +20,8 @@ function initAlbum(){
     this.length = 2;
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
-    let rose = [0,0]
     i = 0;
+    j = 0;
     this[0][i]   = ["0410picnic/0410picnic_3","20041002"];
     this[1][i++] = pagelink("0410picnic",(["Barbecuing at Dongxiao Forest Park, Longyan, Fujian","在福建龙岩东肖森林公园烧烤"])[cn_ind]);
     this[0][i]   = ["200501_qiqi_1","20050121"];
@@ -57,24 +58,23 @@ function initAlbum(){
     this[1][i++] = (["Yongfu Tea Plantation, Zhangping, Fujian","福建漳平永福茶园"])[cn_ind];
     this[0][i]   = ["201906_Qiqi_1","201906_Qiqi_2"];
     this[1][i++] = (["Xiamen University, Xiamen, Fujian","大学毕业了，福建厦门大学"])[cn_ind];
-    rose[0]      = i;
+    addrose[j++] = i;
     this[0][i]   = "20240923_Qiqi_1";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
+    addrose[j++] = i;
     this[0][i]   = ["20240923_Qiqi_2","20240923_Qiqi_3"];
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
+    addrose[j++] = i;
     this[0][i]   = "20240923_Qiqi_4";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
+    addrose[j++] = i;
     this[0][i]   = "20240923_Qiqi_5";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
-    rose[1]      = i;
+    addrose[j++] = i;
     this[0][i]   = ["20240923_Qiqi_6","20240923_Qiqi_7"];
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
 
     adddate(this);
-    
-    for (let j=rose[0];j<=rose[1];j++){ //add rose to the wedding photos
-        this[1][j] = this[1][j]+'<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
-    }
 }
  
 //web counter info
