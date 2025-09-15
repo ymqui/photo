@@ -24,9 +24,6 @@ var swapinterval = 500;
 
 var link_color   = "#3399FF";
 
-var facesize     = 15;
-if (cellphone){ facesize = 40; }
-
 if(!window.index){
     var index = 0;      //default starting from file 0
     if (window.last2first) index = 1e5;
@@ -40,12 +37,36 @@ function init(){
         location.href = "";
     }
     num = photoalbum[0].length;
-    face_yn  = new Array(num);
-    for (var i=0;i<num;i++) face_yn[i] = false;
+    let facesize = '15';
+    if (cellphone){ facesize = '40'; }
     if (window.makeface) {
-        for (var i=0;i<makeface.length;i++) {
-          face_yn[makeface[i]] = true;
+        let tmp_face = '<br><center>';
+        for (let i=0;i<4;i++){
+            tmp_face = tmp_face+' <img src="'+thumb_dir+'face_'+i.toString()+'.gif" style="border:0px" width='+facesize+' height='+facesize+'></img>';
         }
+        tmp_face = tmp_face+'</center>';
+        for (let i=0;i<makeface.length;i++) {
+            if (Array.isArray(photoalbum[1][makeface[i]])){
+               for (let j=0;j<photoalbum[1][makeface[i]].length;j++) {
+                   photoalbum[1][makeface[i]][j] = photoalbum[1][makeface[i]][j]+tmp_face;
+               }
+            }else{
+               photoalbum[1][makeface[i]] = photoalbum[1][makeface[i]]+tmp_face;
+            }
+        }
+    }
+    if (window.addrose){
+        let tmp_rose = '<br><center><img src="'+thumb_dir+'rose.gif" style="border:0px"></img></center>';
+        for (let i=0;i<addrose.length;i++) {
+            if (Array.isArray(photoalbum[1][addrose[i]])){
+               for (let j=0;j<photoalbum[1][addrose[i]].length;j++) {
+                   photoalbum[1][addrose[i]][j] = photoalbum[1][addrose[i]][j]+tmp_rose;
+               }
+            }else{
+               photoalbum[1][addrose[i]] = photoalbum[1][addrose[i]]+tmp_rose;
+            }
+        }
+
     }
     duration = 1.5;
     anstr = new Array();
@@ -155,7 +176,7 @@ function loadHidden(){
     }else{
        tmp_src = photoalbum[0][tmp];
     }
-    if(/\//.test(tmp_src)) tmp_dir = maindir+'pics/';
+    if(/\//.test(tmp_src)) tmp_dir = maindir+"pics/";
     if (Array.isArray(photoalbum[1][tmp])){
        tmp_alt = photoalbum[1][tmp][tmp_i];
     }else{
@@ -277,19 +298,6 @@ function swap(iscamera){
        }
        window.status = reform(tmp_cap);
        showmesg(tmp_cap);
-       if (face_yn[index] &&(!iscamera)) {  //check make face
-           for(var i=0;i<4;i++) {
-               var tmp = "face_"+i.toString();
-               document.images[tmp].width  = facesize;
-               document.images[tmp].height = facesize;
-           }
-       }else{
-           for(var i=0;i<4;i++) {
-               var tmp = "face_"+i.toString();
-               document.images[tmp].width  = 0;
-               document.images[tmp].height = 0;
-           }
-       }
        if(swaptimerOn){
            clearTimeout(swaptimerID);
            swaptimerOn = false;

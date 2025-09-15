@@ -174,10 +174,6 @@
   document.write('<p style="margin-top:6px;">');
   document.write('<p>&nbsp;');
   document.write('<div id="text" style="font-size: '+fsize+' color:'+color_3+';">&nbsp;</div>');
-  document.write('<img name="face_0" src="'+thumb_dir+'face_0.gif" width=0 height=0>');
-  document.write(' <img name="face_1" src="'+thumb_dir+'face_1.gif" width=0 height=0>');
-  document.write(' <img name="face_2" src="'+thumb_dir+'face_2.gif" width=0 height=0>');
-  document.write(' <img name="face_3" src="'+thumb_dir+'face_3.gif" width=0 height=0>');
     
   //extra link list
   if (window.pagelist){
