@@ -66,7 +66,18 @@ function init(){
                photoalbum[1][addrose[i]] = photoalbum[1][addrose[i]]+tmp_rose;
             }
         }
-
+    }
+    if (window.addbday){
+        let tmp_rose = '<br><center><img src="'+thumb_dir+'c_birthday.png" style="border:0px"></img></center>';
+        for (let i=0;i<addbday.length;i++) {
+            if (Array.isArray(photoalbum[1][addbday[i]])){
+               for (let j=0;j<photoalbum[1][addbday[i]].length;j++) {
+                   photoalbum[1][addbday[i]][j] = photoalbum[1][addbday[i]][j]+tmp_rose;
+               }
+            }else{
+               photoalbum[1][addbday[i]] = photoalbum[1][addbday[i]]+tmp_rose;
+            }
+        }
     }
     duration = 1.5;
     anstr = new Array();
