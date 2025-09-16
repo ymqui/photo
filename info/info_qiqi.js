@@ -22,8 +22,6 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
-    j = 0;
-    k = 0;
     this[0][i]   = ["0410picnic/0410picnic_3","20041002"];
     this[1][i++] = pagelink("0410picnic",(["Barbecuing at Dongxiao Forest Park, Longyan, Fujian","在福建龙岩东肖森林公园烧烤"])[cn_ind]);
     this[0][i]   = ["200501_qiqi_1","20050121"];
@@ -44,7 +42,7 @@ function initAlbum(){
     this[1][i++] = pagelink("0511mum",(["Visiting Zhongshan Park, Longyan, Fujian","福建龙岩中山公园赏菊"])[cn_ind]);
     this[0][i]   = ["200601_qiqi","20060131"];
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
-    addbday[k++] = i;
+    addbday.push(i);
     this[0][i]   = ["0605qiqi/0605qiqi_5","20060514"];
     this[1][i++] = pagelink("0605qiqi",(["9th Birthday, Longyan, Fujian","9岁生日，福建龙岩"])[cn_ind]);
     this[0][i]   = ["200702_qiqi","20070223"];
@@ -61,19 +59,19 @@ function initAlbum(){
     this[1][i++] = (["Yongfu Tea Plantation, Zhangping, Fujian","福建漳平永福茶园"])[cn_ind];
     this[0][i]   = ["201906_Qiqi_1","201906_Qiqi_2"];
     this[1][i++] = (["Xiamen University, Xiamen, Fujian","大学毕业了，福建厦门大学"])[cn_ind];
-    addrose[j++] = i;
+    addrose.push(i);
     this[0][i]   = "20240923_Qiqi_1";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
-    addrose[j++] = i;
+    addrose.push(i);
     this[0][i]   = ["20240923_Qiqi_2","20240923_Qiqi_3"];
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
-    addrose[j++] = i;
+    addrose.push(i);
     this[0][i]   = "20240923_Qiqi_4";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
-    addrose[j++] = i;
+    addrose.push(i);
     this[0][i]   = "20240923_Qiqi_5";
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
-    addrose[j++] = i;
+    addrose.push(i);
     this[0][i]   = ["20240923_Qiqi_6","20240923_Qiqi_7"];
     this[1][i++] = (["Wedding, Longyan, Fujian","婚礼，福建龙岩"])[cn_ind];
 

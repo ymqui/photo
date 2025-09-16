@@ -19,7 +19,6 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
-    j = 0;
     this[0][i]    = "20241219_1";
     this[1][i++]  = (["4D ultrasound taken at 24 weeks","24周的四维彩超"])[cn_ind];
     this[0][i]    = "20250403_1";
@@ -53,7 +52,7 @@ function initAlbum(){
     this[0][i]    = ["20250813_1","20250813_2","20250813_3"];
     this[1][i++]  = (["Cutie boy","可爱的皮皮"])[cn_ind];
     this[0][i]    = ["20250820_1","20250820_2","20250820_3"];
-    makeface[j++] = i;
+    makeface.push(i);
     this[1][i++]  = (["Taking a bath","洗澡很开心"])[cn_ind];
     this[0][i]    = ["20250822_1","20250822_2","20250822_3"];
     this[1][i++]  = (["With Grandma","和外婆在一起"])[cn_ind];
