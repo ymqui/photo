@@ -492,19 +492,7 @@ function initAlbum(){
     if (/birthday/.test(window.location.search.substring(1))) {
        this[0] = addbday.map(i=>this[0][i]);
        this[1] = addbday.map(i=>this[1][i]);
-       addbday = Array(...addbday.keys());
-       document.write(this[0].length);
-       this[0].length = addbday.length;
-       this[1].length = addbday.length;
-   //    var n_id = 0;
-   //    for (var i=0;i<this[1].length;i++){
-   //        if (this[1][i].indexOf((["birthday!","岁生日快乐！"])[cn_ind])!=-1){
-   //           this[0].splice(n_id,1,this[0][i]);
-   //           this[1].splice(n_id++,1,this[1][i]);
-   //        }
-   //    }
-   //    this[0].length = n_id;
-   //    this[1].length = n_id;
+       for (let i=0;i<addbday.length;i++){ addbday[i] = i;}
     }
 
     adddate(this);
