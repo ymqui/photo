@@ -9,6 +9,7 @@ var ext        = ".jpg";
 var midi_file  = "StrangeLandsPeople.mid";
 var midi_cr    = new Array("Mfiles","http://www.mfiles.co.uk/midi-files.htm");
 var addrose    = new Array();
+var addbday    = new Array();
 var pagelist   = [["0410picnic","10/2004 Barbecuing at Forest Park","10/2004 森林公园烧烤"],["0505zhangping","5/2005 Visiting Zhangping","5/2005 游漳平"],
                   ["0507tongbo","7/2005 Visiting Tongbo","7/2005 游铜钵"],["0511mum","11/2005 Chrysanthemums in Zhongshan Park","11/2005 中山公园赏菊"],
                   ["0605qiqi","5/2006 9th Birthday","5/2006 9岁生日"],["0510xiamen","10/2005 Visting Xiamen","10/2005 国庆游厦门"],
@@ -22,6 +23,7 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     j = 0;
+    k = 0;
     this[0][i]   = ["0410picnic/0410picnic_3","20041002"];
     this[1][i++] = pagelink("0410picnic",(["Barbecuing at Dongxiao Forest Park, Longyan, Fujian","在福建龙岩东肖森林公园烧烤"])[cn_ind]);
     this[0][i]   = ["200501_qiqi_1","20050121"];
@@ -42,6 +44,7 @@ function initAlbum(){
     this[1][i++] = pagelink("0511mum",(["Visiting Zhongshan Park, Longyan, Fujian","福建龙岩中山公园赏菊"])[cn_ind]);
     this[0][i]   = ["200601_qiqi","20060131"];
     this[1][i++] = (["Longyan, Fujian","福建龙岩"])[cn_ind];
+    addbday[k++] = i;
     this[0][i]   = ["0605qiqi/0605qiqi_5","20060514"];
     this[1][i++] = pagelink("0605qiqi",(["9th Birthday, Longyan, Fujian","9岁生日，福建龙岩"])[cn_ind]);
     this[0][i]   = ["200702_qiqi","20070223"];
