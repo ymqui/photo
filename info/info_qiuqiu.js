@@ -490,7 +490,7 @@ function initAlbum(){
     if (/birthday/.test(window.location.search.substring(1))) {
        this[0] = addbday.map(i=>this[0][i]);
        this[1] = addbday.map(i=>this[1][i]);
-       for (let i=0;i<addbday.length;i++){ addbday[i] = i;}
+       addbday = addbday.map((ind,i)=>i);
     }
 
     adddate(this);
