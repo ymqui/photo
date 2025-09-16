@@ -38,7 +38,11 @@ function init(){
     }
     num = photoalbum[0].length;
     let facesize = '15';
-    if (cellphone){ facesize = '40'; }
+    let cakesize = '60';
+    if (cellphone){ 
+       facesize = '40';
+       cakesize = '100';
+    }
     if (window.makeface) {
         let tmp_face = '<br><center>';
         for (let i=0;i<4;i++){
@@ -68,14 +72,14 @@ function init(){
         }
     }
     if (window.addbday){
-        let tmp_rose = '<br><center><img src="'+thumb_dir+'c_birthday.png" style="border:0px"></img></center>';
+        let tmp_cake = '<br><center><img src="'+thumb_dir+'c_birthday.png" style="border:0px" width='+cakesize+' height='+cakesize+'></img>';
         for (let i=0;i<addbday.length;i++) {
             if (Array.isArray(photoalbum[1][addbday[i]])){
                for (let j=0;j<photoalbum[1][addbday[i]].length;j++) {
-                   photoalbum[1][addbday[i]][j] = photoalbum[1][addbday[i]][j]+tmp_rose;
+                   photoalbum[1][addbday[i]][j] = photoalbum[1][addbday[i]][j]+tmp_cake;
                }
             }else{
-               photoalbum[1][addbday[i]] = photoalbum[1][addbday[i]]+tmp_rose;
+               photoalbum[1][addbday[i]] = photoalbum[1][addbday[i]]+tmp_cake;
             }
         }
     }
