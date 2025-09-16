@@ -37,32 +37,6 @@
   document.bgColor = color_0;
      
   document.write('<DIV ID="loading" style="POSITION:absolute; LEFT:0; TOP:0; VISIBILITY:hidden; Z-INDEX:200"><img src="'+thumb_dir+loadgif+'"></img></DIV>');
- 
-  function playmidi(){
-    try{
-       document.midi.play();
-    }catch(er){
-       try{
-           divcontent("mididiv",midistr);
-       }catch(er){
-           showmesg('Error occurred in playing midi. Please try Internet Explorer or Netscape.');
-           startstopMidi();
-       }
-    }
-  }
-
-  function stopmidi(){
-    try{
-       document.midi.pause();
-    }catch(er){
-       try{
-           divcontent("mididiv","");
-       }catch(er){
-           showmesg('Error occurred in stopping midi. Please try Internet Explorer or Netscape.');
-           startstopMidi();
-       }
-    }
-  }
 
   document.write('<style type="text/css">');
   document.write('<!--');
@@ -78,7 +52,6 @@
   var use_url = false;
   var use_cam = false;
   var use_mid = false;
-  var use_obj = true;
   var use_cr  = false;
  
   if(window.info_url){
@@ -89,19 +62,17 @@
   }
   if(window.midi_file){
      use_mid = true;
-     var agt = navigator.userAgent.toLowerCase();
-     if((agt.indexOf("msie")!=-1)&&(agt.indexOf("opera")==-1)){
-         use_obj = false;
-     }
      if (midi_file.length==0) use_mid=false;
      if(use_mid){
          if(window.midi_cr){
              if(midi_cr.length!=0) use_cr=true;
          }
+         var mymidi = new Audio(mididir+midi_file);
      }
   }
   if(cellphone) document.write('<br>');
   var pagelistid = 1;
+
   if(window.usechinese){
      pagelistid = 2;
      document.write('<A onclick="getFirst()"><IMG SRC="'+thumb_dir+prefix+'first.png"'+borderstr('第一张')+'></A>');
@@ -111,7 +82,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('自动放映/按F11全屏显示')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'stopmidi.png"'+borderstr('停止音乐')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png"'+borderstr('播放音乐')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('照片本来大小')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -138,7 +109,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('Start Slide Show/Press F11 Full Screen')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'stopmidi.png"'+borderstr('Stop Music')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png"'+borderstr('Play Music')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('Actual Photo Size')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -226,40 +197,7 @@
      document.write('</font></div>');
   }
 
-  //background midi music
-  if(use_mid){
-     document.write('<div id="mididiv" style="position:absolute;visibility:show;z-index:5;">');
-     var midistr = '';
-     if(use_obj){
-          midistr=midistr+'<object name="midi" ';
-          midistr=midistr+'  type="application/x-oleobject"';
-          midistr=midistr+'  classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95"';
-          midistr=midistr+'  codebase="<http://activex.microsoft.com/activex/controls/mplayer/en/nsmp>2inf.cab#Version=6,4,7,1112"'; 
-          midistr=midistr+'  standby="Loading Windows Media Player components..."';
-          midistr=midistr+'>';
-          midistr=midistr+'<param name="FileName" value="'+mididir+midi_file;
-          //midistr=midistr+'?raw=true';
-          midistr=midistr+'">';
-          midistr=midistr+'<param name="autostart" value="true">';
-          midistr=midistr+'<param name="playcount" value="1000">';
-          midistr=midistr+'<param name="ShowStatusBar" value="false">';
-          midistr=midistr+'<embed id="midi" src="'+mididir+midi_file;
-          //midistr=midistr+'?raw=true';
-          midistr=midistr+'" type="application/x-mplayer2" ';
-          midistr=midistr+'       width="0" height="1"  autostart="true" playcount="1000"></embed>';
-          midistr=midistr+'</object>';
-     }else{
-          midistr=midistr+'<embed id="midi" name="midi" src="'+mididir+midi_file;
-          //midistr=midistr+'?raw=true';
-          midistr=midistr+'" type="application/x-mplayer2" ';
-          midistr=midistr+' width="0" height="1"  autostart="true" loop="true"></embed>';
-          midistr=midistr+'<noembed><bgsound name="midi" src="'+mididir+midi_file;
-          //midistr=midistr+'?raw=true';
-          midistr=midistr+'" loop="infinite"></noembed>';
-     }
-     document.write(midistr);
-     document.write('</div>');
-  }
+  
   slideshowimg        = new Array(2); 
   slideshowimg[0]     = new Image();
   slideshowimg[0].src = thumb_dir+prefix+"slideshow.png";

@@ -9,7 +9,7 @@ var currentHeight = 0;              //actual image height
 var hiddenWidth   = 0;		    //actual hidden image width
 var hiddenHeight  = 0;		    //actual hidden image height
 var fittowindow   = true;           //flag for fitting the image to the window
-var midiOn        = true;           //flag for midi music
+var midiOn        = false;          //flag for midi music
 var waitcounter   = 0;
 var opacity       = 0.99;
 var transtimerOn  = false;
@@ -589,10 +589,10 @@ function startstopMidi(){
     }catch(er){}
     if(!midiOn){
         document.images["midiimg"].src = musicimg[0].src;
-        stopmidi();
+        mymidi.pause();
     }else{
         document.images["midiimg"].src = musicimg[1].src;
-        playmidi();
+        mymidi.play();
     }
 }
 
