@@ -494,6 +494,8 @@ function initAlbum(){
        this[1] = addbday.map(i=>this[1][i]);
        addbday = Array(...addbday.keys());
        document.write(this[0].length);
+       this[0].length = addbday.length;
+       this[1].length = addbday.length;
    //    var n_id = 0;
    //    for (var i=0;i<this[1].length;i++){
    //        if (this[1][i].indexOf((["birthday!","岁生日快乐！"])[cn_ind])!=-1){
