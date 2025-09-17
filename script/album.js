@@ -586,17 +586,19 @@ function switchmesg2(){
 }
 
 function startstopMidi(){
-    if (!canplay) return;
+    //if (!canplay) return;
     midiOn = !midiOn;
     try{
         document.images["midiimg"].onmouseover = switchmesg3;
     }catch(er){}
     if(!midiOn){
         document.images["midiimg"].src = musicimg[0].src;
-        mymidi.pause();
+        MIDIjs.stop();
+        //mymidi.pause();
     }else{
         document.images["midiimg"].src = musicimg[1].src;
-        mymidi.play();
+        MIDIjs.play(mididir+midi_file);
+        //mymidi.play();
     }
 }
 
