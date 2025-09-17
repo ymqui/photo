@@ -10,6 +10,7 @@ var hiddenWidth   = 0;		    //actual hidden image width
 var hiddenHeight  = 0;		    //actual hidden image height
 var fittowindow   = true;           //flag for fitting the image to the window
 var midiOn        = false;          //flag for midi music
+var canplay       = false;          //flag for midi ready
 var waitcounter   = 0;
 var opacity       = 0.99;
 var transtimerOn  = false;
@@ -583,6 +584,7 @@ function switchmesg2(){
 }
 
 function startstopMidi(){
+    if (!canplay) return;
     midiOn = !midiOn;
     try{
         document.images["midiimg"].onmouseover = switchmesg3;

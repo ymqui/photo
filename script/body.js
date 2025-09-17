@@ -67,7 +67,6 @@
          if(window.midi_cr){
              if(midi_cr.length!=0) use_cr=true;
          }
-         var mymidi = new Audio(mididir+midi_file);
      }
   }
   if(cellphone) document.write('<br>');
@@ -82,7 +81,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('自动放映/按F11全屏显示')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png"'+borderstr('播放音乐')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" style="opacity:0.4;"'+borderstr('播放音乐')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('照片本来大小')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -109,7 +108,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('Start Slide Show/Press F11 Full Screen')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png"'+borderstr('Play Music')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" style="opacity:0.4;"'+borderstr('Play Music')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('Actual Photo Size')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -135,6 +134,16 @@
   }else{
      fsize = "100%;";
      n_brk = 6;
+  }
+
+  if(use_mid){
+     var mymidi = new Audio(mididir+midi_file);
+
+     mymidi.addEventListener("canplaythrough", (event) => {
+         /* the audio is now playable; play it if permissions allow */
+         document.images["midiimg"].style.opacity = 1.0;
+         canplay = true;
+     });
   }
 
   var click = ' onclick="mouseclick(event)"';
