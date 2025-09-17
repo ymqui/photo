@@ -183,7 +183,7 @@ function loadHidden(){
     }else if (tmp<0){
        tmp = num-1;
     }
-    if (window.birthday && birthdayonly) {tmp = addbday[tmp]; }
+    if ((typeof addbday !== "undefined") && birthdayonly) {tmp = addbday[tmp]; }
     hiddenimg = new Image();
     let tmp_i = myrandom(photoalbum[0][tmp]);
     let tmp_src = '';

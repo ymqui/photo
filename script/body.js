@@ -93,7 +93,7 @@
      }
      document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+'english_v.png"'+borderstr('英文版/English Version')+'></A>');
      document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr('相册主页')+'></A>');
-     if(window.birthday){
+     if(typeof addbday !== "undefined"){
         document.write('<A onclick="switchbirthday()"><IMG name="bdayimg" SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('生日照片')+'></A>');
      }
   }else{
@@ -116,7 +116,7 @@
      }
      document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+'chinese_v.png"'+borderstr('Chinese Version/中文版')+'></A>');
      document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr('Photo Album Home')+'></A>');
-     if(window.birthday){
+     if(typeof addbday !== "undefined"){
         document.write('<A onclick="switchbirthday()"><IMG name="bdayimg" SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('Birthday Photos')+'></A>');
      }
   }
