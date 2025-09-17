@@ -397,7 +397,7 @@ function initAlbum(){
     this[1][i++] = (["Making bubbles","吹泡泡"])[cn_ind];
     let urltmp   = (['6FtdvOt70uw','6wdHgLadu6w'])[Math.round(Math.random())];
     this[0][i]   = "20240619_022_MonkeyBar";
-    this[1][i++] = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Playing on the monkey bars (YouTube Video)")+" at Fallsmead Elementary School playground","在Fallsmead小学操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
+    this[1][i++] = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Playing on the monkey bars (YouTube Video)")+" in "+school+" playground","在"+school+"操场上"+urllink(url,"玩攀爬架(YouTube视频)")])[cn_ind];
     this[0][i]   = ["2408france/2408france_49","20240821"];
     this[1][i++] = (["Visiting the Eiffel Tower during the "+pagelink("2408france","vacation in France"),"在"+pagelink("2408france","法国度假")+"期间游巴黎的"+baike("埃菲尔铁塔")])[cn_ind];
     this[0][i]   = "20240901";
@@ -411,7 +411,7 @@ function initAlbum(){
     this[0][i]   = ["2409nga/2409nga_6","20240915"];
     this[1][i++] = pagelink("2409nga",(["Visiting the Paris 1874: The Impressionist Moment exhibition at National Gallery of Art","参观国家美术馆举办的巴黎1874印象派时刻画展"])[cn_ind]);
     this[0][i]   = "20241016_028_CometTsuchinshan";
-    this[1][i++] = (["Watching Comet Tsuchinshan-ATLAS on Fallsmead Elementary School playground","在Fallsmead小学操场上观看紫金山-阿特拉斯彗星"])[cn_ind];
+    this[1][i++] = (["Watching Comet Tsuchinshan-ATLAS on "+school+" playground","在"+school+"操场上观看紫金山-阿特拉斯彗星"])[cn_ind];
     this[0][i]   = "20241020_029_Bracelet";
     this[1][i++] = (["Making a Rainbow Loom triple single bracelet","用橡皮筋编三重手链"])[cn_ind];
     this[0][i]   = "20241026_033_WithGrandparents";
