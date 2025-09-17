@@ -197,7 +197,6 @@
      }
      document.write('</font></div>');
   }
-
   
   slideshowimg        = new Array(2); 
   slideshowimg[0]     = new Image();
