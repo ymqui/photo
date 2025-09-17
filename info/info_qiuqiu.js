@@ -487,12 +487,6 @@ function initAlbum(){
     this[0][i]   = ["2508italy/2508italy_85","20250819"];
     this[1][i++] = (["Visiting the Vatican City during the "+pagelink("2508italy","vacation in Italy"),pagelink("2508italy","在意大利度假")+"时参观梵蒂冈城"])[cn_ind];
 
-    if (/birthday/.test(window.location.search.substring(1))) {
-       this[0] = addbday.map(i=>this[0][i]);
-       this[1] = addbday.map(i=>this[1][i]);
-       addbday = addbday.map((ind,i)=>i);
-    }
-
     adddate(this);
 }
 
