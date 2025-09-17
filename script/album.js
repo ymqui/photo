@@ -15,15 +15,16 @@ var waitcounter   = 0;
 var opacity       = 0.99;
 var transtimerOn  = false;
 var hiddenimg;
+var birthdayonly  = false;
 
-var slidetimerID = null;
-var slidetimerOn = false;
+var slidetimerID  = null;
+var slidetimerOn  = false;
 
-var swaptimerID  = null;
-var swaptimerOn  = false;
-var swapinterval = 500;
+var swaptimerID   = null;
+var swaptimerOn   = false;
+var swapinterval  = 500;
 
-var link_color   = "#3399FF";
+var link_color    = "#3399FF";
 
 if(!window.index){
     var index = 0;      //default starting from file 0
@@ -176,12 +177,13 @@ function resize(ishidden){
 
 function loadHidden(){
     let tmp = index+1;
-    if(window.last2first){tmp = index-1;}
+    if (window.last2first){tmp = index-1;}
     if (tmp>num-1){
        tmp = 0;
     }else if (tmp<0){
        tmp = num-1;
     }
+    if (window.birthday && birthdayonly) {tmp = addbday[tmp]; }
     hiddenimg = new Image();
     let tmp_i = myrandom(photoalbum[0][tmp]);
     let tmp_src = '';
@@ -634,14 +636,50 @@ function switchlang(){
 }
 
 function switchbirthday(){
+    try{
+        document.images["bdayimg"].onmouseover = switchmesg4;
+    }catch(er){}
     stopShow();
-    var tmp = window.location.href;
-    if ((/&birthday/i).test(tmp)){
-       tmp = tmp.replace(/&birthday/i,"");
-    }else{
-       tmp = tmp+"&birthday";
+    birthdayonly = !birthdayonly;
+    if (birthdayonly){
+        num = addbday.length;
+    }else{ 
+        num = photoalbum[0].length;
     }
-    location.href = tmp;
+    if(window.last2first){
+        index = num;  
+    }else{
+        index = -1;
+    }
+    loadHidden();
+    if (slideshow){
+       slideShow();
+    }else{
+       if(window.last2first){
+          index--;
+       }else{
+          index++;
+       }
+       swap(false);
+    }
+}
+
+function switchmesg4(){
+    if(birthdayonly){
+        if(window.usechinese){
+            mesg = "全部照片";
+        }else{
+            mesg = "All Photos";
+        }
+    }else{
+        if(window.usechinese){
+            mesg = "生日照片";
+        }else{
+            mesg = "Birthday Photos";
+        }
+    }
+    borderit(this,color_1);
+    popupmesg(mesg);
 }
 
 function pagelink(pid, descrip){
