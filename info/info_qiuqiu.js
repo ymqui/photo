@@ -10,7 +10,6 @@ var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 var makeface   = new Array();
 var addbday    = new Array();
-var birthday   = true;
 var thisyear   = (new Date()).getFullYear();
 var thismon    = (new Date()).getMonth()+1;
 var strDate    = thismon.toString()+"/"+thisyear.toString();
