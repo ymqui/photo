@@ -636,9 +636,6 @@ function switchlang(){
 }
 
 function switchbirthday(){
-    try{
-        document.images["bdayimg"].onmouseover = switchmesg4;
-    }catch(er){}
     stopShow();
     birthdayonly = !birthdayonly;
     if (birthdayonly){
@@ -646,6 +643,9 @@ function switchbirthday(){
     }else{ 
         num = photoalbum[0].length;
     }
+    try{
+        document.images["bdayimg"].onmouseover = switchmesg4;
+    }catch(er){}
     if(window.last2first){
         index = num;  
     }else{
@@ -732,7 +732,7 @@ function baike(bid,name){
 }
 
 function getdate(name,str){
-    var nam1,tmp,date,comma=",";
+    var nam1,tmp,date,comma=",",period=".";
     if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if (Array.isArray(name)){nam1=name[0];}else{nam1=name;}
     var pos  = nam1.search(/20[0-9]{2,}/) 
@@ -744,23 +744,22 @@ function getdate(name,str){
        date  = year
        if (mon.length!=0) {date = date+"-"+mon;}
        if (day.length!=0) {date = date+"-"+day;}
-       date  = date+"。";
        comma = "，";
+       period = "。";
     }else{
        if (mon.substring(0,1)=="0"){mon = mon.substring(1,2);}
        if (day.substring(0,1)=="0"){day = day.substring(1,2);}
        date = " ";
        if (mon.length!=0) {date = date+mon+"/";}
        if (day.length!=0) {date = date+day+"/";}
-       date = date+year+".";
+       date = date+year;
        tmp  = strupcase(tmp);
     }
     if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
-       tmp = tmp+date;
-    }else{
-       tmp = tmp+comma+date;
+       tmp = tmp.slice(0,-1);
+       period = (window.usechinese)?"！":"!";
     }
-    return tmp;
+    return tmp+comma+date+period;
 }
 
 //upper case to the first letter, works for href link
