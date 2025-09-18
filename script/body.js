@@ -13,6 +13,7 @@
   var color_3 = "#E0E0E0";
   var color_4 = "#282828";
   var loadgif = "loading2.gif";
+  var cr_str  = "";
   if (Math.floor(Math.random()*3)==0){
      loadgif = "loading.gif";
   }else if (Math.floor(Math.random()*2)==0){
@@ -126,18 +127,6 @@
 
   }
   
-  if(use_mid){
-     var mymidi  = new Audio(mididir+midi_file);
-     mymidi.loop = true;
-
-     mymidi.addEventListener("canplaythrough", (event) => {
-         // the audio is now playable; show music icon
-         canplay = true;
-         document.images["midiimg"].width  = m_size;
-         document.images["midiimg"].height = m_size;
-     });
-  }
-
   var click = ' onclick="mouseclick(event)"';
   if(window.blocksave && (!cellphone)){click = click+' oncontextmenu="rightclick(event)"';}
   document.write('<p>&nbsp;');
@@ -178,26 +167,39 @@
   //credit the source of the midi file
   if(use_cr){
      if(window.sc_project){
-         document.write('<div><font color='+color_4+'>&copy; ');
+         document.write('<div id="midicr"> </div>');
      }else{
-         document.write('<p>&nbsp;<p><div><font color='+color_4+'>&copy; ');
+         document.write('<p>&nbsp;<p><div id="midicr"> </div>');
      }
      if(midi_cr.length==2){
         if(window.usechinese){
-           document.write('MIDI文件由 <a style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A> 提供。');
+           cr_str = 'MIDI文件由 <A style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A> 提供。';
         }else{
-           document.write('The MIDI file is from <a style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A>.');
+           cr_str = 'The MIDI file is from <A style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A>.';
         }
      }else{
         if(window.usechinese){
-           document.write('MIDI文件由 '+midi_cr[0]+' 提供。');
+           cr_str = 'MIDI文件由 '+midi_cr[0]+' 提供。';
         }else{
-           document.write('The MIDI file is from '+midi_cr[0]+'.');
+           cr_str = 'The MIDI file is from '+midi_cr[0]+'.';
         }        
      }
-     document.write('</font></div>');
+     cr_str = '<font color='+color_4+'>&copy; '+cr_str+'</font>';
   }
-  
+
+  if(use_mid){
+     var mymidi  = new Audio(mididir+midi_file);
+     mymidi.loop = true;
+
+     mymidi.addEventListener("canplaythrough", (event) => {
+         // the audio is now playable; show music icon
+         canplay = true;
+         document.images["midiimg"].width  = m_size;
+         document.images["midiimg"].height = m_size;
+         if(use_cr) divcontent("midicr",cr_str);
+     });
+  }  
+
   slideshowimg        = new Array(2); 
   slideshowimg[0]     = new Image();
   slideshowimg[0].src = thumb_dir+prefix+"slideshow.png";
