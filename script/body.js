@@ -131,6 +131,7 @@
   if(use_mid){
      var mymidi  = new Audio(mididir+midi_file);
      mymidi.loop = true;
+     mymidi.onerror = function(){document.images["midiimg"].width=0;document.images["midiimg"].height=0;};
 
      mymidi.addEventListener("canplaythrough", (event) => {
          // the audio is now playable; play it if permissions allow
