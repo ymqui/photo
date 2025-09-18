@@ -13,12 +13,7 @@
   var color_3 = "#E0E0E0";
   var color_4 = "#282828";
   var loadgif = "loading2.gif";
-  var cr_str  = "";
-  if (Math.floor(Math.random()*3)==0){
-     loadgif = "loading.gif";
-  }else if (Math.floor(Math.random()*2)==0){
-     loadgif = "loading1.gif";
-  }
+  var cr_str  = "loading";
   if (window.whitebackground){
      prefix  = "";		//prefix of the thumbnail button names
      color_0 = "white";	//background color
@@ -26,11 +21,12 @@
      color_2 = "#E9E9E9";	//frame background color
      color_3 = "black";	//caption color
      color_4 = "#F6F6F6";	//hidden text colors
-     if (Math.floor(Math.random()*3)==0){
-        loadgif = "loading_white.gif";
-     }else if (Math.floor(Math.random()*2)==0){
-        loadgif = "loading_white1.gif";
-     }
+     cr_str  = "loading_white";
+  }
+  if (Math.floor(Math.random()*3)==0){
+     loadgif = cr_str+".gif";
+  }else if (Math.floor(Math.random()*2)==0){
+     loadgif = cr_str+"1.gif";
   }
   if (cellphone) {
      prefix = "c_";
@@ -67,6 +63,7 @@
      if(use_mid){
          if(window.midi_cr){
              if(midi_cr.length!=0) use_cr=true;
+             if(!Array.isArray(midi_cr))midi_cr=[midi_cr];
          }
      }
   }
@@ -121,11 +118,6 @@
         document.write('<A onclick="switchbirthday()"><IMG name="bdayimg" SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr('Birthday Photos')+'></A>');
      }
   }
-  if(cellphone){
-
-  }else{
-
-  }
   
   var click = ' onclick="mouseclick(event)"';
   if(window.blocksave && (!cellphone)){click = click+' oncontextmenu="rightclick(event)"';}
@@ -172,18 +164,15 @@
          document.write('<p>&nbsp;<p><div id="midicr"> </div>');
      }
      if(midi_cr.length==2){
-        if(window.usechinese){
-           cr_str = 'MIDI文件由 <A style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A> 提供。';
-        }else{
-           cr_str = 'The MIDI file is from <A style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A>.';
-        }
+         cr_str = '<A style="color:'+color_4+'" target="newWin" href="'+midi_cr[1]+'">'+midi_cr[0]+'</A>';
      }else{
-        if(window.usechinese){
-           cr_str = 'MIDI文件由 '+midi_cr[0]+' 提供。';
-        }else{
-           cr_str = 'The MIDI file is from '+midi_cr[0]+'.';
-        }        
+         cr_str = midi_cr[0];    
      }
+     if(window.usechinese){
+         cr_str = 'MIDI文件由 '+cr_str+' 提供。';
+     }else{
+         cr_str = 'The MIDI file is from '+cr_str+'.';
+     }    
      cr_str = '<font color='+color_4+'>&copy; '+cr_str+'</font>';
   }
 
