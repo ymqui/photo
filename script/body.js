@@ -1,38 +1,42 @@
 <!--
+  var fsize   = "100%;";
+  var n_brk   = 6;
+  var m_size  = 28; //midi image size
+  var use_url = false;
+  var use_cam = false;
+  var use_mid = false;
+  var use_cr  = false;
+  var prefix  = "b_";
+  var color_0 = "#1A2020";
+  var color_1 = "#E0E0E0";
+  var color_2 = "#888888";
+  var color_3 = "#E0E0E0";
+  var color_4 = "#282828";
+  var loadgif = "loading2.gif";
+  if (Math.floor(Math.random()*3)==0){
+     loadgif = "loading.gif";
+  }else if (Math.floor(Math.random()*2)==0){
+     loadgif = "loading1.gif";
+  }
   if (window.whitebackground){
-     var prefix  = "";		//prefix of the thumbnail button names
-     var color_0 = "white";	//background color
-     var color_1 = "dimgray";	//frame color
-     var color_2 = "#E9E9E9";	//frame background color
-     var color_3 = "black";	//caption color
-     var color_4 = "#F6F6F6";	//hidden text colors
+     prefix  = "";		//prefix of the thumbnail button names
+     color_0 = "white";	//background color
+     color_1 = "dimgray";	//frame color
+     color_2 = "#E9E9E9";	//frame background color
+     color_3 = "black";	//caption color
+     color_4 = "#F6F6F6";	//hidden text colors
      if (Math.floor(Math.random()*3)==0){
-        var loadgif = "loading_white.gif";
-     }else{
-        if (Math.floor(Math.random()*2)==0){
-           var loadgif = "loading_white1.gif";
-        }else{
-           var loadgif = "loading2.gif";
-        }
-     }
-  }else{
-     var prefix  = "b_";
-     var color_0 = "#1A2020";
-     var color_1 = "#E0E0E0";
-     var color_2 = "#888888";
-     var color_3 = "#E0E0E0";
-     var color_4 = "#282828";
-     if (Math.floor(Math.random()*2)==0){
-        var loadgif = "loading.gif";
-     }else{
-        if (Math.floor(Math.random()*2)==0){
-           var loadgif = "loading1.gif";
-        }else{
-           var loadgif = "loading2.gif";
-        }
+        loadgif = "loading_white.gif";
+     }else if (Math.floor(Math.random()*2)==0){
+        loadgif = "loading_white1.gif";
      }
   }
-  if (cellphone) prefix = "c_";
+  if (cellphone) {
+     prefix = "c_";
+     fsize  = "300%;";
+     n_brk  = 9;
+     m_size = 70; 
+  }
 
   document.bgColor = color_0;
      
@@ -49,10 +53,6 @@
   document.write('</style>');
 
   document.write('<center>');
-  var use_url = false;
-  var use_cam = false;
-  var use_mid = false;
-  var use_cr  = false;
  
   if(window.info_url){
      if (info_url.length>0) use_url = true;
@@ -81,7 +81,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('自动放映/按F11全屏显示')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" style="opacity:0.4;"'+borderstr('播放音乐')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" width="0" height="0"'+borderstr('播放音乐')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('照片本来大小')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -104,7 +104,7 @@
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
      document.write('<A onclick="startstopShow()"><IMG name="slideimg" id="slideimg" SRC="'+thumb_dir+prefix+'slideshow.png"'+borderstr('Start Slide Show/Press F11 Full Screen')+'></A>');
      if(use_mid){
-        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" style="opacity:0.4;"'+borderstr('Play Music')+'></A>');
+        document.write('<A onclick="startstopMidi()"><IMG name="midiimg" id="midiimg" SRC="'+thumb_dir+prefix+'midi.png" width="0" height="0"'+borderstr('Play Music')+'></A>');
      }
      document.write('<A onclick="refit()"><IMG name="refitimg" id="refitimg" SRC="'+thumb_dir+prefix+'size_actual.png"'+borderstr('Actual Photo Size')+'></A>');
      document.write('<IMG SRC="'+thumb_dir+prefix+'vbar.png" style="margin-bottom:2px">');
@@ -121,22 +121,20 @@
      }
   }
   if(cellphone){
-     fsize = "300%;";
-     n_brk = 9;
+
   }else{
-     fsize = "100%;";
-     n_brk = 6;
+
   }
   
   if(use_mid){
      var mymidi  = new Audio(mididir+midi_file);
      mymidi.loop = true;
-     mymidi.onerror = function(){document.images["midiimg"].width=0;document.images["midiimg"].height=0;};
 
      mymidi.addEventListener("canplaythrough", (event) => {
-         // the audio is now playable; play it if permissions allow
-         document.images["midiimg"].style.opacity = 1.0;
+         // the audio is now playable; show music icon
          canplay = true;
+         document.images["midiimg"].width  = m_size;
+         document.images["midiimg"].height = m_size;
      });
   }
 
