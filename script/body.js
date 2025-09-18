@@ -129,7 +129,10 @@
   }
   
   if(use_mid){
-     var mymidi = new Audio(mididir+midi_file);
+     var mymidi  = new Audio();
+     let tmp_midi = midi_file.slice(0,midi_file.lastIndexOf('.'));
+     myAudio.onerror = function(){ mymidi.src = mididir+tmp_midi+".mid";};
+     mymidi.src  = mididir+tmp_midi+".ogg";
      mymidi.loop = true;
 
      mymidi.addEventListener("canplaythrough", (event) => {

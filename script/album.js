@@ -755,9 +755,9 @@ function getdate(name,str){
        date = date+year;
        tmp  = strupcase(tmp);
     }
-    if ((tmp.slice(-1)==="!")||(tmp.slice(-1)==="！")){
-       tmp = tmp.slice(0,-1);
-       period = (window.usechinese)?"！":"!";
+    if (/(!|！|\?|？)$/.test(tmp)){
+       period = "";
+       comma = "";
     }
     return tmp+comma+date+period;
 }
