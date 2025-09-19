@@ -54,7 +54,7 @@ function initAlbum(){
     this[0][i]    = ["20250810_Italy","20250812_Italy","20250818_Italy"];
     this[1][i++]  = ([[pagelink("2508italy","Piazza Michelangelo, Florence, Tuscany, "+btext("Italy")),pagelink("2508italy","Leaning Tower of Pisa, Tuscany, "+btext("Italy")),pagelink("2508italy","Colosseum, Rome, Lazio, "+btext("Italy"))],[pagelink("2508italy",btext("意大利")+"托斯卡纳大区佛罗伦萨市米开朗基罗广场"),pagelink("2508italy",btext("意大利")+"托斯卡纳大区比萨斜塔"),pagelink("2508italy",btext("意大利")+"拉齐奥大区罗马市斗兽场")]])[cn_ind];
     this[0][i]    = "20250819_VaticanCity";
-    this[1][i++]  = pagelink("2508italy",([btext("Vatican City"),btext("梵蒂冈城")])[cn_ind]);
+    this[1][i++]  = pagelink("2508italy",(["St. Peter's Square, "+btext("Vatican City"),btext("梵蒂冈城")+"圣彼得广场"])[cn_ind]);
 
     adddate(this);
 }
