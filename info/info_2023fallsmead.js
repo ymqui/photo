@@ -20,7 +20,6 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
-    j = 0;
     this[0][i]    = "20230828_0";
     this[1][i++]  = (["Walking to school","开学第一天走路去上学"])[cn_ind];
     this[0][i]    = "20230828_1";
@@ -39,12 +38,12 @@ function initAlbum(){
     this[1][i++]  = (["Picked up by Mommy after school","放学妈妈来接球球"])[cn_ind];
     this[0][i]    = "20240128";
     this[1][i++]  = (["Nathan's 100th day project: a Chinese dragon decorated with 100 sequins","球球庆祝幼儿园第100天的作业：用100个亮片装饰的中国龙"])[cn_ind];
-    makeface[j++] = i;
+    makeface.push(i);
     this[0][i]    = "20240215_1";
     this[1][i++]  = (["100 is special","100很特别: 100年后我希望我能看视频； 如果我有100美元，我会买玩具"])[cn_ind];
     this[0][i]    = "20240223";
     this[1][i++]  = (["Art project: a colorful hat that also works as a phone","在学校制作的艺术帽子"])[cn_ind];
-    makeface[j++] = i;
+    makeface.push(i);
     this[0][i]    = "20240311_1";
     this[1][i++]  = (["My plan to get ready for first grade math","我为一年级数学做好准备的计划: 爸爸是帮助我练习的人； 我练习的地方； 这是我做好准备上一年级"])[cn_ind];
     this[0][i]    = "20240318";
