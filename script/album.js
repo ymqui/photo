@@ -360,8 +360,7 @@ function swap(iscamera){
 
 function rightclick(evt){
    evt.preventDefault();
-   if (window.usechinese){alert('该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。');}
-   else{alert('The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.');}
+   alert((['The photograph is copyright protected. Please contact ymqui@yahoo.com for more information.','该网页上的照片受版权保护，欲使用请联系ymqui@yahoo.com。'])[cn_ind]);
 }
 
 function mouseclick(evt){
@@ -543,17 +542,9 @@ function refit(){
 
 function switchmesg1(){
     if(fittowindow){
-        if(window.usechinese){
-            mesg = "照片本来大小";
-        }else{
-            mesg = "Actual Photo Size";
-        }
+        mesg = (["Actual Photo Size","照片本来大小"])[cn_ind];
     }else{
-        if(window.usechinese){
-            mesg = "照片恰当大小";
-        }else{
-            mesg = "Fit to Browser Window";
-        }
+        mesg = (["Fit to Browser Window","照片恰当大小"])[cn_ind];
     }
     borderit(this,color_1);
     popupmesg(mesg);
@@ -569,17 +560,9 @@ function startstopShow(){
 
 function switchmesg2(){
     if(slidetimerOn){
-        if(window.usechinese){
-            mesg = "停止自动放映/按F11全屏显示";
-        }else{
-            mesg = "Stop Slide Show/Press F11 Full Screen";
-        }
+        mesg = (["Stop Slide Show/Press F11 Full Screen","停止自动放映/按F11全屏显示"])[cn_ind];
     }else{
-        if(window.usechinese){
-            mesg = "自动放映/按F11全屏显示";
-        }else{
-            mesg = "Start Slide Show/Press F11 Full Screen";
-        }
+        mesg = (["Start Slide Show/Press F11 Full Screen","自动放映/按F11全屏显示"])[cn_ind];
     }
     borderit(this,color_1);
     popupmesg(mesg);
@@ -602,17 +585,9 @@ function startstopMidi(){
 
 function switchmesg3(){
     if(midiOn){
-        if(window.usechinese){
-            mesg = "停止音乐";
-        }else{
-            mesg = "Stop Music";
-        }
+        mesg = (["Stop Music","停止音乐"])[cn_ind];
     }else{
-        if(window.usechinese){
-            mesg = "播放音乐";
-        }else{
-            mesg = "Play Music";
-        }
+        mesg = (["Play Music","播放音乐"])[cn_ind];
     }
     borderit(this,color_1);
     popupmesg(mesg);
@@ -620,7 +595,7 @@ function switchmesg3(){
 
 function switchlang(){
     stopShow();
-    tmpdir = (window.usechinese)?"https://ymqui.github.io/photo/":"https://ymqui.github.io/zhaopian/";
+    tmpdir = (["https://ymqui.github.io/zhaopian/","https://ymqui.github.io/photo/"])[cn_ind];
     if(window.friendalbum){
         tmpdir = tmpdir+"friend/";
     }else if(window.yunalbum){
@@ -666,17 +641,9 @@ function switchbirthday(){
 
 function switchmesg4(){
     if(birthdayonly){
-        if(window.usechinese){
-            mesg = "全部照片";
-        }else{
-            mesg = "All Photos";
-        }
+        mesg = (["All Photos","全部照片"])[cn_ind];
     }else{
-        if(window.usechinese){
-            mesg = "生日照片";
-        }else{
-            mesg = "Birthday Photos";
-        }
+        mesg = (["Birthday Photos","生日照片"])[cn_ind];
     }
     borderit(this,color_1);
     popupmesg(mesg);
