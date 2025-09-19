@@ -69,7 +69,7 @@
   }
 
   if(cellphone) document.write('<br>');
-  var pagelistid = ([1,2])[cn_ind];
+
   document.write('<A onclick="getFirst()"><IMG SRC="'+thumb_dir+prefix+'first.png"'+borderstr((['First','第一张'])[cn_ind])+'></A>');
   document.write('<A onclick="getPrev()"><IMG SRC="'+thumb_dir+prefix+'previous.png"'+borderstr((['Previous or Click on the Left Side of the Photo','前一张或点击照片左侧'])[cn_ind])+'></A>');
   document.write('<A onclick="getNext()"><IMG SRC="'+thumb_dir+prefix+'next.png"'+borderstr((['Next or Click on the Right Side of the Photo','下一张或点击照片右侧'])[cn_ind])+'></A>');
@@ -110,7 +110,7 @@
      document.write('<p><img src="'+thumb_dir+'branch.png">');
      document.write('<p style="margin-top:6px; font-size: '+fsize+'">');
      for (var i=pagelist.length-1;i>=0;i--){
-         document.write(pagelink(pagelist[i][0],pagelist[i][pagelistid]));
+         document.write(pagelink(pagelist[i][0],pagelist[i][1+cn_ind]));
          if (!cellphone){
             document.write('<font color='+link_color+'>'+((i==0)?'.':',')+'</font>');
          }
