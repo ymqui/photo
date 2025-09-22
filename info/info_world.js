@@ -39,8 +39,8 @@ function initAlbum(){
     this[1][i++]  = pagelink("1905mexico",(["Teotihucan Pyramid of the Sun, State of Mexico, "+btext("Mexico"),btext("墨西哥")+"墨西哥州特奥蒂瓦坎古城太阳金字塔"])[cn_ind]);
     this[0][i]    = "20220826_Canada";
     this[1][i++]  = pagelink("2208canada",(["Niagara Falls, Ontario, "+btext("Canada"),btext("加拿大")+"安大略省尼亚加拉大瀑布"])[cn_ind]);
-    this[0][i]    = ["20230122_Panama","20230124_Panama","20230127_Panama"];
-    this[1][i++]  = ([[pagelink("2301panama","Casco Viejo, Panama City, "+btext("Panama")),pagelink("2301panama","Monkey Island, Panama Canal, "+btext("Panama")),pagelink("2301panama","Lake Alajuela, Panamá Province, "+btext("Panama"))],[pagelink("2301panama",btext("巴拿马")+"巴拿马城Casco Viejo老城"),pagelink("2301panama",btext("巴拿马")+"巴拿马运河猴岛"),pagelink("2301panama",btext("巴拿马")+"巴拿马省阿拉胡埃拉湖")]])[cn_ind];
+    this[0][i]    = ["20230122_Panama","20230124_Panama","20230127_Panama_1","20230127_Panama_2"];
+    this[1][i++]  = ([[pagelink("2301panama","Casco Viejo, Panama City, "+btext("Panama")),pagelink("2301panama","Monkey Island, Panama Canal, "+btext("Panama")),pagelink("2301panama","Lake Alajuela, Panamá Province, "+btext("Panama")),pagelink("2301panama","Emberá Purú village, Panamá Province, "+btext("Panama"))],[pagelink("2301panama",btext("巴拿马")+"巴拿马城Casco Viejo老城"),pagelink("2301panama",btext("巴拿马")+"巴拿马运河猴岛"),pagelink("2301panama",btext("巴拿马")+"巴拿马省阿拉胡埃拉湖"),pagelink("2301panama",btext("巴拿马")+"巴拿马省恩贝拉土著村")]])[cn_ind];
     this[0][i]    = ["20230622_Iceland_1","20230622_Iceland_2","20230623_Iceland"];
     this[1][i++]  = ([[pagelink("2306iceland","Jökulsárlón, Eastern Region, "+btext("Iceland")),pagelink("2306iceland","Seljalandsfoss, Southern Region, "+btext("Iceland")),pagelink("2306iceland","Blue Lagoon, Southern Peninsula, "+btext("Iceland"))],[pagelink("2306iceland",btext("冰岛")+"东部地区杰古沙龙冰河湖"),pagelink("2306iceland",btext("冰岛")+"南部地区塞里雅兰瀑布"),pagelink("2306iceland",btext("冰岛")+"雷克雅内斯半岛蓝湖温泉")]])[cn_ind];
     this[0][i]    = "20230807_UK";
@@ -49,8 +49,8 @@ function initAlbum(){
     this[1][i++]  = ([[pagelink("2312china","Tiananmen, Beijing, "+btext("China")),pagelink("2312china","Tulou, Yongding, Fujian, "+btext("China"))],[pagelink("2312china",btext("中国")+"北京天安门"),pagelink("2312china",btext("中国")+"福建永定土楼")]])[cn_ind];
     this[0][i]    = "20240821_France";
     this[1][i++]  = pagelink("2408france",(["Eiffel Tower, Paris, "+btext("France"),btext("法国")+"巴黎艾菲尔铁塔"])[cn_ind]);
-    this[0][i]    = ["20250413_Guatemala","20250419_Guatemala"];
-    this[1][i++]  = ([[pagelink("2504guatemala","Temple I, Tikal National Park, Petén, "+btext("Guatemala")),pagelink("2504guatemala","Santa Catalina Arch, Antigua Guatemala, Sacatepéquez, "+btext("Guatemala"))],[pagelink("2504guatemala",btext("危地马拉")+"佩滕省蒂卡尔国家公园1号神殿"),pagelink("2504guatemala",btext("危地马拉")+"萨卡特佩克斯省安提瓜危地马拉市圣卡塔利娜拱门")]])[cn_ind];
+    this[0][i]    = ["20250413_Guatemala_1","20250413_Guatemala_2","20250419_Guatemala"];
+    this[1][i++]  = ([[pagelink("2504guatemala","Temple I, Tikal National Park, Petén, "+btext("Guatemala")),pagelink("2504guatemala","Temple IV, Tikal National Park, Petén, "+btext("Guatemala")),pagelink("2504guatemala","Santa Catalina Arch, Antigua Guatemala, Sacatepéquez, "+btext("Guatemala"))],[pagelink("2504guatemala",btext("危地马拉")+"佩滕省蒂卡尔国家公园1号神殿"),pagelink("2504guatemala",btext("危地马拉")+"佩滕省蒂卡尔国家公园4号神殿"),pagelink("2504guatemala",btext("危地马拉")+"萨卡特佩克斯省安提瓜危地马拉市圣卡塔利娜拱门")]])[cn_ind];
     this[0][i]    = ["20250810_Italy","20250812_Italy","20250818_Italy"];
     this[1][i++]  = ([[pagelink("2508italy","Piazza Michelangelo, Florence, Tuscany, "+btext("Italy")),pagelink("2508italy","Leaning Tower of Pisa, Tuscany, "+btext("Italy")),pagelink("2508italy","Colosseum, Rome, Lazio, "+btext("Italy"))],[pagelink("2508italy",btext("意大利")+"托斯卡纳大区佛罗伦萨市米开朗基罗广场"),pagelink("2508italy",btext("意大利")+"托斯卡纳大区比萨斜塔"),pagelink("2508italy",btext("意大利")+"拉齐奥大区罗马市斗兽场")]])[cn_ind];
     this[0][i]    = "20250819_VaticanCity";
