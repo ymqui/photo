@@ -19,7 +19,6 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
-    j = 0;
     let tmptxt1   = (["Taking gymnastics class at the Gym","在体操馆学体操"])[cn_ind];
     let tmptxt2   = (["Taking gymnastics class at the Gym (YouTube video)","在体操馆学体操(YouTube视频)"])[cn_ind];
     this[0][i]    = "20250606";
@@ -39,6 +38,8 @@ function initAlbum(){
     this[0][i]    = ["20250906_1","20250906_2"];
     this[1][i++]  = urllink((url="https://youtube.com/shorts/Ouk40Vkw8Sc?feature=share"),tmptxt2);
     this[0][i]    = ["20250913_1","20250913_2"];
+    this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20250920_1","20250920_2"];
     this[1][i++]  = tmptxt1;
 
     adddate(this);
