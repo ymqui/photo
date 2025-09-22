@@ -11,8 +11,7 @@ var last2first = true;
 var makeface   = new Array();
 var addbday    = new Array();
 var thisyear   = (new Date()).getFullYear();
-var thismon    = (new Date()).getMonth()+1;
-var strDate    = thismon.toString()+"/"+thisyear.toString();
+var strDate    = ((new Date()).getMonth()+1).toString()+"/"+thisyear.toString();
 var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/2018 南卡罗来纳州美特尔海滩度假"],["1810parade","10/2018 Goddard School Halloween Parade","10/2018 戈达德托儿所万圣节游行"],
                   ["1812costarica","12/2018 Trip to Costa Rica","12/2018 游哥斯达黎加"],["1904dcmuseum","4/2019 Visiting the Smithonian Museums","4/2019 华盛顿特区参观博物馆"],
                   ["1905mexico","5/2019 Vacationing in Mexico","5/2019 在墨西哥度假"],["1906minitrain","6/2019 Wheaton Miniature Train","6/2019 惠顿公园坐小火车"],
@@ -37,8 +36,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
                   ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],["2508italy","8/2025 Vacationing in Italy","8/2025 在意大利度假"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
-if (thisyear>2030) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
-if (thisyear>2026) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
+if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
+if (thisyear>2030) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
 
 document.title = title;
  
@@ -219,7 +218,7 @@ function initAlbum(){
     addbday.push(i);
     this[0][i]   = "20201031_018_BirthdayCake";
     this[1][i++] = (["Happy 3rd birthday!","三岁生日快乐！"])[cn_ind];
-    school        = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
+    school       = pagelink("2020nist",(["the NIST Child Care Center","NIST托儿所"])[cn_ind]);
     this[0][i]   = "20201102_020_NIST";
     this[1][i++] = (["First day to "+school,"第一天上"+school])[cn_ind];
     this[0][i]   = "20201122_021_Chopstick";
@@ -331,8 +330,7 @@ function initAlbum(){
     this[0][i]   = ["20230108_001","20230108_009"];
     this[1][i++] = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
     this[0][i]   = ["2301panama/2301panama_4","2301panama/2301panama_16","2301panama/2301panama_46",["20230122","20230124","20230127"]];
-    this[1][i++] = ([["Visiting Casco Viejo in Panama City during the "+pagelink("2301panama","vacation in Panama"),"Watching monkeys in Monkey Island during the "+pagelink("2301panama","vacation in Panama"),"Visiting the Emberá Purú village during the "+pagelink("2301panama","vacation in Panama")],
-                    [pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的"+baike("Casco Viejo老城区"),pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
+    this[1][i++] = ([["Visiting Casco Viejo in Panama City during the "+pagelink("2301panama","vacation in Panama"),"Watching monkeys in Monkey Island during the "+pagelink("2301panama","vacation in Panama"),"Visiting the Emberá Purú village during the "+pagelink("2301panama","vacation in Panama")],[pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的"+baike("Casco Viejo老城区"),pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
     this[0][i]   = ["20230212_006","20230212_008"];
     this[1][i++] = (["Baking with Mommy","和妈妈一起做甜点"])[cn_ind];
     this[0][i]   = ["20230326_011","20230326_015"];
@@ -340,11 +338,10 @@ function initAlbum(){
     this[0][i]   = ["20230610_028","20230610_032"];
     this[1][i++] = (["Chinese school end of school year performance","中文学校学年结业典礼汇报表演"])[cn_ind];
     this[0][i]   = ["2306iceland/2306iceland_26","2306iceland/2306iceland_34","2306iceland/2306iceland_44",["20230622","20230622","20230623"]];
-    this[1][i++] = ([["Visiting Jökulsárlón glacier lagoon during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting Seljalandsfoss during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting the Blue Lagoon during the "+pagelink("2306iceland","vacation in Iceland")],
-                    [pagelink("2306iceland","在冰岛度假")+"时游杰古沙龙冰河湖",pagelink("2306iceland","在冰岛度假")+"时游塞里雅兰瀑布",pagelink("2306iceland","在冰岛度假")+"时游蓝湖温泉"]])[cn_ind];
+    this[1][i++] = ([["Visiting Jökulsárlón glacier lagoon during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting Seljalandsfoss during the "+pagelink("2306iceland","vacation in Iceland"),"Visiting the Blue Lagoon during the "+pagelink("2306iceland","vacation in Iceland")],[pagelink("2306iceland","在冰岛度假")+"时游杰古沙龙冰河湖",pagelink("2306iceland","在冰岛度假")+"时游塞里雅兰瀑布",pagelink("2306iceland","在冰岛度假")+"时游蓝湖温泉"]])[cn_ind];
     this[0][i]   = ["2308uk/2308uk_21","20230807"];
     this[1][i++] = (["Visiting the Stonehenge during the "+pagelink("2308uk","vacation in the United Kingdom"),"在"+pagelink("2308uk","英国度假")+"期间游威尔特郡的"+baike("巨石阵")])[cn_ind];
-    school        = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
+    school       = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     this[0][i]   = ["2023fallsmead/20230828_1","20230828"];
     this[1][i++] = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
     this[0][i]   = ["2023karate/20230901_044_KickKarate","2023karate/20230901_045_KickKarate","2023karate/20230901_047_KickKarate","20230901"];
@@ -462,8 +459,7 @@ function initAlbum(){
     this[0][i]   = ["2504guatemala/2504guatemala_59","20250419"];
     this[1][i++] = (["Visiting the Santa Catalina Arch in Antigua Guatemala during the "+pagelink("2504guatemala","spring break in Guatemala"),pagelink("2504guatemala","在危地马拉度春假")+"时游安提瓜危地马拉的圣卡塔利娜拱门"])[cn_ind];
     this[0][i]   = ["20250424_1","20250424_2","20250424_6"];
-    this[1][i++] = ([[(tmp1="Visiting the million pounds machine at NIST during the Take Our Kids To Work Day"),tmp1,"Watching atoms trapped by laser in Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"],
-                   [(tmp1="在“带孩子上班日”参观NIST的百万磅机器"),tmp1,"在“带孩子上班日”参观朋友Annelise爸爸在NIST的实验室，观察激光冷却捕获的原子团"]])[cn_ind];
+    this[1][i++] = ([[(tmp1="Visiting the million pounds machine at NIST during the Take Our Kids To Work Day"),tmp1,"Watching atoms trapped by laser in Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"],[(tmp1="在“带孩子上班日”参观NIST的百万磅机器"),tmp1,"在“带孩子上班日”参观朋友Annelise爸爸在NIST的实验室，观察激光冷却捕获的原子团"]])[cn_ind];
     this[0][i]   = ["20250424_3","20250424_4","20250424_5"];
     this[1][i++] = ([[(tmp1="Visiting Annelise's Dad's lab at NIST during the Take Our Kids To Work Day"),tmp1,tmp1],[(tmp1="在“带孩子上班日”参观朋友Annelise爸爸在NIST的实验室"),tmp1,tmp1]])[cn_ind];
     this[0][i]   = "20250517_008_ClimbingTree";
@@ -481,8 +477,7 @@ function initAlbum(){
     this[0][i]   = "20250727_TimesTable";
     this[1][i++] = (["Reading the multiplication table","读乘法口诀表"])[cn_ind];
     this[0][i]   = ["2508italy/2508italy_22","2508italy/2508italy_68",["20250812","20250818"]];
-    this[1][i++] = ([["Visiting the Leaning Tower of Pisa during the "+pagelink("2508italy","vacation in Italy"),"Visiting the Colosseum in Rome during the "+pagelink("2508italy","vacation in Italy")],
-                    [pagelink("2508italy","在意大利度假")+"时参观比萨斜塔",pagelink("2508italy","在意大利度假")+"时参观罗马斗兽场"]])[cn_ind];
+    this[1][i++] = ([["Visiting the Leaning Tower of Pisa during the "+pagelink("2508italy","vacation in Italy"),"Visiting the Colosseum in Rome during the "+pagelink("2508italy","vacation in Italy")],[pagelink("2508italy","在意大利度假")+"时参观比萨斜塔",pagelink("2508italy","在意大利度假")+"时参观罗马斗兽场"]])[cn_ind];
     this[0][i]   = ["2508italy/2508italy_85","20250819"];
     this[1][i++] = (["Visiting the Vatican City during the "+pagelink("2508italy","vacation in Italy"),pagelink("2508italy","在意大利度假")+"时参观梵蒂冈城"])[cn_ind];
 
