@@ -8,16 +8,16 @@ var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
 var last2first = true;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["1812costarica","12/2018 Trip to "+coltext("Costa Rica"),"12/2018 游"+coltext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+coltext("USA"),"4/2019 "+coltext("美国")+"华盛顿特区参观博物馆"],
-                  ["1905mexico","5/2019 Vacationing in "+coltext("Mexico"),"5/2019 "+coltext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+coltext("Canada"),"8/2022 "+coltext("加拿大")+"之行"],
-                  ["2301panama","1/2023 Vacationing in "+coltext("Panama"),"1/2023 "+coltext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+coltext("Iceland"),"6/2023 "+coltext("冰岛")+"度假"],
-                  ["2308uk","8/2023 Vacationing in "+coltext("United Kingdom"),"8/2023 "+coltext("英国")+"度假"],["2312china","12/2023 Vacationing in "+coltext("China"),"12/2023 "+coltext("中国")+"度假"],
-                  ["2408france","8/2024 Vacationing in "+coltext("France"),"8/2024 "+coltext("法国")+"度假"],["2504guatemala","4/2025 Vacationing in "+coltext("Guatemala"),"4/2025 "+coltext("危地马拉")+"度假"],
-                  ["2508italy","8/2025 Vacationing in "+coltext("Italy"),"8/2025 "+coltext("意大利")+"度假"]];
+var pagelist   = [["1812costarica","12/2018 Trip to "+btext("Costa Rica"),"12/2018 游"+btext("哥斯达黎加")],["1904dcmuseum","4/2019 Visiting the Smithonian Museums, "+btext("USA"),"4/2019 "+btext("美国")+"华盛顿特区参观博物馆"],
+                  ["1905mexico","5/2019 Vacationing in "+btext("Mexico"),"5/2019 "+btext("墨西哥")+"度假"], ["2208canada","8/2022 Trip to "+btext("Canada"),"8/2022 "+btext("加拿大")+"之行"],
+                  ["2301panama","1/2023 Vacationing in "+btext("Panama"),"1/2023 "+btext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+btext("Iceland"),"6/2023 "+btext("冰岛")+"度假"],
+                  ["2308uk","8/2023 Vacationing in "+btext("United Kingdom"),"8/2023 "+btext("英国")+"度假"],["2312china","12/2023 Vacationing in "+btext("China"),"12/2023 "+btext("中国")+"度假"],
+                  ["2408france","8/2024 Vacationing in "+btext("France"),"8/2024 "+btext("法国")+"度假"],["2504guatemala","4/2025 Vacationing in "+btext("Guatemala"),"4/2025 "+btext("危地马拉")+"度假"],
+                  ["2508italy","8/2025 Vacationing in "+btext("Italy"),"8/2025 "+btext("意大利")+"度假"]];
 
 document.title = title;
 
-function coltext(text,col){
+function ctext(text,col){
     if(typeof col=== 'undefined'){col="#66CCFF";}
     return '<font color="'+col+'">'+text+'</font>'; 
 }
