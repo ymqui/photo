@@ -87,7 +87,7 @@
   if(use_url){
      document.write('<A onclick="moreInfo()"><IMG SRC="'+thumb_dir+prefix+'info.png"'+borderstr((['More Info','其它信息'])[cn_ind])+'></A>');
   }
-  document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+'english_v.png"'+borderstr((['Chinese Version/中文版','英文版/English Version'])[cn_ind])+'></A>');
+  document.write('<A onclick="switchlang()"><IMG SRC="'+thumb_dir+prefix+(['chinese','english'])[cn_ind]+'_v.png"'+borderstr((['Chinese Version/中文版','英文版/English Version'])[cn_ind])+'></A>');
   document.write('<A onclick="backhome(homeurl)"><IMG SRC="'+thumb_dir+prefix+'home.png"'+borderstr((['Photo Album Home','相册主页'])[cn_ind])+'></A>');
   if(typeof addbday !== "undefined"){
      document.write('<A onclick="switchbirthday()"><IMG name="bdayimg" SRC="'+thumb_dir+prefix+'birthday.png"'+borderstr((['Birthday Photos','生日照片'])[cn_ind])+'></A>');
