@@ -5,5 +5,7 @@ Common Hoopoe,					Eurasian Hoopoe
 Graceful Black-throated Trogon,			Northern Black-throated Trogon
 Eastern Red-legged Thrush,			Red-legged Thrush
 Blue Mountain Elaenia,				Greater Antillean Elaenia
-Ochre-crowned Greenlet,				Tawny-crowned Greenlet	
+Ochre-crowned Greenlet,				Tawny-crowned Greenlet
+Common Squirrel Cuckoo,				Squirrel Cuckoo
+Purple Swamphen,				Western Swamphen
 
