@@ -113,6 +113,10 @@ function initAlbum(){
     this[1][i++]  = (["Attending Preston's 8th birthday party","参加同学Preston的8岁生日派对"])[cn_ind];
     this[0][i]    = "20250918";
     this[1][i++]  = (["Note to Dad on the back to school night","家长返校夜给爸爸留的便条"])[cn_ind];
+    this[0][i]    = "20251008";
+    this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
+    this[0][i]    = "20251009";
+    this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
 
     adddate(this);
 }
