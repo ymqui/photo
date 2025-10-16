@@ -119,6 +119,8 @@ function initAlbum(){
     this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
     this[0][i]    = "20251010";
     this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
+    this[0][i]    = "20251016";
+    this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
 
     adddate(this);
 }
