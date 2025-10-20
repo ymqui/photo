@@ -14,7 +14,7 @@ var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
-    title      = "Blackwater Falls State Park";
+    title      = "黑水瀑布州立公园";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
 }
  
