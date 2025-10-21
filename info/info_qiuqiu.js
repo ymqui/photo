@@ -35,6 +35,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2504guatemala","4/2025 Spring Break in Guatemala","4/2025 在危地马拉度春假"],["2505williamsburg","5/2025 Colonial Williamsburg","5/2025 威廉斯堡"],
                   ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
                   ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],["2508italy","8/2025 Vacationing in Italy","8/2025 在意大利度假"],
+                  ["2510blackwater","8/2025 Blackwater Falls State Park","8/2025 黑水瀑布州立公园"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
 if (thisyear>2030) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
@@ -484,6 +485,8 @@ function initAlbum(){
     this[1][i++] = (["Making a crochet blanket","用钩针编织小毯子"])[cn_ind];
     this[0][i]   = ["20251005_019_BalanceBeam","20251005_020_HighBar"];
     this[1][i++] = ([["Practicing on the home-made balance beam","Practicing on the high bar"],["在自制的平衡木上练习","在单杠上练习"]])[cn_ind];
+    this[0][i]   = ["2510blackwater/2510blackwater_2","2510blackwater/2510blackwater_13","20251019"];
+    this[1][i++] = pagelink("2510blackwater",(["Visiting the Blackwater Falls State Park in West Virginia","参观西弗吉尼亚州的黑水瀑布州立公园"])[cn_ind]);
 
     adddate(this);
 }
