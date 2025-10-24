@@ -125,7 +125,7 @@ function initAlbum(){
     this[1][i++]  = (["Cat Bandit and Ramen","猫盗和拉面的故事"])[cn_ind];
     this[0][i]    = "20251023";
     this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
-    this[0][i]    = ["20251024_1""20251024_2"];
+    this[0][i]    = ["20251024_1","20251024_2"];
     this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
 
     adddate(this);
