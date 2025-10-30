@@ -653,7 +653,7 @@ var birds = myBirds([
     ["18-12-07T10:02","TYRANNID","Long-tailed Tyrant","长尾霸鹟","Colonia colonus",["1812crbird",92],["crarol","S163932247"],"lottyr1"],
     ["13-12-25T14:52","TYRANNID","Vermilion Flycatcher","朱红霸鹟","Pyrocephalus rubinus",[["1312bbbird",3],["2001txbirding",35],["2208azbird",15]],["txbbnp","S167799354","Male","txsnwr","S163595749","Male","azazaz","S116518164","Female and juveniles, Kennedy Park, Tucson","图森市肯尼迪公园"]],
     ["13-12-25T15:24","TYRANNID","Say's Phoebe","棕腹长尾霸鹟","Sayornis saya",["1507wbird",4],["nvdnwr","S164994760"]],
-    ["06-04-14T16:40","TYRANNID","Eastern Phoebe","灰胸长尾霸鹟","Sayornis phoebe",["251030_186","220619_074",["1408anbird",18],"240615_201"],["mdwoot","S282074470","mdwoot","S113250965","mdmdmd","S167453933","Juvenile, Greenbury Point, Annapolis","安纳波利斯格林伯瑞角","mdwoot","S181618191","Nest"]],
+    ["06-04-14T16:40","TYRANNID","Eastern Phoebe","灰胸长尾霸鹟","Sayornis phoebe",["251030_186",["1408anbird",18],"240615_201"],["mdwoot","S282074470","mdmdmd","S167453933","Juvenile, Greenbury Point, Annapolis","安纳波利斯格林伯瑞角","mdwoot","S181618191","Nest"]],
     ["13-12-25T18:43","TYRANNID","Black Phoebe","黑长尾霸鹟","Sayornis nigricans",[["1312bbbird",18],["2208azbird",73]],["txbbnp","S167800653","azazaz","S116756623","Juvenile, Crescent Moon Ranch Picnic Area, Sedona","塞多纳市新月牧场野餐区"]],
     ["15-05-31T09:31","TYRANNID","Acadian Flycatcher","绿纹霸鹟","Empidonax virescens",["160508_045"],["mdmdmd","S164375731","Patapsco Valley State Park","帕塔普斯科河谷州立公园"]],
     ["15-05-17T09:46","TYRANNID","Alder Flycatcher","桤木纹霸鹟","Empidonax alnorum",["1505bombayhook",5],["debnwr","S164955290"]],
