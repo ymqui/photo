@@ -487,6 +487,9 @@ function initAlbum(){
     this[1][i++] = ([["Practicing on the home-made balance beam","Practicing on the high bar"],["在自制的平衡木上练习","在单杠上练习"]])[cn_ind];
     this[0][i]   = ["2510blackwater/2510blackwater_2","2510blackwater/2510blackwater_13","20251019"];
     this[1][i++] = pagelink("2510blackwater",(["Visiting the Blackwater Falls State Park in West Virginia","参观西弗吉尼亚州的黑水瀑布州立公园"])[cn_ind]);
+    addbday.push(i); 
+    this[0][i]   = "20251031_021_Birthday";
+    this[1][i++] = (["Happy 7th birthday!","七岁生日快乐！"])[cn_ind];
 
     adddate(this);
 }
