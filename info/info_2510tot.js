@@ -38,7 +38,7 @@ function initAlbum(){
         this[1][0] = "Nathan and Bella setting out for trick-or-treating with parents.";
         this[1][14] = "Sorting Halloween candy.";
         this[1][15] = 'Drinking "blue soup".';
-        this[1][16] = 'Drinking "blue soup".'";
+        this[1][16] = 'Drinking "blue soup".';
         this[1][17] = "Having fun with the camera.";
     }
 }
