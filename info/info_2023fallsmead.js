@@ -11,7 +11,8 @@ var last2first = true;
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
-var pagelist   = [["2310parade","10/2023 Halloween Parade","10/2023 万圣节游行"],["2410halloween","10/2024 Halloween Parade & Party","10/2024 万圣节游行和联欢会"]];
+var pagelist   = [["2310parade","10/2023 Halloween Parade","10/2023 万圣节游行"],["2410halloween","10/2024 Halloween Parade & Party","10/2024 万圣节游行和联欢会"],
+                  ["2510halloween","10/2025 Halloween Parade","10/2025 万圣节游行"]];
  
 document.title = title;
  
@@ -127,6 +128,8 @@ function initAlbum(){
     this[1][i++]  = (["Walking to school","走路去上学"])[cn_ind];
     this[0][i]    = ["20251024_1","20251024_2"];
     this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
+    this[0][i]    = ["2510halloween/2510halloween_2","20251031"];
+    this[1][i++]  = pagelink("2510halloween",(["Halloween parade","万圣节游行"])[cn_ind]);
 
     adddate(this);
 }
