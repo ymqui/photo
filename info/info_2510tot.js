@@ -14,7 +14,7 @@ var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
  
 if(window.usechinese){
-    title      = "万圣节索糖";
+    title      = "万圣节讨糖";
     cam_tit    = "佳能单镜头反光式6D相机，2020万像素。";
 }
  
