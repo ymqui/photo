@@ -31,8 +31,8 @@ function initAlbum(){
     if(window.usechinese){
         this[1][0] = "球球和朋友Bella与妈妈一起出门去要糖。";
         this[1][14] = "清点万圣节糖果。";
-        this[1][15] = '喝“蓝色汤”。';
-        this[1][16] = '喝“蓝色汤”。';
+        this[1][15] = '喝“蓝色女巫汤”。';
+        this[1][16] = '喝“蓝色女巫汤”。';
         this[1][17] = "玩相机。";
     }else{
         this[1][0] = "Nathan and Bella setting out for trick-or-treating with parents.";
