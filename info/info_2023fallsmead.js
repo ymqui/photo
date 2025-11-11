@@ -130,6 +130,9 @@ function initAlbum(){
     this[1][i++]  = (["Walking to school with Mom","妈妈送球球去上学"])[cn_ind];
     this[0][i]    = ["2510halloween/2510halloween_2","20251031"];
     this[1][i++]  = pagelink("2510halloween",(["Halloween parade","万圣节游行"])[cn_ind]);
+    makeface.push(i);
+    this[0][i]    = "20251110";
+    this[1][i++]  = (["Calming techniques","球球的三个静心技巧：(1)钩织，(2)吃一顿大餐，(3)抱小熊宝宝"])[cn_ind];
 
     adddate(this);
 }
