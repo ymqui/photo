@@ -51,7 +51,6 @@
 //  ["25-00-00T00:00","SCOLOPAC","Eurasian Woodcock","丘鹬","Scolopax rusticola",["2312cnbird",],["cnhzbg",""],"eurwoo"],
 //  ["25-00-00T00:00","SCOLOPAC","Black Turnstone","黑翻石鹬","Arenaria melanocephala",["2412cabird",],["cacaca",""]],
 //  ["25-00-00T00:00","SCOLOPAC","Surfbird","短嘴鹬","Calidris virgata",["2412cabird",],["cacaca",""],"surfbi"],
-//  ["25-00-00T00:00","SCOLOPAC","Sharp-tailed Sandpiper","尖尾滨鹬","Calidris acuminata",[],["debnwr","1/2023,","Female"],"shtsan"],
 //  ["25-00-00T00:00","SCOLOPAC","Broad-billed Sandpiper","阔嘴鹬","Calidris falcinellus",["2508itbird",],["itlitl",""],"brbsan"],
 //  ["25-00-00T00:00","SCOLOPAC","Little Stint","小滨鹬","Calidris minuta",["2508itbird",],["itlitl",""],"litsti"],
 //  ["25-00-00T00:00","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[],["fldtnp","1/2023,"]],

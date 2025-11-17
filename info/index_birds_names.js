@@ -305,6 +305,7 @@ var birds = myBirds([
     ["15-10-31T10:50","SCOLOPAC","Ruddy Turnstone","翻石鹬","Arenaria interpres",["170520_058","151031_118"],["dedede","S164194150","With "+b_link("Red Knot","s")+", Bowers Beach, Kent County","肯特郡鲍尔斯海滩","后面是"+b_link("红腹滨鹬"),"mdocci","S165416124","Nonbreeding plumage","海口","","Inlet"]],
     ["17-05-20T09:06","SCOLOPAC","Red Knot","红腹滨鹬","Calidris canutus",["170520_057"],["dedede","S164194150","Bowers Beach, Kent County","肯特郡鲍尔斯海滩"]],
     ["22-07-03T14:47","SCOLOPAC","Ruff","流苏鹬","Calidris pugnax",[["220703_080"],["2508itbird",[46,45]]],["njnjnj","S114359788","Male, Edwin B. Forsythe National Wildlife Refuge, Atlantic County","大西洋郡埃德温·福赛斯国家野生动物保护区","itcamp","S267670113","Juvenile, Variconi Oasis","瓦里科尼绿洲"]],
+    ["25-11-16T10:52","SCOLOPAC","Sharp-tailed Sandpiper","尖尾滨鹬","Calidris acuminata",["251116_212"],["debnwr","S284833183","Juvenile"],"shtsan"],
     ["20-10-23T10:03","SCOLOPAC","Curlew Sandpiper","弯嘴滨鹬","Calidris ferruginea",["201023_114","201023_110"],["mdswhf","S163631662","Juvenile"],"cursan"],
     ["20-10-23T10:15","SCOLOPAC","Stilt Sandpiper","高跷鹬","Calidris himantopus",["201023_113"],["mdswhf","S163631662","Nonbreeding plumage, in front of a "+b_link("Lesser Yellowlegs"),"","后面是一只"+b_link("小黄脚鹬")]],
     ["21-08-29T11:41","SCOLOPAC","Buff-breasted Sandpiper","黄胸滨鹬","Calidris subruficollis",["210829_109","210906_114"],["vavava","S163429517","Shenandoah Valley Produce Auction, Rockingham County","洛金汉郡雪兰多谷农产品拍卖所","mdworc","S163428694","Murray Sod Farm","默里草皮农场"],"黄胸鹬"],
