@@ -374,7 +374,7 @@ var birds = myBirds([
     ["17-02-04T11:04","LARIDAE ","Iceland Gull","冰岛鸥","Larus glaucoides",["170204_016","190107_001"],["mdmdmd","S164188757","1st winter, Mariner Point Park, Harford County","哈福德郡水手角公园","mdmdmd","S163841244","2nd winter, Loreley Beach Community Pier, Baltimore County","巴尔的摩郡罗利滩社区码头"]],
     ["18-12-05T10:33","EURYPYGI","Sunbittern","日鳽","Eurypyga helias",["1812crbird",62],["crarol","S163930178"],"sunbit1"],
 //  ["25-00-00T00:00","RHYNOCHE","Kagu","鹭鹤","Rhynochetos jubatus",[],["arb",""],"kagu1"],
-//  ["25-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",["2412prbird",],["prprpr",""],"whttro"],
+//**["25-00-00T00:00","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",["2512jmbird",],["jamjam",""],"whttro"],
     ["16-03-26T13:48","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",[["2306isbird",79],"160326_025","220212_025"],["iscapr","S142431897","Adults and chick, Golfklúbbur Seltjarnarnes","塞尔特贾纳内斯高尔夫球场","ncoutb","S164372715","Winter plumage, Jennette's Pier","珍妮特钓鱼码头","njblsp","S102555804","Immature"]],
     ["15-03-08T10:08","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",[["1503barnegat",16],"220212_043",["1503barnegat",15],["2306isbird",4]],["njblsp","S164954689","njblsp","S102555804","Winter plumage","njblsp","S164954689","Juvenile","iswesf","S141703789","Hólmavík","侯尔马维克小镇"]],
     ["21-05-26T12:15","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",["210526_084"],["vavava","S163432321","Lake Holiday, Frederick County","弗雷德里克郡假日湖"]],
