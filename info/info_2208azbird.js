@@ -128,8 +128,8 @@ function initAlbum(){
         this[1][22] = "Northern Flicker, male, red-shafted, Madera Canyon Carrie Nation Trail.";
         this[1][23] = "House Wren, Madera Canyon Carrie Nation Trail.";
         this[1][24] = "Yellow-eyed Junco, Madera Canyon Carrie Nation Trail.";
-        this[1][25] = "Elegant Trogon, male, Madera Canyon Carrie Nation Trail.";
-        this[1][26] = "Elegant Trogon, male, Madera Canyon Carrie Nation Trail.";
+        this[1][25] = "Coppery-tailed Trogon, male, Madera Canyon Carrie Nation Trail.";
+        this[1][26] = "Coppery-tailed Trogon, male, Madera Canyon Carrie Nation Trail.";
         this[1][27] = "Acorn Woodpecker, male, Madera Canyon Santa Rita Lodge.";
         this[1][28] = "Acorn Woodpecker, female, Madera Canyon Santa Rita Lodge.";
         this[1][29] = "Hepatic Tanager, male, Madera Canyon Santa Rita Lodge.";

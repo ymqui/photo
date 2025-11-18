@@ -126,6 +126,7 @@
 //  ["25-00-00T00:00","BUCEROTI","Southern Ground Hornbill","红脸地犀鸟","Bucorvus leadbeateri",[],["arb",""],"soghor1"],
 //  ["25-00-00T00:00","CORACIID","Indian Roller","西棕胸佛法僧","Coracias benghalensis",[],["arb",""],"indrol1",3238],
 //  ["25-00-00T00:00","MEROPIDA","Blue-throated Bee-eater","蓝喉蜂虎","Merops viridis",[],["arb",""],"btbeat2"],
+//  ["25-00-00T00:00","TROGONID","Elegant Trogon","优雅美洲咬鹃","Trogon elegans",["2208azbird",[26,27]],["azmcct","S116560424","Male"],3217],
 //* ["25-00-00T00:00","TODIDAE ","Jamaican Tody","短尾鴗","Todus todus",["2512jmbird",],["jamjam",""],"jamtod1"],
 //  ["25-00-00T00:00","MOMOTIDA","Tody Motmot","短尾翠鴗","Hylomanes momotula",["2504gtbird",],["gtmgtm",""],"todmot1"],
 //  ["25-00-00T00:00","PICIDAE ","Speckled Piculet","斑姬啄木鸟","Picumnus innominatus",["2312cnbird",],["cnhzbg",""],"spepic1"],

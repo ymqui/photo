@@ -520,7 +520,7 @@ var birds = myBirds([
     ["25-04-14T11:21","TROGONID","Black-headed Trogon","黑头美洲咬鹃","Trogon melanocephalus",["2504gtbird",[41,62,63]],["gtyaxh","S225700053","Male","gttaya","S225921979","Male","gttaya","S225921979","Female"],"blhtro1"],
     ["18-12-06T12:40","TROGONID","Gartered Trogon","斑尾美洲咬鹃","Trogon caligatus",[["1812crbird",79],["2301pabird",19],["2504gtbird",[71,45]]],["crarol","S163931208","Male","papipe","S126820118","Male","gttaya","S226129581","Male","gtyaxh","S225700053","Female"],"gartro1"],
     ["23-01-23T08:32","TROGONID","Graceful Black-throated Trogon","中美黑喉咬鹃","Trogon tenellus",["2301pabird",[29,30]],["papipe","S126820118","Male","papipe","S126820118","Female"],"bkttro7","黑喉美洲咬鹃"],
-    ["22-08-08T09:11","TROGONID","Elegant Trogon","优雅美洲咬鹃","Trogon elegans",["2208azbird",[26,27]],["azmcct","S116560424","Male"],3217],
+    ["22-08-08T09:11","TROGONID","Coppery-tailed Trogon","铜尾美洲咬鹃","Trogon ambiguus",["2208azbird",[26,27]],["azmcct","S116560424","Male"],11385],
     ["18-12-07T09:28","TROGONID","Collared Trogon","白领美洲咬鹃","Trogon collaris",["1812crbird",91],["crarol","S163932247","Male"],"coltro1"],
 //  ["25-00-00T00:00","UPUPIDAE","Common Hoopoe","戴胜","Upupa epops",["2508itbird",],["itlitl",""],"hoopoe"],
 //  ["25-00-00T00:00","PHOENICU","Abyssinian Scimitarbill","小弯嘴林戴胜","Rhinopomastus minor",[],["arb",""],"absbil1"],
