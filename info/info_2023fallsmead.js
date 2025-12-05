@@ -133,6 +133,8 @@ function initAlbum(){
     makeface.push(i);
     this[0][i]    = "20251110";
     this[1][i++]  = (["Calming techniques","球球的三个静心技巧：(1)钩织，(2)吃一顿大餐，(3)抱小熊宝宝"])[cn_ind];
+    this[0][i]    = "20251204_1";
+    this[1][i++]  = urllink((url=""),(["Performing Where the Wild Things Are in art class (YouTube video)","在美术课上表演《野兽国》(YouTube视频)"])[cn_ind]);
 
     adddate(this);
 }
