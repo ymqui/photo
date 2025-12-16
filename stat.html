@@ -69,7 +69,7 @@ if (cellphone){
    clen   = 12;
 }
 var linkid = 0;
-var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('New York'),
+var links = [erare('Maryland'),erare('Washington DC'),erare('Virginia'),erare('Delaware'),erare('Pennsylvania'),erare('New Jersey'),erare('New York'),
     bookmark('https://ebird.org/map',(['Species Map','鸟类分布地图'])[cn_ind],'ebird'),
     bookmark('https://ebird.org/hotspots',(['Hotspots Map','观鸟热点地图'])[cn_ind],'ebird'),
     bookmark('https://dashboard.birdcast.info/region/US-MD-031',(['Birdcast Maryland','马里兰州鸟类迁徙预报'])[cn_ind],'cornell'),
@@ -270,7 +270,7 @@ var misc_cnts_str = misc_cnts.join('/');
 
 document.write('<table class="center">');
 document.write('<tr><td colspan="9">');
-document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/'+(["lifer_stat.png","lifer_stat_cn.png"])[cn_ind]+'" class="pic"></a>');
+document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/lifer_stat'+(['_line',''])[Math.round(Math.random())]+(['','_cn'])[cn_ind]+'.png" class="pic"></a>');
 document.write('</td></tr><tr><td><small>&emsp;</small></td><td>&emsp;</td></tr><tr>');
 document.write('<td align="left">');
 document.write(mytext(tmpdat,fcol1)+'&nbsp;&nbsp;<a href="showphoto.html?LaoQ" style="text-decoration:none" target="_blank">');
