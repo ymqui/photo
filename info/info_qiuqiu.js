@@ -492,7 +492,7 @@ function initAlbum(){
     this[1][i++] = (["Happy 8th birthday!","八岁生日快乐！"])[cn_ind];
     this[0][i]   = ["2510tot/2510tot_1","2510tot/2510tot_4","2510tot/2510tot_9","20251031"];
     this[1][i++] = pagelink("2510tot",(["Trick-or-treating with Bella","万圣节和和朋友Bella一起去要糖"])[cn_ind]);
-    this[0][i]   = ["20251103_024_Volcano","20251103_025_Volcano"];
+    this[0][i]   = "20251103_024_Volcano";
     this[1][i++] = urllink("https://youtu.be/I9zLLiEanZI",(["Making a volcano science experiment (YouTube Video)","制作火山喷发科学实验(YouTube视频)"])[cn_ind]);
     this[0][i]   = "20251221";
     this[1][i++] = urllink("https://youtube.com/shorts/RYYFL1BxAiE",(["Making Labubu blind bags (YouTube Video)","制作Labubu盲袋(YouTube视频)"])[cn_ind]);
