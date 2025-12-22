@@ -47,6 +47,12 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20251213_1","20251213_2"];
     this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20251220_1","20251220_3"];
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/FZLBhFzkABk"),tmptxt2);
+    this[0][i]    = "20251220_2";
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/MD3Rx7sKKDo"),(["Performing a dance routine at the winter showcase (YouTube video)","在冬季表演会上表演舞蹈节目(YouTube视频)"])[cn_ind]);
+    this[0][i]    = "20251220_4";
+    this[1][i++]  = (["Receiving the certificate for winter showcase 2025","2025年冬季展演证书"])[cn_ind];
 
     adddate(this);
 }
