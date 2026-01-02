@@ -36,6 +36,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2024gym","7/2024-6/2025 Little Gym","7/2024-6/2025 Little Gym小体操馆"],["2507plymouth","7/2025 Plymouth Whale Watch","7/2025 普利茅斯观鲸"],
                   ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],["2508italy","8/2025 Vacationing in Italy","8/2025 在意大利度假"],
                   ["2510blackwater","10/2025 Blackwater Falls State Park","10/2025 黑水瀑布州立公园"],["2510tot","10/2025 Trick-or-Treating","10/2025 万圣节讨糖"],
+                  ["2512jamaica","12/2025 Vacationing in Jamaica","12/2025 在牙买加度假"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
 if (thisyear>2030) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
@@ -496,6 +497,10 @@ function initAlbum(){
     this[1][i++] = urllink("https://youtu.be/I9zLLiEanZI",(["Making a volcano science experiment (YouTube Video)","制作火山喷发科学实验(YouTube视频)"])[cn_ind]);
     this[0][i]   = "20251221";
     this[1][i++] = urllink("https://youtube.com/shorts/RYYFL1BxAiE",(["Making Labubu blind bags (YouTube Video)","制作Labubu盲袋(YouTube视频)"])[cn_ind]);
+    this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_5","20251225"];
+    this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2508italy","牙买加度假")+"时在罗克兰兹鸟类保护区喂蜂鸟"])[cn_ind];
+    this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_5","20251225"];
+    this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2508italy","牙买加度假")+"时在罗克兰兹鸟类保护区喂蜂鸟"])[cn_ind];
 
     adddate(this);
 }
