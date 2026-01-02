@@ -499,8 +499,8 @@ function initAlbum(){
     this[1][i++] = urllink("https://youtube.com/shorts/RYYFL1BxAiE",(["Making Labubu blind bags (YouTube Video)","制作Labubu盲袋(YouTube视频)"])[cn_ind]);
     this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_5","20251225"];
     this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2508italy","牙买加度假")+"时在罗克兰兹鸟类保护区喂蜂鸟"])[cn_ind];
-    this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_5","20251225"];
-    this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2508italy","牙买加度假")+"时在罗克兰兹鸟类保护区喂蜂鸟"])[cn_ind];
+    this[0][i]   = ["2512jamaica/2512jamaica_21","2512jamaica/2512jamaica_25","2512jamaica/2512jamaica_23","20251226"];
+    this[1][i++] = (["Riding zipline at Dunn's River Falls Park during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在邓恩河瀑布公园玩滑索"])[cn_ind];
 
     adddate(this);
 }
