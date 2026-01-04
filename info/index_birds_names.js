@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2026-01-04");
+var modTim = modTime("2026-01-04",15);
 
 //location urls
 var lurls = {arb:["","","",""],
