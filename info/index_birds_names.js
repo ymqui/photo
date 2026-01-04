@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2025-08-30");
+var modTim = modTime("2026-01-04");
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -457,7 +457,7 @@ var birds = myBirds([
     ["18-12-05T08:00","TROCHILI","Stripe-throated Hermit","纹喉隐蜂鸟","Phaethornis striigularis",["1812crbird",54],["crarol","S163929748"],"stther2"],
     ["23-01-25T08:36","TROCHILI","Purple-crowned Fairy","紫冠仙蜂鸟","Heliothryx barroti",["2301pabird",[99,100]],["pametr","S126933504","Male"],"pucfai1"],
     ["15-01-08T07:32","TROCHILI","Green-throated Carib","绿喉蜂鸟","Eulampis holosericeus",["1501prbird",[38,53]],["prsanj","S164852107","prsanj","S164953956"],"grtcar1"],
-//* ["25-12-25T00:00","TROCHILI","Jamaican Mango","牙买加芒果蜂鸟","Anthracothorax mango",["2512jmbird",],["jamrbs","S290167575"],"jamman1"],
+    ["25-12-25T09:58","TROCHILI","Jamaican Mango","牙买加芒果蜂鸟","Anthracothorax mango",["2512jmbird",[12,13,14]],["jamrbs","S290167575"],"jamman1"],
     ["15-01-03T10:48","TROCHILI","Puerto Rican Mango","波多芒果蜂鸟","Anthracothorax aurulentus",["1501prbird",17],["prcnwr","S164772863","Female"],"antman3","黑胸芒果蜂鸟"],
     ["25-04-18T07:27","TROCHILI","Green-throated Mountaingem","绿喉宝石蜂鸟","Lampornis viridipallens",["2504gtbird",[98,130]],["gtfelp","S226755612","Male","gtfelp","S227060352","Female"],"gtmgem1"],
     ["19-05-12T09:25","TROCHILI","Rivoli's Hummingbird","大蜂鸟","Eugenes fulgens",[["1905mxbird",[17,7]],["2504gtbird",145]],["mxunam","S163747032","Male","mxunam","S163747032","Female","gtfelp","S227543090","Male"]],
@@ -475,7 +475,7 @@ var birds = myBirds([
     ["18-12-05T09:24","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",["1812crbird",[69,55]],["crarol","S163930535","Male","crarol","S163930178","Female"],"vihhum1"],
     ["25-04-20T07:13","TROCHILI","Violet Sabrewing","紫刀翅蜂鸟","Campylopterus hemileucurus",["2504gtbird",144],["gtfelp","S227543090"],"viosab1"],
     ["18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",["1812crbird",43],["crarol","S163868074"],"scbhum1"],
-//* ["25-12-25T00:00","TROCHILI","Red-billed Streamertail","红嘴长尾蜂鸟","Trochilus polytmus",["2512jmbird",],["jamrbs","S290167575"],"stream2"],
+    ["25-12-25T09:47","TROCHILI","Red-billed Streamertail","红嘴长尾蜂鸟","Trochilus polytmus",["2512jmbird",[7,8,9,10]],["jamrbs","S290167575","Male"],"stream2"],
 //* ["25-12-26T00:00","TROCHILI","Black-billed Streamertail","黑嘴长尾蜂鸟","Trochilus scitulus",["2512jmbird",],["jamlfj","S290423729"],"stream3"],
     ["19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",[["2208azbird",42],["1905mxbird",[4,8]]],["azazaz","S116569566","Paton Center for Hummingbirds, Santa Cruz County","圣克鲁斯郡佩顿蜂鸟中心","mxunam","S163747032","Female"]],
     ["25-04-18T10:58","TROCHILI","Azure-crowned Hummingbird","红嘴蜂鸟","Saucerottia cyanocephala",["2504gtbird",132],["gtfelp","S227060352"],"azchum1"],
@@ -577,7 +577,8 @@ var birds = myBirds([
     ["14-06-01T11:12","PICIDAE ","Red-headed Woodpecker","红头啄木鸟","Melanerpes erythrocephalus",["140531_002","180603_001"],["vavava","S165533362","Piney Grove Preserve, Sussex County","萨塞克斯郡松林保护区","scscsc","S164038577","Lewis Ocean Bay Heritage Preserve","刘易斯海湾遗产保护区"]],
     ["15-07-12T09:19","PICIDAE ","Acorn Woodpecker","橡树啄木鸟","Melanerpes formicivorus",["2208azbird",[62,29]],["azazaz","S116616571","Male, Ash Canyon Bird Sanctuary, Cochise County","科奇斯郡灰谷鸟类保护区","azazaz","S116584565","Female, Madera Canyon Santa Rita Lodge, Santa Cruz County","圣克鲁斯郡马德拉峡谷圣丽塔旅馆"]],
     ["18-12-05T14:12","PICIDAE ","Black-cheeked Woodpecker","黑颊啄木鸟","Melanerpes pucherani",[["1812crbird",[67,66]],["2301pabird",53]],["crarol","S163930535","Male","crarol","S163930535","Female","papipe","S126820118","Female"],"blcwoo1"],
-//* ["25-12-25T00:00","PICIDAE ","Jamaican Woodpecker","牙买加啄木鸟","Melanerpes radiolatus",["2512jmbird",],["jamrbs","S290167575"],"jamwoo1"],
+
+    ["25-12-25T09:46","PICIDAE ","Jamaican Woodpecker","牙买加啄木鸟","Melanerpes radiolatus",["2512jmbird",[2,3,47]],["jamrbs","S290167575","Male","jamrbs","S290167575","Male","jamlfj","S290637040","Female"],"jamwoo1"],
     ["23-01-24T08:58","PICIDAE ","Red-crowned Woodpecker","红冠啄木鸟","Melanerpes rubricapillus",["2301pabird",[108,85]],["pametr","S126960214","Male","arb","S126866746","Female, Gamboa, Colón Province, Panama","巴拿马科隆省甘博阿镇"],"recwoo1"],
     ["22-08-07T08:05","PICIDAE ","Gila Woodpecker","吉拉啄木鸟","Melanerpes uropygialis",["2208azbird",[43,3]],["azazaz","S116569566","Male, Paton Center for Hummingbirds, Santa Cruz County","圣克鲁斯郡佩顿蜂鸟中心","azsndm","S116522318","Female"]],
     ["18-12-08T08:10","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",["1812crbird",[93,94]],["crsanj","S163965097","Male, Park of Social Guarantees","社会保障公园","crsanj","S163965530","Female, Morazán Park","莫拉桑公园"],"hofwoo1"],
@@ -1093,7 +1094,7 @@ var birds = myBirds([
     ["23-01-23T07:06","ICTERIDA","Yellow-tailed Oriole","黄尾拟鹂","Icterus mesomelas",["2301pabird",12],["papipe","S126820115"],"yetori1"],
     ["15-01-03T13:57","ICTERIDA","Venezuelan Troupial","普通拟鹂","Icterus icterus",["1501prbird",20],["prprpr","S164849288","Guanica Dry Forest","瓜尼卡干燥森林"],"ventro1",10236],
     ["15-07-12T09:26","ICTERIDA","Bullock's Oriole","布氏拟鹂","Icterus bullockiorum",["220122_020",["1507wbird",40]],["njnjnj","S101263692","Male, Evergreen Ave, Pitman","皮特曼镇常青街","cabake","S165003418","Female, Yokuts Park","约库特公园"]],
-//* ["25-12-25T00:00","ICTERIDA","Jamaican Oriole","牙买加拟鹂","Icterus leucopteryx",["2512jmbird",],["jamrbs","S290167575"],"jamori1"],
+    ["25-12-25T09:48","ICTERIDA","Jamaican Oriole","牙买加拟鹂","Icterus leucopteryx",["2512jmbird",11],["jamrbs","S290167575"],"jamori1"],
     ["20-01-24T11:22","ICTERIDA","Altamira Oriole","橙拟鹂","Icterus gularis",["2001txbirding",26],["txsnwr","S163594505"],"橙头拟鹂"],
     ["06-05-24T18:03","ICTERIDA","Baltimore Oriole","橙腹拟鹂","Icterus galbula",["150830_093",["1812crbird",95],["2504gtbird",[11,10]],"170618_077"],["mdbroo","S165412738","Male","crsanj","S163965530","Female, Morazán Park","莫拉桑公园","gtflor","S225052666","Male","gtflor","S225052666","Female","mdcocn","S164196220","Nest, Violettes Lock","紫罗兰闸"]],
     ["21-04-10T11:44","ICTERIDA","Scott's Oriole","斯氏拟鹂","Icterus parisorum",["210410_043","210410_044"],["papapa","S163483439","Male, Morrison Mill Road, Lancaster County","兰开斯特郡莫里森磨坊路"]],
@@ -1125,6 +1126,7 @@ var birds = myBirds([
     ["20-05-19T09:11","PARULIDA","Kentucky Warbler","黄腹地莺","Geothlypis formosa",["220611_071","220611_073",["2020lbrp",4]],["papapa","S112712637",(t1="Male, Ashbridge Preserve, Chester County"),(t2="切斯特郡阿什布里奇保护区"),"papapa","S112712637",t1,t2,"mdlbrp","5/2020,S163745179","Female"]],
     ["19-05-12T09:50","PARULIDA","Hooded Yellowthroat","纳氏黄喉地莺","Geothlypis nelsoni",["1905mxbird",[13,12]],["mxunam","S163747032","Male"],"hooyel1"],
     ["06-04-30T08:59","PARULIDA","Common Yellowthroat","黄喉地莺","Geothlypis trichas",["150426_062",["2504gtbird",37],["1505bombayhook",11],"170930_112"],["mdbmnt","S165530362","Male","gtflor","S225528243","Male","debnwr","S164955290","Female","mdmdmd","S164200861","Immature male, Oregon Ridge Park, Baltimore","巴尔的摩俄勒冈岭公园"]],
+//  ["26-00-00T00:00","PARULIDA","Arrowhead Warbler","尖头林莺","Setophaga pharetra",["2512jmbird",],["jamjam","S290564269","San San Police Station Road, Port Antonio","波特安东尼奥三三派出所路"],"arrwar1"],
     ["21-10-10T11:37","PARULIDA","Kirtland's Warbler","黑纹背林莺","Setophaga kirtlandii",["211010_121","211010_122"],["mdmdmd","S163426825","Female/immature, Swann Park, Baltimore","巴尔的摩市斯旺公园"]],
     ["14-07-07T16:57","PARULIDA","American Redstart","橙尾鸲莺","Setophaga ruticilla",[["1407mibird",20],"230930_162","170826_090"],["usausa","S167637584","Male, Mackinac Island, Michigan","密西根州麦基诺岛","mdwoot","S151081316","Female","mdmwma","S164197944","Female"]],
     ["16-04-24T10:49","PARULIDA","Hooded Warbler","黑枕威森莺","Setophaga citrina",[["1604asheville",18],"220924_117","240511_137"],["ncncnc","S164334391","Male, Chimney Rock State Park","烟囱岩州立公园","mdredg","S119361226","Male","mdwoot","S173501040","Female"]],
@@ -1187,7 +1189,7 @@ var birds = myBirds([
     ["25-04-12T12:17","THRAUPID","Morelet's Seedeater","中美食籽雀","Sporophila morelleti",["2504gtbird",[3,4]],["gtflor","S225052666","Male","gtflor","S225052666","Female"],"whcsee1",10872],
     ["15-01-01T14:06","THRAUPID","Bananaquit","曲嘴森莺","Coereba flaveola",[["1501prbird",2],["1812crbird",17]],["prprpr","S164768590","Bayamón","巴亚蒙市","crarol","S163843493"],"banana"],
     ["18-12-06T09:09","THRAUPID","Yellow-faced Grassquit","黄脸草雀","Tiaris olivaceus",["1812crbird",[76,77]],["crarol","S163930913","Male","crarol","S163930913","Female"],"yefgra1"],
-//* ["25-12-25T00:00","THRAUPID","Orangequit","橙喉雀","Euneornis campestris",["2512jmbird",],["jamrbs","S290167575"],"orange1"],
+    ["25-12-25T09:44","THRAUPID","Orangequit","橙喉雀","Euneornis campestris",["2512jmbird",[5,4,6]],["jamrbs","S290167575","Male","jamrbs","S290167575","Female","jamrbs","S290167575"],"orange1"],
     ["15-01-07T07:05","THRAUPID","Black-faced Grassquit","黑脸草雀","Melanospiza bicolor",["1501prbird",[50,33]],["prsanj","S164953956","Male","prsanj","S164851847","Female"],"bkfgra"],
     ["23-01-26T09:49","THRAUPID","Plain-colored Tanager","纯色靓唐纳雀","Tangara inornata",["2301pabird",126],["pametr","S126960214"],"plctan1",10584],
     ["18-12-05T13:58","THRAUPID","Bay-headed Tanager","栗头靓唐纳雀","Tangara gyrola",["1812crbird",65],["crarol","S163930535"],"bahtan1",10607],
