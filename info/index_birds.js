@@ -321,6 +321,11 @@
   info[2][j] = 2;
   info[3][j] = "8/2025 Italy Birding";
   info[4][j++] = "Birding in Italy (Italy).";
+  info[0][j] = "2512jmbird";
+  info[1][j] = 4;
+  info[2][j] = 2;
+  info[3][j] = "12/2025 Jamaica Birding";
+  info[4][j++] = "Birding in Jamaica (Jamaica).";
 
   if(window.usechinese){
      j = 0;
@@ -447,7 +452,9 @@
      info[3][j]   = "7/2025 普利茅斯远洋观鸟";
      info[4][j++] = "普利茅斯观鲸远洋观鸟(马萨诸塞州)。";
      info[3][j]   = "8/2025 意大利观鸟";
-     info[4][j++] = "在意大利观鸟(危地马拉)。";
+     info[4][j++] = "在意大利观鸟(意大利)。";
+     info[3][j]   = "12/2025 牙买加观鸟";
+     info[4][j++] = "在牙买加观鸟(牙买加)。";
   } 
 
   //special touch
@@ -464,7 +471,7 @@
   var sc_security  = "382e0c58"; 
 
   //date
-  var modDat1 = new Date("2025-08-31T12:00:00");
+  var modDat1 = new Date("2026-01-04T12:00:00");
   if (window.modDat){
      if(modDat1.getTime()>modDat.getTime()) modDat = modDat1;  
   }else{
