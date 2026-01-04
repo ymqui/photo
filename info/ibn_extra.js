@@ -277,7 +277,6 @@
 //  ["26-00-00T00:00","PARULIDA","Colima Warbler","黄腰虫森莺","Leiothlypis crissalis",[],["mdbhrp","1/2023,"],"colwar"],
 //  ["26-00-00T00:00","PARULIDA","Lucy's Warbler","赤腰虫森莺","Leiothlypis luciae",[],["azazaz","8/2022,"]],
 //  ["26-00-00T00:00","PARULIDA","Virginia's Warbler","黄胸虫森莺","Leiothlypis virginiae",[],["mdbhrp","1/2023,"]],
-//  ["26-00-00T00:00","PARULIDA","Arrowhead Warbler","尖头林莺","Setophaga pharetra",["2512jmbird",],["jamjam",""],"arrwar1"],
 //  ["26-00-00T00:00","PARULIDA","Mangrove Warbler","黄林莺","Setophaga petechia",["2512jmbird",],["jamjam",""],"manwar1"],
 //  ["26-00-00T00:00","PARULIDA","Elfin Woods Warbler","小林莺","Setophaga angelae",["2412prbird",],["prprpr",""],"elwwar1"],
 //  ["26-00-00T00:00","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[],["azazaz","8/2022,"]],
