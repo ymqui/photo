@@ -12,6 +12,7 @@ var midi_file  = "";
 //var midi_cr    = new Array("","");
 var blocksave  = false;
 homeurl        = homeurl+"showphoto.html?qiuqiu";
+var pagelist   = [["2512jmbird","12/2025 Birding in Jamaica","12/2025 牙买加观鸟"]];
  
 if(window.usechinese){
     title      = "牙买加度假";
