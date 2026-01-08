@@ -224,6 +224,7 @@
 //  ["26-00-00T00:00","ACROCEPH","Sedge Warbler","水蒲苇莺","Acrocephalus schoenobaenus",["2603mobird",],["morsnp",""],"sedwar1",7614],
 //  ["26-00-00T00:00","ACROCEPH","Moustached Warbler","须苇莺","Acrocephalus melanopogon",["2508itbird",],["itlitl",""],"mouwar1",7612],
 //  ["26-00-00T00:00","ACROCEPH","Great Reed Warbler","大苇莺","Acrocephalus arundinaceus",["2508itbird",],["itlitl",""],"grrwar1",7588],
+//  ["26-00-00T00:00","HIRUNDIN","European Red-rumped Swallow","欧金腰燕","Cecropis rufula",["2603mobird",],["morouk",""],"rerswa8",11325],
 //  ["26-00-00T00:00","HIRUNDIN","Brown-throated Martin","非洲褐喉沙燕","Riparia paludicola",["2603mobird",],["morsnp",""],"plamar1",7346],
 //  ["26-00-00T00:00","HIRUNDIN","Violet-green Swallow","紫绿树燕","Tachycineta thalassina",[],["azazaz","8/2022,"],7359],
 //  ["26-00-00T00:00","HIRUNDIN","Caribbean Martin","加勒比崖燕","Progne dominicensis",["2512jmbird",],["jamjam",""],"carmar1",7363],
