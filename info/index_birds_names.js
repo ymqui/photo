@@ -481,7 +481,7 @@ var birds = myBirds([
     ["25-04-20T07:13","TROCHILI","Violet Sabrewing","紫刀翅蜂鸟","Campylopterus hemileucurus",["2504gtbird",144],["gtfelp","S227543090"],"viosab1",2879],
     ["18-12-04T13:29","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",["1812crbird",43],["crarol","S163868074"],"scbhum1",2872],
     ["25-12-25T09:47","TROCHILI","Red-billed Streamertail","红嘴长尾蜂鸟","Trochilus polytmus",["2512jmbird",[7,8,9,10]],["jamrbs","S290167575","Male"],"stream2",2927],
-    ["25-12-26T16:51","TROCHILI","Black-billed Streamertail","黑嘴长尾蜂鸟","Trochilus scitulus",["2512jmbird",[44,46,26,35]],["jamlfj","S290637040","Male","jamlfj","S290637040","Male","jamlfj","S290423729","Male","jamlfj","S290511101","Female"],"stream3",2928],
+    ["25-12-26T16:51","TROCHILI","Black-billed Streamertail","黑嘴长尾蜂鸟","Trochilus scitulus",["2512jmbird",[44,45,26,35]],["jamlfj","S290637040","Male","jamlfj","S290637040","Male","jamlfj","S290423729","Male","jamlfj","S290511101","Female"],"stream3",2928],
     ["19-05-12T09:20","TROCHILI","Violet-crowned Hummingbird","紫冠蜂鸟","Ramosomyia violiceps",[["2208azbird",42],["1905mxbird",[4,8]]],["azazaz","S116569566","Paton Center for Hummingbirds, Santa Cruz County","圣克鲁斯郡佩顿蜂鸟中心","mxunam","S163747032","Female"],2999],
     ["25-04-18T10:58","TROCHILI","Azure-crowned Hummingbird","红嘴蜂鸟","Saucerottia cyanocephala",["2504gtbird",132],["gtfelp","S227060352"],"azchum1",2998],
     ["19-05-10T11:18","TROCHILI","Berylline Hummingbird","绿蜂鸟","Saucerottia beryllina",[["1905mxbird",6],["2504gtbird",97]],["mxunam","S163747032","gtfelp","S226755612"],"berhum",3012],
