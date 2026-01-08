@@ -965,7 +965,7 @@ var birds = myBirds([
     ["23-12-23T15:26","TURDIDAE","Dusky Thrush","斑鸫","Turdus eunomus",["2312cnbird",70],["cnzjzj","S157750029","Jiangshangang Greenway, Jiangshan","江山市江山港滨水绿道"],"dusthr2",8772],
     ["17-04-02T07:18","TURDIDAE","Grey-backed Thrush","灰背鸫","Turdus hortulorum",[["1704longyan",2],["2312cnbird",64]],["cnlydp","S164148845","Male","cnzjzj","S157748283","Female, Wanyao Reservior, Jiangshan","江山市碗窑水库"],"gybthr1",8750],
     ["25-12-26T16:44","TURDIDAE","White-chinned Thrush","白颏鸫","Turdus aurantius",["2512jmbird",25],["jamlfj","S290423729"],"whcthr1",8812],
-    ["15-01-08T07:25","TURDIDAE","Eastern Red-legged Thrush","红腿鸫","Turdus ardosiaceus",["1501prbird",36],["prsanj","S164852107"],"relthr1",11395],
+    ["15-01-08T07:25","TURDIDAE","Eastern Red-legged Thrush","东红腿鸫","Turdus ardosiaceus",["1501prbird",36],["prsanj","S164852107"],"relthr1",11395],
     ["25-04-19T09:01","TURDIDAE","Rufous-collared Thrush","中美棕颈鸫","Turdus rufitorques",["2504gtbird",135],["gtanti","S227060243","Female, Cerro de la Cruz","十字架山"],"rucrob1",8809],
     ["06-04-29T08:15","TURDIDAE","American Robin","旅鸫","Turdus migratorius",["170506_042","220403_052",["1206bsbird",12],["1204robin",2]],["nycenp","S164193135","Male","mdwoot","S165034956","Female","mdbroo","S167832749","Juvenile","mdmdmd","S167832994","Germantown","德国镇"],8810],
     ["19-05-16T08:28","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",["1905mxbird",31],["mexmex","S163775414","Alameda Central, Mexico City","墨西哥城阿拉米达中央公园"],"rubrob",8808],
