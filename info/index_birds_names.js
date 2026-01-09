@@ -1007,7 +1007,7 @@ var birds = myBirds([
     ["16-01-06T09:42","MOTACILL","White Wagtail","白鹡鸰","Motacilla alba",[["2312cnbird",[65,58]],["2306isbird",16],["2308ukbird",24],["2312cnbird",130],["2508itbird",18]],["cnzjzj","S157748283","Wanyao Reservior, Jiangshan","江山市碗窑水库","cnjsxp","S157746788","iswesf","S141713912","Drangsnes","德朗斯内斯小镇","ukston","S146716357","jphaap","S157775175","ittusc","S266684864","Bocca di Serchio","塞尔基奥河口"],9698],
     ["24-08-15T07:15","MOTACILL","Tree Pipit","林鹨","Anthus trivialis",["2408frbird",[9,10]],["frcolc","S191506731"],"trepip",9726],
     ["16-01-12T16:06","MOTACILL","Olive-backed Pipit","树鹨","Anthus hodgsoni",[["1601china",53],["2312cnbird",80]],["cnlydp","S164341098","cnzjzj","S157756774","Nianbadu, Jiangshan","江山市廿八都"],"olbpip",9727],
-    ["15-07-08T17:06","MOTACILL","American Pipit","美洲鹨","Anthus rubescens",["1507wbird",11],["usausa","S164996201","Olympic National Park, Washington","华盛顿州奥林匹克国家公园"],9731],
+    ["15-07-08T17:06","MOTACILL","American Pipit","北美黄腹鹨","Anthus rubescens",["1507wbird",11],["usausa","S164996201","Olympic National Park, Washington","华盛顿州奥林匹克国家公园"],11368],
     ["23-06-23T12:15","MOTACILL","Meadow Pipit","草地鹨","Anthus pratensis",[["2306isbird",75],["2308ukbird",55]],["iscapr","S142430735","Bakkatjörn","巴卡特约恩湖","ukdove","S146958151"],"meapip1",9725],
     ["23-12-15T15:10","MOTACILL","Water Pipit","水鹨","Anthus spinoletta",[["2312cnbird",12],["2408frbird",3]],["cnbjof","S157703762","frcolc","S191506731"],"watpip1",9732],
     ["16-01-03T09:36","FRINGILL","Brambling","燕雀","Fringilla montifringilla",["2312cnbird",[108,122]],["cnbjbg","S157768838","Male","cnbjbj","S157773108","Female, Yuanmingyuan Park","圆明园"],"brambl",9762],
