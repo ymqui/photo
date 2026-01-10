@@ -500,7 +500,8 @@ function initAlbum(){
     this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_6","20251225"];
     this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在罗克兰兹鸟类乐园喂蜂鸟"])[cn_ind];
     this[0][i]   = ["2512jamaica/2512jamaica_21","2512jamaica/2512jamaica_25","2512jamaica/2512jamaica_23","20251226"];
-    this[1][i++] = ([urllink(url=("https://youtube.com/shorts/BnxZltAqAG8?feature=share"),"Riding zipline at Dunn's River Falls Park (YouTube Video)")+" during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在"+urllink(url,"邓恩河瀑布公园体验滑索(YouTube视频)")])[cn_ind];
+    urltmp       = (["jR8FCTuVjEg","vDBmqKse2AU","N7PY7yS2nts","BnxZltAqAG8"])[Math.round(Math.random()*3)];
+    this[1][i++] = ([urllink(url=("https://youtube.com/shorts/"+urltmp+"?feature=share"),"Riding zipline at Dunn's River Falls Park (YouTube Video)")+" during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在"+urllink(url,"邓恩河瀑布公园体验滑索(YouTube视频)")])[cn_ind];
     this[0][i]   = ["2512jamaica/2512jamaica_30","2512jamaica/2512jamaica_31","2512jamaica/2512jamaica_33","20251227"];
     this[1][i++] = ([urllink(url=("https://youtube.com/shorts/nuRVmspsHDQ?feature=share"),"Bamboo rafting down the Rio Grande (YouTube Video)")+" during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在波特安东尼奥"+urllink(url,"乘坐竹筏漂流里奥格兰德河(YouTube视频)")])[cn_ind];
 
