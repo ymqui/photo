@@ -38,7 +38,7 @@ function initAlbum(){
         this[1][5] = "在罗克兰鸟类乐园喂蜂鸟。";
         this[1][6] = "红嘴长尾蜂鸟，牙买加的国鸟。";
         this[1][7] = "弗里茨是罗克兰鸟类乐园的主人。";
-        this[1][8] = "在蒙特哥湾。";
+        this[1][8] = "在牙买加第二大城市蒙特哥湾。";
         this[1][9] = "蒙特哥湾的日落。";
         this[1][10] = "在蒙特哥湾的和谐海滩公园玩。";
         this[1][11] = "在奥乔里奥斯的邓恩河瀑布。";
@@ -67,7 +67,7 @@ function initAlbum(){
         this[1][34] = "在金斯敦的德文庄园吃冰淇淋。";
         this[1][35] = "冰淇淋很好吃。";
         this[1][36] = "参观位于金斯敦的德文庄园。";
-        this[1][37] = "游蓝山上的霍利韦尔公园。金斯敦就在远处的山脚下。";
+        this[1][37] = "游蓝山上的霍利韦尔公园。首都金斯敦就在远处的山脚下。";
     }else{
         this[1][0] = "Opening the Christmas present.";
         this[1][1] = "Feeding hummingbirds at Rocklands Bird Sanctuary in Montego Bay.";
@@ -77,7 +77,7 @@ function initAlbum(){
         this[1][5] = "Feeding hummingbirds at Rocklands Bird Sanctuary.";
         this[1][6] = "Red-billed Streamertail, the national bird of Jamaica.";
         this[1][7] = "Fritz, the owner of Rocklands Bird Sanctuary.";
-        this[1][8] = "In Montego Bay.";
+        this[1][8] = "In Montego Bay, the second largest city in Jamaica.";
         this[1][9] = "Sunset in Montego Bay.";
         this[1][10] = "Playing at Harmony Beach Park in Montego Bay.";
         this[1][11] = "At Dunn's River Falls in Ocho Rios.";
