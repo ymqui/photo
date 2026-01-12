@@ -55,6 +55,8 @@ function initAlbum(){
     this[1][i++]  = (["Receiving the certificate for winter showcase 2025","2025年冬季展演证书"])[cn_ind];
     this[0][i]    = "20260103";
     this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20260110_1","20260110_2"];
+    this[1][i++]  = tmptxt1;
 
     adddate(this);
 }
