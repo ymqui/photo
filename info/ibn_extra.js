@@ -100,6 +100,7 @@
 //  ["26-00-00T00:00","TROCHILI","Wedge-tailed Sabrewing","楔尾刀翅蜂鸟","Pampa curvipennis",["2504gtbird",],["gtmgtm",""],"wetsab1",2874],
 //  ["26-00-00T00:00","TROCHILI","Antillean Crested Hummingbird","凤头蜂鸟","Orthorhyncus cristatus",["2412prbird",],["prprpr",""],"anchum1",2907],
 //  ["26-00-00T00:00","TROCHILI","White-bellied Emerald","白腹绿蜂鸟","Chlorestes candida",["2504gtbird",],["gtmgtm",""],"whbeme1",2997],
+//  ["26-00-00T00:00","STRIGIDA","Tawny Owl","西灰林鸮","Strix aluco",["2603mobird",],["mormor",""],"",2474],
 //  ["26-00-00T00:00","STRIGIDA","Elf Owl","娇鸺鹠","Micrathene whitneyi",[],["azazaz","8/2022,"],2530],
 //  ["26-00-00T00:00","STRIGIDA","Little Owl","纵纹腹小鸮","Athene noctua",["2603mobird",],["morsnp",""],"litowl1",2531],
 //  ["26-00-00T00:00","STRIGIDA","Northern Pygmy Owl","北美鸺鹠","Glaucidium gnoma",[],["azmcct","8/2022,"],2502],
