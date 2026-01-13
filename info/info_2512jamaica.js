@@ -76,7 +76,7 @@ function initAlbum(){
         this[1][4] = "Feeding hummingbirds at Rocklands Bird Sanctuary.";
         this[1][5] = "Feeding hummingbirds at Rocklands Bird Sanctuary.";
         this[1][6] = "Red-billed Streamertail, the national bird of Jamaica.";
-        this[1][7] = "Fritz, the owner of Rocklands Bird Sanctuary.";
+        this[1][7] = "Fritz is the manager of Rocklands Bird Sanctuary.";
         this[1][8] = "In Montego Bay, the second largest city in Jamaica.";
         this[1][9] = "Sunset in Montego Bay.";
         this[1][10] = "Playing at Harmony Beach Park in Montego Bay.";
