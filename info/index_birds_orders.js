@@ -298,8 +298,11 @@ function bmap(name,lat,lon){
 }
 
 function nps(pid,isfws,name){
+    if (typeof isfws==='string') {
+       name = isfws;
+       if (name.toLowerCase().indexOf('wildlife refuge')!=-1) isfws = true;
+    }
     let url = 'https://www.'+((typeof isfws==='boolean')?'fws.gov/refuge/':'nps.gov/')+pid+'/';
-    if (typeof isfws==='string') name = isfws;
     if (typeof name==='string'){
        let tmp = strsplit(name);
        url = my_href(url,tmp[0],pid)+tmp[1];
