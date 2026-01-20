@@ -148,15 +148,14 @@ function strsplit(str,nps){
     let tmp = (Array.isArray(str))?str[0]:str;
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
-    if (typeof nps==='boolean'){
+    if ((typeof nps==='boolean') && nps){
        if ((/national|fort/i).test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
        if ((/national|fort/i).test(tmp1[0])) tmp1.unshift('');
     }
     if (tmp1.length==2) tmp1.unshift('');
-    let tmp2 = tmp1.slice(2,tmp.length).join(', ');
-    if (tmp2.length>0) tmp2 = ', '+tmp2;
     if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
-    return [tmp1[0],tmp1[1],tmp2];
+    if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', '); 
+    return [tmp1[0],tmp1[1],tmp1[2]];
 }
 
 //upper case to the first letter, works for href link
