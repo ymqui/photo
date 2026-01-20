@@ -135,6 +135,8 @@ function initAlbum(){
     this[1][i++]  = (["Calming techniques","球球的三个静心技巧：(1)钩织，(2)吃一顿大餐，(3)抱小熊宝宝"])[cn_ind];
     this[0][i]    = "20251204_1";
     this[1][i++]  = urllink((url="https://youtu.be/E7LNscTur50"),(["Performing Where the Wild Things Are in art class (YouTube video)","在美术课上表演《野兽国》(YouTube视频)"])[cn_ind]);
+    this[0][i]    = "20260116";
+    this[1][i++]  = (["The Comeback","卷土重来的故事。老师评语：“你的个人叙述非常有个性”"])[cn_ind];
 
     adddate(this);
 }

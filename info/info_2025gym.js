@@ -57,6 +57,8 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20260110_1","20260110_2"];
     this[1][i++]  = tmptxt1;
+    this[0][i]    = "20260117";
+    this[1][i++]  = (["Receiving a gold medal moment award","获得金牌时刻表扬"])[cn_ind];
 
     adddate(this);
 }
