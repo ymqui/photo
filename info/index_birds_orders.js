@@ -301,8 +301,10 @@ function nps(pid,isfws,name){
     if (typeof isfws==='string') {
        name = isfws;
        if (name.toLowerCase().indexOf('wildlife refuge')!=-1) isfws = true;
+       if (name.toLowerCase().indexOf('national forest')!=-1) isfws = false;
+
     }
-    let url = 'https://www.'+((typeof isfws==='boolean')?'fws.gov/refuge/':'nps.gov/')+pid+'/';
+    let url = 'https://www.'+((typeof isfws==='boolean')?(isfws?'fws.gov/refuge/':'fs.usda.gov/'):'nps.gov/')+pid+'/';
     if (typeof name==='string'){
        let tmp = strsplit(name);
        url = my_href(url,tmp[0],pid)+tmp[1];
