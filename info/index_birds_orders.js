@@ -88,7 +88,7 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["adult feeding young","成年鸟喂雏鸟"],["adults*","成年"],["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["breeding (adults*|plumage)","繁殖羽"],
     ["nonbreeding *(adult)*\/immature","非繁殖羽/未成年"],["nests*","鸟巢"],["nonbreeding (adults*|plumage)","非繁殖羽"],["(partially)* *leucistic","白变种"],["mating display","求偶展示"],["light morph","浅色型"],
     ["(immature|juvenile) light morph","未成年浅色型"],["dark morph","深色型"],["(immature|juvenile) dark morph","未成年深色型"],["(chicks*|hatchlings*)","幼鸟"],["males* at nest cavity","雄性在鸟巢口"],
-    ["females* at nest cavity","雌性在鸟巢口"],["(on the)* *left","左边"],["(on the)* *right","右边"],["common","普通型"],["slate-colored form","石板色型"]];
+    ["females* at nest cavity","雌性在鸟巢口"],["(on the)* *left","左边"],["(on the)* *right","右边"],["common","普通型"],["slate-colored form","石板色型"],["red morph","红色型"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
