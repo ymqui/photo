@@ -143,12 +143,20 @@ function stradd(...arrays) {
     return result.map((_, i) => arrays.map(xs => (Array.isArray(xs)?xs[Math.min(i,xs.length-1)]:xs)).reduce((sum, x) => sum + x, ''));
 }
 
-//if no ',' return [str,''] else return splitted string array
-function strsplit(str){
+//return splitted string array:['',part1,''] or ['',part1,', '+part2] or [part1+', ',part2,', '+part3]
+function strsplit(str,nps){
     let tmp = (Array.isArray(str))?str[0]:str;
-    let tmp1 = tmp.indexOf(',');
-    if (tmp1===-1) return [tmp,''];
-    return [tmp.substring(0,tmp1),tmp.substring(tmp1)];
+    let tmp1 = tmp.split(/, */);
+    if (tmp1.length==1) return ['',tmp,''];
+    if (typeof nps==='boolean'){
+       if ((/national|fort/i).test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
+       if ((/national|fort/i).test(tmp1[0])) tmp1.unshift('');
+    }
+    if (tmp1.length==2) tmp1.unshift('');
+    let tmp2 = tmp1.slice(2,tmp.length).join(', ');
+    if (tmp2.length>0) tmp2 = ', '+tmp2;
+    if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
+    return [tmp1[0],tmp1[1],tmp2];
 }
 
 //upper case to the first letter, works for href link
@@ -283,13 +291,13 @@ function ebirdurl(bid){
 function hotspot(id,name){
     if (typeof name!=='string') return "https://birdinghotspots.org/hotspot/"+id;
     let tmp = strsplit(name);
-    return my_href("https://birdinghotspots.org/hotspot/"+id,tmp[0],id)+tmp[1];
+    return tmp[0]+my_href("https://birdinghotspots.org/hotspot/"+id,tmp[1],id)+tmp[2];
 }
 
 function gmap(name,lat,lon){
     let tmp  = strsplit(name);
-    let tmp1 = ((lat==null)||(lon==null))?reform(tmp[0],"+"):(lat.toString()+"%2C"+lon.toString());
-    return my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[0],"gmap")+tmp[1];
+    let tmp1 = ((lat==null)||(lon==null))?reform(tmp[1],"+"):(lat.toString()+"%2C"+lon.toString());
+    return tmp[0]+my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[1],"gmap")+tmp[2];
 }
 
 function bmap(name,lat,lon){
@@ -306,8 +314,8 @@ function nps(pid,isfws,name){
     }
     let url = 'https://www.'+((typeof isfws==='boolean')?(isfws?'fws.gov/refuge/':'fs.usda.gov/'):'nps.gov/')+pid+'/';
     if (typeof name==='string'){
-       let tmp = strsplit(name);
-       url = my_href(url,tmp[0],pid)+tmp[1];
+       let tmp = strsplit(name,true);
+       url = tmp[0]+my_href(url,tmp[1],pid)+tmp[2];
     }
     return url;
 }
