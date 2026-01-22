@@ -103,7 +103,7 @@ var cornell_name = [["whistling_duck","whistling-duck"],["brant_goose","brant"],
 
 function myBirds(info){
     return info.map((el)=>{
-      el[0] = new Date("20"+el[0]+":00");
+      el[0] = new Date("20"+el[0].substring(0,2)+"-"+el[0].substring(2,4)+"-"+el[0].substring(4,6)+"T"+el[0].substring(6,8)+":"+el[0].substring(8)+":00");
       el[1] = el[1].trim().slice(0,fam_ln).toUpperCase();
       el[2] = el[2].trim();
       el[3] = el[3].trim();
