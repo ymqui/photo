@@ -81,12 +81,12 @@ var orders = myOrder([
 
 var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["females* left","左雌性"],["females* right","右雌性"],["adults* left","左成年"],["adults* right","右成年"],["(immatures*|juveniles*) left","左未成年"],
     ["(immatures*|juveniles*) right","右未成年"],["(males*, *breeding plumage|breeding males*)","繁殖羽雄性"],["(males*, *nonbreeding plumage|nonbreeding males*)","非繁殖羽雄性"],["males*","雄性"],["females*","雌性"],
-    ["(immature|juvenile) males*","未成年雄性"],["(immature|juvenile) females*","未成年雌性"],["(immatures*|juveniles*)","未成年"],["females*\/immature males*","雌性/未成年雄性"],["females*\/immatures*","雌性/未成年"],
+    ["(immature|juvenile) males*","未成年雄性"],["(immature|juvenile) females*","未成年雌性"],["(immatures*|juveniles*)","未成年"],["females*/immature males*","雌性/未成年雄性"],["females*/immatures*","雌性/未成年"],
     ["females* and (chicks*|hatchlings*)","雌性和幼鸟"],["females* and (immature|juvenile)s*","雌性和未成年"],["spring molt","春羽"],["(females*, *breeding plumage|breeding females*)","繁殖羽雌性"],["fall plumage","秋羽"],
-    ["nonbreeding females*\/immature males*","非繁殖羽雌性/未成年雄性"],["(females*, *nonbreeding plumage|nonbreeding females*)","非繁殖羽雌性"],["winter plumage","冬羽"],["1st winter","一龄冬羽"],["2nd winter","二龄冬羽"],
+    ["nonbreeding females*/immature males*","非繁殖羽雌性/未成年雄性"],["(females*, *nonbreeding plumage|nonbreeding females*)","非繁殖羽雌性"],["winter plumage","冬羽"],["1st winter","一龄冬羽"],["2nd winter","二龄冬羽"],
     ["2nd year","二龄羽"],["3rd winter","三龄冬羽"],["3rd year","三龄羽"],["winter females*","冬羽雌性"],["eclipse males*","蚀羽雄性"],["molting adult","换羽成年鸟"],["molting (immatures*|juveniles*)","换羽未成年鸟"],
     ["adult feeding young","成年鸟喂雏鸟"],["adults*","成年"],["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["breeding (adults*|plumage)","繁殖羽"],
-    ["nonbreeding *(adult)*\/immature","非繁殖羽/未成年"],["nests*","鸟巢"],["nonbreeding (adults*|plumage)","非繁殖羽"],["(partially)* *leucistic","白变种"],["mating display","求偶展示"],["light (morph|form)","浅色型"],
+    ["nonbreeding *(adult)*/immature","非繁殖羽/未成年"],["nests*","鸟巢"],["nonbreeding (adults*|plumage)","非繁殖羽"],["(partially)* *leucistic","白变种"],["mating display","求偶展示"],["light (morph|form)","浅色型"],
     ["dark (morph|form)","深色型"],["common","普通型"],["gray (morph|form)","灰色型"],["red (morph|form)","红色型"],["slate-colored form","石板色型"],["white (morph|form)","白色型"],["(chicks*|hatchlings*)","幼鸟"],
     ["cuban","古巴亚种"],[".*males* and .*females* *[(]center[)]","雄性和雌性(中间)"],["males* at nest cavity","雄性在鸟巢口"],["females* at nest cavity","雌性在鸟巢口"],["(on the)* *left","在左边"],["(on the)* *right","在右边"]];
 var fam_ln  = 8;  //family length
