@@ -87,7 +87,8 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["3rd winter","三龄冬羽"],["3rd year","三龄羽"],["winter females*","冬羽雌性"],["molting (immatures*|juveniles*)","换羽未成年鸟"],["eclipse males*","蚀羽雄性"],["molting adult","换羽成年鸟"],["(partially)* *leucistic","白变种"],
     ["nonbreeding *(adult)*/immature","非繁殖羽/未成年"],["adult feeding young","成年鸟喂雏鸟"],["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["nests*","鸟巢"],
     ["breeding (adults*|plumage)","繁殖羽"],["adults*","成年"],["nonbreeding (adults*|plumage)","非繁殖羽"],["mating display","求偶展示"],["light (morph|form)","浅色型"],["dark (morph|form)","深色型"],["common","普通型"],
-    ["gray (morph|form)","灰色型"],["red (morph|form)","红色型"],["slate-colored form","石板色型"],["white (morph|form)","白色型"],["(chicks*|hatchlings*)","幼鸟"],["(on the)* *left","在左边"],["(on the)* *right","在右边"]];
+    ["gray (morph|form)","灰色型"],["red (morph|form)","红色型"],["slate-colored form","石板色型"],["white (morph|form)","白色型"],["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["(on the)* *left","在左边"],
+    ["(on the)* *right","在右边"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
