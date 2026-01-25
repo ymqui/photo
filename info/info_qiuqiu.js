@@ -506,7 +506,7 @@ function initAlbum(){
     this[1][i++] = ([urllink(url=("https://youtube.com/shorts/nuRVmspsHDQ?feature=share"),"Bamboo rafting down the Rio Grande (YouTube Video)")+" during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在波特安东尼奥"+urllink(url,"乘坐竹筏漂流里奥格兰德河(YouTube视频)")])[cn_ind];
     this[0][i]   = "20260125_001_LabubuBlindBox";
     this[1][i++] = (["Nathan made his own Labubu blind boxes","球球自己做的Labubu盲盒"])[cn_ind];
-    this[0][i]   = ["2601snowtube/2601snowtube_1","2601snowtube/2601snowtube_5","2601snowtube/2601snowtube_6","20260125"];
+    this[0][i]   = ["2601snowtube/2601snowtube_1","2601snowtube/2601snowtube_6","2601snowtube/2601snowtube_11","20260125"];
     this[1][i++] = pagelink("2601snowtube",(["Snowtubing","轮胎滑雪"])[cn_ind]);
 
 
