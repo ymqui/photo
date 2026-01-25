@@ -507,7 +507,7 @@ function initAlbum(){
     this[0][i]   = "20260125_001_LabubuBlindBox";
     this[1][i++] = (["Nathan made his own Labubu blind boxes","球球自己做的Labubu盲盒"])[cn_ind];
     this[0][i]   = ["2601snowtube/2601snowtube_1","2601snowtube/2601snowtube_6","2601snowtube/2601snowtube_11","20260125"];
-    this[1][i++] = pagelink("2601snowtube",(["Snow tubing as the first heavy snow of the year arrives","今年第一场大雪，在家附近的小坡上用轮胎滑雪"])[cn_ind]);
+    this[1][i++] = pagelink("2601snowtube",(["Snow tubing on the day of the first heavy snow storm of the year","今年第一场大雪，在家附近的小坡上用轮胎滑雪"])[cn_ind]);
 
     adddate(this);
 }
