@@ -137,6 +137,8 @@ function initAlbum(){
     this[1][i++]  = urllink((url="https://youtu.be/E7LNscTur50"),(["Performing Where the Wild Things Are in art class (YouTube video)","在美术课上表演《野兽国》(YouTube视频)"])[cn_ind]);
     this[0][i]    = "20260116";
     this[1][i++]  = (["The Comeback","卷土重来的故事。老师评语：“你的个人叙述非常有个性”"])[cn_ind];
+    this[0][i]    = "20260123";
+    this[1][i++]  = (["What Nathan's classmates think of him","球球的同学们对他的看法：“聪明、善良、风趣、有艺术天赋、富有创造力、诚实、勤奋、灵活、体贴、快乐、有决心”"])[cn_ind];
 
     adddate(this);
 }
