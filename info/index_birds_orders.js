@@ -6,6 +6,7 @@ var dig_cnts  = 0;
 var pic_cnts  = 0;
 var ebirdlist = [];
 var cnrexp    = /[\u3400-\u9FBF]/;
+var npsrexp   = /refuge|fort|park|bird|canyon|road/i;
 
 function myOrder(info){
     return info.map((el)=>({name:el[0],cname:el[1]+"目",family:(el.slice(2)).reduce((fam,ele,ind,ar)=>{if(!cnrexp.test(ele))fam.push({name:ele,cname:ar[ind+1]+"科"}); return fam;},[])}));
@@ -149,12 +150,12 @@ function strsplit(str){
     let tmp = (Array.isArray(str))?str[0]:str;
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
-    while ((tmp1.length>2) && (/nation|fort/i).test(tmp1[2])) {
+    while ((tmp1.length>2) && npsrexp.test(tmp1[2])) {
           tmp1[1] = tmp1[0]+', '+tmp1[1];
           tmp1.shift();
     }
-    if ((/nation|fort|bird|canyon/i).test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
-    if ((/nation|fort|bird|canyon/i).test(tmp1[0])) tmp1.unshift('');
+    if (npsrexp.test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
+    if (npsrexp.test(tmp1[0])) tmp1.unshift('');
     if (tmp1.length==2) tmp1.unshift('');
     if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
     if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', '); 
@@ -290,7 +291,7 @@ function ebirdurl(bid){
     return "https://ebird.org/species/"+bid.trim()+"/";
 }
 
-function hotspot(id,name){
+function spot(id,name){
     if (typeof name!=='string') return "https://birdinghotspots.org/hotspot/"+id;
     let tmp = strsplit(name);
     return tmp[0]+my_href("https://birdinghotspots.org/hotspot/"+id,tmp[1],id)+tmp[2];
