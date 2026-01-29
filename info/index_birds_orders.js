@@ -88,7 +88,7 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["nonbreeding *(adult)*/immature","非繁殖羽/未成年"],["adult feeding young","成年鸟喂雏鸟"],["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["nests*","鸟巢"],
     ["breeding (adults*|plumage)","繁殖羽"],["adults*","成年"],["nonbreeding (adults*|plumage)","非繁殖羽"],["mating display","求偶展示"],["light (morph|form)","浅色型"],["dark (morph|form)","深色型"],["common","普通型"],
     ["gray (morph|form)","灰色型"],["red (morph|form)","红色型"],["slate-colored form","石板色型"],["white (morph|form)","白色型"],["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["(on the)* *left","在左边"],
-    ["(on the)* *right","在右边"]];
+    ["(on the)* *right","在右边"],["red-shafted","红羽"],["yellow-shafted","黄羽"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -145,14 +145,16 @@ function stradd(...arrays) {
 }
 
 //return splitted string array:['',part1,''] or ['',part1,', '+part2] or [part1+', ',part2,', '+part3]
-function strsplit(str,nps){
+function strsplit(str){
     let tmp = (Array.isArray(str))?str[0]:str;
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
-    if ((typeof nps==='boolean') && nps){
-       if ((/national|fort/i).test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
-       if ((/national|fort/i).test(tmp1[0])) tmp1.unshift('');
+    while ((tmp1.length>2) && (/nation|fort/i).test(tmp1[2])) {
+          tmp1[1] = tmp1[0]+', '+tmp1[1];
+          tmp1.shift();
     }
+    if ((/nation|fort|bird|canyon/i).test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
+    if ((/nation|fort|bird|canyon/i).test(tmp1[0])) tmp1.unshift('');
     if (tmp1.length==2) tmp1.unshift('');
     if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
     if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', '); 
@@ -314,7 +316,7 @@ function nps(pid,isfws,name){
     }
     let url = 'https://www.'+((typeof isfws==='boolean')?(isfws?'fws.gov/refuge/':'fs.usda.gov/'):'nps.gov/')+pid+'/';
     if (typeof name==='string'){
-       let tmp = strsplit(name,true);
+       let tmp = strsplit(name);
        url = tmp[0]+my_href(url,tmp[1],pid)+tmp[2];
     }
     return url;
