@@ -150,7 +150,6 @@ function strsplit(str){
     let tmp = (Array.isArray(str))?str[0]:str;
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
-    for (let i=0;i<tmp1.length;i++){tmp1[i] = replace_acronym(tmp1[i]);}
     while ((tmp1.length>2) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0])) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[1]))){
           tmp1[1] = tmp1[0]+', '+tmp1[1];
           tmp1.shift();
