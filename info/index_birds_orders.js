@@ -6,7 +6,6 @@ var dig_cnts  = 0;
 var pic_cnts  = 0;
 var ebirdlist = [];
 var cnrexp    = /[\u3400-\u9FBF]/;
-var locrexp   = /nation|trail|fort|bird|canyon|road|park|wildlife|island/i;
 
 function myOrder(info){
     return info.map((el)=>({name:el[0],cname:el[1]+"目",family:(el.slice(2)).reduce((fam,ele,ind,ar)=>{if(!cnrexp.test(ele))fam.push({name:ele,cname:ar[ind+1]+"科"}); return fam;},[])}));
@@ -151,13 +150,12 @@ function strsplit(str){
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
     for (let i=0;i<tmp1.length;i++){tmp1[i] = replace_acronym(tmp1[i]);}
-    while ((tmp1.length>2) && locrexp.test(tmp1[2])) {
+    while ((tmp1.length>2) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0])) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[1]))){
           tmp1[1] = tmp1[0]+', '+tmp1[1];
           tmp1.shift();
     }
-    if (locrexp.test(tmp1[1]) && (tmp1.length==2)) tmp1.push('');
-    if (locrexp.test(tmp1[0])) tmp1.unshift('');
-    if (tmp1.length==2) tmp1.unshift('');
+    if (((tmp1[0].split(/ +/)).length>1) && !pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0]))) tmp1.unshift('');
+    if (tmp1.length==2) tmp1.push('');
     if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
     if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', ');
     return [tmp1[0],tmp1[1],tmp1[2]];

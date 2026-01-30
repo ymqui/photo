@@ -569,7 +569,7 @@ var birds = myBirds([
     ["2301231041","PICIDAE ","Lineated Woodpecker","细纹黑啄木鸟","Dryocopus lineatus",[["2301pabird",56],["2504gtbird",[32,40]]],["papipe","S126820118","Male","gttknp","S225428347","Male","gtyaxh","S225700053","Female"],"linwoo1",3875],
     ["2301231042","PICIDAE ","Cinnamon Woodpecker","桂红啄木鸟","Celeus loricatus",["2301pabird",57],["papipe","S126820118"],"cinwoo1",3861],
     ["2504200705","PICIDAE ","Golden-olive Woodpecker","高原啄木鸟","Colaptes rubiginosus",["2504gtbird",142],["gtfelp","S227543090","Female"],"goowoo1",3847],
-    ["0812131536","PICIDAE ","Northern Flicker","北扑翅䴕","Colaptes auratus",["171022_124","160625_085",["2208azbird",23]],["mdbhrp","S165010305","Male, yellow-shafted","nyjbwr","S164470594","Female, yellow-shafted","azsant","S116560424",spot("L2413068","Male, red-shfated, Madera Canyon Carrie Nation Trail"),"马德拉峡谷嘉莉国家山道"],3854],
+    ["0812131536","PICIDAE ","Northern Flicker","北扑翅䴕","Colaptes auratus",["171022_124","160625_085",["2208azbird",23]],["mdbhrp","S165010305","Male, yellow-shafted","nyjbwr","S164470594","Female, yellow-shafted","azsant","S116560424",spot("L2413068","Male, red-shafted, Madera Canyon Carrie Nation Trail"),"马德拉峡谷嘉莉国家山道"],3854],
     ["2504180659","PICIDAE ","Guatemalan Flicker","危地马拉扑翅䴕","Colaptes mexicanoides",["2504gtbird",94],["gtfelp","S226755612","Male"],"norfli1",11285],
     ["2208101306","PICIDAE ","Gilded Flicker","黄扑翅䴕","Colaptes chrysoides",["2208azbird",[66,67]],["azazaz","S116681599","Male, "+(t1="Scottsdale Community College, Scottsdale"),(t2="斯科茨代尔市社区大学"),"azazaz","S116681599","Female, "+t1,t2],3855],
     ["2301230733","PICIDAE ","Crimson-crested Woodpecker","朱冠啄木鸟","Campephilus melanoleucos",["2301pabird",20],["papipe","S126820118","Male"],"crcwoo1",3884],
