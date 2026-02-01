@@ -1035,7 +1035,7 @@ var birds = myBirds([
     ["0608051123","FRINGILL","American Goldfinch","北美金翅雀","Spinus tristis",[["1412mckee",9],["1412mckee",10],["1512bhill",44]],["mdmwma","8/2014,S167439864","Male","mdmwma","8/2014,S167439864","Female","mdbhrp","S165084202","Winter female"],9937],
 //  ["2600000000","RHODINOC","Rosy Thrush-Tanager","鸫唐纳雀","Rhodinocichla rosea",[],["arb",""],"rottan2",9993],
     ["1612040810","CALCARII","Snow Bunting","雪鹀","Plectrophenax nivalis",[["2306isbird",[58,57]],"161204_129"],["isestr","S142420493","Male"+(t1=", Jökulsárlón"),(t2="杰古沙龙冰河湖"),"isestr","S142420493","Female"+t1,t2,"nynyny","S164739884","Winter plumage, Jones Beach State Park","琼斯海滩州立公园"],9991],
-    ["1612040951","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",["161204_136","260201_005"],["mdmdmd","S297582418","Winter male, Old Frederick Road, Howard County","霍华德郡老弗雷德里克路","nynyny","S164739884","Winter female, Jones Beach State Park","琼斯海滩州立公园"],9988],
+    ["1612040951","CALCARII","Lapland Longspur","铁爪鹀","Calcarius lapponicus",["260201_005","161204_136"],["mdmdmd","S297582418","Winter male, Old Frederick Road, Howard County","霍华德郡老弗雷德里克路","nynyny","S164739884","Winter female, Jones Beach State Park","琼斯海滩州立公园"],9988],
     ["2312290746","EMBERIZI","Common Reed Bunting","芦鹀","Emberiza schoeniclus",["2312cnbird",[128,129]],["jphaap","S157775175","Nonbreeding male"],"reebun",10037],
     ["2312231527","EMBERIZI","Black-faced Bunting","灰头鹀","Emberiza spodocephala",["2312cnbird",71],["cnzjzj","S157750029","Female/immature, Jiangshangang Greenway, Jiangshan","江山市江山港滨水绿道"],"bkfbun1",10033],
     ["2308101155","EMBERIZI","Corn Bunting","黍鹀","Emberiza calandra",["2308ukbird",60],["ukdove","S146958151"],"corbun1",9996],
