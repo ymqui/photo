@@ -82,14 +82,16 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["(immatures*|juveniles*) right","右未成年"],[".*males* and .*females* *[(]center[)]","雄性和雌性(中间)"],[".*females* and .*males* *[(]center[)]","雌性和雄性(中间)"],["(males*, *breeding plumage|breeding males*)","繁殖羽雄性"],
     ["(males*, *nonbreeding plumage|nonbreeding males*)","非繁殖羽雄性"],["(females*, *nonbreeding plumage|nonbreeding females*)","非繁殖羽雌性"],["(immature|juvenile) males*","未成年雄性"],["spring molt","春羽"],["yellow","黄色亚种"],
     ["(immature|juvenile) females*","未成年雌性"],["(immatures*|juveniles*)","未成年"],["females*/immature males*","雌性/未成年雄性"],["females*/immatures*","雌性/未成年"],["females* and (chicks*|hatchlings*)","雌性和幼鸟"],
-    ["females* and (immature|juvenile)s*","雌性和未成年"],["males* at nest cavity","雄性在鸟巢口"],["females* at nest cavity","雌性在鸟巢口"],["(females*, *breeding plumage|breeding females*)","繁殖羽雌性"],["cuban","古巴亚种"],
+    ["females* and (immature|juvenile)s*","雌性和未成年"],["males* at nest cavity","雄性在鸟巢口"],["females* at nest cavity","雌性在鸟巢口"],["(females*, *breeding plumage|breeding females*)","繁殖羽雌性"],["mating display","求偶展示"],
     ["nonbreeding females*/immature males*","非繁殖羽雌性/未成年雄性"],["males*","雄性"],["females*","雌性"],["fall plumage","秋羽"],["winter plumage","冬羽"],["1st winter","一龄冬羽"],["2nd winter","二龄冬羽"],["2nd year","二龄羽"],
     ["3rd winter","三龄冬羽"],["3rd year","三龄羽"],["winter females*","冬羽雌性"],["winter males*","冬羽雄性"],["molting (immatures*|juveniles*)","换羽未成年鸟"],["eclipse males*","蚀羽雄性"],["molting adult","换羽成年鸟"],
     ["(partially)* *leucistic","白变种"],["nonbreeding *(adult)*/immature","非繁殖羽/未成年"],["adult feeding young","成年鸟喂雏鸟"],["breeding adults* (with|and) (juveniles*|chicks*)","成年繁殖羽和幼鸟"],["nests*","鸟巢"],
-    ["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["breeding (adults*|plumage)","繁殖羽"],["adults*","成年"],["nonbreeding (adults*|plumage)","非繁殖羽"],
-    ["mating display","求偶展示"],["western","西部亚种"],["light (morph|form)","浅色型"],["dark (morph|form)","深色型"],["common","普通型"],["gray (morph|form)","灰色型"],["gray-headed","灰头型"],["red (morph|form)","红色型"],
-    ["slate-colored form","石板色型"],["oregon form","俄勒冈型"],["pink-sided","红胁型"],["white (morph|form)","白色型"],["myrtle form","长春花型"],["white-headed *(form)*","白头型"],["red-shafted","红羽"],["yellow-shafted","黄羽"],
-    ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["(on the)* *left","在左边"],["(on the)* *right","在右边"]];
+    ["adults* and (chicks*|hatchlings*)","成年和幼鸟"],["adults* and (immatures*|juveniles*)","成年和未成年"],["breeding (adults*|plumage)","繁殖羽"],["nonbreeding (adults*|plumage)","非繁殖羽"],["common","普通型"],["cuban","古巴亚种"],
+    ["american","美洲亚种"],["atlantic form","大西洋亚种"],["blackish","黑色型"],["black-backed","黑背型"],["broad-billed","阔嘴型"],["chestnut-mandibled","栗嘴亚种"],["cismontanus","黑冠型"],["dark (morph|form)","深色型"],
+    ["eurasian","欧亚亚种"],["extimus","佛罗里达亚种"],["gray-crowned","灰冠型"],["gray-headed","灰头型"],["gray (morph|form)","灰色型"],["hepburn's","灰颊型"],["hoary","极北型"],["interior","内部种群"],["lemon-rumped","柠檬腰型"],
+    ["light (morph|form)","浅色型"],["melanotis group","黑耳亚种"],["mexicana group","墨西哥亚种"],["migrating kettle","迁徙集群"],["myrtle form","长春花型"],["oregon form","俄勒冈型"],["pink-sided","红胁型"],["red (morph|form)","红色型"],
+    ["slate-colored form","石板色型"],["taiga","泰加林种"],["western","西部亚种"],["white-browed","白眉型"],["white (morph|form)","白色型"],["white-headed *(form)*","白头型"],["red-shafted","红羽"],["yellow-shafted","黄羽"],
+    ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -313,7 +315,6 @@ function nps(pid,isfws,name){
        name = isfws;
        if (name.toLowerCase().indexOf('wildlife refuge')!=-1) isfws = true;
        if (name.toLowerCase().indexOf('national forest')!=-1) isfws = false;
-
     }
     let url = 'https://www.'+((typeof isfws==='boolean')?(isfws?'fws.gov/refuge/':'fs.usda.gov/'):'nps.gov/')+pid+'/';
     if (typeof name==='string'){
