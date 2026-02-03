@@ -97,6 +97,8 @@ var pt_cnty = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿
     ["Fulton","富尔顿"],["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],["Loudoun","劳登"],
     ["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Pima","皮马"],["Pinellas","皮尼拉斯"],["Prince George's","乔治王子"],
     ["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
+var pt_stat = [["Alaska","阿拉斯加"],["California","加利福尼亚"],["Connecticut","康涅狄格"],["Georgia","乔治亚"],["Guanajuato","瓜纳华托"],["Maine","缅因"],["Michigan","密西根"],["Nevada","内华达"],["Oregon","俄勒冈"],["Texas","德克萨斯"],
+    ["Vermont","佛蒙特"],["Washington","华盛顿"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -376,6 +378,10 @@ function reform_locs(loc,photo){
            if (pt_cnty.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *county","i")).test(info[6*i+2]);})) {
               info[6*i+3] = tmp5+"郡"+info[6*i+3];
            }
+           if (pt_stat.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *$","i")).test(info[6*i+2]);})) {
+              info[6*i+3] = tmp5+"州"+info[6*i+3];
+           }
+
         }
         pid  = info[6*i].toLowerCase();
         tmp  = (lurls[pid]==null)?['','','','']:(lurls[pid].slice(0));
