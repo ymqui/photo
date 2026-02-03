@@ -92,11 +92,11 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["light (morph|form)","浅色型"],["melanotis group","黑耳亚种"],["mexicana group","墨西哥亚种"],["migrating kettle","迁徙集群"],["myrtle form","长春花型"],["oregon form","俄勒冈型"],["pink-sided","红胁型"],["red (morph|form)","红色型"],
     ["slate-colored form","石板色型"],["taiga","泰加林种"],["western","西部亚种"],["white-browed","白眉型"],["white (morph|form)","白色型"],["white-headed *(form)*","白头型"],["red-shafted","红羽"],["yellow-shafted","黄羽"],
     ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"]];
-var pt_cnty = [["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],["Centre","中心"],
-    ["Chester","切斯特"],["Clarke","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],["Franklin","富兰克林"],["Frederick","弗雷德里克"],["Fulton","富尔顿"],
-    ["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],["Loudoun","劳登"],["Maricopa","马里科帕"],
-    ["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Pima","皮马"],["Pinellas","皮尼拉斯"],["Prince George's","乔治王子"],["Queen Anne's","安妮女王"],
-    ["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
+var pt_cnty = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],
+    ["Centre","中心"],["Chester","切斯特"],["Clarke","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],["Franklin","富兰克林"],["Frederick","弗雷德里克"],
+    ["Fulton","富尔顿"],["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],["Loudoun","劳登"],
+    ["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Pima","皮马"],["Pinellas","皮尼拉斯"],["Prince George's","乔治王子"],
+    ["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -372,6 +372,9 @@ function reform_locs(loc,photo){
            }
            if (tmp_chn.length>0){
               info[6*i+4] = tmp_chn+((info[6*i+4].length>0)?comma[1]:"")+info[6*i+4];
+           }
+           if (pt_cnty.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *county","i")).test(info[6*i+2]);})) {
+              info[6*i+3] = tmp5+"郡"+info[6*i+3];
            }
         }
         pid  = info[6*i].toLowerCase();

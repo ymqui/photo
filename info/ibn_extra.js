@@ -345,7 +345,7 @@
 //  ["2600000000","PARULIDA","Mangrove Warbler","黄林莺","Setophaga petechia",["2512jmbird",],["jamjam",""],"manwar1",10348],
 //  ["2600000000","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[],["azazaz","8/2022,"],10365],
 //  ["2600000000","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[],["mdbhrp","1/2023,"],10369],
-//  ["2600000000","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[],["papapa","1/2023,","Female, "+gmap("Cherry Tree Road, Aston, Delaware County",39.8554,-75.4454),"阿斯顿镇樱桃树路"],10368],
+//  ["2600000000","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[],["azazaz","8/2022,"],10368],
 //  ["2600000000","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[""],["usausa","S","Highbridge Park, New York, New York","纽约州纽约市高桥公园"],10367],
 //  ["2600000000","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[],["azazaz","8/2022,"],10402],
 //  ["2600000000","PARULIDA","Painted Whitestart","彩鸲莺","Myioborus pictus",[],["azazaz","8/2022,"],10405],
