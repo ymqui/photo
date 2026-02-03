@@ -403,7 +403,7 @@ function reform_url(name,cname,ebid,cbid){
 }
 
 //acronym is case sensitive 
-var acronym = {NWR:['National Wildlife Refuge','国家野生动物保护区'],NP:['National Park','国家公园'],WMA:['Wildlife Management Area','野生动物管理区'],WR:['Wildlife Refuge','野生动物保护区']};
+var acronym = {NWR:["National Wildlife Refuge","国家野生动物保护区"],NP:["National Park","国家公园"],SP:["State Park","州立公园"],WMA:["Wildlife Management Area","野生动物管理区"],WR:["Wildlife Refuge","野生动物保护区"]};
 var acrrexp = new RegExp('('+Object.keys(acronym).join('|')+')','g');
 function replace_acronym(name){
    let indx = cnrexp.test(name)?1:0;
