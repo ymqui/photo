@@ -346,7 +346,7 @@
 //  ["2600000000","PARULIDA","Grace's Warbler","黄喉纹胁林莺","Setophaga graciae",[],["azazaz","8/2022,"],10365],
 //  ["2600000000","PARULIDA","Golden-cheeked Warbler","金颊黑背林莺","Setophaga chrysoparia",[],["mdbhrp","1/2023,"],10369],
 //  ["2600000000","PARULIDA","Hermit Warbler","黄脸林莺","Setophaga occidentalis",[],["azazaz","8/2022,"],10368],
-//  ["2600000000","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[""],["nynyny","S","Highbridge Park, New York City","纽约市高桥公园"],10367],
+//  ["2600000000","PARULIDA","Townsend's Warbler","黄眉林莺","Setophaga townsendi",[""],["nynyny","S","Highbridge Park, New York City","高桥公园"],10367],
 //  ["2600000000","PARULIDA","Red-faced Warbler","红脸森莺","Cardellina rubrifrons",[],["azazaz","8/2022,"],10402],
 //  ["2600000000","PARULIDA","Painted Whitestart","彩鸲莺","Myioborus pictus",[],["azazaz","8/2022,"],10405],
 //  ["2600000000","CARDINAL","Lazuli Bunting","白腹蓝彩鹀","Passerina amoena",["2412cabird",],["cacaca",""],10469],
