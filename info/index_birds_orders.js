@@ -78,7 +78,7 @@ var orders = myOrder([
      "PASSERELLIDAE","雀鹀","CALYPTOPHILIDAE","拟䳭唐纳雀","ZELEDONIIDAE","冠鹩森莺","PHAENICOPHILIDAE","棕榈唐纳雀","NESOSPINGIDAE","波多黎各唐纳雀","SPINDALIDAE","纹头唐纳雀","TERETISTRIDAE","灰森莺","ICTERIDAE","拟鹂",
      "PARULIDAE","森莺","CARDINALIDAE","美洲雀","MITROSPINGIDAE","乌脸唐纳雀","THRAUPIDAE","裸鼻雀"]
 ]);
-var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["females* left","左雌性"],["females* right","右雌性"],["adults* left","左成年"],["adults* right","右成年"],["(immatures*|juveniles*) left","左未成年"],
+var pt_front = [["males* left","左雄性"],["males* right","右雄性"],["females* left","左雌性"],["females* right","右雌性"],["adults* left","左成年"],["adults* right","右成年"],["(immatures*|juveniles*) left","左未成年"],
     ["(immatures*|juveniles*) right","右未成年"],[".*males* and .*females* *[(]center[)]","雄性和雌性(中间)"],[".*females* and .*males* *[(]center[)]","雌性和雄性(中间)"],["(males*, *breeding plumage|breeding males*)","繁殖羽雄性"],
     ["(males*, *nonbreeding plumage|nonbreeding males*)","非繁殖羽雄性"],["(females*, *nonbreeding plumage|nonbreeding females*)","非繁殖羽雌性"],["(immature|juvenile) males*","未成年雄性"],["spring molt","春羽"],["yellow","黄色亚种"],
     ["(immature|juvenile) females*","未成年雌性"],["(immatures*|juveniles*)","未成年"],["females*/immature males*","雌性/未成年雄性"],["females*/immatures*","雌性/未成年"],["females* and (chicks*|hatchlings*)","雌性和幼鸟"],
@@ -92,16 +92,17 @@ var pt_eng_chn = [["males* left","左雄性"],["males* right","右雄性"],["fem
     ["light (morph|form)","浅色型"],["melanotis group","黑耳亚种"],["mexicana group","墨西哥亚种"],["migrating kettle","迁徙集群"],["myrtle form","长春花型"],["oregon form","俄勒冈型"],["pink-sided","红胁型"],["red (morph|form)","红色型"],
     ["slate-colored form","石板色型"],["taiga","泰加林种"],["western","西部亚种"],["white-browed","白眉型"],["white (morph|form)","白色型"],["white-headed *(form)*","白头型"],["red-shafted","红羽"],["yellow-shafted","黄羽"],
     ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"]];
-var pt_cnty = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],
+var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],
     ["Centre","中心"],["Chester","切斯特"],["Clarke*","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Essex","埃塞克斯"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],["Franklin","富兰克林"],
     ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],
     ["Lee","李"],["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Pima","皮马"],["Pinellas","皮尼拉斯"],
     ["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
-var pt_stat = [["Alaska","阿拉斯加州"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Baltimore","巴尔的摩市"],["California","加利福尼亚州"],["Campania","坎帕尼亚大区"],["Canada","加拿大"],["China","中国"],
+pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
+pt_back.push(["Alaska","阿拉斯加州"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Baltimore","巴尔的摩市"],["California","加利福尼亚州"],["Campania","坎帕尼亚大区"],["Canada","加拿大"],["China","中国"],
     ["Colón Province","科隆省"],["Connecticut","康涅狄格州"],["Escuintla","埃斯昆特拉省"],["France","法国"],["Georgia","乔治亚州"],["Guanajuato","瓜纳华托州"],["Guatemala","危地马拉"],["Haute-Savoie","上萨瓦省"],["Iceland","冰岛"],
     ["Italy","意大利"],["Longyan","龙岩市"],["Maine","缅因州"],["Mexico City","墨西哥城"],["Michigan","密西根州"],["Nevada","内华达州"],["New York City","纽约市"],["Northwestern Region","西北地区"],["Ohio","俄亥俄州"],
     ["Ontario","安大略省"],["Oregon","俄勒冈州"],["Panama","巴拿马"],["Paris","巴黎市"],["Québec","魁北克省"],["Saint Andrew","圣安德鲁堂区"],["Saint Ann","圣安堂区"],["Saint James","圣詹姆斯堂区"],["Texas","德克萨斯州"],
-    ["United Kingdom","英国"],["Vermont","佛蒙特州"],["Washington","华盛顿州"],["Western Region","西部地区"]];
+    ["United Kingdom","英国"],["Vermont","佛蒙特州"],["Washington","华盛顿州"],["Western Region","西部地区"]);
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -162,11 +163,11 @@ function strsplit(str){
     let tmp = (Array.isArray(str))?str[0]:str;
     let tmp1 = tmp.split(/, */);
     if (tmp1.length==1) return ['',tmp,''];
-    while ((tmp1.length>2) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0])) && pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[1]))){
+    while ((tmp1.length>2) && pt_front.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0])) && pt_front.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[1]))){
           tmp1[1] = tmp1[0]+', '+tmp1[1];
           tmp1.shift();
     }
-    if (((tmp1[0].split(/ +/)).length>1) && !pt_eng_chn.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0]))) tmp1.unshift('');
+    if (((tmp1[0].split(/ +/)).length>1) && !pt_front.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0]))) tmp1.unshift('');
     if (tmp1.length==2) tmp1.push('');
     if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
     if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', ');
@@ -371,19 +372,16 @@ function reform_locs(loc,photo){
         if (info[6*i+2].length>0){
            let tmp_info = info[6*i+2];
            let tmp_chn  = "";
-           while (pt_eng_chn.some((el)=>{tmp5=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
+           while (pt_front.some((el)=>{tmp5=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
               tmp_chn  = tmp_chn+((tmp_chn.length>0)?comma[1]:"")+tmp5;
               tmp_info = RegExp.rightContext;
            }
            if (tmp_chn.length>0){
               info[6*i+4] = tmp_chn+((info[6*i+4].length>0)?comma[1]:"")+info[6*i+4];
            }
-           tmp_chn  = "";
            if (tmp_info.length>0) {
-              if (pt_cnty.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *county","i")).test(tmp_info);})) {
-                 info[6*i+3] = tmp5+"郡"+info[6*i+3];
-              }
-              while (pt_stat.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *$","i")).test(tmp_info);})) {
+              tmp_chn = "";
+              while (pt_back.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *$","i")).test(tmp_info);})) {
                  tmp_chn  = tmp_chn+tmp5;
                  tmp_info = RegExp.leftContext;
               }
