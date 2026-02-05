@@ -95,14 +95,29 @@ var pt_front = [["males* left","左雄性"],["males* right","右雄性"],["femal
 var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],
     ["Centre","中心"],["Chester","切斯特"],["Clarke*","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Essex","埃塞克斯"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],["Franklin","富兰克林"],
     ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],
-    ["Lee","李"],["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Pima","皮马"],["Pinellas","皮尼拉斯"],
-    ["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
+    ["Lee","李"],["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Ottawa","渥太华"],["Pima","皮马"],
+    ["Pinellas","皮尼拉斯"],["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],
+    ["York","约克"]];
 pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
-pt_back.push(["Alaska","阿拉斯加州"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Baltimore","巴尔的摩市"],["California","加利福尼亚州"],["Campania","坎帕尼亚大区"],["Canada","加拿大"],["China","中国"],
-    ["Colón Province","科隆省"],["Connecticut","康涅狄格州"],["Escuintla","埃斯昆特拉省"],["France","法国"],["Georgia","乔治亚州"],["Guanajuato","瓜纳华托州"],["Guatemala","危地马拉"],["Haute-Savoie","上萨瓦省"],["Iceland","冰岛"],
-    ["Italy","意大利"],["Longyan","龙岩市"],["Maine","缅因州"],["Mexico City","墨西哥城"],["Michigan","密西根州"],["Nevada","内华达州"],["New York City","纽约市"],["Northwestern Region","西北地区"],["Ohio","俄亥俄州"],
-    ["Ontario","安大略省"],["Oregon","俄勒冈州"],["Panama","巴拿马"],["Paris","巴黎市"],["Québec","魁北克省"],["Saint Andrew","圣安德鲁堂区"],["Saint Ann","圣安堂区"],["Saint James","圣詹姆斯堂区"],["Texas","德克萨斯州"],
-    ["United Kingdom","英国"],["Vermont","佛蒙特州"],["Washington","华盛顿州"],["Western Region","西部地区"]);
+pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯加州"],["Art.+Agape","艾盖浦艺术别墅酒店"],["Ash.+Sanctuary","灰谷鸟类保护区"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Bakkatjörn","巴卡特约恩湖"],
+    ["Baltimore","巴尔的摩市"],["Beale Park","比尔公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],["Bocca di Serchio","塞尔基奥河口"],["Bois de Boulogne","布洛涅森林"],
+    ["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],["Canada","加拿大"],["Cape Flattery","夫拉特角"],
+    ["Cape Hatteras","哈特拉斯角"],["Ceiba.+Inn","西巴乡村客栈"],["Central Park","中央公园"],["Charleston","查尔斯顿"],["Chimney Rock SP","烟囱岩SP"],["China","中国"],["Chincoteague NWR","钦科蒂格NWR"],["Clear Creek Trail","清溪步道"],
+    ["Colón Province","科隆省"],["Connecticut","康涅狄格州"],["Cromwell Valley Park","克伦威尔溪谷公园"],["Denver","丹佛市"],["Desert NWR","沙漠NWR"],["Drangsnes","德朗斯内斯小镇"],["El Pipila Monument","皮毕拉纪念碑"],
+    ["Escuintla","埃斯昆特拉省"],["Etang.+Crau","圣马丁德克罗镇桤木池塘"],["Florence","佛罗伦萨市"],["Fort McHenry","麦克亨利堡"],["France","法国"],["Frederick","弗雷德里克市"],["Frog Pond WMA","蛙塘WMA"],["Fucecchio Marsh","富切基奥沼泽"],
+    ["Georgia","乔治亚州"],["Golfklúbbur Seltjarnarnes","塞尔特贾纳内斯高尔夫球场"],["Guanajuato City","瓜纳华托城"],["Guanajuato","瓜纳华托州"],["Guatemala","危地马拉"],["Haute-Savoie","上萨瓦省"],["Heritage.+Park","遗产岛公园"],
+    ["Hobuck Beach","霍巴克海滩"],["Holywell Park","霍利韦尔公园"],["Homer.+Park","荷马古德尔斯基公园"],["Hope.+Gardens","霍普植物园"],["Hólmavík","侯尔马维克小镇"],["Hótel Laugarhóll","Laugarhóll旅馆"],["Iceland","冰岛"],
+    ["Indian.+Inlet","印第安河入海口"],["Italy","意大利"],["Jiangshangang Greenway","江山港滨水绿道"],["Jimei","集美"],["Jingshan Park","景山公园"],["Jones Beach SP","琼斯海滩SP"],["Kjarnaskógur","Kjarnaskógur森林"],
+    ["Lake Massaciuccoli","马萨丘科利湖"],["Látrabjarg","拉特拉尔角"],["Key West","西礁岛"],["La Sabana Park","萨瓦纳公园"],["Lianhuashan Park","莲花山公园"],["Little Estero Lagoon","小埃斯特罗泻湖"],["Littleton","利特尔顿市"],
+    ["Longyan","龙岩市"],["Mackinac Island","麦基诺岛"],["Madera.+Trail","马德拉峡谷嘉莉国家山道"],["Madera.+Lodge","马德拉峡谷圣丽塔旅馆"],["Magee.+Area","玛吉沼泽WR"],["Maine","缅因州"],["Manasquan Inlet","马纳斯泉海口"],
+    ["Matheson.+Park","马西森硬木公园"],["Mexico City","墨西哥城"],["Michigan","密西根州"],["Montego Bay","蒙特哥湾"],["Montezuma NWR","蒙特祖玛NWR"],["Morazán Park","莫拉桑公园"],["Morse.+Lure","路尔湖摩士公园"],
+    ["Mouth.+Lagni","Regi Lagni运河口"],["Nevada","内华达州"],["New York City","纽约市"],["Nianbadu","廿八都"],["Northwestern Region","西北地区"],["Ocean City","大洋城"],["Ohio","俄亥俄州"],["Old Hospital Park","老医院公园"],
+    ["Olympic NP","奥林匹克NP"],["Ontario","安大略省"],["Oregon","俄勒冈州"],["Panama","巴拿马"],["Paris","巴黎市"],["Park.+Guarantees","社会保障公园"],["Paton.+Hummingbirds","佩顿蜂鸟中心"],["Pennyfield Lock","彭尼菲尔德闸"],
+    ["Pitt.+Causeway","皮特街堤道"],["Québec","魁北克省"],["Red Rocks Park","红石公园"],["Riley's Lock","莱利闸"],["Rocky.+NWR","落基山阿森纳NWR"],["San San.+Road","三三派出所路"],["Scottsdale Community College.*","斯科茨代尔市社区大学"],
+    ["South Cape May Meadows","南五月岬草甸"],["Stellwagen.+Sanctuary","斯特尔瓦根浅滩国家海洋保护区"],["Summer Palace","颐和园"],["Taoranting Park","陶然亭公园"],["Tjörnin.+Reykjavík","雷克雅未克托宁湖"],["Saint Andrew","圣安德鲁堂区"],
+    ["Saint Ann","圣安堂区"],["Saint James","圣詹姆斯堂区"],["Savannah NWR","萨凡纳NWR"],["Scotts.+Road","斯科茨码头路"],["Shamrock.+Center","三叶草公园"],["Sunset Park","日落公园"],["Texas","德克萨斯州"],["Truitts.+Road","特鲁伊特码头路"],
+    ["United Kingdom","英国"],["Vermont","佛蒙特州"],["Violettes Lock","紫罗兰闸"],["Waggoner's Gap.+","瓦格纳山口观鹰台"],["Washington","华盛顿州"],["Waterton Canyon","沃特顿峡谷"],["Wenlock WMA","温洛克WMA"],["Western Region","西部地区"],
+    ["Wheat Ridge","麦岭市"],["Xiamen","厦门"],["Xianxiaguan Trail","仙霞关古道"],["Yokuts Park","约库特公园"],["Yongding Hongkeng Tulou","永定洪坑土楼"]);
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -381,7 +396,7 @@ function reform_locs(loc,photo){
            }
            if (tmp_info.length>0) {
               tmp_chn = "";
-              while (pt_back.some((el)=>{tmp5=el[1];return  (new RegExp(", *"+el[0]+" *$","i")).test(tmp_info);})) {
+              while (pt_back.some((el)=>{tmp5=el[1];return  (new RegExp("(^|,) *(<[^<>]+>)* *"+el[0]+" *(</a>)* *$","i")).test(tmp_info);})) {
                  tmp_chn  = tmp_chn+tmp5;
                  tmp_info = RegExp.leftContext;
               }
