@@ -269,6 +269,10 @@ tmp.forEach((el)=>{if (loc_cnts[el]==null) loc_cnts[el] = 0;});
 loc_cnts = sortProperties(loc_cnts);
 var misc_cnts_str = misc_cnts.join('/');
 
+for (var i=0;i<info3cnt.length;i++){
+    if (info3cnt[i]>2) document.write(info3[i],' :',info3cnt[i],'<br>');
+}
+
 document.write('<table class="center">');
 document.write('<tr><td colspan="9">');
 document.write('<a href="https://ymqui.github.io/'+(['photo','zhaopian'])[cn_ind]+'/birds/showbird.html?order" target="LaoQ"><img src="https://ymqui.github.io/photo/thumbnail/lifer_stat'+(['_line',''])[Math.round(Math.random())]+(['','_cn'])[cn_ind]+'.png" class="pic"></a>');
