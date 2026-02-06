@@ -122,6 +122,7 @@ pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯
     ["Taoranting Park","陶然亭公园"],["Texas","德克萨斯州"],["The Bund.+Shanghai","上海外滩"],["Tjörnin.+Reykjavík","雷克雅未克托宁湖"],["Truitts.+Road","特鲁伊特码头路"],["Tucson","图森市"],["Two.+May","五月岬两英里码头"],
     ["Tybee Island","泰碧岛"],["United Kingdom","英国"],["Vermont","佛蒙特州"],["Violettes Lock","紫罗兰闸"],["Waggoner's Gap.+","瓦格纳山口观鹰台"],["Washington","华盛顿州"],["Waterton Canyon","沃特顿峡谷"],["Wenlock WMA","温洛克WMA"],
     ["Western Region","西部地区"],["Wheat Ridge","麦岭市"],["Xiamen","厦门"],["Xianxiaguan Trail","仙霞关古道"],["Yokuts Park","约库特公园"],["Yongding Hongkeng Tulou","永定洪坑土楼"],["Yuanmingyuan Park","圆明园"]);
+var pt_cnt  = new Array(pt_back.length).fill(0);
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
@@ -409,9 +410,10 @@ function reform_locs(loc,photo){
            }
            if (tmp_info.length>0) {
               tmp_chn = "";
-              while (pt_back.some((el)=>{tmp5=el[1];return  (new RegExp("(^|,) *(<[^<>]+>)* *"+el[0]+" *(</a>)* *$","i")).test(tmp_info);})) {
+              while (pt_back.some((el,indx)=>{tmp5=el[1];tmp6=indx;return  (new RegExp("(^|,) *(<[^<>]+>)* *"+el[0]+" *(</a>)* *$","i")).test(tmp_info);})) {
                  tmp_chn  = tmp_chn+tmp5;
                  tmp_info = RegExp.leftContext;
+                 pt_cnt[tmp6] = pt_cnt[tmp6]+1;
               }
               if (tmp_chn.length>0) {
                  info[6*i+3] = tmp_chn+info[6*i+3];
