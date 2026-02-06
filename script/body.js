@@ -100,7 +100,7 @@
   document.write('<IMG'+click+' name="visible" id="visible" SRC="'+thumb_dir+'blank.png" BORDER="0px" width=0 height=0>');
   document.write('<p style="margin-top:6px;">');
   document.write('<p>&nbsp;');
-  document.write('<div id="text" style="font-size: '+fsize+' color:'+color_3+';display:inline-block;text-align:left;padding-left: 4em;text-indent:-2.5em;padding-right:1.5em;">&nbsp;</div>');
+  document.write('<div id="text" style="font-size: '+fsize+' color:'+color_3+';">&nbsp;</div>');
     
   //extra link list
   if (window.pagelist){
