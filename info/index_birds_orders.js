@@ -369,7 +369,6 @@ function reform(name,space,apost,notlc){
     return (notlc)?tmp:tmp.toLowerCase();
 }
 
-var info3 = new Array();
 var info3cnt = new Array();
 
 //loc = ["locid","date,ebirdID","beforeEng","afterChn","beforeChn","afterEng"]
@@ -392,11 +391,10 @@ function reform_locs(loc,photo){
         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
         if (info[6*i+3].length>0){
-           if (info3.some((el,indx)=>{tmp6=indx;return (el===info[6*i+3]);})){
-              info3cnt[tmp6]=info3cnt[tmp6]+1;
+           if (info3cnt.some((el,indx)=>{tmp6=indx;return (el[0]===info[6*i+3]);})){
+              info3cnt[tmp6][1]=info3cnt[tmp6][1]+1;
            }else{
-              info3.push(info[6*i+3]);
-              info3cnt.push(1);
+              info3cnt.push([info[6*i+3],1]);
            };
         }
         if (info[6*i+2].length>0){
