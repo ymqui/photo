@@ -270,7 +270,7 @@ loc_cnts = sortProperties(loc_cnts);
 var misc_cnts_str = misc_cnts.join('/');
 
 for (var i=0;i<pt_cnt.length;i++){
-    if ((pt_cnt[i]==0) && !((/county$/i).test(pt_back[i][0]))) document.write(pt_back[i][0]+' :',0,'<br>');
+    if ((pt_cnt[i]<2) && !((/county$/i).test(pt_back[i][0]))) document.write(pt_back[i][0]+' :',pt_cnt[i],'<br>');
 }
 for (var i=0;i<info3cnt.length;i++){
     if (info3cnt[i][1]>2) document.write(info3cnt[i][0],' :',info3cnt[i][1],'<br>');
