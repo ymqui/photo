@@ -254,7 +254,7 @@ function initAlbum(){
         this[1][78] = "Tropical Kingbird, Casco Viejo, Panama City.";
         this[1][79] = "Magnificent Frigatebird, female, Casco Viejo, Panama City.";
         this[1][80] = "Short-tailed Swift, Casco Viejo, Panama City.";
-        this[1][81] = "Snail Kite, female/immature_GatunLake.";
+        this[1][81] = "Snail Kite, female/immature, Gatun Lake.";
         this[1][82] = "Great Kiskadee, Gamboa.";
         this[1][83] = "Streaked Flycatcher, Gamboa.";
         this[1][84] = "Red-crowned Woodpecker, female, Gamboa.";
