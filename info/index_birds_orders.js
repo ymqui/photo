@@ -100,28 +100,28 @@ var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿
     ["York","约克"]];
 pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
 pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯加州"],["Art.+Agape","艾盖浦艺术别墅酒店"],["Ash.+Sanctuary","灰谷鸟类保护区"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Bakkatjörn","巴卡特约恩湖"],
-    ["Baltimore","巴尔的摩市"],["Beale Park","比尔公园"],["Bear.+Lakewood","莱克伍德市熊溪湖公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],["Bocca di Serchio","塞尔基奥河口"],
-    ["Bois de Boulogne","布洛涅森林"],["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],["Canada","加拿大"],
-    ["Cannon Beach","卡农海滩"],["Cape Flattery","夫拉特角"],["Cape Hatteras","哈特拉斯角"],["Cape May.+SP","五月岬SP"],["Ceiba.+Inn","西巴乡村客栈"],["Central Park","中央公园"],["Cerro.+Cruz","十字架山"],["Charleston","查尔斯顿"],
-    ["Chimney Rock SP","烟囱岩SP"],["China","中国"],["Chincoteague NWR","钦科蒂格NWR"],["Clear Creek Trail","清溪步道"],["Colón Province","科隆省"],["Congress.+Poolesville","普尔斯维尔镇国会马球俱乐部"],["Connecticut","康涅狄格州"],
-    ["Cove.+Stamford","斯坦福市科夫岛WR"],["Crandon Park","克兰登公园"],["Cromwell Valley Park","克伦威尔溪谷公园"],["Denver","丹佛市"],["Desert NWR","沙漠NWR"],["Drangsnes","德朗斯内斯小镇"],["Eastern Neck NWR","东内克NWR"],
-    ["El Pipila Monument","皮毕拉纪念碑"],["Etang.+Crau","圣马丁德克罗镇桤木池塘"],["Fjallsárlón","Fjallsárlón冰河湖"],["Florence","佛罗伦萨市"],["Fort McHenry","麦克亨利堡"],["France","法国"],["Frederick","弗雷德里克市"],
-    ["Frog Pond WMA","蛙塘WMA"],["Fucecchio Marsh","富切基奥沼泽"],["Gamboa","甘博阿镇"],["Georgia","乔治亚州"],["Golfklúbbur Seltjarnarnes","塞尔特贾纳内斯高尔夫球场"],["Grassy Key","草岛"],["Guanajuato City","瓜纳华托城"],
-    ["Guanajuato","瓜纳华托州"],["Halibut Point SP","大比目鱼角SP"],["Haute-Savoie","上萨瓦省"],["Heritage.+Park","遗产岛公园"],["Hobuck Beach","霍巴克海滩"],["Holywell Park","霍利韦尔公园"],["Homer.+Park","荷马古德尔斯基公园"],
-    ["Hope.+Gardens","霍普植物园"],["Hólmavík","侯尔马维克小镇"],["Hótel Laugarhóll","Laugarhóll旅馆"],["Iceland","冰岛"],["Indian.+Inlet","印第安河入海口"],["Italy","意大利"],["Jiangshan Shuimeiren","江山睡美人"],
-    ["Jiangsh.+Greenway","江山港滨水绿道"],["Jimei","集美"],["Jingshan Park","景山公园"],["Jones Beach SP","琼斯海滩SP"],["Jökulsárlón","杰古沙龙冰河湖"],["Kennedy Park","肯尼迪公园"],["Key West","西礁岛"],
-    ["Kjarnaskógur","Kjarnaskógur森林"],["Lake Massaciuccoli","马萨丘科利湖"],["La Sabana Park","萨瓦纳公园"],["Látrabjarg","拉特拉尔角"],["Lianhuashan Park","莲花山公园"],["Little Estero Lagoon","小埃斯特罗泻湖"],
-    ["Littleton","利特尔顿市"],["Longyan","龙岩市"],["Mackinac Island","麦基诺岛"],["Madera.+Trail","马德拉峡谷嘉莉国家山道"],["Madera.+Lodge","马德拉峡谷圣丽塔旅馆"],["Magee.+Area","玛吉沼泽WR"],["Maine","缅因州"],
-    ["Manasquan Inlet","马纳斯泉海口"],["Mariner.+Park","水手角公园"],["Maryland Heights","马里兰高地一带"],["Matheson.+Park","马西森硬木公园"],["Mexico City","墨西哥城"],["Michigan","密西根州"],["Montego Bay","蒙特哥湾"],
-    ["Montezuma NWR","蒙特祖玛NWR"],["Morazán Park","莫拉桑公园"],["Morro.+Bay","莫罗湾莫罗岩"],["Morse.+Lure","路尔湖摩士公园"],["Mouth.+Lagni","Regi Lagni运河口"],["Nevada","内华达州"],["New York City","纽约市"],["Nianbadu","廿八都"],
-    ["Northwestern Region","西北地区"],["Ocean City","大洋城"],["Ohio","俄亥俄州"],["Old Hospital Park","老医院公园"],["Olympic NP","奥林匹克NP"],["Ontario","安大略省"],["Oregon","俄勒冈州"],["Panama","巴拿马"],["Paris","巴黎市"],
-    ["Park.+Guarantees","社会保障公园"],["Patapsco.+Henryton","帕塔普斯科河谷SP"],["Paton.+Hummingbirds","佩顿蜂鸟中心"],["Pennyfield Lock","彭尼菲尔德闸"],["Pitt.+Causeway","皮特街堤道"],["Plantation Preserve","种植园保留地"],
-    ["Red Rocks Park","红石公园"],["Riley's Lock","莱利闸"],["Rincón","林孔市"],["Rocky.+NWR","落基山阿森纳NWR"],["Saint Andrew","圣安德鲁堂区"],["Saint Ann","圣安堂区"],["Saint James","圣詹姆斯堂区"],["San San.+Road","三三派出所路"],
-    ["Savannah NWR","萨凡纳NWR"],["Scottsdale Community College.*","斯科茨代尔市社区大学"],["Scotts.+Road","斯科茨码头路"],["Shamrock.+Center","三叶草公园"],["South Cape May Meadows","南五月岬草甸"],
+    ["Baltimore","巴尔的摩市"],["Bayamón","巴亚蒙市",],["Beale Park","比尔公园"],["Bear.+Lakewood","莱克伍德市熊溪湖公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],
+    ["Bocca di Serchio","塞尔基奥河口"],["Bois de Boulogne","布洛涅森林"],["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],
+    ["Canada","加拿大"],["Cannon Beach","卡农海滩"],["Cape Flattery","夫拉特角"],["Cape Hatteras","哈特拉斯角"],["Cape May.+SP","五月岬SP"],["Ceiba.+Inn","西巴乡村客栈"],["Central Park","中央公园"],["Cerro.+Cruz","十字架山"],
+    ["Charleston","查尔斯顿"],["Chimney Rock SP","烟囱岩SP"],["China","中国"],["Chincoteague NWR","钦科蒂格NWR"],["Clear Creek Trail","清溪步道"],["Colón Province","科隆省"],["Congress.+Poolesville","普尔斯维尔镇国会马球俱乐部"],
+    ["Connecticut","康涅狄格州"],["Cove.+Stamford","斯坦福市科夫岛WR"],["Crandon Park","克兰登公园"],["Cromwell Valley Park","克伦威尔溪谷公园"],["Denver","丹佛市"],["Desert NWR","沙漠NWR"],["Drangsnes","德朗斯内斯小镇"],
+    ["Dunn.+Ann","圣安堂区奥乔里奥斯邓恩河瀑布"],["Eastern Neck NWR","东内克NWR"],["Edwin.+NWR","埃德温·福赛斯NWR"],["El Pipila Monument","皮毕拉纪念碑"],["Etang.+Crau","圣马丁德克罗镇桤木池塘"],["Fjallsárlón","Fjallsárlón冰河湖"],
+    ["Florence","佛罗伦萨市"],["Fort McHenry","麦克亨利堡"],["France","法国"],["Frederick","弗雷德里克市"],["Frog Pond WMA","蛙塘WMA"],["Fucecchio Marsh","富切基奥沼泽"],["Gamboa","甘博阿镇"],["Georgia","乔治亚州"],
+    ["Golfklú.+jarnarnes","塞尔特贾纳内斯高尔夫球场"],["Grassy Key","草岛"],["Guanajuato City","瓜纳华托城"],["Guanajuato","瓜纳华托州"],["Halibut.+SP","大比目鱼角SP"],["Haute-Savoie","上萨瓦省"],["Herit.+Park","遗产岛公园"],
+    ["Hobuck Beach","霍巴克海滩"],["Holywell Park","霍利韦尔公园"],["Homer.+Park","荷马古德尔斯基公园"],["Hope.+Gardens","霍普植物园"],["Hólmavík","侯尔马维克小镇"],["Hót.+hóll","Laugarhóll旅馆"],["Iceland","冰岛"],
+    ["Indian.+Inlet","印第安河入海口"],["Italy","意大利"],["Jiang.+meiren","江山睡美人"],["Jiangsh.+Greenway","江山港滨水绿道"],["Jimei","集美"],["Jingshan Park","景山公园"],["Jones Beach SP","琼斯海滩SP"],["Jökulsárlón","杰古沙龙冰河湖"],
+    ["Katmai.+Preserve","卡特迈NP"],["Kennedy Park","肯尼迪公园"],["Key West","西礁岛"],["Kjarnaskógur","Kjarnaskógur森林"],["Lake Massaciuccoli","马萨丘科利湖"],["La Sabana Park","萨瓦纳公园"],["Látrabjarg","拉特拉尔角"],
+    ["Lianhua.+Park","莲花山公园"],["Little.+Lagoon","小埃斯特罗泻湖"],["Littleton","利特尔顿市"],["Longyan","龙岩市"],["Mackinac Island","麦基诺岛"],["Madera.+Trail","马德拉峡谷嘉莉国家山道"],["Madera.+Lodge","马德拉峡谷圣丽塔旅馆"],
+    ["Magee.+Area","玛吉沼泽WR"],["Maine","缅因州"],["Manasquan Inlet","马纳斯泉海口"],["Mariner.+Park","水手角公园"],["Maryland Heights","马里兰高地一带"],["Matheson.+Park","马西森硬木公园"],["Mexico City","墨西哥城"],
+    ["Michigan","密西根州"],["Montego Bay","蒙特哥湾"],["Montezuma NWR","蒙特祖玛NWR"],["Morazán Park","莫拉桑公园"],["Morro.+Bay","莫罗湾莫罗岩"],["Morse.+Lure","路尔湖摩士公园"],["Mouth.+Lagni","Regi Lagni运河口"],["Nevada","内华达州"],
+    ["New York City","纽约市"],["Nianbadu","廿八都"],["Northwestern Region","西北地区"],["Ocean City","大洋城"],["Ohio","俄亥俄州"],["Old Hos.+Park","老医院公园"],["Olympic NP","奥林匹克NP"],["Ontario","安大略省"],["Oregon","俄勒冈州"],
+    ["Panama","巴拿马"],["Paris","巴黎市"],["Park.+Guarantees","社会保障公园"],["Patapsco.+Henryton","帕塔普斯科河谷SP"],["Paton.+Hummingbirds","佩顿蜂鸟中心"],["Pennyfield Lock","彭尼菲尔德闸"],["Pitt.+Causeway","皮特街堤道"],
+    ["Plantation Preserve","种植园保留地"],["Red Rocks Park","红石公园"],["Riley.+Lock","莱利闸"],["Rincón","林孔市"],["Rocky.+NWR","落基山阿森纳NWR"],["Saint Andrew","圣安德鲁堂区"],["Saint James","圣詹姆斯堂区"],
+    ["San San.+Road","三三派出所路"],["Savannah NWR","萨凡纳NWR"],["Scottsdale.+College.*","斯科茨代尔市社区大学"],["Scotts.+Road","斯科茨码头路"],["Shamrock.+Center","三叶草公园"],["South Cape May Meadows","南五月岬草甸"],
     ["Stellwagen.+Sanctuary","斯特尔瓦根浅滩国家海洋保护区"],["Summer Palace","颐和园"],["Sunset Park","日落公园"],["Taoranting Park","陶然亭公园"],["The Bund.+Shanghai","上海外滩"],["Tjörnin.+Reykjavík","雷克雅未克托宁湖"],
-    ["Truitts.+Road","特鲁伊特码头路"],["Tucson","图森市"],["Two.+May","五月岬两英里码头"],["Tybee Island","泰碧岛"],["United Kingdom","英国"],["Vermont","佛蒙特州"],["Violettes Lock","紫罗兰闸"],["Waggoner's Gap.+","瓦格纳山口观鹰台"],
-    ["Washington","华盛顿州"],["Waterton Canyon","沃特顿峡谷"],["Wenlock WMA","温洛克WMA"],["Western Region","西部地区"],["Wheat Ridge","麦岭市"],["Xiamen","厦门"],["Xianxiaguan Trail","仙霞关古道"],["Yokuts Park","约库特公园"],
-    ["Yongding Hongkeng Tulou","永定洪坑土楼"],["Yuanmingyuan Park","圆明园"]);
+    ["Truitts.+Road","特鲁伊特码头路"],["Tucson","图森市"],["Two.+May","五月岬两英里码头"],["Tybee Island","泰碧岛"],["United Kingdom","英国"],["Van.+Hamilton","汉密尔顿市范瓦格纳湖滩"],["Vermont","佛蒙特州"],["Violettes Lock","紫罗兰闸"],
+    ["Waggoner's Gap.+","瓦格纳山口观鹰台"],["Washington","华盛顿州"],["Waterton Canyon","沃特顿峡谷"],["Wenlock WMA","温洛克WMA"],["Western Region","西部地区"],["Wheat Ridge","麦岭市"],["Xiamen","厦门"],["Xianxia.+Trail","仙霞关古道"],
+    ["Yokuts Park","约库特公园"],["Yongding Hongkeng Tulou","永定洪坑土楼"],["Yuan.+Park","圆明园"]);
 var pt_cnt  = new Array(pt_back.length).fill(0);
 var fam_ln  = 8;  //family length
 var order   = (/&order|^order/i).test(window.location.search.substring(1));
@@ -282,14 +282,15 @@ function mysort(a,b){
     return a.name.localeCompare(b.name,'en');
 }
 
-function a_id(album,id){
-    return stradd(album+"/"+album+"_",id);
+function a_id(albumid){
+    let tmp1 = albumid.split(/, */);
+    return stradd(tmp1[0]+"/"+tmp1[0]+"_",tmp1.slice(1));
 }
 
 //append '20' to id automatically
 function m_id(id){
     if (!Array.isArray(id)){id = [id];}
-    let num = 0; //Math.floor(parseInt(id[0].slice(0,6))/900000);
+    let num = 0; //Math.floor(parseInt(id[0].slice(0,6))/300000);
     if (misc_cnts[num]==null) misc_cnts[num]=0;
     misc_cnts[num] = misc_cnts[num]+id.length;
     return stradd("misc_birds"+((num===0)?"":num.toString())+"/20",id);
@@ -302,8 +303,7 @@ function is_num(num){
 
 function p_id(photo){
     if (!Array.isArray(photo)){photo = [photo];}
-    if (is_num(photo[1])) return a_id(photo[0],photo[1]);
-    return Array.prototype.concat.apply([],photo.map((el)=>Array.isArray(el)?(is_num(el[1])?a_id(el[0],el[1]):m_id(el)):(/\//.test(el)?el:m_id(el))));
+    return Array.prototype.concat.apply([],photo.map((el)=>/,/.test(el)?a_id(el):(/\//.test(el)?el:m_id(el))));
 }
 
 function baike(name,before,aftin,aftout){
