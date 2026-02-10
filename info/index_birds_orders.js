@@ -128,13 +128,7 @@ var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
-var cornell_name = [["whistling_duck","whistling-duck"],["brant_goose","brant"],["common_pheasant","ring-necked_pheasant"],["squirrel_cuckoo","squirrel-cuckoo"],["grey_plover","black-bellied_plover"],
-    ["american_grey_flycatcher","gray_flycatcher"],["wood_pigeon","wood-pigeon"],["grey","gray"],["golden_plover","golden-plover"],["little_auk","dovekie"],["storm_petrel","storm-petrel"],
-    ["american_white_ibis","white_ibis"],["screech_owl","screech-owl"],["rough-legged_buzzard","rough-legged_hawk"],["wood_pewee","wood-pewee"],["scrub_jay","scrub-jay"],["western_jackdaw","eurasian_jackdaw"],
-    ["northern_raven","common_raven"],["sand_martin","bank_swallow"],["american_cliff_swallow","cliff_swallow"],["american_bushtit","bushtit"],["common_starling","european_starling"],
-    ["common_blackbird","eurasian_blackbird"],["two-barred_crossbill","white-winged_crossbill"],["american_yellow_warbler","norther_yellow_warbler"],["rosy_finch","rosy-finch"],
-    ["lucifer_sheartail","lucifer_hummingbird"],["black-necked_grebe","eared_grebe"],["collared_dove","collared-dove"],["rock_dove","rock_pigeon"],["cattle_egret","cattle-egret"]];
-
+    
 function myBirds(info){
     return info.map((el)=>{
       el[0] = new Date("20"+el[0].substring(0,2)+"-"+el[0].substring(2,4)+"-"+el[0].substring(4,6)+"T"+el[0].substring(6,8)+":"+el[0].substring(8)+":00");
@@ -316,7 +310,6 @@ function baike(name,before,aftin,aftout){
 }
 
 function cornellurl(bid){
-    cornell_name.forEach((el)=>{bid = bid.replace(el[0],el[1]);});  //currently Avilist name doesn't agree with allaboutbirds
     return "https://www.allaboutbirds.org/guide/"+bid.trim()+"/id";
 }
 
@@ -447,6 +440,9 @@ function reform_url(name,cname,ebid,cbid){
     if (ebid==null) ebid = "";
     if ((typeof ebid!=='string')||(cnrexp.test(ebid))){
        cbid = ebid;
+       ebid = "";
+    }else if (ebid===ebid.toUpperCase()){
+       name = ebid;
        ebid = "";
     }
     if (cbid==null) cbid = cname;
