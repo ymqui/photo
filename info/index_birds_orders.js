@@ -94,10 +94,9 @@ var pt_front = [["males* left","左雄性"],["males* right","右雄性"],["femal
     ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"]];
 var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Caroline","卡罗琳"],
     ["Centre","中心"],["Chester","切斯特"],["Clarke*","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Essex","埃塞克斯"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],["Franklin","富兰克林"],
-    ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Haford","哈福德"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],
-    ["Lee","李"],["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Ottawa","渥太华"],["Pima","皮马"],
-    ["Pinellas","皮尼拉斯"],["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],
-    ["York","约克"]];
+    ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],
+    ["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Ottawa","渥太华"],["Pima","皮马"],["Pinellas","皮尼拉斯"],
+    ["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
 pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
 pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯加州"],["Art.+Agape","艾盖浦艺术别墅酒店"],["Ash.+Sanctuary","灰谷鸟类保护区"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Bakkatjörn","巴卡特约恩湖"],
     ["Baltimore","巴尔的摩市"],["Bayamón","巴亚蒙市",],["Beale Park","比尔公园"],["Bear.+Lakewood","莱克伍德市熊溪湖公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],
