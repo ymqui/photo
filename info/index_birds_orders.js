@@ -97,10 +97,10 @@ var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿
     ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],
     ["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Ottawa","渥太华"],["Pima","皮马"],["Pinellas","皮尼拉斯"],
     ["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
-pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
+pt_back.forEach((el)=>{el[0] = el[0]+" *County.*";el[1] = el[1]+"郡";});
 pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯加州"],["Art.+Agape","艾盖浦艺术别墅酒店"],["Ash.+Sanctuary","灰谷鸟类保护区"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Bakkatjörn","巴卡特约恩湖"],
     ["Baltimore","巴尔的摩市"],["Bayamón","巴亚蒙市",],["Beale Park","比尔公园"],["Bear.+Lakewood","莱克伍德市熊溪湖公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],
-    ["Bocca di Serchio","塞尔基奥河口"],["Bois de Boulogne","布洛涅森林"],["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],
+    ["Bocca.+Serchio","塞尔基奥河口"],["Bois.+Boulogne","布洛涅森林"],["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],
     ["Canada","加拿大"],["Cannon Beach","卡农海滩"],["Cape Flattery","夫拉特角"],["Cape Hatteras","哈特拉斯角"],["Cape May.+SP","五月岬SP"],["Ceiba.+Inn","西巴乡村客栈"],["Central Park","中央公园"],["Cerro.+Cruz","十字架山"],
     ["Charleston","查尔斯顿"],["Chimney Rock SP","烟囱岩SP"],["China","中国"],["Chincoteague NWR","钦科蒂格NWR"],["Clear Creek Trail","清溪步道"],["Colón Province","科隆省"],["Congress.+Poolesville","普尔斯维尔镇国会马球俱乐部"],
     ["Connecticut","康涅狄格州"],["Cove.+Stamford","斯坦福市科夫岛WR"],["Crandon Park","克兰登公园"],["Cromwell Valley Park","克伦威尔溪谷公园"],["Denver","丹佛市"],["Desert NWR","沙漠NWR"],["Drangsnes","德朗斯内斯小镇"],
@@ -108,7 +108,7 @@ pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯
     ["Florence","佛罗伦萨市"],["Fort McHenry","麦克亨利堡"],["France","法国"],["Frederick","弗雷德里克市"],["Frog Pond WMA","蛙塘WMA"],["Fucecchio Marsh","富切基奥沼泽"],["Gamboa","甘博阿镇"],["Georgia","乔治亚州"],
     ["Golfklú.+jarnarnes","塞尔特贾纳内斯高尔夫球场"],["Grassy Key","草岛"],["Guanajuato City","瓜纳华托城"],["Guanajuato","瓜纳华托州"],["Halibut.+SP","大比目鱼角SP"],["Haute-Savoie","上萨瓦省"],["Herit.+Park","遗产岛公园"],
     ["Hobuck Beach","霍巴克海滩"],["Holywell Park","霍利韦尔公园"],["Homer.+Park","荷马古德尔斯基公园"],["Hope.+Gardens","霍普植物园"],["Hólmavík","侯尔马维克小镇"],["Hót.+hóll","Laugarhóll旅馆"],["Iceland","冰岛"],
-    ["Indian.+Inlet","印第安河入海口"],["Italy","意大利"],["Jiang.+meiren","江山睡美人"],["Jiangsh.+Greenway","江山港滨水绿道"],["Jimei","集美"],["Jingshan Park","景山公园"],["Jones Beach SP","琼斯海滩SP"],["Jökulsárlón","杰古沙龙冰河湖"],
+    ["Indian.+Inlet","印第安河入海口"],["Italy","意大利"],["Jiang.+meiren","江山睡美人"],["Jiangsh.+Greenway","江山港滨水绿道"],["Jimei","集美"],["Jingshan Park","景山公园"],["Jones B.+SP","琼斯海滩SP"],["Jökulsárlón","杰古沙龙冰河湖"],
     ["Katmai.+Preserve","卡特迈NP"],["Kennedy Park","肯尼迪公园"],["Key West","西礁岛"],["Kjarnaskógur","Kjarnaskógur森林"],["Lake Massaciuccoli","马萨丘科利湖"],["La Sabana Park","萨瓦纳公园"],["Látrabjarg","拉特拉尔角"],
     ["Lianhua.+Park","莲花山公园"],["Little.+Lagoon","小埃斯特罗泻湖"],["Littleton","利特尔顿市"],["Longyan","龙岩市"],["Mackinac Island","麦基诺岛"],["Madera.+Trail","马德拉峡谷嘉莉国家山道"],["Madera.+Lodge","马德拉峡谷圣丽塔旅馆"],
     ["Magee.+Area","玛吉沼泽WR"],["Maine","缅因州"],["Manasquan Inlet","马纳斯泉海口"],["Mariner.+Park","水手角公园"],["Maryland Heights","马里兰高地一带"],["Matheson.+Park","马西森硬木公园"],["Mexico City","墨西哥城"],
