@@ -97,7 +97,7 @@ var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿
     ["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],["Lancaster","兰开斯特"],["Lee","李"],
     ["Loudoun","劳登"],["Maricopa","马里科帕"],["Marion","马里恩"],["Mifflin","米夫林"],["Monroe","门罗"],["Montgomery","蒙哥马利"],["Ocean","海洋"],["Orange","奥兰治"],["Ottawa","渥太华"],["Pima","皮马"],["Pinellas","皮尼拉斯"],
     ["Prince George's","乔治王子"],["Prince William","威廉王子"],["Queen Anne's","安妮女王"],["Rockingham","洛金汉"],["Sarasota","萨拉索塔"],["Schuylkill","斯古吉尔"],["Suffolk","萨福克"],["Sussex","苏塞克斯"],["York","约克"]];
-pt_back.forEach((el)=>{el[0] = el[0]+" *County.*";el[1] = el[1]+"郡";});
+pt_back.forEach((el)=>{el[0] = el[0]+" *County";el[1] = el[1]+"郡";});
 pt_back.push(["Alameda Central","阿拉米达中央公园"],["Alaska","阿拉斯加州"],["Art.+Agape","艾盖浦艺术别墅酒店"],["Ash.+Sanctuary","灰谷鸟类保护区"],["Auvergne-Rhône-Alpes","奥弗涅-罗纳-阿尔卑斯大区"],["Bakkatjörn","巴卡特约恩湖"],
     ["Baltimore","巴尔的摩市"],["Bayamón","巴亚蒙市",],["Beale Park","比尔公园"],["Bear.+Lakewood","莱克伍德市熊溪湖公园"],["Black Point Park.+","黑角公园及码头"],["Blackwater NWR","黑水NWR"],["Blue Mountains NP","蓝山NP"],
     ["Bocca.+Serchio","塞尔基奥河口"],["Bois.+Boulogne","布洛涅森林"],["Bowers Beach","鲍尔斯海滩"],["Box.+Road","盒子峡谷路"],["Cabo.+NWR","卡波罗霍NWR"],["California","加利福尼亚州"],["Cambridge","剑桥市"],["Campania","坎帕尼亚大区"],
@@ -368,7 +368,7 @@ var info3cnt = new Array();
 //loc = ["locid","date,ebirdID","beforeEng","afterChn","beforeChn","afterEng"]
 function reform_locs(loc,photo){
     let info = [], tmp_einf = [], tmp_cinf = [], tmp_locs  = [];
-    let tmp1,tmp2,tmp3,tmp4,tmp5,tmp6,tmp,pid,date,head,tail;
+    let tmp1,tmp2,tmp3,tmp4,tmp5,tmp,pid,date,head,tail;
     loc.forEach((el)=>{
         el = el.trim();
         if (((info.length%6)>0)&&(lurls[el]!=null)){info.push(...Array(6-(info.length%6)).fill(''));}
@@ -377,16 +377,14 @@ function reform_locs(loc,photo){
     });
     if ((info.length%6)>0) info.push(...Array(6-(info.length%6)).fill(''));
     for (var i=0;i<Math.ceil(info.length/6.0);i++){
-        tmp3 = info[6*i+1].lastIndexOf(',');
-        tmp4 = /[0-9]{1,2}\/[0-9]{4}/.test(info[6*i+1]);
-        tmp1 = (tmp3>=0)?info[6*i+1].substr(0,tmp3):(tmp4?info[6*i+1]:'');
-        tmp2 = (tmp3>=0)?info[6*i+1].substr(tmp3+1):(tmp4?'':info[6*i+1]);
-        if (tmp1.length==0) tmp1=getdate(photo[i]);
+        tmp3 = info[6*i+1].split(/[,/] */);
+        tmp2 = ((tmp3.length==1)||(tmp3.length==3))?tmp3[tmp3.length-1]:"";
+        tmp1 = ((tmp3.length==2)||(tmp3.length==3))?tmp3[0]+'/'+tmp3[1]:getdate(photo[i]);
         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
         date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
         if (info[6*i+3].length>0){
-           if (info3cnt.some((el,indx)=>{tmp6=indx;return (el[0]===info[6*i+3]);})){
-              info3cnt[tmp6][1]=info3cnt[tmp6][1]+1;
+           if (info3cnt.some((el,indx)=>{tmp5=indx;return (el[0]===info[6*i+3]);})){
+              info3cnt[tmp5][1]=info3cnt[tmp5][1]+1;
            }else{
               info3cnt.push([info[6*i+3],1]);
            };
@@ -394,8 +392,8 @@ function reform_locs(loc,photo){
         if (info[6*i+2].length>0){
            let tmp_info = info[6*i+2];
            let tmp_chn  = "";
-           while (pt_front.some((el)=>{tmp5=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
-              tmp_chn  = tmp_chn+((tmp_chn.length>0)?comma[1]:"")+tmp5;
+           while (pt_front.some((el)=>{tmp4=el[1];return (new RegExp("^ *"+el[0]+" *($|,)","i")).test(tmp_info);})) {
+              tmp_chn  = tmp_chn+((tmp_chn.length>0)?comma[1]:"")+tmp4;
               tmp_info = RegExp.rightContext;
            }
            if (tmp_chn.length>0){
@@ -403,10 +401,10 @@ function reform_locs(loc,photo){
            }
            if (tmp_info.length>0) {
               tmp_chn = "";
-              while (pt_back.some((el,indx)=>{tmp5=el[1];tmp6=indx;return  (new RegExp("(^|,) *(<[^<>]+>)* *"+el[0]+" *(</a>)* *$","i")).test(tmp_info);})) {
-                 tmp_chn  = tmp_chn+tmp5;
+              while (pt_back.some((el,indx)=>{tmp4=el[1];tmp5=indx;return  (new RegExp("(^|,) *(<[^<>]+>)* *"+el[0]+" *(</a>)* *$","i")).test(tmp_info);})) {
+                 tmp_chn  = tmp_chn+tmp4;
                  tmp_info = RegExp.leftContext;
-                 pt_cnt[tmp6] = pt_cnt[tmp6]+1;
+                 pt_cnt[tmp5] = pt_cnt[tmp5]+1;
               }
               if (tmp_chn.length>0) {
                  info[6*i+3] = tmp_chn+info[6*i+3];
