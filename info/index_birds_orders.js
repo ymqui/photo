@@ -200,10 +200,10 @@ function birdFound(id){
 }
   
 function my_href(url,name,target){
+    if ((name==null)||(name.length==0)) return "";
     let tmp = "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'";
     if (target!=null) tmp = tmp+" target='"+target+"'";
-    if (name!=null) tmp = tmp+">"+name+"</a";
-    return tmp+">";
+    return tmp+">"+name+"</a>";
 }
 
 function b_link(bid,name,extra){
@@ -266,7 +266,7 @@ function getdate(path,retdate){
        if (isNaN(parseInt(day))) day='0';
        if (retdate) return new Date(year,parseInt(mon)-1,day);
     }else if (retdate){return;}
-    return mon+'/'+year;
+    return mon+((mon.length>0)?'/':'')+year;
 }
 
 function mysort(a,b){
@@ -417,7 +417,7 @@ function reform_locs(loc,photo){
         tail = [info[6*i+5],info[6*i+3]];
         if (loc_cnts[pid]==null) loc_cnts[pid] = 0;
         loc_cnts[pid]++;
-        if (date.length>0) date = stradd(comma,date);
+        if (date.length>0) {date = stradd(comma,date);}else{date=["",""];}
         if ((head[0].length>0)&&((tmp[0]+tmp[1]+tail[0]).length>0)) head[0] = head[0]+comma[0];
         if ((head[1].length>0)&&((tmp[2]+tmp[3]+tail[1]).length>0)) head[1] = head[1]+comma[1];
         if ((tmp[0].length>0)&&(tail[0].length>0)) tail[0] = ' '+tail[0];
