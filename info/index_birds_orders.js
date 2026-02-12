@@ -140,7 +140,7 @@ function myBirds(info){
       dig_cnts = el[5].reduce((tot,ele)=>tot+((/_dig/i.test(ele))?1:0),dig_cnts);
       let newb = (modTim<=el[0].getTime());  
       if (newb||el[5].some((ele)=>{tmp_date=getdate(ele,true);return (tmp_date!=null)?(modTim<=tmp_date.getTime()):false;})){
-         if ((tmp_date!=null) && (modDat.getTime()<tmp_date.getTime())) {modDat=tmp_date;} 
+         if ((tmp_date!=null) && (modDat.getTime()<tmp_date.getTime())) {modDat=tmp_date;}
          modBrd.name.push(el[2]);
          modBrd.cname.push(el[3]);
          modBrd.newbird.push(newb);
@@ -200,10 +200,10 @@ function birdFound(id){
 }
   
 function my_href(url,name,target){
-    if ((name==null)||(name.length==0)) return "";
     let tmp = "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'";
     if (target!=null) tmp = tmp+" target='"+target+"'";
-    return tmp+">"+name+"</a>";
+    if (name!=null) tmp = tmp+">"+name+"</a";
+    return tmp+">";
 }
 
 function b_link(bid,name,extra){
@@ -381,7 +381,7 @@ function reform_locs(loc,photo){
         tmp2 = ((tmp3.length==1)||(tmp3.length==3))?tmp3[tmp3.length-1]:"";
         tmp1 = ((tmp3.length==2)||(tmp3.length==3))?tmp3[0]+'/'+tmp3[1]:getdate(photo[i]);
         if ((tmp2.length>0)&&(!ebirdlist.includes(tmp2))) ebirdlist.push(tmp2);
-        date = (tmp2.length>0)?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
+        date = ((tmp2.length>0)&&(tmp1.length>0))?my_href("https://ebird.org/checklist/"+tmp2,tmp1,tmp2):tmp1;
         if (info[6*i+3].length>0){
            if (info3cnt.some((el,indx)=>{tmp5=indx;return (el[0]===info[6*i+3]);})){
               info3cnt[tmp5][1]=info3cnt[tmp5][1]+1;
