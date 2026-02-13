@@ -323,15 +323,11 @@ function spot(id,name){
     return tmp[0]+my_href("https://birdinghotspots.org/hotspot/"+id,tmp[1],id)+tmp[2];
 }
 
-function gmap(name,lat,lon){
+function map(name,lat,lon){
     let tmp  = strsplit(name);
     let tmp1 = ((lat==null)||(lon==null))?reform(tmp[1],"+"):(lat.toString()+"%2C"+lon.toString());
-    return tmp[0]+my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[1],"gmap")+tmp[2];
-}
-
-function bmap(name,lat,lon){
-    if ((lat==null)||(lon==null)) return name;
-    return my_href("http://api.map.baidu.com/marker?location="+lat.toString()+"%2C"+lon.toString()+"&output=html&coord_type=gcj02&title="+name,name,"bmap");
+    if (cnrexp.test(name))return tmp[0]+my_href("http://api.map.baidu.com/marker?location="+tmp1+"&output=html&coord_type=gcj02&title="+tmp[1],tmp[1],"map")+tmp[2];
+    return tmp[0]+my_href("https://www.google.com/maps/search/?api=1&query="+tmp1,tmp[1],"map")+tmp[2];
 }
 
 function nps(pid,isfws,name){
