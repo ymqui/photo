@@ -141,6 +141,8 @@ function initAlbum(){
     this[1][i++]  = (["What Nathan's classmates think of him","球球的同学们对他的看法：“聪明、善良、友好、风趣、有艺术天赋、富有创造力、诚实、勤奋、灵活、体贴、快乐、有决心、公平”"])[cn_ind];
     this[0][i]    = "20260204";
     this[1][i++]  = (["Making a poster for the class mayor campaign","为竞选班级班长制作海报"])[cn_ind];
+    this[0][i]    = "20260213";
+    this[1][i++]  = (["Holding a bag of Valentine's gifts for the class","拿着一袋准备送给班上同学的情人节礼物"])[cn_ind];
 
     adddate(this);
 }
