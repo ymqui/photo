@@ -300,7 +300,7 @@ function p_id(photo){
 }
 
 function baike(name,before,aftin,aftout){
-    if (typeof name!=='string') return "https://dongniao.net/nd/"+name.toString();
+    if (is_num(name)) return "https://dongniao.net/nd/"+name.toString();
     name = replace_acronym(name);
     if (before==null) return "https://baike.baidu.com/item/"+name;
     if (aftin==null) aftin='';
@@ -432,11 +432,11 @@ function reform_locs(loc,photo){
 
 function reform_url(name,cname,ebid,cbid){
     if (ebid==null) ebid = "";
-    if ((typeof ebid!=='string')||(cnrexp.test(ebid))){
+    if (cbid==null) cbid = cname;
+    if ((is_num(ebid))||(cnrexp.test(ebid))){
        cbid = ebid;
        ebid = "";
     }
-    if (cbid==null) cbid = cname;
     return (window.usechinese && (cbid!==""))?baike(cbid):((ebid!=="")?ebirdurl(ebid):cornellurl(name));
 }
 
