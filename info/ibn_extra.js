@@ -304,7 +304,6 @@
 //  ["2600000000","FRINGILL","Jamaican Euphonia","牙买加歌雀","Euphonia jamaica",["2512jmbird,"],["jamjam",""],"jameup1",9955],
 //  ["2600000000","FRINGILL","Japanese Grosbeak","黑头蜡嘴雀","Eophona personata",["2312cnbird,"],["jphaap","S157775175"],"japgro1",9771],
 //  ["2600000000","FRINGILL","Common Rosefinch","普通朱雀","Carpodacus erythrinus",["2312cnbird,"],["cnbjbg",""],"comros",9794],
-//  ["2600000000","FRINGILL","Pine Grosbeak","松雀","Pinicola enucleator",[""],["nynyny","S",spot("L14887122","Wolf Pond and Trail, Essex County"),"狼池步道"],9772],
 //  ["2600000000","FRINGILL","Eurasian Bullfinch","红腹灰雀","Pyrrhula pyrrhula",["2312cnbird,"],["cnbjbg",""],"eurbul",9778],
 //* ["2600000000","FRINGILL","Crimson-winged Finch","红翅沙雀","Rhodopechys sanguineus",["2603mobird,"],["morouk",""],"crwfin2",9780],
 //  ["2600000000","FRINGILL","Trumpeter Finch","沙雀","Bucanetes githagineus",["2603mobird,"],["mormer",""],"trufin2",9782],
