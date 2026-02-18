@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2026-01-04",15);
+var modTim = modTime("2026-02-17",15);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -582,7 +582,7 @@ var birds = myBirds([
     ["1812080810","PICIDAE ","Hoffmann's Woodpecker","霍氏啄木鸟","Melanerpes hoffmannii",["1812crbird,93,94"],["crsanj","S163965097","Male, Park of Social Guarantees","crsanj","S163965530","Female, Morazán Park"],"hofwoo1",3751],
     ["1312251502","PICIDAE ","Golden-fronted Woodpecker","金额啄木鸟","Melanerpes aurifrons",["2001txbirding,39,25","2504gtbird,136"],["txsnwr","S163595749","Male","txsnwr","S163594505","Female","gtanti","S227060243","Female, Cerro de la Cruz"],3752],
     ["0603051533","PICIDAE ","Red-bellied Woodpecker","红腹啄木鸟","Melanerpes carolinus",["1512bhill,22","1606florida,19","230904_122","230409_033"],["mdbhrp","2/2015,S165065330","Male","flmiam","S164261538",spot("L127425","Female,Matheson Hammock Park"),"mdwoot","S148962852","Immature","mdwoot","S133169151","Male at nest cavity"],3754],
-    ["1609150806","PICIDAE ","Black-backed Woodpecker","黑背三趾啄木鸟","Picoides arcticus",["1609vcbird,4,5"],["usausa","S164258252",spot("L207476","Female,Wenlock WMA,Essex County,Vermont")],3783],
+    ["1609150806","PICIDAE ","Black-backed Woodpecker","黑背三趾啄木鸟","Picoides arcticus",["260215_010","1609vcbird,4,5"],["nynyny","S301174876",spot("L14887122","Male,Wolf Pond and Trail,Essex County"),"狼池步道","usausa","S164258252",spot("L207476","Female,Wenlock WMA,Essex County,Vermont")],3783],
     ["1307141856","PICIDAE ","American Three-toed Woodpecker","美洲三趾啄木鸟","Picoides dorsalis",["1307akbird,4"],["usausa","S167801602",nps("katm","Female,Katmai NP & Preserve,Alaska")],3782],
     ["2308110740","PICIDAE ","Great Spotted Woodpecker","大斑啄木鸟","Dendrocopos major",["2312cnbird,103","2308ukbird,69","2508itbird,74"],["cnbjbg","S157768838","Male","ukregp","S146957264","Juvenile male","itvibo","S268182597","Female"],"grswoo",3837],
     ["2408190830","PICIDAE ","Lesser Spotted Woodpecker","小斑啄木鸟","Dryobates minor",["2508itbird,75","2408frbird,52"],["itvibo","S268182597","Male","frpaca","S193233665","Female, Etang des Aulnes, Saint-Martin-de-Crau"],"leswoo1",3807],
@@ -1015,6 +1015,7 @@ var birds = myBirds([
     ["2011161043","FRINGILL","Evening Grosbeak","黄昏锡嘴雀","Hesperiphona vespertina",["201116_124","201116_125","201116_126"],["vavava","S163622344","Male"+(t1=", Shenandoah River Campus at Cool Spring Battlefield"),(t2="雪兰多大学冷泉战场临河校区"),"vavava","S163622344","Female"+t1,t2],9767],
     ["2312280846","FRINGILL","Hawfinch","锡嘴雀","Coccothraustes coccothraustes",["2312cnbird,120,121"],["cnbjbj","S157773108","Yuanmingyuan Park"],"hawfin",9769],
     ["1601060908","FRINGILL","Chinese Grosbeak","黑尾蜡嘴雀","Eophona migratoria",["2312cnbird,32,1"],["cnfjfj","S157710876","Male, Jiangshan Shuimeiren, Longyan","cnbjbj","S157702328","Female, Taoranting Park"],"yebgro1",9770],
+    ["2602170729","FRINGILL","Pine Grosbeak","松雀","Pinicola enucleator",["260217_015"],["nynyny","S301759249",spot("L300494","Female,Webster Park,Monroe County"),"韦伯斯特公园"],9772],
     ["2402180850","FRINGILL","Grey-crowned Rosy Finch","灰头岭雀","Leucosticte tephrocotis",["240218_060","2403cobird,18"],["vavava","S162069211","Gray-crowned, Mount Pleasant Summit, Amherst County","普莱森特山顶","costma","S166123733","Hepburn's"],"GCRFIN",9791],
     ["2403260833","FRINGILL","Brown-capped Rosy Finch","褐顶岭雀","Leucosticte australis",["2403cobird,19,20,21"],["costma","S166123733","costma","S166123733","costma","S166123733","Immature"],"BCRFIN",9793],
     ["0608111733","FRINGILL","House Finch","家朱雀","Haemorhous mexicanus",["1412mckee,1,35,2","1905mxbird,19"],["mdmwma","8/2014,S167438962","Male","mdmwma","11/2014,S167448127","Male","mdmwma","8/2014,S167438962","Female","mxunam","S163747032"],9862],
@@ -1046,7 +1047,7 @@ var birds = myBirds([
     ["1607160702","PASSEREL","Grasshopper Sparrow","黄胸草鹀","Ammodramus savannarum",["160716_086","160716_087"],["mdmdmd","S164470944",(t1="Oland Road, Frederick County"),(t2="欧蓝德路"),"mdmdmd","S164470944","Juvenile, "+t1,t2],10063],
     ["2208070845","PASSEREL","Rufous-winged Sparrow","棕翅猛雀鹀","Peucaea carpalis",["2208azbird,9"],["azsndm","S116522318"],10086],
     ["1806040756","PASSEREL","Bachman's Sparrow","巴氏猛雀鹀","Peucaea aestivalis",["180604_002"],["scscsc","S164038577","Lewis Ocean Bay Heritage Preserve, Horry County","刘易斯海湾遗产保护区"],10088],
-    ["1503211405","PASSEREL","American Tree Sparrow","美洲树雀鹀","Spizelloides arborea",["150321_044"],["mdswhf","S165232650"],10067],
+    ["1503211405","PASSEREL","American Tree Sparrow","美洲树雀鹀","Spizelloides arborea",["150321_044","260216_013"],["mdswhf","S165232650","nynyny","S301598828",spot("L524399","Whiting Road Nature Preserve,Monroe County"),"惠廷路自然保护区"],10067],
     ["1504050751","PASSEREL","Fox Sparrow","狐色雀鹀","Passerella iliaca",["150405_051","211218_145"],["mdbmnt","S165233486","Red form","mdbmnt","S165034151","Red form"],10039],
     ["0603181559","PASSEREL","Dark-eyed Junco","暗眼灯草鹀","Junco hyemalis",["1512bhill,6","241221_326","1507wbird,24","2403cobird,14,15,16"],["mdbhrp","1/2015,S165084562","M"+(t1="ale, slate-colored form"),"mdwoot","S206112868","Fem"+t1,"waneah","S164999028",spot("L267165","Male,Oregon form,Hobuck Beach"),"costma","S166123733","Pink-sided","costma","S166123733","Male, cismontanus","costma","S166123733","Gray-headed"],10052],
     ["2208080856","PASSEREL","Yellow-eyed Junco","墨西哥灯草鹀","Junco phaeonotus",["2208azbird,25"],["azsant","S116560424",spot("L2413068","Madera Canyon Carrie Nation Trail")],10054],
