@@ -124,7 +124,7 @@ var order   = (/&order|^order/i).test(window.location.search.substring(1));
 var comma   = [", ","，"];
 var modBrd  = {name:[],cname:[],newbird:[]},modDat;
 var expandinfo = (/(stat\.html|country=|loc=|query=)/i).test(window.location.href.substr(window.location.href.lastIndexOf('/') + 1));
-    
+
 function myBirds(info){
     return info.map((el)=>{
       el[0] = new Date("20"+el[0].substring(0,2)+"-"+el[0].substring(2,4)+"-"+el[0].substring(4,6)+"T"+el[0].substring(6,8)+":"+el[0].substring(8)+":00");
@@ -195,7 +195,7 @@ function strupcase(str){
 function birdFound(id){
     return birds.some((el)=>el.name1===id);
 }
-  
+
 function my_href(url,name,target){
     let tmp = "<a href='"+url+"' style='color: #3399FF; text-decoration: underline;'";
     if (target!=null) tmp = tmp+" target='"+target+"'";

@@ -488,7 +488,7 @@ function initAlbum(){
     this[0][i]   = "20251103_024_Volcano";
     this[1][i++] = urllink("https://youtu.be/I9zLLiEanZI",(["Making a volcano science experiment (YouTube Video)","制作火山喷发科学实验(YouTube视频)"])[cn_ind]);
     this[0][i]   = "20251221";
-    this[1][i++] = urllink("https://youtube.com/shorts/RYYFL1BxAiE",(["Making Labubu blind bags (YouTube Video)","制作Labubu盲袋(YouTube视频)"])[cn_ind]);
+    this[1][i++] = urllink("https://youtube.com/shorts/RYYFL1BxAiE",(["Making Labubu blind bags (YouTube Video)","制作拉布布盲袋(YouTube视频)"])[cn_ind]);
     this[0][i]   = ["2512jamaica/2512jamaica_2","2512jamaica/2512jamaica_5","2512jamaica/2512jamaica_6","20251225"];
     this[1][i++] = (["Feeding hummingbirds at Rocklands Bird Sanctuary during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在罗克兰兹鸟类乐园喂蜂鸟"])[cn_ind];
     this[0][i]   = ["2512jamaica/2512jamaica_21","2512jamaica/2512jamaica_25","2512jamaica/2512jamaica_23","20251226"];
@@ -497,7 +497,7 @@ function initAlbum(){
     this[0][i]   = ["2512jamaica/2512jamaica_30","2512jamaica/2512jamaica_31","2512jamaica/2512jamaica_33","20251227"];
     this[1][i++] = ([urllink(url=("https://youtube.com/shorts/nuRVmspsHDQ?feature=share"),"Bamboo rafting down the Rio Grande (YouTube Video)")+" during the "+pagelink("2512jamaica","vacation in Jamaica"),pagelink("2512jamaica","牙买加度假")+"时在波特安东尼奥"+urllink(url,"乘坐竹筏漂流里奥格兰德河(YouTube视频)")])[cn_ind];
     this[0][i]   = "20260125_001_LabubuBlindBox";
-    this[1][i++] = (["Nathan made his own Labubu blind boxes","球球自己做的Labubu盲盒"])[cn_ind];
+    this[1][i++] = (["Nathan made his own Labubu blind boxes","球球自己做的拉布布盲盒"])[cn_ind];
     this[0][i]   = ["2601snowtube/2601snowtube_1","2601snowtube/2601snowtube_6","2601snowtube/2601snowtube_11","20260125"];
     this[1][i++] = (["","今年第一场大雪，在家附近的小坡上用"])[cn_ind]+pagelink("2601snowtube",(["Snow tubing","轮胎滑雪"])[cn_ind])+([" during the first heavy snow storm of the year",""])[cn_ind];
     this[0][i]   = "20260217_Swim";
