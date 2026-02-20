@@ -420,7 +420,7 @@ function reform_locs(loc,photo){
            if (tmp[4].length>0) tmp[0] = my_href(tmp[4],tmp[0],pid);
            if (tmp[5].length>0) tmp[2] = my_href(tmp[5],tmp[2],pid);
         }
-        tmp_einf.push(replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0])));
+        tmp_einf.push(replace_acronym(strupcase(head[0]+tmp[0]+tail[0]+tmp[1]+date[0]).split(/, */).join(', ')));
         tmp_cinf.push(replace_acronym(head[1]+tmp[3]+tmp[2]+tail[1]+date[1]));
         tmp_locs.push(pid);
     }
