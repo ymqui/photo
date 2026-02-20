@@ -179,8 +179,8 @@ function strsplit(str){
     }
     if (((tmp1[0].split(/ +/)).length>1) && !pt_front.some((el)=>(new RegExp("^ *"+el[0],"i")).test(tmp1[0]))) tmp1.unshift('');
     if (tmp1.length==2) tmp1.push('');
-    if (tmp1[0].length>0) tmp1[0] = tmp1[0]+', ';
-    if (tmp1[2].length>0) tmp1[2] = ', '+tmp1.slice(2,tmp.length).join(', ');
+    if (tmp1[0].length>0) tmp1[0] = tmp1[0]+',';
+    if (tmp1[2].length>0) tmp1[2] = ','+tmp1.slice(2,tmp.length).join(',');
     return [tmp1[0],tmp1[1],tmp1[2]];
 }
 
