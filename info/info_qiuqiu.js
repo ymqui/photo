@@ -502,6 +502,8 @@ function initAlbum(){
     this[1][i++] = (["","今年第一场大雪，在家附近的小坡上用"])[cn_ind]+pagelink("2601snowtube",(["Snow tubing","轮胎滑雪"])[cn_ind])+([" during the first heavy snow storm of the year",""])[cn_ind];
     this[0][i]   = "20260217_Swim";
     this[1][i++] = (["Taking swimming lesson at Goldfish Swimming School","在金鱼游泳学校上游泳课"])[cn_ind];
+    this[0][i]   = ["20260225_1_Cardigan","20260225_2_Cardigan"];
+    this[1][i++] = (["Making a crochet cardigan for Annelise for the singing performance of Golden","为朋友Annelise织一件演唱《金色》时穿的开襟衫"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
