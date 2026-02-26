@@ -145,7 +145,7 @@ function initAlbum(){
     this[1][i++]  = (["Holding a bag of Valentine's gifts for the class","拿着一袋准备送给班上同学的情人节礼物"])[cn_ind];
     makeface.push(i);
     this[0][i]    = "20260225";
-    this[1][i++]  = (["Why do I never get called on even when I sit on the carpet? It's so annoying!","“为什么我就算坐在地毯上也从来不被点名？真是太烦人了！”"])[cn_ind];
+    this[1][i++]  = (['"Why do I never get called on even when I sit on the carpet? It'+"'"+'s so annoying!"',"“为什么我就算坐在地毯上也从来不被点名？真是太烦人了！”"])[cn_ind];
 
     adddate(this);
 }
