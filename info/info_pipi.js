@@ -62,6 +62,13 @@ function initAlbum(){
     this[1][i++]  = (["Swimming in a tub","在浴缸里游泳"])[cn_ind];
     this[0][i]    = "20260217";
     this[1][i++]  = (["Happy Chinese New Year","新年快乐"])[cn_ind];
+    this[0][i]    = "20260302_1";
+    this[1][i++]  = (["Swimming in a thermal bath","泡温泉"])[cn_ind];
+    this[0][i]    = "20260302_2";
+    this[1][i++]  = (["Playing with toys","玩玩具"])[cn_ind];
+    this[0][i]    = "20260302_3";
+    this[1][i++]  = (["Shopping","逛超市"])[cn_ind];
+
 
     adddate(this);
 }
