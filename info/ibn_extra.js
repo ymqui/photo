@@ -246,6 +246,7 @@
 //  ["2600000000","ZOSTEROP","Striated Yuhina","栗耳凤鹛","Staphida castaniceps",["2312cnbird,"],["cnhzbg",""],"stryuh1",8199],
 //  ["2600000000","ZOSTEROP","Indochinese Yuhina","栗颈凤鹛","Staphida torqueola",["2312cnbird,"],["cnhzbg",""],"indyuh1",8200],
 //  ["2600000000","ZOSTEROP","Chestnut-flanked White-eye","红胁绣眼鸟","Zosterops erythropleurus",["2312cnbird,"],["cnbjbg",""],"cfweye1",8244],
+//  ["1601111429","ZOSTEROP","Warbling White-eye","日本绣眼鸟","Zosterops japonicus",["1601china,46"],["cnlydp","S164340615"],"warwhe1",8245],
 //  ["2600000000","TIMALIID","Rufous-capped Babbler","红头穗鹛","Cyanoderma ruficeps",["2312cnbird,"],["cnhzbg",""],"rucbab1",7912],
 //  ["2600000000","LEIOTHRI","Huet's Fulvetta","淡眉雀鹛","Alcippe hueti",["2312cnbird,"],["cnhzbg",""],"gycful5",7941],
 //  ["2600000000","LEIOTHRI","Fulvous Babbler","棕褐鸫鹛","Argya fulva",["2603mobird,"],["mormer",""],"fulcha1",8007],

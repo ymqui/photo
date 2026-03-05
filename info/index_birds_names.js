@@ -876,7 +876,6 @@ var birds = myBirds([
     ["2312151520","PARADOXO","Reed Parrotbill","震旦鸦雀","Paradoxornis heudei",["2312cnbird,14"],["cnbjof","S157703762"],"reepar3",8198],
     ["2312151536","PARADOXO","Vinous-throated Parrotbill","棕头鸦雀","Suthora webbiana",["2312cnbird,15,88"],["cnbjof","S157703762","cnjsxs","S157762161"],"vitpar1",8182],
     ["1704040637","ZOSTEROP","Swinhoe's White-eye","暗绿绣眼鸟","Zosterops simplex",["1704longyan,13","2312cnbird,69"],["cnlydp","S164149877","cnzjjs","S157750029","Jiangshangang Greenway"],"swiwhe1",10892],
-    ["1601111429","ZOSTEROP","Warbling White-eye","日本绣眼鸟","Zosterops japonicus",["1601china,46"],["cnlydp","S164340615"],"warwhe1",8245],
     ["2312251059","TIMALIID","Streak-breasted Scimitar Babbler","棕颈钩嘴鹛","Pomatorhinus ruficollis",["2312cnbird,92,93"],["cnjsxs","S157762161"],"sbsbab3",7881],
 //  ["2600000000","PELLORNE","Dusky Fulvetta","褐顶雀鹛","Schoeniparus brunneus",["2312cnbird",],["cnhzbg",""],"dusful1",7932],
     ["1601050934","LEIOTHRI","Red-billed Leiothrix","红嘴相思鸟","Leiothrix lutea",["1601china,17"],["cnjsxp","S164336822"],"reblei",8114],
