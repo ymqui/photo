@@ -472,7 +472,7 @@ var birds = myBirds([
     ["2504160717","TROCHILI","Canivet's Emerald","卡氏翠蜂鸟","Cynanthus canivetii",["2504gtbird,79,80"],["gttaya","S226129581"],"caneme1",2932],
     ["2504200711","TROCHILI","Rufous Sabrewing","棕刀翅蜂鸟","Pampa rufa",["2504gtbird,143"],["gtfelp","S227543090"],"rufsab1",2877],
     ["1812050924","TROCHILI","Violet-headed Hummingbird","紫头蜂鸟","Klais guimeti",["1812crbird,69,55"],["crarol","S163930535","Male","crarol","S163930178","Female"],"vihhum1",2908],
-    ["2504200713","TROCHILI","Violet Sabrewing","紫刀翅蜂鸟","Campylopterus hemileucurus",["2504gtbird,144"],["gtfelp","S227543090"],"viosab1",2879],
+    ["2504200713","TROCHILI","Violet Sabrewing","紫刀翅蜂鸟","Campylopterus hemileucurus",["2504gtbird,144"],["gtfelp","S227543090","Male"],"viosab1",2879],
     ["1812041329","TROCHILI","Scaly-breasted Hummingbird","鳞胸刀翅蜂鸟","Phaeochroa cuvierii",["1812crbird,43"],["crarol","S163868074"],"scbhum1",2872],
     ["2512250947","TROCHILI","Red-billed Streamertail","红嘴长尾蜂鸟","Trochilus polytmus",["2512jmbird,7,8,9,10","2512jamaica,7"],["jamrbs","S290167575","Male"],"stream2",2927],
     ["2512261651","TROCHILI","Black-billed Streamertail","黑嘴长尾蜂鸟","Trochilus scitulus",["2512jmbird,44,45,26,35"],["jamlfj","S290637040","Male","jamlfj","S290637040","Male","jamlfj","S290423729","Male","jamlfj","S290511101","Female"],"stream3",2928],
