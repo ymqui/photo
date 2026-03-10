@@ -136,12 +136,18 @@ function erare(name){
 }
 
 function sortProperties(obj,byname){
-    if (byname!=null) byname = ([true,false])[Math.round(Math.random())];
+    if (byname!=null) {
+       byname = ([true,false])[Math.round(Math.random())];
+    }else{
+       byname = false;
+    }
+    var rev_comp = ([true,false])[Math.round(Math.random())];
     // convert object into array
     var sortable = Object.keys(obj).map((key)=>[key, obj[key]]);
     // sort items by value
     sortable.sort(function(a, b)
     { if ((a[1]!==b[1]) && !byname){
+         if (rev_comp) return b[1]-a[1];
          return a[1]-b[1]; // compare numbers
       }else{
          return (a[0]).localeCompare(b[0],(['en','zh-CN'])[cn_ind]);
@@ -314,7 +320,7 @@ var i = 0;
 var j = 0;
 var k = 0;
 let txcol1,txcol2;
-if ((cou_cnts.length>35) || (!usechinese)) hz_cnts.length = 0;
+if (!usechinese) hz_cnts.length = 0;
 while((i<loc_cnts.length) || (j<cou_cnts.length+hz_cnts.length+2) || (k<(links.length*2-1))){
     document.write('<tr>');
     if (i<loc_cnts.length){
