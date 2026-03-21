@@ -382,7 +382,7 @@ var birds = myBirds([
 //  ["2600000000","PHAETHON","White-tailed Tropicbird","白尾鹲","Phaethon lepturus",["2512jmbird",],["jamjam",""],"whttro",738],
     ["1603261348","GAVIIDAE","Red-throated Loon","红喉潜鸟","Gavia stellata",["2306isbird,79","160326_025","220212_025"],["iscapr","S142431897","Adults and chick,Golfklúbbur Seltjarnarnes","ncoutb","S164372715","Winter plumage,Jennette's Pier","珍妮特钓鱼码头","njblsp","S102555804","Immature"],537],
     ["1503081008","GAVIIDAE","Common Loon","普通潜鸟","Gavia immer",["1503barnegat,16","220212_043","1503barnegat,15","2306isbird,4"],["njblsp","S164954689","njblsp","S102555804","Winter plumage","njblsp","S164954689","Juvenile","iswesf","S141703789","Hólmavík"],540],
-    ["2603210953","GAVIIDAE","Yellow-billed Loon","黄嘴潜鸟","Gavia adamsii",["260321_026"],["mdmdmd","S311477058","Immature,Thomas Johnson Bridge,Calvert County","托马斯·约翰逊桥"],"yebloo",541],
+    ["2603210953","GAVIIDAE","Yellow-billed Loon","黄嘴潜鸟","Gavia adamsii",["260321_026"],["mdmdmd","S311477058","Immature,Thomas Johnson Bridge,Calvert County","托马斯·约翰逊桥"],541],
     ["2105261215","GAVIIDAE","Pacific Loon","太平洋潜鸟","Gavia pacifica",["210526_084"],["vavava","S163432321","Lake Holiday,Frederick County","假日湖"],539],
 //  ["2600000000","SPHENISC","King Penguin","王企鹅","Aptenodytes patagonicus",[],["arb",""],"kinpen1",542],
 //  ["2600000000","DIOMEDEI","Laysan Albatross","黑背信天翁","Phoebastria immutabilis",[],["arb",""],569],
