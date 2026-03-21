@@ -66,7 +66,6 @@
 //  ["2600000000","LARIDAE ","Short-billed Gull","美洲海鸥","Larus brachyrhynchus",["2412cabird,"],["cacaca",""],10996], 
 //  ["2600000000","PHAETHON","Red-billed Tropicbird","红嘴鹲","Phaethon aethereus",["2412prbird,"],["prprpr",""],"rebtro",736],
 //  ["2600000000","GAVIIDAE","Black-throated Loon","黑喉潜鸟","Gavia arctica",[","],["",""],"arcloo",538],
-//  ["2600000000","GAVIIDAE","Yellow-billed Loon","黄嘴潜鸟","Gavia adamsii",[""],["mdmdmd","S","Thomas Johnson Bridge,St. Mary's County","托马斯·约翰逊桥"],"yebloo",541],
 //  ["2600000000","SPHENISC","Emperor Penguin","帝企鹅","Aptenodytes forsteri",[],["mdbhrp","1/2023,"],"emppen1",543],
 //  ["2600000000","SPHENISC","Gentoo Penguin","白眉企鹅","Pygoscelis papua",[],["mdbhrp","1/2023,"],"genpen1",544,
 //  ["2600000000","SPHENISC","African Penguin","南非企鹅","Spheniscus demersus",[],["mdbhrp","1/2023,"],"jacpen1",556],
