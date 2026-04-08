@@ -1032,7 +1032,7 @@ var birds = myBirds([
     ["2306231215","MOTACILL","Meadow Pipit","草地鹨","Anthus pratensis",["2306isbird,75","2308ukbird,55"],["iscapr","S142430735","Bakkatjörn","ukdove","S146958151"],"meapip1",9725],
     ["2312151510","MOTACILL","Water Pipit","水鹨","Anthus spinoletta",["2312cnbird,12","2408frbird,3"],["cnbjof","S157703762","frcolc","S191506731"],"watpip1",9732],
     ["1601030936","FRINGILL","Brambling","燕雀","Fringilla montifringilla",["2312cnbird,108,122"],["cnbjbg","S157768838","Male","cnbjbj","S157773108","Female,Yuanmingyuan Park"],"brambl",9762],
-//  ["2604010000","FRINGILL","African Chaffinch","非洲苍头燕雀","Fringilla spodiogenys",["2604mobird,"],["morsnp","S315608700"],"afrcha1",11221],
+//  ["2604010000","FRINGILL","African Chaffinch","非洲苍头燕雀","Fringilla spodiogenys",["2604mobird,"],["morouk","S315608700"],"afrcha1",11221],
     ["2508120800","FRINGILL","Eurasian Chaffinch","苍头燕雀","Fringilla coelebs",["2508itbird,20"],["ittusc","S266714254","Male,Art Hotel Villa Agape,Florence"],"comcha",9759],
     ["2504180846","FRINGILL","Elegant Euphonia","亮丽歌雀","Chlorophonia elegantissima",["2504gtbird,108,152"],["gtfelp","S226812699","Male","gtfelp","S227540483","Female"],"eleeup1",9968],
     ["2504180901","FRINGILL","Blue-crowned Chlorophonia","蓝冠绿雀","Chlorophonia occipitalis",["2504gtbird,114"],["gtfelp","S226812699","Female"],"blcchl1",9985],
