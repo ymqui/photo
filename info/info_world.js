@@ -13,7 +13,8 @@ var pagelist   = [["1812costarica","12/2018 Trip to "+btext("Costa Rica"),"12/20
                   ["2301panama","1/2023 Vacationing in "+btext("Panama"),"1/2023 "+btext("巴拿马")+"度假"],["2306iceland","6/2023 Vacationing in "+btext("Iceland"),"6/2023 "+btext("冰岛")+"度假"],
                   ["2308uk","8/2023 Vacationing in "+btext("United Kingdom"),"8/2023 "+btext("英国")+"度假"],["2312china","12/2023 Vacationing in "+btext("China"),"12/2023 "+btext("中国")+"度假"],
                   ["2408france","8/2024 Vacationing in "+btext("France"),"8/2024 "+btext("法国")+"度假"],["2504guatemala","4/2025 Vacationing in "+btext("Guatemala"),"4/2025 "+btext("危地马拉")+"度假"],
-                  ["2508italy","8/2025 Vacationing in "+btext("Italy"),"8/2025 "+btext("意大利")+"度假"],["2512jamaica","12/2025 Vacationing in "+btext("Jamaica"),"12/2025 "+btext("牙买加")+"度假"]];
+                  ["2508italy","8/2025 Vacationing in "+btext("Italy"),"8/2025 "+btext("意大利")+"度假"],["2512jamaica","12/2025 Vacationing in "+btext("Jamaica"),"12/2025 "+btext("牙买加")+"度假"],
+                  ["2603morocco","3/2026 Vacationing in "+btext("Morocco"),"3/2026 "+btext("摩洛哥")+"度假"]];
 
 document.title = title;
 
@@ -56,6 +57,8 @@ function initAlbum(){
     this[1].push(pagelink("2508italy",(["St. Peter's Square, "+btext("Vatican City"),btext("梵蒂冈城")+"圣彼得广场"])[cn_ind]));
     this[0].push(["20251226_Jamaica_1","20251226_Jamaica_2"]);
     this[1].push(pagelink("2512jamaica",(["Dunn's River Falls Park, Ocho Rios, Saint Ann, "+btext("Jamaica"),btext("牙买加")+"圣安堂区奥乔里奥斯邓恩河瀑布公园"])[cn_ind]));
+    this[0].push(["20260330_Morocco","20260331_Morocco","20260404_Morocco"]);
+    this[1].push(([[pagelink("2603morocco","Erg Chebbi, Merzouga, Drâa-Tafilalet, "+btext("Morocco")),pagelink("2603morocco","Ait Ben Haddou, Drâa-Tafilalet, "+btext("Morocco")),pagelink("2603morocco","Hassan II Mosque, Casablanca, Casablanca-Settat, "+btext("Morocco"))],[pagelink("2603morocco",btext("摩洛哥")+"德拉-塔菲拉勒特大区梅尔祖卡切比沙丘"),pagelink("2603morocco",btext("摩洛哥")+"德拉-塔菲拉勒特大区阿伊特本哈杜"),pagelink("2603morocco",btext("摩洛哥")+"卡萨布兰卡-塞塔特大区卡萨布兰卡哈桑二世清真寺")]])[cn_ind]);
 
     adddate(this);
 }
