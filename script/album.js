@@ -37,7 +37,7 @@ function init(){
         photoalbum = new initAlbum();
     }catch(er){      //in case the album name is wrong
         location.href = "";
-        document.write('<p style="font-size:xx-large">'+(["Could not load the photo album.","无法加载相册。"])[cn_ind]+'</p>');
+        document.write('<h1>'+(["Could not load the photo album.","无法加载相册。"])[cn_ind]+'</h1>');
         return;
     }
     num = photoalbum[0].length;
