@@ -88,7 +88,7 @@ var pt_front = [["males* left","左雄性"],["males* right","右雄性"],["femal
     ["eurasian","欧亚亚种"],["extimus","佛罗里达亚种"],["gray-crowned","灰冠型"],["gray-headed","灰头型"],["gray (morph|form)","灰色型"],["hepburn's","灰颊型"],["hoary","极北型"],["interior","内部种群"],["lemon-rumped","柠檬腰型"],
     ["light (morph|form)","浅色型"],["melanotis group","黑耳亚种"],["mexicana group","墨西哥亚种"],["migration kettle","迁徙集群"],["myrtle form","长春花型"],["oregon form","俄勒冈型"],["pink-sided","红胁型"],["red (morph|form)","红色型"],
     ["slate-colored form","石板色型"],["taiga","泰加林种"],["western","西部亚种"],["white-browed","白眉型"],["white (morph|form)","白色型"],["white-headed *(form)*","白头型"],["red-shafted","红羽"],["yellow-shafted","黄羽"],
-    ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"]];
+    ["(nest|fledg)ling","雏鸟"],["(chicks*|hatchlings*)","幼鸟"],["at the back","在后面"],["at the front","在前面"],["(on the)* *left","左边"],["(on the)* *right","右边"],["wild type","野生型"]];
 var pt_back = [["Accomack","阿科马克"],["Adams","亚当斯"],["Amherst","阿默斯特"],["Anne Arundel","安妮阿伦德尔"],["Atlantic","大西洋"],["Baltimore","巴尔的摩"],["Bradford","布拉德福德"],["Broward","布劳沃德"],["Calvert","卡尔弗特"],
     ["Caroline","卡罗琳"],["Centre","中心"],["Chester","切斯特"],["Clarke*","克拉克"],["Cochise","科奇斯"],["Cumberland","坎伯兰"],["Dorchester","多切斯特"],["Essex","埃塞克斯"],["Fairfax","费尔法克斯"],["Fauquier","福基尔"],
     ["Franklin","富兰克林"],["Frederick","弗雷德里克"],["Fulton","富尔顿"],["Hampton","汉普顿"],["Harford","哈福德"],["Highland","高地"],["Horry","霍里"],["Howard","霍华德"],["Jefferson","杰斐逊"],["Kent","肯特"],
