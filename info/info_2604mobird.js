@@ -86,7 +86,7 @@ function initAlbum(){
         this[1][56] = "普通雨燕，阿加迪尔海滩。";
         this[1][57] = "苍雨燕，阿加迪尔海滩。";
         this[1][58] = "白鹭，阿加迪尔海滩。";
-        this[1][59] = "大红鹳，苏斯-马萨国家公园。";
+        this[1][59] = "大红鹳，未成年，苏斯-马萨国家公园。";
         this[1][60] = "小䴙䴘，苏斯-马萨国家公园。";
         this[1][61] = "欧石䳭，雄性，苏斯-马萨国家公园。";
         this[1][62] = "赤麻鸭，苏斯-马萨国家公园。";
@@ -106,7 +106,7 @@ function initAlbum(){
         this[1][76] = "歌林莺，苏斯-马萨国家公园。";
         this[1][77] = "非洲鸵鸟，雌性，苏斯-马萨国家公园。";
         this[1][78] = "非洲鸵鸟，雄性，苏斯-马萨国家公园。";
-        this[1][79] = "GreatGrayShrike，苏斯-马萨国家公园。";
+        this[1][79] = "西方灰伯劳，苏斯-马萨国家公园。";
         this[1][80] = "林䳭伯劳，雌性，苏斯-马萨国家公园。";
         this[1][81] = "家麻雀，苏斯-马萨国家公园。";
         this[1][82] = "欧洲丝雀，雌性，苏斯-马萨国家公园。";
@@ -176,7 +176,7 @@ function initAlbum(){
         this[1][56] = "Common Swift, Agadir Beach.";
         this[1][57] = "Pallid Swift, Agadir Beach.";
         this[1][58] = "Little Egret, Agadir Beach.";
-        this[1][59] = "Greater Flamingo, Souss-Massa National Park.";
+        this[1][59] = "Greater Flamingo, immature, Souss-Massa National Park.";
         this[1][60] = "Little Grebe, Souss-Massa National Park.";
         this[1][61] = "European Stonechat, male, Souss-Massa National Park.";
         this[1][62] = "Ruddy Shelduck, Souss-Massa National Park.";
@@ -196,7 +196,7 @@ function initAlbum(){
         this[1][76] = "Western Orphean Warbler, Souss-Massa National Park.";
         this[1][77] = "Common Ostrich, female, Souss-Massa National Park.";
         this[1][78] = "Common Ostrich, male, Souss-Massa National Park.";
-        this[1][79] = "GreatGrayShrike, Souss-Massa National Park.";
+        this[1][79] = "Great Grey Shrike, Souss-Massa National Park.";
         this[1][80] = "Woodchat Shrike, female, Souss-Massa National Park.";
         this[1][81] = "House Sparrow, Souss-Massa National Park.";
         this[1][82] = "European Serin, female, Souss-Massa National Park.";
