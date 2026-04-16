@@ -835,7 +835,7 @@ var birds = myBirds([
     ["0602181226","PARIDAE ","Carolina Chickadee","卡罗山雀","Poecile carolinensis",["1412mckee,24","250427_037"],["mdmwma","S167446622","mdwoot","S229996979","Nest"],7034],
     ["1307171616","PARIDAE ","Black-capped Chickadee","黑顶山雀","Poecile atricapillus",["1609vcbird,11","241104_263"],["arb","S164258696",spot("L342893","Le Domaine de Maizerets,Québec City,Québec,Canada"),"魁北克省魁北克市Domaine de Maizerets公园","nynyny","S201374585",spot("L918348","Niagara Falls SP"),"尼亚加拉瀑布SP"],7035],
 //  ["2600000000","PANURIDA","Bearded Reedling","文须雀","Panurus biarmicus",["2508itbird",],["arb",""],"bearee1",7083],
-    ["2603300744","ALAUDIDA","Thekla's Lark","短嘴凤头百灵","Galerida theklae",["2604mobird,9"],["mormor","3/2026,S314639428","Midelt,Drâa-Tafilalet"],"thelar1",7158],
+    ["2603300744","ALAUDIDA","Thekla's Lark","短嘴凤头百灵","Galerida theklae",["2604mobird,9,8"],["mormor","3/2026,S314639428","Midelt,Drâa-Tafilalet"],"thelar1",7158],
     ["2508160943","ALAUDIDA","Crested Lark","凤头百灵","Galerida cristata",["2604mobird,35","2508itbird,51"],["mormor","S315429348","Ouarzazate,Drâa-Tafilalet","itvaoa","S267670113"],"crelar1",7159],
     ["1503151045","ALAUDIDA","Horned Lark","角百灵","Eremophila alpestris",["160507_042","150315_036","160507_043"],["mdmdmd","S164375390","Male"+(t1=",Congressional Polo Club,Poolesville"),"mdswhf","S165231833","Female","mdmdmd","S164375390","Juvenile"+t1],7162],
 //  ["2600000000","NICATORI","Western Nicator","黄翼斑斗鹎","Nicator chloris",[],["arb",""],"yesnic1",7080],
