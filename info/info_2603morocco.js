@@ -32,7 +32,7 @@ function initAlbum(){
     this[0][48] = "2603morocco_0";
     this[1][48] = "";
     for (var i=49;i<61;i++){
-        this[0][i] = "2603morocco_"+(i+1).toString();
+        this[0][i] = "2603morocco_"+i.toString();
         this[1][i] = "";
     }
     if(window.usechinese){
