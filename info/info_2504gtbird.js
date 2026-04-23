@@ -133,7 +133,7 @@ function initAlbum(){
         this[1][103] = "西王霸鹟，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][104] = "红喉厚嘴霸鹟，雌性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][105] = "褐顶莺雀，安提瓜危地马拉市埃尔皮拉尔山庄。";
-        this[1][106] = "赫氏莺雀，安提瓜危地马拉市埃尔皮拉尔山庄。";
+        this[1][106] = "哈氏纹霸鹟，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][107] = "亮丽歌雀，雄性，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][108] = "斑背曲嘴鹪鹩，安提瓜危地马拉市埃尔皮拉尔山庄。";
         this[1][109] = "斑背曲嘴鹪鹩，安提瓜危地马拉市埃尔皮拉尔山庄。";
@@ -286,7 +286,7 @@ function initAlbum(){
         this[1][103] = "Western Kingbird, Finca El Pilar, Antigua Guatemala.";
         this[1][104] = "Rose-throated Becard, female, Finca El Pilar, Antigua Guatemala.";
         this[1][105] = "Brown-capped Vireo, Finca El Pilar, Antigua Guatemala.";
-        this[1][106] = "Hutton's Vireo, Finca El Pilar, Antigua Guatemala.";
+        this[1][106] = "Hammond's Flycatcher, Finca El Pilar, Antigua Guatemala.";
         this[1][107] = "Elegant Euphonia, male, Finca El Pilar, Antigua Guatemala.";
         this[1][108] = "Band-backed Wren, Finca El Pilar, Antigua Guatemala.";
         this[1][109] = "Band-backed Wren, Finca El Pilar, Antigua Guatemala.";
