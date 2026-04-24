@@ -508,7 +508,7 @@ function initAlbum(){
     this[0][i]   = ["2603morocco/2603morocco_21","2603morocco/2603morocco_41",["20260330","20260331"]];
     this[1][i++] = ([["Visiting the Sahara Desert in Merzouga during the "+pagelink("2603morocco","vacation in Morocco"),"Visiting Ait-Ben-Haddou during the "+pagelink("2603morocco","vacation in Morocco")],[pagelink("2603morocco","在摩洛哥度春假")+"时游梅尔祖加的撒哈拉沙漠",pagelink("2603morocco","在摩洛哥度春假")+"时游阿伊特本哈杜"]])[cn_ind];
     this[0][i]   = "20260423_TOKTWD";
-    this[1][i++] = (["Making a balloon powered race car at NIST Engineering Challenge during the Take Our Kids To Work Day (Nathan's team won the challenge)","在“带孩子上班日”参加NIST工程挑战赛，制作气球动力赛车，球球所在的团队赢得了挑战赛"])[cn_ind];
+    this[1][i++] = (["Making a balloon powered race car at NIST Engineering Challenge during the Take Our Kids To Work Day (Nathan's team won the challenge)","在“带孩子上班日”参加NIST工程挑战赛，制作气球动力赛车，球球所在的团队赢得了挑战赛冠军"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
