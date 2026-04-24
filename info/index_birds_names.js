@@ -805,7 +805,7 @@ var birds = myBirds([
     ["2603310707","CORVIDAE","Brown-necked Raven","褐颈渡鸦","Corvus ruficollis",["2604mobird,21"],["mormer","3/2026,S315011524","Erg Chebbi"],"brnrav1",6874],
     ["1407051751","CORVIDAE","Northern Raven","渡鸦","Corvus corax",["1407mibird,5","221118_167","2306isbird,30"],["usausa","S167508985",nps("piro","Pictured Rocks National Lakeshore,Michigan"),"画石国家湖岸","papapa","S122628666","Waggoner's Gap Hawk Watch,Cumberland County","iswesf","S141866959","Látrabjarg"],"COMRAV",6876],
     ["0604151143","CORVIDAE","American Crow","短嘴鸦","Corvus brachyrhynchos",["170625_078","1507wbird,23"],["mdcocn","S164196487","Violettes Lock","waneah","S164999028",spot("L267165","Hobuck Beach")],6850],
-    ["2308060751","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",["2308ukbird,15,22","2408frbird,61","2508itbird,90,23"],["ukregp","S146565886","ukston","S146716357","arb","S192434654","Bois de Boulogne,Paris,France","itvibo","S268258186","ittusc","S266946935","Bocca di Serchio"],"carcro1",6861],
+    ["2308060751","CORVIDAE","Carrion Crow","小嘴乌鸦","Corvus corone",["2308ukbird,15,22","2408frbird,61","2508itbird,90,23"],["ukregp","S146565886","ukston","S146716357","arb","S192434654","Bois de Boulogne,Paris,France","itvibo","S268258186","Hooded","","冠型","ittusc","S266946935","Hooded,Bocca di Serchio","","冠型"],"carcro1",6861],
     ["1601151207","CORVIDAE","Large-billed Crow","大嘴乌鸦","Corvus macrorhynchos",["1601china,65"],["cnbjbj","S164343089","Summer Palace"],"labcro1",6864],
 //  ["2600000000","CNEMOPHI","Loria's Satinbird","黑短嘴极乐鸟","Cnemophilus loriae",[],["arb",""],"lorsat1",6089],
 //  ["2600000000","MELANOCH","Black Berrypecker","黑啄果鸟","Melanocharis nigra",[],["arb",""],"blaber1",6093],
