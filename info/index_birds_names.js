@@ -566,7 +566,7 @@ var birds = myBirds([
     ["1812061700","RAMPHAST","Yellow-throated Toucan","黑嘴巨嘴鸟","Ramphastos ambiguus",["1812crbird,84","2301pabird,18"],["crarol","S163931208",(t1="Chestnut-mandibled"),"papipe","S126820118",t1],"bkmtou1",3603],
     ["2301230721","RAMPHAST","Keel-billed Toucan","厚嘴巨嘴鸟","Ramphastos sulfuratus",["2301pabird,16","2504gtbird,33"],["papipe","S126820118","gttknp","S225428347"],"kebtou1",3600],
     ["1812050952","RAMPHAST","Collared Aracari","领簇舌巨嘴鸟","Pteroglossus torquatus",["1812crbird,58,59,71","2301pabird,112"],["crarol","S163930178","crarol","S163930178","crarol","S163930913","pametr","S126960214"],"colara1",3580],
-    ["2504200723","RAMPHAST","Northern Emerald Toucanet","北绿巨嘴鸟","Aulacorhynchus prasinus",["2504gtbird,147"],["gtfelp","S227540483"],"noremt1",3562],
+    ["2504200723","RAMPHAST","Northern Emerald Toucanet","绿巨嘴鸟","Aulacorhynchus prasinus",["2504gtbird,147"],["gtfelp","S227540483"],"noremt1",3562],
 //  ["2600000000","INDICATO","Yellow-rumped Honeyguide","黄腰响蜜䴕","Indicator xanthonotus",[],["arb",""],"yerhon1",3693],
     ["2312151543","PICIDAE ","Grey-headed Woodpecker","灰头绿啄木鸟","Picus canus",["2312cnbird,16,17"],["cnbjof","S157703762","Male","cnbjof","S157703762","Female"],"gyfwoo1",3906],
     ["2508190850","PICIDAE ","European Green Woodpecker","绿啄木鸟","Picus viridis",["2508itbird,83,82"],["itvibo","S268182597","Juvenile female"],"eugwoo2",3901],
