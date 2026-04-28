@@ -146,8 +146,10 @@ function initAlbum(){
     makeface.push(i);
     this[0][i]    = "20260225";
     this[1][i++]  = (['"Why do I never get called on even when I sit on the carpet? It'+"'"+'s so annoying!" Mrs. Levin answered, "You do!"',"“为什么我就算坐在地毯上也从来不被点名？真是太烦人了！” Levin老师回答：“叫你了！”"])[cn_ind];
-    this[0][i]   = ["20260421_1","20260421_2"];
-    this[1][i++] = ([["Nathan and his NNH swap shop team buddies, Hunter and Nathan W., on Swap Shop Day","Selling food blind bags on Swap Shop Day"],["球球和他的NNH交换店团队伙伴—Hunter和Nathan W.—在“交换店日”合影","球球在交换店日出售自己制作的食品盲袋"]])[cn_ind];
+    this[0][i]   = "20260421_2";
+    this[1][i++] = (["Selling food blind bags on Swap Shop Day","球球在“交换店日”出售自己制作的食品盲袋"])[cn_ind];
+    this[0][i]   = "20260421_1";
+    this[1][i++] = (["Nathan and his NNH swap shop team buddies, Hunter and Nathan W., on Swap Shop Day","球球和他的NNH交换店团队伙伴—Hunter和Nathan W.—在“交换店日”合影"])[cn_ind];
 
     adddate(this);
 }
