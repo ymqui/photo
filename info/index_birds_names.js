@@ -420,7 +420,7 @@ var birds = myBirds([
     ["0512281335","PELECANI","American White Pelican","美洲鹈鹕","Pelecanus erythrorhynchos",["2001txbirding,4,9"],["txanwr","S163591767"],873],
     ["0512270734","PELECANI","Brown Pelican","褐鹈鹕","Pelecanus occidentalis",["0512keys,18,13"],["flflfl","S168070575",spot("L473101","Key West"),"flflfl","S168070063",spot("L473101","Immature,Key West")],874],
     ["2301230712","ARDEIDAE","Rufescent Tiger Heron","栗虎鹭","Tigrisoma lineatum",["2301pabird,14"],["papipe","S126820115","Juvenile"],"ruther1",796],
-    ["2007071110","ARDEIDAE","Least Bittern","姬苇鳽","Botaurus exilis",["210427_053"],["papapa","S163435660",spot("L447227","Female,Lake Redman,York County"),"雷德曼湖"],807],
+    ["2007071110","ARDEIDAE","Least Bittern","姬苇鳽","Botaurus exilis",["210427_053","260503_036"],["papapa","S163435660",spot("L447227","Female,Lake Redman,York County"),"雷德曼湖","mdmwma","S332085165","Male"],807],
     ["1504261402","ARDEIDAE","American Bittern","美洲麻鳽","Botaurus lentiginosus",["150426_064","1609vcbird,18,19"],["mdmdmd","S165530585",spot("L452844","North Point SP,Baltimore County"),"北点SP","cactnw","S164259549","cactnw","S164259549"],804],
     ["0512251618","ARDEIDAE","Little Blue Heron","小蓝鹭","Egretta caerulea",["1112flbird,14","1312svbird,4","1812crbird,63","2512jmbird,23"],["flevnp","S167833635","scscsc","S167638592",nps("savannah","Juvenile,Savannah NWR"),"crarol","S163930178","Immature","jamjam","S290364537","Dunn's River Falls,Ocho Rios,Saint Ann"],859],
     ["0512250959","ARDEIDAE","Tricolored Heron","三色鹭","Egretta tricolor",["1112flbird,18","0512everglades,20"],["flevnp","S167833635","flevnp","S168111420"],858],
