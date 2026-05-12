@@ -970,7 +970,7 @@ var birds = myBirds([
     ["2504180935","TURDIDAE","Orange-billed Nightingale-Thrush","橙腹夜鸫","Catharus aurantiirostris",["2504gtbird,119"],["gtfelp","S226812699"],"obnthr1",8719],
     ["1507081910","TURDIDAE","Swainson's Thrush","斯氏夜鸫","Catharus ustulatus",["170506_043","1507wbird,12"],["nynyny","S164193135",spot("L191106","Central Park,New York City"),"usausa","S164997123",nps("olym","Olympic NP,Washington")],8729],
     ["1508290746","TURDIDAE","Veery","棕夜鸫","Catharus fuscescens",["1512bhill,36","220508_058"],["mdbhrp","8/2015,S165064846","vavava","S109363991","Luria Park,Fairfax County","卢里亚公园"],8726],
-    ["1709300759","TURDIDAE","Grey-cheeked Thrush","灰颊夜鸫","Catharus minimus",["170930_109","2504gtbird,70"],["mdmdmd","S164200861","Oregon Ridge Park,Baltimore County","俄勒冈岭公园","gttaya","S225921979"],"GYCTHR",8727],
+    ["1709300759","TURDIDAE","Grey-cheeked Thrush","灰颊夜鸫","Catharus minimus",["260512_080","170930_109","2504gtbird,70"],["mdwoot","S337902458","mdmdmd","S164200861","Oregon Ridge Park,Baltimore County","俄勒冈岭公园","gttaya","S225921979"],"GYCTHR",8727],
     ["0610291242","TURDIDAE","Hermit Thrush","隐夜鸫","Catharus guttatus",["1612savannah,2"],["scscsc","S164222788",nps("savannah","Savannah NWR")],8730],
     ["2308101523","TURDIDAE","Song Thrush","欧歌鸫","Turdus philomelos",["2308ukbird,63"],["arb","S146922087","Great Stour Way,Canterbury,United Kingdom","坎特伯雷市大斯陶尔河河岸小道"],"sonthr1",8775],
     ["1601050816","TURDIDAE","Chinese Blackbird","乌鸫","Turdus mandarinus",["1601china,70,16"],["cnbjbj","S164343089","Male,Summer Palace","cnjsxp","S164336822","Female"],"chibla1",8758],
