@@ -52,7 +52,7 @@ function initAlbum(){
     this[0][i]    = "20251220_2";
     this[1][i++]  = urllink((url="https://youtube.com/shorts/MD3Rx7sKKDo"),(["Performing a dance routine at the winter showcase (YouTube video)","在冬季表演会上表演舞蹈节目(YouTube视频)"])[cn_ind]);
     this[0][i]    = "20251220_4";
-    this[1][i++]  = (["Receiving the certificate for winter showcase 2025","2025年冬季展演证书"])[cn_ind];
+    this[1][i++]  = (["Receiving the certificate for 2025 winter showcase","2025年冬季展演证书"])[cn_ind];
     this[0][i]    = "20260103";
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20260110_1","20260110_2"];
@@ -71,6 +71,14 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = "20260425";
     this[1][i++]  = tmptxt1;
+    this[0][i]    = "20260516_1";
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/3lozCHSV-aE"),(["Performing a bar routine at the 2026 spring showcase (YouTube video)","在2026年春季表演会上完成单杠动作(YouTube视频)"])[cn_ind]);
+    this[0][i]    = "20260516_2";
+    this[1][i++]  = urllink((url="https://youtu.be/HwDXo1C4nB8"),(["Performing a dance routine at the 2026 spring showcase (YouTube video)","在2026年春季表演会上表演舞蹈节目(YouTube视频)"])[cn_ind]);
+    this[0][i]    = "20260516_3";
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/ueF9tGIbpYM"),(["Performing a jump-off routine at the 2026 spring showcase (YouTube video)","在2026年春季表演会上完成跳跃动作(YouTube视频)"])[cn_ind]);
+    this[0][i]    = "20260516_4";
+    this[1][i++]  = (["Group photo for the 2026 spring showcase","2026年春季展演合影"])[cn_ind];
 
     adddate(this);
 }
