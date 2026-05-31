@@ -691,7 +691,7 @@ var birds = myBirds([
     ["1508290734","TYRANNID","Least Flycatcher","小纹霸鹟","Empidonax minimus",["1512bhill,35","1609vcbird,14"],["mdbhrp","8/2015,S165064846","cactnw","S164259549"],5425],
     ["2311251219","TYRANNID","American Grey Flycatcher","灰纹霸鹟","Empidonax wrightii",["231125_238"],["papapa","S155204494","West Back Mountain Road,Belleville,Mifflin County","贝尔维尔镇西后山路"],"GRYFLY",5428],
     ["1905120945","TYRANNID","Buff-breasted Flycatcher","黄胸纹霸鹟","Empidonax fulvifrons",["1905mxbird,10,11"],["mxunam","S163747032"],5433],
-    ["2009090921","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",["260513_086","260513_085"],["mdwoot","S338500361"],5405],
+    ["2009090921","TYRANNID","Olive-sided Flycatcher","绿胁绿霸鹟","Contopus cooperi",["260530_108","260530_109"],["mdwoot","S349649624"],5405],
     ["2504190924","TYRANNID","Greater Pewee","大绿霸鹟","Contopus pertinax",["2504gtbird,138"],["gtanti","S227060243","Cerro de la Cruz"],5406],
     ["1812070658","TYRANNID","Western Wood Pewee","西绿霸鹟","Contopus sordidulus",["1812crbird,85","2208azbird,21,22"],["crarol","S163932247","azsant","S116560424",spot("L2413068","Madera Canyon Carrie Nation Trail")],"WEWPEW",5410],
     ["1812080858","TYRANNID","Northern Tropical Pewee","北热带绿霸鹟","Contopus bogotensis",["1812crbird,99","2504gtbird,31"],["crsanj","S163965530","Morazán Park","gttknp","S225428347"],"tropew4",11162],
