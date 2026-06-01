@@ -79,6 +79,10 @@ function initAlbum(){
     this[1][i++]  = urllink((url="https://youtube.com/shorts/ueF9tGIbpYM"),(["Performing a jump-off routine at the 2026 spring showcase (YouTube video)","在2026年春季表演会上完成跳跃动作(YouTube视频)"])[cn_ind]);
     this[0][i]    = "20260516_4";
     this[1][i++]  = (["Group photo for the 2026 spring showcase","2026年春季展演合影"])[cn_ind];
+    this[0][i]    = "20260530";
+    this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20260531_1","20260531_2","20260531_3"];
+    this[1][i++]  = tmptxt1;
 
     adddate(this);
 }
