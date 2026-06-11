@@ -1005,7 +1005,7 @@ var birds = myBirds([
     ["1601111452","MUSCICAP","Siberian Stonechat","黑喉石䳭","Saxicola maurus",["1601china,48,49"],["cnlydp","S164340615","Male","cnlydp","S164341098","Female"],"sibsto1",9090],
     ["2604030928","MUSCICAP","European Stonechat","欧石䳭","Saxicola rubicola",["2604mobird,62"],["morsnp","S316340140","Male"],"stonec4",9089],
     ["2306211018","MUSCICAP","Northern Wheatear","穗䳭","Oenanthe oenanthe",["2306isbird,54","2408frbird,11"],["isnesr","S142289423","Male,Dettifoss","黛提瀑布","frcolc","S191506731","Juvenile"],9115],
-    ["2603301506","MUSCICAP","White-crowned Wheatear","白冠黑䳭","Oenanthe leucopyga",["2604mobird,18,14"],["mormer","3/2026,S314783846"],"whtwhe1",9136],
+    ["2603301506","MUSCICAP","White-crowned Wheatear","白冠黑䳭","Oenanthe leucopyga",["2604mobird,24,18"],["mormer","3/2026,S315011524","Erg Chebbi","mormer","3/2026,S314783846","Juvenile"],"whtwhe1",9136],
 //  ["2600000000","PROMEROP","Cape Sugarbird","长尾食蜜鸟","Promerops cafer",[],["arb",""],"capsug1",8332],
 //  ["2600000000","MODULATR","Dapple-throat","纹喉䳭","Arcanator orostruthus",[],["arb",""],"dapthr1",8330],
     ["2312191536","DICAEIDA","Fire-breasted Flowerpecker","红胸啄花鸟","Dicaeum ignipectus",["2312cnbird,38,44"],["cnfjfj","S157717105","Male,Lianhuashan Park,Longyan","cnfjfj","S157741735","Female,Lianhuashan Park,Longyan"],"fibflo1",9206],
