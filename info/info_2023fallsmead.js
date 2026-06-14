@@ -153,7 +153,7 @@ function initAlbum(){
     this[0][i]   = "20260611_1";
     this[1][i++] = (["Having fun at the end of school year Hawaiian Luau party","在学年末的夏威夷卢奥派对上玩得很开心"])[cn_ind];
     this[0][i]   = "20260611_2";
-    this[1][i++] = (["Ms. Levin's 2nd grade class photo at the end of school year Hawaiian Luau party","Levin老师班的二年级学年末的夏威夷卢奥派对合影"])[cn_ind];
+    this[1][i++] = (["Ms. Levin's 2nd grade class photo at the end of school year Hawaiian Luau party","Levin老师班的二年级学年末夏威夷卢奥派对合影"])[cn_ind];
 
     adddate(this);
 }
