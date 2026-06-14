@@ -150,6 +150,10 @@ function initAlbum(){
     this[1][i++] = (["Selling food blind bags on Swap Shop Day","球球在“交换店日”出售自己制作的食品盲袋"])[cn_ind];
     this[0][i]   = "20260421_1";
     this[1][i++] = (["Nathan and his NNH swap shop team buddies, Hunter and Nathan W., on Swap Shop Day","球球和他的NNH交换店团队伙伴—Hunter和Nathan W.—在“交换店日”合影"])[cn_ind];
+    this[0][i]   = "20260611_1";
+    this[1][i++] = (["Having fun at the end of school year Hawaiian Luau party","在学年末的夏威夷卢奥派对上玩得很开心"])[cn_ind];
+    this[0][i]   = "20260611_2";
+    this[1][i++] = (["Ms. Levin's 2nd grade class photo at the end of school year Hawaiian Luau party","Levin老师班的二年级学年末的夏威夷卢奥派对合影"])[cn_ind];
 
     adddate(this);
 }
