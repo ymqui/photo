@@ -983,7 +983,7 @@ var birds = myBirds([
     ["2512261644","TURDIDAE","White-chinned Thrush","白颏鸫","Turdus aurantius",["2512jmbird,25"],["jamlfj","S290423729"],"whcthr1",8812],
     ["1501080725","TURDIDAE","Eastern Red-legged Thrush","东红腿鸫","Turdus ardosiaceus",["1501prbird,36"],["prsanj","S164852107"],"relthr1",11395],
     ["2504190901","TURDIDAE","Rufous-collared Thrush","中美棕颈鸫","Turdus rufitorques",["2504gtbird,135"],["gtanti","S227060243","Female,Cerro de la Cruz"],"rucrob1",8809],
-    ["0604290815","TURDIDAE","American Robin","旅鸫","Turdus migratorius",["170506_042","220403_052","1206bsbird,12","1204robin,2"],["nynyny","S164193135",spot("L191106","Male,Central Park,New York City"),"mdwoot","S165034956","Female","mdbroo","S167832749","Juvenile","mdmdmd","S167832994","Germantown","德国镇"],8810],
+    ["0604290815","TURDIDAE","American Robin","旅鸫","Turdus migratorius",["260621_124","220403_052","1206bsbird,12","1204robin,2"],["mdwoot","S361336201","Male","mdwoot","S165034956","Female","mdbroo","S167832749","Juvenile","mdmdmd","S167832994","Germantown","德国镇"],8810],
     ["1905160828","TURDIDAE","Rufous-backed Thrush","棕背鸲鸫","Turdus rufopalliatus",["1905mxbird,31"],["mexmex","S163775414","Alameda Central,Mexico City"],"rubrob",8808],
     ["1812040750","TURDIDAE","Clay-colored Thrush","褐背鸫","Turdus grayi",["1812crbird,29","2301pabird,68","2504gtbird,127"],["crarol","S163868074","pacasc","S126834645","gtfelp","S226812699"],"clcrob",8800],
     ["2603310739","MUSCICAP","Rufous-tailed Scrub Robin","棕薮鸲","Cercotrichas galactotes",["2604mobird,29"],["mormer","3/2026,S315011524","Erg Chebbi"],"rutscr1",8829],
