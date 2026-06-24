@@ -38,7 +38,8 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2510blackwater","10/2025 Blackwater Falls State Park","10/2025 黑水瀑布州立公园"],["2510tot","10/2025 Trick-or-Treating","10/2025 万圣节讨糖"],
                   ["2512jamaica","12/2025 Vacationing in Jamaica","12/2025 在牙买加度假"],["2601snowtube","1/2026 Snow Tubing","1/2026 轮胎滑雪"],
                   ["2603morocco","3/2026 Vacationing in Morocco","3/2026 在摩洛哥度春假"],
-                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
+                  ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],
+                  ["2026camp","6/2026-"+strDate+" Summer Camp","6/2026-"+strDate+" 夏令营"]];
 if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
 if (thisyear>2030) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
 
