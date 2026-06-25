@@ -7,7 +7,7 @@ var interval   = 5000;
 var ext        = ".jpg";
 var midi_file  = "StoryOfMyLife.mid";
 var midi_cr    = new Array("Piano It All","http://www.pianoitall.com");
-var last2first = true;
+var last2first = (Date.now() < (new Date("2026-08-01")).getTime());
 var makeface   = new Array();
 var url        = "";
 homeurl        = homeurl+"showphoto.html?qiuqiu";
@@ -27,6 +27,14 @@ function initAlbum(){
     this[1][i++]  = (["Visiting National Children's Museum in Washington, D.C.","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
     this[0][i]    = "20260624_3";
     this[1][i++]  = (["Visiting National Children's Museum in Washington, D.C.","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[0][i]    = "20260625_1";
+    this[1][i++]  = (["Visiting Bubble Planet in Washington, D.C.","参观华盛顿特区的泡泡星球"])[cn_ind];
+    this[0][i]    = "20260625_2";
+    this[1][i++]  = (["Visiting Bubble Planet in Washington, D.C.","参观华盛顿特区的泡泡星球"])[cn_ind];
+    this[0][i]    = "20260625_3";
+    this[1][i++]  = (["Visiting Bubble Planet in Washington, D.C.","参观华盛顿特区的泡泡星球"])[cn_ind];
+    this[0][i]    = "20260625_4";
+    this[1][i++]  = (["Visiting Bubble Planet in Washington, D.C.","参观华盛顿特区的泡泡星球"])[cn_ind];
 
     adddate(this);
 }
