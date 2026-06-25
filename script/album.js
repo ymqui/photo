@@ -704,7 +704,9 @@ function getdate(name,str){
     var nam1,tmp,date,comma=",",period=".";
     if (Array.isArray(str)){tmp=str[0];}else{tmp=str;}
     if (Array.isArray(name)){nam1=name[0];}else{nam1=name;}
-    var pos  = nam1.search(/20[0-9]{2,}/) 
+    var pos  = nam1.search(/\//);
+    if (pos > -1) return getdate(nam1.substring(pos+1),tmp);
+    pos = nam1.search(/20[0-9]{2,}/);
     var year = nam1.substring(pos+0,pos+4);
     var mon  = nam1.substring(pos+4,pos+6);
     var day  = nam1.substring(pos+6,pos+8);
