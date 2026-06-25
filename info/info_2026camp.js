@@ -22,11 +22,11 @@ function initAlbum(){
     this[0][i]    = "20260623_1";
     this[1][i++]  = (["Playing golf at Topgolf Germantown","在德国镇顶尖高尔夫娱乐中心(Topgolf)打高尔夫球"])[cn_ind];
     this[0][i]    = "20260624_1";
-    this[1][i++]  = (["Visiting National Children's Museum at Washington DC","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[1][i++]  = (["Visiting National Children's Museum in Washington, D.C.","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
     this[0][i]    = "20260624_2";
-    this[1][i++]  = (["Visiting National Children's Museum at Washington DC","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[1][i++]  = (["Visiting National Children's Museum in Washington, D.C.","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
     this[0][i]    = "20260624_3";
-    this[1][i++]  = (["Visiting National Children's Museum at Washington DC","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[1][i++]  = (["Visiting National Children's Museum in Washington, D.C.","参观华盛顿特区的国家儿童博物馆"])[cn_ind];
 
     adddate(this);
 }

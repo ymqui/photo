@@ -148,7 +148,7 @@ function initAlbum(){
     this[0][i]   = "20180804_036_Walker";
     this[1][i++] = (["Having fun in a baby walker","在婴儿学步车里玩得很开心"])[cn_ind];
     this[0][i]   = "20180825_041_DCBuildingMuseum";
-    this[1][i++] = (["Visiting the Building Museum in Washington DC","参观华盛顿特区的建筑博物馆"])[cn_ind];
+    this[1][i++] = (["Visiting the Building Museum in Washington, D.C.","参观华盛顿特区的建筑博物馆"])[cn_ind];
     this[0][i]   = "20181007_047_ToyPlane";
     this[1][i++] = (["New toy","新玩具"])[cn_ind];
     this[0][i]   = "20181007_048_StandingWithMom";
@@ -172,7 +172,7 @@ function initAlbum(){
     this[0][i]   = "20190407_009";
     this[1][i++] = (["Playing with Adele","和小希姐姐一块拼积木"])[cn_ind];
     this[0][i]   = ["1904dcmuseum/1904dcmuseum_8","1904dcmuseum/1904dcmuseum_9","20190420"];
-    this[1][i++] = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington DC","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
+    this[1][i++] = ([pagelink("1904dcmuseum","Visiting the Smithonian museums")+" in Washington, D.C.","去"+pagelink("1904dcmuseum","华盛顿特区参观博物馆")])[cn_ind];
     this[0][i]   = ["1905mexico/1905mexico_46","20190516"];
     this[1][i++] = (["Visiting the Zocalo in Mexico City during the "+pagelink("1905mexico","vacation in Mexico"),"在"+pagelink("1905mexico","墨西哥度假")+"期间逛"+baike("墨西哥宪法广场","墨西哥城中心的宪法广场")])[cn_ind];
     this[0][i]   = ["1906minitrain/1906minitrain_3","1906minitrain/1906minitrain_4","20190608"];
@@ -180,7 +180,7 @@ function initAlbum(){
     this[0][i]   = "20190609_040";
     this[1][i++] = (["Writing in the feeding diary (Nathan is left-handed)","翻看喂养日记（球球是左撇子）"])[cn_ind];
     this[0][i]   = ["1906artechouse/1906artechouse_20","20190629"];
-    this[1][i++] = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington DC","在华盛顿特区的"+pagelink("1906artechouse","Artechouse参观标题为无限空间的展览")])[cn_ind];
+    this[1][i++] = (["Visiting the "+pagelink("1906artechouse","Infinite Space at Artechouse")+" in Washington, D.C.","在华盛顿特区的"+pagelink("1906artechouse","Artechouse参观标题为无限空间的展览")])[cn_ind];
     this[0][i]   = "20190704_055_DogParade";
     this[1][i++] = (["Watching the dog parade in Baltimore","在巴尔的摩看狗狗游行"])[cn_ind];
     this[0][i]   = ["1908florida/1908florida_6","20190828"];
@@ -201,11 +201,11 @@ function initAlbum(){
     this[1][i++] = (["Visiting the gift shop of the Houston Downtown Aquarium during the "+pagelink("2001texas","vacation in Texas"),"在"+pagelink("2001texas","德克萨斯州度假")+"期间在休斯敦水族馆礼品店挑了一只小老虎"])[cn_ind];
     this[0][i]   = ["2002trainshow/2002trainshow_18","20200209"];
     this[1][i++] = (["Riding the handcar in the "+pagelink("2002trainshow","model train show")+" at Dulles Expo Center in Virginia","在弗吉尼亚州杜勒斯展览中心"+pagelink("2002trainshow","火车模型展")+"上坐手动小火车"])[cn_ind];
-    this[0][i]   = ["2018goddard/20200403_1","20200403"];
+    this[0][i]   = "2018goddard/20200403_1";
     this[1][i++] = (["Taking Ms Bringas's class at "+school+" through distance learning from home due to the Coronavirus pandemic",school+"由于2019冠状病毒疫情在美国蔓延而暂时关门，球球在家远程上Bringas老师的课"])[cn_ind];
     this[0][i]   = "20200410_Reading";
     this[1][i++] = (["Reading Clifford Goes to the Doctor","读<<大红狗克利福德去看医生>>"])[cn_ind];
-    this[0][i]   = ["2018goddard/20200427_1","20200427"];
+    this[0][i]   = "2018goddard/20200427_1";
     this[1][i++] = (["Teacher appreciation week assignment at "+school,school+"教师节给老师准备的感谢组句词语，球球的词是“我们”"])[cn_ind];
     this[0][i]   = "20200718_PottyTraining";
     this[1][i++] = (["Potty training","便盆训练"])[cn_ind];
@@ -327,7 +327,7 @@ function initAlbum(){
     this[0][i]   = ["20230107_001","20230107_002","20230107_003"];
     this[1][i++] = (["Playdate with Annelise","朋友Annelise来家里玩"])[cn_ind];
     this[0][i]   = ["20230108_001","20230108_009"];
-    this[1][i++] = (["Visiting the Dinos Alive exhibit in Washington DC","参观华盛顿特区的恐龙展览"])[cn_ind];
+    this[1][i++] = (["Visiting the Dinos Alive exhibit in Washington, D.C.","参观华盛顿特区的恐龙展览"])[cn_ind];
     this[0][i]   = ["2301panama/2301panama_4","2301panama/2301panama_16","2301panama/2301panama_46",["20230122","20230124","20230127"]];
     this[1][i++] = ([["Visiting Casco Viejo in Panama City during the "+pagelink("2301panama","vacation in Panama"),"Watching monkeys in Monkey Island during the "+pagelink("2301panama","vacation in Panama"),"Visiting the Emberá Purú village during the "+pagelink("2301panama","vacation in Panama")],[pagelink("2301panama","在巴拿马度假")+"时游巴拿马城的"+baike("Casco Viejo老城区"),pagelink("2301panama","在巴拿马度假")+"时去猴岛看猴子",pagelink("2301panama","在巴拿马度假")+"时去访问恩贝拉部落普鲁土著村"]])[cn_ind];
     this[0][i]   = ["20230212_006","20230212_008"];
@@ -343,7 +343,7 @@ function initAlbum(){
     school       = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
     this[0][i]   = ["2023fallsmead/20230828_1","20230828"];
     this[1][i++] = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
-    this[0][i]   = ["2023karate/20230901_044_KickKarate","2023karate/20230901_045_KickKarate","2023karate/20230901_047_KickKarate","20230901"];
+    this[0][i]   = ["2023karate/20230901_044_KickKarate","2023karate/20230901_045_KickKarate","2023karate/20230901_047_KickKarate"];
     this[1][i++] = (["Taking karate lessons at "+pagelink("2023karate","Kicks Karate"),"在"+pagelink("2023karate","Kicks Karate学习空手道")])[cn_ind];
     this[0][i]   = ["20230903_1","20230903_2","20230903_3"];
     this[1][i++] = (["Hunting for shark tooth fossil at Matoaka Beach in Maryland","在马里兰州马托卡海滩寻找鲨鱼牙齿化石"])[cn_ind];
@@ -510,8 +510,8 @@ function initAlbum(){
     this[1][i++] = ([["Visiting the Sahara Desert in Merzouga during the "+pagelink("2603morocco","vacation in Morocco"),"Visiting Ait-Ben-Haddou during the "+pagelink("2603morocco","vacation in Morocco")],[pagelink("2603morocco","在摩洛哥度春假")+"时游梅尔祖加的撒哈拉沙漠",pagelink("2603morocco","在摩洛哥度春假")+"时游阿伊特本哈杜"]])[cn_ind];
     this[0][i]   = "20260423_TOKTWD";
     this[1][i++] = (["Making a balloon powered race car at NIST Engineering Challenge during the Take Our Kids To Work Day (Nathan's team won the challenge)","在“带孩子上班日”参加NIST工程挑战赛，制作气球动力赛车，球球所在的团队赢得了挑战赛冠军"])[cn_ind];
-    this[0][i]   = ["2026camp/20260624_3","20260624"];
-    this[1][i++] = (["Visiting National Children's Museum at Washington DC during the "+pagelink("2026camp","summer camp"),pagelink("2026camp","夏令营")+"时参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[0][i]   = "2026camp/20260624_3";
+    this[1][i++] = (["Visiting National Children's Museum in Washington, D.C. during the "+pagelink("2026camp","2026 summer camp"),pagelink("2026camp","2026夏令营")+"时参观华盛顿特区的国家儿童博物馆"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
