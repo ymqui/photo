@@ -19,7 +19,6 @@ function initAlbum(){
     this[0] = new Array();  //store file names
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
-    j = 0;
     this[0][i]    = "20250618_1";
     this[1][i++]  = (["Woodworking at VisArts summer camp","VisArts夏令营的木工课"])[cn_ind];
     this[0][i]    = "20250618_2";
