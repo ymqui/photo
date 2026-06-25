@@ -341,7 +341,7 @@ function initAlbum(){
     this[0][i]   = ["2308uk/2308uk_21","20230807"];
     this[1][i++] = (["Visiting the Stonehenge during the "+pagelink("2308uk","vacation in the United Kingdom"),"在"+pagelink("2308uk","英国度假")+"期间游威尔特郡的"+baike("巨石阵")])[cn_ind];
     school       = pagelink("2023fallsmead",(["the Fallsmead Elementary School","Fallsmead小学"])[cn_ind]);
-    this[0][i]   = ["2023fallsmead/20230828_1","20230828"];
+    this[0][i]   = "2023fallsmead/20230828_1";
     this[1][i++] = (["The first day of kidergarten at "+school,"在"+school+"上幼儿园的第一天"])[cn_ind];
     this[0][i]   = ["2023karate/20230901_044_KickKarate","2023karate/20230901_045_KickKarate","2023karate/20230901_047_KickKarate"];
     this[1][i++] = (["Taking karate lessons at "+pagelink("2023karate","Kicks Karate"),"在"+pagelink("2023karate","Kicks Karate学习空手道")])[cn_ind];
@@ -384,7 +384,7 @@ function initAlbum(){
     this[1][i++] = (["Dental checkup","半年一次的定期牙齿检查"])[cn_ind];
     this[0][i]   = ["2403denver/2403denver_5","2403denver/2403denver_6","20240326"];
     this[1][i++] = (["Visiting Idaho Springs, a historic mining town west of Denver, during the "+pagelink("2403denver","spring break in Denver, Colorado"),pagelink("2403denver","在丹佛度春假")+"时游丹佛市西部历史悠久的矿业小镇爱达荷斯普林斯"])[cn_ind];
-    this[0][i]   = ["2023fallsmead/20240408_1","20240408"];
+    this[0][i]   = "2023fallsmead/20240408_1";
     this[1][i++] = (["Watching solar eclipse after "+pagelink("2023fallsmead","school"),pagelink("2023fallsmead","放学后")+"看日食"])[cn_ind];
     this[0][i]   = ["2405outerbank/2405outerbank_4","2405outerbank/2405outerbank_9","20240526"];
     this[1][i++] = pagelink("2405outerbank",(["Memorial Day weekend on Outer Banks, North Carolina","纪念日周末在北卡罗莱纳州外滩度假"])[cn_ind]);
