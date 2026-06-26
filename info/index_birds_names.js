@@ -187,6 +187,7 @@ var birds = myBirds([
     ["1602280929","PHASIANI","Wild Turkey","火鸡","Meleagris gallopavo",["1604asheville,1","2403cobird,45"],["ncncnc","S164332729",nps("blri","Female,Blue Ridge Parkway"),"蓝岭公路","cococo","S166155133",spot("L268780","Waterton Canyon,Littleton")],353],
     ["1609150853","PHASIANI","Ruffed Grouse","披肩榛鸡","Bonasa umbellus",["1609vcbird,10"],["usausa","S164258252",spot("L207476","Wenlock WMA,Essex County,Vermont")],355],
     ["2306161521","PHASIANI","Rock Ptarmigan","岩雷鸟","Lagopus muta",["2306isbird,17"],["iswesf","S141725260","Male,Strandavegur","Strandavegur路"],372],
+//  ["2606270000","PHASIANI","Willow Ptarmigan","柳雷鸟","Lagopus lagopus",[""],["papapa","",spot("L129756","Female,Presque Isle SP,Erie"),"伊利市普雷斯克岛SP"],373],
     ["1709020851","PHASIANI","Spruce Grouse","枞树镰翅鸡","Canachites canadensis",["1709algonquin,10,8,9"],["caalgp","S164039058","Male","caalgp","S164039058","Female","caalgp","S164039058","Mating display"],359],
     ["1701290929","PHASIANI","Common Pheasant","雉鸡","Phasianus colchicus",["211121_131","211127_134","2508itbird,5","1704longyan,12"],["mdmdmd","S165032906",(t1="Male,Park Heights Avenue,Baltimore County"),(t2="公园高地大街"),"mdmdmd","S165032906",t1,t2,"ittusc","S266684654","Male,Fucecchio Marsh","cnlynv","S164149236","Female"],"RINPHE1",520],
     ["2205021011","PHASIANI","Indian Peafowl","蓝孔雀","Pavo cristatus",["2204flbird,34,35"],["flmiam","5/2022,S108777458",spot("L127422","Male,Crandon Park")],534],
