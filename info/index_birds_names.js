@@ -104,6 +104,7 @@ var lurls = {arb:["","","",""],
 };
 
 //info format: ["locid","date,checklistID","beforeEng","afterChn","beforeChn","afterEng"]
+//for English info, if upper case, use allaboutbirds, if lower case, use ebird
 //chinese info: https://dongniao.net/taxonomy_tree.html
 var birds = myBirds([
     ["2604031356","STRUTHIO","Common Ostrich","非洲鸵鸟","Struthio camelus",["2604mobird,79,78"],["morsnp","S316341416","Male","morsnp","S316341416","Female"],"ostric2",0],
