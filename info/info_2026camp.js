@@ -40,7 +40,9 @@ function initAlbum(){
     this[0][i]    = "20260629_1";
     this[1][i++]  = (["Visiting the Smithonian's National Air and Space Museum Udvar-Hazy Center in Chantilly, Virginia","参观位于弗吉尼亚州尚蒂利的国家航空航天博物馆乌德沃尔-哈齐中心"])[cn_ind];
     this[0][i]    = "20260701_1";
-    this[1][i++]  = (["Visiting the Gunpowder Falls State Park in Middle River, Maryland","参观马里兰州的火药瀑布州立公园"])[cn_ind];
+    this[1][i++]  = (["Visiting the Gunpowder Falls State Park Hammerman Area in Middle River, Maryland","在马里兰州的火药瀑布州立公园的沙滩上玩"])[cn_ind];
+//    this[0][i]    = "20260702_1";
+//    this[1][i++]  = (["Visiting the Atlantis Waterpark in Centreville, Virginia","在弗吉尼亚州森特维尔的亚特兰蒂斯水上乐园玩"])[cn_ind];
 
     adddate(this);
 }
