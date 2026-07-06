@@ -37,7 +37,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2025camp","6/2025-8/2025 Summer Camp","6/2025-8/2025 夏令营"],["2508italy","8/2025 Vacationing in Italy","8/2025 在意大利度假"],
                   ["2510blackwater","10/2025 Blackwater Falls State Park","10/2025 黑水瀑布州立公园"],["2510tot","10/2025 Trick-or-Treating","10/2025 万圣节讨糖"],
                   ["2512jamaica","12/2025 Vacationing in Jamaica","12/2025 在牙买加度假"],["2601snowtube","1/2026 Snow Tubing","1/2026 轮胎滑雪"],
-                  ["2603morocco","3/2026 Vacationing in Morocco","3/2026 在摩洛哥度春假"],
+                  ["2603morocco","3/2026 Vacationing in Morocco","3/2026 在摩洛哥度春假"],["2607hhsp","7/2026 Hocking Hills State Park","7/2026 霍金山州立公园"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"],
                   ["2026camp","6/2026-"+strDate+" Summer Camp","6/2026-"+strDate+" 夏令营"]];
 if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
@@ -512,6 +512,8 @@ function initAlbum(){
     this[1][i++] = (["Making a balloon powered race car at NIST Engineering Challenge during the Take Our Kids To Work Day (Nathan's team won the challenge)","在“带孩子上班日”参加NIST工程挑战赛，制作气球动力赛车，球球所在的团队赢得了挑战赛冠军"])[cn_ind];
     this[0][i]   = "2026camp/20260624_3";
     this[1][i++] = (["Visiting National Children's Museum in Washington, D.C. during the "+pagelink("2026camp","2026 summer camp"),pagelink("2026camp","2026夏令营")+"时参观华盛顿特区的国家儿童博物馆"])[cn_ind];
+    this[0][i]   = ["2607hhsp/2607hhsp_3","20260704"];
+    this[1][i++] = pagelink("2607hhsp",(["Visiting Hocking Hills State Park in Ohio on Independence Day","独立日游俄亥俄州霍金山州立公园"])[cn_ind]);
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
