@@ -44,6 +44,9 @@ function initAlbum(){
     this[0][i]    = "20260702_1";
     this[1][i++]  = (["Visiting the Atlantis Waterpark in Centreville, Virginia","在弗吉尼亚州森特维尔的亚特兰蒂斯水上乐园游泳"])[cn_ind];
 
+ //   this[0][i]    = "20260706_1";
+ //   this[1][i++]  = (["Ziplining at the Adventure Park in Sandy Spring, Maryland","在马里兰州桑迪斯普林的探险公园体验高空滑索"])[cn_ind];
+
     adddate(this);
 }
 

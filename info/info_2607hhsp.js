@@ -57,7 +57,7 @@ function initAlbum(){
         this[1][2] = "Walking across the stone bridge over the Devil's Bathtub.";
         this[1][3] = "Sandstone caves on the wall of the gorge.";
         this[1][4] = "A-Frame Bridge over the gorge.";
-        this[1][5] = "Old Man's Cave.";
+        this[1][5] = "Old Man's Cave, named after a hermit who lived here in the 18th century.";
         this[1][6] = "Old Man's Cave.";
         this[1][7] = "Photo of Daddy and Mommy by Nathan.";
         this[1][8] = "Old Man's Cave.";
