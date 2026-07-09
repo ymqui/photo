@@ -53,6 +53,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260707_3";
     this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
+    this[0][i]    = "20260707_4";
+    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260708_1";
     this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
     this[0][i]    = "20260708_2";
