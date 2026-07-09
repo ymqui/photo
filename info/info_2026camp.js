@@ -59,6 +59,11 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
     this[0][i]    = "20260708_2";
     this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
+    this[0][i]    = "20260708_3";
+    this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
+
+//    this[0][i]    = "20260709_1";
+//    this[1][i++]  = (["Visiting the Patapsco Valley State Park in Maryland","在马里兰州的帕塔普斯科河谷州立公园玩"])[cn_ind];
 
     adddate(this);
 }
