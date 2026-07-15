@@ -48,13 +48,13 @@ function initAlbum(){
     this[0][i]    = "20260706_2";
     this[1][i++]  = (["Ziplining at the Adventure Park in Sandy Spring, Maryland","在马里兰州桑迪斯普林的探险公园体验高空滑索"])[cn_ind];
     this[0][i]    = "20260707_1";
-    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
+    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260707_2";
-    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
+    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260707_3";
-    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
+    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260707_4";
-    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观在巴尔的摩的马里兰动物园"])[cn_ind];
+    this[1][i++]  = (["Visiting the Maryland Zoo in Baltimore","参观巴尔的摩的马里兰动物园"])[cn_ind];
     this[0][i]    = "20260708_1";
     this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
     this[0][i]    = "20260708_2";
@@ -63,8 +63,17 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Fort Smallwood Park in Pasadena, Maryland","在马里兰州的斯莫伍德堡公园玩"])[cn_ind];
     this[0][i]    = "20260709_1";
     this[1][i++]  = (["Visiting the Patapsco Valley State Park in Maryland","在马里兰州的帕塔普斯科河谷州立公园玩"])[cn_ind];
-//    this[0][i]    = "20260713_1";
-//    this[1][i++]  = (["Visiting the Water Mine Family Swimming Hole in Reston, Virginia","在弗吉尼亚州雷斯顿的“水矿”游泳乐园游泳"])[cn_ind];
+    this[0][i]    = "20260714_1";
+    this[1][i++]  = (["Visiting the Zavazone in Rockville, Maryland","在马里兰州罗克维尔市的室内蹦床游乐中心玩"])[cn_ind];
+    this[0][i]    = "20260714_2";
+    this[1][i++]  = (["Visiting the Zavazone in Rockville, Maryland","在马里兰州罗克维尔市的室内蹦床游乐中心玩"])[cn_ind];
+    this[0][i]    = "20260715_1";
+    this[1][i++]  = (["Visiting the Rocky Point Park in Essex, Maryland","在马里兰州的洛基角公园的沙滩上玩"])[cn_ind];
+    this[0][i]    = "20260715_2";
+    this[1][i++]  = (["Visiting the Rocky Point Park in Essex, Maryland","在马里兰州的洛基角公园的沙滩上玩"])[cn_ind];
+
+//    this[0][i]    = "20260716_1";
+//    this[1][i++]  = (["Visiting the National Aquarium in Baltimore","参观巴尔的摩的国家水族馆"])[cn_ind];
 
     adddate(this);
 }
