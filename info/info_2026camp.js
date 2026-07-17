@@ -73,9 +73,10 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Rocky Point Park in Essex, Maryland","在马里兰州的洛基角公园的沙滩上玩"])[cn_ind];
     this[0][i]    = "20260715_3";
     this[1][i++]  = (["Enjoying a cup of frozen yogurt at SweetFrog","在甜蛙(SweetFrog)冻酸奶店吃冻酸奶"])[cn_ind];
-
-//    this[0][i]    = "20260716_1";
-//    this[1][i++]  = (["Visiting the National Aquarium in Baltimore","参观巴尔的摩的国家水族馆"])[cn_ind];
+    this[0][i]    = "20260716_1";
+    this[1][i++]  = (["Visiting the National Aquarium in Baltimore","参观巴尔的摩的国家水族馆"])[cn_ind];
+    this[0][i]    = "20260716_2";
+    this[1][i++]  = (["Taking pictures of camp friends in the National Aquarium in Baltimore","在巴尔的摩国家水族馆给夏令营的朋友们拍照"])[cn_ind];
 
     adddate(this);
 }
