@@ -78,7 +78,7 @@ function initAlbum(){
     this[0][i]    = "20260716_2";
     this[1][i++]  = (["Taking pictures of camper friends in the National Aquarium in Baltimore","在巴尔的摩国家水族馆给夏令营的朋友们拍照"])[cn_ind];
     this[0][i]    = "20260717_1";
-    this[1][i++]  = (["Bowling during the summer camp","打保龄球"])[cn_ind];
+    this[1][i++]  = (["Bowling at Lucky Strike Rockville","在罗克维尔市的Lucky Strike保龄球馆打保龄球"])[cn_ind];
 
     adddate(this);
 }
