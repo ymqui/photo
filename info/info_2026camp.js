@@ -81,6 +81,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the National Aquarium in Baltimore","参观巴尔的摩的国家水族馆"])[cn_ind];
     this[0][i]    = "20260717_1";
     this[1][i++]  = (["Bowling at Lucky Strike Rockville","在罗克维尔市的Lucky Strike保龄球馆打保龄球"])[cn_ind];
+    this[0][i]    = "20260720_1";
+    this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
 
     adddate(this);
 }
