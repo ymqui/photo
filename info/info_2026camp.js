@@ -83,6 +83,10 @@ function initAlbum(){
     this[1][i++]  = (["Bowling at Lucky Strike Rockville","在罗克维尔市的Lucky Strike保龄球馆打保龄球"])[cn_ind];
     this[0][i]    = "20260720_1";
     this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
+    this[0][i]    = "20260720_2";
+    this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
+    this[0][i]    = "20260720_3";
+    this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
 
     adddate(this);
 }
