@@ -87,6 +87,10 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
     this[0][i]    = "20260720_3";
     this[1][i++]  = (["Visiting the Great Falls Park in Potomac, Maryland","游马里兰州一侧的大瀑布公园"])[cn_ind];
+    this[0][i]    = "20260722_1";
+    this[1][i++]  = (["Bus ride","乘车的途中"])[cn_ind];
+    this[0][i]    = "20260722_2";
+    this[1][i++]  = (["Painting a giant panda","画一只大熊猫"])[cn_ind];
 
     adddate(this);
 }
