@@ -93,9 +93,10 @@ function initAlbum(){
     this[1][i++]  = (["Painting a giant panda at the canvas paint party","画一只大熊猫"])[cn_ind];
 //    this[0][i]    = "20260723_1";
 //    this[1][i++]  = (["River tubing","河流漂流"])[cn_ind];
-
-//    this[0][i]    = "20260724_1";
-//    this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","游马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)"])[cn_ind];
+    this[0][i]    = "20260724_1";
+    this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","在马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)玩"])[cn_ind];
+    this[0][i]    = "20260724_2";
+    this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","在马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)玩"])[cn_ind];
 
     adddate(this);
 }
