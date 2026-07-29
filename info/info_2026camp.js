@@ -99,6 +99,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","在马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)玩"])[cn_ind];
     this[0][i]    = "20260729_1";
     this[1][i++]  = (["Watching a Frederick Keys baseball game in Frederick, Maryland","在马里兰州弗雷德里克观看弗雷德里克钥匙队的棒球比赛"])[cn_ind];
+    this[0][i]    = "20260729_2";
+    this[1][i++]  = (["Watching a Frederick Keys baseball game in Frederick, Maryland","在马里兰州弗雷德里克观看弗雷德里克钥匙队的棒球比赛"])[cn_ind];
 
     adddate(this);
 }
