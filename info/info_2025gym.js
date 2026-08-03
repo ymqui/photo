@@ -97,6 +97,10 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = "20260725_3";
     this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20260801_1","20260801_2","20260801_3"];
+    this[1][i++]  = tmptxt1;
+    this[0][i]    = ["20260801_4","20260801_5"];
+    this[1][i++]  = tmptxt1;
 
     adddate(this);
 }
