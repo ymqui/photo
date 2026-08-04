@@ -314,7 +314,7 @@ function cornellurl(bid){
 
 function ebirdurl(bid){
     if (bid===bid.toUpperCase()) return cornellurl(bid);
-    return "https://ebird.org/species/"+bid.trim()+"/";
+    return "https://ebird.org/species/"+bid.trim();
 }
 
 function spot(id,name){
