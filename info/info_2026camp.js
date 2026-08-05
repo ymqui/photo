@@ -97,10 +97,24 @@ function initAlbum(){
     this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","在马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)玩"])[cn_ind];
     this[0][i]    = "20260724_2";
     this[1][i++]  = (["Visiting the Wonderfly Arena in Arbutus, Maryland","在马里兰州阿布图斯的神奇飞蝇游乐场(Wonderfly Arena)玩"])[cn_ind];
+    this[0][i]    = "20260727_1";
+    this[1][i++]  = (["Visiting the Gunpowder Falls State Park Hammerman Area in Middle River, Maryland","在马里兰州的火药瀑布州立公园玩"])[cn_ind];
+    this[0][i]    = "20260728_1";
+    this[1][i++]  = (["Climbing in ClimbZone in Laurel, Maryland","在马里兰州劳雷尔市的ClimbZone攀岩"])[cn_ind];
     this[0][i]    = "20260729_1";
     this[1][i++]  = (["Watching a Frederick Keys baseball game in Frederick, Maryland","在马里兰州弗雷德里克观看弗雷德里克钥匙队的棒球比赛"])[cn_ind];
     this[0][i]    = "20260729_2";
     this[1][i++]  = (["Watching a Frederick Keys baseball game in Frederick, Maryland","在马里兰州弗雷德里克观看弗雷德里克钥匙队的棒球比赛"])[cn_ind];
+    this[0][i]    = "20260730_1";
+    this[1][i++]  = (["Playing golf at Topgolf Germantown","在德国镇顶尖高尔夫娱乐中心(Topgolf)打高尔夫球"])[cn_ind];
+    this[0][i]    = "20260731_1";
+    this[1][i++]  = (["Visiting the Maryland Science Center in Baltimore","参观巴尔的摩的马里兰科学中心"])[cn_ind];
+    this[0][i]    = "20260731_2";
+    this[1][i++]  = (["Visiting the Maryland Science Center in Baltimore","参观巴尔的摩的马里兰科学中心"])[cn_ind];
+    this[0][i]    = "20260731_3";
+    this[1][i++]  = (["Visiting the Maryland Science Center in Baltimore","参观巴尔的摩的马里兰科学中心"])[cn_ind];
+    this[0][i]    = "20260731_4";
+    this[1][i++]  = (["Visiting the Maryland Science Center in Baltimore","参观巴尔的摩的马里兰科学中心"])[cn_ind];
 
     adddate(this);
 }
