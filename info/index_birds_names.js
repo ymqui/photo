@@ -1026,7 +1026,7 @@ var birds = myBirds([
     ["2603310751","PASSERID","Desert Sparrow","荒漠麻雀","Passer simplex",["2604mobird,30"],["mormer","3/2026,S315011524","Female,Erg Chebbi"],"desspa3",9378],
     ["2508191615","PASSERID","Italian Sparrow","意大利麻雀","Passer italiae",["2508itbird,87,86"],["itvibo","S268258186","Male","itvibo","S268258186","Female"],"itaspa1",9358],
     ["1501040712","PASSERID","House Sparrow","家麻雀","Passer domesticus",["150315_032","150315_031","2604mobird,82"],["mdmdmd","S165217063","M"+(t1="ale,Havre de Grace"),(t2="哈佛德格雷斯市"),"mdmdmd","S165217063","Fem"+t1,t2,"morsnp","S316341416","Nest"],9357],
-    ["1601121504","MOTACILL","Grey Wagtail","灰鹡鸰","Motacilla cinerea",["2312cnbird,85","2604mobird,52"],["cnzjjs","S157756774","Nianbadu","morouk","S315626805"],"grywag",9696],
+    ["1601121504","MOTACILL","Grey Wagtail","灰鹡鸰","Motacilla cinerea",["2312cnbird,85","2604mobird,52"],["cnzjjs","S157756774","Nianbadu","morouk","S315626805","Aurocher Hotel"],"grywag",9696],
     ["2508110834","MOTACILL","Western Yellow Wagtail","西黄鹡鸰","Motacilla flava",["2604mobird,23","2508itbird,10"],["mormer","3/2026,S315011524","Male,Erg Chebbi","ittusc","S266684654","Female,Fucecchio Marsh"],"eaywag1",9691],
     ["1601060942","MOTACILL","White Wagtail","白鹡鸰","Motacilla alba",["2312cnbird,65,58","2306isbird,16","2308ukbird,24","2312cnbird,130","2508itbird,18","2604mobird,36"],["cnzjjs","S157748283","Wanyao Reservior","碗窑水库","cnjsxp","S157746788","iswesf","S141713912","Drangsnes","ukston","S146716357","jphaap","S157775175","ittusc","S266684864","Bocca di Serchio","mormor","S315429348","Ouarzazate,Drâa-Tafilalet"],9698],
     ["2408150715","MOTACILL","Tree Pipit","林鹨","Anthus trivialis",["2408frbird,9,10"],["frcolc","S191506731"],"trepip",9726],
