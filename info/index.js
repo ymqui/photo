@@ -1999,5 +1999,5 @@
   var sc_security  = "b5d0bd3f";
 
   //date
-  var modDat = new Date("2026-04-14T08:00:00");
+  var modDat = new Date("2026-08-08T08:00:00");
 //-->
