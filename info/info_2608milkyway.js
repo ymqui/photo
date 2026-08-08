@@ -27,7 +27,7 @@ function initAlbum(){
         this[1][i] = "";
     }
     if(window.usechinese){
-        this[1][0] = "马里兰州柏林市的阿萨蒂格岛国家海岸看到的银河。;
+        this[1][0] = "马里兰州柏林市的阿萨蒂格岛国家海岸看到的银河。";
         this[1][10] = "露营帐篷。";
     }else{
         this[1][0] = "Milky Way seen from Assateague Island National Seashore in Berlin, Maryland.";
