@@ -1411,6 +1411,11 @@
   info[2][j] = 2;
   info[3][j] = "3/2026 Morocco Birding";
   info[4][j++] = "Birding in Morocco (Morocco).";
+  info[0][j] = "2608milkyway";
+  info[1][j] = 3;
+  info[2][j] = 2;
+  info[3][j] = "8/2026 Milky Way";
+  info[4][j++] = "Milky Way from Assateague Island (Maryland).";
 
   if(window.usechinese){
      j = 0;
@@ -1974,6 +1979,8 @@
      info[4][j++] = "在牙买加观鸟(牙买加)。";
      info[3][j]   = "3/2026 摩洛哥观鸟";
      info[4][j++] = "在摩洛哥观鸟(摩洛哥)。";
+     info[3][j]   = "8/2026 银河";
+     info[4][j++] = "在阿萨蒂格岛看银河(马里兰州)。";
   } 
 
   //special touch
