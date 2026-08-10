@@ -21,13 +21,13 @@ function initAlbum(){
     this[0][i]    = "20260804_001_IAD";
     this[1][i++]  = (["Waiting at Washington Dulles International Airport for the flight to Seoul","在华盛顿杜勒斯国际机场等候飞往首尔的航班"])[cn_ind];
     this[0][i]    = "20260805_002_ICN";
-    this[1][i++]  = (["Having dinner at Incheon International Airport in Korea","在韩国仁川国际机场吃晚餐"])[cn_ind];
+    this[1][i++]  = (["Having dinner during a layover at Incheon International Airport in Korea","在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
     this[0][i]    = "20260805_003_ICN";
-    this[1][i++]  = (["Having dinner at Incheon International Airport in Korea","在韩国仁川国际机场吃晚餐"])[cn_ind];
+    this[1][i++]  = (["Having dinner during a layover at Incheon International Airport in Korea","在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
     this[0][i]    = "20260805_004_ICN";
-    this[1][i++]  = (["Having dinner at Incheon International Airport in Korea","在韩国仁川国际机场吃晚餐"])[cn_ind];
+    this[1][i++]  = (["Having dinner during a layover at Incheon International Airport in Korea","在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
     this[0][i]    = "20260806_005_ICN";
-    this[1][i++]  = (["Eating breakfast at Incheon International Airport in Korea","在韩国仁川国际机场吃早餐"])[cn_ind];
+    this[1][i++]  = (["Eating breakfast during a layover at Incheon International Airport in Korea","在韩国仁川国际机场转机期间吃早餐"])[cn_ind];
     this[0][i]    = ["20260809_006_Longyan","20260809_007_Longyan"];
     this[1][i++]  = (["Playing a claw machine in Longyan, Fujian","在福建龙岩玩抓娃娃机"])[cn_ind];
     this[0][i]    = ["20260810_008_Jiangshan","20260810_009_Jiangshan"];
