@@ -514,6 +514,8 @@ function initAlbum(){
     this[1][i++] = (["Visiting National Children's Museum in Washington, D.C. during the "+pagelink("2026camp","2026 summer camp"),pagelink("2026camp","2026夏令营")+"时参观华盛顿特区的国家儿童博物馆"])[cn_ind];
     this[0][i]   = ["2607hhsp/2607hhsp_3","2607hhsp/2607hhsp_10","20260704"];
     this[1][i++] = pagelink("2607hhsp",(["Visiting Hocking Hills State Park in Ohio on Independence Day","独立日游俄亥俄州霍金山州立公园"])[cn_ind]);
+    this[0][i]   = "2608china/20260805_002_ICN";
+    this[1][i++] = (["Having dinner during a layover at Incheon International Airport in Korea at the "+pagelink("2608china","Trip to China"),pagelink("2608china","去中国度假")+"时在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
