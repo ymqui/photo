@@ -19,7 +19,7 @@ function initAlbum(){
     this[1] = new Array();  //store file infos,shown as browser status
     i = 0;
     this[0][i]    = "20260804_001_IAD";
-    this[1][i++]  = (["Waiting at Washington Dulles International Airport for the flight to Seoul","在华盛顿杜勒斯国际机场等候飞往首尔的航班"])[cn_ind];
+    this[1][i++]  = (["Reading while waiting at Washington Dulles International Airport for the flight to Seoul","在华盛顿杜勒斯国际机场等候飞往首尔的航班"])[cn_ind];
     this[0][i]    = "20260805_002_ICN";
     this[1][i++]  = (["Having dinner during a layover at Incheon International Airport in Korea","在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
     this[0][i]    = "20260805_003_ICN";
@@ -38,6 +38,10 @@ function initAlbum(){
     this[1][i++]  = (["Meeting Mommy's middle school classmates in Jiangshan, Zhejiang","在浙江江山和妈妈的初中同学见面"])[cn_ind];
     this[0][i]    = "20260810_012_Jiangshan";
     this[1][i++]  = (["At Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家"])[cn_ind];
+ //   this[0][i]    = "20260811_013_Jiangshan";
+ //   this[1][i++]  = (["Meeting cousin at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家见到表姐"])[cn_ind];
+    this[0][i]    = "20260811_014_Jiangshan";
+    this[1][i++]  = (["Helping with the laundary at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家帮忙挂衣服"])[cn_ind];
 
     adddate(this);
 }
