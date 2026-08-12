@@ -42,6 +42,8 @@ function initAlbum(){
     this[1][i++]  = (["Meeting Mommy's childhood friend at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家见到妈妈的儿时好友"])[cn_ind];
     this[0][i]    = "20260811_014_Jiangshan";
     this[1][i++]  = (["Helping with the laundary at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家帮忙挂衣服"])[cn_ind];
+    this[0][i]    = "20260812_015_Jiangshan";
+    this[1][i++]  = (["Having a bite of a piece of pear out of Grandpa's hand in Jiangshan, Zhejiang","在浙江江山吃外公手里的梨"])[cn_ind];
 
     adddate(this);
 }
