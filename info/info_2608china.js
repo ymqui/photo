@@ -38,8 +38,8 @@ function initAlbum(){
     this[1][i++]  = (["Meeting Mommy's middle school classmates in Jiangshan, Zhejiang","在浙江江山和妈妈的初中同学见面"])[cn_ind];
     this[0][i]    = "20260810_012_Jiangshan";
     this[1][i++]  = (["At Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家"])[cn_ind];
- //   this[0][i]    = "20260811_013_Jiangshan";
- //   this[1][i++]  = (["Meeting cousin at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家见到表姐"])[cn_ind];
+    this[0][i]    = "20260811_013_Jiangshan";
+    this[1][i++]  = (["Meeting Mommy's childhood friend at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家见到妈妈的儿时好友"])[cn_ind];
     this[0][i]    = "20260811_014_Jiangshan";
     this[1][i++]  = (["Helping with the laundary at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家帮忙挂衣服"])[cn_ind];
 
