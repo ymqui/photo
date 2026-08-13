@@ -44,6 +44,24 @@ function initAlbum(){
     this[1][i++]  = (["Helping with the laundary at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家帮忙挂衣服"])[cn_ind];
     this[0][i]    = "20260812_015_Jiangshan";
     this[1][i++]  = (["Biting a piece of pear out of Grandpa's hand in Jiangshan, Zhejiang","在浙江江山吃外公手里的梨"])[cn_ind];
+    this[0][i]    = "20260812_016_Quzhou";
+    this[1][i++]  = (["Visiting Shui Ting Men in Quzhou, Zhejiang","游浙江衢州水亭门"])[cn_ind];
+    this[0][i]    = ["20260812_017_Quzhou","20260812_018_Quzhou"];
+    this[1][i++]  = (["Visiting the Shui Ting Men historic art district in Quzhou, Zhejiang","游浙江衢州水亭门历史文化街区"])[cn_ind];
+    this[0][i]    = ["20260812_019_Quzhou","20260812_020_Quzhou"];
+    this[1][i++]  = (["Taking part in hands-on activity at a craft store at Shui Ting Men historic art district in Quzhou, Zhejiang","在浙江衢州水亭门历史文化街区的一家手工艺品店参与手工制作活动"])[cn_ind];
+    this[0][i]    = "20260812_021_Quzhou";
+    this[1][i++]  = (["Taking part in hands-on activity at a craft store at Shui Ting Men historic art district in Quzhou, Zhejiang","在浙江衢州水亭门历史文化街区的一家手工艺品店参与手工制作活动"])[cn_ind];
+    this[0][i]    = "20260812_022_Quzhou";
+    this[1][i++]  = (["Taking part in hands-on activity at a craft store at Shui Ting Men historic art district in Quzhou, Zhejiang","在浙江衢州水亭门历史文化街区的一家手工艺品店参与手工制作活动"])[cn_ind];
+    this[0][i]    = "20260812_023_Quzhou";
+    this[1][i++]  = (["Swimming in the hotel swimming pool in Quzhou, Zhejiang","在浙江衢州的酒店泳池游泳"])[cn_ind];
+    this[0][i]    = "20260812_024_Quzhou";
+    this[1][i++]  = (["Meeting niece Eva in Quzhou, Zhejiang","在浙江衢州和侄女果冻见面"])[cn_ind];
+    this[0][i]    = "20260813_025_Jiangshan";
+    this[1][i++]  = (["Hugging a Labubu given by cousin at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家抱着表哥送的Labubu"])[cn_ind];
+    this[0][i]    = "20260813_026_Jiangshan";
+    this[1][i++]  = (["At Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家"])[cn_ind];
 
     adddate(this);
 }
