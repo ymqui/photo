@@ -64,6 +64,8 @@ function initAlbum(){
     this[1][i++]  = (["Visiting Nanjing Road in Shanghai","逛上海南京路"])[cn_ind];
     this[0][i]    = "20260814_028_Shanghai";
     this[1][i++]  = (["Receiving another Labubu gift from Auntie Xiaoqing in Shanghai","上海小青阿姨送的拉布布"])[cn_ind];
+    this[0][i]    = ["20260814_029_Shanghai","20260814_030_Shanghai"];
+    this[1][i++]  = (["Enjoying a delicious dinner in Shanghai","在上海享用美味晚餐"])[cn_ind];
 
     adddate(this);
 }
