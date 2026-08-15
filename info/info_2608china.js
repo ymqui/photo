@@ -58,13 +58,21 @@ function initAlbum(){
     this[1][i++]  = (["Swimming in the hotel swimming pool in Quzhou, Zhejiang","在浙江衢州的酒店泳池游泳"])[cn_ind];
     this[0][i]    = "20260812_024_Quzhou";
     this[1][i++]  = (["Meeting niece Eva in Quzhou, Zhejiang","在浙江衢州和侄女果冻见面"])[cn_ind];
-    this[0][i]    = "20260813_025_Jiangshan";
+    this[0][i]    = "20260812_025_Quzhou";
+    this[1][i++]  = (["Playing with niece Eva in Quzhou, Zhejiang","在浙江衢州和侄女果冻一块玩"])[cn_ind];
+    this[0][i]    = "20260812_026_Quzhou";
+    this[1][i++]  = (["Playing with niece Eva in Quzhou, Zhejiang","在浙江衢州和侄女果冻一块玩"])[cn_ind];
+    this[0][i]    = "20260813_027_Jiangshan";
     this[1][i++]  = (["Hugging a Labubu given by cousin at Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家抱着表哥送的拉布布"])[cn_ind];
-    this[0][i]    = "20260814_027_Shanghai";
+    this[0][i]    = "20260813_028_Jiangshan";
+    this[1][i++]  = (["At Grandparents' house in Jiangshan, Zhejiang","在浙江江山的外公外婆家"])[cn_ind];
+    this[0][i]    = "20260814_029_Shanghai";
     this[1][i++]  = (["Visiting Nanjing Road in Shanghai","逛上海南京路"])[cn_ind];
-    this[0][i]    = "20260814_028_Shanghai";
+    this[0][i]    = ["20260814_030_Shanghai","20260814_031_Shanghai"];
+    this[1][i++]  = (["Visiting a toy store in Shanghai","逛上海南京路的一家玩具店"])[cn_ind];
+    this[0][i]    = "20260814_032_Shanghai";
     this[1][i++]  = (["Receiving another Labubu gift from Auntie Xiaoqing in Shanghai","上海小青阿姨送的拉布布"])[cn_ind];
-    this[0][i]    = ["20260814_029_Shanghai","20260814_030_Shanghai"];
+    this[0][i]    = ["20260814_033_Shanghai","20260814_034_Shanghai"];
     this[1][i++]  = (["Enjoying a delicious dinner in Shanghai","在上海享用美味晚餐"])[cn_ind];
 
     adddate(this);
