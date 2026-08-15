@@ -71,7 +71,7 @@ function initAlbum(){
     this[0][i]    = ["20260814_030_Shanghai","20260814_031_Shanghai"];
     this[1][i++]  = (["Visiting a toy store in Shanghai","逛上海南京路的一家玩具店"])[cn_ind];
     this[0][i]    = "20260814_032_Shanghai";
-    this[1][i++]  = (["Receiving another Labubu gift from Auntie Xiaoqing in Shanghai","上海小青阿姨送的拉布布"])[cn_ind];
+    this[1][i++]  = (["Receiving another Labubu gift from Auntie Xiaoqing in Shanghai","上海小清阿姨送的拉布布"])[cn_ind];
     this[0][i]    = ["20260814_033_Shanghai","20260814_034_Shanghai"];
     this[1][i++]  = (["Enjoying a delicious dinner in Shanghai","在上海享用美味晚餐"])[cn_ind];
 
