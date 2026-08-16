@@ -71,9 +71,31 @@ function initAlbum(){
     this[0][i]    = ["20260814_030_Shanghai","20260814_031_Shanghai"];
     this[1][i++]  = (["Visiting a toy store in Shanghai","逛上海南京路的一家玩具店"])[cn_ind];
     this[0][i]    = "20260814_032_Shanghai";
-    this[1][i++]  = (["Receiving another Labubu gift from Auntie Xiaoqing in Shanghai","上海小清阿姨送的拉布布"])[cn_ind];
+    this[1][i++]  = (["Showing off another Labubu bought in Shanghai","炫耀一下在上海买的另一个拉布布"])[cn_ind];
     this[0][i]    = ["20260814_033_Shanghai","20260814_034_Shanghai"];
     this[1][i++]  = (["Enjoying a delicious dinner in Shanghai","在上海享用美味晚餐"])[cn_ind];
+    this[0][i]    = "20260815_035_Beijing";
+    this[1][i++]  = (["Hugging the gift from Auntie Rongrong in Beijing","北京蓉蓉阿姨送的礼物"])[cn_ind];
+    this[0][i]    = "20260815_036_Beijing";
+    this[1][i++]  = (["Hugging the gift from Auntie Rongrong in Beijing","北京蓉蓉阿姨送的礼物"])[cn_ind];
+    this[0][i]    = "20260815_037_Beijing";
+    this[1][i++]  = (["Walking with Tiantian on the street in Beijing","在北京和天天手牵手过马路"])[cn_ind];
+    this[0][i]    = ["20260815_038_Beijing","20260815_040_Beijing"];
+    this[1][i++]  = (["Having dinner at a restaurant in Beijing","在北京一家餐馆吃晚饭"])[cn_ind];
+    this[0][i]    = "20260815_039_Beijing";
+    this[1][i++]  = (["Enjoying the Peking duck at a restaurant in Beijing","吃到正宗的北京鸭"])[cn_ind];
+    this[0][i]    = ["20260816_041_Beijing","20260816_042_Beijing"];
+    this[1][i++]  = (["Visiting the Forbidden City in Beijing","游览北京故宫"])[cn_ind];
+    this[0][i]    = "20260816_043_Beijing";
+    this[1][i++]  = (["Visiting the Forbidden City in Beijing","游览北京故宫"])[cn_ind];
+    this[0][i]    = "20260816_044_Beijing";
+    this[1][i++]  = (["Visiting the Forbidden City in Beijing","游览北京故宫"])[cn_ind];
+    this[0][i]    = "20260816_045_Beijing";
+    this[1][i++]  = (["Having lunch at a restaurant in Beijing","在北京一家餐馆和天天和肉肉哥哥吃午饭"])[cn_ind];
+    this[0][i]    = "20260816_046_Beijing";
+    this[1][i++]  = (["Visiting Wangfujing Street in Beijing","逛北京王府井大街"])[cn_ind];
+    this[0][i]    = "20260816_047_Beijing";
+    this[1][i++]  = (["Having dinner at a restaurant in Beijing","在北京一家餐馆吃晚饭"])[cn_ind];
 
     adddate(this);
 }
