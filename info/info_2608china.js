@@ -96,6 +96,12 @@ function initAlbum(){
     this[1][i++]  = (["Visiting Wangfujing Street in Beijing","逛北京王府井大街"])[cn_ind];
     this[0][i]    = "20260816_047_Beijing";
     this[1][i++]  = (["Having dinner at a restaurant in Beijing","在北京一家餐馆吃晚饭"])[cn_ind];
+    this[0][i]    = "20260817_048_Beijing";
+    this[1][i++]  = (["Enjoying a skewer of Tanghulu in Beijing","在北京吃一串糖葫芦"])[cn_ind];
+    this[0][i]    = ["20260817_049_Beijing","20260817_050_Beijing"];
+    this[1][i++]  = (["Praying in Yonghegong in Beijing","在北京雍和宫祈福"])[cn_ind];
+    this[0][i]    = "20260817_051_Beijing";
+    this[1][i++]  = (["Playing arcade games in a shopping center in Beijing","在北京一家购物中心玩街机游戏"])[cn_ind];
 
     adddate(this);
 }
