@@ -113,7 +113,7 @@ function initAlbum(){
     this[0][i]    = "20260818_058_Beijing";
     this[1][i++]  = (["Playing games with Tiantian in Beijing","在北京和天天一起玩游戏"])[cn_ind];
     this[0][i]    = "20260818_059_Beijing";
-    this[1][i++]  = (["Hugging goodbye with Tiantian in Beijing","在北京和天天拥抱道别"])[cn_ind];
+    this[1][i++]  = (["Hugging goodbye with Tiantian in Beijing","在北京和天天道别"])[cn_ind];
 
     adddate(this);
 }
