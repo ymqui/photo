@@ -101,6 +101,10 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20260801_4","20260801_5"];
     this[1][i++]  = tmptxt1;
+    this[0][i]    = "20260822_1";
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/XbEP_1Zi0n0"),tmptxt2);
+    this[0][i]    = "20260822_2";
+    this[1][i++]  = (["Receiving a gold medal moment award from coach Nicole","教练Nicole给球球金牌时刻表扬"])[cn_ind];
 
     adddate(this);
 }
