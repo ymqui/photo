@@ -68,7 +68,16 @@ function initAlbum(){
     this[1][i++]  = (["Playing with toys","玩玩具"])[cn_ind];
     this[0][i]    = "20260301_1";
     this[1][i++]  = (["Shopping","逛超市"])[cn_ind];
-
+    this[0][i]    = "20260831_1";
+    this[1][i++]  = (["Vacationing in Dali Erhai in Yunnan Province","在云南大理洱海度假"])[cn_ind];
+    this[0][i]    = "20260901_1";
+    this[1][i++]  = (["Vacationing in Dali Erhai in Yunnan Province","在云南大理洱海度假"])[cn_ind];
+    this[0][i]    = "20260901_2";
+    this[1][i++]  = (["Vacationing in Dali Erhai in Yunnan Province","在云南大理洱海度假"])[cn_ind];
+    this[0][i]    = "20260903_1";
+    this[1][i++]  = (["Vacationing in Dali Erhai in Yunnan Province","在云南大理洱海度假"])[cn_ind];
+    this[0][i]    = "20260908_1";
+    this[1][i++]  = (["Vacationing in Dali Erhai in Yunnan Province","在云南大理洱海度假"])[cn_ind];
 
     adddate(this);
 }
