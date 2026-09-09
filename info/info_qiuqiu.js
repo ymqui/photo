@@ -39,6 +39,7 @@ var pagelist   = [["1806myrtlebeach","6/2018 Myrtle Beach, South Carolina","6/20
                   ["2512jamaica","12/2025 Vacationing in Jamaica","12/2025 在牙买加度假"],["2601snowtube","1/2026 Snow Tubing","1/2026 轮胎滑雪"],
                   ["2603morocco","3/2026 Vacationing in Morocco","3/2026 在摩洛哥度春假"],["2607hhsp","7/2026 Hocking Hills State Park","7/2026 霍金山州立公园"],
                   ["2026camp","6/2026-7/2026 Summer Camp","6/2026-7/2026 夏令营"],["2608china","8/2026 Trip to China","8/2026 中国度假"],
+                  ["2609rhodeisland","9/2026 Rhode Island","9/2026 罗德岛"],
                   ["2025gym","5/2025-"+strDate+" Dominique Dawes Gymnastics","5/2025-"+strDate+" 多米尼克·道斯体操馆"],["2023fallsmead","8/2023-"+strDate+" Fallsmead Elementary School","8/2023-"+strDate+" Fallsmead小学"]];
 if (thisyear>2032) {pagelist.push(["university","2020-"+thisyear.toString()+" Visiting Universities","2020-"+thisyear.toString()+" 参观大学"]);} 
 if (thisyear>2030) {pagelist.push(["world","2018-"+thisyear.toString()+" World Travel","2018-"+thisyear.toString()+" 环游世界"]); } 
