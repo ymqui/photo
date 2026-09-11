@@ -1,6 +1,6 @@
 <!--
 //date
-var modTim = modTime("2026-07-05",10);
+var modTim = modTime("2026-09-10",10);
 
 //location urls
 var lurls = {arb:["","","",""],
@@ -332,7 +332,7 @@ var birds = myBirds([
 //  ["2600000000","DROMADID","Crab-plover","蟹鸻","Dromas ardeola",[],["arb",""],"craplo1",1467],
 //  ["2600000000","GLAREOLI","Collared Pratincole","领燕鸻","Glareola pratincola",["2604mobird,"],["morsnp",""],"colpra",1669],
     ["2108110838","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",["2306isbird,63,64,65","2108racepoint,3"],["isestr","S142420973",(t1="Dark morph,Fjallsárlón"),"isestr","S142420973",t1,"isestr","S142420973",t1,"marace","S163501862","Immature"],1781],
-//  ["2609061200","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",[""],["usausa","",spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"罗德岛布洛克岛至朱迪思角轮渡"],1780],
+    ["2609061152","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",["260906_152"],["usausa","S391653726","Light morph,"+spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"罗德岛布洛克岛至朱迪思角轮渡"],1780],
     ["2306221053","STERCORA","Great Skua","北贼鸥","Stercorarius skua",["2306isbird,60,61"],["isestr","S142420493","Jökulsárlón"],"gresku1",1779],
     ["1507100958","ALCIDAE ","Tufted Puffin","簇羽海鹦","Fratercula cirrhata",["1507wbird,26"],["usausa","S164999841",spot("L638805","Cannon Beach,Oregon")],1807],
     ["1505241804","ALCIDAE ","Atlantic Puffin","北极海鹦","Fratercula arctica",["1505puffin,15","2306isbird,34,35"],["usausa","S164993739",spot("L506856","Eastern Egg Rock Island,Maine"),"东蛋岩岛","iswesf","S141866959","Látrabjarg"],1805],
@@ -395,10 +395,10 @@ var birds = myBirds([
     ["1606180935","OCEANITI","Wilson's Storm Petrel","黄蹼洋海燕","Oceanites oceanicus",["2507seabird,11"],["mamama","S257611051",spot("L582326","Stellwagen Bank National Marine Sanctuary")],"WISPET",560],
 //  ["2600000000","HYDROBAT","Fork-tailed Storm Petrel","灰蓝叉尾海燕","Hydrobates furcatus",[],["arb",""],"FTSPET",607],
     ["2306161323","PROCELLA","Northern Fulmar","暴雪鹱","Fulmarus glacialis",["2306isbird,5,14,40"],["iswesf","S141703789","Light morph,Hólmavík","iswesf","S141713912","Light morph,Drangsnes","arb","S142692860","Light morph,Hvitserkur,Northwestern Region,Iceland","犀牛石"],610],
-//  ["2609061100","PROCELLA","Scopoli's Shearwater","斯氏鹱","Calonectris diomedea",[""],["usausa","",spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"罗德岛布洛克岛至朱迪思角轮渡"],"scoshe1",669],
+    ["2609061151","PROCELLA","Scopoli's Shearwater","斯氏鹱","Calonectris diomedea",["260906_147"],["usausa","S391653726",spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"罗德岛布洛克岛至朱迪思角轮渡"],"scoshe1",669],
     ["2108120708","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",["2507seabird,12"],["mamama","S257611051",spot("L582326","Stellwagen Bank National Marine Sanctuary")],"corshe",670],
     ["2507051217","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",["2507seabird,7"],["mamama","S257610932",spot("L582326","Stellwagen Bank National Marine Sanctuary")],674],
-    ["2108111444","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",["2108racepoint,7,8"],["marace","S163501862"],678],
+    ["2108111444","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",["260906_144","2108racepoint,7,8"],["usausa","S391411291",spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"罗德岛布洛克岛至朱迪思角轮渡","marace","S163501862"],678],
     ["2108120737","PROCELLA","Manx Shearwater","大西洋鹱","Puffinus puffinus",["2108racepoint,13"],["marace","S163502506"],"manshe",680],
     ["0512251044","CICONIID","Wood Stork","黑头鹮鹳","Mycteria americana",["1112flbird,17"],["flevnp","S167833635"],739],
     ["2408181652","CICONIID","White Stork","白鹳","Ciconia ciconia",["2408frbird,47","2604mobird,10,88"],["frpopg","S193138851","mormor","3/2026,S314782048","Migration kettle,Errachidia,Drâa-Tafilalet","拉希迪耶","mormor","S317239999","Nest,Mediouna,Casablanca-Settat","梅久那"],"whisto1",750],
