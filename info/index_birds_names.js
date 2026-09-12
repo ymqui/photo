@@ -332,7 +332,7 @@ var birds = myBirds([
 //  ["2600000000","DROMADID","Crab-plover","蟹鸻","Dromas ardeola",[],["arb",""],"craplo1",1467],
 //  ["2600000000","GLAREOLI","Collared Pratincole","领燕鸻","Glareola pratincola",["2604mobird,"],["morsnp",""],"colpra",1669],
     ["2108110838","STERCORA","Parasitic Jaeger","短尾贼鸥","Stercorarius parasiticus",["2306isbird,63,64,65","2108racepoint,3"],["isestr","S142420973",(t1="Dark morph,Fjallsárlón"),"isestr","S142420973",t1,"isestr","S142420973",t1,"marace","S163501862","Immature"],1781],
-    ["2609061152","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",["260906_152"],["usausa","S391653726","Light morph,"+spot("L730553","Block Island-Point Judith Ferry, Rhode Island")],1780],
+    ["2609061152","STERCORA","Pomarine Jaeger","中贼鸥","Stercorarius pomarinus",["260906_151","260906_152"],["usausa","S391653726","Light morph,"+spot("L730553","Block Island-Point Judith Ferry, Rhode Island")],1780],
     ["2306221053","STERCORA","Great Skua","北贼鸥","Stercorarius skua",["2306isbird,60,61"],["isestr","S142420493","Jökulsárlón"],"gresku1",1779],
     ["1507100958","ALCIDAE ","Tufted Puffin","簇羽海鹦","Fratercula cirrhata",["1507wbird,26"],["usausa","S164999841",spot("L638805","Cannon Beach,Oregon")],1807],
     ["1505241804","ALCIDAE ","Atlantic Puffin","北极海鹦","Fratercula arctica",["1505puffin,15","2306isbird,34,35"],["usausa","S164993739",spot("L506856","Eastern Egg Rock Island,Maine"),"东蛋岩岛","iswesf","S141866959","Látrabjarg"],1805],
