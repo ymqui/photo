@@ -518,7 +518,7 @@ function initAlbum(){
     this[0][i]   = "2608china/20260805_002_ICN";
     this[1][i++] = (["Having dinner during a layover at Incheon International Airport in Korea at the "+pagelink("2608china","Trip to China"),pagelink("2608china","去中国度假")+"时在韩国仁川国际机场转机期间吃晚餐"])[cn_ind];
     this[0][i]   = ["20260902_BicycleRiding_1","20260902_BicycleRiding_2"];
-    this[1][i++] = (["Learning to ride a bicycle with Daddy","爸爸扶着学骑自行车"])[cn_ind];
+    this[1][i++] = urllink("https://youtube.com/shorts/bMbryVWvAbU",(["Learning to ride a bicycle with Daddy (YouTube Video)","爸爸扶着学骑自行车(YouTube视频)"])[cn_ind]);
     this[0][i]   = ["2609rhodeisland/2609rhodeisland_16","20260906"];
     this[1][i++] = (["Watching the Milky Way at Point Judith during the "+pagelink("2609rhodeisland","labor day trip to Rhode Island"),pagelink("2609rhodeisland","劳动节去罗德岛度假")+"时在朱迪思角观赏银河"])[cn_ind];
 
