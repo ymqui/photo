@@ -396,7 +396,7 @@ var birds = myBirds([
 //  ["2600000000","HYDROBAT","Fork-tailed Storm Petrel","灰蓝叉尾海燕","Hydrobates furcatus",[],["arb",""],"FTSPET",607],
     ["2306161323","PROCELLA","Northern Fulmar","暴雪鹱","Fulmarus glacialis",["2306isbird,5,14,40"],["iswesf","S141703789","Light morph,Hólmavík","iswesf","S141713912","Light morph,Drangsnes","arb","S142692860","Light morph,Hvitserkur,Northwestern Region,Iceland","犀牛石"],610],
     ["2609061151","PROCELLA","Scopoli's Shearwater","斯氏鹱","Calonectris diomedea",["260906_147"],["usausa","S391653726",spot("L730553","Block Island-Point Judith Ferry, Rhode Island")],"scoshe1",669],
-    ["2108120708","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",["2507seabird,12"],["mamama","S257611051",spot("L582326","Stellwagen Bank National Marine Sanctuary")],"corshe",670],
+    ["2108120708","PROCELLA","Cory's Shearwater","猛鹱","Calonectris borealis",["2507seabird,12"],["mamama","S257611051",spot("L582326","Stellwagen Bank National Marine Sanctuary")],"corshe1",670],
     ["2507051217","PROCELLA","Sooty Shearwater","灰鹱","Ardenna grisea",["2507seabird,7"],["mamama","S257610932",spot("L582326","Stellwagen Bank National Marine Sanctuary")],674],
     ["2108111444","PROCELLA","Great Shearwater","大鹱","Ardenna gravis",["260906_144","2108racepoint,7,8"],["usausa","S391411291",spot("L730553","Block Island-Point Judith Ferry, Rhode Island"),"marace","S163501862"],678],
     ["2108120737","PROCELLA","Manx Shearwater","大西洋鹱","Puffinus puffinus",["2108racepoint,13"],["marace","S163502506"],"manshe",680],
