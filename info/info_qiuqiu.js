@@ -521,6 +521,8 @@ function initAlbum(){
     this[1][i++] = urllink("https://youtube.com/shorts/bMbryVWvAbU",(["Learning to ride a bicycle with Daddy (YouTube Video)","爸爸扶着学骑自行车(YouTube视频)"])[cn_ind]);
     this[0][i]   = ["2609rhodeisland/2609rhodeisland_16","20260906"];
     this[1][i++] = (["Watching the Milky Way at Point Judith during the "+pagelink("2609rhodeisland","labor day trip to Rhode Island"),pagelink("2609rhodeisland","劳动节去罗德岛度假")+"时在朱迪思角观赏银河"])[cn_ind];
+    this[0][i]   = "20260927";
+    this[1][i++] = (["Buying an early birthday gift","提前购买生日礼物"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
