@@ -158,6 +158,13 @@ function initAlbum(){
     this[1][i++]  = (["Letter to Dad and Mom on the back to school night","家长返校夜给爸爸妈妈写的信"])[cn_ind];
     this[0][i]    = "20260923_2";
     this[1][i++]  = (["Back to school night at Mrs. Kelly's classroom","家长返校夜Kelly老师做介绍"])[cn_ind];
+    this[0][i]    = ["20261012_1","20261012_2"];
+    this[1][i++]  = (["Nathan is allowed to bring his Labubu to school on pajama day","球球获准在“睡衣日”把他的拉布布带去学校。"])[cn_ind];
+    this[0][i]    = "20261012_3";
+    this[1][i++]  = (["Working on an area problem with pattern blocks on Amplify Math class","在数学课上利用图案积木解决面积问题"])[cn_ind];
+    this[0][i]    = ["20261012_4","20261012_5"];
+    this[1][i++]  = (["Solving an area problem with math partner using pattern blocks on Amplify Math class","在数学课上和数学伙伴利用图案积木解决面积问题"])[cn_ind];
+
 
     adddate(this);
 }

@@ -109,6 +109,8 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = "20260926";
     this[1][i++]  = tmptxt1;
+    this[0][i]    = "20261010";
+    this[1][i++]  = tmptxt1;
 
     adddate(this);
 }
