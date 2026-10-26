@@ -56,8 +56,7 @@ var orders = myOrder([
     ["TROGON","咬鹃","TROGON","咬鹃"],
     ["BUCEROT","犀鸟","UPUP","戴胜","PHOENICUL","林戴胜","BUCEROT","犀鸟"],
     ["CORACI","佛法僧","BRACHYPTERACI","地三宝鸟","CORACI","佛法僧","MEROP","蜂虎","TOD","短尾鴗","MOMOT","翠鴗","ALCEDIN","翠鸟"],
-    ["GALBUL","鹟䴕","GALBUL","鹟䴕","BUCCON","蓬头䴕"],
-    ["PIC","䴕形","MEGALAIM","拟啄木鸟","LYBI","非洲拟啄木鸟","CAPITON","须䴕","SEMNORNITH","巨嘴拟䴕","RAMPHAST","巨嘴鸟","INDICATOR","响蜜䴕","PIC","啄木鸟"],
+    ["PIC","䴕形","GALBUL","鹟䴕","BUCCON","蓬头䴕","MEGALAIM","拟啄木鸟","LYBI","非洲拟啄木鸟","CAPITON","须䴕","SEMNORNITH","巨嘴拟䴕","RAMPHAST","巨嘴鸟","INDICATOR","响蜜䴕","PIC","啄木鸟"],
     ["CARIAM","叫鹤","CARIAM","叫鹤"],
     ["FALCON","隼形","FALCON","隼"],
     ["PSITTAC","鹦形","STRIGOP","鸮鹦鹉","CACATU","凤头鹦鹉","PSITTAC","鹦鹉","PSITTACUL","长尾鹦鹉"],
@@ -67,13 +66,13 @@ var orders = myOrder([
      "MACHAERIRHYNCH","船嘴鹟","ARTAM","燕鵙","RHAGOLOG","斑啸鹟","PITYRIAS","棘头鵙","AEGITHIN","雀鹎","MALACONOT","丛鵙","PLATYSTEIR","疣眼鹟","VANG","钩嘴鵙","NEOSITT","澳鳾","PSOPHOD","啸冠鸫","EULACESTOMAT","肉垂鵙雀鹟",
      "OREOIC","冠钟鹟","FALCUNCUL","鵙雀鹟","PARAMYTHI","冠啄果鸟","VIREON","莺雀","ORIOL","黄鹂","PACHYCEPHAL","啸鹟","RHIPIDUR","扇尾鹟","DICRUR","卷尾","MONARCH","王鹟","CORCORAC","澳鸦","IFRIT","蓝顶鹛鸫","PARADISAE","极乐鸟",
      "MELAMPITT","黑脚风鸟","PLATYLOPH","冠鸦","LANI","伯劳","CORV","鸦","CNEMOPHIL","冠极乐鸟","MELANOCHARIT","啄果鸟","NOTIOMYST","缝叶吸蜜鸟","CALLAE","垂耳鸦","EUPET","长颈鸫","CHAETOP","岩鸫","PICATHART","岩鹛","PETROIC","鸲鹟",
-     "STENOSTIR","仙莺","HYLIOT","丛莺","REMIZ","攀雀","PAR","山雀","PANUR","文须雀","ALAUD","百灵","NICATOR","斗鹎","MACROSPHEN","长嘴莺","CISTICOL","扇尾莺","ACROCEPHAL","苇莺","DONACOBI","黑顶鹪鹩","BERNIER","马岛鹎","LOCUSTELL","蝗莺",
+     "HYLIOT","丛莺","STENOSTIR","仙莺","REMIZ","攀雀","PAR","山雀","PANUR","文须雀","ALAUD","百灵","NICATOR","斗鹎","MACROSPHEN","长嘴莺","CISTICOL","扇尾莺","ACROCEPHAL","苇莺","DONACOBI","黑顶鹪鹩","BERNIER","马岛鹎","LOCUSTELL","蝗莺",
      "PNOEPYG","鳞胸鹪鹛","HIRUNDIN","燕","HYLI","拟攀雀","AEGITHAL","长尾山雀","ERYTHROCERC","红鹟","CETTI","树莺","PHYLLOSCOP","柳莺","PYCNONOT","鹎","SYLVI","莺鹛","PARADOXORNITH","鸦雀","ZOSTEROP","绣眼鸟","TIMALI","鹛",
      "PELLORNE","幽鹛","LEIOTHRICH","噪鹛","DUL","棕榈䳭","BOMBYCILL","太平鸟","PTILIOGONAT","丝鹟","HYLOCITRE","林啸鹟","HYPOCOLI","连雀","MOHO","夏威夷吸蜜鸟","REGUL","戴菊","TICHODROM","旋壁雀","SITT","䴓","SALPORNITH","斑旋木雀",
      "CERTHI","旋木雀","POLIOPTIL","蚋莺","TROGLODYT","鹪鹩","ELACHUR","丽星鹩鹛","BUPHAG","牛椋鸟","MIM","嘲鸫","STURN","椋鸟","CINCL","河乌","TURD","鸫","MUSCICAP","鹟","PROMEROP","非洲食蜜鸟","MODULATRIC","斑喉䳭","DICAE","啄花鸟",
      "NECTARINI","太阳鸟","CHLOROPSE","叶鹎","IREN","和平鸟","PEUCEDRAM","绿森莺","UROCYNCHRAM","朱鹀","PLOCE","织雀","VIDU","维达雀","ESTRILD","梅花雀","PRUNELL","岩鹨","PASSER","雀","MOTACILL","鹡鸰","FRINGILL","燕雀",
-     "RHODINOCICHL","鸫唐纳雀","CALCARI","铁爪鹀","EMBERIZ","鹀","PASSERELL","雀鹀","CALYPTOPHIL","拟䳭唐纳雀","ZELEDONI","冠鹩森莺","PHAENICOPHIL","棕榈唐纳雀","NESOSPING","波多黎各唐纳雀","SPINDAL","纹头唐纳雀","TERETISTR","灰森莺",
-     "ICTER","拟鹂","PARUL","森莺","CARDINAL","美洲雀","MITROSPING","乌脸唐纳雀","THRAUP","裸鼻雀"]
+     "RHODINOCICHL","鸫唐纳雀","CALCARI","铁爪鹀","EMBERIZ","鹀","PASSERELL","雀鹀","CALYPTOPHIL","拟䳭唐纳雀","ZELEDONI","冠鹩森莺","PHAENICOPHIL","棕榈唐纳雀","TERETISTR","灰森莺","ICTER","拟鹂","PARUL","森莺","CARDINAL","美洲雀",
+     "MITROSPING","乌脸唐纳雀","THRAUP","裸鼻雀"]
 ]);
 var pt_front = [["males* left","左雄性"],["males* right","右雄性"],["females* left","左雌性"],["females* right","右雌性"],["adults* left","左成年"],["adults* right","右成年"],["(immatures*|juveniles*) left","左未成年"],
     ["(immatures*|juveniles*) right","右未成年"],[".*males* and .*females* *[(]center[)]","雄性和雌性(中间)"],[".*females* and .*males* *[(]center[)]","雌性和雄性(中间)"],["(males*, *breeding plumage|breeding males*)","繁殖羽雄性"],
