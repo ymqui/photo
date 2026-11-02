@@ -523,6 +523,10 @@ function initAlbum(){
     this[1][i++] = (["Watching the Milky Way at Point Judith during the "+pagelink("2609rhodeisland","labor day trip to Rhode Island"),pagelink("2609rhodeisland","劳动节去罗德岛度假")+"时在朱迪思角观赏银河"])[cn_ind];
     this[0][i]   = "20260927";
     this[1][i++] = (["Buying an early birthday gift","提前购买生日礼物"])[cn_ind];
+    this[0][i]   = "20261031_004_TrickorTreat";
+    this[1][i++] = (["Trick-or-treating with Bella","万圣节和和朋友Bella一起去要糖"])[cn_ind];
+    this[0][i]   = "20261031_005_BirthdayWithMom";
+    this[1][i++] = (["Happy 9th birthday!","九岁生日快乐！"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
