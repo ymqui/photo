@@ -164,7 +164,10 @@ function initAlbum(){
     this[1][i++]  = (["Working on an area problem with pattern blocks on Amplify Math class","在数学课上利用图案积木解决面积问题"])[cn_ind];
     this[0][i]    = ["20261012_4","20261012_5"];
     this[1][i++]  = (["Solving an area problem with math partner using pattern blocks on Amplify Math class","在数学课上和数学伙伴利用图案积木解决面积问题"])[cn_ind];
-
+    this[0][i]    = "20261030_1";
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
+    this[0][i]    = "20261030_2";
+    this[1][i++]  = (["Halloween parade","万圣节游行"])[cn_ind];
 
     adddate(this);
 }
