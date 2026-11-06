@@ -87,7 +87,6 @@
 //  ["2600000000","TROCHILI","Long-billed Hermit","西长尾隐蜂鸟","Phaethornis longirostris",["2504gtbird,"],["gtmgtm",""],"lobher",2845],
 //  ["2600000000","TROCHILI","Green-breasted Mango","绿胸芒果蜂鸟","Anthracothorax prevostii",["2504gtbird,"],["gtmgtm",""],"gnbman",2895],
 //  ["2600000000","TROCHILI","Green Mango","绿芒果蜂鸟","Anthracothorax viridis",["2608prbird,"],["prprpr",""],"greman1",2899],
-//  ["2600000000","TROCHILI","Calliope Hummingbird","星蜂鸟","Selasphorus calliope",[],["mdbhrp","1/2023,"],3186],
 //  ["2600000000","TROCHILI","Broad-tailed Hummingbird","宽尾煌蜂鸟","Selasphorus platycercus",[],["mdbhrp","1/2023,"],3180],
 //  ["2600000000","TROCHILI","Puerto Rican Emerald","波多翠蜂鸟","Riccordia maugaeus",["2608prbird,"],["prprpr",""],"pureme1",2943],
 //  ["2600000000","TROCHILI","White-eared Hummingbird","白耳蜂鸟","Basilinna leucotis",["2504gtbird,"],["gtmgtm",""],"whehum",3031],
