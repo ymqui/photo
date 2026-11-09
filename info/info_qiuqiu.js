@@ -528,7 +528,7 @@ function initAlbum(){
     this[0][i]   = "20261031_005_BirthdayWithMom";
     this[1][i++] = (["Happy 9th birthday!","九岁生日快乐！"])[cn_ind];
     this[0][i]   = "20261107_007_Labubu";
-    this[1][i++] = (["Labubu fashion show by Nathan, Annelise, and Vivi","球球、Annnelise和Vivi的设计的Labubu时装秀"])[cn_ind];
+    this[1][i++] = (["Labubu fashion show by Nathan, Annelise, and Vivi","球球、Annnelise和Vivi设计的Labubu时装秀"])[cn_ind];
 
     addbday = this[1].reduce((result,ele,ind)=>{if(/(birthday!|生日快乐！)/i.test(ele))result.push(ind); return result;},[])
     adddate(this);
