@@ -113,6 +113,8 @@ function initAlbum(){
     this[1][i++]  = tmptxt1;
     this[0][i]    = ["20261107_1","20261107_2","20261107_3"];
     this[1][i++]  = tmptxt1;
+    this[0][i]    = "20261114_1";
+    this[1][i++]  = urllink((url="https://youtube.com/shorts/AyD09HCbls0"),tmptxt2);
 
     adddate(this);
 }
